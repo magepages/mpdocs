@@ -58,8 +58,8 @@ source_parsers = {
 master_doc = 'index'
 
 # General information about the project.
-project = u'Magecheckout Wiki'
-copyright = u'2016, Magecheckout '
+project = u'Mageplaza Docs'
+copyright = u'2016, Mageplaza '
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -285,4 +285,3 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 
-magento_latest_version = 'Magento 1.9.x'
