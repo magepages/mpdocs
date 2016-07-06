@@ -7,6 +7,9 @@ Welcome to Mageplaza Docs
     :glob:
     :caption: Knowledgebase
 
+    kb/installation
+    kb/uninstallation
+
 
 
 .. toctree::
