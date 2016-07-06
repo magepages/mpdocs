@@ -1,7 +1,7 @@
 Quick Guide
 =============
 
-.. include:: kb/index
+.. include:: index
 
 Welcome to our Magento Affiliate extension Quick Start. We will bring the most necessary steps to run the module effectively in the short time.
 
@@ -13,7 +13,7 @@ Login to Admin Panel, **System > Configuration -> Magecheckout -> Affiliate**
 Affiliate Accounts
 -------------------
 
-Go to **Admin Panel > Affiliate -> Manage Affiliates** and select new customers or existing customers to allow creating new Affiliate accounts. Please let the account be active for successful adding.
+Go to **Admin Panel > Mageplaza > Affiliate -> Manage Affiliates** and select new customers or existing customers to allow creating new Affiliate accounts. Please let the account be active for successful adding.
 
 .. image:: https://lh3.googleusercontent.com/KtJBn54_s_rH_MIlvung9M8_8k4X6bLSLyGjRKbBmA42eskvic4kPSwosdnqPohrX9pw0xAqDTlJ4anZ6sG3CQhOORdWpIgdcxtb0cqt-vrjS8xLpa9cwmdkJg56BOBUumVAdjeN
 

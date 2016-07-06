@@ -30,10 +30,10 @@ Affiliate
     :glob:
     :caption: Affiliate Links & Banners
 
-    kb/affilite-tracking/affiliate-tracking-format
-    kb/manage-banner/how-to-add-banner
-    kb/affiliate-tracking/how-to-create-deep-link
-    kb/affiliate-tracking/enabling-lifetime-tracking
+    affilite-tracking/affiliate-tracking-format
+    manage-banner/how-to-add-banner
+    affiliate-tracking/how-to-create-deep-link
+    affiliate-tracking/enabling-lifetime-tracking
 
 
 .. toctree::
@@ -41,8 +41,8 @@ Affiliate
     :glob:
     :caption: Affiliate Administration
 
-    kb/affiliate-accounts/index
-    kb/affiliate-groups/index
+    affiliate-accounts/index
+    affiliate-groups/index
 
 
 
@@ -52,7 +52,7 @@ Affiliate
     :glob:
     :caption: Commissions & Payments
 
-    kb/commission-withdrawals/index
+    commission-withdrawals/index
 
 
 
@@ -61,7 +61,7 @@ Affiliate
     :glob:
     :caption: Affiliate Coupon
 
-    kb/affiliate-coupon/index
+    affiliate-coupon/index
 
 
 .. toctree::
@@ -69,7 +69,7 @@ Affiliate
     :glob:
     :caption: Affiliate Campaigns
 
-    kb/affiliate-campaigns/index
+    affiliate-campaigns/index
 
 
 .. toctree::
@@ -77,7 +77,7 @@ Affiliate
     :glob:
     :caption: Affiliate Tracking
 
-    kb/affiliate-tracking/index
+    affiliate-tracking/index
 
 
 .. toctree::
@@ -85,7 +85,7 @@ Affiliate
     :glob:
     :caption: Affiliate Reports
 
-    kb/affiliate-reports/index
+    affiliate-reports/index
 
 
 .. toctree::
@@ -93,7 +93,7 @@ Affiliate
     :glob:
     :caption: Affiliate Milestone
 
-    kb/affiliate-milestone/index
+    affiliate-milestone/index
 
 
 
@@ -102,7 +102,7 @@ Affiliate
     :glob:
     :caption: Affiliate Banners
 
-    kb/affiliate-banners/index
+    affiliate-banners/index
 
 
 .. toctree::
@@ -110,7 +110,7 @@ Affiliate
     :glob:
     :caption: Affiliate Direct Links
 
-    kb/affiliate-direct-links/index
+    affiliate-direct-links/index
 
 
 
@@ -119,7 +119,7 @@ Affiliate
     :glob:
     :caption: Affiliate Deep Links
 
-    kb/affiliate-deep-links/index
+    affiliate-deep-links/index
 
 
 
@@ -132,7 +132,7 @@ Affiliate
     :glob:
     :caption: Design and Customize
 
-    kb/design-customize/index
+    design-customize/index
 
 
 
