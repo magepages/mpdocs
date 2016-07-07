@@ -3,7 +3,7 @@ How to Add Affiliates accounts
 
 Go to **Admin Panel > Affiliate > Manage Affiliates**
 
-![How to Add Affiliates accounts - Manage Accounts](https://i.imgur.com/UGdyx51.png)
+.. image:: https://i.imgur.com/UGdyx51.png
 
 Here enable to add unlimited new Affiliate accounts by admin.
 
