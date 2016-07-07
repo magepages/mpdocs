@@ -11,4 +11,4 @@ You can see a list of Affiliate accounts in detail, including Affiliate email, G
 
 Each column supports filter functionality, that allows sorting by any criteria quickly. For example, you can filter whether who belongs to silver, gold, diamond or executive diamond group. 
 
-.. image:: https://lh4.googleusercontent.com/irig2Zle33kYq8qfu24x5tqPS5KQFus9wUZel8smsOu4-mw8cvFtu4OSSeGCd_pEXtCWJ_Vxi1rRtznpXYqMNRohvvxQGqBbZaJxK-f2nP7vAIacDBcCaukohZanaKLSmU6aAv6R
+![Manage affiliate details - Filter Affiliate Groups](https://i.imgur.com/mxu3ROY.png)
