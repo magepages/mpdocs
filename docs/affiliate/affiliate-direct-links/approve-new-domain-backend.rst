@@ -9,7 +9,7 @@ Go to **Admin Panel > Affiliate > Direct Link**, select domain which need to be 
 
 The direct link information is displayed and you only need to change **Pending Approval** status into **Approval**
 
-![Approve new domains in backend](https://i.imgur.com/nuqo6eN.png)
+.. image:: https://i.imgur.com/nuqo6eN.png
 
 Remember to save the change.
 
