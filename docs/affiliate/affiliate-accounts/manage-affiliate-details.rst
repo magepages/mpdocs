@@ -7,7 +7,7 @@ Go to **Admin Panel > Manage Affiliates**
 
 You can see a list of Affiliate accounts in detail, including Affiliate email, Group, Commissions, Total Withdrawn and Status. 
 
-.. image:: https://lh3.googleusercontent.com/R51iRHKE2OEqJU_wjWwYxFK3WAwJVGT7JVIQOWx8US2MYs3HTExXjljHE8LLIxKIJtAW78uqmh0t-NT7VfGASdGcUuPQdBbDtB8jGTZvwfGcP-0sbRSzieq-OwPUtHcv_HV6UMKu
+![Manage affiliate details](https://i.imgur.com/cGtXqau.png)
 
 Each column supports filter functionality, that allows sorting by any criteria quickly. For example, you can filter whether who belongs to silver, gold, diamond or executive diamond group. 
 
