@@ -92,7 +92,7 @@ Manage Affiliate Transactions
 
 Go to **Admin Panel > Affiliate > Manage Transations**
 
-.. image:: https://lh4.googleusercontent.com/NZY7ukKWbank4B8zaBlYyjXh1ARxyUo3SBftya4GmVhosT3rqK-6I_VnYxg0USqIDH2qhwTz1m2BtMzEOsEZUX1faQXzklCo6Yb6iNw8PbASG0FoeaXqw-0qWNhS8k03EID687D_
+.. image:: https://i.imgur.com/OequVMF.png
 
 All transactions of your website are stored systemically in Manage Transactions table with exact time and status for each transation.
 
