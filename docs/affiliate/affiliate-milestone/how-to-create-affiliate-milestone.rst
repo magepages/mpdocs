@@ -20,7 +20,7 @@ General Information
    *  Description
    	E.g: Earn $1,000 commissions, you will become Gold member.
 
-   	.. image:: ../../../_img/affiliate/milestone/description.png
+   	.. image:: ../../_img/affiliate/milestone/description.png
 
 Milestone condition
 ------------------------
@@ -33,7 +33,7 @@ Here is a list of conditions you enable to select one of them and until affiliat
 Milestone Action
 --------------------
 When an affiliate is reach a milestone, he/she will get a bonus or upgrade/downgrade to new affiliate group.
-   	.. image:: ../../../_img/affiliate/milestone/action.png
+   	.. image:: ../../_img/affiliate/milestone/action.png
 
 
 .. tip:: 
@@ -47,7 +47,7 @@ Frontend
 
 Now go to frontend and login to an affiliate and you can see result.
 
-	.. image:: ../../../_img/affiliate/milestone/milestone-frontend.png
+	.. image:: ../../_img/affiliate/milestone/milestone-frontend.png
 
 
 Email notification
@@ -56,4 +56,4 @@ Email notification
 
 When an affiliate is reach a milestone, he/she will receive an email as below
 
-	.. image:: ../../../_img/affiliate/milestone/email.png
+	.. image:: ../../_img/affiliate/milestone/email.png
