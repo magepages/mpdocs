@@ -73,7 +73,7 @@ Coupon
 
 From backend, admin can add coupon code for the affiliate program.
 
-.. image:: https://lh4.googleusercontent.com/FrzniUIiPId7XSQRVFHCji3hALYSoPfQy3T5t5JWhNxBJpPrlb4eoE8Eb5tvANcTR65sqafl72attytxcJNSdjDr1-6QOIM4AmU-i-GPlmlnZyp9ucYYi-984ITyJROtJdWMN7nw
+.. image:: https://i.imgur.com/p1Mgs1n.png
 
 History campaign
 -----------------
