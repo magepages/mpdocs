@@ -5,4 +5,4 @@ During admin create the new affiliate account, existing customer as well as new 
 
 Go to **Admin Panel > Affiliate > Manage Affiliates > Edit**
 
-![Setting an affiliate to specific affiliate group](https://i.imgur.com/uZlsFep.png)
+.. image:: https://i.imgur.com/uZlsFep.png
