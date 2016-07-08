@@ -18,3 +18,14 @@ Welcome to Mageplaza Docs
    :caption: Magento 1
 
    affiliate/index
+
+
+
+.. toctree::
+   :maxdepth: 1
+   :glob:
+   :caption: Magento 2
+
+   social-login-m2/index
+
+
