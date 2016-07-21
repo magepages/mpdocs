@@ -73,3 +73,10 @@ Limit number of characters in description section
 
 
 
+How to config cron job
+-----------------------
+
+Read more this tutorial: `_Setup Cron job in Magento 2`_ : 
+
+.. _Setup Cron job in Magento 2: https://www.mageplaza.com/kb/how-to-configure-cronjob-schedule-tasks-magento-2.html
+
