@@ -18,6 +18,7 @@ Welcome to Mageplaza Docs
    :caption: Magento 1
 
    affiliate/index
+   search/index
 
 
 
@@ -27,5 +28,8 @@ Welcome to Mageplaza Docs
    :caption: Magento 2
 
    social-login-m2/index
+   blog-m2/index
+   one-step-checkout-m2/index
+   search-m2/index
 
 
