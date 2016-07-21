@@ -8,7 +8,7 @@ Simple change in XML file.
 
 Go to file: `app/code/Mageplaza/Searchplus/etc/crontab.xml` line 6
 
-In this example, change to 2 AM server time:
+In this example, change to 2 AM server time::
 
 	<?xml version="1.0"?>
 	<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
