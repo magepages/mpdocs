@@ -8,16 +8,14 @@ Simple change in XML file.
 
 Go to file: `app/code/Mageplaza/Searchplus/etc/crontab.xml` line 6
 
-In this example, change to 2 AM server time.
+In this example, change to 2 AM server time:
 
-```
-<?xml version="1.0"?>
-<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
-    <group id="default"> <!-- Doesn't need to be unique -->
-        <job name="cron_searchplus" instance="Mageplaza\Searchplus\Cron\Job" method="execute">
-            <schedule>0 2 * * *</schedule>
-        </job>
-    </group>
-</config>
-```
+	<?xml version="1.0"?>
+	<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
+	    <group id="default"> <!-- Doesn't need to be unique -->
+	        <job name="cron_searchplus" instance="Mageplaza\Searchplus\Cron\Job" method="execute">
+	            <schedule>0 2 * * *</schedule>
+	        </job>
+	    </group>
+	</config>
