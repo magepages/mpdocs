@@ -1,15 +1,18 @@
 User Guide
 ===========
 
-## Introduction
+Introduction
+------------------------
 
 Magento 2 Search Extension is an advanced search engine which is the most updated, rapid and trustful for Magento 2. The extension is the effective combination of all latest searching tools to helps your customers find the right and the most suitable product they want. The more easily search tool provide, the better experience user have and sales also increase quicker.
 
-## User guide
+User guide
+------------------------
 
 Mageplaza Search for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
 
-### How to use
+How to use
+------------------------
 
 * In the frontend, the search box will be shown in the upper-right corner 
 
@@ -19,8 +22,8 @@ Mageplaza Search for Magento 2 User Guide will provide the detailed instructions
 * The search result will be displayed that includes product name, product small image, price and short description
 * Customer will click on the result that they are finding, then redirect to product page.
 
-
-### How to config
+How to config
+------------------------
 
 * On the Admin panel, click `Stores`. In the `Settings` section, select `Configuration`.
 * Select `Setting` under `Setting Search` in the panel on the left
