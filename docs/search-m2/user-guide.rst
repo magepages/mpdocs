@@ -13,7 +13,7 @@ Mageplaza Search for Magento 2 User Guide will provide the detailed instructions
 
 * In the frontend, the search box will be shown in the upper-right corner 
 
-![Search M2 User Guide](https://i.imgur.com/IEj3pHE.png)
+.. image:: http://i.imgur.com/IEj3pHE.png
 
 * Customer are able to enter the character of product name on this box to search prefered product
 * The search result will be displayed that includes product name, product small image, price and short description
@@ -26,7 +26,7 @@ Mageplaza Search for Magento 2 User Guide will provide the detailed instructions
 * Select `Setting` under `Setting Search` in the panel on the left
 * Open the `Catalog Search Settings` section, and continue with following:
 
-![Search M2 User Guide](https://i.imgur.com/mAmxekm.png)
+.. image:: http://i.imgur.com/mAmxekm.png
 
   * In the `Max Letter Number` field, enter the maximum number of character in short description of product that displayed in the search result
   * In the `Visible Image` field, select "Yes" to allow display product image in search result
