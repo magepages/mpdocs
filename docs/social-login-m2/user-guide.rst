@@ -59,7 +59,7 @@ Go to **Admin Panel > Social Login > Settings > Facebook**
 Login using Facebook
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-![Facebook Sign In](https://i.imgur.com/5zYCdnw.png)
+.. image:: https://i.imgur.com/5zYCdnw.png
 
 The login box will display as popup checkbox after clicking on Facebook Sign In button.
 
@@ -101,7 +101,7 @@ Go to **Admin Panel > Social Login > Settings > Twitter**
 Login using Twitter
 ^^^^^^^^^^^^^^^^^^^^^
 
-![Twitter Sign In](https://i.imgur.com/fYF1sRc.png)
+.. image:: https://i.imgur.com/fYF1sRc.png
 
 The login box will display as popup checkbox after clicking on Twitter Sign In button.
 
