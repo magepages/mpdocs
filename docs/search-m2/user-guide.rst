@@ -31,10 +31,10 @@ How to config
 
 .. image:: http://i.imgur.com/mAmxekm.png
 
-  * In the `Max Letter Number` field, enter the maximum number of character in short description of product that displayed in the search result
-  * In the `Visible Image` field, select "Yes" to allow display product image in search result
-  * In the `Visible Price` field, select "Yes" to allow display product price in search result
-  * In the `Maximum Query Result` field, enter the maximum number of search result that you want to show in the search result grid
+* In the `Max Letter Number` field, enter the maximum number of character in short description of product that displayed in the search result
+* In the `Visible Image` field, select "Yes" to allow display product image in search result
+* In the `Visible Price` field, select "Yes" to allow display product price in search result
+* In the `Maximum Query Result` field, enter the maximum number of search result that you want to show in the search result grid
 
 
 That's all about the user guide of Mageplaza Search extension for Magento 1. If you still have any question, please feel free to contact us. 
