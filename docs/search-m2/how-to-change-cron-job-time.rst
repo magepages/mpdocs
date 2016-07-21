@@ -10,6 +10,12 @@ Go to file: `app/code/Mageplaza/Searchplus/etc/crontab.xml` line 6
 
 In this example, change to 2 AM server time::
 
+	<schedule>0 2 * * *</schedule>
+
+
+
+Content of crontab.xml file::
+
 	<?xml version="1.0"?>
 	<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Cron:etc/crontab.xsd">
