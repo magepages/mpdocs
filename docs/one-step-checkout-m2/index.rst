@@ -2,7 +2,7 @@ One Step Checkout
 ===================
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :glob:
 
     how*
