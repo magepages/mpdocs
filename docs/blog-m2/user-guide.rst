@@ -15,39 +15,51 @@ General Configuration
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * Login to Magento Admin, `Better Blog > Settings`.
+
 * Open **General** section, 
-  * Enable the module when choosing “Yes” in the required field.
-  * Set name for the new blog 
-  * Enter the `URL Prefix` and `URL Suffix`. If leave empty for no suffix, use the default configuration (html)
-  * To make the blog link visible on the top/ footer links on your site, set `Show Blog Link in Top/ Footer Links` to "Yes".
-  * To show the sidebar on the storefront, select "Yes" in the `Show Sidebar Right/ Left` field.
+
+  ** Enable the module when choosing “Yes” in the required field.
+  
+  ** Set name for the new blog 
+  
+  ** Enter the `URL Prefix` and `URL Suffix`. If leave empty for no suffix, use the default configuration (html)
+  
+  ** To make the blog link visible on the top/ footer links on your site, set `Show Blog Link in Top/ Footer Links` to "Yes".
+  
+  ** To show the sidebar on the storefront, select "Yes" in the `Show Sidebar Right/ Left` field.
 
 .. image:: https://i.imgur.com/0dIdrwc.png
 
 * Open **Sidebar** section,
-  * Enter `Number of recent posts` that display on the sidebar.
-  * Enter `Number of most view posts` that display on the sidebar.
+
+  ** Enter `Number of recent posts` that display on the sidebar.
+  
+  ** Enter `Number of most view posts` that display on the sidebar.
 
 .. image:: https://i.imgur.com/kMwejsJ.png 
 
 * Open **Comments** section,
-  * Set `Number of recent posts` to one of the following options:
-    * Disqus Comment
-    * Facebook Comment 
-    * Disable Completely
+
+  ** Set `Number of recent posts` to one of the following options:
+  
+    *** Disqus Comment
+    *** Facebook Comment 
+    *** Disable Completely
 
 .. image:: https://i.imgur.com/UJnhJl1.png
 
 * Open **SEO** section, you can configure the meta that is useful for your better SEO
-  * Set `Meta title for posts list page` 
-  * Set `Meta description for posts list page`
-  * Set `Meta keywords for posts list page`
+
+  ** Set `Meta title for posts list page` 
+  ** Set `Meta description for posts list page`
+  ** Set `Meta keywords for posts list page`
 
 .. image:: https://i.imgur.com/bGgJsMB.png
 
 * Open **Social** section,
-  * Enable social buttons on the blog page
-  * In the `Pubid` field, insert ID for Share buttons that get from https://addthis.com.
+
+  ** Enable social buttons on the blog page
+  ** In the `Pubid` field, insert ID for Share buttons that get from https://addthis.com.
   
   In Social share session, we use Addthis.com to add more than 200 share buttons, and display only 4 most popular share buttons. You can custom these buttons by add your own Addthis Pub-id
 
@@ -81,10 +93,11 @@ Step 1: Complete the post information
 
 * Complete `Meta Title`, `Meta Description`,and `Meta Keywords` for your better SEO.
 * Set `Meta Robots` to one of the following opitons:
-  * Index, Follow
-  * NoIndex, NoFollow
-  * NoIndex, Follow
-  * Index, NoFollow
+
+  ** Index, Follow
+  ** NoIndex, NoFollow
+  ** NoIndex, Follow
+  ** Index, NoFollow
 
 .. image:: https://i.imgur.com/1vAXrbz.png
 
@@ -101,10 +114,11 @@ Add new topic
 * Enter the `URL Key` that the visitor can access the topic
 * Complete `Meta Title`, `Meta Description`,and `Meta Keywords` for your better SEO.
 * Set `Meta Robots` to one of the following opitons:
-  * Index, Follow
-  * NoIndex, NoFollow
-  * NoIndex, Follow
-  * Index, NoFollow
+
+  ** Index, Follow
+  ** NoIndex, NoFollow
+  ** NoIndex, Follow
+  ** Index, NoFollow
 
 .. image:: https://i.imgur.com/idznlqR.png
 
@@ -129,10 +143,11 @@ Add new category
 * Enter the `URL Key` that the visitor can access the category
 * Complete `Meta Title`, `Meta Description`,and `Meta Keywords` for your better SEO.
 * Set `Meta Robots` to one of the following opitons:
-  * Index, Follow
-  * NoIndex, NoFollow
-  * NoIndex, Follow
-  * Index, NoFollow
+
+  ** Index, Follow
+  ** NoIndex, NoFollow
+  ** NoIndex, Follow
+  ** Index, NoFollow
 
 .. image:: https://i.imgur.com/gGJDcnH.png
 
