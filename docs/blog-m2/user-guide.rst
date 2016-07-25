@@ -174,7 +174,7 @@ Add new Tag
 .. image:: https://i.imgur.com/XWxJ14P.png
 
 Assign Tags to the post
-~~~~~~~~~~~~~~~~~~~~~~~~`
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 * You can do it when you create a new post in the **Tags** tab, or go to **Posts** tab
 * In the list of the available posts, mark the checkbox that is next to the posts you want to assign
