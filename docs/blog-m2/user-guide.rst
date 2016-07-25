@@ -2,8 +2,6 @@
 User Guide
 ==================
 
-Blog MP
-
 
 Introduction
 --------------------
