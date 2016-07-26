@@ -3,7 +3,7 @@ Social Login Magento 2 User Guide
 ==================================
 
 
-Customers are not patient enough to fill a lot of required information while those are available in social account as Facebook, LinkedIn, Instagram,.... [Magento 2 Social Login](https://www.mageplaza.com/magento-2-social-login-extension/) extension by Mageplaza, your customers only need to click on the social button and all necessary information is completed automatically.That is the main reason why Magento Social Login extension is considered as the great solution for that convenience.
+Customers are not patient enough to fill a lot of required information while those are available in social account as Facebook, LinkedIn, Instagram,.... Magento 2 Social Login extension by Mageplaza, your customers only need to click on the social button and all necessary information is completed automatically.That is the main reason why Magento Social Login extension is considered as the great solution for that convenience.
 
 
 General Configuration
@@ -148,4 +148,4 @@ Login using Instagram
 The login box will display as popup checkbox after clicking on Instagram Sign In button.
 
 
-
+_Magento 2 Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
