@@ -6,7 +6,7 @@ User Guide
 Introduction
 --------------------
 
-Updating Blog regularly is one of the effective content marketing strategy in the present eCommerce marketplace. This activity will draw the more interactive website and drive your website more attractive to the vistors. With Magento Better Blog extension from Mageplaza, you will get an impressive chance to provide the latest news about your store, upcoming products, promotions, and get customers’ feedback in easy and simple way. 
+Updating Blog regularly is one of the effective content marketing strategy in the present eCommerce marketplace. This activity will draw the more interactive website and drive your website more attractive to the vistors. `Magento 2 Better Blog` extension by Mageplaza, you will get an impressive chance to provide the latest news about your store, upcoming products, promotions, and get customers’ feedback in easy and simple way. 
 
 How to Configure
 ------------------
@@ -180,3 +180,7 @@ Assign Tags to the post
 * In the list of the available posts, mark the checkbox that is next to the posts you want to assign
 
 .. image:: https://i.imgur.com/Asuq5n6.png
+
+
+
+.. _Magento 2 Blog: https://www.mageplaza.com/magento-2-blog-extension/
