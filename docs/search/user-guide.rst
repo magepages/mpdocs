@@ -26,7 +26,7 @@ How to config
 * Go to `Backend > Search Plus > Settings`
 * Open **General Settings** section and do the following
 
-.. image:: https://i.imgur.com/Y94UZAQ.png
+  .. image:: https://i.imgur.com/Y94UZAQ.png
 
   * In the `Enable` field, select "Yes" to enable this module
   * In the `Search Result` field, enter the number of search result that you want to show in the search result grid
