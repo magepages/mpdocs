@@ -11,7 +11,7 @@ How to use
 
 * In the frontend, the search box will be shown in the upper-right corner 
 
-![Search M1 User Guide](https://i.imgur.com/GQkdZJd.png)
+.. image:: https://i.imgur.com/GQkdZJd.png
 
 * Customer are able to enter the character of product name on this box to search prefered product
   
@@ -26,7 +26,7 @@ How to config
 * Go to `Backend > Search Plus > Settings`
 * Open **General Settings** section and do the following
 
-![Search M1 User Guide](https://i.imgur.com/Y94UZAQ.png)
+.. image:: https://i.imgur.com/Y94UZAQ.png
 
   * In the `Enable` field, select "Yes" to enable this module
   * In the `Search Result` field, enter the number of search result that you want to show in the search result grid
@@ -48,3 +48,5 @@ How to config
 * When complete, click on `Save Config` button.
 
 That's all about the user guide of Mageplaza Search extension for Magento 1. If you still have any question, please feel free to contact us. 
+
+
