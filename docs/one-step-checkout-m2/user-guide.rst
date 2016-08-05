@@ -21,56 +21,62 @@ How to use
 
 Let enter fully the necessary fields to complete checkout steps as following easy guide
 
-* Log In / Sign Up
+Log In / Sign Up
+~~~~~~~~~~~~~~~~~~~~~~~~
 
-  * If customer have already an account, they will enter the info to login at:
+* If customer have already an account, they will enter the info to login at:
  
 .. image::  https://i.imgur.com/2Ycj95V.png
 
-  * If customer still don't have an account, please create a new account at: 
+* If customer still don't have an account, please create a new account at: 
  
 .. image::  http://i.imgur.com/dtOQWQo.png
 
-* Billing Address
+Billing Address
+~~~~~~~~~~~~~~~~~~
 
 .. image::  https://i.imgur.com/GJ1fp1j.png
 
-  * Customer enter their personal information: Full name, last name, email
-  * Enter some characters in address field, Auto-suggest address technology will show the address suggestion, customer just choose the right one. Or other method, click on `Location` button and then customer address will be automatically fillfull in corresponding fields
+* Customer enter their personal information: Full name, last name, email
+* Enter some characters in address field, Auto-suggest address technology will show the address suggestion, customer just choose the right one. Or other method, click on `Location` button and then customer address will be automatically fillfull in corresponding fields
 
-* Shipping Address
+Shipping Address
+~~~~~~~~~~~~~~~~~~~
 
 .. image::  https://i.imgur.com/Ka6hyFN.png
 
-  * If customer want to ship to same address with billing address, just mark `Ship to same address`
-  * If not, please leave mark at `Ship to same address` field, the shipping address section will be shown with required information that need to fill.
-  * Enter full your shipping address in the shipping address section
+* If customer want to ship to same address with billing address, just mark `Ship to same address`
+* If not, please leave mark at `Ship to same address` field, the shipping address section will be shown with required information that need to fill.
+* Enter full your shipping address in the shipping address section
 
-* Shipping Method
+Shipping Method
+~~~~~~~~~~~~~~~~~~~
 
 .. image::  https://i.imgur.com/fnbfXWK.png
 
-  * Depending on the configuration in the backend, the shipping method will be displayed for customer choosing.
-  * Just choose the shipping method that suitable with customer requirement
+* Depending on the configuration in the backend, the shipping method will be displayed for customer choosing.
+* Just choose the shipping method that suitable with customer requirement
 
-* Payment Method
+Payment Method
+~~~~~~~~~~~~~~~~~~
 
 .. image::  https://i.imgur.com/xTHxbVV.png
 
-  * Choose the payment method
-  * Enter right information in the required fields
+* Choose the payment method
+* Enter right information in the required fields
 
-* Order Review and Place Order
+Order Review and Place Order
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image::  https://i.imgur.com/img8Qdb.png
 
-  * Overview your order with product name, price and quantity
-  * Customer can change/edit easily the product quantity by using minus or plus button.
-  * Customer can remove or add more product immediately in checkout page by using `x` button or clicking on `Edit your cart` button
-  * Check the Subtotal, Tax and Grant Total detail clearly
-  * In the `Coupon Code` field, enter the coupon code that customer want to apply, then click on `Apply Coupon` button
-  * Customer can leave their comments about their order, product in the `Comments` field
-  * Mark the `Sign up newsletter` if customer would like to receive the newsletters from provider.
+* Overview your order with product name, price and quantity
+* Customer can change/edit easily the product quantity by using minus or plus button.
+* Customer can remove or add more product immediately in checkout page by using `x` button or clicking on `Edit your cart` button
+* Check the Subtotal, Tax and Grant Total detail clearly
+* In the `Coupon Code` field, enter the coupon code that customer want to apply, then click on `Apply Coupon` button
+* Customer can leave their comments about their order, product in the `Comments` field
+* Mark the `Sign up newsletter` if customer would like to receive the newsletters from provider.
   
 * When complete, click on `Place order` button to complete checkout process.
 
