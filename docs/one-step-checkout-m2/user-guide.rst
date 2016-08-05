@@ -24,11 +24,11 @@ Let enter fully the necessary fields to complete checkout steps as following eas
 * Log In / Sign Up
 
   * If customer have already an account, they will enter the info to login at:
-  
+ 
 .. image::  https://i.imgur.com/2Ycj95V.png
 
   * If customer still don't have an account, please create a new account at: 
-  
+ 
 .. image::  http://i.imgur.com/dtOQWQo.png
 
 * Billing Address
