@@ -2,13 +2,10 @@
 User Guide
 ===========
 
-Introduction
-----------------
+
 
 `One Step Checkout extension for Magento 2`_ was developed by Mageplaza is the best marketing tool in order to help you reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customer checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on checkout page, Support multi payment methods will improve your checkout page become more powerful and more effective. 
 
-User guide
----------------
 
 Mageplaza Search for Magento 1 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
 
