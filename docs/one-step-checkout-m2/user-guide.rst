@@ -92,7 +92,7 @@ Following our given guide below to complete One Step Checkout configuration
 * Terms & Conditions Configuration
 
 General Configuration
-`````````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * On the Admin panel, click **Stores**. In the **Settings** section, select **Configuration**.
 * Select **One Step Checkout** under **Mageplaza** in the panel on the left to show the extension configuration.
@@ -122,7 +122,7 @@ Or other method
   * Capture+ by PCA Predict:
 
 Display Configuration
-``````````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Open the **Display Configuration** section, and continue with following:
 
@@ -152,7 +152,7 @@ Display Configuration
  * In the **Checked Newsletter by default** field, select **No** if you don't want to check newsletter by default
 
 Design Configuration
-``````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Open the **Design Configuration** section, and continue with following:
 
@@ -200,7 +200,7 @@ Design Configuration
  * In the **Add jQuery Library** field, should select **No** if you have ready jQuery in all pages.
 
 Terms and Conditions Configuration
-```````````````````````````````````````
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Open the **Terms and Conditions Configuration** section, and continue with following: 
 
