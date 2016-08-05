@@ -5,7 +5,7 @@ Welcome to Mageplaza Docs
 .. toctree::
     :maxdepth: 1
     :glob:
-    :caption: Knowledgebase
+    :caption: Knowledge base
 
     kb/installation
     kb/uninstallation
@@ -15,7 +15,7 @@ Welcome to Mageplaza Docs
 .. toctree::
    :maxdepth: 1
    :glob:
-   :caption: Magento 1
+   :caption: Magento 1 Documentation
 
    affiliate/index
    search/index
@@ -25,7 +25,7 @@ Welcome to Mageplaza Docs
 .. toctree::
    :maxdepth: 1
    :glob:
-   :caption: Magento 2
+   :caption: Magento 2 Documentation
 
    social-login-m2/index
    blog-m2/index

@@ -1,4 +1,4 @@
-Social Login M2
+Social Login
 =================
 
 .. toctree::
