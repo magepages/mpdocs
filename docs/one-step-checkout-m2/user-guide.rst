@@ -2,15 +2,11 @@
 User Guide
 ===========
 
-Introduction
-----------------
 
 `One Step Checkout extension for Magento 2`_ was developed by Mageplaza is the best marketing tool in order to help you reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customer checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on checkout page, Support multi payment methods will improve your checkout page become more powerful and more effective. 
 
-User guide
----------------
 
-Mageplaza Search for Magento 1 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
+Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
 
 How to use
 ^^^^^^^^^^^^^
@@ -129,27 +125,27 @@ Display Configuration
 .. image::  http://i.imgur.com/ZgPzns6.png
 
  
- * In the **Show Order Review Section** field, the Order Review is enabled by default, if you want to disable to review order, let select **Disabled** option.
- * In the **Show Product Thumbnail Image** field, select **Yes** allow to show product thumbnail image
- * In the **Thumbnail Image Width** field, enter the width in pixel 
- * In the **Thumbnail Image Height** field, enter the height in pixel
- * In the **Show Edit Cart Link** field, select **Yes** to allow showing edit cart link
- * In the **Discount Code Section** field, select **Enabled** to show Discount Code box in Checkout page.
- * In the **Apply Coupon Button** field, if **Disabled**, Coupon code will be validated automatically after enter coupon code.
+* In the **Show Order Review Section** field, the Order Review is enabled by default, if you want to disable to review order, let select **Disabled** option.
+* In the **Show Product Thumbnail Image** field, select **Yes** allow to show product thumbnail image
+* In the **Thumbnail Image Width** field, enter the width in pixel 
+* In the **Thumbnail Image Height** field, enter the height in pixel
+* In the **Show Edit Cart Link** field, select **Yes** to allow showing edit cart link
+* In the **Discount Code Section** field, select **Enabled** to show Discount Code box in Checkout page.
+* In the **Apply Coupon Button** field, if **Disabled**, Coupon code will be validated automatically after enter coupon code.
 
 .. image::  http://i.imgur.com/arz1MdP.png
 
- * In the **Order Comment** field, selec **Enabled** to show the Order Comment box that allow to customer enter their comment in order.
- * In the **Gift Message** field, select **Enabled** to show the Gift Message box that allow to customer enter their gift message to send friends
- * In the **Gift Wrap** field, select **Enabled** if you allow customer to chose Gift Wrap option
+* In the **Order Comment** field, selec **Enabled** to show the Order Comment box that allow to customer enter their comment in order.
+* In the **Gift Message** field, select **Enabled** to show the Gift Message box that allow to customer enter their gift message to send friends
+* In the **Gift Wrap** field, select **Enabled** if you allow customer to chose Gift Wrap option
 
- * If you allow to show Gift Wrap option, two following fields will be shown
+* If you allow to show Gift Wrap option, two following fields will be shown
 
-  * **Calculate Method** field, select **Per Order** or **Per Item** to calculate gift wrap fee based on item or order.
-  * **Amount** field, enter the amount of gift wrap fee.
+ * **Calculate Method** field, select **Per Order** or **Per Item** to calculate gift wrap fee based on item or order.
+ * **Amount** field, enter the amount of gift wrap fee.
 
- * In the **Newsletter Checkbox** field, select **Enabled** if you want to show Sign up newsletter selection
- * In the **Checked Newsletter by default** field, select **No** if you don't want to check newsletter by default
+* In the **Newsletter Checkbox** field, select **Enabled** if you want to show Sign up newsletter selection
+* In the **Checked Newsletter by default** field, select **No** if you don't want to check newsletter by default
 
 Design Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -159,13 +155,13 @@ Design Configuration
 .. image::  https://i.imgur.com/k8RJkLN.png
 
 
- * In the **Checkout Page Layout** field, select one of the following layout
+* In the **Checkout Page Layout** field, select one of the following layout
 
   * 1 column
   * 2 columns
   * 3 columns
 
- * In the **Popup Effect** field, select one of the following effects to show the popup
+* In the **Popup Effect** field, select one of the following effects to show the popup
 
   * Zoom
   * Newspaper
@@ -174,15 +170,15 @@ Design Configuration
   * 3D unfold
   * Zoom-out
 
- * In the **Heading** field, select **Icon** or **Number** to display in heading
- * In the **Heading Style** field, there are 3 choices for you
+* In the **Heading** field, select **Icon** or **Number** to display in heading
+* In the **Heading Style** field, there are 3 choices for you
 
   * Style 1
   * Style 2
   * Style 3
 
- * In the **Heading Text Color** field, choose color for the heading text
- * In the **Heading Background Color** field, select one of following option to match your site
+* In the **Heading Text Color** field, choose color for the heading text
+* In the **Heading Background Color** field, select one of following option to match your site
 
   * Default
   * Orange
@@ -195,9 +191,9 @@ Design Configuration
   * Violet
   * Custom
 
- * In the **Custom Heading Background Color** field, choose the color code that is suitable with your brand
- * In the **Place Order button color** field, choose the color for the place order button which should be highlight to attract customer the most.
- * In the **Add jQuery Library** field, should select **No** if you have ready jQuery in all pages.
+* In the **Custom Heading Background Color** field, choose the color code that is suitable with your brand
+* In the **Place Order button color** field, choose the color for the place order button which should be highlight to attract customer the most.
+* In the **Add jQuery Library** field, should select **No** if you have ready jQuery in all pages.
 
 Terms and Conditions Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -206,18 +202,13 @@ Terms and Conditions Configuration
 
 .. image::  https://i.imgur.com/wazTHSO.png
 
- * In the **Terms and Conditions (TOS)** field, select **Yes** to show the terms and conditions
- * In the **Have to read TOS before checking the checkbox** field, select **No** if you want customers have to read all TOS before clicking on Accept 
- * In the **Checkbox Text** field, 
- * In the **Terms and Conditions Title** field, enter the title of the terms and conditions 
- * In the **Terms and Conditions Content** field, enter the content of the terms and conditions
+* In the **Terms and Conditions (TOS)** field, select **Yes** to show the terms and conditions
+* In the **Have to read TOS before checking the checkbox** field, select **No** if you want customers have to read all TOS before clicking on Accept 
+* In the **Checkbox Text** field, 
+* In the **Terms and Conditions Title** field, enter the title of the terms and conditions 
+* In the **Terms and Conditions Content** field, enter the content of the terms and conditions
 
 
 .. _One Step Checkout extension for Magento 2: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
 
-Community Support
-~~~~~~~~~~~~~~~~~~~
 
-Ask for helps on `Magento Community`_
-
-.. _Magento Community: http://magento.stackexchange.com/
