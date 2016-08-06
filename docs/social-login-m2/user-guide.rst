@@ -149,3 +149,11 @@ The login box will display as popup checkbox after clicking on Instagram Sign In
 
 
 .. _Magento 2 Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
+
+
+Community Support
+~~~~~~~~~~~~~~~~~~~
+
+Ask for helps on `Magento Community`_
+
+.. _Magento Community: http://magento.stackexchange.com/
