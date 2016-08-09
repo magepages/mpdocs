@@ -21,19 +21,19 @@ Upload the extension
 
 
 #. Log into your hosting space via a FTP client
+
 #. Unzip extension package and upload them into **Magento root directory**.
+
 .. image:: http://i.imgur.com/0sGASN0.png
 
 
 #. Disable Cache
-	Disable the cache under System­ >> Cache Management
+	Disable the cache under `System ­> Cache Management`
 
 
 #. Enter the following at the command line
 
-``
-php bin/magento setup:upgrade
-``
+`php bin/magento setup:upgrade`
 
 .. tip::
 	Logout and Login again to avoid **Access denied 404 error** when you go to this product configuration.
@@ -61,9 +61,7 @@ it because of static content is not generated to pub/ folder. Let’s run comman
 
 Run following command:
 
-```
-php bin/magento setup:static-content:deploy
-```
+`php bin/magento setup:static-content:deploy`
 
 
 .. include:: support.rst
