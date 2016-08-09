@@ -1,9 +1,9 @@
 ====================================
-Installation Guide
+Install Magento 2 extension
 ====================================
 
 
-Prepare Installation
+How to Install Magento 2 Extension
 -------------------------------------------------------------
 
 #. **We recommend you to duplicate your live store on a staging/test site and try installation on it in advance**
