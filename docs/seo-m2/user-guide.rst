@@ -89,7 +89,7 @@ Step 6: Enable HTML Sitemap Configuration
 ```````````````````````````````````````````````
 * Open the **Enable HTML Sitemap** section, and continue with following
 
-.. image::  https://i.imgur.com/02MKhyf.png
+.. image::  https://i.imgur.com/VoGrQge.png
 
 * In the **robots.txt Content** field, if you choose **Yes**, the **Enable Categories** field will be shown with **Yes** or **No** option. 
 * In the **Add Sitemap Link to Footer** field, in this field, select **Yes** to allow adding sitemap link to footer.
