@@ -49,7 +49,6 @@ Step 1: General Configuration
 
 Step 2: Page title and Meta Description Configuration
 ````````````````````````````````````````````````````````````
-
 * Open the **Page title and Meta Description** section, and continue with following:
 
 .. image::  https://i.imgur.com/nzmB1eh.png
@@ -58,7 +57,6 @@ Step 2: Page title and Meta Description Configuration
 
 Step 3: Rich Snippets | Structured Data Configuration
 `````````````````````````````````````````````````````````
-
 * Open the **Rich Snippets | Structured Data** section, and continue with following:
 
 .. image::  https://i.imgur.com/4SQHxQj.png
@@ -68,7 +66,6 @@ Step 3: Rich Snippets | Structured Data Configuration
 
 Step 4: .htaccess Editor [Beta] Configuration Configuration
 ````````````````````````````````````````````````````````````````
-
 * Open the **.htaccess Editor [Beta]** section, and continue with following:
 
 .. image::  https://i.imgur.com/s2iGwMJ.png
@@ -77,7 +74,6 @@ Step 4: .htaccess Editor [Beta] Configuration Configuration
 
 Step 5: Robots.txt Editor [Beta] Configuration
 `````````````````````````````````````````````````````
-
 * Open the **Robots.txt Editor [Beta]** section, and continue with following:
 
 .. image::  https://i.imgur.com/02MKhyf.png
@@ -87,7 +83,6 @@ Robots.txt generator** to download the existing file, then click on **Save robot
 
 Step 6: Enable HTML Sitemap Configuration
 ```````````````````````````````````````````````
-
 * Open the **Enable HTML Sitemap** section, and continue with following:
 
 .. image::  https://i.imgur.com/02MKhyf.png
