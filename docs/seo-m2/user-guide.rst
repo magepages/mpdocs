@@ -35,7 +35,7 @@ Following our given guide below to complete SEO extension configuration
 
 Step 1: General Configuration
 ```````````````````````````````````
- * Open the **General** section, and continue with following:
+* Open the **General** section, and continue with following:
 
  .. image::  https://i.imgur.com/uRBl8AK.png
 
@@ -47,6 +47,7 @@ Step 1: General Configuration
  * In the **Add Open Graph and Twitter Card** field, to add Open Graph and Twitter Card, please choose **Yes** option
  * In the **Enable Sitelinks Search Box** field, select **No** if you don't want to enable Sitelinks Search Box
 
+
 Step 2: Page title and Meta Description Configuration
 ````````````````````````````````````````````````````````````
 * Open the **Page title and Meta Description** section, and continue with following:
@@ -54,6 +55,7 @@ Step 2: Page title and Meta Description Configuration
 .. image::  https://i.imgur.com/nzmB1eh.png
 
 * In the **Auto set page title, meta description** field, select **Yes** if you want to set page title, meta description automatically
+
 
 Step 3: Rich Snippets | Structured Data Configuration
 `````````````````````````````````````````````````````````
@@ -64,6 +66,7 @@ Step 3: Rich Snippets | Structured Data Configuration
 * In the **Enable Rich Snippets** field, select **Yes** to enable Rich Snippets
 * In the **Enable Organization Information** field, to enable Organization Information, choose **Yes** option
 
+
 Step 4: .htaccess Editor [Beta] Configuration Configuration
 ````````````````````````````````````````````````````````````````
 * Open the **.htaccess Editor [Beta]** section, and continue with following:
@@ -72,6 +75,7 @@ Step 4: .htaccess Editor [Beta] Configuration Configuration
 
 * In the **.htaccess Content** field, enter the .htaccess content in this field. Or just lick on **Download .htaccess content** to download the existing file, then click on **Save .htaccess** to save your content
 
+
 Step 5: Robots.txt Editor [Beta] Configuration
 `````````````````````````````````````````````````````
 * Open the **Robots.txt Editor [Beta]** section, and continue with following:
@@ -79,6 +83,7 @@ Step 5: Robots.txt Editor [Beta] Configuration
 .. image::  https://i.imgur.com/02MKhyf.png
 
 * In the **robots.txt Content** field, enter the robots.txt content in this field. Or just lick on **Robots.txt generator** to download the existing file, then click on **Save robots.txt** to save your content
+
 
 Step 6: Enable HTML Sitemap Configuration
 ```````````````````````````````````````````````
