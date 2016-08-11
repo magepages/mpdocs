@@ -39,13 +39,13 @@ Step 1: General Configuration
 
 .. image::  https://i.imgur.com/uRBl8AK.png
 
- * In the **Auto Setup SEO Basic** field, select **Yes** to enable setup SEO Basic automatically
- * In the **Add Canonical URL Meta** field, select **Yes** to allow adding canonical URL Meta
- * In the **Add Nofollow meta in Search Result** field, if you choose **Yes** option, that accept to add Nofollow meta in Search Result
- * In the **Add Nofollow meta in Product Gallery** field, select **Yes** to able adding Nofollow meta in Product Gallery
- * In the **Add Link Rel="alternate"** field, accept to add Link Rel="alternate if you select **Yes** in this field
- * In the **Add Open Graph and Twitter Card** field, to add Open Graph and Twitter Card, please choose **Yes** option
- * In the **Enable Sitelinks Search Box** field, select **No** if you don't want to enable Sitelinks Search Box
+* In the **Auto Setup SEO Basic** field, select **Yes** to enable setup SEO Basic automatically
+* In the **Add Canonical URL Meta** field, select **Yes** to allow adding canonical URL Meta
+* In the **Add Nofollow meta in Search Result** field, if you choose **Yes** option, that accept to add Nofollow meta in Search Result
+* In the **Add Nofollow meta in Product Gallery** field, select **Yes** to able adding Nofollow meta in Product Gallery
+* In the **Add Link Rel="alternate"** field, accept to add Link Rel="alternate if you select **Yes** in this field
+* In the **Add Open Graph and Twitter Card** field, to add Open Graph and Twitter Card, please choose **Yes** option
+* In the **Enable Sitelinks Search Box** field, select **No** if you don't want to enable Sitelinks Search Box
 
 
 Step 2: Page title and Meta Description Configuration
