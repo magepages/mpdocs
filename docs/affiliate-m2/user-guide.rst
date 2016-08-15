@@ -1,48 +1,7 @@
-================================
-Affiliate Magento 2 User Guide
-================================
 
 
-Introduction
---------------
+`Magento 2 Affiliate`_ extension from Mageplaza is the greater choice than ever if you want to build an Affiliate program that is crazy enough to drive traffic and sales increase promptly, get qualified leads, and also enhance your brand awareness. Our Affiliate program allows you to pay affiliates amount of commissions 
 
-Magento 2 Affiliate extension from Mageplaza is the greater choice than ever if you want to build an Affiliate program that is crazy enough to drive traffic and sales increase promptly, get qualified leads, and also enhance your brand awareness. Our Affiliate program allows you to pay affiliates amount of commissions 
-
-Quick Guide
----------------
-
-Starting with our Magento 2 Affiliate Quick Guide, you will get the fastest way to run the Affiliate program right now with the greatest effect. For the needs of the detailed instructions, please see our **User Guide**.
-
-How to set up an Affiliate campaign?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Login as Admin, go to `Affiliate > Campaigns`.
-
-![Affiliate - Set up an Affiliate Campaign](https://i.imgur.com/OdX16RQ.png)
-
-* In the **Campaign Information** section,
-  * Set `Name` for a new Affiliate campaign, and write some descriptions if need
-  * Assign to specific `Affiliate Groups` and choose `Website` for the displaying
-  * Set the `Active Time` (From-To) 
-  * Enable for the `Status`
-* In the **Conditions** section, ask for `Conditions` to apply the Affiliate program when all conditions are met.
-
-.. image:: https://i.imgur.com/fMKi617.png
-
-For example, Affiliate only receive commission if orders are greater than $200 (subtotal) and apply fixed shipping method (Shipping Method)
-
-* In the **Commissions** section,
-  
-  Set commissions to Percentage of grand total, Percentage of total profits or Fixed amount for as many tiers as you need.
-
-* In the **Discount** section,
- 
-  Apply an amount of discount for customers who create purchases via Affiliate links. The discount might be a percent of product price, a fixed amount discount, a fixed amount discount for whole cart, or buying X get Y free.
-
-* Remember to go to **Settings** tab, under **General**, enable Affiliate program.
-
-User Guide
---------------
 
 Mageplaza Affiliate User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
 
@@ -319,3 +278,4 @@ Withdrawal Configuration
 .. ### Manage Transactions
 
 
+.. _Magento 2 Affiliate: https://www.mageplaza.com/magento-2-affiliate-extension/
