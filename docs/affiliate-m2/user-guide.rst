@@ -11,7 +11,7 @@ Mageplaza Affiliate User Guide will provide the detailed instructions to know **
 How to Config
 ^^^^^^^^^^^^^^^
 
-### General Configurations
+General Configurations
 ``````````````````````````````
 
 Login to Magento Admin, `Affiliate > Settings`.
@@ -119,6 +119,7 @@ This link will be displayed in My Account/My Affiliate/Refer tab. If empty, the 
 .. image:: https://i.imgur.com/Z7s5dJV.png
 
 * In the **Sending Email Content**, you can create the invitation content that is ready to send to recipients, including:
+
   * Default Email Subject
   * Default Email Body
   * Default Message Shared via Social
@@ -180,6 +181,7 @@ Login to Magento Admin, `Affiliate > Campaigns`.
 It is necessary to go over four tabs: “Campaign Information”, “Conditions”, “Discounts”, and “Commissions”.
 
 * In the **Campaign Information** section, do the following:
+
   * Set `Name` for the campaign and write `Description` for that if need.
   * Assign to `Affiliate Groups` who the campaign applies for.
   * Choose `Website` and the display positions on the website 
@@ -214,6 +216,7 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 .. image:: https://i.imgur.com/97otiGw.png
 
 * Finally, **Commissions** tab allows store admin to set “Pay Per Sale” promotion. 
+
   * Click on `Add` button to create tiers and set commission rule for that.
   * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
 
@@ -242,6 +245,7 @@ Login to Magento Admin, `Affiliate > Banners`, you will see all banners which ar
 .. image:: https://i.imgur.com/Csh6sMp.png
 
 To create a new banner for your Affiliate program, click on **Add New Banner** button, then do the following:
+
 * Enter `Title` of the banner that is visible on the storefront
 * If need, complete the `Image Alt Value` field that is good for SEO.
 * Assign to `Campaign` which is active.
