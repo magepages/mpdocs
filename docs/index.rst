@@ -27,11 +27,11 @@ Welcome to Mageplaza Docs
    :glob:
    :caption: Magento 2 Documentation
 
-   social-login-m2/index
-   blog-m2/index
-   one-step-checkout-m2/index
-   search-m2/index
    affiliate-m2/index
+   blog-m2/index
+   search-m2/index
    seo-m2/index
+   social-login-m2/index
+   one-step-checkout-m2/index
 
 
