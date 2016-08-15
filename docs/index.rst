@@ -31,6 +31,7 @@ Welcome to Mageplaza Docs
    blog-m2/index
    one-step-checkout-m2/index
    search-m2/index
+   affiliate-m2/index
    seo-m2/index
 
 
