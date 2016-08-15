@@ -29,6 +29,7 @@ Welcome to Mageplaza Docs
 
    affiliate-m2/index
    blog-m2/index
+   banner-slider-m2/index
    search-m2/index
    seo-m2/index
    social-login-m2/index
