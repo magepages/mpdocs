@@ -51,6 +51,7 @@ Account Configuration
 Related to Affiliate Accounts, you can configure Affiliate Registration, Terms and Conditions Display and Affiliate Account Balance.
 
 * Under **Affiliate Sign up** part, you can:
+
   * To create a new account on your site at the same time when he registers as an Affiliate, set `Embed customer signup fields in Affiliate signup form` to "Yes".
   * Choose `Default Affiliate Group` from the current Affiliate groups.
   * Ask for admin's approval to complete the Affiliate sign up process by choosing "Yes" in the `Require admin's approval` field.
@@ -59,6 +60,7 @@ Related to Affiliate Accounts, you can configure Affiliate Registration, Terms a
 .. image:: https://i.imgur.com/nKEzZxa.png
 
 * Scorll down to **Affiliate Sign up-Term and Condition** part.
+
   * Enable `Terms and Conditions` on the storefront.
   * Enter the checkbox text that is in the right of Terms and Conditions checkbox.
   * Enter `Terms and Conditions Title`.
@@ -68,6 +70,7 @@ Related to Affiliate Accounts, you can configure Affiliate Registration, Terms a
 .. image:: https://i.imgur.com/kDE2X7t.png
 
 * Continuing with **Account Balance** part, and do the following:
+
   * Enter the `Maximum of Affiliate Balance`, and if Affiliate reach the milestone, none of commission is added. Leave empty or zero is no limitation.
   * If Affiliate's account balance is not enough to taking back commission, allow the balance be negative number by choosing "Yes" in the respective field.
 
@@ -80,14 +83,19 @@ Email Configuration
 
 You can send the email notification when there is any update of Affiliate Account, Transaction, and Withdrawal. 
 
-* Go to the **Account Email** section, 
+* Go to the **Account Email** section:
+
   * Enable `Send Welcome Email`
   * Set `Welcome Email` to the needed template.
   * Set `Welcome Email After Account Approved` to the available template that is sent instead of welcome email, after approving account.
-* Go to the `Transaction Email` section,
+
+* Go to the `Transaction Email` section
+
   * Enable `Send Transaction Email`
   * Choose the template for `Update Balance Email`
-* Go to **Withdrawal Email** section, 
+
+* Go to **Withdrawal Email** section
+
   * Enable `Send Withdrawal Email`
   * Choose the template for `Withdrawal Complete Email`
 
