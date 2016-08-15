@@ -18,7 +18,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
         	<referenceContainer name="right">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.sidebar.right.top" before="-">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.sidebar.right.top" before="-">
         			<action method="setPosition">
         				<argument name="position" xsi:type="string">sidebar-right-top</argument>
         			</action>
@@ -39,7 +39,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
         	<referenceContainer name="right">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.sidebar.right.bottom">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.sidebar.right.bottom">
         			<action method="setPosition">
         				<argument name="position" xsi:type="string">sidebar-right-bottom</argument>
         			</action>
@@ -61,7 +61,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
         	<referenceContainer name="left">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.sidebar.left.top" before="-">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.sidebar.left.top" before="-">
         			<action method="setPosition">
         				<argument name="position" xsi:type="string">sidebar-left-top</argument>
         			</action>
@@ -81,7 +81,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
         	<referenceContainer name="left">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.sidebar.left.bottom">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.sidebar.left.bottom">
         			<action method="setPosition">
         				<argument name="position" xsi:type="string">sidebar-left-bottom</argument>
         			</action>
@@ -102,7 +102,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
     		<referenceContainer name="before.body.end">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.page.bottom">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.page.bottom">
         			<action method="setPosition">
     					<argument name="position" xsi:type="string">page-bottom</argument>
         			</action>
@@ -122,7 +122,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
     		<referenceContainer name="before.body.end">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.content.top" before="-">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.content.top" before="-">
         			<action method="setPosition">
         				<argument name="position" xsi:type="string">content-top</argument>
         			</action>
@@ -142,7 +142,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
     		<referenceContainer name="before.body.end">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.menu.top"  before="-">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.menu.top"  before="-">
         			<action method="setPosition">
         				<argument name="position" xsi:type="string">menu-top</argument>
         			</action>
@@ -163,7 +163,7 @@ Paste the following content into `default.xml`::
     <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
         <body>
     		<referenceContainer name="before.body.end">
-        		<block class="Mageplaza\BetterSlider\Block\Slider" template="slider.phtml" name="mageplaza.betterslider.menu.bottom">
+        		<block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" name="mageplaza.betterslider.menu.bottom">
         			<action method="setPosition">
         				<argument name="position" xsi:type="string">menu-bottom</argument>
         			</action>
