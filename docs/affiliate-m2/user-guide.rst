@@ -250,6 +250,7 @@ To create a new banner for your Affiliate program, click on **Add New Banner** b
 * If need, complete the `Image Alt Value` field that is good for SEO.
 * Assign to `Campaign` which is active.
 * Choose `Banner Type` that might be “Image”, “Text”, or “CMS Static Block”.
+
   * Image - Upload `Image File` and set `Image Size` for its appearance.
   * Text - Enter the `Banner Text Value` in the required area.
   * CMS Static Block - Choose the desired position from the list of `Static Block`. 
