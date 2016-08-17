@@ -34,5 +34,7 @@ Welcome to Mageplaza Docs
    seo-m2/index
    social-login-m2/index
    one-step-checkout-m2/index
+   google-tag-manager-m2/index
+   delete-order-m2/index
 
 
