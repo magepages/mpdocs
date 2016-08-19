@@ -8,7 +8,7 @@ You also can paste the following code into your theme layout.
 
 
 
-Begin Of Content
+Begin of Content
 -----------------------
 
 
@@ -30,7 +30,7 @@ Paste the following content into `cms_index_index.xml`::
   </page>
   
   
-End Of Content
+End of Content
 -----------------------
 
 
