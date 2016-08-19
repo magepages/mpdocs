@@ -1,14 +1,14 @@
-How to insert Banner slider into sidebar for all page
+How to insert Banner slider into checkout onepage success
 =========================================================
 
-In this guide, we will show you how to insert a banner slider in sidebar
+In this guide, we will show you how to insert a banner slider into checkout onepage success
 
 Create a new file call `checkout_onepage_success.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/` .
 You also can paste the following code into your theme layout.
 
 
 
-Begin Of Content
+Begin of Content
 -----------------------
 
 
@@ -32,7 +32,7 @@ Paste the following content into `checkout_onepage_success.xml`::
   </page>
   
   
-End Of Content
+End of Content
 -----------------------
 
 
