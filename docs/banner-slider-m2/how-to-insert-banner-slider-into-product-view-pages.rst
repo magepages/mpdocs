@@ -14,6 +14,7 @@ Sidebar Right Top
 
 Paste the following content into `catalog_product_view.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="sidebar.additional">
@@ -36,6 +37,7 @@ Sidebar Right Bottom
 
 Paste the following content into `catalog_product_view.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="sidebar.additional">
@@ -58,6 +60,7 @@ Sidebar Left Top
 
 Paste the following content into `catalog_product_view.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="sidebar.main">
@@ -79,6 +82,7 @@ Sidebar Left Bottom
 
 Paste the following content into `catalog_product_view.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="sidebar.main">
@@ -101,6 +105,7 @@ Begin of Content
 
 Paste the following content into `catalog_product_view.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
@@ -123,6 +128,7 @@ End of Content
 
 Paste the following content into `catalog_product_view.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
