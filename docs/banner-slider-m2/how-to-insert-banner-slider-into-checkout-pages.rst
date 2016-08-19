@@ -39,9 +39,9 @@ Paste the following content into `checkout_index_index.xml`::
       <body>
           <referenceContainer name="content">
                <block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml"
-                     name="bannerslider.checkout.content.top" before="+">
+                     name="bannerslider.checkout.content.bottom" before="+">
                   <action method="setPosition">
-                      <argument name="position" xsi:type="string">checkout-content-top</argument>
+                      <argument name="position" xsi:type="string">checkout-content-bottom</argument>
                   </action>
                   <action method="setBannerId">
                       <argument name="banner_id" xsi:type="string">2</argument>
