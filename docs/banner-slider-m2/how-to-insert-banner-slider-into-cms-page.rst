@@ -7,7 +7,6 @@ Create a new file call `cms_index_index.xml` in `app/code/Mageplaza/BetterSlider
 You also can paste the following code into your theme layout.
 
 
-
 Begin of Content
 -----------------------
 
@@ -54,3 +53,14 @@ Paste the following content into `cms_index_index.xml`::
   </page>
   
   
+You also can paste the following code into your content of cms page in admin. Path is `Content->Elements->Pages->Home Page->Edit->Content`
+
+Paste the following content into content of cms page::
+
+  {{block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="2" position="cms-page-content-top" }}
+  
+
+
+
+
+
