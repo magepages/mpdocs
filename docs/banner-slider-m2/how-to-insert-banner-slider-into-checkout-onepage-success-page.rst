@@ -14,6 +14,7 @@ Begin of Content
 
 Paste the following content into `checkout_onepage_success.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
@@ -38,6 +39,7 @@ End of Content
 
 Paste the following content into `checkout_onepage_success.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
