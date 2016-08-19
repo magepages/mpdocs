@@ -14,6 +14,7 @@ Begin of checkout cart page content
 
 Paste the following content into `checkout_cart_index.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
@@ -35,6 +36,7 @@ End of checkout cart page content
   
 Paste the following content into `checkout_cart_index.xml`::
 
+  <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../../../lib/internal/Magento/Framework/View/Layout/etc/page_configuration.xsd">
     <body>
         <referenceContainer name="content">
