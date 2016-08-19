@@ -106,7 +106,7 @@ Paste the following content into `catalog_category_view.xml`::
   </page>
 
 
-Begin Of Content
+Begin of Content
 --------------------
 
 Paste the following content into `catalog_category_view.xml`::
@@ -130,7 +130,7 @@ Paste the following content into `catalog_category_view.xml`::
   </page>
   
   
-End Of Content
+End of Content
 --------------------
 
 Paste the following content into `catalog_category_view.xml`::
