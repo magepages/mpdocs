@@ -1,7 +1,7 @@
-How to insert Banner slider into sidebar for all page
+How to insert Banner slider into product view pages
 =========================================================
 
-In this guide, we will show you how to insert a banner slider in sidebar
+In this guide, we will show you how to insert a banner slider into product view pages
 
 Create a new file call `catalog_product_view.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/` .
 You also can paste the following code into your theme layout.
