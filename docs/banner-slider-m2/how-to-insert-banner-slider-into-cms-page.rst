@@ -3,8 +3,12 @@ How to insert Banner slider into cms page
 
 In this guide, we will show you how to insert a banner slider into cms page
 
-Create a new file call `cms_index_index.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/` .
+Create a new file call `cms_index_index.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/cms_index_index.xml` .
 You also can paste the following code into your theme layout.
+    .. note::
+        - You also can create the xml file in theme folder or copy into an other module.
+        - `banner_id` value should be changed to your own.
+        - Default path: `app/code/Mageplaza/BetterSlider/view/frontend/layout/`
 
 
 Begin of Content
