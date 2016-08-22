@@ -26,7 +26,7 @@ Advanced Search
 
 On the Search Box, the visitors can enter some keywords for searching, all related topics will be shown on the below together with category which the topic belongs to. 
 
-  .. image:: https://cdn.mageplaza.com/docs/faq-kb-advanced-search.png
+  .. image:: https://cdn.mageplaza.com/docs/faq-kb-advanced-search.gif
 
 
 How to Configure Frequently Asked Questions (FAQ) page
