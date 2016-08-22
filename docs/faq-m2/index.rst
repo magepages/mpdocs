@@ -1,5 +1,5 @@
-FAQ Knowledge Base
-====================
+FAQ
+=========
 
 .. toctree::
     :maxdepth: 2
