@@ -3,8 +3,12 @@ How to insert Banner slider into category pages
 
 In this guide, we will show you how to insert a banner slider into category pages
 
-Create a new file call `catalog_category_view.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/` .
+Create a new file call `catalog_category_view.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/catalog_category_view.xml` .
 You also can paste the following code into your theme layout.
+    .. note::
+        - You also can create the xml file in theme folder or copy into an other module.
+        - `banner_id` value should be changed to your own.
+        - Default path: `app/code/Mageplaza/BetterSlider/view/frontend/layout/`
 
 
 
