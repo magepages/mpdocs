@@ -59,6 +59,32 @@ Paste the following content into content of cms page::
 
   {{block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="2" position="cms-page-content-top" }}
   
+Or paste the follwing content into Layout Update XML of CMS design. Path is `Content->Elements->Pages->Home Page->Edit->Design`:
+
+Begin of content
+------------------
+
+  <referenceContainer name="content">
+    <block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" before="-">
+      <arguments>
+        <argument name="banner_id" xsi:type="number">2</argument>
+        <argument name="position" xsi:type="string">cms-page-content-top</argument>
+      </arguments>
+    </block>
+  </referenceContainer>
+  
+  
+End of content
+------------------
+
+  <referenceContainer name="content">
+    <block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" after="-">
+      <arguments>
+        <argument name="banner_id" xsi:type="number">2</argument>
+        <argument name="position" xsi:type="string">cms-page-content-bottom</argument>
+      </arguments>
+    </block>
+  </referenceContainer>
 
 
 
