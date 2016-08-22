@@ -8,7 +8,7 @@ You also can paste the following code into your theme layout.
     .. note::
         - You also can create the xml file in theme folder or copy into an other module.
         - `banner_id` value should be changed to your own.
-
+        - Default path: `app/code/Mageplaza/BetterSlider/view/frontend/layout/`
 
 
 
