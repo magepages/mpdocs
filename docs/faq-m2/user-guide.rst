@@ -114,7 +114,7 @@ Manage FAQ Articles
 
 * Under **Action** option, tap `Select` link, you can edit/ delete any faq articles as need.
 
-  ..image:: https://i.imgur.com/YhX18Lp.png
+  .. image:: https://i.imgur.com/YhX18Lp.png
 
 Create a New FAQ Article
 ```````````````````````````
