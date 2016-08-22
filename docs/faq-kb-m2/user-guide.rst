@@ -2,11 +2,13 @@
 User Guide
 =============
 
-`Magento 2 FAQ Knowledge Base`_ extension
+Coming with `Magento 2 FAQ Knowledge Base`_ extension, the awesome module from Magento 2 platform, gives the customers answers of the common questions. This is one of the fully independent support resources that allow them self-detect the best solution before asking the helpdesk team. 
+
+Mageplaza FAQ Knowledge Base's User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
+
+
 
 .. _Magento 2 FAQ Knowledge Base: https://www.mageplaza.com/magento-2-faq/
-
-.. Intro
 
 
 How to Use
@@ -22,7 +24,7 @@ Knowledge Base page is divided into 3 main elements: Search Box, KB Categories, 
 FAQ Page
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-Similar to Knowledge Base page, FAQ page includes 3 main parts: Search Box, FAQ Categories, and Question Listing.
+Similar to Knowledge Base page, FAQ page includes 3 main parts: Search Box, FAQ Categories, and Question Listing while the questions are shown under Listing or Accordition depending the chosen style of FAQ page. 
 
   .. image:: https://i.imgur.com/neD4yDp.png
  
