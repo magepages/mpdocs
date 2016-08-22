@@ -3,8 +3,12 @@ How to insert Banner slider into product view pages
 
 In this guide, we will show you how to insert a banner slider into product view pages
 
-Create a new file call `catalog_product_view.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/` .
+Create a new file call `catalog_product_view.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/catalog_product_view.xml` .
 You also can paste the following code into your theme layout.
+    .. note::
+        - You also can create the xml file in theme folder or copy into an other module.
+        - `banner_id` value should be changed to your own.
+        - Default path: `app/code/Mageplaza/BetterSlider/view/frontend/layout/`
 
 
 
