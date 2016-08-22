@@ -26,7 +26,7 @@ Advanced Search
 
 On the Search Box, the visitors can enter some keywords for searching, all related topics will be shown on the below together with category which the topic belongs to. 
 
-  .. image:: https://cdn.mageplaza.com/docs/faq-kb-advanced-search-kb.gif
+  .. image:: https://i.imgur.com/E9bRavu.png
 
 How to Configure Knowledge Base Page
 ---------------------------------------
