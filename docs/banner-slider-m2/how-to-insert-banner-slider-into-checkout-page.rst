@@ -4,7 +4,12 @@ How to insert Banner slider into checkout page
 
 In this guide, we will show you how to insert a banner slider in checkout page
 
-Create a new file call `checkout_index_index.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full `path is app/code/Mageplaza/BetterSlider/view/frontend/layout/` . You also can paste the following code into your theme layout.
+Create a new file call `checkout_index_index.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full `path is app/code/Mageplaza/BetterSlider/view/frontend/layout/checkout_index_index.xml`.
+You also can paste the following code into your theme layout.
+    .. note::
+        - You also can create the xml file in theme folder or copy into an other module.
+        - `banner_id` value should be changed to your own.
+        - Default path: `app/code/Mageplaza/BetterSlider/view/frontend/layout/`
 
 
 Begin of checkout page content
