@@ -59,7 +59,7 @@ Settings
   
   .. image:: https://i.imgur.com/aJoczOg.png
 
-* Access Cache Managment link on the top of page to push the cache.
+* Access **Cache Managment** link on the top of page to push the cache.
 
 Manage FAQ Categories
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -97,7 +97,7 @@ Create a New FAQ Category
   .. image:: https://i.imgur.com/m3g1bMX.png
 
 * When complete, tap `Save and Continue Edit` or `Save Category`.
-* Access Cache Managment link on the top of page to push the cache.
+* Access **Cache Managment** link on the top of page to push the cache.
 
 Manage FAQ Articles
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -135,4 +135,4 @@ Create a New FAQ Article
     .. image:: https://i.imgur.com/T61nwji.png
 
 * When complete, tap `Save and Continue Edit` or `Save Article`.
-* Access Cache Managment link on the top of page to push the cache.
+* Access **Cache Managment** link on the top of page to push the cache.
