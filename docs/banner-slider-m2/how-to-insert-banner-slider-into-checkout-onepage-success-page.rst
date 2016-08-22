@@ -3,8 +3,12 @@ How to insert Banner slider into checkout onepage success
 
 In this guide, we will show you how to insert a banner slider into checkout onepage success
 
-Create a new file call `checkout_onepage_success.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/` .
+Create a new file call `checkout_onepage_success.xml` in `app/code/Mageplaza/BetterSlider/view/frontend/layout/` . Full path is `app/code/Mageplaza/BetterSlider/view/frontend/layout/checkout_onepage_success.xml`.
 You also can paste the following code into your theme layout.
+    .. note::
+        - You also can create the xml file in theme folder or copy into an other module.
+        - `banner_id` value should be changed to your own.
+        - Default path: `app/code/Mageplaza/BetterSlider/view/frontend/layout/`
 
 
 
