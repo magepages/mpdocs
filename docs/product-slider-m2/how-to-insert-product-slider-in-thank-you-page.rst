@@ -5,7 +5,7 @@ Handle: checkout_onepage_success
 
 File: `checkout_onepage_success.xml`
 
-Path: `app\code\Mageplaza\Productslider\view\frontend\layout\checkout_onepage_success.xml`
+Path: `app\code\Mageplaza\Productslider\view\frontend\layout\checkout_onepage_success.xml``::
 
 
 
