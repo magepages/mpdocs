@@ -4,20 +4,18 @@ How to display insert product slider on category pages
 Display products of a category 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To display products of a category, add this code to Custom Layout Update of category page
+To display products of a category, add this code to Custom Layout Update of category page:
 
-```
- <block class="Mageplaza\Productslider\Block\CategoryId" name="product.slider.category"
-                   template="checkout.phtml">
-    <arguments>
-        <argument name="loop" xsi:type="string">1</argument>
-        <argument name="products_count" xsi:type="string">8</argument>
-        <argument name="category_id" xsi:type="string">6</argument>
-        <argument name="heading" xsi:type="string">Checkout</argument>
-        <argument name="description" xsi:type="string">Here is what`s trending on Luma right now</argument>
-    </arguments>
- </block>
-```
+  <block class="Mageplaza\Productslider\Block\CategoryId" name="product.slider.category"
+                    template="checkout.phtml">
+     <arguments>
+         <argument name="loop" xsi:type="string">1</argument>
+         <argument name="products_count" xsi:type="string">8</argument>
+         <argument name="category_id" xsi:type="string">6</argument>
+         <argument name="heading" xsi:type="string">Checkout</argument>
+         <argument name="description" xsi:type="string">Here is what`s trending on Luma  right now</argument>
+     </arguments>
+  </block>
 
 Display on sale products 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
