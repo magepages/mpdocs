@@ -1,3 +1,6 @@
+How to insert product slider in thank you page
+===============================================
+
 Handle: checkout_onepage_success
 
 File: `checkout_onepage_success.xml`
