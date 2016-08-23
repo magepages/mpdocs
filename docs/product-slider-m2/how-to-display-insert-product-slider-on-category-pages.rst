@@ -6,7 +6,7 @@ Display products of a category
 
 To display products of a category, add this code to Custom Layout Update of category page
 
-
+```
  <block class="Mageplaza\Productslider\Block\CategoryId" name="product.slider.category"
                    template="checkout.phtml">
     <arguments>
@@ -17,7 +17,7 @@ To display products of a category, add this code to Custom Layout Update of cate
         <argument name="description" xsi:type="string">Here is what`s trending on Luma right now</argument>
     </arguments>
  </block>
-
+```
 
 Display on sale products 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
