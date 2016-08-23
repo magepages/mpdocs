@@ -19,28 +19,36 @@ Add Block New Products paste to CMS page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description"}}
+
 ~~~
 
 Add Block On Sale Products paste to CMS page:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\OnSaleProduct" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="OnSaleProduct Products" description="Here is your onsale product description"}}
+
 ~~~
 
 Add Block Featured Products paste to CMS page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\FeaturedProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="FeaturedProducts Products" description="Here is your featured product description"}}
+
 ~~~
 
 Add Block Category Id paste to CMS page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\CategoryId" template="Mageplaza_Productslider::productslider.phtml" products_count="8" category_id="6" heading="Category" description="Here is your category description"}}
+
 ~~~
 
 Explaination
@@ -59,6 +67,7 @@ Add Block New Products by file layout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 <block class="Mageplaza\Productslider\Block\NewProducts" name="product.slider.newproduct" template="productslider.phtml">
 	<arguments>
         <argument name="products_count" xsi:type="number">8</argument>
@@ -67,12 +76,14 @@ Add Block New Products by file layout
         <argument name="description" xsi:type="string">Here is your new products description </argument>
  	</arguments>
  </block>
+
 ~~~
 
 Add Block On Sale Products by file layout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 <block class="Mageplaza\Productslider\Block\OnSaleProduct " name="product.slider.onsale" template="productslider.phtml">
  	<arguments>
         <argument name="products_count" xsi:type="number">8</argument>
@@ -81,12 +92,14 @@ Add Block On Sale Products by file layout
         <argument name="description" xsi:type="string">Here is your onsale products description</argument>
  	</arguments>
 </block>
+
 ~~~
 
 Add Block Category Id by file layout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 <block class="Mageplaza\Productslider\Block\CategoryId" name="product.slider.categoryid" template="productslider.phtml" category_id="3">
  	<arguments>
         <argument name="products_count" xsi:type="number">8</argument>
@@ -96,12 +109,14 @@ Add Block Category Id by file layout
         <argument name="description" xsi:type="string">Here is your category description</argument>
  	</arguments>
 </block>
+
 ~~~
 
 Add Block Featured Products by file layout
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ~~~
+
 <block class="Mageplaza\Productslider\Block\FeaturedProducts" name="product.slider.featured" template="productslider.phtml">
 	<arguments>
         <argument name="products_count" xsi:type="number">8</argument>
@@ -110,6 +125,7 @@ Add Block Featured Products by file layout
         <argument name="description" xsi:type="string">Here is your featured products description</argument>
  	</arguments>
 </block>
+
 ~~~
 
 
@@ -125,7 +141,9 @@ Enable infinity loop
 To enable infinity loop, add this code to CMS page
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1"}}
+
 ~~~
 
 
@@ -136,7 +154,9 @@ Responsive slider
 To enable the responsive slider, add this code to CMS page
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description"  responsive="1" loop="1"}}
+
 ~~~
 
 Navigation bar
@@ -145,10 +165,12 @@ Navigation bar
 To display the navigation bar, add this code to CMS page
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" nav="1" loop="1"}}
+
 ~~~
 
-Note:
+== Note ==
    The navigation will not be displayed unless the number of items are less than products_count.
 
 
@@ -159,10 +181,12 @@ Set an item in the center of the product slider
 To show an item in the center of the product slider, add this code to CMS page
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1" center="1"}}
+
 ~~~
 
-Note:
+== Note ==
    Keep in mind that dots are not working here.
 
 
@@ -172,7 +196,9 @@ Merge the width of items when change the screen size
 To merge the width of items when change the screen size, add this code to CMS page
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1" margin="10" merge="1"}}
+
 ~~~
 
 * Merge option requires data-merge="number_items_to_merge" on any child element (can be nested as well). There is a sibling option called mergeFit which fits merged elements to screen size.
@@ -186,7 +212,9 @@ Display items in origin width
 To show items in origin width, add this code to CMS page:
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1" margin="10" autoWidth="1"}}
+
 ~~~
 
 
@@ -196,7 +224,9 @@ Add the left and right padding style (in pixels) onto stage-wrapper
 To add the left and right padding style (in pixels) onto stage-wrapper, add this code to CMS page:
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1"margin="10" stagePadding="50"}}
+
 ~~~
 
 
@@ -206,7 +236,9 @@ Change direction from right to left
 To change direction from right to left, add this code to CMS page:
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1"margin="10" rtl="1"}}
+
 ~~~
 
 
@@ -216,7 +248,9 @@ Autoplay
 To autoplay, add this code to CMS page:
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1"margin="10" autoplay="1" autoplayTimeout="5000" autoplayHoverPause="1"}}
+
 ~~~
 
 
@@ -227,7 +261,9 @@ Display item's height according to heighest item
 To display item's height according to heighest item, add this code to CMS page:
 
 ~~~
+
 {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="1" loop="1"margin="10" autoHeight="1"}}
+
 ~~~
 
 
