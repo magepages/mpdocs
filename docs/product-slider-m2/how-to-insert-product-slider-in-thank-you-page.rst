@@ -7,7 +7,7 @@ File: `checkout_onepage_success.xml`
 
 Path: `app\code\Mageplaza\Productslider\view\frontend\layout\checkout_onepage_success.xml`
 
-~~~
+```
 
 <?xml version="1.0"?>
 <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left"
@@ -36,7 +36,7 @@ Path: `app\code\Mageplaza\Productslider\view\frontend\layout\checkout_onepage_su
     </body>
 </page>
 
-~~~
+```
 
 
 Arguments
