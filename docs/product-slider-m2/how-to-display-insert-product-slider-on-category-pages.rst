@@ -2,7 +2,7 @@ How to display insert product slider on category pages
 =========================================================
 
 Display products of a category 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------------
 
 To display products of a category, add this code to Custom Layout Update of category page::
 
@@ -18,7 +18,7 @@ To display products of a category, add this code to Custom Layout Update of cate
   </block>
 
 Display on sale products 
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+---------------------------
 
 To display on sale products, add this code to Custom Layout Update of category page::
 
@@ -36,7 +36,7 @@ To display on sale products, add this code to Custom Layout Update of category p
 
 
 Add Block New Products
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+--------------------------
 
 ::
 
@@ -53,7 +53,7 @@ Add Block New Products
 
 
 Add Block Featured Products
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
 
 ::
 
