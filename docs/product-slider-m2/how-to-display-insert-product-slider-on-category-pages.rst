@@ -20,7 +20,7 @@ To display products of a category, add this code to Custom Layout Update of cate
 Display on sale products 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-To display on sale products, add this code to Custom Layout Update of category page
+To display on sale products, add this code to Custom Layout Update of category page::
 
 
  <block class="Mageplaza\Productslider\Block\OnSaleProduct" name="product.slider.onsale"
@@ -38,6 +38,8 @@ To display on sale products, add this code to Custom Layout Update of category p
 Add Block New Products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+::
+
   <block class="Mageplaza\Productslider\Block\NewProducts" name="product.slider.  newproduct" template="productslider.phtml">
   	<arguments>
           <argument name="loop" xsi:type="string">1</argument>
@@ -53,6 +55,7 @@ Add Block New Products
 Add Block Featured Products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+::
 
   <block class="Mageplaza\Productslider\Block\FeaturedProducts" name="product.slider.  featured" template="productslider.phtml">
   	<arguments>
