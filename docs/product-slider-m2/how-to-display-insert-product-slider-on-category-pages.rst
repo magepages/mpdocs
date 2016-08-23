@@ -1,5 +1,5 @@
 How to display insert product slider on category pages
-----------------------------------------------------------
+=========================================================
 
 Display products of a category 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
