@@ -158,7 +158,7 @@ To display the navigation bar, add this code to CMS page
   {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" nav="1" loop="1"}}
 
 
-  .. note:: 
+.. note:: 
       The navigation will not be displayed unless the number of items are less than products_count.
 
 
@@ -173,7 +173,7 @@ To show an item in the center of the product slider, add this code to CMS page
   {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description" items="4" loop="1" center="1"}}
 
 
-  .. note::
+.. note::
       Keep in mind that dots are not working here.
 
 
