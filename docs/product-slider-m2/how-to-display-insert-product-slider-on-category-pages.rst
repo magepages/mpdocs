@@ -6,7 +6,7 @@ Display products of a category
 
 To display products of a category, add this code to Custom Layout Update of category page
 
-`::
+::
 
  <block class="Mageplaza\Productslider\Block\CategoryId" name="product.slider.category"
                    template="checkout.phtml">
