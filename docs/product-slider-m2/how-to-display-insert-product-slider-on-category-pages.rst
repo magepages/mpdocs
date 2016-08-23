@@ -6,7 +6,6 @@ Display products of a category
 
 To display products of a category, add this code to Custom Layout Update of category page
 
-::
 
  <block class="Mageplaza\Productslider\Block\CategoryId" name="product.slider.category"
                    template="checkout.phtml">
@@ -25,7 +24,6 @@ Display on sale products
 
 To display on sale products, add this code to Custom Layout Update of category page
 
-`::
 
  <block class="Mageplaza\Productslider\Block\OnSaleProduct" name="product.slider.onsale"
                    template="checkout.phtml">
@@ -42,34 +40,31 @@ To display on sale products, add this code to Custom Layout Update of category p
 Add Block New Products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`::
-
-<block class="Mageplaza\Productslider\Block\NewProducts" name="product.slider.newproduct" template="productslider.phtml">
-	<arguments>
-        <argument name="loop" xsi:type="string">1</argument>
-        <argument name="products_count" xsi:type="number">8</argument>
-        <argument name="margin" xsi:type="string">5</argument>
-        <argument name="heading" xsi:type="string">On New Products</argument>
-        <argument name="description" xsi:type="string">Here is your new products description </argument>
- 	</arguments>
- </block>
+  <block class="Mageplaza\Productslider\Block\NewProducts" name="product.slider.  newproduct" template="productslider.phtml">
+  	<arguments>
+          <argument name="loop" xsi:type="string">1</argument>
+          <argument name="products_count" xsi:type="number">8</argument>
+          <argument name="margin" xsi:type="string">5</argument>
+          <argument name="heading" xsi:type="string">On New Products</argument>
+          <argument name="description" xsi:type="string">Here is your new products   description </argument>
+   	</arguments>
+   </block>
 
 
 
 Add Block Featured Products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`::
 
-<block class="Mageplaza\Productslider\Block\FeaturedProducts" name="product.slider.featured" template="productslider.phtml">
-	<arguments>
-        <argument name="loop" xsi:type="string">1</argument>
-        <argument name="products_count" xsi:type="number">8</argument>
-        <argument name="margin" xsi:type="string">5</argument>
-        <argument name="heading" xsi:type="string">Featured Products</argument>
-        <argument name="description" xsi:type="string">Here is your featured products description</argument>
- 	</arguments>
-</block>
+  <block class="Mageplaza\Productslider\Block\FeaturedProducts" name="product.slider.  featured" template="productslider.phtml">
+  	<arguments>
+          <argument name="loop" xsi:type="string">1</argument>
+          <argument name="products_count" xsi:type="number">8</argument>
+          <argument name="margin" xsi:type="string">5</argument>
+          <argument name="heading" xsi:type="string">Featured Products</argument>
+          <argument name="description" xsi:type="string">Here is your featured products   description</argument>
+   	</arguments>
+  </block>
 
 
 Arguments
