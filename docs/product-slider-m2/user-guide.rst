@@ -18,27 +18,22 @@ CMS Pages, CMS Static Block (Insert into Homepage)
 Add Block New Products paste to CMS page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-```
 
-{{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description"}}
+  {{block class="Mageplaza\Productslider\Block\NewProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="New Products" description="Here is your new products description"}}
 
-```
 
 Add Block On Sale Products paste to CMS page:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-```
 
-{{block class="Mageplaza\Productslider\Block\OnSaleProduct" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="OnSaleProduct Products" description="Here is your onsale product description"}}
+  {{block class="Mageplaza\Productslider\Block\OnSaleProduct" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="OnSaleProduct Products" description="Here is your onsale product description"}}
 
-```
 
 Add Block Featured Products paste to CMS page
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-`::
 
-{{block class="Mageplaza\Productslider\Block\FeaturedProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="FeaturedProducts Products" description="Here is your featured product description"}}
+  {{block class="Mageplaza\Productslider\Block\FeaturedProducts" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="FeaturedProducts Products" description="Here is your featured product description"}}
 
 
 Add Block Category Id paste to CMS page
