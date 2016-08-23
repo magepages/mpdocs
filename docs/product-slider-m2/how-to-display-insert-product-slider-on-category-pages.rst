@@ -44,7 +44,6 @@ To display on sale products, add this code to Custom Layout Update of category p
 Add Block New Products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-```
 
 <block class="Mageplaza\Productslider\Block\NewProducts" name="product.slider.newproduct" template="productslider.phtml">
 	<arguments>
@@ -56,13 +55,11 @@ Add Block New Products
  	</arguments>
  </block>
 
-```
 
 
 Add Block Featured Products
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-```
 
 <block class="Mageplaza\Productslider\Block\FeaturedProducts" name="product.slider.featured" template="productslider.phtml">
 	<arguments>
@@ -74,7 +71,6 @@ Add Block Featured Products
  	</arguments>
 </block>
 
-```
 
 Arguments
 ------------
