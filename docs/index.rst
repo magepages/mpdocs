@@ -39,4 +39,5 @@ Welcome to Mageplaza Docs
    faq-m2/index
    kb-m2/index
    product-slider-m2/index
+   layered-navigation-m2/index
 
