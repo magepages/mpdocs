@@ -57,15 +57,11 @@ Settings
   * `Limit search's result` when entering the number for displaying.
   * Set `Min chars in search box` to show the search's suggestion.
 
-    .. image:: https://i.imgur.com/wDKnFPF.png
-
 * Open **Sidebar** section, you can set `Number of popular articles` and `Number of recent articles` on the sidebar.
-
-  .. image:: https://i.imgur.com/wwnUU8s.png
 
 * Open **SEO** section, complete the meta data including title, description, and keywords for your better SEO of KB page.
 
-  .. image:: https://i.imgur.com/jc81uEj.png
+  .. image:: https://cdn.mageplaza.com/docs/kb-configuration.gif
 
 * Access Cache Managment link on the top of page to push the cache.
 
@@ -84,7 +80,7 @@ Manage Knowledge Base Categoies
 
 * Under **Action** option, tap `Select` link, you can edit/ delete any category as need.
 
-  .. image:: https://i.imgur.com/IfkDZip.png
+  .. image:: https://cdn.mageplaza.com/docs/kb-manage-categories.gif
 
 Create a New Knowledge Base Category
 ````````````````````````````````````````
@@ -98,11 +94,10 @@ Create a New Knowledge Base Category
     * Choose "Yes" in the `Enable` field.
     * Enter `URL Key` for the friendly SEO if need.
   
-    .. image:: https://i.imgur.com/iUEVHWE.png
 
   * Scroll up and open **Article** sub-tab, allow assign the new category to more than one available knowledge base article.
 
-    .. image:: https://i.imgur.com/e7X9iI3.png
+  .. image:: https://cdn.mageplaza.com/docs/kb-create-category.gif
 
 * When complete, tap `Save and Continue Edit` or `Save Category`.
 * Access Cache Managment link on the top of page to push the cache.
@@ -124,7 +119,7 @@ Manage Knowledge Base Articles
 
 * Under **Action** option, tap `Select` link, you can edit/ delete any articles as need.
 
-  .. image:: https://i.imgur.com/RNUkzLl.png
+  .. image:: https://cdn.mageplaza.com/docs/kb-manage-articles.gif
 
 Create a New Knowledge Base Article
 `````````````````````````````````````
@@ -139,18 +134,14 @@ Create a New Knowledge Base Article
     * Choose "Yes" in the `Enable` field.
     * Enter `URL Key` for the friendly SEO if need.
   
-    .. image:: https://i.imgur.com/SBo7C11.png
-
-  * Scroll up and open **Category** sub-tab, allow assign the new article to more than one available knowledge base category.
-
-    .. image:: https://i.imgur.com/2EQeEnO.png
+  * Open **Category** sub-tab, allow assign the new article to more than one available knowledge base category.
 
   * Complete **Meta Data** for the new article:
 
     * Set `Meta Title`, `Meta Description`, and `Meta Keywords`.
     * Set `Meta Robots` to the following options: Index,Follow ; NoIndex,NoFollow ; NoIndex,Follow ; Index,NoFollow.
 
-    .. image:: https://i.imgur.com/1wdPj2Y.png
+  .. image:: https://cdn.mageplaza.com/docs/kb-create-new-article.gif
 
 * When complete, tap `Save and Continue Edit` or `Save Article`.
 * Access Cache Managment link on the top of page to push the cache.
