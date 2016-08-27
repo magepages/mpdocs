@@ -51,13 +51,11 @@ Settings
   * Choose "Yes" for `Enable Bootstrap`. If you already had bootstrap CSS library, select "No".
   * To change Faq's color, you can choose the color as your need with unlimited colors in the field.
   * `Limit search's result` when entering the number for displaying.
-  * Set `Min chars in search box` to show the search's suggestion.
-  
-  .. image:: https://cdn.mageplaza.com/docs/faq-general-configuration.gif
+  * Set `Min chars in search box` to show the search's suggestion. 
   
 * Open **SEO** section, complete the meta data including title, description, and keywords for your better SEO of FAQ page.
   
-  .. image:: https://i.imgur.com/aJoczOg.png
+  .. image:: https://cdn.mageplaza.com/docs/faq-configuration.gif
 
 * Access **Cache Managment** link on the top of page to push the cache.
 
