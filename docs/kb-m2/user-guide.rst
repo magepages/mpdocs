@@ -36,8 +36,6 @@ Settings
 
 * Login to Admin Panel, `Knowledge Base > Settings`.
 
-..  image:: https://i.imgur.com/ulsZY1B.png
-
 * Open **General** section, do the following:
 
   * Enable the module by choosing "Yes" in the `Enable` field.
@@ -46,9 +44,6 @@ Settings
   * Set `Url Suffix` for the kb link. If skip this, the default ".html" is used.
   * Enter `Contact Name` that display on kb homepage. 
   * Set `Contact Url` for the contact link.
-
-    .. image:: https://i.imgur.com/uSt07HB.png
-
   * To show the kb link in footer link, set the field to "Yes".
   * Enable/ Disable the right/ left sidebar on the knowledge page.
   * Set `Limit article in Kb page` field to leave the needed number of the display articles.
