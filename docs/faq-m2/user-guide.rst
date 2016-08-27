@@ -88,11 +88,9 @@ Create a New FAQ Category
     * Choose "Yes" in the `Enable` field.
     * Enter `URL Key` for the friendly SEO if need.
   
-    .. image:: https://i.imgur.com/9E4ixRy.png
+  * Open **Article** sub-tab, allow assign the new category to more than one available knowledge base article.
 
-  * Scroll up and open **Article** sub-tab, allow assign the new category to more than one available knowledge base article.
-
-  .. image:: https://i.imgur.com/m3g1bMX.png
+  .. image:: https://cdn.mageplaza.com/docs/faq-create-faq-category.gif
 
 * When complete, tap `Save and Continue Edit` or `Save Category`.
 * Access **Cache Managment** link on the top of page to push the cache.
@@ -112,7 +110,7 @@ Manage FAQ Articles
 
 * Under **Action** option, tap `Select` link, you can edit/ delete any faq articles as need.
 
-  .. image:: https://i.imgur.com/YhX18Lp.png
+  .. image:: https://cdn.mageplaza.com/docs/faq-mange-articles.gif
 
 Create a New FAQ Article
 ```````````````````````````
@@ -126,11 +124,9 @@ Create a New FAQ Article
     * Choose "Yes" in the `Status` field.
     * Enter `URL Key` for the friendly SEO if need.
   
-    .. image:: https://i.imgur.com/D469I7V.png
+  * Open **FAQ Categories** sub-tab, allow assign the new article to more than one available FAQ category.
 
-  * Scroll up and open **FAQ Categories** sub-tab, allow assign the new article to more than one available FAQ category.
-
-    .. image:: https://i.imgur.com/T61nwji.png
+  .. image:: https://cdn.mageplaza.com/docs/faq-create-new-article.gif
 
 * When complete, tap `Save and Continue Edit` or `Save Article`.
 * Access **Cache Managment** link on the top of page to push the cache.
