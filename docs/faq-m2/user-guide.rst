@@ -53,8 +53,8 @@ Settings
   * `Limit search's result` when entering the number for displaying.
   * Set `Min chars in search box` to show the search's suggestion.
   
-  .. image:: https://i.imgur.com/0UDCMMc.png
-
+  .. image:: https://cdn.mageplaza.com/docs/faq-general-configuration.gif
+  
 * Open **SEO** section, complete the meta data including title, description, and keywords for your better SEO of FAQ page.
   
   .. image:: https://i.imgur.com/aJoczOg.png
@@ -76,7 +76,7 @@ Manage FAQ Categories
 
 * Under **Action** option, tap `Select` link, you can edit/ delete any faq category as need.
 
-  .. image:: https://i.imgur.com/1f8UD8q.png
+  .. image:: https://cdn.mageplaza.com/docs/faq-manage-faq-categories.gif
 
 Create a New FAQ Category
 ``````````````````````````````
