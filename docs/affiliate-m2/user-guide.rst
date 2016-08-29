@@ -130,16 +130,12 @@ This link will be displayed in My Account/My Affiliate/Refer tab. If empty, the 
 Manage Affiliate Accounts
 `````````````````````````````
 
-Login to Magento Admin, `Affiliate > Accounts`.
-
-.. image:: https://i.imgur.com/FvZXCYT.png
-
 Create Affiliate Account
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Click on `Add New Account` button, be navigated to the Account Information page. Then do the following to complete a new Affiliate account.
+* Login to Magento Admin, `Affiliate > Accounts`.
 
-.. image:: https://i.imgur.com/zkUPFPK.png
+* Click on `Add New Account` button, be navigated to the Account Information page. Then do the following to complete a new Affiliate account.
 
 * In the `Choose Customer` field, tap the down arrow and select one of the existing customer from the list .
 * Enter Affiliate email or ID who refers to customers in the `Referred By` field to plus commissions to his account. If not, leave it empty.
@@ -147,36 +143,36 @@ Click on `Add New Account` button, be navigated to the Account Information page.
 * Allow receiving `Email Notification` if choosing **Yes** for that. 
 * Tap `Save` to complete or `Save and Continue Edit` if you want to edit any information.
 
+  .. image:: https://cdn.mageplaza.com/docs/aff-create-new-account.gif
+
+
 Assign to Affiliate Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 After adding the new Affiliate accounts, store admin can manage them in the **Accounts Management** grid.
 
-.. image:: https://i.imgur.com/y4f3KAA.png
-
 * On the grid, find the Affiliate account needed to assign and open the **Edit** mode.
 * Choose the Affiliate group to assign. By the default, “General” is chosen.
 
-.. image:: https://i.imgur.com/uny0hVD.png
-
+  .. image:: https://cdn.mageplaza.com/docs/aff-assign-to-affiliate-group.gif
 Add Affiliate Group
 ~~~~~~~~~~~~~~~~~~~~~~
 
 On the Admin Panel, go to `Affiliate > Groups`.
-
-.. image:: https://i.imgur.com/PjHX12F.png
 
 * Click on `Add new groups` button
 * Complete `Name` of the new group
 * Set `Status` to “Enabled”
 * Tap `Save Group` on the upper-right corner
 
+  .. image:: https://cdn.mageplaza.com/docs/aff-create-affiliate-group.gif
+
 Manage Affiliate Campaigns
 `````````````````````````````
 
 Login to Magento Admin, `Affiliate > Campaigns`.
 
-.. image:: https://i.imgur.com/yB6ZgXI.png
+  .. image:: https://cdn.mageplaza.com/docs/aff-create-affiliate-campaign.gif
 
 It is necessary to go over four tabs: “Campaign Information”, “Conditions”, “Discounts”, and “Commissions”.
 
@@ -234,48 +230,48 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 
 When complete all, tap `Save` to apply the new Affiliate program or click on `Save and Continue Edit` to adjust any information.
 
-Manage Affiliate Banners
-```````````````````````````
-
-Create Affiliate Banners
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Login to Magento Admin, `Affiliate > Banners`, you will see all banners which are designed for Affiliates.
-
-.. image:: https://i.imgur.com/Csh6sMp.png
-
-To create a new banner for your Affiliate program, click on **Add New Banner** button, then do the following:
-
-* Enter `Title` of the banner that is visible on the storefront
-* If need, complete the `Image Alt Value` field that is good for SEO.
-* Assign to `Campaign` which is active.
-* Choose `Banner Type` that might be “Image”, “Text”, or “CMS Static Block”.
-
-  * Image - Upload `Image File` and set `Image Size` for its appearance.
-  * Text - Enter the `Banner Text Value` in the required area.
-  * CMS Static Block - Choose the desired position from the list of `Static Block`. 
-* Insert `URL` which the banner is linked to. If empty, it will redirect to Homepage.
-
-.. image:: https://i.imgur.com/FJ8EVrV.png
-
-* Tap `Save Banner` to complete.
-
-Banners Configuration
-~~~~~~~~~~~~~~~~~~~~~~
-
-Login to Magento Admin, `Affiliate > Settings`, open **Banners Configration** section, 
-
-* Set `Enable Module` to "Yes", that allows showing any promotion on the banners as you set
-* To follow the traffic to the banner, leave "Yes" in the `Enable Traffic Statistic` field
-* Support **Reset banner traffic** button to refresh all data
-* To show "AddThis" button on your storefront, choose "Yes" in the `Display AddThis social share buttons in frontend` field.
-* Enable to write a short message which is shown whenever there is any sharing via Social
-
-.. image:: https://i.imgur.com/Y1nOXiY.png
-
-.. Manage Withdrawals
-.. ```````````````````````
-
+..Manage Affiliate Banners
+..```````````````````````````
+..
+..Create Affiliate Banners
+..~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+..
+..Login to Magento Admin, `Affiliate > Banners`, you will see all banners which are designed ..for Affiliates.
+..
+..https://i.imgur.com/Csh6sMp.png
+..
+..To create a new banner for your Affiliate program, click on **Add New Banner** button, then ..do the following:
+..
+..* Enter `Title` of the banner that is visible on the storefront
+..* If need, complete the `Image Alt Value` field that is good for SEO.
+..* Assign to `Campaign` which is active.
+..* Choose `Banner Type` that might be “Image”, “Text”, or “CMS Static Block”.
+..
+..  * Image - Upload `Image File` and set `Image Size` for its appearance.
+..  * Text - Enter the `Banner Text Value` in the required area.
+..  * CMS Static Block - Choose the desired position from the list of `Static Block`. 
+..* Insert `URL` which the banner is linked to. If empty, it will redirect to Homepage.
+..
+..https://i.imgur.com/FJ8EVrV.png
+..
+..* Tap `Save Banner` to complete.
+..
+..Banners Configuration
+..~~~~~~~~~~~~~~~~~~~~~~
+..
+..Login to Magento Admin, `Affiliate > Settings`, open **Banners Configration** section, 
+..
+..* Set `Enable Module` to "Yes", that allows showing any promotion on the banners as you set
+..* To follow the traffic to the banner, leave "Yes" in the `Enable Traffic Statistic` field
+..* Support **Reset banner traffic** button to refresh all data
+..* To show "AddThis" button on your storefront, choose "Yes" in the `Display AddThis social ..share buttons in frontend` field.
+..* Enable to write a short message which is shown whenever there is any sharing via Social
+..
+..https://i.imgur.com/Y1nOXiY.png
+..
+.... Manage Withdrawals
+.... ```````````````````````
+..
 Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
