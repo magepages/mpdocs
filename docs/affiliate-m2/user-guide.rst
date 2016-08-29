@@ -126,6 +126,19 @@ This link will be displayed in My Account/My Affiliate/Refer tab. If empty, the 
 
 .. image:: https://i.imgur.com/0YKZ2Tg.png
 
+Withdrawal Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Set `Allow withdrawal request` to "Yes".
+* Active the `Payment Method` that allow paying commissions via Paypal or Banks.
+* Set `The minimum balance in affiliate account for requesting withdrawal` to a specific number. If the account balance is less than the required value, the withdrawal is not allowed.
+* Enter `Minimum withdrawal amount` and `Maximum withdrawal amount` per withdrawal.
+* Not calculate tax for the withdrawal request when selecting "No" in the `Apply tax for withdrawal` field.
+* Set the interval for `Allow affiliates to cancel withdrawal request within`. 
+
+.. image:: https://i.imgur.com/vjbkMp5.png
+
+
 
 Manage Affiliate Accounts
 `````````````````````````````
@@ -230,61 +243,6 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 
 When complete all, tap `Save` to apply the new Affiliate program or click on `Save and Continue Edit` to adjust any information.
 
-..Manage Affiliate Banners
-..```````````````````````````
-..
-..Create Affiliate Banners
-..~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-..
-..Login to Magento Admin, `Affiliate > Banners`, you will see all banners which are designed ..for Affiliates.
-..
-..https://i.imgur.com/Csh6sMp.png
-..
-..To create a new banner for your Affiliate program, click on **Add New Banner** button, then ..do the following:
-..
-..* Enter `Title` of the banner that is visible on the storefront
-..* If need, complete the `Image Alt Value` field that is good for SEO.
-..* Assign to `Campaign` which is active.
-..* Choose `Banner Type` that might be “Image”, “Text”, or “CMS Static Block”.
-..
-..  * Image - Upload `Image File` and set `Image Size` for its appearance.
-..  * Text - Enter the `Banner Text Value` in the required area.
-..  * CMS Static Block - Choose the desired position from the list of `Static Block`. 
-..* Insert `URL` which the banner is linked to. If empty, it will redirect to Homepage.
-..
-..https://i.imgur.com/FJ8EVrV.png
-..
-..* Tap `Save Banner` to complete.
-..
-..Banners Configuration
-..~~~~~~~~~~~~~~~~~~~~~~
-..
-..Login to Magento Admin, `Affiliate > Settings`, open **Banners Configration** section, 
-..
-..* Set `Enable Module` to "Yes", that allows showing any promotion on the banners as you set
-..* To follow the traffic to the banner, leave "Yes" in the `Enable Traffic Statistic` field
-..* Support **Reset banner traffic** button to refresh all data
-..* To show "AddThis" button on your storefront, choose "Yes" in the `Display AddThis social ..share buttons in frontend` field.
-..* Enable to write a short message which is shown whenever there is any sharing via Social
-..
-..https://i.imgur.com/Y1nOXiY.png
-..
-.... Manage Withdrawals
-.... ```````````````````````
-..
-Withdrawal Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Set `Allow withdrawal request` to "Yes".
-* Active the `Payment Method` that allow paying commissions via Paypal or Banks.
-* Set `The minimum balance in affiliate account for requesting withdrawal` to a specific number. If the account balance is less than the required value, the withdrawal is not allowed.
-* Enter `Minimum withdrawal amount` and `Maximum withdrawal amount` per withdrawal.
-* Not calculate tax for the withdrawal request when selecting "No" in the `Apply tax for withdrawal` field.
-* Set the interval for `Allow affiliates to cancel withdrawal request within`. 
-
-.. image:: https://i.imgur.com/vjbkMp5.png
-
-.. ### Manage Transactions
 
 
 .. _Magento 2 Affiliate: https://www.mageplaza.com/magento-2-affiliate-extension/
