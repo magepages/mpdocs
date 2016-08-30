@@ -99,7 +99,7 @@ Step 1: Complete the post information
   * NoIndex, Follow
   * Index, NoFollow
 
-  .. image:: https://cdn.mageplaza.com/docs/blog-create-new-post.gif
+  .. image:: https://cdn.mageplaza.com/docs/blog-create-new-blog-post.gif
 
 * Tap `Save and Continue Edit`
 
