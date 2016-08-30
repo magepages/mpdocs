@@ -100,19 +100,19 @@ Or other method
 
 .. image::  https://i.imgur.com/F0y1cQa.png
 
- * In the **Enable One Step Checkout** field, select **Yes** to enable One Step Checkout extension
- * In the **One Step Checkout Page Title** field, enter the page title you want
- * In the **One Step Checkout Description** field, enter the short description to describe the One Step Checkout page
- * In the **Default Country** field, select default country for Billing address and Shipping address.
- * In the **Default Shipping Method** field, set default shipping method in the checkout process.
- * In the **Default Payment Method** field, set default payment method in the checkout process.
- * In the **Allow Guest Checkout** field, select **Yes** to allow checking out as a guest. Guest can create an account in the checkout page.
- * In the **Allow shipping To Different Address** field, select **Yes** to allow customers can shipping to a different address from billing address.
- * In the **Use Auto Suggestion Technology** field, select one of the following options
+  * In the **Enable One Step Checkout** field, select **Yes** to enable One Step Checkout extension
+  * In the **One Step Checkout Page Title** field, enter the page title you want
+  * In the **One Step Checkout Description** field, enter the short description to describe the One Step Checkout page
+  * In the **Default Country** field, select default country for Billing address and Shipping address.
+  * In the **Default Shipping Method** field, set default shipping method in the checkout process.
+  * In the **Default Payment Method** field, set default payment method in the checkout process.
+  * In the **Allow Guest Checkout** field, select **Yes** to allow checking out as a guest. Guest can create an account in the checkout page.
+  * In the **Allow shipping To Different Address** field, select **Yes** to allow customers can shipping to a different address from billing address.
+  * In the **Use Auto Suggestion Technology** field, select one of the following options
 
-  * No: if you don't want to use auto suggestion technology
-  * Google: if you select `Google` option, when customer fills address fields, it will suggest a list of full addresses.
-  * Capture+ by PCA Predict:
+    * No: if you don't want to use auto suggestion technology
+    * Google: if you select `Google` option, when customer fills address fields, it will suggest a list of full addresses.
+    * Capture+ by PCA Predict:
 
 Display Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
