@@ -21,4 +21,13 @@ To enable authentication with this provider and to register a new LinkedIn API A
 
 .. image:: https://lh4.googleusercontent.com/eoMiiak91N6Eghgox5l24onpBts9pXR52qgv6Xl4lQWUWC-EFVa_LEP6dYEjGVGBvHl7UucUPe1iFtnFVCEaORgIR1oIvYuhLGVg8EZHpEBMzhl42iV-Zcmxt6HhhT9VhWb_ebGz
 
+And that's it!
+
+If for some reason you still can't manage to create an application for Twitter, first try to `Google it`_, then check it on `Youtube`_, and if nothing works `ask for support`_.
+
+.. _Google it: https://www.google.com/search?q=Google%20API%20create%20application
+
+.. _Youtube: https://www.youtube.com/results?search_query=Google%20API%20create%20application
+
+.. _ask for support: https://mageplaza.freshdesk.com/support/home
 
