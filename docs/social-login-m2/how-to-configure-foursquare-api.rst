@@ -29,5 +29,5 @@ If for some reason you still can't manage to create an application for Foursquar
 
 .. _Youtube: https://www.youtube.com/results?search_query=Google%20API%20create%20application
 
-.. _ask for support: http://support.magecheckout.com/
+.. _ask for support: https://mageplaza.freshdesk.com/support/home
 
