@@ -77,6 +77,10 @@ Order Review and Place Order
 How to config
 ----------------
 
+Login to Magento Admin, choose `One Step Checkout` on the panel.
+
+  .. image:: https://cdn.mageplaza.com/docs/osc-settings.gif
+
 Following our given guide below to complete One Step Checkout configuration
 
 * General Configuration
@@ -84,17 +88,9 @@ Following our given guide below to complete One Step Checkout configuration
 * Design Configuration
 * Terms & Conditions Configuration
 
+
 General Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-* On the Admin panel, click **Stores**. In the **Settings** section, select **Configuration**.
-* Select **One Step Checkout** under **Mageplaza** in the panel on the left to show the extension configuration.
-
-Or other method
-
-* Click on **One Step Checkout** on the Admin Panel to show the extension configuration if available.
-
-.. image::  https://i.imgur.com/fSj2Py1.png
 
 * Open the **General Configuration** section, and continue with following:
 
