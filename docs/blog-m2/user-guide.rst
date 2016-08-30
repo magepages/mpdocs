@@ -65,6 +65,8 @@ General Configuration
 
 .. image:: https://i.imgur.com/QIs3FXz.png
 
+* Click on `Save Config` when complete.
+
 Create New Post
 ^^^^^^^^^^^^^^^^^
 
@@ -72,7 +74,7 @@ Create New Post
 * Step 2: Assign to Topic
 * Step 3: Assign to Categorie
 * Step 4: Assign Tags to the post
-
+  
 Step 1: Complete the post information
 `````````````````````````````````````````
 
@@ -89,8 +91,6 @@ Step 1: Complete the post information
 * Enter the `URL Key` that the visitor can access the blog post
 * To allow the readers leave comments on your post, choose "Yes" in the `Allow Comment` field.
 
-.. image:: https://i.imgur.com/UNnZ0Xu.png
-
 * Complete `Meta Title`, `Meta Description`,and `Meta Keywords` for your better SEO.
 * Set `Meta Robots` to one of the following opitons:
 
@@ -99,13 +99,57 @@ Step 1: Complete the post information
   * NoIndex, Follow
   * Index, NoFollow
 
-.. image:: https://i.imgur.com/1vAXrbz.png
+  .. image:: https://cdn.mageplaza.com/docs/blog-create-new-post.gif
+
+* Tap `Save and Continue Edit`
 
 Step 2: Assign the post to Topic
 ``````````````````````````````````````
 
-Add new topic
-~~~~~~~~~~~~~~
+* You can do it when you create a new post in the **Topics** tab, or go to **Posts** tab
+* In the list of the available posts, mark the checkbox that is next to the posts you want to assign
+
+.. image:: https://cdn.mageplaza.com/docs/blog-assign-to-topics.gif
+
+* Tap `Save and Continue Edit`
+
+Step 3: Assign to Categories
+`````````````````````````````
+
+* You can do it when you create a new post in the **Categories** tab, or go to **Posts** tab
+* In the list of the available posts, mark the checkbox that is next to the posts you want to assign
+
+.. image:: https://cdn.mageplaza.com/docs/blog-assign-to-categories.gif
+
+* Tap `Save and Continue Edit`
+
+Step 4: Assign Tags to the post
+``````````````````````````````````
+
+* You can do it when you create a new post in the **Tags** tab, or go to **Posts** tab
+* In the list of the available posts, mark the checkbox that is next to the posts you want to assign
+
+.. image:: https://cdn.mageplaza.com/docs/blog-assign-to-tags.gif
+
+* Tap `Save and Continue Edit`, then hit `Save Post` to finish. 
+
+Create new Tag
+^^^^^^^^^^^^^^^^
+
+* Login to Magento Admin, `Better Blog > Categories`
+* To active the new tag, set `Enabled` to "Yes"
+* Set `Name` for the new tag
+* Use WYSIWYG Mode to enter the description of the tag
+* Enter the `URL Key` that the visitor can access the tag
+
+.. image:: https://cdn.mageplaza.com/docs/blog-create-new-tag.gif
+
+* If need, you can assign the new tag to specific post.
+* Click on `Save Tag` when complete.
+
+
+Create new Topic
+^^^^^^^^^^^^^^^^^^^
 
 * Login to Magento Admin, `Better Blog > Topics`
 * To active the new topic, set `Enabled` to "Yes"
@@ -120,21 +164,13 @@ Add new topic
   * NoIndex, Follow
   * Index, NoFollow
 
-.. image:: https://i.imgur.com/idznlqR.png
+  .. image:: https://cdn.mageplaza.com/docs/blog-create-new-topic.gif
 
-Assign the post to Topic
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+* If need, you can assign the new topic to specific post.
+* Click on `Save Topic` when complete.
 
-* You can do it when you create a new post in the **Topics** tab, or go to **Posts** tab
-* In the list of the available posts, mark the checkbox that is next to the posts you want to assign
-
-.. image:: https://i.imgur.com/I0RWCKY.png
-
-Step 3: Assign to Categories
-`````````````````````````````
-
-Add new category
-~~~~~~~~~~~~~~~~~~
+Create new category
+^^^^^^^^^^^^^^^^^^^^^^
 
 * Login to Magento Admin, `Better Blog > Categories`
 * To active the new category, set `Enabled` to "Yes"
@@ -149,38 +185,10 @@ Add new category
   * NoIndex, Follow
   * Index, NoFollow
 
-.. image:: https://i.imgur.com/gGJDcnH.png
+.. image:: https://cdn.mageplaza.com/docs/blog-create-new-category.gif
 
-Assign the post to Category
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* You can do it when you create a new post in the **Categories** tab, or go to **Posts** tab
-* In the list of the available posts, mark the checkbox that is next to the posts you want to assign
-
-.. image:: https://i.imgur.com/oQpkh24.png
-
-Step 4: Assign Tags to the post
-``````````````````````````````````
-
-Add new Tag
-~~~~~~~~~~~~~
-
-* Login to Magento Admin, `Better Blog > Categories`
-* To active the new tag, set `Enabled` to "Yes"
-* Set `Name` for the new tag
-* Use WYSIWYG Mode to enter the description of the tag
-* Enter the `URL Key` that the visitor can access the tag
-
-.. image:: https://i.imgur.com/XWxJ14P.png
-
-Assign Tags to the post
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-* You can do it when you create a new post in the **Tags** tab, or go to **Posts** tab
-* In the list of the available posts, mark the checkbox that is next to the posts you want to assign
-
-.. image:: https://i.imgur.com/Asuq5n6.png
-
+* If need, you can assign the new category to specific post.
+* Click on `Save Category` when complete.
 
 
 .. _Magento 2 Blog: https://www.mageplaza.com/magento-2-blog-extension/
