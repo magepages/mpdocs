@@ -7,12 +7,12 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new Twitter API Application, follow the steps:
 
-#. First go to: https://dev.twitter.com/apps
-#. Create a new application.
-#. Fill out any required fields such as the application name and description.
-#. Provide URL as the Callback URL for your application (See in Social Login Configuration).
-#. Once you have registered, past the created application credentials (Consumer Key and Secret) into the boxes above.
-#. Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Twitter**
+* First go to: https://dev.twitter.com/apps
+* Create a new application.
+* Fill out any required fields such as the application name and description.
+* Provide URL as the Callback URL for your application (See in Social Login Configuration).
+* Once you have registered, past the created application credentials (Consumer Key and Secret) into the boxes above.
+* Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Twitter**
 
 .. image:: https://lh6.googleusercontent.com/ENhqFvdmf60iiTLN-FlIqNBkNurH49gi5B_Fffy4znKFSrw1P4B67Lk2OV-6aRoU8WRK6iAZphgWIsFWjEoCE79xg6frWzspTTrNAoSR-5fFnEd24NhMqYKalmebsmwSW_q59Cw
 

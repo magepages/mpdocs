@@ -7,11 +7,11 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new LinkedIn API Application, follow the steps:
 
-#. Go to the link: https://www.linkedin.com/secure/developer
-#. Select **Create Application** on LinkedIn Developer page
-#. From the register form, fill out required fields such as Company Name, Logo, Email Company,... and click on **Sumit** button
-#. Go to **My App** option from the top of Dashboard page to see all created applications and get Authentication (App id and secret)
-#. Copy and insert API into API fields in **Magento Admin > Social Login > Settings > LinkedIn**
+* Go to the link: https://www.linkedin.com/secure/developer
+* Select **Create Application** on LinkedIn Developer page
+* From the register form, fill out required fields such as Company Name, Logo, Email Company,... and click on **Sumit** button
+* Go to **My App** option from the top of Dashboard page to see all created applications and get Authentication (App id and secret)
+* Copy and insert API into API fields in **Magento Admin > Social Login > Settings > LinkedIn**
 
 .. image:: https://lh5.googleusercontent.com/_XZE7BRrLJMk8VZhmnn3iCSfATqo7HfP6D4tMaoD4KZZl7PuUubLiRAlBLPdSiKtHio92FF2qyxw2WbHzFKO8wrE2dz4yTyxR52zMGD0EiKM7i8shE4nF7FYAtITMnHtYYO_wV6g
 

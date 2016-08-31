@@ -7,11 +7,11 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new Yahoo API Application, follow the steps: 
 
-#. First go to: https://developer.yahoo.com/apps.
-#. Select `Create an App`.
-#. Fill out Application Name, Home Page URl, Callback Domain. In API Permissions (Profiles (Social Directory) choosen Read/Write Public and Private).
-#. Click `Create App button`.
-#. Copy and insert Client Id and Client Secret into API fields in Magento Admin.
+* First go to: https://developer.yahoo.com/apps.
+* Select `Create an App`.
+* Fill out Application Name, Home Page URl, Callback Domain. In API Permissions (Profiles (Social Directory) choosen Read/Write Public and Private).
+* Click `Create App button`.
+* Copy and insert Client Id and Client Secret into API fields in Magento Admin.
 
 .. image:: https://i.imgur.com/uMMzZvT.png
 
