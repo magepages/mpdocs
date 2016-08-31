@@ -59,8 +59,8 @@ Mark the box to register Affiliate Subcription.
 
 .. image:: https://i.imgur.com/G1cxMPO.png
 
-How to Config
-^^^^^^^^^^^^^^^
+How to Configure
+^^^^^^^^^^^^^^^^^^^
 
 General Configurations
 ``````````````````````````````
@@ -219,6 +219,8 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 * Choose the Affiliate group to assign. By the default, “General” is chosen.
 
   .. image:: https://cdn.mageplaza.com/docs/aff-assign-to-affiliate-group.gif
+
+  
 Add Affiliate Group
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -293,6 +295,19 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 .. image:: https://i.imgur.com/0QJqk5n.png
 
 When complete all, tap `Save` to apply the new Affiliate program or click on `Save and Continue Edit` to adjust any information.
+
+Manage Affiliate Withdrawal
+```````````````````````````````
+
+
+
+
+Manage Affiliate Transaction
+```````````````````````````````````
+
+
+
+
 
 
 
