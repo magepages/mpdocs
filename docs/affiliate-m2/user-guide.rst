@@ -3,10 +3,61 @@
 `Magento 2 Affiliate`_ extension from Mageplaza is the greater choice than ever if you want to build an Affiliate program that is crazy enough to drive traffic and sales increase promptly, get qualified leads, and also enhance your brand awareness. Our Affiliate program allows you to pay affiliates amount of commissions 
 
 
-.. Mageplaza Affiliate User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
+Mageplaza Affiliate User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
 
-.. How to Use
-.. ^^^^^^^^^^^^^^
+How to Use
+^^^^^^^^^^^^^^
+
+After installing Affilliate module, Affiliate link is available on the footer of your site. Click on the link and go to Affiliate Home Page. 
+
+Affiliate Home Page
+``````````````````````
+
+Affiliate Home Page is already setup with CMS Block including Welcome Message and How does Affiliate Program work? If you want to change the text, it is possible to edit from the backend. In addition, all of active Affiliate Program will be displayed on the Affiliate Home Page.
+
+.. image:: https://i.imgur.com/FRgYepX.png
+
+Look at the left panel on the page, the customer can sign up to become an affiliate.
+
+* For registered customers:
+  
+  .. image:: https://cdn.mageplaza.com/docs/affiliate-sign-up.gif
+
+* For new customers:
+
+  .. image:: https://cdn.mageplaza.com/docs/affiliate-sign-up-new-customer.gif
+
+My Credit Page
+`````````````````
+
+Each affiliate can manage every credit information such as available balance, holding balance, total earned, and total paid and all transactions related to the account are listed in detail.
+
+.. image:: https://i.imgur.com/B7gTyOz.png
+
+Refer Friend Page
+````````````````````
+
+Affiliate module by Mageplaza allows affiliate refer friends via referral url, code and email. 
+
+.. image:: https://i.imgur.com/oLe1tID.png
+
+Just insert friends' email address together with message to send invitation instantly on Refer Friend page.
+
+My Withdrawal Page
+````````````````````
+
+From Affiliate account, send withdrawal request to admin as much as he need.
+
+.. image:: https://i.imgur.com/oAloixD.png
+
+Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in the progress.
+
+Affiliate Settings Page
+`````````````````````````
+
+Mark the box to register Affiliate Subcription.
+
+.. image:: https://i.imgur.com/G1cxMPO.png
 
 How to Config
 ^^^^^^^^^^^^^^^
