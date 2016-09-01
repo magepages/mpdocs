@@ -189,8 +189,6 @@ Withdrawal Configuration
 
 .. image:: https://i.imgur.com/vjbkMp5.png
 
-
-
 Manage Affiliate Accounts
 `````````````````````````````
 
@@ -220,7 +218,7 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
   .. image:: https://cdn.mageplaza.com/docs/aff-assign-to-affiliate-group.gif
 
-  
+
 Add Affiliate Group
 ~~~~~~~~~~~~~~~~~~~~~~
 
@@ -296,19 +294,42 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 
 When complete all, tap `Save` to apply the new Affiliate program or click on `Save and Continue Edit` to adjust any information.
 
-Manage Affiliate Withdrawal
+Manage Affiliate Withdraws
 ```````````````````````````````
 
+Create new Affiliate Withdraw
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Login to Magento Admin, `Affiliate > Withdraws`.
+* Click on `Add New Withdrawal` button.
+* Choose an affiliate account to create a withdrawal 
+* Under **Withdrawal Configuration** section,
+  * Enter the number of the withdrawal that includes fee into `Amount` field.
+  * Enter the fee for the withdrawal if have. If empty, the configuration value is used.
+  * Choose one of two available payment methods: Offline Payment or Paypal Payment.
+* Under **Payment Detail** section,
+  * If select Offline Payment, fill out `Address` to receive.
+  * If select Paypal Payment, enter `Paypal Email` and `Transaction ID`.
 
 
+  .. image:: https://cdn.mageplaza.com/docs/affiliate-create-withdrawal.gif
 
 Manage Affiliate Transaction
 ```````````````````````````````````
 
+Create new Affiliate Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+* Login to Magento Admin, `Affiliate > Transaction`.
+* Click on `Add new transaction` button.
+* Choose an affiliate account for the new transaction.
+* Under **Transaction Information** section,
+  * Enter the number into `Amount` field that might be adding or subtract affiliate's balance.
+  * Set `Title` for the transaction.
+  * Enter the holding days into `Holding Transaction for` field.
 
+  .. image:: https://cdn.mageplaza.com/docs/affiliate-create-transaction.gif
 
-
-
+  
 
 .. _Magento 2 Affiliate: https://www.mageplaza.com/magento-2-affiliate-extension/
