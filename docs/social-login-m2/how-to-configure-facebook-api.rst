@@ -10,7 +10,7 @@ To enable authentication with this provider and to register a new Facebook API A
 #. First go to: https://developers.facebook.com/apps
 #. Select Add a New App from the Apps menu at the top.
 #. Fill out Display Name, Namespace, choose a category and click Create App.
-#. Go to Settings page and click on Add Platform. Choose website and enter in the new screen your website url in App Domains and Site URL fields. They should match with the current hostname `example.com`_.
+#. Go to Settings page and click on Add Platform. Choose website and enter in the new screen your website url in App Domains and Site URL fields. They should match with the current hostname *example.com*.
 #. Go to the Status & Review page and choose yes where it says Do you want to make this app and all its live features available to the general public?.
 #. Go back to the Dashboard page and past the created application credentials (APP ID and Secret) into the boxes above.
 #. Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Facebook**
