@@ -5,11 +5,11 @@ User Guide
 List of Available Blocks
 ---------------------------
 
-- `Mageplaza\Productslider\Block\AbstractSlider` to contain methods are used by classes extend
-- `Mageplaza\Productslider\Block\OnSaleProduct` to get onsale products collection
-- `Mageplaza\Productslider\Block\CategoryId` to get products collection by category id
-- `Mageplaza\Productslider\Block\FeaturedProducts` to get featured products collection
-- `Mageplaza\Productslider\Block\NewProducts` to get new products collection
+- ``Mageplaza\Productslider\Block\AbstractSlider`` to contain methods are used by classes extend
+- ``Mageplaza\Productslider\Block\OnSaleProduct`` to get onsale products collection
+- ``Mageplaza\Productslider\Block\CategoryId`` to get products collection by category id
+- ``Mageplaza\Productslider\Block\FeaturedProducts`` to get featured products collection
+- ``Mageplaza\Productslider\Block\NewProducts`` to get new products collection
 
 
 CMS Pages, CMS Static Block (Insert into Homepage)
