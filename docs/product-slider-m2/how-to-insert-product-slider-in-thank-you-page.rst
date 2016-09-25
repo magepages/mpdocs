@@ -44,3 +44,10 @@ Arguments
 - `products_count` :  your amout  products you want to display.
 - `heading` :  your heading.
 - `description` :  your decription to your products.
+
+
+
+
+.. include:: user-guide.rst
+
+.. include:: ../ad_footer.rst

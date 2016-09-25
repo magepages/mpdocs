@@ -31,3 +31,4 @@ If for some reason you still can't manage to create an application for Foursquar
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
 
+.. include:: ../ad_footer.rst

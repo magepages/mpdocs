@@ -147,3 +147,6 @@ Paste the following content into `catalog_product_view.xml`::
         </referenceContainer>
     </body>
   </page>
+
+
+.. include:: ../ad_footer.rst

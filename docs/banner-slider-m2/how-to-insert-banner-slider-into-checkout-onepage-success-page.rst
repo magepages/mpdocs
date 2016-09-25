@@ -60,3 +60,6 @@ Paste the following content into `checkout_onepage_success.xml`::
         </referenceContainer>
     </body>
   </page>
+
+  
+.. include:: ../ad_footer.rst

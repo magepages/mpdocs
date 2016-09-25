@@ -177,3 +177,6 @@ Paste the following content into `default.xml`::
     </page>
 
 
+
+
+.. include:: ../ad_footer.rst

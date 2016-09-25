@@ -57,3 +57,6 @@ Paste the following content into `checkout_index_index.xml`::
           </referenceContainer>
       </body>
     </page>
+
+
+.. include:: ../ad_footer.rst

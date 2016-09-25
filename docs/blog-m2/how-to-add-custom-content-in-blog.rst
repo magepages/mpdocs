@@ -32,3 +32,6 @@ Then fill the content of block such as Name, idenity, content ...
 .. image:: http://i.imgur.com/cuHNsfk.png
 
 then click on `Save and continue`
+
+
+.. include:: ../ad_footer.rst

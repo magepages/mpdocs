@@ -8,4 +8,7 @@ Product Slider
     how*
 
 
+
 .. include:: user-guide.rst
+
+.. include:: ../ad_footer.rst

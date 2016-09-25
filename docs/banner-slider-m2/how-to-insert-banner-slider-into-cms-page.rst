@@ -94,3 +94,4 @@ End of content
 
 
 
+.. include:: ../ad_footer.rst

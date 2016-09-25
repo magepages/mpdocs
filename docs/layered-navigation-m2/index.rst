@@ -8,4 +8,7 @@ Layered Navigation
     how*
 
 
+
 .. include:: user-guide.rst
+
+.. include:: ../ad_footer.rst

@@ -76,3 +76,9 @@ Arguments
 - `category_id` : your category id you want to display it's product.
 - `heading` : your heading.
 - `description` : your decription to your products.
+
+
+
+
+
+.. include:: ../ad_footer.rst

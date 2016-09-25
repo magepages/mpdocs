@@ -162,3 +162,5 @@ Paste the following content into `catalog_category_view.xml`::
         </referenceContainer>
     </body>
   </page>
+
+.. include:: ../ad_footer.rst

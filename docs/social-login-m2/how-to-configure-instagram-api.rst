@@ -28,3 +28,6 @@ If for some reason you still can't manage to create an application for Twitter, 
 .. _Youtube: https://www.youtube.com/results?search_query=Google%20API%20create%20application
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
+
+
+.. include:: ../ad_footer.rst

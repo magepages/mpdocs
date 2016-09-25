@@ -25,3 +25,7 @@ Content of crontab.xml file::
 	        </job>
 	    </group>
 	</config>
+
+
+
+.. include:: ../ad_footer.rst
