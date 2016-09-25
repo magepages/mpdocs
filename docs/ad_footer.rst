@@ -1,14 +1,14 @@
 Expert's recommendations
 --------------------------
 
-Must-have extensions for your Magento stores
+.. tip:: Must-have extensions for your Magento stores
 
-#. `Magento 2 One Step Checkout`_
-#. `Magento 2 Layered Navigation`_
-#. `Magento 2 Social Login`_ FREE
-#. `Magento 2 Affiliate`_
-#. `Magento 2 Blog`_ FREE
-#. `Magento 2 SEO`_ FREE
+	#. `Magento 2 One Step Checkout`_
+	#. `Magento 2 Layered Navigation`_
+	#. `Magento 2 Social Login`_ FREE
+	#. `Magento 2 Affiliate`_
+	#. `Magento 2 Blog`_ FREE
+	#. `Magento 2 SEO`_ FREE
 
 
 .. _Magento 2 One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
