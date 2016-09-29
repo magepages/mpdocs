@@ -1,6 +1,24 @@
 Product Slider
 =================
 
+
+
+.. include:: user-guide.rst
+
+
+Advanced
+-------------------------
+.. toctree::
+    :maxdepth: 1
+    :glob:
+
+    advanced-configuration.rst
+    product-slider-options.rst
+
+
+
+Product Slider Tutorials
+-------------------------
 .. toctree::
     :maxdepth: 1
     :glob:
@@ -9,6 +27,5 @@ Product Slider
 
 
 
-.. include:: user-guide.rst
 
 .. include:: ../ad_footer.rst

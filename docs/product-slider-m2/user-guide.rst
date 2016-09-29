@@ -31,14 +31,15 @@ You can paste the above block of snippet into CMS page such as Home page or spec
 **2. XML File , XML Data**
 
 :: 
+
 	<block class="Mageplaza\Productslider\Block\NewProducts" name="product.slider.  newproduct" template="productslider.phtml">
-	      <arguments>
-	        <argument name="products_count" xsi:type="number">8</argument>
-	        <argument name="margin" xsi:type="string">5</argument>
-	        <argument name="heading" xsi:type="string">New Products</argument>
-	        <argument name="description" xsi:type="string">Here is your new products   description </argument>
-	      </arguments>
-	 </block>
+	  <arguments>
+	    <argument name="products_count" xsi:type="number">8</argument>
+	    <argument name="margin" xsi:type="string">5</argument>
+	    <argument name="heading" xsi:type="string">New Products</argument>
+	    <argument name="description" xsi:type="string">Here is your new products   description </argument>
+	  </arguments>
+	</block>
 
 
 Open layout file such as ``category_catalog_view.xml`` or XML Data and insert the above block of code, then all categories page will be added the product slider with 8 new products.
@@ -48,7 +49,9 @@ Open layout file such as ``category_catalog_view.xml`` or XML Data and insert th
 **3. .phtml file**
 
 ::
+
 	<?php echo $block->getLayout()->createBlock('Mageplaza\Productslider\Block\NewProducts')->setTemplate('productslider.phtml')->toHtml();?>
+
 
 Open a ``.phtml`` file and insert where you want to display the product slider.
 
