@@ -3,8 +3,11 @@ How to display specific product IDs
 ======================================
 
 In this guide, we will show you how to display specific product SKUs in product slider. 
-In `Mageplaza Product Slider for Magento 2`_, there is **no Block/class ** supports this feature. So how?
+In `Mageplaza Product Slider for Magento 2`_, there is **no Block/class** supports this feature. So how?
+
 No worry, there is very simple way to do this. First of all, you should create a **new category** and don't show this `category in Menu`.
+
+
 Then associate products what you want to display in Product slider into this category. E.g in this guide, my category id is ``10`` then you can insert the following snippet to CMS static block, XML file or .phtml file
 
 
