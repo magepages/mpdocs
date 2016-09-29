@@ -4,6 +4,17 @@ User Guide
 
 Welcome to User Guide of `Magento 2 Product Slider`_ extension. Actually, this is developer guide, not user guide. Because this extension is developed for Developers.
 
+
+Why Mageplaza developed this module for Developers
+----------------------------------------------------------------
+
+- **Optimize performnace** do not slow your Magento 2 store by adding banner slider everywhere, every positions (~36 positions) on the site. 
+- Details and quality documentations for developers.
+- Implement with ease.
+- No need, no added.
+- Free, Open-source. 
+
+
 List of Available Blocks
 ---------------------------
 
