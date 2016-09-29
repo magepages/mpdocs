@@ -9,6 +9,7 @@ Expert's recommendations
 	#. `Magento 2 Affiliate`_
 	#. `Magento 2 Blog`_ FREE
 	#. `Magento 2 SEO`_ FREE
+	#. `Magento 2 Banner Slider`_ FREE
 
 
 .. _Magento 2 One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
@@ -17,5 +18,6 @@ Expert's recommendations
 .. _Magento 2 Blog: https://www.mageplaza.com/magento-2-blog-extension/
 .. _Magento 2 Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
 .. _Magento 2 SEO: https://www.mageplaza.com/magento-2-seo-extension/
+.. _Magento 2 Banner Slider: https://www.mageplaza.com/magento-2-banner-slider-extension/
 
 
