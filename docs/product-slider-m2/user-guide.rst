@@ -2,6 +2,8 @@
 User Guide
 ==============
 
+Welcome to User Guide of `Magento 2 Product Slider`_ extension. Actually, this is developer guide, not user guide. Because this extension is developed for Developers.
+
 List of Available Blocks
 ---------------------------
 
@@ -9,7 +11,7 @@ List of Available Blocks
 - ``Mageplaza\Productslider\Block\CategoryId`` : **CategoryId** , get products from specific category id
 - ``Mageplaza\Productslider\Block\FeaturedProducts`` : **Featured Products**
 - ``Mageplaza\Productslider\Block\NewProducts`` : **New Products**
-
+- More (coming soon). Request more at ``support@mageplaza.com``
 
 How to use
 ------------
@@ -61,3 +63,4 @@ You can custom template file at  ``app/code/Mageplaza/Productslider/view/fronten
 
 
 
+.. _Magento 2 Product Slider: https://www.mageplaza.com/magento-2-product-slider-extension/
