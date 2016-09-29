@@ -59,10 +59,14 @@ Open a ``.phtml`` file and insert where you want to display the product slider.
 
 
 
-How to change style of product slider
-----------------------------------------
+Custom Style
+-------------
 
 You can custom template file at  ``app/code/Mageplaza/Productslider/view/frontend/templates/productslider.phtml``
+
+.. tip::
+	In your theme, custom design, you should copy this file into your package and edit them instead of directly edit it. 
+
 
 
 
