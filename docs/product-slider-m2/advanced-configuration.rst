@@ -112,4 +112,9 @@ Add Block Featured Products by file layout
   </block>
 
 
-  
+.phtml file
+^^^^^^^^^^^^^^
+
+
+::
+  <?php echo $block->getLayout()->createBlock('Mageplaza\Productslider\Block\NewProducts')->setTemplate('productslider.phtml')->toHtml();?>
