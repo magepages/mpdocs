@@ -50,10 +50,10 @@ Add Block Category Id paste to CMS page
 Explaination
 ---------------
 
-- products_count is your amout  products you want to display
-- category_id is your category id you want to display it's product
-- heading define your heading
-- description define your decription to your products
+- ``products_count`` is your amout  products you want to display
+- ``category_id`` is your category id you want to display it's product
+- ``heading`` define your heading
+- ``description`` define your decription to your products
 
 
 Layout: XML File, XML Data
