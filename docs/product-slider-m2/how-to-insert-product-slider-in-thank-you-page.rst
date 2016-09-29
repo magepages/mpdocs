@@ -5,7 +5,7 @@ Handle: checkout_onepage_success
 
 File: `checkout_onepage_success.xml`
 
-Path: `app\code\Mageplaza\Productslider\view\frontend\layout\checkout_onepage_success.xml`::
+Path: ``app\code\Mageplaza\Productslider\view\frontend\layout\checkout_onepage_success.xml`` ::
 
   <?xml version="1.0"?>
   <page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" layout="2columns-left"
@@ -39,11 +39,11 @@ Path: `app\code\Mageplaza\Productslider\view\frontend\layout\checkout_onepage_su
 Arguments
 ------------
 
-- `loop` :  your slider can loop infinite or not.
-- `category_id` :  your category id you want to display it's product.
-- `products_count` :  your amout  products you want to display.
-- `heading` :  your heading.
-- `description` :  your decription to your products.
+- ``loop`` :  your slider can loop infinite or not.
+- ``category_id`` :  your category id you want to display it's product.
+- ``products_count`` :  your amout  products you want to display.
+- ``heading`` :  your heading.
+- ``description`` :  your decription to your products.
 
 
 
