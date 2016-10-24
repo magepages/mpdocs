@@ -10,7 +10,6 @@ How to Install Magento 2 Extension
 #. **Backup magento files and the store database**
 	.. important::
 		It's very important to backup all of themes and extensions in Magento before installation, especially when you are working on a live server. We strongly recommend you to do not omit this step.
-
 #. Download FTP clients
 Recommend clients: **FileZilla**, **WinSCP**, **cuteFtp**
 
@@ -24,16 +23,13 @@ Upload the extension
 
 #. Unzip extension package and upload them into **Magento root directory**.
 
-.. image:: http://i.imgur.com/0sGASN0.png
-
-
-#. Disable Cache
-	Disable the cache under `System ­> Cache Management`
+.. image:: https://i.imgur.com/0sGASN0.png
 
 
 #. Enter the following at the command line
 
 `php bin/magento setup:upgrade`
+`php bin/magento setup:static-content:deploy`
 
 .. tip::
 	Logout and Login again to avoid **Access denied 404 error** when you go to this product configuration.
@@ -55,7 +51,7 @@ Try to Logout and Login again.  Follow `this guide`_ for more details
 
 #. Messy page, no style.
 
-.. image:: https://i.imgur.com/DDPNRcD.png
+see `this screenshot`__
 
 it because of static content is not generated to pub/ folder. Let’s run command to deploy it.
 
@@ -67,5 +63,6 @@ Run following command:
 .. include:: support.rst
 
 .. _this guide: https://www.mageplaza.com/kb/magento-2-404-page-not-found.html
+.. _this screenshot: https://i.imgur.com/DDPNRcD.png
 
 
