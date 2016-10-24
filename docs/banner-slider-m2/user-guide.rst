@@ -51,7 +51,7 @@ Step 2: Add a new slider
 Step 3: Insert into Homepage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Go to `Admin > Content > Pages > Homepage > Content`
+* Go to `Admin > Content > Pages > Homepage > Content`::
 
 
 	{ { block class="Mageplaza\BetterSlider\Block\Slider" template="Mageplaza_BetterSlider::slider.phtml" banner_id="1" } }
@@ -76,7 +76,7 @@ Navigate your browser to Magento homepage and check result. Here is what we get.
 How to insert Banner Slider in layout file
 ------------------------------------------------
 
-In Xml file, you can insert the following block of code:
+In Xml file, you can insert the following block of code::
 
  
 
