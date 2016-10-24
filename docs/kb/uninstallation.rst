@@ -2,6 +2,9 @@ Uninstallation
 ==============
 
 
+## Note: Backup Code, database before doing this.
+
+
 Uninstall an extension completely
 --------------------------------------------------------------------------------------------------
 
@@ -14,4 +17,3 @@ Open a Mysql mangement such as PHPMyAdmin (Optional)
 
 Open your database > Find database with prefix: mageplaza_EXTENSION_NAME
 Just delete all the database.
-
