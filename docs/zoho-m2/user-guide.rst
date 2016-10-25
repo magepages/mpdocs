@@ -2,9 +2,9 @@
 User Guide
 =============
 
-`Magento 2 Integration`_ module is developed as a perfect intermediate tool that enables to connect thrid-party services via web APIs. These services are the advanced solution of Customer Relationship Management (CRM) such as Zoho, Saleforce, Quickbook or Vtiger. By calling the APIs, Integration Magento 2 extension allows synchroizing respectively all required Magento information to the datastore of CRM System that is using on your store. Meanwhile, the transferred data includes both existing and new one and every operation of the synchronization is automatic once there is any event matching with the request. 
+`Magento 2 Zoho Integration`_ module is developed as a perfect intermediate tool that enables to connect third-party services via web API. This service is the advanced solution of integrating Customer Relationship Management (CRM) from Zoho System. By calling the APIs, Zoho Magento 2 extension allows synchroizing respectively all required Magento information to the datastore of CRM System that is using on your store. Meanwhile, the transferred data includes both existing and new one and every operation of the synchronization is automatic once there is any event matching with the request. 
 
-Magento 2 Integration is one of the cutting-edge tools by Mageplaza to help you modernize your management organization of the customer service. In this document, we will dig deeply into the guides how to transfer the data when integrating Zoho CRM system. 
+Magento 2 Zoho Integration is one of the cutting-edge tools by Mageplaza to help you modernize your management organization of the customer service. In this document, we will dig deeply into the guides how to transfer the data when integrating Zoho CRM system. 
 
 First of all, please go to the backend of Integration module after purchasing. On the sidebar, click on `Integration` section, then you can see a list of configuration options: **Manage Apps**, **Manage Rules**, **Manage Logs**, **Settings**, and **Sync Manually**.
 
@@ -124,8 +124,20 @@ Integration Logs is the place to list all events for store owner's management. E
 .. ---------------
 
 
+If there is any need of other CRM integrations, you can refer the following list:
+
+* `Magento 2 Saleforce Integration`_
+* `Magento 2 Quickbook Integration`_
+* `Magento 2 Vtiger CRM Integration`_
+* `Magento 2 Odoo Integration`_
 
 
+.. _Magento 2 Zoho Integration: https://www.mageplaza.com/magento-2-zoho-crm-integration-extension/
 
+.. _Magento 2 Saleforce Integration: http://www.mageplaza.com/magento-2-salesforce-integration-extension/
 
-.. _Magento 2 Integration: https://www.mageplaza.com/magento-2-zoho-crm-integration-extension/
+.. _Magento 2 Quickbook Integration: http://www.mageplaza.com/magento-2-quickbooks-integration-extension/
+
+.. _Magento 2 Vtiger CRM Integration: http://www.mageplaza.com/magento-2-vtiger-integration-extension/
+
+.. _Magento 2 Odoo Integration: http://www.mageplaza.com/magento-2-odoo-integration-extension/

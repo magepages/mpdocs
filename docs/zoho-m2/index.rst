@@ -1,4 +1,4 @@
-Integration
+Zoho Integration
 =================
 
 .. toctree::

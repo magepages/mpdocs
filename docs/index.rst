@@ -40,4 +40,4 @@ Welcome to Mageplaza Docs
    kb-m2/index
    product-slider-m2/index
    layered-navigation-m2/index
-
+   zoho-m2/index
