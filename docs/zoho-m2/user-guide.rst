@@ -49,7 +49,7 @@ Magento 2 Integration allows building multiple apps by clicking on "Add new Apps
   * `Type` is blocked by the "Zoho" value that you have chosen before.
   * Insert `Authentication Token` you took from the website Zoho CRM System.
 
-    .. Note:: Each authentication key is applied for one time.
+    .. Note:: Each authentication key is applied for only one time.
 
   * Set `Status` to "Enable" this means you allow synchronizing the data between Magento and Zoho CRM.
 
