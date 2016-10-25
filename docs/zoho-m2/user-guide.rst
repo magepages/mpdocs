@@ -134,9 +134,9 @@ If there is any need of other CRM integrations, you can refer the following list
 
 .. _Magento 2 Zoho Integration: https://www.mageplaza.com/magento-2-zoho-crm-integration-extension/
 
-.. _Magento 2 Saleforce Integration: http://www.mageplaza.com/magento-2-salesforce-integration-extension/
+.. _Magento 2 Salesforce Integration: http://www.mageplaza.com/magento-2-salesforce-integration-extension/
 
-.. _Magento 2 Quickbook Integration: http://www.mageplaza.com/magento-2-quickbooks-integration-extension/
+.. _Magento 2 Quickbooks Integration: http://www.mageplaza.com/magento-2-quickbooks-integration-extension/
 
 .. _Magento 2 Vtiger CRM Integration: http://www.mageplaza.com/magento-2-vtiger-integration-extension/
 
