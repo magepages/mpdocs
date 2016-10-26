@@ -76,7 +76,7 @@ Store Admin is allowed to manage all created rules on the grid through ID, Name,
 Set a new rule
 ^^^^^^^^^^^^^^^
 
-You can set unlimited rules from the backend. Depending on the apps are active, a list of the apps will display when tapping the dropdown arrow on the upper-right corner of "Manage Rules" page.
+You can set unlimited rules from the backend. Depending on the apps are active (Enabled & Connected), a list of the apps will display when tapping the dropdown arrow on the upper-right corner of "Manage Rules" page.
 
 * Choose the app you want to set the rule.
 * Complete the rule information that is divided into two parts when a synchronization action occurs.
