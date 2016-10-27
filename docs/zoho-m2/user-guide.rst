@@ -90,7 +90,7 @@ You can set unlimited rules from the backend. Depending on the apps are active (
     * Choose `App Entity`.
     * Basing on the chosen entity, the corresponding `App Action` options will be available to select.
 * Set `Status` to "Enabled" for using.
-* Then click on `Save and Continue Edit`.
+* Click on `Save and Continue Edit`.
 
 .. image:: https://i.imgur.com/xcfJR8F.gif
     
@@ -98,6 +98,10 @@ You can set unlimited rules from the backend. Depending on the apps are active (
 * All data related to the entity will be listed there. When you tap on any field, **Mapping Field** popup box will appear to choose.
 
 .. image:: https://i.imgur.com/VYWWwpg.gif
+
+* Click on `Save and Continue Edit` button, then open `Sync` option to enable the rule.
+
+.. image:: https://i.imgur.com/rVyLFF5.png
 
 Edit Rule Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
