@@ -67,8 +67,8 @@ Step 3: Rich Snippets | Structured Data Configuration
 * In the **Enable Organization Information** field, to enable Organization Information, choose **Yes** option
 
 
-Step 4: .htaccess Editor [Beta] Configuration Configuration
-````````````````````````````````````````````````````````````````
+Step 4: .htaccess Editor [Beta] Configuration Configuration [Deprecated]
+```````````````````````````````````````````````````````````````````````````
 * Open the **.htaccess Editor [Beta]** section, and continue with following
 
 .. image::  https://i.imgur.com/s2iGwMJ.png
@@ -76,8 +76,8 @@ Step 4: .htaccess Editor [Beta] Configuration Configuration
 * In the **.htaccess Content** field, enter the .htaccess content in this field. Or just lick on **Download .htaccess content** to download the existing file, then click on **Save .htaccess** to save your content
 
 
-Step 5: Robots.txt Editor [Beta] Configuration
-`````````````````````````````````````````````````````
+Step 5: Robots.txt Editor [Beta] Configuration [Deprecated]
+````````````````````````````````````````````````````````````
 * Open the **Robots.txt Editor [Beta]** section, and continue with following
 
 .. image::  https://i.imgur.com/02MKhyf.png
