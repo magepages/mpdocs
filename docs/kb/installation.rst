@@ -29,6 +29,7 @@ Upload the extension
 #. Enter the following at the command line
 
 `php bin/magento setup:upgrade`
+
 `php bin/magento setup:static-content:deploy`
 
 .. tip::
