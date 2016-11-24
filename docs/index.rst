@@ -41,3 +41,4 @@ Welcome to Mageplaza Docs
    product-slider-m2/index
    layered-navigation-m2/index
    zoho-m2/index
+   store-locator-m2/index

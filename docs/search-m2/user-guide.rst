@@ -38,7 +38,7 @@ How to config
 * In the `Maximum Query Result` field, enter the maximum number of search result that you want to show in the search result grid
 
 
-That's all about the user guide of Mageplaza Search extension for Magento 1. If you still have any question, please feel free to contact us. 
+That's all about the user guide of Mageplaza Search extension for Magento 2. If you still have any question, please feel free to contact us. 
 
 
 
