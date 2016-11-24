@@ -49,7 +49,7 @@ Google Map Appearance
 
 Embeding Google Map API means enabling the map on the store locator interface. At that time, each store that is finded by the customer will display on Google Map with store icon. When click on the icon, the store information also appears as admin's settings.
 
-..image:: https://i.imgur.com/v9dkSUp.png
+.. image:: https://i.imgur.com/v9dkSUp.png
 
 Get Direction
 ````````````````
