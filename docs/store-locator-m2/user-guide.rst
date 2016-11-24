@@ -3,7 +3,7 @@ User Guide
 =============
 
 
-If you are owning an online store and building up a physical shop as well, are you ready to bring both to be more intimate with your targeted consumers? `Magento 2 Store Locator exension`_ will help you shorten the distance wherever you are loacted. By this way, you can put  store icons each of which represent exactly the store address on Google Map. Installing Store Locator module on your Magento 2 store, your customer can find out the nearest place from their current positions when they visit your online store. This is the greatest and shortest way for online clients to seek and pick up expected products. 
+If you are owning an online store and building up a physical shop as well, are you ready to bring both to be more intimate with your targeted consumers? `Magento 2 Store Locator`_ exension will help you shorten the distance wherever you are loacted. By this way, you can put  store icons each of which represent exactly the store address on Google Map. Installing Store Locator module on your Magento 2 store, your customer can find out the nearest place from their current positions when they visit your online store. This is the greatest and shortest way for online clients to seek and pick up expected products. 
 
 In this helpful Mageplaza documentation, you will achieve the user guide of **How to use** and **How to config** on the frontend and backend of Store Locator Magento 2 module. 
 
@@ -268,4 +268,5 @@ Go to `Store Locator > Holidays`
 
 
 .. _Magento 2 Store Locator: https://www.mageplaza.com/magento-2-store-locator-extension/
+
 .. _Google Address Suggestion: https://www.mageplaza.com/magento-2-one-step-checkout-extension/google-address-suggestion.html
