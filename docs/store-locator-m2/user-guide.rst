@@ -3,7 +3,7 @@ User Guide
 =============
 
 
-If you are owning an online store and building up a physical shop as well, are you ready to bring both to be more intimate with your targeted consumers? `Magento 2 Store Locator`_ exension will help you shorten the distance wherever you are loacted. By this way, you can put  store icons each of which represent exactly the store address on Google Map. Installing Store Locator module on your Magento 2 store, your customer can find out the nearest place from their current positions when they visit your online store. This is the greatest and shortest way for online clients to seek and pick up expected products. 
+If you are owning an online store and building up a physical shop as well, are you ready to bring both to be more intimate with your targeted consumers? `Magento 2 Store Locator`_ extension will help you shorten the distance wherever you are located. By this way, you can put  store icons each of which represents exactly the store address on Google Map. Installing Store Locator module on your Magento 2 store, your customer can find out the nearest place from their current positions when they visit your online store. This is the greatest and shortest way for online clients to seek and pick up expected products. 
 
 In this helpful Mageplaza documentation, you will achieve the user guide of **How to use** and **How to config** on the frontend and backend of Store Locator Magento 2 module. 
 
@@ -30,14 +30,14 @@ If not dragging and dropping, you can insert a number into the box put next to t
 Search by area
 ````````````````````
 
-"Search by area" allows the seeker to enter address in search box to load the nearest store. However, there is no need to type manually, the finder tool already applies `Google Address Suggestion`_ via embeded Google Map API and allows auto-complete the address instead. 
+"Search by area" allows the seeker to enter an address in the search box to load the nearest store. However, there is no need to type manually, the finder tool already applies `Google Address Suggestion`_ via embedded Google Map API and allows auto-complete the address instead. 
 
 .. image:: https://i.imgur.com/jEZWgqR.gif
 
 Store Information 
 ^^^^^^^^^^^^^^^^^^^
 
-Basing on the given information, the best stores will instantly appear together with many attached info including Store Name, Address(Contry, City, State/Province), Zip/Postal Code, Website, Email, and even Working Hour. All of them are both useful for the customer's visit. In addition, as a store admin, you can also upload some of store images to preview the store. 
+Basing on the given information, the best stores will instantly appear together with many attached info including Store Name, Address(Country, City, State/Province), Zip/Postal Code, Website, Email, and even Working Hour. All of them are both useful for the customer's visit. In addition, as a store admin, you can also upload some of the store images to preview the store. 
 
 .. image:: https://i.imgur.com/1LSuBwX.png 
 
@@ -47,7 +47,7 @@ Google Map Functionality
 Google Map Appearance
 ````````````````````````
 
-Embeding Google Map API means enabling the map on the store locator interface. At that time, each store that is finded by the customer will display on Google Map with store icon. When click on the icon, the store information also appears as admin's settings.
+Embedding Google Map API means enabling the map on the store locator interface. At that time, each store that is found by the customer will display on Google Map with store icon. When clicking on the icon, the store information also appears as admin's settings.
 
 .. image:: https://i.imgur.com/v9dkSUp.png
 
@@ -86,13 +86,13 @@ General
 Map Settings
 ````````````````
 
-This settings is the workplace you can connect your store locator module with Google Map, anaadvacned solution for the fast location.
+This setting is the workplace you can connect your store locator module with Google Map, an advanced solution for the fast location.
 
-Under **Map Settings** section, you need to do as the following:
+Under **Map Settings** section, you need to do the following:
 
 * Take Google Map API key when clicking on `here` text link, and fill it into `Google Map API Key` field.
 * Enabling `Location Autocomplete` means the module will automatically complete the location address in the search box.
-* Set `Full map start` to "Yes" to autodisplay the map on the store finder.
+* Set `Full map start` to "Yes" to auto display the map on the store finder.
 * Allow showing the clear direction from the search place to your store by choosing "Yes" in the `Direction` field.
 * Accept `Max Distance` when you search stores around a radius chosen before.
 * Set the `Default Address` in the search address box.
@@ -106,7 +106,7 @@ Under **Map Settings** section, you need to do as the following:
 Language options
 `````````````````````
 
-Regarding your store languge, Store Locator makes you free to convert into the native language. You can modify all words and phrases for the most effective customer awareness:
+Regarding your store language, Store Locator makes you free to convert into the native language. You can modify all words and phrases for the most effective customer awareness:
 
 * Address Error Alert
 * Autogeocode Error Alert
@@ -140,9 +140,9 @@ Entere Location Information
 * Firstly, you will config the general information of the new store location
 
   * Enter `Name` for the location.
-  * If need, you can wirte some descriptions in the text area in order to attract more customers to your stores.
+  * If need, you can write some descriptions in the text area in order to attract more customers to your stores.
   * Update `Location Image` as a store avatar by choosing a file image from your computer.
-  * Generate the specific URL in the `URL Key` field that direct to that store. If missing it, the radom URL will be used.
+  * Generate the specific URL in the `URL Key` field that direct to that store. If missing it, the random URL will be used.
   * Assign the new store to `Store View`.
   * Select `Marker` (store type) and `Hours of Operation` (store's working time).
 
@@ -170,7 +170,7 @@ Entere Location Information
 
 .. image:: https://i.imgur.com/HBDlgS8.gif 
 
-* Remember say "Yes" for `Enable` to show the store loaction in the store list.
+* Remember to say "Yes" for `Enable` to show the store location in the store list.
 Assign to Tags
 ``````````````````
 
@@ -203,7 +203,7 @@ Go to `Store Locator > Marker`.
 
 .. image:: https://i.imgur.com/2ijMzpg.gif
 
-Creating new store marker means set a new style of store (restaurant, book store, cafe, etc), then it might be assigned to specific store.
+Creating new store marker means to set a new style of the store (restaurant, bookstore, cafe, etc), then it might be assigned to the specific store.
 
 * Click on **Add New Marker** button
 * Enter `Marker Name`
@@ -213,7 +213,7 @@ Creating new store marker means set a new style of store (restaurant, book store
 Create Store Tag
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Still in the configuration, go to `Store Locator > Tags`
+Still, in the configuration, go to `Store Locator > Tags`
 
 .. image:: https://i.imgur.com/y7S9xMA.gif
 
@@ -233,7 +233,7 @@ Still in the configuration, go to `Store Locator > Tags`
 Set Working Hours
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Provide vistors the working time of your stores in detail (from Monday to Sunday).
+Provide visitors the working time of your stores in detail (from Monday to Sunday).
 
 Follow the guide: `Store Locator > Hours of Operation`.
 
@@ -243,10 +243,10 @@ Follow the guide: `Store Locator > Hours of Operation`.
 * `Name` for the new one
 * Set opening and closing time of each day
 
-Set Holoday Time
+Set Holiday Time
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Notify the vistors which holiday you will not be available.
+Notify the visitors which holiday you will not be available.
 
 Go to `Store Locator > Holidays`
 
@@ -258,7 +258,7 @@ Go to `Store Locator > Holidays`
    .. note:: Store holiday's name cannot duplicate 
 
   * Insert start and end time of the holiday through Calendar icon
-  * You can describe about this holiday in the `Short Description` text area
+  * You can describe this holiday in the `Short Description` text area
   * `Enable` is "Yes" to show it
 * Choose more than one location to show that holiday
 
