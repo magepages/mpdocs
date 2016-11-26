@@ -86,7 +86,7 @@ Create new brand
   * Meta Keywords
 * `Save Brand` to ensure that creating the new brand is successful.
 
-  .. note:: For the existing brands, you can edit their information via "Advanced Option" button.
+  .. note:: For the existing brands, you can edit their information via **Advanced Option** button.
 
 Assign brand to product 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
