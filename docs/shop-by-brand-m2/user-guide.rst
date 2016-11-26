@@ -2,7 +2,7 @@
 User Guide
 ================
 
-By Mageplaza you can find many extensions that cane help online stores improve customers search such as `Magento 2 Layered Navigation`_ and `Magento 2 Advanced Search`_ extension, and `Magento 2 Shop by Brand`_ extension is also one of the such great tool. Similar to the navigation, Shop by Brand allows fitering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by. 
+By Mageplaza you can find many extensions that cane help online stores improve customers search such as `Magento 2 Layered Navigation`_ and `Magento 2 Advanced Search`_ extension, and `Magento 2 Shop by Brand`_ extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by. 
 
 In this helpful Mageplaza documentation, you will achieve the user guide of **How to use** and **How to config** on the frontend and backend of Shop by Brand Magento 2 module. 
 
@@ -10,16 +10,16 @@ In this helpful Mageplaza documentation, you will achieve the user guide of **Ho
 How to use 
 ---------------
 
-As soon as installing Shop by Brand completely, your customers can easily search all products under the favourite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: "search via box" and "search via alphabet". You will follow these ways here.
+As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: "search via box" and "search via alphabet". You will follow these ways here.
 
 Search Box
 ^^^^^^^^^^^^^^^^^^^
 
-The search box on Magento 2 Shop by Brand has some functionalities that alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and acheiving the drop-down results instantly on the current page.
+The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
 
 .. image:: https://i.imgur.com/jcxg8N5.gif
 
-The brand results comes with Brand Logo, Brand Image and Brand Description. 
+The brand results come with Brand Logo, Brand Name, and Brand Description. 
 
 .. image:: https://i.imgur.com/TiE2DyN.png
 
@@ -47,7 +47,7 @@ Settings
 * Go to `Shop by Brand > Settings`
 * Expand **General** section, please do the following:
   * `Enable` the module when choosing "Yes" to allow customers shop by brand
-  * From the existing list of product attribute, set `Select Brand's Product Attribbute	to the correct choice. In this guide, "mp_brand" is the option you have to select
+  * From the existing list of the product attribute, set `Select Brand's Product Attribute    to the correct choice. In this guide, "mp_brand" is the option you have to select
 
     .. note:: To create a new product attribute under "Brand" name, please read `How to Create Product Attribute Sets in Magento 2`_ topic in Magento 2 Tutorial by Mageplaza.
 
@@ -78,7 +78,7 @@ Create new brand
   * Create **URL Key**
   * Upload `Brand Image` from your computer
   * Enter `Short Description` (appear on the search result) and `Description` (appear on Brand Listing) 
-  * Allow showing as a statis block on anywhere of your page. You can disable it if need
+  * Allow showing as a static block on anywhere of your page. You can disable it if need
   * In the `Enable` field, choose "Yes" to show the new brand
 * Expand **Meta Information** section, you can complete all fields for your better SEO, including:
   * Meta Title
@@ -91,11 +91,11 @@ Create new brand
 Assign brand to product 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-This guide helps you classify what brand a product is mage by.
+This guide helps you classify what brand a product is made by.
 
 * On the Admin Panel, `Product > Inventory > Catalog`.
 * Select an exact product you want to assign, and open `Edit` mode under **Action** column.
-* On the settings page of the product, you will see `Brand` field that allow assign a corresponding brand to that product.
+* On the settings page of the product, you will see `Brand` field that allows assigning a corresponding brand to that product.
 
 .. image:: https://i.imgur.com/B4c9jeE.png
 
