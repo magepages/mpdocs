@@ -56,11 +56,14 @@ Settings
   * Enter `Url Prefix`, if passing it, the default (brand) is applied
   * Select relevant color for the `Background color` of Shop by Brand's interface 
   * Show `Featured page format` as "Net" or "Slider" that depends on your store's design
+
 * Expand **Search Settings** section,
+
   * Set `Min chars test`, that should be usually 1 or 2
   * Limit `Maximum Query Result` that match with the given request
   * Make brand image visible on the search by selecting "Yes"
   * Set `Max Letter Number` in the search box
+
 .. image:: https://i.imgur.com/YMy5mJ4.png
 
 Create new brand
@@ -75,16 +78,20 @@ Create new brand
 
 * On the right corner, click on **Add New Brand**.
 * Expand **Brand Information** section,
+
   * Set `Name` for the new brand
   * Create **URL Key**
   * Upload `Brand Image` from your computer
   * Enter `Short Description` (appear on the search result) and `Description` (appear on Brand Listing) 
   * Allow showing as a static block on anywhere of your page. You can disable it if need
   * In the `Enable` field, choose "Yes" to show the new brand
+
 * Expand **Meta Information** section, you can complete all fields for your better SEO, including:
+
   * Meta Title
   * Meta Description
   * Meta Keywords
+  
 * `Save Brand` to ensure that creating the new brand is successful.
 
   .. note:: For the existing brands, you can edit their information via **Advanced Option** button.
