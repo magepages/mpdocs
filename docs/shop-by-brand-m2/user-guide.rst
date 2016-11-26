@@ -48,7 +48,7 @@ Settings
 * Expand **General** section, please do the following:
 
   * `Enable` the module when choosing "Yes" to allow customers shop by brand
-  * From the existing list of the product attribute, set `Select Brand's Product Attribute    to the correct choice. In this guide, "mp_brand" is the option you have to select
+  * From the existing list of the product attribute, set `Select Brand's Product Attribute    to the correct choice. In this guide, *mp_brand* is the option you have to select
 
     .. note:: To create a new product attribute under "Brand" name, please read `How to Create Product Attribute Sets in Magento 2`_ topic in Magento 2 Tutorial by Mageplaza.
 
