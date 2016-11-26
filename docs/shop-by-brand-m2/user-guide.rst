@@ -96,7 +96,7 @@ Create new brand
 
   .. note:: For the existing brands, you can edit their information via **Advanced Option** button.
 
-Assign brand to product 
+Assign product to brand
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This guide helps you classify what brand a product is made by.
