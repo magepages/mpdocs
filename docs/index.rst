@@ -42,3 +42,4 @@ Welcome to Mageplaza Docs
    layered-navigation-m2/index
    zoho-m2/index
    store-locator-m2/index
+   shop-by-brand-m2/index
