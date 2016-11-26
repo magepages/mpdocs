@@ -46,6 +46,7 @@ Settings
 
 * Go to `Shop by Brand > Settings`
 * Expand **General** section, please do the following:
+
   * `Enable` the module when choosing "Yes" to allow customers shop by brand
   * From the existing list of the product attribute, set `Select Brand's Product Attribute    to the correct choice. In this guide, "mp_brand" is the option you have to select
 
