@@ -1,19 +1,15 @@
-=============
-User Guide
-=============
-
 
 If you are owning an online store and building up a physical shop as well, are you ready to bring both to be more intimate with your targeted consumers? `Magento 2 Store Locator`_ extension will help you shorten the distance wherever you are located. By this way, you can put  store icons each of which represents exactly the store address on Google Map. Installing Store Locator module on your Magento 2 store, your customer can find out the nearest place from their current positions when they visit your online store. This is the greatest and shortest way for online clients to seek and pick up expected products. 
 
 In this helpful Mageplaza documentation, you will achieve the user guide of **How to use** and **How to config** on the frontend and backend of Store Locator Magento 2 module. 
 
 
-How to use
+I. How to use
 -------------
 
 After completing the installation of Store Locator module, **How to use** will give you good experience as a real customer. The following list is everything that you can do with the module at your website.
 
-Search by impressive ways
+1. Search by impressive ways
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Store Locator allows the user to find all brick-and-mortar shops around the exact radius from their places. Thus, you also know the customers not only search by area but also search by radius for the fastest finding.
@@ -34,14 +30,14 @@ Search by area
 
 .. image:: https://i.imgur.com/jEZWgqR.gif
 
-Store Information 
-^^^^^^^^^^^^^^^^^^^
+2. Store Information 
+^^^^^^^^^^^^^^^^^^^^^^
 
 Basing on the given information, the best stores will instantly appear together with many attached info including Store Name, Address(Country, City, State/Province), Zip/Postal Code, Website, Email, and even Working Hour. All of them are both useful for the customer's visit. In addition, as a store admin, you can also upload some of the store images to preview the store. 
 
 .. image:: https://i.imgur.com/1LSuBwX.png 
 
-Google Map Functionality
+3. Google Map Functionality
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Google Map Appearance
@@ -64,12 +60,12 @@ For more convenience, the customers will be clearly guided by Google Map Directi
 
 .. image:: https://i.imgur.com/wi0IhJH.png
 
-How to config
----------------
+II. How to config
+--------------------
 
 Login to Magento 2 backend, you will have full of admin controls here.
 
-Basic Configuration
+1. Basic Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 On the left panel, `Store Locator > Settings`, General Settings is divided into four sections: General, Map Settings, Language options, and Hour of Operation.
@@ -124,7 +120,7 @@ You will set `Time to closing` as a notification the store will out of work. As 
 
 .. image:: https://i.imgur.com/GPtIJHJ.png 
 
-Create Store Location
+2. Create Store Location
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Make step as the path: `Store Locator > Location`, on the **Location** page, do as following:
@@ -196,7 +192,7 @@ Meta Data is very useful for SEO. Raise your SEO rank via:
 
 .. image:: https://i.imgur.com/7zSKMuz.png
 
-Create Store Marker
+3. Create Store Marker
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Go to `Store Locator > Marker`.
@@ -210,7 +206,7 @@ Creating new store marker means to set a new style of the store (restaurant, boo
 * Apply separate icon for each marker by uploading the personal image.
 * `Save Marker` to complete.
 
-Create Store Tag
+4. Create Store Tag
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Still, in the configuration, go to `Store Locator > Tags`
@@ -230,7 +226,7 @@ Still, in the configuration, go to `Store Locator > Tags`
 
 * `Save Tag` to complete.
 
-Set Working Hours
+5. Set Working Hours
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Provide visitors the working time of your stores in detail (from Monday to Sunday).
@@ -243,7 +239,7 @@ Follow the guide: `Store Locator > Hours of Operation`.
 * `Name` for the new one
 * Set opening and closing time of each day
 
-Set Holiday Time
+6. Set Holiday Time
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Notify the visitors which holiday you will not be available.
