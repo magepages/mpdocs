@@ -54,11 +54,13 @@ Settings
   * Select relevant color for the `Background color` of Shop by Brand's interface 
   * Show `Featured page format` as "Net" or "Slider" that depends on your store's design
 
-**Net Featured Brands**
+Net Featured Brands
+``````````````````````
 
 .. image:: https://i.imgur.com/F7aeoum.png
 
-**Slider Featured Brands**
+Slider Featured Brands
+```````````````````````````
 
 .. image:: https://i.imgur.com/oNvpJdZ.gif
 
@@ -115,11 +117,13 @@ This guide helps you classify what brand a product is made by.
 * `Save` the change to complete the brand attachment.
 * When finish all, the brand logo will display on both Brand Listing Search and the product detailed page of the assigned product.
 
-**Brand Listing**
+Brand Listing
+```````````````````
 
 .. image:: https://i.imgur.com/4rGgrJF.png
 
-**On Product Page**
+On Product Page
+`````````````````````
 
 .. image:: https://i.imgur.com/Cs7XSXT.png
 
