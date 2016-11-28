@@ -47,7 +47,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   * `Enable` the module when choosing "Yes" to allow customers shop by brand
   * From the existing list of the product attribute, set `Select Brand's Product Attribute    to the correct choice. In this guide, *mp_brand* is the option you have to select
 
-    .. note:: To create a new product attribute under "Brand" name, please read `How to Create Product Attribute Sets in Magento 2`_ topic in Magento 2 Tutorial by Mageplaza.
+    .. note:: To create a new product attribute under "Brand" name, please read `How to Create Product Attribute in Magento 2`_ topic in Magento 2 Tutorial by Mageplaza.
 
   * Enter `Brand Titles`.
   * Enter `Url Prefix`, if passing it, the default (brand) is applied
@@ -130,4 +130,4 @@ On Product Page
 .. _Magento 2 Shop by Brand: https://www.mageplaza.com/magento-2-shop-by-brand/
 .. _Magento 2 Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/
 .. _Magento 2 Advanced Search: https://www.mageplaza.com/magento-2-search-extension/
-.. _How to Create Product Attribute Sets in Magento 2: https://www.mageplaza.com/kb/how-to-create-product-attribute-sets-magento-2.html
+.. _How to Create Product Attribute in Magento 2: https://www.mageplaza.com/kb/how-to-create-product-attribute-magento-2.html
