@@ -117,7 +117,7 @@ This guide helps you classify what brand a product is made by.
 * `Save` the change to complete the brand attachment.
 * When finish all, the brand logo will display on both Brand Listing Search and the product detailed page of the assigned product.
 
-Brand Listing
+On Brand Listing
 ```````````````````
 
 .. image:: https://i.imgur.com/4rGgrJF.png
