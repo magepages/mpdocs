@@ -1,6 +1,6 @@
-================
+
 User Guide
-================
+
 
 By Mageplaza you can find many extensions that cane help online stores improve customer search such as `Magento 2 Layered Navigation`_ and `Magento 2 Advanced Search`_ extension, and `Magento 2 Shop by Brand`_ extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by. 
 
@@ -106,6 +106,11 @@ This guide helps you classify what brand a product is made by.
 * On the settings page of the product, you will see `Brand` field that allows assigning a corresponding brand to that product.
 
 .. image:: https://i.imgur.com/B4c9jeE.png
+
+* `Save` to complete the brand attachment.
+* When finish all, the brand logo will display on both Brand Listing Search and the product detailed page of the assigned product.
+
+.. image:: https://i.imgur.com/Cs7XSXT.png
 
 .. _Magento 2 Shop by Brand: https://www.mageplaza.com/magento-2-shop-by-brand/
 .. _Magento 2 Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/
