@@ -4,12 +4,12 @@ By Mageplaza you can find many extensions that cane help online stores improve c
 In this helpful Mageplaza documentation, you will achieve the guide of **How to use** and **How to config** on the frontend and backend of Shop by Brand Magento 2 module. 
 
 
-How to use 
+I. How to use 
 ---------------
 
 As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: **Search Box** and **Alphabet Search**. You will follow these ways here.
 
-Search Box
+1. Search Box
 ^^^^^^^^^^^^^^^^^^^
 
 The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
@@ -20,14 +20,14 @@ The brand results come with Brand Logo, Brand Name, and Brand Description.
 
 .. image:: https://i.imgur.com/TiE2DyN.png
 
-Alphabet Search
+2. Alphabet Search
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 Alphabet Search, placed under Search Box, is represented including "Show All" and the alphabets. Depending on the first characteristic of the brand name, the user will tap on the respective button.
 
 .. image:: https://i.imgur.com/p0Xb3sb.gif
 
-How to config
+II. How to config
 ------------------
 
 Login to the backend of Magento 2 Shop by Brand. To cover full of the configuration as an administrator, you need to follow 3 parts: 
@@ -36,7 +36,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 * Create new brand
 * Assign brand to product
 
-Settings
+1. Settings
 ^^^^^^^^^^^^^^^^^^^
 
 **Settings** tab is a bunch of the basic configuration you need to set up firstly. 
@@ -73,7 +73,7 @@ Slider Featured Brands
 
 .. image:: https://i.imgur.com/YMy5mJ4.png
 
-Create new brand
+2. Create new brand
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * On the Admin Panel, `Store > Attributes > Product`.
@@ -103,8 +103,8 @@ Create new brand
 
   .. note:: For the existing brands, you can edit their information via **Advanced Option** button.
 
-Assign product to brand
-^^^^^^^^^^^^^^^^^^^^^^^^^
+3. Assign product to brand
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This guide helps you classify what brand a product is made by.
 
