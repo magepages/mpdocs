@@ -201,6 +201,23 @@ Terms and Conditions Configuration
 * In the **Terms and Conditions Title** field, enter the title of the terms and conditions 
 * In the **Terms and Conditions Content** field, enter the content of the terms and conditions
 
+In addition, please follow these guides to enable Terms and Conditions on your checkout page. 
+
+* Go to `Admin > Mageplaza > One Step Checkout`.
+
+.. image:: https://i.imgur.com/X1mjEVi.png
+
+* Go to `Stores > Settings > Configuration > Sales > Checkout > Checkout Options`, set `Enable Terms and Conditions` to "Yes".
+
+.. image:: https://i.imgur.com/4qy1nyf.png
+
+* There is empty TOS in the Terms and Conditions list, now you have to add your TOS.
+
+Go to `Admin > Stores > Settings > Terms and Conditions > Add New Condition`
+
+.. image:: https://i.imgur.com/mFOqg0a.gif
+
+
 
 .. _One Step Checkout extension for Magento 2: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
 
