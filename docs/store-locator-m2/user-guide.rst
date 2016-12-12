@@ -5,17 +5,17 @@ In this helpful Mageplaza documentation, you will achieve the user guide of **Ho
 
 
 I. How to use
-================
+--------------
 
 After completing the installation of Store Locator module, **How to use** will give you good experience as a real customer. The following list is everything that you can do with the module at your website.
 
 1. Search by impressive ways
----------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Store Locator allows the user to find all brick-and-mortar shops around the exact radius from their places. Thus, you also know the customers not only search by area but also search by radius for the fastest finding.
 
 1.1. Search by radius
-^^^^^^^^^^^^^^^^^^^^^^^
+`````````````````````````
 
 "Search by radius" is a smart slider and you feel free to move the distance as need.
 
@@ -24,65 +24,63 @@ Store Locator allows the user to find all brick-and-mortar shops around the exac
 If not dragging and dropping, you can insert a number into the box put next to the slider. 
 
 1.2. Search by area
-^^^^^^^^^^^^^^^^^^^^^^^^^
+`````````````````````
 
 "Search by area" allows the seeker to enter an address in the search box to load the nearest store. However, there is no need to type manually, the finder tool already applies `Google Address Suggestion`_ via embedded Google Map API and allows auto-complete the address instead. 
 
 .. image:: https://i.imgur.com/jEZWgqR.gif
 
 2. Store Information 
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Basing on the given information, the best stores will instantly appear together with many attached info including Store Name, Address(Country, City, State/Province), Zip/Postal Code, Website, Email, and even Working Hour. All of them are both useful for the customer's visit. In addition, as a store admin, you can also upload some of the store images to preview the store. 
 
 .. image:: https://i.imgur.com/1LSuBwX.png 
 
 3. Google Map Functionality
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 3.1. Google Map Appearance
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+``````````````````````````````
 
 Embedding Google Map API means enabling the map on the store locator interface. At that time, each store that is found by the customer will display on Google Map with store icon. When clicking on the icon, the store information also appears as admin's settings.
 
 .. image:: https://i.imgur.com/v9dkSUp.png
 
 3.2. Get Direction
-^^^^^^^^^^^^^^^^^^^
+`````````````````````
 
 For more convenience, the customers will be clearly guided by Google Map Direction. There are two methods they can get the street direction:
 
-Direction on Map
-```````````````````
+**Direction on Map**
 
 .. image:: https://i.imgur.com/QIf3O7a.png
 
-360-degree street view
-```````````````````````````
+**360-degree street view**
 
 .. image:: https://i.imgur.com/wi0IhJH.png
 
 II. How to config
-======================
+-------------------
 
 Login to Magento 2 backend, you will have full of admin controls here.
 
 1. Basic Configuration
---------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 On the left panel, `Store Locator > Settings`, General Settings is divided into four sections: General, Map Settings, Language options, and Hour of Operation.
 
 .. image:: https://i.imgur.com/wYl1HIB.png
 
 1.1. General
-^^^^^^^^^^^^^
+````````````````
 
 **General** settings permit to enable the store locator module by choosing "Yes" in `Enable` field. Beside, you can set the specific name and URL of module in breadcrumb like *Homepage > Store Locator* 
 
 .. image:: https://i.imgur.com/t1CWGvC.png 
 
 1.2. Map Settings
-^^^^^^^^^^^^^^^^^^
+````````````````````````
 
 This setting is the workplace you can connect your store locator module with Google Map, an advanced solution for the fast location.
 
@@ -102,7 +100,7 @@ Under **Map Settings** section, you need to do the following:
 .. image:: https://i.imgur.com/9mQtRtB.png
 
 1.3. Language options
-^^^^^^^^^^^^^^^^^^^^^
+`````````````````````````
 
 Regarding your store language, Store Locator makes you free to convert into the native language. You can modify all words and phrases for the most effective customer awareness:
 
@@ -116,14 +114,14 @@ Regarding your store language, Store Locator makes you free to convert into the 
 .. image:: https://i.imgur.com/NslySAu.png
 
 1.4. Hour of Operation
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`````````````````````````
 
 You will set `Time to closing` as a notification the store will out of work. As the taken photo, the status is auto changed into "Closing soon" if the current time is less than the store's closing time by 30 minutes. 
 
 .. image:: https://i.imgur.com/GPtIJHJ.png 
 
 2. Create Store Location
-------------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Make step as the path: `Store Locator > Location`, on the **Location** page, do as following:
 
@@ -131,7 +129,7 @@ Make step as the path: `Store Locator > Location`, on the **Location** page, do 
 * Under **Location Information**, there are 4 sub-tabs of the new location information on the left panel: Location, Tags, Holidays, and Meta Data.
 
 2.1. Entere Location Information
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+```````````````````````````````````
 
 .. image:: https://i.imgur.com/JN8c6zH.gif
 
@@ -171,21 +169,21 @@ Make step as the path: `Store Locator > Location`, on the **Location** page, do 
 * Remember to say "Yes" for `Enable` to show the store location in the store list.
 
 2.2. Assign to Tags
-^^^^^^^^^^^^^^^^^^^^
+````````````````````````
 
 On the left panel, open `Tags` tab, enable to tick many tags from the existing list.
 
 .. image:: https://i.imgur.com/0sGfYtL.png 
 
 2.3. Select Holidays Time
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+`````````````````````````````
 
 Similar to Tags, you can select the holiday time as well.
 
 .. image:: https://i.imgur.com/gdYiL5f.png
 
 2.4. Fill out Meta Data
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+`````````````````````````
 
 Meta Data is very useful for SEO. Raise your SEO rank via:
 
@@ -196,7 +194,7 @@ Meta Data is very useful for SEO. Raise your SEO rank via:
 .. image:: https://i.imgur.com/7zSKMuz.png
 
 3. Create Store Marker
-----------------------------
+^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Go to `Store Locator > Marker`.
 
@@ -210,7 +208,7 @@ Creating new store marker means to set a new style of the store (restaurant, boo
 * `Save Marker` to complete.
 
 4. Create Store Tag
-------------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Still, in the configuration, go to `Store Locator > Tags`
 
@@ -230,7 +228,7 @@ Still, in the configuration, go to `Store Locator > Tags`
 * `Save Tag` to complete.
 
 5. Set Working Hours
---------------------------
+^^^^^^^^^^^^^^^^^^^^^
 
 Provide visitors the working time of your stores in detail (from Monday to Sunday).
 
@@ -243,7 +241,7 @@ Follow the guide: `Store Locator > Hours of Operation`.
 * Set opening and closing time of each day
 
 6. Set Holiday Time
--------------------------
+^^^^^^^^^^^^^^^^^^^^^^
 
 Notify the visitors which holiday you will not be available.
 
