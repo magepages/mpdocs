@@ -7,30 +7,45 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new Microsoft Live Login API Application, follow the steps: 
 
-Step 1: First go to `Microsoft Live`_  to create an app
--------------------------------------------------------------
+Step 1
+--------
+
+First go to `Microsoft Live`_  to create an app
+
+Step 2
+-----------
 
 Create a new account or login your account if you have already registered
 
 .. image:: https://i.imgur.com/3skjfHG.png
 
-* Click on **Add an app** button, set **Name** for the application on the pop-up window
+Step 3
+-----------
+
+Click on **Add an app** button, set **Name** for the application on the pop-up window
 
 .. image:: https://i.imgur.com/l72G3eb.png
 
-* Copy and paste **Application ID** into the `Application ID` field on Magento 2 backend
+Step 4
+------------
+
+Copy and paste **Application ID** into the `Application ID` field on Magento 2 backend
 
 .. image:: https://i.imgur.com/0pEPyyL.png
 
-* Use **Generate New Password** and **Generate New Key Pair** to get **Application Secrets**, then insert it into the `Application Secret` field from the Magento 2 backend
+Step 5
+-----------
+
+Use **Generate New Password** and **Generate New Key Pair** to get **Application Secrets**, then insert it into the `Application Secret` field from the Magento 2 backend
 
 .. image:: https://i.imgur.com/vwiOYWK.png
 
-* Next, you need connect Microsoft Live and your website by adding your URL in the **Platform** option. 
+Step 6
+---------
+
+Next, you need connect Microsoft Live and your website by adding your URL in the **Platform** option. 
 
 .. image:: https://i.imgur.com/iAY26SR.png
-
-
 
 If for some reason you still can't manage to create an application for Microsoft Live Login, you can `ask for support`_.
 
