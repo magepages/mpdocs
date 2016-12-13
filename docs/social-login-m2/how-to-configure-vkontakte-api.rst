@@ -27,9 +27,9 @@ And that's it!
 
 If for some reason you still can't manage to create an application for Facebook, first try to `Google it`_, then check it on `Youtube`_, and if nothing works `ask for support`_.
 
-.. _Google it: https://www.google.com/search?q=Google%20API%20create%20application
+.. _Google it: https://www.google.com/search?q=Vkontakte%20API%20create%20application
 
-.. _Youtube: https://www.youtube.com/results?search_query=Google%20API%20create%20application
+.. _Youtube: https://www.youtube.com/results?search_query=Vkontakte%20API%20create%20application
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
 
