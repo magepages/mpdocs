@@ -13,7 +13,7 @@ To enable authentication with this provider and to register a new Microsoft Live
 
 .. image:: https://i.imgur.com/3skjfHG.png
 
-* Click on **Add an app** button, set `Name` for the application on the pop-up window
+* Click on **Add an app** button, set **Name** for the application on the pop-up window
 
 .. image:: https://i.imgur.com/l72G3eb.png
 
