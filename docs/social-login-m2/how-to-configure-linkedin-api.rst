@@ -7,25 +7,44 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new LinkedIn API Application, follow the steps:
 
-* Go to the link: https://www.linkedin.com/secure/developer
-* Select **Create Application** on LinkedIn Developer page
-* From the register form, fill out required fields such as Company Name, Logo, Email Company,... and click on **Sumit** button
-* Go to **My App** option from the top of Dashboard page to see all created applications and get Authentication (App id and secret)
-* Copy and insert API into API fields in **Magento Admin > Social Login > Settings > LinkedIn**
+Step 1
+--------
+
+Go to the link: https://www.linkedin.com/secure/developer
+
+Step 2
+---------
+
+Select **Create Application** on LinkedIn Developer page
 
 .. image:: https://i.imgur.com/7RoiApv.png
 
+
+Step 3
+--------
+
+From the register form, fill out required fields such as Company Name, Logo, Email Company,... and click on **Sumit** button
+
 .. image:: https://i.imgur.com/NxZKjrk.png
 
+Step 4
+---------
 
+Go to **My App** option from the top of Dashboard page to see all created applications and get Authentication (App id and secret)
 
 .. image:: https://i.imgur.com/2q1dGYM.png
+
+
+Step 5
+-----------
+
+Copy and insert API into API fields in **Magento Admin > Social Login > Settings > LinkedIn**
 
 .. image:: https://i.imgur.com/ZtAIuxi.png
 
 And that's it!
 
-If for some reason you still can't manage to create an application for Twitter, first try to `Google it`_, then check it on `Youtube`_, and if nothing works `ask for support`_.
+If for some reason you still can't manage to create an application for Twitter, you can `ask for support`_.
 
 .. _Google it: https://www.google.com/search?q=Linkedin%20API%20create%20application
 

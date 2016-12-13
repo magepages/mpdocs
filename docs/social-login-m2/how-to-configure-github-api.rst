@@ -7,24 +7,44 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new GitHub API Application, follow the steps: 
 
-#. First Go to https://github.com/settings/applications/new.
-#. Fill out Application name, Homepage URL, Application description, Authorization callback URL.
-#. Click `Register application`.
-#. Copy and insert Client Id and Client Secret into API fields in Magento Admin.
+Step 1
+-------
+
+First go to https://github.com/settings/applications/new.
+
+Step 2
+----------
+
+Fill out Application name, Homepage URL, Application description, Authorization callback URL.
 
 .. image:: https://i.imgur.com/RZ2KFGL.png
 
+
+Step 3
+----------
+
+Click `Register application`.
+
+Step 4
+----------
+
+Get Client ID and Client Secret from DashBoard App 
+
 .. image:: https://i.imgur.com/Le9CGEZ.png
+
+
+Step 5
+-----------
+
+Copy and insert Client Id and Client Secret into API fields in Magento Admin.
+
 
 .. image:: https://i.imgur.com/1SA7qfr.png
 
 And that's it!
 
-If for some reason you still can't manage to create an application for Foursquare, first try to `Google it`_, then check it on `Youtube`_, and if nothing works `ask for support`_.
+If for some reason you still can't manage to create an application for Foursquare, you can `ask for support`_.
 
-.. _Google it: https://www.google.com/search?q=Github%20API%20create%20application
-
-.. _Youtube: https://www.youtube.com/results?search_query=Github%20API%20create%20application
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
 

@@ -7,25 +7,47 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new Instagram API Application, follow the steps: 
 
-#. With Instagram, you have to register by mobile, there’s no way to create a new account from pc. After finishing register, login your account on computer by going to: https://instagram.com/.
-#. And then go to developer page: https://instagram.com/developer/ → Manage Clients
-#. In new page, enter your info in Details tab:
-#. Click register and you will have all info you need
-#. Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Instagram**
+Step 1
+-----------
+
+With Instagram, you have to register by mobile, there’s no way to create a new account from pc. After finishing register, login your account on computer by going to: https://instagram.com/.
+
+Step 2
+----------
+
+And then go to developer page: https://instagram.com/developer/ → Manage Clients
 
 .. image:: https://lh4.googleusercontent.com/NQQnMiSWMYvlG3ozeFZ-i1ZzJLuLh1AswWGbR9HnQSt16sRKCj1s_OvdblCZ4dAD0OXq9qdYBndL6L1Yvco36y-kHzTQNcQ3tFAre23Lk0oP_sKjLa4XoQ8FpWrrP98i2JmNrPU
 
+
+Step 3
+-------
+
+In new page, enter your info in Details tab
+
 .. image:: https://i.imgur.com/YAzTqXg.png
+
+
+Step 4
+--------
+
+Click register and you will have all info you need
 
 .. image:: https://i.imgur.com/Lsqk44n.png
 
+
+Step 5
+----------
+
+Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Instagram**
+
+
+
+
 And that's it!
 
-If for some reason you still can't manage to create an application for Twitter, first try to `Google it`_, then check it on `Youtube`_, and if nothing works `ask for support`_.
+If for some reason you still can't manage to create an application for Twitter, you can `ask for support`_.
 
-.. _Google it: https://www.google.com/search?q=Instagram%20API%20create%20application
-
-.. _Youtube: https://www.youtube.com/results?search_query=Instagram%20API%20create%20application
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
 

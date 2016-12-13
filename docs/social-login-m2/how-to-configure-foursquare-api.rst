@@ -7,27 +7,51 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new Foursquare API Application, follow the steps: 
 
-#. First Go to https://foursquare.com/developers/app
-#. Select `Create a new app`.
-#. Fill out App name, page url, Redirect URI ...
-#. Click `Save change` to finish.
-#. Copy and insert Client Id and Client Secret into API fields in Magento Admin.
+Step 1
+--------
+
+First Go to https://foursquare.com/developers/app
+
+Step 2
+--------
+
+Select `Create a new app`.
 
 .. image:: https://i.imgur.com/OPDaVzi.png
 
+
+Step 3
+---------
+
+Fill out App name, page url, Redirect URI ...
+
 .. image:: https://i.imgur.com/G7xxxOc.png
 
+
+Step 4
+--------
+
+Click `Save change` to finish.
+
+Step 5
+-----------
+
+Copy and insert Client Id and Client Secret into API fields in Magento Admin.
+
 .. image:: https://i.imgur.com/gXtiOdf.png
+
+
+Step 6
+---------
+
+Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Foursquare**
 
 .. image:: https://i.imgur.com/lwxnGfl.png
 
 And that's it!
 
-If for some reason you still can't manage to create an application for Foursquare, first try to `Google it`_, then check it on `Youtube`_, and if nothing works `ask for support`_.
+If for some reason you still can't manage to create an application for Foursquare, you can `ask for support`_.
 
-.. _Google it: https://www.google.com/search?q=Foursquare%20API%20create%20application
-
-.. _Youtube: https://www.youtube.com/results?search_query=Foursquare%20API%20create%20application
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
 

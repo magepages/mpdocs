@@ -7,29 +7,51 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new Vkontakte API Application, follow the steps: 
 
-#. First go to https://new.vk.com/dev.
-#. Select My apps.
-#. Select Create an application.
-#. Fill out title , choosen Website , then fill out Site address and Base domain.
-#. Click Connect Site.
-#. Select tag setting to find Application ID and Secure key.
-#. Copy and insert Application ID and Secure Key into API fields in Magento Admin.
+Step 1
+--------
+
+First go to https://new.vk.com/dev.
+
+Step 2
+---------
+
+Select My apps > Create an application.
 
 .. image:: https://i.imgur.com/swK2RIr.png
 
+
+Step 3
+-----------
+
+Fill out title , choosen Website , then fill out Site address and Base domain.
+
 .. image:: https://i.imgur.com/ObxTcWF.png
 
+
+Step 4
+----------
+
+Click Connect Site.
+
+Step 5
+----------
+
+Select tag setting to find Application ID and Secure key.
+
 .. image:: https://i.imgur.com/guDjulW.png
+
+
+Step 6
+----------
+
+Copy and insert Application ID and Secure Key into API fields in Magento Admin.
 
 .. image:: https://i.imgur.com/y2aEERR.png
 
 And that's it!
 
-If for some reason you still can't manage to create an application for Facebook, first try to `Google it`_, then check it on `Youtube`_, and if nothing works `ask for support`_.
+If for some reason you still can't manage to create an application for Facebook, you can `ask for support`_.
 
-.. _Google it: https://www.google.com/search?q=Vkontakte%20API%20create%20application
-
-.. _Youtube: https://www.youtube.com/results?search_query=Vkontakte%20API%20create%20application
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
 
