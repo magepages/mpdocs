@@ -11,7 +11,7 @@ To enable authentication with this provider and to register a new Microsoft Live
 
 * Create a new account or login your account if you have already registered
 
-.. image:: https://i.imgur.com/LSi0Ia0.png
+.. image:: https://i.imgur.com/3skjfHG.png
 
 * Click on **Add an app** button, set `Name` for the application on the pop-up window
 
