@@ -7,9 +7,10 @@ These credentials may also differ in format, name and content depending on the s
 
 To enable authentication with this provider and to register a new Microsoft Live Login API Application, follow the steps: 
 
-* First go to `Microsoft Live`_  to create an app
+Step 1: First go to `Microsoft Live`_  to create an app
+-------------------------------------------------------------
 
-* Create a new account or login your account if you have already registered
+Create a new account or login your account if you have already registered
 
 .. image:: https://i.imgur.com/3skjfHG.png
 
