@@ -54,4 +54,7 @@ How to Configure
 * To show "Shop by" section, choose "Yes" in the `Enable Shop by` field.
 * When receiving a system message at the top of the workplace, click on the **Cache Management** to refresh the cache.
 
-  .. image:: https://cdn.mageplaza.com/docs/ln-configuration.gif
+ .. image:: https://cdn.mageplaza.com/docs/ln-configuration.gif
+
+.. note:: Multi filter and Shop by is inlcuded by default, there is no configuration option any more.
+
