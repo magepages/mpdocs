@@ -14,7 +14,7 @@ As soon as installing Shop by Brand completely, your customers can easily search
 
 The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
 
-.. image:: https://i.imgur.com/QMl9BLq.gif
+.. image:: https://i.imgur.com/wNIKZCz.gif
 
 The brand results come with Brand Logo, Brand Name, and Brand Description. 
 
