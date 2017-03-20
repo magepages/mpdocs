@@ -45,14 +45,12 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 * Expand **General** section, please do the following:
 
   * `Enable` the module when choosing "Yes" to allow customers shop by brand
-  * From the existing list of the product attribute, set `Select Brand's Product Attribute    to the correct choice. In this guide, *mp_brand* is the option you have to select
+  * From the existing list of the product attribute, set `Brand Attribute` to the correct choice. In this guide, *manufacturer* is the option you have to select
 
     .. note:: To create a new product attribute under "Brand" name, please read `How to Create Product Attribute in Magento 2`_ topic in Magento 2 Tutorial by Mageplaza.
 
-  * Enter `Brand Titles`.
-  * Enter `Url Prefix`, if passing it, the default (brand) is applied
-  * Select relevant color for the `Background color` of Shop by Brand's interface 
-  * Show `Featured page format` as "Net" or "Slider" that depends on your store's design
+  * Enter `Brand Link Title`.
+  * Choose the page to display Brand Link in `Show Brand Link In`.
 
 Net Featured Brands
 ``````````````````````
