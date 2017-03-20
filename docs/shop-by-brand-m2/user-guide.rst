@@ -1,5 +1,5 @@
 
-By Mageplaza you can find many extensions that cane help online stores improve customer search such as `Magento 2 Layered Navigation`_ and `Magento 2 Advanced Search`_ extension, and `Magento 2 Shop by Brand`_ extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by. 
+By Mageplaza you can find many extensions that will help online stores improve customer search such as `Magento 2 Layered Navigation`_ and `Magento 2 Advanced Search`_ extension, and `Magento 2 Shop by Brand`_ extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by. 
 
 In this helpful Mageplaza documentation, you will achieve the guide of **How to use** and **How to config** on the frontend and backend of Shop by Brand Magento 2 module. 
 
@@ -14,7 +14,7 @@ As soon as installing Shop by Brand completely, your customers can easily search
 
 The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
 
-.. image:: https://i.imgur.com/jcxg8N5.gif
+.. image:: https://i.imgur.com/QMl9BLq.gif
 
 The brand results come with Brand Logo, Brand Name, and Brand Description. 
 
