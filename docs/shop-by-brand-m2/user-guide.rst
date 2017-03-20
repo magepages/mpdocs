@@ -128,9 +128,9 @@ This guide helps you classify what brand a product is made by.
 
 * On the Admin Panel, `Product > Inventory > Catalog`.
 * Select an exact product you want to assign, and open `Edit` mode under **Action** column.
-* On the settings page of the product, you will see `Brand` field that allows assigning a corresponding brand to that product.
+* On the settings page of the product, you will see ` Manufacturer` field that allows assigning a corresponding brand to that product.
 
-.. image:: https://i.imgur.com/B4c9jeE.png
+.. image:: https://i.imgur.com/XxDH9n2.png
 
 * `Save` the change to complete the brand attachment.
 * When finish all, the brand logo will display on both Brand Listing Search and the product detailed page of the assigned product.
