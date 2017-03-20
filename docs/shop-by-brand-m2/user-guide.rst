@@ -52,15 +52,17 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   * Enter `Brand Link Title`.
   * Choose the page to display Brand Link in `Show Brand Link In`.
 
+.. image:: https://i.imgur.com/yj64Pfu.png
+
 Net Featured Brands
 ``````````````````````
 
-.. image:: https://i.imgur.com/F7aeoum.png
+.. image:: https://i.imgur.com/fMHv8GE.png
 
 Slider Featured Brands
 ```````````````````````````
 
-.. image:: https://i.imgur.com/oNvpJdZ.gif
+.. image:: https://i.imgur.com/Y0DfTPO.gif
 
 * Expand **Search Settings** section,
 
