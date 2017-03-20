@@ -65,14 +65,31 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 
 .. image:: https://i.imgur.com/Z7wUVuc.png
 
-* Expand **Search Settings** section,
+  * Expand **Brand Search Settings** section,
 
-  * Set `Min chars test`, that should be usually 1 or 2
-  * Limit `Maximum Query Result` that match with the given request
-  * Make brand image visible on the search by selecting "Yes"
-  * Set `Max Letter Number` in the search box
+    * Enable search box by setting "Yes" in `Show Search Block`
+    * Set `Min chars`, that should be usually 1 or 2
+    * Limit `Maximum Query Result` that match with the given request
+    * Make brand image visible on the search by selecting "Yes".
 
-.. image:: https://i.imgur.com/YMy5mJ4.png
+.. image:: https://i.imgur.com/GgosIyw.png
+
+  * Expand **Feature Brand Settings** section,
+  
+    * Choose to `Show Feature Brands` or not
+    * Enter `Title` for feature brands or leave it as default (Feature Brands)
+    * Choose `Display Information` of feature brands, Logo Only or Logo and Label
+    * Use `Embedded Code` to show feature brand block in any place you want.
+    
+.. image:: https://i.imgur.com/uMrWGCA.png
+
+* Click to expand **Brand Information**,
+
+  * Choose `Default Image` for Brand. If passing, the product placeholder default image will be used.
+  * Set `Default Block`
+  * Choose to `Show Brand Image On Brand Page`, `Show Brand Description On Brand Page`, and `Show Brand Static Block On Brand Page` or not.
+  
+.. image:: https://i.imgur.com/GX7FMHY.png
 
 2. Create new brand
 ^^^^^^^^^^^^^^^^^^^^^^
