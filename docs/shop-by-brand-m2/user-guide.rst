@@ -54,15 +54,16 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 
 .. image:: https://i.imgur.com/yj64Pfu.png
 
-Net Featured Brands
-``````````````````````
+* Expand **All Brands Page Settings** section and do the following:
 
-.. image:: https://i.imgur.com/fMHv8GE.png
+  * Enter `Brand route`, if passing it, the default (brands) is applied
+  * Enter `Brand list name` or leave it as the default (Brands)
+  * Choose to display Brand Logo only or display Logo and Label in `Display Option`
+  * Select relevant color for the `Style Color` of Shop by Brand's interface
+  * Set to `Show Brand Description` or not in the Brand Page
+  * Add `Custom Css` for your own style.
 
-Slider Featured Brands
-```````````````````````````
-
-.. image:: https://i.imgur.com/Y0DfTPO.gif
+.. image:: https://i.imgur.com/Z7wUVuc.png
 
 * Expand **Search Settings** section,
 
