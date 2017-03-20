@@ -41,7 +41,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 
 **Settings** tab is a bunch of the basic configuration you need to set up firstly. 
 
-* Go to `Shop by Brand > Settings`
+* Go to `MAGEPLAZA > Shop by Brand > Configuration`
 * Expand **General** section, please do the following:
 
   * `Enable` the module when choosing "Yes" to allow customers shop by brand
