@@ -95,7 +95,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * On the Admin Panel, `Store > Attributes > Product`.
-* Under **Attribute Code** column, search and choose "mp_brand", you will navigation its workplace.
+* Under **Attribute Code** column, search and choose "manufacturer", you will navigation its workplace.
 * All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
 * Tap **Advanced Option** to open the "Brands" page.
 
