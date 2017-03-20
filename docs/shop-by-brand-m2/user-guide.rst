@@ -18,14 +18,14 @@ The search box on Magento 2 Shop by Brand has some functionalities that are alik
 
 The brand results come with Brand Logo, Brand Name, and Brand Description. 
 
-.. image:: https://i.imgur.com/N6lnnB5.png
+.. image:: https://i.imgur.com/xNsZsK0.png
 
 2. Alphabet Search
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 Alphabet Search, placed under Search Box, is represented including "Show All" and the alphabets. Depending on the first characteristic of the brand name, the user will tap on the respective button.
 
-.. image:: https://i.imgur.com/aXPlxXL.gif
+.. image:: https://i.imgur.com/dybAloX.gif
 
 II. How to config
 ------------------
