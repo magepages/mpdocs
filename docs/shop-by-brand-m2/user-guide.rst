@@ -100,7 +100,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 * Click on `Save Config` to save new brand.
 * Tap **Setting** to open the "Brand Configuration" page.
 
-.. image:: https://i.imgur.com/lCHol98.mp4
+.. image:: https://i.imgur.com/lCHol98.gif
 
 * Under **Brand Information** section,
 
