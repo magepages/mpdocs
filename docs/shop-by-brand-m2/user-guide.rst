@@ -98,7 +98,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 * Under **Attribute Code** column, search and choose "manufacturer", you will navigation its workplace.
 * All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
 * Click on `Save Config` to save new brand.
-* Tap **Setting** to open the "Brand Configuration" page.
+* Tap **Setting** to open the "Brand Information" page for configuration.
 
 .. image:: https://i.imgur.com/lCHol98.gif
 
