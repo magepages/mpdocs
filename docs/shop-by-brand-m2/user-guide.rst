@@ -97,29 +97,29 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 * On the Admin Panel, `Store > Attributes > Product`.
 * Under **Attribute Code** column, search and choose "manufacturer", you will navigation its workplace.
 * All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
-* Tap **Advanced Option** to open the "Brands" page.
+* Click on `Save Config` to save new brand.
+* Tap **Setting** to open the "Brand Configuration" page.
 
 .. image:: https://i.imgur.com/lCHol98.mp4
 
-* On the right corner, click on **Add New Brand**.
-* Expand **Brand Information** section,
+* Under **Brand Information** section,
 
-  * Set `Name` for the new brand
+  * Set `Page Title` for the new brand
   * Create **URL Key**
   * Upload `Brand Image` from your computer
+  * Set the brand to be displayed on featured brand slider or not in `Featured` field
   * Enter `Short Description` (appear on the search result) and `Description` (appear on Brand Listing) 
-  * Allow showing as a static block on anywhere of your page. You can disable it if need
-  * In the `Enable` field, choose "Yes" to show the new brand
+  * Choose the `CMS Block` to show brand as a static block on anywhere of your page. You can disable it by leave it blank.
 
 * Expand **Meta Information** section, you can complete all fields for your better SEO, including:
 
   * Meta Title
-  * Meta Description
   * Meta Keywords
+  * Meta Description
 
-* `Save Brand` to ensure that creating the new brand is successful.
+* `Save Brand` to ensure that the configuration for the new brand is successful.
 
-  .. note:: For the existing brands, you can edit their information via **Advanced Option** button.
+  .. note:: For the existing brands, you can edit their information via **Setting** button.
 
 3. Assign product to brand
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
