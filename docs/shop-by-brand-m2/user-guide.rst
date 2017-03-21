@@ -99,7 +99,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 * All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
 * Tap **Advanced Option** to open the "Brands" page.
 
-.. image:: https://i.imgur.com/WhHxzCr.gif
+.. image:: https://i.imgur.com/lCHol98.gifv
 
 * On the right corner, click on **Add New Brand**.
 * Expand **Brand Information** section,
