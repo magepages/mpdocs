@@ -9,6 +9,7 @@ Introduction
 
 In order to install SEO extension on your store, you can learn and do it by yourself via `Installation Guide`_ or use `Installation Service Package`_ to request the specialist helps from Mageplaza Team.
 
+ .. _SEO extension for Magento 2: https://www.mageplaza.com/magento-2-seo-extension/
  .. _Installation Guide: http://docs.mageplaza.com/kb/installation.html
  .. _Installation Service Package: https://www.mageplaza.com/magento-2-installation-services/
 
@@ -57,6 +58,7 @@ Continue with the next session - **Duplicate Content**, there are some configura
 * You can also `add Twitter Card Meta tags` when the visitors share your website on Twitter
 
 * Enter `Pinterest Confirmation Code` to verify your website. Follow the instruction here_
+
  .. _here: https://help.pinterest.com/en/articles/confirm-your-website#meta_tag
 
 * Enter `Google+ Publisher Page` if you need
@@ -71,6 +73,7 @@ Scroll down and expand the **Rich Snippet | Structured Data** section, you will:
 * Include Rich Snippet in the search results right after enabling the rich snippet in the configuration
   
   Rich Snippet may be review stars, an aggregate rating value, and vote count, etc. You can learn it more at here_ 
+  
  .. _here: https://mageplaza.freshdesk.com/support/solutions/articles/6000122361--rich-snippets/
 
 * Disable `Product Structured Data` by selecting "No" if your theme or module implements it's own product snippets.
