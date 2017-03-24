@@ -9,6 +9,6 @@ Layered Navigation Pro
 
 
 
-.. include:: user-guide.md
+.. include:: user-guide.rst
 
 .. include:: ../ad_footer.rst
