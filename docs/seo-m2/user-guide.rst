@@ -41,7 +41,7 @@ Continue with the next session - **Duplicate Content**, there are some configura
 
 * To manage your content better and restrict the duplication, please set "Yes" for `Add Canonical URL Meta`
 * In the `Canonical points to https` field, you can choose "Yes" or "No" option depending on whether you would prefer the https version of a page or not
-* Also avoid the duplicate content, you can disable URL parameter as * ?price=30-220&brand=abc* in canonical URL, that means "No" option must be active.
+* Also avoid the duplicate content, you can disable URL parameter as *?price=30-220&brand=abc* in canonical URL, that means "No" option must be active.
 
 .. image:: https://i.imgur.com/7n3CHt6.png
 
@@ -56,7 +56,8 @@ Continue with the next session - **Duplicate Content**, there are some configura
 
 * You can also `add Twitter Card Meta tags` when the visitors share your website on Twitter
 
-* Enter `Pinterest Confirmation Code` to verify your website. Follow the instruction [here](https://help.pinterest.com/en/articles/confirm-your-website#meta_tag)
+* Enter `Pinterest Confirmation Code` to verify your website. Follow the instruction here_
+ .. _here: https://help.pinterest.com/en/articles/confirm-your-website#meta_tag
 
 * Enter `Google+ Publisher Page` if you need
 
