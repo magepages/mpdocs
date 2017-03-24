@@ -7,7 +7,7 @@ Introduction
 
 `SEO extension for Magento 2`_ was developed by Mageplaza is the best marketing tool in order to help you automatically optimize and  greatly improve the performance of your Magento-based store in Search Engines. With a list of outstanding and effective tools, our Better SEO extension will bring to your store a great chance to own an amazing speed as well as gain the higher and higher rank in the popular and famous search engines such as Google, Bing, or Yahoo.
 
-In order to install SEO extension on your store, you can learn and do it by yourself via `Installation Guide`_(http://docs.mageplaza.com/kb/installation.html) or use `Installation Service Package`_(https://www.mageplaza.com/magento-2-installation-services/) to request the specialist helps from Mageplaza Team.
+In order to install SEO extension on your store, you can learn and do it by yourself via `Installation Guide`_ or use `Installation Service Package`_ to request the specialist helps from Mageplaza Team.
 
 User guide
 ---------------
