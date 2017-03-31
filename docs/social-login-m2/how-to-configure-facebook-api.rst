@@ -39,12 +39,12 @@ Step 5
 
 Go to the Review page and choose YES to make the app to be public.
 
-.. image:: http://i.imgur.com/FJa3LDM.png
+.. image:: http://i.imgur.com/59tkUl1.png
 
 Step 6
 ----------
 
-Go back to the Settings page and past the created application credentials (APP ID and Secret) into the boxes below.
+Go back to the Settings page. The created application credentials (APP ID and Secret) will be shown like the image below.
 
 .. image:: http://i.imgur.com/QP75QVh.png
 
@@ -52,9 +52,9 @@ Go back to the Settings page and past the created application credentials (APP I
 Step 7
 ---------
 
-Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Facebook**
+Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
 
-
+.. image:: http://i.imgur.com/h9NsDFJ.png
 
 
 And that's it!
