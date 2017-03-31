@@ -10,38 +10,43 @@ To enable authentication with this provider and to register a new Facebook API A
 Step 1
 --------
 
-First go to: https://developers.facebook.com/apps
+First go to: https://developers.facebook.com/
 
 Step 2
 ---------
 
 Select Add a New App from the Apps menu at the top
 
-.. image:: https://lh4.googleusercontent.com/egi5RpRsNbcOJfelEB7HNY9z6XKLoaFWtw-pBZVqM5DwFh_55nAcZRmJH9skP1vXU_ad5IbTH-FZ0J1QaWuEYcuIMqPfTiRXIr7kIJz6Nnu-V6XvS4P9J0GXGmBbSuo7bQ7k3RM
+.. image:: http://i.imgur.com/njp5g6n.png
 
 Step 3
 --------
-Fill out Display Name, Namespace, choose a category and click Create App.
+Then, a popup will display. Fill out Display name for your app.
 
-.. image:: https://lh5.googleusercontent.com/_aj0NjyU1y7l_4IbDV-vxK8hW22agB5pybaYiS3qAzxKLzVAZc1SNQetDQcrom4MtSukol1jjyUaDxUg_pcV5Y9gUWYG6jfsOPKZPiOKEfZTgfOS-WnbMyQ5IKdRUP7Rqy0xIY0
-
+.. image:: http://i.imgur.com/EqgtaSS.png
 
 Step 4
 ----------
 
-Go to Settings page and click on Add Platform. Choose website and enter in the new screen your website url in App Domains and Site URL fields. They should match with the current hostname *example.com*.
+Go to Settings page and click on Add Platform. Then, choose Website
+
+.. image:: http://i.imgur.com/dJemFXg.png
+
+Next, enter the url in App Domains and Site URL fields. They should match with the current hostname *example.com*.
 
 Step 5
 ---------
 
-Go to the Status & Review page and choose yes where it says Do you want to make this app and all its live features available to the general public?.
+Go to the Review page and choose YES to make the app to be public.
+
+.. image:: http://i.imgur.com/FJa3LDM.png
 
 Step 6
 ----------
 
-Go back to the Dashboard page and past the created application credentials (APP ID and Secret) into the boxes above.
+Go back to the Settings page and past the created application credentials (APP ID and Secret) into the boxes below.
 
-.. image:: https://lh5.googleusercontent.com/R9aBnJasbrFOYgrchBf3PXV5fOYwzq-2OdojLwZe6dQ8YIIoslWjvXmDItWCd4BTr_spwvKQ81R1Kxg77Mpy2p_PzFovz5HPmG4SXI3su3WijcUWmnrSvfYMdBkyXvB92HKq5yQ
+.. image:: http://i.imgur.com/QP75QVh.png
 
 
 Step 7
