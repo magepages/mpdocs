@@ -61,9 +61,9 @@ Once you have registered, the popup below will be displayed:
 Step 8
 ---------
 
-Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Google**
+Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
 
-
+.. image:: http://i.imgur.com/bUtxT40.png
 
 
 
