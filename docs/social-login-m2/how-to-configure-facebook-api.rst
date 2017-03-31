@@ -17,20 +17,20 @@ Step 2
 
 Select Add a New App from the Apps menu at the top
 
-.. image:: http://i.imgur.com/njp5g6n.png
+.. image:: https://i.imgur.com/njp5g6n.png
 
 Step 3
 --------
 Then, a popup will display. Fill out Display name for your app.
 
-.. image:: http://i.imgur.com/EqgtaSS.png
+.. image:: https://i.imgur.com/EqgtaSS.png
 
 Step 4
 ----------
 
 Go to Settings page and click on Add Platform. Then, choose Website
 
-.. image:: http://i.imgur.com/dJemFXg.png
+.. image:: https://i.imgur.com/dJemFXg.png
 
 Next, enter the url in App Domains and Site URL fields. They should match with the current hostname *example.com*.
 
@@ -39,14 +39,14 @@ Step 5
 
 Go to the Review page and choose YES to make the app to be public.
 
-.. image:: http://i.imgur.com/59tkUl1.png
+.. image:: https://i.imgur.com/59tkUl1.png
 
 Step 6
 ----------
 
 Go back to the Settings page. The created application credentials (APP ID and Secret) will be shown like the image below.
 
-.. image:: http://i.imgur.com/QP75QVh.png
+.. image:: https://i.imgur.com/QP75QVh.png
 
 
 Step 7
@@ -54,7 +54,7 @@ Step 7
 
 Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
 
-.. image:: http://i.imgur.com/h9NsDFJ.png
+.. image:: https://i.imgur.com/h9NsDFJ.png
 
 
 And that's it!
