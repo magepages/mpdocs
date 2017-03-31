@@ -15,33 +15,33 @@ First go to: https://console.developers.google.com
 Step 2
 ----------
 
-On the Dashboard sidebar click on Project then click **Create Project**.
+On the Dashboard sidebar click on the tab Credentials on the left side and click **Create Project**.
 
-.. image:: https://lh3.googleusercontent.com/tKLnSFClQ8cA_ibjoOXQ7-32dgPMHxcQRDfyOcOcT_-w-y2-ZvfkK5zOot6SsF50sSYjYud5pmtBiuYQdq3h1YeK2sLTHehEMN_Cn9Eze9oEBxjrUiEUP5jzezoe1PhqsqJxjTM
+.. image:: http://i.imgur.com/fYclfKa.png
 
+Then, fill out the project name.
+
+.. image:: http://i.imgur.com/bSyDPqL.png
 
 Step 3
 -----------
 
-Once the project is created. Select that project, then APIs & auth > Consent screen and fill the required information.
+Once the project is created. In the sidebar under **API Manager**, select **Credentials**, then select the **OAuth consent screen** tab.
+Choose an *Email Address*, specify a *Product Name*, and press **Save**.
 
-.. image:: https://lh6.googleusercontent.com/jjp7aIO2iNeJRQ0jXCbDVzo4WthEE3nfaN7qZC8CruicV_JVyXi6WHooBQc2PKmAi6875Y0Zbo2z3pqUDcn11pKuO-R4jDfg4ALg_7Y5sdht6RgndhFBFi-WoBhz2scQfd6HRAM
-
+.. image:: http://i.imgur.com/I3xxhQK.png
 
 Step 4
 ---------
 
-Then APIs & auth > APIs and enable **Google+ API**. If you want to import the user contacts enable **Contacts API** as well.
+In the Credentials tab, select the **New credentials** drop-down list. Then, choose **OAuth client ID**.
 
-Step 5
-------------
-
-After that you will need to create an new application: APIs & auth > Credentials and then click **Create new Client ID**.
+.. image:: http://i.imgur.com/vroDKa5.png
 
 Step 6
 -----------
 
-On the **Create Client ID** popup :
+On the **Create Client ID** field :
    
    * Select **Web application** as your application type.
    
@@ -49,19 +49,21 @@ On the **Create Client ID** popup :
   
    * Provide URL as the Callback URL for your application (See in Social Login Configuration).
 
-.. image:: https://lh3.googleusercontent.com/v3WY1FWgukNVCUYAqdV98gaJLOmZmebhy5QILr9r8Bqomr8QD7gsbNpPLv8i46CZcK2NGQPKNiyVg_h5KERGLyaDvzWZPnS3eh0Fxq5mqyhRFeD-BVISv7H2QRE17OYM4Bb9GqU
+.. image:: http://i.imgur.com/DZFGIA0.png
 
 Step 7
 ----------
 
-Once you have registered past the created application credentials (Client ID and Secret) into the boxes above.
+Once you have registered, the popup below will be displayed: 
+
+.. image:: http://i.imgur.com/8YM9FZR.png
 
 Step 8
 ---------
 
-Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Google**
+Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
 
-
+.. image:: http://i.imgur.com/bUtxT40.png
 
 
 
