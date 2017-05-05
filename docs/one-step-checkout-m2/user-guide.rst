@@ -174,9 +174,9 @@ Design Configuration
 Terms and Conditions Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Firstly, go to **Admin Panel > Mageplaza > One Step Checkout > Display Configuration**, set the **Show Terms and Conditions** field to be "Yes" to enable the feature.
+* Firstly, go to **Admin Panel > Mageplaza > One Step Checkout > Display Configuration**, set the **Show Terms and Conditions** field.
 
-.. image:: https://i.imgur.com/tABpphV
+.. image:: http://i.imgur.com/sdIrbIY.png
 
 * Go to **Stores > Settings > Configuration > Sales > Checkout > Checkout Options**, set **Enable Terms and Conditions** to "Yes".
 
