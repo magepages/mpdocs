@@ -91,13 +91,41 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   
 .. image:: https://i.imgur.com/GX7FMHY.png
 
-2. Create new brand
+2. Bulk import brands
+^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import brands via CSV file.
+
+.. image:: https://i.imgur.com/4jua9kb.gif
+
+* Go to `System > Data Transfer > Import`
+* Under *Import Settings* section, in the  *Entity Type* field, choose "Mageplaza Shopbybrand"
+  
+  * You can click on `Download Sample file` to get the sample CSV file for brand information
+
+  .. image:: https://i.imgur.com/5B4wCvd.png
+
+* After choosing "Mageplaza Shopbybrand", *Import Behavior* and *Import Behavior* will appear. Do the following:
+
+  * In the **Import Behavior* section, set *Import Behavior* field to "Add/Update". Then set the value for *Allowed Errors Count*, *Field separator*, *Multiple value separator* and tick on *Fields enclosure* if needed.
+
+ .. image:: https://i.imgur.com/i1Jy0Uj.png
+
+  * In the *File to Import*, click on `Choose file` to select File to import. Then enter `Images File Directory`
+
+ .. image:: https://i.imgur.com/Zua2MQG.png
+
+* Click on `Check Data` if your file is accepted. Then Choose `Import` to start import brand to your store.
+
+ .. image:: https://i.imgur.com/GcL4klw.png
+
+3. Create new brand
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * On the Admin Panel, `Store > Attributes > Product`.
 * Under **Attribute Code** column, search and choose "manufacturer", you will navigation its workplace.
 * All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
-* Click on `Save Config` to save new brand.
+* Click on `Save Config` to save the new brand.
 * Tap **Setting** to open the "Brand Information" page for configuration.
 
 .. image:: https://i.imgur.com/lCHol98.gif
@@ -121,7 +149,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 
   .. note:: For the existing brands, you can edit their information via **Setting** button.
 
-3. Assign product to brand
+4. Assign product to brand
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 This guide helps you classify what brand a product is made by.
