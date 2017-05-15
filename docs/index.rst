@@ -39,9 +39,9 @@ Welcome to Mageplaza Docs
    banner-slider-m2/index
    google-tag-manager-m2/index
    delete-order-m2/index
-   faq-m2/index
-   kb-m2/index
-   search-m2/index
+   .. faq-m2/index
+   .. kb-m2/index
+   .. search-m2/index
    product-slider-m2/index
-   zoho-m2/index
-   store-locator-m2/index
+   .. zoho-m2/index
+   .. store-locator-m2/index
