@@ -9,10 +9,10 @@ The newest version: `1.4.0`
 
 [Magento 2 SEO extension Standard](https://www.mageplaza.com/magento-2-seo-extension/) was developed by Mageplaza is the best FREE marketing tool in order to help you automatically optimize and greatly improve the performance of your Magento-based store in Search Engines. With a list of outstanding and effective tools, our Better SEO extension will bring to your store a great chance to own an amazing speed as well as gain the higher and higher rank in the popular and famous search engines such as Google, Bing, or Yahoo.    
 
-In order to install SEO extension on your store, you can learn and do it by yourself via [Installation Guide](http://docs.mageplaza.com/kb/installation.html) or use [Installation Service Package](https://www.mageplaza.com/magento-2-installation-services/) to request the specialist helps from Mageplaza Team.
+In order to install SEO extension on your store, you can learn and do it by yourself via [Installation Guide](https://docs.mageplaza.com/kb/installation.html) or use [Installation Service Package](https://www.mageplaza.com/magento-2-installation-services/) to request the specialist helps from Mageplaza Team.
 
  .. _SEO extension for Magento 2: https://www.mageplaza.com/magento-2-seo-extension/
- .. _Installation Guide: http://docs.mageplaza.com/kb/installation.html
+ .. _Installation Guide: https://docs.mageplaza.com/kb/installation.html
  .. _Installation Service Package: https://www.mageplaza.com/magento-2-installation-services/
 
 Magento 2 SEO Settings
@@ -20,7 +20,7 @@ Magento 2 SEO Settings
 
 After loging in as Admin account, go to the path `Mageplaza > SEO > Settings`.
 
-.. image:: http://i.imgur.com/uYjbUK8.gif
+.. image:: https://i.imgur.com/uYjbUK8.gif
 
 1. General Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -35,7 +35,7 @@ Open **General Configuration** section, you can see:
 * In `Stop words` field, choose the language of the stop words to use. 
 For example: if choose **en** (English), the stop words are *a the, of, for, etc*. 
 
-.. image:: http://i.imgur.com/zq9ngpr.png
+.. image:: https://i.imgur.com/zq9ngpr.png
 
 2. Duplicate Content
 ^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,7 +45,7 @@ Continue with the next session - **Duplicate Content**, there are some configura
 * To manage your content better and restrict the duplication, please set "Yes" for `Add Canonical URL Meta`
 * In the `Canonical points to https` field, you can choose "Yes" or "No" option depending on whether you would prefer the https version of a page or not
 
-.. image:: http://i.imgur.com/aQdKbPY.png
+.. image:: https://i.imgur.com/aQdKbPY.png
 
 3. Social Shares
 ^^^^^^^^^^^^^^^^^^^^^
@@ -64,7 +64,7 @@ Continue with the next session - **Duplicate Content**, there are some configura
 
 * Enter `Google+ Publisher Page` if you need
 
-.. image:: http://i.imgur.com/4Tje4Qy.png
+.. image:: https://i.imgur.com/4Tje4Qy.png
 
 4. Structured Data
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -90,7 +90,7 @@ Scroll down and expand the **Structured Data** section, you will:
 
 Mageplaza SEO extension permits to show **Social Profiles** when your website is searched on Google.
 
-.. image:: http://i.imgur.com/IyAoGwC.png
+.. image:: https://i.imgur.com/IyAoGwC.png
 
 6. Business information
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
