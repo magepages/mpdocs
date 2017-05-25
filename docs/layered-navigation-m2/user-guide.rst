@@ -2,7 +2,7 @@
 User Guide
 =============
 
-`Magento 2 Layered Navigation`_ extension is the advanced sitemap you can show on online store. It inlcudes full of product attributes your customer need to filter the desired items and purchase them quickly. Especially, integrating Ajax technology allow showing all search results instantly on the current page without reloading the whole page.
+`Magento 2 Layered Navigation`_ extension is the advanced sitemap you can show on online store. It includes full of product attributes your customer need to filter the desired items and purchase them quickly. Especially, integrating Ajax technology allow showing all search results instantly on the current page without reloading the whole page.
 
 Mageplaza Layered Navigation's User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Configure** on the backend.
 
@@ -56,5 +56,5 @@ How to Configure
 
  .. image:: https://cdn.mageplaza.com/docs/ln-configuration.gif
 
-.. note:: Multi filter and Shop by is inlcuded by default, there is no configuration option any more.
+.. note:: Multi filter and Shop by are included by default, there is no configuration option any more.
 
