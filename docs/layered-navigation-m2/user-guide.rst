@@ -58,3 +58,4 @@ How to Configure
 
 .. note:: Multi filter and Shop by are included by default, there is no configuration option any more.
 
+
