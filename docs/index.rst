@@ -33,6 +33,8 @@ Welcome to Mageplaza Docs
    layered-navigation-ultimate/index
    shop-by-brand-m2/index
    seo-m2/index
+   seo-pro/index
+   seo-ultimate/index
    social-login-m2/index
    blog-m2/index
    affiliate-m2/index
