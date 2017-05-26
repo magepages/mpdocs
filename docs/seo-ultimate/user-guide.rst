@@ -71,7 +71,7 @@ Scroll down and expand the **Structured Data** section, you will:
 
 * Allow applying `Organization Information` that describes the results in detailed. Furthermore, you can custom that data via this `guide <https://mageplaza.freshdesk.com/support/solutions/articles/6000122360>`_.
 
-.. image::  https://i.imgur.com/xXWhUdv.png
+.. image::  https://i.imgur.com/RYqCiU4.png
 
 1.5. Social Profiles
 ########
@@ -115,7 +115,7 @@ The detailed configuration of the `Page Analysis` feature is mentioned in the `p
 
 This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
 
-.. image:: https://i.imgur.com/NAiSlln.png
+.. image:: http://i.imgur.com/sLrdNxN.png
 
 1.11. XML Sitemap
 ########
@@ -127,7 +127,7 @@ Under the **XML Sitemap** section, you can:
 * Create `Homepage Optimization` when choosing "Yes"
 * In case you need additional links, it is required to set `Enable Additional Links` to "Yes"
 
-.. image:: https://i.imgur.com/0EgBnJT.png
+.. image:: https://i.imgur.com/0QtP9cP.png
 
 1.12. Hreflang Tag
 ########
