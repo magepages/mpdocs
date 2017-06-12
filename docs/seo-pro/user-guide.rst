@@ -10,14 +10,8 @@ In order to use the hreflang tag, you need to do:
 
 .. image:: https://i.imgur.com/V5xhGtR.png
 
-2. SEO Checklist
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-SEO Checklist includes a list of the notifications: Success, Error, and Warning. Basing on this status of the notification, you will know whether your store is optimized and ready for SEO or not. 
-
-.. image:: https://i.imgur.com/qiUDZmg.gif
-
-3. SEO Rules
+2. SEO Rules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Mageplaza SEO allows the store owner to create the specific rule information. To add new SEO rule, please follow the path `Mageplaza > SEO Rules > Rules`, click on **Add New Rule** button.
