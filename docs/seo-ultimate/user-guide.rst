@@ -20,7 +20,7 @@ Then, expand `Search Engine Optimization` tab.
 
 `Page Analysis` section includes 2 main parts: **Structure Data Editor** and **Main Keyword** - **Analysis**. 
 
-**3.1. Structure Data Editor**
+**4.1. Structure Data Editor**
 
 
 This field allows the users can edit and see visually how the structured data will be displayed in the Search Engine Result Pages. 
@@ -36,7 +36,7 @@ Below the `Meta Title` and `Meta Description` field, there is a bar which notice
 
 .. image:: https://i.imgur.com/o5iUvzj.gif
 
-**3.2. Main Keyword and Analysis**
+**4.2. Main Keyword and Analysis**
 
 
 After inserting the content on the other `Main Keyword` field, the system will automatically check and show the analysis. 
