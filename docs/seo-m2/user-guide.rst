@@ -89,25 +89,3 @@ Enabling Breadcrumbs is the way to show the exact position in the site hierarchy
 In the `Verification` field, you need to enter the verification code to confirm the ownership of your site. Hence, you can use the Web services such as Google Search Console, Bing Webmaster Tools, Pinterest and Yandex Webmaster Tools.
 
 .. image:: https://i.imgur.com/HyEIZhG.png
-
-1.9. HTML Sitemap
-########################
-
-This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
-
-.. image:: https://i.imgur.com/sLrdNxN.png
-
-1.10. XML Sitemap
-########################
-
-XML Sitemap is a `.xml` map of your website and the map will show a list of the page that the visitors can access.
-
-Under the **XML Sitemap** section, you can:
-
-* Create `Homepage Optimization` when choosing "Yes"
-* In case you need additional links, it is required to set `Enable Additional Links` to "Yes"
-
-.. image:: https://i.imgur.com/0QtP9cP.png
-
-1.11. Hreflang Tag
-########################
