@@ -1,4 +1,5 @@
-
+1.9. Hreflang Tag
+########################
 
 The Hreflang tag is the necessary tag if your website must approach multi-countries. The hreflang attribute tells Google which language you are using on a specific page, so the search engine can serve that result to users searching in that language.
 
@@ -10,6 +11,24 @@ In order to use the hreflang tag, you need to do:
 
 .. image:: https://i.imgur.com/V5xhGtR.png
 
+1.10. XML Sitemap
+########################
+
+XML Sitemap is a `.xml` map of your website and the map will show a list of the page that the visitors can access.
+
+Under the **XML Sitemap** section, you can:
+
+* Create `Homepage Optimization` when choosing "Yes"
+* In case you need additional links, it is required to set `Enable Additional Links` to "Yes"
+
+.. image:: https://i.imgur.com/0QtP9cP.png
+
+1.11. HTML Sitemap
+########################
+
+This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
+
+.. image:: https://i.imgur.com/sLrdNxN.png
 
 2. SEO Rules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
