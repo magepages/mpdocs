@@ -1,4 +1,11 @@
-3. Page Analysis
+3. SEO Checklist
+########
+
+SEO Checklist includes a list of the notifications: Success, Error, and Warning. Basing on this status of the notification, you will know whether your store is optimized and ready for SEO or not. 
+
+.. image:: https://i.imgur.com/qiUDZmg.gif
+
+4. Page Analysis
 ########
 
 Firstly, please make sure that the `Page Analysis` feature is already enabled in the `Admin Panel > Mageplaza > SEO extension > Settings`, which is mentioned in part **1.9** above. 
@@ -43,9 +50,3 @@ The analysis is based on:
 
 .. image:: https://i.imgur.com/0nyJD4i.gif
 
-4. SEO Checklist
-########
-
-SEO Checklist includes a list of the notifications: Success, Error, and Warning. Basing on this status of the notification, you will know whether your store is optimized and ready for SEO or not. 
-
-.. image:: https://i.imgur.com/qiUDZmg.gif
