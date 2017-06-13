@@ -20,7 +20,7 @@ In order to install SEO extension on your store, you can learn and do it by your
 
 .. include:: ../seo-m2/user-guide.rst
 
-1.11. Hreflang Tag
+1.8.1. Hreflang Tag
 ########################
 
 The Hreflang tag is the necessary tag if your website must approach multi-countries. The hreflang attribute tells Google which language you are using on a specific page, so the search engine can serve that result to users searching in that language.
