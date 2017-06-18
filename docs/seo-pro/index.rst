@@ -7,9 +7,6 @@ SEO Pro
 
     how*
 
-===========
-User Guide
-===========
 
 Introduction
 --------------
