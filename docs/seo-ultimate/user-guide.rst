@@ -75,7 +75,7 @@ Our crosslinks feature will work under customizable terms. To make a new term fo
 
 .. image:: http://i.imgur.com/nwvs63U.jpg
 
-Fill up all the required information fields you wish to set up for your new term. The following to creat new term’s form will be like this.
+Fill up all the required information fields you wish to set up for your new term. The following to creat new term’s form will be performed like this.
 
 .. image:: http://i.imgur.com/PCY2Pgm.jpg
 
