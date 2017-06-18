@@ -7,9 +7,6 @@ SEO Ultimate
 
     how*
 
-===========
-User Guide
-===========
 
 Introduction
 --------------
