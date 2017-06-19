@@ -67,7 +67,7 @@ To config Crosslinks, go to ``Admin Panel > Mageplaza > SEO > Settings > Crossli
 * In the **Total Max Replacement Count for Product Page** field, enter a number to define The maximum number of keywords will be replaced by term on the product view page. Default value is 10 terms.
 * In the **Total Max Replacement Count for Category Page** field enter a number to define The maximum number of keywords will be replaced by term on the Category page. Default value is 10 terms.
 * In the **Total Max Replacement Count for CMS Page** field enter a number to define The maximum number of keywords will be replaced by term on the CMS page. Default value is 10 terms.
-In the **Apply for** field, choose the page to apply Crosslinks on.
+* In the **Apply for** field, choose the page to apply Crosslinks on.
 
 Click ``Save Config`` to save changes.
 
