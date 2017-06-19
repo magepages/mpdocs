@@ -52,3 +52,72 @@ The analysis is based on:
 
 .. image:: https://i.imgur.com/0nyJD4i.gif
 
+5. Crosslinks
+######
+
+Crosslinks play a certain popular role to link between sites, as sort of indispensable bridge leading users to the variety of similar product that customer might have further interested to know more, which would bring a great change increasing purchasing rate significantly.
+ 
+**5.1 Crosslink general configuration**
+ 
+To config Crosslinks, go to ``Admin Panel > Mageplaza > SEO > Settings > Crosslinks``. Open the Crosslinks’s section.
+ 
+.. image:: https://i.imgur.com/3jbNlyV.jpg
+
+* In the **Enable/Disable** field, select “*Yes*” to enable crosslinks work, or “*No*” if you wish for vice versa.
+* In the **Total Max Replacement Count for Product Page** field, enter a number to define The maximum number of keywords will be replaced by term on the product view page. Default value is 10 terms.
+* In the **Total Max Replacement Count for Category Page** field enter a number to define The maximum number of keywords will be replaced by term on the Category page. Default value is 10 terms.
+* In the **Total Max Replacement Count for CMS Page** field enter a number to define The maximum number of keywords will be replaced by term on the CMS page. Default value is 10 terms.
+In the **Apply for** field, choose the page to apply Crosslinks on.
+
+Click ``Save Config`` to save changes.
+
+**5.2 How to creat a new term**
+
+Our crosslinks feature will work under customizable terms. To make a new term for your store, go to ``Admin Panel > SEO > Crosslinks``.  Click red button Add new Term.
+
+.. image:: http://i.imgur.com/nwvs63U.jpg
+
+Fill up all the required information fields you wish to set up for your new term. The following to creat new term’s form will be performed like this.
+
+.. image:: http://i.imgur.com/PCY2Pgm.jpg
+
+* In the **Keyword** field (require information): enter new keyword you want to create.
+* In the **Link Alt/Title** field: short description for this keyword. This will insert into title attribute. We suggest you add Keywords that you want to rank. E.g: Buy iPhone in New York
+* In the **Link Target** field: target's attribute of Internal link.
+  
+  * If you want to open new tab, should choose: *_blank (New tab)*
+  * If you want to open it in popup box, choose *_self (Current tab)*
+  * If you want to open it the current page, choose _top (Full body of the window)
+* In the **Link to** field: define the form of address that Internal link refers to. There will be 3 kind of form.
+  
+  * Custom Link:  the URL's path will be put together with domain of this website. E.g: /iphone.html . This value does not include domain name.
+  * Product stock keeping unit (SKU): base on SKU link to the product URL. E.g: iphone
+  * Category ID: base on ID link to the category URL. E.g: 23
+* In the **Limit Number Of Links Per Page** field: enter a value limits number of links per page. Default is 3.
+* In the **Direction** field: specific direction which Mageplaza SEO will find and replace the keyword. Suggest use Random or Top down.
+* In the **Rel** field: the rel's attribute of Internal link. There are 2 options: Default or Nofollow.
+* In the **Status** field: set up the status for the term. “Yes” if you want to apply for this term.
+* In **Priority** field: set up value for the priority of this keyword. Higher priority term will be applied first. O is highest.
+
+**5.3 How to edit/delete existed term**
+
+Go to ``Admin Panel > SEO > Crosslinks``. A list of existed terms will be appeared. Click on Select in the Action tab to custom term you want to edit.
+
+.. image:: http://i.imgur.com/53GFdNu.jpg
+
+Click ``Save term`` after edited. 
+
+  
+
+
+
+
+  
+ 
+
+
+
+
+
+
+
