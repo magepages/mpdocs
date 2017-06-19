@@ -71,7 +71,7 @@ In the **Apply for** field, choose the page to apply Crosslinks on.
 
 Click ``Save Config`` to save changes.
 
-**5.2 How to creat a new term**
+**5.2 How to create a new term**
 
 Our crosslinks feature will work under customizable terms. To make a new term for your store, go to ``Admin Panel > SEO > Crosslinks``.  Click red button Add new Term.
 
