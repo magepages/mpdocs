@@ -12,20 +12,11 @@ Welcome to Mageplaza Docs
 
 
 
-.. toctree::
-   :maxdepth: 1
-   :glob:
-   :caption: Magento 1 Documentation
-
-   affiliate/index
-   search/index
-
-
 
 .. toctree::
    :maxdepth: 1
    :glob:
-   :caption: Magento 2 Documentation
+   :caption: User Guide
 
    one-step-checkout-m2/index
    layered-navigation-m2/index

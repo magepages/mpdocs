@@ -1,11 +1,3 @@
-==================
-User Guide
-==================
-
-
-Introduction
---------------------
-
 Updating Blog regularly is one of the effective content marketing strategy in the present eCommerce marketplace. This activity will draw the more interactive website and drive your website more attractive to the vistors. `Magento 2 Blog`_ extension by Mageplaza, you will get an impressive chance to provide the latest news about your store, upcoming products, promotions, and get customers’ feedback in easy and simple way. 
 
 How to Configure

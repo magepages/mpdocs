@@ -2,8 +2,8 @@
 
  .. _Mageplaza Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/) 
 
-Features List
-^^^^^^^^^^^^^^^^^^
+**Features List**
+
 
 * Ajax Loading (**HOT**)
 * Price Slider (**HOT**)
@@ -25,7 +25,7 @@ After enabling the module, the Layered Navigation will be displayed on the left 
 .. image:: https://i.imgur.com/8vDDC3q.png
 
 Layered Navigation Configuration 
--------------------------------------
+=================================
 
 The Configuration is available under `Admin Panel > Mageplaza > Layered Navigation > Configuration`. 
 
@@ -39,7 +39,7 @@ In the configuration, there are 2 tabs:
 Here are the details for the settings of each tab.
 
 1. General Configuration tab
----------------------------------
+^^^^^^^^^^^^^^^^^^
 
 .. image:: https://i.imgur.com/RAa3Gkv.png
 
