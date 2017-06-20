@@ -8,8 +8,7 @@ SEO Ultimate
     how*
 
 
-Introduction
---------------
+
 
 To help you automatically optimize and greatly improve the performance of your Magento-based store in Search Engines, after the Standard and Pro version, Mageplaza continues releasing `Magento 2 SEO ULTIMATE extension <https://www.mageplaza.com/magento-2-seo-extension/>`_. With a list of outstanding and effective tools, the Better SEO Ultimate extension will bring to your store a great chance to own an amazing speed as well as gain the higher and higher rank in the popular and famous search engines such as Google, Bing, or Yahoo.    
 
