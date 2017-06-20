@@ -1,10 +1,3 @@
- =============
- User Guide
- =============
-
- Introduction
- --------------
-
  In order to advance the Magento 2 store layered navigation as well as to bring the best shopping experience to the visitors, Mageplaza_ developed the `Layered Navigation Ultimate`_ extension. This Ultimate version is the advanced version of the Pro version with many powerful and extra features will surely adapt any user's expectation and plays an important role to build a successful store.
 
   .. _Mageplaza: https://www.mageplaza.com/ 

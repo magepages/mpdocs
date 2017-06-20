@@ -1,10 +1,3 @@
-===========
-User Guide
-===========
-
-Introduction
---------------
-
 `Mageplaza Layered Navigation`_ is a smart map for your Magento 2 store. It's the shortest way for the shoppers to find what they want, especially when you have a bunch of items with various prices, attributes or brands.
 
  .. _Mageplaza Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/) 
