@@ -8,8 +8,6 @@ SEO Pro
     how*
 
 
-Introduction
---------------
 
 To help you automatically optimize and greatly improve the performance of your Magento-based store in Search Engines, after the Standard version, Mageplaza continues releasing `Magento 2 SEO PRO extension <https://www.mageplaza.com/magento-2-seo-extension/>`_. With a list of outstanding and effective tools, the Better SEO Pro extension will bring to your store a great chance to own an amazing speed as well as gain the higher and higher rank in the popular and famous search engines such as Google, Bing, or Yahoo.    
 
