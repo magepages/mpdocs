@@ -1,23 +1,24 @@
-Expert's recommendations
---------------------------
+**Expert's recommendations**
 
 .. tip:: Must-have extensions for your Magento stores
 
-	#. `Magento 2 One Step Checkout`_
-	#. `Magento 2 Layered Navigation`_
-	#. `Magento 2 Social Login`_ FREE
-	#. `Magento 2 Affiliate`_
-	#. `Magento 2 Blog`_ FREE
-	#. `Magento 2 SEO`_ FREE
-	#. `Magento 2 Banner Slider`_ FREE
+	#. `One Step Checkout`_
+	#. `Layered Navigation`_
+	#. `Social Login`_ FREE
+	#. `Affiliate`_
+	#. `Blog`_ FREE
+	#. `Shop by brand`_
+	#. `SEO`_ FREE
+	#. `Banner Slider`_ FREE
 
 
-.. _Magento 2 One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
-.. _Magento 2 Affiliate: https://www.mageplaza.com/magento-2-affiliate-extension/
-.. _Magento 2 Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/
-.. _Magento 2 Blog: https://www.mageplaza.com/magento-2-blog-extension/
-.. _Magento 2 Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
-.. _Magento 2 SEO: https://www.mageplaza.com/magento-2-seo-extension/
-.. _Magento 2 Banner Slider: https://www.mageplaza.com/magento-2-banner-slider-extension/
+.. _One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
+.. _Affiliate: https://www.mageplaza.com/magento-2-affiliate-extension/
+.. _Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/
+.. _Blog: https://www.mageplaza.com/magento-2-blog-extension/
+.. _Shop by brand: https://www.mageplaza.com/magento-2-shop-by-brand/
+.. _Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
+.. _SEO: https://www.mageplaza.com/magento-2-seo-extension/
+.. _Banner Slider: https://www.mageplaza.com/magento-2-banner-slider-extension/
 
 
