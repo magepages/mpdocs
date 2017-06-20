@@ -301,7 +301,7 @@ Here is how the Rating Filter works on the Frontend:
 
 .. image:: https://i.imgur.com/wznrUOp.gif
 
-Design Configuration tab
+3. Design Configuration tab
 ----------------------------
 
 .. image:: https://i.imgur.com/gXLzjQY.png
