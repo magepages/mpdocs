@@ -1,4 +1,4 @@
-Better Slider
+Banner Slider
 =================
 
 
