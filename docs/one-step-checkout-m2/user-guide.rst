@@ -5,6 +5,12 @@
 
 Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
 
+.. note:: Magento version compatibility
+  Community: 2.1.x
+  Enterprise: 2.1.x
+
+
+
 How to use
 -----------
 
