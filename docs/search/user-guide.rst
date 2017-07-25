@@ -20,7 +20,7 @@ How to use
 * The search result will be displayed that includes product name, product small image, price and short description
 * Customer will click on the result that they are finding, then redirect to product page.
 
-How to config
+How to configure
 ----------------
 
 * Go to `Backend > Search Plus > Settings`

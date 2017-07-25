@@ -80,7 +80,7 @@ Order Review and Place Order
 * When complete, click on **Place order** button to complete the checkout process.
 
 
-How to config
+How to configure
 ----------------
 
 Login to Magento Admin, choose **Mageplaza > One Step Checkout** on the panel.

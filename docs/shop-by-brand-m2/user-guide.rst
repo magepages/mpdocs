@@ -27,8 +27,8 @@ Alphabet Search, placed under Search Box, is represented including "Show All" an
 
 .. image:: https://i.imgur.com/dybAloX.gif
 
-II. How to config
-------------------
+II. How to configure
+--------------------
 
 Login to the backend of Magento 2 Shop by Brand. To cover full of the configuration as an administrator, you need to follow 3 parts: 
 

@@ -60,8 +60,8 @@ For more convenience, the customers will be clearly guided by Google Map Directi
 
 .. image:: https://i.imgur.com/wi0IhJH.png
 
-II. How to config
--------------------
+II. How to configure
+--------------------
 
 Login to Magento 2 backend, you will have full of admin controls here.
 
