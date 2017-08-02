@@ -48,8 +48,23 @@ Go back to the Settings page. The created application credentials (APP ID and Se
 
 .. image:: https://i.imgur.com/QP75QVh.png
 
-
 Step 7
+----------
+
+- Add a Product
+
+.. image:: http://i.imgur.com/0ncXALM.png
+
+- No need to choose any platforms. Click the **Settings** on the left to input the RedirectURIs.
+
+.. image:: https://i.imgur.com/nzGOfqd.png
+
+- Leave all the default Options, get the **Valid OAuth redirect URIs** from our SocialLogin settings in backend.  
+Paste the link into the input and press **Save changes** button on the bottom right screen.
+
+.. image:: https://i.imgur.com/ANrIMdN.png
+
+Step 8
 ---------
 
 Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
