@@ -42,17 +42,11 @@ Enable Shop by
 How to Configure
 --------------------
 
-* Login to Admin Panel, `Store > Configuration`.
-* To allow applying the improved navigation module, set `Module Enable ` to "Yes" option.
-* It is possible to filter by multiple attributes, set `Allow Multiple Filter` to "Yes".
+* Login to Admin panel, ``Mageplaza > Layered Navigation > Configuration``
+* In the **General Configuration**, Choose "Yes" in *Module Enable* to turn Layered Navigation on. No means the vice versa result.
+* Click red button **Save Config** to save change.
 
-  If choose "No", your customer can just filter by one product attribure before updating the result.
+.. image:: https://imgur.com/UCycyXE
 
-* To show "Shop by" section, choose "Yes" in the `Enable Shop by` field.
-* When receiving a system message at the top of the workplace, click on the **Cache Management** to refresh the cache.
-
- .. image:: https://cdn.mageplaza.com/docs/ln-configuration.gif
-
-.. note:: Multi filter and Shop by are included by default, there is no configuration option any more.
 
 
