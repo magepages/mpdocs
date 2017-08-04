@@ -46,7 +46,7 @@ How to Configure
 * In the **General Configuration**, Choose "Yes" in *Module Enable* to turn Layered Navigation on. No means the vice versa result.
 * Click red button **Save Config** to save change.
 
-.. image:: http://imgur.com/UCycyXE
+.. image:: http://imgur.com/UCycyXE.gif
 
 
 
