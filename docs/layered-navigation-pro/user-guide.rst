@@ -189,7 +189,8 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
 * In the **Show as Slider** field
   * Choose *Yes* if you want to keep Vertical Slider dislay
 .. image:: https://imgur.com/csS25Fl.jpg
-  * Choo *No* if you wish to keep the default Horizontal Rating filter
+
+  * Choose *No* if you wish to keep the default Horizontal Rating filter
 .. image:: https://imgur.com/HwUho1t.jpg 
 
 Frontend 
