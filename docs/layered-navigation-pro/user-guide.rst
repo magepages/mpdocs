@@ -184,12 +184,11 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
   * In **Expand by default** : Choose *Yes* to automatically expand the group attribute `Rating` when shoppers go to the collection page.
    
 * In the **Show as Slider** field
+ - Choose `Yes` if you want to display Vertical Slider   
+ .. image:: https://imgur.com/csS25Fl.jpg
 
-  * Choose *Yes* if you want to display Vertical Slider   
-.. image:: https://imgur.com/csS25Fl.jpg
-
-  * Choose *No* if you wish to keep the default Horizontal Rating filter.   
-.. image:: https://imgur.com/HwUho1t.jpg 
+ - Choose `No` if you wish to keep the default Horizontal Rating filter.   
+ .. image:: https://imgur.com/HwUho1t.jpg 
 
 Backend 
 '''''''''''''''''''''' 
