@@ -269,29 +269,25 @@ Here is how the `Product State Filter` configuration will be displayed:
 2.2. Rating Filter
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-This feature allows the shoppers can filter the items by the rating follows 5 levels from 1 star to 5 stars. 
-
-For example: when you choose the option **4 stars & up**, the received result will display the items which have the 4-star and 5-star rating. 
+This feature allows the shoppers can filter the items by the rating follows 5 levels from 1 star to 5 stars. For example: when you choose the option **4 stars & up**, the received result will display the items which have the 4-star and 5-star rating. 
 
 Backend
 ''''''''''''''''
 
-.. image:: https://i.imgur.com/Ox1V8bz.png
+.. image:: https://imgur.com/n1patLV.jpg
 
-* In the field `Enable Rating Filter`, choose **Yes** to enable and display the group attribute `Rating` on the Layered Navigation and leave **No** to disable this feature. 
 
-When you choose **Yes**, there are 2 more options for the modification: 
+* In the field **Enable Rating Filter**, choose *Yes* to enable and display the group attribute `Rating` on the Layered Navigation and leave *No* to disable this feature. When you choose **Yes**, there are 2 more options for the modification: 
 
-* **Group Label** : Adding the text as the group attribute's name.
-* **Expand by default** : Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
+  * **Group Label** : Adding the text as the group attribute's name.
+  * **Expand by default** : Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
 
-.. image:: https://i.imgur.com/dzShwDf.png
-* ![Configure Rating slider](https://cdn.mageplaza.com/media/general/naF5mBJ.png)
+* In the Show as slider option:
+  * Choose Yes if you want to enable `Vertical Slider` form
+.. image:: https://imgur.com/csS25Fl.jpg
+  * Choose No if you want to disable `Vertical Slider`, default display is horizontal rating.
+.. image:: https://imgur.com/HwUho1t.jpg  
 
-In the Show as slider option:
-
-- Choose Yes if you want to enable `Vertical Slider` form
-- Choose No if you want to disable `Vertical Slider`, default display is horizontal rating. 
 
 Frontend 
 '''''''''''''''
