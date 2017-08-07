@@ -15,7 +15,7 @@ After enabling the module, Layered Navigation is shown with a list of product at
 
   .. image:: https://cdn.mageplaza.com/docs/ln-layered-navigation-frontend.png
 
-Filter by multiple attributes
+1. Filter by multiple attributes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Open the product attribute section and choose one option as need.
@@ -25,14 +25,14 @@ Filter by multiple attributes
 
   .. image:: https://cdn.mageplaza.com/docs/ln-filter-by-attributes.gif
 
-Price Slider
+2. Price Slider
 ^^^^^^^^^^^^^^^
 
 Price Slider allows sliding flexibly the bar to define price range instead of entering manually.
 
   .. image:: https://cdn.mageplaza.com/docs/ln-price-slider.png
 
-Enable Shop by
+3. Enable Shop by
 ^^^^^^^^^^^^^^^
 
 **Shop by** section will list all filter activities for the displayed results.
