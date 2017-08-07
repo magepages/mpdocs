@@ -269,7 +269,7 @@ Here is how the `Product State Filter` configuration will be displayed:
 2.2. Rating Filter
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-This feature allows the shoppers can filter the items by the rating follows 5 levels from 1 star to 5 stars. For example: when you choose the option **4 stars & up**, the received result will display the items which have the 4-star and 5-star rating. 
+This feature allows the shoppers can filter the items by the rating follows 5 levels from 1 star to 5 stars. For example: when you choose the option **4 stars and up**, the received result will display the items which have the 4-star and 5-star rating. 
 
 Backend
 ''''''''''''''''
@@ -277,9 +277,9 @@ Backend
 .. image:: https://imgur.com/n1patLV.jpg
 
 
-* In the field **Enable Rating Filter**, choose *Yes* to enable and display the group attribute `Rating` on the Layered Navigation and leave *No* to disable this feature. When you choose *Yes*, there are 2 more options for the modification:
-   * **Group Label** : Adding the text as the group attribute's name.
-   * **Expand by default** : Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
+* In the field *Enable Rating Filter*, choose *Yes* to enable and display the group attribute `Rating` on the Layered Navigation and leave *No* to disable this feature. When you choose *Yes*, there are 2 more options for the modification:
+   * *Group Label* : Adding the text as the group attribute's name.
+   * *Expand by default* : Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
 
 * In the **Show as Slider** field
    * Choose *Yes* if you want to keep Vertical Slider dislay
