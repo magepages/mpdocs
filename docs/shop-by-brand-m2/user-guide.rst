@@ -94,9 +94,6 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 2. Bulk import brands
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-2.1 Import Brand by CSV file
-'''''''''''''''''
-
 Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import brands via CSV file.
 
 .. image:: https://i.imgur.com/4jua9kb.gif
@@ -121,10 +118,6 @@ Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import b
 * Click on `Check Data` if your file is accepted. Then Choose `Import` to start import brand to your store.
 
 .. image:: https://i.imgur.com/GcL4klw.png
-
-2.2 Import Brand by Image
-'''''''''''''''''
-
 
 
 
