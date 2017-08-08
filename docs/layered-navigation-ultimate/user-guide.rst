@@ -384,7 +384,7 @@ Generally, after installing Layered Navigation for Magento 2, this tab will show
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Layered Navigation also allows store owner can set up and visitor can filter decimal attributes. 
-* In the ``Attribute Information > Properties > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optinal attribute.
+* In the ``Attribute Information > Properties > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optional attribute.
 
 .. image:: https://imgur.com/Z4txesm.jpg
 
