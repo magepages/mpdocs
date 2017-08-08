@@ -107,7 +107,7 @@ Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import b
 
 * After choosing "Mageplaza Shopbybrand", *Import Behavior* and *Import Behavior* will appear. Do the following:
 
-  * In the **Import Behavior* section, set *Import Behavior* field to "Add/Update". Then set the value for *Allowed Errors Count*, *Field separator*, *Multiple value separator* and tick on *Fields enclosure* if needed.
+  * In the *Import Behavior* section, set *Import Behavior* field to "Add/Update". Then set the value for *Allowed Errors Count*, *Field separator*, *Multiple value separator* and tick on *Fields enclosure* if needed.
 
  .. image:: https://i.imgur.com/i1Jy0Uj.png
 
