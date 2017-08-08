@@ -14,11 +14,12 @@ Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed i
 How to use
 -----------
 
- After adding the right products in the cart, the customer will be navigated to the checkout page. The checkout page will be shown with all six steps as the image below.
+After adding the right products in the cart, the customer will be navigated to the checkout page. The checkout page will be shown with all six steps as the image below.
 
 .. image:: https://i.imgur.com/L3DL0Ur.png
 
-A one-step checkout will be totally done on one page only by completing information and selecting options
+A one-step checkout will be totally done on one page only by completing information and selecting options.
+
 Log In / Sign Up
 ^^^^^^^^^^^^^^^^^^
 
@@ -43,7 +44,7 @@ Shipping Address
 
 .. image::  https://i.imgur.com/Ka6hyFN.png
 
-*Buyers can tick the box **My billing and shipping address are the same** to have their item(s) delivered to their billing address. Otherwise, the **Billing Address** section allows buyers to fill in their information to check out.
+* Buyers can tick the box **My billing and shipping address are the same** to have their item(s) delivered to their billing address. Otherwise, the **Billing Address** section allows buyers to fill in their information to check out.
 
 Shipping Method
 ^^^^^^^^^^^^^^^^^^
