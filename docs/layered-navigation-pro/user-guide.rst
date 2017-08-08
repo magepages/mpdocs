@@ -9,7 +9,7 @@ After enabling the module, the Layered Navigation will be displayed on the left 
 
 .. image:: https://i.imgur.com/8vDDC3q.png
 
-The Configuration is available under `Admin Panel > Mageplaza > Layered Navigation > Configuration`. 
+The Configuration is available under ``Admin Panel > Mageplaza > Layered Navigation > Configuration``. 
 
 .. image:: https://i.imgur.com/JxGogGp.png
 
@@ -28,7 +28,7 @@ Here are the details for the settings of each tab.
 1.1. Module Enable 
 ^^^^^^^^^^^^^^^^^^^^^
 
-You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** to enable and **No** to disable. 
+You can choose to use the Module ``Layered Navigation`` or not. Leave as **Yes** to enable and **No** to disable. 
 
 1.2. Multi-Filters 
 ^^^^^^^^^^^^^^^^^^^^^
@@ -40,7 +40,7 @@ By enabling this feature, the shoppers are allowed to choose more than 1 filter 
 Backend
 '''''''''''''''''''''' 
 
-To config this feature, go to `Enable Multi-filter` field, set **Yes/ No** to **Enable/ Disable**. 
+To config this feature, go to ``Enable Multi-filter`` field, set **Yes/ No** to **Enable/ Disable**. 
 
 Frontend 
 '''''''''''''''''''''' 
@@ -55,7 +55,7 @@ This feature allows the shoppers, after filtering, can automatically back to the
 Backend
 '''''''''''''''''''''' 
 
-On the `Scroll to Top after Filtering` field, you will have 2 options:
+On the ``Scroll to Top after Filtering`` field, you will have 2 options:
 
 * **YES** : After choosing a filter or click on the `Apply Filter` button, the site will automatically scroll up to the top-page.
 *  **NO** : After choosing a filter or click on the `Apply Filter` button, the site still stay at the current position.
@@ -119,17 +119,18 @@ In `Expand by default` field:
 1.8. Apply Filter button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `Apply Filter` button allows the shoppers to choose when to apply the chosen filters. With this button, the shoppers don't need to wait for the page to reload again and again each time they choose a filter.
+The ``Apply Filter`` button allows the shoppers to choose when to apply the chosen filters. With this button, the shoppers don't need to wait for the page to reload again and again each time they choose a filter.
 
 Backend
 '''''''''''''''''''''' 
+.. image:: https://imgur.com/M63qe42.jpg
 
-In `Add Apply Filter button` field, set **Yes** to show the button and leave **No** to disable. 
+In ``Add Apply Filter button`` field, set **Yes** to show the button and leave **No** to disable. 
 
 Frontend
 '''''''''''''''''''''' 
 
-Here is how the `Apply Filter` button works, you can choose lots of attribute before applying it.  Also, SEO friendly URL is compatible with `Apply Filter`'s search result. As you can the this example chose *Insulated* and *Cold*, and name of those attributes appears on the URL as well.
+Here is how the ``Apply Filter`` button works, you can choose lots of attribute before applying it.  Also, SEO friendly URL is compatible with ``Apply Filter``'s search result. As you can the this example chose *Insulated* and *Cold*, and name of those attributes appears on the URL as well.
 
 .. image:: https://imgur.com/Ve8nGAA.gif
 
@@ -172,7 +173,7 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
 3. Attribute Configuration 
 -------------------------------
 
-Go to `Admin Panel > Stores > Products > Attribute`, then choose an attribute and go to `Layered Navigation Properties` tab.
+Go to ``Admin Panel > Stores > Products > Attribute``, then choose an attribute and go to `Layered Navigation Properties` tab.
 
 Generally, after installing [Mageplaza Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/), this tab will show 4 mores options: 
 
