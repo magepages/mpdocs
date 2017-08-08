@@ -203,6 +203,7 @@ Layered Navigation also allows store owner can set up and visitor can filter dec
 .. image:: https://imgur.com/Z4txesm.jpg
 
 * Follow ``Attribute Information > ProductsPage Navigation Properties``
+
   * In **Use in ProductsPage Navigation** field choose *Filterable (with results)*
   * In **Use in Search Results ProductsPage Navigation** choose *Yes* 
   * In **Display Style** choose your preferred style as *Slider*, *Range* or *Slider and Range*
