@@ -13,7 +13,16 @@ Overview
 
 After enabling the module, Layered Navigation is shown with a list of product atributes on the left of the category page.
 
-  .. image:: https://cdn.mageplaza.com/docs/ln-layered-navigation-frontend.png
+.. image:: https://cdn.mageplaza.com/docs/ln-layered-navigation-frontend.png
+
+How to Configure
+--------------------
+
+* Login to Admin panel, ``Mageplaza > Layered Navigation > Configuration``
+* In the **General Configuration**, Choose "Yes" in *Module Enable* to turn Layered Navigation on. No means the vice versa result.
+* Click red button **Save Config** to save change.
+
+.. image:: http://imgur.com/UCycyXE.gif  
 
 1. Filter by multiple attributes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -25,7 +34,11 @@ After enabling the module, Layered Navigation is shown with a list of product at
 * You can also filter by multi-choose categories at the same time
 
   .. image:: https://cdn.mageplaza.com/docs/ln-filter-by-attributes.gif
-* Layered Navigation also allows store owner can set up and visitor can filter decimal attributes. In the ``Attribute Information > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optinal attribute.
+
+2. Filter by decimal attributes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Layered Navigation also allows store owner can set up and visitor can filter decimal attributes. In the ``Attribute Information > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optinal attribute.
 
 .. image:: https://imgur.com/Z4txesm.jpg
 
@@ -33,31 +46,17 @@ For example with **Weight** option for which product has weight as 15 lb. In the
 
 .. image:: https://imgur.com/mHR1l4E.jpg
 
-
-
-
-2. Price Slider
+3. Price Slider
 ^^^^^^^^^^^^^^^
 
 Price Slider allows sliding flexibly the bar to define price range instead of entering manually.
 
   .. image:: https://cdn.mageplaza.com/docs/ln-price-slider.png
 
-3. Enable Shop by
+4. Enable Shop by
 ^^^^^^^^^^^^^^^
 
 **Shop by** section will list all filter activities for the displayed results.
 
   .. image:: https://cdn.mageplaza.com/docs/ln-shop-by.png
-
-How to Configure
---------------------
-
-* Login to Admin panel, ``Mageplaza > Layered Navigation > Configuration``
-* In the **General Configuration**, Choose "Yes" in *Module Enable* to turn Layered Navigation on. No means the vice versa result.
-* Click red button **Save Config** to save change.
-
-.. image:: http://imgur.com/UCycyXE.gif
-
-
 
