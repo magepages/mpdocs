@@ -35,7 +35,7 @@ You can choose to use the Module ``Layered Navigation`` or not. Leave as **Yes**
 
 By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. 
 
-*For example*: The shopper can choose to filter by **Color** with *Black*, *White* and **Size** with *Small*, *Large* at the same time. 
+*For example*: The shopper can choose to filter by **Color** with *Black*, *White* and **Size** with *Small*, *Large* at the same time. This can be also applied with multiple categories.  
 
 Backend
 '''''''''''''''''''''' 
@@ -175,7 +175,10 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
 
 Go to ``Admin Panel > Stores > Products > Attribute``, then choose an attribute and go to `Layered Navigation Properties` tab.
 
-Generally, after installing [Mageplaza Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/), this tab will show 4 mores options: 
+3.1 Attribute Properties
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Generally, after installing Layered Navigation for Magento 2, this tab will show 4 mores options: 
 
 .. image:: https://i.imgur.com/YbH50sR.png
 
@@ -190,6 +193,25 @@ Generally, after installing [Mageplaza Layered Navigation](https://www.mageplaza
 * **Enable search option** : Choose to enable/ disable the **Quick Lookup Option** in this attribute group.
 
 * **Expand by default** : Choose to automatically expand this attribute group or not when the shoppers go to the collection page.
+
+3.2 Filter by decimal attributes
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Layered Navigation also allows store owner can set up and visitor can filter decimal attributes. 
+* In the ``Attribute Information > Properties > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optinal attribute.
+
+.. image:: https://imgur.com/Z4txesm.jpg
+
+* Follow ``Attribute Information > ProductsPage Navigation Properties``
+  * In **Use in ProductsPage Navigation** field choose *Filterable (with results)*
+  * In **Use in Search Results ProductsPage Navigation** choose *Yes* 
+  * In **Display Style** choose your preferred style as *Slider*, *Range* or *Slider and Range*
+
+.. image:: https://imgur.com/XmNmCJR.jpg
+
+For example with **Weight** option for which product has weight as 15 lb. In the frontend the search result can be filtered like: 
+
+.. image:: https://imgur.com/mHR1l4E.jpg
 
 4. Display Styles 
 ^^^^^^^^^^^^^^^^^^^^^
