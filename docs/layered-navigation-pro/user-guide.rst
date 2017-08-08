@@ -117,7 +117,7 @@ In `Expand by default` field:
 * **No** : The shoppers need to click on the attribute group name to expand the filters.
 
 1.8. Apply Filter button
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^^^
 
 The ``Apply Filter`` button allows the shoppers to choose when to apply the chosen filters. With this button, the shoppers don't need to wait for the page to reload again and again each time they choose a filter.
 
