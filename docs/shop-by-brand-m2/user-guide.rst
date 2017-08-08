@@ -117,7 +117,7 @@ Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import b
 
 * Click on `Check Data` if your file is accepted. Then Choose `Import` to start import brand to your store.
 
- .. image:: https://i.imgur.com/GcL4klw.png
+.. image:: https://i.imgur.com/GcL4klw.png
 
 3. Create new brand
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -128,7 +128,7 @@ Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import b
 * Click on `Save Config` to save the new brand.
 * Tap **Setting** to open the "Brand Information" page for configuration.
 
-.. image:: https://i.imgur.com/lCHol98.gif
+.. image:: https://imgur.com/J4Gg6U2.gif
 
 * Under **Brand Information** section,
 
