@@ -41,7 +41,7 @@ You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** t
 1.2. Multi-Filters
 ^^^^^^^^^^^^^^^^^^^^^^
 
-By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. 
+By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. You can also filter by multi-choose from multiple categories at the same time. 
 
 *For example*: The shopper can choose to filter by **Color** with *Black*, *White* and **Size** with *Small*, *Large* at the same time. This can be also applied with multiple categories.  
 
