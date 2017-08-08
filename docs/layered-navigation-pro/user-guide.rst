@@ -178,23 +178,11 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
 
 .. image:: https://imgur.com/n1patLV.jpg
 
-2.2.1 Enable Rating Filter
-''''''''''''''''''''''
-
-Choose *Yes* to enable and display the group attribute `Rating` on the Layered Navigation and leave *No* to disable this feature. When you choose *Yes*, there are 2 more options for the modification:
+* **Enable Rating Filter**: Choose *Yes* to enable and display the group attribute `Rating` on the Layered Navigation and leave *No* to disable this feature. When you choose *Yes*, there are 2 more options for the modification:
   
 * In **Group Label** : Adding the text as the group attribute's name.
 * In **Expand by default** : Choose *Yes* to automatically expand the group attribute `Rating` when shoppers go to the collection page.
-   
-2.2.2 Show as Slider
-''''''''''''''''''''''
-
-* Choose `Yes` if you want to display Vertical Slider   
-.. image:: https://imgur.com/csS25Fl.jpg
-
-* Choose `No` if you wish to keep the default Horizontal Rating filter.   
-.. image:: https://imgur.com/HwUho1t.jpg 
-
+ 
 
 3. Attribute Configuration 
 -------------------------------
