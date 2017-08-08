@@ -22,8 +22,19 @@ After enabling the module, Layered Navigation is shown with a list of product at
 * Similar to other product attributes.
 * Display the matched items via Ajax Loading.
 * Add the favorite items to cart.
+* You can also filter by multi-choose categories at the same time
 
   .. image:: https://cdn.mageplaza.com/docs/ln-filter-by-attributes.gif
+* Layered Navigation also allows store owner can set up and visitor can filter decimal attributes. In the ``Attribute Information > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optinal attribute.
+
+.. image:: https://imgur.com/Z4txesm.jpg
+
+For example with **Weight** option for which product has weight as 15 lb. In the frontend the search result can be filtered like: 
+
+.. image:: https://imgur.com/mHR1l4E.jpg
+
+
+
 
 2. Price Slider
 ^^^^^^^^^^^^^^^
