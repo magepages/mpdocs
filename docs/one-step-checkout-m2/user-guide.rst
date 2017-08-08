@@ -1,6 +1,6 @@
 
 
-**One Step Checkout extension for Magento 2**, developed by Mageplaza, is the best marketing tool in order to help you reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customer checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page become more powerful and more effective. 
+**One Step Checkout extension for Magento 2**, developed by Mageplaza, is the best marketing tool developed to help you reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customers checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page and make it more powerful and more effective. 
 
 
 Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
@@ -14,20 +14,19 @@ Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed i
 How to use
 -----------
 
- After adding the right products in the cart, the customer will be navigated to the checkout page. The checkout page will be shown with all six step as the image below.
+ After adding the right products in the cart, the customer will be navigated to the checkout page. The checkout page will be shown with all six steps as the image below.
 
 .. image:: https://i.imgur.com/L3DL0Ur.png
 
-Let enter fully the necessary fields to complete checkout steps as following easy guide
-
+A one-step checkout will be totally done on one page only by completing information and selecting options
 Log In / Sign Up
 ^^^^^^^^^^^^^^^^^^
 
-* If the customer already has an account, they will enter the info to login at:
+* Proceed the checkout with customers' existed information by a click on the blue link "Already have an account, click here to login". A pop-up box will appear to allow buyers to fill in their accounts as below:
  
 .. image::  https://i.imgur.com/2Ycj95V.png
 
-* If the customer doesn't have an account yet, please create a new account at: 
+* Otherwise, buyers are able to purchase without using a personal account by filling the Billing Address section, or create a new account at the same time when selecting the box Create Account: 
  
 .. image::  http://i.imgur.com/dtOQWQo.png
 
@@ -36,48 +35,45 @@ Billing Address
 
 .. image::  https://i.imgur.com/GJ1fp1j.png
 
-* Customer enter their personal information: Full name, last name, and email.
-* Enter some characters in the address field, Auto-suggest address technology will show the address suggestion, the customer just needs to choose the right one. Or another method, click on **Location** button and then customer address will be automatically fulfilled in corresponding fields.
+* Customers enter their personal information: Full name, last name, and email.
+* In the box Street Address, One Step Checkout helps display a list of addresses suggested automatically by typing only one letter. Furthermore, Country, City and State/Province will be consequently auto-updated based on the selected street address.
 
 Shipping Address
 ^^^^^^^^^^^^^^^^^^
 
 .. image::  https://i.imgur.com/Ka6hyFN.png
 
-* If customer want to ship to same address with billing address, just mark **Ship to same address**.
-* If not, please leave a mark at **Ship to same address** field, the shipping address section will be shown with required information that needs to fill.
-* Enter full your shipping address in the shipping address section
+*Buyers can tick the box **My billing and shipping address are the same** to have their item(s) delivered to their billing address. Otherwise, the **Billing Address** section allows buyers to fill in their information to check out.
 
 Shipping Method
 ^^^^^^^^^^^^^^^^^^
 
 .. image::  https://i.imgur.com/fnbfXWK.png
 
-* Depending on the configuration in the backend, the shipping method will be displayed for the customer choose.
-* Choose the shipping method that suitable with customer requirement
+* Depending on the configuration in the backend, the shipping method will be variable to meet customers' requirements.
 
 Payment Method
 ^^^^^^^^^^^^^^^^^^
 
 .. image::  https://i.imgur.com/xTHxbVV.png
 
-* Choose the payment method
-* Enter right information in the required fields
+* One Step Checkout allows customers to quickly select their favorable payment method only by a single click.
 
 Order Review and Place Order
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. image::  https://i.imgur.com/img8Qdb.png
 
-* Overview your order with product name, price, and quantity
-* Customer can change/edit easily the product quantity by using minus or plus button.
-* Customer can remove or add more product immediately in checkout page by using **x** button or clicking on **Edit your cart** button
-* Check the Subtotal, Tax and Grant Total detail clearly
-* In the **Coupon Code** field, enter the coupon code that customer want to apply, then click on **Apply Coupon** button
-* Customer can leave their comments about their order, product in the **Comments** field
-* Mark the **Sign up newsletter** if the customer would like to receive the newsletters from the provider.
+* In the **Order Review** section, One Step Checkout allows buyers to easily adjust their item's quantity by using the minus/plus button.
+* The extension also helps remove or add more items immediately in the checkout by using the X button or by clicking the **Edit your Cart** button.
+* Subtotal, shipping fee, tax and grand total are displayed clearly by **One Step Checkout**.
+* **One Step Checkout** enables customers to apply coupon in the **Coupon Code** box.
+* Allows customers to leave their comments about their order, product in the **Comments** field
+* The box **Sign up for newsletter** can be selected if customers desire to receive information from the online store via email.
   
-* When complete, click on **Place order** button to complete the checkout process.
+* Terms and conditions will be displayed in a pop-up box and can be accepted by clicking on **I agree with terms and conditions**.
+
+* Eventually, the one step checkout can be finished by a click on the **Place Order** button. The whole process is completed in one page only.
 
 
 How to configure
@@ -102,7 +98,7 @@ From the Admin Panel, go to **Mageplaza > One Step Checkout > Field Management**
 
 .. image::  http://i.imgur.com/iTnpJWr.gif
 
-You can freely to manage the fields on Checkout page by drag-and-drop.
+Drag and drop tabs from Available fields to Sorted fields to have them appear in the Checkout page.
 
 .. image::  https://i.imgur.com/e3ZCVhx.gif
 
@@ -119,8 +115,8 @@ General Configuration
 * In the **One Step Checkout Description** field, enter the short description to describe the One Step Checkout page.
 * In the **Default Shipping Method** field, set default shipping method in the checkout process.
 * In the **Default Payment Method** field, set default payment method in the checkout process.
-* In the **Allow Guest Checkout** field, select "Yes" to allow checking out as a guest. Guest can create an account on the checkout page.
-* In the **Can Show Billing Address** field, select "Yes" to allow customers can shipping to a different address from billing address.
+* In the **Allow Guest Checkout** field, select "Yes" to allow checking out as a guest. Also, guests can create an account on the checkout page.
+* In the **Can Show Billing Address** field, select "Yes" to allow shipping items to a different address from billing address.
 * In the **Use Auto Suggestion Technology** field, select one of the following options
 
   * No: if you don't want to use auto-suggestion technology
@@ -137,21 +133,21 @@ Display Configuration
 
 .. image::  http://i.imgur.com/x3jKP4z.png
 
-* In the **Show Login Link** field, set "Yes" to show the Login link which allows the customer signs in. Leave "No" to disable this link. 
+* In the **Show Login Link** field, set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
 * In the **Show Order Review Section** field, the Order Review is enabled by default, if you want to disable to review order, let select "Disabled" option.
 * In the **Discount Code Section** field, select "Enabled" to show Discount Code box on the Checkout page.
-* In the **Enable Gift Wrap** field, select "Yes" if you allow the customer to chose Gift Wrap option. After choosing, the change will be applied automatically to the order.
+* In the **Enable Gift Wrap** field, select "Yes" if you allow the customer to choose Gift Wrap option. After choosing, the change will be applied automatically to the order.
 * If you allow showing Gift Wrap option, two following fields will be shown:
 
- * **Calculate Method** field, select **Per Order** or **Per Item** to calculate gift wrap fee based on the items or order.
- * **Amount** field, enter the amount of gift wrap fee.
+ * **Calculate Method** field, select **Per Order** or **Per Item** to calculate the gift wrap fee based on the item quantity or the order total.
+ * **Amount** field, enter the gift wrap fee.
  
-* In the **Show Order Comment** field, select "Yes" to show the Order Comment box that allows the customer to enter their comment in the order.
-* In the **Enable Gift Message** field, select "Yes" to show the Gift Message box that allows the customer to enter their gift message to send friends
-* In the **Show Terms and Conditions** field, you can choose "No" to not display the *Terms and Conditions* OR choose to display it in 2 different positions: **In Payment Area** and **In Review Area**.
+* In the **Show Order Comment** field, select "Yes" to show the Order Comment box that allows the customer to enter their comment on the order.
+* In the **Enable Gift Message** field, select "Yes" to show the Gift Message box that allows the customer to enter their gift message.
+* In the **Show Terms and Conditions** field, you can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
 * In the **Show Newsletter Checkbox** field, select "Yes" if you want to show Sign up newsletter selection.
 * In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install [Social Login by Mageplaza](http://www.mageplaza.com/magento-2-social-login-extension/).
-* In the **Enable Delivery Time** field, set "Yes" to allow the customer to note the time when they can receive the shipping items, leave **No** to disable. 
+* In the **Enable Delivery Time** field, set "Yes" to allow the customer to note the time when they can receive the shipping items, leave **No** to disable this feature. 
 
 Design Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -161,7 +157,7 @@ Design Configuration
 .. image::  http://i.imgur.com/1JFYbiV.png
 
 
-* In the **Checkout Page Layout** field, select one of the following layouts:
+* In the **Checkout Page Layout** field, select one of the following layouts to have your checkout page be shown in four different interfaces
 
   * 1 column
   * 2 columns
@@ -173,8 +169,8 @@ Design Configuration
     * Flat
   
 * In the **Heading Background Color** field, choose the color that matches your site.
-* In the **Heading Text Color** field, choose color for the heading text
-* In the **Place Order button color** field, choose the color for the place order button which should be a highlight to attract customer the most.
+* In the **Heading Text Color** field, choose the color for the heading text
+* In the **Place Order button color** field, choose the color for the place order button which should be a highlight to attract shoppers the most.
 * In the **Custom CSS** field, you can add the CSS code to custom your own style.
   
 Terms and Conditions Configuration
@@ -202,8 +198,8 @@ The form will be displayed as the below image:
 
 * In the **Status** field, select "Enable" to show the terms and conditions.
 * In the **Applied** field, 
-    * Select **Manually** if you want the customer to have to read all TOS before clicking on Accept.
-    * Select **Automatically** if you want the TOS to be already accepted
+    * Select **Manually** if you want the customer to go through all TOS before clicking on Accept.
+    * Select **Automatically** if you want the TOS to be checked by default.
 * In the **Checkbox Text** field, enter the checkbox title.
 * In the **Content** field, enter the content of the terms and conditions
 
