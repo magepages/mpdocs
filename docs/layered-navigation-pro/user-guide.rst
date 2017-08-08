@@ -2,21 +2,6 @@
 
  .. _Mageplaza Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/) 
 
-**Features List**
-
-
-* Ajax Loading (**HOT**)
-* Price Slider (**HOT**)
-* SEO Friendly URL (**HOT**)
-* Multi-Filters.
-* Quick Lookup option.
-* Product State Filter (**NEW**)
-* Rating Filter (**NEW**) 
-* Apply Filter Option. 
-* Expand by Default.
-* Scroll to Top after filtering. (**NEW**)
-* Product Count.
-
 Overview 
 ----------------
 
@@ -144,9 +129,9 @@ In `Add Apply Filter button` field, set **Yes** to show the button and leave **N
 Frontend
 '''''''''''''''''''''' 
 
-Here is how the `Apply Filter` button works: 
+Here is how the `Apply Filter` button works, you can choose lots of attribute before applying it.  Also, SEO friendly URL is compatible with `Apply Filter`'s search result. As you can the this example chose *Insulated* and *Cold*, and name of those attributes appears on the URL as well.
 
-.. image:: https://i.imgur.com/UKX3N3z.gif
+.. image:: https://imgur.com/Ve8nGAA.gif
 
 
 2. Filter Configuration tab 
