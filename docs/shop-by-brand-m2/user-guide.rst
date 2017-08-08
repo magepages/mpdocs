@@ -94,6 +94,9 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 2. Bulk import brands
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
+2.1 Import Brand by CSV file
+'''''''''''''''''
+
 Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import brands via CSV file.
 
 .. image:: https://i.imgur.com/4jua9kb.gif
@@ -119,6 +122,12 @@ Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import b
 
 .. image:: https://i.imgur.com/GcL4klw.png
 
+2.2 Import Brand by Image
+'''''''''''''''''
+
+
+
+
 3. Create new brand
 ^^^^^^^^^^^^^^^^^^^^^^
 
@@ -127,8 +136,6 @@ Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import b
 * All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
 * Click on `Save Config` to save the new brand.
 * Tap **Setting** to open the "Brand Information" page for configuration.
-
-.. image:: https://imgur.com/J4Gg6U2.gif
 
 * Under **Brand Information** section,
 
