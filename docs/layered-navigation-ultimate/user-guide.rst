@@ -7,24 +7,6 @@ This `Layered Navigation extension`_ is a smart map for your Magento 2 store. It
 
  .. _Layered Navigation extension: https://www.mageplaza.com/magento-2-layered-navigation-extension/
 
- Features List
- ^^^^^^^^^^^^^^^^^^
-
-* Ajax Loading (**HOT**)
-* Price Slider (**HOT**)
-* SEO Friendly URL (**HOT**)
-* Multi-Filters.
-* Quick Lookup option.
-* Product State Filter (**NEW**)
-* Rating Filter (**NEW**) 
-* Apply Filter Option. 
-* Expand by Default.
-* Scroll to Top after filtering. (**NEW**)
-* Product Count.
-* All Products page. (**HOT**) 
-* Infinite Scroll (**HOT**)
-* Horizontal & Vertical Navigation.
-
 Overview 
 -------------------
 
@@ -182,16 +164,18 @@ Scroll
 The `Apply Filter` button allows the shoppers to choose when to apply the chosen filters. With this button, the shoppers don't need to wait for the page to reload again and again each time they choose a filter.
 
 Backend
-'''''''''''''''''
+'''''''''''''''''''''' 
+.. image:: https://imgur.com/M63qe42.jpg
 
-In `Add Apply Filter button` field, set **Yes** to show the button and leave **No** to disable. 
+In ``Add Apply Filter button`` field, set **Yes** to show the button and leave **No** to disable. 
 
 Frontend
-''''''''''''''''''
+'''''''''''''''''''''' 
 
-Here is how the `Apply Filter` button works:
+Here is how the ``Apply Filter`` button works, you can choose lots of attribute before applying it.  Also, SEO friendly URL is compatible with ``Apply Filter``'s search result. As you can the this example chose *Insulated* and *Cold*, and name of those attributes appears on the URL as well.
 
-.. image:: https://i.imgur.com/UKX3N3z.gif
+.. image:: https://imgur.com/Ve8nGAA.gif
+
 
 1.10. Infinite Scroll
 ^^^^^^^^^^^^^^^^^^^^^^^^
