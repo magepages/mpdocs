@@ -92,7 +92,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 .. image:: https://i.imgur.com/GX7FMHY.png
 
 2. Bulk import brands
-^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
@@ -124,7 +124,7 @@ And a report will inform this. Now you've done all the step to import brand by a
 
 
 3. Create new brand
-^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 * On the Admin Panel, `Store > Attributes > Product`.
 * Under **Attribute Code** column, search and choose "manufacturer", you will navigation its workplace.
@@ -152,7 +152,7 @@ And a report will inform this. Now you've done all the step to import brand by a
   .. note:: For the existing brands, you can edit their information via **Setting** button.
 
 4. Assign product to brand
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^^^
 
 This guide helps you classify what brand a product is made by.
 
