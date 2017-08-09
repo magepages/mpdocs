@@ -94,32 +94,18 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 2. Bulk import brands
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Shop by Brand extension from Mageplaza support Magento 2 stores to bulk import brands via CSV file.
+Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
 .. image:: https://i.imgur.com/4jua9kb.gif
 
 * Go to `System > Data Transfer > Import`
-* Under *Import Settings* section, in the  *Entity Type* field, choose "Mageplaza Shopbybrand"
-  
-  * You can click on `Download Sample file` to get the sample CSV file for brand information
+* Under ``Import Settings`` section, in the  **Entity Type** field, choose "Mageplaza Shopbybrand" to expand *Import Behavior* and *File to Import* fields
 
-  .. image:: https://i.imgur.com/5B4wCvd.png
+.. image:: https://i.imgur.com/QqCNl2C.png
 
-* After choosing "Mageplaza Shopbybrand", *Import Behavior* and *Import Behavior* will appear. Do the following:
-
-* In the *Import Behavior* section, set *Import Behavior* field to "Add/Update". Then set the value for *Allowed Errors Count*, *Field separator*, *Multiple value separator* and tick on *Fields enclosure* if needed.
-
-.. image:: https://i.imgur.com/i1Jy0Uj.png
-
-
-* In the *File to Import*, click on `Choose file` to select File to import. Then enter `Images File Directory`
-
-.. image:: https://i.imgur.com/Zua2MQG.png
-
-
-* Click on `Check Data` if your file is accepted. Then Choose `Import` to start import brand to your store.
-
-.. image:: https://i.imgur.com/GcL4klw.png
+  * In ``Import Behaviour`` fiels, choose **Import Behaviour** as "Add/Update"
+  * In ``File to Import`` field, browse your brand's CSV file in *Select file to Import*
+  * 
 
 
 
