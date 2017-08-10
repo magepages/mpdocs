@@ -30,5 +30,6 @@ Mageplaza Layered Navigation is compatible with the following themes:
 
 .. _Fastor: https://themeforest.net/item/fastor-premium-magento-2-theme/20341939
 
+
 .. include:: ../ad_footer.rst
 
