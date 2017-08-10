@@ -20,8 +20,6 @@ Mageplaza Layered Navigation is compatible with the following themes:
 
 - `Yourstore`_
 
-.. include:: ../ad_footer.rst
-
 .. _Yourstore: https://themeforest.net/item/yourstore-premium-multipurpose-magento-theme/17782705
 
 - `Porto`_
@@ -31,3 +29,6 @@ Mageplaza Layered Navigation is compatible with the following themes:
 - `Fastor`_
 
 .. _Fastor: https://themeforest.net/item/fastor-premium-magento-2-theme/20341939
+
+.. include:: ../ad_footer.rst
+
