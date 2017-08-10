@@ -52,7 +52,7 @@ Follow this instruction to know how to add your custom combination related produ
 
 ![FBT6](https://i.imgur.com/DIOylfx.png)
 
-- You will be redirected back to Product page, don’t forget clicking the Save button.
+- You will be redirected back to Product page, don’t forget clicking the `Save` button.
 
 And now you can back to the live site to check the completed result.
 
