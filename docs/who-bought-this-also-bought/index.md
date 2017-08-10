@@ -1,3 +1,5 @@
+# Who Bought This Also Bought
+
 **Who Bought This Item Also Bought** is a new extension developed by Mageplaza. By having this extension enabled, our team will help you provide your online store’s customers suggestions of the products related to the ones which they shoppers are viewing. This module is supposed to encourage buyers to keep purchasing other products in your online store. Hence, this satisfies your customers as well as boost your sales effectively
 
 

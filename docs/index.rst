@@ -30,6 +30,7 @@ Welcome to Mageplaza Docs
    blog-m2/index
    affiliate-m2/index
    frequently-bought-together/index
+   who-bought-this-also-bought/index
    banner-slider-m2/index
    google-tag-manager-m2/index
    delete-order-m2/index
