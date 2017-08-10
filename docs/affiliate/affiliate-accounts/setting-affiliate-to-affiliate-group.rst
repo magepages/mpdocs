@@ -5,4 +5,4 @@ During admin create the new affiliate account, existing customer as well as new 
 
 Go to **Admin Panel > Affiliate > Manage Affiliates > Edit**
 
-.. image:: https://i.imgur.com/uZlsFep.png
+.. image:: https://cdn.mageplaza.com/media/general/uZlsFep.png

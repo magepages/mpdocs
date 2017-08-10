@@ -19,7 +19,7 @@ Overview of Knowledge Base Page
 
 Knowledge Base page is divided into 3 main elements: Search Box, KB Categories, and KB Articles while the number of articles are shown basing on your settings in the backend. 
 
-  .. image:: https://i.imgur.com/nFgLM8D.png
+  .. image:: https://cdn.mageplaza.com/media/general/nFgLM8D.png
 
 Advanced Search 
 ^^^^^^^^^^^^^^^^^^

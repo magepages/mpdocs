@@ -19,7 +19,7 @@ Overview of FAQ Page
 
 FAQ page includes 3 main parts: Search Box, FAQ Categories, and Question Listing while the questions are shown under Listing or Accordition depending the chosen style of FAQ page. 
 
-  .. image:: https://i.imgur.com/neD4yDp.png
+  .. image:: https://cdn.mageplaza.com/media/general/neD4yDp.png
  
 Advanced Search 
 ^^^^^^^^^^^^^^^^^^

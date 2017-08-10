@@ -9,7 +9,7 @@ Go to **Admin Panel > Affiliate > Direct Link**, select domain which need to be 
 
 The direct link information is displayed and you only need to change **Pending Approval** status into **Approval**
 
-.. image:: https://i.imgur.com/8nUOZXK.png
+.. image:: https://cdn.mageplaza.com/media/general/8nUOZXK.png
 
 Remember to save the change.
 

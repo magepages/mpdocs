@@ -14,18 +14,18 @@ As soon as installing Shop by Brand completely, your customers can easily search
 
 The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
 
-.. image:: https://i.imgur.com/wNIKZCz.gif
+.. image:: https://cdn.mageplaza.com/media/general/wNIKZCz.gif
 
 The brand results come with Brand Logo, Brand Name, and Brand Description. 
 
-.. image:: https://i.imgur.com/xNsZsK0.png
+.. image:: https://cdn.mageplaza.com/media/general/xNsZsK0.png
 
 2. Alphabet Search
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 Alphabet Search, placed under Search Box, is represented including "Show All" and the alphabets. Depending on the first characteristic of the brand name, the user will tap on the respective button.
 
-.. image:: https://i.imgur.com/dybAloX.gif
+.. image:: https://cdn.mageplaza.com/media/general/dybAloX.gif
 
 II. How to configure
 --------------------
@@ -52,7 +52,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   * Enter `Brand Link Title`.
   * Choose the page to display Brand Link in `Show Brand Link In`.
 
-.. image:: https://i.imgur.com/yj64Pfu.png
+.. image:: https://cdn.mageplaza.com/media/general/yj64Pfu.png
 
 * Expand **All Brands Page Settings** section and do the following:
 
@@ -63,7 +63,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   * Set to `Show Brand Description` or not in the Brand Page
   * Add `Custom Css` for your own style.
 
-.. image:: https://i.imgur.com/Z7wUVuc.png
+.. image:: https://cdn.mageplaza.com/media/general/Z7wUVuc.png
 
   * Expand **Brand Search Settings** section,
 
@@ -72,7 +72,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
     * Limit `Maximum Query Result` that match with the given request
     * Make brand image visible on the search by selecting "Yes".
 
-.. image:: https://i.imgur.com/GgosIyw.png
+.. image:: https://cdn.mageplaza.com/media/general/GgosIyw.png
 
   * Expand **Feature Brand Settings** section,
   
@@ -81,7 +81,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
     * Choose `Display Information` of feature brands, Logo Only or Logo and Label
     * Use `Embedded Code` to show feature brand block in any place you want.
     
-.. image:: https://i.imgur.com/uMrWGCA.png
+.. image:: https://cdn.mageplaza.com/media/general/uMrWGCA.png
 
 * Click to expand **Brand Information**,
 
@@ -89,14 +89,14 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   * Set `Default Block`
   * Choose to `Show Brand Image On Brand Page`, `Show Brand Description On Brand Page`, and `Show Brand Static Block On Brand Page` or not.
   
-.. image:: https://i.imgur.com/GX7FMHY.png
+.. image:: https://cdn.mageplaza.com/media/general/GX7FMHY.png
 
 2. Bulk import brands
 ^^^^^^^^^^^^^^^^^^^
 
 Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
-.. image:: https://i.imgur.com/4jua9kb.gif
+.. image:: https://cdn.mageplaza.com/media/general/4jua9kb.gif
 
 * Go to ``System > Data Transfer > Import > Import Settings > Entity Type`` field, choose "Mageplaza Shopbybrand" to expand *Import Behavior* and *File to Import* fields.
 
@@ -159,7 +159,7 @@ This guide helps you classify what brand a product is made by.
 * Select an exact product you want to assign, and open `Edit` mode under **Action** column.
 * On the settings page of the product, you will see ` Manufacturer` field that allows assigning a corresponding brand to that product.
 
-.. image:: https://i.imgur.com/XxDH9n2.png
+.. image:: https://cdn.mageplaza.com/media/general/XxDH9n2.png
 
 * `Save` the change to complete the brand attachment.
 * When finish all, the brand logo will display on both Brand Listing Search and the product detailed page of the assigned product.
@@ -167,12 +167,12 @@ This guide helps you classify what brand a product is made by.
 On Brand Listing
 ```````````````````
 
-.. image:: https://i.imgur.com/4rGgrJF.png
+.. image:: https://cdn.mageplaza.com/media/general/4rGgrJF.png
 
 On Product Page
 `````````````````````
 
-.. image:: https://i.imgur.com/Cs7XSXT.png
+.. image:: https://cdn.mageplaza.com/media/general/Cs7XSXT.png
 
 .. _Magento 2 Shop by Brand: https://www.mageplaza.com/magento-2-shop-by-brand/
 .. _Magento 2 Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/

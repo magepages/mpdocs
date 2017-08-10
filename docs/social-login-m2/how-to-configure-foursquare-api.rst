@@ -17,7 +17,7 @@ Step 2
 
 Select `Create a new app`.
 
-.. image:: https://i.imgur.com/OPDaVzi.png
+.. image:: https://cdn.mageplaza.com/media/general/OPDaVzi.png
 
 
 Step 3
@@ -25,7 +25,7 @@ Step 3
 
 Fill out App name, page url, Redirect URI ...
 
-.. image:: https://i.imgur.com/G7xxxOc.png
+.. image:: https://cdn.mageplaza.com/media/general/G7xxxOc.png
 
 
 Step 4
@@ -38,7 +38,7 @@ Step 5
 
 Copy and insert Client Id and Client Secret into API fields in Magento Admin.
 
-.. image:: https://i.imgur.com/gXtiOdf.png
+.. image:: https://cdn.mageplaza.com/media/general/gXtiOdf.png
 
 
 Step 6
@@ -46,7 +46,7 @@ Step 6
 
 Copy and insert API into API fields in **Magento Admin > Social Login > Settings > Foursquare**
 
-.. image:: https://i.imgur.com/lwxnGfl.png
+.. image:: https://cdn.mageplaza.com/media/general/lwxnGfl.png
 
 And that's it!
 

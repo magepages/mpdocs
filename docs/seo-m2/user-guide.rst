@@ -3,7 +3,7 @@
 
 Firstly, we will familiar with the module via the list of the configuration. Login as Admin account, go to the path `Mageplaza > SEO > Settings`.
 
-.. image:: https://i.imgur.com/doKUEMN.gif
+.. image:: https://cdn.mageplaza.com/media/general/doKUEMN.gif
 
 1.1. General Configuration
 ################################
@@ -26,7 +26,7 @@ Continue with the next session - **Duplicate Content**, there are some configura
 * To manage your content better and restrict the duplication, please set "Yes" for `Add Canonical URL Meta`
 * In the `Canonical points to https` field, you can choose "Yes" or "No" option depending on whether you would prefer the https version of a page or not
 
-.. image:: https://i.imgur.com/aQdKbPY.png
+.. image:: https://cdn.mageplaza.com/media/general/aQdKbPY.png
 
 1.3. Social Shares
 ########################
@@ -43,7 +43,7 @@ Continue with the next session - **Duplicate Content**, there are some configura
 
 * Enter `Google+ Publisher Page` if you need
 
-.. image:: https://i.imgur.com/4Tje4Qy.png
+.. image:: https://cdn.mageplaza.com/media/general/4Tje4Qy.png
 
 1.4. Structured Data
 ########################
@@ -60,32 +60,32 @@ Scroll down and expand the **Structured Data** section, you will:
 
 * Allow applying `Organization Information` that describes the results in detailed. Furthermore, you can custom that data via this `guide <https://mageplaza.freshdesk.com/support/solutions/articles/6000122360>`_.
 
-.. image::  https://i.imgur.com/RYqCiU4.png
+.. image::  https://cdn.mageplaza.com/media/general/RYqCiU4.png
 
 1.5. Social Profiles
 ########################
 
 Mageplaza SEO extension permits to show **Social Profiles** when your website is searched on Google.
 
-.. image:: https://i.imgur.com/IyAoGwC.png
+.. image:: https://cdn.mageplaza.com/media/general/IyAoGwC.png
 
 1.6. Business information
 ################################
 
 You can enable **Business Information** if choosing "Yes". Just enter the information into the corresponding fields, then all of them will be shown in the search result.
 
-.. image:: https://i.imgur.com/KvH8e3O.png
+.. image:: https://cdn.mageplaza.com/media/general/KvH8e3O.png
 
 1.7. Breadcrumbs
 ########################
 
 Enabling Breadcrumbs is the way to show the exact position in the site hierarchy, for example: `www.mageplaza.com > Magento 2 Extensions > Better SEO`. If you really want to apply for your product page, under **Breadcrumbs** section, please select "Yes" in the `Enable Breadcrumbs Rich Snippet` field.
 
-.. image:: https://i.imgur.com/Xm5ZycF.png
+.. image:: https://cdn.mageplaza.com/media/general/Xm5ZycF.png
 
 1.8. Verifications
 ########################
 
 In the `Verification` field, you need to enter the verification code to confirm the ownership of your site. Hence, you can use the Web services such as Google Search Console, Bing Webmaster Tools, Pinterest and Yandex Webmaster Tools.
 
-.. image:: https://i.imgur.com/HyEIZhG.png
+.. image:: https://cdn.mageplaza.com/media/general/HyEIZhG.png

@@ -17,7 +17,7 @@ Step 2
 
 Select My apps > Create an application.
 
-.. image:: https://i.imgur.com/swK2RIr.png
+.. image:: https://cdn.mageplaza.com/media/general/swK2RIr.png
 
 
 Step 3
@@ -25,7 +25,7 @@ Step 3
 
 Fill out title , choosen Website , then fill out Site address and Base domain.
 
-.. image:: https://i.imgur.com/ObxTcWF.png
+.. image:: https://cdn.mageplaza.com/media/general/ObxTcWF.png
 
 
 Step 4
@@ -38,7 +38,7 @@ Step 5
 
 Select tag setting to find Application ID and Secure key.
 
-.. image:: https://i.imgur.com/guDjulW.png
+.. image:: https://cdn.mageplaza.com/media/general/guDjulW.png
 
 
 Step 6
@@ -46,7 +46,7 @@ Step 6
 
 Copy and insert Application ID and Secure Key into API fields in Magento Admin.
 
-.. image:: https://i.imgur.com/y2aEERR.png
+.. image:: https://cdn.mageplaza.com/media/general/y2aEERR.png
 
 And that's it!
 

@@ -17,7 +17,7 @@ Step 2
 
 Fill out Application name, Homepage URL, Application description, Authorization callback URL.
 
-.. image:: https://i.imgur.com/RZ2KFGL.png
+.. image:: https://cdn.mageplaza.com/media/general/RZ2KFGL.png
 
 
 Step 3
@@ -30,7 +30,7 @@ Step 4
 
 Get Client ID and Client Secret from DashBoard App 
 
-.. image:: https://i.imgur.com/Le9CGEZ.png
+.. image:: https://cdn.mageplaza.com/media/general/Le9CGEZ.png
 
 
 Step 5
@@ -39,7 +39,7 @@ Step 5
 Copy and insert Client Id and Client Secret into API fields in Magento Admin.
 
 
-.. image:: https://i.imgur.com/1SA7qfr.png
+.. image:: https://cdn.mageplaza.com/media/general/1SA7qfr.png
 
 And that's it!
 

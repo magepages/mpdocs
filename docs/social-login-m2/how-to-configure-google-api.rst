@@ -17,11 +17,11 @@ Step 2
 
 On the Dashboard sidebar click on the tab Credentials on the left side and click **Create Project**.
 
-.. image:: https://i.imgur.com/fYclfKa.png
+.. image:: https://cdn.mageplaza.com/media/general/fYclfKa.png
 
 Then, fill out the project name.
 
-.. image:: https://i.imgur.com/bSyDPqL.png
+.. image:: https://cdn.mageplaza.com/media/general/bSyDPqL.png
 
 Step 3
 -----------
@@ -29,14 +29,14 @@ Step 3
 Once the project is created. In the sidebar under **API Manager**, select **Credentials**, then select the **OAuth consent screen** tab.
 Choose an *Email Address*, specify a *Product Name*, and press **Save**.
 
-.. image:: https://i.imgur.com/I3xxhQK.png
+.. image:: https://cdn.mageplaza.com/media/general/I3xxhQK.png
 
 Step 4
 ---------
 
 In the Credentials tab, select the **New credentials** drop-down list. Then, choose **OAuth client ID**.
 
-.. image:: https://i.imgur.com/vroDKa5.png
+.. image:: https://cdn.mageplaza.com/media/general/vroDKa5.png
 
 Step 6
 -----------
@@ -49,21 +49,21 @@ On the **Create Client ID** field :
   
    * Provide URL as the Callback URL for your application (See in Social Login Configuration).
 
-.. image:: https://i.imgur.com/DZFGIA0.png
+.. image:: https://cdn.mageplaza.com/media/general/DZFGIA0.png
 
 Step 7
 ----------
 
 Once you have registered, the popup below will be displayed: 
 
-.. image:: https://i.imgur.com/8YM9FZR.png
+.. image:: https://cdn.mageplaza.com/media/general/8YM9FZR.png
 
 Step 8
 ---------
 
 Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
 
-.. image:: https://i.imgur.com/bUtxT40.png
+.. image:: https://cdn.mageplaza.com/media/general/bUtxT40.png
 
 
 

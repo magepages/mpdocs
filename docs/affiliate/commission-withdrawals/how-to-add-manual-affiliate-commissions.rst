@@ -5,7 +5,7 @@ Affiliates not only refer friends to earn commissions but store owners enable to
 
 This giving-gift way is implemented in **Manage Transaction** tab.
 
-.. image:: https://i.imgur.com/dee5qVC.png
+.. image:: https://cdn.mageplaza.com/media/general/dee5qVC.png
 
 You will choose exact affiliate account and give him an amount of commissions which he is worthy to gain due to his efforts helping increase your revenue.
 

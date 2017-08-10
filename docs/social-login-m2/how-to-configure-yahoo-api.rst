@@ -17,7 +17,7 @@ Step 2
 
 Select `Create an App`.
 
-.. image:: https://i.imgur.com/uMMzZvT.png
+.. image:: https://cdn.mageplaza.com/media/general/uMMzZvT.png
 
 
 Step 3
@@ -25,7 +25,7 @@ Step 3
 
 Fill out Application Name, Home Page URl, Callback Domain. In API Permissions (Profiles (Social Directory) choosen Read/Write Public and Private).
 
-.. image:: https://i.imgur.com/EVAaJk8.png
+.. image:: https://cdn.mageplaza.com/media/general/EVAaJk8.png
 
 
 Step 4
@@ -33,7 +33,7 @@ Step 4
 
 Click `Create App button`.
 
-.. image:: https://i.imgur.com/fQ6qktQ.png
+.. image:: https://cdn.mageplaza.com/media/general/fQ6qktQ.png
 
 
 Step 5
@@ -41,7 +41,7 @@ Step 5
 
 Copy and insert Client Id and Client Secret into API fields in Magento Admin.
 
-.. image:: https://i.imgur.com/9NqnIsT.png
+.. image:: https://cdn.mageplaza.com/media/general/9NqnIsT.png
 
 
 And that's it!

@@ -25,7 +25,7 @@ Step 3
 
 In new page, enter your info in Details tab
 
-.. image:: https://i.imgur.com/YAzTqXg.png
+.. image:: https://cdn.mageplaza.com/media/general/YAzTqXg.png
 
 
 Step 4
@@ -33,7 +33,7 @@ Step 4
 
 Click register and you will have all info you need
 
-.. image:: https://i.imgur.com/Lsqk44n.png
+.. image:: https://cdn.mageplaza.com/media/general/Lsqk44n.png
 
 
 Step 5

@@ -25,7 +25,7 @@ Upload the extension
 
 #. Unzip extension package and upload them into **Magento root directory**.
 
-.. image:: https://i.imgur.com/0sGASN0.png
+.. image:: https://cdn.mageplaza.com/media/general/0sGASN0.png
 
 
 #. Enter the following at the command line
@@ -66,6 +66,6 @@ Run following command:
 .. include:: support.rst
 
 .. _this guide: https://www.mageplaza.com/kb/magento-2-404-page-not-found.html
-.. _this screenshot: https://i.imgur.com/DDPNRcD.png
+.. _this screenshot: https://cdn.mageplaza.com/media/general/DDPNRcD.png
 
 

@@ -3,7 +3,7 @@ How to Add Affiliates accounts
 
 Go to **Admin Panel > Affiliate > Manage Affiliates**
 
-.. image:: https://i.imgur.com/8kPR1RX.png
+.. image:: https://cdn.mageplaza.com/media/general/8kPR1RX.png
 
 Here enable to add unlimited new Affiliate accounts by admin.
 

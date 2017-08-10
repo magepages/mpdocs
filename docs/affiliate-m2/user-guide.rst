@@ -15,7 +15,7 @@ Affiliate Home Page
 
 Affiliate Home Page is already setup with CMS Block including Welcome Message and How does Affiliate Program work? If you want to change the text, it is possible to edit from the backend. In addition, all of active Affiliate Program will be displayed on the Affiliate Home Page.
 
-.. image:: https://i.imgur.com/FRgYepX.png
+.. image:: https://cdn.mageplaza.com/media/general/FRgYepX.png
 
 Look at the left panel on the page, the customer can sign up to become an affiliate.
 
@@ -32,7 +32,7 @@ My Credit Page
 
 Each affiliate can manage every credit information such as available balance, holding balance, total earned, and total paid and all transactions related to the account are listed in detail.
 
-.. image:: https://i.imgur.com/B7gTyOz.png
+.. image:: https://cdn.mageplaza.com/media/general/B7gTyOz.png
 
 Refer Friend Page
 ````````````````````
@@ -48,7 +48,7 @@ My Withdrawal Page
 
 From Affiliate account, send withdrawal request to admin as much as he need.
 
-.. image:: https://i.imgur.com/oAloixD.png
+.. image:: https://cdn.mageplaza.com/media/general/oAloixD.png
 
 Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in the progress.
 
@@ -57,7 +57,7 @@ Affiliate Settings Page
 
 Mark the box to register Affiliate Subcription.
 
-.. image:: https://i.imgur.com/G1cxMPO.png
+.. image:: https://cdn.mageplaza.com/media/general/G1cxMPO.png
 
 How to Configure
 ^^^^^^^^^^^^^^^^^^^
@@ -73,7 +73,7 @@ Login to Magento Admin, `Affiliate > Settings`.
 
 If allowing, enter number "1" into the field. In contrast, insert "0"
 
-.. image:: https://i.imgur.com/Sb50HxX.png
+.. image:: https://cdn.mageplaza.com/media/general/Sb50HxX.png
 
 * Select CMS Static Block for the content of the following options
   * Affiliate Welcome homepage
@@ -83,12 +83,12 @@ If allowing, enter number "1" into the field. In contrast, insert "0"
 * Choose "Top Link" or "Footer Link" where Affiliate link appears in the `Show Affiliate link on` box.
 * Set `Affiliate Discount Label` to the desired label on your site.
 
-.. image:: https://i.imgur.com/FRkERys.png 
+.. image:: https://cdn.mageplaza.com/media/general/FRkERys.png 
 
 Custom Affiliate URL
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/jo0FRGc.png
+.. image:: https://cdn.mageplaza.com/media/general/jo0FRGc.png
 
 * Apply "Hash" or "Parameter" for `URL Style` 
   * Parameter: http://example.com/?c=123
@@ -108,7 +108,7 @@ Related to Affiliate Accounts, you can configure Affiliate Registration, Terms a
   * Ask for admin's approval to complete the Affiliate sign up process by choosing "Yes" in the `Require admin's approval` field.
   * In the `Checked "Email notification" by default"` field, if Yes, "Email notification" auto checked by default
 
-.. image:: https://i.imgur.com/nKEzZxa.png
+.. image:: https://cdn.mageplaza.com/media/general/nKEzZxa.png
 
 * Scorll down to **Affiliate Sign up-Term and Condition** part.
 
@@ -118,14 +118,14 @@ Related to Affiliate Accounts, you can configure Affiliate Registration, Terms a
   * Select CMS Block for `Terms and Conditions Content`.
   * The Terms and Conditions checkbox is marked already if set `Checkbox is checked by default` to "Yes".
 
-.. image:: https://i.imgur.com/kDE2X7t.png
+.. image:: https://cdn.mageplaza.com/media/general/kDE2X7t.png
 
 * Continuing with **Account Balance** part, and do the following:
 
   * Enter the `Maximum of Affiliate Balance`, and if Affiliate reach the milestone, none of commission is added. Leave empty or zero is no limitation.
   * If Affiliate's account balance is not enough to taking back commission, allow the balance be negative number by choosing "Yes" in the respective field.
 
-.. image:: https://i.imgur.com/S7DotJH.png
+.. image:: https://cdn.mageplaza.com/media/general/S7DotJH.png
 
 Email Configuration
 ~~~~~~~~~~~~~~~~~~~~~~
@@ -150,7 +150,7 @@ You can send the email notification when there is any update of Affiliate Accoun
   * Enable `Send Withdrawal Email`
   * Choose the template for `Withdrawal Complete Email`
 
-.. image:: https://i.imgur.com/DSF6qK6.png
+.. image:: https://cdn.mageplaza.com/media/general/DSF6qK6.png
 
 Refer Friends Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -167,7 +167,7 @@ This link will be displayed in My Account/My Affiliate/Refer tab. If empty, the 
 * Use AddThis button for more referrals by enter the `AddThis.com ID`. If empty, default Public AddThis ID "ra-56e141d56e895f5c" will be used.
 * To allow importing email address from theirs accounts such as Gmail, Yahoo, Live, AOL, Outlook and more..., set `Use Cloudsponge to retrieve email contacts` to "Yes".
 
-.. image:: https://i.imgur.com/Z7s5dJV.png
+.. image:: https://cdn.mageplaza.com/media/general/Z7s5dJV.png
 
 * In the **Sending Email Content**, you can create the invitation content that is ready to send to recipients, including:
 
@@ -175,7 +175,7 @@ This link will be displayed in My Account/My Affiliate/Refer tab. If empty, the 
   * Default Email Body
   * Default Message Shared via Social
 
-.. image:: https://i.imgur.com/0YKZ2Tg.png
+.. image:: https://cdn.mageplaza.com/media/general/0YKZ2Tg.png
 
 Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -187,7 +187,7 @@ Withdrawal Configuration
 * Not calculate tax for the withdrawal request when selecting "No" in the `Apply tax for withdrawal` field.
 * Set the interval for `Allow affiliates to cancel withdrawal request within`. 
 
-.. image:: https://i.imgur.com/vjbkMp5.png
+.. image:: https://cdn.mageplaza.com/media/general/vjbkMp5.png
 
 Manage Affiliate Accounts
 `````````````````````````````
@@ -248,7 +248,7 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
   * This is not required but you can set the active time in the `Active From Date` and Active To Date` field for the better management. You can use “Calendar” icon or insert manually.
   * Set `Sort Order` in the list of Affiliate campaign.
 
-.. image:: https://i.imgur.com/1fQnKPn.png
+.. image:: https://cdn.mageplaza.com/media/general/1fQnKPn.png
 
 * In the **Conditions** section, 
   * The short message If ALL of these conditions are TRUE is visible for you, and especially, you can customize the message when click on ALL and TRUE link.
@@ -258,7 +258,7 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 
   For example, Affiliate program is active if Affiliate creates an order that includes 3 items in the cart.
 
-.. image:: https://i.imgur.com/rMIR6Mu.png
+.. image:: https://cdn.mageplaza.com/media/general/rMIR6Mu.png
 
   * Leave the conditions blank if you want to apply for all products
 * Continuing with **Discounts** section, you will give some utilities to customers who make a purchase via Affiliate link.
@@ -273,14 +273,14 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
   * Enable `Free Shipping` by choosing “Yes” for that 
   * Leave some `Discount Description` if necessary.
 
-.. image:: https://i.imgur.com/97otiGw.png
+.. image:: https://cdn.mageplaza.com/media/general/97otiGw.png
 
 * Finally, **Commissions** tab allows store admin to set “Pay Per Sale” promotion. 
 
   * Click on `Add` button to create tiers and set commission rule for that.
   * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
 
-.. image:: https://i.imgur.com/aiTA8xq.png
+.. image:: https://cdn.mageplaza.com/media/general/aiTA8xq.png
 
   * Enable to add unlimited tiers and delete any tiers you need when tapping `Delete` button in the same row.
   * On the Admin Panel, go to `Affiliate > Settings`, open **Commissions Configuration** section,
@@ -290,7 +290,7 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
       * Insert the days for `Hold commission transactions for`. If empty or zero, transaction is not held.
       * To allow getting back commission when the order using the commission to pay is cancelled,set `Deduct commission from Affiliate's balance when order is refunded/canceled` to "Yes".
 
-.. image:: https://i.imgur.com/0QJqk5n.png
+.. image:: https://cdn.mageplaza.com/media/general/0QJqk5n.png
 
 When complete all, tap `Save` to apply the new Affiliate program or click on `Save and Continue Edit` to adjust any information.
 

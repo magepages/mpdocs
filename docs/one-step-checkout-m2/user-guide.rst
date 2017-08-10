@@ -16,7 +16,7 @@ How to use
 
 After adding the right products in the cart, the customer will be navigated to the checkout page. The checkout page will be shown with all six steps as the image below.
 
-.. image:: https://i.imgur.com/L3DL0Ur.png
+.. image:: https://cdn.mageplaza.com/media/general/L3DL0Ur.png
 
 A one-step checkout will be totally done on one page only by completing information and selecting options.
 
@@ -25,7 +25,7 @@ Log In / Sign Up
 
 * Proceed the checkout with customers' existed information by a click on the blue link "Already have an account, click here to login". A pop-up box will appear to allow buyers to fill in their accounts as below:
  
-.. image::  https://i.imgur.com/2Ycj95V.png
+.. image::  https://cdn.mageplaza.com/media/general/2Ycj95V.png
 
 * Otherwise, buyers are able to purchase without using a personal account by filling the Billing Address section, or create a new account at the same time when selecting the box Create Account: 
  
@@ -34,7 +34,7 @@ Log In / Sign Up
 Billing Address
 ^^^^^^^^^^^^^^^^^^
 
-.. image::  https://i.imgur.com/GJ1fp1j.png
+.. image::  https://cdn.mageplaza.com/media/general/GJ1fp1j.png
 
 * Customers enter their personal information: Full name, last name, and email.
 * In the box Street Address, One Step Checkout helps display a list of addresses suggested automatically by typing only one letter. Furthermore, Country, City and State/Province will be consequently auto-updated based on the selected street address.
@@ -42,28 +42,28 @@ Billing Address
 Shipping Address
 ^^^^^^^^^^^^^^^^^^
 
-.. image::  https://i.imgur.com/Ka6hyFN.png
+.. image::  https://cdn.mageplaza.com/media/general/Ka6hyFN.png
 
 * Buyers can tick the box **My billing and shipping address are the same** to have their item(s) delivered to their billing address. Otherwise, the **Billing Address** section allows buyers to fill in their information to check out.
 
 Shipping Method
 ^^^^^^^^^^^^^^^^^^
 
-.. image::  https://i.imgur.com/fnbfXWK.png
+.. image::  https://cdn.mageplaza.com/media/general/fnbfXWK.png
 
 * Depending on the configuration in the backend, the shipping method will be variable to meet customers' requirements.
 
 Payment Method
 ^^^^^^^^^^^^^^^^^^
 
-.. image::  https://i.imgur.com/xTHxbVV.png
+.. image::  https://cdn.mageplaza.com/media/general/xTHxbVV.png
 
 * One Step Checkout allows customers to quickly select their favorable payment method only by a single click.
 
 Order Review and Place Order
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image::  https://i.imgur.com/img8Qdb.png
+.. image::  https://cdn.mageplaza.com/media/general/img8Qdb.png
 
 * In the **Order Review** section, One Step Checkout allows buyers to easily adjust their item's quantity by using the minus/plus button.
 * The extension also helps remove or add more items immediately in the checkout by using the X button or by clicking the **Edit your Cart** button.
@@ -101,7 +101,7 @@ From the Admin Panel, go to **Mageplaza > One Step Checkout > Field Management**
 
 Drag and drop tabs from Available fields to Sorted fields to have them appear in the Checkout page.
 
-.. image::  https://i.imgur.com/e3ZCVhx.gif
+.. image::  https://cdn.mageplaza.com/media/general/e3ZCVhx.gif
 
 
 General Configuration

@@ -7,8 +7,8 @@ Go to **Admin Panel > Manage Affiliates**
 
 You can see a list of Affiliate accounts in detail, including Affiliate email, Group, Commissions, Total Withdrawn and Status. 
 
-.. image:: https://i.imgur.com/AEWDylG.png
+.. image:: https://cdn.mageplaza.com/media/general/AEWDylG.png
 
 Each column supports filter functionality, that allows sorting by any criteria quickly. For example, you can filter whether who belongs to silver, gold, diamond or executive diamond group. 
 
-.. image:: https://i.imgur.com/gU6msM6.png
+.. image:: https://cdn.mageplaza.com/media/general/gU6msM6.png

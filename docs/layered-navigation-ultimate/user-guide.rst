@@ -12,7 +12,7 @@ Overview
 
 After enabling the module, the Layered Navigation will be displayed on the left sidebar on Categories pages.
 
-.. image:: https://i.imgur.com/8vDDC3q.png
+.. image:: https://cdn.mageplaza.com/media/general/8vDDC3q.png
 
 Layered Navigation Configuration
 --------------------------------
@@ -53,7 +53,7 @@ To config this feature, go to `Enable Multi-filter` field, set **Yes/ No** to **
 Frontend 
 '''''''''''
 
-.. image:: https://i.imgur.com/AqXNgog.gif
+.. image:: https://cdn.mageplaza.com/media/general/AqXNgog.gif
 
 1.3. Scroll to Top
 ^^^^^^^^^^^^^^^^^^^^
@@ -71,7 +71,7 @@ On the `Scroll to Top after Filtering` field, you will have 2 options:
 Frontend
 '''''''''''''
 
-.. image:: https://i.imgur.com/DgCXvFZ.gif
+.. image:: https://cdn.mageplaza.com/media/general/DgCXvFZ.gif
 
 1.4. Quick Lookup Options
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -86,7 +86,7 @@ Go to `Enable Filter options` field to **Enable/ Disable** this feature by setti
 Frontend
 '''''''''''''
 
-.. image:: https://i.imgur.com/iL4kSx6.gif
+.. image:: https://cdn.mageplaza.com/media/general/iL4kSx6.gif
 
 1.5. Display Out-of-stock option 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -114,7 +114,7 @@ In `Display Product Count` field:
 Frontend
 '''''''''''''
 
-.. image:: https://i.imgur.com/TVWMyxa.png
+.. image:: https://cdn.mageplaza.com/media/general/TVWMyxa.png
 
 1.7. Expand by default
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -138,7 +138,7 @@ Backend
 
 Choose the **Type** in the `Show Type` field.
 
-.. image:: https://i.imgur.com/iCCHoqx.png
+.. image:: https://cdn.mageplaza.com/media/general/iCCHoqx.png
 
 Frontend
 '''''''''''''
@@ -146,17 +146,17 @@ Frontend
 Normal
 ~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/XtxFnpX.png
+.. image:: https://cdn.mageplaza.com/media/general/XtxFnpX.png
 
 Hidden
 ~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/p9B8JYt.gif
+.. image:: https://cdn.mageplaza.com/media/general/p9B8JYt.gif
 
 Scroll
 ~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/EKkGAu5.gif
+.. image:: https://cdn.mageplaza.com/media/general/EKkGAu5.gif
 
 1.9. Apply Filter button
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -192,7 +192,7 @@ Frontend
 
 Here is the screencast which shows how the **Infinite scroll** works:
 
-.. image:: https://i.imgur.com/PkfTk96.gif
+.. image:: https://cdn.mageplaza.com/media/general/PkfTk96.gif
 
 1.11. Show Navigation
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -218,17 +218,17 @@ Frontend
 Vertical 
 ~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/QQsancj.png
+.. image:: https://cdn.mageplaza.com/media/general/QQsancj.png
 
 Horizontal
 ~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/EpwTmQ4.png
+.. image:: https://cdn.mageplaza.com/media/general/EpwTmQ4.png
 
 Vertical and Horizontal
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/ZualzPk.png
+.. image:: https://cdn.mageplaza.com/media/general/ZualzPk.png
 
 2. Filter Configuration tab 
 ------------------------------
@@ -243,7 +243,7 @@ Backend
 
 Here is how the `Product State Filter` configuration will be displayed: 
 
-.. image:: https://i.imgur.com/FDYKUDj.png
+.. image:: https://cdn.mageplaza.com/media/general/FDYKUDj.png
 
 * **Group label** : The name of the group attribute 
 * **Expand by default**: Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
@@ -279,29 +279,29 @@ Choose *Yes* to enable and display the group attribute `Rating` on the Layered N
 3. Design Configuration tab
 ----------------------------
 
-.. image:: https://i.imgur.com/gXLzjQY.png
+.. image:: https://cdn.mageplaza.com/media/general/gXLzjQY.png
 
 The `Slider type` field allows you to choose the type of the Price Slider. There are 5 options to choose: 
 
 * Flat UI 
 
-.. image:: https://i.imgur.com/1siTeux.png
+.. image:: https://cdn.mageplaza.com/media/general/1siTeux.png
 
 * HTML5 
 
-.. image:: https://i.imgur.com/wmEyH31.png
+.. image:: https://cdn.mageplaza.com/media/general/wmEyH31.png
 
 * Modern
 
-.. image:: https://i.imgur.com/2nGfyDU.png
+.. image:: https://cdn.mageplaza.com/media/general/2nGfyDU.png
 
 * Nice White
 
-.. image:: https://i.imgur.com/6WhCgtQ.png
+.. image:: https://cdn.mageplaza.com/media/general/6WhCgtQ.png
 
 * Simple dark 
 
-.. image:: https://i.imgur.com/lYunzDZ.png
+.. image:: https://cdn.mageplaza.com/media/general/lYunzDZ.png
 
 **Note**: To make the config on `Design Configuration` tab works, please make sure you have set the Display type on the `Attribute Configuration > Color` to be `Slider`.
 
@@ -317,7 +317,7 @@ Backend
 
 The `All products page` configuration is available under `Admin Panel > Mageplaza > Layered Navigation > Configuration > All Products page`.
 
-.. image:: https://i.imgur.com/q7SbvfM.png
+.. image:: https://cdn.mageplaza.com/media/general/q7SbvfM.png
 
 The configration includes 2 sections: 
 
@@ -331,7 +331,7 @@ The `Attribute Config` allows you set the default attribute for the all products
 
 *For example* : If you set the option *Black* of the attribute *Color* as the **Default Attribute**, the items which have Black color will be displayed first when the shoppers go to the All products page.
 
-.. image:: https://i.imgur.com/SMbfaKV.png
+.. image:: https://cdn.mageplaza.com/media/general/SMbfaKV.png
 
 * Default attribute: Insert the keywords to have a suggest attribute list.
 * Default option: Depend on the attribute was selected above, the Default option will appear and allow you to choose from the existing list.
@@ -339,7 +339,7 @@ The `Attribute Config` allows you set the default attribute for the all products
 SEO 
 '''''''''''
 
-.. image:: https://i.imgur.com/prVNgEH.png
+.. image:: https://cdn.mageplaza.com/media/general/prVNgEH.png
 
 In this section, you can config the SEO attribute for the all products page to have the best SEO performance. There are 4 fields: 
 
@@ -354,7 +354,7 @@ In this section, you can config the SEO attribute for the all products page to h
 Frontend
 '''''''''''''
 
-.. image:: https://i.imgur.com/R56BNEM.png
+.. image:: https://cdn.mageplaza.com/media/general/R56BNEM.png
 
 5. Attribute Configuration 
 -------------------------------
@@ -366,7 +366,7 @@ Go to ``Admin Panel > Stores > Products > Attribute``, then choose an attribute 
 
 Generally, after installing Layered Navigation for Magento 2, this tab will show 4 mores options: 
 
-.. image:: https://i.imgur.com/YbH50sR.png
+.. image:: https://cdn.mageplaza.com/media/general/YbH50sR.png
 
 * **Allow Multiple Filter** : By choose **Yes**, the shoppers are able to filter by multi-option in this group attribute. 
 
@@ -408,48 +408,48 @@ For example with **Weight** option for which product has weight as 15 lb. In the
 
 (General)
 
-.. image:: https://i.imgur.com/QNzFBdf.png
+.. image:: https://cdn.mageplaza.com/media/general/QNzFBdf.png
 
 6.2. Dropdown 
 ^^^^^^^^^^^^^^^^^
 
 (General)
 
-.. image:: https://i.imgur.com/8D5rWcS.gif
+.. image:: https://cdn.mageplaza.com/media/general/8D5rWcS.gif
 
 6.3. Swatch 
 ^^^^^^^^^^^^^^^^^^
 
 ( for `Color` filter, `Size` filter) 
 
-.. image:: https://i.imgur.com/ECQZ5RX.png
+.. image:: https://cdn.mageplaza.com/media/general/ECQZ5RX.png
 
-.. image:: https://i.imgur.com/vUJuJVX.png
+.. image:: https://cdn.mageplaza.com/media/general/vUJuJVX.png
 
 6.4. Swatch and text 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 ( for `Color` filter, `Size` filter) 
 
-.. image:: https://i.imgur.com/MYV524M.png
+.. image:: https://cdn.mageplaza.com/media/general/MYV524M.png
 
 6.5. Slider 
 ^^^^^^^^^^^^^^^^^^^^
 
 ( for `Price` filter)
 
-.. image:: https://i.imgur.com/g62QWAx.gif
+.. image:: https://cdn.mageplaza.com/media/general/g62QWAx.gif
 
 6.6. Range 
 ^^^^^^^^^^^^^^^^^^^^
 
 ( for `Price` filter) 
 
-.. image:: https://i.imgur.com/66QgnNa.png
+.. image:: https://cdn.mageplaza.com/media/general/66QgnNa.png
 
 6.7. Slider and Range 
 ^^^^^^^^^^^^^^^^^^^^^^^^
 
 ( for `Price` filter)
 
-.. image:: https://i.imgur.com/BZ9RAZL.png
+.. image:: https://cdn.mageplaza.com/media/general/BZ9RAZL.png

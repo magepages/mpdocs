@@ -11,7 +11,7 @@ How to use
 
 * In the frontend, the search box will be shown in the upper-right corner 
 
-.. image:: https://i.imgur.com/GQkdZJd.png
+.. image:: https://cdn.mageplaza.com/media/general/GQkdZJd.png
 
 * Customer are able to enter the character of product name on this box to search prefered product
   
@@ -26,7 +26,7 @@ How to configure
 * Go to `Backend > Search Plus > Settings`
 * Open **General Settings** section and do the following
 
-  .. image:: https://i.imgur.com/Y94UZAQ.png
+  .. image:: https://cdn.mageplaza.com/media/general/Y94UZAQ.png
 
   * In the `Enable` field, select "Yes" to enable this module
   * In the `Search Result` field, enter the number of search result that you want to show in the search result grid

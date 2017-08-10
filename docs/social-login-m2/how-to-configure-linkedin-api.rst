@@ -17,7 +17,7 @@ Step 2
 
 Select **Create Application** on LinkedIn Developer page
 
-.. image:: https://i.imgur.com/7RoiApv.png
+.. image:: https://cdn.mageplaza.com/media/general/7RoiApv.png
 
 
 Step 3
@@ -25,14 +25,14 @@ Step 3
 
 From the register form, fill out required fields such as Company Name, Logo, Email Company,... and click on **Sumit** button
 
-.. image:: https://i.imgur.com/NxZKjrk.png
+.. image:: https://cdn.mageplaza.com/media/general/NxZKjrk.png
 
 Step 4
 ---------
 
 Go to **My App** option from the top of Dashboard page to see all created applications and get Authentication (App id and secret)
 
-.. image:: https://i.imgur.com/2q1dGYM.png
+.. image:: https://cdn.mageplaza.com/media/general/2q1dGYM.png
 
 
 Step 5
@@ -40,7 +40,7 @@ Step 5
 
 Copy and insert API into API fields in **Magento Admin > Social Login > Settings > LinkedIn**
 
-.. image:: https://i.imgur.com/ZtAIuxi.png
+.. image:: https://cdn.mageplaza.com/media/general/ZtAIuxi.png
 
 And that's it!
 

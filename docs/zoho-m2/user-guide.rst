@@ -13,27 +13,27 @@ General Settings
 
 Under `Integration`, select `Settings` tab to set up the general before coming with the detailed configuration. 
 
-.. image:: https://i.imgur.com/vRyAiTJ.gif
+.. image:: https://cdn.mageplaza.com/media/general/vRyAiTJ.gif
 
 * On the left panel, expand `Mageplaza`, go to `General` sub-tab:
 
   * Open `Field` section, set the display value in case the field contains a null value. You can leave it empty or use the default value (0000).
   * Open `General Configuration`, request `The maximum number of record per cron job` without any limitation of that. Depending on your server, you feel free to offer the expectation number
 
-  .. image:: https://i.imgur.com/Qp8hz1g.png
+  .. image:: https://cdn.mageplaza.com/media/general/Qp8hz1g.png
 
 * Continue with `Setting` workplace, mouse down and hit the `ZohoCRM` sub-tab:
   * In the `Authentication` section, please tap on link **Get Zoho Authentication API Key** to take API from Zoho system (need to sign up/ sign in before accessing the API).
   * Move to `Identity Field`, enable to choose the data that must be checked if there is a new update of Lead and Contact with the comparison between Magento Field and ZohoCRM Field.
 
-  .. image:: https://i.imgur.com/INXicsk.png 
+  .. image:: https://cdn.mageplaza.com/media/general/INXicsk.png 
 
 Manage Apps
 --------------
 
 Under `Integration`, select `Manage Apps` tab.
 
-.. image:: https://i.imgur.com/qvmDngh.gif
+.. image:: https://cdn.mageplaza.com/media/general/qvmDngh.gif
 
 All existing apps are both shown on the grid through ID, Name, Type, Status, State, Created and Modified time, and Action (Edit/Delete).
 
@@ -53,7 +53,7 @@ Magento 2 Integration allows building multiple apps by clicking on "Add new Apps
 
   * Set `Status` to "Enable" this means you allow synchronizing the data between Magento and Zoho CRM.
 
-.. image:: https://i.imgur.com/uV9NcmD.gif
+.. image:: https://cdn.mageplaza.com/media/general/uV9NcmD.gif
 
 Edit App Information
 ^^^^^^^^^^^^^^^^^^
@@ -62,14 +62,14 @@ Edit App Information
 * You can change any information expecting from the app type.
 * If the integration Zoho system into Magento store is successful, `State` is "Connected".
 
-.. image:: https://i.imgur.com/JGgn0U3.gif
+.. image:: https://cdn.mageplaza.com/media/general/JGgn0U3.gif
  
 Manage Rules
 ---------------
 
 Under `Integration`, select `Manage Rules` tab.
 
-.. image:: https://i.imgur.com/YkySefC.gif
+.. image:: https://cdn.mageplaza.com/media/general/YkySefC.gif
 
 Store Admin is allowed to manage all created rules on the grid through ID, Name, Magento Entity, Entity Action, App Name, App Entity, App Action, Created, Status, and Action (Edit/Delete). 
 
@@ -92,16 +92,16 @@ You can set unlimited rules from the backend. Depending on the apps are active (
 * Set `Status` to "Enabled" for using.
 * Click on `Save and Continue Edit`.
 
-.. image:: https://i.imgur.com/xcfJR8F.gif
+.. image:: https://cdn.mageplaza.com/media/general/xcfJR8F.gif
     
 * After saving, you need to continue setting mapping field for the automatic synchronizing.
 * All data related to the entity will be listed there. When you tap on any field, **Mapping Field** popup box will appear to choose.
 
-.. image:: https://i.imgur.com/VYWWwpg.gif
+.. image:: https://cdn.mageplaza.com/media/general/VYWWwpg.gif
 
 * Click on `Save and Continue Edit` button, then open `Sync` option to enable the rule.
 
-.. image:: https://i.imgur.com/rVyLFF5.png
+.. image:: https://cdn.mageplaza.com/media/general/rVyLFF5.png
 
 Edit Rule Information
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -109,7 +109,7 @@ Edit Rule Information
 * On the grid management, under `Action`, tap **Select** link and go to `Edit` mode of which rule you want to modify.
 * It is possible to change Rule Name, Status and Mapping Fields.
 
-.. image:: https://i.imgur.com/ncgVMO7.gif
+.. image:: https://cdn.mageplaza.com/media/general/ncgVMO7.gif
 
 
 Manage Logs
@@ -122,7 +122,7 @@ Integration Logs is the place to list all events for store owner's management. E
 * **Completed** means the synchronizing is successful. 
 * **Error** means there is any interrupt when auto-matching the data.
 
-.. image:: https://i.imgur.com/mdbhw7H.gif
+.. image:: https://cdn.mageplaza.com/media/general/mdbhw7H.gif
 
 .. Sync Manually
 .. ---------------

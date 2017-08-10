@@ -5,7 +5,7 @@
 
 SEO Checklist includes a list of the notifications: Success, Error, and Warning. Basing on this status of the notification, you will know whether your store is optimized and ready for SEO or not. 
 
-.. image:: https://i.imgur.com/qiUDZmg.gif
+.. image:: https://cdn.mageplaza.com/media/general/qiUDZmg.gif
 
 4. Page Analysis
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -14,11 +14,11 @@ Firstly, please make sure that the `Page Analysis` feature is already enabled in
 
 Go to `Admin Panel > Products > Catalog >` choose a product.
 
-.. image:: https://i.imgur.com/XD98pls.gif
+.. image:: https://cdn.mageplaza.com/media/general/XD98pls.gif
 
 Then, expand `Search Engine Optimization` tab.
 
-.. image:: https://i.imgur.com/IFa3XN9.png
+.. image:: https://cdn.mageplaza.com/media/general/IFa3XN9.png
 
 `Page Analysis` section includes 2 main parts: **Structure Data Editor** and **Main Keyword** - **Analysis**. 
 
@@ -36,7 +36,7 @@ Below the `Meta Title` and `Meta Description` field, there is a bar which notice
 * *Orange:* The text length is short and not good for SEO.
 * *Green:* The text length is good for SEO.
 
-.. image:: https://i.imgur.com/o5iUvzj.gif
+.. image:: https://cdn.mageplaza.com/media/general/o5iUvzj.gif
 
 **4.2. Main Keyword and Analysis**
 
@@ -50,7 +50,7 @@ The analysis is based on:
 * The *Description* and *Short Description* content on the `Content` tab.
 * The *Product Image*'s description.
 
-.. image:: https://i.imgur.com/0nyJD4i.gif
+.. image:: https://cdn.mageplaza.com/media/general/0nyJD4i.gif
 
 5. Crosslinks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -61,7 +61,7 @@ Crosslinks play a certain popular role to link between sites, as sort of indispe
  
 To config Crosslinks, go to ``Admin Panel > Mageplaza > SEO > Settings > Crosslinks``. Open the Crosslinks’s section.
  
-.. image:: https://i.imgur.com/3jbNlyV.jpg
+.. image:: https://cdn.mageplaza.com/media/general/3jbNlyV.jpg
 
 * In the **Enable/Disable** field, select “*Yes*” to enable crosslinks work, or “*No*” if you wish for vice versa.
 * In the **Total Max Replacement Count for Product Page** field, enter a number to define The maximum number of keywords will be replaced by term on the product view page. Default value is 10 terms.

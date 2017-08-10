@@ -27,7 +27,7 @@ In order to use the hreflang tag, you need to do:
 * Allow you to apply the hreflang for the product, category, and pages if you need.
 * Assign **X-default** to the specific store view that means if the visitors come from another country with the language you don't support, the assigned store view to X-default will be displayed in this situation.
 
-.. image:: https://i.imgur.com/V5xhGtR.png
+.. image:: https://cdn.mageplaza.com/media/general/V5xhGtR.png
 
 .. include:: ../seo-pro/user-guide.rst
 .. include:: user-guide.rst

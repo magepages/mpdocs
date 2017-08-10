@@ -7,11 +7,11 @@ Overview
 
 After enabling the module, the Layered Navigation will be displayed on the left sidebar on Categories pages.
 
-.. image:: https://i.imgur.com/8vDDC3q.png
+.. image:: https://cdn.mageplaza.com/media/general/8vDDC3q.png
 
 The Configuration is available under ``Admin Panel > Mageplaza > Layered Navigation > Configuration``. 
 
-.. image:: https://i.imgur.com/JxGogGp.png
+.. image:: https://cdn.mageplaza.com/media/general/JxGogGp.png
 
 In the configuration, there are 2 tabs: 
 
@@ -23,7 +23,7 @@ Here are the details for the settings of each tab.
 1. General Configuration tab
 ----------------------------------
 
-.. image:: https://i.imgur.com/RAa3Gkv.png
+.. image:: https://cdn.mageplaza.com/media/general/RAa3Gkv.png
 
 1.1. Module Enable 
 ^^^^^^^^^^^^^^^^^^^^^
@@ -45,7 +45,7 @@ To config this feature, go to ``Enable Multi-filter`` field, set **Yes/ No** to 
 Frontend 
 '''''''''''''''''''''' 
 
-.. image:: https://i.imgur.com/AqXNgog.gif
+.. image:: https://cdn.mageplaza.com/media/general/AqXNgog.gif
 
 1.3. Scroll to Top 
 ^^^^^^^^^^^^^^^^^^^^^
@@ -63,7 +63,7 @@ On the ``Scroll to Top after Filtering`` field, you will have 2 options:
 Frontend
 '''''''''''''''''''''' 
 
-.. image:: https://i.imgur.com/DgCXvFZ.gif
+.. image:: https://cdn.mageplaza.com/media/general/DgCXvFZ.gif
 
 1.4. Quick Lookup Options
 ^^^^^^^^^^^^^^^^^^^^^
@@ -78,7 +78,7 @@ Go to `Enable Filter options` field to **Enable/ Disable** this feature by setti
 Frontend
 '''''''''''''''''''''' 
 
-.. image:: https://i.imgur.com/iL4kSx6.gif
+.. image:: https://cdn.mageplaza.com/media/general/iL4kSx6.gif
 
 1.5. Display Out-of-stock option 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -106,7 +106,7 @@ In `Display Product Count` field:
 Frontend
 '''''''''''''''''''''' 
 
-.. image:: https://i.imgur.com/TVWMyxa.png
+.. image:: https://cdn.mageplaza.com/media/general/TVWMyxa.png
 
 1.7. Expand by default
 ^^^^^^^^^^^^^^^^^^^^^
@@ -148,7 +148,7 @@ Backend
 
 Here is how the `Product State Filter` configuration will be displayed: 
 
-.. image:: https://i.imgur.com/FDYKUDj.png
+.. image:: https://cdn.mageplaza.com/media/general/FDYKUDj.png
 
 * **Group label** : The name of the group attribute 
 * **Expand by default**: Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
@@ -180,7 +180,7 @@ Go to ``Admin Panel > Stores > Products > Attribute``, then choose an attribute 
 
 Generally, after installing Layered Navigation for Magento 2, this tab will show 4 mores options: 
 
-.. image:: https://i.imgur.com/YbH50sR.png
+.. image:: https://cdn.mageplaza.com/media/general/YbH50sR.png
 
 * **Allow Multiple Filter** : By choose **Yes**, the shoppers are able to filter by multi-option in this group attribute. 
 
@@ -222,48 +222,48 @@ For example with **Weight** option for which product has weight as 15 lb. In the
 
 (General)
 
-.. image:: https://i.imgur.com/QNzFBdf.png
+.. image:: https://cdn.mageplaza.com/media/general/QNzFBdf.png
 
 4.2. Dropdown 
 '''''''''''''''''''''' 
 
 (General)
 
-.. image:: https://i.imgur.com/8D5rWcS.gif
+.. image:: https://cdn.mageplaza.com/media/general/8D5rWcS.gif
 
 4.3. Swatch 
 '''''''''''''''''''''' 
 
 ( for `Color` filter, `Size` filter) 
 
-.. image:: https://i.imgur.com/ECQZ5RX.png
+.. image:: https://cdn.mageplaza.com/media/general/ECQZ5RX.png
 
-.. image:: https://i.imgur.com/vUJuJVX.png
+.. image:: https://cdn.mageplaza.com/media/general/vUJuJVX.png
 
 4.4. Swatch and text
 '''''''''''''''''''''' 
 
 ( for `Color` filter, `Size` filter) 
 
-.. image:: https://i.imgur.com/MYV524M.png
+.. image:: https://cdn.mageplaza.com/media/general/MYV524M.png
 
 4.5. Slider 
 '''''''''''''''''''''' 
 
 ( for `Price` filter)
 
-.. image:: https://i.imgur.com/g62QWAx.gif
+.. image:: https://cdn.mageplaza.com/media/general/g62QWAx.gif
 
 4.6. Range 
 '''''''''''''''''''''' 
 
 ( for `Price` filter) 
 
-.. image:: https://i.imgur.com/66QgnNa.png
+.. image:: https://cdn.mageplaza.com/media/general/66QgnNa.png
 
 4.7. Slider and Range 
 '''''''''''''''''''''' 
 
 ( for `Price` filter)
 
-.. image:: https://i.imgur.com/BZ9RAZL.png
+.. image:: https://cdn.mageplaza.com/media/general/BZ9RAZL.png

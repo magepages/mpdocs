@@ -7,13 +7,13 @@
 
 Login to Magento Admin, go to Mageplaza > Who Bought This Item Also Bought > Configuration
 
-![how to configure who bought this item also bought](https://i.imgur.com/ZkRdIen.png)
+![how to configure who bought this item also bought](https://cdn.mageplaza.com/media/general/ZkRdIen.png)
 
 #### General Configuration
 
 Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, select `General Configuration`
 
-![configure](https://i.imgur.com/u4t58bE.png)
+![configure](https://cdn.mageplaza.com/media/general/u4t58bE.png)
 
 - `Enable Who Bought This Item Also Bought`: Select `Yes` to enable Mageplaza Who Bought This Item Also Bought Extension, select `No` to disable the extension
 - `Process Order With Status`: Pick the order status which the module uses to suggest the products displayed in the block. You can select multiple order status at the same time.
@@ -33,7 +33,7 @@ Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, select `
 
 When a product is chosen, the item will be used to relate to other orders with the same status selected in Process Order with Status. The products appearing in those orders will be displayed in the Product Page in the quantity set in the field Number of products displayed in the Frontend 
 
-![also bought on product page](https://i.imgur.com/Gd6soIY.png)
+![also bought on product page](https://cdn.mageplaza.com/media/general/Gd6soIY.png)
 
 - `Enable`: Select Yes to enable and No to disable module in the Product Page
 - `Title of Block`: Enter the name of suggested-products block displayed in the Product Page
@@ -60,7 +60,7 @@ This example with the following configurations:
 - `Position`: On the top of the page.
 - `Show List`: Price, Add to cart, Review, Add to wishlist, Add to compare
 
-![also bought frontend](https://i.imgur.com/JvR81o7.png)
+![also bought frontend](https://cdn.mageplaza.com/media/general/JvR81o7.png)
 
 
 #### Display on Category Page
@@ -69,7 +69,7 @@ Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, select `
 
 When a category is chosen, all the products in the current category will be used to relate to other orders with the same status selected in Process Order with Status. The products appearing in those orders will be displayed in the Category Page in the quantity set in the field Number of products displayed in the Frontend 
 
-![also bought on category page](https://i.imgur.com/4tdjW5y.png)
+![also bought on category page](https://cdn.mageplaza.com/media/general/4tdjW5y.png)
 
 
 - `Enable`: Select Yes to enable and No to disable module in the Category Page
@@ -88,7 +88,7 @@ When a category is chosen, all the products in the current category will be used
 	- `Review`: Allows showing the product’s rating and leading customers to the Review section of the product when the Review button is clicked.
 	- `Add to Wish List & Add to Compare`: Displays the Add to Wish List and  Add to Compare buttons. When these buttons are clicked, the item will show up in the Wish List and Comparison List
 
-![sample of who bought this item also bought on category page](https://i.imgur.com/QUrsuqP.png)
+![sample of who bought this item also bought on category page](https://cdn.mageplaza.com/media/general/QUrsuqP.png)
 
 #### Display on Cart Page
 
@@ -97,7 +97,7 @@ Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, select `
 After adding to cart, customers go to View and Edit Cart. In this page, all the products in their cart will be used to relate to other orders with the same status selected in Process Order with Status. The products appearing in those orders will be displayed in the Cart Page in the quantity set in the field Number of products displayed in the Frontend
 
 
-![display on cart page](https://i.imgur.com/l5ibZXL.png)
+![display on cart page](https://cdn.mageplaza.com/media/general/l5ibZXL.png)
 
 
 - `Enable`: Select Yes to enable and No to disable module in the Cart Page
@@ -117,4 +117,4 @@ After adding to cart, customers go to View and Edit Cart. In this page, all the 
 	- `Add to Wish List & Add to Compare`: Displays the Add to Wish List and  Add to Compare buttons. When these buttons are clicked, the item will show up in the Wish List and Comparison List
 
 
-![also bought on cart page](https://i.imgur.com/bmIju5s.png)
+![also bought on cart page](https://cdn.mageplaza.com/media/general/bmIju5s.png)

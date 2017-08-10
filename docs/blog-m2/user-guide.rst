@@ -20,7 +20,7 @@ General Configuration
   
   * To show the sidebar on the storefront, select "Yes" in the `Show Sidebar Right/ Left` field.
 
-.. image:: https://i.imgur.com/0dIdrwc.png
+.. image:: https://cdn.mageplaza.com/media/general/0dIdrwc.png
 
 * Open **Sidebar** section,
 
@@ -28,7 +28,7 @@ General Configuration
   
   * Enter `Number of most view posts` that display on the sidebar.
 
-.. image:: https://i.imgur.com/kMwejsJ.png 
+.. image:: https://cdn.mageplaza.com/media/general/kMwejsJ.png 
 
 * Open **Comments** section,
 
@@ -38,7 +38,7 @@ General Configuration
     * Facebook Comment 
     * Disable Completely
 
-.. image:: https://i.imgur.com/UJnhJl1.png
+.. image:: https://cdn.mageplaza.com/media/general/UJnhJl1.png
 
 * Open **SEO** section, you can configure the meta that is useful for your better SEO
 
@@ -46,7 +46,7 @@ General Configuration
   * Set `Meta description for posts list page`
   * Set `Meta keywords for posts list page`
 
-.. image:: https://i.imgur.com/bGgJsMB.png
+.. image:: https://cdn.mageplaza.com/media/general/bGgJsMB.png
 
 * Open **Social** section,
 
@@ -55,7 +55,7 @@ General Configuration
   
   In Social share session, we use Addthis.com to add more than 200 share buttons, and display only 4 most popular share buttons. You can custom these buttons by add your own Addthis Pub-id
 
-.. image:: https://i.imgur.com/QIs3FXz.png
+.. image:: https://cdn.mageplaza.com/media/general/QIs3FXz.png
 
 * Click on `Save Config` when complete.
 

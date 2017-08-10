@@ -73,7 +73,7 @@ Coupon
 
 From backend, admin can add coupon code for the affiliate program.
 
-.. image:: https://i.imgur.com/p1Mgs1n.png
+.. image:: https://cdn.mageplaza.com/media/general/p1Mgs1n.png
 
 History campaign
 -----------------

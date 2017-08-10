@@ -8,21 +8,21 @@ Under the **XML Sitemap** section, you can:
 * Create `Homepage Optimization` when choosing "Yes"
 * In case you need additional links, it is required to set `Enable Additional Links` to "Yes"
 
-.. image:: https://i.imgur.com/0QtP9cP.png
+.. image:: https://cdn.mageplaza.com/media/general/0QtP9cP.png
 
 1.10. HTML Sitemap
 ########################
 
 This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
 
-.. image:: https://i.imgur.com/sLrdNxN.png
+.. image:: https://cdn.mageplaza.com/media/general/sLrdNxN.png
 
 2. SEO Rules
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Mageplaza SEO allows the store owner to create the specific rule information. To add new SEO rule, please follow the path `Mageplaza > SEO Rules > Rules`, click on **Add New Rule** button.
 
-.. image:: https://i.imgur.com/YEbLMSd.gif
+.. image:: https://cdn.mageplaza.com/media/general/YEbLMSd.gif
 
 * Enter `Rule Name`
 * The rule can be applied to Product, Category, Pages, Post. You can choose one of them in the `Entity Type` field
@@ -46,4 +46,4 @@ Mageplaza SEO allows the store owner to create the specific rule information. To
 * Choose `Store View` where the rule is applied
 * Set `Priority` if need while 0 is the highest level. 
 
- .. image:: https://i.imgur.com/DOuRZSP.png
+ .. image:: https://cdn.mageplaza.com/media/general/DOuRZSP.png
