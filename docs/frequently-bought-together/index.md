@@ -1,11 +1,9 @@
-Frequently Bought Together
-============================
+# Frequently Bought Together
 
 .. toctree::
     :maxdepth: 2
     :glob:
 
-    how*
 
 
 .. include:: user-guide.md
