@@ -54,6 +54,8 @@ Follow this instruction to know how to add your custom combination related produ
 
 - You will be redirected back to Product page, don’t forget clicking the `Save` button.
 
+![FBT7](https://i.imgur.com/FcfII3o.png)
+
 And now you can back to the live site to check the completed result.
 
 
