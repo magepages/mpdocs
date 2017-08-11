@@ -1,10 +1,10 @@
 # Frequently Bought Together
 
-Mageplaza Frequently Bought Together extention will display native related products in the product page, and have the Add all items to cart feature that makes it easy for customers to add a list of items to their shopping cart. This extension suggests the right product which might attract buyer in further purchasing, or making the shopper easy to find the product to buy. It also dramatically increases the value of orders, sales, profits for you business.
+Mageplaza Frequently Bought Together extention will display native related products in the product page, and has the Add all items to cart feature that makes it easy for customers to add a list of items to their shopping cart. This extension suggests the right products which might attract buyers in further purchasing, or makes it easy for shoppers to find other products. It also dramatically increases the value of orders, sales, profits for you business.
 
 ## Overview 
 
-Here how Frequently Bought Together block appears in shopping site
+Here how Frequently Bought Together block appears in your shopping site
 
 ![FBT1](https://i.imgur.com/3hARgQL.png)
 
@@ -17,7 +17,7 @@ After logging to Magento Admin, navigate to `Mageplaza > Frequently Bought Toget
 ![FBT3](https://i.imgur.com/O69ziZX.png)
 
 - `Enable Frequently Bought Together` field: choose *Yes* to enable extension. Here some rough sketch how this module works.
-	- The Frequently Bought Together list is under the Product image and on the Product Descrition tab.
+	- The Frequently Bought Together list is under the Product image and on the Product Description tab.
   - There will be a horizontal line separating the list from the Product image.
   - Products included in the Frequently purchased together list are from the Related Products in the Backend.
 
@@ -36,11 +36,11 @@ After logging to Magento Admin, navigate to `Mageplaza > Frequently Bought Toget
   
 ## How to add Related Products
 
-Related Products refers those products have a certain link to each other evaluated by buyer’s frequently shopping habit. So we will take The Related Products advantage apply it in the Frequently Bought Together extension. Based on the Related Products, the extension will filter out the products that can be purchased with the product that the customer is selecting, thereby helping customers shop more, increase store revenue.
+Related Products refers those products which have a certain link to each other evaluated by buyer’s frequently shopping habit. So we will take The Related Products advantage apply it in the Frequently Bought Together extension. Based on the Related Products, the extension will filter out the products that can be purchased with the product that the customer is selecting, thereby helping customers shop more, increase store revenue.
 
 Follow this instruction to know how to add your custom combination related product, offer visitors better choice.
 
-- Back to the Magento’s Admin page again, choose `Products > Inventory > Catalog`, choose the `Product` you want add Related Product for it.
+- Back to the Magento’s Admin page again, choose `Products > Inventory > Catalog`, choose the product you want add Related Product to it.
 
 ![FBT4](https://i.imgur.com/c0vQHfY.png)
 
