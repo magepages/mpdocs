@@ -124,7 +124,7 @@ General Configuration
   * Google: if you select **Google** option, when the customer fills address fields, it will suggest a list of full addresses.
   * Capture+ by PCA Predict:
 
-* In the **Google API Key** field, insert the Key. About how to get this key, you can refer [this guide](https://developers.google.com/maps/documentation/javascript/get-api-key).
+* In the **Google API Key** field, insert the Key. About how to get this key, you can refer https://developers.google.com/maps/documentation/javascript/get-api-key
 * In the **Restrict the auto suggestion for a specific country** field, select default country for Billing address and Shipping address.
 
 Display Configuration
@@ -147,7 +147,7 @@ Display Configuration
 * In the **Enable Gift Message** field, select "Yes" to show the Gift Message box that allows the customer to enter their gift message.
 * In the **Show Terms and Conditions** field, you can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
 * In the **Show Newsletter Checkbox** field, select "Yes" if you want to show Sign up newsletter selection.
-* In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install [Social Login by Mageplaza](http://www.mageplaza.com/magento-2-social-login-extension/).
+* In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install Social Login http://www.mageplaza.com/magento-2-social-login-extension/
 * In the **Enable Delivery Time** field, set "Yes" to allow the customer to note the time when they can receive the shipping items, leave **No** to disable this feature. 
 
 Design Configuration
