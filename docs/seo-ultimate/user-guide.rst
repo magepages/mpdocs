@@ -75,11 +75,11 @@ Click ``Save Config`` to save changes.
 
 Our crosslinks feature will work under customizable terms. To make a new term for your store, go to ``Admin Panel > SEO > Crosslinks``.  Click red button Add new Term.
 
-.. image:: http://i.imgur.com/nwvs63U.jpg
+.. image:: https://cdn.mageplaza.com/media/general/nwvs63U.jpg
 
 Fill up all the required information fields you wish to set up for your new term. The following to creat new term’s form will be performed like this.
 
-.. image:: http://i.imgur.com/PCY2Pgm.jpg
+.. image:: https://cdn.mageplaza.com/media/general/PCY2Pgm.jpg
 
 * In the **Keyword** field (require information): enter new keyword you want to create.
 * In the **Link Alt/Title** field: short description for this keyword. This will insert into title attribute. We suggest you add Keywords that you want to rank. E.g: Buy iPhone in New York
@@ -103,7 +103,7 @@ Fill up all the required information fields you wish to set up for your new term
 
 Go to ``Admin Panel > SEO > Crosslinks``. A list of existed terms will be appeared. Click on Select in the Action tab to custom term you want to edit.
 
-.. image:: http://i.imgur.com/53GFdNu.jpg
+.. image:: https://cdn.mageplaza.com/media/general/53GFdNu.jpg
 
 Click ``Save term`` after edited. 
 

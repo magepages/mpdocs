@@ -29,7 +29,7 @@ Log In / Sign Up
 
 * Otherwise, buyers are able to purchase without using a personal account by filling the Billing Address section, or create a new account at the same time when selecting the box Create Account: 
  
-.. image::  http://i.imgur.com/dtOQWQo.png
+.. image::  https://cdn.mageplaza.com/media/general/dtOQWQo.png
 
 Billing Address
 ^^^^^^^^^^^^^^^^^^
@@ -82,7 +82,7 @@ How to configure
 
 Login to Magento Admin, choose **Mageplaza > One Step Checkout** on the panel.
 
-  .. image:: http://i.imgur.com/Rd5wE0o.png
+  .. image:: https://cdn.mageplaza.com/media/general/Rd5wE0o.png
   
 Following our given guide below to complete One Step Checkout configuration
 
@@ -97,7 +97,7 @@ Field Management
 
 From the Admin Panel, go to **Mageplaza > One Step Checkout > Field Management**. 
 
-.. image::  http://i.imgur.com/iTnpJWr.gif
+.. image::  https://cdn.mageplaza.com/media/general/iTnpJWr.gif
 
 Drag and drop tabs from Available fields to Sorted fields to have them appear in the Checkout page.
 
@@ -109,7 +109,7 @@ General Configuration
 
 * Open the **General Configuration** section:
 
-.. image::  http://i.imgur.com/uNJ61f3.png
+.. image::  https://cdn.mageplaza.com/media/general/uNJ61f3.png
 
 * In the **Enable One Step Checkout** field, select "Yes" to enable One Step Checkout extension.
 * In the **One Step Checkout Page Title** field, enter the page title you want.
@@ -132,7 +132,7 @@ Display Configuration
 
 * Open the **Display Configuration** section, and continue with following:
 
-.. image::  http://i.imgur.com/x3jKP4z.png
+.. image::  https://cdn.mageplaza.com/media/general/x3jKP4z.png
 
 * In the **Show Login Link** field, set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
 * In the **Show Order Review Section** field, the Order Review is enabled by default, if you want to disable to review order, let select "Disabled" option.
@@ -155,7 +155,7 @@ Design Configuration
 
 * Open the **Design Configuration** section, and continue with following:
 
-.. image::  http://i.imgur.com/1JFYbiV.png
+.. image::  https://cdn.mageplaza.com/media/general/1JFYbiV.png
 
 
 * In the **Checkout Page Layout** field, select one of the following layouts to have your checkout page be shown in four different interfaces
@@ -179,11 +179,11 @@ Terms and Conditions Configuration
 
 * Firstly, go to **Admin Panel > Mageplaza > One Step Checkout > Display Configuration**, set the **Show Terms and Conditions** field.
 
-.. image:: http://i.imgur.com/sdIrbIY.png
+.. image:: https://cdn.mageplaza.com/media/general/sdIrbIY.png
 
 * Go to **Stores > Settings > Configuration > Sales > Checkout > Checkout Options**, set **Enable Terms and Conditions** to "Yes".
 
-.. image:: http://i.imgur.com/0ELZRPq.png
+.. image:: https://cdn.mageplaza.com/media/general/0ELZRPq.png
 
 * There is empty TOS in the Terms and Conditions list, now you have to add your TOS.
 
@@ -191,11 +191,11 @@ Go to **Admin > Stores > Settings > Terms and Conditions > Add New Condition**
 
 You can add multi Terms and Conditions for your Checkout page.
 
-.. image:: http://i.imgur.com/tOWECCm.gif
+.. image:: https://cdn.mageplaza.com/media/general/tOWECCm.gif
 
 The form will be displayed as the below image:
 
-.. image:: http://i.imgur.com/SDYyCe1.png
+.. image:: https://cdn.mageplaza.com/media/general/SDYyCe1.png
 
 * In the **Status** field, select "Enable" to show the terms and conditions.
 * In the **Applied** field, 

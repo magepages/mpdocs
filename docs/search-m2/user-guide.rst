@@ -45,13 +45,13 @@ That's all about the user guide of Mageplaza Search extension for Magento 2. If 
 Number of Search result
 ------------------------
 
-.. image:: http://i.imgur.com/OS71LUm.png
+.. image:: https://cdn.mageplaza.com/media/general/OS71LUm.png
 
 
 Display Price
 ------------------------
 
-.. image:: http://i.imgur.com/AX8hPIU.png
+.. image:: https://cdn.mageplaza.com/media/general/AX8hPIU.png
 
 
 
@@ -59,7 +59,7 @@ Display Price
 Display Product Thumbnail
 ------------------------
 
-.. image:: http://i.imgur.com/8bkBpQJ.png
+.. image:: https://cdn.mageplaza.com/media/general/8bkBpQJ.png
 
 
 
@@ -69,7 +69,7 @@ Display Product Thumbnail
 Limit number of characters in description section
 ------------------------
 
-.. image:: http://i.imgur.com/Ik2YTpS.png
+.. image:: https://cdn.mageplaza.com/media/general/Ik2YTpS.png
 
 
 

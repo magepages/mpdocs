@@ -53,7 +53,7 @@ Step 7
 
 - Add a Product
 
-.. image:: http://i.imgur.com/0ncXALM.png
+.. image:: https://cdn.mageplaza.com/media/general/0ncXALM.png
 
 - No need to choose any platforms. Click the **Settings** on the left to input the RedirectURIs.
 

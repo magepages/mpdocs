@@ -16,7 +16,7 @@ Open **General Configuration** section, you can see:
 * In `Stop words` field, choose the language of the stop words to use. 
 For example: if choose **en** (English), the stop words are *a the, of, for, etc*.
 
-.. image:: http://i.imgur.com/zq9ngpr.png
+.. image:: https://cdn.mageplaza.com/media/general/zq9ngpr.png
 
 1.2. Duplicate Content
 ########################

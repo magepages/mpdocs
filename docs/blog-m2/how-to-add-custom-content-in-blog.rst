@@ -25,11 +25,11 @@ How to create CMS static block in Magento 2
 
 From Admin panel > Content > Blocks > Add New Block
 
-.. image:: http://i.imgur.com/vHoPfUE.png
+.. image:: https://cdn.mageplaza.com/media/general/vHoPfUE.png
 
 Then fill the content of block such as Name, idenity, content ...
 
-.. image:: http://i.imgur.com/cuHNsfk.png
+.. image:: https://cdn.mageplaza.com/media/general/cuHNsfk.png
 
 then click on `Save and continue`
 

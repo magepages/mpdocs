@@ -19,7 +19,7 @@ Layered Navigation Configuration
 
 The Configuration is available under `Admin Panel > Mageplaza > Layered Navigation > Configuration`.
 
-.. image:: http://i.imgur.com/2HQ4LIk.gif
+.. image:: https://cdn.mageplaza.com/media/general/2HQ4LIk.gif
 
 * General configuration
 * Filter configuration
@@ -31,7 +31,7 @@ Here are the details for the settings of each tab.
 1. General Configuration tab
 --------------------------------
 
-.. image:: http://i.imgur.com/UIIFzKu.png
+.. image:: https://cdn.mageplaza.com/media/general/UIIFzKu.png
 
 1.1. Module Enable 
 ^^^^^^^^^^^^^^^^^^^^^
