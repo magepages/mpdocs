@@ -11,12 +11,12 @@ Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed i
 
 
 
-How to use
+I. How to use
 -----------
 
 After adding the right products in the cart, the customer will be navigated to the checkout page. The checkout page will be shown with all six steps as the image below.
 
-.. image:: https://cdn.mageplaza.com/media/general/L3DL0Ur.png
+.. image:: http://imgur.com/rSskloB.jpg
 
 A one-step checkout will be totally done on one page only by completing information and selecting options.
 
@@ -25,11 +25,11 @@ Log In / Sign Up
 
 * Proceed the checkout with customers' existed information by a click on the blue link "Already have an account, click here to login". A pop-up box will appear to allow buyers to fill in their accounts as below:
  
-.. image::  https://cdn.mageplaza.com/media/general/2Ycj95V.png
+.. image::  https://imgur.com/FIxJWVa.jpg
 
 * Otherwise, buyers are able to purchase without using a personal account by filling the Billing Address section, or create a new account at the same time when selecting the box Create Account: 
  
-.. image::  https://cdn.mageplaza.com/media/general/dtOQWQo.png
+.. image::  https://i.imgur.com/dtOQWQo.png
 
 Billing Address
 ^^^^^^^^^^^^^^^^^^
@@ -77,39 +77,39 @@ Order Review and Place Order
 * Eventually, the one step checkout can be finished by a click on the **Place Order** button. The whole process is completed in one page only.
 
 
-How to configure
+II. How to configure
 ----------------
 
 Login to Magento Admin, choose **Mageplaza > One Step Checkout** on the panel.
 
-  .. image:: https://cdn.mageplaza.com/media/general/Rd5wE0o.png
+  .. image:: http://i.imgur.com/Rd5wE0o.png
   
 Following our given guide below to complete One Step Checkout configuration
 
 * Field Management
 * General Configuration
-* Display Configuration
-* Design Configuration
-* Terms & Conditions Configuration
+  
+  * Display Configuration
+  * Design Configuration
+  * Terms & Conditions Configuration
 
-Field Management
+1. Field Management
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-From the Admin Panel, go to **Mageplaza > One Step Checkout > Field Management**. 
-
-.. image::  https://cdn.mageplaza.com/media/general/iTnpJWr.gif
-
-Drag and drop tabs from Available fields to Sorted fields to have them appear in the Checkout page.
+From the Admin Panel, go to ``Mageplaza > One Step Checkout > Field Management``. Drag and drop tabs from Available fields to Sorted fields to have them appear in the Checkout page.
 
 .. image::  https://cdn.mageplaza.com/media/general/e3ZCVhx.gif
 
 
-General Configuration
+2. Configuration
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-* Open the **General Configuration** section:
+2.1 General Configuration
+''''''''''''''''''''''''''''''''''''
 
-.. image::  https://cdn.mageplaza.com/media/general/uNJ61f3.png
+* Open the ``Magento Backend > Mageplaza > One Step Checkout > Configuration > General Configuration`` section:
+
+.. image::  http://imgur.com/dKm43da.jpg
 
 * In the **Enable One Step Checkout** field, select "Yes" to enable One Step Checkout extension.
 * In the **One Step Checkout Page Title** field, enter the page title you want.
@@ -117,6 +117,7 @@ General Configuration
 * In the **Default Shipping Method** field, set default shipping method in the checkout process.
 * In the **Default Payment Method** field, set default payment method in the checkout process.
 * In the **Allow Guest Checkout** field, select "Yes" to allow checking out as a guest. Also, guests can create an account on the checkout page.
+* In the **Auto-redirect to One Step Checkout page** field, select "Yes" to turn this function on
 * In the **Can Show Billing Address** field, select "Yes" to allow shipping items to a different address from billing address.
 * In the **Use Auto Suggestion Technology** field, select one of the following options
 
@@ -124,18 +125,22 @@ General Configuration
   * Google: if you select **Google** option, when the customer fills address fields, it will suggest a list of full addresses.
   * Capture+ by PCA Predict:
 
-* In the **Google API Key** field, insert the Key. About how to get this key, you can refer https://developers.google.com/maps/documentation/javascript/get-api-key
+* In the **Google API Key** field, insert the Key. About how to get this key, you can refer `this guide <https://developers.google.com/maps/documentation/javascript/get-api-key>`_.
+
 * In the **Restrict the auto suggestion for a specific country** field, select default country for Billing address and Shipping address.
 
-Display Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.2 Display Configuration
+''''''''''''''''''''''''''''''''''''
+
+Mageplaza > One Step Checkout > Configuration >
 
 * Open the **Display Configuration** section, and continue with following:
 
-.. image::  https://cdn.mageplaza.com/media/general/x3jKP4z.png
+.. image::  http://imgur.com/a/65MMb.jpg
 
 * In the **Show Login Link** field, set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
 * In the **Show Order Review Section** field, the Order Review is enabled by default, if you want to disable to review order, let select "Disabled" option.
+* In the **Show Product Thumbnail Image** field, choose "Yes" to show thumbnail 
 * In the **Discount Code Section** field, select "Enabled" to show Discount Code box on the Checkout page.
 * In the **Enable Gift Wrap** field, select "Yes" if you allow the customer to choose Gift Wrap option. After choosing, the change will be applied automatically to the order.
 * If you allow showing Gift Wrap option, two following fields will be shown:
@@ -147,15 +152,15 @@ Display Configuration
 * In the **Enable Gift Message** field, select "Yes" to show the Gift Message box that allows the customer to enter their gift message.
 * In the **Show Terms and Conditions** field, you can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
 * In the **Show Newsletter Checkbox** field, select "Yes" if you want to show Sign up newsletter selection.
-* In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install Social Login http://www.mageplaza.com/magento-2-social-login-extension/
+* In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install [Social Login by Mageplaza](http://www.mageplaza.com/magento-2-social-login-extension/).
 * In the **Enable Delivery Time** field, set "Yes" to allow the customer to note the time when they can receive the shipping items, leave **No** to disable this feature. 
 
 Design Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+''''''''''''''''''''''''''''''''''''
 
 * Open the **Design Configuration** section, and continue with following:
 
-.. image::  https://cdn.mageplaza.com/media/general/1JFYbiV.png
+.. image::  http://i.imgur.com/1JFYbiV.png
 
 
 * In the **Checkout Page Layout** field, select one of the following layouts to have your checkout page be shown in four different interfaces
@@ -179,11 +184,11 @@ Terms and Conditions Configuration
 
 * Firstly, go to **Admin Panel > Mageplaza > One Step Checkout > Display Configuration**, set the **Show Terms and Conditions** field.
 
-.. image:: https://cdn.mageplaza.com/media/general/sdIrbIY.png
+.. image:: http://i.imgur.com/sdIrbIY.png
 
 * Go to **Stores > Settings > Configuration > Sales > Checkout > Checkout Options**, set **Enable Terms and Conditions** to "Yes".
 
-.. image:: https://cdn.mageplaza.com/media/general/0ELZRPq.png
+.. image:: http://i.imgur.com/0ELZRPq.png
 
 * There is empty TOS in the Terms and Conditions list, now you have to add your TOS.
 
@@ -191,11 +196,11 @@ Go to **Admin > Stores > Settings > Terms and Conditions > Add New Condition**
 
 You can add multi Terms and Conditions for your Checkout page.
 
-.. image:: https://cdn.mageplaza.com/media/general/tOWECCm.gif
+.. image:: http://i.imgur.com/tOWECCm.gif
 
 The form will be displayed as the below image:
 
-.. image:: https://cdn.mageplaza.com/media/general/SDYyCe1.png
+.. image:: http://i.imgur.com/SDYyCe1.png
 
 * In the **Status** field, select "Enable" to show the terms and conditions.
 * In the **Applied** field, 
