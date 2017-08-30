@@ -222,7 +222,7 @@ Enable GeoIP is pretty easy
 
 * Firstly, go to **Admin Panel > Mageplaza > One Step Checkout > Display Configuration**, set the **Show Terms and Conditions** field.
 
-.. image:: http://i.imgur.com/sdIrbIY.png
+.. image:: http://imgur.com/va2YlUb.jpg
 
 * Go to **Stores > Settings > Configuration > Sales > Checkout > Checkout Options**, set **Enable Terms and Conditions** to "Yes".
 
@@ -232,13 +232,11 @@ Enable GeoIP is pretty easy
 
 Go to **Admin > Stores > Settings > Terms and Conditions > Add New Condition**
 
-You can add multi Terms and Conditions for your Checkout page.
+.. image:: https://imgur.com/lfwmtIJ.gif
 
-.. image:: http://i.imgur.com/tOWECCm.gif
+You can add multi Terms and Conditions for your Checkout page. The form will be displayed as the below image:
 
-The form will be displayed as the below image:
-
-.. image:: http://i.imgur.com/SDYyCe1.png
+.. image:: http://imgur.com/WrQhDk8.jpg
 
 * In the **Status** field, select "Enable" to show the terms and conditions.
 * In the **Applied** field, 
