@@ -214,7 +214,7 @@ Enable GeoIP is pretty easy
 * Click Download Library button and wait for a second to apply the change
 * Click Save Config
 
-.. image:: http://imgur.com/iQ0FOEW.jpg
+.. image:: https://imgur.com/7nREABf.jpg
 
   
 2.5 Terms and Conditions Configuration
