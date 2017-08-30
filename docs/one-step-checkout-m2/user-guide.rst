@@ -146,17 +146,28 @@ Mageplaza > One Step Checkout > Configuration >
  
 * In the **Show Order Comment** field, select "Yes" to show the Order Comment box that allows the customer to enter their comment on the order.
 * In the **Enable Gift Message** field, select "Yes" to show the Gift Message box that allows the customer to enter their gift message.
+* In **Enable Gift Messages on item** field: this means you will be able to send gift message for each of item. Enable to use this function by choosing “Yes
+
+.. image:: http://imgur.com/iQ0FOEW.gif
+
 * In the **Show Terms and Conditions** field, you can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
 * In the **Show Newsletter Checkbox** field, select "Yes" if you want to show Sign up newsletter selection.
 * In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install [Social Login by Mageplaza](http://www.mageplaza.com/magento-2-social-login-extension/).
-* In the **Enable Delivery Time** field, set "Yes" to allow the customer to note the time when they can receive the shipping items, leave **No** to disable this feature. 
+* In the **Enable Delivery Time** field, set "Yes" to allow customers to note the time when they can receive the shipping items, some additional fields will be expanded 
 
-Design Configuration
+.. image:: http://imgur.com/QpvpZmH.jpg
+
+*
+  * In **House Security Code** field, choose “Yes” if you want to display this selection.
+  * In **Date Format** field, choose an appropriate format for the date and time.
+  * In **Days Off** field, choose day(s) not in your official working time.  
+  
+2.3 Design Configuration
 ''''''''''''''''''''''''''''''''''''
 
 * Open the **Design Configuration** section, and continue with following:
 
-.. image::  http://i.imgur.com/1JFYbiV.png
+.. image:: http://imgur.com/473TmyY.jpg 
 
 
 * In the **Checkout Page Layout** field, select one of the following layouts to have your checkout page be shown in four different interfaces
@@ -168,24 +179,46 @@ Design Configuration
 
 * In Design Style field, there are 3 design styles for the One Step Checkout page
 
-    * Default Design style 
+  * Default Design style 
 
 .. image:: http://imgur.com/OHYrYIO.jpg    
 
 * Flat Design style. If you choose this, you can customize colors of
  
-    * Heading Background
-    * Heading Text      
+  * Heading Background
+  * Heading Text      
 
-.. image:: http://imgur.com/Q3y8zK8.jpg      
+.. image:: http://imgur.com/Q3y8zK8.jpg 
+
+* Material Design style: If you choose this style, you’ll be able to change colors of
+
+  * Radio Button
+  * Checkbox button
+  * Material color
+.. image:: http://imgur.com/XxhYtf1.jpg  
   
 * In the **Heading Background Color** field, choose the color that matches your site.
 * In the **Heading Text Color** field, choose the color for the heading text
 * In the **Place Order button color** field, choose the color for the place order button which should be a highlight to attract shoppers the most.
 * In the **Custom CSS** field, you can add the CSS code to custom your own style.
+
+2.4 GeoIP Configuration
+''''''''''''''''''''''''''''''''''''
+
+GeoIP allows you to lookup the approximate location of an IP address. If store owners enable this function, when a customer comes to checkout page, State, country, city and zip code will be automatically completed based on his current IP address. Ask customers fill less, they will buy yours more! 
+
+Enable GeoIP is pretty easy
+
+* Uncheck the ``Use system value`` box
+* Choose “Yes” to enable the GeoIP
+* Click Download Library button and wait for a second to apply the change
+* Click Save Config
+
+.. image:: http://imgur.com/iQ0FOEW.jpg
+
   
-Terms and Conditions Configuration
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.5 Terms and Conditions Configuration
+''''''''''''''''''''''''''''''''''''
 
 * Firstly, go to **Admin Panel > Mageplaza > One Step Checkout > Display Configuration**, set the **Show Terms and Conditions** field.
 
