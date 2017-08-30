@@ -80,11 +80,7 @@ Order Review and Place Order
 II. How to configure
 ----------------
 
-Login to Magento Admin, choose **Mageplaza > One Step Checkout** on the panel.
-
-  .. image:: http://i.imgur.com/Rd5wE0o.png
-  
-Following our given guide below to complete One Step Checkout configuration
+Login to Magento Admin, choose **Mageplaza > One Step Checkout** on the panel. Following our given guide below to complete One Step Checkout configuration
 
 * Field Management
 * General Configuration
@@ -109,7 +105,7 @@ From the Admin Panel, go to ``Mageplaza > One Step Checkout > Field Management``
 
 * Open the ``Magento Backend > Mageplaza > One Step Checkout > Configuration > General Configuration`` section:
 
-.. image::  http://imgur.com/dKm43da.jpg
+.. image::  https://imgur.com/dKm43da.jpg
 
 * In the **Enable One Step Checkout** field, select "Yes" to enable One Step Checkout extension.
 * In the **One Step Checkout Page Title** field, enter the page title you want.
@@ -136,7 +132,7 @@ Mageplaza > One Step Checkout > Configuration >
 
 * Open the **Display Configuration** section, and continue with following:
 
-.. image::  http://imgur.com/a/65MMb.jpg
+.. image::  http://imgur.com/1qZBwuo.jpg
 
 * In the **Show Login Link** field, set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
 * In the **Show Order Review Section** field, the Order Review is enabled by default, if you want to disable to review order, let select "Disabled" option.
@@ -170,9 +166,18 @@ Design Configuration
   * 3 columns
   * 3 columns with Colspan
 
-* In the **Design Style** field, select one of the following style options:
-    * Default
-    * Flat
+* In Design Style field, there are 3 design styles for the One Step Checkout page
+
+    * Default Design style 
+
+.. image:: http://imgur.com/OHYrYIO.jpg    
+
+* Flat Design style. If you choose this, you can customize colors of
+ 
+    * Heading Background
+    * Heading Text      
+
+.. image:: http://imgur.com/Q3y8zK8.jpg      
   
 * In the **Heading Background Color** field, choose the color that matches your site.
 * In the **Heading Text Color** field, choose the color for the heading text
