@@ -152,7 +152,7 @@ Mageplaza > One Step Checkout > Configuration >
 
 * In the **Show Terms and Conditions** field, you can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
 * In the **Show Newsletter Checkbox** field, select "Yes" if you want to show Sign up newsletter selection.
-* In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install [Social Login by Mageplaza](http://www.mageplaza.com/magento-2-social-login-extension/).
+* In the **Enable Social Login On Checkout Page** field, choose "Yes" to allow the customers to login to their social network account. You should install `Social Login by Mageplaza <http://www.mageplaza.com/magento-2-social-login-extension>`_.
 * In the **Enable Delivery Time** field, set "Yes" to allow customers to note the time when they can receive the shipping items, some additional fields will be expanded 
 
 .. image:: http://imgur.com/QpvpZmH.jpg
