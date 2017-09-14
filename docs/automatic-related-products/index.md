@@ -60,7 +60,7 @@ A New Related Block Rule form will be appeared.
 #### 2.2 Conditions
 Display products that meet these following criterias
 
-##### 2.2.1 Conditions
+##### 2.2.1 Configure Conditions
 - This is where you select the conditions for pages. Only product pages which match the setup conditions the new rule will be displayed
 - You can add, remove conditions by clicking on + or x
 - You can change the true/false of the condition by clicking the bold text
