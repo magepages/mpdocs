@@ -29,8 +29,9 @@ Welcome to Mageplaza Docs
    social-login-m2/index
    blog-m2/index
    affiliate-m2/index
-   .. frequently-bought-together/index
-   .. who-bought-this-also-bought/index
+   automatic-related-products/index
+   frequently-bought-together/index
+   who-bought-this-also-bought/index
    banner-slider-m2/index
    google-tag-manager-m2/index
    delete-order-m2/index
