@@ -101,8 +101,11 @@ Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import 
 * Go to ``System > Data Transfer > Import > Import Settings > Entity Type`` field, choose "Mageplaza Shopbybrand" to expand *Import Behavior* and *File to Import* fields.
 
 **Sample csv file**:
+
 - Online: https://goo.gl/VqbZ5o
+
 - Offline: ``Files/Sample/mageplaza_brand.csv``
+
 
 .. image:: https://imgur.com/QqCNl2C.png
 * Follow those steps next
