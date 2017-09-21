@@ -53,16 +53,16 @@ Step 7
 
 - Add a Product
 
-.. image:: https://cdn.mageplaza.com/media/general/0ncXALM.png
+.. image:: https://i.imgur.com/0ncXALM.png
 
 - No need to choose any platforms. Click the **Settings** on the left to input the RedirectURIs.
 
-.. image:: https://cdn.mageplaza.com/media/general/nzGOfqd.png
+.. image:: https://i.imgur.com/nzGOfqd.png
 
 - Leave all the default Options, get the **Valid OAuth redirect URIs** from our SocialLogin settings in backend.  
 Paste the link into the input and press **Save changes** button on the bottom right screen.
 
-.. image:: https://cdn.mageplaza.com/media/general/ANrIMdN.png
+.. image:: https://i.imgur.com/ANrIMdN.png
 
 Step 8
 ---------
