@@ -42,7 +42,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 **Configuration** tab is a bunch of the basic configuration you need to set up firstly.
 
 1.1 General 
-'''''''''''''''''''
+
 
 Go to `MAGEPLAZA > Shop by Brand > Configuration` then Expand **General** section, please do the following:
 
