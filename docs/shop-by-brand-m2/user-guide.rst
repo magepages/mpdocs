@@ -32,32 +32,30 @@ II. How to configure
 
 Login to the backend of Magento 2 Shop by Brand. To cover full of the configuration as an administrator, you need to follow 3 parts: 
 
-* Settings
+* Configuration
 * Create new brand
 * Assign brand to product
 
 1. Configuration
 ^^^^^^^^^^^^^^^^^^^
 
-**Settings** tab is a bunch of the basic configuration you need to set up firstly. 
+**Configuration** tab is a bunch of the basic configuration you need to set up firstly. Go to `MAGEPLAZA > Shop by Brand > Configuration` then Expand **General** section, please do the following:
 
-* Go to `MAGEPLAZA > Shop by Brand > Configuration`
-* Expand **General** section, please do the following:
+.. image:: https://i.imgur.com/25n3uM4.jpg
 
-  * `Enable` the module when choosing "Yes" to allow customers shop by brand
-  * From the existing list of the product attribute, set `Brand Attribute` to the correct choice. In this guide, *manufacturer* is the option you have to select
+* Enable` the module when choosing "Yes" to allow customers shop by brand
+* From the existing list of the product attribute, set `Brand Attribute` to the correct choice. In this guide, *manufacturer* is the option you have to select
+* Enter `Brand route`, if passing it, the default (brands) is applied
+* Enter `Brand Link title` or leave it as the default (Brands)
+* in 
 
-    .. note:: To create a new product attribute under "Brand" name, please read `How to Create Product Attribute in Magento 2`_ topic in Magento 2 Tutorial by Mageplaza.
 
-  * Enter `Brand Link Title`.
-  * Choose the page to display Brand Link in `Show Brand Link In`.
 
-.. image:: https://i.imgur.com/yj64Pfu.png
 
 * Expand **All Brands Page Settings** section and do the following:
 
-  * Enter `Brand route`, if passing it, the default (brands) is applied
-  * Enter `Brand list name` or leave it as the default (Brands)
+ 
+
   * Choose to display Brand Logo only or display Logo and Label in `Display Option`
   * Select relevant color for the `Style Color` of Shop by Brand's interface
   * Set to `Show Brand Description` or not in the Brand Page
