@@ -36,7 +36,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 * Create new brand
 * Assign brand to product
 
-1. Settings
+1. Configuration
 ^^^^^^^^^^^^^^^^^^^
 
 **Settings** tab is a bunch of the basic configuration you need to set up firstly. 
@@ -52,7 +52,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   * Enter `Brand Link Title`.
   * Choose the page to display Brand Link in `Show Brand Link In`.
 
-.. image:: https://cdn.mageplaza.com/media/general/yj64Pfu.png
+.. image:: https://i.imgur.com/yj64Pfu.png
 
 * Expand **All Brands Page Settings** section and do the following:
 
@@ -63,7 +63,7 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
   * Set to `Show Brand Description` or not in the Brand Page
   * Add `Custom Css` for your own style.
 
-.. image:: https://cdn.mageplaza.com/media/general/Z7wUVuc.png
+.. image:: https://i.imgur.com/Z7wUVuc.png
 
   * Expand **Brand Search Settings** section,
 
