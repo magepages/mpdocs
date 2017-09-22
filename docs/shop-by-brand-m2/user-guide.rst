@@ -39,11 +39,16 @@ Login to the backend of Magento 2 Shop by Brand. To cover full of the configurat
 1. Configuration
 ^^^^^^^^^^^^^^^^^^^
 
-**Configuration** tab is a bunch of the basic configuration you need to set up firstly. Go to `MAGEPLAZA > Shop by Brand > Configuration` then Expand **General** section, please do the following:
+**Configuration** tab is a bunch of the basic configuration you need to set up firstly.
+
+1.1 General 
+'''''''''''''''''''
+
+Go to `MAGEPLAZA > Shop by Brand > Configuration` then Expand **General** section, please do the following:
 
 .. image:: https://i.imgur.com/25n3uM4.jpg
 
-* Enable` the module when choosing "Yes" to allow customers shop by brand
+* Enable the module when choosing "Yes" to allow customers shop by brand
 * From the existing list of the product attribute, set `Brand Attribute` to the correct choice. In this guide, *manufacturer* is the option you have to select
 * Enter `Brand route`, if passing it, the default (brands) is applied
 * Enter `Brand Link title` or leave it as the default (Brands)
