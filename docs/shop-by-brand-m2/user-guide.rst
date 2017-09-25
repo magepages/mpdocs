@@ -54,7 +54,7 @@ II. How to configure
 Go to `Mageplaza> Shop by Brand > Configuration` is a bunch of the basic configuration you need to set up firstly.
 
 2.1.1 General
-==============
+^^^^^^^^^^^^^^^
 At the Configuration tab, expand **General** section, please do the following:
 
 .. image:: https://i.imgur.com/25n3uM4.jpg
@@ -68,10 +68,10 @@ At the Configuration tab, expand **General** section, please do the following:
 * In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
 
 2.1.2 Sidebar
-==============
+^^^^^^^^^^^^^^^
 
 2.1.2.1 Feature Brand Settings
----------------
+"""""""""""""""
 
 .. image:: https://i.imgur.com/6yyNONN.jpg 
 
@@ -80,7 +80,7 @@ At the Configuration tab, expand **General** section, please do the following:
 * In **Show title** choose “Yes” to show the title you named
 
 2.1.2.2 Brand List Thumbnail
----------------
+"""""""""""""""
 
 .. image:: https://i.imgur.com/293EiG0.jpg
 
@@ -89,7 +89,7 @@ At the Configuration tab, expand **General** section, please do the following:
 * In ** Brand’s quantity limitation** 7 brand names in the list is the default number
 
 2.1.2.3 Category Brand
----------------
+"""""""""""""""
 
 .. image:: https://i.imgur.com/ndWpMyj.jpg
 
@@ -99,7 +99,7 @@ At the Configuration tab, expand **General** section, please do the following:
 * In **Show Brand Category Quantity** “Yes” is the default option
 
 2.1.3 All Brands Page Settings
-==============
+^^^^^^^^^^^^^^^
 
 Expand **All Brands Page Settings** section 
 
@@ -121,7 +121,7 @@ Expand **All Brands Page Settings** section
 * Add `Custom Css` for your own style
 
 2.1.3.1 Brand Filter Function
----------------
+"""""""""""""""
 
 .. image:: https://i.imgur.com/4ZborJy.jpg
 
@@ -131,7 +131,7 @@ Expand **All Brands Page Settings** section
 * **Character Set** means encode key for your store’s language
 
 2.1.3.2 Brand Search Setting
----------------
+"""""""""""""""
 
 .. image:: https://i.imgur.com/4pyvycS.jpg
 
@@ -141,7 +141,7 @@ Expand **All Brands Page Settings** section
 * In **Show Thumbnail Image** decides to display thumbnail image or not 
 
 2.1.3.3 Feature Brand Settings
----------------
+"""""""""""""""
 
 .. image:: https://i.imgur.com/l7ytPEQ.jpg
 
@@ -156,7 +156,7 @@ Expand **All Brands Page Settings** section
 * In **Embedded Code** is where you show feature brand block in any place you want.
 
 2.1.3.4 Brand Related Products
----------------
+"""""""""""""""
 
 .. image:: https://i.imgur.com/hiV5kHq.jpg
 
@@ -165,7 +165,7 @@ Expand **All Brands Page Settings** section
 * In **Limit** field, enter your prefer maximum number of products in the block
 
 2.1.4 Brand Information
-==============
+^^^^^^^^^^^^^^^
 Click to expand **Brand Information**
 
 .. image:: https://i.imgur.com/GX7FMHY.png 
@@ -175,7 +175,7 @@ Click to expand **Brand Information**
 * Choose to `Show Brand Image On Brand Page`, `Show Brand Description On Brand Page`, and `Show Brand Static Block On Brand Page` or not.
 
 2.1.5 SEO 
-==============
+^^^^^^^^^^^^^^^
 
 .. image:: https://i.imgur.com/jkksPsT.jpg
 
