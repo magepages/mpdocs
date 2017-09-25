@@ -194,8 +194,9 @@ To massively set brands into a specific category:
 * Follow ``Mageplaza > Shop By Brand: Categories``
 * Select the category you want to apply changes navigate, click ``Edit``
 * Choose ``Brand`` at the left sidebar, a multi-select available brand list will show up.
+* Click ``Save Category``
 
-.. image:: https://i.imgur.com/107X4YB.gif
+.. image:: https://i.imgur.com/JE8Ubrh.gif
 
 2.3 Manage Brands
 ***************
