@@ -6,11 +6,16 @@ In this helpful Mageplaza documentation, you will achieve the guide of **How to 
 .. _Magento 2 Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/
 
 I. How to use
------------
 
 As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: **Search Box** and **Alphabet Search**. You will follow these ways here.
 
-1.1 Search Box
+1.1 Brands on Mega menu
+
+Right from the top of the Brand page, you’ll able to give a quick overview by a drop-down list brands are available on your storage.
+
+.. image:: https://i.imgur.com/dneh5bC.gif
+
+1.2 Search Box
 
 The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
 
@@ -20,17 +25,15 @@ The brand results come with Brand Logo, Brand Name, and Brand Description.
 
 .. image:: https://i.imgur.com/xNsZsK0.png
 
-1.2 Alphabet Search
+1.3 Alphabet Search
 
 Alphabet Search, placed under Search Box, is represented including "Show All" and the alphabets. Depending on the first characteristic of the brand name, the user will tap on the respective button.
 
 .. image:: https://i.imgur.com/dybAloX.gif
 
 II. How to configure
------------
 
 2.1 Configuration
-
 
 Go to `Mageplaza> Shop by Brand > Configuration` is a bunch of the basic configuration you need to set up firstly.
 
@@ -46,13 +49,12 @@ At the Configuration tab, expand **General** section, please do the following:
 * Enter **Brand Link title** or leave it as the default (Brands)
 * In **Show Brand Link in** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
 * At **Show brand logos in product page**: choose “Enable” to show brand logo in product page
-* In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the Search box.
+* In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
 
 2.1.2 Sidebar
 
 
 2.1.2.1 Feature Brand Settings
-
 
 .. image:: https://i.imgur.com/6yyNONN.jpg 
 
@@ -62,7 +64,6 @@ At the Configuration tab, expand **General** section, please do the following:
 
 2.1.2.2 Brand List Thumbnail
 
-
 .. image:: https://i.imgur.com/293EiG0.jpg
 
 * In **Show Brand Thumbnail: “Yes” is the default option
@@ -70,7 +71,6 @@ At the Configuration tab, expand **General** section, please do the following:
 * In ** Brand’s quantity limitation** 7 brand names in the list is the default number
 
 2.1.2.3 Category Brand
-
 
 .. image:: https://i.imgur.com/ndWpMyj.jpg
 
@@ -80,7 +80,6 @@ At the Configuration tab, expand **General** section, please do the following:
 * In **Show Brand Category Quantity** “Yes” is the default option
 
 2.1.3 All Brands Page Settings
-
 
 Expand **All Brands Page Settings** section 
 
@@ -103,7 +102,6 @@ Expand **All Brands Page Settings** section
 
 2.1.3.1 Brand Filter Function
 
-
 .. image:: https://i.imgur.com/4ZborJy.jpg
 
 * In **Show Brand Categories Filter**: choose “Yes” to enable Category filter
@@ -113,7 +111,6 @@ Expand **All Brands Page Settings** section
 
 2.1.3.2 Brand Search Setting
 
-
 .. image:: https://i.imgur.com/4pyvycS.jpg
 
 * In **Show Search Block** select “Yes” to enable Instant Search at the Brand page
@@ -122,7 +119,6 @@ Expand **All Brands Page Settings** section
 * In **Show Thumbnail Image** decides to display thumbnail image or not 
 
 2.1.3.3 Feature Brand Settings
-
 
 .. image:: https://i.imgur.com/l7ytPEQ.jpg
 
@@ -138,7 +134,6 @@ Expand **All Brands Page Settings** section
 
 2.1.3.4 Brand Related Products
 
-
 .. image:: https://i.imgur.com/hiV5kHq.jpg
 
 * In **Show Related Products** “Yes” means display brand related products block
@@ -146,7 +141,6 @@ Expand **All Brands Page Settings** section
 * In **Limit** field, enter your prefer maximum number of products in the block
 
 2.1.4 Brand Information
-
 
 Click to expand **Brand Information**
 
@@ -158,13 +152,18 @@ Click to expand **Brand Information**
 
 2.1.5 SEO 
 
-
 .. image:: https://i.imgur.com/jkksPsT.jpg
 
 This is a new sweet treatment for marketing purpose, choose “No” if you don’t wish search engines index pagination pages.
 
-2.2 Bulk import brands
+2.2 Categories
+This is a separated module to manage Categories on filter searching. Also you can customized some crucial meta data tags like Meta Title, Meta Description, Meta Keywords or Meta Robot
 
+To create brand new category, click ``New Category`` red button.
+
+.. image:: https://i.imgur.com/gDn5bwv.gif
+
+2.3 Bulk import brands
 
 Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
@@ -197,11 +196,12 @@ And a report will inform this. Now you've done all the step to import brand by a
 
 .. image:: https://imgur.com/dadPjKH.png
 
-2.3 Create new brand
+2.4 Manage Brands
 
+This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Mageplaza > Shop By Brand: Manage Brands``
 
-* On the Admin Panel, ``Store > Attributes > Product``.
-* Under **Attribute Code** column, search and choose "manufacturer", you will navigation its workplace.
+To generate a new brand, follow these steps
+
 * All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
 * Click on `Save Config` to save the new brand.
 * Tap **Setting** to open the "Brand Information" page for configuration.
@@ -222,7 +222,6 @@ And a report will inform this. Now you've done all the step to import brand by a
 
 2.4 Assign product to brand
 
-
 This guide helps you classify what brand a product is made by.
 
 * On the Admin Panel, `Product > Inventory > Catalog`.
@@ -235,14 +234,14 @@ This guide helps you classify what brand a product is made by.
 * When finish all, the brand logo will display on both Brand Listing Search and the product detailed page of the assigned product.
 
 On Brand Listing
+```````````````````
 
 .. image:: https://cdn.mageplaza.com/media/general/4rGgrJF.png
 
 On Product Page
+`````````````````````
 
 .. image:: https://cdn.mageplaza.com/media/general/Cs7XSXT.png
 
 .. _Magento 2 Advanced Search: https://www.mageplaza.com/magento-2-search-extension/
 .. _How to Create Product Attribute in Magento 2: https://www.mageplaza.com/kb/how-to-create-product-attribute-magento-2.html
-
-
