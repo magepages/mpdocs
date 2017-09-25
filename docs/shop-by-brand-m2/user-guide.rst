@@ -11,7 +11,6 @@ I. How to use
 As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: **Search Box** and **Alphabet Search**. You will follow these ways here.
 
 1.1 Search Box
-^^^^^^^^^^^^^^^^^^^^
 
 The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
 
@@ -31,7 +30,7 @@ II. How to configure
 -----------
 
 2.1 Configuration
-^^^^^^^^^^^^^^^^^^^^
+
 
 Go to `Mageplaza> Shop by Brand > Configuration` is a bunch of the basic configuration you need to set up firstly.
 
@@ -199,7 +198,7 @@ And a report will inform this. Now you've done all the step to import brand by a
 .. image:: https://imgur.com/dadPjKH.png
 
 2.3 Create new brand
-^^^^^^^^^^^^^^^^^^^^
+
 
 * On the Admin Panel, ``Store > Attributes > Product``.
 * Under **Attribute Code** column, search and choose "manufacturer", you will navigation its workplace.
@@ -222,7 +221,7 @@ And a report will inform this. Now you've done all the step to import brand by a
   .. note:: For the existing brands, you can edit their information via **Setting** button.
 
 2.4 Assign product to brand
-^^^^^^^^^^^^^^^^^^^^
+
 
 This guide helps you classify what brand a product is made by.
 
