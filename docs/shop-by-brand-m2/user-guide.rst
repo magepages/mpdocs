@@ -43,6 +43,8 @@ Alphabet Search, placed under Search Box, is represented including "Show All" an
 ***************
 You can generate specific categories for brands which direct your customers' minds to gravitate toward some certain brands, with fetching categories like "Feature Brands”, "Best Seller Brands”, “Mageplaza’s Brand”, etc. Do not hesitate to plan to promote brands you desire!
 
+.. image:: https://i.imgur.com/UUiW2gM.jpg
+
 II. How to configure
 ###############
 
