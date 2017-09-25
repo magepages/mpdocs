@@ -6,6 +6,7 @@ In this helpful Mageplaza documentation, you will achieve the guide of **How to 
 .. _Magento 2 Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/
 
 I. How to use
+----------------
 
 As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: **Search Box** and **Alphabet Search**. You will follow these ways here.
 
@@ -31,7 +32,12 @@ Alphabet Search, placed under Search Box, is represented including "Show All" an
 
 .. image:: https://i.imgur.com/dybAloX.gif
 
+1.4 Search by Category
+
+You can generate specific categories for brands which direct your customers' minds to gravitate toward some certain brands, with fetching categories like "Feature Brands”, "Best Seller Brands”, “Mageplaza’s Brand”, etc. Do not hesitate to plan to promote brands you desire!
+
 II. How to configure
+----------------
 
 2.1 Configuration
 
