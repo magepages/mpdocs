@@ -11,13 +11,13 @@ I. How to use
 As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: **Search Box** and **Alphabet Search**. You will follow these ways here.
 
 1.1 Brands on Mega menu
-
-Right from the top of the Brand page, you’ll able to give a quick overview by a drop-down list brands are available on your storage.
+***************
+Right from the top of the Brand page, you’ll able to give a quick overview by a drop-down list brands are available on your storage. The result displays brand with its provided Logo and Label
 
 .. image:: https://i.imgur.com/dneh5bC.gif
 
 1.2 Search Box
-
+***************
 The search box on Magento 2 Shop by Brand has some functionalities that are alike to Magento 2 Ajax Search by Mageplaza. In the box, entering some words of the brand name and achieving the drop-down results instantly on the current page.
 
 .. image:: https://i.imgur.com/wNIKZCz.gif
@@ -27,19 +27,20 @@ The brand results come with Brand Logo, Brand Name, and Brand Description.
 .. image:: https://i.imgur.com/xNsZsK0.png
 
 1.3 Alphabet Search
-
+***************
 Alphabet Search, placed under Search Box, is represented including "Show All" and the alphabets. Depending on the first characteristic of the brand name, the user will tap on the respective button.
 
 .. image:: https://i.imgur.com/dybAloX.gif
 
 1.4 Search by Category
-
+***************
 You can generate specific categories for brands which direct your customers' minds to gravitate toward some certain brands, with fetching categories like "Feature Brands”, "Best Seller Brands”, “Mageplaza’s Brand”, etc. Do not hesitate to plan to promote brands you desire!
 
 II. How to configure
 ###############
 
 2.1 Configuration
+***************
 
 Go to `Mageplaza> Shop by Brand > Configuration` is a bunch of the basic configuration you need to set up firstly.
 
@@ -163,14 +164,17 @@ Click to expand **Brand Information**
 This is a new sweet treatment for marketing purpose, choose “No” if you don’t wish search engines index pagination pages.
 
 2.2 Categories
+***************
 This is a separated module to manage Categories on filter searching. Also you can customized some crucial meta data tags like Meta Title, Meta Description, Meta Keywords or Meta Robot
 
 To create brand new category, click ``New Category`` red button.
 
 .. image:: https://i.imgur.com/gDn5bwv.gif
 
-2.3 Bulk import brands
+To massive set brands into a specific category, navigate ``Brand`` at the left sidebar, a multi-select available brand list will show up.
 
+2.3 Bulk import brands
+***************
 Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
 .. image:: https://cdn.mageplaza.com/media/general/4jua9kb.gif
@@ -203,7 +207,7 @@ And a report will inform this. Now you've done all the step to import brand by a
 .. image:: https://imgur.com/dadPjKH.png
 
 2.4 Manage Brands
-
+***************
 This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Mageplaza > Shop By Brand: Manage Brands``
 
 To generate a new brand, follow these steps
@@ -226,8 +230,8 @@ To generate a new brand, follow these steps
 
   .. note:: For the existing brands, you can edit their information via **Setting** button.
 
-2.4 Assign product to brand
-
+2.5 Assign product to brand
+***************
 This guide helps you classify what brand a product is made by.
 
 * On the Admin Panel, `Product > Inventory > Catalog`.
