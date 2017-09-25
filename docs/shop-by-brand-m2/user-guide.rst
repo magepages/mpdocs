@@ -8,7 +8,14 @@ In this helpful Mageplaza documentation, you will achieve the guide of **How to 
 I. How to use
 ###############
 
-As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are two ways of shopping by brand: **Search Box** and **Alphabet Search**. You will follow these ways here.
+As soon as installing Shop by Brand completely, your customers can easily search all products under the favorite brands in your inventory. Especially, on its interface, there are 4 ways of shopping by brand: 
+
+* Mega menu
+* Search Box
+* Alphabet Search
+* Search Category
+
+You will follow these ways here.
 
 1.1 Brands on Mega menu
 ***************
