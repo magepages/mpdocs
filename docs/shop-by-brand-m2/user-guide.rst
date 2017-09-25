@@ -190,6 +190,7 @@ To create brand new category, click ``New Category`` red button.
 .. image:: https://i.imgur.com/gDn5bwv.gif
 
 To massively set brands into a specific category:
+
 * Follow ``Mageplaza > Shop By Brand: Categories``
 * Select the category you want to apply changes navigate, click ``Edit``
 * Choose ``Brand`` at the left sidebar, a multi-select available brand list will show up.
