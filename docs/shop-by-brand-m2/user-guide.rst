@@ -125,7 +125,7 @@ Expand **All Brands Page Settings** section
 
 * In **Show Brand Categories Filter**: choose “Yes” to enable Category filter
 * In **Show Brand AlphaBet Filter** “Yes” is the default option
-* In **Brand Alphabet is where you rule the specific alphabet to be filtered, each of alphabet separated by a commas
+* In **Brand Alphabet** is where you rule the specific alphabet to be filtered, each of alphabet separated by a commas
 * **Character Set** means encode key for your store’s language
 
 2.1.3.2 Brand Search Setting
