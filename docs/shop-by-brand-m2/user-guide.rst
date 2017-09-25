@@ -189,9 +189,39 @@ To create brand new category, click ``New Category`` red button.
 
 .. image:: https://i.imgur.com/gDn5bwv.gif
 
-To massive set brands into a specific category, navigate ``Brand`` at the left sidebar, a multi-select available brand list will show up.
+To massively set brands into a specific category:
+* Follow ``Mageplaza > Shop By Brand: Categories``
+* Select the category you want to apply changes navigate, click ``Edit``
+* Choose ``Brand`` at the left sidebar, a multi-select available brand list will show up.
 
-2.3 Bulk import brands
+.. image:: https://i.imgur.com/107X4YB.gif
+
+2.3 Manage Brands
+***************
+This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Mageplaza > Shop By Brand: Manage Brands``
+
+To generate a new brand, follow these steps
+
+* All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
+* Click on `Save Config` to save the new brand.
+* Tap **Setting** to open the "Brand Information" page for configuration.
+* Under **Brand Information** section,
+  * Set `Page Title` for the new brand
+  * Create **URL Key**
+  * Upload `Brand Image` from your computer
+  * Set the brand to be displayed on featured brand slider or not in `Featured` field
+  * Enter `Short Description` (appear on the search result) and `Description` (appear on Brand Listing) 
+  * Choose the `CMS Block` to show brand as a static block on anywhere of your page. You can disable it by leave it blank.
+* Expand **Meta Information** section, you can complete all fields for your better SEO, including:
+  * Meta Title
+  * Meta Keywords
+  * Meta Description
+* `Save Brand` to ensure that the configuration for the new brand is successful.
+
+  .. note:: For the existing brands, you can edit their information via **Setting** button.
+
+
+2.4 Bulk import brands
 ***************
 Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
@@ -223,30 +253,6 @@ After Check Data is completed, select Import near footer to import brand to Shop
 And a report will inform this. Now you've done all the step to import brand by a CSV file.
 
 .. image:: https://imgur.com/dadPjKH.png
-
-2.4 Manage Brands
-***************
-This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Mageplaza > Shop By Brand: Manage Brands``
-
-To generate a new brand, follow these steps
-
-* All brands are listed under **Manage Options** section, click on **Add option** on the bottom of the list, right after, a new row will appear.
-* Click on `Save Config` to save the new brand.
-* Tap **Setting** to open the "Brand Information" page for configuration.
-* Under **Brand Information** section,
-  * Set `Page Title` for the new brand
-  * Create **URL Key**
-  * Upload `Brand Image` from your computer
-  * Set the brand to be displayed on featured brand slider or not in `Featured` field
-  * Enter `Short Description` (appear on the search result) and `Description` (appear on Brand Listing) 
-  * Choose the `CMS Block` to show brand as a static block on anywhere of your page. You can disable it by leave it blank.
-* Expand **Meta Information** section, you can complete all fields for your better SEO, including:
-  * Meta Title
-  * Meta Keywords
-  * Meta Description
-* `Save Brand` to ensure that the configuration for the new brand is successful.
-
-  .. note:: For the existing brands, you can edit their information via **Setting** button.
 
 2.5 Assign product to brand
 ***************
