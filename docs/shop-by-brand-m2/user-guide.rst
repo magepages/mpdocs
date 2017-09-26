@@ -51,7 +51,7 @@ II. How to configure
 2.1 Configuration
 ***************
 
-Go to `Mageplaza> Shop by Brand > Configuration` is a bunch of the basic configuration you need to set up firstly.
+Go to ``Mageplaza > Shop by Brand > Configuration`` is a bunch of the basic configuration you need to set up firstly.
 
 2.1.1 General
 ^^^^^^^^^^^^^^^
@@ -60,7 +60,7 @@ At the Configuration tab, expand **General** section, please do the following:
 .. image:: https://i.imgur.com/25n3uM4.jpg
 
 * **Enable** the module when choosing "Yes" to allow customers shop by brand
-* From the existing list of the product attribute, set `Brand Attribute` to the correct choice. In this guide, *Manufacturer* is the option you have to select
+* From the existing list of the product attribute, set **Brand Attribute** to the correct choice. In this guide, *Manufacturer* is the option you have to select
 * Enter **Brand route**, if passing it, the default (brands) is applied
 * Enter **Brand Link title** or leave it as the default (Brands)
 * In **Show Brand Link in** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
@@ -84,9 +84,9 @@ At the Configuration tab, expand **General** section, please do the following:
 
 .. image:: https://i.imgur.com/293EiG0.jpg
 
-* In **Show Brand Thumbnail: “Yes” is the default option
+* In **Show Brand Thumbnail**: “Yes” is the default option
 * In **Title**, “Feature List” is the default name
-* In ** Brand’s quantity limitation** 7 brand names in the list is the default number
+* In **Brand’s quantity limitation** 7 brand names in the list is the default number
 
 2.1.2.3 Category Brand
 """""""""""""""
@@ -95,7 +95,7 @@ At the Configuration tab, expand **General** section, please do the following:
 
 * In **Show Category Brand**: “Yes” is the default option to display the block
 * In **Title**, “Brand Category” is the default name
-* In ** Category’s quantity limitation** 7 categories in the list is the default number
+* In **Category’s quantity limitation** 7 categories in the list is the default number
 * In **Show Brand Category Quantity** “Yes” is the default option
 
 2.1.3 All Brands Page Settings
@@ -118,7 +118,7 @@ Expand **All Brands Page Settings** section
 * In **Show Brand Description** set up to show the brand’s description or not
 * In **Show Brand Product Quantity** option to enable/disable the number.
 * In **Show Brand Quick View Popup** select “Yes” if you want to have it opened in Popup style
-* Add `Custom Css` for your own style
+* Add **Custom Css** for your own style
 
 2.1.3.1 Brand Filter Function
 """""""""""""""
@@ -172,7 +172,7 @@ Click to expand **Brand Information**
 
 * In **Default Image** choose a custom stock for Brand. If passing, the product placeholder default image will be used.
 * In **Default Block**, choose an available product block to be displayed 
-* Choose to `Show Brand Image On Brand Page`, `Show Brand Description On Brand Page`, and `Show Brand Static Block On Brand Page` or not.
+* Choose to **Show Brand Image On Brand Page**, **Show Brand Description On Brand Page**, and **Show Brand Static Block On Brand Page** or not.
 
 2.1.5 SEO 
 ^^^^^^^^^^^^^^^
