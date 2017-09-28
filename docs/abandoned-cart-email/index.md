@@ -29,7 +29,7 @@ A bunch of basic configurations you might want to take note, follow ``Mageplaza 
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
   * In **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
   * In **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section
-  * **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in **1.3 Coupon**
+  * **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in [**1.3 Coupon**](https://docs.mageplaza.com/abandoned-cart-email/index.html#coupon)
   
 #### 1.2 Analytics
 In this cup of tea, we integrated Abandoned Cart Email extension with Google Analytics - a reliable analysis tool considered as a very effective tool for webmasters and SEO people who want to index the information about their website. Expand **Analytics** section to navigate some basic functionalities
