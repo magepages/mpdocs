@@ -25,7 +25,7 @@ A bunch of basic configurations you might want to take note, follow ``Mageplaza 
 * In **Enable** field: select “Yes” to enable Mageplaza Abandoned Cart Email extension
 * In **Email** module is the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
-  * Click the trash can icon to delete a email
+  * Click the trash can icon ![image](https://i.imgur.com/62D0Zqz.png) to delete a email
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
   * In **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
   * In **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section
