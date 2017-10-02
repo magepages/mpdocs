@@ -32,6 +32,7 @@ Welcome to Mageplaza Docs
    automatic-related-products/index
    frequently-bought-together/index
    who-bought-this-also-bought/index
+   abandoned-cart-email/index
    banner-slider-m2/index
    google-tag-manager-m2/index
    delete-order-m2/index
