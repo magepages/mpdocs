@@ -1,4 +1,4 @@
-# Magento 2 Abandoned Cart Email
+# Abandoned Cart Email
 
 ## Overview
 
