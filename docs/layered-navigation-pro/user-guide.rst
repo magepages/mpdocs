@@ -7,11 +7,11 @@ Overview
 
 After enabling the module, the Layered Navigation will be displayed on the left sidebar on Categories pages.
 
-.. image:: https://cdn.mageplaza.com/media/general/8vDDC3q.png
+.. image:: https://i.imgur.com/8vDDC3q.png
 
 The Configuration is available under ``Admin Panel > Mageplaza > Layered Navigation > Configuration``. 
 
-.. image:: https://cdn.mageplaza.com/media/general/JxGogGp.png
+.. image:: https://i.imgur.com/JxGogGp.png
 
 In the configuration, there are 2 tabs: 
 
