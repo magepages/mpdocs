@@ -212,11 +212,10 @@ After choosing a specific Product page, choose `Page Information` scroll down to
 
 The `Default Attribute` allows you set the default attribute for the all products page. That means when the shoppers open the all products page, you can decide which products will be displayed first. For example: If you set the option *Black* of the attribute *Color* as the **Default Attribute**, the items which have Black color will be displayed first when the shoppers go to the All products page.
 
-.. image:: https://i.imgur.com/42MohHC.jpg
-
   * Default attribute: Insert the keywords to have a suggest attribute list. 
   * Default option: Depend on the attribute was selected above, the Default option will appear and allow you to choose from the existing list.
 
+.. image:: https://i.imgur.com/42MohHC.jpg
 
 5. Attribute Configuration 
 -------------------------------
