@@ -261,7 +261,9 @@ For example with **Weight** option for which product has weight as 15 lb. In the
 6. Shop By Brand's configuration 
 -------------------------------
 
-Magento 2 Shop by Brand extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by.
+`Magento 2 Shop by Brand`_ extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by.
+
+  .. _Magento 2 Shop by Brand: https://www.mageplaza.com/magento-2-shop-by-brand/
 
 .. image:: https://i.imgur.com/KiREkWK.jpg
 
