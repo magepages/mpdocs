@@ -215,7 +215,7 @@ The `Default Attribute` allows you set the default attribute for the all product
   * Default attribute: Insert the keywords to have a suggest attribute list. 
   * Default option: Depend on the attribute was selected above, the Default option will appear and allow you to choose from the existing list.
 
-.. image:: https://i.imgur.com/42MohHC.jpg
+.. image:: https://i.imgur.com/fsv0Qqw.jpg
 
 5. Attribute Configuration 
 -------------------------------
