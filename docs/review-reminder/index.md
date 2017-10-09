@@ -56,9 +56,9 @@ In this section you will be able to limit which products can be sent review invi
   * Products which have SKU in this field will be received review reminder
   * You can add multiple SKUs by a comma and a space, for instance ``24-UG06, 24-UG07``
 
-An example of the Review reminder sent to a customer
+**An example of the Review reminder sent to a customer**
 
-![RR5](https://i.imgur.com/a1AFzuu.jpg)
+![RR9](https://i.imgur.com/UMhTZVS.png)
 
 ### 2. Reports
 This is the place to store a number of sent Review Sent Email successfully and failed for a specific period of time. Keep track ``Mageplaza > Review Reminder: Reports`` There are two Report Time modes
@@ -78,9 +78,6 @@ This is the place archiving abandoned cart emails which have been sent, includin
 ![RR8](https://i.imgur.com/XZ7gjo1.png)
 
 * **Action = Preview**: a pop-up window showing the email which has been sent will appear
-
-![RR9](https://i.imgur.com/UMhTZVS.png)
-
 * **Action = Delete**: the selected emails will be deleted. You can choose multiple emails at the same time
 * **Action = Send Again**: the selected email will be sent to customers again. This email has the same content as the selected email
 * **Clear Logs** button: Click the Clear Logs button to quickly delete all the emails stored in the logs. The next email’s ID has nothing to do with the deleted one
