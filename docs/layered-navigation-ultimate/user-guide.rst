@@ -231,7 +231,7 @@ Example of a specific attribution and its configuration in detail
 
 * In **Use in ProductsPage Navigation** field: choose the possibility of being displayed on Layered Navigation or not
 * In **Use in Search Results ProductsPage Navigation**: choose the possibility of being filtered by Layered Navigation or not.
-* In **Position** field:
+* In **Position** field: The attribute has bigger posistion will be placed lower. 0 to set it in default as Magento 2's principle.
 * **Allow Multiple Filter** : By choose **Yes**, the shoppers are able to filter by multi-option in this group attribute. For example: You can allow the shoppers to choose more than 1 filter in `Color` group attribute but only can choose 1 filter in `Style` group attribute.   
 * **Display Style** : Choose the display style of the group attribute. The specific design for each style is mentioned in the *next section*.    
 * **Enable search option** : Choose to enable/ disable the **Quick Lookup Option** in this attribute group.
@@ -257,3 +257,14 @@ For example with **Weight** option for which product has weight as 15 lb. In the
 
 .. image:: https://imgur.com/mHR1l4E.jpg
 
+
+6. Shop By Brand's configuration 
+-------------------------------
+
+Magento 2 Shop by Brand extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by.
+
+.. image:: https://i.imgur.com/KiREkWK.jpg
+
+Provided Shop By Brand's User guide can be found here_
+
+  .. _here: https://docs.mageplaza.com/shop-by-brand-m2/index.html
