@@ -151,7 +151,7 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
 3. Design Configuration tab
 ----------------------------
 
-.. image:: hhttps://i.imgur.com/Ma1rtJG.jpg
+.. image:: https://i.imgur.com/Ma1rtJG.jpg
 
 The `Slider type` field allows you to choose the type of the Price Slider. There are 5 options to choose: 
 
