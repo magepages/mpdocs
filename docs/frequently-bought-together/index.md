@@ -16,21 +16,21 @@ After logging to Magento Admin, navigate to `Mageplaza > Frequently Bought Toget
 
 ![FBT3](https://i.imgur.com/O69ziZX.png)
 
-- `Enable Frequently Bought Together` field: choose *Yes* to enable extension. Here some rough sketch how this module works.
-	- The Frequently Bought Together list is under the Product image and on the Product Description tab.
+- In **Enable Frequently Bought Together** field: choose "Yes" to enable extension. Here some rough sketch how this module works.
+  - The Frequently Bought Together list is under the Product image and on the Product Description tab.
   - There will be a horizontal line separating the list from the Product image.
   - Products included in the Frequently purchased together list are from the Related Products in the Backend.
 
-- In the `Block name` field
+- In **Block name** field
   - Name the Frequently Bought Together block displaying in Product page.
   - The block’s name will be displayed in default as “Frequently Bought Together”.
   - If you don’t need a name for block, leave it blank.
 
-- `Enable Add to Wishlist button`
+- In **Enable Add to Wishlist button** field
   - Choose *Yes* if you don’t want to display Block related Product as Magento’s default block.
   - When selecting *No*, Block Related Products of Magento will be ordered under Product Description Detail.
   
-- `Separator Image` is the minor plus button among products
+- In **Separator Image** is the minor plus button among products
   - Valid file should be *jpg, *png and *gif
   - If you like our plus image as default, it’s ok to leave it blank.
   
@@ -44,11 +44,11 @@ Follow this instruction to know how to add your custom combination related produ
 
 ![FBT4](https://i.imgur.com/c0vQHfY.png)
 
-- Scroll down until the `Related Product, Up-sells, and Cross-sells` reaches your eyesight, choose black Add Related Product button.
+- Scroll down until the **Related Product, Up-sells, and Cross-sells** reaches your eyesight, choose black Add Related Product button.
 
 ![FBT5](https://i.imgur.com/FTZOBKe.png)
 
-- In the `Add Related Products`, tick preferred items you wish to add. When you’ve done, choose red `Add Selected Product` near the header of the page.
+- In the **Add Related Products**, tick preferred items you wish to add. When you’ve done, choose red `Add Selected Product` near the header of the page.
 
 ![FBT6](https://i.imgur.com/DIOylfx.png)
 
