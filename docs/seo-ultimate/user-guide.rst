@@ -55,7 +55,7 @@ The analysis is based on:
 5. Crosslinks
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Crosslinks play a certain popular role to link between sites, as sort of indispensable bridge leading users to the variety of similar product that customer might have further interested to know more, which would bring a great change increasing purchasing rate significantly.
+Crosslinks play a certain popular role to link between sites, as sort of indispensable bridge leading users to the variety of similar product that customer may have further interested to know more, which definitely brings such great chances increasing purchasing rate significantly.
  
 **5.1 Crosslink general configuration**
  
@@ -63,7 +63,7 @@ To config Crosslinks, go to ``Admin Panel > Mageplaza > SEO > Settings > Crossli
  
 .. image:: https://cdn.mageplaza.com/media/general/3jbNlyV.jpg
 
-* In the **Enable/Disable** field, select “*Yes*” to enable crosslinks work, or “*No*” if you wish for vice versa.
+* In the **Enable/Disable** field, select “*Yes*” to enable crosslinks work, or “*No*” if you wish for the vice versa result.
 * In the **Total Max Replacement Count for Product Page** field, enter a number to define The maximum number of keywords will be replaced by term on the product view page. Default value is 10 terms.
 * In the **Total Max Replacement Count for Category Page** field enter a number to define The maximum number of keywords will be replaced by term on the Category page. Default value is 10 terms.
 * In the **Total Max Replacement Count for CMS Page** field enter a number to define The maximum number of keywords will be replaced by term on the CMS page. Default value is 10 terms.
@@ -75,11 +75,11 @@ Click ``Save Config`` to save changes.
 
 Our crosslinks feature will work under customizable terms. To make a new term for your store, go to ``Admin Panel > SEO > Crosslinks``.  Click red button Add new Term.
 
-.. image:: https://cdn.mageplaza.com/media/general/nwvs63U.jpg
+.. image:: https://i.imgur.com/nwvs63U.jpg
 
 Fill up all the required information fields you wish to set up for your new term. The following to creat new term’s form will be performed like this.
 
-.. image:: https://cdn.mageplaza.com/media/general/PCY2Pgm.jpg
+.. image:: https://i.imgur.com/PCY2Pgm.jpg
 
 * In the **Keyword** field (require information): enter new keyword you want to create.
 * In the **Link Alt/Title** field: short description for this keyword. This will insert into title attribute. We suggest you add Keywords that you want to rank. E.g: Buy iPhone in New York
@@ -103,7 +103,7 @@ Fill up all the required information fields you wish to set up for your new term
 
 Go to ``Admin Panel > SEO > Crosslinks``. A list of existed terms will be appeared. Click on Select in the Action tab to custom term you want to edit.
 
-.. image:: https://cdn.mageplaza.com/media/general/53GFdNu.jpg
+.. image:: https://i.imgur.com/53GFdNu.jpg
 
 Click ``Save term`` after edited. 
 
