@@ -117,7 +117,7 @@ There are 5 Location options to display the Block in Category Page. In **Locatio
 - **Sidebar Top**: Related Products Block is displayed at the top of Sidebar
 - **Sidebar Bottom**: Related Products Block is displayed at the bottom of Sidebar
 - **Above Content**: Related Product Block is displayed on top of Content in Category Page
-- ** Below Content**: Related Product Block is displayed below Content in Category Page
+- **Below Content**: Related Product Block is displayed below Content in Category Page
 - **Custom**: You can select the block’s display location in any position. There will be a specific guide for this section at the end of this user guide.
 
 #### 3.2 Conditions
