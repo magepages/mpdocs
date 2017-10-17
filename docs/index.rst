@@ -23,6 +23,7 @@ Welcome to Mageplaza Docs
    layered-navigation-pro/index
    layered-navigation-ultimate/index
    shop-by-brand-m2/index
+   gift-card/index
    seo-m2/index
    seo-pro/index
    seo-ultimate/index
