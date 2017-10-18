@@ -567,23 +567,23 @@ Customers can configure their Gift Card Product in here. Depending on the type o
   * Customers can also upload their photos by dragging their images or clicking the ``Upload`` button
   * The images that customer submit but not order products will be deleted weekly on Sunday
   * Upload is only visible when the selected template allows Upload Image
-* In **Gift Card Information**: This is where Customer can configure a gift card information. Each type of a Gift Card Product has its own configuration form. Gift Card Product Type = Egift: Gift Card Information includes the following items
+* In **Gift Card Information**: This is where customers can configure a gift card information. Each type of a Gift Card Product has its own configuration form. Gift Card Product Type = Egift: Gift Card Information includes the following items
 
 ![GC54](https://i.imgur.com/4JI47ob.jpg)
 
 * For **Amount**:
   * Amount of a gift card installed by the admin in the backend. Usually, a gift card has only 1 amount.
-  * If a gift card has many amounts in the Backend, then the Customer has many Amount options.
+  * If a gift card has many amounts in the Backend, then customers has many Amount options.
   * Also, when the admin has se tup Amount with Range settings, customers can change the amount according to its own within the given range.
   * Price of a gift card is calculated in % which is configured in the backend
 * In **Delivery**: With a E-gift card product, there are two delivery methods that the customer can choose:
-  * **Email**: When the customer selects ``Delivery = Email``, the gift card will be sent via email which the customer filled.
-  * **Text Message**: When the customer selects ``Delivery = Text Message``, the gift card will be sent via Phone Number which the customer filled
+  * **Email**: Customers selects ``Delivery = Email``, the gift card will be sent via email which was filled.
+  * **Text Message**: Customers selects ``Delivery = Text Message``, the gift card will be sent via Phone Number which the customer filled
 * **Email**: This module displays when the customer selects``Delivery = Email``. Gift Card will be sent to this email when the order completed
-* In **Phone Num**: Which stands for Phone Number, displays when the customer selects ``Delivery = Text Message``. Their gift card will be sent to this number when the order completed (the admins need to configure in SMS Configuration). Change the Locate in Configuration to change the area code of the phone number
+* In **Phone Num**: Which stands for Phone Number, displays when customers select ``Delivery = Text Message``. Their gift card will be sent to this number when the order completed (admins need to configure in SMS Configuration). Change the Locate in Configuration to change the area code of the phone number
 * In **From/To**: These two sections indicate the sender and receiver names of the gift card. They will be displayed in the gift card if the items are available in the template
 * **Message**: The maximum number of characters is 120. This number can be changed by the Admin in Configuration. This item will be displayed in the gift card if it’s available in the template
-* **Delivery Date**: Customer can choose the date the Gift Card is sent. Delivery date is limited to 1 year from the current date. This item is displayed when Admin is installed in **Configuration** part
+* **Delivery Date**: Customers can choose the date the Gift Card is sent. Delivery date is limited to 1 year from the current date. This item is displayed when Admin is installed in **Configuration** part
 * **Timezone**: Same as Delivery Date, customers can choose their timezone in the given list. This part is only displayed when the admin enabled in **Configuration**
 
 **Gift Card Product Type = Print At Home``: Gift Card Information of Print At Home Gift Card Product is essentially the same as the E-gift card product. The two Gift Card Products have the following differences:
@@ -596,18 +596,18 @@ Customers can configure their Gift Card Product in here. Depending on the type o
 
 ### IX. How to import Gift Card Code(s)
 
-At the admin backend, track ``System > Data Transfer: Import``
+At the admin backend, keep track ``System > Data Transfer: Import``
 ![GC57](https://i.imgur.com/NLPKIXl.png)
 
 At the Import page, choose the extension you need to input Gift Code(s). At **Import Settings**, choose ``Entity Types = Mageplaza Gift Card Code``, **Import Behaviour** and **File to Import** will be displayed.
 ![GC58](https://i.imgur.com/rlGZphI.png)
 
-To have a CSV file containing basic information to import Gift Card Code(s), you need to click Download Sample File. Then edit the content in the available columns in the Sample File to have a CSV file which has Gift Card Code(s) easily and quickly. A quick note that you shouldn’t change the name of columns, otherwise it will get an error message when Check Data runs.
+To have a CSV file containing basic information to import Gift Card Code(s), you need to click ``Download Sample File``. Then edit the content in available columns in the Sample File to have a CSV file which has Gift Card Code(s) easily and quickly. A quick note that you shouldn’t change the name of columns, otherwise it will get an error message when Check Data lauches.
 ![GC59](https://i.imgur.com/TQlwiFO.png)
 
 A CSV file contains:
 * **Code**: This is the column to fill Gift Card Code(s). The admin can enter any code as his wish. This is a required information.
-* **Balance**: This is where you can enter the corresponding Balance of each gift card. This is a required information.
+* **Balance**: This is where you can enter the corresponding balance of each gift card. This is a required information.
 * **Status**: indicates the status of a gift card. This is a required information. There are 6 statuses:
   * 1: means **Active** status
   * 2: means **Inactive** status
@@ -615,7 +615,7 @@ A CSV file contains:
   * 4:  means **Used** status
   * 5:  means **Expired** status
   * 6:  means **Canceled** status
-* **Can_redeem**: indicates whether the gift card code can be redeem or not.  This is a required information.. There are 2 **Can Redeem**’s states:
+* **Can_redeem**: indicates whether the gift card code can be redeem or not.  This is a required information. There are 2 **Can Redeem**’s states:
   * 1: means the gift card code can be redeem
   * 2: means the gift card code can not be redeem
 * **Store_id**: corresponding to the Store View ID in ``Stores > Settings> All Stores``. This is a required information.
@@ -629,7 +629,7 @@ To the next step, we need to choose an Action for Import. In **Import Behaviour*
 Now you can select a CSV file to import.
 * Choose file you want to import.
 * The importable CSV file needs to meet the above conditions.
-To make sure things will be worked well, click the red ``Check data`` button. Data in the submitted CSV file will be checked and a message will inform it is valid or invalid. In case of being invalid, the admin needs to check the CSV file (specially required columns, column’s name,etc). With the valid case, the Import button will appear along with the message
+To make sure things will be worked well, click the red ``Check data`` button. Data in the submitted CSV file will be checked and a message will inform whether it's valid or not. In case of being invalid, admins need to check the CSV file (specially required columns, column’s name,etc). With the valid case, the Import button will appear along with the message like below
 ![GC61](https://i.imgur.com/XbzorBO.png)
 
 Clicking the ``Import`` button is the final steps!
