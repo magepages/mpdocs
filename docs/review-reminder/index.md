@@ -14,7 +14,7 @@ Customer reviews have tremendous influence over making a purchase of other consu
 ### 1. Configuration
 
 #### 1.1 General Configuration
-A bunch of fundamental configuration will assist you in modifying reminder email chains which can be accomplished just a few click. Follow this path ``Mageplaza > Review Reminder: Configuration`` then expand the **General Configuration``
+A bunch of fundamental configuration will assist you in modifying reminder email chains which can be accomplished just a few click. Follow this path ``Mageplaza > Review Reminder: Configuration`` then expand the **General Configuration**
 
 ![RR1](https://i.imgur.com/HYXEpBO.png)
 
