@@ -29,6 +29,7 @@ Welcome to Mageplaza Docs
    seo-ultimate/index
    social-login-m2/index
    blog-m2/index
+   smtp/index
    affiliate-m2/index
    automatic-related-products/index
    frequently-bought-together/index
