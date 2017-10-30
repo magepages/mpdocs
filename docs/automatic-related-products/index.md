@@ -148,6 +148,7 @@ There are 6 Location options to display the Block in Category Page. In **Locatio
 
 #### 4.2 Conditions
 ![ARP14](https://i.imgur.com/9uD0FJ9.png)
+
 You can select the same conditions as the Product Page. Furthermore, you can set additional conditions for Total Items in the Cart, Total Price and Total Volume of Products.
 
 #### 4.3 Actions
