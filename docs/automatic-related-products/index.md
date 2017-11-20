@@ -34,7 +34,9 @@ A New Related Block Rule form will be appeared.
 
 ![ARP4](https://i.imgur.com/tysUtU5.png)
 - In the **Statistic** page where the Rule is applied, the Product selection from the Block of ARP along with the percentage between the Product selection and the Page entry
-![ARP5](https://i.imgur.com/vRWBlH9.jpg)
+
+![ARP5](https://i.imgur.com/5ulpHte.jpg)
+
 ![ARP6](https://i.imgur.com/aZSAqLE.jpg)
 - In the **Rule Information**
   - **Rule Name** field is where you name the rule. The rule name will be displayed on the Grid in Manage Rules Page and visible only with admins. This is a required field so there will be an error message if you leave it blank.
