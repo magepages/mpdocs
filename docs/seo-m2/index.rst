@@ -19,7 +19,6 @@ In order to install SEO extension on your store, you can learn and do it by your
  .. _Installation Guide: https://www.mageplaza.com/install-magento-2-extension/
  .. _Installation Service Package: https://www.mageplaza.com/magento-2-installation-services/
  
-.. include:: user-guide.rst
-
+.. include:: user-guide.md
 
 .. include:: ../ad_footer.rst
