@@ -1,6 +1,3 @@
-SEO Ultimate's User guide
-******
-
 I. Configuration
 =====
 To enable/disable the SEO module on/off, make yourself a way to ``Mageplaza > SEO: Configuration``, look at the left sidebar and choose ``Advanced > Advanced``, scroll until you nearly reach the end of page and choose “Yes”/”No” to turn the module on/off.
