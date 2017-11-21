@@ -1,5 +1,6 @@
 I. Configuration
-=====
+******
+
 To enable/disable the SEO module on/off, make yourself a way to ``Mageplaza > SEO: Configuration``, look at the left sidebar and choose ``Advanced > Advanced``, scroll until you nearly reach the end of page and choose “Yes”/”No” to turn the module on/off.
 
 .. image:: https://i.imgur.com/yqv9eXw.gif
@@ -157,7 +158,8 @@ A new report system will be displayed at the dashboard of your admin backend whi
 
 
 II. Rules
-=====
+******
+
 To add a new rule, please follow the path ``Mageplaza > SEO: Rules``, click on ``Add Rule`` button, choose one type of page you want to create a new rule apply for:
 
 * Product Pages
@@ -218,7 +220,8 @@ Editing template rule form is the same with creating a new one. At ``Mageplaza >
 
 
 III. Checklist
-=====
+******
+
 SEO Checklist includes a list of the notifications: Success, Error, and Warning. Based on this status of the notification, you will know whether your store is optimized and ready for SEO or not. 
 
 .. image:: https://i.imgur.com/XA0q07I.gif
