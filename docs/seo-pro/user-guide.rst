@@ -1,5 +1,6 @@
 I. Configuration
-=====
+******
+
 To enable/disable the SEO module on/off, make yourself a way to ``Mageplaza > SEO: Configuration``, look at the left sidebar and choose ``Advanced > Advanced``, scroll until you nearly reach the end of page and choose “Yes”/”No” to turn the module on/off.
 
 .. image:: https://i.imgur.com/yqv9eXw.gif
@@ -79,7 +80,7 @@ Head forward to ``Mageplaza > SEO: Configuration > SEO Rules`` in order to take 
 * In **Enable Automatic Alt Image** field: The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. Choose “Yes” to enable this function”
 
 II. Rules
-=====
+******
 To add a new rule, please follow the path ``Mageplaza > SEO: Rules``, click on ``Add Rule`` button, choose one type of page you want to create a new rule apply for:
 
 * Product Pages
