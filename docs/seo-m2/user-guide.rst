@@ -1,3 +1,6 @@
+SEO Standard's User guide
+*****
+
 
 I. Configuration
 ******
