@@ -65,8 +65,6 @@ Scroll until **Redirect**’s general configuration reaches your eyes.
 * In **Enable Redirects** field: choose “Yes” to allow this function to work.
 * In **Better 404 Page** field: choose “Yes” if you want all 404 Pages to be redirected to your Homepage.
 
-An additional user guide for Redirects can be found here 
-
 1.6 SEO Rules
 -----
 Head forward to ``Mageplaza > SEO: Configuration > SEO Rules`` in order to take the basic control for Rules generally.
@@ -78,7 +76,7 @@ Head forward to ``Mageplaza > SEO: Configuration > SEO Rules`` in order to take 
 * In **Use H1 Heading for Category Pages** field: Choose “Yes” if you want to apply H1 Heading for Category Pages.
 * In **Enable Automatic Alt Image** field: The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. Choose “Yes” to enable this function”
 
-There is another separated interface for SEO rules will be mentioned later at ...
+There is another separated interface for SEO rules will be mentioned later at `II. Rules <https://docs.mageplaza.com/seo-ultimate/index.html#ii-rules>`_.
 
 1.7 Page Analysis
 -----
