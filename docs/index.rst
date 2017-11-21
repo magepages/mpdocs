@@ -26,7 +26,7 @@ Welcome to Mageplaza Docs
    gift-card/index
    seo-m2/index
    seo-pro/index
-   seo-ultimate-m2/index
+   seo-ultimate/index
    social-login-m2/index
    blog-m2/index
    smtp/index
