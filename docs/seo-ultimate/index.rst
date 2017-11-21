@@ -1,4 +1,4 @@
-SEO Pro
+SEO Ultimate
 =================
 
 .. toctree::
@@ -13,6 +13,6 @@ To help you automatically optimize and greatly improve the performance of your M
 
 In order to install SEO extension on your store, you can learn and do it by yourself via `Installation Guide <https://www.mageplaza.com/install-magento-2-extension/>`_ or use `Installation Service Package <https://www.mageplaza.com/magento-2-installation-services/>`_ to request the specialist helps from Mageplaza Team.
 
-.. include:: user-guide.md
+.. include:: user-guide.rst
 
 .. include:: ../ad_footer.rst
