@@ -1,36 +1,42 @@
-# Magento 2 SEO extension
+Magento 2 SEO extension
+######
 
-## Overview
+Overview
+******
 To help you automatically optimize and greatly improve the performance of your Magento-based store in Search Engines, Mageplaza SEO extension will bring your store a great chance to own an amazing speed as well as to gain the higher and higher ranks in the popular and famous search engines such as Google, Bing, or Yahoo.    
 
-In order to install SEO extension on your store, you can learn and do it by yourself via [Installation Guide](https://www.mageplaza.com/install-magento-2-extension/) or use [Installation Service Package](https://www.mageplaza.com/magento-2-installation-services/) to request the specialist help from Mageplaza Team.
+In order to install SEO extension on your store, you can learn and do it by yourself via Installation Guide or use Installation Service Package to request the specialist help from Mageplaza Team.
 
 
-## How to configure
+How to configure
+******
 
-### I. Configuration
+I. Configuration
+=====
 To enable/disable the SEO module on/off, make yourself a way to ``Mageplaza > SEO: Configuration``, look at the left sidebar and choose ``Advanced > Advanced``, scroll until you nearly reach the end of page and choose “Yes”/”No” to turn the module on/off.
 
-![seo1](https://i.imgur.com/yqv9eXw.gif)
+.. image:: https://i.imgur.com/yqv9eXw.gif
 
 Don’t forget to click ``Save Config`` after changing.
 
-#### 1.1 Verifications
+1.1 Verifications
+-----
 Go to ``Mageplaza > SEO: Configuration > Verification``
 
 In the **Verification** field, you need to enter the verification code to confirm the ownership of your site. Hence, you can use the Web services such as Google Search Console, Bing Webmaster Tools, Pinterest and Yandex Webmaster Tools.
 
-![seo2](https://i.imgur.com/DNu7Rba.png)
+.. image:: https://i.imgur.com/DNu7Rba.png
 
 * In **Google Search Console** field: Enter the verification code for Google Search Console.
 * In **Bing Webmaster Tools** field: Enter the verification code for Bing Webmaster Tools.
 * In **Pinterest** field: Enter the verification code for Pinterest.
 * In **Yandex Webmaster Tools** field: Enter the verification code for Yandex Webmaster Tools.
 
-#### 1.2 HTML Sitemap
+1.2 HTML Sitemap
+-----
 This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap, while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
 
-![seo3](https://i.imgur.com/cmRrPR9.jpg)
+.. image:: https://i.imgur.com/cmRrPR9.jpg
 
 * In **Enable HTML Sitemap**: choose “Yes” if you want to enable HTML Sitemap. New related HTML Sitemap modules will be expanded automatically
 * In **Enable Categories Sitemap**: choose “Yes” if you want to display all pages in categories.
@@ -40,50 +46,53 @@ This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and 
 * In **Additional Links** box: Paste additional links you want to add.
 * In **Add Sitemap Link to Footer** field: choose “Yes” if you want to enable the advance HTML Sitemap in the footer of pages.
 
-#### 1.3 XML Sitemap
+1.3 XML Sitemap
+-----
 Right under the HTML Sitemap’s configuration is XML Sitemap’s settings
 
-![seo3](https://i.imgur.com/CtlcZHQ.png)
+.. image:: https://i.imgur.com/CtlcZHQ.png
 
 XML Sitemap is a ``.xml`` map of your website and the map will show a list of the page that the visitors can access. Under the **XML Sitemap** section, you can:
 
 * Create `Homepage Optimization` when choosing "Yes"
 * In case you need additional links, it is required to set `Enable Additional Links` to "Yes"
 
-#### 1.4 Canonical URLs
+1.4 Canonical URLs
+-----
 If the content of your site has the same article with others, search engines will underestimate the quality of your content and thus reduce the ranking of your website. Therefore, you must have a Canonical tags to reduce the duplication of content on the page, this is an onpage SEO tips which should be noted.
 
 Expand **Canonical URLs** configuration to see basic modules:
 
-![seo4](https://i.imgur.com/JaBXSnr.jpg)
+.. image:: https://i.imgur.com/JaBXSnr.jpg
 
 * In **Add Canonical URL Meta Header** field: Choose “Yes” if you want to add canonical URL for Meta Header Tags
 * In **Disable Canonical URL for Pages with NOINDEX robots** field: Choose “No” if you want to disable all canonical URL for pages with NOINDEX robots since it’s not good for your SEO procedure (eg Search Pages, 404 Pages, etc)
 * In **Don’t use Canonical URL for these pages** field: Default option is “No”. 
 
-#### 1.5 Redirects
+1.5 Redirects
+-----
 Scroll until **Redirect**’s general configuration reaches your eyes.
 
-![seo5](https://i.imgur.com/oP8H7hC.jpg)
+.. image:: https://i.imgur.com/oP8H7hC.jpg
 
 * In **Enable Redirects** field: choose “Yes” to allow this function to work.
 * In **Better 404 Page** field: choose “Yes” if you want all 404 Pages to be redirected to your Homepage.
 
 An additional user guide for Redirects can be found here 
 
-#### 1.6 SEO Rules
+1.6 SEO Rules
+-----
 Head forward to ``Mageplaza > SEO: Configuration > SEO Rules`` in order to take the basic control for Rules generally.
 
-![seo6](https://i.imgur.com/igYOR62.jpg)
+.. image:: https://i.imgur.com/igYOR62.jpg
 
 * In **Enable SEO Rules** field: Choose “Yes” to enable all set SEO rules
 * In **Use H1 Heading for Product Pages** field: Select “Yes” if you want to apply H1 Heading for Product Pages.
 * In **Use H1 Heading for Category Pages** field: Choose “Yes” if you want to apply H1 Heading for Category Pages.
 * In **Enable Automatic Alt Image** field: The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. Choose “Yes” to enable this function”
 
-There is another separated interface for SEO rules will be mentioned later at ...
-
-### II. Rules
+II. Rules
+=====
 To add a new rule, please follow the path ``Mageplaza > SEO: Rules``, click on ``Add Rule`` button, choose one type of page you want to create a new rule apply for:
 
 * Product Pages
@@ -93,28 +102,31 @@ To add a new rule, please follow the path ``Mageplaza > SEO: Rules``, click on `
 
 In this below guide, let’s take a try with the **Product Pages**
 
-![seorules](https://i.imgur.com/I21MAGZ.gif)
+.. image:: https://i.imgur.com/I21MAGZ.gif
 
 A new rule information page appears. Fill all required information which are divided into 4 parts at the sidebar, please follow those explanation for each field 
 
-#### 2.1 Rule Information 
+2.1 Rule Information
+----- 
 
-![seorules3](https://i.imgur.com/kYi9UcX.jpg)
+.. image:: https://i.imgur.com/kYi9UcX.jpg
 
 * In **Name** field: Enter a Rule Name
 * In **Status** field: Set Status to “Enable” for the active rule
 * In **Store view** field: Choose Store View where the rule is applied
 * In **Priority** field: Set Priority number, 0 is the highest level.
 
-#### 2.2 Conditions
+2.2 Conditions
+-----
 
 It’s pretty easy to add/remove its content
 
-![seorules4](https://i.imgur.com/lq7XKY8.gif)
+.. image:: https://i.imgur.com/lq7XKY8.gif
 
-#### 2.3 Actions
+2.3 Actions
+-----
 
-![seo5](https://i.imgur.com/VpRSaln.jpg)
+.. image:: https://i.imgur.com/VpRSaln.jpg
 
 * In **Meta Title Template** box: Enter the Meta Tile Template
 * In **Meta Description Template** box: Enter the Meta Tile Template. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
@@ -128,15 +140,17 @@ It’s pretty easy to add/remove its content
   * “Skip if already defined” means if admin manually added meta tag: title, description, so it will not apply this template.
   * “Force Update” means auto-applying the template for all meta tags
 
-#### 2.3 Preview
+2.3 Preview
+-----
 This is the final step where you can check the result after setting up a bunch of required information. For example, it will appear like this
 
-![seo6](https://i.imgur.com/LnsJHmb.jpg)
+.. image:: https://i.imgur.com/LnsJHmb.jpg
 
 
 The rule form and its action of the rest Category Pages, CMS Pages or Layered Navigation is pretty similar to the Product Page’s form
 
 Editing template rule form is the same with creating a new one. At ``Mageplaza > SEO: Rules`` choose **Edit** the rule you want to alter.
+
 
 
 
