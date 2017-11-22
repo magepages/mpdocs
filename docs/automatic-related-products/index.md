@@ -50,10 +50,11 @@ A New Related Block Rule form will be appeared.
     - **Above Content**: Auto Related Product block displays above the Content of the Product Page
     - **Below Content**: Auto Related Product block displayed under the Content of the Product Page
     - **Custom**: You can select the block’s display location in any position. There will be a specific guide for this section at the end of this user guide. 
+
 ```
 Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
 ```    
-      - In the **Status** field: choose "Active" to enable the rule.  
+   - In the **Status** field: choose "Active" to enable the rule.  
   - In the **Store View** field you can select the store view where the Rule applies on.
   - In the **Customer Group** field: The rule is only applicable to customers who in  the selected group
   - In the **From** field is where you select the starting date of the Rule applied to the Product Page. You can either select by calendar or directly enter the date In the **To** field is where Select the ending date the Rule is applied. You can either select by calendar or directly enter the date
