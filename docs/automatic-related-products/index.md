@@ -49,8 +49,7 @@ A New Related Block Rule form will be appeared.
     - **After upsell products**: Auto Related Product block displays below  the Magento's Related Product Block
     - **Above Content**: Auto Related Product block displays above the Content of the Product Page
     - **Below Content**: Auto Related Product block displayed under the Content of the Product Page
-    - **Custom**: You can select the display location in any position. (Instructions at the end of this user guide)
-  - In the **Status** field: choose "Active" to enable the rule.  
+      - In the **Status** field: choose "Active" to enable the rule.  
   - In the **Store View** field you can select the store view where the Rule applies on.
   - In the **Customer Group** field: The rule is only applicable to customers who in  the selected group
   - In the **From** field is where you select the starting date of the Rule applied to the Product Page. You can either select by calendar or directly enter the date In the **To** field is where Select the ending date the Rule is applied. You can either select by calendar or directly enter the date
