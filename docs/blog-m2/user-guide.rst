@@ -190,6 +190,5 @@ Create new category
 Community Support
 ~~~~~~~~~~~~~~~~~~~
 
-Ask for helps on `Magento Community`_
+Ask for helps on https://github.com/mageplaza/magento-2-blog/issues
 
-.. _Magento Community: http://magento.stackexchange.com/
