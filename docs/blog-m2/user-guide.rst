@@ -190,17 +190,17 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
 
 * Choose the page you want to add a new widget by following ``Mageplaza > Better Blog: Post``. You can add the widget by two methods
   * Option 1: Click on the widget icon in the Content’s edit
-![bb](https://i.imgur.com/ayw97fX.gif)
+.. image:: https://i.imgur.com/ayw97fX.gif
 
   * Option 2: Switch the content’ mode into HTML mode, then choose **Insert widget** 
-![bb1](https://i.imgur.com/jRbRQuJ.gif)
+.. image:: https://i.imgur.com/jRbRQuJ.gif
 
 * Choose the widget’s type: We created an available blog widget. In **Widget Type**, choose ``Mageplaza Blog`` to use this widget for adding posts in the content of any optional pages.
 
-![bb3](https://i.imgur.com/IRAtOhD.png)
+.. image:: https://i.imgur.com/IRAtOhD.png
 
 * Setup the widget: in the **Insert widget…** information:
-![bb4](https://i.imgur.com/3EV0xBL.png)
+.. image:: https://i.imgur.com/3EV0xBL.png
   
   * In **Tittle** field: 
     * Choose the widget’s tittle you want to display it in the frontend
@@ -213,7 +213,7 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
   * In **Show Type** field, there’re two options:
     * **New** type: The newest posts will be displayed in the widget. The number of newest posts won’t exceed the entered number in **Number of Post Display**
     * **Category** type: 
-![bb5](https://i.imgur.com/dcPyjwW.png) 
+.. image:: https://i.imgur.com/dcPyjwW.png 
 
       * The Category ID will be expanded when you choose this option, then enter the Category ID you want to display in the blog. 
       * The default number is 2.
@@ -226,7 +226,7 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
 * Finally, click ``Insert widget`` button to add the widget into the content.
 * Don’t forget to click the ``Save`` button at the top of the backend.
 * Check the frontend to see the final result.
-![bb6](https://i.imgur.com/3hBpgXl.png)
+.. image:: https://i.imgur.com/3hBpgXl.png
 
 
 
