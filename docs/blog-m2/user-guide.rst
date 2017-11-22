@@ -221,7 +221,7 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
       * You can check the Category ID in ``Mageplaza > Bettter Blog: Categories`` click the Category name to see its ID.
   * In **Template** field: 
     * We created a new default template and this is the only one you can use.
-    * If you want to create a new template, please contact with our Support Department by submit a ticket to [https://mageplaza.freshdesk.com/support/home](https://mageplaza.freshdesk.com/support/home) or via the email [support@mageplaza.com](support@mageplaza.com)
+    * If you want to create a new template, please contact with our Support Department by submit a ticket to `https://mageplaza.freshdesk.com/support/home <https://mageplaza.freshdesk.com/support/home>`_ or via the email `support@mageplaza.com <support@mageplaza.com>`_
 
 * Finally, click ``Insert widget`` button to add the widget into the content.
 * Don’t forget to click the ``Save`` button at the top of the backend.
