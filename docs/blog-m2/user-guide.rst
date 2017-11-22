@@ -192,7 +192,8 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
   * Option 1: Click on the widget icon in the Content’s edit
 .. image:: https://i.imgur.com/ayw97fX.gif
 
-  * Option 2: Switch the content’ mode into HTML mode, then choose **Insert widget** 
+  
+* Option 2: Switch the content’ mode into HTML mode, then choose **Insert widget** 
 .. image:: https://i.imgur.com/jRbRQuJ.gif
 
 * Choose the widget’s type: We created an available blog widget. In **Widget Type**, choose ``Mageplaza Blog`` to use this widget for adding posts in the content of any optional pages.
