@@ -49,6 +49,10 @@ A New Related Block Rule form will be appeared.
     - **After upsell products**: Auto Related Product block displays below  the Magento's Related Product Block
     - **Above Content**: Auto Related Product block displays above the Content of the Product Page
     - **Below Content**: Auto Related Product block displayed under the Content of the Product Page
+    - **Custom**: You can select the block’s display location in any position. There will be a specific guide for this section at the end of this user guide. 
+```
+Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
+```    
       - In the **Status** field: choose "Active" to enable the rule.  
   - In the **Store View** field you can select the store view where the Rule applies on.
   - In the **Customer Group** field: The rule is only applicable to customers who in  the selected group
@@ -121,6 +125,9 @@ There are 5 Location options to display the Block in Category Page. In **Locatio
 - **Above Content**: Related Product Block is displayed on top of Content in Category Page
 - **Below Content**: Related Product Block is displayed below Content in Category Page
 - **Custom**: You can select the block’s display location in any position. There will be a specific guide for this section at the end of this user guide.
+```
+Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
+```
 
 #### 3.2 Conditions
 ![ARP13](https://i.imgur.com/lxhr7T0.png)
@@ -128,10 +135,10 @@ There are 5 Location options to display the Block in Category Page. In **Locatio
 - There’s no Preview Product here
 
 #### 3.3 Actions
-Completely Similar to Action of the Product Page. Click here to refer.
+Completely Similar to Action of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
 
 #### 3.4 A/B Testing
-Completely Similar to A/B Testing of the Product Page. Click here to refer.
+Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
 
 ### IV. Manage Rules on View Cart Page
 This section allows you to install the Related Product Block in your desired View Cart Page. When the View Cart Page fulfills the Rule, the Related Product Block will be displayed in the selected position.
@@ -164,6 +171,9 @@ There’re two ways to set the Location in Custom mode
 - Use ``Content > Widget``: When using Widget, you can insert Block into more than 30 pre-installed Magento locations.
 - Insert Code directly into HTML: you can insert it wherever you want.
 
+```
+Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
+```
 
 
 
