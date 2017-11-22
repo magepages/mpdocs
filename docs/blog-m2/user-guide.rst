@@ -3,7 +3,7 @@ Updating Blog regularly is one of the effective content marketing strategy in th
 How to Configure
 ------------------
 
-General Configuration
+I. General Configuration
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * Login to Magento Admin, `Better Blog > Settings`.
@@ -59,7 +59,7 @@ General Configuration
 
 * Click on `Save Config` when complete.
 
-Create New Post
+II. Create New Post
 ^^^^^^^^^^^^^^^^^
 
 * Step 1: Complete the post information
@@ -125,7 +125,7 @@ Step 4: Assign Tags to the post
 
 * Tap `Save and Continue Edit`, then hit `Save Post` to finish. 
 
-Create new Tag
+III. Create new Tag
 ^^^^^^^^^^^^^^^^
 
 * Login to Magento Admin, `Better Blog > Categories`
@@ -140,7 +140,7 @@ Create new Tag
 * Click on `Save Tag` when complete.
 
 
-Create new Topic
+IV. Create new Topic
 ^^^^^^^^^^^^^^^^^^^
 
 * Login to Magento Admin, `Better Blog > Topics`
@@ -161,7 +161,7 @@ Create new Topic
 * If need, you can assign the new topic to specific post.
 * Click on `Save Topic` when complete.
 
-Create new category
+V. Create new category
 ^^^^^^^^^^^^^^^^^^^^^^
 
 * Login to Magento Admin, `Better Blog > Categories`
@@ -181,6 +181,53 @@ Create new category
 
 * If need, you can assign the new category to specific post.
 * Click on `Save Category` when complete.
+
+VI. Create a new Widget
+^^^^^^^^^^^^^^^^^^^^^^
+Widget is an awesome functionality you can insert to the CMS page from Magento 2 Configuration because it can be considered as a predefined set of configuration options. In the widget, you can add links that navigate directly to any content page, category, or product as you need.
+
+In Magento 2 Better Blog extension, you can add a widget in which shows Related blog posts, Lastest blog post, etc. Follow this instruction to learn how to create a new widget to enrich your content immdiately.
+
+* Choose the page you want to add a new widget by following ``Mageplaza > Better Blog: Post``. You can add the widget by two methods
+  * Option 1: Click on the widget icon in the Content’s edit
+![bb](https://i.imgur.com/ayw97fX.gif)
+
+  * Option 2: Switch the content’ mode into HTML mode, then choose **Insert widget** 
+![bb1](https://i.imgur.com/jRbRQuJ.gif)
+
+* Choose the widget’s type: We created an available blog widget. In **Widget Type**, choose ``Mageplaza Blog`` to use this widget for adding posts in the content of any optional pages.
+
+![bb3](https://i.imgur.com/IRAtOhD.png)
+
+* Setup the widget: in the **Insert widget…** information:
+![bb4](https://i.imgur.com/3EV0xBL.png)
+  
+  * In **Tittle** field: 
+    * Choose the widget’s tittle you want to display it in the frontend
+    * This title will be inserted an internal link to your blog post
+    * If you leave it blank, the widget won’t have a title.
+  * In **Number of Post Display** field:
+    * This is the field where you can limit the number of post in the widget
+    * The default number is 5. 
+    * If you leave it blank, there will be an error message.
+  * In **Show Type** field, there’re two options:
+    * **New** type: The newest posts will be displayed in the widget. The number of newest posts won’t exceed the entered number in **Number of Post Display**
+    * **Category** type: 
+![bb5](https://i.imgur.com/dcPyjwW.png) 
+
+      * The Category ID will be expanded when you choose this option, then enter the Category ID you want to display in the blog. 
+      * The default number is 2.
+      * You have to ensure that the Category you entered is valid. If it isn’t, there will be an error message at the frontend.
+      * You can check the Category ID in ``Mageplaza > Bettter Blog: Categories`` click the Category name to see its ID.
+  * In **Template** field: 
+    * We created a new default template and this is the only one you can use.
+    * If you want to create a new template, please contact with our Support Department by submit a ticket to [https://mageplaza.freshdesk.com/support/home](https://mageplaza.freshdesk.com/support/home) or via the email [support@mageplaza.com](support@mageplaza.com)
+
+* Finally, click ``Insert widget`` button to add the widget into the content.
+* Don’t forget to click the ``Save`` button at the top of the backend.
+* Check the frontend to see the final result.
+![bb6](https://i.imgur.com/3hBpgXl.png)
+
 
 
 .. _Magento 2 Blog: https://www.mageplaza.com/magento-2-blog-extension/
