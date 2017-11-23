@@ -218,7 +218,7 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
 
 * In **Show Type** field, there’re two options:
   
-  * **New** type: The newest posts will be displayed in the widget. The number of newest posts won’t exceed the entered number in * *
+  * **New** type: The newest posts will be displayed in the widget. The number of newest posts won’t exceed the entered number in **Number of Post Display**
   * **Category** type: 
 
 .. image:: https://i.imgur.com/dcPyjwW.png 
