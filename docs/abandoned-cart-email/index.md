@@ -10,6 +10,7 @@ Cart abandonment is an action that consumers leave the website after adding a pr
 *Note: 
 * Mageplaza Abandoned Cart Email is totally compatible with Mageplaza SMTP extension
 * The extension supports and keeps track of logged customers or entered emails by visitors when they're in the checkout page
+* The module will be run depend on the Cronjob configuration
 ```
 
 ## How to configure
