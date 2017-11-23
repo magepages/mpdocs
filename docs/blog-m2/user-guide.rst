@@ -220,12 +220,13 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
   
   * **New** type: The newest posts will be displayed in the widget. The number of newest posts won’t exceed the entered number in **Number of Post Display**
   * **Category** type:
-.. image:: https://i.imgur.com/dcPyjwW.png 
-
-  * The Category ID will be expanded when you choose this option, then enter the Category ID you want to display in the blog. 
-  * The default number is 2.
-  * You have to ensure that the Category you entered is valid. If it isn’t, there will be an error message at the frontend.
-  * You can check the Category ID in ``Mageplaza > Bettter Blog: Categories`` click the Category name to see its ID.
+  
+    * The Category ID will be expanded when you choose this option, then enter the Category ID you want to display in the blog. 
+    * The default number is 2.
+    * You have to ensure that the Category you entered is valid. If it isn’t, there will be an error message at the frontend.
+    * You can check the Category ID in ``Mageplaza > Bettter Blog: Categories`` click the Category name to see its ID.
+    
+.. image:: https://i.imgur.com/dcPyjwW.png     
 
 * In **Template** field: 
    
