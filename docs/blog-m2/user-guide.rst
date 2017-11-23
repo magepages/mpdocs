@@ -189,6 +189,7 @@ Widget is an awesome functionality you can insert to the CMS page from Magento 2
 In Magento 2 Better Blog extension, you can add a widget in which shows Related blog posts, Lastest blog post, etc. Follow this instruction to learn how to create a new widget to enrich your content immdiately.
 
 * Choose the page you want to add a new widget by following ``Mageplaza > Better Blog: Post``. You can add the widget by two methods
+  
   * Option 1: Click on the widget icon in the Content’s edit
 .. image:: https://i.imgur.com/ayw97fX.gif
 
@@ -203,15 +204,20 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
 * Setup the widget: in the **Insert widget…** information:
 .. image:: https://i.imgur.com/3EV0xBL.png
   
-* In **Tittle** field: 
+* In **Tittle** field:
+
   * Choose the widget’s tittle you want to display it in the frontend
   * This title will be inserted an internal link to your blog post
   * If you leave it blank, the widget won’t have a title.
+
 * In **Number of Post Display** field:
+
   * This is the field where you can limit the number of post in the widget
   * The default number is 5. 
   * If you leave it blank, there will be an error message.
+
 * In **Show Type** field, there’re two options:
+  
   * **New** type: The newest posts will be displayed in the widget. The number of newest posts won’t exceed the entered number in * *
   * **Category** type: 
 
@@ -221,7 +227,9 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
     * The default number is 2.
     * You have to ensure that the Category you entered is valid. If it isn’t, there will be an error message at the frontend.
     * You can check the Category ID in ``Mageplaza > Bettter Blog: Categories`` click the Category name to see its ID.
+
 * In **Template** field: 
+   
    * We created a new default template and this is the only one you can use.
    * If you want to create a new template, please contact with our Support Department by submit a ticket to `https://mageplaza.freshdesk.com/support/home <https://mageplaza.freshdesk.com/support/home>`_ or via the email `support@mageplaza.com <support@mageplaza.com>`_
 
