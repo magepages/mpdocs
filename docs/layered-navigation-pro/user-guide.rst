@@ -99,7 +99,7 @@ This feature allows the shoppers can filter the items by the rating follows 5 le
 
 The Rating Filter configuration is available under the `Filter Configuration` tab.
 
-.. image:: https://imgur.com/n1patLV.jpg
+.. image:: https://i.imgur.com/pog5sWu.jpg
 
 * In **Enable Rating Filter** field: Choose "Yes" to enable and display the group attribute **Rating** on the Layered Navigation and leave "No" to disable this feature. When you choose "Yes", there are 2 more options for the modification:
   
