@@ -12,31 +12,31 @@ After enabling the module, the Layered Navigation will be displayed on the left 
 Layered Navigation Configuration
 --------------------------------
 
-The Configuration is available under `Admin Panel > Mageplaza > Layered Navigation > Configuration`.
+The Configuration is available under ``Admin Panel > Mageplaza > Layered Navigation > Configuration``.
 
 .. image:: https://i.imgur.com/28dBmmi.gif
 
 * General configuration
 * Filter configuration
 * Design configuration
-* All Products page
+
 
 Here are the details for the settings of each tab.
 
 1. General Configuration tab
 --------------------------------
 
-.. image:: https://cdn.mageplaza.com/media/general/UIIFzKu.png
+.. image:: https://i.imgur.com/VCV3lyM.jpg
 
 * In **Module Enable** field: You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** to enable and **No** to disable.
-* In **Multi-Filters** field:
+* In **Enable Multi-Filters** field:
 
   * By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. You can also filter by multi-choose from multiple categories at the same time. For example: The shopper can choose to filter by **Color** with *Black*, *White* and **Size** with *Small*, *Large* at the same time. This can be also applied with multiple categories. 
   * To config this feature, go to `Enable Multi-filter` field, set **Yes/ No** to **Enable/ Disable** 
   
 .. image:: https://i.imgur.com/jSaFtmp.gif  
 
-* In **Scroll to Top** field:
+* In **Scroll to Top after filtering** field:
 
   * This feature allows the shoppers, after filtering, can automatically back to the top of the products list and start to find the desired items. 
   * On the `Scroll to Top after Filtering` field, you will have 2 options:
@@ -44,7 +44,7 @@ Here are the details for the settings of each tab.
     * **YES** : After choosing a filter or click on the `Apply Filter` button, the site will automatically scroll up to the top-page.
     *  **NO** : After choosing a filter or click on the `Apply Filter` button, the site still stay at the current position.
 
-* In **Quick Lookup Options** field: 
+* In **Enable Quick Lookup Options** field: 
 
   * By enabling this feature, in each of the attribute group, there is a search box. The shoppers only need to insert the letters and the filter whose name contains this letter will be displayed. 
   * Go to `Enable Filter options` field to **Enable/ Disable** this feature by setting **Yes/ No**.
@@ -56,11 +56,10 @@ Here are the details for the settings of each tab.
   * **Yes**: Show all the attributes and options even the product is currently out of stock. 
   * **No**: Hide all the attributes and options of the product which is currently out of stock.
 
-* In **Product Count** With this feature, there will have a number which is displayed next to the filter. This number allows the shoppers to know how many items which is matched the filter. For example: If the filter is displayed: **Cotton(2)**, that means there are 2 items which are matched the filter *Cotton*.
+* In **Display Product Count** With this feature, there will have a number which is displayed next to the filter. This number allows the shoppers to know how many items which is matched the filter. For example: If the filter is displayed: **Cotton(2)**, that means there are 2 items which are matched the filter *Cotton*.
 
 .. image:: https://i.imgur.com/ZfTnGp2.jpg
-
-* In **Display Product Count** field:
+In **Display Product Count** field:
 
   * Set **Yes** to display the number to the left of the filter name.
   * Set **No** to hide this number.
@@ -77,20 +76,6 @@ Here are the details for the settings of each tab.
   * Here is how the ``Apply Filter`` button works, you can choose lots of attribute before applying it.  Also, SEO friendly URL is compatible with ``Apply Filter``'s search result. As you can the this example chose *Insulated* and *Cold*, and name of those attributes appears on the URL as well.
 
 .. image:: https://imgur.com/Ve8nGAA.gif
-
-* In **Infinite Scroll** field
-
-  * Continue with the next session. **Infinite Scroll**, or also called the **Lazy-scrolling** on a website, this feature will help to automatically load the new products in the list when the shoppers scroll to the bottom, without clicking or reloading. 
-  * In the field **Infinite scroll**, set "Yes" to enable the feature and "No" to disable. 
-
-* In **Show Navigation** field
-
-  * By default, the `Vertical & Horizontal Navigation` feature has 3 display styles so `Mageplaza Layered Navigation`_() can match to any store design with different purposes.
-  * In the **Show Navigation** field, choose 1 of 3 options below :
-
-    * Vertical
-    * Horizontal
-    * Both
 
 2. Additional Filter 
 ------------------------------
@@ -121,30 +106,10 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
   * In **Group Label** : Adding the text as the group attribute's name.
   * In **Expand by default** : Choose "Yes" to automatically expand the group attribute **Rating** when shoppers go to the collection page.
 
-3. Attribute Configuration 
+3. Filter by decimal attributes 
 -------------------------------
 
-Go to ``Admin Panel > Stores > Attributes: Product``, then choose an attribute and go to **Layered Navigation Properties** tab.
-
-3.1 Attribute Properties
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Example of a specific attribution and its configuration in detail
-
-.. image:: https://i.imgur.com/kJYk1Oh.jpg
-
-* In **Use in ProductsPage Navigation** field: choose the possibility of being displayed on Layered Navigation or not
-* In **Use in Search Results ProductsPage Navigation**: choose the possibility of being filtered by Layered Navigation or not.
-* In **Position** field:
-* **Allow Multiple Filter** : By choose **Yes**, the shoppers are able to filter by multi-option in this group attribute. For example: You can allow the shoppers to choose more than 1 filter in `Color` group attribute but only can choose 1 filter in `Style` group attribute.   
-* **Display Style** : Choose the display style of the group attribute. The specific design for each style is mentioned in the *next section*.    
-* **Enable search option** : Choose to enable/ disable the **Quick Lookup Option** in this attribute group.
-* **Expand by default** : Choose to automatically expand this attribute group or not when the shoppers go to the collection page.
-
-3.2 Filter by decimal attributes
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-Layered Navigation also allows store owner can set up and visitor can filter decimal attributes.
+Layered Navigation Professional edition also allows store owner can set up and visitor can filter decimal attributes.
 
 * In the ``Attribute Information > Properties > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optional attribute.
 
