@@ -101,10 +101,9 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
 
 .. image:: https://i.imgur.com/pog5sWu.jpg
 
-* In **Enable Rating Filter** field: Choose "Yes" to enable and display the group attribute **Rating** on the Layered Navigation and leave "No" to disable this feature. When you choose "Yes", there are 2 more options for the modification:
-  
-  * In **Group Label** : Adding the text as the group attribute's name.
-  * In **Expand by default** : Choose "Yes" to automatically expand the group attribute **Rating** when shoppers go to the collection page.
+* In **Enable Rating Filter** field: Choose "Yes" to enable and display the group attribute **Rating** on the Layered Navigation and leave "No" to disable this feature. When you choose "Yes", there are 2 more options for the modification
+* In **Group Label** : Adding the text as the group attribute's name.
+* In **Expand by default** : Choose "Yes" to automatically expand the group attribute **Rating** when shoppers go to the collection page.
 
 3. Filter by decimal attributes 
 -------------------------------
