@@ -14,7 +14,7 @@ Layered Navigation Configuration
 
 The Configuration is available under ``Admin Panel > Mageplaza > Layered Navigation > Configuration``.
 
-.. image:: https://i.imgur.com/28dBmmi.gif
+.. image:: https://i.imgur.com/xlUELeE.gifv
 
 * General configuration
 * Filter configuration
