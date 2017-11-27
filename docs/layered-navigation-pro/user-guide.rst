@@ -70,20 +70,6 @@ Here are the details for the settings of each tab.
   * **Yes** : The attribute group will already be expanded when the shoppers go to the Categories page.
   * **No** : The shoppers need to click on the attribute group name to expand the filters.
 
-* In **Show type** field: In this session, you can choose the way to display the filter attribute group. There are 3 options: 
-
-* Normal
-
-.. image:: https://i.imgur.com/NIYrzeP.jpg
-
-* Hidden
-
-.. image:: https://i.imgur.com/I4ACV3J.jpg
-
-* Scroll
-
-.. image:: https://i.imgur.com/dLFymFF.gif
-
 * In **Apply Filter button** field:
 
   * The `Apply Filter` button allows the shoppers to choose when to apply the chosen filters. With this button, the shoppers don't need to wait for the page to reload again and again each time they choose a filter.
