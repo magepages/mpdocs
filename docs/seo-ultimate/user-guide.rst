@@ -121,6 +121,7 @@ We’ll go into details what crosslinks is and how it works in the IV Part. But 
 .. image:: https://i.imgur.com/786AzAw.jpg
 
 In the **Enable/Disable** field, select “*Yes*” to enable cross links work, or “*No*” if you wish for the vice versa result.
+For more configuration how to set up crosslinks, please refer to this `Part IV <https://docs.mageplaza.com/seo-ultimate/index.html#iv-crosslinks>`_
 
 1.9 Dashboard Reports
 -----
@@ -229,6 +230,8 @@ Our crosslinks feature will work under customizable terms. In the other words, I
 E.g Crosslinks will replace all appeared “Luma” words by an internal link. You won’t have to do all the syntax works manually which also can cut down the decorate content time. 
 
 .. image:: https://i.imgur.com/NDPODcN.jpg
+
+Please make sure that the Crosslink' genenal configuration in `Part 1.8 <https://docs.mageplaza.com/seo-ultimate/index.html#crosslinks>`_ has been enabled.
 
 4.1 How to create a new term
 -----
