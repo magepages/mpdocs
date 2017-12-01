@@ -31,6 +31,7 @@ Welcome to Mageplaza Docs
    blog-m2/index
    smtp/index
    affiliate-m2/index
+   pdf-invoice-m2/index
    automatic-related-products/index
    frequently-bought-together/index
    who-bought-this-also-bought/index
