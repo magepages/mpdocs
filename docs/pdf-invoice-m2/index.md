@@ -6,7 +6,7 @@ Mageplaza offers a solution to help customers easily print, download PDF Invoice
 ```
 * This extension can be used in multiple stores.
 * Stores will be defaulted under the Default Configuration.
-* To change the configuration of each store, admins have to uncheck **Use Website**  at the left of each Option.
+* To change the configuration of each store, admins have to uncheck "Use Website" at the left of each Option.
 * Extension’s configuration in each store will be applied to the selected store.
 * Configuration of this store won’t take impact on the other store’s configuration.
 ```
