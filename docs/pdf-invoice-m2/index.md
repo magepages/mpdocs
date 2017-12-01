@@ -263,7 +263,7 @@ The downloaded PDF will have your designed template from previous steps you’ve
 
 ![i37](https://i.imgur.com/aEzT3Sn.png)
 
-When you click ``Send Email``, the sending email will be attached that PDF Order if in the [1.2. Order’s configuration](d), “Enable PDF Attachment = Yes”. Your customers can preview and download to print this PDF Order.
+When you click ``Send Email``, the sending email will be attached that PDF Order if in the [1.2. Order’s configuration](https://docs.mageplaza.com/pdf-invoice-m2/index.html#order), “Enable PDF Attachment = Yes”. Your customers can preview and download to print this PDF Order.
 
 ![i38](https://i.imgur.com/TKyMVds.png)
 
