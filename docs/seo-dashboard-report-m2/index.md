@@ -8,7 +8,7 @@ Metadata posses a critical role in elaborating content of a product. A coherent 
 
 Another harsh challenge for optimizing your website: the blog post is too short to be entrusted as tenacious works. Providing information pages such as knowledge base posts, walkthrough guide, tutorials contents, should guarantee its reliable quality as well as its detail meticulously. Less than 100-word pages? SEO doesn’t like this.
 
-To make the matters worse, is those pages have no content at all. But since its URL contains the product keyword, it still can be found in search page results. SEO doesn’t like this either.
+To make the matters worse, is those pages which have no content at all. But since its URL contains the product keyword, it still can be found in search page results. SEO doesn’t like this either.
 
     
 ## How it works
