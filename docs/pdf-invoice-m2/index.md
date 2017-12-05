@@ -260,7 +260,7 @@ In the Order section, click ``Print PDF Order`` button to download the PDF Order
 
 The downloaded PDF will have your designed template from previous steps you’ve done above.
 
-![i37](https://i.imgur.com/aEzT3Sn.png)
+![i37](https://i.imgur.com/yZrJpYC.png)
 
 When you click ``Send Email``, the sending email will be attached that PDF Order if in the [1.2. Order’s configuration](https://docs.mageplaza.com/pdf-invoice-m2/index.html#order), “Enable PDF Attachment = Yes”. Besides, when customers place a new order, stores will send that particular order billing to their emails. Your customers can preview and download to print this PDF Order instantly.
 
