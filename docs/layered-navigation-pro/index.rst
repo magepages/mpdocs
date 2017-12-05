@@ -1,4 +1,4 @@
-Layered Navigation Pro
+Layered Navigation Professional
 ======================
 
 .. toctree::
