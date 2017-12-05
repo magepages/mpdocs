@@ -37,7 +37,7 @@ This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and 
 -----
 Right under the HTML Sitemap’s configuration is XML Sitemap’s settings
 
-.. image:: https://i.imgur.com/CtlcZHQ.png
+.. image:: https://i.imgur.com/80lb18V.jpg
 
 XML Sitemap is a ``.xml`` map of your website and the map will show a list of the page that the visitors can access. Under the **XML Sitemap** section, you can:
 
