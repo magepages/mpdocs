@@ -250,8 +250,7 @@ For example, if you choose to create an “Order” template, the design form wi
   * **Template Style**: You can add CSS codes at here.
 
 ### 3. Sale
-#### 3.1 Order
-From the Admin backend, follow ``Sales > Orders``
+From the Admin backend, follow ``Sales > Operation > Orders``. In this section, you can output a printable PDF Order. Moreover, PDF Invoice, PDF Shipment or PDF Credit Memo can be had in the same method. Here the detail guide for the Order's part:
 
 ![i35](https://i.imgur.com/sTKZSvN.png)
 
@@ -263,7 +262,7 @@ The downloaded PDF will have your designed template from previous steps you’ve
 
 ![i37](https://i.imgur.com/aEzT3Sn.png)
 
-When you click ``Send Email``, the sending email will be attached that PDF Order if in the [1.2. Order’s configuration](https://docs.mageplaza.com/pdf-invoice-m2/index.html#order), “Enable PDF Attachment = Yes”. Your customers can preview and download to print this PDF Order.
+When you click ``Send Email``, the sending email will be attached that PDF Order if in the [1.2. Order’s configuration](https://docs.mageplaza.com/pdf-invoice-m2/index.html#order), “Enable PDF Attachment = Yes”. Besides, when customers place a new order, stores will send that particular order billing to their emails. Your customers can preview and download to print this PDF Order instantly.
 
 ![i38](https://i.imgur.com/TKyMVds.png)
 
