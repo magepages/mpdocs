@@ -1,4 +1,4 @@
-# SEO Metadata Template Rules
+# SEO Rules
 
 ## Overview
 
