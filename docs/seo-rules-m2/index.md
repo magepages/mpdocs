@@ -2,13 +2,13 @@
 
 ## Overview
 
-The term Metadata, sometimes, brings a vague definition when it comes to the internet due to the confusing why this time they mention “data” but at another time they use “metadata” word. But long story for short, it’s “Data describes other data” including information to define individual pages on a online website. From there, it also gives the necessary permission for search crawlers acknowledge, understand and evaluate valuable of a page content, define wherever will it be displayed on search page results.
+The term Metadata in "Metadata Rules", sometimes, brings a vague definition when it comes to the internet due to the confusing why this time they mention “data” but at another time they use “metadata” word. But long story for short, it’s “Data describes other data” including information to define individual pages on a online website. From there, it also gives the necessary permission for search crawlers acknowledge, understand and evaluate valuable of a page content, define wherever will it be displayed on search page results.
 
 Also, art in information governance is the equally important key that what we need to be well aware soon when being a store owner of thousand business items. In order to define your products have better description, you’re gonna manually add metadata per product, per page, per category all by yourself? There’s no way Mageplaza wants to see customers handle that work painfully.
 
 ## How it works
 
-With Magento 2 SEO Metadata Template Rules, you just need to set one template principle to apply for the rest of similar products simultaneously. Short and to the point, it will help to show 3 foremost components for a website description in a readable way:
+With Magento 2 SEO Rules, you just need to set one template principle to apply for the rest of similar products simultaneously. Short and to the point, it will help to show 3 foremost components for a website description in a readable way:
 
 * Meta Title Template 
 * Meta Description Template
@@ -18,7 +18,7 @@ We will go into detail and explain each of module and how it works in this bello
 
 ## How to configure
 
-As we mentioned, Mageplaza Metadata Template Rules extension allows the store owner to create the specific rule information. This user guide will set off the walkthrough to
+As we mentioned, Mageplaza SEO Rules extension allows the store owner to create the specific rule information. This user guide will set off the walkthrough to
 
 * General Configuration
 * Rules
