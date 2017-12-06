@@ -5,12 +5,12 @@ Search extension for Magento 2 was launched by Mageplaza that is the perfect sol
 
 Mageplaza Search for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Configure** on the backend.
 
-
-* This extension can be used in multiple stores.
-* Stores will be defaulted under the Default Configuration.
-* To change the configuration of each store, admins have to uncheck "Use Website" at the left of each Option.
-* Extension’s configuration in each store will be applied to the selected store.
-* Configuration of this store won’t take impact on the other store’s configuration.
+.. note:: 
+  * This extension can be used in multiple stores.
+  * Stores will be defaulted under the Default Configuration.
+  * To change the configuration of each store, admins have to uncheck "Use Website" at the left of each Option.
+  * Extension’s configuration in each store will be applied to the selected store.
+  * Configuration of this store won’t take impact on the other store’s configuration.
 
 How to use
 *****
@@ -37,7 +37,7 @@ Open **General Settings** section and do the following
 
 * In **Enable** field: Select "Yes" to enable this module.
 * In **Maximum Number of Search Results** field:
-
+  
   * Enter the number of search result that you want to show in the search result grid.
   * If you leave it blank, the default is 10 results.
 
