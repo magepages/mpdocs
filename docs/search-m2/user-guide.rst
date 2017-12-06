@@ -1,83 +1,63 @@
-===========
-User Guide
-===========
+Overview
+#####
 
-Introduction
-------------------------
+Search extension for Magento 2 was launched by Mageplaza that is the perfect solution that improves your searching system. Our Search extension brings the most benefits for your customer in terms of finding prefered product. The relevant searching results will be shown immediately after customer enter the first letter of product name. Thus, this extension will help to save your customer's time, make customer satisfaction and make your sale increase definitely.
 
-Magento 2 Search Extension is an advanced search engine which is the most updated, rapid and trustful for Magento 2. The extension is the effective combination of all latest searching tools to helps your customers find the right and the most suitable product they want. The more easily search tool provide, the better experience user have and sales also increase quicker.
+Mageplaza Search for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Configure** on the backend.
 
-User guide
-------------------------
 
-Mageplaza Search for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
+```
+* This extension can be used in multiple stores.
+* Stores will be defaulted under the Default Configuration.
+* To change the configuration of each store, admins have to uncheck "Use Website" at the left of each Option.
+* Extension’s configuration in each store will be applied to the selected store.
+* Configuration of this store won’t take impact on the other store’s configuration.
+```
 
 How to use
-------------------------
+*****
 
-* In the frontend, the search box will be shown in the upper-right corner 
+On the frontend, the search box will be shown on the upper-right corner 
 
-.. image:: https://cdn.mageplaza.com/docs/searchplus.gif
+.. image:: https://i.imgur.com/KJRjzEH.png
 
-* Customer are able to enter the character of product name on this box to search prefered product
-* The search result will be displayed that includes product name, product small image, price and short description
-* Customer will click on the result that they are finding, then redirect to product page.
+* Customers are able to enter the character of product name on this box to search their prefered product.
+* Depends on the configuration in the backend, the search result will be shown product name, product small image, price and short description
+* The quantity of search result will be set up in the backend.
+* Customers will click on the result that they are finding, then redirect its product page.
 
 How to configure
-------------------------
+*****
 
-* On the Admin panel, click `Stores`. In the `Settings` section, select `Configuration`.
-* Select `Setting` under `Setting Search` in the panel on the left
-* Open the `Catalog Search Settings` section, and continue with following:
+After logging in to your Magento Admin, choose ``Mageplaza > Search > Configuration``
 
-.. image:: https://cdn.mageplaza.com/docs/search-settings.gif
+.. image:: https://i.imgur.com/tIZbYPc.png
 
-* In the `Max Letter Number` field, enter the maximum number of character in short description of product that displayed in the search result
-* In the `Visible Image` field, select "Yes" to allow display product image in search result
-* In the `Visible Price` field, select "Yes" to allow display product price in search result
-* In the `Maximum Query Result` field, enter the maximum number of search result that you want to show in the search result grid
+Open **General Settings** section and do the following
 
+.. image:: https://i.imgur.com/TmQayVy.png
 
-That's all about the user guide of Mageplaza Search extension for Magento 2. If you still have any question, please feel free to contact us. 
+* In **Enable** field: Select "Yes" to enable this module.
+* In **Maximum Number of Search Results** field:
+  * Enter the number of search result that you want to show in the search result grid.
+  * If you leave it blank, the default is 10 results.
+* In **Limit number of characters in description section** field:
+  * Indicates the maximum character of a product's short description that display on Search Result pages.
+  * After changing this field, remember to click ``Save COnfig``, ``Reindex Search Data`` to apply changes on the frontend. 
+* In the **Information Display** field:
+  * Option can be multiple chosen.
+  * Chosen options will display on Search Result pages. 
+* In the **Reindex Search Database** field, select one of the following
+  * Cronjob: If your store has more than 3,000 SKUs, you should choose Cron job, it runs daily at 0AM your server time.
+  * After Product Save: This option is a good choice for store has less than 3,000 products
+  * Manually (used reindex button bellow): You have to click ``Reindex`` button everytime product's information changes.
+* In **Search by category configuration** field: This field allows customer the ability to search by Product and Category's name 
+  * In **Enable Search by Caetgory** field: Choose "Yes" to display Category search on the frontend. At that time, **Maximal Depth** will be shown in the backend.
+  * In **Maxiamal Depth** field: The entered number represents the level of displayed Category in the search box.
+ 
+.. image:: https://i.imgur.com/d12rg6f.png
 
-
-
-Number of Search result
-------------------------
-
-.. image:: https://cdn.mageplaza.com/media/general/OS71LUm.png
-
-
-Display Price
-------------------------
-
-.. image:: https://cdn.mageplaza.com/media/general/AX8hPIU.png
-
-
-
-
-Display Product Thumbnail
-------------------------
-
-.. image:: https://cdn.mageplaza.com/media/general/8bkBpQJ.png
+That's all about the user guide of Mageplaza Search extension for Magento 2. If you still have any question, please feel free to contact us.
 
 
-
-
-
-
-Limit number of characters in description section
-------------------------
-
-.. image:: https://cdn.mageplaza.com/media/general/Ik2YTpS.png
-
-
-
-
-How to config cron job
------------------------
-
-Read more this tutorial: `Setup Cron job in Magento 2`_ : 
-
-.. _Setup Cron job in Magento 2: https://www.mageplaza.com/kb/how-to-configure-cronjob-schedule-tasks-magento-2.html
 
