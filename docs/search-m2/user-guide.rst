@@ -22,7 +22,7 @@ On the frontend, the search box will be shown on the upper-right corner
 * Customers are able to enter the character of product name on this box to search their prefered product.
 * Depends on the configuration in the backend, the search result will be shown product name, product small image, price and short description
 * The quantity of search result will be set up in the backend.
-* Customers will click on the result that they are finding, then redirect its product page.
+* Customers will click on the result that they are finding, then being redirected to its product page automatically.
 
 How to configure
 *****
