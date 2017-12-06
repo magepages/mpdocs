@@ -41,19 +41,28 @@ Open **General Settings** section and do the following
 
 * In **Enable** field: Select "Yes" to enable this module.
 * In **Maximum Number of Search Results** field:
+
   * Enter the number of search result that you want to show in the search result grid.
   * If you leave it blank, the default is 10 results.
+
 * In **Limit number of characters in description section** field:
+
   * Indicates the maximum character of a product's short description that display on Search Result pages.
   * After changing this field, remember to click ``Save COnfig``, ``Reindex Search Data`` to apply changes on the frontend. 
+
 * In the **Information Display** field:
+  
   * Option can be multiple chosen.
   * Chosen options will display on Search Result pages. 
+
 * In the **Reindex Search Database** field, select one of the following
+  
   * Cronjob: If your store has more than 3,000 SKUs, you should choose Cron job, it runs daily at 0AM your server time.
   * After Product Save: This option is a good choice for store has less than 3,000 products
   * Manually (used reindex button bellow): You have to click ``Reindex`` button everytime product's information changes.
+
 * In **Search by category configuration** field: This field allows customer the ability to search by Product and Category's name 
+  
   * In **Enable Search by Caetgory** field: Choose "Yes" to display Category search on the frontend. At that time, **Maximal Depth** will be shown in the backend.
   * In **Maxiamal Depth** field: The entered number represents the level of displayed Category in the search box.
  
