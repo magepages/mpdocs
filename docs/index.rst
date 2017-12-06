@@ -43,8 +43,9 @@ Welcome to Mageplaza Docs
    who-bought-this-also-bought/index
    abandoned-cart-email/index
    review-reminder/index
-   banner-slider-m2/index
+   search-m2/index
    google-tag-manager-m2/index
+   banner-slider-m2/index
    delete-order-m2/index
    .. faq-m2/index
    .. kb-m2/index
