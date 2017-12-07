@@ -31,15 +31,15 @@ Here are the details for the settings of each tab.
 * In **Module Enable** field: You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** to enable and **No** to disable.
 * In **Enable Multi-Filters** field:
 
-  * By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. You can also filter by multi-choose from multiple categories at the same time. For example: The shopper can choose to filter by **Color** with *Black*, *White* and **Size** with *Small*, *Large* at the same time. This can be also applied with multiple categories. 
-  * To config this feature, go to `Enable Multi-filter` field, set **Yes/ No** to **Enable/ Disable** 
+  * By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. You can also filter by multi-choose from multiple categories at the same time. For example: The shopper can choose to filter by **Color** with **Black**, **White** and **Size** with **Small**, **Large** at the same time. This can be also applied with multiple categories. 
+  * To config this feature, go to `Enable Multi-filter` field, set "Yes/No" to "Enable/ Disable" 
   
 .. image:: https://i.imgur.com/jSaFtmp.gif  
 
 * In **Scroll to Top after filtering** field:
 
   * This feature allows the shoppers, after filtering, can automatically back to the top of the products list and start to find the desired items. 
-  * On the `Scroll to Top after Filtering` field, you will have 2 options:
+  * On the **Scroll to Top after Filtering** field, you will have 2 options:
   
     * **YES** : After choosing a filter or click on the `Apply Filter` button, the site will automatically scroll up to the top-page.
     *  **NO** : After choosing a filter or click on the `Apply Filter` button, the site still stay at the current position.
@@ -47,7 +47,7 @@ Here are the details for the settings of each tab.
 * In **Enable Quick Lookup Options** field: 
 
   * By enabling this feature, in each of the attribute group, there is a search box. The shoppers only need to insert the letters and the filter whose name contains this letter will be displayed. 
-  * Go to `Enable Filter options` field to **Enable/ Disable** this feature by setting **Yes/ No**.
+  * Go to **Enable Filter options** field to "Enable/ Disable" this feature by setting "Yes/ No".
 
 .. image:: https://i.imgur.com/5GUCriq.gif
 
@@ -56,7 +56,7 @@ Here are the details for the settings of each tab.
   * **Yes**: Show all the attributes and options even the product is currently out of stock. 
   * **No**: Hide all the attributes and options of the product which is currently out of stock.
 
-* In **Display Product Count** With this feature, there will have a number which is displayed next to the filter. This number allows the shoppers to know how many items which is matched the filter. For example: If the filter is displayed: **Cotton(2)**, that means there are 2 items which are matched the filter *Cotton*.
+* In **Product Count** field: With this feature, there will have a number which is displayed next to the filter. This number allows the shoppers to know how many items which is matched the filter. For example: If the filter is displayed: **Cotton(2)**, that means there are 2 items which are matched the filter **Cotton**.
 
 .. image:: https://i.imgur.com/ZfTnGp2.jpg
 In **Display Product Count** field:
@@ -72,7 +72,7 @@ In **Display Product Count** field:
 * In **Apply Filter button** field:
 
   * The `Apply Filter` button allows the shoppers to choose when to apply the chosen filters. With this button, the shoppers don't need to wait for the page to reload again and again each time they choose a filter.
-  * In ``Add Apply Filter button`` field, set **Yes** to show the button and leave **No** to disable. 
+  * In **Add Apply Filter button** field, set "Yes" to show the button and leave "No" to disable. 
   * Here is how the ``Apply Filter`` button works, you can choose lots of attribute before applying it.  Also, SEO friendly URL is compatible with ``Apply Filter``'s search result. As you can the this example chose *Insulated* and *Cold*, and name of those attributes appears on the URL as well.
 
 .. image:: https://imgur.com/Ve8nGAA.gif
@@ -83,7 +83,7 @@ In **Display Product Count** field:
 2.1. Product State Filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `Product State Filter`feature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the `Product State Filter` configuration will be displayed: 
+The Product State Filterfeature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the Product State Filter configuration will be displayed: 
 
 .. image:: https://i.imgur.com/qFiyMCO.jpg
 
@@ -97,7 +97,7 @@ The `Product State Filter`feature allows the shoppers to filter the items by the
 
 This feature allows the shoppers can filter the items by the rating follows 5 levels from 1 star to 5 stars. For example: when you choose the option **4 stars and up**, the received result will display the items which have the 4-star and 5-star rating.
 
-The Rating Filter configuration is available under the `Filter Configuration` tab.
+The Rating Filter configuration is available under the **Filter Configuration** tab.
 
 .. image:: https://i.imgur.com/pog5sWu.jpg
 
