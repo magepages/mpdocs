@@ -36,15 +36,15 @@ Here are the details for the settings of each tab.
 * In **Module Enable** field: You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** to enable and **No** to disable.
 * In **Multi-Filters** field:
 
-  * By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. You can also filter by multi-choose from multiple categories at the same time. For example: The shopper can choose to filter by **Color** with *Black*, *White* and **Size** with *Small*, *Large* at the same time. This can be also applied with multiple categories. 
-  * To config this feature, go to `Enable Multi-filter` field, set **Yes/ No** to **Enable/ Disable** 
+  * By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. You can also filter by multi-choose from multiple categories at the same time. For example: The shopper can choose to filter by **Color** with **Black**, **White** and **Size** with **Small**, **Large** at the same time. This can be also applied with multiple categories. 
+  * To config this feature, go to `Enable Multi-filter` field, set "Yes/No" to "Enable/ Disable" 
   
 .. image:: https://i.imgur.com/jSaFtmp.gif  
 
 * In **Scroll to Top** field:
 
   * This feature allows the shoppers, after filtering, can automatically back to the top of the products list and start to find the desired items. 
-  * On the `Scroll to Top after Filtering` field, you will have 2 options:
+  * On the **Scroll to Top after Filtering** field, you will have 2 options:
   
     * **YES** : After choosing a filter or click on the `Apply Filter` button, the site will automatically scroll up to the top-page.
     *  **NO** : After choosing a filter or click on the `Apply Filter` button, the site still stay at the current position.
@@ -52,7 +52,7 @@ Here are the details for the settings of each tab.
 * In **Quick Lookup Options** field: 
 
   * By enabling this feature, in each of the attribute group, there is a search box. The shoppers only need to insert the letters and the filter whose name contains this letter will be displayed. 
-  * Go to `Enable Filter options` field to **Enable/ Disable** this feature by setting **Yes/ No**.
+  * Go to **Enable Filter options** field to "Enable/ Disable" this feature by setting "Yes/ No".
 
 .. image:: https://i.imgur.com/5GUCriq.gif
 
@@ -61,7 +61,7 @@ Here are the details for the settings of each tab.
   * **Yes**: Show all the attributes and options even the product is currently out of stock. 
   * **No**: Hide all the attributes and options of the product which is currently out of stock.
 
-* In **Product Count** With this feature, there will have a number which is displayed next to the filter. This number allows the shoppers to know how many items which is matched the filter. For example: If the filter is displayed: **Cotton(2)**, that means there are 2 items which are matched the filter *Cotton*.
+* In **Product Count** field: With this feature, there will have a number which is displayed next to the filter. This number allows the shoppers to know how many items which is matched the filter. For example: If the filter is displayed: **Cotton(2)**, that means there are 2 items which are matched the filter **Cotton**.
 
 .. image:: https://i.imgur.com/ZfTnGp2.jpg
 
@@ -92,7 +92,7 @@ Here are the details for the settings of each tab.
 * In **Apply Filter button** field:
 
   * The `Apply Filter` button allows the shoppers to choose when to apply the chosen filters. With this button, the shoppers don't need to wait for the page to reload again and again each time they choose a filter.
-  * In ``Add Apply Filter button`` field, set **Yes** to show the button and leave **No** to disable. 
+  * In **Add Apply Filter button** field, set "Yes" to show the button and leave "No" to disable. 
   * Here is how the ``Apply Filter`` button works, you can choose lots of attribute before applying it.  Also, SEO friendly URL is compatible with ``Apply Filter``'s search result. As you can the this example chose *Insulated* and *Cold*, and name of those attributes appears on the URL as well.
 
 .. image:: https://imgur.com/Ve8nGAA.gif
@@ -104,7 +104,7 @@ Here are the details for the settings of each tab.
 
 * In **Show Navigation** field
 
-  * By default, the `Vertical & Horizontal Navigation` feature has 3 display styles so `Mageplaza Layered Navigation`_() can match to any store design with different purposes.
+  * By default, the Vertical & Horizontal Navigation feature has 3 display styles so `Mageplaza Layered Navigation`_() can match to any store design with different purposes.
   * In the **Show Navigation** field, choose 1 of 3 options below :
 
     * Vertical
@@ -117,7 +117,7 @@ Here are the details for the settings of each tab.
 2.1. Product State Filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-The `Product State Filter`feature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the `Product State Filter` configuration will be displayed: 
+The Product State Filterfeature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the Product State Filter configuration will be displayed: 
 
 .. image:: https://i.imgur.com/qFiyMCO.jpg
 
@@ -131,7 +131,7 @@ The `Product State Filter`feature allows the shoppers to filter the items by the
 
 This feature allows the shoppers can filter the items by the rating follows 5 levels from 1 star to 5 stars. For example: when you choose the option **4 stars and up**, the received result will display the items which have the 4-star and 5-star rating.
 
-The Rating Filter configuration is available under the `Filter Configuration` tab.
+The Rating Filter configuration is available under the **Filter Configuration** tab.
 
 .. image:: https://imgur.com/n1patLV.jpg
 
@@ -153,7 +153,7 @@ The Rating Filter configuration is available under the `Filter Configuration` ta
 
 .. image:: https://i.imgur.com/Ma1rtJG.jpg
 
-The `Slider type` field allows you to choose the type of the Price Slider. There are 5 options to choose: 
+The **Slider type** field allows you to choose the type of the Price Slider. There are 5 options to choose: 
 
 * Default
 
@@ -184,24 +184,24 @@ The `Slider type` field allows you to choose the type of the Price Slider. There
 4. Custom Products Pages
 ------------------------------
 
-By enabling `All products page` feature, all of your items will be displayed in only 1 pages with the advanced filtering. That allows the shoppers don't need to find the exact categories page to filter the desired items.
+By enabling **All products page** feature, all of your items will be displayed in only 1 pages with the advanced filtering. That allows the shoppers don't need to find the exact categories page to filter the desired items.
 
 Besides, Mageplaza also provides the SEO config to improve the page's ranking on the search engine result pages.
 
-The `All products page` configuration is available under ``Admin Panel > Mageplaza > Layered Navigation: Custom Products Pages``. Choose a product page to edit.
+The **All products page** configuration is available under ``Admin Panel > Mageplaza > Layered Navigation: Custom Products Pages``. Choose a product page to edit.
 
 .. image:: https://i.imgur.com/42MohHC.jpg
 
 4.1 SEO 
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-After choosing a specific Product page, choose `Page Information` scroll down to see some configuarable SEO's metadatas. In this section, you can config the SEO attribute for the all products page to have the best SEO performance. There are 4 fields: 
+After choosing a specific Product page, choose **Page Information** scroll down to see some configuarable SEO's metadatas. In this section, you can configure the SEO attribute for the all products page to have the best SEO performance. There are 4 fields: 
 
 .. image:: https://i.imgur.com/IyKfK1o.jpg
 
 * Page URL
 
-    *For example*: If you insert '**products**', the `All products page URL` will be: *yourstore.com/products*
+    *For example*: If you insert '**products**', the All products page's URL will be: *yourstore.com/products*
 
 * Meta title 
 * Meta keywords
@@ -210,7 +210,7 @@ After choosing a specific Product page, choose `Page Information` scroll down to
 4.2 Default Attribute
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-The `Default Attribute` allows you set the default attribute for the all products page. That means when the shoppers open the all products page, you can decide which products will be displayed first. For example: If you set the option *Black* of the attribute *Color* as the **Default Attribute**, the items which have Black color will be displayed first when the shoppers go to the All products page.
+**Default Attribute** allows you set the default attribute for the all products page. That means when the shoppers open the all products page, you can decide which products will be displayed first. For example: If you set the option *Black* of the attribute *Color* as the **Default Attribute**, the items which have Black color will be displayed first when the shoppers go to the All products page.
 
   * Default attribute: Insert the keywords to have a suggest attribute list. 
   * Default option: Depend on the attribute was selected above, the Default option will appear and allow you to choose from the existing list.
@@ -230,17 +230,18 @@ Example of a specific attribution and its configuration in detail
 .. image:: https://i.imgur.com/kJYk1Oh.jpg
 
 * In **Use in ProductsPage Navigation** field: choose the possibility of being displayed on Layered Navigation or not
-* In **Use in Search Results ProductsPage Navigation**: choose the possibility of being filtered by Layered Navigation or not.
+* In **Use in Search Results ProductsPage Navigation** field: choose the possibility of being filtered by Layered Navigation or not.
 * In **Position** field: The attribute has bigger posistion will be placed lower. 0 to set it in default as Magento 2's principle.
-* **Allow Multiple Filter** : By choose **Yes**, the shoppers are able to filter by multi-option in this group attribute. For example: You can allow the shoppers to choose more than 1 filter in `Color` group attribute but only can choose 1 filter in `Style` group attribute.   
-* **Display Style** : Choose the display style of the group attribute. The specific design for each style is mentioned in the *next section*.    
-* **Enable search option** : Choose to enable/ disable the **Quick Lookup Option** in this attribute group.
-* **Expand by default** : Choose to automatically expand this attribute group or not when the shoppers go to the collection page.
+* In **Allow Multiple Filter** field : By choose **Yes**, the shoppers are able to filter by multi-option in this group attribute. For example: You can allow the shoppers to choose more than 1 filter in `Color` group attribute but only can choose 1 filter in `Style` group attribute.   
+* In **Display Style** field: Choose the display style of the group attribute. The specific design for each style is mentioned in the *next section*.    
+* In **Enable search option** field: Choose to enable/ disable the **Quick Lookup Option** in this attribute group.
+* In **Expand by default** field: Choose to automatically expand this attribute group or not when the shoppers go to the collection page.
 
 5.2 Filter by decimal attributes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Layered Navigation also allows store owner can set up and visitor can filter decimal attributes. 
+
 * In the ``Attribute Information > Properties > Advanced Attribute Properties > Input Validation for Store Owner``, choose **Decimal Number** or **Intergal Number** to set your optional attribute.
 
 .. image:: https://imgur.com/Z4txesm.jpg
@@ -248,12 +249,12 @@ Layered Navigation also allows store owner can set up and visitor can filter dec
 * Follow ``Attribute Information > ProductsPage Navigation Properties``
 
   * In **Use in ProductsPage Navigation** field choose *Filterable (with results)*
-  * In **Use in Search Results ProductsPage Navigation** choose *Yes* 
-  * In **Display Style** choose your preferred style as *Slider*, *Range* or *Slider and Range*
+  * In **Use in Search Results ProductsPage Navigation** field choose *Yes* 
+  * In **Display Style** field choose your preferred style as *Slider*, *Range* or *Slider and Range*
 
 .. image:: https://imgur.com/XmNmCJR.jpg
 
-For example with **Weight** option for which product has weight as 15 lb. In the frontend the search result can be filtered like: 
+For example with the **Weight** option for which product has weight as 15 lb. On the frontend, the search result can be filtered like: 
 
 .. image:: https://imgur.com/mHR1l4E.jpg
 
