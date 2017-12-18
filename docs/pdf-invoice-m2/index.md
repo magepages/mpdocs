@@ -66,7 +66,7 @@ Keep going from ``Mageplaza > PDF Invoice: Configuration > General Configuration
 
 ![i38](https://i.imgur.com/9y68kxc.png)
 
-* In ** Heading Color** field:
+* In **Heading Color** field:
   * You're able to customized color of heading in the PDF file
   * If you leave it blank, the color of heading will be white.
   * When you print the PDF in the backend, the color of heading will be the selected color in ``Store View > Default Config``. While when you print the PDF in the frontend or send an email with a PDF attachment, the heading Color will display according to the configuration of that store.
