@@ -108,8 +108,20 @@ Here are the details for the settings of each tab.
   * In the **Show Navigation** field, choose 1 of 3 options below :
 
     * Vertical
+
+.. image:: https://i.imgur.com/wczXjJG.jpg
+ 
+*  
+  *  
     * Horizontal
+    
+.. image:: https://i.imgur.com/Q0gXzKp.jpg    
+    
+*
+  *
     * Both
+    
+.. image:: https://i.imgur.com/KemUMvJ.jpg    
 
 2. Additional Filter 
 ------------------------------
