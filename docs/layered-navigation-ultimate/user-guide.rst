@@ -24,7 +24,7 @@ The Configuration is available under `Admin Panel > Mageplaza > Layered Navigati
 * General configuration
 * Filter configuration
 * Design configuration
-* All Products page
+* Custom Products pages
 
 Here are the details for the settings of each tab.
 
@@ -184,36 +184,40 @@ The **Slider type** field allows you to choose the type of the Price Slider. The
 4. Custom Products Pages
 ------------------------------
 
-By enabling **All products page** feature, all of your items will be displayed in only 1 pages with the advanced filtering. That allows the shoppers don't need to find the exact categories page to filter the desired items.
+By enabling **Custom products page** feature, all of your items will be displayed in only 1 pages with the advanced filtering. That allows the shoppers don't need to find the exact categories page to filter the desired items.
 
 Besides, Mageplaza also provides the SEO config to improve the page's ranking on the search engine result pages.
 
-The **All products page** configuration is available under ``Admin Panel > Mageplaza > Layered Navigation: Custom Products Pages``. Choose a product page to edit.
+The **Custom products page** configuration is available under ``Admin Panel > Mageplaza > Layered Navigation: Custom Products Pages``. Choose a product page to edit.
 
 .. image:: https://i.imgur.com/42MohHC.jpg
 
-4.1 SEO 
+4.1 Page Information 
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-After choosing a specific Product page, choose **Page Information** scroll down to see some configuarable SEO's metadatas. In this section, you can configure the SEO attribute for the all products page to have the best SEO performance. There are 4 fields: 
+After choosing/creating a specific Product page, choose **Page Information** scroll down to see some essential information:
 
-.. image:: https://i.imgur.com/IyKfK1o.jpg
+.. image:: https://i.imgur.com/GXaRwE2.jpg
 
-* Page URL
+* In **Name** field: Enter the name of the custom page in the backend.
+* In **Page Title** field: Enter the name of the custom page in the frontend.
+* In **URL key** field: Enter the characters you want to display in the URLs. *For example*: If you insert '**products**', the All products page's URL will be: *yourstore.com/products*
+* In **Store View** field: Choose specific store views you want to display
+* In **Status** field: You can enable/disable the custom product page.
+* In **Link Position** field: choose the position of the link.
 
-    *For example*: If you insert '**products**', the All products page's URL will be: *yourstore.com/products*
+In addtion, you can configure the SEO attribute for the all products page to have the best SEO performance. There are 4 fields: 
 
-* Meta title 
-* Meta keywords
-* Meta description 
+* In **Meta title** field: Enter the meta tittle for the custom product page.
+* In **Meta keywords** field: Enter the meta keyword for the custom product page.
+* In **Meta description** field: Enter the meta descripton for the custom product page. 
 
-4.2 Default Attribute
+4.2 Default Attributes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-**Default Attribute** allows you set the default attribute for the all products page. That means when the shoppers open the all products page, you can decide which products will be displayed first. For example: If you set the option *Black* of the attribute *Color* as the **Default Attribute**, the items which have Black color will be displayed first when the shoppers go to the All products page.
+**Default Attributes** allows you set the default attribute for the all products page. That means when the shoppers open the all products page, you can decide which products will be displayed first. 
 
-  * Default attribute: Insert the keywords to have a suggest attribute list. 
-  * Default option: Depend on the attribute was selected above, the Default option will appear and allow you to choose from the existing list.
+*For example* : If you set the option *Cool* and *Cold* of the attribute *Climate* as the **Default Attributes**, the items which have *Cool* and *Cold* will be displayed first when the shoppers go to the Custom Product Pages
 
 .. image:: https://i.imgur.com/fsv0Qqw.jpg
 
