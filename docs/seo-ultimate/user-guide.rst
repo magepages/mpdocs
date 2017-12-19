@@ -95,7 +95,7 @@ Then, expand **Search Engine Optimization** tab.
 This field allows the users can edit and see visually how the structured data will be displayed in the Search Engine Result Pages. 
 
 * Add the **Meta Title**.
-* Add the **URL Key**`.
+* Add the **URL Key**.
 * Insert the **Meta Description**.
 
 Below the `Meta Title` and `Meta Description` field, there is a bar which notices the status of the text length. 
@@ -218,6 +218,9 @@ Editing template rule form is the same with creating a new one. At ``Mageplaza >
 
 III. Checklist
 ******
+
+Follow ``Mageplaza > SEO: Checklist``
+
 SEO Checklist includes a list of the notifications: Success, Error, and Warning. Based on this status of the notification, you will know whether your store is optimized and ready for SEO or not. 
 
 .. image:: https://i.imgur.com/XA0q07I.gif
