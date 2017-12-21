@@ -486,7 +486,7 @@ The general path to manage all modules is ``Mageplaza > Gift Card: Manage Gift C
 ### VI. How to create a Gift Card Product
 To create a new Gift Card Product, follow this link when you’re in store’s backend ``Product > Catalog > Add New Product > Gift Card Product``
 
-![GC46](https://i.imgur.com/ATrsXZb.gifv)
+![GC46](https://i.imgur.com/ATrsXZb.gif)
 
 After filling in all required information of a Gift Card Product such as Name, SKU, Qty and Category (Gift Card), admins need to choose **Gift Card Information** to create a Gift Card Product.
 * **Gift Code Pattern**: admins can change the configured Code Pattern as you wish. When customers buy a gift card product containing this gift code, the product will have the form according to the pattern with the one admin used.
