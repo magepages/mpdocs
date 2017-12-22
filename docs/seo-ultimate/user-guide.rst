@@ -129,7 +129,7 @@ Dashboard Reports will gather and notice you all negative factors are harmful to
 
 .. image:: https://i.imgur.com/rQ2T8iG.jpg
 
-* In **Enable/Disable**field: If you want to enable this function, choose “Yes” for the module.
+* In **Enable/Disable** field: If you want to enable this function, choose “Yes” for the module.
 * In **Apply name duplicate report content** field: If you enable Dashboard Reports, this module will be added and you can be allowed to configure it now. Select a page you want to apply name duplicate report content (such as product names, category names, page titles)
 
 A new report system will be displayed at the dashboard of your admin backend which is obviously useful for daily checkings. This helpful friend will help you keep track of these pages:
