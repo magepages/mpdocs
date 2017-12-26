@@ -2,7 +2,7 @@
 
 ## Overview
 
-Duplicate content can strike fears in SEO executor painfully, not only flagged the duplicate content as spam post, but also search engine note that pages as a untrustable subject. SEO doesn’t like this.
+Duplicate content can strike fears in SEO executor painfully, not only flagging the duplicate content as spam posts, but also search engine note that pages as a untrustable subject. SEO doesn’t like this.
 
 Metadata posses a critical role in elaborating content of a product. A coherent content for the good SEO progress should include some in-point metadata like Meta Title, Meta Description and Meta Keywords. SEO likes this.
 
