@@ -39,7 +39,7 @@ Refer Friend Page
 
 Affiliate module by Mageplaza allows affiliate refer friends via referral url, code and email. 
 
-.. image:: https://cdn.mageplaza.com/media/general/lK7jjYE.png
+.. image:: https://i.imgur.com/QPl1OEz.png
 
 Just insert friends' email address together with message to send invitation instantly on Refer Friend page.
 
