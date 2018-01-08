@@ -34,7 +34,7 @@ Welcome to Mageplaza Docs
    seo-rules-m2/index
    seo-sitemap-m2/index
    social-login-m2/index
-   pdf-invoice/index
+   pdf-invoice-m2/index
    blog-m2/index
    smtp/index
    affiliate-m2/index
