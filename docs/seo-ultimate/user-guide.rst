@@ -165,6 +165,7 @@ To add a new rule, please follow the path ``Mageplaza > SEO: Rules``, click on `
 * Layered Navigation 
 
 **Note**: There existed ``Default: Layered Navigation in the Rule Management``. This rule's function is for fixing filtered result's title like this below screenshot. It can't be eliminated. However, you can Enable/Disable or modify the rule as your favor. 
+
 .. image:: https://i.imgur.com/kgZfntk.png 
 
 In this below guide, let’s take a try with the **Product Pages**
