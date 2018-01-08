@@ -17,36 +17,42 @@ Step 2
 
 Select Add a New App from the Apps menu at the top
 
-.. image:: https://cdn.mageplaza.com/media/general/njp5g6n.png
+.. image:: https://i.imgur.com/dGlMBxZ.png
 
 Step 3
 --------
 Then, a popup will display. Fill out Display name for your app.
 
-.. image:: https://cdn.mageplaza.com/media/general/EqgtaSS.png
+.. image:: https://i.imgur.com/JK7DxLi.png
+
+Enter the securuty code before creating a new Facebook API
+
+.. image:: https://i.imgur.com/CsyC05w.png
 
 Step 4
 ----------
 
 Go to Settings page and click on Add Platform. Then, choose Website
 
-.. image:: https://cdn.mageplaza.com/media/general/dJemFXg.png
+.. image:: https://i.imgur.com/1BoQRSG.png
 
-Next, enter the url in App Domains and Site URL fields. They should match with the current hostname *example.com*.
+Next, enter the url in App Domains, Site URL and URL Privacy Policy fields. They should match with the current hostname *example.com*.
+
+.. image:: https://i.imgur.com/y5ByLgN.png
 
 Step 5
 ---------
 
 Go to the Review page and choose YES to make the app to be public.
 
-.. image:: https://cdn.mageplaza.com/media/general/59tkUl1.png
+.. image:: https://i.imgur.com/TsWdj5q.png
 
 Step 6
 ----------
 
 Go back to the Settings page. The created application credentials (APP ID and Secret) will be shown like the image below.
 
-.. image:: https://cdn.mageplaza.com/media/general/QP75QVh.png
+.. image:: https://i.imgur.com/NPC9fIe.png
 
 Step 7
 ----------
@@ -69,7 +75,7 @@ Step 8
 
 Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
 
-.. image:: https://cdn.mageplaza.com/media/general/h9NsDFJ.png
+.. image:: https://i.imgur.com/AyXkJwc.png
 
 
 And that's it!
