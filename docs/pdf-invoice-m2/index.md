@@ -226,7 +226,7 @@ Keep going from ``Mageplaza > PDF Invoice: Configuration > General Configuration
 *In massAction*
 ![i48](https://i.imgur.com/kEuqoH3.png)
 
-* In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
+* In **Note** field: This is the place where you enter your note for the Order. HTML code can be used in here.
 
 #### 1.6. Credit Memo
 
