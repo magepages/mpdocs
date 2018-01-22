@@ -74,7 +74,7 @@ Keep going from ``Mageplaza > PDF Invoice: Configuration > General Configuration
   * Choose "Yes" to display page numbers at the end of the PDF document.
   * Check **Use system value** to set "Show Page Number = Yes" as default.
   * Please note that:
-    * When you configure it in ``Store View > Default Config`, the page number is displayed/hidden when you print the PDF in the backend and when you preview the template.
+    * When you configure it in ``Store View > Default Config``, the page number is displayed/hidden when you print the PDF in the backend and when you preview the template.
     * When you configure the store, the number of pages is displayed/hidden when you print the PDF outside of the frontend and in the PDF attached to the email.
     * Specifically, when you print multiple PDFs at the same time, displaying the page number at the bottom of each PDF is the default.
 * In **Page Size** field:
@@ -207,7 +207,7 @@ Keep going from ``Mageplaza > PDF Invoice: Configuration > General Configuration
 * 
   *
     * 
-      * **Show Custom Print Button = Custom PDF**: This won’t display ``Print PDF Order`` button. The ``Print PDF Shipment** button will be combinated with ``Print`` button by Magento 2. When admins click ``Print`` of the Shipment (in the backend) or customers click ``Print Shipment`` (``My account > My Order`` of the frontend),  the designed PDF template will be downloaded automatically. 
+      * **Show Custom Print Button = Custom PDF**: This won’t display ``Print PDF Order`` button. The ``Print PDF Shipment`` button will be combinated with ``Print`` button by Magento 2. When admins click ``Print`` of the Shipment (in the backend) or customers click ``Print Shipment`` (``My account > My Order`` of the frontend),  the designed PDF template will be downloaded automatically. 
 
 *Frontend*: 
 ![i19](https://i.imgur.com/VTbBJq0.png)
