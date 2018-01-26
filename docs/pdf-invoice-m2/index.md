@@ -300,7 +300,7 @@ For example, if you choose to create an “Order” template, the design form wi
     * If you don’t choose a template form, the default template will be “Template = Template 1”.
   * **Load Template**: The selected template’s code will be displayed automatically in the below HTML box.
 
-![i33]https://i.imgur.com/j3aOYN8.png) 
+![i33](https://i.imgur.com/j3aOYN8.png) 
 
 * In **Template Information** field:
   * **Currently Used for**: Click the **PDF Invoice** link to direct to the configuration section.
