@@ -1,7 +1,7 @@
 Overview
 #####
 
-Updating Blog regularly is one of the effective content marketing strategy in the present eCommerce marketplace. This activity will draw the more interactive website and drive your website more attractive to the visitors. `Magento 2 Blog<https://www.mageplaza.com/magento-2-blog-extension/>`_ extension by Mageplaza, you will get an impressive chance to provide the latest news about your store, upcoming products, promotions, and get customers’ feedback in easy and simple way. 
+Updating Blog regularly is one of the effective content marketing strategy in the present eCommerce marketplace. This activity will draw the more interactive website and drive your website more attractive to the visitors. `Magento 2 Blog <https://www.mageplaza.com/magento-2-blog-extension/>`_ extension by Mageplaza, you will get an impressive chance to provide the latest news about your store, upcoming products, promotions, and get customers’ feedback in easy and simple way. 
 
 How to Configure
 #####
@@ -124,7 +124,7 @@ Open Comments section, set a comment type with one of the following options.
 
 * 
   
-  * In **AppID** field: Admins need to create a Facebook App to get the AppID to fill this field. You can refer more in `here<https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_
+  * In **AppID** field: Admins need to create a Facebook App to get the AppID to fill this field. You can refer more in `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_
   * In **Facebook: Number of Comment**field: This limits the number of comment displaying on the Post View Page. If you leave it blank, it will show all available comments.
   * In **Facebook: Color Scheme** field: Choose the color which display commenter’s information.
   * In **Facebook: Order by** field: Choose the arrangement for comment displaying.
@@ -166,7 +166,7 @@ You can configure the meta that is useful for your better SEO
 
 Open **Social** section:
 * In **Enable** field: Enable social buttons on the blog page
-* In the **PubId** field, insert ID for Share buttons that get from `https://addthis.com<https://www.addthis.com/>`_.
+* In the **PubId** field, insert ID for Share buttons that get from `https://addthis.com <https://www.addthis.com/>`_.
 
 In Social share session, we use Addthis.com to add more than 200 share buttons, and display only 4 most popular share buttons. You can custom these buttons by add your own Addthis Pub-id
 
