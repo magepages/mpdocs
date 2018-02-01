@@ -1,16 +1,16 @@
 Overview
-#####
+=====
 
 Updating Blog regularly is one of the effective content marketing strategy in the present eCommerce marketplace. This activity will draw the more interactive website and drive your website more attractive to the visitors. `Magento 2 Blog <https://www.mageplaza.com/magento-2-blog-extension/>`_ extension by Mageplaza, you will get an impressive chance to provide the latest news about your store, upcoming products, promotions, and get customers’ feedback in easy and simple way. 
 
 How to Configure
-#####
+=====
 
 I.  Configuration
-*****
+-----
 
 1.1. General Configuration 
-=====
+^^^^^
 
 Login to Magento Admin, ``Mageplaza > Better Blog: Configuration``. Open **General** section
 
@@ -47,12 +47,12 @@ Login to Magento Admin, ``Mageplaza > Better Blog: Configuration``. Open **Gener
 * In **Choose Blog’s Color** field: Pick up a color for your blog’s text.
 
 1.2. Related Products Content 
-=====
+^^^^^
 
 When open **Related Products Content** section, there will be two sub-section parts.
 
 1.2.1. Product Detail Page
------
+"""""
 
 Product Detail Page contain posts can be added to Related Products to display in Post View Page. The selected products will recognize those posts are Related Posts and display them on the Product Detail Page.
 
@@ -64,7 +64,7 @@ Product Detail Page contain posts can be added to Related Products to display in
 .. image:: https://i.imgur.com/d2M3n70.png
 
 1.2.2. Post View Page
------
+"""""
 
 .. image:: https://i.imgur.com/ngwFt7z.png
 
@@ -73,12 +73,12 @@ Product Detail Page contain posts can be added to Related Products to display in
 * In **Title of Related Products** field: Name the title of the block which contains related products. If you leave it blank, the default name is “Related Products”
 
 1.3. Sidebar 
-=====
+^^^^^
 
 Expand **Sidebar** section, there will be two sub-section parts.
 
 1.3.1. Sidebar
------
+"""""
 
 .. image:: https://i.imgur.com/MCuYMHp.png
 
@@ -87,7 +87,7 @@ Expand **Sidebar** section, there will be two sub-section parts.
 * In **Sidebar Location**: Select Left/Right for the location of the sidebar.
 
 1.3.2. Search
------
+"""""
   
 .. image:: https://i.imgur.com/BcgfRcD.png
 
@@ -98,7 +98,7 @@ Expand **Sidebar** section, there will be two sub-section parts.
 * In **Description length** field: Limit the length of the short description can show along with found posts. If you leave it blank, the short description will not display.
 
 1.4. Monthly Archive 
-=====
+^^^^^
  
 Monthly Archive helps to summary the number of post published for each month. Open **Monthly Archive** section.
 
@@ -109,7 +109,7 @@ Monthly Archive helps to summary the number of post published for each month. Op
 * In **Type of Datetime** field: Choose your favourite format of the date. We offer 4 types of month/year displays.
 
 1.5. Comments
-=====
+^^^^^
 
 .. image:: https://i.imgur.com/bOPNtPt.png
 
@@ -134,12 +134,12 @@ Open Comments section, set a comment type with one of the following options.
 * **Disable Completely**: choose this type if you don’t want to display comments.
 
 1.6. SEO
-=====
+^^^^^
 
 Open **SEO** section, there will be 2 additional sub section in this part.
 
 1.6.1. SEO
------
+"""""
 
 .. image:: https://i.imgur.com/tQBi2Fh.png
 
@@ -151,7 +151,7 @@ You can configure the meta that is useful for your better SEO
 * **Meta Robots**: Set Meta Robots for posts list page
 
 1.6.2. Article Snippet
------
+"""""
 
 .. image:: https://i.imgur.com/8JzIDPv.png
 
@@ -160,7 +160,7 @@ You can configure the meta that is useful for your better SEO
 * In **Logo** field: Upload your logo.
 
 1.7. Social Sharing
-=====
+^^^^^
 
 .. image:: https://i.imgur.com/M2168rJ.png
 
@@ -173,13 +173,13 @@ In Social share session, we use Addthis.com to add more than 200 share buttons, 
 Click on ``Save Config`` when complete.
 
 II.  Create New Post
-*****
+-----
 
 * Step 1: Complete the post information
 * Step 2: Assign Products to the post
 
 2.1. Complete the post information
-===== 
+^^^^^ 
 
 * Login to Magento Admin, follow ``Mageplaza > Better Blog: Manage Posts``.
 
@@ -208,7 +208,7 @@ II.  Create New Post
 * Tap ``Save and Continue Edit`` at the header
 
 2.2. Assign Products to the post
-===== 
+^^^^^ 
 
 * You can do it when you create a new post in the Products tab, or go to Posts tab
 * In the list of the available posts, mark the checkbox that is next to the products you want to assign
@@ -218,7 +218,8 @@ II.  Create New Post
 * Tap ``Save and Continue Edit``, then hit ``Save Post`` to finish.
 
 III.  Create New Tag
-*****
+-----
+
 * Login to Magento Admin, follow ``Mageplaza > Better Blog: Manage Tags``
 
 .. image:: https://i.imgur.com/MYmQMKN.gif
@@ -239,7 +240,7 @@ III.  Create New Tag
 * Click on ``Save Tag`` when complete.
 
 IV.  Create New Topic
-*****
+-----
 
 * Login to Magento Admin, follow ``Mageplaza > Better Blog: Manage Topics``
 
@@ -261,7 +262,7 @@ IV.  Create New Topic
 * Click on ``Save Topic`` when complete.
 
 V.  Create New Category
-*****
+-----
 
 * Login to Magento Admin, follow ``Mageplaza > Better Blog: Categories``
 
@@ -283,7 +284,7 @@ V.  Create New Category
 * Click on ``Save Category`` when complete.
 
 VI. Author Information
-*****
+-----
 
 * Login to Magento Admin, ``Mageplaza > Better Blog: Author Information``
 
@@ -296,7 +297,7 @@ VI. Author Information
 * Enter Facebook link and Twitter if you want
 
 VII. Manage Comments
-*****
+-----
 
 Follow the path after logging in the backend ``Mageplaza > Better Blog: Manage Comments``
 
@@ -312,7 +313,8 @@ Follow the path after logging in the backend ``Mageplaza > Better Blog: Manage C
   * **View on Frontend**: link of the post on the frontend.
 
 VIII. Create new Widget
-*****
+-----
+
 Widget is an awesome functionality you can insert to the CMS page from Magento 2 Configuration because it can be considered as a predefined set of configuration options. In the widget, you can add links that navigate directly to any content page, category, or product as you need.
 
 In Magento 2 Better Blog extension, you can add a widget in which shows Related blog posts, Lastest blog post, etc. Follow this instruction to learn how to create a new widget to enrich your content immdiately.
