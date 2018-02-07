@@ -27,12 +27,6 @@ Welcome to Mageplaza Docs
    seo-m2/index
    seo-pro/index
    seo-ultimate/index
-   seo-analysis-m2/index
-   seo-crosslinks-m2/index
-   seo-dashboard-report-m2/index
-   seo-redirect-m2/index
-   seo-rules-m2/index
-   seo-sitemap-m2/index
    social-login-m2/index
    pdf-invoice-m2/index
    blog-m2/index
