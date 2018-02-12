@@ -36,10 +36,13 @@ If your site content has the same article with others, the search engines will u
 .. image:: https://i.imgur.com/5kNGITM.png
 
 * In **Enable Product Structured Data** field:
+  
   * Select "Yes" to display the basic information of products when they are searched by search engines.
   * By this intuitive design, Product Structured Data will increase click through rate (CTR) drastically. Thus, products from your store will be ranked higher on search results.
   * You can check Product Structure Data at the Page Source of Product Detail Page. Structure Data will mirror exactly as the basic information of that product.
+
 * In **Enable Sitelinks Searchbox** field:
+  
   * Select "Yes" to display your store's Searchbox on the Sitelinks. As soon as your store displays on the search results, your store searchbox will also display with the store's link.
   * You can test the code in Page Source of Homepage.
 
