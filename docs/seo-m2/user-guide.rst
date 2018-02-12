@@ -30,7 +30,7 @@ If your site content has the same article with others, the search engines will u
 
 .. image:: https://i.imgur.com/5fqHgqY.png
 
-2.3. Structure Data
+1.3. Structure Data
 -----
 
 .. image:: https://i.imgur.com/5kNGITM.png
@@ -46,7 +46,7 @@ If your site content has the same article with others, the search engines will u
   * Select "Yes" to display your store's Searchbox on the Sitelinks. As soon as your store displays on the search results, your store searchbox will also display with the store's link.
   * You can test the code in Page Source of Homepage.
 
-2.4. Business Information
+1.4. Business Information
 -----
 
 .. image:: https://i.imgur.com/pLWFVE5.png
@@ -55,7 +55,7 @@ If your site content has the same article with others, the search engines will u
 * When you leave any field blank, the information for that field will not display.
 * You can test the code in Page Source of Homepage.
 
-2.5. Social Profiles 
+1.5. Social Profiles 
 -----
 
 .. image:: https://i.imgur.com/35Y5jdw.png
@@ -66,7 +66,7 @@ If your site content has the same article with others, the search engines will u
 * When the searcher clicks on one of your social links, they will be redirected to that social page of your store.
 * You can test the code in Page Source of Homepage
 
-2.6. Verifications
+1.6. Verifications
 -----
 
 In the **Verification** field, you need to enter the verification code to confirm the ownership of your site. Hence, you can use the Web services such as Google Search Console, Bing Webmaster Tools, Pinterest and Yandex Webmaster Tools.
