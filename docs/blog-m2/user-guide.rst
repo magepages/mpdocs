@@ -125,7 +125,7 @@ Open Comments section, set a comment type with one of the following options.
 * 
   
   * In **AppID** field: Admins need to create a Facebook App to get the AppID to fill this field. You can refer more in `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_
-  * In **Facebook: Number of Comment**field: This limits the number of comment displaying on the Post View Page. If you leave it blank, it will show all available comments.
+  * In **Facebook: Number of Comment** field: This limits the number of comment displaying on the Post View Page. If you leave it blank, it will show all available comments.
   * In **Facebook: Color Scheme** field: Choose the color which display commenter’s information.
   * In **Facebook: Order by** field: Choose the arrangement for comment displaying.
     * **Social**: The comment which has more like(s) will display from the top.
