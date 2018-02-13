@@ -80,7 +80,7 @@ In the **Verification** field, you need to enter the verification code to confir
 
 II. SEO Tools 
 ******
-This add-on tool will assist SEO extension in assessing and marking which and how to perform the structured data at the best for SEO progress. You can have an intuitive look for the SEO analysis at the Product Page, Category Page and CMS Page.
+This add-on tool will assist SEO extension in assessing and marking which and how to perform the structured data at the best for SEO progress. You can have a general review for the SEO analysis at the Product Page, Category Page and CMS Page.
 
 For example with a product:
 
