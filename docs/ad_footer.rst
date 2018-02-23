@@ -4,12 +4,14 @@
 
 	#. `One Step Checkout`_
 	#. `Layered Navigation`_
+	#. `PDF Invoice`_ 
 	#. `Social Login`_ FREE
-	#. `Affiliate`_
+	#. `Automatic Related Products`_
 	#. `Blog`_ FREE
 	#. `Shop by brand`_
 	#. `SEO`_ FREE
-	#. `Banner Slider`_ FREE
+	#. `_SMTP`_ FREE
+	#. `_Abandoned Cart Email`_ 
 
 
 .. _One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
@@ -18,7 +20,10 @@
 .. _Blog: https://www.mageplaza.com/magento-2-blog-extension/
 .. _Shop by brand: https://www.mageplaza.com/magento-2-shop-by-brand/
 .. _Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
+.. _PDF Invoice: https://www.mageplaza.com/magento-2-pdf-invoice-extension/
 .. _SEO: https://www.mageplaza.com/magento-2-seo-extension/
 .. _Banner Slider: https://www.mageplaza.com/magento-2-banner-slider-extension/
-
+.. _Automatic Related Products: https://www.mageplaza.com/magento-2-automatic-related-products/
+.. _SMTP : https://www.mageplaza.com/magento-2-smtp/
+.. _Abandoned Cart Email : https://www.mageplaza.com/magento-2-abandoned-cart-email/
 
