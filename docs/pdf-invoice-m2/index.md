@@ -3,20 +3,13 @@
 ## Overview
 Mageplaza offers a solution to help customers easily print, download PDF Invoice, PDF Order, PDF Shipment, PDF Credit Memo quickly and easily with just a single click on the customer information page. To enhance user experience, PDF files are included in emails to customers. In addition, Mageplaza also adds the HTML edit feature so shop owners can customize their PDF files, and Preview function also allows them to take an overview look at the newly created design conveniently.
 
-```
-* This extension can be used in multiple stores.
-* Stores will be defaulted under the Default Configuration.
-* To change the configuration of each store, admins have to uncheck "Use Website" at the left of each Option.
-* Extension’s configuration in each store will be applied to the selected store.
-* Configuration of this store won’t take impact on the other store’s configuration.
-```
 
 ## How to configure
 Log in to your Magento Admin, follow the path ``Mageplaza > PDF Invoice`` 
 
 ### 1. Configuration.
 #### 1.1. General Configuration
-Keep going from ``Mageplaza > PDF Invoice: Configuration > General Configuration``, expand the section
+Keep going from ``Magepla`za > PDF Invoice: Configuration > General Configuration``, expand the section
 
 ![i2](https://i.imgur.com/p8V33ey.png)
 
@@ -343,7 +336,7 @@ When you click ``Send Email``, the sending email will be attached that PDF Order
 
 When you create Invoice, Shipment or Credit Memo, if you check the “Email Copy of Invoice”, “Email Copy of Shipment” or “Email Copy of Credit Memo” box, the sent mail will also include the PDF file.
 
-```
-* Similar to the Order section, Invoice, Shipment or Credit Memo PDF files will be attached to the sent mail, or when customer click Print button, the PDF file will be downloaded automatically.
-* With the virtual product’s Order, in the PDF Order, PDF Invoice, PDF Credit Memo, there won’t be included Shipping To, Shipping Information or Shipment Method section.
+  .. important::
+    * Similar to the Order section, Invoice, Shipment or Credit Memo PDF files will be attached to the sent mail, or when customer click Print button, the PDF file will be downloaded automatically.
+    * With the virtual product’s Order, in the PDF Order, PDF Invoice, PDF Credit Memo, there won’t be included Shipping To, Shipping Information or Shipment Method section.
 
