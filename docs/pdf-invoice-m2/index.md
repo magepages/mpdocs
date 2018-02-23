@@ -86,8 +86,8 @@ Keep going from ``Magepla`za > PDF Invoice: Configuration > General Configuratio
 * In **Select Template** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Template” to display the PDF file as in the selected template.
   * All your created templates will be displayed as a drop-down list in this section.
-  * Tick **Use system value** to use “Select Template = Template 1” as the default setting.
-* In **Note* field: This is the place where you enter your note for the Order. HTML code can be use in here.  
+  * Tick **Use system value** to use `Select Template = Template 1` as the default setting.
+* In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.  
 
 ![i4](https://i.imgur.com/CUtdV3I.png)
 
@@ -304,13 +304,13 @@ For example, if you choose to create an “Order” template, the design form wi
 
 ![i34](https://i.imgur.com/lwsjHPP.png)
 
-* 
+
   * **Edit HTML**: This section allows you generate a unique PDF form by your own idea.
   * **Preview**: After editing the PDF form, click here to have an overview glance again.
 
 ![i51](https://i.imgur.com/Wra644y.png)
 
-*  
+
   * **Link CSS**: This will direct you to a detail CSS support guide that how to learn to design by CSS properly.
   * **Link HTML Support**: Click it to direct to a detail HTML support guide which points out what HTML tags you can use to create a template.
   * **Template Style**: You can add CSS codes at here.
@@ -336,7 +336,8 @@ When you click ``Send Email``, the sending email will be attached that PDF Order
 
 When you create Invoice, Shipment or Credit Memo, if you check the “Email Copy of Invoice”, “Email Copy of Shipment” or “Email Copy of Credit Memo” box, the sent mail will also include the PDF file.
 
+
   .. important::
     * Similar to the Order section, Invoice, Shipment or Credit Memo PDF files will be attached to the sent mail, or when customer click Print button, the PDF file will be downloaded automatically.
     * With the virtual product’s Order, in the PDF Order, PDF Invoice, PDF Credit Memo, there won’t be included Shipping To, Shipping Information or Shipment Method section.
-
+    
