@@ -17,13 +17,13 @@ Customers can earn reward point(s) and use them perfectly in these following are
 #### 1.1. The checkout page
 * Customers can use their earned reward point(s) to discount the order.
 * This area also displays earning point(s) customers will receive when they place the order.
-* You can find more detail in here.
+* You can find more detail in [here](https://docs.mageplaza.com/reward-points/index.html#checkout-page).
 
 ![i1](https://i.imgur.com/jcMn2Jf.png)
 
 #### 1.2. View Cart Page (Shopping Cart)
 * Consumers can have the same entitlements like when they’re on the checkout page.
-* However, Earning Point(s) can’t be shown if admins disable the field **Display Earning Points** in Shopping Cart.
+* However, Earning Point(s) can’t be shown if admins disable the field [**Display Earning Points**](https://docs.mageplaza.com/reward-points/index.html#display-configuration) in Shopping Cart.
 * Earning Point(s) can be changed according to each of the specific **Customer Group** and **Earning Rate** which are configured in the backend.
 
 ![i2](https://i.imgur.com/ZWlo0qF.png)
@@ -156,7 +156,7 @@ This general configurations can apply for the whole module.
 ![i12](https://i.imgur.com/4gXJj5l.png)
 
 * In the **Enable** field: Choose “Yes” to active the Reward Point extension from Mageplaza. 
-* In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displaying on the frontend at ``My Account > Reward Point``.
+* In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displaying on the frontend at the [My Account > Reward Point](https://docs.mageplaza.com/reward-points/index.html#my-account-my-points-reward) section.
 * In the **Point Label** field
   * If customer balance is 0 or 1, this label will display on the frontend.
   * If you leave it blank, the default label is **Points**
