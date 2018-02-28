@@ -172,6 +172,7 @@ This general configurations can apply for the whole module.
   * JPG, PNG or GIF files are accepted. There will be an error message if the input file is invalid.
   * If you leave it blank, the default icon will be used ![icon](https://i.imgur.com/fTGtFo4.png).
 * In the **Maximum Available Point Balance** field
+
   * Set the maximum number of point(s) that the customer can accumulate by purchasing.
   * If customer's account balance reaches to this number, there will be no more points awarded to the balance, and reward point(s) indicators will not be shown on the frontend.
   * Admins can add point(s) to an account balance with no awareness of this value.
