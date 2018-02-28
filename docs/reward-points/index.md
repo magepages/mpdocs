@@ -3,7 +3,7 @@
 ## Overview
 Nowadays, the perfect measure of success in e-commerce market is how many loyal customers who frequently place orders you have instead of those who create single purchase at your store. So any ideas to increase the interaction between customers and store owners to establish the great consumption cycle on your website?
 
-Magento 2 Reward Points extension will allow earning unlimited reward points as well as use them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
+[Magento 2 Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/) extension will allow earning unlimited reward points as well as use them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
 
 ```
 The Reward Points system does not apply for guest customers.
@@ -253,17 +253,17 @@ This displays general configurations regarding earning point(s)
 * In the **Enable Notification Email** field: Select “Yes” to allow notification emails to be sent to customers.
 * In the **Sender Email** field: Admins can choose one of 5 available Magento Sender: General Contact, Sales Representative, Customer Support, Customer Email 1, Customer Email 2
 * In the **Update Point Balance Email Template** field
-  * Pre-installed email configuration that customers can receive the notification mail when their reward point(s) changes the balance.
+  * There is pre-installed email configuration that customers can receive the notification mail when their reward point(s) changes the balance.
   * To change **Email Template**, admins can create another one under ``Marketing > Email Template``.
   * How to create a new Email Template guide can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
-* In the **Point expires Email Template** field:
-  * Pre-installed email configuration that customers can receive the notification mail when their reward point(s) is about to expire.
+* In the **Point expires Email Template** field
+  * There is pre-installed email configuration that customers can receive the notification mail when their reward point(s) is about to expire.
   * To change the Gift Card Email template, admins can create another one under ``Marketing > Email Template``.
   * How to create a new Email Template guide can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
 * In the **Send email reminder before a transaction expires** field
   * Set how many day(s) the email can sent before a transaction is about to expire.
   * If you leave the field blank or 0, reminder email will not be sent.
-* In the **Subscribe customers by default** field: When a new customer subscribes to a store, their Reward Points Notification ignores email notifications in default. Select “Yes” in this section so that when their first transaction is made (they purchase or by the admin), Reward Points Notification is checked immediately.
+* In the **Subscribe customers by default** field: When a new customer subscribes to a store, their Reward Points Notification function ignores email notifications in default. Select “Yes” in this section so that when their first transaction is made (by themselves or by the admin), Reward Points Notification is checked automatically.
 
 ### V. Manage Reward Point of Customer
 
