@@ -53,11 +53,11 @@ User-defined variables
 
 
 
-Product Page product_view
+Product Page `catalog_product_view`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
-```
+~~~
 ecommerce.currencyCode
 ecommerce.detail.products.id
 ecommerce.detail.products.name
@@ -69,12 +69,12 @@ ecommerce.detail.products.attribute_set_id
 ecommerce.detail.products.attribute_set_name
 ecommerce.detail.products.category
 ecommerce.detail.products.category_path
-```
+~~~
 
-## Category view: catalog_category_view
+Category view: `catalog_category_view`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ 
 
-```
+~~~
 ecommerce.currencyCode
 ecommerce.impressions
 ecommerce.impressions.products.id
@@ -84,13 +84,13 @@ ecommerce.impressions.products.price
 ecommerce.impressions.products.brand
 ecommerce.impressions.products.variant (Color)
 ecommerce.impressions.products.category_path
-```
+~~~
 
 
-## Checkout page: /checkout/index and  /checkout/cart
+ Checkout page: `/checkout/index` and  `/checkout/cart`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-```
+~~~
 event
 ecommerce.checkout.hasItems
 ecommerce.checkout.hasCoupon
@@ -107,13 +107,13 @@ ecommerce.products.variant (Color)
 ecommerce.products.quantity
 ecommerce.products.attribute_set_id
 ecommerce.products.attribute_set_name
-```
+~~~
 
 
-## Checkout success page: /checkout/onepage/success/
+Checkout success page: `/checkout/onepage/success/`
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-```
+~~~
 ecommerce.purchase.actionField.coupon
 ecommerce.purchase.actionField.id
 ecommerce.purchase.actionField.affiliation
@@ -132,4 +132,4 @@ ecommerce.products.variant (Color)
 ecommerce.products.quantity
 ecommerce.products.attribute_set_id
 ecommerce.products.attribute_set_name
-```
+~~~
