@@ -46,4 +46,14 @@ Add new Google tags
 .. image:: https://lh5.googleusercontent.com/VEVp-1dTMe1SGuT-V5zf3CNsT4R8uZMaX7hW5URrLAEtTk3phzI-xAiUvPxoGn4-JIvZ63mv-NIencWJLxd9_cGmVYsfv-OxjUGe2AcprZ8mAYF7T2cdDmQX5QGMLIGRP2lPLMBS
 
 
-Read more Google Tag Manager guide: https://www.mageplaza.com/faqs/google-tag-manager/
+FAQs
+~~~~
+
+- `How to Add Userdefined variables`_
+- `How to Setup AdWords Remarketing`_
+- `How to Setup Google Analytics Ecommerce Tracking`_
+
+.. _How to Add Userdefined variables: https://www.mageplaza.com/faqs/google-tag-manager-add-user-definded-variables.html
+.. _How to Setup AdWords Remarketing: https://www.mageplaza.com/faqs/adwords-remarketing.html
+.. _How to Setup Google Analytics Ecommerce Tracking: https://www.mageplaza.com/faqs/google-analytics-ecommerce-tracking.html
+
