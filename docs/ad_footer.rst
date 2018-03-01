@@ -24,6 +24,6 @@
 .. _SEO: https://www.mageplaza.com/magento-2-seo-extension/
 .. _Banner Slider: https://www.mageplaza.com/magento-2-banner-slider-extension/
 .. _Automatic Related Products: https://www.mageplaza.com/magento-2-automatic-related-products/
-.. _SMTP : https://www.mageplaza.com/magento-2-smtp/
-.. _Abandoned Cart Email : https://www.mageplaza.com/magento-2-abandoned-cart-email/
+.. _SMTP: https://www.mageplaza.com/magento-2-smtp/
+.. _Abandoned Cart Email: https://www.mageplaza.com/magento-2-abandoned-cart-email/
 
