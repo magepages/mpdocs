@@ -10,8 +10,8 @@
 	#. `Blog`_ FREE
 	#. `Shop by brand`_
 	#. `SEO`_ FREE
-	#. `_SMTP`_ FREE
-	#. `_Abandoned Cart Email`_ 
+	#. `SMTP`_ FREE
+	#. `Abandoned Cart Email`_ 
 
 
 .. _One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
