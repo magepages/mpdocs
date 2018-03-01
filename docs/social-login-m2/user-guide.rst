@@ -153,12 +153,19 @@ The login box will display as popup checkbox after clicking on Instagram Sign In
 
 .. _Magento 2 Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
 
+Fully compatible with One Step Checkout
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+`Mageplaza One Step Checkout`_ helps reduce the abandonment rate as well as increase the conversion rate dramatically. Ignore the back and forth that are the redundant motions when standing on your site.
+
+.. image:: https://www.mageplaza.com/media/catalog/product/magento-2-one-step-checkout/responsive.png
+
 
 Community Support
 ~~~~~~~~~~~~~~~~~~~
 
-Ask for helps on:
-- `Magento Community`_
-- https://github.com/mageplaza/magento-2-social-login/issues
+`Get help here`_
 
-.. _Magento Community: http://magento.stackexchange.com/
+
+.. _Get help here: https://github.com/mageplaza/magento-2-social-login/issues
+.. _Mageplaza One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/?utm_source=social-login&utm_medium=link&utm_campaign=m2-one-step-checkout
