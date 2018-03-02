@@ -38,7 +38,7 @@ A New Related Block Rule form will be appeared.
 ![ARP5](https://i.imgur.com/5ulpHte.jpg)
 
 ![ARP6](https://i.imgur.com/aZSAqLE.jpg)
-- In the **Rule Information**
+- In the **Rule Information** field
   - **Rule Name** field is where you name the rule. The rule name will be displayed on the Grid in Manage Rules Page and visible only with admins. This is a required field so there will be an error message if you leave it blank.
   - **Location**  is where you specify the block where the Product Page is located
     - **Replace native related products**: The new block will replace  the Magento's default Related Product Block
@@ -54,7 +54,7 @@ A New Related Block Rule form will be appeared.
 ```
 Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
 ```    
-   - In the **Status** field: choose "Active" to enable the rule.  
+  - In the **Status** field: choose "Active" to enable the rule.  
   - In the **Store View** field you can select the store view where the Rule applies on.
   - In the **Customer Group** field: The rule is only applicable to customers who in  the selected group
   - In the **From** field is where you select the starting date of the Rule applied to the Product Page. You can either select by calendar or directly enter the date In the **To** field is where Select the ending date the Rule is applied. You can either select by calendar or directly enter the date
@@ -95,7 +95,7 @@ After saving the conditions, you’ll get a Product List. Click on ``Preview Pro
 - The **Block name** field is where you can name the block which is displayed in the frontend. If you don’t want to have it named, leave it blank.
 - In the **Product Layout** field: Select layout for the block
 - In the **Limit number of products** field: Enter the maximum number of products displayed in a block.. If you leave it blank, all of products in the Product List will be displayed
-- In the **Display "Out-of-stock" products* field: select “No” to not display Out-of-Stock products in the Auto Related Product block.
+- In the **Display "Out-of-stock" products** field: select “No” to not display Out-of-Stock products in the Auto Related Product block.
 - In the **Product order** field: choose how to sort products in the block
   - *Bestseller*: more purchased products will be displayed first.
   - *Lowest Price*: products displaying based on low to high price
