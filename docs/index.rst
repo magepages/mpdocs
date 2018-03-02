@@ -23,12 +23,13 @@ Welcome to Mageplaza Docs
    layered-navigation-pro/index
    layered-navigation-ultimate/index
    shop-by-brand-m2/index
-   gift-card/index
    seo-m2/index
    seo-pro/index
    seo-ultimate/index
    social-login-m2/index
    pdf-invoice-m2/index
+   reward-points/index
+   gift-card/index
    blog-m2/index
    smtp/index
    affiliate-m2/index
