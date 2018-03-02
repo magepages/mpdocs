@@ -16,40 +16,40 @@ Login to Magento Admin, ``Mageplaza > Better Blog: Configuration``. Open **Gener
 
 .. image:: https://i.imgur.com/WOV7v2S.png
 
-* In **Enable** field: Choose “Yes” to turn the extension on.
-* In **Blog Name** field: Set name for the new blog
-* In **Route Name** field: Enter the route name which appears on the URL. If you leave it blank, the default Route name is ``blog``. E.x ``https://mageplaza.com/**blog**``
-* In **Url Suffix**: Enter the Url Suffix. There won’t be no suffix if you leave it blank.
-* In **Show Blog Link in Top Menu** field: Choose “Yes” if you want to show blog links in the top of the menu.
-* In **Show Blog in Footer Links** field: To make the blog link visible on footer links on your site, set "Yes".
-* In **Display Author** field: Select “Yes” to display name of post’s author on the frontend.
+* In the **Enable** field: Choose “Yes” to turn the extension on.
+* In the **Blog Name** field: Set name for the new blog
+* In the **Route Name** field: Enter the route name which appears on the URL. If you leave it blank, the default Route name is ``blog``. E.x ``https://mageplaza.com/**blog**``
+* In the **Url Suffix**: Enter the Url Suffix. There won’t be no suffix if you leave it blank.
+* In the **Show Blog Link in Top Menu** field: Choose “Yes” if you want to show blog links in the top of the menu.
+* In the **Show Blog in Footer Links** field: To make the blog link visible on footer links on your site, set "Yes".
+* In the **Display Author** field: Select “Yes” to display name of post’s author on the frontend.
 
 .. image:: https://i.imgur.com/1Rf7odl.png
 
-* In **Display Sitemap** field: Choose “Yes” to display sitemap at the footer links.
+* In the **Display Sitemap** field: Choose “Yes” to display sitemap at the footer links.
 
 .. image:: https://i.imgur.com/iaggKTK.png
 
-* In **Date Format** field: Choose the date format to display. We have 12 types of date format.
-* In **Limit Related Post** field: 
+* In the **Date Format** field: Choose the date format to display. We have 12 types of date format.
+* In the **Limit Related Post** field: 
 
   * Related Post is defined posts have the same Topic.
   * You’re able to limit the related posts in this section.
   * If you leave it blank, all the related posts will display on Post View page.
 
-* In **Display Mode** field: You can configure to display posts in **Grid View** or **List View**.
-* In **Blogs per Page Allowed Values** field: The number of post per page will be set in this field.
+* In the **Display Mode** field: You can configure to display posts in **Grid View** or **List View**.
+* In the **Blogs per Page Allowed Values** field: The number of post per page will be set in this field.
 
 .. image:: https://i.imgur.com/v4Vbgoh.png
 
 .. image:: https://i.imgur.com/1jaTap9.png
 
-* In **Choose Blog’s Color** field: Pick up a color for your blog’s text.
+* In the **Choose Blog’s Color** field: Pick up a color for your blog’s text.
 
 1.2. Related Products Content 
 ^^^^^
 
-When open **Related Products Content** section, there will be two sub-section parts.
+When open the **Related Products Content** section, there will be two sub-section parts.
 
 1.2.1. Product Detail Page
 """""
@@ -58,8 +58,8 @@ Product Detail Page contain posts can be added to Related Products to display in
 
 .. image:: https://i.imgur.com/Cp8Dfz1.png
 
-* In **Enable Related Post** field: Choose “Yes” to show related posts on Product Detail Page.
-* In **Limit of Related Post** field: Enter the number of related posts can display. If you leave it blank, the default number is 1 post.
+* In the **Enable Related Post** field: Choose “Yes” to show related posts on Product Detail Page.
+* In the **Limit of Related Post** field: Enter the number of related posts can display. If you leave it blank, the default number is 1 post.
 
 .. image:: https://i.imgur.com/d2M3n70.png
 
@@ -68,34 +68,34 @@ Product Detail Page contain posts can be added to Related Products to display in
 
 .. image:: https://i.imgur.com/ngwFt7z.png
 
-* In **Enable Related Product** field: Choose “Yes” to show related products on Post View Page.
-* In **Limit of Related Products** field: Enter the number of related products can display. If you leave it blank, the default number is 12.
-* In **Title of Related Products** field: Name the title of the block which contains related products. If you leave it blank, the default name is “Related Products”
+* In the **Enable Related Product** field: Choose “Yes” to show related products on Post View Page.
+* In the **Limit of Related Products** field: Enter the number of related products can display. If you leave it blank, the default number is 12.
+* In the **Title of Related Products** field: Name the title of the block which contains related products. If you leave it blank, the default name is “Related Products”
 
 1.3. Sidebar 
 ^^^^^
 
-Expand **Sidebar** section, there will be two sub-section parts.
+Expand the **Sidebar** section, there will be two sub-section parts.
 
 1.3.1. Sidebar
 """""
 
 .. image:: https://i.imgur.com/MCuYMHp.png
 
-* In **Number of Recent Post** field: Enter the number of recent posts that display on the sidebar. If you leave it blank, the default number is 4.
-* In **Number of most view posts** field: Enter the number of most view posts that display on the sidebar. If you leave it blank, the default number is 4.
-* In **Sidebar Location**: Select Left/Right for the location of the sidebar.
+* In the **Number of Recent Post** field: Enter the number of recent posts that display on the sidebar. If you leave it blank, the default number is 4.
+* In the **Number of most view posts** field: Enter the number of most view posts that display on the sidebar. If you leave it blank, the default number is 4.
+* In the **Sidebar Location**: Select Left/Right for the location of the sidebar.
 
 1.3.2. Search
 """""
   
 .. image:: https://i.imgur.com/BcgfRcD.png
 
-* In **Enable Search Box** field: Choose “Yes” to active the search box at the sidebar.
-* In **Maximum Query Result** field: Enter the maximum number of posts that the search box will search. Without setting the limitation, the search box will search all posts that match the search character.
-* In **Min Chars** field: Search results will only be displayed if the customer enters in the search box with enough configured characters in this section.
-* In **Visible Image**: Select “Yes” to display the thumbnail of the post when the post is found in the search box.
-* In **Description length** field: Limit the length of the short description can show along with found posts. If you leave it blank, the short description will not display.
+* In the **Enable Search Box** field: Choose “Yes” to active the search box at the sidebar.
+* In the **Maximum Query Result** field: Enter the maximum number of posts that the search box will search. Without setting the limitation, the search box will search all posts that match the search character.
+* In the **Min Chars** field: Search results will only be displayed if the customer enters in the search box with enough configured characters in this section.
+* In the **Visible Image**: Select “Yes” to display the thumbnail of the post when the post is found in the search box.
+* In the **Description length** field: Limit the length of the short description can show along with found posts. If you leave it blank, the short description will not display.
 
 1.4. Monthly Archive 
 ^^^^^
@@ -104,9 +104,9 @@ Monthly Archive helps to summary the number of post published for each month. Op
 
 .. image:: https://i.imgur.com/Lxt3Aia.png
 
-* In **Enable Monthly Archive** field: Select “Yes” to display the monthly archive on the frontend.
-* In **Number of records** field: Set the number of months to display on the frontend. If you leave it blank, the default number is 5 (the last 5 months statistic).
-* In **Type of Datetime** field: Choose your favourite format of the date. We offer 4 types of month/year displays.
+* In the **Enable Monthly Archive** field: Select “Yes” to display the monthly archive on the frontend.
+* In the **Number of records** field: Set the number of months to display on the frontend. If you leave it blank, the default number is 5 (the last 5 months statistic).
+* In the **Type of Datetime** field: Choose your favourite format of the date. We offer 4 types of month/year displays.
 
 1.5. Comments
 ^^^^^
@@ -124,10 +124,10 @@ Open Comments section, set a comment type with one of the following options.
 
 * 
   
-  * In **AppID** field: Admins need to create a Facebook App to get the AppID to fill this field. You can refer more in `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_
-  * In **Facebook: Number of Comment** field: This limits the number of comment displaying on the Post View Page. If you leave it blank, it will show all available comments.
-  * In **Facebook: Color Scheme** field: Choose the color which display commenter’s information.
-  * In **Facebook: Order by** field: Choose the arrangement for comment displaying.
+  * In the **AppID** field: Admins need to create a Facebook App to get the AppID to fill this field. You can refer more in `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_
+  * In the **Facebook: Number of Comment** field: This limits the number of comment displaying on the Post View Page. If you leave it blank, it will show all available comments.
+  * In the **Facebook: Color Scheme** field: Choose the color which display commenter’s information.
+  * In the **Facebook: Order by** field: Choose the arrangement for comment displaying.
     * **Social**: The comment which has more like(s) will display from the top.
     * **Reverse Time**: The comment which is published first will display from the bottom.
     * **Time**: The comment which is published first will display from the top. 
@@ -155,17 +155,17 @@ You can configure the meta that is useful for your better SEO
 
 .. image:: https://i.imgur.com/8JzIDPv.png
 
-* In **Enable** field: Choose “Yes” to enable Article Snippet.
-* In **Organize or Website Name** field: Enter your organize or website name.
-* In **Logo** field: Upload your logo.
+* In the **Enable** field: Choose “Yes” to enable Article Snippet.
+* In the **Organize or Website Name** field: Enter your organize or website name.
+* In the **Logo** field: Upload your logo.
 
 1.7. Social Sharing
 ^^^^^
 
 .. image:: https://i.imgur.com/M2168rJ.png
 
-Open **Social** section:
-* In **Enable** field: Enable social buttons on the blog page
+Open the **Social** section:
+* In the **Enable** field: Enable social buttons on the blog page
 * In the **PubId** field, insert ID for Share buttons that get from `https://addthis.com <https://www.addthis.com/>`_.
 
 In Social share session, we use Addthis.com to add more than 200 share buttons, and display only 4 most popular share buttons. You can custom these buttons by add your own Addthis Pub-id
@@ -335,19 +335,19 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
 * Setup the widget: in the **Insert widget…** information:
 .. image:: https://i.imgur.com/3EV0xBL.png
   
-* In **Tittle** field:
+* In the **Tittle** field:
 
   * Choose the widget’s tittle you want to display it in the frontend
   * This title will be inserted an internal link to your blog post
   * If you leave it blank, the widget won’t have a title.
 
-* In **Number of Post Display** field:
+* In the **Number of Post Display** field:
 
   * This is the field where you can limit the number of post in the widget
   * The default number is 5. 
   * If you leave it blank, there will be an error message.
 
-* In **Show Type** field, there’re two options:
+* In the **Show Type** field, there’re two options:
   
   * **New** type: The newest posts will be displayed in the widget. The number of newest posts won’t exceed the entered number in **Number of Post Display**
   * **Category** type:
@@ -359,7 +359,7 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
     
 .. image:: https://i.imgur.com/dcPyjwW.png     
 
-* In **Template** field: 
+* In the **Template** field: 
    
    * We created a new default template and this is the only one you can use.
    * If you want to create a new template, please contact with our Support Department by submit a ticket to `https://mageplaza.freshdesk.com/support/home <https://mageplaza.freshdesk.com/support/home>`_ or via the email `support@mageplaza.com <support@mageplaza.com>`_
