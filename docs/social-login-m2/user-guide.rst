@@ -208,7 +208,7 @@ Go to ``Admin > Social Login > Configuration > Instagram``.
 
 Instagram Login dialog will be shown after clicking on Sign in with Instagram button.
 
-X. Instagram Sign in
+X. Vkontakte Sign in
 ^^^^^^^^^^^^^^^^^^^^^^
 
 10.1. How to configure Vkontakte
