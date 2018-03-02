@@ -25,14 +25,14 @@ A bunch of basic configurations you might want to take note, follow ``Mageplaza 
 
 ![ACE2](https://i.imgur.com/r3OHAXD.png)
 
-* In **Enable** field: select “Yes” to enable Mageplaza Abandoned Cart Email extension
-* In **Email** module is the abandoned cart reminder email settings
+* In the **Enable** field: select “Yes” to enable Mageplaza Abandoned Cart Email extension
+* In the **Email** module is the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
   * Click the trash can icon ![image](https://i.imgur.com/62D0Zqz.png) to delete a email
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
-  * In **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
-  * In **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section
-  * **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in [**1.3 Coupon**](https://docs.mageplaza.com/abandoned-cart-email/index.html#coupon)
+* In the **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
+* In the **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section
+* **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in [**1.3 Coupon**](https://docs.mageplaza.com/abandoned-cart-email/index.html#coupon)
   
 #### 1.2 Analytics
 In this cup of tea, we integrated Abandoned Cart Email extension with Google Analytics - a reliable analysis tool considered as a very effective tool for webmasters and SEO people who want to index the information about their website. Expand **Analytics** section to navigate some basic functionalities
@@ -42,33 +42,33 @@ In this cup of tea, we integrated Abandoned Cart Email extension with Google Ana
 It manifests in this direct link in the frontend like
 ![ACE4](https://i.imgur.com/O9qLYDH.png)
 
-* In **Enabled** field: Select “Yes” to use Google Analytics tool. Then, the Source, Medium, Name, Term, Content items will be displayed automatically
-* In **Source** field: the data of Source will appear in the Link back to Cart if it’s available. If you leave it blank, Source on frontend won’t be displayed.
-* In **Medium** field: the data of Medium will appear in the Link back to Cart if it’s available. If you leave it blank, Medium on frontend won’t be displayed
-* In **Name** field: data of Name will appear in the Link back to Cart if it’s available. If you leave it blank, Name on frontend won’t be displayed
-* In **Term** field: the data of Term will appear in the Link back to Cart if it’s available. If you leave it blank, Term on frontend won’t be displayed
-* In **Content** field: the data of Content will appear in the Link back to Cart if it’s available. If you leave it blank, Content on frontend won’t be displayed
+* In the **Enabled** field: Select “Yes” to use Google Analytics tool. Then, the Source, Medium, Name, Term, Content items will be displayed automatically
+* In the **Source** field: the data of Source will appear in the Link back to Cart if it’s available. If you leave it blank, Source on frontend won’t be displayed.
+* In the **Medium** field: the data of Medium will appear in the Link back to Cart if it’s available. If you leave it blank, Medium on frontend won’t be displayed
+* In the **Name** field: data of Name will appear in the Link back to Cart if it’s available. If you leave it blank, Name on frontend won’t be displayed
+* In the **Term** field: the data of Term will appear in the Link back to Cart if it’s available. If you leave it blank, Term on frontend won’t be displayed
+* In the **Content** field: the data of Content will appear in the Link back to Cart if it’s available. If you leave it blank, Content on frontend won’t be displayed
 
 #### 1.3 Coupon
 Expand the **Coupon** section to set up the discount code
 
 ![ACE5](https://i.imgur.com/f0el2jw.png)
 
-* **Rule**: choose a principle to generate a discount code
+* In the **Rule** field: choose a principle to generate a discount code
   * Only those rules that are activated and generated automatically will be displayed in the configuration
   * How to create rules in Marketing > Cart Price Rules guide can be found [here](https://www.mageplaza.com/kb/how-create-a-cart-price-rule-in-magento-2.html)
-* **Valid** is where to change expiration date of a discount code
+* In the **Valid** field: Where to change expiration date of a discount code
   * The discount code is only used during the time set since the code was created
   * Time will be counted in hour(s)
   * Discount code can’t be applied if this section is blank
-* In **Code Length** field: set the length of discount code. Code length does not include Prefix, Suffix, and Separators
-* In **Code Format** field, you can choose 3 formats for code:
+* In the **Code Length** field: set the length of discount code. Code length does not include Prefix, Suffix, and Separators
+* In the **Code Format** field, you can choose 3 formats for code:
   * Alphanumeric: Code consists of letters and numbers
   * Alphabetical: The code consists only of letters of the alphabet
   * Numeric: The code consists of digits from 0 to 9 only
-* **Code Prefix** you can add the prefix of the code in this section. Discount code won’t contain a prefix if the Code Prefix is left blank
-* **Code Suffix** you can add the suffix of the code in this section. Discount code won’t contain a suffix if the Code Suffix is left blank
-* In **Dash Every X Character** field: Between each X, there will be the number of characters in the Code set in this part.
+* In the **Code Prefix** field: Add the prefix of the code in this section. Discount code won’t contain a prefix if the Code Prefix is left blank
+* In the **Code Suffix** field: Add the suffix of the code in this section. Discount code won’t contain a suffix if the Code Suffix is left blank
+* In the **Dash Every X Character** field: Between each X, there will be the number of characters in the Code set in this part.
 
 An example of the Abandoned Cart Email sent to a customer
 
