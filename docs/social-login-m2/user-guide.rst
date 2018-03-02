@@ -1,171 +1,252 @@
-==================================
-Social Login Magento 2 User Guide
-==================================
 
+Social Login 
+=======================
+
+Overview
+-----------------------
 
 Customers are not patient enough to fill a lot of required information while those are available in social account as Facebook, LinkedIn, Instagram,.... `Magento 2 Social Login`_ extension by Mageplaza, your customers only need to click on the social button and all necessary information is completed automatically.That is the main reason why Magento Social Login extension is considered as the great solution for that convenience.
 
-Login to Magento Admin and do as the following:
-
-.. image:: https://cdn.mageplaza.com/docs/social-settings.gif
-
-General Configuration
+How to configure
 -----------------------
 
-Enable the module
-^^^^^^^^^^^^^^^^^^^^^
+From Magento Admin, select ``Mageplaza > Social Login``.
 
-Go to **Admin Panel > Social Login > Settings > General**
+.. image:: https://i.imgur.com/jElMDZ0.png
 
-.. image:: https://lh5.googleusercontent.com/vOKjwZnQ0TXvRBTMnB71VbYY3VN2Og0AMZSeCCZU3GVInDfDXoM1ENA4ZAHxkLr2oP5v-C-wrSuF-sE5r42c94k5NxF6qsSaR2W8lSNejzjVyfYW4ITy_-kf9L57GqYCTfeIzvIq
+I. General
+^^^^^^^^^^^^^^^^^^^^^^
 
-Select **Yes** option in order to allow customers to sign in quickly via social channels they are using.
+From the Admin Panel, go to ``Mageplaza > Social Login > Configuration``, choose **General** sections
 
-Setting popup effect
-^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: https://i.imgur.com/y1suLKP.png
 
-Go to **Admin Panel > Social Login > Settings > General**
+* In the **Enable** field: Select "Yes" to allow customers sign in quickly via social networking sites they are using.
+* In the **Send Password To Customer** field: Select "Yes" to activate sending notifications to customers to remind them to change their passwords when signing in via social accounts. They can change their passwords via their emails used to register for that social account.
+* In the **Show Social Login Buttons on** field: 
+  * Select display page(s) with social login buttons. Show Social Login Buttons on = Customer Login Page will show social login buttons on the login page.
+  * Can select more than one option
+* In the **Use Popup Login** field: Select "Yes" to
+  * Turn on Popup and Show Social Login Buttons in Login Dialog, Create New Account, and Forgot Passwords.
+  * Include Social Login buttons in Customer Authentication Popup page
+* In the **Popup Links Selector** field: Customize any default Login and Create button to be a popup-open button by filling in class name of elements that cover these buttons.
+* Popup Effect : Admin can select one among popup display effects below
 
-Right after activating, all of available social buttons are shown on Sign In box while the page will appear instantly on Home page without any navigation to other site.
+.. image:: https://i.imgur.com/UdCPC1D.png
 
-Admin can choose one of nice effects as you need by block in Popup Effect field.
+* In the **Style Management** field:  Admin can choose one of the display colors for popup. Style Management = Custom means Admin can select custom the color swatch.
+* In the **Custom CSS** field: You can add CSS code to customize based on your personal preference.
 
-.. image:: https://lh3.googleusercontent.com/mqyPNwc9G-GHUWy3GR_ffXq__gnp8VABmBQCCBg5ARvi4jV6hRtvtF9gsua4kfU2NlyNO-m2lW2nQKXT0iTpbsKw-AmJLSqXwzgHOl4ZimEfAmABJjkrrLDh7o65bgTP_S4gS9EY
+II. Facebook sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-Custom color of checkbox
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+2.1. How to configure Facebook
+######################
 
-Go to **Admin Panel > Social Login > Settings > General**
+Go to ``Admin > Social Login > Configuration > Facebook``.
 
-Social Login by Mageplaza provides a Magento default color and 8 popular colors for your design,
+.. image:: https://i.imgur.com/zeZM5K2.png
 
-.. image:: https://lh6.googleusercontent.com/SZewZuJb-EhGuaz8D8U6W_NO9fkOQdcP2sOD9xna0aCHwQWjObrhSZCqZQfQkUTfga8nfznlTFPGA9WKn6DAfWmJF_CBOaKLwzddDMPU0UTclJQgnv0qXLqy5w3IGUwOdRJNgX-m
+* In the **Enable** field: Select "Yes" to show Sign in with Facebook button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Facebook API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_.
 
-Especially, now we also support you 9th color that you can freely custom depends on needs of yourself. It is unlimited color to design the style of Sign In box
+2.2. Login using Facebook
+######################
 
-.. image:: https://lh4.googleusercontent.com/pNEyFMeHICQUt7L9Ntyb02jS9lDSn51vtcs-C2gXMiCy3XmNc3Hqq_YbHqaowop6R_hTXNkQSIpOlG7gcEubDMpLVhrhFJhi18qRLpaOiQRmQQSq4CauZNFd3tx_k7-yD2p6F_mF
+.. image:: https://i.imgur.com/YYTboV0.png
 
-Facebook Sign in
-------------------------
+Facebook Login dialog will be shown after clicking on Sign in with Facebook button.
 
-How to configure Facebook
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+III. Google Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-Go to **Admin Panel > Social Login > Settings > Facebook**
+3.1. How to configure Google
+######################
+ 
+Go to ``Admin > Social Login > Configuration > Google``.
 
-.. image:: https://lh6.googleusercontent.com/Lm_1FLdRpuEu75feMb-G58BdvJSxPuJK4IBdzjm_2edQXqSmPO1hnhMBS-d1zR2jS_qeiPpzFth8bxMrLEhM7Y94kv1eHV0vsZImegqc7EgLcw1XhlGtlcNEroJ6JS5caIqMRsWT
+.. image:: https://i.imgur.com/xwmLmX6.png
 
-* Choose Yes or No to enable or disable Facebook Sign In button on the front-end with Facebook App ID and Facebook App Secret.
+* In the **Enable** field: Select "Yes" to show Sign in with Google button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Google API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-google-api.html>`_.
 
-* If customers login via Facebook App, you can send email notification about their account’s password on your site or not, that depends on setting in Send Password to Customer field.
+3.2. Login using Google
+######################
 
-Login using Facebook
-^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: https://i.imgur.com/8HH65wn.png
 
-.. image:: https://cdn.mageplaza.com/media/general/5zYCdnw.png
+Google Login dialog will be shown after clicking on Sign in with Google button
+ 
+IV. Amazon Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-The login box will display as popup checkbox after clicking on Facebook Sign In button.
+4.1. How to configure Amazon
+######################
 
-Google Sign In
--------------------
+Go to ``Admin > Social Login > Configuration > Amazon``.
 
-How to configure Google
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: https://i.imgur.com/oVQjS1D.png
 
-Go to **Admin Panel > Social Login > Settings > Google**
+* In the **Enable** field: Select "Yes" to show Sign in with Amazon button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 
-.. image:: https://lh6.googleusercontent.com/_pEgYv31XLrVUvlKfSkI-9wIPd6AQidpfp3GskZRrGknwNUynAmfFJeblWdoW4vIrQRfSelrBrxsVIYL_Y-1h-73_yV8j1NCMp0IURopkYv2adZI2yH3rqsJxRe8_40bgnnGG-Bo
+4.2. Login using Amazon
+######################
 
-* Choose Yes or No to enable or disable Google Sign In button on the front-end with Client ID and Client Secret.
+.. image:: https://i.imgur.com/OPolbZs.png
 
-* If customers login via Google, you can send email notification about their account’s password on your site or not, that depends on setting in Send Password to Customer field.
+Amazon Login dialog will be shown after clicking on Sign in with Amazon button.
 
-Login using Google
-^^^^^^^^^^^^^^^^^^^
+V. Twitter Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: https://lh4.googleusercontent.com/GNyP6B4ymHuWqWFjvKcQ08ddZAvjRghKqTqRhTvKZrTNvqB6fjwbdUDITUnU-RAj0zPEVXOoys8s58Kk2nWtmdc1r4Jd5Jzm_h6n0y9g6KD_dL9BvqEOvRkZwPnTuvpAeUer5qRU
+5.1. How to configure Twitter
+######################
 
-The login box will display as popup checkbox after clicking on Google Sign In button.
+Go to ``Admin > Social Login > Configuration > Twitter``.
 
-Twitter Sign In
-------------------
+.. image:: https://i.imgur.com/CMBMBpP.png
 
-How to configure Twitter
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+* In the **Enable** field: Select "Yes" to show Sign in with Twitter button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Twitter API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-twitter-api.html>`_.
 
-Go to **Admin Panel > Social Login > Settings > Twitter**
+5.2. Login using Twitter
+######################
 
-.. image:: https://lh3.googleusercontent.com/Rs1TWtxAFv4qVZzrn-egm78aXWh7VjFPaJC7NHtsPXwg86zc9j0aKVB2Cj8dQMAYkn91_UBb5AeoUBgGNFmL1lS2rlIAtn0ze1JO1a5rDcyAwZYdvKJX8JQJnsa1bQiSq0EyD9ac
+.. image:: https://i.imgur.com/7krIzKe.png
 
-* Choose Yes or No to enable or disable Twitter Sign In button on the front-end with Consumer Key and Consumer Secret.
+Twitter Login dialog will be shown after clicking on Sign in with Twitter button.
 
-* If customers login via Twitter, you can send email notification about their account’s password on your site or not, that depends on setting in Send Password to Customer field.
+VI. LinkedIn Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-Login using Twitter
-^^^^^^^^^^^^^^^^^^^^^
+6.1. How to configure LinkedIn
+######################
 
-.. image:: https://cdn.mageplaza.com/media/general/fYF1sRc.png
+Go to ``Admin > Social Login > Configuration > LinkedIn``
 
-The login box will display as popup checkbox after clicking on Twitter Sign In button.
+.. image:: https://i.imgur.com/kkH3KzQ.png
 
-LinkedIn Sign In
---------------------
+* In the **Enable** field: Select "Yes" to show Sign in with LinkedIn button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create LinkedIn API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-linkedin-api.html>`_.
 
-How to configure LinkedIn
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+6.2. Login using LinkedIn
+######################
 
-Go to **Admin Panel > Social Login > Settings > LinkedIn**
+.. image:: https://i.imgur.com/xbGp02N.png
 
-.. image:: https://lh6.googleusercontent.com/9oPyJ8i7MhFuG_9B3eFYZlF7ZsOJFDOaotSjuWeGmiZ5T2xUvyh8enn9CrtGjLFbmw4NDG2wgLCE2GmOo8cb2NU7sLfW0sawouPiJkDv6TuXEgos_4dG-ZZM3KwZro1f5BnjyA5v
+LinkedIn Login dialog will be shown after clicking on Sign in with LinkedIn button.
 
-* Choose Yes or No to enable or disable LikedIn Sign In button on the front-end with API Key and Client Key.
+VII. Yahoo Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-* If customers login via LinkedIn, you can send email notification about their account’s password on your site or not, that depends on setting in Send Password to Customer field.
+7.1. How to configure Yahoo
+######################
 
-Login using LinkedIn
-^^^^^^^^^^^^^^^^^^^^^^^^^
+Go to ``Admin > Social Login > Configuration > Yahoo``.
 
-.. image:: https://lh4.googleusercontent.com/NX99PDte4fQ1VseiAa7xp3X1MNLHcSPtz05dhv2NUHoB_bPOd9zUqNArul59r-xnSZMpzqQzraD1QXwhgHr1pJvoNcgpcZRr_IG49xVj7yd8gqHnyJKoefEJTvyJNm7JPgpFg3K4
+.. image:: https://i.imgur.com/rZtPE0Y.png
 
-The login box will display as popup checkbox after clicking on LinkedIn Sign In button.
+* In the **Enable** field: Select "Yes" to show Sign in with Yahoo button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Yahoo API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-yahoo-api.html>`_.
 
-Instagram Sign In
----------------------
+7.2. Login using Yahoo
+######################
 
-How to configure Instagram
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. image:: https://i.imgur.com/KRZM5v2.png
 
-Go to **Admin Panel > Social Login > Settings > Instagram**
+Yahoo Login dialog will be shown after clicking on Sign in with Yahoo button.
+ 
+VIII. Foursquare Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: https://lh6.googleusercontent.com/DfNCC35eY2-mpGhFi-IKelFIxT-VyqLn7mHwTSs7W-NvyO2sCaRBfZimlqrJyWeDRgqYs0zkKD9tg8ZtMY4Lr0wLxbDx38ga227UjCkiOqUqqJlaC-y25GO5cu_BQfEmTOj21zOh
+8.1. How to configure Foursquare
+######################
 
-* Choose Yes or No to enable or disable Instagram Sign In button on the front-end with Client ID and Client Secret.
+Go to ``Admin > Social Login > Configuration > Foursquare``.
 
-* If customers login via Instagram, you can send email notification about their account’s password on your site or not, that depends on setting in Send Password to Customer field.
+.. image:: https://i.imgur.com/QAwt0U9.png
 
-Login using Instagram
-^^^^^^^^^^^^^^^^^^^^^^^^^
+* In the **Enable** field: Select "Yes" to show Sign in with Foursquare button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Foursquare API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-foursquare-api.html>`_.
 
-.. image:: https://lh4.googleusercontent.com/f-xIUZUBX_YHjg2DnDmAQXKKiHkelSND8HlzjhJ9xeTpEwa5Rl5ys9cnfI2Zk98FT6hMVPr2G9lNNnXFZX4C6kiSp4Jv8B0gxerwxsJdkkHUeiBC_JfhRqUc3cKIfFJBwObpPELh
+8.2. Login using Foursquare
+######################
 
-The login box will display as popup checkbox after clicking on Instagram Sign In button.
+.. image:: https://i.imgur.com/vq67cqO.png
 
+Foursquare Login dialog will be shown after clicking on Sign in with Foursquare button.
+ 
+IX. Instagram Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. _Magento 2 Social Login: https://www.mageplaza.com/magento-2-social-login-extension/
+9.1. How to configure Instagram
+######################
 
-Fully compatible with One Step Checkout
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Go to ``Admin > Social Login > Configuration > Instagram``.
 
-`Mageplaza One Step Checkout`_ helps reduce the abandonment rate as well as increase the conversion rate dramatically. Ignore the back and forth that are the redundant motions when standing on your site.
+.. image:: https://i.imgur.com/f8k0ztP.png
 
-.. image:: https://www.mageplaza.com/media/catalog/product/magento-2-one-step-checkout/responsive.png
+* In the **Enable** field: Select "Yes" to show Sign in with Instagram button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Instagram API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-instagram-api.html>`_.
 
+8.2. Login using Instagram
+######################
 
-Community Support
-~~~~~~~~~~~~~~~~~~~
+.. image:: https://i.imgur.com/P5HffnF.png
 
-`Get help here`_
+Instagram Login dialog will be shown after clicking on Sign in with Instagram button.
 
+X. Instagram Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. _Get help here: https://github.com/mageplaza/magento-2-social-login/issues
-.. _Mageplaza One Step Checkout: https://www.mageplaza.com/magento-2-one-step-checkout-extension/?utm_source=social-login&utm_medium=link&utm_campaign=m2-one-step-checkout
+10.1. How to configure Vkontakte
+######################
+
+Go to ``Admin > Social Login > Configuration > Vkontakte``.
+
+.. image:: https://i.imgur.com/dyiLeYQ.png
+
+* In the **Enable** field: Select "Yes" to show Sign in with Vkontakte button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Vkontakte API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-vkontakte-api.html>`_.
+
+8.2. Login using Vkontakte
+######################
+
+.. image:: https://i.imgur.com/SWgvRaJ.png
+
+Vkontakte Login dialog will be shown after clicking on Sign in with Vkontakte button.
+
+XI. Instagram Github
+^^^^^^^^^^^^^^^^^^^^^^
+
+11.1. How to configure Github
+######################
+
+Go to ``Admin > Social Login > Configuration > Github``.
+
+.. image:: https://i.imgur.com/0JMvyky.png
+
+* In the **Enable** field: Select "Yes" to show Sign in with Github button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instruction to create Github API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-github-api.html>`_.
+
+8.2. Login using Github
+######################
+
+.. image:: https://i.imgur.com/BptHpHv.png
+
+Github Login dialog will be shown after clicking on Sign in with Github button.
+ 
+
+
+
+
