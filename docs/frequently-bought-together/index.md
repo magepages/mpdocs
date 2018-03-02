@@ -16,21 +16,21 @@ After logging to Magento Admin, navigate to `Mageplaza > Frequently Bought Toget
 
 ![FBT3](https://i.imgur.com/O69ziZX.png)
 
-- In **Enable Frequently Bought Together** field: choose "Yes" to enable extension. Here some rough sketch how this module works.
+- In the **Enable Frequently Bought Together** field: choose "Yes" to enable extension. Here some rough sketch how this module works.
   - The Frequently Bought Together list is under the Product image and on the Product Description tab.
   - There will be a horizontal line separating the list from the Product image.
   - Products included in the Frequently purchased together list are from the Related Products in the Backend.
 
-- In **Block name** field
+- In the **Block name** field
   - Name the Frequently Bought Together block displaying in Product page.
   - The block’s name will be displayed in default as “Frequently Bought Together”.
   - If you don’t need a name for block, leave it blank.
 
-- In **Enable Add to Wishlist button** field
+- In the **Enable Add to Wishlist button** field
   - Choose *Yes* if you don’t want to display Block related Product as Magento’s default block.
   - When selecting *No*, Block Related Products of Magento will be ordered under Product Description Detail.
   
-- In **Separator Image** is the minor plus button among products
+- In the **Separator Image** is the minor plus button among products
   - Valid file should be *jpg, *png and *gif
   - If you like our plus image as default, it’s ok to leave it blank.
   
