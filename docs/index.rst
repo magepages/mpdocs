@@ -27,6 +27,7 @@ Welcome to Mageplaza Docs
    seo-pro/index
    seo-ultimate/index
    social-login-m2/index
+   social-login-pro/index
    pdf-invoice-m2/index
    reward-points/index
    gift-card/index
