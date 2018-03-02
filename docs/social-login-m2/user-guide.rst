@@ -24,11 +24,15 @@ From the Admin Panel, go to ``Mageplaza > Social Login > Configuration``, choose
 * In the **Enable** field: Select "Yes" to allow customers sign in quickly via social networking sites they are using.
 * In the **Send Password To Customer** field: Select "Yes" to activate sending notifications to customers to remind them to change their passwords when signing in via social accounts. They can change their passwords via their emails used to register for that social account.
 * In the **Show Social Login Buttons on** field: 
+  
   * Select display page(s) with social login buttons. Show Social Login Buttons on = Customer Login Page will show social login buttons on the login page.
   * Can select more than one option
+
 * In the **Use Popup Login** field: Select "Yes" to
+
   * Turn on Popup and Show Social Login Buttons in Login Dialog, Create New Account, and Forgot Passwords.
   * Include Social Login buttons in Customer Authentication Popup page
+
 * In the **Popup Links Selector** field: Customize any default Login and Create button to be a popup-open button by filling in class name of elements that cover these buttons.
 * Popup Effect : Admin can select one among popup display effects below
 
