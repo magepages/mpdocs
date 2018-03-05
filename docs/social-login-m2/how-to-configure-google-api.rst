@@ -24,6 +24,25 @@ Then, fill out the project name.
 .. image:: https://i.imgur.com/YD89mB6.png
 
 Step 3
+----------
+
+At the Dashboard page, choose **Library** or click **Enable APIs and Service** to enter API Library.
+
+.. image:: https://i.imgur.com/CtTVJxK.png
+
+Look at th left sidebar **Filter by CATEGORY**, choose **Social** from the list
+
+.. image:: https://i.imgur.com/57mLBbi.png
+
+Choose **Google + API**
+
+.. image:: https://i.imgur.com/yoHDRVL.png
+
+Click the ``Enable`` button.
+
+.. image:: https://i.imgur.com/nC7x1x6.png
+
+Step 4
 -----------
 
 Once the project is created. In the sidebar under **API Manager**, select **Credentials**, then select the **OAuth consent screen** tab.
@@ -31,14 +50,14 @@ Choose an *Email Address*, specify a *Product Name*, and press **Save**.
 
 .. image:: https://i.imgur.com/UziMIkY.png
 
-Step 4
+Step 5
 ---------
 
 In the Credentials tab, select the **New credentials** drop-down list. Then, choose **OAuth client ID**.
 
 .. image:: https://i.imgur.com/IcB2ZgS.png
 
-Step 5
+Step 6
 -----------
 
 On the **Create Client ID** field :
@@ -51,14 +70,14 @@ On the **Create Client ID** field :
 
 .. image:: https://i.imgur.com/t1rvduS.png
 
-Step 6
+Step 7
 ----------
 
 Once you have registered, the popup below will be displayed: 
 
 .. image:: https://i.imgur.com/suTpo6W.png
 
-Step 7
+Step 8
 ---------
 
 Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
