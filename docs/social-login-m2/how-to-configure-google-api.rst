@@ -26,15 +26,7 @@ Then, fill out the project name.
 Step 3
 ----------
 
-At the Dashboard page, choose **Library** or click **Enable APIs and Service** to enter API Library.
-
-.. image:: https://i.imgur.com/CtTVJxK.png
-
-Look at th left sidebar **Filter by CATEGORY**, choose **Social** from the list
-
-.. image:: https://i.imgur.com/57mLBbi.png
-
-Choose **Google + API**
+At the Dashboard page, filter from ``Library > Social``. Choose **Google + API**.
 
 .. image:: https://i.imgur.com/yoHDRVL.png
 
