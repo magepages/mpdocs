@@ -147,12 +147,16 @@ Expand **All Brands Page Settings** section
 
 * At **Show Feature Brands** choose to “Yes” to display.
 * In **Display Featured Brands Style** we support 2 styles
+  
   * Slider View
   * Simple View
+
 * In **Title**, type a name for your feature brands block
 * In **Display Information** allows
+ 
   * Logo only
   * Logo and Label
+
 * In **Embedded Code** is where you show feature brand block in any place you want.
 
 2.1.3.4 Brand Related Products
@@ -208,16 +212,20 @@ To generate a new brand, follow these steps
 * Click on `Save Config` to save the new brand.
 * Tap **Setting** to open the "Brand Information" page for configuration.
 * Under **Brand Information** section,
+  
   * Set `Page Title` for the new brand
   * Create **URL Key**
   * Upload `Brand Image` from your computer
   * Set the brand to be displayed on featured brand slider or not in `Featured` field
   * Enter `Short Description` (appear on the search result) and `Description` (appear on Brand Listing) 
   * Choose the `CMS Block` to show brand as a static block on anywhere of your page. You can disable it by leave it blank.
+
 * Expand **Meta Information** section, you can complete all fields for your better SEO, including:
+  
   * Meta Title
   * Meta Keywords
   * Meta Description
+
 * `Save Brand` to ensure that the configuration for the new brand is successful.
 
   .. note:: For the existing brands, you can edit their information via **Setting** button.
