@@ -153,19 +153,22 @@ Follow in the backend ``Mageplaza > Reward Points: Configuration``
 #### 4.1. General Configuration.
 This general configurations can apply for the whole module.
 
-![i12](https://i.imgur.com/4gXJj5l.png)
+![i12](https://i.imgur.com/AQVDZ7y.png)
 
 * In the **Enable** field: Choose “Yes” to active the Reward Point extension from Mageplaza. 
 * In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displayed on the frontend at the [My Account > Reward Point](https://docs.mageplaza.com/reward-points/index.html#my-account-my-points-reward) section.
 * In the **Point Label** field
-  * If the balance is 0 or 1, this label will be displayed on the frontend.
-  * If you leave it blank, the default label is **Point**
+  * This label will be displayed on the frontend.
+  * If you leave it blank, there will be an error message.
 * In the **Plural Point Label** field
   * If the balance is greater than 1, this label will be displayed on the frontend.
-  * If you leave it blank, the default label is **Points**
+  * If you leave it blank, there will be an error message.
+* In the **Display Point Label** field
+  * Select **After Amount** to display the point label after number (ex: 5 points).
+  * Select **Before Amount** to display the number label before number (ex: points 5).  
 * In the **Zero Point Label** field
   * Enter the label when the customer's account balance is equal to 0. 
-  * If you leave it blank, the default label is **0**
+  * If you leave it blank, there will be an error message.
 * In the **Show Point Icon** field: Choose “Yes” to display the point icon on the frontend.
 * In the **Reward Point Icon** field
   * The upload image will be used as the point icon and be shown on the frontend.
@@ -233,11 +236,11 @@ This displays general configurations regarding earning point(s)
 
 * In the **Display Earning Points on Product Details Page** field: Select “Yes” to display the product's earning point(s) number that customers will receive when purchasing products, on the Product Details page.
 
-![i19](https://i.imgur.com/yUrM3xV.png)
+![i19](https://i.imgur.com/iEdKLcb.png)
 
 * In the **Display Earning Points on Product Listing Page** field: Select “Yes” to display the product's earning point(s) number in the category that customers can earn when purchasing.
 
-![i20](https://i.imgur.com/sHKToBo.png)
+![i20](https://i.imgur.com/i2P7mH3.png)
 
 * In the **Display Earning Points on Minicart** field: Select “Yes” to show the total number of earning point(s) customers can receive when checking out the cart at the Minicart page.
 
@@ -321,11 +324,11 @@ Customers can check the Reward Point information in this section after logging i
 
 * **Category Page**: Displays the earning point(s) per product.
 
-![i26](https://i.imgur.com/vmV5tF1.png)
+![i26](https://i.imgur.com/i2P7mH3.png)
 
 * **Product Detail Page**: Displays the earning point(s) per product.
 
-![i27](https://i.imgur.com/lUOimPO.png)
+![i27](https://i.imgur.com/iEdKLcb.png)
 
 * **MiniCart**: Displays the earning point(s) of all products in the cart.
 
