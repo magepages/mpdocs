@@ -11,7 +11,7 @@ You can review login records from the dashboard when entering the backend. The l
 ![i6](https://i.imgur.com/X4qv87Y.png)
 
 ## How to configure
-After logging in Magento backend, go to ``Mageplaza > Security``. We will provide detail guides to these bellow configuration
+After logging in Magento backend, go to ``System > Security``. We will provide detail guides to these bellow configuration
 * Login Log
 * Configuration
 
@@ -19,7 +19,7 @@ After logging in Magento backend, go to ``Mageplaza > Security``. We will provid
 
 ### I. Configuration
 #### 1.1. Brute Force Protection configuration.
-Follow ``Mageplaza > Security > Configuration > General > Brute Force Protection``
+Follow ``System > Security > Configuration > General > Brute Force Protection``
 
 ![i2](https://i.imgur.com/bQfkFMl.png)
 
@@ -71,7 +71,7 @@ Blacklist(s) has higher priority than Whitelist(s) which means if a IP address i
 ```
 
 ### II. Login Log
-From the admin panel, make your way to ``Mageplaza > Security > Login Log``. All logins and login attempts will be recorded here.
+From the admin panel, make your way to ``System > Security > Login Log``. All logins and login attempts will be recorded here.
 
 ![i4](https://i.imgur.com/AogyfB4.png)
 
