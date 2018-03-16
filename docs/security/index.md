@@ -41,7 +41,7 @@ Follow ``System > Security > Configuration > General > Brute Force Protection``
 
 Here’s an example of a warning emails:
 
-![i7](https://i.imgur.com/Up4mBKw.png)
+![i7](https://i.imgur.com/ymrlPta.png)
 
 #### 1.2. Blacklist/Whitelist IPs
 
@@ -73,11 +73,11 @@ Blacklist(s) has higher priority than Whitelist(s) which means if a IP address i
 ### II. Login Log
 From the admin panel, make your way to ``System > Security > Login Log``. All logins and login attempts will be recorded here.
 
-![i4](https://i.imgur.com/AogyfB4.png)
+![i4](https://i.imgur.com/gIBNONW.png)
 
 Click ``View`` to see login details. Here’s an example:
 
-![i5](https://i.imgur.com/1iYlCm1.png)
+![i5](https://i.imgur.com/8CbThoJ.png)
 
 ### Reset Command line
 
