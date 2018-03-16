@@ -15,7 +15,7 @@ After logging in Magento backend, go to ``System > Security``. We will provide d
 * Login Log
 * Configuration
 
-![i1](https://i.imgur.com/fQKLIhJ.png)
+![i1](https://i.imgur.com/LTTWuwY.png)
 
 ### I. Configuration
 #### 1.1. Brute Force Protection configuration.
