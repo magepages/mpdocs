@@ -59,7 +59,7 @@ Here’s an example of a warning emails:
 * In the **Whitelist(s)** field:
   * All IP addresses that are filled in this section will be allowed whenever accessing the admin login page.
   * You can allow one IP address, multiple IP addresses, an IP address range or multiple IP address ranges.  IP addresses are separated with commas ``,``.
-  *  You can also allow IP addresses as wildcard masks as these follows:
+  * You can also allow IP addresses as wildcard masks as these follows:
     * ``10.0.0. *``
     * ``10.0. *. *``
     * ``10.0.0. * - 123.0.0. *``
