@@ -250,6 +250,6 @@ When you enable this option but can't see its icon on the frontend, you might no
 2.3.3. Add Shipping Method
 ''''''''''''''''''''''''''''''''''''
 
-In general, Magento just displays two basic shipping methods are Flat Rate and Table Rates. To add another shipping method, follow the path ``Stores > Settings > Configuration``, enter ``Sale > Shipping Method`` do follow this `guide <https://www.mageplaza.com/kb/how-to-configure-shipping-method-magento-2.html>`_. 
+In general, Magento just displays two basic shipping methods are Flat Rate and Table Rates. To add another shipping method, go to ``Stores > Settings > Configuration``, enter ``Sale > Shipping Method`` and follow this `guide <https://www.mageplaza.com/kb/how-to-configure-shipping-method-magento-2.html>`_. 
 
 
