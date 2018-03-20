@@ -1,6 +1,6 @@
 
 
-**One Step Checkout extension for Magento 2**, developed by Mageplaza, is the best marketing tool developed to help you reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customers checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page and make it more powerful and more effective. 
+`One Step Checkout extension for Magento 2 <https://www.mageplaza.com/magento-2-one-step-checkout-extension/>`_, developed by Mageplaza, is the best marketing tool developed to help you reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customers checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page and make it more powerful and more effective. 
 
 
 Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
@@ -224,36 +224,32 @@ Enable GeoIP is pretty easy. Let's follow these steps in **GEO IP** section
 
 .. image:: https://imgur.com/7nREABf.jpg
 
+2.3. Other configurations
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Sometimes you can't display some minor fields on the checkout page even you've enabled them in the backend configuration. Don't worry that there're no serious technical issue here, please follow those below instructions to display them properly.
   
-2.2.5. Terms and Conditions Configuration
+2.3.1. Terms and Conditions Configuration
 ''''''''''''''''''''''''''''''''''''
 
-* Firstly, go to **Admin Panel > Mageplaza > One Step Checkout > Display Configuration**, set the **Show Terms and Conditions** field.
+Term and Conditions might not appear on the frontend due to:
 
-.. image:: http://imgur.com/va2YlUb.jpg
+* Term and Conditions hasn't been created yet. Follow ``Admin > Stores > Settings > Terms and Conditions > Add New Condition`` to create a new form.
+* You haven't turn **Term** of Magento configuration on`yet. Please go to `Stores > Settings > Configuration > Sales > Checkout > Checkout Options``, set **Enable Terms and Conditions** to “Yes”.
+* Then, refer `here <https://www.mageplaza.com/magento-2-one-step-checkout-extension/terms-and-conditions.html>`_ to learn how to enable the Term and Conditions on the checkout page.
 
-* Go to **Stores > Settings > Configuration > Sales > Checkout > Checkout Options**, set **Enable Terms and Conditions** to "Yes".
+.. image:: https://i.imgur.com/1Vuly6x.jpg 
 
-.. image:: http://i.imgur.com/0ELZRPq.png
+2.3.2. Enable Gift Messages on item
+''''''''''''''''''''''''''''''''''''
 
-* There is empty TOS in the Terms and Conditions list, now you have to add your TOS.
+When you enable this option but can't see its icon on the frontend, you might not have allowed the product to have the message. Please log in to ``Catalog > Product``, choose that product you want it to have gift message, enable this below option and save the product.
 
-Go to **Admin > Stores > Settings > Terms and Conditions > Add New Condition**
+.. image:: https://i.imgur.com/dEnrHDB.png
 
-.. image:: https://imgur.com/lfwmtIJ.gif
+2.3.3. Add Shipping Method
+''''''''''''''''''''''''''''''''''''
 
-You can add multi Terms and Conditions for your Checkout page. The form will be displayed as the below image:
+In general, Magento just displays two basic shipping methods are Flat Rate and Table Rates. To add another shipping method, follow the path ``Stores > Settings > Configuration``, enter ``Sale > Shipping Method`` do follow this `guide <https://www.mageplaza.com/kb/how-to-configure-shipping-method-magento-2.html>`_. 
 
-.. image:: http://imgur.com/WrQhDk8.jpg
-
-* In **Status** field: Select "Enable" to show the terms and conditions.
-* In **Applied** field: 
-    * Select **Manually** if you want the customer to go through all TOS before clicking on Accept.
-    * Select **Automatically** if you want the TOS to be checked by default.
-* In **Checkbox Text** field: Enter the checkbox title.
-* In **Content** field: Enter the content of the terms and conditions
-
-Finally, choose **Save Condition** to finish.
-
-.. _One Step Checkout extension for Magento 2: https://www.mageplaza.com/magento-2-one-step-checkout-extension/
 
