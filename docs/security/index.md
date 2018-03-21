@@ -13,9 +13,10 @@ You can review login records from the dashboard when entering the backend. The l
 ## How to configure
 After logging in Magento backend, go to ``System > Security``. We will provide detail guides to these bellow configuration
 * Login Log
+* Checklist
 * Configuration
 
-![i1](https://i.imgur.com/LTTWuwY.png)
+![i1](https://i.imgur.com/3QOf9MJ.png)
 
 ### I. Configuration
 #### 1.1. Brute Force Protection configuration.
@@ -67,10 +68,28 @@ Here’s an example of a warning emails:
  * The mark ``*`` is in the `0 - 255` range.*
 
 ```
-Blacklist(s) has higher priority than Whitelist(s) which means if a IP address is in the Blacklist, it will be blocked even it's in the Whitelist as well. So please make sure that you've added your IP address in the Whitelist only. 
+Blacklist(s) has higher priority than Whitelist(s) which means if a IP address is in the Blacklist, it will be blocked even it's in the Whitelist as well. So please make sure that you add your IP address in the Whitelist only. 
 ```
 
-### II. Login Log
+### II. Checklist
+Checklist is a bunch of outlines pointing out which factor(s) can be the possible vulnarablity for your stores. Go to ``System > Security > Checklist``
+
+![i6](https://i.imgur.com/bat11jh.png)
+
+* In the **Check admin's username** box: Check the name of the admin account, if the default name is too obvious to guess or popular to name, the message will alert the store owner.
+* In the **Check captcha** box
+  * Check if captcha is enabled outside the frontend or in the backend.
+  * Notify if store owner has enabled captcha. If not, message will warn store owner to enable captcha.
+* In the **Check Magento Version** box: Check the version of Magento that the store owner is using. If this is not the latest version, the checklist will alert store owners to update to the latest version.
+* In the **Check database prefix** box: 
+  * Check if the store owner has used the database prefix or not. If not, the checklist will alert store owners to use them for database security.
+  * If the store owner uses a database prefix, the checklist will notify them that their database is working properly.
+
+```
+For possible low-key factors that are not good for your security, they will be marked a red X. We'd highly recommend you should upgrade Security module to Professional edition to learn the detail way how to fix it throughoutly. 
+```
+  
+### III. Login Log
 From the admin panel, make your way to ``System > Security > Login Log``. All logins and login attempts will be recorded here.
 
 ![i4](https://i.imgur.com/gIBNONW.png)
@@ -78,6 +97,18 @@ From the admin panel, make your way to ``System > Security > Login Log``. All lo
 Click ``View`` to see login details. Here’s an example:
 
 ![i5](https://i.imgur.com/8CbThoJ.png)
+
+Once an admin account has exceeded the allowed login attempts (which is configured at ``Store> Settings> Configuration> Advanced> Maximum Login Failures to Lockout Account``), there will be a mail notification to the store owner that this account has been lock up. Store owner should review this case again to reset safety settings.
+
+![i7](https://i.imgur.com/Lz7ppS8.png)
+
+Also, store owners can check the last login of a specific administratore. You can follow ``System > Permissions > All Users``
+
+![i8](https://i.imgur.com/f7a0SkZ.png)
+
+* The **Last login** column records the newest recent login attempt of an admin.
+* The **IP Address** column records the IP address corresponding to the newest recent login attempt of an admin. Clicking on an IP address, it will redirect to the [Traceip](http://www.traceip.net/) page.
+
 
 ### Reset Command line
 
