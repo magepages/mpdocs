@@ -7,7 +7,7 @@ Mageplaza Search for Magento 2 User Guide will provide the detailed instructions
 
 .. note:: 
   * This extension can be used in multiple stores.
-  * Stores will be defaulted under the Default Configuration.
+  * Stores will be defaulted under Default Configuration.
   * To change the configuration of each store, admins have to uncheck "Use Website" at the left of each Option.
   * Extension’s configuration in each store will be applied to the selected store.
   * Configuration of this store won’t take impact on the other store’s configuration.
@@ -21,8 +21,8 @@ On the frontend, the search box will be shown on the upper-right corner
 
 * Customers are able to enter the character of product name on this box to search their prefered product.
 * Depends on the configuration in the backend, the search result will be shown product name, product small image, price and short description
-* The quantity of search result will be set up in the backend.
-* Customers will click on the result that they are finding, then being redirected to its product page automatically.
+* The number of search result(s) will be set up in the backend.
+* Customers will click on the result that they are finding, then be redirected to its product page automatically.
 
 How to configure
 *****
@@ -38,7 +38,7 @@ Open **General Settings** section and do the following
 * In **Enable** field: Select "Yes" to enable this module.
 * In **Maximum Number of Search Results** field:
   
-  * Enter the number of search result that you want to show in the search result grid.
+  * Enter the number of search result(s) you want to show in the search result grid.
   * If you leave it blank, the default is 10 results.
 
 * In **Limit number of characters in description section** field:
@@ -46,10 +46,7 @@ Open **General Settings** section and do the following
   * Indicates the maximum character of a product's short description that display on Search Result pages.
   * After changing this field, remember to click ``Save COnfig``, ``Reindex Search Data`` to apply changes on the frontend. 
 
-* In the **Information Display** field:
-  
-  * Option can be multiple chosen.
-  * Chosen options will display on Search Result pages. 
+* In the **Information Display** field: Chosen information will display on Search Result pages. 
 
 * In the **Reindex Search Database** field, select one of the following
   
@@ -57,14 +54,14 @@ Open **General Settings** section and do the following
   * After Product Save: This option is a good choice for store has less than 3,000 products
   * Manually (used reindex button bellow): You have to click ``Reindex`` button everytime product's information changes.
 
-* In **Search by category configuration** field: This field allows customer the ability to search by Product and Category's name 
+* In the **Search by category configuration** field: This field allows customer the ability to search by Product and Category's name 
   
-  * In **Enable Search by Caetgory** field: Choose "Yes" to display Category search on the frontend. At that time, **Maximal Depth** will be shown in the backend.
-  * In **Maxiamal Depth** field: The entered number represents the level of displayed Category in the search box.
+  * In the **Enable Search by Caetgory** field: Choose "Yes" to display Category search on the frontend. At that time, **Maximal Depth** will be shown in the backend.
+  * In the **Maxiamal Depth** field: The entered number represents the level of displayed Category in the search box.
  
 .. image:: https://i.imgur.com/d12rg6f.png
 
-That's all about the user guide of Mageplaza Search extension for Magento 2. If you still have any question, please feel free to contact us.
+
 
 
 
