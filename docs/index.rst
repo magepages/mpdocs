@@ -32,6 +32,7 @@ Welcome to Mageplaza Docs
    reward-points/index
    security/index
    gift-card/index
+   search-m2/index
    blog-m2/index
    smtp/index
    affiliate-m2/index
