@@ -239,7 +239,7 @@ Go to ``Admin > Social Login > Configuration > Github``.
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Github API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-github-api.html>`_.
 
-8.2. Login using Github
+11.2. Login using Github
 ######################
 
 .. image:: https://i.imgur.com/BptHpHv.png
