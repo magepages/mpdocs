@@ -34,7 +34,7 @@ Welcome to Mageplaza Docs
    gift-card/index
    search-m2/index
    blog-m2/index
-   smtp/index
+   smtp-m2/index
    affiliate-m2/index
    automatic-related-products/index
    frequently-bought-together/index
