@@ -1,4 +1,4 @@
-# Magento 2 Security 
+# Security 
 
 ## Overview 
 Security issues for Magento have left a big question mark in the community of online stores. This problem is specially cared when Magento-based stores which own critical information and huge transactional volume can easily become ideal prey for blackhat hackers to attack. To help online stores prevent brutal break-ins, Mageplaza has developed the Security extension.
