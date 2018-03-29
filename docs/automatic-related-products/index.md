@@ -7,9 +7,9 @@
 
 ## How to configue
 
-Login to Magento Admin, choose ``Mageplaza > Automatic Related Products > Configuration``
+Login to Magento Admin, choose ``Marketing > Automatic Related Products``
 
-![ARP1](https://i.imgur.com/sk9qZIE.png)
+![ARP1](https://i.imgur.com/TlpDp0X.png)
 
 Follow our given guide below to complete Automatic Related Products configuration which includes
 - Configuration
@@ -19,8 +19,10 @@ Follow our given guide below to complete Automatic Related Products configuratio
   - Manage Rules on Shopping Page
   
 ### I. Configuration
-From the Admin Panel, go to ``Mageplaza > Automatic Related Products > Configuration > General Configuration``
+From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extensions > Automatic Related Products``
+
 ![ARP2](https://i.imgur.com/4xWBIuX.png)
+
 In the **Enable Automatic Related Products** field, choose “Yes” to enable the extension
 
 ### II. Manage Rules on Product Page
