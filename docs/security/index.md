@@ -16,18 +16,25 @@ After logging in Magento backend, go to ``System > Security``. We will provide d
 * Checklist
 * Configuration
 
-![i1](https://i.imgur.com/3QOf9MJ.png)
+![i1](https://i.imgur.com/bC7cOFk.png)
 
 ### I. Configuration
-#### 1.1. Brute Force Protection configuration.
+#### 1.1. General
+After entering ``System > Security > Configuration``, expand the General configuration
+
+![i10](https://i.imgur.com/uqGBWW1.png)
+
+* In the **Enable** field: Choose “Yes” to turn the Security module on.
+* In the **Send warning emails to** field: 
+  * Enter the email address to be able to receive warning emails. 
+  * You can fill multiple emails separated with commas ``,`` 
+
+#### 1.2. Brute Force Protection
 Follow ``System > Security > Configuration > General > Brute Force Protection``
 
 ![i2](https://i.imgur.com/bQfkFMl.png)
 
-* In the **Enable** field: Choose “Yes” to turn the module on.
-* In the **Send warning emails to** field: 
-  * Enter the email address to be able to receive warning emails.
-  * You can fill multiple emails separated with commas ``,``
+* In the **Enable** field: Choose "Yes" to enable this function.
 * In the **Maximum number of failed login attempts** field:
   * Enter an allowable number of failed logins.
   * Default number of maximum failed login attempts is ``5`` when you enable Security module.
@@ -36,6 +43,7 @@ Follow ``System > Security > Configuration > General > Brute Force Protection``
   * Enter the number of minute(s) which presents the length of a session. During this session, If the **Maximum number of failed login attempts** is reached, warning emails will be sent.
   * Default number of allowed duration is ``10`` minutes when you enable Security module.
   * If you leave the field blank or enter 0, no warning emails will be sent even if the maximum number of acceptable logins is reached.
+* In the **Locked User Alert** field: Select "Yes" to send the alert email when the admin account is locked due to failed login attempts is exceeded. 
 * In the **Email Template** field: 
   * Choose the template for the warning email.
   * You can edit/customize one at ``Marketing > Email Template``.
