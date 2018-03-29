@@ -1,12 +1,13 @@
 # Reward Points
 
 ## Overview
-In modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing engagement between customers and stores. Hence, Mageplaza Reward points extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
+In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, Mageplaza Reward points extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
 
 Magento 2 Reward Points extension will allow earning unlimited reward points as well as using them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
 
 ```
 The Reward Points system does not apply for guest customers.
+The Product's Earning Point may vary according to a specific Customer Group and Earning Rate set in the backend.
 ```
 
 ## How to use
@@ -33,22 +34,20 @@ Customers can earn reward point(s) and use them perfectly in these following pag
 * Admins are able to apply changes to reward point(s) in the customer’s account and refund point(s) in **Credit Memo** in the backend.
 * Admins are not supported to use reward point(s) when creating a new order at the moment.
 
-![i3](https://i.imgur.com/u35VRGO.png)
-
 ## How to configure
-Log in to your backend, then go to ``Mageplaza > Reward Points`` and follow the instruction below to configure Reward Points extension
+Log in to your backend, then go to ``Marketing > Reward Points`` and follow the instruction below to configure Reward Points extension
 * Earning Rate
 * Spending Rate
-* Transaction
+* Transactions
 * Configuration
 
 ```
 Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
 ```
-![i4](https://i.imgur.com/UvI1wnn.png)
+![i4](https://i.imgur.com/j2iMECl.png)
 
 ### I. Earning Rate
-Go to ``Mageplaza > Reward Points: Earning Rate``
+Go to ``Marketing > Reward Points: Earning Rate``
 
 #### 1.1. General Management.
 This is the place where admins can store Earning Rates created.
@@ -60,16 +59,16 @@ This is the place where admins can store Earning Rates created.
   * To edit an earning rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
 
-#### 1.2. Add/Edit New Rate
+#### 1.2. Add/Edit New Earning Rate
 After entering the Earning Rate section, click on ``Add New Rate`` to create a new earning rate. Then, click ``Save and Continue Edit``, the page will automatically switch to the **Edit Rate** page.
 
-![i6](https://i.imgur.com/BTr4Efn.png)
+![i6](https://i.imgur.com/32eD8sV.png)
 
 * In the **Website** field: Choose website(s) you want to apply the earning rate.
-* In the **Customer Group** field:
+* In the **Customer Group(s)** field:
   * Only customers who belong to this group can be entitled this earning rate.
   * Customers who belong to different groups can receive different earning rates even when they purchase the same product.
-* In the **Rate** field 
+* In the **Earning Rate** field 
   * Define the conversion rate from X (currency) to Y (point)
   * Admins can fill out the appropriate rate in here. However, decimal numbers are not approved. If admins enter a decimal number, they will be rounded following the rule ``>= 0.5 to 1``, or  ``< 0.5 to 0``.
 * In the **Priority** field: 
@@ -78,7 +77,7 @@ After entering the Earning Rate section, click on ``Add New Rate`` to create a n
   * If there’re many earning rates which have similar priorities, rules will apply on the rate which has a smaller ID first.
  
 ### II. Spending Rate.
-Follow the way ``Mageplaza > Reward Points: Spending Rate``
+Follow the way ``Marketing > Reward Points: Spending Rate``
 
 #### 2.1. General Management.
 This is the place where admins can store Spending Rates created.
@@ -87,19 +86,19 @@ This is the place where admins can store Spending Rates created.
 
 * From the grid view, admins can acknowledge some fundamental information of an earning rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
   * **Delete**: Tick the checkbox of the spending rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
-  * To edit an earning rate, choose “Edit” in the **Action** column.
+  * To edit an spending rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
 
-#### 2.2. Add/Edit New Rate.
+#### 2.2. Add/Edit New Spending Rate.
 After entering the Spending Rate interface, select ``Add New Rate`` to create a new spending rate. Then, click ``Save and Continue Edit``, the page will automatically switch to the **Edit Rate** page.
 
-![i8](https://i.imgur.com/G1k9TBh.png)
+![i8](https://i.imgur.com/FTW2VpL.png)
 
 * In the **Website** field: Choose website(s) you want to apply the spending rate.
-* In **Customer Group** field
+* In **Customer Group(s)** field
   * Only customers who belong to this group can use their point(s) following this spending rate.
   * Customers who belong to different groups use different spending rates even when they purchase the same product.
-* In **Rate** field 
+* In **Spending Rate** field 
   * Indicates the conversion rate from X (point) to Y (currency)
   * Admins can fill out an appropriate rate in here. However, decimal numbers are not approved. If admins enter a decimal number, they will be rounded following the rule ``>= 0.5 to 1``, or  ``< 0.5 to 0``.
 * In **Priority** field 
@@ -107,13 +106,13 @@ After entering the Spending Rate interface, select ``Add New Rate`` to create a 
   * 0 indicates the highest priority. The higher number, the lower priority.
   * If there are many spending rates which have similar priorities, rules will apply on the rate which has a smaller ID.
 
-### III. Transaction.
-The right path is ``Mageplaza > Reward Points: Transaction``.
+### III. Transactions.
+The right path is ``Marketing > Reward Points: Transaction``.
 
 #### 3.1. General Management.
 This is the place where admins can create and manage transactions. By entering this interface, admins can add/minus customer’s reward point(s).
 
-![i9](https://i.imgur.com/JOX0McB.png)
+![i9](https://i.imgur.com/1iY4qA3.png)
 
 * From the grid view, admins can acknowledge some fundamental information of created transactions such as **ID**, **Customer**, **Action**, **Point(s)**, **Expire On**, **Date**, **Status**. Also, admins can:
   * **View**: To review a transaction, choose “View” in the **Action** column.
@@ -153,7 +152,7 @@ Follow in the backend ``Mageplaza > Reward Points: Configuration``
 #### 4.1. General Configuration.
 This general configurations can apply for the whole module.
 
-![i12](https://i.imgur.com/AQVDZ7y.png)
+![i12](https://i.imgur.com/HyWAogp.png)
 
 * In the **Enable** field: Choose “Yes” to active the Reward Point extension from Mageplaza. 
 * In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displayed on the frontend at the [My Account > Reward Point](https://docs.mageplaza.com/reward-points/index.html#my-account-my-points-reward) section.
@@ -224,9 +223,9 @@ This displays general configurations regarding earning point(s)
 
 #### 4.4. Display Configuration.
 
-![i16](https://i.imgur.com/GDa0fkg.png)
+![i16](https://i.imgur.com/2Q9dDQc.png)
 
-* In the **Display Total Points Summary on Top Links** field: Select “Yes” to display the total number of reward point(s) that customer has on Top Link.
+* In the **Display Total Points on Top Links** field: Select “Yes” to display the total number of reward point(s) that customer has on Top Link.
 
 ![i17](https://i.imgur.com/MdTaIp1.png)
  
@@ -234,17 +233,9 @@ This displays general configurations regarding earning point(s)
 
 ![i8](https://i.imgur.com/bvfjpjF.png)
 
-* In the **Display Earning Points on Product Details Page** field: Select “Yes” to display the product's earning point(s) number that customers will receive when purchasing products, on the Product Details page.
-
-![i19](https://i.imgur.com/iEdKLcb.png)
-
-* In the **Display Earning Points on Product Listing Page** field: Select “Yes” to display the product's earning point(s) number in the category that customers can earn when purchasing.
-
-![i20](https://i.imgur.com/i2P7mH3.png)
-
 * In the **Display Earning Points on Minicart** field: Select “Yes” to show the total number of earning point(s) customers can receive when checking out the cart at the Minicart page.
 
-![21](https://i.imgur.com/lG7GVJQ.png)
+![21](https://i.imgur.com/bjj2G82.png)
 
 * In the **Display Earning Points on Shopping Cart** field: Select “Yes” to display the total number of earning point(s) customers can receive when checking out the cart at the View Cart Page. (Shopping Cart).
 
@@ -252,22 +243,22 @@ This displays general configurations regarding earning point(s)
 
 #### 4.5. Email Configuration.
 
-![i23](https://i.imgur.com/WuADaTe.png)
+![i23](https://i.imgur.com/3MnOprZ.png)
 
 * In the **Enable Notification Email** field: Select “Yes” to allow notification emails to be sent to customers.
+* In the **Subscribe customers by default** field: When a new customer subscribes to a store, receiving no emails is set as default. Select “Yes” in this section so that when their first transaction is made (by purchasing or by admin), Reward Points Notification will be checked immediately.
 * In the **Sender Email** field: Admins can choose one of the 5 available Magento Senders: General Contact, Sales Representative, Customer Support, Customer Email 1, Customer Email 2
 * In the **Update Point Balance Email Template** field
   * Pre-installed email configuration that customers can receive the notification mail when there are changes in their balance.
   * To change **Email Template**, admins can create another one under ``Marketing > Email Template``.
   * The instruction to create a new Email Template can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
-* In the **Point expires Email Template** field:
+* In the **Points expiration Email Template** field:
   * Pre-installed email configuration that customers can receive the notification mails when their reward point(s) is (are) about to expire.
   * To change the Gift Card Email template, admins can create another one under ``Marketing > Email Template``.
   * The instruction to create a new Email Template can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
 * In the **Send email reminder before a transaction expires** field
   * Set how many day(s) before the expiration date the email can be sent.
   * If you leave the field blank or 0, reminder email will not be sent.
-* In the **Subscribe customers by default** field: When a new customer subscribes to a store, receiving no emails is set as default. Select “Yes” in this section so that when their first transaction is made (by purchasing or by admin), Reward Points Notification will be checked immediately.
 
 ### V. Manage Reward Point of Customer
 
@@ -322,17 +313,15 @@ Customers can check the Reward Point information in this section after logging i
 
 ![i25](https://i.imgur.com/IDryq1q.png)
 
-* **Category Page**: Displays the earning point(s) per product.
-
-![i26](https://i.imgur.com/i2P7mH3.png)
-
-* **Product Detail Page**: Displays the earning point(s) per product.
-
-![i27](https://i.imgur.com/iEdKLcb.png)
-
 * **MiniCart**: Displays the earning point(s) of all products in the cart.
 
-![i28](https://i.imgur.com/R19AZQN.png)
+![i28](https://i.imgur.com/bjj2G82.png)
+
+* **View Cart Page (Shopping Cart)**: Displays Apply Reward Point on the checkout page, and also displays the Earning Point, Spending Point and Reward Point.
+
+![i26](https://i.imgur.com/7wlXyks.png)
+
+
 
 
  
