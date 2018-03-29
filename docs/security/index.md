@@ -32,7 +32,7 @@ After entering ``System > Security > Configuration``, expand the General configu
 #### 1.2. Brute Force Protection
 Follow ``System > Security > Configuration > General > Brute Force Protection``
 
-![i2](https://i.imgur.com/bQfkFMl.png)
+![i2](https://i.imgur.com/PC2809t.png
 
 * In the **Enable** field: Choose "Yes" to enable this function.
 * In the **Maximum number of failed login attempts** field:
