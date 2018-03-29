@@ -1,4 +1,4 @@
-# Magento 2 SMTP
+# SMTP
 
 **[Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/)** will assist you to resolve email sending issues. By available popular email server providers, our extension absolutely would like to help you in sending email with a huge amount of quantity, faster along with high secure authentication. Hence, Mageplaza SMTP will also provide you a log diary which archive all the detail sent emails, makes it easier to keep track and checking problems. Be ready to say goodbye to Spam box issue.
 
