@@ -14,9 +14,8 @@ You can review login records from the dashboard when entering the backend. The l
 After logging in Magento backend, go to ``System > Security``. We will provide detail guides to these bellow configuration
 * Login Log
 * Checklist
-* Configuration
 
-![i1](https://i.imgur.com/bC7cOFk.png)
+![i1](https://i.imgur.com/pTHmlzL.png)
 
 ### I. Configuration
 #### 1.1. General
