@@ -74,7 +74,7 @@ Unfortunately, this Location=Custom function is under a maintainance for fixing 
 Display products that meet these following criterias
 
 ##### 2.2.1 Configure Conditions
-* This is where you select the conditions for pages. Only product pages which match the setup conditions the new rule will be displayed
+* This is where you select the conditions for pages. Only product pages which match the setup conditions, the new rule will be displayed
 * You can add, remove conditions by clicking on + or x
 * You can change the true/false of the condition by clicking the bold text
 
@@ -93,7 +93,7 @@ Display products that meet these following criterias
 * You can add, remove conditions by clicking on + or x
 * You can change the true/false of the condition by clicking the bold text
 
-![ARP9](https://i.imgur.com/fPt5OxX.png)
+![ARP9](https://i.imgur.com/v84iWOL.png)
 
 ##### 2.3.2 Preview Products
 After saving the conditions, you’ll get a Product List. Click on ``Preview Product`` to display the products that meet the conditions. 
@@ -117,7 +117,7 @@ After saving the conditions, you’ll get a Product List. Click on ``Preview Pro
 * In the **Display additional information** field: choose additional information or/and buttons displayed under products in the block, include Price, Review Information, Add to Cart, Add to WishList, Add to Compare buttons.
 * In the **Add Product** field:
   * Choose an available related type of products to set for the block (Related Products, Up-sell Products, Cross-sell Products)
-  * Each of product page can have different related product block which you can configure them in here.
+  * Each of product page can have different related product blocks which you can configure them in here.
   * How to configure Related, Up-sell, Cross-sell Product document can be found [here](https://www.mageplaza.com/blog/how-to-add-and-remove-related-products-magento-2.html)
   
 #### 2.4 A/B Testing
@@ -145,7 +145,6 @@ There are 5 Location options to display the Block in Category Page. In **Locatio
 * **Sidebar Bottom**: Related Products Block is displayed at the bottom of Sidebar
 * **Above Content**: Related Product Block is displayed on top of Content in Category Page
 * **Below Content**: Related Product Block is displayed below Content in Category Page
-* **Custom**: You can select the block’s display location in any position. There will be a specific guide for this section at the end of this user guide.
 
 ```
 Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
@@ -159,7 +158,8 @@ Unfortunately, this Location=Custom function is under a maintainance for fixing 
 * There’s no Preview Product here
 
 #### 3.3 Actions
-Completely Similar to Action of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
+* Action Page of Category Rule doesn't have *Add Product item* as in Product Page Rule.
+* For the rest, it's similar to Action section of Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
 
 #### 3.4 A/B Testing
 Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
@@ -188,10 +188,11 @@ There are 6 Location options to display the Block in Category Page. In **Locatio
 You can select the same conditions as the Product Page. Furthermore, you can set additional conditions for Total Items in the Cart, Total Price and Total Volume of Products.
 
 #### 4.3 Actions
-Completely Similar to Action of the Product Page. Click here to refer.
+* Action Page of Shopping Cart Page Rule doesn't have *Add Product* as in Product Page Rule.
+* For the rest, it's similar to Action section of Product Page. lick [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
 
 #### 4.4 A/B Testing
-Completely Similar to A/B Testing of the Product Page. Click here to refer.
+Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
 
 ## How to set the Location in Custom
 There’re two ways to set the Location in Custom mode
