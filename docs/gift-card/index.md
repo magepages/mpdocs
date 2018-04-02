@@ -50,10 +50,10 @@ Log in to Magento’s backend and follow ``Mageplaza > Gift Card``, follow our g
 
 ### I. Configuration
 
-#### 1.1 General Configuration
+#### 1.1. General Configuration
 At ``Mageplaza > Gift Card: Configuration`` to have an overview look in the extension’s general configuration.
 
-##### 1.1.1 General 
+##### 1.1.1. General 
 Follow the path ``Mageplaza > Gift Card: Configuration > General Configuration``
 
 ![GC7](https://i.imgur.com/NaT65QQ.png)
@@ -66,7 +66,7 @@ Follow the path ``Mageplaza > Gift Card: Configuration > General Configuration``
   * Allows a gift card to be redeemed.
   * The amount of a gift card after being redeemed will be added to the customer’s gift card credit.
 
-##### 1.1.2 Gift Code Hidden Configuration
+##### 1.1.2. Gift Code Hidden Configuration
 Expand the ``General Configuration > Gift Code Hidden Configuration``
 
 ![GC8](https://i.imgur.com/dmZlvND.png)
@@ -98,9 +98,9 @@ Expand the ``General Configuration > Gift Code Hidden Configuration``
 *The email sent to senders*
 ![GC12](https://i.imgur.com/agY8q2F.png)
 
-#### 1.2 Gift Card Product configuration
+#### 1.2. Gift Card Product configuration
 
-##### 1.2.1 General
+##### 1.2.1. General
 This is where you can set up fews of basic configuration for Gift Card Product ``Mageplaza > Gift Card: Configuration > Gift Card Product Configuration``
 
 ![GC13](https://i.imgur.com/EtzbRSG.png)
@@ -116,7 +116,7 @@ This is where you can set up fews of basic configuration for Gift Card Product `
   * Will be displayed when admin selects “Yes” in **Enable Delivery Date**
   * When you select “Yes” in this section, customers can change the timezone according to the choice based on the given List Timezone.
   
-##### 1.2.2 Buy Gift Card Product Process
+##### 1.2.2. Buy Gift Card Product Process
 It’s an add-on part of Gift Card Product Configuration
 
 ![GC15](https://i.imgur.com/UhQBe3e.png)
@@ -132,42 +132,42 @@ It’s an add-on part of Gift Card Product Configuration
     * If after the invoice created successfully, but the customer wants to cancel gift card, admin will create a Credit Memo. Then, the newly created Gift Card will be eliminated, Gift Code in Manage Gift Code is also canceled
 * In the **Order Completed** line: The gift card of customer will be created as soon as the **Order Complete** is accomplished. The gift code will be stored in **Manage Gift Codes**
 
-#### 1.3 Gift Card/Credit Checkout Configuration
+#### 1.3. Gift Card/Credit Checkout Configuration
 
-##### 1.3.1 General
+##### 1.3.1. General
 Follow the path ``Mageplaza > Gift Card: Configuration > Gift Card/Credit Checkout Configuration``
 
 ![GC16](https://i.imgur.com/JuoxURL.png)
 
 * In the **Use Coupon Box To Apply Gift Card** field
-  * Select “Yes” to apply the Gift Code with Magento's default Coupon Box. So that:
+  * Select “Yes” to apply Gift Code with Magento's default Coupon Box. So that:
     * **Can Used Multiple Gift Cards** section will be hidden
-    * In the frontend, the customer can apply a single Gift Code only. So does admin when creating New Order in the backend.
+    * On the frontend, the customer can apply a single Gift Code only. So does admin when creating New Order in the backend.
     * If there’s only Gift Card Product in the Order, when the Gift Code is applied, there will be an error message.
-  * Select “No” to apply the Gift Code by Gift Card Box of the extension. So that:
+  * Select “No” to apply Gift Code by Gift Card Box of the extension. So that:
     * **Can Used Multiple Gift Card** section will be display
-    * In the frontend or backend, Magento’s default Coupon Box will be used to apply the discount.
+    * On the frontend or in the backend, Magento’s default Coupon Box will be used to apply the discount.
     * If there’s only Gift Card Product in the Order, the Gift Code will not be displayed.
 * In the **Can Use Multiple Gift Cards** field
   * If you select “No” in **Use Coupon Box To Apply Gift Card** part, this section will be displayed.
-  * Choose “Yes” to allow customers to use multiple gift cards at the same time.
+  * Choose “Yes” to allow customers can use multiple gift cards at the same time.
 * In the **Show Gift Card Summary On Total Block** field
-  * Select “Yes” to display the Gift Code in the Summary section of **Total Block** when the admin do the **View Card** or **Checkout**
-  * The Gift Code is displayed entirely depending on whether  admins use the **Hidden Code Configuration** or not.
+  * Select “Yes” to display the Gift Code in the Summary section of **Total Block** when the admin take action of **View Card** or **Checkout**
+  * The Gift Code is displayed entirely depending on whether admins use **Hidden Code Configuration** or not.
 * In the **Can Use Gift Credit** field
   * Select “Yes” to use the Credit to reduce the order total
   * With the customer who has gift credit balance = 0, this item will not be displayed
-  * Neither will it be displayed if there is only Gift Card Product in Order
+  * Neither will it be displayed if there is only Gift Card Product in the order
 
-##### 1.3.2 Checkout Process
+##### 1.3.2. Checkout Process
 This is a supplementary part of **Gift Card Product Configuration** section
 
 ![GC17](https://i.imgur.com/90cJKcl.png)
 
 * In the **Can Use For Shipping Amount** field: Select “Yes” to apply a gift Card and gift credit for the shipping fee. If both gift card and gift credit are having sufficient value and the customer doesn’t purchase Gift Card Product, the order can be considered as a free one.
-* In the **Allow Refund Gift Card** field: Select “Yes” to be able to refund amount of a gift card or gift credit on its balance.
+* In the **Allow Refund Gift Card** field: Select “Yes” to be able to refund the amount of a gift card or gift credit to customer's balance.
 
-#### 1.4 Gift Card Template Configuration
+#### 1.4. Gift Card Template Configuration
 Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration`` to modify general modules changing template for gift certificates
 
 ![GC18](https://i.imgur.com/sYDT1td.png)
@@ -177,24 +177,24 @@ Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration
   * Set the number of character that customers will enter in **Message** on the Gift Card Product’s frontend.
   * If admin leave it blank or enter 0, the maximum number of characters will be automatically restricted to only 120.
 * In the **Default note** field 
-  * Default note can be used to display on the gift cards (in case **Note** is enabled)
+  * Default note can be used to display on gift cards (in case **Note** is enabled)
   * When admin creates Template in **Manage Templates**, this can also change **Default Note**.
 
-#### 1.5 Email Configuration
+#### 1.5. Email Configuration
 
-##### 1.5.1 General
+##### 1.5.1. General
 Visit  ``Mageplaza > Gift Card: Configuration > Email Configuration`` and drop the module down
 
 ![GC19](https://i.imgur.com/66y0g4e.png)
 
-* In the **Enable Email Notification** section: Choose “Yes” to enable the function and “No” for vice versa result. When a gift card arrived to recipients perfectly, an email containing the gift card will be informed back to the sender.
+* In the **Enable Email Notification** section: Choose “Yes” to enable the function and “No” for the vice versa result. When a gift card arrived to recipients perfectly, an email containing the gift card will be informed back to the sender.
 * In the **Email sender** field: Available 5 Magento’s default email senders for your selection: General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2
 * In the **Gift Card Email Template** field
   * Email notification is pre-installed when customers receive a gift card
   * To change the Gift Card Email Template, admin can create another Email Template under ``Marketing > Email Template``
   * Instruction how to create a new email template can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 
-##### 1.5.2 Gift Card Update Notification
+##### 1.5.2. Gift Card Update Notification
 Another small extra for the email configuration, is provided for updating email actions.
 
 ![GC20](https://i.imgur.com/d39LMoc.jpg)
@@ -202,20 +202,20 @@ Another small extra for the email configuration, is provided for updating email 
 * In the **Enable** field: Choose “Yes” to turn the function on.
 * In the **Gift Card Update Email Template** function: Similar to **Gift Card Email Template**
 
-##### 1.5.3 Before Expired Notification
+##### 1.5.3. Before Expired Notification
 Another extra module for the email configuration, is provided for notifying the expiration via emails.
 
 ![GC21](https://i.imgur.com/WIQt7ya.png)
 
 * In the **Enable** field 
-  * Choose “Yes” to send email to the recipient before the gift card is out of date X day(s)
+  * Choose “Yes” to send email to the recipient before the gift card is going to be expired after X day(s)
   * Expiration day will be configured in the below section.
 * In the **Before Update Email Template** function: similar to **Gift Card Email Template**
 * In the **Before Expired Day(s)** field
   * Specifies day(s) before the expiration of a gift card for email to be sent
   * This expiration day(s) also applies for SMS sending method.
 
-##### 1.5.4 Notify Sender After Gift Card is Sent
+##### 1.5.4. Notify Sender After Gift Card is Sent
 Another extra add on for the email configuration, is provided for notifying the recipient after sending gift cards.
 
 ![GC22](https://i.imgur.com/1T4QOMX.png)
@@ -223,7 +223,7 @@ Another extra add on for the email configuration, is provided for notifying the 
 * In the **Enable** field: Choose “Yes” to turn the function on.
 * In the **Sender Confirmation Email Template** function: Similar to **Gift Card Email Template**
 
-##### 1.5.5 Gift Card Unused Notification
+##### 1.5.5. Gift Card Unused Notification
 Is a complement function for the email configuration
 
 ![GC23](https://i.imgur.com/BFLEcNN.png)
@@ -239,37 +239,36 @@ Is a complement function for the email configuration
     * The balance doesn’t change.
     * The unused day(s) = The current day - Delivery Date
 
-##### 1.5.6 Customer Balance Update Notification
+##### 1.5.6. Customer Balance Update Notification
 Is an add-on function for the email configuration
 
 ![GC24](https://i.imgur.com/LnmTKKz.png)
 
-* In the **Enable** field: Select “Yes” so that customers can receive emails every time the balance of a gift credit is updated
+* In the **Enable** field: Select “Yes” so that customers can receive emails every time the balance of a gift credit is updated.
 * In the **Update Balance Email Template** field: Similar to **Gift Card Email Template**
 
-#### 1.6 SMS Configuration
-
-##### 1.6.1 General
+#### 1.6. SMS Configuration
+##### 1.6.1. General
 
 ![GC25](https://i.imgur.com/OvuDpsU.png)
 
 * In the **Enable SMS Delivery** field: Select “Yes” to allow the system to send SMS about the gift card message to customers.
-* In the **Twilio Account SID**: Admin needs to register a Twilio Account, use the SMS sending method to enter the correct SID of his Twilio Account
+* In the **Twilio Account SID**: Admin needs to register a Twilio Account, use the SMS sending method to enter the correct SID of his Twilio Account.
 * In the **Twilio Account Token** field: Along with its SID, admin also needs to fill out the correspondent Token Twilio Account
 * In the **Sender Phone Number**: The field to enter a phone number to send. The phone number should be the one purchased from Twilio
 * In the **SMS Message** field: This is where the admin modifies the content of the SMS before sending it to customers. Admin can use premade variables to add a SMS text.
 
-##### 1.6.2 Gift Card Update Notification
+##### 1.6.2. Gift Card Update Notification
 After SMS’s general configuration is some bonus mini configurations. First it’s about **Gift Card Update Notification**
 
 ![GC26](https://i.imgur.com/YiNvoKW.jpg)
 
 * In the **Enable** field:
-  * Choose “Yes” to receive a gift card SMS message informing how many day(s) left to use
+  * Choose “Yes” to receive a gift card SMS message informing how many day(s) left to use their gift card.
   * The remain expiration day(s) is taken from **Email Before Expired Day(s)** configuration
 * In the **Gift Card Update Email Template** field: Admin can use those one of available email templates
 
-##### 1.6.3 Before Expired Notification
+##### 1.6.3. Before Expired Notification
 
 ![GC27](https://i.imgur.com/kbJ0aqn.jpg)
 
@@ -281,43 +280,43 @@ After SMS’s general configuration is some bonus mini configurations. First it�
 ### II. Manage Templates
 Go to ``Mageplaza > Gift Card: Manage Templates``
 
-#### 2.1 General Management
+#### 2.1. General Management
 
 ![GC28](https://i.imgur.com/jonNULh.png)
 
-* This is the core panel archives all Gift Card Templates
+* This is the core panel archiving all Gift Card Templates
 * From Grid, admin can capture the basic information of the template such as ID, Name, Status, Thumbnail, Created Date and can perform some below actions
   * **Delete**: check template(s) you want to remove, then choose “Delete” in the ``Action`` box (at the left side of the Grid). Click “OK” to confirm the delete action.
   * **Change Status**: check template(s) you want to apply, in the ``Action`` box, select ``Change Status > Active/Inactive`` to change selected template(s) status.
   * **Edit**: To edit a template, select “Edit” in the ``Action`` column (the last column to the right of the Grid)
 * Moreover, admins can take action to Filter, Change Store View, Column or Export Grid
 
-#### 2.2 Create/Edit Templates
-After entering the Manage Template page, you can select the red``Create New Template`` button to create a new template. After clicking**Save** and **Continue Edit**, the page will automatically switch to the Edit Template page.
+#### 2.2. Create/Edit Templates
+After entering the Manage Template page, you can select the red``Create New Template`` button to create a new template. After clicking **Save** and **Continue Edit**, the page will automatically switch to the Edit Template page.
 
-##### 2.2.1 Template Information
+##### 2.2.1. Template Information
 
 ![GC29](https://i.imgur.com/5qWTuu3.png)
 
 * In the **Template Name** field
-  * Admin is able to name the template. When a gift card product selects this template and its status is Active, **Template Name** will be displayed in the Gift Card Product Page frontend
+  * Admin is able to name the template. When a gift card product selects this template and its status is Active, **Template Name** will be displayed on the Gift Card Product Page frontend
   * If you leave it blank, there will be an error message.
-* In the **Status** field: Select “Active” to display Template in the Gift Card Product Page frontend, in case Gift Card Product selects this template
-* In the **Allow Upload Image**, if the Template is displayed in the Gift Card Product frontend
+* In the **Status** field: Select “Active” to display the template on the Gift Card Product Page frontend, in case Gift Card Product selects this template.
+* In the **Allow Upload Image**, if the template is displayed on the Gift Card Product frontend
   * By selecting “Yes” in this section, you can allow customers to choose their favourable stock to print on the gift card.
   * In vice versa result for “No” option, admin just limits customers to choose an available image for gift cards.
 * In the **Gift Card Title** field:
   * You can change the gift card’s title at this section.
-  * Gift Card Title can be printed on if the gift card’s design has a title part
+  * Gift Card Title can be printed on, if the gift card’s design has a title part
   * If you leave it blank, there will be an error message
 * In the **Font Family** field: Admin can change fonts with some pre-installed fonts in this section, including Times-Roman, Helvetica and Courier.
 * In the **Background Image**: Admin change the background image in this section. If it’s blank, gift card will have a white background
 * In the **Gift Card Note** field
   * Take the note from **Gift Card Template**’s configuration
   * Admins can change the note flexibly.
-  * Gift Card Note can be displayed on if the gift card’s design has a note part.
+  * Gift Card Note can be displayed if the gift card’s design has a note part.
 
-##### 2.2.2 Design
+##### 2.2.2. Design
 Includes two actions:
 * **Load From Exist Template**: Admins can load existing templates to edit quickly by selecting a template in the list box, then select **Load Template**, the design of the selected template will be displayed in the Design Template section.
 
@@ -325,12 +324,12 @@ Includes two actions:
 
 * **Design template**:
   * Admins can design the Gift Card template on this interface easily and quickly by dragging left items and dropping them in the empty box on the right.
-  * Admins can also change some CSS in the Custom section of each option
+  * Admins can also change some CSS in the **Custom** section of each option
   
 ![GC31](https://i.imgur.com/RvkNSOy.gifv)
   
-##### 2.2.3 Image
-* Admins will select some images as default images of gift cards by uploading or dragging images directly into the Upload Image.
+##### 2.2.3. Image
+* Admins will select some images as default images of gift cards by uploading or dragging images directly into the **Upload Image** box.
 * When the template is displayed on the Gift Card Product Page frontend, these images will also be displayed. Customers can choose different images to print different gift cards.
 
 ![GC32](https://i.imgur.com/18D3mfv.gif)
@@ -338,12 +337,12 @@ Includes two actions:
 ### III. Manage Gift Codes
 By visiting ``Mageplaza > Gift Card: Manage Gift Code``
 
-#### 3.1 General Management
+#### 3.1. General Management
 
 ![GC33](https://i.imgur.com/yTyEF34.png)
 
-* This is the module which archives all created gift codes.
-* From this Grid, admins can collect such fundamental information of a gift code like:
+* This is the interface which archives all created gift codes.
+* From this grid, admins can collect such fundamental information of a gift code like:
   * ID, Code, Status, Balance, Store View, Expired Date, Created Date
   * Order (indicates the order in which the gift code was created)
   * Pool (indicates which Pool a gift code belongs to)
@@ -355,17 +354,17 @@ By visiting ``Mageplaza > Gift Card: Manage Gift Code``
   * **Change Status**: check gift code(s) you want to apply, in the ``Action`` box select ``Change Status > Active/Inactive`` to change selected gift code(s) status.
   * **Print**:
     * Check gift code(s) you want to print, then choose the “Print” at the ``Action`` box 
-    * Only gift code(s) which has Template can be printed.
+    * Only gift code(s) which has template can be printed out.
     * After printing, admins will receive a new PDF file which contains the gift card along with its gift code
   * **Send**  
     * Check gift code(s) you want to send, then choose “Send” at the ``Action`` box 
-    * Only gift code(s) which has Method can be sent
+    * Only gift code(s) which has method can be sent
     * After being sent, the Delivery’s mark color will be changed from red to green.
   * **Edit**: To edit a gift code, choose “Edit” at the Action column 
 * In addition, admins can Filter, Change Store View, Columns hay Export Grid
 
-#### 3.2 Create/Edit Gift Code
-After accessing Manage Gift Code(s) page, admins can select ``Create New Gift Code`` to create a new template. When click **Save** and **Continue Edit**, the page will automatically switch to the Edit Gift Code page, simultaneously display **History** and some other function buttons (Delete, Print).
+#### 3.2. Create/Edit Gift Code
+After accessing the Manage Gift Code(s) page, admins can select ``Create New Gift Code`` to create a new template. When click **Save** and **Continue Edit**, the page will automatically switch to the Edit Gift Code page, simultaneously display **History** and some other function buttons (Delete, Print).
 
 ##### 3.2.1 Gift Code Information
 
