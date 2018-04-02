@@ -81,7 +81,7 @@ Blacklist(s) has higher priority than Whitelist(s) which means if a IP address i
 ### II. Checklist
 Checklist is a bunch of outlines pointing out which factor(s) can be the possible vulnarablity for your stores. Go to ``System > Security > Checklist``
 
-![i6](https://i.imgur.com/bat11jh.png)
+![i6](https://i.imgur.com/YyRbNhE.png)
 
 * In the **Check admin's username** box: Check the name of the admin account, if the default name is too obvious to guess or popular to name, the message will alert the store owner.
 * In the **Check captcha** box
