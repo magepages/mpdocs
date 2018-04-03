@@ -197,14 +197,6 @@ You can select the same conditions as the Product Page. Furthermore, you can set
 #### 4.4 A/B Testing
 Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
 
-## How to set the Location in Custom
-There’re two ways to set the Location in Custom mode
-* Use ``Content > Widget``: When using Widget, you can insert Block into more than 30 pre-installed Magento locations.
-* Insert Code directly into HTML: you can insert it wherever you want.
-
-```
-Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
-```
 
 
 
