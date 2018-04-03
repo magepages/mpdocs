@@ -426,18 +426,18 @@ Includes 4 types of Delivery Method: Email, Text Message, Print At Home and Post
   * With the gift code created by admins and has been sent successfully, only the customer whose email is the same as sent email can print the gift card.
 ![GC38](https://i.imgur.com/an9DSkO.png)
 
-* **Post Office**: you need to fill in the precise information to avoid losing gift cards
+* **Post Office**: you need to fill precise information to avoid losing gift cards in the way.
 ![GC39](https://i.imgur.com/LbJlQHk.png)
 
-##### 3.2.3 History
-This module is only visible when the gift code has been created (i.e the gift code has been saved). It points out when the code was executed, what actions were done, how much of the remaining balance, how the amount was changed, if the gift code is still valid
+##### 3.2.3. History
+This module is only visible when the gift code has been created (i.e the gift code has been saved). It points out when the code was executed, what actions were done, how much of the remaining balance is, how the amount was changed, if the gift code is still valid
 
 ![GC40](https://i.imgur.com/sLMrShC.png)
 
 ### IV. Manage Gift Code Pools
 The general path to manage all modules is ``Mageplaza > Gift Card: Manage Gift Code Pools``
 
-#### 4.1 General Management
+#### 4.1. General Management
 ![GC41](https://i.imgur.com/4S75uIO.png)
 
 * Gift Code Pool is a set of gift codes with the same information as Balance, Expiration Date, Template ... Admins can create a Pool to issue a series of gift code quickly.
@@ -451,28 +451,26 @@ The general path to manage all modules is ``Mageplaza > Gift Card: Manage Gift C
   * **Edit**: To edit a gift code pool, admin can select “Edit” in the ``Action`` column (the last column to the right of the Grid)
 * Moreover, admins can filter, change store view, modify columns or export grid
 
-#### 4.2 Create/Edit a Gift Code Pool
+#### 4.2. Create/Edit a Gift Code Pool
+##### 4.2.1. Gift Code Information
 
-##### 4.2.1 Gift Code Information
-
-###### 4.2.1 Pool Information
 ![GC42](https://i.imgur.com/omkuBd8.png)
 
 * In the **Name** field: A friendly note that you need to name the gift code pool to distinguish easily from other pools.
 * In the **Status** field: Choose “Active” to enable the pool .
 * In the **Can Inherit** field: Select “Yes” so that created gift codes will also be changed according to the new alternative of the Pool (except for the Status Attribute)
 
-###### 4.2.2 Gift Card Information
+###### 4.2.2. Gift Card Information
 ![GC43](https://i.imgur.com/POUIwe4.png)
 
 * Includes the basic information of the gift card, you just need to fill in this information similarly to when creating a gift code.
 * After saving, the created gift card will then have the same information with each others (except the gift card code)
 
-###### 4.2.3 Generate Gift Cards
+###### 4.2.3. Generate Gift Cards
 ![GC44](https://i.imgur.com/takLd1O.png)
 
 ```
-This module is only visible when the Pool is created, which provides information about the Code, Balance, Status and Date created by the gift card.
+This module is only visible when Pool is created, which provides information about the Code, Balance, Status and Date created by the gift card.
 ```
 
 * In the **Code Pattern**: Admins can change the code pattern of the pool. The created gift card will have the same gift code form.
@@ -525,7 +523,7 @@ After filling in all required information of a Gift Card Product such as Name, S
 
 ### VIII. Frontend
 
-#### 8.1 Account > Gift Card
+#### 8.1. Account > Gift Card
 ![GC49](https://i.imgur.com/n99dHjm.png)
 
 * **My Current Balance** indicates the Balance Gift Card Credit of a customer. Balance of Customer is in sync with the balance in ``Admin/Customer``
@@ -547,7 +545,7 @@ After filling in all required information of a Gift Card Product such as Name, S
   * Check the ``Gift Card Update Notification`` so that customers can receive email notification every time their gift card is updated.
   * Check the ``Update Balance Notification`` so that Customer can receive email notification every time their balance of Gift Card Credit is updated
 
-#### 8.2 Gift Card Category
+#### 8.2. Gift Card Category
 ![GC50](https://i.imgur.com/DYSjp2G.png)
 
 This is the place archiving all created Gift Card Products. Admins can create a new Category for storage works conveniently. There’re 2 ways of creating a new Category:
@@ -558,7 +556,7 @@ This is the place archiving all created Gift Card Products. Admins can create a 
 * Go to ``Product > Catalog > Edit Gift Card Product (or create new)`` > Category > New Category``
 ![GC52](https://i.imgur.com/5yCEWxj.gif)
 
-#### 8.3 Gift Card Product Page
+#### 8.3. Gift Card Product Page
 Customers can configure their Gift Card Product in here. Depending on the type of the gift card, the Gift Card Product Page has different interfaces. Gift Card Product Page has 2 main sections: Gift Card Template and Gift Card Information
 
 ![GC53](https://i.imgur.com/fsxw8tX.png)
