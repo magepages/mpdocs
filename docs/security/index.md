@@ -105,11 +105,11 @@ Click ``View`` to see login details. Here’s an example:
 
 ![i5](https://i.imgur.com/8CbThoJ.png)
 
-Once an admin account has exceeded the allowed login attempts (which is configured at ``Store> Settings> Configuration> Advanced> Maximum Login Failures to Lockout Account``), there will be a mail notification to the store owner that this account has been lock up. Store owner should review this case again to reset safety settings.
+* Once an admin account has exceeded the allowed login attempts (which is configured at ``Store> Settings> Configuration> Advanced> Maximum Login Failures to Lockout Account``), there will be a mail notification to the store owner that this account has been lock up. Store owner should review this case again to reset safety settings. You can refer this [article](https://www.mageplaza.com/kb/how-to-reset-a-locked-admin-account-in-magento-2.html) to learn how to unlock an admin user account. 
 
-![i7](https://i.imgur.com/Lz7ppS8.png)
+![i7](https://i.imgur.com/EE2EZq9.png)
 
-Also, store owners can check the last login of a specific administratore. You can follow ``System > Permissions > All Users``
+* Also, store owners can check the last login of a specific administratore. You can follow ``System > Permissions > All Users``
 
 ![i8](https://i.imgur.com/f7a0SkZ.png)
 
