@@ -21,20 +21,20 @@ Follow our given guide below to complete Automatic Related Products configuratio
 ### I. Configuration
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extensions > Automatic Related Products``
 
-![ARP2](https://i.imgur.com/SJwaTD3.png)
+![ARP2](https://i.imgur.com/IkqoJjm.png)
 
 * In the **Enable Automatic Related Products** field, choose “Yes” to enable the extension.
 * In the **Display Style** field: There're two types of display
   * **Ajax Display**: Related blocks will display on the frontend after the website is loaded completely. This style would be recommended for your website performance clearly.
-  * **Block Display**: 
-    * Related blocks will be loaded together while loading the website and displayed at the same time. This style would be recommended for the better SEO performance. 
-    * This type of display doesn't support A/B Testing rule.
+  * **Block Display**: Related blocks will be loaded together while loading the website and displayed at the same time. This style would be recommended for the better SEO performance. 
 
 ### II. Manage Rules on Product Page
 This section allows you to install the Related Product Block in your desired Product Page. Product pages that meet this rule, the Related Product Block will be displayed.
 
 To create a new Rule on Product Page, go to ``Mageplaza > Automatic Related Products > Manage Rules``. In the Add Rule section, select Product Page
-![ARP3](https://i.imgur.com/07sX3is.png)
+
+![ARP3](https://i.imgur.com/FyTTs53.png)
+
 A New Related Block Rule form will be appeared.
 
 #### 2.1 Rule Information
@@ -126,7 +126,6 @@ After saving the conditions, you’ll get a Product List. Click on ``Preview Pro
 
 ![ARP11](https://i.imgur.com/2Us5WtU.png)
 
-* A/B Testing isn't supported when you choose ``Display Style = Block Display`` (refer [I. Configuration](https://docs.mageplaza.com/automatic-related-products/index.html#i-configuration))
 * After a parent rule (an original rule) is generated, a child rule can be created by clicking Add A/B Testing.You can edit the this child rule in the same way to set up parent rules.
 * When two rules are simultaneously active, these two rules will be applied alternately in Product Page.
 * If one of the two rules is inactive, the other rule will work normally
