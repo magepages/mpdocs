@@ -76,7 +76,8 @@ Here’s an example of a warning emails:
     * ``10.0.0. * - 123.0.0. *``
     * ``12.3. *. * - 222.0. *. *``
  * The mark ``*`` is in the `0 - 255` range.*
-
+ 
+* To learn how to reset Blacklist/Whitelist IPs, please refer this [Reset command lines](https://docs.mageplaza.com/security-pro/index.html#reset-command-line) 
 ```
 Blacklist(s) has higher priority than Whitelist(s) which means if a IP address is in the Blacklist, it will be blocked even it's in the Whitelist as well. So please make sure that you add your IP address in the Whitelist only. 
 ```
@@ -106,7 +107,8 @@ Away Mode time will be set between "From Time" and "To Time". Other admin users 
 * In the **Day of Week** field: 
   * You can select to forbid some specific the whole day(s) weekly.
   * You can select multiple days.
-
+  
+* To learn how to reset Away Mode, please refer this [Reset command lines](https://docs.mageplaza.com/security-pro/index.html#reset-command-line) 
 ```  
 Configured Away Mode time will follow the store's timezone.
 ```
@@ -131,8 +133,10 @@ Configured Away Mode time will follow the store's timezone.
 * In the **Email Template** field: 
   * Choose the template for the File Change Notification email.
   * You can edit/customize one at ``Marketing > Email Template``.
-  
+To see how the File Change Notification looks like, please check this below image
 
+![i10](https://i.imgur.com/CxZCHGE.png)
+  
 ### III. Login Log
 From the admin panel, make your way to ``System > Security > Login Log``. All logins and login attempts will be recorded here.
 
@@ -213,4 +217,10 @@ bin/magento cache:flush
 bin/magento security:reset whitelist
 bin/magento cache:flush
 ```
-* If you run the command ``bin/magento security:reset``, both **Blacklist(s)** and **Whitelist(s)** will be reset.
+* When admin users want to access backend in the period of Away Mode suddenly, follow two command lines to turn Away Mode off.
+```
+bin/magento security:reset away mode
+bin/magento cache:flush
+```
+
+* If you run the command ``bin/magento security:reset``, both **Blacklist(s)**, **Whitelist(s)** and **Away Mode** will be reset.
