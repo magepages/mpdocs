@@ -337,6 +337,6 @@ When you click ``Send Email``, the sending email will be attached that PDF Order
 When you create Invoice, Shipment or Credit Memo, if you check the “Email Copy of Invoice”, “Email Copy of Shipment” or “Email Copy of Credit Memo” box, the sent mail will also include the PDF file.
 
 
-  .. important::
-    Similar to the Order section, Invoice, Shipment or Credit Memo PDF files will be attached to the sent mail, or when customer click Print button, the PDF file will be downloaded automatically. With the virtual product’s Order, in the PDF Order, PDF Invoice, PDF Credit Memo, there won’t be included Shipping To, Shipping Information or Shipment Method section.
-
+```
+Similar to the Order section, Invoice, Shipment or Credit Memo PDF files will be attached to the sent mail, or when customer click Print button, the PDF file will be downloaded automatically. With the virtual product’s Order, in the PDF Order, PDF Invoice, PDF Credit Memo, there won’t be included Shipping To, Shipping Information or Shipment Method section.
+```
