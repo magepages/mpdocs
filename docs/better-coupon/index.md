@@ -52,7 +52,7 @@ After entering the module's configuration, you will find the General configurati
 * At the **Reset** column: Clicking on the reset icon to change the access key randomly.
 * At the **Copy** column:
   * Copy and load the link, there will be inform message when the coupon code has been generated successfully. Give this coupon to customer for the checkout process. 
-  * Otherwise, store ownners can insert this ``/email/{email}`` variable into the URL, copy and send the link to customers via email. For example: ``http://mageplaza.com/mpbettercoupon/generatecoupon/generate/id/_1522997913805_805/ruleId/5/pattern/holiday/accessKey/4vksxn/email/mageplaza.test@gmail.com``
+  * Otherwise, store ownners can insert this ``/email/{email}`` variable into the URL, copy and send the link to customers via email. For example: ``http://mageplaza.com/bettercoupon/generatecoupon/generate/mpAccessKey/6aagq3vsndkqe69jbb/email/mageplaza.test@gmail.com``
 * At the **Delete** column: Clicking on the bin icon to delete that coupon link.
 
 #### 1.3. Coupon link builder
