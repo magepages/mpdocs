@@ -74,7 +74,7 @@ Every time the quick coupon link is rereshed, a new coupon code is generated aut
 * In the **Hash prefix**: 
   * Textual link is recommended to be encrypted by binary data.
   * You can enter a hash prefix optionally
-* In the **coupon** field: Enter the coupon code you have created in [Generator](https://docs.mageplaza.com/better-coupon/#generator) or from ``Marketing > Promotions > Cart Price Rules``.
+* In the **coupon** field: Enter the coupon code you have created in [Generator](https://docs.mageplaza.com/better-coupon/#generator) or from ``Marketing > Promotions > Cart Price Rules``.https://i.imgur.com/fWCXgTM.png
 * **Generate** button: Click to generate the coupon link that when customers access the link, coupon code is applied to the order total already, they don't need to reenter the coupon again.
 
 ### II. Import Coupon Code
@@ -90,8 +90,28 @@ You can import a CSV file type which contains coupon code in this section. After
 
 ![bettercoupon6](https://i.imgur.com/x6RBGnp.png)
 
-Similar to Importing by CSV file
+Similar to [Importing by CSV file], coupon codes after being imported can be used normally in **Manage Coupon Code** as well.
 
+* Coupons that are entered in the [**Coupons**](https://docs.mageplaza.com/better-coupon/#coupon-link-builder) field or available coupons in the CSV file must be separated by a line break.
+* Whereas the current imported coupon list contains some coupon codes identical to the coupon previously created, duplicated codes will not be added anymore and there will be a message telling the store owner how many coupon codes have been coincident.
+
+This is an example of the email informing generated coupon code(s).
+
+![bettercoupon7](https://i.imgur.com/fWCXgTM.png)
+
+### III. API Support
+Better Coupon extention supports API which means store owners can generate coupon code(s) via Magento 2's API by following this syntax ``domain.com/rest/V1/bettercoupon/rule/id``. For example:
+
+```
+http://mageplaza.com/rest/V1/bettercoupon/rule/1 
+```
+
+The created coupon link is similar to [The quick coupon link](https://docs.mageplaza.com/better-coupon/#quick-coupon-link-generator), every time the page is refreshed, a new coupon following [12AN] pattern will be generated. Enter the rule ID to decide which rule that coupon code(s) is based on.
+
+You can refer more how to create an API and token-based authentication at [here](http://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#web-api-access).
+
+
+![bettercoupon8](https://i.imgur.com/0EJTJdI.png)
 
  
 
