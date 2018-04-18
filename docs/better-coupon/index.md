@@ -63,12 +63,38 @@ After entering the module's configuration, you will find the General configurati
 * At the **Delete** column: Clicking on the bin icon to delete that coupon link.
 
 ```
-Every time the quick coupon link is reloaded, a new coupon code is generated automatically. If your customers has this link, they will always has different coupon codes to use (or at least until that coupon code validation is expired) so we would highly recommend the quick coupon link should be shared for internal circulation only.
+Every time the quick coupon link is rereshed, a new coupon code is generated automatically. If your customers has this link, they will always has different coupon codes to use (or at least until that coupon code validation is expired) so we would highly recommend the quick coupon link should be shared for internal circulation only.
 ```
 
 #### 1.3. Coupon link builder
 
 ![bettercoupon5](https://i.imgur.com/8hzGOrR.png)
+
+* In the **URL** field: Enter the URL which can be accessed and used coupon code(s) by customers.
+* In the **Hash prefix**: 
+  * Textual link is recommended to be encrypted by binary data.
+  * You can enter a hash prefix optionally
+* In the **coupon** field: Enter the coupon code you have created in [Generator](https://docs.mageplaza.com/better-coupon/#generator) or from ``Marketing > Promotions > Cart Price Rules``.
+* **Generate** button: Click to generate the coupon link that when customers access the link, coupon code is applied to the order total already, they don't need to reenter the coupon again.
+
+### II. Import Coupon Code
+From the Admin Panel, go to ``Marketing > Promotions > Cart Price Rules > Add New Rule``
+
+#### 2.1. Import by CSV file
+
+![bettercoupon5](https://i.imgur.com/ozLUE2y.png)
+
+You can import a CSV file type which contains coupon code in this section. After selecting and importing the file, coupon code will be added in **Manage Coupon Code**.
+
+#### 2.2. Import by Text Area
+
+![bettercoupon6](https://i.imgur.com/x6RBGnp.png)
+
+Similar to Importing by CSV file
+
+
+ 
+
 
 
 
