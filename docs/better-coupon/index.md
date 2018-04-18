@@ -72,7 +72,7 @@ Every time the quick coupon link is rereshed, a new coupon code is generated aut
 * In the **Hash prefix**: 
   * Textual link is recommended to be encrypted by binary data.
   * You can enter a hash prefix optionally
-* In the **coupon** field: Enter the coupon code you have created in [Generator](https://docs.mageplaza.com/better-coupon/#generator) or from ``Marketing > Promotions > Cart Price Rules``.https://i.imgur.com/fWCXgTM.png
+* In the **Coupon** field: Enter the coupon code you have created in [Generator](https://docs.mageplaza.com/better-coupon/#generator) or from ``Marketing > Promotions > Cart Price Rules``.
 * **Generate** button: Click to generate the coupon link that when customers access the link, coupon code is applied to the order total already, they don't need to reenter the coupon again.
 
 ### II. Import Coupon Code
