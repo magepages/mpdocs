@@ -1,9 +1,9 @@
 # Better Coupon
 
 ## Overview
-Imagine those scenarios: Store owners desire to generate a one-time use coupon per customer, but it takes at least 5 minutes to make a new one manually? Or take another look at this case: the coupon codes generated in Magento 2 isn't matched with the current discount program, either they can't import their pre-made coupon codes into Magento 2 system unfortunately. Consuming time tasks are coming up more, you have no idea how to give the applied coupon checkout link to customers so that they don't need to ask and enter the coupon every time they come to your store?
+Let's picture this scenario: Store owners desire to generate a one-time use coupon for a customer, but it takes at least 5 minutes to make it manually? Or take another look at this case: the coupon codes generated in Magento 2 do not with the current discount program, either they can't import their pre-made coupon codes into Magento 2 system. Time-consuming tasks are coming up more, you have no idea how to give the applied coupon checkout link to customers so that they don't need to ask and enter the coupon every time they come to your store?
 
-All disturbing issues now can be remedied by only one proficient plugin. Better Coupon extension, supplied by Mageplaza, is designed to craft many coupons timely and send them over customers via emails just by one click. And the configurations seems cannot be easier if you can follow this documentation carefully.
+All disturbing issues now can be remedied by only one proficient plugin. Better Coupon extension, supplied by Mageplaza, is designed to craft many coupons and send them over customers via emails just by one click. And the configurations cannot be easier if you can follow this documentation carefully.
 
 ```
   * This extension can be used in multiple stores.
@@ -39,12 +39,12 @@ After entering the module's configuration, you will find the General configurati
 * In the **Email** field: 
   * Enter email(s) you want to send coupon code(s).
   * You can enter multiple emails seperated with a commas ``,``
-  * All generated coupons by this module will be sent to entered email(s) so make sure change them every time you generate a new series of coupon code(s) for different customers.
+  * All generated coupons by this module will be sent to entered email(s), so remember to change them every time you generate a new series of coupon codes for different customers.
 * In the **Generate & Send Button** field:
   * Clicking on this button to generate and send configured coupon code(s).
   * The number of success generated coupon code(s) will be informed after clicking.
 
-This is an example of the email informing generated coupon code(s).
+This is an example of the email for informing generated coupon code(s).
 
 ![bettercoupon7](https://i.imgur.com/fWCXgTM.png)
 
@@ -54,8 +54,8 @@ This is an example of the email informing generated coupon code(s).
 
 * At the **Pattern** column:
   * Follow this rule to create a pattern: [4A] - 4 alpha, [4N] - 4 numeric, [4AN] - 4 alphanumeric. For example: GIFT-[4AN]-[3A]-[5N] => GIFT-J34T-OEC-54354.
-  * If you leave the field blank, pattern coupon code(s) will be generated follow this [12AN] pattern randomly. If the coupon link has default pattern, coupon code(s) will be generated automatically when they reload the link.
-  * You can enter a pattern optionally. A new coupon will be generated automatically when you reload the link which has that optional pattern coupon. If you enter the coupon code in this field, the coupon link will generate only that entered coupon code. 
+  * If you leave the field blank, the default coupon code pattern will be [12AN]. If the coupon link has default pattern, coupon code(s) will be generated automatically when they reload the link.
+  * You can enter a pattern optionally. A new coupon will be generated automatically when you reload the link which has that optional pattern coupon. If you enter the coupon code in this field, the coupon link will be generated once that entered coupon code. 
 * At the **Access Key** column:
   * You can look at the access key dislaying at URL to learn which rule it belongs to.
   * The access key can be changed. Clicking on the reset icon to change the access key randomly.
@@ -65,19 +65,19 @@ This is an example of the email informing generated coupon code(s).
 * At the **Delete** column: Clicking on the bin icon to delete that coupon link.
 
 ```
-Every time the quick coupon link is rereshed, a new coupon code is generated automatically. If your customers has this link, they will always has different coupon codes to use (or at least until that coupon code validation is expired) so we would highly recommend the quick coupon link should be shared for internal circulation only.
+Every time the quick coupon link is rereshed, a new coupon code is generated automatically. If your customers have this link, they will always have different coupon codes to use (or at least until that coupon code validation is expired) so we would highly recommend that the quick coupon link should be shared for internal use only.
 ```
 
 #### 1.3. Coupon link builder
 
 ![bettercoupon5](https://i.imgur.com/8hzGOrR.png)
 
-* In the **URL** field: Enter the URL which can be accessed and used coupon code(s) by customers.
+* In the **URL** field: Enter the URL which can be accessed and used to have coupon codes auto-applied by customers.
 * In the **Hash prefix**: 
   * Textual link is recommended to be encrypted by binary data.
   * You can enter a hash prefix optionally
 * In the **Coupon** field: Enter the coupon code you have created in [Generator](https://docs.mageplaza.com/better-coupon/#generator) or from ``Marketing > Promotions > Cart Price Rules``.
-* **Generate** button: Click to generate the coupon link that when customers access the link, coupon code is applied to the order total already, they don't need to reenter the coupon again.
+* **Generate** button: Click to generate the coupon link that when customers access the link, coupon code is applied to the order total already, they don't need to re-enter the coupon again.
 
 ### II. Import Coupon Code
 From the Admin Panel, go to ``Marketing > Promotions > Cart Price Rules > Add New Rule``
@@ -94,7 +94,7 @@ You can import a CSV file type which contains coupon code in this section. After
 
 Similar to [Importing by CSV file](https://docs.mageplaza.com/better-coupon/index.html#ii-import-coupon-code), coupon codes after being imported can be used normally in **Manage Coupon Code** as well.
 
-* Coupons that are entered in the [**Coupons**](https://docs.mageplaza.com/better-coupon/#coupon-link-builder) field or available coupons in the CSV file must be separated by a line break.
+* Coupons that are entered in the [**Coupons**](https://docs.mageplaza.com/better-coupon/#coupon-link-builder) field or available coupons in the CSV file must be separated by a break line.
 * Whereas the current imported coupon list contains some coupon codes identical to the coupon previously created, duplicated codes will not be added anymore and there will be a message telling the store owner how many coupon codes have been coincident.
 
 ### III. API Integration
@@ -104,9 +104,9 @@ Better Coupon extention supports API Integration which means store owners can ge
 http://mageplaza.com/rest/V1/bettercoupon/rule/1 
 ```
 
-The created coupon link is similar to [The quick coupon link](https://docs.mageplaza.com/better-coupon/#quick-coupon-link-generator), every time the page is refreshed, a new coupon following [12AN] pattern will be generated. Enter the rule ID to decide which rule that coupon code(s) is based on.
+The created coupon link is similar to [The quick coupon link](https://docs.mageplaza.com/better-coupon/#quick-coupon-link-generator), every time the page is refreshed, a new coupon following the [12AN] pattern will be generated. Enter the rule ID to decide which rule that coupon code is based on.
 
-You can refer more how to create an API and token-based authentication at [here](http://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#web-api-access).
+You can learn how to create an API and token-based authentication [here](http://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#web-api-access).
 
 
 ![bettercoupon8](https://i.imgur.com/0EJTJdI.png)
