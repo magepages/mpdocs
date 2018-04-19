@@ -44,6 +44,10 @@ After entering the module's configuration, you will find the General configurati
   * Clicking on this button to generate and send configured coupon code(s).
   * The number of success generated coupon code(s) will be informed after clicking.
 
+This is an example of the email informing generated coupon code(s).
+
+![bettercoupon7](https://i.imgur.com/fWCXgTM.png)
+
 ##### 1.2.2. Quick Coupon Link Generator 
 
 ![bettercoupon4](https://i.imgur.com/BqWYG96.png)
@@ -92,10 +96,6 @@ Similar to [Importing by CSV file](https://docs.mageplaza.com/better-coupon/inde
 
 * Coupons that are entered in the [**Coupons**](https://docs.mageplaza.com/better-coupon/#coupon-link-builder) field or available coupons in the CSV file must be separated by a line break.
 * Whereas the current imported coupon list contains some coupon codes identical to the coupon previously created, duplicated codes will not be added anymore and there will be a message telling the store owner how many coupon codes have been coincident.
-
-This is an example of the email informing generated coupon code(s).
-
-![bettercoupon7](https://i.imgur.com/fWCXgTM.png)
 
 ### III. API Intergration
 Better Coupon extention supports API which means store owners can generate coupon code(s) via Magento 2's API by following this syntax ``domain.com/rest/V1/bettercoupon/rule/id``. For example:
