@@ -3,7 +3,7 @@
 ## Overview
 Imagine those scenarios: Store owners desire to generate a one-time use coupon per customer, but it takes at least 5 minutes to make a new one manually? Or take another look at this case: the coupon codes generated in Magento 2 isn't matched with the current discount program, either they can't import their pre-made coupon codes into Magento 2 system unfortunately. Consuming time tasks are coming up more, you have no idea how to give the applied coupon checkout link to customers so that they don't need to ask and enter the coupon every time they come to your store?
 
-All disturbing issues now can be remedied by only one proficient plugin. Better Coupon extension, supplied by Mageplaza, is designed to craft many coupons timely and send them over customer just by one click. And the configurations seems cannot be easier if you can follow this documentation carefully.
+All disturbing issues now can be remedied by only one proficient plugin. Better Coupon extension, supplied by Mageplaza, is designed to craft many coupons timely and send them over customers via emails just by one click. And the configurations seems cannot be easier if you can follow this documentation carefully.
 
 ```
   * This extension can be used in multiple stores.
@@ -20,7 +20,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 
 ### I. Configuration
 #### 1.1. General configuration
-After entering the module's configuration, you will find the General configuration to turn the module on/off generally. Choose "Yes" to enable Better Coupon extension.
+After entering the module's configuration, you will find the General configuration to turn the module on/off generally. Choose "Yes" to enable the Better Coupon extension.
 
 ![bettercoupon2](https://i.imgur.com/9OHyYIS.png)
 
@@ -35,11 +35,11 @@ After entering the module's configuration, you will find the General configurati
 * In the **Qty** field:
   * Enter the quantity of coupon code you want to generate.
   * If you leave it blank or enter 0, the default quantity will be ``1``.
-* In the **Coupon Code Pattern** field:
-* In the **Email** field: Enter your favorable pattern for coupon code(s).
+* In the **Coupon Code Pattern** field: Enter your favorable pattern for coupon code(s).
+* In the **Email** field: 
   * Enter email(s) you want to send coupon code(s).
   * You can enter multiple emails seperated with a commas ``,``
-  * All generated coupons by this module will be sent to entered email(s).
+  * All generated coupons by this module will be sent to entered email(s) so make sure change them every time you generate a new series of coupon code(s) for different customers.
 * In the **Generate & Send Button** field:
   * Clicking on this button to generate and send configured coupon code(s).
   * The number of success generated coupon code(s) will be informed after clicking.
@@ -110,18 +110,3 @@ You can refer more how to create an API and token-based authentication at [here]
 
 
 ![bettercoupon8](https://i.imgur.com/0EJTJdI.png)
-
- 
-
-
-
-
-
-  
-
-  
-  
-
-
-
-
