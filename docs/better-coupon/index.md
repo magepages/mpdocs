@@ -97,7 +97,7 @@ This is an example of the email informing generated coupon code(s).
 
 ![bettercoupon7](https://i.imgur.com/fWCXgTM.png)
 
-### III. API Support
+### III. API Intergration
 Better Coupon extention supports API which means store owners can generate coupon code(s) via Magento 2's API by following this syntax ``domain.com/rest/V1/bettercoupon/rule/id``. For example:
 
 ```
