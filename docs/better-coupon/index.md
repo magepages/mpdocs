@@ -88,7 +88,7 @@ You can import a CSV file type which contains coupon code in this section. After
 
 ![bettercoupon6](https://i.imgur.com/x6RBGnp.png)
 
-Similar to [Importing by CSV file], coupon codes after being imported can be used normally in **Manage Coupon Code** as well.
+Similar to [Importing by CSV file](https://docs.mageplaza.com/better-coupon/index.html#ii-import-coupon-code), coupon codes after being imported can be used normally in **Manage Coupon Code** as well.
 
 * Coupons that are entered in the [**Coupons**](https://docs.mageplaza.com/better-coupon/#coupon-link-builder) field or available coupons in the CSV file must be separated by a line break.
 * Whereas the current imported coupon list contains some coupon codes identical to the coupon previously created, duplicated codes will not be added anymore and there will be a message telling the store owner how many coupon codes have been coincident.
