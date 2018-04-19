@@ -97,8 +97,8 @@ Similar to [Importing by CSV file](https://docs.mageplaza.com/better-coupon/inde
 * Coupons that are entered in the [**Coupons**](https://docs.mageplaza.com/better-coupon/#coupon-link-builder) field or available coupons in the CSV file must be separated by a line break.
 * Whereas the current imported coupon list contains some coupon codes identical to the coupon previously created, duplicated codes will not be added anymore and there will be a message telling the store owner how many coupon codes have been coincident.
 
-### III. API Intergration
-Better Coupon extention supports API which means store owners can generate coupon code(s) via Magento 2's API by following this syntax ``domain.com/rest/V1/bettercoupon/rule/id``. For example:
+### III. API Integration
+Better Coupon extention supports API Integration which means store owners can generate coupon code(s) via Magento 2's API by following this syntax ``domain.com/rest/V1/bettercoupon/rule/id``. For example:
 
 ```
 http://mageplaza.com/rest/V1/bettercoupon/rule/1 
