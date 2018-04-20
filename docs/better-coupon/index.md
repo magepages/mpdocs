@@ -64,9 +64,8 @@ This is an example of the email for informing generated coupon code(s).
   * Otherwise, store ownners can insert this ``/email/{email}`` variable into the URL, copy and send the link to customers via email. For example: ``http://mageplaza.com/bettercoupon/generatecoupon/generate/mpAccessKey/6aagq3vsndkqe69jbb/email/mageplaza.test@gmail.com``
 * At the **Delete** column: Clicking on the bin icon to delete that coupon link.
 
-```
-Every time the quick coupon link is rereshed, a new coupon code is generated automatically. If your customers have this link, they will always have different coupon codes to use (or at least until that coupon code validation is expired) so we would highly recommend that the quick coupon link should be shared for internal use only.
-```
+**Note**: Every time the quick coupon link is rereshed, a new coupon code is generated automatically. If your customers have this link, they will always have different coupon codes to use (or at least until that coupon code validation is expired) so we would highly recommend that the quick coupon link should be shared for internal use only.
+
 
 #### 1.3. Coupon link builder
 
