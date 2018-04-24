@@ -18,15 +18,15 @@ Choose **Enable** = "Yes" to turn Mageplaza SEO on generally.
 
 1.2. Duplicate Content
 -----
-If your site content has the same article with others, the search engines will underestimate the quality of your content and thus lower your site's ranking. Therefore, you must have the assist from Canonical tags to reduce the duplication of content on the page, this is an onpage SEO tip to note obviously.
+Filtering results (from layered navigation pages, etc) is the main cause of generating many similar URLs, and search crawlers assess them are all the same, in other words, it's called duplicate content. Therefore, you must have the assist from Canonical tags to reduce the duplication of content on the page, this is an onpage SEO tip to note obviously.
 
 .. image:: https://i.imgur.com/KH3mlP6.png
 
-* In **Use Canonical Link Meta Tag For Categories** field: Choose "Yes" to display Canonical tags of Category pages which are from Source Category on the frontend.
+* In the **Use Canonical Link Meta Tag For Categories** field: Choose "Yes" to display Canonical tags of Category pages which are from Source Category on the frontend.
 
 .. image:: https://i.imgur.com/J9NZ3O3.png
 
-* In **Use Canonical Link Meta Tag For Products** field: Choose "Yes" to display Canonical tags of Source Product on the frontend.
+* In the **Use Canonical Link Meta Tag For Products** field: Choose "Yes" to display Canonical tags of Source Product on the frontend.
 
 .. image:: https://i.imgur.com/5fqHgqY.png
 
@@ -35,13 +35,13 @@ If your site content has the same article with others, the search engines will u
 
 .. image:: https://i.imgur.com/5kNGITM.png
 
-* In **Enable Product Structured Data** field:
+* In the **Enable Product Structured Data** field:
   
   * Select "Yes" to display the basic information of products when they are searched by search engines.
   * By this intuitive design, Product Structured Data will increase click through rate (CTR) drastically. Thus, products from your store will be ranked higher on search results.
   * You can check Product Structure Data at the Page Source of Product Detail Page. Structure Data will mirror exactly as the basic information of that product.
 
-* In **Enable Sitelinks Searchbox** field:
+* In the **Enable Sitelinks Searchbox** field:
   
   * Select "Yes" to display your store's Searchbox on the Sitelinks. As soon as your store displays on the search results, your store searchbox will also display with the store's link.
   * You can test the code in Page Source of Homepage.
@@ -51,7 +51,7 @@ If your site content has the same article with others, the search engines will u
 
 .. image:: https://i.imgur.com/pLWFVE5.png
 
-* In **Enable Bussiness Information** field: Select "Yes to display information about your business in the search result.
+* In the **Enable Bussiness Information** field: Select "Yes to display information about your business in the search result.
 * When you leave any field blank, the information for that field will not display.
 * You can test the code in Page Source of Homepage.
 
@@ -73,10 +73,10 @@ In the **Verification** field, you need to enter the verification code to confir
 
 .. image:: https://i.imgur.com/DNu7Rba.png
 
-* In **Google Search Console** field: Enter the verification code for Google Search Console.
-* In **Bing Webmaster Tools** field: Enter the verification code for Bing Webmaster Tools.
-* In **Pinterest** field: Enter the verification code for Pinterest.
-* In **Yandex Webmaster Tools** field: Enter the verification code for Yandex Webmaster Tools.
+* In the **Google Search Console** field: Enter the verification code for Google Search Console.
+* In the **Bing Webmaster Tools** field: Enter the verification code for Bing Webmaster Tools.
+* In the **Pinterest** field: Enter the verification code for Pinterest.
+* In the **Yandex Webmaster Tools** field: Enter the verification code for Yandex Webmaster Tools.
 
 II. SEO Tools 
 ******
