@@ -167,10 +167,10 @@ A new rule information page appears. Fill all required information which are div
 
 .. image:: https://i.imgur.com/kYi9UcX.jpg
 
-* In **Name** field: Enter a Rule Name
-* In **Status** field: Set Status to “Enable” for the active rule
-* In **Store view** field: Choose Store View where the rule is applied
-* In **Priority** field: Set Priority number, 0 is the highest level.
+* In the **Name** field: Enter a Rule Name
+* In the **Status** field: Set Status to “Enable” for the active rule
+* In the **Store view** field: Choose Store View where the rule is applied
+* In the **Priority** field: Set Priority number, 0 is the highest level.
 
 2.2 Conditions
 -----
@@ -184,15 +184,15 @@ It’s pretty easy to add/remove its content
 
 .. image:: https://i.imgur.com/VpRSaln.jpg
 
-* In **Meta Title Template** box: Enter the Meta Tile Template
-* In **Meta Description Template** box: Enter the Meta Tile Template. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
-* In **Meta Keywords Template** field: Enter the Meta Keywords Template. It should be between 3-5 keywords. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
-* In **Robot Template** field: Select Robots Template from one of the options to set the index permission for search engine’s robots:
+* In the **Meta Title Template** box: Enter the Meta Tile Template
+* In the **Meta Description Template** box: Enter the Meta Tile Template. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
+* In the **Meta Keywords Template** field: Enter the Meta Keywords Template. It should be between 3-5 keywords. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
+* In the **Robot Template** field: Select Robots Template from one of the options to set the index permission for search engine’s robots:
   * Index, Follow
   * NoIndex, Follow
   * Index, NoFollow
   * NoIndex, NoFollow
-* In **Apply Template** field there are two modes:
+* In the **Apply Template** field there are two modes:
   * “Skip if already defined” means if admin manually added meta tag: title, description, so it will not apply this template.
   * “Force Update” means auto-applying the template for all meta tags
 
