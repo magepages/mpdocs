@@ -1,6 +1,6 @@
 I. Configuration 
 ******
-Login to your Magento 2 backend ``Stores > Settings >Configurations > Mageplaza Extension: SEO``, follow our given guide below to complete those SEO configurations
+Login to your Magento 2 backend ``Stores > Settings > Configurations > Mageplaza Extension: SEO``, follow our given guide below to complete those SEO configurations
 
 * General
 * Duplicate Content
