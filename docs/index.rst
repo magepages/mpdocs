@@ -29,6 +29,7 @@ Welcome to Mageplaza Docs
    social-login-m2/index
    social-login-pro/index
    pdf-invoice-m2/index
+   better-coupon/index
    reward-points/index
    security/index
    security-pro/index
