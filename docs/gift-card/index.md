@@ -326,7 +326,7 @@ Includes two actions:
   * Admins can design the Gift Card template on this interface easily and quickly by dragging left items and dropping them in the empty box on the right.
   * Admins can also change some CSS in the **Custom** section of each option
   
-![GC31](https://i.imgur.com/RvkNSOy.gifv)
+![GC31](https://i.imgur.com/RvkNSOy.gif)
   
 ##### 2.2.3. Image
 * Admins will select some images as default images of gift cards by uploading or dragging images directly into the **Upload Image** box.
@@ -586,12 +586,13 @@ Customers can configure their Gift Card Product in here. Depending on the type o
 * **Delivery Date**: Customers can choose the date the Gift Card is sent. Delivery date is limited to 1 year from the current date. This item is displayed when Admin is installed in **Configuration** part
 * **Timezone**: Same as Delivery Date, customers can choose their timezone in the given list. This part is only displayed when the admin enabled in **Configuration**
 
-**Gift Card Product Type = Print At Home``: Gift Card Information of Print At Home Gift Card Product is essentially the same as the E-gift card product. The two Gift Card Products have the following differences:
-* Delivery method is Print At Home. When the customer purchases this Gift Card Product type successfully, the gift code will automatically be added to the customer's Save List
-* No Email / Phone Num. , Delivery Date and Timezone
+* **Gift Card Product Type = Print At Home**: Gift Card Information of Print At Home Gift Card Product is essentially the same as the E-gift card product. The two Gift Card Products have the following differences:
+  * Delivery method is Print At Home. When the customer purchases this Gift Card Product type successfully, the gift code will automatically be added to the customer's Save List
+  * No Email / Phone Num. , Delivery Date and Timezone
+
 ![GC55](https://i.imgur.com/FxVgdqT.png)
 
-**Gift Card Product Type = Mail**: Gift Card Information of Mail Gift Card The product is essentially the same as E-gift Card Product type. They have different delivery methods. Delivery of a Mail Gift Card Product is Post Office which means the gift card will be sent based on the customer's address
+* **Gift Card Product Type = Mail**: Gift Card Information of Mail Gift Card The product is essentially the same as E-gift Card Product type. They have different delivery methods. Delivery of a Mail Gift Card Product is Post Office which means the gift card will be sent based on the customer's address
 ![GC56](https://i.imgur.com/o1OXX8c.png)
 
 ### IX. How to import Gift Card Code(s)
