@@ -31,7 +31,7 @@ Customers can earn reward point(s) and use them perfectly in these following pag
 
 ### II. For admins (store owners)
 * Admins are able to create and manage **Earning Rate**, **Spending Rate** and **Transaction** as well as to configure the Reward Points extension generally in the backend.
-* Admins are able to apply changes to reward point(s) in the customer’s account and refund point(s) in **Credit Memo** in the backend.
+* Admins are able to apply changes to reward point(s) in the customer’s account in the backend.
 * Admins are not supported to use reward point(s) when creating a new order at the moment.
 
 ## How to configure
@@ -44,7 +44,7 @@ Log in to your backend, then go to ``Marketing > Reward Points`` and follow the 
 ```
 Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
 ```
-![i4](https://i.imgur.com/j2iMECl.png)
+![i4](https://i.imgur.com/djT1nKN.png)
 
 ### I. Earning Rate
 Go to ``Marketing > Reward Points: Earning Rate``
@@ -147,7 +147,7 @@ Admins can review or expire a transaction in the **View Transaction** page.
 ![i11](https://i.imgur.com/keL0D6s.png)
 
 ### IV. Configuration.
-Follow in the backend ``Mageplaza > Reward Points: Configuration``
+Follow in the backend ``Store > Settings > Configuration``. At the left panel, choose ``Mageplaza > Rewward Points``
 
 #### 4.1. General Configuration.
 This general configurations can apply for the whole module.
