@@ -1,4 +1,14 @@
 # Social Login Professional
+* [How to configure Facebook API](https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html)
+* [How to configure Foursquare API](https://docs.mageplaza.com/social-login-m2/how-to-configure-foursquare-api.html)
+* [How to configure GitHub API](https://docs.mageplaza.com/social-login-m2/how-to-configure-github-api.html)
+* [How to configure Google API](https://docs.mageplaza.com/social-login-m2/how-to-configure-google-api.html)
+* [How to configure Instagram API](https://docs.mageplaza.com/social-login-m2/how-to-configure-instagram-api.html)
+* [How to configure LinkedIn API](https://docs.mageplaza.com/social-login-m2/how-to-configure-linkedin-api.html)
+* [How to configure Microsoft Live API](https://docs.mageplaza.com/social-login-m2/how-to-configure-microsoft-live-api.html)
+* [How to configure Twitter API](https://docs.mageplaza.com/social-login-m2/how-to-configure-twitter-api.html)
+* [How to configure Vkontakte API](https://docs.mageplaza.com/social-login-m2/how-to-configure-vkontakte-api.html)
+* [How to configure Yahoo API](https://docs.mageplaza.com/social-login-m2/how-to-configure-yahoo-api.html)
 
 ## Overview
 Social Login Professional is an improved version of Social Login Standard. With the security feature CAPTCHA, this extension protects store owners from spam accounts by ensuring that the register process or form completion is done by a human rather than a robot.
