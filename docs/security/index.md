@@ -5,6 +5,15 @@ Security issues for Magento have left a big question mark in the community of on
 
 [Magento 2 Security extension](https://www.mageplaza.com/magento-2-security/) gives store owners the ability to detect the IP addresses that are intentionally attacking their store at any given time. Therefore, they have timely measures to prevent this issue such as blocking those IP addresses or sending warning emails to store owners.
 
+## Download & Install
+
+You can download from the following resouces:
+
+- [Mageplaza](https://www.mageplaza.com/magento-2-security/)
+- [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-security.html)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
+
 ## How to use
 You can review login records from the dashboard when entering the backend. The log displays the newest 5 logins and you can click on the login name to view the details.
 
