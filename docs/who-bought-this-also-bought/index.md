@@ -10,6 +10,7 @@ You can download from the following resouces:
 
 - [Mageplaza](https://www.mageplaza.com/magento-2-who-bought-this-also-bought/)
 - [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-who-bought-this-item-also-bought.html)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
 ## II. How to Configure
