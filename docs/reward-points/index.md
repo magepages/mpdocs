@@ -10,6 +10,15 @@ The Reward Points system does not apply for guest customers.
 The Product's Earning Point may vary according to a specific Customer Group and Earning Rate set in the backend.
 ```
 
+## Download & Install
+
+You can download from the following resouces:
+
+- [Mageplaza](https://www.mageplaza.com/magento-2-reward-points-extension/)
+- [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-reward-points.html)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
+
 ## How to use
 
 ### I. For customers
