@@ -8,6 +8,14 @@ SEO Standard
 
     how*
 
+Download & Install
+------------------
+
+You can download from the following resouces:
+
+- `Mageplaza <https://www.mageplaza.com/magento-2-seo-extension/>`_
+- `Magento Marketplace <https://marketplace.magento.com/mageplaza-magento-2-seo-extension.html>`_
+- `Github <https://github.com/mageplaza/magento-2-seo>`_
 
 
 
