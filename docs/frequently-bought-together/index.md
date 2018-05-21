@@ -8,6 +8,7 @@ You can download from the following resouces:
 
 - [Mageplaza](https://www.mageplaza.com/magento-2-frequently-bought-together/)
 - [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-frequently-bought-together.html)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
 ## Overview 
