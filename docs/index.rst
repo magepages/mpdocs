@@ -44,6 +44,7 @@ Welcome to Mageplaza Docs
    abandoned-cart-email/index
    review-reminder/index
    google-tag-manager-m2/index
+   gdpr/index
    delete-order-m2/index
    product-slider-m2/index
 
