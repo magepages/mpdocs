@@ -3,6 +3,16 @@ Overview
 
 Updating Blog regularly is one of the effective content marketing strategy in the present eCommerce marketplace. This activity will draw the more interactive website and drive your website more attractive to the visitors. `Magento 2 Blog <https://www.mageplaza.com/magento-2-blog-extension/>`_ extension by Mageplaza, you will get an impressive chance to provide the latest news about your store, upcoming products, promotions, and get customers’ feedback in easy and simple way. 
 
+Download & Install
+------------------
+
+You can download from the following resouces:
+
+- `Mageplaza <https://www.mageplaza.com/magento-2-blog-extension/>`_
+- `Magento Marketplace <https://marketplace.magento.com/mageplaza-magento-2-blog-extension.html>`_
+- `Github <https://github.com/mageplaza/magento-2-blog>`_
+
+
 How to Configure
 -----
 
