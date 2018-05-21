@@ -5,6 +5,14 @@
 [Magento 2 Automatic Related Products](https://www.mageplaza.com/magento-2-automatic-related-products/) (ARP) is a tool that helps admins establish links between new products easily. In brief, ARP is a recommendation tool, similar to [Who Bought This Also Bought](https://www.mageplaza.com/magento-2-who-bought-this-also-bought/) or [Frequently Bought Together](https://www.mageplaza.com/magento-2-frequently-bought-together/), but more additional outstanding features, and give more rules as well as managements in the backend.
 
 
+## Download & Install
+
+You can download from the following resouces:
+
+- [Mageplaza](https://www.mageplaza.com/magento-2-automatic-related-products/)
+- [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-automatic-related-products.html)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
 ## How to configue
 
 Login to Magento Admin, choose ``Marketing > Automatic Related Products``
