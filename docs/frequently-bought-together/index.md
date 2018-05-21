@@ -2,6 +2,14 @@
 
 Mageplaza Frequently Bought Together extention will display native related products in the product page, and has the Add all items to cart feature that makes it easy for customers to add a list of items to their shopping cart. This extension suggests the right products which might attract buyers in further purchasing, or makes it easy for shoppers to find other products. It also dramatically increases the value of orders, sales, profits for you business.
 
+## Download & Install
+
+You can download from the following resouces:
+
+- [Mageplaza](https://www.mageplaza.com/magento-2-frequently-bought-together/)
+- [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-frequently-bought-together.html)
+
+
 ## Overview 
 
 Here how Frequently Bought Together block appears in your shopping site
