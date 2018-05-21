@@ -26,7 +26,7 @@ From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Exte
 * In the **Enable Automatic Related Products** field, choose “Yes” to enable the extension.
 * In the **Display Style** field: There're two types of display
   * **Ajax Display**: Related blocks will display on the frontend after the website is loaded completely. This style would be recommended for your website performance clearly.
-  * **Block Display**: Related blocks will be loaded together while loading the website and displayed at the same time. This style would be recommended for the better SEO performance. 
+  * **Block Display**: Related blocks will be loaded together while loading the website and displayed at the same time. This style would be recommended for the better SEO performance. This can't be applied A/B testing.
 
 ### II. Manage Rules on Product Page
 This section allows you to install the Related Product Block in your desired Product Page. Product pages that meet this rule, the Related Product Block will be displayed.
@@ -126,6 +126,7 @@ After saving the conditions, you’ll get a Product List. Click on ``Preview Pro
 
 ![ARP11](https://i.imgur.com/2Us5WtU.png)
 
+* A/B testing doesn't apply to [Block Display](http://docs.mageplaza.com/automatic-related-products/index.html#i-configuration)
 * After a parent rule (an original rule) is generated, a child rule can be created by clicking Add A/B Testing.You can edit the this child rule in the same way to set up parent rules.
 * When two rules are simultaneously active, these two rules will be applied alternately in Product Page.
 * If one of the two rules is inactive, the other rule will work normally
