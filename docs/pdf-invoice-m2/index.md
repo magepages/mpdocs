@@ -3,6 +3,14 @@
 ## Overview
 Mageplaza offers a solution to help customers easily print, download PDF Invoice, PDF Order, PDF Shipment, PDF Credit Memo quickly and easily with just a single click on the customer information page. To enhance user experience, PDF files are included in emails to customers. In addition, Mageplaza also adds the HTML edit feature so shop owners can customize their PDF files, and Preview function also allows them to take an overview look at the newly created design conveniently.
 
+## Download & Install
+
+You can download from the following resouces:
+
+- [Mageplaza](https://www.mageplaza.com/magento-2-pdf-invoice-extension/)
+- [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-pdf-invoice.html)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
 
 ## How to configure
 Log in to your Magento Admin, follow the path ``Mageplaza > PDF Invoice`` 
