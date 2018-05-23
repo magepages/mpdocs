@@ -76,9 +76,11 @@ If allowing, enter number "1" into the field. In contrast, insert "0"
 .. image:: https://cdn.mageplaza.com/media/general/Sb50HxX.png
 
 * Select CMS Static Block for the content of the following options
+
   * Affiliate Welcome homepage
   * Affiliate FAQ page
   * Affiliate Getting Started
+
 * To make your Affiliate policy visible on the storefront, set `Display Policy Page` to "Yes".
 * Choose "Top Link" or "Footer Link" where Affiliate link appears in the `Show Affiliate link on` box.
 * Set `Affiliate Discount Label` to the desired label on your site.
@@ -91,8 +93,10 @@ Custom Affiliate URL
 .. image:: https://cdn.mageplaza.com/media/general/jo0FRGc.png
 
 * Apply "Hash" or "Parameter" for `URL Style` 
+
   * Parameter: http://example.com/?c=123
   * Hash: http://example.com#c123
+
 * Enter the letter for the customization of Affiliate URL.
 * Set `The Length of Affiliate code` that is between 3 and 32 characters. The default value including 6 characters is always available.
 
@@ -251,9 +255,12 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 .. image:: https://cdn.mageplaza.com/media/general/1fQnKPn.png
 
 * In the **Conditions** section, 
+  
   * The short message If ALL of these conditions are TRUE is visible for you, and especially, you can customize the message when click on ALL and TRUE link.
+    
     * Click on the **ALL** link, “ALL” and “ANY” options are available.
     * Click on the **TRUE** link, “TRUE” and “FALSE” options are available.
+  
   * Tap the “Add Conditions” icon, and the campaign is enabled if all conditions are met.
 
   For example, Affiliate program is active if Affiliate creates an order that includes 3 items in the cart.
@@ -261,12 +268,16 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 .. image:: https://cdn.mageplaza.com/media/general/rMIR6Mu.png
 
   * Leave the conditions blank if you want to apply for all products
+
 * Continuing with **Discounts** section, you will give some utilities to customers who make a purchase via Affiliate link.
+  
   * Set `Apply` to the needed type of discount, including:
+    
     * Percent of product price discount
     * Fixed amount discount
     * Fixed amount discount for whole cart
     * Buy X get Y free
+  
   * Enter `Discount Amount` field. For example, insert number 5 for 5% discount.  
   * Enter `Discount Qty Step (Buy X)` and `Maximum Qty Discount is Applied to` as you need.
   * If you want to discount for shipping amount, set `Apply to Shipping Amount` to “Yes”.
@@ -282,10 +293,14 @@ It is necessary to go over four tabs: “Campaign Information”, “Conditions�
 
 .. image:: https://cdn.mageplaza.com/media/general/aiTA8xq.png
 
+*
+
   * Enable to add unlimited tiers and delete any tiers you need when tapping `Delete` button in the same row.
   * On the Admin Panel, go to `Affiliate > Settings`, open **Commissions Configuration** section,
+    
     * To allow calculating commissions from tax and shipping fee, set `Earn commission from tax` and `Earn commission from shipping fee` to "Yes".
     * Under **Commission calculation process** part, 
+      
       * To require to create the invoice before Affiliate receives commissions, select "Yes" for `Allow Affiliate receiving commission when Invoice created`.
       * Insert the days for `Hold commission transactions for`. If empty or zero, transaction is not held.
       * To allow getting back commission when the order using the commission to pay is cancelled,set `Deduct commission from Affiliate's balance when order is refunded/canceled` to "Yes".
@@ -304,11 +319,14 @@ Create new Affiliate Withdraw
 * Click on `Add New Withdrawal` button.
 * Choose an affiliate account to create a withdrawal 
 * Under **Withdrawal Configuration** section,
+  
   * Enter the number of the withdrawal that includes fee into `Amount` field.
   * Enter the fee for the withdrawal if have. If empty, the configuration value is used.
   * Choose one of two available payment methods: Offline Payment or Paypal Payment.
+
 * Under **Payment Detail** section,
-  * If select Offline Payment, fill out `Address` to receive.
+ 
+ * If select Offline Payment, fill out `Address` to receive.
   * If select Paypal Payment, enter `Paypal Email` and `Transaction ID`.
 
 
@@ -324,6 +342,7 @@ Create new Affiliate Transaction
 * Click on `Add new transaction` button.
 * Choose an affiliate account for the new transaction.
 * Under **Transaction Information** section,
+ 
   * Enter the number into `Amount` field that might be adding or subtract affiliate's balance.
   * Set `Title` for the transaction.
   * Enter the holding days into `Holding Transaction for` field.
