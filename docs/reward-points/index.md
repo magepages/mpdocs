@@ -62,7 +62,7 @@ This is the place where admins can store Earning Rates created.
 
 ![i5](https://i.imgur.com/I5wjuX0.png)
 
-* From the grid view, admins can acknowledge some fundamental information of **Earning Rate** such as **ID**, **Website**, **Customer Group**, **Money Spent**, **Earning Point** and **Priority**. Also, admins are able to:
+* From the grid view, admins can acknowledge some fundamental information of Earning Rate such as **ID**, **Website**, **Customer Group**, **Money Spent**, **Earning Point** and **Priority**. Also, admins are able to:
   * **Delete**: Tick the checkbox of the earning rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
   * To edit an earning rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
@@ -92,7 +92,7 @@ This is the place where admins can store Spending Rates created.
 
 ![i7](https://i.imgur.com/Di3Iwom.png)
 
-* From the grid view, admins can acknowledge some fundamental information of an earning rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
+* From the grid view, admins can acknowledge some fundamental information of an spending rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
   * **Delete**: Tick the checkbox of the spending rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
   * To edit an spending rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
