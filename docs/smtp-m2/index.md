@@ -47,7 +47,7 @@ Still from the same structure with [SMTP](https://github.com/mageplaza/magento-2
 * In the **Port** field: Port is a specific gate where emails will be sent through. You can also pass this step if you had choose Auto fill from the first place. In general, there will be 3 kinds of Default Port
   * **Port 25**: Emails sent by other Protocol which different SSL will be sent through this portal
   * **Port 465**: Emails sent by other Protocol SSL will be sent through this portal
-  * **Port 578**: Emails sent by other Protocol TLS will be sent through this portal
+  * **Port 587**: Emails sent by other Protocol TLS will be sent through this portal
 * In the **Authentication** field: Place where you decide an authentication method. If you hadn’t clicked ``Auto fill`` button before, please note those below basic methods
   * **Login**: Authentication by login to the account through Username and Password that will be filled in the next field. Most of provider will require this method.
   * **Plain**
