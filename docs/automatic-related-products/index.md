@@ -77,7 +77,7 @@ Unfortunately, this Location=Custom function is under a maintainance for fixing 
   * In the **Priority** field
     * This is the field where you enter the priority of the rule. The higher priority (smaller number) rule will be applied to Product Page
     * Priority won’t impede the application of multiple rules on a product page. Higher priority blocks will be ordered first.
-    * In case there are multiple rules with the same priority,, the rule with  smaller ID will be applied.
+    * In case there are multiple rules with the same priority, the rule with  smaller ID will be applied.
     * Priority doesn’t affect to Parent Rule and Child Rule
     
 #### 2.2 Conditions
