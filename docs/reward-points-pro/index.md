@@ -1,7 +1,7 @@
-# Reward Points
+# Reward Points Professional
 
 ## Overview
-In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, Mageplaza Reward points extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
+In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, [Mageplaza Reward points]() extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
 
 Magento 2 Reward Points extension will allow earning unlimited reward points as well as using them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
 
@@ -19,7 +19,6 @@ You can download from the following resouces:
 
 
 ## How to use
-
 ### I. For customers
 * Earning Point(s) of the product can be depended on Customer Group, Earning Rate, Catalog Earning Rules, and Shopping Cart Earning Rules which are configured in the backend.
 * Spending Point(s) customer use is depended on Spending Rate and Shopping Cart Spending Rule
@@ -89,10 +88,80 @@ After entering the Earning Rate section, click on ``Add New Rate`` to create a n
   * If there’re many earning rates which have similar priorities, rules will apply on the rate which has a smaller ID first.
 
 #### 1.2. Catalog Earning Rules
-##### 1.2.1 General Management
+##### 1.2.1. General Management
 This is the place where admins can store Catalog Earning Rules created.
 
-![rewardpoints7]()
+![rewardpoints7](https://i.imgur.com/8WdNRyn.png)
+
+* From the grid view, admins can acknowledge some fundamental information of an catalog earning rules such as **ID**, **Name**, **Website**, **Customer Group**, **Status**, **Create On**, **Expired**, and **Priority**.
+* Admins can filter to search for a specific rule.
+* After taking some modifications on the rule, click ``Apply Rule`` to enable it immediately.
+
+##### 1.2.2. Add New Rule (Edit Rule)
+* Admins choose ``Add New Rule`` at the right-above corner to create a new catalog rule, after clicking ``Save and Continue Edit``, the page will be directed to the **Edit Rate** page
+* At the Add New Rule page, click on ``Save and Apply`` to apply the new rule.
+* Add New Rule page has 3 tabs
+  * [Rule Information](#catalog-rule-information)
+  * [Conditions](#catalog-rule-condition)
+  * [Actions](#catalog-rule-action)
+  
+###### 1.2.2.1. Rule Information {#catalog-rule-information}
+
+![rewardpoints8](https://i.imgur.com/CJkgsem.png)
+
+* In the **Rule Name** field
+  * Enter the rule name which will display in the backend.
+  * This is required information. There will be an error message if you leave it blank.
+* In the **Description** field: You can note some descriptions of the rule. This field can be left blank.
+* In the **Status** field: Choose "Active" to apply the rule.
+* In the **Website** field: Choose website place(s) you want to apply the rule.
+* In the **Customer Group** field:
+  * Choose group(s) of customer you want to apply for them.
+  * If the rule applies to **Not Logged In** customers, they still can learn earning point(s) of each product but point(s) won't be add unless they sign in or sign up on your store.
+
+![rewardpoints9](https://i.imgur.com/UqYea6T.png)
+
+* In the **From** field: You can set up the start time to use the rule, please note about the different of timezones.
+* In the **To** field: You can set up the end time to disable the rule.
+* In the **Priority** field:
+  * Identifies the usage priority of this catalog earning Rule compared to others.
+  * 0 is the highest priority. The higher number represents the lower priority.
+  * If two catalog earning rules has the same priority, the rule with  smaller ID will be applied.
+  
+###### 1.2.2.2. Conditions {#catalog-rule-condition}
+
+![rewardpoints10](https://i.imgur.com/UY4ZSgv.png)
+
+Choose condition to apply the rule. Only Product pages which meets those conditions will be applied.
+
+###### 1.2.2.3. Action {catalog-rule-action}
+Catalog Earning Rule inluces 3 actions:
+
+![rewardpoints11](https://i.imgur.com/YmC9Ax2.png)
+
+* **Give fixed X points to Customers**
+  * Customers will receive a fixed X point(s) for a product in their cart.
+  * In the **Point X** field: Enter the fixed point(s) you want to set for customers.
+  * *E.g: If Point X=5, customer will receive 5 points per product they add to their cart. 2 items will be 10 points, no matter how pricing is.*
+  
+![rewardpoints12](https://i.imgur.com/dRAf94T.png)
+
+* **Give X points for every Y amount of Price**
+  * The point(s) will be calculated based on product's Regular Price (on Special Price if the product has) 
+  * In the **Point X** field: Enter the point(s) customer will receive for every Y amount of price.
+  * In the **Money Step** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration.
+  * In the **Maximum Earning Points** field: Set the maximum earning point customer can get from this rule.
+  * *E.g: Point(X)=1, Money Step(Y)=20, and Maximum Earning Point=5 which mean*
+    * *When the customer purchases a product which costs $40, they will earn 2 points*
+    * *When the customer purchases a product which costs more than $100, they will only earn 5 points*
+    * *On the other hand, A product has Regular Price=$40, Special Price=$20, they will earn 1 point only*
+
+![rewardpoints13](https://i.imgur.com/YsqVMox.png)
+
+
+
+
+
 
 ### II. Spending Rate.
 Follow the way ``Marketing > Reward Points: Spending Rate``
@@ -102,7 +171,7 @@ This is the place where admins can store Spending Rates created.
 
 ![i7](https://i.imgur.com/Di3Iwom.png)
 
-* From the grid view, admins can acknowledge some fundamental information of an earning rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
+* From the grid view, admins can acknowledge some fundamental information of an spending rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
   * **Delete**: Tick the checkbox of the spending rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
   * To edit an spending rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
