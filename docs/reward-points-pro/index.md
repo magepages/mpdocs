@@ -101,11 +101,11 @@ This is the place where admins can store Catalog Earning Rules created.
 * Admins choose ``Add New Rule`` at the right-above corner to create a new catalog rule, after clicking ``Save and Continue Edit``, the page will be directed to the **Edit Rate** page
 * At the Add New Rule page, click on ``Save and Apply`` to apply the new rule.
 * Add New Rule page has 3 tabs
-  * [Rule Information](#catalog-rule-information)
-  * [Conditions](#catalog-rule-condition)
-  * [Actions](#catalog-rule-action)
+  * Rule Information
+  * Conditions
+  * Actions
   
-###### 1.2.2.1. Rule Information {#catalog-rule-information}
+###### 1.2.2.1. Rule Information
 
 ![rewardpoints8](https://i.imgur.com/CJkgsem.png)
 
@@ -128,40 +128,97 @@ This is the place where admins can store Catalog Earning Rules created.
   * 0 is the highest priority. The higher number represents the lower priority.
   * If two catalog earning rules has the same priority, the rule with  smaller ID will be applied.
   
-###### 1.2.2.2. Conditions {#catalog-rule-condition}
+###### 1.2.2.2. Conditions
 
 ![rewardpoints10](https://i.imgur.com/UY4ZSgv.png)
 
 Choose condition to apply the rule. Only Product pages which meets those conditions will be applied.
 
-###### 1.2.2.3. Action {catalog-rule-action}
-Catalog Earning Rule inluces 3 actions:
+###### 1.2.2.3. Action
+Catalog Earning Rule includes 3 actions:
 
 ![rewardpoints11](https://i.imgur.com/YmC9Ax2.png)
 
 * **Give fixed X points to Customers**
   * Customers will receive a fixed X point(s) for a product in their cart.
-  * In the **Point X** field: Enter the fixed point(s) you want to set for customers.
-  * *E.g: If Point X=5, customer will receive 5 points per product they add to their cart. 2 items will be 10 points, no matter how pricing is.*
+  * In the **Point X** field: Enter fixed point(s) you want to set for customers.
+  * *E.g: If Point X = 5, customer will receive 5 points per product they add to their cart. 2 items will be 10 points, no matter how pricing is.*
   
 ![rewardpoints12](https://i.imgur.com/dRAf94T.png)
 
 * **Give X points for every Y amount of Price**
   * The point(s) will be calculated based on product's Regular Price (on Special Price if the product has) 
-  * In the **Point X** field: Enter the point(s) customer will receive for every Y amount of price.
+  * In the **Point X** field: Enter X point(s) customer will receive for every Y amount of price.
   * In the **Money Step** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration.
   * In the **Maximum Earning Points** field: Set the maximum earning point customer can get from this rule.
-  * *E.g: Point(X)=1, Money Step(Y)=20, and Maximum Earning Point=5 which mean*
+  * *E.g: Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Point = 5 which mean*
     * *When the customer purchases a product which costs $40, they will earn 2 points*
     * *When the customer purchases a product which costs more than $100, they will only earn 5 points*
     * *On the other hand, A product has Regular Price=$40, Special Price=$20, they will earn 1 point only*
 
 ![rewardpoints13](https://i.imgur.com/YsqVMox.png)
 
+* **Give X points for every Y amount of Profit**
+  * In case the product is having Special Price temporarily but your want to calculate earn point(s) base on Regular Price, you can opt for this option.
+  * In the **Point X** field: Enter X point(s) customer will receive for every Y amount of regular price (profit).
+  * In the **Money Step Y** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration
+  * In the **Maximum Earning Points** field: Set the maximum earning point customer can get from this rule.
+  * *E.g: Product A has Regular Price = $40, Special Price = 20$, Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Points = 5 which mean when the customer purchase Product A, point(s) will be based on Regular Price = $40 and he will earn 2 points*
+* **Stop further rule processing**: Choose "Yes" to restrict the number of catalog earning rules applied to a product.
+  * *E.g: Let's say there are 4 Cataloging Earning Rules created in turn, Rule 1, Rule 2, Rule 3, Rule 4, and priorities are 0, 5, 3, 3.*
+    * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from summation of 4 rules.
+    * Rule 3 has **Stop further rules processing = Yes**: After applying, rule 1 will be applied (since it has higher priority) and rule 3. Rule 2 and 4 won't be applied because they have smaller priorities. 
+  
+#### 1.3. Shopping Cart Earning Rules
+##### 1.3.1. General Management
+This is the place where admins can store Shopping Cart Earning Rules created
 
+![rewardpoints14](https://i.imgur.com/O1IGveQ.png)
 
+* From the grid view, admins can acknowledge some fundamental information of Shopping Cart Earning Rule such as **ID**, **Name**, **Status**, **Create On**, **Expired**, and **Priority**.
+* Admins can filter to search for a specific rule.
 
+##### 1.3.2. Add New Rule (Edit Rule)
+* Admins choose ``Add New Rule`` at the right-above corner to create a new shopping cart earning rule, after clicking ``Save and Continue Edit``, the page will be directed to the **Edit Rate** page
+* The **Add New Rule** page has 3 tabs
+  * Rule Information
+  * Conditions
+  * Actions
+  
+###### 1.3.2.1. Rule Information  
+  
+![rewardpoints15](https://i.imgur.com/2JIgi8Q.png)
 
+* In the **Rule Name** field
+  * Enter the rule name which will display in the backend.
+  * This is required information. There will be an error message if you leave it blank.
+* In the **Description** field: You can note some descriptions of the rule. This field can be left blank.
+* In the **Status** field: Choose "Active" to apply the rule.
+* In the **Website** field: Choose website place(s) you want to apply the rule.
+* In the **Customer Group** field:
+  * Choose group(s) of customer you want to apply for them.
+  * Shopping Cart Earning Rule doesn't apply to NOT LOGGED IN CUSTOMER.
+* In the **From** field: You can set up the start time to use the rule, please note about the different of timezones.
+* In the **To** field: You can set up the end time to disable the rule.
+* In the **Priority** field:
+  * Identifies the usage priority of this shopping cart earning rule compared to others.
+  * 0 is the highest priority. The higher number represents the lower priority.
+  * If two shopping cart earning rules has the same priority, the rule with  smaller ID will be applied.
+  
+###### 1.3.2.2. Condition
+
+![rewardpoints16](https://i.imgur.com/kQAIFnB.png)
+
+Choose condition to apply the rule. Only the cart which meets those conditions will be applied.
+
+###### 1.3.2.3. Action
+Shopping Cart Earning Rule includes 3 actions:
+
+![rewardpoints17](https://i.imgur.com/mksN4on.png)
+
+* **Give fixed X points for whole cart**:
+  * Customer will receive a fixed amount of point(s) based on a purchased cart.
+  * In the **Point (X)** field: 
 
 ### II. Spending Rate.
 Follow the way ``Marketing > Reward Points: Spending Rate``
