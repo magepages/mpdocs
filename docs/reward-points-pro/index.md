@@ -268,7 +268,7 @@ This is the place where admins can save all Shopping Cart Spending rules.
   * Actions
   * Labels
   
-##### 2.2.2.2. Rule Information
+##### 2.2.2.1. Rule Information
 
 ![rewardpoints21](https://i.imgur.com/pEsMc17.png)
 
@@ -286,7 +286,40 @@ This is the place where admins can save all Shopping Cart Spending rules.
 * In the **Priority** field:
   * Identifies the usage priority of this shopping cart spending rule compared to others.
   * 0 is the highest priority. The higher number represents the lower priority.
-  * If two shopping cart earning rules has the same priority, the rule with  smaller ID will be applied.
+  * If two shopping cart spending rules has the same priority, the rule with  smaller ID will be applied first.
+
+##### 2.2.2.2. Conditions
+Conditions of Shopping Cart Spending Rule is divided into 2 parts:
+* **Conditions**: Only cart which meets chosen conditions can be applied.
+
+![rewardpoints22](https://i.imgur.com/zPZFxie.png)
+
+* **Spending Point Action**:
+  * In the **Action** field: There're 2 options:
+    * **Give discount for fixed X points**: Customers can spend a fixed point(s) that admin set in this section.
+    * **Give discount for every X points**: Cusstomer can spend point(s) to use X points to get discount for every Y amount (Y will be set up in the **Action** tab). The applicable X points cannot be exceeded ** Maximum Redeemable Points**.
+  * In the **X Point** field: Enter the number of point(s) you want to set for the above conditions.  
+    
+![rewardpoints23](https://i.imgur.com/LwLzCJs.png)
+
+##### 2.2.2.3. Actions
+Admins configure Discount Amount corresponding to X Point which is set in the **Conditions** tab. There's 2 types of action:
+* **Give a fixed discount amount for the whole cart**: Discount Amount is set fixedly for every X point(s).
+
+![rewardpoints24](https://i.imgur.com/Mpb7JB3.png)
+
+* **Give a percent discount amount for the whole cart**: Discount Amount is calculated based on percent of Order Total.
+
+![rewardpoints25](https://i.imgur.com/RbNBXJu.png)
+
+* *E.x: Discount Amount = 10 in the **Action** tab. In **Conditions** tab, choose ``Action = Give discount for every X points`` and X = 1. When a customer places an order which costs $500:*
+  * *The customer will be discounted $10 for every 1 point spending if in the backend, the admin chooses ``Action = Give a fixed discount amount for the whole cart``. Particularly, he spends 1 point and only needs to pay $490 for the order (which hasn't been included Shipping Fee and Tax).*
+  * *The customer will be discounted 10% for every 1 point spending if in the backend, the admin chooses ``Action = Give a percent discount amount for the whole cart``. Particularly, he spends 1 point and only needs to pay $450 for the order (which hasn't been included Shipping Fee and Tax)*
+  
+Besides, admins can configure more conditions to apply the rule properly.
+
+![rewardpoints26](https://i.imgur.com/2rBTClp.png)
+
 
 
 
