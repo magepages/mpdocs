@@ -320,9 +320,10 @@ Besides, admins can configure more conditions to apply the rule properly.
 
 ![rewardpoints26](https://i.imgur.com/2rBTClp.png)
 
+##### 2.2.2.4. Labels
+This is where admins configure the lable for the rule in every Store View of a store. If it's left blank, default lable will be displayed on the frontend.
 
-
-
+![rewardpoints27](https://i.imgur.com/I1lTjF8.png)
 
 ### III. Transactions.
 The right path is ``Marketing > Reward Points: Transaction``.
