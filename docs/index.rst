@@ -31,6 +31,7 @@ Welcome to Mageplaza Docs
    pdf-invoice-m2/index
    better-coupon/index
    reward-points/index
+   reward-points-pro/index
    security/index
    security-pro/index
    gift-card/index
