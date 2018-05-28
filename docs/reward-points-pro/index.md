@@ -175,7 +175,7 @@ This is the place where admins can store Shopping Cart Earning Rules created
 
 ![rewardpoints14](https://i.imgur.com/O1IGveQ.png)
 
-* From the grid view, admins can acknowledge some fundamental information of Shopping Cart Earning Rule such as **ID**, **Name**, **Status**, **Create On**, **Expired**, and **Priority**.
+* From the grid view, admins can acknowledge some fundamental information of a Shopping Cart Earning rule such as **ID**, **Name**, **Status**, **Create On**, **Expired**, and **Priority**.
 * Admins can filter to search for a specific rule.
 
 ##### 1.3.2. Add New Rule (Edit Rule)
@@ -220,23 +220,24 @@ Shopping Cart Earning Rule includes 3 actions:
   * Customer will receive a fixed amount of point(s) based on a purchased cart.
   * In the **Point (X)** field: 
 
-### II. Spending Rate.
+### II. Spending
 Follow the way ``Marketing > Reward Points: Spending Rate``
 
-#### 2.1. General Management.
+#### 2.1. Spending Rate
+##### 2.1.1. General Management.
 This is the place where admins can store Spending Rates created.
 
-![i7](https://i.imgur.com/Di3Iwom.png)
+![rewardpoints18](https://i.imgur.com/Di3Iwom.png)
 
 * From the grid view, admins can acknowledge some fundamental information of an spending rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
   * **Delete**: Tick the checkbox of the spending rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
   * To edit an spending rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
 
-#### 2.2. Add/Edit New Spending Rate.
+##### 2.1.2 Add/Edit New Spending Rate.
 After entering the Spending Rate interface, select ``Add New Rate`` to create a new spending rate. Then, click ``Save and Continue Edit``, the page will automatically switch to the **Edit Rate** page.
 
-![i8](https://i.imgur.com/FTW2VpL.png)
+![rewardpoints19](https://i.imgur.com/FTW2VpL.png)
 
 * In the **Website** field: Choose website(s) you want to apply the spending rate.
 * In **Customer Group(s)** field
@@ -249,6 +250,46 @@ After entering the Spending Rate interface, select ``Add New Rate`` to create a 
   * Indicates the priority of this earning rate compared to other earning rates.
   * 0 indicates the highest priority. The higher number, the lower priority.
   * If there are many spending rates which have similar priorities, rules will apply on the rate which has a smaller ID.
+
+#### 2.2. Shopping Cart Spending Rule
+##### 2.2.1. General Management
+This is the place where admins can save all Shopping Cart Spending rules.
+
+![rewardpoints20](https://i.imgur.com/HSGOznR.png)
+
+* From the grid view, admins can acknowledge some fundamental information of a Shopping Cart Spending Rule such as **ID**, **Name**, **Status**, **Create On**, **Expired**, and **Priority**.
+* Admins can filter to search for a specific rule.
+
+##### 2.2.2. Add New Rule (Edit Rule)
+* Admins choose ``Add New Rule`` at the right-above corner to create a new shopping cart earning rule, after clicking ``Save and Continue Edit``, the page will be directed to the **Edit Rate** page
+* The **Add New Rule** page has 4 tabs
+  * Rule Information
+  * Conditions
+  * Actions
+  * Labels
+  
+##### 2.2.2.2. Rule Information
+
+![rewardpoints21](https://i.imgur.com/pEsMc17.png)
+
+* In the **Rule Name** field
+  * Enter the rule name which will display in the backend to distinguish with other rules
+  * This is required information. There will be an error message if you leave it blank.
+* In the **Description** field: You can note some descriptions of the rule. This field can be left blank.
+* In the **Status** field: Choose "Active" to apply the rule.
+* In the **Website** field: Choose website place(s) you want to apply the rule.
+* In the **Customer Group** field:
+  * Choose group(s) of customer you want to apply for them.
+  * Shopping Cart Spending Rule doesn't apply to NOT LOGGED IN CUSTOMER.
+* In the **From** field: You can set up the start time to use the rule, please note about the different of timezones.
+* In the **To** field: You can set up the end time to disable the rule.
+* In the **Priority** field:
+  * Identifies the usage priority of this shopping cart spending rule compared to others.
+  * 0 is the highest priority. The higher number represents the lower priority.
+  * If two shopping cart earning rules has the same priority, the rule with  smaller ID will be applied.
+
+
+
 
 ### III. Transactions.
 The right path is ``Marketing > Reward Points: Transaction``.
