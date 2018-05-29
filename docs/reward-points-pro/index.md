@@ -151,8 +151,8 @@ Catalog Earning Rule includes 3 actions:
   * In the **Money Step** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration.
   * In the **Maximum Earning Points** field: Set the maximum earning point customer can get from this rule.
   * *E.g: Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Point = 5 which mean*
-    * *When the customer purchases a product which costs $40, they will earn 2 points*
-    * *When the customer purchases a product which costs more than $100, they will only earn 5 points*
+    * *When the customer purchases a product which costs $40, he will earn 2 points*
+    * *When the customer purchases a product which costs more than $100, he will only earn 5 points*
     * *On the other hand, A product has Regular Price=$40, Special Price=$20, they will earn 1 point only*
 
 ![rewardpoints13](https://i.imgur.com/YsqVMox.png)
@@ -165,7 +165,7 @@ Catalog Earning Rule includes 3 actions:
   * *E.g: Product A has Regular Price = $40, Special Price = 20$, Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Points = 5 which mean when the customer purchase Product A, point(s) will be based on Regular Price = $40 and he will earn 2 points*
 * **Stop further rule processing**: Choose "Yes" to restrict the number of catalog earning rules applied to a product.
   * *E.g: Let's say there are 4 Cataloging Earning Rules created in turn, Rule 1, Rule 2, Rule 3, Rule 4, and priorities are 0, 5, 3, 3.*
-    * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from summation of 4 rules.
+    * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from the summation of 4 rules.
     * Rule 3 has **Stop further rules processing = Yes**: After applying, rule 1 will be applied (since it has higher priority) and rule 3. Rule 2 and 4 won't be applied because they have smaller priorities. 
   
 #### 1.3. Shopping Cart Earning Rules
@@ -218,9 +218,34 @@ Shopping Cart Earning Rule includes 3 actions:
 * **Give fixed X points for whole cart**:
   * Customer will receive a fixed amount of point(s) based on a purchased cart.
   * In the **Point (X)** field: Enter point(s) customer can earn. This is the required field.
-  * *E.x: Point (X) = 5 which means no matter how 
-  
+  * *E.x: Point (X) = 5 which means no matter how many products in the customer cart, they will only earn 5 points.*
 
+![rewardpoints](https://i.imgur.com/r2iFjpg.png)
+
+* **Give X points for every Y amount of Price**
+  * The point(s) will be calculated based on the cart's Subtotal 
+  * In the **Point X** field: Enter X point(s) customer will earn for every Y amount of price.
+  * In the **Money Step** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration.
+  * In the **Maximum Earning Points** field: Set the maximum earning point customer can earn from this rule.
+  * *E.g: Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Point = 5 which mean*
+    * *When the customer purchases a cart which has Subtotal = $40, he will earn 2 points*
+    * *When the customer purchases a cart which has Subtotal more than $100, he will earn only 5 points*
+
+![rewardpoints](https://i.imgur.com/1OuAt1U.png)
+
+* **Give X points for every Y amount of Quantity**:
+  * The point(s) will be calculated based on product's quantity
+  * In the **Point (X)** field: Enter X point(s) customer will earn for every Y quantity
+  * In the **Money Step** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration.
+  * In the **Maximum Earning Points** field: Set the maximum earning point customer can earn from this rule.
+  * *E.g: Point (X) = 5, Quantity Step (Y) = 1, and Maximum Earning Points = 5 which mean*:
+    * When the customer place order a cart which has 6 products, he will earn 6 points.
+    * When the customer place order a cart which has more than 15 products, he will earn 5 points only.
+* **Stop further rule processing**: Choose "Yes" to restrict the number of catalog earning rules applied to a product.
+  * *E.g: Let's say there are 4 Cataloging Earning Rules created in turn, Rule 1, Rule 2, Rule 3, Rule 4, and priorities are 0, 5, 3, 3.*
+    * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from the summation of 4 rules.
+    * Rule 3 has **Stop further rules processing = Yes**: After applying, rule 1 will be applied (since it has higher priority) and rule 3. Rule 2 and 4 won't be applied because they have smaller priorities.     
+  
 ### II. Spending
 Follow the way ``Marketing > Reward Points: Spending Rate``
 
