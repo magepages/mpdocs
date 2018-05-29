@@ -180,7 +180,7 @@ This general configurations can apply for the whole module.
 * In the **Reward Point Icon** field
   * The upload image will be used as the point icon and be shown on the frontend.
   * JPG, PNG or GIF files are accepted. There will be an error message if the input file is invalid.
-  * If you leave it blank, the default icon will be used ![icon](https://i.imgur.com/fTGtFo4.png).
+  * If you leave it blank, the default icon will be used ![icon](https://i.imgur.com/N9oyiwy.png).
 * In the **Maximum Available Point Balance** field
 
   * Set the maximum number of point(s) that the customer can accumulate by purchasing.
