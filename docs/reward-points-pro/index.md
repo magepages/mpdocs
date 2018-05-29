@@ -405,28 +405,33 @@ This general configurations can apply for the whole module.
 
 * In the **Enable** field: Choose “Yes” to active the Reward Point extension from Mageplaza. 
 * In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displayed on the frontend at the [My Account > Reward Point](https://docs.mageplaza.com/reward-points/index.html#my-account-my-points-reward) section.
-* In the **Point Label** field
-  * This label will be displayed on the frontend.
+* In the **Point Label** field:
+  
+  * This label will be displayed on the frontend.
   * If you leave it blank, there will be an error message.
-* In the **Plural Point Label** field
-  * If the balance is greater than 1, this label will be displayed on the frontend.
+* In the **Plural Point Label** field:
+  
+  * If the balance is greater than 1, this label will be displayed on the frontend.
   * If you leave it blank, there will be an error message.
-* In the **Display Point Label** field
+* In the **Display Point Label** field:
   * Select **After Amount** to display the point label after number (ex: 5 points).
   * Select **Before Amount** to display the number label before number (ex: points 5).  
-* In the **Zero Point Label** field
-  * Enter the label when the customer's account balance is equal to 0. 
+* In the **Zero Point Label** field:
+  
+  * Enter the label when the customer's account balance is equal to 0. 
   * If you leave it blank, there will be an error message.
 * In the **Show Point Icon** field: Choose “Yes” to display the point icon on the frontend.
-* In the **Reward Point Icon** field
+* In the **Reward Point Icon** field:
   * The upload image will be used as the point icon and be shown on the frontend.
-  * JPG, PNG or GIF files are accepted. There will be an error message if the input file is invalid.
-  * If you leave it blank, the default icon will be used ![icon](https://i.imgur.com/N9oyiwy.png).
+  * **JPG**, **PNG** or **GIF** files are accepted. There will be an error message if the input file is invalid.
+  
+  * If you leave it blank, the default icon will be used ![icon](https://i.imgur.com/N9oyiwy.png).
 * In the **Maximum Available Point Balance** field
-
   * Set the maximum number of point(s) that the customer can accumulate by purchasing.
-  * If customer's account balance reaches to this number, there will be no more points awarded to the balance, and reward point(s) indicators will not be shown on the frontend.
-  * Admins can add point(s) to an account balance with no awareness of this value.
+  
+  * If customer's account balance reaches to this number, there will be no more points awarded to the balance, and reward point(s) indicators will not be shown on the frontend.
+  
+  * Admins can add point(s) to an account balance with no awareness of this value.
   * If the field is left blank or 0, there will be no restriction for the maximum points
 
 #### 4.2. Earning Configuration.
