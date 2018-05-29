@@ -1,7 +1,7 @@
 # Reward Points Professional
 
 ## Overview
-In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, [Mageplaza Reward points]() extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
+In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, [Mageplaza Reward points](https://www.mageplaza.com/magento-2-reward-points-extension/) extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
 
 Magento 2 Reward Points extension will allow earning unlimited reward points as well as using them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
 
@@ -46,10 +46,9 @@ Customers can earn reward point(s) and use them perfectly in these following pag
 
 ## How to configure
 Log in to your backend, then go to ``Marketing > Reward Points`` and follow the instruction below to configure Reward Points extension
-* Earning Rate
-* Spending Rate
+* Earning 
+* Spending 
 * Transactions
-* Configuration
 
 ```
 Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
@@ -205,20 +204,22 @@ This is the place where admins can store Shopping Cart Earning Rules created
   * 0 is the highest priority. The higher number represents the lower priority.
   * If two shopping cart earning rules has the same priority, the rule with  smaller ID will be applied.
   
-###### 1.3.2.2. Condition
+###### 1.3.2.2. Conditions
 
 ![rewardpoints16](https://i.imgur.com/kQAIFnB.png)
 
 Choose condition to apply the rule. Only the cart which meets those conditions will be applied.
 
-###### 1.3.2.3. Action
+###### 1.3.2.3. Actions
 Shopping Cart Earning Rule includes 3 actions:
 
 ![rewardpoints17](https://i.imgur.com/mksN4on.png)
 
 * **Give fixed X points for whole cart**:
   * Customer will receive a fixed amount of point(s) based on a purchased cart.
-  * In the **Point (X)** field: 
+  * In the **Point (X)** field: Enter point(s) customer can earn. This is the required field.
+  * *E.x: Point (X) = 5 which means no matter how 
+  
 
 ### II. Spending
 Follow the way ``Marketing > Reward Points: Spending Rate``
@@ -344,7 +345,6 @@ After entering Transaction tab, choose ``Add new transaction`` to generate a new
 
 ![i10](https://i.imgur.com/GD7Ag8H.png)
  
-
 * In the **Customer** field
   * Click this section to display the store’s customer list in the popup form. Admins can only choose **1** from this customer list.
   * Name of the chosen customer will be added reward point(s) to her/his account.
@@ -365,7 +365,7 @@ Admins can review or expire a transaction in the **View Transaction** page.
 
 ![i11](https://i.imgur.com/keL0D6s.png)
 
-### IV. Configuration.
+### IV. Configuration
 Follow in the backend ``Store > Settings > Configuration``. At the left panel, choose ``Mageplaza > Rewward Points``
 
 #### 4.1. General Configuration.
