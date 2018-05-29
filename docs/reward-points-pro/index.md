@@ -244,7 +244,12 @@ Shopping Cart Earning Rule includes 3 actions:
 * **Stop further rule processing**: Choose "Yes" to restrict the number of catalog earning rules applied to a product.
   * *E.g: Let's say there are 4 Cataloging Earning Rules created in turn, Rule 1, Rule 2, Rule 3, Rule 4, and priorities are 0, 5, 3, 3.*
     * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from the summation of 4 rules.
-    * Rule 3 has **Stop further rules processing = Yes**: After applying, rule 1 will be applied (since it has higher priority) and rule 3. Rule 2 and 4 won't be applied because they have smaller priorities.     
+    * Rule 3 has **Stop further rules processing = Yes**: After applying, rule 1 will be applied (since it has higher priority) and rule 3. Rule 2 and 4 won't be applied because they have smaller priorities.
+* Apply the rule only to cart items matching the following conditions (leave blank for all items)
+
+![rewardpoints](https://i.imgur.com/2rBTClp.png)
+
+Only when product(s) in the cart meet these conditions, rule will be applied.    
   
 ### II. Spending
 Follow the way ``Marketing > Reward Points: Spending Rate``
