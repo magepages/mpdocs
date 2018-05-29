@@ -54,7 +54,7 @@ Log in to your backend, then go to ``Marketing > Reward Points`` and follow the 
 ```
 Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
 ```
-![rewardpoints3](https://i.imgur.com/djT1nKN.png)
+![rewardpoints3](https://i.imgur.com/q1QmqDU.png)
 
 ### I. Earning 
 #### 1.1. Earning Rate
