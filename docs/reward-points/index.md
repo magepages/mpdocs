@@ -177,10 +177,12 @@ This general configurations can apply for the whole module.
   * Enter the label when the customer's account balance is equal to 0. 
   * If you leave it blank, there will be an error message.
 * In the **Show Point Icon** field: Choose “Yes” to display the point icon on the frontend.
-* In the **Reward Point Icon** field
+* In the **Reward Point Icon** field:
+
   * The upload image will be used as the point icon and be shown on the frontend.
   * JPG, PNG or GIF files are accepted. There will be an error message if the input file is invalid.
   * If you leave it blank, the default icon will be used ![icon](https://i.imgur.com/N9oyiwy.png).
+
 * In the **Maximum Available Point Balance** field
 
   * Set the maximum number of point(s) that the customer can accumulate by purchasing.
