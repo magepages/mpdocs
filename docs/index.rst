@@ -46,6 +46,7 @@ Welcome to Mageplaza Docs
    review-reminder/index
    google-tag-manager-m2/index
    gdpr/index
+   gdpr-pro/index
    delete-order-m2/index
    product-slider-m2/index
 
