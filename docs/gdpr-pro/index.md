@@ -53,7 +53,7 @@ Check in **General** to learn the basic configuration of the module
 * In the **Allow Anonymise Address Option In Order Processing** field:
   * Choose "Yes" to anonymize information in billing, shipping address.
   * You can choose to hide one or more information in the address optionally.
-  * Anonymized information will be encrysted as a randon character string.
+  * Anonymized information will be encrysted as a random character string.
   
 ![gdpr7](https://i.imgur.com/xrSpILH.png)
 
