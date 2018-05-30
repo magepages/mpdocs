@@ -10,7 +10,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 
 ![gdrp1](https://i.imgur.com/YGJmKZh.png)
 
-Check in **General** t learn the basic configuration of the module
+Check in **General** to learn the basic configuration of the module
 
 ![gdrp2](https://i.imgur.com/4cB3TrU.png)
 
