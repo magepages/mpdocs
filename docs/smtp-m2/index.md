@@ -16,6 +16,11 @@ Here we go how to know detail in instructions and configuration in extension’s
 
 ## How to config
 
+Login to the Magento admin, choose `Mageplaza > SMTP`
+
+![Imgur](https://i.imgur.com/SfUoDG1.png)
+
+
 ### 1. Email logs
 
 This can be accessed by the following  `Mageplaza > SMTP > Email Logs`. From here you can look back all the sent email from the server to customers.
