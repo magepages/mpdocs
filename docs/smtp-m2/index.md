@@ -16,9 +16,9 @@ Here we go how to know detail in instructions and configuration in extension’s
 
 ## How to config
 
-Login to the Magento admin, choose `Mageplaza > SMTP`
+Login to the Magento admin, choose `Stores > Settings > Configuration > Mageplaza > SMTP`
 
-![configuration](https://i.imgur.com/SfUoDG1.png)
+![configuration](https://i.imgur.com/IXDoxLr.png)
 
 Follow the guide below to complete **SMTP** configuration
 
