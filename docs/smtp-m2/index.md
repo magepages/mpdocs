@@ -37,13 +37,13 @@ At here, you can view all information as *ID, Subject, From, To, Bcc, Status, Cr
 
 Some actions can be taken:
 
-* View: To review the content of the email that is saved in the Emails Log. Admin can review by clicking `Select > View` in the `Action` column.
+* **View**: To review the content of the email that is saved in the Emails Log. Admin can review by clicking `Select > View` in the `Action` column.
 
 Below is the content of an email after you click on the **View** button
 
-![Order](https://i.imgur.com/IZ7EuMt.png)
+  ![Order](https://i.imgur.com/IZ7EuMt.png)
 
-* Resend:
+* **Resend**:
 
   * In the `Action` column, choose `Select > Resend`. This means that the selected email will be resent once and that Email Resend is also logged, which enables admins to know if the Email Resend is sent successfully or failed.
   * The `Resend` feature can work well even if you disable the module. The Resend Email will apply the Provider of SMTP, however, it won’t be logged in the Emails Log.
@@ -51,7 +51,7 @@ Below is the content of an email after you click on the **View** button
 
       ![Resend](https://i.imgur.com/pS7OfD0.png)
 
-* Delete: 
+* **Delete**: 
 
   * In the `Action` column, click `Select > Delete`: This means that the selected email will be removed from the grid.
   * To Delete many emails at once, you only need to tick, then choose `Action` at the upper left of the Grid, and choose `Delete`.
@@ -66,11 +66,11 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
 
 ![SMTP on](https://i.imgur.com/Hm7Wofm.png)
 
-* In the Enable Mageplaza SMTP field, select “Yes” to enable Mageplaza SMTP extension.
-* Log Email provides two modes:
+* In the **Enable Mageplaza SMTP** field, select “Yes” to enable Mageplaza SMTP extension.
+* **Log Email** provides two modes:
   * Yes: Sent emails will be saved in the Emails Log, you can preview it and have it clean up to follow the fixed schedule.
   * No: Sent emails won’t be archived.
-* Clean Email Log Every: This field limits the storage time for the email you sent. After that limited number of days, Email will be auto-deleted. If you do not want to delete the emails, leave the field blank.
+* **Clean Email Log Every**: This field limits the storage time for the email you sent. After that limited number of days, Email will be auto-deleted. If you do not want to delete the emails, leave the field blank.
 
 
 #### 2.2.2 SMTP Configuration Options
