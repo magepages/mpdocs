@@ -49,22 +49,20 @@ Below is the content of an email after you click on the **View** button
   * The `Resend` feature can work well even if you disable the module. The Resend Email will apply the Provider of SMTP, however, it won’t be logged in the Emails Log.
   * To resend lots of emails at once, you only need to tick, then choose `Action` at the upper left of the Grid, and select `Resend`.
 
-![Resend](https://i.imgur.com/pS7OfD0.png)
+          ![Resend](https://i.imgur.com/pS7OfD0.png)
 
 * Delete: 
 
   * In the `Action` column, click `Select > Delete`: This means that the selected email will be removed from the grid.
   * To Delete many emails at once, you only need to tick, then choose `Action` at the upper left of the Grid, and choose `Delete`.
 
-![Actions Delete](https://i.imgur.com/zX11Azm.png)
+          ![Actions Delete](https://i.imgur.com/zX11Azm.png)
 
 ### 2. Configuration
 
 #### 2.2.1 General Configuration
 
 Be sure you’re at Admin Panel, for general configuration `Stores > Settings > Configuration > Mageplaza > SMTP`. Choose **General Configuration** sections.
-
-Select Yes to enable Mageplaza SMTP on.
 
 ![SMTP on](https://i.imgur.com/Hm7Wofm.png)
 
