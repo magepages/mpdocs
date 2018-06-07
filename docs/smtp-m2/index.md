@@ -41,7 +41,7 @@ Some actions can be taken:
 
 Below is the content of an email after you click on the **View** button
 
-![Order](https://i.imgur.com/mZuMCD3.png)
+![Order](https://i.imgur.com/IZ7EuMt.png)
 
 * Resend:
 
