@@ -7,7 +7,7 @@ In this extension, all the reports will use line graphs, which are fond of showi
 
 ## Download & Install
 
-- [Mageplaza]
+- [Mageplaza]()
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ```
