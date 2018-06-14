@@ -23,7 +23,7 @@ Check in **General** to learn the basic configuration of the module
 
 ![gdpr3](https://i.imgur.com/SuWVlKw.png)
 
-* In the **Allow Delete Default Address** field: Choose "Yes" to allow customers can delete their default address.
+* In the **Allow Delete Default Address** field: Choose "Yes" to allow customers to delete their default address.
 
 ![gdpr4](https://i.imgur.com/CccsEGQ.png)
 
