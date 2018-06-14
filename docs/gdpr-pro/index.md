@@ -27,6 +27,21 @@ Check in **General** to learn the basic configuration of the module
 
 ![gdpr4](https://i.imgur.com/CccsEGQ.png)
 
+* In the **Allow password verification** field:
+  * Choose Yes to use this feature
+  * When customers want to remove their account, they need to enter the password correctly to delete the account successfully.
+  
+![Imgur](https://i.imgur.com/SoTXGCv.png)
+
+* In the **Show Customer Register Term and Condition**: Select Yes to show the Term and Condition when customers create a new account.
+
+![Imgur](https://i.imgur.com/1zDzGns.png)
+
+* In the **GDPR Checkbox Title** field: Enter the title that is displayed in the checkbox in the Term and Condition section.
+* In the **Term and Condition** field: 
+  * Allow editting the display content of the GDPR policy or use the default content of Mageplaza
+  * Support HTML code
+
 ### II. Anonymise Account Configuration
 
 ![gdpr5](https://i.imgur.com/OwqDIad.png)
@@ -54,6 +69,13 @@ Check in **General** to learn the basic configuration of the module
   * Choose "Yes" to anonymize information in billing, shipping address.
   * You can choose to hide one or more information in the address optionally.
   * Anonymized information will be encrysted as a random character string.
+* In the **Allow Anonymise Address Option** field:
+  * Allow hiding one or more information in the address field.
+  * The selected information will be hidden when the customers delete the account.
+
+![Imgur](https://i.imgur.com/V2khIOt.png)
+
+The information will be hiden in the order when customers remove their account.
   
 ![gdpr7](https://i.imgur.com/xrSpILH.png)
 
@@ -81,8 +103,22 @@ Check in **General** to learn the basic configuration of the module
 * In the **Location To Show Cookie Law** field: Choose the pages you want to show Cookie Policy
 * In the **Apply For** field: Choose the country you want to apply Cookie Policy.
 * In the **Custom CSS** field: You can freely customize the cookie displaying.
-  
 
+### IV. Email Configuration
+
+![Imgur](https://i.imgur.com/HlGrROY.png)
+
+* In the **Enable Email Confirmation** field:
+  * Choose Yes to send the email confirmation when customers remove the account.
+  * Customers only need to click to the link in their email and login to verify that deleting the account is completed.
+* Select an email template used to confirm before deleting the account:
+  * Allow choosing the confirmation email template to send to the customers.
+  * Ability to design or add a new template by go to `Marketing > Email Templates`.
+* In the **Sender Email** field: Allow choosing the email sender.
+
+Below is the content of the email:
+
+![Imgur](https://i.imgur.com/0uRTyAs.png)
   
 
 
