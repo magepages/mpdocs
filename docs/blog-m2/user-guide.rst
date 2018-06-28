@@ -38,9 +38,12 @@ Login to Magento Admin, ``Mageplaza > Better Blog: Configuration``. Open **Gener
 
 * In the **Display Sitemap** field: Choose “Yes” to display sitemap at the footer links.
 
-.. image:: https://i.imgur.com/iaggKTK.png
+.. image:: https://i.imgur.com/INXn2Mq.png
 
 * In the **Date Format** field: Choose the date format to display. We have 12 types of date format.
+
+.. image:: https://i.imgur.com/ipliE04.png
+
 * In the **Limit Related Post** field: 
 
   * Related Post is defined posts have the same Topic.
@@ -125,8 +128,13 @@ Monthly Archive helps to summary the number of post published for each month. Op
 
 Open Comments section, set a comment type with one of the following options.
 
-* **Default Comment**: Customers need to login their account to be able to comment, admins can manage those comments in the backend.
+* **Default Comment**: Customers need to login a new account to be able to comment, admins can manage those comments in the backend. Choose 'No' at the **Need for Approval** field to disable the comment management feature. After that, those comments will be shown on the frontend as soon as customers comment.
+
+.. image:: https://i.imgur.com/VsV1CQ7.png
+
 * **Disqus Comment**: Admin needs to create a Disqus unique name and fill it in the configuration. This also requires the customer have a Disqus account to be able to comment.
+
+.. image:: https://i.imgur.com/7iudKq9.png
 
 * **Facebook Comment**: If you choose this type of comment, some add-on fields will display like the below:
 
@@ -309,20 +317,44 @@ VI. Author Information
 VII. Manage Comments
 -----
 
-Follow the path after logging in the backend ``Mageplaza > Better Blog: Manage Comments``
+* Only being able to manage Default Comment when choosing "Yes"" at **Need for Approval** field at the `Mageplaza/Configuration/Comment`
+* When choosing "No", the status of the default comment is **Approved** and it will display as soon as customers comment.
+* After the customer comments a post, the comment will be sent to the admin with the status ``Pending``.
+* The comment is displayed if the admin switches the comment status into ``Approve``, and in vice versa result if **Status** is ``Spam`` or ``Pending``.
 
 .. image:: https://i.imgur.com/2VpsKh9.gif
 
-* Only being able to manage Default Comment type (which is configured in 1.5. Comments)
-* After the customer comments a post, the comment will be sent to the admin with the status ``Pending``.
-* The comment is displayed if the admin switches the comment status into ``Approve``, and in vice versa result if **Status** is ``Spam`` or ``Pending``.
-* After editting a comment, you can only edit the content and status of that comment. Furthermore, you can know:
+* when editing a comment, admin need to note as the following:
 
   * **Post**: The post title which is linked to Edit Post of Manage Post in the backend.
   * **Customer**: The commenter, who is linked to Edit Customer in the backend
+  * **Status**: Admins only need to select **Status = Approved** to allow those comments showing in the frontend.
+  * **Content**: Admins can edit the content of the comment at this field. The comment at the frontend will change as the backend. In the comment management grid, admins only see up to 150 characters of the content.
   * **View on Frontend**: link of the post on the frontend.
 
-VIII. Create new Widget
+VIII. Import
+
+* Login to the Magento Admin, choose `Better Blog > Import`
+* Choose import source is "Wordpress" or "AheadWork Blog extension" [Magento 1] or "MageFan Blog" [Magento 2]
+
+.. image:: https://i.imgur.com/21ePy6V.png
+
+
+  * Wordpress
+  
+.. image:: https://i.imgur.com/Bi9lx0J.png
+
+  * AheadWork Blog extension [Magento 1]
+  
+.. image:: https://i.imgur.com/lcNBGyJ.png
+
+  * MageFan Blog [Magento 2]
+  
+.. image:: https://i.imgur.com/g0Hv6Pz.png
+
+* How to import in details can be found [here]().
+
+IX. Create new Widget
 -----
 
 Widget is an awesome functionality you can insert to the CMS page from Magento 2 Configuration because it can be considered as a predefined set of configuration options. In the widget, you can add links that navigate directly to any content page, category, or product as you need.
