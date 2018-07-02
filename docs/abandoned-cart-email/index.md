@@ -16,14 +16,14 @@ Cart abandonment is an action that consumers leave the website after adding a pr
 ## How to configure
 
 Login to Magento Admin, ``Marketing > Abandoned Cart Email`` to configure it in general
-![ACE1](https://i.imgur.com/Y39e92W.png)
+![ACE1](https://i.imgur.com/Xa985mo.png)
 
 ### 1. Configuration
 
 #### 1.1 General Configuration
 Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` then click on ``General Configuration``
 
-![ACE2](https://i.imgur.com/Xa985mo.png)
+![ACE2](https://i.imgur.com/KFSSJo5.png)
 
 * **Enabled**: select “Yes” to enable Mageplaza Abandoned Cart Email extension
 * **Email**: This section is for the abandoned cart reminder email settings
