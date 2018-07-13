@@ -35,6 +35,7 @@ Welcome to Mageplaza Docs
    security/index
    security-pro/index
    gift-card/index
+   reports/index
    search-m2/index
    blog-m2/index
    smtp-m2/index
