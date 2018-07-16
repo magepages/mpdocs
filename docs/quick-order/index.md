@@ -60,7 +60,7 @@ After clicking on the button/link of Quick Order, customers can access to the Qu
 
 ## How to configure
 
-After logging into **Magento admin**, go to **Store > Settings > Configuration**, at **Mageplaza Extensions** tab, choose **Quick Order**.
+After logging into **Magento admin**, go to **Store > Settings > Configuration > Mageplaza Extensions > Quick Order**.
 
 ### General Configuration
 
