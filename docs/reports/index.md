@@ -1,13 +1,13 @@
-# Magento 2 Reports
+# Reports
 
 ## Overview
-Having the newest insights of your store will never be easier, [Magento 2 Reports]() is crafted as a reliable analyzing tool which assembles and performs your business operations onto easy-to-understand line charts. Thus, by keeping track precise collected data will definitely help you assess your business/campaign/program and flexibly adapt to new situations quickly. 
+Having the newest insights of your store will never be easier, [Magento 2 Reports](https://www.mageplaza.com/magento-2-reports-extension/) is crafted as a reliable analyzing tool which assembles and performs your business operations onto easy-to-understand line charts. Thus, by keeping track precise collected data will definitely help you assess your business/campaign/program and flexibly adapt to new situations quickly. 
 
 In this extension, all the reports will use line graphs, which are fond of showing data variables and factors clearly. Advanced reports will be executed after scanning all sales records, display each of a specific variable into a line then perform its movement corresponding scanned records. Besides that, this module also helps store owners manage and follow the growth rate or the decreasing rate compared with the same period last month, last year, etc.
 
 ## Download & Install
 
-- [Mageplaza]()
+- [Mageplaza](https://www.mageplaza.com/magento-2-reports-extension/)
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ```
