@@ -74,11 +74,64 @@ From the Admin Panel, go to ** Store > Settings > Configuration > Mageplaza Exte
 
 ![manually insert](https://i.imgur.com/wWakqLU.png)
 
-    * Insert manually this snippet to your page: Display the code so that admins can copy and insert into the pages they wish to display the popup
+  * Insert manually this snippet to your page: Display the code so that admins can copy and insert into the pages they wish to display the popup
     
   * Which page to show = Specific Page: Display the popup on some selected pages
   
 ![specific page](https://i.imgur.com/XHrtJdS.png)
+
+  * Include Pages:
+    * Enter the pages that you want to show the popup
+    * The pages are separated by commas
+  
+  * Include Page with URL contains:
+    * The popup will display on the pages that contain the URL path entered
+    * The URL path is separated by down lines
+
+### When to Show
+
+![when to show](https://i.imgur.com/Ang95Iu.png)
+
+* When the popup appear?
+
+![when the popup appear](https://i.imgur.com/KbCWaRG.png)
+
+  * When the popup appear? = Exit Intent: This means that the popup will appear when hovering away from the current page
+  * When the popup appear? = After page load: The popup will appear when loading the page
+  * When the popup appear? = After x seconds: The popup will appear after x seconds 
+
+![after x seconds](https://i.imgur.com/FkHl1Pv.png)
+
+  * After x seconds
+    * Enter the number of seconds to display the popup
+    * After the number of seconds configured since loading the page, the popup will appear
+  
+  * When the popup appear? = After scroll down x%: The popup will appear when scrolling the page down x% configured
+  
+  ![after scroll down x%](https://i.imgur.com/0hmGOip.png)
+  
+  * After scroll down
+    * Enter the percentage after scrolling down to show the popup
+    * The popup will appear after scrolling down the percentage configured 
+    
+  * The popup will show again later
+    * Enter the number of days that the popup will reappear
+    * If it is 0, the popup will display each time the mouse is moved out of the screen or when the page load or after how many seconds will display again or when scrolling how many percents will display 
+    * If leaving the blank this field, the popup will display after 30 days. The popup displayed depends on the cookie of the browser
+    
+  * Show Float Button: Choose Yes to display the gift button
+  
+  ![show float button](https://i.imgur.com/BN0g6WV.png)
+  
+   * Float button direction = Left: The gift button will display below, the left corner of the screen
+   * Float button direction = Right: The gift button will display below, the right corner of the screen
+
+## Better Popup
+
+![better popip](https://i.imgur.com/VXSFiWW.png)
+  
+  
+    
 
 
 
