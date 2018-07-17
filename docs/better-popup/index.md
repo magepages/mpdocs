@@ -8,7 +8,7 @@ Are you ready to revolutionize your e-commerce store? It's easier than ever to t
 
 ## How to Configure
 
-From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Better Popup**
+Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Better Popup**
 
 ![configuration](https://i.imgur.com/L3cdILV.png)
 
@@ -23,7 +23,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 ![what to show](https://i.imgur.com/RbceciU.png)
 
 * **Content**
-  * Enter the content to show the popup outsite the frontend
+  * Enter the content to show the popup outside the frontend
   * If leaving the blank this field, it will be duplicated with the default content
   * Support HTML content
   
@@ -43,15 +43,15 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
   * The default text color is #ffffff
   
 * **Popup Success**
-  * **Show congratulation fireworks**: Choose Yes to show the fireworks when visitors signs up their email successfully
+  * **Show congratulation fireworks**: Choose Yes to show the fireworks when visitors sign up their email successfully
   * **Content**: 
-    * Enter the display content when visitors sign up sucessfully
+    * Enter the display content when visitors sign up successfully
     * If leaving the blank this field, it will be duplicated with the default content
     * Support HTML content
   
   * **Coupon Code**
     * Enter the coupon code
-    * The coupon code will display after visitors sign up successfully and this coupon code will be used when purchasing the products.
+    * The coupon code will display after visitors sign up successfully, and this coupon code will be used when purchasing the products.
 
 ### Where to Show
 
@@ -68,7 +68,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
      
     * **Exclude Page with URL contains**:
       * The popup won't display on the pages that contain URL path entered
-      * The URL path is separated by down lines
+      * The URL path is separated by downlines
 
   * **Which page to show = Manually Insert**: Show the popup on the pages that are inserted the code at the Manually Insert. 
 
@@ -86,7 +86,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
   
   * **Include Page with URL contains**:
     * The popup will display on the pages that contain the URL path entered
-    * The URL path is separated by down lines
+    * The URL path is separated by downlines
 
 ### When to Show
 
