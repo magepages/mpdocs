@@ -48,6 +48,7 @@ Welcome to Mageplaza Docs
    google-tag-manager-m2/index
    gdpr/index
    gdpr-pro/index
+   size-chart/index
    delete-order-m2/index
    product-slider-m2/index
 
