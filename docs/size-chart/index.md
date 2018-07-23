@@ -11,8 +11,8 @@ Login to the **Magento Admin**, choose **Catalog > Size Chart**
 
 ![how to configure](https://i.imgur.com/lStArzz.png)
 
-### 1. Manage Rules
-#### 1.1. Basic management interface
+### 1. Manage Rules 
+#### 1.1. Basic management interface 
 
 This field allows admins to stipulate the Size Chart display according to each of certain rule.
 
@@ -30,13 +30,13 @@ This field allows admins to stipulate the Size Chart display according to each o
   
 * Also, admins can filter, change store view, hide or appear the columns or Export Grid.
 
-#### 1.2. Create a new rule
+#### 1.2. Create a new rule {#create-new-rule}
 
 After logging into the `Manage Rules` page, admins choose `Add Rule` to create a new template. After you `Save and Continue Edit`, the page will be auto-returned to the Edit Rule page.
 
-##### 1.2.1. Information
+##### 1.2.1. Information 
 
-![information](https://i.imgur.com/nj6TNZ3.png)
+![information](https://i.imgur.com/V0sc5rM.png)
 
 * **Name**: 
   * Set the name for the rule. This name only displays in the backend to distinguish between the different rules.
@@ -60,7 +60,7 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
   * Only show this field when you choose **How to display = Popup**
   * You need to fill in the attribute code of the **Swatch/dropdown attribute** to display the popup button just after that attribute.
   * To know the attribute code of **swatch/dropdown attribute**, you can go to the stores from the admin panel, choose **Attribute > Product**.
-* **Rule Priority**: When there're many rules applied to a product, any rule with a higher priority (smaller number) will be applied.
+* **Rule's Priority**: When there're many rules applied to a product, any rule with a higher priority (smaller number) will be applied.
 * **Template HTML**: With this customizable HTML, it is easy for you to design your desired template with the HTML command line.
 * **Template CSS**: You can add CSS in this field so that your template becomes beautifully.
 * **Demo Template**: We have available 6 templates for your reference. After choosing the desired template, please click on `Load Template` so that the content of the template is displayed in `Template HTML and Template CSS` field.
@@ -74,20 +74,20 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
 * You can plus/minus the condition by clicking on `+` or `x`
 * You can change the status `True/False` of the condition by clicking on the bold text.
 
-### 2. Configuration
+### 2. Configuration 
 From the Admin Panel, please go to **stores > Settings > Configuration > Mageplaza Extensions > Size Chart**
 
-#### 2.1. General Configuration
+#### 2.1. General Configuration 
 
 ![general configuration](https://i.imgur.com/QF0IVv4.png)
 
 * Choose Yes to Enable this module.
 
-#### 2.2. Size Chart Button Design
+#### 2.2. Size Chart Button Design 
 
 This is a design for Size Chart Popup button.
 
-![size chart button design](https://i.imgur.com/RICelHu.png)
+![size chart button design](https://i.imgur.com/GScpY20.png)
 
 * **Customize Size Chart Label**: Change the label of the popup button
 * **Logo**:
@@ -98,15 +98,15 @@ This is a design for Size Chart Popup button.
 * **Background Color**: Change the background color of the popup button
 * **Border Color**: Change the color of the popup button
 
-### 3. Size Chart in Products
+### 3. Size Chart in Products 
 
 * To install a particular product without a rule, admins can select `Catalog > Product > Edit Product` and set the size chart rule for the product by using the attribute `size chart` 
 
-![Size chart attribute](https://i.imgur.com/RmrlWr6.png)
+![Size chart attribute](https://i.imgur.com/NlJmEAh.png)
 
 
 * Attribute Size Chart includes 3 main options:
-  * **Use the validate rule/parent category**: When this option is picked, Size Chart which is applied for the product will follow the Size Chart rule of the Category which the product belongs to (according to [Breadcrumbs](https://en.wikipedia.org/wiki/Breadcrumb_(navigation)) on Frontend)
+  * **Inherit from Category/Rule**: When this option is picked, Size Chart which is applied for the product will follow the Size Chart rule of the Category which the product belongs to (according to [Breadcrumbs](https://en.wikipedia.org/wiki/Breadcrumb_(navigation)) on Frontend)
 
 Example: Product A belongs to two categories which are Women and Jackets.
 
@@ -116,18 +116,18 @@ In this particular case, the size chart for product A will be applied by Rule of
 Case 2: Customer reaches product A by the path: `Home > Women > A`
 In this particular case, the size chart for product B will be applied by Rule of category Women
 
-In case the option `Use the validate rule/parent category` is set for both categories Jackets and Women, all rules in Manage Rule will be filtered to meet the conditions, and the rule with higher priority will be applied on product A
+In case the option `Inherit from Category/Rule` is set for both categories Jackets and Women, all rules in Manage Rule will be filtered to meet the conditions, and the rule with higher priority will be applied on product A
 
   * **Disable**: The products won't apply the Size Chart Rule
-  * **Select a rule created in Manage Rules**: Select any other Size Chart Rule
+  * **Select a rule created in Manage Rules**: Select any other Size Chart Rule and it is applied even if that rule's status is `Disable`
   
-### 4. Size Chart in Categories
+### 4. Size Chart in Categories 
 
 * To set all products in the category by one certain Size Chart Rule, admins can select `Catalog > Categories`, and set the attribute Size Chart similar to when setting Size Chart in `Edit Product`.
 
 ![size chart in categories](https://i.imgur.com/CKzyz9B.png)
 
-* If you select **Size Chart = Use the validated rule/parent category**, the selected products (Use the validated rule/parent category in the Edit Product) in the Category will be applied the rule with the satisfied condition and the highest (smallest) Priority.
+* If you select **Size Chart = Inherit from Category/Rule**, the selected products (Inherit from Category/Rule in the Edit Product) in the Category will be applied the rule with the satisfied condition and the highest (smallest) Priority.
 
 ## Frontend
 
