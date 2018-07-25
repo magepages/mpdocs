@@ -6,6 +6,12 @@ There is an obvious fact that every brand, every region has a different size reg
 
 **Size Chart** will be displayed as a popup or inline or in the Product tab according to the choice of the Admin. With intuitive HTML customization, admins can edit charts become user-friendly, boosting sale revenues effectively.
 
+## Download & Install
+
+- [Mageplaza Size Chart](http://www.mageplaza.com/magento-2-size-chart/)
+- [Magento Marketplace]
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
 ## How to Configure
 Login to the **Magento Admin**, choose **Catalog > Size Chart**
 
