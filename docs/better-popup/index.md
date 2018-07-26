@@ -10,8 +10,9 @@ Are you ready to revolutionize your e-commerce store? It's easier than ever to t
 
 Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Better Popup**
 
-![configuration](https://i.imgur.com/L3cdILV.png)
+![configuration](https://i.imgur.com/3TbZ96J.png)
 
+## Configuration
 ### General Configuration
 
 ![general configuration](https://i.imgur.com/zgyGlgJ.png)
@@ -22,10 +23,19 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ![what to show](https://i.imgur.com/RbceciU.png)
 
+* **Template**
+
+![template](https://i.imgur.com/mprWL8n.png)
+
+  * Allow choosing the popup template displaying in the frontend
+  * Use the "Default Template"
+  * After clicking on **Load HTML**, the code of the template will display under the **Content** field
+  * Admins can configure the template or customize the template as you like
+
 * **Content**
   * Enter the content to show the popup outside the frontend
   * If leaving the blank this field, it will be duplicated with the default content
-  * Support HTML content
+  * Support HTML content. Admins can design the popup displaying on their website.
   
 * **Responsive Design**
 
@@ -43,16 +53,23 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
   * The default text color is #ffffff
   
 * **Popup Success**
-  * **Show congratulation fireworks**: Choose Yes to show the fireworks when visitors sign up their email successfully
-  * **Content**: 
-    * Enter the display content when visitors sign up successfully
-    * If leaving the blank this field, it will be duplicated with the default content
-    * Support HTML content
-  
-  * **Coupon Code**
+
+![popup success](https://i.imgur.com/CU30mSN.png)
+
+  * **Coupon code**
     * Enter the coupon code
     * The coupon code will display after visitors sign up successfully, and this coupon code will be used when purchasing the products.
-
+ 
+  * **Content**
+    * After choosing the template to display as well as clicking on **Load HTML**, the selected template's code will display in the content of this section.
+    * The successful registration popup will have the same content as the selected template
+    * Support HTML content. Admins can design the popup display on their website.
+     
+  *  **Show congratulation fireworks**
+    * Choose Yes to display fireworks when visitors register the email successfully.
+    * Fireworks will display when you configure `Responsive Design = Center Popup`
+ 
+ 
 ### Where to Show
 
 ![where to show](https://i.imgur.com/I9Nhw8a.png)
@@ -76,9 +93,14 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
   * **Insert manually this snippet to your page**: Display the code so that admins can copy and insert into the pages they wish to display the popup
     
+    * **Insert manually this snippet to your page**
+      * **CMS Page/Static Block**: Copy the code and insert it into the pages at the `Content > Page`
+      * **Template .phtml file**: Copy the code and insert it into `.phtml file` of Magento or the other extensions that you want to display the popup
+      * **Layout file**: Copy the code and insert it into the `.xml file` of Magento or the other extensions you want to display the popup
+    
   * **Which page to show = Specific Page**: Display the popup on some selected pages
   
-![specific page](https://i.imgur.com/XHrtJdS.png)
+![specific page](https://i.imgur.com/LJZOYkN.png)
 
   * **Include Pages**:
     * Enter the pages that you want to show the popup
@@ -87,6 +109,17 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
   * **Include Page with URL contains**:
     * The popup will display on the pages that contain the URL path entered
     * The URL path is separated by downlines
+    
+  * **Exclude pages**:
+    * Enter the pages that you don't want to display the popup
+    * The pages are separated by commas
+  
+  * **Exclude Page with URL contains**:
+    * The poopup won't display on the pages that contain the URL path entered
+    * The URL path is separated by downlines
+
+**Note**: The priority of Exclude section is greater than the Include section.
+
 
 ### When to Show
 
@@ -126,11 +159,26 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
    * **Float button direction = Left**: The gift button will display below, the left corner of the screen
    * **Float button direction = Right**: The gift button will display below, the right corner of the screen
 
+* **Send Email**
+
+![send email](https://i.imgur.com/0KlAZUs.png)
+
+* **Enable Send Email**: Choose Yes to use the email notification feature
+* **Send Email To*:
+  * Enter the email to send the notification
+  * Send Email includes the number of subscribers as well as the list of the last 8 email subscribers
+  * The email will be sent every Saturday
+  * When you click on "Send Now", an email notification will be sent immediately.
+
 ## Better Popup
 
-![better popup](https://i.imgur.com/VXSFiWW.png)
-  
-  
+![better popup](https://i.imgur.com/YoepiEy.png)
+
+## Email Reports
+
+![email report](https://i.imgur.com/IQFmB3x.png)
+
+ 
     
 
 
