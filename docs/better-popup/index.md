@@ -21,7 +21,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ### What to Show
 
-![what to show](https://i.imgur.com/RbceciU.png)
+![what to show](https://i.imgur.com/SE9YoOS.png)
 
 * **Template**
 
@@ -72,24 +72,16 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
  
 ### Where to Show
 
-![where to show](https://i.imgur.com/I9Nhw8a.png)
+![where to show](https://i.imgur.com/vfL8rya.png)
 
 * **Which page to show**
 
 ![which page to show](https://i.imgur.com/5B6OYcg.png)
 
   * **Which page to show = All Page**: This means that it will display the popup on all pages
-    * **Exclude pages**: 
-      * Fill out pages that do not want to show popup
-      * Pages are separated by commas
-     
-    * **Exclude Page with URL contains**:
-      * The popup won't display on the pages that contain URL path entered
-      * The URL path is separated by downlines
-
   * **Which page to show = Manually Insert**: Show the popup on the pages that are inserted the code at the Manually Insert. 
 
-![manually insert](https://i.imgur.com/wWakqLU.png)
+![manually insert](https://i.imgur.com/XOBDGOF.png)
 
   * **Insert manually this snippet to your page**: Display the code so that admins can copy and insert into the pages they wish to display the popup
     
