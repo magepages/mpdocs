@@ -12,7 +12,7 @@ To use this module, customers need to click on the Quick Order link or the butto
 
 * Top Menu
 
-!
+![top menu](https://i.imgur.com/rE9mlwa.png)
 
 * Next to Search Box
 
@@ -24,7 +24,7 @@ To use this module, customers need to click on the Quick Order link or the butto
 
 After clicking on the button/link of Quick Order, customers can access to the Quick Order page that its interface is displayed as below:
 
-![interface of quick order](https://i.imgur.com/cIuOfxq.png)
+![interface of quick order](https://i.imgur.com/1tThwbn.png)
 
 * 1 - Add to cart button:
 
@@ -37,17 +37,19 @@ After clicking on the button/link of Quick Order, customers can access to the Qu
   * Customers can look for the product that they want to purchase by SKU or the product name when filling in this box.
   * The result will show the information and the images of the product that can adapt to the conditions customers enter.
   * The number of the result will be controlled in the configuration by the admin.
+  * When admins change Currency or other information of the products, maybe 'Search' will make the information display incorrect. Therefore, admins need to access `pub/media/mageplaza`, remove Search item and Refresh the Quick Order page to update the information for the system.
   
 * 4 - The virtual cart:
   * This the place where can store temporarily the products customers want to purchase.
   * At this field, customers can see all information of products, change options of the attribute, modify the quantity or add a new product as well as delete those products from the virtual cart.
+  * The price displaying in the virtual cart is the original price of each product, not count Tax.
   
 * 5 - Add to cart button: Similar to 1 - Add to cart button
 * 6 - Checkout button: Similar to 2 - Checkout button
 * 7 - Add multiple products by SKU box:
   * When customers have known SKU and the attributes of the products, it's so easy for them to add these products to the virtual cart by SKU box.
-  * Customers only need to fill the information of products as the following format: SKU, quantity, option_1, option_2, etc.
-  * Customers need to line up to add other products"
+  * Customers only need to fill the information of products as the following format: SKU, qty, size:M, color: Black
+  * Customers need to line up to add other products.
   * Finally, customers click on 9 - Add to list to add products to the virtual cart.
   * For example: 24-MB01,10,m,pink
 
@@ -80,7 +82,7 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
 * Show Quick Order Link: There are 3 positions that Link/button of Quick Order page can be shown:
   * Top Menu:
   
-  ![top menu](https://i.imgur.com/u9TRnF2.png)
+  ![top menu](https://i.imgur.com/xdhJxKn.png)
   
   * Next to Search Box
   
