@@ -24,7 +24,7 @@ To use this module, customers need to click on the Quick Order link or the butto
 
 After clicking on the button/link of Quick Order, customers can access to the Quick Order page that its interface is displayed as below:
 
-![interface of quick order](https://i.imgur.com/1tThwbn.png)
+![interface of quick order](https://i.imgur.com/HymkgOu.png)
 
 * 1 - Add to cart button:
 
