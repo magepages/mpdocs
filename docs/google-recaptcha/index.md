@@ -24,17 +24,17 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 `Note`: Apply for the frontend
 
-    * **Google API Key**: Enter the Key Invisible Recaptcha
-    * **Google API Secret Key**: Enter the Secret Key
-    * **How to create Goole Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
+   * **Google API Key**: Enter the Key Invisible Recaptcha
+   * **Google API Secret Key**: Enter the Secret Key
+   * **How to create Goole Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
 
 * **Visible**
 
 `Note`: Apply for the backend
 
-    * **Google API Key**: Enterthe Key Visible Recaptcha
-    * **Google API Secret Key**: Enter the Secret Key
-    * **How to create Google Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
+   * **Google API Key**: Enterthe Key Visible Recaptcha
+   * **Google API Secret Key**: Enter the Secret Key
+   * **How to create Google Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
     
 #### Backend Configuration
 
@@ -67,8 +67,8 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 ![frontend configuration](https://i.imgur.com/qZ9u4RV.png)
 
-* **Enable**: Select Yes to display Recaptcha in the frontend
-* **Forms**: Choose a place displaying Recaptcha in the frontend. Store owners can allow Recaptcha to display in all forms.
+* **Enable**: Select Yes to display Recaptcha on the frontend
+* **Forms**: Choose a place displaying Recaptcha on the frontend. Store owners can allow Recaptcha to display in all forms.
     * **Forms = Login**: Recaptcha will show in the Login Form when visitors login to the website
     * **Forms = Create User**: Recaptcha will show in the Create User Forms when visitors create an account
     * **Forms = Forgot Password**: Recaptcha will show in the Forgot Password Form when customers access the website to get their password
