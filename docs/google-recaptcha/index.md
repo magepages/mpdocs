@@ -23,13 +23,15 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 * **Invisible**
 
 `Note`: Apply for the frontend
+
     * **Google API Key**: Enter the Key Invisible Recaptcha
     * **Google API Secret Key**: Enter the Secret Key
     * **How to create Goole Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
 
 * **Visible**
 
-`Note`: Applied for the backend
+`Note`: Apply for the backend
+
     * **Google API Key**: Enterthe Key Visible Recaptcha
     * **Google API Secret Key**: Enter the Secret Key
     * **How to create Google Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
@@ -84,7 +86,7 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
    
 * **Theme**
 
-[theme](https://i.imgur.com/8oMvOLG.png)
+![theme](https://i.imgur.com/8oMvOLG.png)
 
    * **Theme = Light**: Recaptcha will display the light color
    * **Theme = Dark**: Recatpcha will display the dark color
@@ -120,6 +122,7 @@ Below are some detailed steps:
     * The IDs are separated by down stream.
     
 `Note`:
+
 * When you cannot access to the admin panel while Recaptcha enables, you can use the following command to disable the module via composer as well as can access the admin page as usual.
 
 `php bin/magento module:disable Mageplaza_Recaptcha`
@@ -138,7 +141,7 @@ Or you also disable the configuration by the command below:
 #### The display of Recaptcha in the backend
 
 
-[Recaptcha in the backend](https://i.imgur.com/rQRCtCF.png)
+![Recaptcha in the backend](https://i.imgur.com/rQRCtCF.png)
 
 
 
