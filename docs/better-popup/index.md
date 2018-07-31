@@ -4,7 +4,7 @@
 
 Are you ready to revolutionize your e-commerce store? It's easier than ever to turn your customers into potential customers thanks to an advanced extension from **Mageplaza - Better Popup**.
 
-[Better Popup]() is released to retain visitors when they leave the website and then, turn them into subscribers or customers on your website. In addition, it also helps to increase the number of customers, increase the number of sign-ups as well as help SEO your site effectively.
+[Better Popup](https://www.mageplaza.com/magento-2-better-popup/) is released to retain visitors when they leave the website and then, turn them into subscribers or customers on your website. In addition, it also helps to increase the number of customers, increase the number of sign-ups as well as help SEO your site effectively.
 
 ## How to Configure
 
@@ -21,7 +21,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ### What to Show
 
-![what to show](https://i.imgur.com/SE9YoOS.png)
+![what to show](https://i.imgur.com/T3JOGeI.png)
 
 * **Template**
 
@@ -54,7 +54,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
   
 * **Popup Success**
 
-![popup success](https://i.imgur.com/CU30mSN.png)
+![popup success](https://i.imgur.com/0lZQxBK.png)
 
   * **Coupon code**
     * Enter the coupon code
@@ -156,19 +156,24 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 ![send email](https://i.imgur.com/0KlAZUs.png)
 
 * **Enable Send Email**: Choose Yes to use the email notification feature
-* **Send Email To*:
+* **Send Email To**:
   * Enter the email to send the notification
   * Send Email includes the number of subscribers as well as the list of the last 8 email subscribers
   * The email will be sent every Saturday
   * When you click on "Send Now", an email notification will be sent immediately.
+  * If the website has multiple stores, it will send email reports for each email separately. For example, your website has 3 stores, it will send 3 emails for each store.
 
 ## Better Popup
 
-![better popup](https://i.imgur.com/YoepiEy.png)
+![better popup](https://i.imgur.com/VVMXhkl.png)
 
 ## Email Reports
 
-![email report](https://i.imgur.com/IQFmB3x.png)
+![email report](https://i.imgur.com/YuYzHBz.png)
+
+## Email's content
+
+![email content](https://i.imgur.com/61xUXbx.png)
 
  
     
