@@ -131,8 +131,11 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     * **Show Custom Print Button = Custom PDF**: Show ``Print PDF Order`` at massAction This won’t display ``Print PDF Order`` button. The button will be combinated with ``Print`` button by Magento 2. When the button is clicked,  the designed PDF template will be downloaded automatically. 
 
 *Frontend*
+
 ![i6](https://i.imgur.com/msWz7PK.png)
+
 *Backend*
+
 ![i7](https://i.imgur.com/fVa7xjP.png)
 
 *
@@ -142,6 +145,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
   
 *Frontend*
+
 ![i6](https://i.imgur.com/msWz7PK.png)
 
 *Backend in each of the order*
@@ -159,11 +163,14 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
   * Check **Use system value** to set “Enable PDF Attachment = Yes” as the default setting.
+  
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the PDF file as selected template.
+  
+  ![select template](https://i.imgur.com/Zz9vhOh.png)
+  
   * Check **Use system value** to use “Select Template = Template 1” as the default setting.
-
-![i9](https://i.imgur.com/CUtdV3I.png)
+  * If store owners want to use the page size is A5, they should use the template for A5. As this template that we design servers for the page size for A5.
 
 * In **Show Custom Print Button**:
 
@@ -174,10 +181,15 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     * **Show Custom Print Button = Both**: This will display ``Print PDF Invoice`` button in the backend’s invoice and on the My Order page of the frontend. When clicking that button, the designed PDF template will be downloaded automatically.
 
 *Frontend*
+
 ![i11](https://i.imgur.com/j58rV1T.png)
+
 *Backend in each of the order*
+
 ![12](https://i.imgur.com/I4UlfDC.png)
+
 *In massAction*
+
 ![i44](https://i.imgur.com/q88wGT6.png)
 
 * 
@@ -186,20 +198,35 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
       * **Show Custom Print Button = Custom PDF**: This won’t display ``Print PDF Invoice`` button. The button will be combinated with ``Print`` button by Magento 2. When the button is clicked,  the designed PDF template will be downloaded automatically. 
 
 *Frontend*
+
 ![i13](https://i.imgur.com/YNNc1y2.png)
+
 *Backend*
-![i14](https://i.imgur.com/iHsaijO.png)
+
+In each of the order:
+
+![i14](https://i.imgur.com/LIJGtZG.png)
+
+Or in massAction:
+
+![in massaction](https://i.imgur.com/N24xuse.png)
+
 
 *
   *
     * 
-      * **Show Custom Print Button = No**: This won’t display ``Print PDF Invoice`` button. When admins click ``Print`` in the backend’s Invoice and customers click ``Print Invoice`` in My Order of the frontend, the order file will be downloaded as the Magento 2’s template.
+      * **Show Custom Print Button = No**: This won’t display ``Print PDF Invoice`` button. When admins click ``Print`` in the backend’s Invoice and customers click ``Print Invoice`` in My Order of the frontend, the order file will be downloaded as the Magento’s template.
 
 *Frontend*
+
 ![i15](https://i.imgur.com/PtXw5rO.png)
+
 *Backend in each of the order*
+
 ![i16](https://i.imgur.com/iHsaijO.png)
+
 *In massAction*
+
 ![i46](https://i.imgur.com/ssMFsOd.png)
 
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
@@ -211,20 +238,34 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
   * Check **Use system value** to set “Enable PDF Attachment = Yes” as the default setting.
+  
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the PDF file as selected template.
+  
+ ![select template](https://i.imgur.com/KB7PtYy.png)
+ 
   * Check **Use system value** to use “Select Template = Template 1” as the default setting.
-
+  * If store owners want to use the page size is A5, they should use the template for A5. As this template that we design servers for the page size for A5.
+  
 * In **Show Custom Print Button**:
+
+![show custom print button](https://i.imgur.com/srmdqHs.png)
+
   * Uncheck **Use system value** to configure the extension. Choose ``Print`` button to display:
     * **Show Custom Print Button = Both**: This will display an additional ``Print PDF Shipment`` button in the backend’s Order and the frontend’s My order page. When customers click the ``Print PDF Shipment`` button, the designed PDF template will be downloaded automatically.
 
 *Frontend*
+
 ![i18](https://i.imgur.com/QxvTsO9.png)
+
 *Backend in each of the order*
+
 ![i19](https://i.imgur.com/hasdakk.png)
+
 *In massAction*
+
 ![i47](https://i.imgur.com/DtLLyP3.png)
+
 * 
   *
     * 
@@ -241,10 +282,15 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
       * **Show Custom Print Button = No**: This won’t display ``Print PDF Shipment`` button. When admins click ``Print``of the Shipment in the backend’s or customers click ``Print Shipment`` in My Order of the frontend, the file will be downloaded as the Magento 2’s template.
 
 *Frontend*
+
 ![i21](https://i.imgur.com/VTbBJq0.png)
+
 *Backend in each of the order*
+
 ![i22](https://i.imgur.com/gJtIkNC.png)
+
 *In massAction*
+
 ![i48](https://i.imgur.com/kEuqoH3.png)
 
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be used in here.
@@ -256,18 +302,26 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
   * Check **Use system value** to set “Enable PDF Attachment = Yes” as the default setting.
+  
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the designed PDF as in the selected template.
   * Check **Use system value** to set “Select Template = Template 1” as default setting. 
+  * If store owners want to use the page size is A5, they should use the template for A5. As this template that we design servers for the page size for A5.
+  
 * In **Show Custom Print Button**:
    * Uncheck **Use system value** to configure the extension. Choose ``Print`` button to display:
      * **Show Custom Print Button = Both**: This will display an additional ``Print PDF Refund`` button in the backend’s Credit Memo and the frontend’s My order page. When customers click the ``Print PDF Refund`` button, the designed PDF template will be downloaded automatically.
 
 *Frontend*
+
 ![i24](https://i.imgur.com/GxYPKgk.png)
+
 *Backend in each of the order*
+
 ![i25](https://i.imgur.com/l2NTuok.png)
+
 *In massAction*
+
 ![i49](https://i.imgur.com/frTwVgF.png)
 
 *
@@ -276,10 +330,15 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
       * **Show Custom Print Button = Custom PDF**: This won’t display ``Print PDF Refund`` button. The ``Print PDF Refund** button will be combinated with ``Print`` button by Magento 2. When admins click ``Print`` of the Credit Memo (in the backend) or customers click ``Print Credit Memo`` (``My account > My Order`` of the frontend),  the designed PDF Credit Memo template will be downloaded automatically. 
 
 *Frontend*: 
+
 ![i26](https://i.imgur.com/IEvD5vX.png)
+
 *Backend in each of the order*
+
 ![27](https://i.imgur.com/c4DyTPY.png)
+
 *In massAction*
+
 ![i50](https://i.imgur.com/l9hfDgX.png)
 
 *
@@ -288,18 +347,26 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
       * **Show Custom Print Button = No**: This won’t display ``Print PDF Refund`` button. When admins click ``Print``of the Credit Memo section (in the backend) or customers click ``Print Refund`` in My Order (of the frontend), the file will be downloaded as the Magento 2’s template.
 
 *Frontend*
+
 ![i28](https://i.imgur.com/IEvD5vX.png)
+
 *Backend in each of the order*
+
 ![i29](https://i.imgur.com/c4DyTPY.png)
+
 *In massAction*
+
 ![i51](https://i.imgur.com/l9hfDgX.png)
 
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
+Also, when you print in the massAction, store owners can print all PDF files of many different stores. All this PDF files will display as the configuration of that store and the PDF files are extracted in the zip format.
+
+![PDF files](https://i.imgur.com/QQDomN4.png)
 
 ### 2. Manage Templates
-From the Admin Panel, go to ``Mageplaza > PDF Invoice > Manage Templates``
+From the Admin Panel, go to ``Store > PDF Invoice > Manage Templates``
 
-![i30](https://i.imgur.com/3O8f7Gz.png)
+![i30](https://i.imgur.com/Vp2rbo1.png)
 
 Click ``Add New Template Order`` button and choose the kind of template you want to generate. There will be 4 kinds of template corresponds to 4 kinds of PDF file:
 * Order
@@ -317,8 +384,12 @@ For example, if you choose to create an “Order” template, the design form wi
 
 * In **Load default template** field:
   * **Template**
+  
+  ![template](https://i.imgur.com/oQtMr2X.png)
+  
     * You can choose one of available templates. After having it done, the chosen template will show up right your left side to be previewed.
     * If you don’t choose a template form, the default template will be “Template = Template 1”.
+    
   * **Load Template**: The selected template’s code will be displayed automatically in the below HTML box.
 
 ![i33](https://i.imgur.com/j3aOYN8.png) 
