@@ -20,40 +20,40 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 ![general configuration](https://i.imgur.com/a5kd3XU.png)
 
 * **Enable**: Choose Yes to enable this module
-* **Language Code**: Choose the language displaying the Captcha on the frontend and in the backend
+* **Language Code**: Choose the language displaying the reCAPTCHA on the frontend and in the backend
 * **Invisible**
 
 `Note`: Apply for the frontend
 
-   * **Google API Key**: Enter the Key Invisible Recaptcha
+   * **Google API Key**: Enter the Key Invisible reCAPTCHA
    * **Google API Secret Key**: Enter the Secret Key
-   * **How to create Goole Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
+   * **How to create reCAPTCHA**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
 
 * **Visible**
 
 `Note`: Apply for the backend
 
-   * **Google API Key**: Enter the Key Visible Recaptcha
+   * **Google API Key**: Enter the Key Visible reCAPTCHA
    * **Google API Secret Key**: Enter the Secret Key
-   * **How to create Google Recaptcha**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
+   * **How to create reCAPTCHA**: Can be found [here](https://www.mageplaza.com/blog/how-to-add-google-recaptcha-into-magento-2.html)
     
 #### Backend Configuration
 
 ![backend configuration](https://i.imgur.com/U9jFJNu.png)
 
-* **Enable**: Choose Yes to enable Recaptcha when accessing the admin panel
-* **Forms**: Choose a place displaying the Recaptcha. Store owners can allow Recaptcha to display in 2 forms:
-    * **Forms = Admin Login**: Recaptcha will display in the Admin Login Form when store owners log into the admin page
-    * **Forms = Admin Forgot Password**: Recaptcha will display in the Admin Forgot Password Form when store owners access on the Admin Forgot Password page
-* **Size**: Choose the size to show the Recaptcha
+* **Enable**: Choose Yes to enable reCAPTCHA when accessing the admin panel
+* **Forms**: Choose a place displaying the reCAPTCHA. Store owners can allow reCAPTCHA to display in 2 forms:
+    * **Forms = Admin Login**: reCAPTCHA will display in the Admin Login Form when store owners log into the admin page
+    * **Forms = Admin Forgot Password**: reCAPTCHA will display in the Admin Forgot Password Form when store owners access on the Admin Forgot Password page
+* **Size**: Choose the size to show the reCAPTCHA
 
 ![size recaptcha](https://i.imgur.com/nOO4UV2.png)
 
-   * **Size = Compact**: Recaptcha will display as the following image:
+   * **Size = Compact**: reCAPTCHA will display as the following image:
    
 ![compact size](https://i.imgur.com/lzx6dDc.png)
 
-   * **Size = Normal**: Recaptcha will display as the following:
+   * **Size = Normal**: reCAPTCHA will display as the following:
    
    ![normal size](https://i.imgur.com/XNH5sPO.png)
   
@@ -61,21 +61,21 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
    
 ![theme](https://i.imgur.com/I0bKSvx.png)
 
-   * **Theme = Light**: Recaptcha will display the light color
-   * **Theme = Dark**: Recatpcha will display the dark color
+   * **Theme = Light**: reCAPTCHA will display the light color
+   * **Theme = Dark**: reCAPTCHA will display the dark color
    
 #### Frontend Configuration
 
 ![frontend configuration](https://i.imgur.com/qZ9u4RV.png)
 
-* **Enable**: Select Yes to display Recaptcha on the frontend
-* **Forms**: Choose a place displaying Recaptcha on the frontend. Store owners can allow Recaptcha to display in all forms.
-    * **Forms = Login**: Recaptcha will show in the Login Form when visitors login to the website
-    * **Forms = Create User**: Recaptcha will show in the Create User Forms when visitors create an account
-    * **Forms = Forgot Password**: Recaptcha will show in the Forgot Password Form when customers access the website to get their password
-    * **Forms = Contact Us**: Recaptcha will display in the Contact Us Form
-    * **Forms = Change Password**: Recaptcha will show in the Change Password Form
-    * **Forms = Product View**: Recaptcha will display when visitors access the detail product view page
+* **Enable**: Select Yes to display reCAPTCHA on the frontend
+* **Forms**: Choose a place displaying reCAPTCHA on the frontend. Store owners can allow reCAPTCHA to display in all forms.
+    * **Forms = Login**: reCAPTCHA will show in the Login Form when visitors login to the website
+    * **Forms = Create User**: reCAPTCHA will show in the Create User Forms when visitors create an account
+    * **Forms = Forgot Password**: reCAPTCHA will show in the Forgot Password Form when customers access the website to get their password
+    * **Forms = Contact Us**: reCAPTCHA will display in the Contact Us Form
+    * **Forms = Change Password**: reCAPTCHA will show in the Change Password Form
+    * **Forms = Product View**: reCAPTCHA will display when visitors access the detail product view page
 
 * **Badge Position**
 
@@ -89,23 +89,23 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 ![theme](https://i.imgur.com/8oMvOLG.png)
 
-   * **Theme = Light**: Recaptcha will display the light color
-   * **Theme = Dark**: Recatpcha will display the dark color
+   * **Theme = Light**: reCAPTCHA will display the light color
+   * **Theme = Dark**: reCAPTCHA will display the dark color
 
-* **Custom Form Position**: Use this feature to add Recaptcha into any form on your store
+* **Custom Form Position**: Use this feature to add reCAPTCHA into any form on your store
 
 ![custom form  position](https://i.imgur.com/c6OocPh.png)
 
 * **Form Post Paths**
     * Enter the path (url) where will process your form information 
       
-     For example: newsletter/subscriber/new/, display Recaptcha in the email address field on the website.
+     For example: newsletter/subscriber/new/, display reCAPTCHA in the email address field on the website.
 
 Below are some detailed steps:
 
 - Step 1: Login to your website
-- Step 2: Choose Form that you want to display Recaptcha and open the Test window
-- Step 3: After that, choose **Element** tab, then choose the form that contains the field you want to add Recaptcha
+- Step 2: Choose Form that you want to display reCAPTCHA and open the Test window
+- Step 3: After that, choose **Element** tab, then choose the form that contains the field you want to add reCAPTCHA
 
 ![example](https://i.imgur.com/SLQ7BZp.png)
 
@@ -113,18 +113,24 @@ Below are some detailed steps:
 - Step 5: Paste the URL into the **Form Post Paths** field
 
     * The paths are separated by down stream.
+    * If you this field is empty and you fill in the information in the **CSS Selectors** field, reCAPTCHA still displays on the form that you fill in the information CSS Selectors, but it doesn't still work on that form.
+    
+    ![css selectors](https://i.imgur.com/GdQvB9G.png)
+    
 * **CSS Selectors**
     * You need to take CSS Selector of the form. At our example, we will take ID of the form.
     
-    For example: #newsletter-validate-detail, display Recaptcha in the **Subscriber**
+    For example: #newsletter-validate-detail, display reCAPTCHA in the **Subscriber**
     
-   ![example](https://i.imgur.com/91U0SoK.png)
+   ![css selectors](https://i.imgur.com/91U0SoK.png)
     
     * The IDs are separated by down stream.
+    * If you leave this field blank while filling in the information in **Form Post Paths** field, reCAPTCHA won't display on the form you want.
     
 `Note`:
 
-* When you cannot access to the admin panel while Recaptcha enables, you can use the following command to disable the module via composer as well as can access the admin page as usual.
+* In the **Custom Form Position** field, if you want to show reCAPTCHA on the form you want, you have to fill in all information of 2 fields: **Form Post Paths and CSS Selectors**.
+* When you cannot access to the admin panel while reCAPTCHA enables, you can use the following command to disable the module via composer as well as can access the admin page as usual.
 
 `php bin/magento module:disable Mageplaza_Recaptcha`
 
@@ -132,14 +138,14 @@ Or you also disable the configuration by the command below:
 
 `php bin/magento mageplaza:core:disable Mageplaza_Recaptcha`
 
-#### The display of Recaptcha on the frontend
+#### The display of reCAPTCHA on the frontend
 
 ![display recaptcha](https://i.imgur.com/g0nyT6s.png)
 
 ![display recaptcha on the frontend](https://i.imgur.com/9TnOxom.png)
 
 
-#### The display of Recaptcha in the backend
+#### The display of reCAPTCHA in the backend
 
 
 ![Recaptcha in the backend](https://i.imgur.com/rQRCtCF.png)
