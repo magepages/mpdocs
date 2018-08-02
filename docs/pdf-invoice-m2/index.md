@@ -13,11 +13,13 @@ You can download from the following resouces:
 
 
 ## How to configure
-Log in to your Magento Admin, follow the path ``Mageplaza > PDF Invoice`` 
+Log in to your Magento Admin, follow the path ``Store > Setting > Configuration > Mageplaza Extensions > PDF Invoice`` 
+
+![how to configure](https://i.imgur.com/0FICqD8.png)
 
 ### 1. Configuration.
 #### 1.1. General Configuration
-Keep going from ``Magepla`za > PDF Invoice: Configuration > General Configuration``, expand the section
+Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF Invoice > General Configuration``, expand the section
 
 ![i2](https://i.imgur.com/p8V33ey.png)
 
@@ -79,7 +81,10 @@ Keep going from ``Magepla`za > PDF Invoice: Configuration > General Configuratio
     * When you configure the store, the number of pages is displayed/hidden when you print the PDF outside of the frontend and in the PDF attached to the email.
     * Specifically, when you print multiple PDFs at the same time, displaying the page number at the bottom of each PDF is the default.
 * In **Page Size** field:
-  * There are 3 kinds of paper size you can choose: A3, A4 and A5.
+  * There are 4 kinds of paper size you can choose: A4, A5, A6, and A7.
+  
+  ![page size](https://i.imgur.com/JpxWm5K.png)
+  
   * The design of PDF files works best with a A4 page size.
   * When you print a PDF in the backend or when you create a template, the page size displays in ``Store View > Default Config`` section.
   * When you print a PDF in the frontend or send an email with a PDF attachment, the page size will display in the configuration section of the store.
@@ -94,20 +99,31 @@ Keep going from ``Magepla`za > PDF Invoice: Configuration > General Configuratio
 * In **Select Template** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Template” to display the PDF file as in the selected template.
   * All your created templates will be displayed as a drop-down list in this section.
+
+![select template](https://i.imgur.com/wJuHP1C.png)
+  
   * Tick **Use system value** to use `Select Template = Template 1` as the default setting.
+  * If store owners want to use the page size is A5, they should use the template for A5. As this template that we design servers for the page size for A5.
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.  
 
 ![i4](https://i.imgur.com/CUtdV3I.png)
 
 * In **Show Custom Print Button** field:
+
+![show custom print button](https://i.imgur.com/VkqrbcU.png)
+
   * Uncheck **Use system value** to configure this field.
     * **Show Custom Print Button = Both**: This will display an additional ``Print PDF Order`` button in the backend’s Order and the frontend’s My order page. When customers click the ``Print PDF Order`` button, the designed PDF template will be downloaded automatically. 
 
 *Frontend*
 ![i5](https://i.imgur.com/uhq7Ryf.png)
+
 *Backend in each of the order*
+
 ![i39](https://i.imgur.com/RQqAyOD.png)
-*Or in massAction*
+
+*Or in massAction, besides displaying Print PDF Orders button, we also design Print PDF Invoices so that store owners can print Invoices at this place. Print PDF Invoices will display in massAction*
+
 ![i40](https://i.imgur.com/l6I6MLc.png)
     
 * 
@@ -127,9 +143,13 @@ Keep going from ``Magepla`za > PDF Invoice: Configuration > General Configuratio
   
 *Frontend*
 ![i6](https://i.imgur.com/msWz7PK.png)
+
 *Backend in each of the order*
+
 ![i41](https://i.imgur.com/yGu4stF.png)
+
 *In massAction*
+
 ![i42](https://i.imgur.com/XrN15kE.png)
 
 #### 1.4. Invoice
