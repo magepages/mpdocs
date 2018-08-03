@@ -28,7 +28,7 @@ To use this module, customers need to click on the Quick Order link or the butto
 
 After clicking on the button/link of Quick Order, customers can access to the Quick Order page that its interface is displayed as below:
 
-![interface of quick order](https://i.imgur.com/HymkgOu.png)
+![interface of quick order](https://i.imgur.com/77urGjp.png)
 
 * 1 - **Add to cart button**:
 
@@ -55,14 +55,17 @@ After clicking on the button/link of Quick Order, customers can access to the Qu
   * Customers only need to fill the information of products as the following format: SKU, qty, size:M, color: Black
   * Customers need to line up to add other products.
   * Finally, customers click on 9 - Add to list to add products to the virtual cart.
-  * For example: 24-MB01,10,m,pink
+  * For example: MH02, 9, size:M, color:Red
 
 * 8 - **Add multiple products by CSV file**:
   * Customers need to download sample CSV file at first import by CSV to know the format in the CSV file.
-  * With the CSV file satisfied, all products listed in that will be added into the virtual cart after clicking 9 - Add to list
+  * With the CSV file satisfied, all products listed in that will be added into the virtual cart after clicking `Upload Now`
   
-* 9 - **Add to list button**: After customers enter the information into SKU box or upload the CSV file, they need to click on this button to add them into the virtual cart.
-* 10 - **Clear**: When clicking this button, the virtual cart will be empty. All products in the virtual cart will be deleted.
+* 9 - **Add to list button**: 
+  * After customers enter the information into SKU box or upload the CSV file, they need to click on this button to add them into the virtual cart.
+  * This button only works if the SKU box has the information.
+
+* 10 - **Clear All List**: When clicking this button, the virtual cart will be empty. All products in the virtual cart will be deleted.
 
 ## How to configure
 
@@ -72,7 +75,7 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
 
 * This is the general configuration, which can be applied for the module.
 
-![general configuration](https://i.imgur.com/rboZFTu.png)
+![general configuration](https://i.imgur.com/ziwjbNc.png)
 
 * **Enable**: 
   * Choose Yes to enable this module
