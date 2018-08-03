@@ -72,8 +72,6 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
      
   *  **Show congratulation fireworks**
     * Choose Yes to display fireworks when visitors register the email successfully.
-    * Fireworks will display when you configure `Responsive Design = Center Popup`
- 
  
 ### Where to Show
 
