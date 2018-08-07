@@ -247,5 +247,68 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 ![how to configure disqus](https://i.imgur.com/pXou8VZ.png)
 
 * In the **Enable** field: Choose Yes to display the Signin button with Disqus
-* In the **Sort Order** field: The
+* In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
+
+### Login using Disqus
+
+![login using disqus](https://i.imgur.com/YKfuCOG.png)
+
+* The Disqus login dialog will be displayed after clicking the Login button with Disqus.
+
+## Mailru Sign in
+
+### How to configure Mailru
+
+Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Mailru`
+
+![how to configure mailru](https://i.imgur.com/7ZpQlgQ.png)
+
+* In the **Enable** field: Choose Yes to enable the login button with Mailru
+* In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
+
+### Login using Mailru
+
+![login using mailru](https://i.imgur.com/ivjRtZx.png)
+
+* The Mailru login dialog will be displayed after clicking the Login button with Mailru.
+
+## Odnoklassniki Sign in
+
+### How to configure Odnoklassniki
+
+Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Odnoklassniki`
+
+![how to configure Odnoklassniki](https://i.imgur.com/HsBQYYx.png)
+
+* In the **Enable** field: Choose Yes to enable the login button with Odnoklassniki
+* In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
+
+
+### Login using Odnoklassniki
+
+![login using Odnoklassniki](https://i.imgur.com/2VvBjWZ.png)
+
+* The Odnoklassniki login dialog will be displayed after clicking the Login button with Odnoklassniki.
+
+## Steam Sign in
+
+### How to configure Steam
+
+Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Steam`
+
+![steam](https://i.imgur.com/CX94jEz.png)
+
+
+* In the **Enable** field: Choose Yes to enable the login button with Steam
+* In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
+
+### Login using Steam
+
+![login using steam](https://i.imgur.com/9Biu7h3.png)
+
+* The Steam login dialog will be displayed after clicking the Login button with Steam.
+
+
+
+
 
