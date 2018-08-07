@@ -49,6 +49,7 @@ Welcome to Mageplaza Docs
    gdpr/index
    gdpr-pro/index
    size-chart/index
+   quick-order/index
    better-popup/index
    delete-order-m2/index
    product-slider-m2/index
