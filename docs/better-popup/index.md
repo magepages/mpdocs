@@ -75,16 +75,16 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
  
 ### Where to Show
 
-![where to show](https://i.imgur.com/vfL8rya.png)
+![where to show](https://i.imgur.com/sYDTXhP.png)
 
 * **Which page to show**
 
-![which page to show](https://i.imgur.com/5B6OYcg.png)
+![which page to show](https://i.imgur.com/5gKcBQt.png)
 
   * **Which page to show = All Page**: This means that it will display the popup on all pages
   * **Which page to show = Manually Insert**: Show the popup on the pages that are inserted the code at the Manually Insert. 
 
-![manually insert](https://i.imgur.com/XOBDGOF.png)
+![manually insert](https://i.imgur.com/MOJl7ia.png)
 
   * **Insert manually this snippet to your page**: Display the code so that admins can copy and insert into the pages they wish to display the popup
     
@@ -95,7 +95,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
     
   * **Which page to show = Specific Page**: Display the popup on some selected pages
   
-![specific page](https://i.imgur.com/LJZOYkN.png)
+![specific page](https://i.imgur.com/lfx1NTq.png)
 
   * **Include Pages**:
     * Enter the pages that you want to show the popup
@@ -118,25 +118,26 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ### When to Show
 
-![when to show](https://i.imgur.com/Ang95Iu.png)
+![when to show](https://i.imgur.com/QCwqQKi.png)
 
 * **When the popup appear?**
 
-![when the popup appear](https://i.imgur.com/KbCWaRG.png)
+![when the popup appear](https://i.imgur.com/mkqpIRB.png)
 
   * **When the popup appear? = Exit Intent**: This means that the popup will appear when hovering away from the current page
   * **When the popup appear? = After page load**: The popup will appear when loading the page
   * **When the popup appear? = After x seconds**: The popup will appear after x seconds 
 
-![after x seconds](https://i.imgur.com/FkHl1Pv.png)
+![after x seconds](https://i.imgur.com/ZxONFiO.png)
 
   * **After x seconds**
     * Enter the number of seconds to display the popup
     * After the number of seconds configured since loading the page, the popup will appear
+    * If you choose this configuration and select to show **Show Float Button**, the popup will display after loading the page x seconds and then, this button will also display.
   
   * **When the popup appear? = After scroll down x%**: The popup will appear when scrolling the page down x% configured
   
-  ![after scroll down x%](https://i.imgur.com/0hmGOip.png)
+  ![after scroll down x%](https://i.imgur.com/afgzM4h.png)
   
   * **After scroll down**
     * Enter the percentage after scrolling down to show the popup
@@ -156,7 +157,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 * **Send Email**
 
-![send email](https://i.imgur.com/0KlAZUs.png)
+![send email](https://i.imgur.com/lDUjy6X.png)
 
 * **Enable Send Email**: Choose Yes to use the email notification feature
 * **Send Email To**:
