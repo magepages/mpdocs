@@ -75,7 +75,7 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
     * **Forms = Forgot Password**: reCAPTCHA will show in the Forgot Password Form when customers access the website to get their password
     * **Forms = Contact Us**: reCAPTCHA will display in the Contact Us Form
     * **Forms = Change Password**: reCAPTCHA will show in the Change Password Form
-    * **Forms = Product View**: reCAPTCHA will display when visitors access the detail product view page
+    * **Forms = Product View**: reCAPTCHA will display when visitors access the product page to review
 
 * **Badge Position**
 
@@ -94,7 +94,7 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 * **Custom Form Position**: Use this feature to add reCAPTCHA into any form on your store
 
-![custom form  position](https://i.imgur.com/c6OocPh.png)
+![custom form  position](https://i.imgur.com/ZJcKGpd.png)
 
 * **Form Post Paths**
     * Enter the path (url) where will process your form information 
