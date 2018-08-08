@@ -54,5 +54,4 @@ Welcome to Mageplaza Docs
    better-popup/index
    google-recaptcha/index
    delete-order-m2/index
-   product-slider-m2/index
 
