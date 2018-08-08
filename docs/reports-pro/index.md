@@ -44,7 +44,37 @@ In this section, shop owners can view which country has the largest number of or
 
 ![sales by state](https://i.imgur.com/CDGjIBO.png)
 
+#### Customer Group
 
+Click on the **View Details** in the right corner of the card to view the details of the **Customer Group** field
+
+![sales by customer group](https://i.imgur.com/5VxvGxW.png)
+
+This section shows the groups of customers that have purchased and the number shown on the chart helps the store owner to easily see which group of customers buy the most. From that, they can make useful marketing strategies improve the revenues for stores.
+
+#### Customers
+
+Click on **View Details** section in the right corner of the card to view the detail of the **Customers** field
+
+![sale by customer](https://i.imgur.com/eDqxTxp.png)
+
+**Customers** card will display customer details of which customer groups buy the most. This will help store ownes have policies or incentives for these customers.
+
+#### Stock & Sold
+
+Click on the **View Details** in the right corner of the card to see the detail of **Stock & Sold** field
+
+![stock & sold](https://i.imgur.com/APtpu7K.png)
+
+This field will allow store owners to know what time and how many items were sold so that store owners can easily manage as well as add the items that are about to run out.
+
+#### Abandoned Carts
+
+Click on the **View Details** in the right corner of the card to view the detail of **Abandoned Carts** field
+
+![abandoned carts](https://i.imgur.com/6qPyLpJ.png)
+
+Abandoned Carts says at what time the number of unpaid carts equates to the cost of the loss is how much. This section also tells store owners which time period has the most shopping cart is not paid the most and then, take measures to resolve them.
 
 
 
