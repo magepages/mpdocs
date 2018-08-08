@@ -21,7 +21,14 @@ Here how Frequently Bought Together block appears in your shopping site
 
 ## How to configure
 
-After logging to Magento Admin, navigate to `Mageplaza > Frequently Bought Together > General Configuration`
+After logging to Magento Admin, navigate to ``Stores > Settings > Configuration > Mageplaza Extension > Frequently Bought Together
+``
+
+![how to configure](https://i.imgur.com/6oCEzog.png)
+
+### General configuration
+
+From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extension > Frequently Bought Together``, choose ``General Configuration`` sections
 
 ![FBT3](https://i.imgur.com/O69ziZX.png)
 
