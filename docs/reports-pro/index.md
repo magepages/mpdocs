@@ -32,7 +32,7 @@ In this field, store owners can view the details of the bestsellers for a period
 
 ![reports](https://i.imgur.com/9AWva9u.png)
 
-Store owners can add the SKU of products that they want to compare with the first product they choose, then click on the **Apply** button to add the product data as well as compare them. Besides, they can also filter according to various fields that isn't included in the default of Magento.
+Store owners can add the SKU of products that they want to compare with the first product they choose, then click on the **Apply** button to add the product data as well as compare them. Besides, they can also filter according to various fields that aren't included in the default of Magento.
 
 #### Sales By Location
 
@@ -50,7 +50,7 @@ Click on the **View Details** in the right corner of the card to view the detail
 
 ![sales by customer group](https://i.imgur.com/5VxvGxW.png)
 
-This section shows the groups of customers that have purchased and the number shown on the chart helps the store owner to easily see which group of customers buy the most. From that, they can make useful marketing strategies improve the revenues for stores.
+This section shows the groups of customers that have purchased and the number shown on the chart helps the store owner to easily see which group of customers buy the most. From that, they can make useful marketing strategies to improve the revenues for stores.
 
 #### Customers
 
@@ -58,7 +58,7 @@ Click on **View Details** section in the right corner of the card to view the de
 
 ![sale by customer](https://i.imgur.com/eDqxTxp.png)
 
-**Customers** card will display customer details of which customer groups buy the most. This will help store ownes have policies or incentives for these customers.
+**Customers** card will display customer details of which customer groups buy the most. This will help store owners have policies or incentives for these customers.
 
 #### Stock & Sold
 
