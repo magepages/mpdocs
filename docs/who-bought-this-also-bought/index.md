@@ -15,13 +15,15 @@ You can download from the following resouces:
 
 ## II. How to Configure
 
-Login to Magento Admin, go to `Mageplaza > Who Bought This Item Also Bought > Configuration`
+Login to Magento Admin, go to `Stores > Settings > Configuration > Mageplaza Extension > Who Bought This Item Also Bought
+`
 
-![how to configure who bought this item also bought](https://cdn.mageplaza.com/media/general/ZkRdIen.png)
+![how to configure who bought this item also bought](https://i.imgur.com/vKvgINR.png)
 
 ### 2.1. General Configuration
 
-Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, select **General Configuration**
+Go to ``Stores > Settings > Configuration > Mageplaza Extension > Who Bought This Item Also Bought``, choose **General Configuration**
+
 
 ![configure](https://cdn.mageplaza.com/media/general/u4t58bE.png)
 
