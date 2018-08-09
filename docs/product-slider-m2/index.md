@@ -211,7 +211,7 @@ Open layout file such as ``category_catalog_view.xml`` or XML Data and insert th
 Open a ``.phtml`` file and insert where you want to display the product slider.
 
 
-### Custom Style
+#### 4. Custom Style
 
 
 You can custom template file at  ``app/code/Mageplaza/Productslider/view/frontend/templates/productslider.phtml``
