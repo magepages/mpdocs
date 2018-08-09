@@ -68,7 +68,64 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
 
 ![autoplay](https://i.imgur.com/KjVb8Tb.gif)
 
+* In the **Autoplay Timeout** field: Set the amount of time so that the slider moves a product to the left. For example, set "Autoplay Timeout" = 5000 (ms), after 5 seconds, the slider will auto-run instead of clicking on the next button to move.
+* In the **Autoplay HoverPause** field: Choose "Yes" so that the slider stops running automatically when the cursor is placed on the slider
 
+![autoplay hoverpause](https://i.imgur.com/EV0EV1r.gif)
+
+### 2. Manage Rules
+#### 2.1. Grid
+
+![grid](https://i.imgur.com/3i11EVn.png)
+
+* This section saves all Product Sliders created
+* From the Grid, admins can understand all basic information of the rule as ID, Name, Slider Type, Slider Location, Start Date, End Date, and Action.
+* Admins can perform some actions:
+    * **Delete**: Admins need to tick and choose "Size Chart Rule" that they want to delete, after that, choose **Delete** in the Action box (in the upper left of the Grid) to remove. The confirmation dialog will be appeared, then choose "OK" to continue removing.
+    * **Change Status**: Admins need to tick and choose "Size Chart Rule" that they want to change the status, after that, choose "Change Status > Enable/Disable in the Action box" (in the upper left of the Grid) to change the status. Immediataly, selected Size Chart Rules will be changed to the selected status.
+
+* Also, admins can filter, change store view, hide/present columns or export grid.
+
+#### 2.2. Add New/Edit Form
+
+##### 2.2.1. General Information
+
+![general information](https://i.imgur.com/AP7syUb.png)
+
+* **Name**: The name of the slider is filled in this section only show in the backend. It helps distinguish with other products.
+* **Status**: Choose "Enable" so that the sliders work well.
+* **Position**: Choose the position to appear of sliders on the frontend. We offer the available positions as the following:
+
+![position](https://i.imgur.com/DwhYlum.png)
+
+* **Type**: Choose Product Type that you want to showw on the slider
+
+![product type](https://i.imgur.com/je9tPiu.png)
+
+   * **Select By Category**: When choosing `Type = Select By Category`, **Option Categories** will be displayed for you to choose. Products of selected categories will be shown on the slider outside the frontend.
+   
+   ![select by category](https://i.imgur.com/ggmrX8X.png)
+  
+  * **Custom Specific Products**: When choosing `Type = Select By Category`, **Tab Select Product** will be displayed for you to choose. The selected products will be shown on the slider outside the frontend.
+  
+  ![custom specific products](https://i.imgur.com/wMnIioG.png)
+  
+* **Store View**: Choose Store View that sliders are displayed. With unselected store views, sliders never appear.
+* **Customer**: The slider only displays for selected customer group.
+* **Cache Lifetime**: To refresh instantly, clear the Blocks HTML Output cache. If you leave this field blank, the default is 86400 seconds.
+* **From Date**: Allow installing the date you start using the slider. Sliders will not appear on the frontend if the displayed date hasn't come yet.
+* **To Date**: Allow installing the end date that the slider is used. After this date, the slider will be hided from the frontend.
+
+##### 2.2.2. Design
+
+![design](https://i.imgur.com/Yc7T5ut.png)
+
+
+
+
+
+   
+   
     
     
 
