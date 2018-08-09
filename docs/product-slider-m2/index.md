@@ -120,68 +120,47 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
 
 ![design](https://i.imgur.com/Yc7T5ut.png)
 
-
-
-
-
-   
-   
+* **Title**: The content filled in this field will be the name of the slider displaying on the frontend.
+* **Description**: Describe about the slider. The description is also displayed on the frontend.
+* **Limit number of products**: Fill the maximum number of products on the slider.
+* **Display additional information**: 
+    * Choose the options that can display with products on the slider
+    * Allow choosing many options to show
     
+* **Is Responsive**:
+    * Choose `No` so that the number of products display on the browser window to be the default (3 products)
+    * Choose `Yes` to allow changing the number of products displaying on the screen. When you choosing Yes, the slider will ignore install the Responsive in the configuration.
+    * Choose `Use Config` to use Responsive in the Configuration.
     
+* **Max Items Slider**: This field only displays when you choose `Responsive = Yes`. Installing the number of products show on the slider when the browser window changes the size.
 
+### 3. Widget
 
+When creating the widget, you can allow Product Slider to appear anywhere you want. To create the Widget, you need to do the following steps:
 
+* **Step 1**: From the Admin panel, go to ``Content > Elements > Widgets``, choose **Add Widget**
+* **Step 2**: Choose ``Type = Mageplaza Product Slider, Design Theme = Magento Luma``. Afterward, click on `Continue`.
 
+![desogn theme](https://i.imgur.com/IeiHrsy.png)
 
+* **Step 3**: Enter the required information in the Storefront Properties
 
+![widget](https://i.imgur.com/gEBoenp.png)
 
+* **Step 4**: Choose the position to display the widget
 
+![layout update](https://i.imgur.com/JSIrsii.png)
 
+* **Step 5**: Fill in the information about the slider into `Type Product` displayed on the slider in the `Widget Options Tab`
 
+![widget1](https://i.imgur.com/9b1tR39.png)
 
+* **Step 6**: Save the widget and check on the frontend.
 
+## III. How to Use (Apply for Developers)
 
+### List of Available Blocks
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-==============
-User Guide
-==============
-
-Welcome to User Guide of `Magento 2 Product Slider`_ extension. Actually, this is developer guide, not user guide. Because this extension is developed for Developers.
-
-
-Why Mageplaza developed this module for Developers
-----------------------------------------------------------------
-
-- **Optimize performnace** do not slow your Magento 2 store by adding banner slider everywhere, every positions (~36 positions) on the site. 
-- Details and quality documentations for developers.
-- Implement with ease.
-- No need, no added.
-- Free, Open-source. 
-
-
-List of Available Blocks
----------------------------
 
 - ``Mageplaza\Productslider\Block\OnSaleProduct`` : **On Sale Products**
 - ``Mageplaza\Productslider\Block\CategoryId`` : **CategoryId** , get products from specific category id
@@ -189,13 +168,13 @@ List of Available Blocks
 - ``Mageplaza\Productslider\Block\NewProducts`` : **New Products**
 - More (coming soon). Request more at ``support@mageplaza.com``
 
-How to use
-------------
+### How to use
+
 
 We will show you how to use insert Product Slider in CMS page, Static Block, XML File, XML Data, .phtml file.
 
 
-**1. CMS Page, CMS Static Block**
+#### 1. CMS Page, CMS Static Block
 
 ::
 
@@ -204,7 +183,7 @@ We will show you how to use insert Product Slider in CMS page, Static Block, XML
 You can paste the above block of snippet into CMS page such as Home page or specific CMS page or any CMS static block in Magento 2.
 
 
-**2. XML File , XML Data**
+#### 2. XML File , XML Data
 
 :: 
 
@@ -222,7 +201,7 @@ Open layout file such as ``category_catalog_view.xml`` or XML Data and insert th
 
 
 
-**3. .phtml file**
+#### 3. .phtml file
 
 ::
 
@@ -232,11 +211,8 @@ Open layout file such as ``category_catalog_view.xml`` or XML Data and insert th
 Open a ``.phtml`` file and insert where you want to display the product slider.
 
 
+### Custom Style
 
-
-
-Custom Style
--------------
 
 You can custom template file at  ``app/code/Mageplaza/Productslider/view/frontend/templates/productslider.phtml``
 
