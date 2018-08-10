@@ -219,7 +219,85 @@ You can custom template file at  ``app/code/Mageplaza/Productslider/view/fronten
 .. important::
 	In your theme, custom design, you should copy this file into your package and edit them instead of directly edit it. 
 
+## IV. How to set a product is a new/onsale/... product
+### 1. On Sale Product
+
+1.1. From the Admin Panel, go to `Catalog > Products`
+1.2. Edit the product that you want to sale
+1.3. Choose `Advanced Pricing` in the `Option Price`
+1.4. In the field `Special Price`, enter the sale price of the product
+1.5. Click `Done > Save & Close`
+1.6. From the Admin Panel, go to `System > Cache Management > Flush Magento Cache`
+1.7. Check on the Frontend
+
+### 2. New Product
+
+2.1. From the Admin Panel, go to `Catalog > Products`
+2.2. Edit Product that you want to set to be `New Product`
+2.3. Change the date/time in the `Set Product` field as `New From`
+2.4. Click `Save & Close`
+2.5. From the Admin Panel, go to `System > Cache Management > Flush Magento Cache`
+2.6. Check on the Frontend (You will see that it appears in the Product Slider if you have set)
+
+### 3. Feature Product
+
+3.1. From the Admin Panel, go to `Catalog > Products`
+3.2. Edit Product that you want to set to be `Feature Product`
+3.3. Chọn Yes in the `Feature Product` field
+3.4. Click `Save & Close`
+3.5. From the Admin Panel, go to `System > Cache Management > Flush Magento Cache`
+3.6. Check in the Frontend (You will see that it appears in the Product Slider if you have set)
+
+### 4. Best Seller Product
+
+4.1. From the Admin Panel, go to `Report > Products > Bestsellers`
+4.2. Click here to update the Best Seller Products
+
+![Imgur](https://i.imgur.com/BEnZ3NO.png)
+
+4.3. Check this on the Frontend (You will see that it appears in the Product Slider if you have set). You can also check it in the Dashboard/Bestsellers field.
+
+### 5. Recent Product
+
+* This is a block that only display when customers login to the store
+* You need to add the code so that the slider can be shown on the frontend
+* Recent products of customers will be displayed in the slider
+* The slider won't appear if the customers haven't seen any product
+
+### 6. Wishlist Product
+
+* This is a block that only display when customers login to the store
+* You need to add the code so that the slider can be shown on the frontend
+* Wishlist products of customers will be shown on the slider
+* The slider won't appear if the customers haven't seen any product
+
+### 7. Category ID
+
+The code to display the Products in the selected Category ID is different than the other blocks.
+More details:
+
+* CMS Page
+
+``{{block class="Mageplaza\Productslider\Block\CategoryId" template="Mageplaza_Productslider::productslider.phtml" products_count="8" heading="CategoryId" category_id="2" description="Here is your products of Category Id description"}}``
+
+* XML File
+
+``<block class="Mageplaza\Productslider\Block\CategoryId" name="product.slider.category" template="productslider.phtml">  
+  <arguments>
+    <argument name="loop" xsi:type="string">1</argument>
+    <argument name="category_id" xsi:type="string">2</argument>
+    <argument name="products_count" xsi:type="string">8</argument>
+    <argument name="heading" xsi:type="string">Category Id</argument>
+    <argument name="description" xsi:type="string">Here is your category description</argument>
+  </arguments>
+</block>``
+
+You can change the ID of the Category based on the ID of the Category in the `Catalog/Categories` field.
 
 
 
-.. _Magento 2 Product Slider: https://www.mageplaza.com/magento-2-product-slider-extension/
+
+
+
+
+
