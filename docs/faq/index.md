@@ -13,7 +13,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 ![how to configure](https://i.imgur.com/skj2kUi.png)
 
-### Manage Articles
+### 1. Manage Articles
 #### 1.1. Management Grid
 
 ![management grid](https://i.imgur.com/IPaZZOH.png)
@@ -78,25 +78,99 @@ Login to the Magento Admin, choose **Content > FAQs**
 ![customer information](https://i.imgur.com/3DfW3PM.png)
 
 * **Author Name**:
-    * 
+    * When a question is submitted, the name of the submitter is also submitted to the backend.
+    * In case, the name is uncompulsory, the information sent to the backend is Quest.
 
+* **Author Email**:
+    * When a question is submitted, the email of submitter is also submitted to the backend.
+    * In case the email is uncompulsory, the information sent to the backend is quest@gmail.com
+    
+* **Receive Email Notification**: 
+    * When this sections is selected, customers will get the email notification about the answer that they have submitted before.
+    
+``SEO Config``
 
+![seo config](https://i.imgur.com/ibFcumZ.png)
 
+* You can configure the meta that is useful for your better SEO
+    * Set Meta title for question detail page
+    * Set Meta description for question detail page
+    * Set Meta keywords for question detail page
+    * Set Meta Robots for question detail page
 
+##### 1.2.2. Product
 
+![product](https://i.imgur.com/psi5NWI.png)
 
+* You can do Assign Products to the Question in the Products tab when you create a new post 
+* In the list of the available products, mark the checkbox that is next to the products you want to assign
+* Tap Save and Continue Edit, then hit Save to finish
 
+### 2. Manage Categories
+#### 2.1. Management Grid
 
+![manage grid](https://i.imgur.com/58pFQ7B.png)
 
+* This is a place to save all categories that admins have created.
+* From the Grid, admins can know all basic information of question as `ID, the name and URL of the question, icon of the Category, the status of Category, Store View, the number of questions, Create Date, Update Date, Position, and Action`.
+* Admins can perform some actions as the following: 
+    * **Delete**: Admins need to tick and choose the question that they want to delete, then select **Delete** in the Action box (in the upper left of the grid) to delete. A confirmation dialog will be appeared, then choose `OK` to continue deleting.
+    * **Change Status**: Admins need to choose category that they want to change the status, then choose `Change Status > Enable/Disable` in the Action box (in the upper left of the Grid) to change the Status. Instantly, selected categories will be changed about the selected status.
+    * **Edit**: To edit a rule, admins need to choose `Edit` in the Action box (the last column on the right of the Grid)
+    * **Instant Edit**: Admins can edit some fields of the Rule in the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
 
+![grid](https://i.imgur.com/K040JlM.png)
 
+* Also, admins can also filter, change the store view, hide/represent the columns or export the grid.
 
+#### 2.2. Add New/Edit Form
+##### 2.2.1. General
 
+``General``
 
+![general config](https://i.imgur.com/wUJijtl.png)
 
+* **Name**: The name of Category entered in this section will be displayed both in the backend and frontend (if enabled and it has the dependent questions)
+* **URL Key**:
+    * The content filled in this field will be URL of the category page
+    * To access the category page, customers only click on the name of category on the frontend
+    * If you leave this field blank, the system will auto-create the URL key for category page
+    
+* **Status**: You need to enable this field so that the category will be displayed on the frontend when it has the dependent questions.
+* **Store View**: A website has many store views. The category will only be displayed with selected store views.
+* **Icon**:
+    * Go to the page: https://fontawesome.com/ to choose the icon of category you want.
+    * When you copy class of the icon into the field, immediately, an illustrated icon will be shown.
 
+* **Position**: Stipulate the orders to display of the category in FAQs Homepage
 
+``SEO Config``
 
+![seo configure](https://i.imgur.com/mpfRxD1.png)
+
+* You can configure the meta that is useful for your better SEO
+    * Set Meta title for Category page
+    * Set Meta description for Category page
+    * Set Meta keywords for Category page
+    * Set Meta Robots for Category page
+
+##### 2.2.2. Question
+
+![category information](https://i.imgur.com/6vDAYjn.png)
+
+* You can do Assign Question to the Category in the Question tab when you create a new category
+* In the list of the available question, mark the checkbox that is next to the question you want to assign
+* Tap Save and Continue Edit, then hit Save to finish
+
+### Configuration
+#### General
+
+![general configuration](https://i.imgur.com/NHbdJwR.png)
+
+* **Enable Module**: Choose Yes to enable this module
+* **Choose FAQ's color**: The color that you choose in this section will stipulate the main color of FAQ Page on the frontend
+* **Show helpful choose**: Choose Yes so that customers can rate Positive or Negative for each answer
+* **Restrict Rating For**: 
 
 
 
