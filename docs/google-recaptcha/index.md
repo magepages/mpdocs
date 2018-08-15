@@ -131,6 +131,8 @@ Below are some detailed steps:
 `Note`:
 
 * In the **Custom Form Position** field, if you want to show reCAPTCHA on the form you want, you have to fill in all information of 2 fields: **Form Post Paths and CSS Selectors**.
+* Using the invisible CAPTCHA system outside the frontend, most users won't see CAPTCHAs at all, not even the "I'm not a robot" checkbox. If you are flagged as "suspicious" by the system, then it will display the usual challenges. Hence, If you want to check it you can try to click the Create an Account button many times.
+* ``Need to download the library of Google Recaptcha so that when you run this extension, there's no error occur``
 * When you cannot access to the admin panel while reCAPTCHA enables, you can use the following command to disable the module via composer as well as can access the admin page as usual.
 
 `php bin/magento module:disable Mageplaza_Recaptcha`
@@ -138,6 +140,17 @@ Below are some detailed steps:
 Or you also disable the configuration by the command below:
 
 `php bin/magento mageplaza:core:disable Mageplaza_Recaptcha`
+
+### Refer the guide to download the library
+
+* Create the folder: lib/internal/Mageplaza
+* Go to the path to download the library of Google Recaptcha [here](https://github.com/mageplaza/magento-2-google-recaptcha/tree/library)
+* Extract `magento-2-google-recaptcha-library.zip` into `lib/internal/Mageplaza`, then change the name of the file that you have just extracted, `Recaptcha`
+
+![recaptcha](https://i.imgur.com/Kh8q150.png)
+
+* Run the following command to install:
+`php bin/magento setup:upgrade`
 
 #### The display of reCAPTCHA on the frontend
 
