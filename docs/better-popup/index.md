@@ -100,10 +100,20 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
   * **Include Pages**:
     * Enter the pages that you want to show the popup
     * The pages are separated by commas
+    * For example:
+      * Want to show the popup only on the **homepage**, you need to enter: cms_index_index
+      * Want to show the popup on the **Shopping Cart** page, you need to enter: checkout_cart_index
+      * Want to show the popup on the **Checkout** page, you need to enter: checkout_index_index
+      * Want to show the popup on the **Category** page, you need to enter: catalog_category_view
+      * Want to show the popup on the **Product** page, you need to enter: catalog_product_view
+      
   
   * **Include Page with URL contains**:
     * The popup will display on the pages that contain the URL path entered
     * The URL path is separated by downlines
+    * For example:
+      * When you enter in this field: /gear/bags, /women/tops-women/jackets-women, the popup will display on the pages containing the URL above.
+    
     
   * **Exclude pages**:
     * Enter the pages that you don't want to display the popup
