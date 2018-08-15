@@ -1,9 +1,38 @@
 # FAQ extension
 ## Overview
 
+If you are looking for an extension that allows customers easily to find the inquiries, ask and answer the question about their confusing, it's high time to choose **FAQ extension**. 
 
+Developed by Mageplaza for Magento 2 stores, [FAQ extension]() offers an SEO-friendly FAQ page, which helps visitors look for the answer with ease instead of sending the email to the freshdesk page. Therefore, you can save much time for customers; this also makes them satisfied with your service, and of course, they will come back to your online store in the next purchase.
+
+## Download & Install
+
+- [Mageplaza FAQ]()
+- [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
+### FAQs Homepage
+
+![faqs homepage](https://i.imgur.com/qZqrOji.png)
+
+* Allow displaying all categories and dependent question
+* Depending on the installation of admins, FAQ Homepage will display Search box or not. Customers can search any question on FAQ Homepage quickly when using Seach box.
+* The answer of each question can be displayed when clicking on the question if `Question type = Collapsible`
+
+### FAQs Category Page
+
+![faqs category page](https://i.imgur.com/wdpHOlH.png)
+
+
+
+### FAQs Detail Page
+
+
+
+
+### FAQs Product Tab
+
+
 
 
 
