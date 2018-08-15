@@ -222,8 +222,76 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 ##### 3.1.2. Question Detail Page Config
 
+* It's a part of General Config
+* This section stipulates the configuration about the Question Detail page
 
+![question detail page](https://i.imgur.com/5tpvJoc.png)
 
+   * **Enable Question Detail Page**:
+     * Choose Yes to view the question and answer detail when clicking on `Read More`
+     * If choosing No, the answer will be displayed totally and it doesn't include the `Read More` link. The original URL of the question is also changed to 404 page
+   * **Short answer maximum character**:
+     * Limit the maximum character for each question
+     * If leaving this field blank, the maximum character is unlimited
+
+* **Detail Page Layout**:
+
+![detail page layout](https://i.imgur.com/uzM704J.png)
+
+* Select one of the following layouts to have your checkout page be shown in four different interfaces
+  * 1 column
+  * 2 columns with left bar
+  * 3 columns with right bar
+  * 3 columns
+
+#### 3.2. FAQ Home Page Configuration
+
+![faq homepage configuration](https://i.imgur.com/7w3UUHI.png)
+
+* **Enable**: Choose Yes to enable the FAQ homepage
+* **Route**: The route of FAQ Homepage is entered in this field. If leaving it blank, FAQ Homepage will be disabled
+* **Insert FAQ link on**:
+    * Choose the position for displaying the FAQ Homepage
+    * There're 3 positions to display: Toplink, Footerlink, and Category Menu
+    * FAQ Homepage link will not be displayed if you choose `Please Select`
+
+* **Page Title**:
+    * Fill in the page title
+    * If leaving it blank, the default = Frequently Answer and Question
+
+* **Page Layout**:
+
+![page layout](https://i.imgur.com/n7LpV4u.png)
+
+* Select one of the following layouts to have your checkout page be shown in four different interfaces
+    * 1 column
+    * 2 columns with left bar
+    * 3 columns with right bar
+    * 3 columns
+
+* **Show Search Box**: Choose Yes to display the Search Box on the FAQ Homepage
+* **FAQ Style**: Now we offer one style only is `Material`
+* **Categories Columns**: Categories are arranged into 1 or 2 or 3 columns depending on the option that admins choose in this section
+* **Question Style**:
+
+![question style](https://i.imgur.com/J6DBHhT.png)
+
+   * **Collapsible**: On the FAQ Homepage, the answers will be collapsed with their questions. The answer only will be displayed if customers click on the question, and it will be hidden if the question is clicked again.
+   * **Show Detail**: The answer will be displayed under the question and customers cannot collapse the question anymore.
+   
+* **Limit Question per Category**:
+    * Limit the maximum questions displayed on each category
+    * If leaving it blank, the maximum questions displayed is 5
+    
+##### 3.2.1. SEO Config
+
+![seo configuration](https://i.imgur.com/vQLSopz.png)
+
+* You can configure the meta that is useful for your better SEO
+    * Set Meta title for FAQ Homepage
+    * Set Meta description for FAQ Homepage
+    * Set Meta keywords for FAQ Homepage
+    * Set Meta Robots for FAQ Homepage
 
 
 
