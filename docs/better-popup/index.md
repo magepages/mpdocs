@@ -81,7 +81,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ![which page to show](https://i.imgur.com/5gKcBQt.png)
 
-  * **Which page to show = All Page**: This means that it will display the popup on all pages
+  * **Which page to show = All Page**: This means that it will display the popup on all page.
   * **Which page to show = Manually Insert**: Show the popup on the pages that are inserted the code at the Manually Insert. 
 
 ![manually insert](https://i.imgur.com/MOJl7ia.png)
