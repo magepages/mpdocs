@@ -293,11 +293,79 @@ Login to the Magento Admin, choose **Content > FAQs**
     * Set Meta keywords for FAQ Homepage
     * Set Meta Robots for FAQ Homepage
 
+#### 3.3. Product Tab Configuration
 
+![product tab configuration](https://i.imgur.com/NUTURC3.png)
 
+* **Enable**: Choose Yes so that FAQ Tab can display in the Product Info Detail Box
+* **Tab Title**:
+    * Fill in the Tab Title
+    * If leaving it blank, the default = FAQs
+    
+* **Limit number of Questions show per page**:
+    * Limit the maximum questions that displayed on the Product Detail Page
+    * If leaving it blank, the maximum questions displayed is 5
+    
+* **FAQ Style**: Now we only offer one style, `Material`.
+* **Question Style**:
 
+![question style](https://i.imgur.com/NDjU23i.png)
 
+   * **Collapsible**: On the homepage, the answers will be collapsed with their questions. The answer will only be displayed if customers click on the question, and it will be hidden if the question is clicked again.
+   * **Show Detail**: The answer will be shown under each question and customers cannot collapse the question.
+   
+* **Show Sort Order**:
+    * Choose Yes to display the sort box on the frontend
+    * Customers can sort based on `Newest Question, Newest Answer, Most Helpful`
+    
+* **Show Name**: Choose Yes to allow displaying the name of the person who have submitted the question
+* **Show Date of Question/Answer**:
+    * Choose Yes to display the date that the answer is public
+    * `Note`: The date will be displayed if the name is shown (`Show Name = Yes`)
+    
+#### 3.4. Terms & Conditions
 
+![terms and conditions](https://i.imgur.com/eD3w5jr.png)
+
+* **Show Terms & Conditions when submitting questions**:
+
+![show terms and conditions](https://i.imgur.com/iBgq5rN.png)
+
+   * **No**: Terms & Conditions will not be displayed on the frontend, `Submit Question Form`
+   * **Yes (checkbox)**: Terms & Conditions will be displayed in the `Submit Question Form` under checkbox form. Customers need to tick on the checkbox, after that the question can be submitted.
+   * **Yes (hidden)**: Terms & Conditions will be shown in the `Submit Question form` under the text. At this time, customers default to accept the term & condition of the store owner
+
+* **Link popup label**: The name of popup Terms & Conditions. When clicking on the popup label, the popup that contains the content of Terms $ Conditions will be displayed
+* **Title**: Allow filling in the title of the popup
+* **Content**: The content will be displayed on the popup. We recommend you should use the HTML language.
+
+#### 3.5 Email Configuration
+
+![email configuration](https://i.imgur.com/oOWY0sR.png)
+
+* **Enable**: Choose Yes so that the actions regarding the email can be enbled
+
+##### 3.5.1. Email to Customer
+
+![email to customer](https://i.imgur.com/kJQPe17.png)
+
+* **Send an email to a customer when an answer is added**: Choose Yes to email the notification to customers when the answers are public and sent to the registered customers to receive the email
+* **Sender**: Allow choosing one in five senders that Magento offers: General Contact, Sales Representative, Customer Support, Custom Email 1, and Custom Email 2
+* **Template**:
+    * The extension is installed an available template to send to customers
+    * To change the FAQ Email Template, admins can create a new email template at the `Marketing > Email Template`
+    * Refer the guide to create a new email template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+    
+##### 3.5.2. Email to Admin
+
+![email to admin](https://i.imgur.com/KniXmkB.png)
+
+* **Send an email to admins when a question is created**: Choose Yes to email the notification for admin when a question is submitted by customers.
+* **Send To**: Fill in the email that you want to get the notification when a question is submitted
+* **Template**:
+    * The extension is installed an available template to send to customers
+    * To change the FAQ Email Template, admins can create a new email template at the `Marketing > Email Template`
+    * Refer the guide to create a new email template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 
 
 
