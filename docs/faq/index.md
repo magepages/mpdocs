@@ -109,7 +109,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 ### 2. Manage Categories
 #### 2.1. Management Grid
 
-![manage grid](https://i.imgur.com/58pFQ7B.png)
+![manage grid](https://i.imgur.com/zQwpHIo.png)
 
 * This is a place to save all categories that admins have created.
 * From the Grid, admins can know all basic information of question as `ID, the name and URL of the question, icon of the Category, the status of Category, Store View, the number of questions, Create Date, Update Date, Position, and Action`.
@@ -119,7 +119,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * **Edit**: To edit a rule, admins need to choose `Edit` in the Action box (the last column on the right of the Grid)
     * **Instant Edit**: Admins can edit some fields of the Rule in the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
 
-![grid](https://i.imgur.com/K040JlM.png)
+![grid](https://i.imgur.com/lOhYEFT.png)
 
 * Also, admins can also filter, change the store view, hide/represent the columns or export the grid.
 
@@ -165,11 +165,11 @@ Login to the Magento Admin, choose **Content > FAQs**
 ### 3. Configuration
 #### 3.1. General
 
-![general configuration](https://i.imgur.com/NHbdJwR.png)
+![general configuration](https://i.imgur.com/dqY3ZmE.png)
 
 * **Enable Module**: Choose Yes to enable this module
 * **Choose FAQ's color**: The color that you choose in this section will stipulate the main color of FAQ Page on the frontend
-* **Show helpful choose**: Choose Yes so that customers can rate Positive or Negative for each answer
+* **Allow Voting For Helpfulness**: Choose Yes so that customers can rate Positive or Negative for each answer
 * **Restrict Rating For**: Stipulating the customer group can rate the answer quality.
 
 ##### 3.1.1. Add Question Config
@@ -178,11 +178,11 @@ Login to the Magento Admin, choose **Content > FAQs**
 * This field stipulates the configuration about adding questions
 * The action about adding questions will be displayed in the Question detail page
 
-![add question config](https://i.imgur.com/R1KDq7C.png)
+![add question config](https://i.imgur.com/LMGRURh.png)
 
-* **Allow Add Question**: There are 3 options to stipulate who can submit the question for admins
+* **Allow Guests To Add Questions**: There are 3 options to stipulate who can submit the question for admins
 
-![allow add question](https://i.imgur.com/llKP8jq.png)
+![allow add question](https://i.imgur.com/dkrYTqZ.png)
 
 
    * **Only Logged In Customer**: Only customers who have the account can add the question
@@ -191,23 +191,23 @@ Login to the Magento Admin, choose **Content > FAQs**
    
 * **Question maximum character**:
     * Limit the maximum character for a question
-    * If you leave this field blank, the maximum character is unlimited
+    * If you leave this field blank, the maximum character is 255
     
-* **Need Admin Approved**:
+* **Need Admin’s Approved**:
     * Any submitted question will not be displayed on the frontend, it will be changed to **Manage Question**
     * Choose `Yes` so that the question have the visibility is `Need Approved` when changing to the **Manage Question**
     * If you choose `No`, the visibility of the question is `Hidden`.
     
-* **Add Name field**:
+* **The Name Field is**:
 
-![add name field](https://i.imgur.com/PoLe9zh.png)
+![add name field](https://i.imgur.com/aY5m0W1.png)
 
    * **No**: The name field won't be displayed on the frontend
    * **Optional**: The name field will be displayed on the frontend but customers don't need to fill in
    * **Require**: The name field will be displayed on the frontend and customers have to fill in this section so that the question is submitted
    * In case you choose `No and Optional`, the default name will be sent to the backend is `Quest`.
 
-* **Add Email Field**:
+* **The Email Field is**:
 
 ![add email field](https://i.imgur.com/muWP6r3.png)
 
@@ -225,14 +225,14 @@ Login to the Magento Admin, choose **Content > FAQs**
 * It's a part of General Config
 * This section stipulates the configuration about the Question Detail page
 
-![question detail page](https://i.imgur.com/5tpvJoc.png)
+![question detail page](https://i.imgur.com/XlEXTg1.png)
 
-   * **Enable Question Detail Page**:
+   * **Enable Question Details Page**:
      * Choose Yes to view the question and answer detail when clicking on `Read More`
      * If choosing No, the answer will be displayed totally and it doesn't include the `Read More` link. The original URL of the question is also changed to 404 page
    * **Short answer maximum character**:
      * Limit the maximum character for each question
-     * If leaving this field blank, the maximum character is unlimited
+     * If leaving this field blank, the maximum character is 5
 
 * **Detail Page Layout**:
 
@@ -274,10 +274,10 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Categories Columns**: Categories are arranged into 1 or 2 or 3 columns depending on the option that admins choose in this section
 * **Question Style**:
 
-![question style](https://i.imgur.com/J6DBHhT.png)
+![question style](https://i.imgur.com/b11Srmt.png)
 
    * **Collapsible**: On the FAQ Homepage, the answers will be collapsed with their questions. The answer only will be displayed if customers click on the question, and it will be hidden if the question is clicked again.
-   * **Show Detail**: The answer will be displayed under the question and customers cannot collapse the question anymore.
+   * **Default**: The answer will be displayed under the question and customers cannot collapse the question anymore.
    
 * **Limit Question per Category**:
     * Limit the maximum questions displayed on each category
@@ -295,28 +295,24 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 #### 3.3. Product Tab Configuration
 
-![product tab configuration](https://i.imgur.com/NUTURC3.png)
+![product tab configuration](https://i.imgur.com/iMLvGoW.png)
 
 * **Enable**: Choose Yes so that FAQ Tab can display in the Product Info Detail Box
 * **Tab Title**:
     * Fill in the Tab Title
     * If leaving it blank, the default = FAQs
     
-* **Limit number of Questions show per page**:
+* **Limit question**:
     * Limit the maximum questions that displayed on the Product Detail Page
     * If leaving it blank, the maximum questions displayed is 5
     
 * **FAQ Style**: Now we only offer one style, `Material`.
 * **Question Style**:
 
-![question style](https://i.imgur.com/NDjU23i.png)
+![question style](https://i.imgur.com/9FZHDoo.png)
 
    * **Collapsible**: On the homepage, the answers will be collapsed with their questions. The answer will only be displayed if customers click on the question, and it will be hidden if the question is clicked again.
-   * **Show Detail**: The answer will be shown under each question and customers cannot collapse the question.
-   
-* **Show Sort Order**:
-    * Choose Yes to display the sort box on the frontend
-    * Customers can sort based on `Newest Question, Newest Answer, Most Helpful`
+   * **Default**: The answer will be shown under each question and customers cannot collapse the question.   
     
 * **Show Name**: Choose Yes to allow displaying the name of the person who have submitted the question
 * **Show Date of Question/Answer**:
@@ -325,11 +321,11 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 #### 3.4. Terms & Conditions
 
-![terms and conditions](https://i.imgur.com/eD3w5jr.png)
+![terms and conditions](https://i.imgur.com/kT5OGiR.png)
 
 * **Show Terms & Conditions when submitting questions**:
 
-![show terms and conditions](https://i.imgur.com/iBgq5rN.png)
+![show terms and conditions](https://i.imgur.com/FWuDko8.png)
 
    * **No**: Terms & Conditions will not be displayed on the frontend, `Submit Question Form`
    * **Yes (checkbox)**: Terms & Conditions will be displayed in the `Submit Question Form` under checkbox form. Customers need to tick on the checkbox, after that the question can be submitted.
