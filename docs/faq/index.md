@@ -23,17 +23,29 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension]() offers an SEO-fri
 
 ![faqs category page](https://i.imgur.com/wdpHOlH.png)
 
-
+* Display all questions of the category
+* The same as FAQ Homepage, Category page is also displayed on the Search box, but the Search box only looks for questions included in the Category
+* The answer of each question can be displayed when clicking on the question if `Question type = Collapsible`
 
 ### FAQs Detail Page
 
+![faqs detail page](https://i.imgur.com/tkKaXoO.png)
 
+* Display all answer's contents for each question, View counts, first public dates, positive feedbacks.
+* Question Detail Page can display the `Voting for helpfulness` field so that customers can respond if this answer is helpful to them or not.
 
+![voting for helpfulness](https://i.imgur.com/SculFSj.png)
+
+* If getting the allowance of admins, customers can also submit the question at the bottom of each Question Detail page. The notification will be sent to the customer email box when their question is added the answer and public if they tick in the checkbox `Receive email notification`.
+
+![ask a question](https://i.imgur.com/6THz5QL.png)
 
 ### FAQs Product Tab
 
+![faqs product tab](https://i.imgur.com/zv4ZDXA.png)
 
-
+* Display all questions regarding the product.
+* Customers can submit a question here. The question submitted by creating the form in the Product Tab will be auto-displayed in the Product Detail when it's public.
 
 
 ## How to configure
