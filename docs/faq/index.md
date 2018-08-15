@@ -21,8 +21,8 @@ Login to the Magento Admin, choose **Content > FAQs**
 * This is a place to save all required questions. It includes that admins have created and customers have created.
 * From the Grid, admins can know all basic information of question as `ID, the content and URL of the question, who created the question, the status of the question (answered or not), Visibility (public, hidden, need approved), displayed store view, Helpful rate, Create date, Update date, Position, and Action`.
 * Admins can perform some actions as the following: 
-    * **Delete**: Admins need to tick and choose the question that they want to delete, then select **Delete** in the Action box (in the upper left of the grid) to delete. A confirmation dialog will be appeared, then choose `OK` to continue deleting.
-    * **Change Visibility**: Admins need to tick adn choose the question that you want to change the Visibility, then choose `Change Visibility > Public/Hidden/Need Approved` in the Action box (in the upper left of the Grid) to change the Visibility. Instantly, selected questions will be changed about selected Visibility.
+    * **Delete**: Admins need to tick and choose the question that they want to delete, then select **Delete** in the Action box (in the upper left of the grid) to delete. A confirmation dialog will appear, then choose `OK` to continue deleting.
+    * **Change Visibility**: Admins need to tick and choose the question that you want to change the Visibility, then choose `Change Visibility > Public/Hidden/Need Approved` in the Action box (in the upper left of the Grid) to change the Visibility. Instantly, selected questions will be changed about selected Visibility.
     * **Edit**: To edit a rule, admins need to choose `Edit` in the Action box (the last column on the right of the Grid)
     * **Instant Edit**: Admins can edit some fields of the Rule in the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
     
@@ -54,7 +54,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * If you leave this field blank, the system will auto-create URL key for the detail question page.
     
 * **Answer**:
-    * The content entered in this section is the answer for the question as we mentioned above.
+    * The content entered in this section is the answer to the question as we mentioned above.
     * If you leave this field blank, after Saving, the status will be displayed in the Grid, called `PENDING`.
     * In contrast, if the answer field contains the content, the status in the Grid, called `ANSWERED`.
     
@@ -69,9 +69,9 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Visibility**: A question can have 3 visibilities. Real visibilities allow admins to distinguish what questions are public, which questions can be ignored and which questions need to be approved.
     * **Public**: Admins choose Public, this means that the questions will be displayed outside the frontend.
     * **Hidden**: When you choose this option, this means that the questions are removed by admins and will be hidden from the frontend.
-    * **Need Approved**: When a question is submitted, or the question that admins don't want to public, they will use this option.
+    * **Need Approved**: When a question is submitted, or the question that admins don't want to display, they will use this option.
     
-* **Position**: This field stipulates the order to display of the question in FAQs Homepage, FAQs Category, and FAQs Product Tab.
+* **Position**: This field stipulates the order to display the question on FAQs Homepage, FAQs Category, and FAQs Product Tab.
 
 ``Customer Information``
 
@@ -79,14 +79,14 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 * **Author Name**:
     * When a question is submitted, the name of the submitter is also submitted to the backend.
-    * In case, the name is uncompulsory, the information sent to the backend is Quest.
+    * In case, the name isn't required, the information sent to the backend is Quest.
 
 * **Author Email**:
-    * When a question is submitted, the email of submitter is also submitted to the backend.
-    * In case the email is uncompulsory, the information sent to the backend is quest@gmail.com
+    * When a question is submitted, the email of submitters is also submitted to the backend.
+    * In case the email isn't required, the information sent to the backend is quest@gmail.com
     
 * **Receive Email Notification**: 
-    * When this sections is selected, customers will get the email notification about the answer that they have submitted before.
+    * When this section is selected, customers will get the email notification about the answer that they have submitted before.
     
 ``SEO Config``
 
@@ -114,8 +114,8 @@ Login to the Magento Admin, choose **Content > FAQs**
 * This is a place to save all categories that admins have created.
 * From the Grid, admins can know all basic information of question as `ID, the name and URL of the question, icon of the Category, the status of Category, Store View, the number of questions, Create Date, Update Date, Position, and Action`.
 * Admins can perform some actions as the following: 
-    * **Delete**: Admins need to tick and choose the question that they want to delete, then select **Delete** in the Action box (in the upper left of the grid) to delete. A confirmation dialog will be appeared, then choose `OK` to continue deleting.
-    * **Change Status**: Admins need to choose category that they want to change the status, then choose `Change Status > Enable/Disable` in the Action box (in the upper left of the Grid) to change the Status. Instantly, selected categories will be changed about the selected status.
+    * **Delete**: Admins need to tick and choose the question that they want to delete, then select **Delete** in the Action box (in the upper left of the grid) to delete. A confirmation dialog will appear, then choose `OK` to continue deleting.
+    * **Change Status**: Admins need to choose the category that they want to change the status, then choose `Change Status > Enable/Disable` in the Action box (in the upper left of the Grid) to change the Status. Instantly, selected categories will be changed about the selected status.
     * **Edit**: To edit a rule, admins need to choose `Edit` in the Action box (the last column on the right of the Grid)
     * **Instant Edit**: Admins can edit some fields of the Rule in the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
 
@@ -139,10 +139,10 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Status**: You need to enable this field so that the category will be displayed on the frontend when it has the dependent questions.
 * **Store View**: A website has many store views. The category will only be displayed with selected store views.
 * **Icon**:
-    * Go to the page: https://fontawesome.com/ to choose the icon of category you want.
+    * Go to the page: https://fontawesome.com/ to choose the icon of the category you want.
     * When you copy class of the icon into the field, immediately, an illustrated icon will be shown.
 
-* **Position**: Stipulate the orders to display of the category in FAQs Homepage
+* **Position**: Stipulate the orders to display the category in FAQs Homepage
 
 ``SEO Config``
 
@@ -195,7 +195,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 * **Need Admin’s Approved**:
     * Any submitted question will not be displayed on the frontend, it will be changed to **Manage Question**
-    * Choose `Yes` so that the question have the visibility is `Need Approved` when changing to the **Manage Question**
+    * Choose `Yes` so that the question has the visibility is `Need Approved` when changing to the **Manage Question**
     * If you choose `No`, the visibility of the question is `Hidden`.
     
 * **The Name Field is**:
@@ -218,7 +218,7 @@ Login to the Magento Admin, choose **Content > FAQs**
    
 * **Show Email Notification checkbox**:
     * Choose `Yes` so that the checkbox can receive the email when the answer is added and public
-    * Customers need to tick on the new checkbox to allow receving the email
+    * Customers need to tick on the new checkbox to allow receiving the email
     
 ##### 3.1.2. Question Detail Page Config
 
@@ -314,7 +314,7 @@ Login to the Magento Admin, choose **Content > FAQs**
    * **Collapsible**: On the homepage, the answers will be collapsed with their questions. The answer will only be displayed if customers click on the question, and it will be hidden if the question is clicked again.
    * **Default**: The answer will be shown under each question and customers cannot collapse the question.   
     
-* **Show Name**: Choose Yes to allow displaying the name of the person who have submitted the question
+* **Show Name**: Choose Yes to allow displaying the name of the person who has submitted the question
 * **Show Date of Question/Answer**:
     * Choose Yes to display the date that the answer is public
     * `Note`: The date will be displayed if the name is shown (`Show Name = Yes`)
@@ -339,7 +339,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 ![email configuration](https://i.imgur.com/oOWY0sR.png)
 
-* **Enable**: Choose Yes so that the actions regarding the email can be enbled
+* **Enable**: Choose Yes so that the actions regarding the email can be enabled
 
 ##### 3.5.1. Email to Customer
 
