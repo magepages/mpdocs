@@ -162,15 +162,78 @@ Login to the Magento Admin, choose **Content > FAQs**
 * In the list of the available question, mark the checkbox that is next to the question you want to assign
 * Tap Save and Continue Edit, then hit Save to finish
 
-### Configuration
-#### General
+### 3. Configuration
+#### 3.1. General
 
 ![general configuration](https://i.imgur.com/NHbdJwR.png)
 
 * **Enable Module**: Choose Yes to enable this module
 * **Choose FAQ's color**: The color that you choose in this section will stipulate the main color of FAQ Page on the frontend
 * **Show helpful choose**: Choose Yes so that customers can rate Positive or Negative for each answer
-* **Restrict Rating For**: 
+* **Restrict Rating For**: Stipulating the customer group can rate the answer quality.
+
+##### 3.1.1. Add Question Config
+
+* It is a part of General Config
+* This field stipulates the configuration about adding questions
+* The action about adding questions will be displayed in the Question detail page
+
+![add question config](https://i.imgur.com/R1KDq7C.png)
+
+* **Allow Add Question**: There are 3 options to stipulate who can submit the question for admins
+
+![allow add question](https://i.imgur.com/llKP8jq.png)
+
+
+   * **Only Logged In Customer**: Only customers who have the account can add the question
+   * **Yes**: All customers can add the question
+   * **No**: No customers can submit the question. The question is only added by admins in **Manage Question**
+   
+* **Question maximum character**:
+    * Limit the maximum character for a question
+    * If you leave this field blank, the maximum character is unlimited
+    
+* **Need Admin Approved**:
+    * Any submitted question will not be displayed on the frontend, it will be changed to **Manage Question**
+    * Choose `Yes` so that the question have the visibility is `Need Approved` when changing to the **Manage Question**
+    * If you choose `No`, the visibility of the question is `Hidden`.
+    
+* **Add Name field**:
+
+![add name field](https://i.imgur.com/PoLe9zh.png)
+
+   * **No**: The name field won't be displayed on the frontend
+   * **Optional**: The name field will be displayed on the frontend but customers don't need to fill in
+   * **Require**: The name field will be displayed on the frontend and customers have to fill in this section so that the question is submitted
+   * In case you choose `No and Optional`, the default name will be sent to the backend is `Quest`.
+
+* **Add Email Field**:
+
+![add email field](https://i.imgur.com/muWP6r3.png)
+
+   * **No**: The email field won't be displayed on the frontend
+   * **Optional**: The email name will be displayed on the frontend but customers don't need to fill in
+   * **Require**: The email field will be displayed on the frontend and customers must fill in this field so that the question is submitted
+   * In case you choose `No and Optional`, the default name will be sent to the backend is `quest@gmail.com`
+   
+* **Show Email Notification checkbox**:
+    * Choose `Yes` so that the checkbox can receive the email when the answer is added and public
+    * Customers need to tick on the new checkbox to allow receving the email
+    
+##### 3.1.2. Question Detail Page Config
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
