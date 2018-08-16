@@ -31,7 +31,7 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension]() offers an SEO-fri
 
 ![faqs detail page](https://i.imgur.com/tkKaXoO.png)
 
-* Display all answer's contents for each question, View counts, first public dates, positive feedbacks.
+* Display all answer's contents for each question, Pageview, first public dates, positive feedbacks.
 * Question Detail Page can display the `Voting for helpfulness` field so that customers can respond if this answer is helpful to them or not.
 
 ![voting for helpfulness](https://i.imgur.com/SculFSj.png)
