@@ -76,7 +76,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 ![general](https://i.imgur.com/apujiXY.png)
 
-``Statistic``
+**Statistic**
 * This is a place to count the view (the detail page view), the total number of actions (counted by times), positive and negative (as a percentage).
 * Details about those fields:
     * **View** is counted by numbers of detail question page.
@@ -84,7 +84,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * **Positive** (%) = ratings of Positive/Action.
     * **Negative** (%) = ratings of Negative/Action.
     
-``General``
+**General**
 
 ![general1](https://i.imgur.com/CE1YNbw.png)
 
@@ -114,7 +114,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 * **Position**: This field stipulates the order to display the question on FAQs Homepage, FAQs Category, and FAQs Product Tab.
 
-``Customer Information``
+**Customer Information**
 
 ![customer information](https://i.imgur.com/3DfW3PM.png)
 
@@ -129,7 +129,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Receive Email Notification**: 
     * When this section is selected, customers will get the email notification about the answer that they have submitted before.
     
-``SEO Config``
+**SEO Config**
 
 ![seo config](https://i.imgur.com/ibFcumZ.png)
 
@@ -167,7 +167,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 #### 2.2. Add New/Edit Form
 ##### 2.2.1. General
 
-``General``
+**General**
 
 ![general config](https://i.imgur.com/wUJijtl.png)
 
@@ -185,7 +185,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 * **Position**: Stipulate the orders to display the category in FAQs Homepage
 
-``SEO Config``
+**SEO Config**
 
 ![seo configure](https://i.imgur.com/mpfRxD1.png)
 
