@@ -24,7 +24,8 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 ![faqs category page](https://i.imgur.com/wdpHOlH.png)
 
 * Display all questions of the category
-* The same as FAQ Homepage, Category page is also displayed on the Search box, but the Search box only looks for questions included in the Category
+* The same as FAQ Homepage, Category page is also displayed on the Search box and performs the function as on FAQ Homepage. When you find by the search box, all satisfied questions (in all categories) will be displayed. To return the current category, you only need to delete the condition that you have just searched.
+
 * The answer of each question can be displayed when clicking on the question if `Question type = Collapsible`
 
 ### FAQs Detail Page
@@ -405,9 +406,31 @@ Login to the Magento Admin, choose **Content > FAQs**
     * Refer the guide to create a new email template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 
 
+### 4. Widget
 
-
-
+* With the widget, you can allow FAQ to display on any page you want.
+* To create the widget, you can do the following steps:
+    * **Step 1**: From the admin panel, choose `Content > Elements > Widget > Add New Widget`
+    * **Step 2**: Choose `Type = Mageplaza FAQs`, `Design Theme = Magento Luma`. After that, select **Continue**
+    
+    ![mageplaza faqs](https://i.imgur.com/WNlnQPo.png)
+    
+    * **Step 3**: Set the name for the widget (displayed in the backend) and choose **Store View** that you want to allow Widget to display
+    
+    ![widget](https://i.imgur.com/VZD6oWS.png)
+    
+    * **Step 4**: Choose the page and the position that you want the FAQ Widget to display
+    
+    ![layout updates](https://i.imgur.com/sviNKYg.png)
+    
+    * **Step 5**: Switch to `Widget Options` tab, then set the widget name that you want to display on the frontend.
+    
+    ![widget2](https://i.imgur.com/nqreDGn.png)
+    
+    * **Step 6**: Save Widget and check it on the frontend
+    
+    ![mageplaza faqs widget](https://i.imgur.com/7UKoFiW.png)
+    
 
 
 
