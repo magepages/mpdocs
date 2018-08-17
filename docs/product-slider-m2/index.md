@@ -21,6 +21,7 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
 * In the **Default Display Additional Information** field:
     * Select the options that can display with products on the slider
     * Allow choosing many options to display
+    * Only apply for Widget or when admins add Product Slider by the code
 
 #### 1.2. Slider Design Configuration
 
@@ -32,6 +33,7 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
     ![product slider](https://i.imgur.com/H7xiwj4.png)
     
     * Choose `Yes` so that the number of products display on the slider can be changed when changing the size of the browser window. You can set this in the **Max item slider** field.
+    * Only apply for Widget or when admins add Product Slider by the code or can choose this in the rule `Reponsive = Use Config`
 
 * In the **Max item slider** field: This section only displays when the **Is Responsive = Yes**. Set the number of products display on the slide when the browser window changes the size.
     * Example: Screen size max = 1000, Number of item is 5. The frontend will be displayed as the following:
