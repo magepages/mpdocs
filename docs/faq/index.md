@@ -38,6 +38,7 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 ![voting for helpfulness](https://i.imgur.com/SculFSj.png)
 
 * If getting the allowance of admins, customers can also submit the question at the bottom of each Question Detail page. The notification will be sent to the customer email box when their question is added the answer and public if they tick in the checkbox `Receive email notification`.
+* For the countries that don't use the English alphabet (such as Russian, Japanese, Korean, Chinese, Arabic, etc.), questions will not be submitted.
 
 ![ask a question](https://i.imgur.com/6THz5QL.png)
 
@@ -47,6 +48,7 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 
 * Display all questions regarding the product.
 * Customers can submit a question here. The question submitted by creating the form in the Product Tab will be auto-displayed in the Product Detail when it's public.
+* Similar to the submit form in the **Question detail page**, we don't support the countries that do not use the English alphabet (such as Russian, Japanese, Korean, Chinese, Arabic, etc.)
 
 
 ## How to configure
@@ -94,6 +96,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * The content entered in this section is the URL of the detail question page.
     * To access the detail question page, customers need to click on the `Read more` link under each answer or click on the question when searching.
     * If you leave this field blank, the system will auto-create URL key for the detail question page.
+    * **Note**: With the countries that don't use the English alphabet, URL key won't be created.
     
 * **Answer**:
     * The content entered in this section is the answer to the question as we mentioned above.
@@ -274,7 +277,7 @@ Login to the Magento Admin, choose **Content > FAQs**
      * If choosing No, the answer will be displayed totally and it doesn't include the `Read More` link. The original URL of the question is also changed to 404 page
    * **Short answer maximum character**:
      * Limit the maximum character for each question
-     * If leaving this field blank, the maximum character is 5
+     * If leaving this field blank, the maximum character is 255
 
 * **Detail Page Layout**:
 
@@ -286,9 +289,25 @@ Login to the Magento Admin, choose **Content > FAQs**
   * 3 columns with right bar
   * 3 columns
 
+##### 3.1.3. Search box Config
+
+![search box config](https://i.imgur.com/nRt9lS8.png)
+
+* **Enable Search Box**: Choose Yes so that Search Box will be displayed on the FAQ homepage, FAQ Category, and FAQ Question Detail.
+* **Search Box Title**:
+    * Enter the title of the Search Box
+    * The content of this field will be displayed on the frontend
+    * **Default = Knowledge Base**
+    
+* **Search Box Description**:
+    * Enter the description of the Search Box
+    * The content of this field will be displayed on the frontend
+    * **Default = Search our articles or browse by category below**
+
+
 #### 3.2. FAQ Home Page Configuration
 
-![faq homepage configuration](https://i.imgur.com/7w3UUHI.png)
+![faq homepage configuration](https://i.imgur.com/vj8SWka.png)
 
 * **Enable**: Choose Yes to enable the FAQ homepage
 * **Route**: The route of FAQ Homepage is entered in this field. If leaving it blank, FAQ Homepage will be disabled
@@ -311,7 +330,6 @@ Login to the Magento Admin, choose **Content > FAQs**
     * 3 columns with right bar
     * 3 columns
 
-* **Show Search Box**: Choose Yes to display the Search Box on the FAQ Homepage
 * **FAQ Style**: Now we offer one style only is `Material`
 * **Categories Columns**: Categories are arranged into 1 or 2 or 3 columns depending on the option that admins choose in this section
 * **Question Style**:
