@@ -38,7 +38,7 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 ![voting for helpfulness](https://i.imgur.com/SculFSj.png)
 
 * If getting the allowance of admins, customers can also submit the question at the bottom of each Question Detail page. The notification will be sent to the customer email box when their question is added the answer and public if they tick in the checkbox `Receive email notification`.
-* For the countries that don't use the English alphabet (such as Russian, Japanese, Korean, Chinese, Arabic, etc.), questions will not be submitted.
+* For the countries don't use the English alphabet (such as Russian, Japanese, Korean, Chinese, Arabic, etc.), questions will not be submitted.
 
 ![ask a question](https://i.imgur.com/6THz5QL.png)
 
