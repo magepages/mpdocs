@@ -1,8 +1,9 @@
 # Custom Order Number
 ## Overview
 
-For the ID of Order, Invoice, Shipment or Credit Memo, the default ID of Magento only includes the numbers and the ID of the first order is 000000001. Therefore, with newly established websites, the order quantity is low, which makes customers feel that this store has no the high reliability. Maybe the reason is that the customers purchase the products on store
-there's no or the prestige of this website is not large so the number of orders is not much.
+With the ID of Order, Invoice, Shipment or Credit Memo, the default ID of Magento only includes the numbers and the ID of the first order is 000000001. Therefore, with newly established websites, the order quantity is low, which makes customers feel that this store has no the high reliability. This leads to the low number of purchasing quantity of customers at your store. Besides that, to manage the orders of customer that are created on whichever date, month, year of the store, store owners have to view the detail of the orders, this will cause the inconvenience for them.
+
+To resolve this problem, Mageplaza has launched a handy extension, called Magento 2 Custom Order Number.
 
 
 ## Download & Install
