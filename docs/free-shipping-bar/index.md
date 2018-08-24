@@ -18,7 +18,7 @@ Besides that, Mageplaza Free Shipping Bar is highly customizable about the desig
     
 * Free Shipping bar can be shown on some positions as the following:
     * Top of the page
-    * Fixed bar on top page
+    * Fixed bar on the top page
     * Top of the content
     * Fixed bar bellow bottom page
     * Some other optional positions
@@ -37,7 +37,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 * This is a place to store all Free Shipping bar created.
 * From the Grid, admins can understand all basic information of Free Shipping bar as ID, Name, From Date, To Date, Update Date, Status, and Action.
-* In the Action box, admins can perform `Action Delete`: Admins need to choose the question that they want to delete, then choose `Delete` in the Action box (the upper left of the Grid) to delete. A confirmation dialog will be appeared, then choose OK to continue removing.
+* In the Action box, admins can perform `Action Delete`: Admins need to choose the question that they want to delete, then choose `Delete` in the Action box (the upper left of the Grid) to delete. A confirmation dialog will appear, then choose OK to continue removing.
 * In the Action column, admins can perform some actions:
     * **Select > Edit**: Go to the **Edit Free Shipping Bar** page to edit the information
     * **Select > Delete**: Delete Free Shipping Bar
@@ -54,7 +54,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 * **Name**: The name of Free Shipping bar. This name is only displayed in the backend. 
 * **Status**: Choose `Enable` to display the Free Shipping Bar on the backend.
-* **Store View**: One website can have many store views. The category will only display with selected store views.
+* **Store View**: One website can have many store views. The category will only display selected store views.
 * **From Date**: Set the start date to use Free Shipping bar
 * **To Date**: Set the finish date to use Free Shipping bar
 
@@ -79,7 +79,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
     
 * **Achieve-goal message**:
     * When the subtotal amount of customers reaches or exceed the goal value, this message will be displayed
-    * This messgae informs customers that their order has been got the free ship.
+    * This message informs customers that their order has been got the free ship.
     
 * **Clickable**:
     * Select Yes to assign another link to the Free Shipping bar.
@@ -108,7 +108,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
     * Set the text color of the messages filled in the What to Display section
     * The font color setting here is displayed if clicking `Able = Yes`
 
-* **Goal text color**: Set the text color of the goal filled in the `What to Display` section
+* **Goal text color**: Set the text color of the goal that is filled in the `What to Display` section
 * **Image**: Select a background image for the bar. We suggest using the image size 150x50 px
 * **Font**: Select the font for the messages of the bar
 * **Font Size**: Adjust the font size of messages displayed on the bar
@@ -127,7 +127,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 ![where to display](https://i.imgur.com/2aUkmWg.png)
 
 * **Position**: There are 5 positions that admins can choose:
-    * **The top of the page**: Free Shipping bar is fixed at the top of the page, it will not slip when customers sroll down the next page
+    * **The top of the page**: Free Shipping bar is fixed at the top of the page, it will not slip when customers scroll down the next page
     * **Fixed bar at the top of the page**: Free Shipping bar is always displayed at the top of the page, it will slip when the customers scroll down the next page
     * **The top of the content**: Free Shipping bar is fixed at the top of the content per page
     * **Fixed bar at the bottom of the page**: Free Shipping bar is fixed at the bottom of the page, it will slip when customers scroll down the next page
