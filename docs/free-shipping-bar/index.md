@@ -28,9 +28,12 @@ Besides that, Mageplaza Free Shipping Bar is highly customizable about the desig
 
 Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
+![how to configure](https://i.imgur.com/kjGpBpn.png)
+
 ### 1. Free Shipping Bar Manage
 #### 1.1. Managerial Grid
 
+![free shipping bar](https://i.imgur.com/wYAfSlY.png)
 
 * This is a place to store all Free Shipping bar created.
 * From the Grid, admins can understand all basic information of Free Shipping bar as ID, Name, From Date, To Date, Update Date, Status, and Action.
@@ -47,6 +50,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 ##### 1.2.1. General
 
+![general](https://i.imgur.com/T2zjweO.png)
 
 * **Name**: The name of Free Shipping bar. This name is only displayed in the backend. 
 * **Status**: Choose `Enable` to display the Free Shipping Bar on the backend.
@@ -152,6 +156,19 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 **Snippet Code**
 
 ![snippet code](https://i.imgur.com/9OaNIA3.png)
+
+* **CMS Page/Static Block**: Copy the code and insert it into the pages in the `Content > Page` section
+* **Template .phtml file**: Copy the code and insert it into the `.phtml file` of Magento or other extensions that you want to show Free Shipping bar
+* **Layout file**: Copy the code and insert it into `.xml file` of Magento or other extensions that you want to display Free Shipping bar
+
+### 2. Configuration
+
+From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > Free Shipping bar``
+
+![configuration](https://i.imgur.com/ypUUiBO.png)
+
+* **Enable**: Choose Yes to allow this module to work well.
+
 
 
 
