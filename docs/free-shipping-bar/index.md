@@ -50,10 +50,11 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 ##### 1.2.1. General
 
-![general](https://i.imgur.com/T2zjweO.png)
+![general](https://i.imgur.com/Sk1qyfD.png)
 
 * **Name**: The name of Free Shipping bar. This name is only displayed in the backend. 
 * **Status**: Choose `Enable` to display the Free Shipping Bar on the backend.
+* **Priority**: At the same position, Free Shipping bar has the higher priority, it will be displayed on the frontend.
 * **Store View**: One website can have many store views. The category will only display selected store views.
 * **From Date**: Set the start date to use Free Shipping bar
 * **To Date**: Set the finish date to use Free Shipping bar
@@ -67,7 +68,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 * **Goal**: 
     * Enter the minimum subtotal value for free shipping
     * This number should be exactly the number that is installed in the Config
-    * To set the minimum value for free shipping, admins can refer to [here](https://www.mageplaza.com/kb/how-to-configure-free-shipping-method-magento-2.html)
+    * To set the minimum value for free shipping, admins can refer to [here](https://www.mageplaza.com/kb/how-setup-free-shipping-promotion-in-magento-2.html)
     
 * **The first message**:
     * Enter the first message of Free Shipping bar
