@@ -19,11 +19,18 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
+
+![how to configure](https://i.imgur.com/dzx32q2.png)
+
 ### General Configuration
+
+![general configuration](https://i.imgur.com/r8jkN85.png)
 
 * **Enable**: Choose Yes to enable this module
 
 ### Order Number
+
+![order number](https://i.imgur.com/xpT1bPn.png)
 
 * **Enable**: Choose Yes to use the feature that allows configuring the changing ID of the Order
 * **Pattern**: 
