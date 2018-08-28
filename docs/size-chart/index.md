@@ -14,7 +14,7 @@ There is an obvious fact that every brand, every region has a different size reg
 ## How to Configure
 Login to the **Magento Admin**, choose **Catalog > Size Chart**
 
-![how to configure](https://i.imgur.com/lStArzz.png)
+![how to configure](https://i.imgur.com/nxV9aA6.png)
 
 ### 1. Manage Rules 
 #### 1.1. Basic management interface 
@@ -81,7 +81,7 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
   
   ![the position popup](https://i.imgur.com/7JlO2yb.png)
   
-  * **Inline**: Size Chart is displayed on the frontend under the Social Link button.
+  * **Inline:Under Add to Cart button**: Size Chart is displayed on the frontend under the Social Link button.
   
   ![the position inline](https://i.imgur.com/4fP8j0W.png)
   
@@ -93,10 +93,6 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
   * Only show this field when you choose **How to display = Popup**
   * You need to fill in the attribute code of the **Swatch/dropdown attribute** to display the popup button just after that attribute.
   * To know the attribute code of **swatch/dropdown attribute**, you can go to the stores from the admin panel, choose **Attribute > Product**.
-* **Rule's Priority**: When there're many rules applied to a product, any rule with a higher priority (smaller number) will be applied.
-* **Template HTML**: With this customizable HTML, it is easy for you to design your desired template with the HTML command line.
-* **Template CSS**: You can add CSS in this field so that your template becomes beautifully.
-* **Demo Template**: We have available 6 templates for your reference. After choosing the desired template, please click on `Load Template` so that the content of the template is displayed in `Template HTML and Template CSS` field.
 
 
 ### 2. Configuration 
@@ -137,7 +133,7 @@ In case the option `Inherit from Category/Rule` is set for both categories Jacke
 
 * To set all products in the category by one certain Size Chart Rule, admins can select `Catalog > Categories`, and set the attribute Size Chart similar to when setting Size Chart in `Edit Product`.
 
-![size chart in categories](https://i.imgur.com/CKzyz9B.png)
+![size chart in categories](https://i.imgur.com/mkulVE3.png)
 
 * If you select **Size Chart = Inherit from Rule**, the selected products (Inherit from Rule in the Edit Product) in the Category will be applied the rule with the satisfied condition and the highest (smallest) Priority.
 
@@ -146,15 +142,15 @@ In case the option `Inherit from Category/Rule` is set for both categories Jacke
 * Size Chart extension is displayed in the frontend with 3 positions:
   * **Popup**: Size Chart will appear as a popup when you click on the Size Chart button. The position of the popup button depends on the attribute you enter in the `Attribute Code` field. The button will display when the `Attribute Code` is entered as a swatch/dropdown attribute
 
-![the popup position](https://i.imgur.com/2Xpx1EZ.png)
+![the popup position](https://i.imgur.com/RaZBWaP.png)
 
-  * **Inline**: Size Chart is displayed in the frontend under the Social Link button.
+  * **Inline:Under Add to Cart button**: Size Chart is displayed in the frontend under the Social Link button.
   
-  ![inline position](https://i.imgur.com/T83KptK.png)
+  ![inline position](https://i.imgur.com/4fP8j0W.png)
   
   * **Product Tab**: Size Chart is displayed as a tab in the Product Information block
   
-  ![product tab position](https://i.imgur.com/XzUqwby.png)
+  ![product tab position](https://i.imgur.com/YtZOx04.png)
   
 
 
