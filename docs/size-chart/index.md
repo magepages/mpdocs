@@ -76,7 +76,8 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
 
 ![how to show](https://i.imgur.com/v0Z6hAv.png)
 
-* **How to display**: We offer 3 ways for you to show Size Chart in the frontend.
+* **How to display**: We offer 3 ways for you to show Size Chart in the frontend. You can allow displaying many positions at the same time, however, at the same position shows 1 size chart only.
+
   * **Popup**: Size Chart will display as the popup when you click on the Size Chart button. The position of the popup button depends on the attribute you enter in the `Attribute Code` field. This button will display when the `Attribute Code` is entered as a swatch/dropdown attribute.
   
   ![the position popup](https://i.imgur.com/7JlO2yb.png)
