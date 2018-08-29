@@ -39,10 +39,10 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
     * If the format of supported variables is entered wrong, the order ID will be displayed under the text
     
 * **Counter Start From**:
-    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. Example: You enter as 15,
-    counter variable that is used will be [3counter]. The ID displayed will have the format as 010
-    * The ID of the next order will begin with the number entered and it will incrementally increase
+    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. Example: You enter as 15, counter variable that is used will be [4counter]. The ID displayed will have the format as 015
+    * The ID of the next order will begin with the number entered and it will incrementally increase based on the `Counter by Step` field below.
     * For example, when you use the variable [2counter], if you enter 04, the order ID after configuring will start from 04
+    * If you want to change the `Counter Start From` field, after entering a new value and saving, admins need to click on `Reset Now` button so that the Order ID can get a new `Counter Start From` value.
 
 * **Counter by Step**:
     * Enter the distance number order ID of the next orders
@@ -54,18 +54,29 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
     * If you choose No, the order ID of different stores will be merged and increased in succession based on the configuration of **Main Website**. *For instance*: Store A has 50 orders and the order ID is 50, store B don't have any order. When customers purchase the products in the store B, the order ID of store B is 51.
     
 * **Reset Counter**:
-    * **Reset Counter = Daily**: The **Counter Start From** field will reset to the most recent configuration at 00h daily
-    * **Reset Counter = Weekly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the week
-    * **Reset Counter = Monthly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the month
-    * **Reset Counter = No**: The **Counter Start From** field will NOT be reset.
+
+![reset counter](https://i.imgur.com/8w9dH9B.png)
+
+    * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
+    * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
+    * **Reset Counter = Monthly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the month
+    * **Reset Counter = No**: Counter will NOT be reset to the `Counter Start From` value that is using.
     
-* **Reset Now Button**: When clicking on this button, the **Counter Start From** field will be reset to the most recent configuration instantly
+* **Reset Now Button**: Counter will be reset to the `Counter Start From` value that is using instantly. For example, `Counter Start From` field is 10000 now, `Counter Step` is 5. After a long time to order and click on `Reset Now`, the ID of the next order after resetting will start from `Counter Start From + Counter Step` values.
+
 
 ### Invoice Number
+
+From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Invoice Number** section
+
+![invoice number](https://i.imgur.com/BzYomZP.png)
+
 
 * **Enable**: 
     * Choose Yes to use the feature that allows changing the ID of Invoice
     * Choose **Same as Order Number** to use the configuration the same as the configuration of **Order Number**
+
+![invoice number 1](https://i.imgur.com/qrT1a4b.png)
 
 * **Replace**
     * Enter the characters you want to change if you choose the same configuration as the **Order Number**
@@ -78,13 +89,14 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
     
 * **Pattern**:
     * Enter the format for the Invoice ID. For instance, INV-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [Y], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
     * If the format of supported variables is entered wrong, the Invoice ID will be displayed under the text 
     
 * **Counter Start From**:
-    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. Example: you enter as 10, the counter variable that is used will be [3counter]. The ID displayed will have the format as 010.
-    * The ID of the next invoice will begin with the number entered and it will incrementally increase
+    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. For example: You enter as 15, counter variable that is used will be [4counter]. The ID displayed will have the format as 015
+    * The ID of the next invoice will begin with the number entered and it will incrementally increase based on the `Counter by Step` field below.
     * For example, when you use the variable [2counter], if you enter 04, the invoice ID after configuring will start from 04
+    * If you want to change the `Counter Start From` field, after entering a new value and saving, admins need to click on `Reset Now` button so that the Invoice ID can get a new `Counter Start From` value.
 
 * **Counter by Step**:
     * Enter the distance number Invoice ID of the next invoices
@@ -94,19 +106,28 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 * **Counter by Store**:
     *  If you choose Yes, the invoice ID of the different stores will be increased separately based on the configuration of each store. For example, store A has an invoice ID as 50, store B has no invoice. Customers purchase the product at the store B, this invoice ID is 01.
     * If you choose No, the invoice ID of different stores will be merged and increased in succession based on the configuration of **Main Website**. *For instance*: Store A has 50 invoices and the invoice ID is 50, store B don't have any invoice. When customers purchase the products in the store B, the invoice ID of store B is 51.   
-* **Reset Counter**:
-    * **Reset Counter = Daily**: The **Counter Start From** field will reset to the most recent configuration at 00h daily
-    * **Reset Counter = Weekly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the week
-    * **Reset Counter = Monthly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the month
-    * **Reset Counter = No**: The **Counter Start From** field will NOT be reset.
     
-* **Reset Now Button**: When clicking on this button, the **Counter Start From** field will be reset to the most recent configuration instantly
+* **Reset Counter**:
+
+![reset counter](https://i.imgur.com/vu6E2lF.png)
+
+   * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
+   * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
+   * **Reset Counter = Monthly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the month
+   * **Reset Counter = No**: Counter will NOT be reset to the `Counter Start From` value that is using.
+    
+* **Reset Now Button**: Counter will be reset to the `Counter Start From` value that is using instantly. For example, `Counter Start From` field is 10000 now, `Counter Step` is 5. After a long time to order and click on `Reset Now`, the ID of the next invoice after resetting will start from `Counter Start From + Counter Step` values.
 
 ### Shipment Number
+From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Shipment Number** section
+
+![shipment number](https://i.imgur.com/uLiV82l.png)
 
 * **Enable**: 
     * Choose Yes to use the function that allows configuring the change of the Shipment ID.
     * Choose **Same as Order Number** to use the configuration the same as the configuration of **Order Number**
+
+![shipment number 2](https://i.imgur.com/bHlFHRe.png)
 
 * **Replace**
     * Enter the characters you want to change if you choose the same configuration as the **Order Number**
@@ -119,13 +140,14 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
     
 * **Pattern**:
     * Enter the format for the Shipment ID. For instance, SHI-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [Y], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
     * If the format of supported variables is entered wrong, the Shipment ID will be displayed under the text 
     
 * **Counter Start From**:
-    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. Example: you enter as 10, the counter variable that is used will be [3counter]. The ID displayed will have the format as 010
-    * The ID of the next shipment will begin with the number entered and it will incrementally increase
+    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front.  For example: You enter as 15, counter variable that is used will be [4counter]. The ID displayed will have the format as 015
+    * The ID of the next shipment will begin with the number entered and it will incrementally increase based on the `Counter by Step` field below.
     * For example, when you use the variable [2counter], if you enter 04, the shipment ID after configuring will start from 04
+    * If you want to change the `Counter Start From` field, after entering a new value and saving, admins need to click on `Reset Now` button so that the Shipment ID can get a new `Counter Start From` value.
 
 * **Counter by Step**:
     * Enter the distance number Shipment ID of the next shipments
@@ -135,19 +157,30 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 * **Counter by Store**:
     * If you choose Yes, the shipment ID of the different stores will be increased separately based on the configuration of each store. For example, store A has an shipment ID as 50, store B has no shipment. Customers purchase the product at the store B, this shipment ID is 01.
     * If you choose No, the shipment ID of different stores will be merged and increased in succession based on the configuration of **Main Website**. *For instance*: Store A has 50 shipments and the shipment ID is 50, store B don't have any shipment. When customers purchase the products in the store B, the shipment ID of store B is 51.
-* **Reset Counter**:
-    * **Reset Counter = Daily**: The **Counter Start From** field will reset to the most recent configuration at 00h daily
-    * **Reset Counter = Weekly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the week
-    * **Reset Counter = Monthly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the month
-    * **Reset Counter = No**: The **Counter Start From** field will NOT be reset.
     
-* **Reset Now Button**: When clicking on this button, the **Counter Start From** field will be reset to the most recent configuration instantly
+* **Reset Counter**:
+
+![reset counter](https://i.imgur.com/iGcZIxV.png)
+
+   * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
+   * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
+   * **Reset Counter = Monthly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the month
+   * **Reset Counter = No**: Counter will NOT be reset to the `Counter Start From` value that is using.
+    
+* **Reset Now Button**: Counter will be reset to the `Counter Start From` value that is using instantly. For example, `Counter Start From` field is 10000 now, `Counter Step` is 5. After a long time to order and click on `Reset Now`, the ID of the next shipment after resetting will start from `Counter Start From + Counter Step` values.
+
 
 ### Credit Memo
+
+From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Creditmemos Number** section
+
+![credit memo](https://i.imgur.com/Bm85ath.png)
 
 * **Enable**: 
     * Choose Yes to use the function that allows configuring the change of the Credit Memo ID.
     * Choose **Same as Order Number** to use the configuration the same as the configuration of **Order Number**
+
+![credit memo](https://i.imgur.com/cYox0fS.png)
 
 * **Replace**
     * Enter the characters you want to change if you choose the same configuration as the **Order Number**
@@ -160,13 +193,14 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
     
 * **Pattern**:
     * Enter the format for the credit memo ID. For instance, CRE-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [Y], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
     * If the format of supported variables is entered wrong, the credit memo ID will be displayed under the text 
     
 * **Counter Start From**:
-    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. Example: you enter as 10, the counter variable that is used will be [3counter]. The ID displayed will have the format as 010
-    * The ID of the next credit memo will begin with the number entered and it will incrementally increase
+    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. For example: You enter as 15, counter variable that is used will be [4counter]. The ID displayed will have the format as 015
+    * The ID of the next credit memo will begin with the number entered and it will incrementally increase based on the `Counter by Step` field below.
     * For example, when you use the variable [2counter], if you enter 04, the credit memo ID after configuring will start from 04
+    * If you want to change the `Counter Start From` field, after entering a new value and saving, admins need to click on `Reset Now` button so that the credit memo ID can get a new `Counter Start From` value.
 
 * **Counter by Step**:
     * Enter the distance number credit memo ID of the next shipments
@@ -176,13 +210,20 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 * **Counter by Store**:
     * If you choose Yes, the credit memo ID of the different stores will be increased separately based on the configuration of each store. For example, store A has an credit memo ID as 50, store B has no credit memo. Customers purchase the product at the store B, this credit memo ID is 01.
     * If you choose No, the credit memo ID of different stores will be merged and increased in succession based on the configuration of **Main Website**. *For instance*: Store A has 50 credit memos and the credit memo ID is 50, store B don't have any credit memo. When customers purchase the products in the store B, after this order is refunded, the credit memo ID is 51.
-* **Reset Counter**:
-    * **Reset Counter = Daily**: The **Counter Start From** field will reset to the most recent configuration at 00h daily
-    * **Reset Counter = Weekly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the week
-    * **Reset Counter = Monthly**: The **Counter Start From** field will reset to the most recent configuration at 00h the first day of the month
-    * **Reset Counter = No**: The **Counter Start From** field will NOT be reset.
     
-* **Reset Now Button**: When clicking on this button, the **Counter Start From** field will be reset to the most recent configuration instantly
+* **Reset Counter**:
+
+![reset counter](https://i.imgur.com/RQeInHV.png)
+
+   * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
+   * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
+   * **Reset Counter = Monthly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the month
+   * **Reset Counter = No**: Counter will NOT be reset to the `Counter Start From` value that is using.
+    
+* **Reset Now Button**: Counter will be reset to the `Counter Start From` value that is using instantly. For example, `Counter Start From` field is 10000 now, `Counter Step` is 5. After a long time to order and click on `Reset Now`, the ID of the next credit memo after resetting will start from `Counter Start From + Counter Step` values.
+
+
+
     
 ``Note``:
 
