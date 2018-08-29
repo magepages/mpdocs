@@ -35,7 +35,7 @@ This field allows admins to stipulate the Size Chart display according to each o
   
 * Also, admins can filter, change store view, hide or appear the columns or Export Grid.
 
-#### 1.2. Create a new rule {#create-new-rule}
+#### 1.2. Create a new rule 
 
 After logging into the `Manage Rules` page, admins choose `Add Rule` to create a new template. After you `Save and Continue Edit`, the page will be auto-returned to the Edit Rule page.
 
