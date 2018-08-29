@@ -57,10 +57,10 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 
 ![reset counter](https://i.imgur.com/8w9dH9B.png)
 
-    * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
-    * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
-    * **Reset Counter = Monthly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the month
-    * **Reset Counter = No**: Counter will NOT be reset to the `Counter Start From` value that is using.
+   * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
+   * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
+   * **Reset Counter = Monthly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the month
+   * **Reset Counter = No**: Counter will NOT be reset to the `Counter Start From` value that is using.
     
 * **Reset Now Button**: Counter will be reset to the `Counter Start From` value that is using instantly. For example, `Counter Start From` field is 10000 now, `Counter Step` is 5. After a long time to order and click on `Reset Now`, the ID of the next order after resetting will start from `Counter Start From + Counter Step` values.
 
@@ -119,6 +119,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 * **Reset Now Button**: Counter will be reset to the `Counter Start From` value that is using instantly. For example, `Counter Start From` field is 10000 now, `Counter Step` is 5. After a long time to order and click on `Reset Now`, the ID of the next invoice after resetting will start from `Counter Start From + Counter Step` values.
 
 ### Shipment Number
+
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Shipment Number** section
 
 ![shipment number](https://i.imgur.com/uLiV82l.png)
@@ -222,27 +223,53 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Reset Now Button**: Counter will be reset to the `Counter Start From` value that is using instantly. For example, `Counter Start From` field is 10000 now, `Counter Step` is 5. After a long time to order and click on `Reset Now`, the ID of the next credit memo after resetting will start from `Counter Start From + Counter Step` values.
 
+### Mail
+From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Email** section
 
+![mail](https://i.imgur.com/KQx1ZZG.png)
 
+* **Send Email To**
+    * Enter the email to send the notification
+    * When the ID of the order, invoice, shipment or credit memos of the next time duplicates with the ID of the previous times, the ID will be automatically added to the variable [6AN] at the back and at that time, there's an email to notify the store owner that the ID of the order, invoice, shipment or credit memos is existing and is replaced by the new ID.
+    
+* **Send Email From**: Choose the sender email notifications.
     
 ``Note``:
+* `Reset Now` button is only displayed in the multiple stores
+* If the ID of the order, invoice, shipment or credit memo deplicates with the existing IDs, the following IDs will be added a value [6AN] at the back of the pattern.
 
 For the **Pattern** field of Order Number, Invoice Number, Shipment Number or Credit Memo Number, it only supports some variables as the following:
-    * [4AN]:
-    * [4A]:
-    * [4N]:
-    * [6counter]:
-    * [store_code]:
-    * [store_id]:
-    * [yy]:
-    * [mm]:
-    * [dd]:
+    * [4AN]: The format for the ID will be displayed as 4 numbers and letters are randomly selected
+    * [4A]: The format for the ID will be displayed as 4 randomly selected number
+    * [4N]: The format for the ID will be displayed as 4 randomly selected number
+    * [6counter]: The format for the ID will be displayed with 6 counts depending on the configuration of the **Counter** fields.
+    * [store_code]: The format for the ID will be displayed as the code entered for the store view
+    * [store_id]: The format for the ID will be displayed as the symbolic number for the created order of the store views
+    * [yy]: The format for the ID will be displayed as the last two digits of the year. Example: 18
+    * [y]: The format for the ID will be displayed as the last digit of the year. Example: 8
+    * [yyy]: The format for the ID will be displayed as that year. Example: 2018
+    * [M]: The format for the ID will be displayed as the first 3 letters of the month. Example: AUG
+    * [mm] = [m]: The format for the ID will be displayed as the digit 08
+    * [dd]: The format for the ID will be displayed as date 01, 02, 03, etc
+    * [D]: The format for the ID will be displayed as the first 3 letters of the day. Example: MON
+    * [d]: The format for the ID will be displayed as 1. This only applies for the date less than 10. With the cases, you choose the format as [dd], the date is less than 10, you need to apply the format of ID as 01, 02, 03, etc.
     
+#### The format of Email notification
 
+Please click on [here](https://www.mageplaza.com/faqs/order-id-conflicted.html) to know more information.
 
+ ![format email notification](https://i.imgur.com/RGOpNuJ.png)
+ 
+####  The ID's format after configured
     
-    
-    
+**Display in the backend**  
+
+![display in the backend](https://i.imgur.com/cph3xDJ.png)
+
+**Display on the frontend**
+
+![display on the frontend](https://i.imgur.com/nkymmUl.png)
+
     
     
     
