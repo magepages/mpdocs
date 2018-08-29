@@ -27,11 +27,17 @@ Login to the Magento Admin, choose **Store > Settings > Configuration > Mageplaz
 
 ### General Configuration
 
+From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **General  Configuration** section
+
+
 ![general configuration](https://i.imgur.com/r8jkN85.png)
 
 * **Enable**: Choose Yes to enable this module
 
 ### Order Number
+
+From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Order Number** section
+
 
 ![order number](https://i.imgur.com/FwMn6WV.png)
 
