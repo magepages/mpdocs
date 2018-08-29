@@ -248,20 +248,34 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 * If the ID of the order, invoice, shipment or credit memo deplicates with the existing IDs, the following IDs will be added a value [6AN] at the back of the pattern.
 
 For the **Pattern** field of Order Number, Invoice Number, Shipment Number or Credit Memo Number, it only supports some variables as the following:
-    * [4AN]: The format for the ID will be displayed as 4 numbers and letters are randomly selected
-    * [4A]: The format for the ID will be displayed as 4 randomly selected number
-    * [4N]: The format for the ID will be displayed as 4 randomly selected number
-    * [6counter]: The format for the ID will be displayed with 6 counts depending on the configuration of the **Counter** fields.
-    * [store_code]: The format for the ID will be displayed as the code entered for the store view
-    * [store_id]: The format for the ID will be displayed as the symbolic number for the created order of the store views
-    * [yy]: The format for the ID will be displayed as the last two digits of the year. Example: 18
-    * [y]: The format for the ID will be displayed as the last digit of the year. Example: 8
-    * [yyy]: The format for the ID will be displayed as that year. Example: 2018
-    * [M]: The format for the ID will be displayed as the first 3 letters of the month. Example: AUG
-    * [mm] = [m]: The format for the ID will be displayed as the digit 08
-    * [dd]: The format for the ID will be displayed as date 01, 02, 03, etc
-    * [D]: The format for the ID will be displayed as the first 3 letters of the day. Example: MON
-    * [d]: The format for the ID will be displayed as 1. This only applies for the date less than 10. With the cases, you choose the format as [dd], the date is less than 10, you need to apply the format of ID as 01, 02, 03, etc.
+
+   * [4AN]: The format for the ID will be displayed as 4 numbers and letters are randomly selected
+    
+   * [4A]: The format for the ID will be displayed as 4 randomly selected number
+    
+   * [4N]: The format for the ID will be displayed as 4 randomly selected number
+    
+   * [6counter]: The format for the ID will be displayed with 6 counts depending on the configuration of the **Counter** fields.
+   
+   * [store_code]: The format for the ID will be displayed as the code entered for the store view
+   
+   * [store_id]: The format for the ID will be displayed as the symbolic number for the created order of the store views
+   
+   * [yy]: The format for the ID will be displayed as the last two digits of the year. Example: 18
+   
+   * [y]: The format for the ID will be displayed as the last digit of the year. Example: 8
+   
+   * [yyy]: The format for the ID will be displayed as that year. Example: 2018
+   
+   * [M]: The format for the ID will be displayed as the first 3 letters of the month. Example: AUG
+   
+   * [mm] = [m]: The format for the ID will be displayed as the digit 08
+   
+   * [dd]: The format for the ID will be displayed as date 01, 02, 03, etc
+   
+   * [D]: The format for the ID will be displayed as the first 3 letters of the day. Example: MON
+   
+   * [d]: The format for the ID will be displayed as 1. This only applies for the date less than 10. With the cases, you choose the format as [dd], the date is less than 10, you need to apply the format of ID as 01, 02, 03, etc.
     
 #### The format of Email notification
 
