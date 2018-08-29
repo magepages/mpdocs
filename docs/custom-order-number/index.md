@@ -20,7 +20,7 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 
 ## How to configure
 
-![how to configure](https://i.imgur.com/dzx32q2.png)
+![how to configure](https://i.imgur.com/e2k0vE2.png)
 
 ### General Configuration
 
@@ -30,16 +30,17 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 
 ### Order Number
 
-![order number](https://i.imgur.com/xpT1bPn.png)
+![order number](https://i.imgur.com/FwMn6WV.png)
 
 * **Enable**: Choose Yes to use the feature that allows configuring the changing ID of the Order
 * **Pattern**: 
     * Enter the format for the Order ID. For instance, ORD-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [Y], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
     * If the format of supported variables is entered wrong, the order ID will be displayed under the text
     
 * **Counter Start From**:
-    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. Example: input is 10, counter variable that is used will be [3counter]. The ID displayed will have the format as 010
+    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front. Example: You enter as 15,
+    counter variable that is used will be [3counter]. The ID displayed will have the format as 010
     * The ID of the next order will begin with the number entered and it will incrementally increase
     * For example, when you use the variable [2counter], if you enter 04, the order ID after configuring will start from 04
 
