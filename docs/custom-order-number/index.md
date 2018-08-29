@@ -20,6 +20,9 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 
 ## How to configure
 
+Login to the Magento Admin, choose **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**
+
+
 ![how to configure](https://i.imgur.com/e2k0vE2.png)
 
 ### General Configuration
