@@ -118,7 +118,10 @@ This section will record the change of feeds such as status, type, notification,
 
 Click on the `View Logs`, it will redirect the email recipients to the Feed Logs page to view the logs details.
 
+!
 
+``Note``:
+* After installing the extension, you need to download Liquid by running the command `bin/magento composer require liquid/liquid`
 
 
 
