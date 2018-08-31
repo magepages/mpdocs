@@ -244,3 +244,17 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
 
 #### 3.6. Snippet
 
+For example: Displaying the Daily Deal on the `About Us` page by using the Snippet
+
+* **Step 1**: In the backend, go to **Content > Elements > Page**, then edit the `About us` page
+
+!
+
+* **Step 2**: Insert the snippet code into the content of `About us` page
+
+!
+
+* **Step 3**: Save and check on the frontend
+
+!
+
