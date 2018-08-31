@@ -75,10 +75,45 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 * Enter the value for the `Campaign Term` field
 * Enter the value for the `Campaign Content` field
 
+##### Step 4: Choose the condition to export the file. All products meeting the conditions will be exported.
+##### Step 5: Enter the Category Map for products. Admins can choose and classific according to the availabe suggestions. For the categories with the same level, it will get the classification type of the top-level category.
+
+##### Step 6: Setup the method to send the exported file
+
+* **Generate Config**: Choose the export type
+    * **Generate Config = Manual**: Allow generating the file manually
+    * **Generate Config = Cron**: Auto-generate the file
+      * **Frequency = Daily**: Auto-generate the file daily
+      * **Frequency = Weekly**: Auto-generate the file weekly
+      * **Frequency = Monthly**: Auto-generate the file monthly
+      * **Cron Run Time**: Setup the time to auto-generate the file at the time that you have setup. Please note that the time of Cron Job will be the timezone of UTC
+      
+* **Delivery Config**: Setup the method to send the exported file to the server
+    * To send the exported file to the server, choose "Yes" in the `Delivery` field
+    * Choose the method to send the file in the `Protocol` field: FTP or SFTP
+      * For the FTP protocol, you can add the selection to use `Passive Mode` or not. We recommend that you should this mode to avoid  being blocked by firewalls/NATs/proxies from sending files to the server.
+      
+    * Enter the host name in the `Host Name` field
+    * Enter the host name in the `User Name` field
+    * Enter the password to access the host in the `Password` field
+    * If you want to save the file, only enter the path in the `Directory Path` field. Note: You need to set the name the export file at the end of the path
+    * To check whether it is connected to the host, press `Test Connection`
 
 
+* **Step 7**: Check the update history of the exported file. Admins can check the update history of the file in the `history` field.
 
-    
+
+### Logs
+
+From the Admin Panel, go to **Products > Catalog > Product Feed > Logs**
+
+This section will record the change of feeds such as status, type, notification, etc. When you click on any file, it will automatically open the file.
+
+!
+
+#### Email notification about the status of the file
+
+Click on the `View Logs`, it will redirect the email recipients to the Feed Logs page to view the logs details.
 
 
 
