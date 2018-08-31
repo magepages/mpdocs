@@ -3,10 +3,10 @@
 
 Free Shipping Bar is an important and simple strategy for store owners to stimulate customers to purchase more products so that they can get the free ship. With the release of Mageplaza Free Shipping Bar extension, store owners can totally notify the lacking cash amount of customers for getting the free ship or notify them that they have accumulated enough money to get the free ship when purchasing.
 
-Besides that, Mageplaza Free Shipping Bar is highly customizable about the design and position. Store owners can design and put the Free Shipping bar on any position they want. This is an ideal extension for every store to boost sales effectively.
+Besides that, [Mageplaza Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/) is highly customizable about the design and position. Store owners can design and put the Free Shipping bar on any position they want. This is an ideal extension for every store to boost sales effectively.
 
 ## Download & Install
-- [Mageplaza Free Shipping Bar]()
+- [Mageplaza Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/)
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
