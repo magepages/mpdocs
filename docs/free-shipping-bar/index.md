@@ -73,6 +73,9 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 * **The first message**:
     * Enter the first message of Free Shipping bar
     * The content to inform customers is the minimum value of their order required to get the free shipping
+    * To enter a round number (example: $100 instead of $100.00), admins can remove the variable {{goal}} and fill in the message directly.
+    
+    
     
 * **Below-goal message**:
     * When customers add at least 1 product to Cart, this message will be displayed
