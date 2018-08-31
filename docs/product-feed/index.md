@@ -10,13 +10,14 @@ If customers sell their products on a variety of channels such as Google Shoppin
 
 ## How to configure
 
-From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Product Feed**
+From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Product Feed > Configuration** 
+
 
 !
 
 ### Configuration
 
-From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Product Feed**, choose **General** section
+From the Admin Panel, go to **Products > Product Feed > Configuration**, choose **General** section
 
 !
 
