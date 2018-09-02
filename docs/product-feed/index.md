@@ -13,13 +13,13 @@ If customers sell their products on a variety of channels such as Google Shoppin
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Product Feed > Configuration** 
 
 
-!
+![how to configure](https://i.imgur.com/BBEDOJF.png)
 
 ### Configuration
 
 From the Admin Panel, go to **Products > Product Feed > Configuration**, choose **General** section
 
-!
+![configuration](https://i.imgur.com/jVOUtFL.png)
 
 #### General
 
@@ -56,6 +56,8 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 * Choose the store to get that store's product and generate the file
 * Enter the export file name to send to the server
 
+![general field](https://i.imgur.com/I21GSP1.gif)
+
 ##### Step 2: Choose Template type
 
 * Select the file format. There're 3 file formats: TXT, CSV, and XML
@@ -71,6 +73,8 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
     * To get the header field when exporting the file, choose "Yes" in the `Include Field Header` field
     * Allow adding any value you want into the `Fields Map` field. Please note that: The added values must be standard of Google or Facebook or Ebay, Amazon.
     
+    ![template type](https://i.imgur.com/hlkNg4L.gif)
+    
 ##### Step 3:  Enter full information of Google Analytics. These values will be added into URL of the product to know what the search engine is, what analytic keyword is, etc.
 
 * Enter the value for the `Campaign Source` field
@@ -79,8 +83,15 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 * Enter the value for the `Campaign Term` field
 * Enter the value for the `Campaign Content` field
 
+![google analytics](https://i.imgur.com/DYoNkQf.gif)
+
 ##### Step 4: Choose the condition to export the file. All products meeting the conditions will be exported.
+
+![export the file](https://i.imgur.com/eIJC20m.gif)
+
 ##### Step 5: Enter the Category Map for products. Admins can choose and classific according to the availabe suggestions. For the categories with the same level, it will get the classification type of the top-level category.
+
+![category maps](https://i.imgur.com/QZj935v.gif)
 
 ##### Step 6: Setup the method to send the exported file
 
@@ -103,9 +114,11 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
     * If you want to save the file, only enter the path in the `Directory Path` field. Note: You need to set the name the export file at the end of the path
     * To check whether it is connected to the host, press `Test Connection`
 
+![setup method](https://i.imgur.com/mvF72wM.gif)
 
 * **Step 7**: Check the update history of the exported file. Admins can check the update history of the file in the `history` field.
 
+![update history](https://i.imgur.com/s9yGadU.gif)
 
 ### Logs
 
@@ -113,16 +126,17 @@ From the Admin Panel, go to **Products > Catalog > Product Feed > Logs**
 
 This section will record the change of feeds such as status, type, notification, etc. When you click on any file, it will automatically open the file.
 
-!
+![logs](https://i.imgur.com/nzq45lj.gif)
 
 #### Email notification about the status of the file
 
 Click on the `View Logs`, it will redirect the email recipients to the Feed Logs page to view the logs details.
 
-!
+![view logs](https://i.imgur.com/NgwNooY.png)
 
 ``Note``:
-* After installing the extension, you need to download Liquid by running the command `bin/magento composer require liquid/liquid`
+* After installing the extension, you need to download Liquid by running the command `bin/magento composer require liquid/liquid`or need to install the library
+* When the extension is enabled, Manage Feed and Logs will be displayed
 
 
 
