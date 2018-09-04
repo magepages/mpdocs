@@ -1,10 +1,10 @@
 # Daily Deal
 ## Overview
 
-Using discounts for items at certain times is a smart way to attract customers to purchase. [Mageplaza Daily Deal extension]() will make it easy for shop owners to set a discount for each product. Each product will be set to display the discounted price, time left, item left, along with the status Upcoming/Running/Ended of the deal. In addition, Daily Deal has many outstanding features such as slider, flexible design, etc that support store owners to promote products, thereby stimulating the customer's purchases and increase sales for stores significantly.
+Using discounts for items at certain times is a smart way to attract customers to purchase. [Mageplaza Daily Deal extension](https://www.mageplaza.com/magento-2-daily-deal/) will make it easy for shop owners to set a discount for each product. Each product will be set to display the discounted price, time left, item left, along with the status Upcoming/Running/Ended of the deal. In addition, Daily Deal has many outstanding features such as slider, flexible design, etc that support store owners to promote products, thereby stimulating the customer's purchases and increase sales for stores significantly.
 
 ## Download & Install
-- [Mageplaza Daily Deal]()
+- [Mageplaza Daily Deal](https://www.mageplaza.com/magento-2-daily-deal/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
@@ -20,9 +20,9 @@ Using discounts for items at certain times is a smart way to attract customers t
 
 ## How to configure
 
-Login to the Magento Admin, choose **Mageplaza > Daily Deal**
+Login to the Magento Admin, choose **Marketing > Daily Deal**
 
-![how to configure](https://i.imgur.com/nQBFYs7.png)
+![how to configure](https://i.imgur.com/neyHUtw.png)
 
 ### 1. Manage Daily Deal
 #### 1.1. Managerial Grid
@@ -38,7 +38,7 @@ Login to the Magento Admin, choose **Mageplaza > Daily Deal**
 
 #### 1.2. Add New/ Edit Form
 
-![products](https://i.imgur.com/XumZR0N.png)
+![products](https://i.imgur.com/yRnpgdz.png)
 
 * **Product**: The name of the product that is applied the deal. To select the product, click on `Select Product`. The name of the selected product will automatically appear in `Product` section
 * **Original Price**:
@@ -197,9 +197,10 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
 
 ##### 2.3.4. Floating Slider Deal
 
-![floating slider deal](https://i.imgur.com/uFAeeB6.png)
+![floating slider deal](https://i.imgur.com/Eo4siZy.png)
 
 * **Show**: Select Yes to display the Floating Slider Deal Block in the corner of the screen. Deal Features are displayed in this block
+* **Show on mobile**: Choose NO to disable Floating Slider Deal when it's on the mobile mode.
 * **Block Title**:
     * Set the title of the Floating Slider Deal block
     * If leaving this field blank, the block has no the title
@@ -216,11 +217,12 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
     
 #### 2.4. Snippet
 
-![snippet](https://i.imgur.com/1HDiXGu.png)
+![snippet](https://i.imgur.com/LzGgpcr.png)
 
 * With the command Snippet, admins can choose any position in the store to display the Daily Deal Block via pasting the command into the CMS Page, CMS Static Block of the store
 * Daily Deal is displayed according to one or six types as the following: all, feature, new, upcoming, bestseller, random. If deleting `typing` in the command, it will be got the error.
-* Change the number of deal displaying in the block. If removing `num` in the command, the system will auto-get as 5 deals
+* Change the number of deal displaying at a time on the slider in the block. If removing `num` in the command, the system will auto-get as 5 deals
+* Change the total amount of Deal to be displayed on the Block. If you remove the `limit` in the statement, the system automatically gets the default as 5 deals
 * Change the way to display the deal in the block. Admins can change to the `grid` or `slider`. If removing `display` in the command, the default will display according to the slider
 * Change the title of the block. If removing `title` in the command, the default will display as `DAILY DEAL PRODUCTS`
 
@@ -234,6 +236,9 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
 ![product detail page](https://i.imgur.com/WrN5F7y.png)
 
 #### 3.3. Deal Pages
+
+![deal pages](https://i.imgur.com/CfgoLum.png)
+
 #### 3.4. Sidebar Widget
 
 ![sidebar widget](https://i.imgur.com/87ipMZM.png)
