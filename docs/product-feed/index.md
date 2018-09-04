@@ -1,10 +1,10 @@
 # Product Feed
 ## Overview
 
-If customers sell their products on a variety of channels such as Google Shopping, Ebay, Amazon, etc and these channels use the same database, then they can automatically update their items by importing the exported data files from the original channels. Thanks to this, store owners can save more time and manage their sales channels with ease. That's also an awesome feature from [Mageplaza Product Feed extension](https://www.mageplaza.com/magento-2-product-feed/).
+If customers sell their products on a variety of channels such as Google Shopping, Ebay, Amazon, etc and these channels use the same database, then they can automatically update their items by importing the exported data files from the original channels. Thanks to this, store owners can save more time and manage their sales channels with ease. That's also an awesome feature from [Mageplaza Product Feed extension](https://www.mageplaza.com/magento-2-product-feed-extension/).
 
 ## Download & Install
-- [Mageplaza Product Feed](https://www.mageplaza.com/magento-2-product-feed/)
+- [Mageplaza Product Feed](https://www.mageplaza.com/magento-2-product-feed-extension/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
