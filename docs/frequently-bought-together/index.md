@@ -41,10 +41,18 @@ From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Exte
   - Name the Frequently Bought Together block displaying in Product page.
   - The block’s name will be displayed in default as “Frequently Bought Together”.
   - If you don’t need a name for block, leave it blank.
+  
+- In the **Number of Products** field
+  - The number of the product is displayed by the default in the list as Number +1, including the selected products.
+  - If leaving this field blank or = 0, it will display all Related Products in the list
 
 - In the **Enable Add to Wishlist button** field
-  - Choose *Yes* if you don’t want to display Block related Product as Magento’s default block.
-  - When selecting *No*, Block Related Products of Magento will be ordered under Product Description Detail.
+  - Choose Yes to display **Add all items to Wishlist** button on the frontend
+  - **Add to Wishlist** button only works when you have logged in an account. If not, it will redirect to the login page
+  
+- In the **Remove Native Related Products Block** field
+  - Choose Yes to not display **Block Related Products** that is the default of Magento
+  - When you choose No, **Block Related Products** of Magento will show under the **Product Description Detail** field.
   
 - In the **Separator Image** is the minor plus button among products
   - Valid file should be *jpg, *png and *gif
@@ -71,6 +79,10 @@ Follow this instruction to know how to add your custom combination related produ
 - You will be redirected back to Product page, don’t forget clicking the `Save` button.
 
 ![FBT7](https://i.imgur.com/FcfII3o.png)
+
+- Finally, check on the frontend. Go the the product detail page on the frontend to check again.
+
+![FBT8](https://i.imgur.com/i38BWxM.png)
 
 And now you can back to the live site to check the completed result.
 
