@@ -28,7 +28,7 @@ Besides that, [Mageplaza Free Shipping Bar](https://www.mageplaza.com/magento-2-
 
 Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
-![how to configure](https://i.imgur.com/kjGpBpn.png)
+![how to configure](https://i.imgur.com/ExGInFq.png)
 
 ### 1. Free Shipping Bar Manage
 #### 1.1. Managerial Grid
