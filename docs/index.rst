@@ -54,6 +54,7 @@ Welcome to Mageplaza Docs
    size-chart/index
    quick-order/index
    better-popup/index
+   delivery-time/index
    google-recaptcha/index
    delete-order-m2/index
    product-slider-m2/index
