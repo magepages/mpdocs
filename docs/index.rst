@@ -38,7 +38,6 @@ Welcome to Mageplaza Docs
    reports/index
    reports-pro/index
    faq/index
-   product-feed/index
    search-m2/index
    blog-m2/index
    smtp-m2/index
