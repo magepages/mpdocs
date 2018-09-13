@@ -1,3 +1,1 @@
-Type: Page Redirect
-From URL: /faqs-m2/index.html
-To URL: /faq/index.html
+FAQ's User Guide has been moved to https://docs.mageplaza.com/faq/index.html
