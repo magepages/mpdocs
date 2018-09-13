@@ -1,3 +1,1 @@
-Type: Page Redirect
-From URL: /size-chart-m2/index.html
-To URL: /size-chart/index.html
+Size Chart's User Guide has been moved to http://docs.mageplaza.com/size-chart/index.html
