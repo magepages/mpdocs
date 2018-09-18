@@ -4,8 +4,10 @@ Social Login
 .. toctree::
     :maxdepth: 1
     :glob:
-
+    
+    install.md
     how*
+    
 
 
 .. include:: user-guide.rst
