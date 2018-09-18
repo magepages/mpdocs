@@ -38,6 +38,9 @@ Welcome to Mageplaza Docs
    reports/index
    reports-pro/index
    faq/index
+   daily-deal/index
+   free-shipping-bar/index
+   custom-order-number/index
    search-m2/index
    blog-m2/index
    smtp-m2/index
