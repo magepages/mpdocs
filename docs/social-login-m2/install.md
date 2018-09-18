@@ -20,7 +20,7 @@ php bin/magento setup:static-content:deploy
 ```
 
 
-## Method #2: Ready to paste
+## Method #2: Copy & Paste
 
 ### 1.1 Step 1: Download SFTP clients
 
@@ -28,7 +28,7 @@ Download SFTP clients, we recommend clients: <a href="https://filezilla-project.
 
 ### Step 2: Download the Package
 
-After purchasing order from Mageplaza, go to <a href="https://store.mageplaza.com/downloadable/customer/products/" rel="nofollow" target="_blank">My Downloadable Products</a> page to download the One Step Checkout package. You have to log in (User/Password or Social accounts) before accessing the `My Downloadable Products`.
+After purchasing order from Mageplaza, go to <a href="https://store.mageplaza.com/downloadable/customer/products/" target="_blank">My Downloadable Products</a> page to download the module package. You have to log in (User/Password or Social accounts) before accessing the `My Downloadable Products`.
 
 ![Login form to Download the Package](https://cdn.mageplaza.com/media/general/XLDM5l7.png)
 
