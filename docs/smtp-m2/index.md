@@ -9,8 +9,16 @@ You can download from the following resouces:
 - [Mageplaza](https://www.mageplaza.com/magento-2-smtp/)
 - [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-smtp.html)
 - [Github](https://github.com/mageplaza/magento-2-smtp)
-- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+- [How to Install](https://docs.mageplaza.com/smtp-m2/install.html)
 
+### Install via composer (recommend)
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-smtp
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
 
 Here we go how to know detail in instructions and configuration in extension’s backend.
 
