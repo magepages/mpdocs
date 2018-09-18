@@ -1,4 +1,6 @@
 # Social Login Professional
+
+* [How to Install Social Login](https://docs.mageplaza.com/social-login-m2/install.html)
 * [How to configure Facebook API](https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html)
 * [How to configure Foursquare API](https://docs.mageplaza.com/social-login-m2/how-to-configure-foursquare-api.html)
 * [How to configure GitHub API](https://docs.mageplaza.com/social-login-m2/how-to-configure-github-api.html)
