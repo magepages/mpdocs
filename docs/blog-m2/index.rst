@@ -5,6 +5,7 @@ Blog
     :maxdepth: 2
     :glob:
 
+    install.md
     how*
 
 
