@@ -1,7 +1,7 @@
 Overview
 #####
 
-[Search extension](https://www.mageplaza.com/magento-2-search-extension/) for Magento 2 was launched by Mageplaza is the perfect solution that improves your searching system. Our Search extension brings the most benefits for your customer in terms of finding prefered product. The relevant searching results will be shown immediately after customer enter the first letter of product name. Thus, this extension will help to save your customer's time, make customer satisfaction and make your sale increase definitely.
+`Search extension <https://www.mageplaza.com/magento-2-search-extension/>`_ for Magento 2 was launched by Mageplaza is a perfect solution that improves your searching system. Our Search extension brings the most benefits for your customer in terms of finding prefered product. The relevant searching results will be shown immediately after customer enter the first letter of product name. Thus, this extension will help to save your customer's time, make customer satisfaction and make your sale increase definitely.
 
 Mageplaza Search for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Configure** on the backend.
 
@@ -77,20 +77,6 @@ Open **Search Suggestion** section and do the following:
 * In the **Enable Search Suggestion** field: Choose "Yes" to allow products displaying when customers click on the search box.
 * In the **Sort By** field:
   * Only display this field if `Enable Search Suggestion = Yes`
-  * There're 3 types to sort the products: New Product, Most View Products, and Bestsellers
-  
-
-``Multiple stores module``:
-
-- This extension is applied to multiple stores.
-
-- Stores are set the default as the Default Configuration.
-
-- To change the configuration for each store, need to remove tick at Use Website on the right of each option.
-
-- Config of the extension in each store will be applied in the store itself.
-
-- Config in this store doesn't affect the config in the other store.
-
+  * There're 3 types to sort the products: New Product, Most View Products, and Bestsellers  
 
 That's all about the user guide of Mageplaza Search extension for Magento 2. If you still have any question, please feel free to contact us.
