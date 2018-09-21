@@ -1,7 +1,7 @@
 Overview
 #####
 
-Search extension for Magento 2 was launched by Mageplaza is the perfect solution that improves your searching system. Our Search extension brings the most benefits for your customer in terms of finding prefered product. The relevant searching results will be shown immediately after customer enter the first letter of product name. Thus, this extension will help to save your customer's time, make customer satisfaction and make your sale increase definitely.
+[Search extension](https://www.mageplaza.com/magento-2-search-extension/) for Magento 2 was launched by Mageplaza is the perfect solution that improves your searching system. Our Search extension brings the most benefits for your customer in terms of finding prefered product. The relevant searching results will be shown immediately after customer enter the first letter of product name. Thus, this extension will help to save your customer's time, make customer satisfaction and make your sale increase definitely.
 
 Mageplaza Search for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Configure** on the backend.
 
