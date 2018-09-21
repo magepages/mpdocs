@@ -79,7 +79,13 @@ Open **Search Suggestion** section and do the following:
   * Only display this field if `Enable Search Suggestion = Yes`
   * There're 3 types to sort the products: New Product, Most View Products, and Bestsellers
   
+```
+**Multiple stores module**:
+- This extension is applied to multiple stores.
+- Stores are set the default as the Default Configuration.
+- To change the configuration for each store, need to remove tick at Use Website on the right of each option.
+- Config of the extension in each store will be applied in the store itself.
+- Config in this store doesn't affect the config in the other store.
+```
 
-
-
-
+That's all about the user guide of Mageplaza Search extension for Magento 2. If you still have any question, please feel free to contact us.
