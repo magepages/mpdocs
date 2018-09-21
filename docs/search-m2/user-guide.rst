@@ -82,9 +82,13 @@ Open **Search Suggestion** section and do the following:
 ```
 **Multiple stores module**:
 - This extension is applied to multiple stores.
+
 - Stores are set the default as the Default Configuration.
+
 - To change the configuration for each store, need to remove tick at Use Website on the right of each option.
+
 - Config of the extension in each store will be applied in the store itself.
+
 - Config in this store doesn't affect the config in the other store.
 ```
 
