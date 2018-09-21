@@ -16,10 +16,14 @@ How to use
 *****
 
 On the frontend, the search box will be shown on the upper-right corner 
+Customers only click on the search box. It will display 10 New Products or Most View Products or Best Seller Product immediately.
 
-.. image:: https://i.imgur.com/KJRjzEH.png
+.. image:: https://i.imgur.com/jCouPin.png
 
 * Customers are able to enter the character of product name on this box to search their prefered product.
+
+.. image:: https://i.imgur.com/XnlY1hu.png
+
 * Depends on the configuration in the backend, the search result will display product name, product thumbnail image, price and short description.
 * The number of search result(s) will be set up in the backend.
 * Customers will click on the result that they are finding, then be redirected to its product page automatically.
@@ -27,13 +31,13 @@ On the frontend, the search box will be shown on the upper-right corner
 How to configure
 *****
 
-After logging in to your Magento Admin, choose ``Mageplaza > Search > Configuration``
+After logging in to your Magento Admin, choose ``Store > Settings > Configuration > Mageplaza Extensions > Search``
 
-.. image:: https://i.imgur.com/tIZbYPc.png
+.. image:: https://i.imgur.com/QPl3Q3g.png
 
-Open **General Settings** section and do the following
+Open **General Settings** section and do the following:
 
-.. image:: https://i.imgur.com/TmQayVy.png
+.. image:: https://i.imgur.com/7FbBTkQ.png
 
 * In **Enable** field: Select "Yes" to enable this module.
 * In **Maximum Number of Search Results** field:
@@ -54,6 +58,11 @@ Open **General Settings** section and do the following
   * **After Product Save**: This option is a good choice for store has less than 3,000 products
   * **Manually** (used reindex button bellow): You have to click ``Reindex`` button everytime product's information changes.
 
+Open **Search by category configuration** section and do the following:
+
+.. image:: https://i.imgur.com/rtIhJue.png
+
+
 * In the **Search by category configuration** field: This field allows customer the ability to search by Product and Category's name 
   
   * In the **Enable Search by Caetgory** field: Choose "Yes" to display Category search on the frontend. At that time, **Maximal Depth** will be shown in the backend.
@@ -61,6 +70,15 @@ Open **General Settings** section and do the following
  
 .. image:: https://i.imgur.com/d12rg6f.png
 
+Open **Search Suggestion** section and do the following:
+
+.. image:: https://i.imgur.com/ybbfr1w.png
+
+* In the **Enable Search Suggestion** field: Choose "Yes" to allow products displaying when customers click on the search box.
+* In the **Sort By** field:
+  * Only display this field if `Enable Search Suggestion = Yes`
+  * There're 3 types to sort the products: New Product, Most View Products, and Bestsellers
+  
 
 
 
