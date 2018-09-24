@@ -86,22 +86,24 @@ Still from the same structure with [SMTP](https://github.com/mageplaza/magento-2
 
 ![smtp configuration](https://i.imgur.com/uM3osyl.png)
 
-* In the **SMTP Provider** field: At the present, we support nearly 30 SMTP Provider that you can be free to choose. After selecting completely, you click *Load Settings* button to auto-fill the fields as Host, Port, Authentication, and Protocol.
-* In the **Host** field: This is a field that allows you to fill in the Support Host name and ID address. You can also edit the *Hostname of SMTP Provider* here. If you had clicked *Load Settings* button in the above field, you can give this step a free pass.
+* In the **Host** field: This is a field that allows you to fill in the Support Host name and ID address. If you click on *Load Settings* button, a popup about SMTP Providers will be displayed. Admins can choose SMTP Provider that they want and the system will auto-fill some fields as Host, Port, and Protocol.
 * In the **Port** field: This is a specific gate that emails will be sent through. You can also pass this step if you had chosen Load Settings from the first place. In general, there will be 3 kinds of Default Port:
   * **Port 25**: Emails sent by Protocol other than SSL, TLS will be sent via this portal
   * **Port 465**: Emails sent by Protocol SSL will be sent via this portal
   * **Port 587**: Emails sent by Protocol TLS will be sent via this portal
-* In the **Authentication** field: This is a field that enables you to choose the authentication method. Maybe pass this field if you had clicked *Load Settings* button. There are 3 methods:
+
+* In the **Protocol** field: This is a place allowing you to choose the protocol to send the email. If you had click Autofill button, please ignore this field. You can choose one of the providing protocols below:
+  * None: When you choose **Protocol** = **None**, this means that you accept all risks that can occur with your sent emails
+  * SSL stands for Secure Socket Layer. This protocol ensures that all data exchanged between the web server and the browser is secure and stay safe.
+  * TLS means Transport Layer Security. This protocol can secure data or messages and validate the integrity of messages through message authentication codes. 
+
+* In the **Authentication** field: This is a field that enables you to choose the authentication method. There are 3 methods:
   * **Login**: Authentication by login to the account through Username and Password that will be filled in the next field. Most of providers will require this method.
   * **Plain**
   * **CRAM-MD5**
 * In the **Username** field: This field allows you to fill in the Account name according to SMTP Provider format that you have selected.
 * In the **Password** field: This field enables you to fill the *Password of Username* that you have filled. After saving, Password will be encrypted into ******
-* In the **Protocol** field: This is a place allowing you to choose the protocol to send the email. If you had click Autofill button, please ignore this field. You can choose one of the providing protocols below:
-  * None: When you choose **Protocol** = **None**, this means that you accept all risks that can occur with your sent emails
-  * SSL stands for Secure Socket Layer. This protocol ensures that all data exchanged between the web server and the browser is secure and stay safe.
-  * TLS means Transport Layer Security. This protocol can secure data or messages and validate the integrity of messages through message authentication codes. 
+
 * In the **Return-path email** field: Leave it empty if you want to ignore this.
 * In the **Send Test Email**: This is a field for you to test the operation of the extension.
   * Send From: Admins can choose one of the five Email Sender of Magento.
@@ -118,7 +120,7 @@ If the information you filled out is valid, a successful email message will be s
 
 From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza > SMTP`, choose **Developer** sections.
 
-![developer mode](https://i.imgur.com/aSuMkBV.png)
+![developer mode](https://i.imgur.com/bI84WgH.png)
 
 * **Developer Mode**:
   * Yes: Magento will not deliver any email to the receiver
