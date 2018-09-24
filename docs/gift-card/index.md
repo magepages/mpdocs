@@ -636,7 +636,8 @@ To make sure things will be worked well, click the red ``Check data`` button. Da
 Clicking the ``Import`` button is the final steps!
 
 
-
+``Note``:
+- You should run the command: "bin/magento giftcard:uninstall" before you uninstall this extension so that your website doesn't face the error.
 
 
 
