@@ -58,9 +58,34 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 ![default value](https://i.imgur.com/V2w3NmA.png)
 
+* All values selected in this section are taken as the default value of the product attachment when they are uploaded
+* These values will be selected by default when adding new files, but admins can change these values while editing/adding new files.
+* **Store View**: Stipulate the Store Views that Product Attachment is displayed on the Frontend
+* **Customer Group**: Stipulate group customers that can perform `Customer Action`
+* **Customer must login to download file**: Select "Yes" means that customers must login to view/download product attachment
+* **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product to view/ ownload product attachment
+* **Customer Action**:
+  * View Online
+  * Download
 
+#### 1.3. Snippet
 
+![snippet](https://i.imgur.com/0Ae2aDN.png)
 
+* **CMS Page/Static Block**: Copy code and insert into the pages in the `Content > Page` section.
+* **Template .phtml file**: Copy code and insert into the .phtml files of Magento or other extensions that you want to display Free Shipping Bar
+* **Layout file**: Copy code and insert into .xml files of Magento or other extensions that you want to display Free Shipping Bar
+
+### 2. Manage General File
+#### 2.1. Managerial Grid
+
+![managerial grid](https://i.imgur.com/npEXZBl.png)
+
+* This is a place to save all attached files into the product.
+* From the Grid, admins can understand the basic information of the file as ID, Label, Name, Status, Store View, Customer Group, Priority, Create Date, and Action.
+* In the Action Dialog, admins can perform `Action Delete`: Admins need to tick and choose the question that they want to delete, then choose `Delete` in the Action box (upper left of Grid) to delete. A confirmation dialog will appear, select OK to continue deleting.
+* In the Action column, admins click on `Edit` to edit the information of the attached files.
+* Also, admins can filter, change store view, hide/
 
 
 
