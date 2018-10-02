@@ -188,7 +188,7 @@ This general configurations can apply for the whole module.
 * In the **Maximum Available Point Balance** field
   * Set the maximum number of point(s) that the customer can accumulate by purchasing.
   
-  * If customer's account balance reaches to this number, there will be no more points awarded to the balance, and reward point(s) indicators will not be shown on the frontend.
+  * If customer's account balance reaches to this number, there will be no more points awarded to the balance.
   
   * Admins can add point(s) to an account balance with no awareness of this value.
   * If the field is left blank or 0, there will be no restriction for the maximum points
