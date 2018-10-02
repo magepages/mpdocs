@@ -50,6 +50,8 @@ Log in to your backend, then go to ``Marketing > Reward Points`` and follow the 
 * Spending 
 * Transactions
 
+![rewardpoints](https://i.imgur.com/eNkN87B.png)
+
 ```
 Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
 ```
@@ -158,11 +160,11 @@ Catalog Earning Rule includes 3 actions:
 ![rewardpoints13](https://i.imgur.com/YsqVMox.png)
 
 * **Give X points for every Y amount of Profit**
-  * In case the product is having Special Price temporarily but your want to calculate earn point(s) base on Regular Price, you can opt for this option.
+  * Some products that admins enter cost - as the price entered into that product. Profit is calculated by the sale price minus the cost. Action **Give X points for every Y amount of Profit** will transfer the difference to Point. If the product is not filled Cost, Profit is equal to Price.
   * In the **Point X** field: Enter X point(s) customer will receive for every Y amount of regular price (profit).
   * In the **Money Step Y** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration
   * In the **Maximum Earning Points** field: Set the maximum earning point customer can get from this rule.
-  * *E.g: Product A has Regular Price = $40, Special Price = 20$, Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Points = 5 which mean when the customer purchase Product A, point(s) will be based on Regular Price = $40 and he will earn 2 points*
+  * *E.g: Product A has Regular Price = $40, Special Price = 20$, cost = 25$, Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Points = 5 which mean when the customer purchase Product A, point(s) will be based on (40$ - 25$ = 15$) and he will earn 1 points*
 * **Stop further rule processing**: Choose "Yes" to restrict the number of catalog earning rules applied to a product.
   * *E.g: Let's say there are 4 Cataloging Earning Rules created in turn, Rule 1, Rule 2, Rule 3, Rule 4, and priorities are 0, 5, 3, 3.*
     * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from the summation of 4 rules.
