@@ -95,7 +95,7 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 * **Custom Form Position**: Use this feature to add reCAPTCHA into any form on your store
 
-![custom form  position](https://i.imgur.com/ZJcKGpd.png)
+![custom form  position](https://i.imgur.com/1EWvPP4.png)
 
 * **Form Post Paths**
     * Enter the path (url) where will process your form information 
@@ -154,7 +154,7 @@ Or you also disable the configuration by the command below:
 
 #### The display of reCAPTCHA on the frontend
 
-![display recaptcha](https://i.imgur.com/g0nyT6s.png)
+![display recaptcha](https://i.imgur.com/Hi0kGnx.png)
 
 ![display recaptcha on the frontend](https://i.imgur.com/9TnOxom.png)
 
