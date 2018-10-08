@@ -26,11 +26,11 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ### What to Show
 
-![what to show](https://i.imgur.com/T3JOGeI.png)
+![what to show](https://i.imgur.com/Pgo4Uov.png)
 
 * **Template**
 
-![template](https://i.imgur.com/mprWL8n.png)
+![template](https://i.imgur.com/BROYv9b.png)
 
   * Allow choosing the popup template displaying in the frontend
   * Use the "Default Template"
@@ -51,11 +51,11 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 * **Background Color**
   * Allow choosing the background color for the popup
-  * The default background color is #3d9bc7
+  * The default background color depends on the selected template
   
 * **Text Color**
   * Choose the text color for the popup's display content
-  * The default text color is #ffffff
+  * The default text color depends on the selected template
   
 * **Popup Success**
 
@@ -77,12 +77,12 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ![where to show](https://i.imgur.com/sYDTXhP.png)
 
-* **Which page to show**
+* **Page(s) to show**
 
 ![which page to show](https://i.imgur.com/5gKcBQt.png)
 
-  * **Which page to show = All Page**: This means that it will display the popup on all page.
-  * **Which page to show = Manually Insert**: Show the popup on the pages that are inserted the code at the Manually Insert. 
+  * **Page(s) to show = All Pages**: This means that it will display the popup on all pages.
+  * **Page(s) to show = Manually Insert**: Show the popup on the pages that are inserted the code at the Manually Insert. 
 
 ![manually insert](https://i.imgur.com/MOJl7ia.png)
 
@@ -93,7 +93,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
       * **Template .phtml file**: Copy the code and insert it into `.phtml file` of Magento or the other extensions that you want to display the popup
       * **Layout file**: Copy the code and insert it into the `.xml file` of Magento or the other extensions you want to display the popup
     
-  * **Which page to show = Specific Page**: Display the popup on some selected pages
+  * **Page(s) to show = Specific Page**: Display the popup on some selected pages
   
 ![specific page](https://i.imgur.com/lfx1NTq.png)
 
@@ -128,15 +128,15 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ### When to Show
 
-![when to show](https://i.imgur.com/QCwqQKi.png)
+![when to show](https://i.imgur.com/Synd8mp.png)
 
-* **When the popup appear?**
+* **When the popup appears**
 
 ![when the popup appear](https://i.imgur.com/mkqpIRB.png)
 
-  * **When the popup appear? = Exit Intent**: This means that the popup will appear when hovering away from the current page
-  * **When the popup appear? = After page load**: The popup will appear when loading the page
-  * **When the popup appear? = After x seconds**: The popup will appear after x seconds 
+  * **When the popup appears = Exit Intent**: This means that the popup will appear when hovering away from the current page
+  * **When the popup appears = After page loaded**: The popup will appear when loading the page
+  * **When the popup appears = After X seconds**: The popup will appear after x seconds 
 
 ![after x seconds](https://i.imgur.com/ZxONFiO.png)
 
@@ -145,7 +145,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
     * After the number of seconds configured since loading the page, the popup will appear
     * If you choose this configuration and select to show **Show Float Button**, the popup will display after loading the page x seconds and then, this button will also display.
   
-  * **When the popup appear? = After scroll down x%**: The popup will appear when scrolling the page down x% configured
+  * **When the popup appears = After scrolling down X% of page**: The popup will appear when scrolling the page down x% configured
   
   ![after scroll down x%](https://i.imgur.com/afgzM4h.png)
   
@@ -158,13 +158,23 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
     * If it is 0, the popup will display each time the mouse is moved out of the screen or when the page load or after how many seconds will display again or when scrolling how many percents will display 
     * If leaving the blank this field, the popup will display after 30 days. The popup displayed depends on the cookie of the browser
     
-  * **Show Float Button**: Choose Yes to display the gift button
+  * **Show floating button**: Choose Yes to display the gift button
   
-  ![show float button](https://i.imgur.com/BN0g6WV.png)
+  ![show float button](https://i.imgur.com/FAj8om0.png)
   
-   * **Float button direction = Left**: The gift button will display below, the left corner of the screen
-   * **Float button direction = Right**: The gift button will display below, the right corner of the screen
-
+  * **Floating button position**
+  
+     ![floating button position](https://i.imgur.com/Z4jDDtf.png)
+  
+    * **Floating button position = Left**: The gift button will display below, the left corner of the screen
+    * **Floating button position = Right**: The gift button will display below, the right corner of the screen
+   
+  * **Button label**
+    * Enter a label for the gift button displayed at the bottom of the page
+    * The default label is: Subscribe
+    
+    
+    
 * **Send Email**
 
 ![send email](https://i.imgur.com/lDUjy6X.png)
@@ -183,11 +193,11 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ## Email Reports
 
-![email report](https://i.imgur.com/YuYzHBz.png)
+![email report](https://i.imgur.com/T92IMKk.png)
 
 ## Email's content
 
-![email content](https://i.imgur.com/61xUXbx.png)
+![email content](https://i.imgur.com/xc9rnGq.png)
 
  
     
