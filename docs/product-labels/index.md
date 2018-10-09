@@ -16,7 +16,7 @@ Product Labels extension offer the feature that helps store owners display image
 
 Run the following command in Magento 2 root folder
 ```
-composer require mageplaza/magento-2-blog-extension
+composer require mageplaza/magento-2-product-labels-extension
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
