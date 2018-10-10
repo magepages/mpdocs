@@ -1,4 +1,4 @@
-# Call for Price
+# Magento 2 Call for Price
 
 ## Overview
 
@@ -23,4 +23,14 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
   - Enter the title for the **Terms and Conditions**
   - If this field is filled with the **%anchor** variable, the title will be paired with the content in the `Anchor` field
   
-  
+- **Anchor**: Enter the content displaying for this field
+- **URL**:
+  - Enter the URL that store owners want to redirect the customers when clicking in the content filled in the `Anchor` field
+  - For instance: In the `Title` field, you fill is that *I agree with the %anchor*, in the `Anchor` field, you fill is that *Terms and Conditions* and the `URL` field is that *[https://domain.com/tos.html](https://www.domain.com/tos?)*, then the result displaying on the frontend is that *I agree with the <a href="https://domain.com/tos.html">Terms and Conditions</a>*
+
+#### Disable Default Functions
+
+- **Disable Add to compare, Wishlist**: Choose `Yes` to hide the `Add to compare` and `Add to Wishlist` buttons on the product on the frontend
+- **Disable Register Customer Account**: Choose `Yes` to hide the `Create an Account` button after customers checkout by their guest account
+- **Disable Shopping cart by Customer groups**:
+  - 
