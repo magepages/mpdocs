@@ -8,15 +8,15 @@ With attachments that admins have installed on the product, Mageplaza Product At
 - Product Attachments can display on some following positions:
   * Product Tab
   
-  ![product tab](https://i.imgur.com/DUHfpuH.png)
+  ![product tab](https://i.imgur.com/D2T2B7J.png)
   
   * Under Product Social Link
   
-  ![Under Product Social Link](https://i.imgur.com/xjXvHDO.png) 
+  ![Under Product Social Link](https://i.imgur.com/YHXvi8X.png)
   
   * Sidebar
   
-  ![Sidebar](https://i.imgur.com/xjXvHDO.png) 
+  ![Sidebar](https://i.imgur.com/ptWqkqp.png)
   
   * Some different positions according to Widget or Snippet
   
@@ -28,7 +28,7 @@ With attachments that admins have installed on the product, Mageplaza Product At
 
 Login to the Magento Admin, choose `Catalog > Product Attachments`
 
-![how to configure](https://i.imgur.com/BAptBXY.png)
+![how to configure](https://i.imgur.com/XPCbNnU.png)
 
 Admins can add an attached file for the Product in 2 ways:
   * Create a file at the `Manage General File`. It's so quick and convenient if you want to apply an attached file for many products.
@@ -40,7 +40,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 #### 1.1. General
 
-![general configuration](https://i.imgur.com/vfVIGUM.png)
+![general configuration](https://i.imgur.com/d1U2MUT.png)
 
 * **Enable**: Choose Yes so that this module can work well
 * **Block Title**: 
@@ -56,32 +56,34 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
     * Admins can add or remove icones in this field
     * The icons added in this field will display in the `Edit/Add New File` under Dropdown
     
+    ![manage icons](https://i.imgur.com/xnt4YyN.png)
+    
 #### 1.2. Default Value
 
-![default value](https://i.imgur.com/V2w3NmA.png)
+![default value](https://i.imgur.com/Ly10kJs.png)
 
 * All values selected in this section are taken as the default value of the product attachment when they are uploaded
 * These values will be selected by default when adding new files, but admins can change these values while editing/adding new files.
 * **Store View**: Stipulate the Store Views that Product Attachment is displayed on the Frontend
 * **Customer Group**: Stipulate group customers that can perform `Customer Action`
 * **Customer must login to download file**: Select "Yes" means that customers must login to view/download product attachment
-* **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product to view/ ownload product attachment
+* **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product so that Product Attachments display it for customers to view.
 * **Customer Action**:
   * View Online
   * Download
 
 #### 1.3. Snippet
 
-![snippet](https://i.imgur.com/0Ae2aDN.png)
+![snippet](https://i.imgur.com/P4CNPsJ.png)
 
 * **CMS Page/Static Block**: Copy code and insert into the pages in the `Content > Page` section.
 * **Template .phtml file**: Copy code and insert into the .phtml files of Magento or other extensions that you want to display Free Shipping Bar
 * **Layout file**: Copy code and insert into .xml files of Magento or other extensions that you want to display Free Shipping Bar
 
-### 2. Manage General File
+### 2. Manage General Files
 #### 2.1. Managerial Grid
 
-![managerial grid](https://i.imgur.com/npEXZBl.png)
+![managerial grid](https://i.imgur.com/z52Pl1u.png)
 
 * This is a place to save all attached files into the product.
 * From the Grid, admins can understand the basic information of the file as ID, Label, Name, Status, Store View, Customer Group, Priority, Create Date, and Action.
@@ -93,7 +95,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 ##### 2.2.1. General
 
-![general](https://i.imgur.com/U3T1Som.png)
+![general](https://i.imgur.com/8kUbwga.png)
 
 * **File Label**:
   * Set the file label to display on the Frontend
@@ -117,8 +119,11 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   * Admins can change into the icon that they want.
   * To upload a new icon, admins need to install in the Configuration
   
-* **Customer must login to Download file**: Select "Yes" to allow only customers who are logged into the store to view/download the file
-* **Only available for buyers**: Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
+* **Status**: Choose Enable   
+  
+  
+* **Logged in Customer**: Select "Yes" to allow only customers who are logged into the store to view/download the file
+* **Verified buyers**: Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
 * **Customer Action**:
   * **View Online**: Customers who meet the conditions of the Store, Group, Login and Verify will be able to view the contents of the attached file.
   * **Download**: Customers who meet the conditions of Store, Group, Login and Verify will be able to download attachments
