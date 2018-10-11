@@ -54,16 +54,72 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 - Step 2: Design the display of the rule on the frontend in the `What to Show` section
 - Step 3: Set the condition applying the rule for products in the `Where to Show` section
 
-##### Step 1: Enter the full information in the `General` section
+##### Step 1: Enter the full information in the General section
+
+- **Name**: Fill in the name of the rule
+- **Status**: Choose `Enable` to apply for the rule
+- **Store View**:
+  - Only selected products on the store can be applied for the rule
+  - Allow choosing many store views simultaneously
+  
+- **Customer Groups**:
+  - Only the selected customer groups can see the products applied the rule
+  - Allow choosing many groups simultaneously
+  
+- **From**: Choose the start day applying the rule on the product
+- **To**: Choose the finish applying the rule on the product
+  
+- **Priority**: 
+  - Enter priority for synchronizing objects
+  - The smaller the input number, the higher the priority. 
+  - Items have the equal priority, the priority will be based on what item is created first.  
+  
+##### Step 2: Design the display of the rule on the frontend in the What to Show section  
+
+- **Action**:
+  - `Action = Popup a quote form`: Display the popup to login or as a note of customers so that they can send the requests to the store owner
+    - `Quote Heading`: Enter the title for the popup
+    - `Show Fields`: Choose the fields displaying the popup
+    - `Required Fields`: Choose the field displaying the default on the popup
+    
+  - `Action = Redirect to an URL`: Redirect the customers to the desired admin page when clicking on the button to replace the Add to cart button
+    - `Redirect URL`: Enter the URL that you want to redirect the customers for accessing to
+    
+  - `Action = Login to See Price`: Customers need to login to the website to view the price of the product
+  - `Action = Hidden Add to Cart button`:
+    - Hide the Add to cart button on the product
+    - This section is usually for reference products or non-selling products
+    
+- **Button label**: Enter the label for the button to replace the Add to Cart button
+- **Quote Description**: Enter the content displaying on the popup
+- **Enable Terms and Condition**: Choose `Yes` to display the Terms and Condition
+
+##### Step 3: Set the condition applying the rule for products in the Where to Show section
+  
+- Choose the condition to apply the rule
+- Only products that meet the requirements can be applied the rule
+
+### Requests
+Display all customer requests sending to the store. When you click on `View`, store owners can view the details of the request, such as the date of the request, the name and email of the customers, the product the customers are interested in and store owners can change the status of the request to manage requirements with ease. At the same time, they can also annotate on customer requirements.
 
 
-  
-  
-  
-  
-  
-  
-  
+### Product
+From the Admin Panel, go to `Catalog > Products > Add Product or Edit Product`
+- **Call for Price**: The product will be apllied based on the selected rule in this field
+  - `Call for Price = Inherit from Rule`: The product that complies with the created rule in `Rules` section will continue to apply that rule
+  - `Inherit from Rule = Disable`: Not apply any rule for the product
+
+### Compatible with Reports standard extension
+
+If you have installed Mageplaza Reports Standard extension on your site, in the Dashboard of the admin panel will be displayed 2 different boards: `Call for price: Requests` and `Top Requested Product`.
+
+
+
+### Frontend
+
+### Email
+
+
   
   
   
