@@ -33,4 +33,38 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 - **Disable Add to compare, Wishlist**: Choose `Yes` to hide the `Add to compare` and `Add to Wishlist` buttons on the product on the frontend
 - **Disable Register Customer Account**: Choose `Yes` to hide the `Create an Account` button after customers checkout by their guest account
 - **Disable Shopping cart by Customer groups**:
-  - 
+  - The selected customer groups cannot access on Shopping cart page
+  - Allow choosing many customer groups simultaneously
+  
+- **Disable Checkout page by Customer groups**:
+  - The selected customer groups cannot access on the Checkout page
+  - Allow choosing many customer groups simultaneously
+  
+#### Admin Email Notification
+
+- **Enable**: Choose `Yes` to send the email notification to the store owner when there're requests from customers
+- **Sender**: Choose the sender to send the email notification
+- **Send to**:
+  - Fill the email to get the notification when there're requests from customers
+  - Allow filling in many emails to get the notification simultaneously, the emails are separted by commas
+  
+### Rules
+#### Add new rule
+- Step 1: Enter the full information in the `General` section
+- Step 2: Design the display of the rule on the frontend in the `What to Show` section
+- Step 3: Set the condition applying the rule for products in the `Where to Show` section
+
+##### Step 1: Enter the full information in the `General` section
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
