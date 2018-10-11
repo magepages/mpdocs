@@ -106,9 +106,6 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   * This name will display on the Frontend when customers click on the attached files to view/download.
   * If leaving this field blank, take the name of the uploaded file.
   
-* **Status**: Choose "Enable" so that the attached file can display on the Frontend.
-* **Store View**: One website can have many store views. Product Attachment only displays in the selected store views.
-* **Customer Group**: Stipulate which customer group can see and perform actions with the attached file.
 * **File**:
   * Upload the file from your PC
   * We support you some following file formats:
@@ -119,9 +116,9 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   * Admins can change into the icon that they want.
   * To upload a new icon, admins need to install in the Configuration
   
-* **Status**: Choose Enable   
-  
-  
+* **Status**: Choose "Enable" so that the attached file can display on the Frontend.
+* **Store View**: One website can have many store views. Product Attachment only displays in the selected store views.
+* **Customer Group**: Stipulate which customer group can see and perform actions with the attached file. 
 * **Logged in Customer**: Select "Yes" to allow only customers who are logged into the store to view/download the file
 * **Verified buyers**: Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
 * **Customer Action**:
@@ -134,43 +131,48 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   
 ##### 2.2.2. Assign To
 
-![assign to](https://i.imgur.com/fD8vu95.png)
+![assign to](https://i.imgur.com/8kUbwga.png)
 
 * This is a place for you to select the conditions for the rule. Only available on selected products, the new rule can be applied.
 * You can add/remove the condition by clicking on `+` or `x`
 * You can change the true/false of the condition by clicking `bold` text
 * Admins can review the products satisfied the condition when clicking on `Preview Products`
 
+![assign to 2](https://i.imgur.com/vWo8Yhn.png)
+
 ### 3. Add the attached file in the `Catalog > Products`
 
 * Admins can add directly in the Grid or go to `Edit Product Page` to add the file.
 
   * Grid
-![add the attached file](https://i.imgur.com/vUtq8Ud.png)
+![add the attached file](https://i.imgur.com/ZN2e1EK.png)
 
   * Edit Product Page
   
-![Edit Product Page](https://i.imgur.com/6vHym6k.png)
+![Edit Product Page](https://i.imgur.com/NaxHGLb.png)
 
 * By one of two ways, admins can set the display location of the attached files and upload files easily.
 * All product attachments are displayed here, including the files created in the `Manage Product` (if that file is assigned to this product).
 * When you click on an attached file, a popup is displayed and admins can quickly edit the file information.
 
-![Imgur](https://i.imgur.com/HwxMhKC.png)
+![Imgur](https://i.imgur.com/aT3ryWQ.png)
 
 * The information is similar to the information when adding new files in `Manage General File`
 
 ### 4. Report
 
-![report](https://i.imgur.com/SQZ22qj.png)
+![report](https://i.imgur.com/alxCdgn.png)
 
-* Record the information about actions performed by the customer on the Product Attachment such as: File Label, File Name, Customer Implementation, Product, Action, Store View, Customer Group and Action Date.
+* Record the information about actions performed by the customer on the Product Attachments such as: File Label, File Name, Customer Implementation, Product, Action, Store View, Customer Group and Action Date.
 * Admins can clear logs if they want.
 
 ### 5. Import File
 
 * The import function is built based on the import function of Magento.
-* Note that admins must select `Entity Type = Mageplaza Product Attachment`
+* Note that admins must select `Entity Type = Mageplaza Product Attachments`
+
+![import file](https://i.imgur.com/PtFR0AW.png)
+
 * After importing, Product Attachment files are stored in `Manage General File`
 * To know more Magento's import, please visit [here](https://www.mageplaza.com/kb/how-to-import-products-magento-2.html)
 
