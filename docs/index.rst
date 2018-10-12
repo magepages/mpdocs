@@ -32,6 +32,7 @@ Welcome to Mageplaza Docs
    better-coupon/index
    reward-points/index
    reward-points-pro/index
+   product-feed/index
    security/index
    security-pro/index
    gift-card/index
