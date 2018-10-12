@@ -55,6 +55,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **Manage Icons**:
     * Admins can add or remove icones in this field
     * The icons added in this field will display in the `Edit/Add New File` under Dropdown
+    * We recommend you should use SVG file, or the icons have the size format not as 45x25
     
     ![manage icons](https://i.imgur.com/xnt4YyN.png)
     
@@ -67,7 +68,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **Store View**: Stipulate the Store Views that Product Attachment is displayed on the Frontend
 * **Customer Group**: Stipulate group customers that can perform `Customer Action`
 * **Customer must login to download file**: Select "Yes" means that customers must login to view/download product attachment
-* **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product so that Product Attachments display it for customers to view.
+* **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product so that Product Attachments display it for customers to view/download.
 * **Customer Action**:
   * View Online
   * Download
@@ -118,9 +119,12 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   
 * **Status**: Choose "Enable" so that the attached file can display on the Frontend.
 * **Store View**: One website can have many store views. Product Attachment only displays in the selected store views.
-* **Customer Group**: Stipulate which customer group can see and perform actions with the attached file. 
+* **Customer Group**: Stipulate which customer group can see the attached file. 
 * **Logged in Customer**: Select "Yes" to allow only customers who are logged into the store to view/download the file
-* **Verified buyers**: Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
+* **Verified buyers**:
+  * Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
+  * In case, `Logged in Customer = No`: Customers don't need to purchase the products, they can also view/download the file
+  
 * **Customer Action**:
   * **View Online**: Customers who meet the conditions of the Store, Group, Login and Verify will be able to view the contents of the attached file.
   * **Download**: Customers who meet the conditions of Store, Group, Login and Verify will be able to download attachments
