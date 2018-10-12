@@ -41,6 +41,7 @@ Welcome to Mageplaza Docs
    daily-deal/index
    free-shipping-bar/index
    custom-order-number/index
+   ajax-layered-navigation/index
    search-m2/index
    blog-m2/index
    smtp-m2/index
