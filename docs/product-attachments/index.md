@@ -57,7 +57,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
     * The icons added in this field will display in the `Edit/Add New File` under Dropdown
     * We recommend you should use SVG file, or the icons have the size format not as 45x25
     
-    ![manage icons](https://i.imgur.com/xnt4YyN.png)
+    ![manage icons](https://i.imgur.com/CofYYlZ.png)
     
 #### 1.2. Default Value
 
@@ -68,7 +68,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **Store View**: Stipulate the Store Views that Product Attachment is displayed on the Frontend
 * **Customer Group**: Stipulate group customers that can perform `Customer Action`
 * **Customer must login to download file**: Select "Yes" means that customers must login to view/download product attachment
-* **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product so that Product Attachments display it for customers to view/download.
+* **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product so that Product Attachments display to view/download.
 * **Customer Action**:
   * View Online
   * Download
@@ -96,7 +96,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 ##### 2.2.1. General
 
-![general](https://i.imgur.com/8kUbwga.png)
+![general](https://i.imgur.com/XOhLofu.png)
 
 * **File Label**:
   * Set the file label to display on the Frontend
@@ -118,9 +118,9 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   * To upload a new icon, admins need to install in the Configuration
   
 * **Status**: Choose "Enable" so that the attached file can display on the Frontend.
-* **Store View**: One website can have many store views. Product Attachment only displays in the selected store views.
-* **Customer Group**: Stipulate which customer group can see the attached file. 
-* **Logged in Customer**: Select "Yes" to allow only customers who are logged into the store to view/download the file
+* **Store Views**: One website can have many store views. Product Attachment only displays in the selected store views.
+* **Show files to Customer Group(s)**: Stipulate which customer group can see the attached file. 
+* **Logged-in Customer**: Select "Yes" to allow only customers who are logged into the store to view/download the file
 * **Verified buyers**:
   * Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
   * In case, `Logged in Customer = No`: Customers don't need to purchase the products, they can also view/download the file
@@ -159,7 +159,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * All product attachments are displayed here, including the files created in the `Manage Product` (if that file is assigned to this product).
 * When you click on an attached file, a popup is displayed and admins can quickly edit the file information.
 
-![Imgur](https://i.imgur.com/aT3ryWQ.png)
+![Imgur](https://i.imgur.com/jrNM6mU.png)
 
 * The information is similar to the information when adding new files in `Manage General File`
 
