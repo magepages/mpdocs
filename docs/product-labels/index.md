@@ -22,18 +22,17 @@ php bin/magento setup:static-content:deploy
 ```
 
 
-
-
-
-
-
 ## How to configure
 
 From the Admin Panel, go to `Store > Settings > Configuration > Mageplaza Extensions > Product Labels > Configuration`
 
+![how to configure](https://i.imgur.com/EwDOFIU.png)
+
 ### Configuration
 
 From the Admin Panel, go to  `Store > Settings > Configuration > Mageplaza Extensions > Product Labels > Configuration`, choose `General` section
+
+![configuration](https://i.imgur.com/ljnXfOI.png)
 
 #### General
 
@@ -50,6 +49,10 @@ From the Admin Panel, go to  `Store > Settings > Configuration > Mageplaza Exten
 
 - **Name**: Enter the name of the item
 - **Status**: Choose `Enable` tô display the label on the product
+- **State**:
+  - State includes 4 statuses: **NONE, QUEUE, RUNNING, DONE**. When a new rule is created, the status is **NONE**
+  - State changes depend on the date that you apply the rule
+  
 - **Store View**:
   - Only the selected products in the store display the label
   - Allow choosing many stores simultaneously
@@ -60,18 +63,25 @@ From the Admin Panel, go to  `Store > Settings > Configuration > Mageplaza Exten
   
 - **From**: Choose the start day displaying the label on the product
 - **To**: Choose the finish displaying the label on the product
-- **Stop further processing**: Choose Yes to allow displaying many labels on a product
-  - The label will be applied until the created rule has `Status = Disable`, then it will stop
-  
+- **Stop further processing**: Choose Yes to limit the number of the rule that applied for a product (based in the priority and ID)
+  - For example: Whether there're 4 rules created as Rule 1, Rule 2, Rule 3, and Rule 4 and the priority respectively is 0, 5, 3, 3. 
+    - All rules are set as `Stop further processing = No`. This means that all rules are apllied.
+    - Edit the Rule 3, and choose `Stop futher processing = Yes`. After you Apply Rule, the rules are applied as Rule 1 (has the higher priority) and Rule 3. Rule 2 (the priority is lower) and Rule 4 (created later) are not apllied.
+    
 - **Priority**: 
   - Enter priority for synchronizing objects
-  - The smaller the input number, the higher the priority. Items have the equal priority, the priority will be based on what item is created first.
+  - The smaller the input number, the higher the priority. Items have the equal priority, the priority will be based on ID.
+  
+  ![fill full information](https://i.imgur.com/qFjwbOm.gif)
+  
   
 ##### Step 2: Set the condition to apply the label display for the products in the `Where to Show` section
 
 - **Best seller**: Choose Yes to auto-assign the label for the bestselling products
 - **Limit**: Enter the maximum number of best-selling products automatically labeled
-- You can customize the product displayed the label by selecting the products shown below after clicking the `Preview Product` button or selecting the products of the category that will be displayed the label
+- You can customize the product displayed the label by selecting the products shown below after clicking the `Preview Product` button or selecting the products of the category that will be displayed the label. After saving the rule, you will see all products meet the conditions in the `Preview Product` field
+
+![set the condition](https://i.imgur.com/AWDqPTf.gif)
 
 ##### Step 3: Design labels and images on the product in the `label design` section
 
@@ -82,36 +92,36 @@ Design the labels and images for the product on the `Product Page`
 - **Label**:
   - Fill in the label displaying on the product
   - Only support some following variables:
-    - {{save_amount}}: Save amount
-    - {{save_percent}}: Save percentage
-    - {{price}}: Original Price
-    - {{special_price}}: Special Price
-    - {{day_left}}: Days left for special price. 
-    - {{final_price}}: Final price
-    - {{qty_left}}: Item Qty left
-    - {{sku}}: Product SKU
-    - {{att:code}}: Any product attribute code
+    - {{discount}}: Discount amount
+    - {{discount_percent}}: Discount percentage
+    - {{current_price}}: Original Price
+    - {{attribute_code}}: Any product attribute code
     
-- **Preview**: Store owners can edit the position of the label here by moving the mouse or they can edit the position or the font text at the following positions:
-  - `Top`: Enter the interval of the image with the side margin
-  - `Bottom`: Enter the interval of the image with the bottom margin
-  - `Left`: Enter the interval of the image with the left margin
-  - `Right`: Enter the interval of the image with the right margin
-  - `Font family`: Choose the font for the label entered in the `Label` field
+- **Font family**: Choose the text font for labels
+- **Font size**: Enter the size of labels
+- **Label color**:
+  - Choose the color for labels
+  - The default color is #000000
   
-Or the store owners can edit the label themselvies as their want by adding CSS into the following field:
-  - `Custom Style`: Enter CSS that you want to edit displaying the label as their want
+- **Custom CSS**: You can edit the labels as your want
+- **Select position**: You can edit the display position of labels here by moving the mouse or edit the display position of labels by choosing the positions respectively with the squares on the side.
   
-Design the labels and images for the product on the `Product Liating` (the label will display on the product in the Category, Search Page or Layered Navigation if your website install Layered Navigation extension of Mageplaza)
+Design the labels and images for the product on the `Product Liating` (the label will display on the product in the Category, Search Page or Layered Navigation if your website installs Layered Navigation extension of Mageplaza)
 
   - **Same design with product page**
-    - `Same design with product page = Yes`: Auto-get the design the as with Product Page above
-    - `Same design with product page = No`: Display the design the same as Product Page above and admins can edit arbitrarily
+    - `Same design with product page = Yes`: Auto-get the design the as with `Product Page` above
+    - `Same design with product page = No`: Display the design the same as `Product Page` above and admins can edit arbitrarily
+    
+![product labels](https://i.imgur.com/M5fDL50.gifv)       
     
 ### Frontend
+#### Display on the Product Listing
 
+![Display on the Product Listing](https://i.imgur.com/1QmoqfC.png)
 
-  
+#### Display on the Product Page
+
+![Display on the Product Page](https://i.imgur.com/gEOG0Tz.png)
 
 
 
