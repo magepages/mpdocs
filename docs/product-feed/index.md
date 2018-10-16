@@ -153,3 +153,14 @@ Run the following command to install:
 
 
 
+
+
+## Must-have extensions for your Magento stores
+
+- Increase website traffic: [SEO](https://www.mageplaza.com/magento-2-seo-extension/)
+- [Build leads](https://www.mageplaza.com/magento-2-better-popup/)
+- Increase conversion rates: [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/)
+- We believe that you can sell more: [Gift Cards](https://www.mageplaza.com/magento-2-gift-card-extension/), [Auto Related Products](https://www.mageplaza.com/magento-2-automatic-related-products/), [Frequently Bought Together](https://www.mageplaza.com/magento-2-frequently-bought-together/), [Free shipping bar](https://www.mageplaza.com/magento-2-free-shipping-bar/), [Daily Deal](https://www.mageplaza.com/magento-2-daily-deal-extension/) , [Product Feed](https://www.mageplaza.com/magento-2-product-feed-extension/)
+- Keep customers return: [Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/)
+- Let your customer [become raving fans](https://www.mageplaza.com/magento-2-affiliate-extension/)
+- Optimize your stores: [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [Custom Order Number](https://www.mageplaza.com/magento-2-custom-order-number/), [Stop return items issue](https://www.mageplaza.com/magento-2-size-chart/)
