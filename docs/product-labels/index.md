@@ -103,10 +103,10 @@ Design the labels and images for the product on the `Product Page`
 - **Custom CSS**: You can edit the labels as your want
 - **Select position**: You can edit the display position of labels here by moving the mouse or edit the display position of labels by choosing the positions respectively with the squares on the side.
   
-Design the labels and images for the product on the `Product Liating` (the label will display on the product in the Category, Search Page or Layered Navigation if your website installs [Layered Navigation extension of Mageplaza](https://www.mageplaza.com/magento-2-layered-navigation-extension/))
+Design the labels and images for the product on the `Product Listing` (the label will display on the product in the Category, Search Page or Layered Navigation if your website installs [Layered Navigation extension of Mageplaza](https://www.mageplaza.com/magento-2-layered-navigation-extension/))
 
   - **Same design with product page**
-    - `Same design with product page = Yes`: Auto-get the design the as with `Product Page` above
+    - `Same design with product page = Yes`: Auto-get the design the same as with `Product Page` above
     - `Same design with product page = No`: Display the design the same as `Product Page` above and admins can edit arbitrarily
     
 ![product labels](https://i.imgur.com/M5fDL50.gif)       
