@@ -48,18 +48,18 @@ From the Admin Panel, go to  `Store > Settings > Configuration > Mageplaza Exten
 - **Status**: Choose `Enable` tô display the label on the product
 - **State**:
   - State includes 4 statuses: **NONE, QUEUE, RUNNING, DONE**. When a new rule is created, the status is **NONE**
-  - State changes depend on the date that you apply the rule
+  - The change of the state depends on the date that you apply the rule
   
 - **Store View**:
   - Only the selected products in the store display the label
   - Allow choosing many stores simultaneously
   
-- **Customer Groups**:
+- **Customer Group(s)**:
   - Only the selected customer groups can see the label displayed on the product
   - Allow choosing many groups simultaneously
   
-- **From**: Choose the start day displaying the label on the product
-- **To**: Choose the finish displaying the label on the product
+- **From Date**: Choose the start day displaying the label on the product
+- **To Date**: Choose the finish displaying the label on the product
 - **Stop further processing**: Choose Yes to limit the number of the rule that applied for a product (based in the priority and ID)
   - For example: Whether there're 4 rules created as Rule 1, Rule 2, Rule 3, and Rule 4 and the priority respectively is 0, 5, 3, 3. 
     - All rules are set as `Stop further processing = No`. This means that all rules are apllied.
