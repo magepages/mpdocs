@@ -109,7 +109,7 @@ Design the labels and images for the product on the `Product Liating` (the label
     - `Same design with product page = Yes`: Auto-get the design the as with `Product Page` above
     - `Same design with product page = No`: Display the design the same as `Product Page` above and admins can edit arbitrarily
     
-![product labels](https://i.imgur.com/M5fDL50.gifv)       
+![product labels](https://i.imgur.com/M5fDL50.gif)       
     
 ### Frontend
 #### Display on the Product Listing
