@@ -40,9 +40,9 @@ For example: flate rate #1: Sort Order = 1, flate rate #2: Sort Order = 2, when 
 
 - **Ship to Specific Countries**: Choose the countries that you want to apply the flat rate
 - **Displayed Error Message**:
-  - Enter the text to inform when the shipping method isn't available
-  - If leaving this field blank, the default message is "Sorry, but we can't deliver to the destination country with this shipping module."
-  - The error message will display on the frontend if the Show Method if Not Applicable = Yes
+  - Enter the content of the message when the shipping method isn't available
+  - If leaving this field blank, the default message is `Sorry, but we can't deliver to the destination country with this shipping module.`
+  - The error message will display on the frontend if the `Show Method if Not Applicable = Yes`
   
   ![flat rate 4](https://i.imgur.com/hdDFdQw.png)
   
