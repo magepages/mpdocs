@@ -122,7 +122,7 @@ From the Admin Panel, go to `Catalog > Products > Add Product or Edit Product`
 
 ![call for price](https://i.imgur.com/qQ24qtD.png)
 
-- **Call for Price**: The product will be apllied based on the selected rule in this field
+- **Call for Price**: The product will be applied based on the selected rule in this field
   - `Call for Price = Inherit from Rule`: The product that complies with the created rule in `Rules` section will continue to apply that rule
   - `Inherit from Rule = Disable`: Not apply any rule for the product
   - For example: Your store has 3 rules applied as Rule 1, Rule 2, and Rule 3. The product A includes category Bags applied Rule 1, but you want the product A assign to apply with rule 2, you need to choose `Inherit from Rule = Rule 2`
