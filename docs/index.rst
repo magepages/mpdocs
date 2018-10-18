@@ -62,5 +62,5 @@ Welcome to Mageplaza Docs
    google-recaptcha/index
    delete-order-m2/index
    product-slider-m2/index
-   multi-flat-rate/index
+   multi-flat-rates/index
 
