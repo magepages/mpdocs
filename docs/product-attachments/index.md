@@ -105,6 +105,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **File Name**:
   * Set the name for the file. This name will replace for uploaded the file name.
   * This name will display on the Frontend when customers click on the attached files to view/download.
+  * Not support hieroglyphs such as Chinese, Japanese, Korean, Russian, etc
   * If leaving this field blank, take the name of the uploaded file.
   
 * **File**:
@@ -132,6 +133,9 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **Priority**:
   * At the same location, Product Attachment that has a higher priority will be sorted first.
   * 0 is the highest priority.
+  * Attachments that is added directly in the `Edit Product` will be displayed first. After displaying all attachments in `Edit Product`, attachments in the `Manage Files` will be arranged again based on `Priority`
+  
+  ![priority](https://i.imgur.com/i3dTEr8.png)
   
 ##### 2.2.2. Assign To
 
@@ -159,9 +163,13 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * All product attachments are displayed here, including the files created in the `Manage Product` (if that file is assigned to this product).
 * When you click on an attached file, a popup is displayed and admins can quickly edit the file information.
 
-![Imgur](https://i.imgur.com/jrNM6mU.png)
+![add the attached file](https://i.imgur.com/jrNM6mU.png)
 
-* The information is similar to the information when adding new files in `Manage General File`
+* The information is similar to the information when adding new files in `Manage File`
+* Note that File Name does not support hieroglyphs such as Chinese, Japanese, Korean, Russian
+* The files added here will be sorted before the attachments in Manage Files even with lower priority. After all the attachments in the `Edit Product` are listed, Attachments in `Manage Files` are sorted again based on priority.
+
+![add the attached file](https://i.imgur.com/Zinmraq.png)
 
 ### 4. Report
 
@@ -176,6 +184,10 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * Note that admins must select `Entity Type = Mageplaza Product Attachments`
 
 ![import file](https://i.imgur.com/PtFR0AW.png)
+
+* Before Check Data, admins need to upload attachments into the `pub/media/import`
+
+![import file 2](https://i.imgur.com/7829axK.png)
 
 * After importing, Product Attachment files are stored in `Manage General File`
 * To know more Magento's import, please visit [here](https://www.mageplaza.com/kb/how-to-import-products-magento-2.html)
