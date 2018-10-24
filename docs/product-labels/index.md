@@ -21,13 +21,13 @@ php bin/magento setup:static-content:deploy
 
 ## How to configure
 
-From the Admin Panel, go to `Store > Settings > Configuration > Mageplaza Extensions > Product Labels > Configuration`
+From the Admin Panel, go to `Content > Product Labels > Configuration`
 
-![how to configure](https://i.imgur.com/EwDOFIU.png)
+![how to configure](https://i.imgur.com/cnAlD7g.png)
 
 ### Configuration
 
-From the Admin Panel, go to  `Store > Settings > Configuration > Mageplaza Extensions > Product Labels > Configuration`, choose `General` section
+From the Admin Panel, go to  `Content > Product Labels > Configuration`, choose `General` section
 
 ![configuration](https://i.imgur.com/ljnXfOI.png)
 
@@ -69,23 +69,27 @@ From the Admin Panel, go to  `Store > Settings > Configuration > Mageplaza Exten
   - Enter priority for synchronizing objects
   - The smaller the input number, the higher the priority. Items have the equal priority, the priority will be based on ID.
   
-  ![fill full information](https://i.imgur.com/qFjwbOm.gif)
+  ![fill full information](https://i.imgur.com/GvGlmfb.gif)
   
   
 ##### Step 2: Set the condition to apply the label display for the products in the `Where to Show` section
 
 - **Best seller**: Choose Yes to auto-assign the label for the bestselling products
 - **Limit**: Enter the maximum number of best-selling products automatically labeled
-- You can customize the product displayed the label by selecting the products shown below after clicking the `Preview Product` button or selecting the products of the category that will be displayed the label. After saving the rule, you will see all products meet the conditions in the `Preview Product` field
+- You can customize the product displayed the label by selecting the products shown below after clicking the `Preview Product` button or selecting the products of the category that will be displayed the label. You will see all products meet the conditions in the `PREVIEW PRODUCTS` field
 
-![set the condition](https://i.imgur.com/AWDqPTf.gif)
+![set the condition](https://i.imgur.com/YO0HaD6.gif)
 
 ##### Step 3: Design labels and images on the product in the `label design` section
 
 Design the labels and images for the product on the `Product Page`
 
-- **Template**: Choose the template for the label
+- **Template**: Choose the template displaying on the product
 - **Image**: Choose the images displaying on the product
+- **Image Size**:
+  - Enter the length and width of the image
+  - If you use the available template, the length and width of the image will be automatically loaded when you load the template
+  
 - **Label**:
   - Fill in the label displaying on the product
   - Only support some following variables:
@@ -98,7 +102,7 @@ Design the labels and images for the product on the `Product Page`
 - **Font size**: Enter the size of labels
 - **Label color**:
   - Choose the color for labels
-  - The default color is #000000
+  - The default color will be changed according to the template
   
 - **Custom CSS**: You can edit the labels as your want
 - **Select position**: You can edit the display position of labels here by moving the mouse or edit the display position of labels by choosing the positions respectively with the squares on the side.
@@ -109,7 +113,7 @@ Design the labels and images for the product on the `Product Listing` (the label
     - `Same design with product page = Yes`: Auto-get the design the same as with `Product Page` above
     - `Same design with product page = No`: Display the design the same as `Product Page` above and admins can edit arbitrarily
     
-![product labels](https://i.imgur.com/M5fDL50.gif)       
+![product labels](https://i.imgur.com/184QCG2.gif)     
     
 ### Frontend
 #### Display on the Product Listing
