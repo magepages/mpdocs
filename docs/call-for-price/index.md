@@ -18,7 +18,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 - **Enable**: Choose `Yes` to use the functions of this module
 - **Apply custom request status**:
   - `Apply custom request status = No`
-    - There're 4 available statues of this extension: To Do, Doing, Done, Cancel
+    - There're 4 available statuses of this extension: To Do, Doing, Done, Cancel
     - When there's a request sent to, the default status of the request is To Do
     
   - `Apply custom request status = Yes`
