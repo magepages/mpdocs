@@ -124,7 +124,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 ### Requests Management
 Display all customer requests sending to the store. 
 
-![requests ](https://i.imgur.com/MXFdkba.png)
+![requests](https://i.imgur.com/GkzRIEY.png)
 
 When you click on `View`, store owners can view the details of the request, such as the date of the request, the name and email of the customers, the product the customers are interested in and store owners can change the status of the request to manage requirements with ease. At the same time, they can also annotate on customer requirements.
 
@@ -150,6 +150,8 @@ If you have installed Mageplaza Reports Standard extension on your site, in the 
 
 ![compatible with reports](https://i.imgur.com/ZFVXDZV.png)
 
+When You click on the View Details link in the Call for Requests card, Requests page will show all information of the request sent to the website.
+
 ### Frontend
 
 #### Display in the Product Listing
@@ -171,7 +173,7 @@ If you have installed Mageplaza Reports Standard extension on your site, in the 
 
 ### Email
 
-![email](https://i.imgur.com/DtsChZX.png)
+![email](https://i.imgur.com/wCRhpUX.png)
   
   
   
