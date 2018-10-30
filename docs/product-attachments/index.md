@@ -1,7 +1,7 @@
 # Product Attachments
 ## Overview
 
-With attachments that admins have installed on the product, Mageplaza Product Attachments Extension allows users to get the full information about the product they are interested in with ease. Depending on admins that customers can view online or download files, and also log the view/download actions that customers have done. Product Attachments module supports admins to upload many types of files and the unlimited number of attachments for each product. This is a great tool helping your store better than ever.
+With attachments that admins have installed on the product, [Mageplaza Product Attachments Extension](https://www.mageplaza.com/magento-2-product-attachments/) allows users to get the full information about the product they are interested in with ease. Depending on admins that customers can view online or download files, and also log the view/download actions that customers have done. Product Attachments module supports admins to upload many types of files and the unlimited number of attachments for each product. This is a great tool helping your store better than ever.
 
 ## How to use
 
