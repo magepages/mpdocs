@@ -44,6 +44,7 @@ Welcome to Mageplaza Docs
    custom-order-number/index
    ajax-layered-navigation/index
    search-m2/index
+   product-attachments/index
    blog-m2/index
    smtp-m2/index
    affiliate-m2/index
