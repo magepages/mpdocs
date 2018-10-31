@@ -7,12 +7,12 @@ From the Admin Panel, go to ``Sales > Order Export``
 
 ![how to configure](https://i.imgur.com/HPLYLTv.png)
 
-### Admin can export the profile by 4 ways:
+### Admins can export the profile by 4 ways:
 
-- 1. Manual: Go to `Manage Profiles > Edit Profile`, Click `Generate`. After the file is generated, go to `Donwload link` to download file
-- 2. Cron: Profile is generated based on Cron: After a long time, profile will auto-generate the file content. After refresh, go to `Download link` to download file
-- 3. Quick Export: Easy to export quickly order/invoice/memo/shipment in `Sales > Order/Invoice/Memo/Shipment`
-- 4. Command: Use the command: `php bin/magento orderexport:generate`. After the profile is generated the content, go to `Download link` to download file
+1. Manual: Go to `Manage Profiles > Edit Profile`, Click `Generate`. After the file is generated, go to `Donwload link` to download file
+2. Cron: Profile is generated based on Cron: After a long time, profile will auto-generate the file content. After refresh, go to `Download link` to download file
+3. Quick Export: Easy to export quickly order/invoice/memo/shipment in `Sales > Order/Invoice/Memo/Shipment`
+4. Command: Use the command: `php bin/magento orderexport:generate`. After the profile is generated the content, go to `Download link` to download file
 
 ### 1. Configuration
 
@@ -122,6 +122,17 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 
 ![condition](https://i.imgur.com/xBhD81E.png)
 
+
+- Choose the condition to export the file. Any order that meets the conditions will be exported. If all fields (except Store Views field) are empty, all orders will be exported
+- `Order Status`: The orders with the selected status will be exported
+- `Customer Groups`: Orders placed by selected customers will be exported
+- `Store Views`: The orders placed on the selected Store view will be exported
+- `Change order Status`: After generating profile, the exported orders will change status to the selected item. Admins can go to `Sales > Operations > Order` to check
+- `Create From - To`: The orders placed during this time will be exported
+- `Order ID From - To`: Orders with IDs in the selected range will be exported
+- `Export Duplicate`: Select No so that the export file overwrites into the old file. However, if the file name has a timestamp add, the file is always created newly. 
+
+##### 2.2.4. Delivery
 
 
 
