@@ -134,6 +134,71 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 
 ##### 2.2.4. Delivery
 
+- `Upload to a remote server`:
+  - To export the exported file to the server, select `Yes` in the `Delivery` field
+  - Select the file sending the file in the `Protocol` field: FTP or SFTP 
+    - For FTP protocol, there is an option to use `Passive Mode`. We recommend that you choose this mode to avoid being blocked by firewalls/NATs/proxies from sending files to the server.
+
+  - Enter the host name in the `Host Name` field
+  - Enter the host name in the `User Name` field
+  - Enter the password to access the host in the `Password` field
+  - If you want to save the file where to enter the path in the `Directory Path` field.
+  - To check whether it is connected to the host, press `Test Connection`
+
+![delivery](https://i.imgur.com/6EmXaIf.gif)
+
+- `Email`:
+
+![email](https://i.imgur.com/idnjOpW.png)
+
+  - Select `Enable` so that Admins can receive email with attached export file when the profile is delivered
+  - Admins can select one of 5 available Magento Senders to be the sender, including: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
+  - `Email Subject`: Fill the subject for email
+  - `Send Email To`: Enter the email that admins want to receive notification when uploading file to the error remote server. You can enter multiple emails separated by commas `,`
+  - `Email Template`:
+    - Extension is pre-installed Email notification
+    - To change Email Template, Admins can create another Email Template under `Marketing > Email Template`.
+    - How to create a new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+
+##### 2.2.5. History
+
+- Check the update history of exported files. Admins can check the update history of the file in Logs.
+
+![history](https://i.imgur.com/nA0gF9b.png)
+
+``NOTE``: Creating Profile of Invoice, Credit Memo, Shipment is similar to create profile of Order. However, they don't have `change Order Status` section.
+
+### 3. Manage Export Logs
+
+This section will record all changes of profiles as status, type, notification, etc. When licking on any file, it will auto-download the file.
+
+
+![manage export logs](https://i.imgur.com/NZ7m40g.png)
+
+### 4. Quick Export
+
+![quick export](https://i.imgur.com/lLRlDpK.png)
+
+
+- To export quickly, admins need to create a profile for the object they want to export (Order, Invoice, Memo, Shipment)
+- Admins can export any order they want without caring to the condition of the Profile
+- The exported file will retrieve the type and template from the selected profile.
+
+### 5. How to install the library
+
+- After installing the extension, you need to download the liquid by running the command: `bin/magento composer require liquid/liquid` or installing the library
+- When enabling the extension only, `Manage Profiles` and `Logs` will be displayed.
+
+
+### 6. Email Notification
+
+#### 6.1. Email notification about Generate/Delivery successfully or fail
+
+![email notification](https://i.imgur.com/uxONjHe.png)
+
+#### 6.2. Email notification when sending the exported file uploaded successfully
+
+![email notification 2](https://i.imgur.com/EljyeFi.png)
 
 
 
