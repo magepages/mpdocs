@@ -26,7 +26,7 @@ From the Admin Panel, go to `Customers > Attribute > Customer, chọn Add New At
 
 ![customer attributes](https://i.imgur.com/Hy3ce1X.gif)
 
-1.1. Attribute Properties
+###### 1.1. Attribute Properties
 
 - `Default Label`:
   - Enter the name for Attributes. The Attributes name will be displayed while you enter the data
@@ -58,22 +58,47 @@ From the Admin Panel, go to `Customers > Attribute > Customer, chọn Add New At
   ![customer attributes 1](https://i.imgur.com/d64Jl5Z.png)
   
   
-    - `Yes/No`: The `Default Value` field will be shown under Yes/No
+     - `Yes/No`: The `Default Value` field will be shown under Yes/No
       
   ![Imgur](https://i.imgur.com/F4MTObc.png)
   
-    - `Text Field`: Display more `Input Validation` field to verify the input of `Default Value`
+     - `Text Field`: Display more `Input Validation` field to verify the input of `Default Value`
     
  ![Imgur](https://i.imgur.com/ywlwaDd.png)   
     
-    - `Text Area, Content`: Display the `Default Value` field under the text
+   - `Text Area, Content`: Display the `Default Value` field under the text
     
   ![Imgur](https://i.imgur.com/B69Ww0p.png)
-  
-    - `Value Required`: Choose Yes so that this is a required field to enter the value, choose No so that it's not a required field. If it's a required field, an icon will display in the left of the attribute `*`
+
+  - `Value Required`: Choose Yes so that this is a required field to enter the value, choose No so that it's not a required field. If it's a required field, an icon will display in the left of the attribute `*`
     
-    
+###### 1.2. Advance Attribute Properties
+
+`Manage Options` only displays when you choose the `Input Type` as *Dropdown, Multiple Select, Multiple Select With Image, Single Select With Image*. 
+
+  - Choose `Add option` to add options and it will show along with Attributes you create. `Delete` button is to remove the option.
+  - You can enter the title into the store field that you want to show to replace that option
   
+  ![Imgur](https://i.imgur.com/0kAp5k2.png)
+  
+  
+###### 1.3. Advance Attribute Properties
+
+- `Attribute Code`:
+  - Enter the Attribute code. This field is used internally. Make sure you do not use spaces or more than 30 symbols.
+  - If you leave blank, the default value is based on `Default Label` field.
+
+- `Default Value`:
+  - Enter the value for the Default Value field. The value you enter will be displayed along with the Attributes you create in the   - `Customer Account Create` section.
+  - This field depends on the choice of the `Input Type` field
+
+- `Input Validation`:
+  - Select input validation type. This field will be displayed only when `Input Type` is set to be `Text Field`.
+  - Validate the input of the `Default Value` according to the choice of the `Input Validation` field. Options include:
+
+  ![Imgur](https://i.imgur.com/ADtBUXX.png)
+  
+- `Add to Customer Grid`: 
   
   
   
