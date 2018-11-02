@@ -1,7 +1,12 @@
-# Multi Flat Rates extension
+# Multiple Flat Rates
 ## Overview
 
-Multi flat rates extension gives your store more choices about the shipping method. Thanks to this module, you can apply different delivery rates to different countries. It not only helps increase the conversion rate but also boost your sale significantly.
+[Multi flat rates extension](https://www.mageplaza.com/magento-2-multi-flat-rates/) gives your store more choices about the shipping method. Thanks to this module, you can apply different delivery rates to different countries. It not only helps increase the conversion rate but also boost your sale significantly.
+
+## Download & Install
+- [Download on Mageplaza](https://www.mageplaza.com/magento-2-multi-flat-rates/)
+- [Download on Github](https://github.com/mageplaza/magento-2-multi-flat-rates)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
 
