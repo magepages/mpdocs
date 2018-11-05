@@ -10,7 +10,7 @@
 
 From the Admin Panel, go to `Customers > Attribute`
 
-![how to configure](https://i.imgur.com/bnKhQKd.png)
+![how to configure](https://i.imgur.com/jaa9Alr.png)
 
 ### 1. Customer 
 
@@ -66,13 +66,18 @@ From the Admin Panel, go to `Customers > Attribute > Customer, chọn Add New At
     
  ![Imgur](https://i.imgur.com/ywlwaDd.png)   
     
-   - `Text Area, Content`: Display the `Default Value` field under the text
+   - `Text Area`: Display the `Default Value` field under the text
     
   ![Imgur](https://i.imgur.com/B69Ww0p.png)
+  
+  - `Content`: 
+  
+  ![content](https://i.imgur.com/1lOZB7V.png)
+  
 
   - `Value Required`: Choose Yes so that this is a required field to enter the value, choose No so that it's not a required field. If it's a required field, an icon will display in the left of the attribute `*`
     
-###### 1.2. Advance Attribute Properties
+###### 1.2. Manage Options
 
 `Manage Options` only displays when you choose the `Input Type` as *Dropdown, Multiple Select, Multiple Select With Image, Single Select With Image*. 
 
@@ -98,7 +103,8 @@ From the Admin Panel, go to `Customers > Attribute > Customer, chọn Add New At
 
   ![Imgur](https://i.imgur.com/ADtBUXX.png)
   
-- `Add to Customer Grid`: 
+- `Add to Customer Grid`: Choose Yes to add the attribute into `Customer Grid`. The column will be added into `Column options`, `Filter Option & Search Option` of `Customer Grid`.
+
   
   
   
