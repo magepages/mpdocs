@@ -135,6 +135,71 @@ Fill the titles in the Store fields that you want to show. The title will replac
 
 ![attribute information](https://i.imgur.com/klxhC6F.png)
 
+- `Show on Storefront`: To display the attributes on Storefront, choose `Yes`. For the attributes are included in the system, you cannot edit the remaining fields in the `Storefront Properties`.
+- `Customer can edit`: Choose Yes so that customers can edit the attributes
+- `Store View`: Choose Store View that allows Attributes to diplay. For unselected store views, attributes will not appear
+- `Customer Group`: Attributes only shows on the selected customer group.
+- `Show on forms`: Show the forms on your store with some options:
+  - `Customer Account Create`:
+  
+  ![customer account create](https://i.imgur.com/e8qTBjd.png)
+  
+  - `Customer Account Edit`:
+  
+  ![customer account edit](https://i.imgur.com/u4zmoBJ.png)
+  
+  - `Admin checkout`:
+  
+  ![admin checkout](https://i.imgur.com/ztqbTvK.png)
+
+- `Sort Order`:
+  - Enter the order number that you want to use to sort the attributes. If you leave this field blank, the default order number is 0.
+  - The smaller the order number, the higher the priority.
+  
+### 2. Customer Address
+
+#### How to create new customer address attributes
+
+![create new customer address attributes](https://i.imgur.com/LF5DM4K.gif)
+
+- Step 1: Enter full informaiton about Customer Address Attributes into Properties
+- Step 2: Fill titles in Manage Labels to replace Attributes name that you want to show on the store
+- Step 3: Enter the information into Storefront Properities to display Attributes at the store position you want
+
+Step 1 and Step 2 are similar to the step 1 and 2 as above. You can refer it.
+
+##### Step 3: Enter the information into Storefront Properities to display Attributes at the store position you want
+
+The only difference of the `Customer Address` for the `Customer` function is that in this step 3, only the `Show on Forms` field has different display options. The remaining fields correspond to **how to create a customer** that we has guided you above.
+
+![customer address](https://i.imgur.com/gNJWFY8.png)
+
+- `Show on forms`: Show the forms on your store
+  - If you have installed [Mageplaza One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), it will show the One Step Checkout page that helps you checkout quickly and conveniently with only one page.
+  
+From the Admin Panel, go to `Store > One Step Checkout > Manage Fields`, drag Attributes to the `Sorted Fields` column that you want to show on the One Step Checkout.
+
+![manage fields](https://i.imgur.com/NiAWhul.gif)
+
+- Also, there're 4 options for you to choose:
+  - `Customer Address Registration`:
+  
+  ![customer address registration](https://i.imgur.com/JgTPVqA.png)
+
+  - `Customer Address Edit`:
+  
+  ![customer address edit](https://i.imgur.com/LYhcc4r.png)
+
+  - `Frontend Checkout`:
+  
+  ![frontend checkout](https://i.imgur.com/Nudo1jK.png)
+
+  - `Admin Checkout`:
+  
+  ![admin checkout](https://i.imgur.com/UL64zJv.png)
+
+
+
 
 
 
