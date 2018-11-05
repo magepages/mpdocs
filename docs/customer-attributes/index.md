@@ -105,19 +105,35 @@ From the Admin Panel, go to `Customers > Attribute > Customer, chọn Add New At
   
 - `Add to Customer Grid`: Choose Yes to add the attribute into `Customer Grid`. The column will be added into `Column options`, `Filter Option & Search Option` of `Customer Grid`.
 
+![add to customer grid](https://i.imgur.com/zrmo8SQ.png)
   
-  
-  
-  
+- `Add to Sale Order Grid`: Choose Yes to add the attribute into `Sale Order Grid`. The column will be adeed into `Column options, filter option & search options` of `Sale Order Grid`
 
+![add to sale order grid](https://i.imgur.com/5xhkfBm.png)
+  
+###### 1.4. Depend Fields
 
+- `Select Field Depend`: Show the attributes when you select `Input type` as Dropdown and Single Select With Image. Thí field will display on the Frontend, admin customer form and admin checkout. Some attributes are available in the system as:
 
+![select field depend](https://i.imgur.com/f0zJaCI.png)
+  
+- `Value Depend`:
+  - Choose the value for `Value Depend` field
+  - This field depends on the option of created attributes and choose the attributes of `Select Field Depend` field. This section will help you expand the options.
+  
+  ![value depend](https://i.imgur.com/zvKGqtt.gif)
+
+``Note``: The display of attributes that you have created depends on the option selection.
 
 ##### Step 2: Fill titles in Manage Labels to replace Attributes name that you want to show on the store
 
+Fill the titles in the Store fields that you want to show. The title will replace the Attributes name that you have created when entering the data. If you leave this field blank, the default attributes name is that you set in the `Default Label` field.
+
+![new customer attribute](https://i.imgur.com/Q6Wci56.png)
+
 ##### Step 3: Enter the information into Storefront Properities to display Attributes at the store position you want
 
-
+![attribute information](https://i.imgur.com/klxhC6F.png)
 
 
 
