@@ -17,16 +17,15 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 
 #### General Configuration
 
-![general configuration](https://i.imgur.com/U1w8ySI.png)
+![general configuration](https://i.imgur.com/OCCyyuf.png)
 
 - **Enable**: Choose `Yes` to use the functions of this module
-- **Apply custom request status**:
-  - `Apply custom request status = No`
-    - There're 4 available statuses of this extension: To Do, Doing, Done, Cancel
+- **Request status**:
+
+    - There're 4 available statuses of this extension: To Do, Doing, To review, Done
     - When there's a request sent to, the default status of the request is To Do
-    
-  - `Apply custom request status = Yes`
-    - Admin can add, edit, or delete the request status to mange requests that they receive easily
+    - Admins can add, edit, or delete the request status to mange requests that they receive easily
+    - Admins can set the default status for the requests they receive
   
 #### Terms and Conditions
 
@@ -54,17 +53,19 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 - **Disable Shopping cart by Customer groups**:
   - The selected customer groups cannot access on Shopping cart page
   - Allow choosing many customer groups simultaneously
+  - If you don't choose to apply for any group, the default will apply for all groups
   
 - **Disable Checkout page by Customer groups**:
   - The selected customer groups cannot access on the Checkout page
   - Allow choosing many customer groups simultaneously
+  - If you don't choose to apply for any group, the default will apply for all groups
   
 #### Admin Email Notification
 
-![Admin Email Notification](https://i.imgur.com/bQqYI18.png)
+![Admin Email Notification](https://i.imgur.com/eVZgKJH.png)
 
 - **Enable**: Choose `Yes` to send the email notification to the store owner when there're requests from customers
-- **Sender**: Choose the sender to send the email notification
+- **Sender Email**: Choose the sender to send the email notification
 - **Send to**:
   - Fill the email to get the notification when there're requests from customers
   - Allow filling in many emails to get the notification simultaneously, the emails are separted by commas
