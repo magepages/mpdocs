@@ -2,7 +2,7 @@
 
 ## Overview
 
-Nowadays, some stores or distributors don't want to display the price of the product on the website, they want to display the information only so that customers must contact the shop owners to ask the price or may bargain the price of the product; however, Magento doesn't support this feature currently. To resolve this problem, therefore, Mageplaza provides Call for Price module that can meet the needs of store owners.
+Nowadays, some stores or distributors don't want to display the price of the product on the website, they want to display the information only so that customers must contact the shop owners to ask the price or may bargain the price of the product; however, Magento doesn't support this feature currently. To resolve this problem, therefore, Mageplaza provides [Call for Price module](https://www.mageplaza.com/magento-2-call-for-price/) that can meet the needs of store owners.
 
 ## How to configure
 
