@@ -285,6 +285,64 @@ Admins can filter to find the rule on the Grid.
 
 ![rp3](https://i.imgur.com/UNUm925.png)
 
+Rule Information shows the basic information of the rule. These information will be displayed outside the grid.
+- `Rule Name`:
+  - This is the name of the rule. This name will only show in the backend, it is used to distinguish with other Behavior Rules
+  - This is a required field. It will notify the error if you leave it blank
+  
+- `Description`:
+  - This field allows admins to describe about the effect of the rule
+  - You can leave this field blank
+  
+- `Status`: Choose Active so that the rule can work
+- `Website`: Choose Website that the rule is applied
+- `Customer Group`:
+  - Choose Customer Group that the rule is applied
+  - A rule can be applied for many Customer Group
+  - Only some Behavior Rules are applied for `NOT LOGGED IN CUSTOMER`
+  
+- `From`: Set the start day using the Behavior Rule. Please note about the timezone's difference 
+- `To`: Set the finish day using Behavior Rule
+- `Priority`:
+  - Indicates the priority used by this Behavior Rule against other Behavior Rules.
+  - 0 is the highest priority. The bigger the number, the smaller the priority
+  - When two Behavior Rules have the same priority, the rule that has a smaller ID will be prioritized (the rule is created first).
+
+###### 1.4.2.2. Conditions
+
+![rp4](https://i.imgur.com/T8adFTR.png)
+
+- After customers perform the action set here, they will receive a certain amount of points that admins set in the `Action` section
+- The actions/events that can be plus points including:
+  - `Create a new account`: The customers receive the point when they register the account
+  - `Sign up for a newsletter`: When the customers subscribe to the newsletter, they will be plused points. Note that only one point is given for this action. After you cancel, then resigter again, you won't get the point.
+  - `Write a review`: When customers write a review for the product and it is approved, the point will be added. However, the review needs to meet the word count requirement. At the same time, customers may need to purchase the product before reviewing for getting the point.
+  
+  ![rp5](https://i.imgur.com/f2fUrP3.png)
+  
+  - `Send email to friends`: Plus the points when customers send an email to refer the products to friends
+  - `Customer's birthday`: Plus points on the customer's birthday occasion. Admins can set the notification for customers or not, at the same time, admins also can change the Sender and the email template if they want
+  
+  ![rp6](https://i.imgur.com/7GzLDoZ.png)
+  
+  - `Like a page with Facebook`: Plus points when customers like a page via Facebook account. To limit the spam, admins can set the minimum time between two likes of an account
+  
+  ![rp7](https://i.imgur.com/DMssNwo.png)
+  
+  - `Tweet a page with Twitter`: Similar to `Like a page with Facebook`, but this action is to share the page on Twitter
+  
+  ![rp8](https://i.imgur.com/pM0mBvh.png)
+  
+  - `+1’ a page with Google+`: Similar to `Like a page with Facebook`, but this action is to share the page on Google+
+  
+  ![rp9](https://i.imgur.com/OgXjs3s.png)
+  
+  - `Share a purchase on Facebook`: When customers place order completely, customers can share the products including in the order on Facebook or Twitter to get the points. For the Facebook, admins need to App Id so that the rule can work well
+  
+  ![rp10](https://i.imgur.com/zYRPJ6q.png)
+
+
+
 
 
 
