@@ -20,7 +20,7 @@ From the Admin Panel, go to ``Sales > Order Export``
 
 Go to `Sales > Order Export > Configuration`
 
-![configuration](https://i.imgur.com/2LmBvEJ.png)
+![configuration](https://i.imgur.com/duMVuG2.png)
 
 - **General**:
   - **Enable**: Choose `Yes` to enable this module and display in the `Sales` section
@@ -70,7 +70,7 @@ To create a profile, admins need to do some following steps:
 - Choose `Add New Order`
 - `General` Tab
 
-![general information](https://i.imgur.com/8sCA18L.png)
+![general information](https://i.imgur.com/mL9RlAs.png)
 
 - Fill in the name displaying in the `Grid Profile` for the export type
 - `Status`: Choose Enable so that Profile can auto-export based on Cron or Command
@@ -93,19 +93,19 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 
 - Choose the file format. There're 5 formats: TXT, CSV, XML, Excel XML, TSV (table-delimited)
 - Click on the `Load Default` button to display the template content that we have installed in the `Template` field. Admins can configure the Template as they want with ease.
-- For the file format is XML, Excel XML:
+- For the file format is XML, Excel XML, JSON:
 
 
-    ![manage profile](https://i.imgur.com/w90xYOu.gif)
+    ![manage profile](https://i.imgur.com/eGwbE6Z.gif)
 
 
   - `Template Content`: The template content is shown in this field. Admins can edit the template here
   - Add values to the template by clicking on the `Insert Variable` button
-  - After adding the template content, admins can click `preview` to see an example about the file content
+  - After adding the template content, admins can click `Download first 5 items` to download the example about the file content
 
 - For file format is CSV, TXT, TSV:
 
-   ![file format](https://i.imgur.com/X0qTqR7.gif)
+   ![file format](https://i.imgur.com/GRZfcfv.gif)
 
   - `Export Type`:
     - `Loop order`: If you choose this format, when the file is exported, it will repeat the order with each item as a line
@@ -120,9 +120,9 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
   - To get the header field when exporting the file, select `Yes` in the `Include Field Header` field
   - Click `Preview` to see an example of file content
 
-##### 2.2.3. Condition
+##### 2.2.3. Conditions
 
-![condition](https://i.imgur.com/xBhD81E.png)
+![condition](https://i.imgur.com/BPC12dv.png)
 
 
 - Choose the condition to export the file. Any order that meets the conditions will be exported. If all fields (except Store Views field) are empty, all orders will be exported
@@ -147,7 +147,7 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
   - If you want to save the file where to enter the path in the `Directory Path` field.
   - To check whether it is connected to the host, press `Test Connection`
 
-![delivery](https://i.imgur.com/6EmXaIf.gif)
+![delivery](https://i.imgur.com/I9qokqE.png)
 
 - `Email`:
 
@@ -161,6 +161,15 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
     - Extension is pre-installed Email notification
     - To change Email Template, Admins can create another Email Template under `Marketing > Email Template`.
     - How to create a new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+
+- `HTTP Request`
+
+![http request](https://i.imgur.com/xWohyWI.png)
+
+  - Choose Enable = Yes to send the file by HTTP Request via URL that is filled below
+  - Admins can add Headers to clarify about HTTP Request
+
+
 
 ##### 2.2.5. History
 
