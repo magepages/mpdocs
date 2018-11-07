@@ -484,7 +484,7 @@ It stores all Referrals Rules that store owners have created
 
 Rule Information shows the basic information of the rule. These information will be displayed outside the grid.
 - `Rule Name`:
-  - This is the name of the rule. This name will only show in the backend, it is used to distinguish with other Behavior Rules
+  - This is the name of the rule. This name will only show in the backend, it is used to distinguish with other Refer Rules
   - This is a required field. It will notify the error if you leave it blank
   
 - `Description`:
@@ -496,16 +496,48 @@ Rule Information shows the basic information of the rule. These information will
 - `Customer Group`:
   - Choose Customer Group that the rule is applied
   - A rule can be applied for many Customer Group
-  - Only some Behavior Rules are applied for `NOT LOGGED IN CUSTOMER`
+  - Only accounts of the selected group are applied for this rule
   
-- `From`: Set the start day using the Behavior Rule. Please note about the timezone's difference 
-- `To`: Set the finish day using Behavior Rule
+- `Referral Group(s)`:
+  - Choose Customer Group that the rule is applied
+  - A rule can be applied for many Customer Group
+  - Only the accounts of this group have the Refer code applied the rule
+  
+For example: Refer code of the account A is 123, Refer code of account B is abc. A is in General Customer. B is in Retailed Customer. Rule has Customer Group as General, Referral Group as General.
+  - When A and B send the code at the same time to C as General Customer, only the code of A works.
+  - When A and B send the code to D as Wholesale Customer, both the code A and B don't work
+  
+- `From`: Set the start day using the Refer Rule. Please note about the timezone's difference 
+- `To`: Set the finish day using Refer Rule
 - `Priority`:
-  - Indicates the priority used by this Behavior Rule against other Behavior Rules.
+  - Indicates the priority used by this Refer Rule against other Behavior Rules.
   - 0 is the highest priority. The bigger the number, the smaller the priority
-  - When two Behavior Rules have the same priority, the rule that has a smaller ID will be prioritized (the rule is created first).
+  - When two Refer Rules have the same priority, the rule that has a smaller ID will be prioritized (the rule is created first).
 
+###### 3.1.2.2. Conditions
 
+!
+
+This section allows admins to choose the conditions for the carts. Only carts that meet the selected conditions, the rule is applied.
+
+###### 3.1.2.3. Actions
+
+!
+
+- `Customer Action`:
+  - Set the point or discount that customers can get access to refer link to place order for each order
+  - There are 4 actions that admins can choose:
+    - `Give fixed points to Customers`: Regardless of the Order Total, Customer can get X points
+    - Give X points for every Y amount of price: Based on Order Total to calculate the number of points that Customer can receive in a certain proportion.
+    - Give a fixed discount to Customer: No matter what Total Order, Customer can receive a certain amount of discount. Customer will receive discount for whole cart instead of receiving point
+    - Give percent discount to Customer: Regardless of the Order Total, Customer can receive a percentage discount. Customer will receive discount for whole cart instead of receiving point
+
+  - Admins can apply the rule for shipping fee or select `Stop further rules` processing to limit the number of refer rules applied
+
+- `Referral's Action`
+  - Set the amount of points that Customer - who sent refer - can receive when the customer they send refer link to order and complete the order
+  - There are 2 actions that admins can choose:
+    - Give fixed X points to Referer: Regardless of the order of the refer referral link is how much, the referer still receives a fixed amount X point
 
 
 
