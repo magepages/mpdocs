@@ -516,41 +516,45 @@ For example: Refer code of the account A is 123, Refer code of account B is abc.
 
 ###### 3.1.2.2. Conditions
 
-!
+![rp16](https://i.imgur.com/elluLq7.png)
 
 This section allows admins to choose the conditions for the carts. Only carts that meet the selected conditions, the rule is applied.
 
 ###### 3.1.2.3. Actions
 
-!
+![rp18](https://i.imgur.com/x7zu8DB.png)
 
 - `Customer Action`:
   - Set the point or discount that customers can get access to refer link to place order for each order
   - There are 4 actions that admins can choose:
-    - `Give fixed points to Customers`: Regardless of the Order Total, Customer can get X points
+    - `Give fixed points to Customers`: No matter how much Order Total, Customer can get X points
     - Give X points for every Y amount of price: Based on Order Total to calculate the number of points that Customer can receive in a certain proportion.
-    - Give a fixed discount to Customer: No matter what Total Order, Customer can receive a certain amount of discount. Customer will receive discount for whole cart instead of receiving point
-    - Give percent discount to Customer: Regardless of the Order Total, Customer can receive a percentage discount. Customer will receive discount for whole cart instead of receiving point
+    - Give a fixed discount to Customer: No matter how much Total Order, Customer can receive a certain amount of discount. Customer will receive discount for whole cart instead of receiving point
+    - Give percent discount to Customer: No matter how much Order Total, Customer can receive a percentage discount. Customers will receive the discount for whole cart instead of receiving the point
 
   - Admins can apply the rule for shipping fee or select `Stop further rules` processing to limit the number of refer rules applied
 
 - `Referral's Action`
-  - Set the amount of points that Customer - who sent refer - can receive when the customer they send refer link to order and complete the order
+  - Set the amount of points that Customer - who sent refer - can receive when the customers whom they send refer link to order and complete the order
   - There are 2 actions that admins can choose:
-    - Give fixed X points to Referer: Regardless of the order of the refer referral link is how much, the referer still receives a fixed amount X point
+    - `Give fixed X points to Referer`: Regardless of how much the refer link user order, the referer still receives a fixed amount X point.
+    - `Give X points for every Y amount of Price`: The number of points that referers can receive depends on the total order ordered by the referrer.
 
+``Note``: Each customer uses one the refer link only.
 
+#### 3.2. Invitation History
 
+![rp15](https://i.imgur.com/2xUHPBM.png)
 
+- As soon as Customer uses a referral link to place a successful order, Invitation History will log the basic information such as ID, Referral Email, Invitation Email, Referral Earn, Invited Earn, Invited Discount, Store.
+- This information will be synchronized with `My referral` of the referer.
+- The amount of `Invited Earn and Invited Discount` applies to referral users as soon as they place the order
+- The amount of `Referral earn` are only added to the referers when the order is complete
 
-
-
-
-
-### III. Transactions.
+### IV. Transactions.
 The right path is ``Marketing > Reward Points: Transaction``.
 
-#### 3.1. General Management.
+#### 4.1. General Management.
 This is the place where admins can create and manage transactions. By entering this interface, admins can add/minus customer’s reward point(s).
 
 ![i9](https://i.imgur.com/1iY4qA3.png)
@@ -561,7 +565,7 @@ This is the place where admins can create and manage transactions. By entering t
   * **Expired**: Admins need to take this action if a transaction isn’t expired automatically. At this point, take the same action when admins view/cancel a transaction, choose “Expired” then process with the ``OK`` button.
 * Admins can filter, hide/display **Column** or export rates.
 
-#### 3.2. Add new transaction.
+#### 4.2. Add new transaction.
 After entering Transaction tab, choose ``Add new transaction`` to generate a new transaction. Next, click ``Save and Continue Edit``, the page will direct to the **View Rate** page.
 
 ![i10](https://i.imgur.com/GD7Ag8H.png)
@@ -581,15 +585,35 @@ After entering Transaction tab, choose ``Add new transaction`` to generate a new
   * The added point(s) of this transaction will be expired after X day(s) from the time you create this transaction.
   * Admins have the right to add higher point(s) than the maximum point of the amount which a customer can accumulate (*E.x: max point = 1000, admins can add 1100 points or even more to the customer balance*).
 
-#### 3.3. View Transaction.
+#### 4.3. View Transaction.
 Admins can review or expire a transaction in the **View Transaction** page.
 
 ![i11](https://i.imgur.com/keL0D6s.png)
 
-### IV. Configuration
+### V. Report
+
+Go to `Reports > Reward Points Reports`
+
+- Reward Points Ultimate offers 2 Report dashboards that are compatible with [Mageplaza Reports](https://www.mageplaza.com/magento-2-reports-extension/).
+- `Earned`:
+  - Record all actions leading to customers being added to the point
+  - Shown as a chart if Mageplaza Reports is installed
+  - This chart can also be displayed in the Dashboard
+
+![rp19](https://i.imgur.com/fbCQOm2.png)
+
+- `Spent`:
+  - Record all actions leading to customers being added to the point
+  - When installing Mageplaza Reports, the dashboard will display a graph showing the ratio between Spending Point and Earning Point
+
+![rp20](https://i.imgur.com/mNaXfdH.png)
+
+![rp21](https://i.imgur.com/ij9K1e4.png)
+
+### VI. Configuration
 Follow in the backend ``Store > Settings > Configuration``. At the left panel, choose ``Mageplaza > Rewward Points``
 
-#### 4.1. General Configuration.
+#### 6.1. General Configuration.
 This general configurations can apply for the whole module.
 
 ![i12](https://i.imgur.com/HyWAogp.png)
@@ -625,7 +649,7 @@ This general configurations can apply for the whole module.
   * Admins can add point(s) to an account balance with no awareness of this value.
   * If the field is left blank or 0, there will be no restriction for the maximum points
 
-#### 4.2. Earning Configuration.
+#### 6.2. Earning Configuration.
 
 ##### 4.2.1. General
 This displays general configurations regarding earning point(s)
@@ -640,7 +664,7 @@ This displays general configurations regarding earning point(s)
 * In the **Earn points from shipping fee**: Select “Yes” to allow Shipping Fee to be converted to point(s).
 * In the **Point Refund** field: When the customer places an order, they will receive a certain amount of earning points. The shop owner selects “Yes” in this section to retrieve the points when customer refunds the order.
 
-##### 4.2.2. Sales Earning Process.
+##### 6.2.2. Sales Earning Process.
 
 ![i14](https://i.imgur.com/xOi55oV.png)
 
@@ -651,7 +675,7 @@ This displays general configurations regarding earning point(s)
   * The number entered here is expiration day of point(s), it starts to count from the day point(s) is (are) added.
   * If this field is blank, point(s) will be used indefinitely.
 
-#### 4.3. Spending Configuration.
+#### 6.3. Spending Configuration.
 ![i15](https://i.imgur.com/g5qAyke.png)
 
 * In the **Discount Label** field: Discount Label displayed on the frontend will change according to the content of this section.
@@ -666,7 +690,7 @@ This displays general configurations regarding earning point(s)
 * In the **Restore spent points after order refunding** field: When customers place an order, they can apply a certain amount of their reward point(s). Admins select “Yes” in this section to return point(s) to customers if their orders are refunded.
 * In the **Use Max Point By Default** field: Select “Yes” to set the customer's spending point(s) to the maximum number that they can use.
 
-#### 4.4. Display Configuration.
+#### 6.4. Display Configuration.
 
 ![i16](https://i.imgur.com/2Q9dDQc.png)
 
@@ -686,7 +710,7 @@ This displays general configurations regarding earning point(s)
 
 ![i22](https://i.imgur.com/AJ15ok4.png)
 
-#### 4.5. Email Configuration.
+#### 6.5. Email Configuration.
 
 ![i23](https://i.imgur.com/3MnOprZ.png)
 
@@ -704,6 +728,38 @@ This displays general configurations regarding earning point(s)
 * In the **Send email reminder before a transaction expires** field
   * Set how many day(s) before the expiration date the email can be sent.
   * If you leave the field blank or 0, reminder email will not be sent.
+
+#### 6.6. Social behavior
+##### 6.6.1. Like via Facebook
+
+![rp22](https://i.imgur.com/yvZMHt1.png)
+
+- `Show Facebook like button on frontend`: Choose Yes so that the Facebook like button can show on the frontend
+- `Show Facebook like count on frontend`: Select yes to display the total number of Facebook like that the page is received
+- `Page to display`: Select the pages where the admins want the Facebook like button to be displayed
+
+##### 6.6.2. Tweet Via Twitter
+![rp23](https://i.imgur.com/9YafrEm.png)
+
+- `Show Twitter tweet button on frontend`: Choose Yes to show the Tweet button of Twitter on the frontend
+- `Page to display`: Choose the pages that admins want the Tweet button to be displayed
+
+##### 6.6.3. 1+ Via Google+
+
+![rp24](https://i.imgur.com/UfBEkZA.png)
+
+- `Show Google+ button on frontend`: Choose Yes to show the Google+ button on the frontend
+- `Page to display`: Choose the pages that admins want the Google+ to be displayed
+
+#### 6.7. Customer referrals
+##### 6.7.1. General
+
+![rp25](https://i.imgur.com/P8WKQqw.png)
+
+
+
+
+
 
 ### V. Manage Reward Point of Customer
 
