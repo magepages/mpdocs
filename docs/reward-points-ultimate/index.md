@@ -341,14 +341,15 @@ Rule Information shows the basic information of the rule. These information will
   
   ![rp10](https://i.imgur.com/zYRPJ6q.png)
 
+###### 1.4.2.3. Actions
 
+- For the actions as Create a new account, Sign up for a newsletter, Send email to friends, Customer birthday occurs, admins only need to set the amount of points that customers receive when performing each action
 
+![rp11](https://i.imgur.com/Xiamk55.png)
 
+- For the remaining actions, admins can limit the number of points that Customers receive in a given time period (per day, per month, per year or lifetime).
 
-
-
-
-
+![rp12](https://i.imgur.com/q8jn4S5.png)
 
 
 ### II. Spending
@@ -455,6 +456,64 @@ Besides, admins can configure more conditions to apply the rule properly.
 This is where admins configure the lable for the rule in every Store View of a store. If it's left blank, default lable will be displayed on the frontend.
 
 ![rewardpoints27](https://i.imgur.com/I1lTjF8.png)
+
+### III. Referrals
+
+Go to `Marketing > Reward Points > Referrals`
+
+#### 3.1. Rules
+##### 3.1.1. Basic management interface
+
+It stores all Referrals Rules that store owners have created
+
+![rp13](https://i.imgur.com/429YT1O.png)
+
+- From the Grid, admins can know all basic information of Referrals Rules as ID, Name, Website(s), Customer Group(s), Status, Created On, Expired, Priority 
+- Admins can also filter to find the rule on the Grid
+
+##### 3.1.2. Add New Rule (Edit Rule)
+- After entering the Rules page, admins select `Add New Rule` to create a new Refer Rule. After the `Save and Continue Edit`, the page will automatically switch to the `Edit Rate` page
+- The `Add New Rule` page consists of three main tabs:
+  - Rule Information
+  - Conditions
+  - Actions
+
+###### 3.1.2.1. Rule Information
+
+![rp14](https://i.imgur.com/h5MAvwF.png)
+
+Rule Information shows the basic information of the rule. These information will be displayed outside the grid.
+- `Rule Name`:
+  - This is the name of the rule. This name will only show in the backend, it is used to distinguish with other Behavior Rules
+  - This is a required field. It will notify the error if you leave it blank
+  
+- `Description`:
+  - This field allows admins to describe about the effect of the rule
+  - You can leave this field blank
+  
+- `Status`: Choose Active so that the rule can work
+- `Website`: Choose Website that the rule is applied
+- `Customer Group`:
+  - Choose Customer Group that the rule is applied
+  - A rule can be applied for many Customer Group
+  - Only some Behavior Rules are applied for `NOT LOGGED IN CUSTOMER`
+  
+- `From`: Set the start day using the Behavior Rule. Please note about the timezone's difference 
+- `To`: Set the finish day using Behavior Rule
+- `Priority`:
+  - Indicates the priority used by this Behavior Rule against other Behavior Rules.
+  - 0 is the highest priority. The bigger the number, the smaller the priority
+  - When two Behavior Rules have the same priority, the rule that has a smaller ID will be prioritized (the rule is created first).
+
+
+
+
+
+
+
+
+
+
 
 ### III. Transactions.
 The right path is ``Marketing > Reward Points: Transaction``.
