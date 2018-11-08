@@ -45,12 +45,14 @@ Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner S
 
 ![banner slider 8](https://i.imgur.com/CmTUjcy.png)
 
-Lazy load images: Set "Yes" to indicate Lazy load is displayed when loading images.
-Autoplay: Select "Yes" so that the products on the slider will automatically move to the left for a certain time when installed in the Autoplay TimeOut. The Autoplay TimeOut field will be displayed.
+- `Lazy load images`: Set "Yes" so that Lazy load is displayed when loading images.
+- `Autoplay`: Select "Yes" so that the products on the slider will automatically move to the left for a certain time when installed in the `Autoplay TimeOut`. The `Autoplay TimeOut` field will be displayed.
 
+![banner slider 9](https://i.imgur.com/6oTt7LR.gif)
 
+- `Autoplay TimeOut`: Set the speed at which the product moves to the left.
 
-
+### 2. Manage Banner
 
 
 
