@@ -804,13 +804,27 @@ To set the price by Point for Product, admins need to Edit Product and enter the
 
 ### IX. Customer Frontend.
 
-#### 9.1. My Account/My Points & Reward.
+#### 9.1. Create New Account
+
+![rp29](https://i.imgur.com/V8STFbs.png)
+
+- Mageplaza Reward Point offers the function Refer email or Refer Code to receive incentives
+- Customers can get refer code information or the email of refereers, they can completely fill in the Refer Email Or Code, then `Create an Account` and place order and get point/discount.
+- For customers who have an account, they need to have the correct link to access, login and use the refer code
+
+#### 9.2. My Account > My Points & Reward
+##### 9.2.1. Reward Dashboard
+
 Customers can check the Reward Point information in this section after logging in:
+
 * **Reward Information** indicates
   * The total reward point(s) that customer has.
   * Earning Rate and Spending Rate that customer is entitled (according to his **Customer Group** and **Website** set in the backend).
   * The maximum number of points that the customer's balance can receive from orders.
   * The maximum number of days that point(s) can be used since that customer receives point(s).
+  
+##### 9.2.3. Transactions
+
 * At **Transaction History**: Customer can know the transaction history in details
   * Made transaction(s) and its comments.
   * Number of point(s) changed
@@ -822,14 +836,14 @@ Customers can check the Reward Point information in this section after logging i
 
 ![i23](https://i.imgur.com/70QxdpB.png)
 
+##### 9.2.3. My Referral
 
+![rp30](https://i.imgur.com/vblrX6z.png)
 
-
-
-
-
-
-
+- Manage the Referral URL and Code of an account
+- When using `Send Invitations` or referral via Social, Refer URL will be sent in email
+- Your Invitee saves the information about the referral action that they did when the referrer performed a successful place order
+- When the order is completed, Customers will receive a point equal to the amount of points `You Earn`
 
 #### 9.3. Checkout Page
 * Customers can use the slider or text box to select the amount of reward point(s) they want to spend.
