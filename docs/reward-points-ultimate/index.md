@@ -756,12 +756,30 @@ This displays general configurations regarding earning point(s)
 
 ![rp25](https://i.imgur.com/P8WKQqw.png)
 
+- `Invitation Email`:
+  - The email is sent when customers want to refer to their friends
+  - Admins can change the template as they want by go to `Marketing > Email Template`
+  - You can refer how to create a new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+
+- `Default Refer URL`:
+  - When customers is referred, click on the refer link, it will be shipped to the page that has the URL filled in here
+  - If you leave this field blank, the default is homepage
+  
+##### 6.7.2. Url Key
+
+![rp26](https://i.imgur.com/hvNXsWj.png)
+
+- `Use Param`:
+  - Choose how to encode refer link
+  - `Url Param`: The refer link has the format `http://example.com/?code=123`
+  - `Hash`: The refer link has the format `http://example.com/#code123`
+  
+- `Prefix`:
+  - Choose the prefix for the refer code
+  - Default = `code`
 
 
-
-
-
-### V. Manage Reward Point of Customer
+### VII. Manage Reward Point of Customer
 
 ![i22](https://i.imgur.com/qX4hUPG.png)
 
@@ -774,9 +792,19 @@ Admins can manage **Reward Points Balance**, **Transactions** and **Notification
 
 The information about **Balance**, **Notification** and **Transaction** in the backend will be synchronized with the customer's frontend at ``My Account > My Points & Reward``.
 
-### VI. Customer Frontend.
+### VIII. Add the price based on points for products
 
-#### 6.1. My Account/My Points & Reward.
+Go to `Catalog > Products`, admins can see that in the Grid, Reward Points column represent the price by the point of the Product
+
+![rp27](https://i.imgur.com/8VF6U9M.png)
+
+To set the price by Point for Product, admins need to Edit Product and enter the amount of points converted from the price that you want to sell, then Save Product.
+
+![rp28](https://i.imgur.com/o8JHF3A.png)
+
+### IX. Customer Frontend.
+
+#### 9.1. My Account/My Points & Reward.
 Customers can check the Reward Point information in this section after logging in:
 * **Reward Information** indicates
   * The total reward point(s) that customer has.
@@ -794,7 +822,16 @@ Customers can check the Reward Point information in this section after logging i
 
 ![i23](https://i.imgur.com/70QxdpB.png)
 
-#### 6.2. Checkout Page
+
+
+
+
+
+
+
+
+
+#### 9.3. Checkout Page
 * Customers can use the slider or text box to select the amount of reward point(s) they want to spend.
 * Used reward point(s) can be limited to a range.
   * Customers are only allowed to use their point(s) within this range.
@@ -809,7 +846,7 @@ Customers can check the Reward Point information in this section after logging i
 
 ![i24](https://i.imgur.com/jYxvQV7.png)
 
-#### 6.3. Other additional frontends.
+#### 9.4. Other additional frontends.
 * **Top link**: Displays the point(s) that customer has.
 
 ![i25](https://i.imgur.com/IDryq1q.png)
