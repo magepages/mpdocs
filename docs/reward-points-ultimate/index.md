@@ -1,5 +1,6 @@
 # Reward Points Ultimate
 ## Overview
+In order to improve Magento 2 Reward Points extension as well as bring the most interesting features to the customers, Mageplaza has developed [Reward Points Ultimate](https://www.mageplaza.com/magento-2-reward-points-extension) extension. This is an advanced version of Professional version that comes with tons of powerful functions for admins in managing their online stores. 
 
 ## How to use
 ### I. For customers
