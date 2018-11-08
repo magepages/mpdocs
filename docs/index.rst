@@ -22,6 +22,7 @@ Welcome to Mageplaza Docs
    layered-navigation-m2/index
    layered-navigation-pro/index
    layered-navigation-ultimate/index
+   ajax-layered-navigation/index
    shop-by-brand-m2/index
    seo-m2/index
    seo-pro/index
@@ -33,17 +34,16 @@ Welcome to Mageplaza Docs
    reward-points/index
    reward-points-pro/index
    reward-points-ultimate/index
+   gift-card/index
    product-feed/index
    security/index
    security-pro/index
-   gift-card/index
    reports/index
    reports-pro/index
    faq/index
    daily-deal/index
    free-shipping-bar/index
    custom-order-number/index
-   ajax-layered-navigation/index
    search-m2/index
    product-attachments/index
    blog-m2/index
