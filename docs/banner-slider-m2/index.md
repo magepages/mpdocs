@@ -1,6 +1,11 @@
 # Banner Slider
 ## Overview
 
+**Magento 2 Banner Slider** is a powerful marketing tool that helps you create banner sliders with nice effects. Thanks to [Mageplaza Banner Slider](), you can customize the banners and sliders as you expect. Admins can easily choose the right place to display your desired banner, which can attract more eye-catching customers and encourage them to view banners as well as get the information you want to share.
+
+Magento 2 Banner Slider Extension supports you to create carousel image slider, image scroll and LightBox video. Also, this extension also supports images. It's completely responsive on iPhone, iPad, Android, Firefox, Chrome, Safari, Opera and Internet Explorer.
+
+
 ## How to configure
 ### 1. Configuration
 
@@ -160,17 +165,34 @@ This section will record all information of the banner that you have created as 
   
   ![banner slider 26](https://i.imgur.com/F4KUmBl.gif)
 
+- `Manually Design`: Select the data that is designed from:
+  - Select `Use config`: It will hide the fields below and retrieve the data from the configuration
+  - Select "Yes" to display the design for the Sliders. This section allows you to customize your slider's design. These design functions correspond to the design in `Slider Design Configuration`, you can refer to our instructions above.
 
 
+### 4. Widget
 
+In addition to your existing location, you can let Banner Slider appear anywhere you want. 
+To create a widget, you need to perform the following steps:
 
+- Step 1: From the Admin panel, go to `Content > Elements > Widgets`, choose `Add Widget`
+- Step 2: `Settings > Type =Banner Slider widget`, `Design Theme = Magento Luma`. Click `Continue` button to move the next step
 
+![banner slider 27](https://i.imgur.com/88OMQCC.png)
 
+- Step 3: Enter the required information in the Storefront Properties
 
+![banner slider 28](https://i.imgur.com/RrVHy0f.png)
 
+- Step 4: Choose the position to display the widget
 
+![banner slider 29](https://i.imgur.com/LRgyxnt.png)
 
+- Step 5: Choose the slider that you want to show
 
+![banner slider 30](https://i.imgur.com/rz8HbIe.png)
+
+- Step 6: Save the information and check on the user interface
 
 
 
