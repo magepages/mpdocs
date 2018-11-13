@@ -129,20 +129,90 @@ From the Admin Panel, go to `Content > Store Locator`
 
 ![store locator 10](https://i.imgur.com/22qt7Q1.png)
 
+- The coordinates of the store location are shown here
+- They can be obtained automatically when admins `Get GPS coordinates`, admins can also manually fill
+- The coordinates change with the marker icon when it moves to another location, however the information on the address above (street, city, etc.) will not change.
+
+##### 2.2.3. Time
+
+###### 2.2.3.1. Open Hours
+
+![store locator 11](https://i.imgur.com/gZBuyd0.png)
+
+###### 2.2.3.2. Holiday
+
+![store locator 12](https://i.imgur.com/BYOdkdd.png)
+
+##### 2.2.4. Contact
+
+![store locator 13](https://i.imgur.com/M8qXmH5.png)
+
+##### 2.2.5. Images
+
+![store locators 14](https://i.imgur.com/8LGgjSL.png)
 
 
+![store locator 15](https://i.imgur.com/hcAyYGA.png)
 
+Select the condition to export the file. Any order that meets the conditions will be exported. If all fields (except Store Views field) are empty, all orders will be exported
+Order Status: The orders with the selected status will be exported
+Customer Groups: Orders placed by selected customers will be exported
+Store Views: The orders placed on the selected view store will be exported
+Change order Status: After generating the Store Location, the exported orders will change status to the selected item. Admin can go to Sales> Operations> Order to check
+Create From - To: The orders placed during this time will be exported
+Order ID From - To: Orders with IDs in the selected range will be exported
+Export Duplicate: Select No to export file over old file. However, if the file name has a timestamp add, the file is always created
 
+##### 2.2.6. Delivery
 
+Upload to a remote server:
+To export the exported file to the server, select Yes in the Delivery field
+Select the file sending method in the Protocol: FTP or SFTP field
+For FTP mode, there is an option to use Passive Mode. We recommend that you choose this mode to avoid being blocked by firewalls / NATs / proxies from sending files to the server.
+Enter the host name in the Host Name field
+Enter the host name in the User Name field
+Enter the password to access the host in the Password field
+If you want to save the file where to enter the path in the Directory Path field.
+To check whether it is connected to the host, press Test Connection
 
+![store locator 16](https://i.imgur.com/A6XKXuI.gif)
 
+- `Email`:
 
+![email](https://i.imgur.com/ulRiWDp.png)
 
+Select Enable so that Admin can receive email with attached export file every time Store Location is delivered
+Admin can select one of 5 Magento Sender available to be the sender, including: General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2
+Email subject: fill the subject for email
+Send Email To: Enter the email that admin wants to receive notification when uploading file to remote server error. You can enter multiple emails separated by `,`
+Email Template:
+Extension is pre-installed Email notification
+To change Email Template, Admin can create another Email Template under Marketing> Email Template.
+How to create a new Email Template here
 
+##### 2.2.7. History
 
+Check the updated history of the exported file. Admin can check the update history of the logs
 
+![Imgur](https://i.imgur.com/RcjOOgg.png)
 
+NOTE: Creating a Store Location of Invoice, Credit Memo, Shipment is similar to Order, but there is no Change Order Status.
 
+### 3. Holidays
+#### 3.1. Grid
 
+![Imgur](https://i.imgur.com/FxebbZV.png)
+
+#### 3.2. Add New/Edit Form
+
+##### 3.2.1. General
+
+![Imgur](https://i.imgur.com/BLXAwCD.png)
+
+##### 3.2.2. Locations
+
+![Imgur](https://i.imgur.com/PfMz0qZ.png)
+
+### 4. Frontend
 
 
