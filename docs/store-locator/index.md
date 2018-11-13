@@ -89,6 +89,50 @@ From the Admin Panel, go to `Content > Store Locator`
 
 ![store locator 6](https://i.imgur.com/xo2drbv.png)
 
+- This is a place to store all store locations that are created
+- From the Grid, admins can capture the basics of Store Location such as ID, Name, Visibility, Store View, City, Zip Code, Country, Sort Order, Create Date and Action that can be done with Store Location.
+- In the `Actions` dialog, admins can execute the following actions:
+  - `Delete`: Admins need to tick Store Location to delete, then select `Delete` in the `Actions` (upper left of the Grid) to delete. A confirmation dialog will appear, select `OK` to continue deleting
+  - `Change Visibility`: Admins need to tick Store Location to change the status, then select `Change Visibility > Yes/No` in the `Actions` dialog (top left of the Grid) to change. A confirmation dialog will appear, select `OK` to confirm the change
+
+- In the `Action` column, admins can click on `Edit` to modify the Store Location
+- In addition, admins can Filter, Change Store View, hide/show Columns, Export Grid or edit inline
+
+![store locator 7](https://i.imgur.com/WR3BTBt.png)
+
+#### 2.2. Add New/Edit Store Locator Order form
+##### 2.2.1. General
+
+![store locator 8](https://i.imgur.com/yHes7Ol.png)
+
+- `Name`: The name entered here is displayed in both the backend and the frontend
+- `Visibility`: Select Yes so that store locator is displayed on the frontend
+- `Description`: Record a short description for the store
+- `URL Key`:
+  - Enter the link to access the location
+  - If left blank, after you Save, based on the `Name` field, URL key will automatically create (unless Name is a hieroglyphic as Russian, Japanese, Korean, Chinese, etc)
+
+- `Store View`: Store Location is only available in the selected Store View
+- `Sort Order`:
+  - Stipulate the display order of the Store Location on the Frontend
+  - 0 is the highest position
+  
+##### 2.2.2. Location
+###### 2.2.2.1. Address Information
+
+![store locator 9](https://i.imgur.com/fuKi3Ix.png)
+
+- Fill in the store location's address information in these fields
+- After entering the correct address, admins click on `Get GPS coordinates` to automatically get coordinates and display on Maps
+
+###### 2.2.2.2. Review Map
+
+![store locator 10](https://i.imgur.com/22qt7Q1.png)
+
+
+
+
+
 
 
 
