@@ -154,26 +154,27 @@ From the Admin Panel, go to `Content > Store Locator`
 
 ![store locator 15](https://i.imgur.com/hcAyYGA.png)
 
-Select the condition to export the file. Any order that meets the conditions will be exported. If all fields (except Store Views field) are empty, all orders will be exported
-Order Status: The orders with the selected status will be exported
-Customer Groups: Orders placed by selected customers will be exported
-Store Views: The orders placed on the selected view store will be exported
-Change order Status: After generating the Store Location, the exported orders will change status to the selected item. Admin can go to Sales> Operations> Order to check
-Create From - To: The orders placed during this time will be exported
-Order ID From - To: Orders with IDs in the selected range will be exported
-Export Duplicate: Select No to export file over old file. However, if the file name has a timestamp add, the file is always created
+- Select the condition to export the file. Any order that meets the conditions will be exported. If all fields (except Store Views field) are empty, all orders will be exported
+- `Order Status`: The orders with the selected status will be exported
+- `Customer Groups`: Orders placed by selected customers will be exported
+- `Store Views`: The orders placed on the selected view store will be exported
+- `Change order Status`: After generating the Store Location, the exported orders will change the status to the selected item. Admins can go to `Sales > Operations > Order` to check
+- `Create From - To`: The orders placed during this time will be exported
+- `Order ID From - To`: Orders that have IDs in the selected range will be exported
+- `Export Duplicate`: Select No to export file over old file. However, if the file name adds a timestamp, the file is always created
 
 ##### 2.2.6. Delivery
 
-Upload to a remote server:
-To export the exported file to the server, select Yes in the Delivery field
-Select the file sending method in the Protocol: FTP or SFTP field
-For FTP mode, there is an option to use Passive Mode. We recommend that you choose this mode to avoid being blocked by firewalls / NATs / proxies from sending files to the server.
-Enter the host name in the Host Name field
-Enter the host name in the User Name field
-Enter the password to access the host in the Password field
-If you want to save the file where to enter the path in the Directory Path field.
-To check whether it is connected to the host, press Test Connection
+- `Upload to a remote server`:
+  - To send the exported file to the server, select `Yes` in the `Delivery` field
+  - Select the file sending method in the Protocol: FTP or SFTP field
+    - For FTP mode, there is an option to use `Passive Mode`. We recommend that you choose this mode to avoid being blocked by firewalls/NATs/proxies from sending files to the server.
+
+  - Enter the host name in the `Host Name` field
+  - Enter the host name in the `User Name` field
+  - Enter the password to access the host in the `Password` field
+  - If you want to save the file anywhere, enter the path in the `Directory Path` field.
+  - To check whether it is connected to the host or no, press `Test Connection`
 
 ![store locator 16](https://i.imgur.com/A6XKXuI.gif)
 
@@ -181,22 +182,22 @@ To check whether it is connected to the host, press Test Connection
 
 ![email](https://i.imgur.com/ulRiWDp.png)
 
-Select Enable so that Admin can receive email with attached export file every time Store Location is delivered
-Admin can select one of 5 Magento Sender available to be the sender, including: General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2
-Email subject: fill the subject for email
-Send Email To: Enter the email that admin wants to receive notification when uploading file to remote server error. You can enter multiple emails separated by `,`
-Email Template:
-Extension is pre-installed Email notification
-To change Email Template, Admin can create another Email Template under Marketing> Email Template.
-How to create a new Email Template here
+  - Select Enable so that admins can receive the email with attached export file when Store Location is delivered
+  - Admins can select one of 5 Magento available senders to be the sender, including: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
+  - `Email subject`: Fill the subject for email
+  - `Send Email To`: Enter the email that admins want to receive the notification when uploading the file to the error remote server. You can enter multiple emails separated by `,`
+  - `Email Template`:
+    - The extension is pre-installed Email notification
+    - To change Email Template, admins can create another Email Template under `Marketing > Email Template`.
+    - How to create a new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 
 ##### 2.2.7. History
 
-Check the updated history of the exported file. Admin can check the update history of the logs
+- Check the update history of the exported files. Admins can check the update history of files in the `Logs` section
 
 ![Imgur](https://i.imgur.com/RcjOOgg.png)
 
-NOTE: Creating a Store Location of Invoice, Credit Memo, Shipment is similar to Order, but there is no Change Order Status.
+``NOTE: Creating a Store Location of Invoice, Credit Memo, Shipment is similar as creating a Store Locator of Order, but there is no Change Order Status field.``
 
 ### 3. Holidays
 #### 3.1. Grid
