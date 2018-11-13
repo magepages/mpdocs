@@ -48,6 +48,7 @@ Welcome to Mageplaza Docs
    product-attachments/index
    blog-m2/index
    smtp-m2/index
+   call-for-price/index
    affiliate-m2/index
    automatic-related-products/index
    frequently-bought-together/index
