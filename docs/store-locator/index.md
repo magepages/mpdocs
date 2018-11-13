@@ -4,6 +4,10 @@
 
 ## How to use
 
+- Customers can see a list of all the addresses of the store branches
+- Customers can quickly search any store with the Search feature
+- Customers can zoom in, zoom out Map as well as can change the store search radius
+
 ## How to configure
 
 From the Admin Panel, go to `Content > Store Locator`
