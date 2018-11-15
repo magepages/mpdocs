@@ -184,13 +184,14 @@ From the Admin Panel, go to `Content > Store Locator`
 
 ![holidays](https://i.imgur.com/CI4jaOd.png)
 
-This is the place to store all the Holiday that Admin installed for store
-From the Grid, Admin can capture basic Holiday information such as: ID, Name, Status, No. of Locations, Create Date and Action can be done with Holiday
-In the Actions dialog, Admin can execute the following actions:
-Delete: Admin need tick tick Holiday to delete, then select delete in the Actions (upper left of the Grid) to delete. A confirmation dialog will appear, select OK to continue deleting
-Change Status: Admin need tick tick Holiday want to change status, then, Change Status> Yes / No in the Actions dialog (top left of the Grid) to change. A confirmation dialog will appear, select OK to confirm the change
-In the Action column, Admin can click Edit to modify Holiday information
-In addition, Admin can Filter, Change Store View, hide / show Columns, Export Grid or edit inline
+- This is a place to store all the Holidays that admins installed for store
+- From the Grid, admins can capture basic Holiday information such as: ID, Name, Status, No. of Locations, Create Date and Action that can be done with Holiday
+- In the `Action` dialog, admins can execute the following actions:
+  - `Delete`: Admin need tick tick Holiday to delete, then select delete in the Actions (upper left of the Grid) to delete. A confirmation dialog will appear, select OK to continue deleting
+  - `Change Status`: Admins need tick tick Holiday that they want to change status, then, choose `Change Status > Yes/No` in the `Action` dialog (top left of the Grid) to change. A confirmation dialog will appear, select `OK` to confirm the change
+
+- In the `Action` column, Admin can click Edit to modify Holiday information
+- In addition, admins can Filter, Change Store View, hide/show Columns, Export Grid or edit inline
 
 
 ![grid](https://i.imgur.com/QDhVqAq.png)
@@ -205,8 +206,8 @@ In addition, Admin can Filter, Change Store View, hide / show Columns, Export Gr
 
 ![Imgur][(https://i.imgur.com/9EJOjjP.png)
 
-The Location created in the Content> Store Locator> Locations section will be displayed in this section
-Selected stores will be eligible for this holiday. Opening times on the Frontend will change from Open to Close on holidays
+- The created locations in the `Content > Store Locator > Locations` section will be displayed in this section
+- Selected stores will be applied for this holiday. Opening times on the Frontend will change from Open to Close on holidays.
 
 
 
