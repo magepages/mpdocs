@@ -1,7 +1,7 @@
 # Share Cart
 ## Overview
 
-**Share Cart** allows customers to share their shopping carts with friends and family. It helps expand the supply of product information through a customer without much effort on your part. Promoting your products through customers is the best marketing campaign, because you know, people usually trust the suggestions from their friends and relatives. With the help of this module, we believe you can surely increase your sales and profitability, bringing your products closer to consumers. All is included in [Mageplaza Share Cart extension]().
+**Share Cart** allows customers to share their shopping carts with friends and family. It helps expand the supply of product information through a customer without much effort on your part. Promoting your products through customers is the best marketing campaign because you know, people usually trust the suggestions from their friends and relatives. With the help of this module, we believe you can surely increase your sales and profitability, bringing your products closer to consumers. All are included in [Mageplaza Share Cart extension]().
 
 
 ## How to configure
