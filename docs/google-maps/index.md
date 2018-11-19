@@ -11,6 +11,8 @@ Login to the Magento Admin, choose `Store > Settings > Configuration > Mageplaza
 
 #### 1. General
 
+![google maps](https://i.imgur.com/eJpFv5M.png)
+
 
 
 
