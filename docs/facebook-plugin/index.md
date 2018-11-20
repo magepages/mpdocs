@@ -1,6 +1,8 @@
 # Facebook Plugin
 ## Overview
 
+Nowadays, Facebook is one of the most popular social networks to be used. And almost store owners have the need to advertise their stores on Facebook. However, the cost of advertising on Facebook is quite large. Therefore, Mageplaza has built a new module as **Facebook Plugin**. It allows store owners to insert a Facebook Page widget easily. This makes it easier, less expensive, and more effective for online stores to reach consumers. Not only that, store owners can manage Facebook comments on the product details page with an ease.
+
 ## How to configure
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Facebook Plugin > Configuration`
@@ -123,32 +125,39 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
 
 ![facebook plugin 13](https://i.imgur.com/YAQMaxu.png)
 
-Facebook URL
-Enter the URL of the Facebook page you want to advertise
-Only show Facebook pages to public
-Tabs
-Select the tabs displayed on the Facebook page
-You can choose from three tabs: Timeline, Event, Messages
-The default is the Timeline tab
-Width
-Enter the width of the Facebook page display frame
-The default width for frames is 340px
-Minimum width is 180px, maximum width is 500px
-Cao
-Enter the length of the Facebook page display frame
-The default is 500px
-Hide cover photo
-Select Yes to hide the cover of the Facebook page
-The default is No
-Show profile photo: Select Yes to display a friend's avatar when friends like Facebook
-Select Yes to hide the call-to-action button on the Facebook page (if this call-to-action button is available on the page). For example, on the Facebook page there is a button: Book Now, Call Now, Send Email ... then these buttons will be hidden if configured.
-Small header
-Select Yes to display the small header
-The call-to-action button will be hidden
-Adapt Width
-Select Yes to automatically adjust the width of the Facebook display frame accordingly
-The default is Yes
+- **Facebook URL**:
+  - Enter the URL of the Facebook page you want to advertise
+  - Only show Facebook pages in the public mode
 
+- **Tabs**:
+  - Select the tabs displayed on the Facebook page
+  - You can choose from three tabs: Timeline, Event, Messages
+  - The default is the Timeline tab
+
+- **Width**:
+  - Enter the width of the Facebook page display frame
+  - The default width for frames is 340px
+  - Minimum width is 180px, maximum width is 500px
+
+- **Height**:
+  - Enter the length of the Facebook page display frame
+  - The default is 500px
+  - The minimum length is 70px
+
+- **Hide cover photo**:
+  - Select Yes to hide the cover of the Facebook page
+  - The default is No
+
+- **Show profile photo**: Select Yes to display a friend's avatar when friends like Facebook page
+- **Hide the custom Call To Action**: Select Yes to hide the call-to-action button on the Facebook page (if this call-to-action button is available on the page). For example, on the Facebook page there is the buttons: Book Now, Call Now, Send Email, etc, then these buttons will be hidden if `Hide the custom call to action = Yes`
+
+- **Small header**:
+  - Select Yes to display the header with the small size
+  - The call-to-action button will be hidden
+
+- **Adapt Width**:
+  - Select Yes to automatically adjust the width of the Facebook display frame accordingly
+  - The default is Yes
 
 ## 3. Frontend
 ### 3.1. The display of the Facebook page
