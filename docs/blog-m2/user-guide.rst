@@ -35,7 +35,7 @@ I.  Configuration
 1.1. General Configuration 
 ^^^^^
 
-Login to Magento Admin, ``Mageplaza > Better Blog: Configuration``. Open **General** section
+Login to Magento Admin, ``Content > Better Blog: Configuration``. Open **General** section
 
 .. image:: https://i.imgur.com/WOV7v2S.png
 
@@ -212,13 +212,13 @@ II.  Create New Post
 2.1. Complete the post information
 ^^^^^ 
 
-* Login to Magento Admin, follow ``Mageplaza > Better Blog: Manage Posts``.
+* Login to Magento Admin, follow ``Content > Better Blog: Manage Posts``.
 
 .. image:: https://i.imgur.com/2m9IQB7.gif
 
 * On the upper-right corner, tap Add New Posts button
 * Set Name for the new post
-* To display the new post, choose “Yes” in the **Enabled** field
+* To display the new post, choose “Enable” in the **Status** field
 * Enter Short Description if it’s necessary.
 * Use WYSIWYG Mode to insert the post content that allows showing right as on the frontend. If you want to show the content under code, tap Show/Hide Editor button.
 * Choose the Store View where you want to display the post. 
@@ -229,12 +229,23 @@ II.  Create New Post
 * Publish Date: Configure the displaying of the post date 
 * Enter the URL Key that the visitor can access the blog post
 * Complete Meta Title, Meta Description, and Meta Keywords for your better SEO.
-* Set Meta Robots to one of the following opitons:
+* Set Meta Robots to one of the following options:
 
   * Index, Follow
   * NoIndex, NoFollow
   * NoIndex, Follow
   * Index, NoFollow
+
+* Set the layout for posts based on 5 following options:
+
+  * Empty
+  * 1 column
+  * 2 columns with left bar
+  * 2 columns with right bar
+  * 3 columns
+
+.. image:: https://i.imgur.com/tjahsZA.gif
+
 
 * Tap ``Save and Continue Edit`` at the header
 
@@ -273,12 +284,13 @@ III.  Create New Tag
 IV.  Create New Topic
 -----
 
-* Login to Magento Admin, follow ``Mageplaza > Better Blog: Manage Topics``
+* Login to Magento Admin, follow ``Content > Better Blog: Manage Topics``
 
 .. image:: https://i.imgur.com/tIM1H4p.gif
 
-* To active the new topic, set Status to “Yes”
+* To active the new topic, set Status to “Enable”
 * Set Name for the new topic
+* Enter Description if you need
 * Choose Store View where you want to display the topic
 * Enter the URL Key that the visitor can access the topic
 * Complete Meta Title, Meta Description,and Meta Keywords for your better SEO.
