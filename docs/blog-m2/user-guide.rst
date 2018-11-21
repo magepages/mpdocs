@@ -214,8 +214,6 @@ II.  Create New Post
 
 * Login to Magento Admin, follow ``Content > Better Blog: Manage Posts``.
 
-.. image:: https://i.imgur.com/2m9IQB7.gif
-
 * On the upper-right corner, tap Add New Posts button
 * Set Name for the new post
 * To display the new post, choose “Enable” in the **Status** field
@@ -264,7 +262,6 @@ III.  Create New Tag
 
 * Login to Magento Admin, follow ``Mageplaza > Better Blog: Manage Tags``
 
-.. image:: https://i.imgur.com/MYmQMKN.gif
 
 * To active the new tag, set Status to “Yes”
 * Set Name for the new tag
@@ -278,6 +275,8 @@ III.  Create New Tag
   * NoIndex, Follow
   * Index, NoFollow
 
+.. image:: https://i.imgur.com/vvclxMK.gif
+
 * If necessary, you can assign the new tag to a specific post.
 * Click on ``Save Tag`` when complete.
 
@@ -285,8 +284,6 @@ IV.  Create New Topic
 -----
 
 * Login to Magento Admin, follow ``Content > Better Blog: Manage Topics``
-
-.. image:: https://i.imgur.com/tIM1H4p.gif
 
 * To active the new topic, set Status to “Enable”
 * Set Name for the new topic
@@ -301,17 +298,17 @@ IV.  Create New Topic
   * NoIndex, Follow
   * Index, NoFollow
 
+.. image:: https://i.imgur.com/CJrY6Mg.gif
+
 * If necessary, you can assign the new topic to a specific post.
 * Click on ``Save Topic`` when complete.
 
 V.  Create New Category
 -----
 
-* Login to Magento Admin, follow ``Mageplaza > Better Blog: Categories``
+* Login to Magento Admin, follow ``Content > Better Blog: Categories``
 
-.. image:: https://i.imgur.com/YtJ6ayv.gif
-
-* To active the new category, set Status to “Yes”
+* To active the new category, set Status to "enable"
 * Set Name for the new topic
 * Choose Store View where you want to display the category
 * Enter the URL Key that the visitor can access the category
@@ -323,15 +320,17 @@ V.  Create New Category
   * NoIndex, Follow
   * Index, NoFollow
 
+.. image:: https://i.imgur.com/rSRpz9b.gif
+
 * If necessary, you can assign the new category to a specific post.
 * Click on ``Save Category`` when complete.
 
 VI. Author Information
 -----
 
-* Login to Magento Admin, ``Mageplaza > Better Blog: Author Information``
+* Login to Magento Admin, ``Content > Better Blog: Author Information``
 
-.. image:: https://i.imgur.com/tjpoLar.gif
+.. image:: https://i.imgur.com/Im8OmSX.gif
 
 * Display Name: This name will be displayed on the frontend
 * Enter Short Description if you need
@@ -342,12 +341,12 @@ VI. Author Information
 VII. Manage Comments
 -----
 
-* Only being able to manage Default Comment when choosing "Yes"" at **Need for Approval** field at the `Mageplaza/Configuration/Comment`
+* Only being able to manage Default Comment when choosing "Yes"" at **Need for Approval** field at the `Content/Better Blog//Configuration/Comment`
 * When choosing "No", the status of the default comment is **Approved** and it will display as soon as customers comment.
 * After the customer comments a post, the comment will be sent to the admin with the status ``Pending``.
 * The comment is displayed if the admin switches the comment status into ``Approve``, and in vice versa result if **Status** is ``Spam`` or ``Pending``.
 
-.. image:: https://i.imgur.com/2VpsKh9.gif
+.. image:: https://i.imgur.com/Eb3Bjko.gif
 
 * when editing a comment, admin need to note as the following:
 
@@ -359,7 +358,7 @@ VII. Manage Comments
 
 VIII. Import
 
-* Login to the Magento Admin, choose `Better Blog > Import`
+* Login to the Magento Admin, choose `Content > better Blog > Import`
 * Choose import source is "Wordpress" or "AheadWork Blog extension" [Magento 1] or "MageFan Blog" [Magento 2]
 
 .. image:: https://i.imgur.com/21ePy6V.png
