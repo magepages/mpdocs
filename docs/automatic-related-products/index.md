@@ -27,19 +27,33 @@ Follow our given guide below to complete Automatic Related Products configuratio
   * Manage Rules on Shopping Page
   
 ### I. Configuration
+#### 1. General Configuration
+
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extensions > Automatic Related Products``
 
-![ARP2](https://i.imgur.com/IkqoJjm.png)
+![ARP2](https://i.imgur.com/06O8Vat.png)
 
 * In the **Enable Automatic Related Products** field, choose “Yes” to enable the extension.
-* In the **Display Style** field: There're two types of display
-  * **Ajax Display**: Related blocks will display on the frontend after the website is loaded completely. This style would be recommended for your website performance clearly.
-  * **Block Display**: Related blocks will be loaded together while loading the website and displayed at the same time. This style would be recommended for the better SEO performance. This can't be applied A/B testing.
+
+#### 2. Popup Configuration (Integrate with Where to Show)
+
+![ARP](https://i.imgur.com/gUk60lw.png)
+
+- **Enable Popup**: 
+  - Choose Yes to show a recommended popup on the Product Detail page (The condition is that products apply at least one Product Rule)
+  - This popup will take the information of the first product in the block ARP product list.
+  
+  ![ARP1](https://i.imgur.com/S4frxdP.png)
+
+- **Popup Title**:
+  - Set the name displaying on the frontend for the popup
+  - If you leave this field blank, `Default = Recommended for you`
+
 
 ### II. Manage Rules on Product Page
 This section allows you to install the Related Product Block in your desired Product Page. Product pages that meet this rule, the Related Product Block will be displayed.
 
-To create a new Rule on Product Page, go to ``Mageplaza > Automatic Related Products > Manage Rules``. In the Add Rule section, select Product Page
+To create a new Rule on Product Page, go to ``Marketing  > Automatic Related Products > Manage Rules``. In the Add Rule section, select Product Page
 
 ![ARP3](https://i.imgur.com/FyTTs53.png)
 
@@ -57,19 +71,64 @@ A New Related Block Rule form will be appeared.
 
 * In the **Rule Information** field
   * **Rule Name** field is where you name the rule. The rule name will be displayed on the Grid in Manage Rules Page and visible only with admins. This is a required field so there will be an error message if you leave it blank.
-  * **Location**  is where you specify the block where the Product Page is located
-    * **Replace native related products**: The new block will replace  the Magento's default Related Product Block
-    * **Before native related products**: Auto Related Product block displays above  the Magento's Related Product block
-    * **After native related products**: Auto Related Product block displays below the Magento's Related Product block
-    * **Replace upsell products**: Auto Related Product block will replace the default Upsell Product Block by Magento
-    * **Before upsell products**: Auto Related Product block displays above  the Magento's Related Product Block
-    * **After upsell products**: Auto Related Product block displays below  the Magento's Related Product Block
-    * **Above Content**: Auto Related Product block displays above the Content of the Product Page
-    * **Below Content**: Auto Related Product block displayed under the Content of the Product Page
+  
+  ![Imgur](https://i.imgur.com/IqFDmyx.png)
+  
+  * **Where to Display**  is where you specify the block where the Product Page is located
+  
+  - `Frontend: Before Rule is actived`
 
-```
-Unfortunately, this Location=Custom function is under a maintainance for fixing so please we don't recommend you use this option.
-```    
+  ![Imgur](https://i.imgur.com/5JWJVDv.png)
+  
+  - `Locations where the block can be displayed`
+  
+  ![Imgur](https://i.imgur.com/XUZoBkK.png)
+  
+    * **Replace Related Products**: The new block will replace  the Magento's default Related Product Block
+    
+    ![Imgur](https://i.imgur.com/gJJABtV.png)
+    
+    * **Before native related products**: Auto Related Product block displays above  the Magento's Related Product block
+    
+    ![Imgur](https://i.imgur.com/X29Bg44.png)
+    
+    * **After native related products**: Auto Related Product block displays below the Magento's Related Product block
+    
+    ![Imgur](https://i.imgur.com/33cfEgy.png)
+   
+    * **Replace upsell products**: Auto Related Product block will replace the default Upsell Product Block by Magento
+    
+    ![Imgur](https://i.imgur.com/UOEMtF5.png)
+    
+    * **Before upsell products**: Auto Related Product block displays above  the Magento's Related Product Block
+    
+    ![Imgur](https://i.imgur.com/hZQcGNs.png)
+    
+    * **After upsell products**: Auto Related Product block displays below  the Magento's Related Product Block
+    
+    ![Imgur](https://i.imgur.com/4vNFQBk.png)
+    
+    * **Above Content**: Auto Related Product block displays above the Content of the Product Page
+    
+    ![Imgur](https://i.imgur.com/eLpQr38.png)
+    
+    * **Below Content**: Auto Related Product block displayed under the Content of the Product Page
+    
+    ![Imgur](https://i.imgur.com/27iMHYn.png)
+    
+    * **Floating Left Bar**:
+    
+    ![Imgur](https://i.imgur.com/AzL5djK.png)
+    
+    - **Floating Right Bar**:
+    
+    ![Imgur](https://i.imgur.com/wYJiWFT.png)
+    
+- **Manually**: Admins can adjust the position to show the ARP Block according to the guide. With the guide is Manually, ARP only works on the Product List Page and Product Detail Page
+
+!
+
+
   * In the **Status** field: choose "Active" to enable the rule.  
   * In the **Store View** field you can select the store view where the Rule applies on.
   * In the **Customer Group** field: The rule is only applicable to customers who in  the selected group
