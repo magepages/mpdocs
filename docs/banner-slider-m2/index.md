@@ -11,12 +11,18 @@ Magento 2 Banner Slider Extension supports you to create carousel image slider, 
 
 Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner Sliders`
 
-![banner slider 1](https://i.imgur.com/aXn5n6j.gif)
+![banner slider 1](https://i.imgur.com/tRHs4qo.gif)
 
 #### 1.1. General
+
+![banner slider](https://i.imgur.com/18lwj1D.png)
+
 - `Enable`: Choose Yes to enable this module or choose No to disable it.
 
 #### 1.2. Slider Design Configuration
+
+![banner sliderr](https://i.imgur.com/p9BMGzz.png)
+
 - `Responsive`:
   - Choose "No" so that the number of banners displaying on the browser is default (1 banner)
   
@@ -36,7 +42,7 @@ Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner S
 
 ![banner 5](https://i.imgur.com/NnoE0Ok.gif)
 
-- `Infinity loop`: Choose "Yes" to re-display sliders after it show in the last item.
+- `Infinity Loop`: Choose "Yes" to re-display sliders after it show in the last item.
 
 ![banner slider 6](https://i.imgur.com/oHuBV8U.gif)
 
@@ -50,7 +56,7 @@ Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner S
 
 ![banner slider 8](https://i.imgur.com/CmTUjcy.png)
 
-- `Lazy load images`: Set "Yes" so that Lazy load is displayed when loading images.
+- `Lazy Load Images`: Set "Yes" so that Lazy load is displayed when loading images.
 - `Autoplay`: Select "Yes" so that the products on the slider will automatically move to the left for a certain time when installed in the `Autoplay TimeOut`. The `Autoplay TimeOut` field will be displayed.
 
 ![banner slider 9](https://i.imgur.com/6oTt7LR.gif)
@@ -63,7 +69,7 @@ Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner S
 
 From the Admin Panel, go to `Content > Banner Sliders > Manage Banners`, choose `Add New` button in the right corner
 
-![banner slider 10](https://i.imgur.com/opXhmWr.gif)
+![banner slider 10](https://i.imgur.com/AyVScYt.gif)
 
 #### Banner Information
 
@@ -74,14 +80,35 @@ From the Admin Panel, go to `Content > Banner Sliders > Manage Banners`, choose 
     - `Upload Image`: Click "+" button to upload Image for the banner.
     - `Banner title`: Fill the title for the banner that will be displayed on the user interface.
     - `URL`: Enter Url for the banner that will show in the address bar when clicking on banner.
-
-  - `Type = Video`:
-    - Show more `Video Url` fields
-    - Importing Video Url for the banner will display in the address bar.
     
-  - `Type = advanced`: This will show the toolbar so that you can edit the banner image
+  - `Type = advanced`: This will show the toolbar so that you can edit the banner image. In this section, you can upload more banners at the same time. Show more `Demo template` field and choose the demo template as the following:
   
-  ![banner slider 11](https://i.imgur.com/QuXAECc.png)
+    - `Demo Template 1`:
+    
+  ![banner slider 30](https://i.imgur.com/Bv4yKoW.png)
+   
+    - `Demo Template 2`:
+    
+    ![banner slider 31](https://i.imgur.com/BHOZthM.png)
+    
+    - `Demo Template 3`:
+    
+    ![demo template banner slider](https://i.imgur.com/ay6zSKo.png)
+    
+    - `Demo Template 4`:
+    
+    ![demo template 4](https://i.imgur.com/WXd2EPn.png)
+    
+    - `Demo Template 5`:
+    
+    ![demo template 5](https://i.imgur.com/lXwBBUI.png)
+    
+  
+``Note``:
+  - Click `Load Template` button to show the template image
+  - Choose `Show/Hide Editor` to display the code or the image of the template
+  - `Insert Image`: Ability to add more images for the banner and add more images at the same time. You should add the image when moving `Show/Hide Editor` into the code format so that it's convenient and avoids occurring the error.
+
 
 - `Open new tab after click`:
   - Select "Yes" so when you click on the banner, it will display a new tab to view the banner information that you want to advertise.
@@ -95,17 +122,19 @@ From the Admin Panel, go to `Content > Banner Sliders > Manage Banners`, choose 
 
 From the Admin Panel, go to `Content > Banner Sliders > Manage Slider`, choose `Add New` button in the right corner
 
-![banner slider 12](https://i.imgur.com/kha4In7.png)
+![banner slider 12](https://i.imgur.com/U2RuCkF.png)
 
 #### 3.1. General
 
-![banner slider 13](https://i.imgur.com/iboeqfy.gif)
+![banner slider 13](https://i.imgur.com/EAVO4Yn.gif)
+
+##### 3.1.1. Slider Information
 
 - `Name`: The name of the slider filled in this section is only displayed in the backend. It helps distinguish from other products.
 - `Status`: Select "Enable" to use the Slider. It helps to view the banner in the most convenient way.
 - `Position`: Select the position to appear the sliders on the user interface.
 
-![banner slider 14](https://i.imgur.com/aFSiXmZ.png)
+![banner slider 14](https://i.imgur.com/pfi94Wm.png)
 
 - `Store View`: Select the Store View where the Slider is displayed. With unselected store views, the slider will not appear.
 - `Customer Groups`: The slider is only visible on selected customer groups.
@@ -114,6 +143,10 @@ From the Admin Panel, go to `Content > Banner Sliders > Manage Slider`, choose `
 - `Priority`:
   - Enter the priority for Sliders.
   - The sliders have the smaller priority number, the priority is higher
+  
+##### 3.1.2. Snippet code
+
+In this section, for each slider, you can use **Widgets** to choose the diplay position that you want.
   
 #### 3.2. Banner
 
@@ -127,9 +160,9 @@ This section will record all information of the banner that you have created as 
 
 - `Annimation Effect`: Choose the effect to show on the sliders
 
-![banner slider 17](https://i.imgur.com/aMsarcg.png)
+![banner slider 17](https://i.imgur.com/NDZYBUd.png)
 
-  - `Slider`:
+  - `No`:
 
 ![banner slider 18](https://i.imgur.com/t9m2Rpe.gif)
 
