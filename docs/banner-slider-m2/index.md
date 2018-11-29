@@ -40,7 +40,7 @@ Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner S
 
 - `Auto Height`: Choose "Yes" to use Auto Height
 
-![banner slider 5.1](https://i.imgur.com/oHuBV8U.gif)
+![banner slider 5](https://i.imgur.com/7om1cDI.gif)
 
 - `Infinity Loop`: Choose "Yes" to re-display sliders after it show in the last item.
 
