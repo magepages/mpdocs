@@ -48,7 +48,7 @@ A one-step checkout will be totally done on one page only by completing informat
 
 * Depending on the configuration in the backend, the shipping method will be variable to meet customers' requirements.
 * Admin can add more other shipping methods at the backend ``Sale > Shipping Method``. You can refer `here <https://www.mageplaza.com/magento-2-create-shipping-method/>`_ for more information.
-* Buyers can choose their favourable time to receive delivery at **Delivery Time**
+* Buyers can choose their favourable time to receive delivery at **Delivery Time**. This extension is entirely compatible with OSC
 * Also, buyers can enter their house security code if it's neccessary. 
 * Moreover, One Step Checkout module allows buyers to leave their comments about the orders, products in the **Comments** field
 
@@ -63,14 +63,16 @@ A one-step checkout will be totally done on one page only by completing informat
 1.6. Order Review and Place Order
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: https://i.imgur.com/bUR8yEx.png
+.. image:: https://i.imgur.com/6TFdp0s.png
 
 * In the **Order Review** section, One Step Checkout allows buyers to easily adjust their item's quantity by using the minus/plus button.
 * Subtotal, shipping fee, tax and grand total are displayed clearly by **One Step Checkout**.
 * **One Step Checkout** enables customers to apply coupon in the **Apply Discount Code** box.
 * The box **Sign up for newsletter** can be selected if customers desire to receive information from the online store via email.
+* Customers may request the purchased product to be wrapped and send a gift message with that product.
 * Terms and conditions will be displayed in a pop-up box and can be accepted by clicking on **I agree with terms and conditions**.
 * Eventually, the one step checkout can be finished by a click on the **Place Order** button. The whole process is completed in one page only.
+* Seal block is displayed to make sure this is the official checkout page of the store, not forged. 
 
 
 II. How to configure
@@ -79,11 +81,11 @@ II. How to configure
 Login to Magento Admin, following our given guide below to complete One Step Checkout configuration
 
 * Field Management
-* General Configuration
-  
+* Configuration
+  * General Configuration
   * Display Configuration
   * Design Configuration
-  * Terms & Conditions Configuration
+  * GeoIP Configuration
 
 2.1. Field Management
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -122,56 +124,99 @@ From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag
 2.2.2. Display Configuration
 ''''''''''''''''''''''''''''''''''''
 
-Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > One Step Checkout > Display Configuration``, open the **Display Configuration** section, and continue with following:
+Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > One Step Checkout`` 
 
-.. image:: https://i.imgur.com/pK7x6Ee.png
+* Open the **Display Configuration** section, and continue with following:
+
+.. image:: https://i.imgur.com/ybrsbLq.png
 
 * In the **Show Login Link** field: Set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
-* In the **Show Order Review Section** field: The Order Review is enabled by default, if you want to disable to review order, let select "Disabled" option.
-* In the **Show Product Thumbnail Image** field: Choose "Yes" to show thumbnail 
+* Show/Hide Footer/Header: Depending on each theme that the checkout page will or will not display the Header/Footer of that page.
+  * With themes which display, choose Yes in this section to make it also display in the One Step Checkout page and choose No to hide it
+  * With themes which not, you can pass this config
+
 * In the **Discount Code Section** field: 
 
   * Select "No" to hide **Apply Discount Code** box on the Checkout page.
   * Select "In Payment Area" to display the **Apply Discount Code** box in the Payment Methods area.
-  * Select “In Review Area” to display the **Apply Discount Code** box in the Review Area area.
-
-* In the **Enable Gift Wrap** field: Select "Yes" if you allow the customer to choose Gift Wrap option. After choosing, the change will be applied automatically to the order.If you allow showing Gift Wrap option, two following fields will be shown:
-
- * **Calculate Method** field, select **Per Order** or **Per Item** to calculate the gift wrap fee based on the item quantity or the order total. Comment box will be shown at the Shipping Method area.
- * **Amount** field, enter the gift wrap fee. If you leave it blank, **Gift wrap fee = 0**
- 
-.. image:: https://i.imgur.com/2ltyWtX.png 
+  * Select "In Review Area" to display the **Apply Discount Code** box in the Review Order area.
  
 * In the **Show Order Comment** field: Select "Yes" to show the Order Comment box that allows the customer to enter their comment on the order.
-* In the **Enable Gift Message** field: Select "Yes" to show the Gift Message box that allows the customer to enter their gift message.
+* In the **Enable Gift Message on order** field: Select "Yes" to show the Gift Message box that allows the customer to enter their gift message.
+
+.. image:: https://i.imgur.com/rfX18ct.gif
+
 * In the **Enable Gift Messages on item** field: This means you will be able to send gift message for each of item. Enable to use this function by choosing “Yes"
 
 .. image:: http://imgur.com/iQ0FOEW.gif
 
 * In the **Show Terms and Conditions** field: You can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
-* In the **Show Newsletter Checkbox** field:
-
-  * Select "Yes" if you want to show Sign up newsletter selection.
-  * Checked Newsletter by default will be displayed. Select "Yes" to keep this item be checked as always.
-
-* In the **Enable Delivery Time** field: Set "Yes" to allow customers to note the time when they can receive the shipping items, some additional fields will be expanded 
 
 .. image:: http://imgur.com/QpvpZmH.jpg
 
-*
-  * In the **House Security Code** field: Choose “Yes” if you want to display this selection.
-  * In the **Date Format** field: Choose an appropriate format for the date and time. Here are 3 format provided: *Day/Month/Year*, *Month/Day/Year*, and *Year/Month/Day*.
-  * In the **Days Off** field: choose day(s) not in your official working time. 
-  * You can refer for more configure guide in `here <https://www.mageplaza.com/magento-2-delivery-time-extension/>`_.
+2.2.2.1. Review Cart Section
+''''''''''''''''''''''''''''''''''''
 
-.. image:: https://i.imgur.com/LGdENxO.png
+.. image:: https://i.imgur.com/1NXqUR6.png
 
-* In the **Enable Survey** field: Set "Yes" to allow store owner can issue a survey question to buyers when they placed order successfully, some additional fields will be expanded.
+* In the **Show Order Review Section** field: The Order Review is enabled by default, if you want to disable to review order, let select "Disabled" option.
+* Show Product List Toggle: Choose Yes so customers can shorten the product list before checkout
+* In the **Show Product Thumbnail Image** field: Choose "Yes" to show thumbnail
 
+2.2.2.2. Gift Wrap
+''''''''''''''''''''''''''''''''''''
+
+.. image:: https://i.imgur.com/tZG0Yxc.png
+
+* Select "Yes" if you allow the customer to choose Gift Wrap option. After choosing, the change will be applied automatically to the order.If you allow showing Gift Wrap option, two following fields will be shown:
+  * **Calculate Method** field, select **Per Order** or **Per Item** to calculate the gift wrap fee based on the item quantity or the order total. Comment box will be shown at the Shipping Method area.
+  * **Amount** field, enter the gift wrap fee. If you leave it blank, **Gift wrap fee = 0**
+  
+2.2.2.3. Newsletter
+''''''''''''''''''''''''''''''''''''
+
+.. image:: https://i.imgur.com/znNzYws.png
+
+* Select "Yes" if you want to show Sign up newsletter selection.
+* Checked Newsletter by default will be displayed. Select “Yes” to keep this item be checked as always.
+
+2.2.2.4. Survey
+''''''''''''''''''''''''''''''''''''
+
+.. image:: https://i.imgur.com/0DkKo3v.png
+
+* Set "Yes" to allow store owner can issue a survey question to buyers when they placed order successfully, some additional fields will be expanded.
   * **Survey Question**: The questionnaire is filled in this section
   * **Survey Answers**: Store owners can offer multiple answer options to their customers. Each of an answer options are displayed as a checkbox, which means that customers can select multiple answers at a time.
-  * **Allow Customer Add Other Option**: Select "Yes" so that customers can make their own answers to survey questions.
+  * **Allow Customer Add Other Option**: Select “Yes” so that customers can make their own answers to survey questions.
+
+2.2.2.5. Seal Block
+''''''''''''''''''''''''''''''''''''
+
+* Seal Block always displays under Place Order button
+
+.. image:: https://i.imgur.com/PKJoptF.png
+
+* There are 3 display Seal Block options: 
+  * Enable = No: Not display Seal Block in One Step Checkout
   
+.. image:: https://i.imgur.com/8cSlIhN.png
+
+  * Enable = Select Static Block. When the admin selects this option, the Block option will be displayed to admin select the CMS block that he or she wants to act as Seal Block to show outside the Frontend. We also provide you seal block default which is One Step Checkout Seal Content to refer
+  
+.. image:: https://i.imgur.com/QOyQ8Cw.png
+
+  * Enable = Use Default Design. When choosing this option, admin can customize the images and contents of Seal Block quickly and easily
+  
+.. image:: https://i.imgur.com/EXFwdXT.png
+
+2.2.2.6. Static CMS Block
+''''''''''''''''''''''''''''''''''''
+
+.. image:: https://i.imgur.com/634SZ8G.png
+
+* Choose Yes to insert Static CMS Blocks into Top/Bottom of One Step Checkout page or insert in Success Page. The display order is set in the Sort Order column 
+
 2.2.3. Design Configuration
 ''''''''''''''''''''''''''''''''''''
 
