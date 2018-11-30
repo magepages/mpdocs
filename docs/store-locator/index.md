@@ -10,7 +10,7 @@ Let's experience it right now!
 
 ![store locatorr](https://i.imgur.com/KGGZqnt.png)
 
-- Customers can quickly search any store in a certain area. For example, when a customer searches in Washington, all stores in the selected radius in Washington will be displayed
+- Customers can quickly search any store in a certain area. For example, when a customer searches in Washington, all stores in the selected radius in Washington will be displayed.
 
 ![store locator i](https://i.imgur.com/RyJtVWd.png)
 
@@ -52,20 +52,24 @@ From the Admin Panel, go to `Content > Store Locator`
 
 ##### 1.1.1. Filter store
 
-![store locator 2](https://i.imgur.com/WFUKAjz.png)
+![store locator 2](https://i.imgur.com/E4behlO.png)
 
-- `Enable`: Select Yes to enable the search feature. Customers can quickly and easily find the store
-- `Filter by current position`: Select Yes to have the map automatically filter the stores to a certain radius from the customer's position
+- `Enable`: Select Yes to enable the search feature.
+- `Auto-Filter by current position`: Select Yes so that customers can move the maps back to their position by one click in the search box:
+
+![store locator iiiii](https://i.imgur.com/SW1ltyZ.png)
+
 
 #### 1.2. Map Settings
 
-![store locator 3](https://i.imgur.com/aORJQVZ.png)
+![store locator 3](https://i.imgur.com/YeGQ2hA.png)
 
 - `Google Map API Key`: In order for Google Map to obtain the coordinates of the locations that admins have added, admins need to enter the Google Map API Key into this section.
 - `Map Style`:
   - We provide 4 most popular Style Maps for admins to choose
   - Admins can only select one style at the same time
-- `AutoGeocode`: Select Yes so the map can automatically get the coordinates of the customers and show the nearest stores when they enter the page
+  - Admins can also custom the maps as they want by themselves 
+  
 - `Zoom Default`:
   - Set map zoom factor (count by %)
   - We recommend a zoom factor as 12%
