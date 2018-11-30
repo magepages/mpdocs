@@ -20,7 +20,7 @@ From the Admin Panel, go to `Sales > Shipping Rules > Configuration`
 
 ### 1. Configuration
 
-![Imgur](https://i.imgur.com/WCcgXpJ.png)
+![shipping rules3](https://i.imgur.com/WCcgXpJ.png)
 
 #### General
 
@@ -71,7 +71,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
   - The smaller the number, the higher the priority
   - For rules with equal priority, the priority will be based on what rules are created first.
 
-![Imgur](https://i.imgur.com/LvWuyfE.png)
+![shipping rules4](https://i.imgur.com/LvWuyfE.png)
 
 ##### Step 2: Set the conditions to apply the rule in the Conditions section
 
@@ -89,14 +89,14 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
     - If the customers use a coupon or purchase and satisfy the conditions of the selected rule in the `Cart Price Rules`, this shipping rule will not apply without checking the applicable conditions of the selection above.
     - If one or more rules is selected in the `Active if Cart Price Rules applied` fields and `Inactive if Cart Price Rules applied` fields, the `Inactive if Cart Price Rules applied` field will be checked based on the `Inactive if Cart Price Rules applied`
 
-![Imgur](https://i.imgur.com/T8phYaX.png)
+![shipping rules5](https://i.imgur.com/T8phYaX.png)
 
 ##### Step 3: Set up shipment calculation in Actions section
 ###### Configure Calculation Shipping Fee
 
 - **How to apply fee**
 
-![Imgur](https://i.imgur.com/ivnS9py.png)
+![shipping rules6](https://i.imgur.com/ivnS9py.png)
 
   - `How to apply fee = Re-calculate shipping fee`: Replace the old shipping fee calculation
   - `How to apply fee = Add extra fee`: Add the extra fee for the shipping
@@ -112,21 +112,25 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
 - `Maximal of Total Shipping Fee`: Enter the maximum shipping charge that the customers will pay
   - For example: Admins configure `Minimal of Total Shipping Fee` is $15. After calculating the shipping fee will be $12. The actual shipping fee will be $15. Similar to the `Maximal of Total Shipping Fee`, the Maximal of Total Shipping Fee is $25. After calculating the shipping fee is  30. The actual shipping fee will be $25.
 
-![Imgur](https://i.imgur.com/nikv7Qo.png)
+![shipping rules7](https://i.imgur.com/nikv7Qo.png)
 
 ###### Configure Order Scope: Shipping fee is calculated for the Order
 
 - **Type**
 
-![Imgur](https://i.imgur.com/AuqQKmb.png)
+![shipping rules8](https://i.imgur.com/AuqQKmb.png)
 
-  - `Type = Disable`: No shipping fee for Order
-  - `Type = Fixed Amount`: The shipment fee is a fixed amount per order
+  - `Type = Disable`: The shipping fee is not calculated for the Order
+  - `Type = Fixed Amount`: The shipping fee is a fixed amount per order
   - `Type = Percentage of original shipping fee`: The shipping fee is the percentage of the original shipping fee. For example, you fill in 5%, the original shipment fee is $20, so the shipping fee is $1 (if the configuration of the `How to apply fee = Re-calculate shipping fee`)
-  - `Type = Percentage of cart total`: Shipment fee is the percentage of total amount. For example: you fill in 5%, cart total is $200, so shipment fee is $10 (if configuration of `How to apply fee = Re-calculate shipping fee`)
+  - `Type = Percentage of cart total`: Shipping fee is the percentage of total amount. For example: you fill in 5%, cart total is $200, so shipment fee is $10 (if configuration of `How to apply fee = Re-calculate shipping fee`)
 
+    - `Cart Total includes`:
+      - `Cart Total includes = Tax`: Shipping fee is calculated based on the total amount of the purchase including Tax
+      - `Cart Total includes = Discount`: Shipping fee is calculated based on the total purchase amount after discount
+      - Cart Total can be selected including Tax and Discount
       
-      ![Imgur](https://i.imgur.com/affYta2.png)
+      ![shipping rules9](https://i.imgur.com/affYta2.png)
 
 - **Fee Amount**
   - Enter fixed shipment or percentage to charge ship
@@ -134,35 +138,36 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
 
 ###### Configure Cart Items Scope:
 
-- Type
+- **Type**
 
-![Imgur](https://i.imgur.com/8fcuLLo.png)
+![shipping rules11](https://i.imgur.com/8fcuLLo.png)
 
-  - Type = Disable: No shipping charge for each product
-  - Type = Fixed Amount: The shipment fee is a fixed amount per order
-  - Type: Fixed amount with each of weight unit: Ship charge is calculated as a certain amount per unit weight. For example, fill $ 5, the weight of the item is 2kg, the original shipment fee is $ 20. The shipment fee is $ 10 or $ 20 + $ 10 or $ 20 - $ 10 (depending on how to apply the fee).
-  - Type = Percentage of cart total: Shipment charge is the percentage of total amount. For example, fill 5%, cart total $ 200, initial shipping $ 20. The shipment fee is $ 10 or $ 20 + $ 10 or $ 20 - $ 10 (depending on how to apply the fee).
-    - Item price includes
-      - Item price includes = Tax: Shipment fee is based on the price of each product included Tax
-      - Item price includes = Discount: Ship charges are calculated based on the price of each item after discount
+  - `Type = Disable`: The shipping fee is not calculated for each product
+  - `Type = Fixed Amount`: The shipping fee is a fixed amount per each order
+  - `Type = Fixed amount with each of weight unit`: Shipping fee is calculated as a certain amount per unit weight. For example: you fill in $5, weight of item is 2kg, so shipping fee is $10 (if configuration of `How to apply fee = Re-calculate shipping fee`)
+ - `Type = Percentage of cart total`: Shipping fee is the percentage of total amount. For example: you fill in 5%, cart total is $200, so shipping fee is $10 (if configuration of `How to apply fee = Re-calculate shipping fee`)
+ 
+    - **Item price includes**
+      - `Item price includes = Tax`: Shipment fee is based on the price of each product included Tax
+      - `Item price includes = Discount`: Ship charges are calculated based on the price of each item after discount
       - You can choose the price of each product including Tax and Discount
       
-      ![Imgur](https://i.imgur.com/g76dgXd.png)
+      ![shipping rules12](https://i.imgur.com/g76dgXd.png)
 
-- Fee Amount
+- **Fee Amount**
   - Enter fixed shipment or percentage to charge ship
-  - This field is not empty
+  - You are not allowed leaving this field blank
 
-- Select the conditions for applying the rule to each product. Only purchase the selected products here to apply shipping charges for each product. You can see the selected products in the PREVIEW PRODUCTS section
+- Select the conditions for applying the rule to each product. Only when you purchase the selected products here, shipping fee is applied for each product. You can see the selected products in the `PREVIEW PRODUCTS` section
 
-  - Apply for free shipping items
-    - Select Yes to apply the rule to the products that are shipped free if the products selected are also in the same rule and that rule has a free configuration ship when purchasing these products.
+  - `Apply for free shipping items`
+    - Select Yes to apply the rule to the products that are shipped free if the selected products are also in the same rule and that rule has a free shipping configuration when purchasing these products.
 
-![Imgur](https://i.imgur.com/aXbKT0Z.png)
+![shipping rules13](https://i.imgur.com/aXbKT0Z.png)
 
 ### 3. Compatible with Mageplaza One Step Checkout 
 
-![Imgur](https://i.imgur.com/QS2AJem.png)
+![shipping rules14](https://i.imgur.com/QS2AJem.png)
 
 
 
