@@ -1,16 +1,16 @@
 # Store Locator 
 ## Overview
 
-Developed by Mageplaza experts, Store Locator is one of the best extensions that allows customers to purchase the desired products in the nearest store with ease. Integrated with Google Maps and GPS, everything becomes easier for customers in finding the nearest shop location. Moreover, it comes with many powerful functions, we sure that you will be satisfied with the benefits that this module brings.
+Developed by Mageplaza experts, [Store Locator](https://www.mageplaza.com/magento-2-store-locator/) is one of the best extensions that allows customers to purchase the desired products in the nearest store with ease. Integrated with Google Maps and GPS, everything becomes easier for customers in finding the nearest shop location. Moreover, it comes with many powerful functions, we sure that you will be satisfied with the benefits that this module brings.
 Let's experience it right now!
 
 ## How to use
 
 - Customers can see a list of all the addresses of the store branches
 
-![store locatorr](https://i.imgur.com/ZTnfOyy.png)
+![store locatorr](https://i.imgur.com/KGGZqnt.png)
 
-- Customers can quickly search any store with the Search feature, however, please note that the text is entered exactly
+- Customers can quickly search any store in a certain area. For example, when a customer searches in Washington, all stores in the selected radius in Washington will be displayed
 
 ![store locator i](https://i.imgur.com/RyJtVWd.png)
 
