@@ -209,7 +209,7 @@ From the Admin Panel, go to `Content > Store Locator`
 
 ##### 3.2.2. Locations
 
-![Imgur][(https://i.imgur.com/9EJOjjP.png)
+![Imgur](https://i.imgur.com/9EJOjjP.png)
 
 - The created locations in the `Content > Store Locator > Locations` section will be displayed in this section
 - Selected stores will be applied for this holiday. Opening times on the Frontend will change from Open to Close on holidays.
