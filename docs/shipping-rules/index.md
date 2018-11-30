@@ -165,7 +165,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
 
 ![shipping rules13](https://i.imgur.com/aXbKT0Z.png)
 
-### 3. Compatible with Mageplaza One Step Checkout 
+### 3. Compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) 
 
 ![shipping rules14](https://i.imgur.com/QS2AJem.png)
 
