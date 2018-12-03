@@ -137,40 +137,44 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 - **Use Tooltip**:
 
-  - Select Yes to display the Tooltip instructing the Customer to enter a value in the Field
-Admintip Tooltip in the Manage Labels / Options to tooltip is displayed in Frontend
-Store View: Attribute is only displayed in the selected Store View
-Customer Group: Attribute is only displayed to the Customer in the selected group
-Add to Sales Order View: Select Yes to display the Attribute at the Order of the Customer. Customer can check the content of the attribute that was filled after the place order
-Sort Order:
-Set the order of appearance of the Attribute
-0 is the highest position
-Admin needs to pay attention when placing this dependency on another Attribute. It is possible that the child attribute will be displayed on the Attribute parent
+  - Select Yes to display the Tooltip instructing the customers enter a value in the Field
+  - Admins need to enter the Tooltip in the Manage Labels/Options so that the tooltip is displayed on the Frontend
+
+- **Store View**: The attribute is only displayed in the selected Store View
+- **Customer Group**: The attribute is only displayed to the Customer in the selected group
+- **Add to Sales Order View**: Select Yes to display the Attribute at the Order of the Customer. Customers can check the content of the attribute that was filled after placing order.
+
+- **Sort Order**:
+  - Set the display order of the Attribute
+  - 0 is the highest position
+  - Admins need to pay attention when placing this dependency on another Attribute. It is possible that the attribute child will be displayed on the Attribute parent
 
 ##### 2.2.3. Manage Labels/Options
 
 !
 
-Manage Labels:
-Set the display name outside the frontend for the Attribute in each store view
-If left blank, the Default Label is populated by the Properties tab
-Manage Tooltips
-Set up short instructional content of Attribute for Customer in each store
-If left blank, the tooltip is not displayed on the Frontend
-Manage Options:
-Only display with Input Type = Dropdown, Multiple Select, Single-select with Image, Multiple-select with Image
-Admin can add options for Attribute in each store view for Customer to choose
-Image is only displayed with Input Type = Single-select with Image, Multiple-select with Image. Admin can choose color or upload image for option
+- **Manage Labels**:
+  - Set the display name outside the frontend for the Attribute in each store view
+  - If leaving this field blank, the Default Label is populated in the Properties tab
+
+- **Manage Tooltips**:
+  - Set up short instructional content of Attribute for Customer in each store
+  - mIf left blank, the tooltip is not displayed on the Frontend
+
+- **Manage Options**:
+  - Only display with Input Type = Dropdown, Multiple Select, Single-select with Image, Multiple-select with Image
+  - Admin can add options for Attribute in each store view for Customer to choose
+  - Image is only displayed with Input Type = Single-select with Image, Multiple-select with Image. Admin can choose color or upload image for option
 
 
 ##### 2.2.4. Depend Attributes
 
 !
 
-Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
-Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
-In addition, Attribute can also depend on one or more shipping methods
-When the Attribute has been added to another Attribute, just depend on the Shipping method, make sure the 2 dependents are selected so that the attribute is displayed.
+- Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
+- Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
+- In addition, Attribute can also depend on one or more shipping methods
+- When the Attribute has been added to another Attribute, just depend on the Shipping method, make sure the 2 dependents are selected so that the attribute is displayed.
 
 ## Frontend
 ### 1. Checkout page Magento
