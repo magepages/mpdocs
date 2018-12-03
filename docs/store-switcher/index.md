@@ -17,6 +17,8 @@ From the Admin Panel, go to `Stores > Store Switcher > Configuration > Mageplaza
 - **Allow visitors save switched store view**: 
   - Choose "Yes" to use the feature `Allow visitors save switched store view`.
   - If Yes is chosen, a popup will be shown to visitors to ask if they want to save the switched store view for the next visit. Save customer choice (popup when manually changing store view)
+  
+  
 
 ### 2. Manage Rules
 #### 2.1. Grid
