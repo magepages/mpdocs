@@ -123,8 +123,49 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 !
 
+- **Position**: We support 7 positions that can display Order Attribute:
+
+  - None: Order Attribute doesn't show on the Frontend and in the Backend
+  - Shipping Address
+  - Shipping Method Top
+  - Shipping Method Bottom
+  - Payment Method Top
+  - Payment Method Bottom
+  - Order Summary
+
+- **Use Tooltip**:
+
+  - Select Yes to display the Tooltip instructing the Customer to enter a value in the Field
+Admintip Tooltip in the Manage Labels / Options to tooltip is displayed in Frontend
+Store View: Attribute is only displayed in the selected Store View
+Customer Group: Attribute is only displayed to the Customer in the selected group
+Add to Sales Order View: Select Yes to display the Attribute at the Order of the Customer. Customer can check the content of the attribute that was filled after the place order
+Sort Order:
+Set the order of appearance of the Attribute
+0 is the highest position
+Admin needs to pay attention when placing this dependency on another Attribute. It is possible that the child attribute will be displayed on the Attribute parent
+
+##### 2.2.3. Manage Labels/Options
+
+!
 
 
+
+
+##### 2.2.4. Depend Attributes
+
+!
+
+
+
+## Frontend
+### 1. Checkout page Magento
+
+!
+
+### 2. Mageplaza One Step Checkout
+
+!
 
 
 
