@@ -149,14 +149,26 @@ Admin needs to pay attention when placing this dependency on another Attribute. 
 
 !
 
-
+Manage Labels:
+Set the display name outside the frontend for the Attribute in each store view
+If left blank, the Default Label is populated by the Properties tab
+Manage Tooltips
+Set up short instructional content of Attribute for Customer in each store
+If left blank, the tooltip is not displayed on the Frontend
+Manage Options:
+Only display with Input Type = Dropdown, Multiple Select, Single-select with Image, Multiple-select with Image
+Admin can add options for Attribute in each store view for Customer to choose
+Image is only displayed with Input Type = Single-select with Image, Multiple-select with Image. Admin can choose color or upload image for option
 
 
 ##### 2.2.4. Depend Attributes
 
 !
 
-
+Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
+Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
+In addition, Attribute can also depend on one or more shipping methods
+When the Attribute has been added to another Attribute, just depend on the Shipping method, make sure the 2 dependents are selected so that the attribute is displayed.
 
 ## Frontend
 ### 1. Checkout page Magento
