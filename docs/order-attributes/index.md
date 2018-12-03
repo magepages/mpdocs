@@ -1,6 +1,8 @@
 # Order Attributes
 ## Overview
+When shop owners understand more about customers, it's easy to increase sales and handle fast. Mageplaza Order Attributes extension allows admins to add custom fields to the checkout page. It helps the store owner to easily collect more information and increase customer satisfaction. Extension provides a variety of custom fields such as Text Field, Text Area, Date, Yes/No, Dropdown, Single-select With Image, Multiple Select with Image, Single File Attachment, Content. Order Attributes will be managed easily on the grid order. Administrators can restrict them to groups of customers or store views.
 
+Order Attributes is also displayed when Admin creates order in the backend
 
 ## How to configure
 
