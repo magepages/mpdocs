@@ -60,7 +60,22 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 ![Imgur](https://i.imgur.com/QYCcCaq.png)
 
-  - `Apply Type = Manual`: Customers can 
+  - **Apply Type = Manual**: Customers can optionally choose the service type of the rule
+    - `Display Area`: Choose the area to show the rule
+    
+![Imgur](https://i.imgur.com/rAHAzPu.png)
+
+  - `Display Area = Cart Summary`: Display the rule in the `Cart Summary` section
+  - `Display Area = Shipping Method`: Display the rule in the `Shipping Method` section
+  - `Display Area = Payment Method`: Display the rule in the `Payment Method` section
+
+- **Display Type`: Choose the display type of the rule for customers to choose
+
+![Imgur](https://i.imgur.com/Ns1uxwt.png)
+
+  - `Display Type = Radio`: Display the 
+
+
 
 
 
