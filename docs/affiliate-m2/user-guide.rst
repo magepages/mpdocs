@@ -15,40 +15,32 @@ Affiliate Home Page
 
 Affiliate Home Page is already setup with CMS Block including Welcome Message and How does Affiliate Program work? If you want to change the text, it is possible to edit from the backend. In addition, all of active Affiliate Program will be displayed on the Affiliate Home Page.
 
-.. image:: https://cdn.mageplaza.com/media/general/FRgYepX.png
+.. image:: https://i.imgur.com/hqZGoQs.png
 
 Look at the left panel on the page, the customer can sign up to become an affiliate.
 
-* For registered customers:
-  
-  .. image:: https://cdn.mageplaza.com/docs/affiliate-sign-up.gif
-
-* For new customers:
-
-  .. image:: https://cdn.mageplaza.com/docs/affiliate-sign-up-new-customer.gif
+.. image:: https://i.imgur.com/SVNIBSZ.png
 
 My Credit Page
 `````````````````
 
 Each affiliate can manage every credit information such as available balance, holding balance, total earned, and total paid and all transactions related to the account are listed in detail.
 
-.. image:: https://cdn.mageplaza.com/media/general/B7gTyOz.png
+.. image:: https://i.imgur.com/PwqIyJw.png
 
 Refer Friend Page
 ````````````````````
 
 Affiliate module by Mageplaza allows affiliate refer friends via referral url, code and email. 
 
-.. image:: https://i.imgur.com/QPl1OEz.png
+.. image:: https://i.imgur.com/JNdDc6y.png
 
 Just insert friends' email address together with message to send invitation instantly on Refer Friend page.
 
 My Withdrawal Page
 ````````````````````
 
-From Affiliate account, send withdrawal request to admin as much as he need.
-
-.. image:: https://cdn.mageplaza.com/media/general/oAloixD.png
+.. image:: https://i.imgur.com/O4RnMKe.png
 
 Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in the progress.
 
@@ -57,50 +49,56 @@ Affiliate Settings Page
 
 Mark the box to register Affiliate Subcription.
 
-.. image:: https://cdn.mageplaza.com/media/general/G1cxMPO.png
+.. image:: https://i.imgur.com/fAlNhr3.png
 
 How to Configure
 ^^^^^^^^^^^^^^^^^^^
 
-General Configurations
+From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Affiliate > Configuration`
+
+.. image:: https://i.imgur.com/0uQYsSN.png
+
+
+1. Configuration
 ``````````````````````````````
 
-Login to Magento Admin, `Affiliate > Settings`.
+.. image:: https://i.imgur.com/Ockt6Oa.png
 
-* To apply Affiliate module for your store, set `Enable` to "Yes".
-* In the `Cookie Expiration` field, enter the number of days to store cookies of this program. If skip it, the default (365) is used, that means Lifetime Commissions can be active.
-* `Allow overriding cookies` field enables to override Affiliate code when a customer is referred by many Affiliates. 
-
-If allowing, enter number "1" into the field. In contrast, insert "0"
-
-.. image:: https://cdn.mageplaza.com/media/general/Sb50HxX.png
-
-* Select CMS Static Block for the content of the following options
-
-  * Affiliate Welcome homepage
-  * Affiliate FAQ page
-  * Affiliate Getting Started
-
-* To make your Affiliate policy visible on the storefront, set `Display Policy Page` to "Yes".
-* Choose "Top Link" or "Footer Link" where Affiliate link appears in the `Show Affiliate link on` box.
-* Set `Affiliate Discount Label` to the desired label on your site.
-
-.. image:: https://cdn.mageplaza.com/media/general/FRkERys.png 
-
-Custom Affiliate URL
+1.1. General 
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://cdn.mageplaza.com/media/general/jo0FRGc.png
+* `Enable`: Choose **Yes** to apply the feature of the module 
+* `Cookie Expiration`
+  * Enter the number of days to store cookies of this program. 
+  * If skip it, the default (365) is used, that means Lifetime Commissions can be active.
+* `Allow overriding cookies`: Choose **Yes** to override Affiliate code when a customer is referred by many Affiliates. 
+* `Show Affiliate link on`: Choose the display position of the Affiliate link
+  * Show Affiliate link on = Footer Link: Display the Affiliate link in the bottom of the page
+  * Show Affiliate link on = Top Link: Display the Affiliate link in the top of the page along with the display of the link **My Account**
+  * You can choose to display in both positions
+  * The default display setting is in the **Top Link**
+  * Custom CSS
+    * Admin can freely customize the display of the Affiliate site 
+    * Supports HTML, CSS
+    
+1.1.1. Default Page
+~~~~~~~~~~~~~~~~~~~~~~~
 
-* Apply "Hash" or "Parameter" for `URL Style` 
+* Affiliate homepage content
+  * Select CMS Block for Affiliate homepage content
+  * The default display is: Affiliate Welcome homepage content
 
-  * Parameter: http://example.com/?c=123
-  * Hash: http://example.com#c123
+1.1.2. Affiliate URL
+~~~~~~~~~~~~~~~~~~~~~~~
 
-* Enter the letter for the customization of Affiliate URL.
-* Set `The Length of Affiliate code` that is between 3 and 32 characters. The default value including 6 characters is always available.
+* URL Style: Choose the type to display URL
+ 
+* `The Length of Affiliate code`
+  * Enter the length of Affiliate code
+  * The default length is 6 characters 
+  * It is recommended to enter a length between 3 and 32 characters to ensure safety
 
-Account Configuration
+1.2. Account Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Related to Affiliate Accounts, you can configure Affiliate Registration, Terms and Conditions Display and Affiliate Account Balance.
