@@ -24,9 +24,15 @@ Let's experience it right now!
 
 ## How to configure
 
-From the Admin Panel, go to `Content > Store Locator`
+- There're 2 ways to access the menu of the extension:
+  - 1. `Content > Store Locator`
+  
+  ![configuration](https://i.imgur.com/mSGJanL.png)
+  
+  - 2. Enable Mageplaza Menu, all extensions of Mageplaza you are installing will be displayed in this menu:
+  
+  ![configuration2](https://i.imgur.com/oAw0jjx.png)
 
-![store locator 1](https://i.imgur.com/BDuIelZ.png)
 
 ### 1. Configuration
 #### 1.1. General
@@ -68,7 +74,7 @@ From the Admin Panel, go to `Content > Store Locator`
 - `Map Style`:
   - We provide 4 most popular Style Maps for admins to choose
   - Admins can only select one style at the same time
-  - Admins can also custom the maps as they want by themselves 
+  - Admins can also custom the maps as they want by themselves. Admins can add `Map Style` as the guide in the last section of this page.
   
 - `Zoom Default`:
   - Set map zoom factor (count by %)
@@ -213,6 +219,40 @@ From the Admin Panel, go to `Content > Store Locator`
 
 - The created locations in the `Content > Store Locator > Locations` section will be displayed in this section
 - Selected stores will be applied for this holiday. Opening times on the Frontend will change from Open to Close on holidays.
+
+
+## How to add Map Style
+- Step 1. Choose Map Style = Custom
+
+![store switcher i](https://i.imgur.com/qcYHaJD.png)
+
+- Step 2. Click here in the comment. The link will be lead to https://snazzymaps.com/
+
+![[store switcher ii](https://i.imgur.com/qBwCXvK.png)
+
+- Step 3. Click on Map Style that you want. For example: `Lost in the desert`
+
+![[store switcher ii](https://i.imgur.com/UbXsqgD.png)
+
+- Step 4. Expand Code and Copy JAVASCRIPT STYLE ARRAY into the Custom checkbox in the configuration
+
+![[store switcher iii](https://i.imgur.com/Dbl5elA.png)
+
+- Step 5. Save and check on the frontend
+
+![[store switcher iiii](https://i.imgur.com/ST2Xc41.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
