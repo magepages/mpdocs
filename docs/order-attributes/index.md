@@ -129,7 +129,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.2. Frontend Properties
 
-![order attribute18](https://i.imgur.com/Qpczj1R.png)
+![order attribute18](https://i.imgur.com/I3WelJo.png)
 
 - **Position**: We support 7 positions that can display Order Attribute:
 
@@ -175,7 +175,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.4. Depend Attributes
 
-![order attribute21](https://i.imgur.com/UovLwww.png)
+![order attribute21](https://i.imgur.com/WdWsMlz.png)
 
 - Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
 - Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
