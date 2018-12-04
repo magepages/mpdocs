@@ -121,11 +121,11 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
  - `Add to Sales Order Grid`: Choose Yes so that the attribute is displayed in the grid at `Sale > Orders`
  - `Add to PDF Files`:
    - Show the compatiblity with Mageplaza PDF Invoice extensions (only apply for PDF Order)
-   - You can refer the guide [here]()
+   - You can refer the guide [here](https://www.mageplaza.com/kb/how-add-order-attributes-to-pdf-order-template.html)
 
 - `Add to Confirmation Emails`:
   - Show to insert Order Attribute to the email confirm order
-  - You can refer the guide [here]()
+  - You can refer the guide [here](https://www.mageplaza.com/kb/how-insert-order-attributes-to-transactional-emails.html)
 
 ##### 2.2.2. Frontend Properties
 
