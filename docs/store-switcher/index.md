@@ -18,7 +18,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Configuration > Mageplaza
   - Choose "Yes" to use the feature `Allow visitors save switched store view`.
   - If Yes is chosen, a popup will be shown to visitors to ask if they want to save the switched store view for the next visit. Save customer choice (popup when manually changing store view)
   
-  
+  ![store switcher i](https://i.imgur.com/j5FiXkf.png)
 
 ### 2. Manage Rules
 #### 2.1. Grid
@@ -59,7 +59,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 - **Countries**: Select the country to apply the rule. Multiple countries can be selected at the same time.
 - **Page Type**: Select the page you want to display the rule:
   - `Specific Pages`: Select the specific page to display rules. It will show 2 more fields:
-    - `Apply by path of URL`: Enter the Url path to apply the rule.
+    - `Apply by path of URL`: Enter the Url path to apply the rule. For example: /blog/, /onestepcheckout/.
     - `Exclude by path of URL`: Enter the Url path to exclude the rule from displaying the selected path.
 
 ``Note``: If the rule is both `Apply by path of URL` and `Excluded by path of URL`, then the rule will not be applied.
@@ -76,6 +76,8 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 - **Type**: Choose the type that you want to redirect to the rule
   - `Redirect to a URL`: It will show more fields:
     - `Redirect to a URL`: Enter the Url into the `Redirect to a URL` field. The rule will be redirected to the selected Url.
+    
+    - For example: If you enter as https://mageplaza.com or mageplaza.com, your website will be redirected to https://mageplaza.com.
   
   - `Redirect to a Store View/Change Currency`: It will show more 3 fields:
     - `Redirect to a store`: Choose the store view. The rule will be redirected to show on the selected store. Multiple stores can be selected at the same time.
@@ -84,7 +86,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
       - `Manually`: If Manually is selected, a notice will be shown to ask if visitor wants to change the store view which suits with the current location. 
         - Notice customer to manually change store view.
 
-![store switcher 6](https://i.imgur.com/WdBsiDk.png)
+![store switcher 6](https://i.imgur.com/L2e41ej.png)
 
       - `Automatic`: If Automatically is selected, the appropriate store view will be auto-switched without any advanced notice or permission.
 
