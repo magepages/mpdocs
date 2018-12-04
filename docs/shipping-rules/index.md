@@ -76,7 +76,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
 ##### Step 2: Set the conditions to apply the rule in the Conditions section
 
 - Select conditions to apply the rule
-- You can choose which products apply the rule or which conditions satisfy the rule. You can find products that meet the conditions in the `PREVIEW PRODUCTS` section
+- You can set the conditions for **Cart** or **Product** section as *Subtotal  greater than  50, Total Items Quantity less than  5, etc*
 - The condition to apply Shipping Rules will depend on `Cart Price Rules`.
   - Active if Cart Price Rules applied
     - Select the created rule in the `Cart Price Rules` to activate the rule for shipping
