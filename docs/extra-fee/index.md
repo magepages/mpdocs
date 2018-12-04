@@ -5,9 +5,13 @@
 
 From the Admin Panel, go to `Stores > Extra Fee > Configuration`
 
+![Imgur](https://i.imgur.com/0P4gSBJ.png)
+
 ### 1. Configuration
 
 From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `General` sections
+
+![Imgur](https://i.imgur.com/qfQmWmN.png)
 
 - **Enable**: Select Yes to use the feature of the module
 - **Calculate Total includes**: Choose how to calculate the shipping cost
