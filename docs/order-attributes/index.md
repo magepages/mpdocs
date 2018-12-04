@@ -102,15 +102,21 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
   - There're 3 options:
     - `None`: Ignore the check HTML, allow HTML tag that can work
     
- For example: test <p>HTML</p> is transformed into: ![order attribute15](https://i.imgur.com/tPkHK7n.png)
+ For example: test <p>HTML</p> is transformed into: 
+ 
+ ![order attribute15](https://i.imgur.com/tPkHK7n.png)
  
  - `Strip HTML Tags`: Remove the HTML tags that include in the field
  
- For example: test <p>HTML</p> is transformed into: ![order attribute16](https://i.imgur.com/1OQUnC0.png)
+ For example: test <p>HTML</p> is transformed into: 
+ 
+ ![order attribute16](https://i.imgur.com/1OQUnC0.png)
  
  - `Escape HTML Entities`: Encode the HTML tags that include in the field
  
- For example: test <p>HTML</p> is transformed into: ![order attribute17](https://i.imgur.com/EujqCGc.png)
+ For example: test <p>HTML</p> is transformed into: 
+ 
+ ![order attribute17](https://i.imgur.com/EujqCGc.png)
  
  - `Add to Sales Order Grid`: Choose Yes so that the attribute is displayed in the grid at `Sale > Orders`
  - `Add to PDF Files`:
