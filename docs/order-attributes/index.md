@@ -8,13 +8,13 @@ Order Attributes is also displayed when admins creates the order in the backend.
 
 From the Admin Panel, go to `Sales > Order Attributes`
 
-![Imgur](https://i.imgur.com/zyMYBu9.png)
+![order attribute](https://i.imgur.com/zyMYBu9.png)
 
 ### 1. Configuration
 
 From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
-![Imgur](https://i.imgur.com/rpGyGI2.png)
+![order attribute1](https://i.imgur.com/rpGyGI2.png)
 
 - **Enable**: Choose Yes to use this module
 
@@ -22,7 +22,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 #### 2.1. Grid
 
-![Imgur](https://i.imgur.com/evdjT3L.png)
+![order attribute2](https://i.imgur.com/evdjT3L.png)
 
 - This is a place to store all created Order Attributes
 - From the Grid, admins can capture the basic information of Attribute such as: Default Label, Attribute Code, Type, Required, Position, Store View, Customer Group, Sort Order, Create At, Updated At and Action.
@@ -32,7 +32,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 #### 2.2. Add New Attribute
 ##### 2.2.1. Properties
 
-![Imgur](https://i.imgur.com/JYrqF2W.png)
+![order attribute3](https://i.imgur.com/JYrqF2W.png)
 
 - **Default Label**: The default display name for Attributes in the Grid and Frontend
 - **Attribute Code**:
@@ -42,45 +42,45 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 - **Input Type**: Select input/select data type. There are 11 input types that admins can choose:
 
-![Imgur](https://i.imgur.com/eQZZ5Wq.png)
+![order attribute4](https://i.imgur.com/eQZZ5Wq.png)
 
   - `Text`: The input type is a text line (not downstream).
 
-![Imgur](https://i.imgur.com/VK6Si1v.png)
+![order attribute5](https://i.imgur.com/VK6Si1v.png)
 
   - `Text Area`: The input type is a text. Customers can enter multiple lines of text in this field
 
-![Imgur](https://i.imgur.com/v5wfkkd.png)
+![order attribute6](https://i.imgur.com/v5wfkkd.png)
 
   - `Date`: This field has the format as Date. When accessing the checkout page, the field is assumed to be the current date.
   
- ![Imgur](https://i.imgur.com/5JH8dQs.png)
+ ![order attribute7](https://i.imgur.com/5JH8dQs.png)
  
   - `Yes/No`: The field only includes 2 options as Yes or No.
  
- ![Imgur](https://i.imgur.com/KPsplFF.png)
+ ![order attribute8](https://i.imgur.com/KPsplFF.png)
  
   - `Dropdown`: The field has the format as Dropdown. Customers are only selected one of the options that admin has set in the backend
 
-!
+![order attribute9](https://i.imgur.com/Tb02yNm.png)
 
 - `Multi-Select`: The field has the format as Multiple-Select. Customers can choose one or more options that admins have set in the backend
 
-!
+![order attribute10](https://i.imgur.com/AqMO26n.png)
 
 - `Single-select with image`: Customers only choose one of the Images/Colors that admins have set
 
-!
+![order attribute11](https://i.imgur.com/IoXzHw4.png)
 
 - `Multiple-select with image`: Customers can choose one of the Images/Colors that admins have set
 
-!
+![order attribute12](https://i.imgur.com/nLUAHQU.png)
 
 - `Media Image`: Customers can upload the image file (only include the image file, not docs file or PDF files, etc) that they want
 - `Single File Attachment`: Customers can upload the attachment (not be uploaded the image) that they want
 - `Content`: Customers can insert the image and enter the text as well as edit them with ease.
 
-!
+![order attribute13](https://i.imgur.com/PsGFja6.png)
 
 - **Default Value**:
   - Only display with the Input Type as `Text Field, Text Area, Date, Yes/No, Content`
@@ -94,7 +94,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
   - Only show when `Input Type = Text Field`
   - Stipulate the values that are accepted in this field, which is one of the following values:
 
-!
+![order attribute14](https://i.imgur.com/obnwQut.png)
 
 - **Input/Output Filter**:
   - Show when `Input Type = text field, text area`
@@ -102,15 +102,15 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
   - There're 3 options:
     - `None`: Ignore the check HTML, allow HTML tag that can work
     
- For example: test <p>HTML</p> is transformed into: !
+ For example: test <p>HTML</p> is transformed into: ![order attribute15](https://i.imgur.com/tPkHK7n.png)
  
  - `Strip HTML Tags`: Remove the HTML tags that include in the field
  
- For example: test <p>HTML</p> is transformed into: !
+ For example: test <p>HTML</p> is transformed into: ![order attribute16](https://i.imgur.com/1OQUnC0.png)
  
  - `Escape HTML Entities`: Encode the HTML tags that include in the field
  
- For example: test <p>HTML</p> is transformed into: !
+ For example: test <p>HTML</p> is transformed into: ![order attribute17](https://i.imgur.com/EujqCGc.png)
  
  - `Add to Sales Order Grid`: Choose Yes so that the attribute is displayed in the grid at `Sale > Orders`
  - `Add to PDF Files`:
@@ -123,7 +123,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.2. Frontend Properties
 
-!
+![order attribute18](https://i.imgur.com/Qpczj1R.png)
 
 - **Position**: We support 7 positions that can display Order Attribute:
 
@@ -137,7 +137,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 - **Use Tooltip**:
 
-  - Select Yes to display the Tooltip instructing the customers enter a value in the Field
+  - Select Yes to display the Tooltip ![order attribute19](https://i.imgur.com/t4LOnHA.png) instructing the customers enter a value in the Field
   - Admins need to enter the Tooltip in the Manage Labels/Options so that the tooltip is displayed on the Frontend
 
 - **Store View**: The attribute is only displayed in the selected Store View
@@ -151,7 +151,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.3. Manage Labels/Options
 
-!
+![order attribute20](https://i.imgur.com/zErLyvq.png)
 
 - **Manage Labels**:
   - Set the display name outside the frontend for the Attribute in each store view
@@ -169,7 +169,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.4. Depend Attributes
 
-!
+![order attribute21](https://i.imgur.com/UovLwww.png)
 
 - Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
 - Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
@@ -179,11 +179,13 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 ## Frontend
 ### 1. Checkout page Magento
 
-!
+![order attribute22](https://i.imgur.com/hDElEz4.png)
+
+![order attribute23](https://i.imgur.com/uVLlBA1.png)
 
 ### 2. Mageplaza One Step Checkout
 
-!
+![order attribute24](https://i.imgur.com/9l0zg46.png)
 
 
 
