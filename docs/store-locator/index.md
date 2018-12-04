@@ -222,23 +222,23 @@ Let's experience it right now!
 
 
 ## How to add Map Style
-- Step 1. Choose Map Style = Custom
+- Step 1: Choose `Map Style = Custom`
 
 ![store switcher i](https://i.imgur.com/qcYHaJD.png)
 
-- Step 2. Click here in the comment. The link will be lead to https://snazzymaps.com/
+- Step 2: Click here in the comment. The link will be lead to https://snazzymaps.com/
 
 ![store switcher ii](https://i.imgur.com/qBwCXvK.png)
 
-- Step 3. Click on Map Style that you want. For example: `Lost in the desert`
+- Step 3: Click on Map Style that you want. For example: `Lost in the desert`
 
 ![store switcher ii](https://i.imgur.com/UbXsqgD.png)
 
-- Step 4. Expand Code and Copy JAVASCRIPT STYLE ARRAY into the Custom checkbox in the configuration
+- Step 4: Expand Code and Copy JAVASCRIPT STYLE ARRAY into the Custom checkbox in the configuration
 
 ![store switcher iii](https://i.imgur.com/Dbl5elA.png)
 
-- Step 5. Save and check on the frontend
+- Step 5: Save and check on the frontend
 
 ![store switcher iiii](https://i.imgur.com/ST2Xc41.png)
 
