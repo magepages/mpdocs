@@ -1,6 +1,7 @@
 # Payment Restriction
 ## Overview
 
+In practice, shop owners often want to limit the display of Payment Method based on multiple criteria such as Customer group, Cart condition, product attribute, time limit, or the compatibility with sales rule. Thanks to Mageplaza Payment Restriction extension, you will be able to achieve this and fully control the use of in-store payment methods and improve efficiency.
 
 ## How to configure
 
@@ -75,10 +76,27 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
 ![Imgur](https://i.imgur.com/NUhirhB.png)
 
   - **Active if these Cart Price Rules are applied:**
-    -  
+    - Select created the rule in the `Cart Price Rules` to activate the rule for Payment.
+    - Multiple rules can be selected at the same time.
+    - If customers use a coupon or purchase and satisfy the condition of the selected rule in the `Cart Price Rules`, this rule will be applied to the Payment without checking the applicable conditions of the selection above.
+
+  - **Inactive if these Cart Price Rules are applied:**
+    - Choose the created rule in the `Cart Price Rules` to activate the rule for Payment.
+    - Multiple rules can be selected at the same time.
+    - If customers use a coupon or purchase and satisfy the condition of the selected rule in the `Cart Price Rules`, this rule will not be applied to the Payment Restriction without checking the applicable conditions of the selection above.
+    - If one or more rules is selected at the same time in the both `Active if Cart Price Rules applied` and `Inactive if Cart Price Rules applied` fields, then in the `Inactive if Cart Price Rules` field, the rule that is applied for Payment will be checked based on the feature of `Inactive if Cart Price Rules applied` field.
 
 
 ##### 2.2.3. Actions
+
+![Imgur](https://i.imgur.com/NUhirhB.png)
+
+- **Select Payment Methods**: Choose the payment method to apply the rule. You can choose more or all payment methods to show all `Enabled Payment Methods`
+- **Action**: Choose "Show" to display the selected payment methods
+- **Apply for**: You can choose the position to apply the rule on:
+  - Backend Order
+  - Frontend Order
+
 
 
 ### 3. Compatible with Mageplaza One Step Checkout
