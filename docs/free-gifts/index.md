@@ -28,3 +28,64 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - If you leave this field blank, it will use the default Gift Icon of Mageplaza Reward Point extension.
   - We recommend you should use the icon with the size as 20x20 px.
   
+- **Button Label**:
+  - This content will be shown on the frontend with the `Add Manual` mode
+  - The content needs to show for customers to know that the products they had purchased are given a gift.
+  
+- **Button Color**: Set the background color of `Add gift` button
+- **Text Color**: Set the text color that admins enter in the `Button Label` field
+
+### 2. Manage Rule
+#### 2.1. Grid
+![Imgur](https://i.imgur.com/nhPgvzc.png)
+
+- This is a place to store all the created rules
+- From the Grid, admins can capture the basic information of the rules such as *ID, Name, Status, State, Website, Customer Group, Priority and Action can be implemented with the Rule*
+- In the `Actions` dialog, admins can perform the following actions:
+  - `Delete`: Admin needs to tick the rule to delete, then select `Delete` in the `Actions` (upper left of the Grid) to delete. A confirmation dialog will appear, select `OK` to continue deleting
+  - `Change Status`: Admins need to tick the Rule that they want to change the status, then select `Change Status > Active/Inactive` in the `Actions` dialog (top left of the Grid) to change. A confirmation dialog will appear, select `OK` to confirm the change.
+  - In the `Action` column, click the `Edit` button to edit the information
+  - In addition, admins can filter, change Store View, hide/show Columns, Export Grid or edit Inline.
+  
+  ![Imgur](https://i.imgur.com/mJT42fV.png)
+  
+#### 2.2. Add New/Edit Form
+##### 2.2.1. General tab
+
+![Imgur](https://i.imgur.com/iqkEVix.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
