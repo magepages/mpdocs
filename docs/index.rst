@@ -66,4 +66,5 @@ Welcome to Mageplaza Docs
    delete-order-m2/index
    product-slider-m2/index
    multi-flat-rates/index
+   order-export/index
 
