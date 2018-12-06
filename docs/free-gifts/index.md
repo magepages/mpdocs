@@ -55,10 +55,29 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 ![Imgur](https://i.imgur.com/iqkEVix.png)
 
 
+- **Name**: Enter the rule name. This name only displays in the backend to distinguish from other rules
+- **Status**: Choose "Enable" to allow the rules to work
+- **State**:
+  - The status of the rule includes: Schedule, Running and Finish
+  - This status will auto-change based on `Active From - Active To`
 
+- **Website**: The rule is only applied for the selected website
+- **Customer Group**: The rule is only applied for the selected customer group.
+- **Active From**: Choose the day that the rule starts to be applied
+- **Active To**: Choose the day that the rule finishes
+- **Priority**:
+  - With rules applied for a product, rules with higher priority are applied first
+  - 0 is the highest priority
+  
+##### 2.2.2. Condition
 
+![Imgur](https://i.imgur.com/eBJefE1.png)
 
+- This is a place that you select the conditions for the rule. Only products that meet the selected condisitons, the new rule is applied.
+- You can add/remove the condition by clicking on `+` or `x`
+- You can change the the correctness or wrongness of the condition by clicking on the bold text.
 
+##### 2.2.3. Action
 
 
 
