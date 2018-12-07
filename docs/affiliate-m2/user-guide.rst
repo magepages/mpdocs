@@ -272,6 +272,160 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 * `Email Notification`: Choose **Yes** to receive notification emails when there is a change in your Affiliate account balance
 
 
+3. Affiliate Groups
+`````````````````````````````
+
+3.1. Manage Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* There are five default groups: General, Bronze, Sliver, Gold, Platinum
+
+.. image:: https://i.imgur.com/mpPvZxT.png
+
+3.2. Add New Group
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/9R6thSZ.png
+
+* Name 
+  * Insert the group name
+  * This field is compulsorily required 
+  
+3. Campaigns
+`````````````````````````````
+
+* Edit Campaigns
+
+  * Step 1: Fill in the Campaign Information 
+  * Step 2: Choose the conditions for applying the campaign
+  * Step 3: Set up **Discount**
+  * Step 4: Set up **Commission**
+  
+Step 1: Fill in the Campaign Information
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/uZEBybr.png
+
+* Name 
+
+  * Name your campaign
+  * This is a required field
+  * **Discription**: Fill in the discription of your campaign
+  * **Status**: Sellect `yes` to apply the campaign
+  * **Website IDs**:
+    * Choose the website to  conduct the campaign
+    * This is also a required field
+  * **Affiliate Groups**:
+    * Choose the group you want to conduct the campaign
+    * This is another required field
+  * **Display**:
+    * `Display = Allow Guest`: Show the campaign for all visiters
+    * `Display = Affiliate Member Only`: Show the campaign for Affiliate only
+    
+  * **Active From Date**: Select the starting day for your campaign
+  * **Active ToDate**: Select the finishing day for your campaign
+  * **Sort Order**
+    * Insert the sort order (or prioritized number) of your campaign
+    * The smaller the number, the more prioritized your campaign is, which means that it will be shown and applied first. If the sort orders of different campaigns are the same, the module will then consider their ID numbers.
+  
+Step 2: Choose the conditions for applying the campaign
+~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+.. image:: https://i.imgur.com/LFy1DPq.png
+  
+* You can choose the products for a specific campaign by set the rules for those products
+* Or you can also choose the categories for applying the campaign
+
+Step 3: Set up the Discount 
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/4LIRPke.png
+
+* Apply
+  * `Apply = Percent of cart total`: Apply discount for the percentage of cart total
+  * `Apply = Fixed amount discount for whole cart`: Apply a fixed discount for purchasing
+* Discount Amount: Insert the amount or the percentage of discount for purchasing
+* Apply to Shipping Amount: Choose `Yes` to apply discount for shipping
+* Apply Discount On Tax: Choose `Yes` to apply discount for taxable payment 
+* Discount Description: Insert the description for your discount policy
+
+Step 4: Set up the Commission
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/v1XYDwa.png
+
+* There are two commision types:
+  * **Percentage of grand total**: Commision is calculated based on the percentage of garnd cart total. 
+  * **Fixed amount**: Commission is a fixed amount
+  
+* Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
+
+4. Withdraws
+`````````````````````````````
+
+4.1. Manage Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+* Allow to show the withdraw history of each Affiliate account including: The amount, the status, payment method, etc. Click `View` to see the details of each withdraw. 
+* Admin can also change the status or delete the withdraw history.
+
+.. image:: https://i.imgur.com/rrHQDV2.png
+
+4.2. Add New Withdraws
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/Fvw09Fg.png
+
+
+* **Account** 
+  * Click to this field to show the affilicate account that have positive balance which can be withdrawn
+  * This field is required
+
+.. image:: https://i.imgur.com/nMSnOGT.png
+
+* **Amount**
+  * Insert the withdraw amount which is including the fee of withdrawal
+  * This is a required field
+  
+* **Fee**
+  * Inseart the withdraw fee
+  * If you let this field empty, the configuration value will be applied
+  
+* **Payment Method**
+  * Choose the payment method for withdrawal
+  * There are three payment methods: Offline payment, Bank Tranfer, Paypal payment
+  
+* **Withdraw Reason**: Fill in the reason for withdrawal
+
+* **Payment Detail**: 
+
+  * For **Offline payment**, you need to insert the **Addresses**. 
+
+.. image:: https://i.imgur.com/5w1uKvg.png
+
+
+  * For **Bank Tranfer**, insert the Bank account
+  
+.. image:: https://i.imgur.com/ywa7PZk.png
+
+
+  * For **Paypal payment**, you need to fill in the **Paypal email** and **Transaction ID** 
+
+.. image:: https://i.imgur.com/kE5UN64.png
+
+5. Transactions
+`````````````````````````````
+
+5.1 Manage Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Show the transaction of each affiliate account including: the amount, status, the order that generates commission. Click `View` to see more details of each transaction. 
+
+* Admin can also change the status or delete the transaction records.
+
+.. image:: https://i.imgur.com/dcVRnAO.png
+
+
 Assign to Affiliate Group
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -280,135 +434,57 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 * On the grid, find the Affiliate account needed to assign and open the **Edit** mode.
 * Choose the Affiliate group to assign. By the default, “General” is chosen.
 
-  .. image:: https://cdn.mageplaza.com/docs/aff-assign-to-affiliate-group.gif
+.. image:: https://cdn.mageplaza.com/docs/aff-assign-to-affiliate-group.gif
 
+5.2. Add New Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Add Affiliate Group
-~~~~~~~~~~~~~~~~~~~~~~
+.. image:: https://i.imgur.com/JF485Db.png
 
-On the Admin Panel, go to `Affiliate > Groups`.
+* **Account** 
+  * Click to this field to show the affilicate account and then you can choose the account to add transaction in. 
+  * This is a required field
+  
+.. image:: https://i.imgur.com/2s45muY.png
 
-* Click on `Add new groups` button
-* Complete `Name` of the new group
-* Set `Status` to “Enabled”
-* Tap `Save Group` on the upper-right corner
+* **Amount**
+  * Insert the added amount. It can be a negative one.
+  * This is a compusorily required field
+  
+* **Title**: Add the Title of transatction
 
-  .. image:: https://cdn.mageplaza.com/docs/aff-create-affiliate-group.gif
-
-4. Campaigns
+* **Holding Transaction For**
+  * Add the number of days that you want to keep the transaction records.
+  * If you leave it empty or inseart 0, the transaction will be deleted. 
+  
+6. Email
 `````````````````````````````
 
-Login to Magento Admin, `Affiliate > Campaigns`.
+6.1 Notification emails for successful registration the affiliate account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  .. image:: https://cdn.mageplaza.com/docs/aff-create-affiliate-campaign.gif
+.. image:: https://i.imgur.com/5ra5VXp.png
 
-It is necessary to go over four tabs: “Campaign Information”, “Conditions”, “Discounts”, and “Commissions”.
+6.2 Notification emails for Affiliate account aproval
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* In the **Campaign Information** section, do the following:
+6.3 Notification emails for changing the Afiliate account balance
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  * Set `Name` for the campaign and write `Description` for that if need.
-  * Assign to `Affiliate Groups` who the campaign applies for.
-  * Choose `Website` and the display positions on the website 
-  * This is not required but you can set the active time in the `Active From Date` and Active To Date` field for the better management. You can use “Calendar” icon or insert manually.
-  * Set `Sort Order` in the list of Affiliate campaign.
+.. image:: https://i.imgur.com/c0iqHoi.png
 
-.. image:: https://cdn.mageplaza.com/media/general/1fQnKPn.png
+6.4 Notification emails for completion of withdraw request
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* In the **Conditions** section, 
-  
-  * The short message If ALL of these conditions are TRUE is visible for you, and especially, you can customize the message when click on ALL and TRUE link.
-    
-    * Click on the **ALL** link, “ALL” and “ANY” options are available.
-    * Click on the **TRUE** link, “TRUE” and “FALSE” options are available.
-  
-  * Tap the “Add Conditions” icon, and the campaign is enabled if all conditions are met.
-
-  For example, Affiliate program is active if Affiliate creates an order that includes 3 items in the cart.
-
-.. image:: https://cdn.mageplaza.com/media/general/rMIR6Mu.png
-
-  * Leave the conditions blank if you want to apply for all products
-
-* Continuing with **Discounts** section, you will give some utilities to customers who make a purchase via Affiliate link.
-  
-  * Set `Apply` to the needed type of discount, including:
-    
-    * Percent of product price discount
-    * Fixed amount discount
-    * Fixed amount discount for whole cart
-    * Buy X get Y free
-  
-  * Enter `Discount Amount` field. For example, insert number 5 for 5% discount.  
-  * Enter `Discount Qty Step (Buy X)` and `Maximum Qty Discount is Applied to` as you need.
-  * If you want to discount for shipping amount, set `Apply to Shipping Amount` to “Yes”.
-  * Enable `Free Shipping` by choosing “Yes” for that 
-  * Leave some `Discount Description` if necessary.
-
-.. image:: https://cdn.mageplaza.com/media/general/97otiGw.png
-
-* Finally, **Commissions** tab allows store admin to set “Pay Per Sale” promotion. 
-
-  * Click on `Add` button to create tiers and set commission rule for that.
-  * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
-
-.. image:: https://cdn.mageplaza.com/media/general/aiTA8xq.png
-
-*
-
-  * Enable to add unlimited tiers and delete any tiers you need when tapping `Delete` button in the same row.
-  * On the Admin Panel, go to `Affiliate > Settings`, open **Commissions Configuration** section,
-    
-    * To allow calculating commissions from tax and shipping fee, set `Earn commission from tax` and `Earn commission from shipping fee` to "Yes".
-    * Under **Commission calculation process** part, 
-      
-      * To require to create the invoice before Affiliate receives commissions, select "Yes" for `Allow Affiliate receiving commission when Invoice created`.
-      * Insert the days for `Hold commission transactions for`. If empty or zero, transaction is not held.
-      * To allow getting back commission when the order using the commission to pay is cancelled,set `Deduct commission from Affiliate's balance when order is refunded/canceled` to "Yes".
-
-.. image:: https://cdn.mageplaza.com/media/general/0QJqk5n.png
-
-When complete all, tap `Save` to apply the new Affiliate program or click on `Save and Continue Edit` to adjust any information.
-
-Manage Affiliate Withdraws
-```````````````````````````````
-
-Create new Affiliate Withdraw
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Login to Magento Admin, `Affiliate > Withdraws`.
-* Click on `Add New Withdrawal` button.
-* Choose an affiliate account to create a withdrawal 
-* Under **Withdrawal Configuration** section,
-  
-  * Enter the number of the withdrawal that includes fee into `Amount` field.
-  * Enter the fee for the withdrawal if have. If empty, the configuration value is used.
-  * Choose one of two available payment methods: Offline Payment or Paypal Payment.
-
-* Under **Payment Detail** section,
- 
- * If select Offline Payment, fill out `Address` to receive.
-  * If select Paypal Payment, enter `Paypal Email` and `Transaction ID`.
+.. image:: https://i.imgur.com/1kYBnel.png
 
 
-  .. image:: https://cdn.mageplaza.com/docs/affiliate-create-withdrawal.gif
 
-Manage Affiliate Transaction
-```````````````````````````````````
 
-Create new Affiliate Transaction
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Login to Magento Admin, `Affiliate > Transaction`.
-* Click on `Add new transaction` button.
-* Choose an affiliate account for the new transaction.
-* Under **Transaction Information** section,
- 
-  * Enter the number into `Amount` field that might be adding or subtract affiliate's balance.
-  * Set `Title` for the transaction.
-  * Enter the holding days into `Holding Transaction for` field.
 
-  .. image:: https://cdn.mageplaza.com/docs/affiliate-create-transaction.gif
 
-  
 
-.. _Magento 2 Affiliate: https://www.mageplaza.com/magento-2-affiliate-extension/
+
+
+
