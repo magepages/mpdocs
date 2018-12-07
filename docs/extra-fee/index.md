@@ -236,17 +236,94 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 ![Imgur](https://i.imgur.com/tJIdwQj.png)
 
+## 9. How to custom using the layout handle
 
+- To display Extra Fee in Magento's default email, you need to visit `Marketing > Communications > Email Templates`. You can create a new template for order, invoice, shipment, credit memo, etc. Use different code for each template to display Extra Fee data (do the same for PDF Invoice templates). Note: If there is extra fee data, this data will be displayed and vice versa, if there is no data, this template will be the same as normal Magento template.
+  - **Order, Shipment**
+    - Get Extra Fee information at Payment Method.
+```    
+    {{if order.getHasBillingExtraFee()}}
+				<h3>{{trans "Payment ExtraFee"}}</h3>
+				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$order}}
+			 {{/if}}
+```
 
+   - Get Extra Fee information at Shipping Method.
+   
+```
+{{if order.getHasShippingExtraFee()}}
+				<h3>{{trans "Shipping ExtraFee"}}</h3>
+				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$order}}
+			 {{/if}}
+```
 
+  - Get Extra Fee information at Cart Summary. Note: The rules with `Apply Type = Automatic` will also appear in Cart Summary in the backend and display on the template.
 
+```
+{{if order.getHasExtraFee()}}
+				<h3>{{trans "ExtraFee"}}</h3>
+				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$order}}
+			 {{/if}}
+```
 
+  - **Invoice**
+    - Get Extra Fee information at Payment Method:
+    
+```
+{{if invoice.getHasBillingExtraFee()}}
+				<h3>{{trans "Payment ExtraFee"}}</h3>
+				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$invoice}}
+			 {{/if}}
+```
 
+  - Get Extra Fee information at Shipping Method
+  
+```
+{{if invoice.getHasShippingExtraFee()}}
+				<h3>{{trans "Shipping ExtraFee"}}</h3>
+				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$invoice}}
+			 {{/if}}
+```
 
+  - Get Extra Fee information at Cart Summary. Note: The rules with `Apply Type = Automatic` will also appear in Cart Summary in the backend and display on the template.
+  
+```
+{{if invoice.getHasExtraFee()}}
+				<h3>{{trans "ExtraFee"}}</h3>
+				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$invoice}}
+			 {{/if}}
+```
 
+  - **Credit Memo**:
+    - Get Extra Fee information at Payment Method
+    
+```
+{{if creditmemo.getHasBillingExtraFee()}}
+				<h3>{{trans "Payment ExtraFee"}}</h3>
+				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$creditmemo}}
+			 {{/if}}
+```
 
+  - Get Extra Fee informaiton at Shipping Method
+  
+```
+{if creditmemo.getHasShippingExtraFee()}}
+				<h3>{{trans "Shipping ExtraFee"}}</h3>
+				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$creditmemo}}
+			 {{/if}}
+```
 
+  - Get Extra Fee information at Cart Summary. Note: The rules with `Apply Type = Automatic` will also appear in Cart Summary in the backend and display on the template.
 
+```
+{{if creditmemo.getHasExtraFee()}}
+				<h3>{{trans "ExtraFee"}}</h3>
+				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$creditmemo}}
+			 {{/if}}
+```
+
+``Note``: 
+- For Invoice and Credit Memo, all fees of Extra Fee will be added to Invoice or Credit Memo first.
 
 
 
