@@ -77,9 +77,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Show Affiliate link on = Top Link: Display the Affiliate link in the top of the page along with the display of the link **My Account**
   * You can choose to display in both positions
   * The default display setting is in the **Top Link**
-  * Custom CSS
-    * Admin can freely customize the display of the Affiliate site 
-    * Supports HTML, CSS
+* Custom CSS
+  * Admin can freely customize the display of the Affiliate site 
+  * Supports HTML, CSS
     
 1.1.1. Default Page
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -91,123 +91,185 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.1.2. Affiliate URL
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-* URL Style: Choose the type to display URL
- 
-* `The Length of Affiliate code`
+* `URL Style`: Choose the type to display URL
+  * URL Style = Hash: Display URL  as [http://example.com#c123](http://example.com/#c123)
+  * URL Style = Parameter: Display URL  as [http://example.com/?c=123](http://example.com/?c=123)
+* `Custom parameter`
+  * Enter the letter for the customization of Affiliate URL
+  * If this field is left blank, the default value is "u". For example: ?u=123 or #u123
+* `Parameter value`
+  * Parameter value = Affiliate ID: Display the ID of Affiliate account on the **Refer URL** link in **My Account/ My Affiliate/ Refer Friend** outside the frontend. For example: ?u=1 or #u1
+  * Parameter value = Affiliate Code: Display the code of Affiliate account on the **Refer URL** link outside the frontend. For example: ?u=b1dc or #ub1dc and display the code of Affiliate account in the **Refer Code** field in **My Account/ My Affiliate/ Refer Friend** outside the frontend
+* `Length of Affiliate code`
   * Enter the length of Affiliate code
   * The default length is 6 characters 
   * It is recommended to enter a length between 3 and 32 characters to ensure safety
 
 1.2. Account Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Related to Affiliate Accounts, you can configure Affiliate Registration, Terms and Conditions Display and Affiliate Account Balance.
-
-* Under **Affiliate Sign up** part, you can:
-
-  * To create a new account on your site at the same time when he registers as an Affiliate, set `Embed customer signup fields in Affiliate signup form` to "Yes".
-  * Choose `Default Affiliate Group` from the current Affiliate groups.
-  * Ask for admin's approval to complete the Affiliate sign up process by choosing "Yes" in the `Require admin's approval` field.
-  * In the `Checked "Email notification" by default"` field, if Yes, "Email notification" auto checked by default
-
-.. image:: https://cdn.mageplaza.com/media/general/nKEzZxa.png
-
-* Scorll down to **Affiliate Sign up-Term and Condition** part.
-
-  * Enable `Terms and Conditions` on the storefront.
-  * Enter the checkbox text that is in the right of Terms and Conditions checkbox.
-  * Enter `Terms and Conditions Title`.
-  * Select CMS Block for `Terms and Conditions Content`.
-  * The Terms and Conditions checkbox is marked already if set `Checkbox is checked by default` to "Yes".
-
-.. image:: https://cdn.mageplaza.com/media/general/kDE2X7t.png
-
-* Continuing with **Account Balance** part, and do the following:
-
-  * Enter the `Maximum of Affiliate Balance`, and if Affiliate reach the milestone, none of commission is added. Leave empty or zero is no limitation.
-  * If Affiliate's account balance is not enough to taking back commission, allow the balance be negative number by choosing "Yes" in the respective field.
-
-.. image:: https://cdn.mageplaza.com/media/general/S7DotJH.png
-
-Email Configuration
-~~~~~~~~~~~~~~~~~~~~~~
-
-* Choose `Email Sender` whose name will appear on the email notification.
-
-You can send the email notification when there is any update of Affiliate Account, Transaction, and Withdrawal. 
-
-* Go to the **Account Email** section:
-
-  * Enable `Send Welcome Email`
-  * Set `Welcome Email` to the needed template.
-  * Set `Welcome Email After Account Approved` to the available template that is sent instead of welcome email, after approving account.
-
-* Go to the `Transaction Email` section
-
-  * Enable `Send Transaction Email`
-  * Choose the template for `Update Balance Email`
-
-* Go to **Withdrawal Email** section
-
-  * Enable `Send Withdrawal Email`
-  * Choose the template for `Withdrawal Complete Email`
-
-.. image:: https://cdn.mageplaza.com/media/general/DSF6qK6.png
-
-Refer Friends Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Set `Enable Refer Friends Feature` to "Yes"
-* Insert the referral link in the `Default Refer Url`. 	
-
-This link will be displayed in My Account/My Affiliate/Refer tab. If empty, the default homepage url will be used.
-
-* Select CMS Block to show `Affiliate Welcome homepage content`
-* Make `Affiliate Welcome homepage content` appear on "Category Page" or "Product Page" depending on your purpose.
-* To remind Affiliates to fill captcha before sending the referral email, set "Yes" for `Enable Captcha for Sending Email`.
-* Set `Refer Sharing Email` to the email template as you need.
-* Use AddThis button for more referrals by enter the `AddThis.com ID`. If empty, default Public AddThis ID "ra-56e141d56e895f5c" will be used.
-* To allow importing email address from theirs accounts such as Gmail, Yahoo, Live, AOL, Outlook and more..., set `Use Cloudsponge to retrieve email contacts` to "Yes".
-
-.. image:: https://cdn.mageplaza.com/media/general/Z7s5dJV.png
-
-* In the **Sending Email Content**, you can create the invitation content that is ready to send to recipients, including:
-
-  * Default Email Subject
-  * Default Email Body
-  * Default Message Shared via Social
-
-.. image:: https://cdn.mageplaza.com/media/general/0YKZ2Tg.png
-
-Withdrawal Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-* Set `Allow withdrawal request` to "Yes".
-* Active the `Payment Method` that allow paying commissions via Paypal or Banks.
-* Set `The minimum balance in affiliate account for requesting withdrawal` to a specific number. If the account balance is less than the required value, the withdrawal is not allowed.
-* Enter `Minimum withdrawal amount` and `Maximum withdrawal amount` per withdrawal.
-* Not calculate tax for the withdrawal request when selecting "No" in the `Apply tax for withdrawal` field.
-* Set the interval for `Allow affiliates to cancel withdrawal request within`. 
-
-.. image:: https://cdn.mageplaza.com/media/general/vjbkMp5.png
-
-Manage Affiliate Accounts
-`````````````````````````````
-
-Create Affiliate Account
+1.2.1. Affiliate Sign up
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Login to Magento Admin, `Affiliate > Accounts`.
+* Default Affiliate Group
+  * Choose the default group whenever an account is registered as an Affiliate account
+  * The original default group is General 
+* `Require admin's approval`: Choose **No** so that when registering as an affiliate account, you don't need to go through the censorship of the store
+* `Checked "Email notification" by default"`: Select Yes to automatically check the **Receive affiliate email** box on the **My Account/My Affiliate/Setting** tab outside the frontend whenever an account is registered as an Affiliate account.
 
-* Click on `Add New Account` button, be navigated to the Account Information page. Then do the following to complete a new Affiliate account.
+1.2.2.Terms and Conditions
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* In the `Choose Customer` field, tap the down arrow and select one of the existing customer from the list .
-* Enter Affiliate email or ID who refers to customers in the `Referred By` field to plus commissions to his account. If not, leave it empty.
-* Set `Status` to **Active** for the account.
-* Allow receiving `Email Notification` if choosing **Yes** for that. 
-* Tap `Save` to complete or `Save and Continue Edit` if you want to edit any information.
+* `Enable Terms and Conditions`: Choose Yes to display Terms and Conditions in the Sign Up section which is outside the frontend
+* `Checkbox Text`: Enter the checkbox text that is in the right of Terms and Conditions checkbox.
+* `Terms and Conditions Title`: Enter the title for Terms and Conditions
+* `Terms and Conditions Content`
+  * Select CMS Block for Terms and Conditions Content
+  * The default content is Affiliate terms & conditions
+  * `Checkbox is checked by default`: Choose **Yes** to automiautomatically tick in the checkbox
 
-  .. image:: https://cdn.mageplaza.com/docs/aff-create-new-account.gif
+1.2.3. Account Balance
+~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Maximum of Affiliate Balance`
+  * Enter the Maximum of Affiliate Balance
+  * If Affiliate reach the milestone, none of commission is added 
+  * If the field is left empty or entered as zero, Affiliate Balance will have no limitation
+* `Allow negative balance`: If Affiliate's account balance is not enough to taking back commission, allow the balance be negative number by choosing **Yes** in the respective field
+
+1.3. Commission Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Earn commission from tax: Choose Yes to earn commission from tax
+* Earn commission from Shipping: Choose Yes to earn commission from shipping fee
+
+1.3.1. Commission calculation process
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Allow Affiliate receiving commission when Invoice created
+  * Allow Affiliate receiving commission when Invoice created = **Yes**: Commissions received when creating an invoice
+  * Allow Affiliate receiving commission when Invoice created = **No**: Commissions are only received when the order is in the completed state
+* Hold commission transactions for
+  * Enter the days between commission transaction for accounts. After that period of time, the transaction will no longer be kept
+  * If the field is blank or entered as 0, the transaction will not be kept
+* Deduct commission from Affiliate's balance when the order is refunded/cancelled
+  * Choose Yes to allow deduct the commission from the balance of the  branch when the order is refunded or cancelled
+  * The default allows deducting
+  
+1.4. Withdrawal Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Allow withdrawal request`: Select **Yes** to display the withdrawal request outside the frontend
+* `Payment Method`
+  * There are three withdraw methods  which are Offline payment, Bank Transfer and Paypal payment
+  * Enter the withdrawal fee for each form of withdrawal. You can enter the charge as a specific amount or a percentage of the total amount withdrawn
+  * To allow displaying a withdraw's form outside the frontend, select **Active = Yes** corresponding to that form
+* `The minimum balance in affiliate account for requesting withdrawal` 
+  * Enter the minimum balance in the linked account to request a withdraw
+  * If you leave blank or fill in as 0, you will not be limited when withdrawing
+* `Minimum withdrawal amount`
+  * Enter the minimum amount for each withdraws
+  * The withdraw fee will be included in here
+* `Maximum withdrawal amount` 
+  * Enter the maximum amount for each withdraws
+  * The withdraw fee will be included in here
+
+1.5. Email Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Email Sender`
+  * Select the email sender
+  * The default email sender is: General Contact 
+
+1.5.1. Account Email
+~~~~~~~~~~~~~~~~~~~~~~
+
+* `Send Welcome Email`: Choose **Yes** to send the email when an  account registered as an Affiliate account
+* `Welcome Email`
+  * Choose the email template sending when  an  account registered as an Affiliate account
+  * The default content of the template is Welcome Email (Default)
+* `Welcome Email After Account Approved`
+  * Choose the email template sending when the registered account is approved to be an Affiliate account by the store owner
+  * The default content of the template is Welcome Email After Account Approved (Default)
+  
+1.5.2. Transaction Email` section
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Send Transaction Email`: Select **Yes**  to send a notification email whenever there is a transaction
+* `Update Balance Email`
+  * Select  the sending email template when there is a change in the balance
+  * The default content of the template is Update Balance Email (Default)
+
+1.5.3. Withdrawal Email
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Send Withdrawal Email`: Select **Yes** to send a notification email when you withdraw money
+* `Withdrawal Complete Email`
+  * Select the sending email template when there is a change in the balance
+  * The default content of the template is Withdraw Complete Email (Default)
+
+1.6. Refer Friends Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Enable Refer Friends Feature`: Choose **Yes** to activate the introduce to friends function
+* `Refer Sharing Email` 
+  * Choose the email template which will be sent when introducing with friends through email
+  * The default content of the template is Affiliate Sharing Email (Default)
+* `Default Refer URL`
+  * Insert the referral link. This link will display in the **My Account/My Affiliate/Refer Friend** tab
+  * If empty, the default homepage url will be used.
+* `AddThis.com ID`
+  * Enter the AddThis ID to introduce it to friends through AddThis
+  * If empty, default Public AddThis ID **ra-56e141d56e895f5c** will be used
+* Use Cloudsponge to retrieve email contacts: Select **Yes** to allow access contacts from customer's account such as Gmail, Yahoo, Live, AOL, Outlook, etc.
+* Cloudsponge Key
+  * Enter the Cloudsponge key
+  * The default key used is **a473483c2e256bd812bdc9a0bac867ecf1999a54**
+
+1.6.1. Sending Email Content
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* `Default Subject Email`
+  * Enter a title for the sending email
+  * The default title is **Good product and services**
+* `Default Email Body`
+  * Enter the content for the sending email
+  * The default content is **I've been shopping at {{store_name}} and feel really happy. They provide good service and reasonable prices.**
+* `Default Message Shared via Social`
+  * Enter content for sending messages when sharing through social networks
+  * The default content is **I've been shopping at {{store_name}} and feel really happy. Check it out: {{refer_url}}.**
+
+2. Manage Accounts
+`````````````````````````````
+
+2.1. Manage Grid
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* Display Affiliate account information: account balance, total earned amount, account activity status,... Click the **View** link to view the account details.
+* In this panel, admin can change status or delete the account
+
+.. image:: https://i.imgur.com/Plbwpkv.png
+
+2.2. Add New Account
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/Os0qc4U.png
+
+* Affiliate Group
+
+.. image:: https://i.imgur.com/I3cPbFF.png
+
+  * Select the group for the created Affiliate account
+  * You are not allowed to leave this field empty
+* `Referred By`: Enter the ID of the previously registered Affiliate account
+* `Status`
+
+.. image:: https://i.imgur.com/dGspIbc.png
+
+  * Status = Active: The Affiliate account which is just created can start working now
+  * Status = Inactive: The Affiliate account which is just created can't start working yet
+  * Status = Need Approved: he Affiliate account which is just created needs to be approved by admin
+* `Email Notification`: Choose **Yes** to receive notification emails when there is a change in your Affiliate account balance
 
 
 Assign to Affiliate Group
@@ -233,7 +295,7 @@ On the Admin Panel, go to `Affiliate > Groups`.
 
   .. image:: https://cdn.mageplaza.com/docs/aff-create-affiliate-group.gif
 
-Manage Affiliate Campaigns
+4. Campaigns
 `````````````````````````````
 
 Login to Magento Admin, `Affiliate > Campaigns`.
