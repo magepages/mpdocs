@@ -1,14 +1,14 @@
 # Webhook
 ## Overview
 
-
+Webhook is the configuration that allows sending the API request to another server with entities based on the event of Magento when some events occur. Thanks to Mageplaza Webhook extension, it will auto-activate an email notification to the customers when your store has some events as New Order, New Order Comment, New Invoice, New Customer, New Product, etc. All will be done quickly and conveniently with the help of this great module. Let's follow us to explore this plugin!
 
 ## How to configure
 ### I. Configuration
 
 Login to the Magento Admin, choose `Store > Settings > Configuration > Mageplaza Extensions > Webhook`.
 
-![Imgur](https://i.imgur.com/xijwOba.png)
+![webhook](https://i.imgur.com/xijwOba.png)
 
 #### 1. General
 
@@ -17,14 +17,14 @@ Login to the Magento Admin, choose `Store > Settings > Configuration > Mageplaza
 - **Keep Logs**: Enter the number of keep logs. It will auto-delete the logs if it reaches to the selected number and keeps the number of selected logs. It will make the logs clear everyday.
 - **Alert on Error**: Choose "Yes" to send the notification when sending an email. To avoid sending the email to the spambox, you should install [SMTP extension](https://www.mageplaza.com/magento-2-smtp/)
 
-![Imgur](https://i.imgur.com/9KZ0x0v.png)
+![webhook1](https://i.imgur.com/9KZ0x0v.png)
 
 ### II. Manage Hook
 #### 1. Grid
 
 From the Admin Panel, go to `Mageplaza > Webhook > Manage Hooks`.
 
-![Imgur](https://i.imgur.com/d0XVzUM.png)
+![webhook2](https://i.imgur.com/d0XVzUM.png)
 
 - This section records created Webhooks with basic information as *Name, Status, Store View, Entity, Created Date and Update date, etc*
 - Admins can perform some actions:
@@ -35,18 +35,18 @@ From the Admin Panel, go to `Mageplaza > Webhook > Manage Hooks`.
 - Also, admins can filter, change the Store View, hide/show columns on Grid.
 - For `Add New` button, you can choose `Trigger` type to `Create New Hook` and activate the data to the server.
 
-![Imgur](https://i.imgur.com/2RIgtHF.png)
+![webhook3](https://i.imgur.com/2RIgtHF.png)
 
 #### 2. Create a Hook
 ##### How to Create New Hook
 
 From the Admin Panel, go to `Mageplaza > Webhook > Manage Hooks`, choose `Add New` button in the right corner with some options as New Order, New Product, Update Product, Delete Product, etc
 
-![Imgur](https://i.imgur.com/7AKQ7KM.gif)
+![webhook4](https://i.imgur.com/7AKQ7KM.gif)
 
 ##### 2.1. General
 
-![Imgur](https://i.imgur.com/vBdGJs2.png)
+![webhook5](https://i.imgur.com/vBdGJs2.png)
 
 - **Name**: Enter the name of the Hook. This name will display when sending the email to customers
 - **Status**: Choose "Enable" to use Hook
@@ -57,7 +57,7 @@ From the Admin Panel, go to `Mageplaza > Webhook > Manage Hooks`, choose `Add Ne
   
 ##### 2.2. Actions
 
-![Imgur](https://i.imgur.com/vCZDc4c.gif)
+![webhook6](https://i.imgur.com/vCZDc4c.gif)
 
 - **Payload URL**:
   - Choose `Insert Variable` button to choose the variable. You can insert a variable. For example: Method POST: https://domain.freshsales.io/api/leads, GET: https://domain.freshsales.io/leads/view/4000831345, etc or https://domain.freshsales.io/leads/view/4000831345 new shipment = {insert variable} with the domain is your API account name.
@@ -77,18 +77,18 @@ From the Admin Panel, go to `Mageplaza > Webhook > Manage Hooks`, choose `Add Ne
   
 - **Authentication**: Select the type of data access authentication you want from the server. When you send a request, you typically have to include parameters to make sure the request has access and returns the data you want. You should leave this field blank to avoid the access
 
-![Imgur](https://i.imgur.com/pqHq9s3.png)
+![webhook7](https://i.imgur.com/pqHq9s3.png)
 
   - **Basic**: Display 2 fields as `Username` and `Password`. Enter the information to verify the access
   - **Note**: In the process of being strictly enforced throughout the entire data cycle to SSL for security, authentication is transmitted over unsafe lines.
   - **Digest**: Enter some verification information as the following image:
   
-  ![Imgur](https://i.imgur.com/AUQ02Cn.png)
+  ![webhook8](https://i.imgur.com/AUQ02Cn.png)
   
   - **Headers**: Click `Add` button to add the values of headers such as `Name and Value` as required by the server to be able to call that API. For example: Name: Authorization, Value is Token, `Token = "Your API Key"`
   - **Content-type**: Select the content type to send the information. For Method as `GET`, you can leave this field blank.
   
-  ![Imgur](https://i.imgur.com/HYAIDwH.png)
+  ![webhook9](https://i.imgur.com/HYAIDwH.png)
   
   - **Body**: With the Method as POST or PUT, etc, you need to add the content into `Content` field to send a request. Click `Insert Variable` to choose the variable.
   
@@ -97,12 +97,12 @@ From the Admin Panel, go to `Mageplaza > Webhook > Manage Hooks`, choose `Add Ne
 From the Admin Panel, go to `Mageplaza > Webhook > Logs`
 This section will record the Webhooks change logs as Name, Status, Entity, Message, etc. When you click on any file, it will auto-open that file.
 
-![Imgur](https://i.imgur.com/eFD30lA.png)
+![webhook10](https://i.imgur.com/eFD30lA.png)
 
 #### View Log
 Click `View`, it will redirect the email receiver to the Logs page in order to view the detailed logs.
 
-![Imgur](https://i.imgur.com/C0g5Dwr.png)
+![webhook11](https://i.imgur.com/C0g5Dwr.png)
 
 
 
