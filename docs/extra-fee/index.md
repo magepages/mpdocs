@@ -140,10 +140,52 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   ![extra fee9](https://i.imgur.com/PJbQJuh.png)
   
 ## 3. Frontend
+### 3.1. Display on the Cart Summary
+
+![Imgur](https://i.imgur.com/0M6Zf50.png)
+
+### 3.2. Display on the Payment Method
+
+![Imgur](https://i.imgur.com/1PhepSv.png)
+
+### 3.3. Display on the Shipment Method
+![Imgur](https://i.imgur.com/YjQBQiC.png)
+
+### 3.4. Display on the Order
+![Imgur](https://i.imgur.com/ZFe8K2n.png)
+
+### 3.5. Display on the Invoice
+
+![Imgur](https://i.imgur.com/I6L4FIA.png)
+
+### 3.6. Display on the Shipment
+
+![Imgur](https://i.imgur.com/qN8XCiz.png)
+
+### 3.7 Display on the Credit Memo
+![Imgur](https://i.imgur.com/2mFf40A.png)
+
 
 ## 4. Backend
+### 4.1. Order
+
+![Imgur](https://i.imgur.com/LZ9HbFJ.png)
+
+### 4.2. Invoice
+![Imgur](https://i.imgur.com/zntETEa.png)
+
+### 4.3. Shipment
+
+![Imgur](https://i.imgur.com/xVnq215.png)
+
+### 4.4. Credit Memo
+
+![Imgur](https://i.imgur.com/n1tI2M8.png)
+
 
 ## 5. Email
+
+
   
 ## 6. Compatible with Mageplaza One Step Checkout
 
