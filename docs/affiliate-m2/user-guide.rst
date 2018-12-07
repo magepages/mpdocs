@@ -1,6 +1,6 @@
 
 
-[Mageplaza Affiliate extension](https://www.mageplaza.com/magento-2-affiliate-extension/) for Magento 2 is the greater choice than ever if you want to build an Affiliate program that is crazy enough to drive traffic and sales increase promptly, get qualified leads, and also enhance your brand awareness. Our Affiliate program allows you to pay affiliates amount of commissions.
+`Mageplaza Affiliate extension <https://www.mageplaza.com/magento-2-affiliate-extension/>`_ for Magento 2 is the greater choice than ever if you want to build an Affiliate program that is crazy enough to drive traffic and sales increase promptly, get qualified leads, and also enhance your brand awareness. Our Affiliate program allows you to pay affiliates amount of commissions.
 
 
 Mageplaza Affiliate User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
