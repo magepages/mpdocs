@@ -1,7 +1,7 @@
 # Webhook
 ## Overview
 
-Webhook is the configuration that allows sending the API request to another server with entities based on the event of Magento when some events occur. Thanks to Mageplaza Webhook extension, it will auto-activate an email notification to the customers when your store has some events as New Order, New Order Comment, New Invoice, New Customer, New Product, etc. All will be done quickly and conveniently with the help of this great module. Let's follow us to explore this plugin!
+Webhook is the configuration that allows sending the API request to another server with entities based on the event of Magento when some events occur. Thanks to Mageplaza Webhook extension, it will auto-activate an error email notification during the sending of the Hook to the customers when your store has some events as New Order, New Order Comment, New Invoice, New Customer, New Product, etc. All will be done quickly and conveniently with the help of this great module. Let's follow us to explore this plugin!
 
 ## How to configure
 ### I. Configuration
