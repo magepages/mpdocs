@@ -1,7 +1,7 @@
 # GeoIP
 ## Overview
 
-
+Geo IP helps to locate the customers based on their IP address and redirect them to the relevant store, change store view, language and currency. With the support of Mageplaza Geo IP extension, it will improve the customer's shopping experience when they can go shopping at the right store view and their needs.
 
 ## How to configure
 ### Configuration
