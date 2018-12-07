@@ -109,9 +109,10 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 * **URL Style**: Choose the type to display URL
 
-  * `URL Style = Hash`: Display URL  as [http://example.com#c123](http://example.com/#c123)
+  * `URL Style = Hash`: Display URL  as `http://example.com#c123 <http://example.com/#c123>`_
   
-  * `URL Style = Parameter`: Display URL  as [http://example.com/?c=123](http://example.com/?c=123)
+  * `URL Style = Parameter`: Display URL  as `http://example.com/?c=123 <http://example.com/?c=123>`_
+
   
 * **Custom parameter**
 
