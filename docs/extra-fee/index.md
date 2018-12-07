@@ -184,10 +184,57 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 
 ## 5. Email
+### 5.1. Order Email
 
+![Imgur](https://i.imgur.com/rGvwUlN.png)
+
+### 5.2. Invoice Email
+
+![Imgur](https://i.imgur.com/eoxNRsD.png)
+
+### 5.3. Shipment Email
+
+![Imgur](https://i.imgur.com/IMNwaUS.png)
+
+### 5.4. Credit Memo Email
+
+![Imgur](https://i.imgur.com/mWLTJEj.png)
 
   
 ## 6. Compatible with Mageplaza One Step Checkout
+
+![Imgur](https://i.imgur.com/S4Wvd7z.png)
+
+## 7. Compatible with Mageplaza PDF Invoice
+
+### 7.1. PDF Order
+
+![Imgur](https://i.imgur.com/hEW1fgH.png)
+
+### 7.2. PDF Invoice
+
+![Imgur](https://i.imgur.com/pI9xSLa.png)
+
+### 7.3. PDF Shipment
+
+![Imgur](https://i.imgur.com/glMML3j.png)
+
+### 7.4. PDF Credit Memo
+
+![Imgur](https://i.imgur.com/d36vUAq.png)
+
+## 8. Compatible with PDF of Magento
+### 8.1. PDF Invoice
+
+![Imgur](https://i.imgur.com/YqPkCUw.png)
+
+### 8.2. PDF Shipment
+
+![Imgur](https://i.imgur.com/0SfCytC.png)
+
+### 8.3. PDF Credit Memo
+
+![Imgur](https://i.imgur.com/tJIdwQj.png)
 
 
 
