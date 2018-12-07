@@ -142,99 +142,99 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 ## 3. Frontend
 ### 3.1. Display on the Cart Summary
 
-![Imgur](https://i.imgur.com/0M6Zf50.png)
+![extra fee1](https://i.imgur.com/0M6Zf50.png)
 
 ### 3.2. Display on the Payment Method
 
-![Imgur](https://i.imgur.com/1PhepSv.png)
+![extra fee11](https://i.imgur.com/1PhepSv.png)
 
 ### 3.3. Display on the Shipment Method
-![Imgur](https://i.imgur.com/YjQBQiC.png)
+![extra fee12](https://i.imgur.com/YjQBQiC.png)
 
 ### 3.4. Display on the Order
-![Imgur](https://i.imgur.com/ZFe8K2n.png)
+![extra fee13](https://i.imgur.com/ZFe8K2n.png)
 
 ### 3.5. Display on the Invoice
 
-![Imgur](https://i.imgur.com/I6L4FIA.png)
+![extra fee14](https://i.imgur.com/I6L4FIA.png)
 
 ### 3.6. Display on the Shipment
 
-![Imgur](https://i.imgur.com/qN8XCiz.png)
+![extra fee15](https://i.imgur.com/qN8XCiz.png)
 
 ### 3.7 Display on the Credit Memo
-![Imgur](https://i.imgur.com/2mFf40A.png)
+![extra fee16](https://i.imgur.com/2mFf40A.png)
 
 
 ## 4. Backend
 ### 4.1. Order
 
-![Imgur](https://i.imgur.com/LZ9HbFJ.png)
+![extra fee17](https://i.imgur.com/LZ9HbFJ.png)
 
 ### 4.2. Invoice
-![Imgur](https://i.imgur.com/zntETEa.png)
+![extra fee18](https://i.imgur.com/zntETEa.png)
 
 ### 4.3. Shipment
 
-![Imgur](https://i.imgur.com/xVnq215.png)
+![extra fee19](https://i.imgur.com/xVnq215.png)
 
 ### 4.4. Credit Memo
 
-![Imgur](https://i.imgur.com/n1tI2M8.png)
+![extra fee20](https://i.imgur.com/n1tI2M8.png)
 
 
 ## 5. Email
 ### 5.1. Order Email
 
-![Imgur](https://i.imgur.com/rGvwUlN.png)
+![extra fee21](https://i.imgur.com/rGvwUlN.png)
 
 ### 5.2. Invoice Email
 
-![Imgur](https://i.imgur.com/eoxNRsD.png)
+![extra fee22](https://i.imgur.com/eoxNRsD.png)
 
 ### 5.3. Shipment Email
 
-![Imgur](https://i.imgur.com/IMNwaUS.png)
+![extra fee23](https://i.imgur.com/IMNwaUS.png)
 
 ### 5.4. Credit Memo Email
 
-![Imgur](https://i.imgur.com/mWLTJEj.png)
+![extra fee24](https://i.imgur.com/mWLTJEj.png)
 
   
 ## 6. Compatible with Mageplaza One Step Checkout
 
-![Imgur](https://i.imgur.com/S4Wvd7z.png)
+![extra fee25](https://i.imgur.com/S4Wvd7z.png)
 
 ## 7. Compatible with Mageplaza PDF Invoice
 
 ### 7.1. PDF Order
 
-![Imgur](https://i.imgur.com/hEW1fgH.png)
+![extra fee26](https://i.imgur.com/hEW1fgH.png)
 
 ### 7.2. PDF Invoice
 
-![Imgur](https://i.imgur.com/pI9xSLa.png)
+![extra fee27](https://i.imgur.com/pI9xSLa.png)
 
 ### 7.3. PDF Shipment
 
-![Imgur](https://i.imgur.com/glMML3j.png)
+![extra fee28](https://i.imgur.com/glMML3j.png)
 
 ### 7.4. PDF Credit Memo
 
-![Imgur](https://i.imgur.com/d36vUAq.png)
+![extra fee29](https://i.imgur.com/d36vUAq.png)
 
 ## 8. Compatible with PDF of Magento
 ### 8.1. PDF Invoice
 
-![Imgur](https://i.imgur.com/YqPkCUw.png)
+![extra fee30](https://i.imgur.com/YqPkCUw.png)
 
 ### 8.2. PDF Shipment
 
-![Imgur](https://i.imgur.com/0SfCytC.png)
+![extra fee31](https://i.imgur.com/0SfCytC.png)
 
 ### 8.3. PDF Credit Memo
 
-![Imgur](https://i.imgur.com/tJIdwQj.png)
+![extra fee32](https://i.imgur.com/tJIdwQj.png)
 
 ## 9. How to custom using the layout handle
 
