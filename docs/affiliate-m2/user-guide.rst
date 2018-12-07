@@ -421,9 +421,7 @@ Step 1: Fill in the Campaign Information
 .. image:: https://i.imgur.com/uZEBybr.png
 
 * **Name** 
-
   * Name your campaign
-  
   * This is a required field
   
 * **Discription**: Fill in the discription of your campaign
@@ -432,21 +430,21 @@ Step 1: Fill in the Campaign Information
   
 * **Website IDs**
   
-    * Choose the website to  conduct the campaign
+  * Choose the website to  conduct the campaign
     
-    * This is also a required field
+  * This is also a required field
     
 * **Affiliate Groups**
   
-    * Choose the group you want to conduct the campaign
+  * Choose the group you want to conduct the campaign
     
-    * This is another required field
+  * This is another required field
     
 * **Display**
   
-    * *Display = Allow Guest*: Show the campaign for all visiters
+  * *Display = Allow Guest*: Show the campaign for all visiters
     
-    * *Display = Affiliate Member Only*: Show the campaign for Affiliate only
+  * *Display = Affiliate Member Only*: Show the campaign for Affiliate only
     
     
 * **Active From Date**: Select the starting day for your campaign
@@ -455,9 +453,9 @@ Step 1: Fill in the Campaign Information
   
 * **Sort Order**
   
-    * Insert the sort order (or prioritized number) of your campaign
+  * Insert the sort order (or prioritized number) of your campaign
     
-    * The smaller the number, the more prioritized your campaign is, which means that it will be shown and applied first. If the sort orders of different campaigns are the same, the module will then consider their ID numbers.
+  * The smaller the number, the more prioritized your campaign is, which means that it will be shown and applied first. If the sort orders of different campaigns are the same, the module will then consider their ID numbers.
   
 Step 2: Choose the conditions for applying the campaign
 ~~~~~~~~~~~~~~~~~~~~~~~~~
