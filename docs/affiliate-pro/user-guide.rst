@@ -1,6 +1,6 @@
 
 
-Improve the functions for standard Affiliate, Mageplaza introduce the Professional package with awesome added features such as refer friends using banner links, or the Affiliate can get more commission according to their affiliate levels. 
+Improve the functions for standard Affiliate, Mageplaza introduces the Professional package with awesome added features such as referring friends using banner links, or the Affiliate can get more commission according to their affiliate levels. 
 
 
 Mageplaza Affiliate User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
@@ -8,7 +8,7 @@ Mageplaza Affiliate User Guide will provide the detailed instructions to know **
 How to Use
 ^^^^^^^^^^^^^^
 
-After installing Affilliate module, Affiliate link is available on the footer of your site. Click on the link and go to Affiliate Home Page. 
+After installing Affilliate module, the Affiliate link is available on the footer of your site. Click on the link and go to Affiliate Home Page. 
 
 Affiliate Home Page
 ``````````````````````
@@ -388,7 +388,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * *Status = Inactive*: The Affiliate account which is just created can't start working yet
   
-  * *Status = Need Approved*: he Affiliate account which is just created needs to be approved by admin
+  * *Status = Need Approved*: The Affiliate account which is just created needs to be approved by admin
   
 * **Email Notification**: Choose **Yes** to receive notification emails when there is a change in your Affiliate account balance
 
@@ -399,7 +399,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 3.1. Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* There are five default groups: General, Bronze, Sliver, Gold, Platinum
+* There are five default groups: General, Bronze, Silver, Gold, Platinum
 
 .. image:: https://i.imgur.com/mpPvZxT.png
 
@@ -417,7 +417,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 4. Campaigns
 `````````````````````````````
 
-* **Edit Campaigns**
+4.1 Edit Campaigns
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
   * **Step 1: Fill in the Campaign Information** 
   
@@ -427,16 +428,19 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * **Step 4: Set up Commission**
   
+  
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/uZEBybr.png
 
 * **Name** 
+
   * Name your campaign
+  
   * This is a required field
   
-* **Discription**: Fill in the discription of your campaign
+* **Description**: Fill in the description of your campaign
   
 * **Status**: Sellect `yes` to apply the campaign
   
@@ -504,13 +508,14 @@ Step 4: Set up the Commission
 
 * There are two commision types:
 
-  * **Percentage of grand total**: Commision is calculated based on the percentage of garnd cart total 
+  * **Percentage of grand total**: Commision is calculated based on the percentage of grand cart total 
   
   * **Fixed amount**: Commission is a fixed amount
   
 * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
 
-* **Add New Campaigns**
+4.2 Add New Campaigns
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
   * **Step 1: Fill in the Campaign Information** 
   
@@ -529,7 +534,7 @@ Step 1: Fill in the Campaign Information
   * Name your campaign
   * This is a required field
   
-* **Discription**: Fill in the discription of your campaign
+* **Description**: Fill in the description of your campaign
   
 * **Status**: Sellect `yes` to apply the campaign
   
@@ -607,19 +612,56 @@ Step 4: Set up the Commission
 
 * Admin can also create various campaigns
 
-* For examplr: Campaign 1 has two tiers, the discount is 10%; campaign 2 has 2 tiers as well with 5% discount. A is Affiliate refering to B
-Ví dụ: Campaign 1 có 2 tier, discount của campaign 1 là 10% và campagin 2 cũng có 2 tier, disocunt của campaign 2 là 5%. A là tài khoản Affiliate, A giới thiệu cho B đăng ký là tài khoản Affiliate. B gửi link giới thiệu cho C mua hàng. Khi C mua hàng bằng link giới thiệu của B thì C sẽ được giảm giá (10% + 5%). B nhận được commission từ order của C sẽ là tổng số tiền sau khi tính toán của tier 1 của campaign 1 và tier 1 của campaign 2. A nhận được commission từ order của C sẽ là tổng số tiền sau khi tính toán của tier 2 của campaign 1 và tier 2 của campaign 2.
+* For example: Campaign 1 has two tiers, the discount is 10%; campaign 2 has 2 tiers as well with 5% discount. A is Affiliate referring link to B as another Affiliate. When C buy the products using the link that B refer to, C will get the discount of 15% (10% + 5%). In this case, B will get the commision equal to the sum of tier 1 of campaign 1 and tier 1 of campaign 2. Whereas, A will get the commision of both tier 2 in the campagin 1 and campaign 2. 
 
-
-
-
-
-
-
-4. Withdraws
+5. Banners
 `````````````````````````````
 
-4.1. Manage Grid
+Add New Banner
+~~~~~~~~~~~~~~~~~~~~~~~~~
+ 
+.. image:: https://i.imgur.com/KQFTYxY.png
+
+
+* **Title**
+
+* Insert the title for your banner
+
+* This is a required field
+
+* **Content**
+
+* Click to **Insert Image** to choose image or upload from your library for your banner. The image link will be shown at the below text box
+
+* You can also insert text or html link in this text box
+
+* **Redirect URL**
+
+* Insert the URL that admin want customers click on
+
+* If it is left empty, the default displaying place is homepage
+
+* **Related Campaign**
+
+* Choose the campaign for your banner. If customers buy products using that banner link, they will get the promotion of related campaigns and that banner is only shown for the Affiliate of related campaigns
+
+* You can choose the default campaign
+
+
+* **Rel Nofollow**
+
+* Choose **Yes** to put the attribute rel="nofollow" into the banner link
+
+* Default setting is **No**
+
+* **Status**: Choose **Yes** to show banner at frontend
+
+
+
+6. Withdraws
+`````````````````````````````
+
+6.1. Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  
 * Allow to show the withdraw history of each Affiliate account including: The amount, the status, payment method, etc. Click **View** to see the details of each withdraw. 
@@ -628,7 +670,7 @@ Ví dụ: Campaign 1 có 2 tier, discount của campaign 1 là 10% và campagin 
 
 .. image:: https://i.imgur.com/rrHQDV2.png
 
-4.2. Add New Withdraws
+6.2. Add New Withdraws
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/Fvw09Fg.png
@@ -636,7 +678,7 @@ Ví dụ: Campaign 1 có 2 tier, discount của campaign 1 là 10% và campagin 
 
 * **Account** 
 
-  * Click to this field to show the affilicate account that have positive balance which can be withdrawn
+  * Click to this field to show the affiliate accounts that have positive balance which can be withdrawn
   
   * This field is required
 
@@ -652,13 +694,13 @@ Ví dụ: Campaign 1 có 2 tier, discount của campaign 1 là 10% và campagin 
 
   * Inseart the withdraw fee
   
-  * If you let this field empty, the configuration value will be applied
+  * If you leave this field empty, the configuration value will be applied
   
 * **Payment Method**
 
   * Choose the payment method for withdrawal
   
-  * There are three payment methods: Offline payment, Bank Tranfer, Paypal payment
+  * There are three payment methods: Offline payment, Bank Transfer, Paypal payment
   
 * **Withdraw Reason**: Fill in the reason for withdrawal
 
@@ -669,7 +711,7 @@ Ví dụ: Campaign 1 có 2 tier, discount của campaign 1 là 10% và campagin 
 .. image:: https://i.imgur.com/5w1uKvg.png
 
 
-  * For **Bank Tranfer**, insert the Bank account
+  * For **Bank Transfer**, insert the Bank account
   
 .. image:: https://i.imgur.com/ywa7PZk.png
 
@@ -678,10 +720,10 @@ Ví dụ: Campaign 1 có 2 tier, discount của campaign 1 là 10% và campagin 
 
 .. image:: https://i.imgur.com/kE5UN64.png
 
-5. Transactions
+7. Transactions
 `````````````````````````````
 
-5.1 Manage Grid
+7.1 Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * Show the transaction of each affiliate account including: the amount, status, the order that generates commission. Click **View** to see more details of each transaction. 
@@ -702,14 +744,14 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 .. image:: https://cdn.mageplaza.com/docs/aff-assign-to-affiliate-group.gif
 
-5.2. Add New Transaction
+7.2. Add New Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/JF485Db.png
 
 * **Account** 
 
-  * Click to this field to show the affilicate account and then you can choose the account to add transaction in
+  * Click to this field to show the affiliate account and then you can choose the account to add transaction in
   
   * This is a required field
   
@@ -719,9 +761,9 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
   * Insert the added amount. It can be a negative one
   
-  * This is a compusorily required field
+  * This is a compulsorily required field
   
-* **Title**: Add the Title of transatction
+* **Title**: Add the Title of transaction
 
 * **Holding Transaction For**
 
@@ -729,23 +771,23 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
   
   * If you leave it empty or inseart 0, the transaction will be deleted 
   
-6. Email
+8. Email
 `````````````````````````````
 
-6.1 Notification emails for successful registration the affiliate account
+8.1 Notification emails for successful registration the affiliate account
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/5ra5VXp.png
 
-6.2 Notification emails for Affiliate account aproval
+8.2 Notification emails for Affiliate account aproval
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-6.3 Notification emails for changing the Afiliate account balance
+8.3 Notification emails for changing the Afiliate account balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/c0iqHoi.png
 
-6.4 Notification emails for completion of withdraw request
+8.4 Notification emails for completion of withdraw request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/1kYBnel.png
