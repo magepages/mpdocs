@@ -144,14 +144,14 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 ## 3. Frontend
 ### 3.1. Display on the Cart Summary
 
-![extra fee1](https://i.imgur.com/0M6Zf50.png)
+![extra fee1](https://i.imgur.com/kJ0lC1i.png)
 
 ### 3.2. Display on the Payment Method
 
-![extra fee11](https://i.imgur.com/1PhepSv.png)
+![extra fee11](https://i.imgur.com/N9iQAn8.png)
 
-### 3.3. Display on the Shipment Method
-![extra fee12](https://i.imgur.com/YjQBQiC.png)
+### 3.3. Display on the Shipping Methods
+![extra fee12](https://i.imgur.com/lRq5pFG.png)
 
 ### 3.4. Display on the Order
 ![extra fee13](https://i.imgur.com/ZFe8K2n.png)
@@ -188,42 +188,42 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 ## 5. Email
 ### 5.1. Order Email
 
-![extra fee21](https://i.imgur.com/rGvwUlN.png)
+![extra fee21](https://i.imgur.com/t6U8Xk5.png)
 
 ### 5.2. Invoice Email
 
-![extra fee22](https://i.imgur.com/eoxNRsD.png)
+![extra fee22](https://i.imgur.com/OKoJybq.png)
 
 ### 5.3. Shipment Email
 
-![extra fee23](https://i.imgur.com/IMNwaUS.png)
+![extra fee23](https://i.imgur.com/BIoFaDD.png)
 
 ### 5.4. Credit Memo Email
 
-![extra fee24](https://i.imgur.com/mWLTJEj.png)
+![extra fee24](https://i.imgur.com/cOAWqHP.png)
 
   
 ## 6. Compatible with Mageplaza One Step Checkout
 
-![extra fee25](https://i.imgur.com/S4Wvd7z.png)
+![extra fee25](https://i.imgur.com/T7BHIPC.png)
 
 ## 7. Compatible with Mageplaza PDF Invoice
 
 ### 7.1. PDF Order
 
-![extra fee26](https://i.imgur.com/hEW1fgH.png)
+![extra fee26](https://i.imgur.com/j9qvd2k.png)
 
 ### 7.2. PDF Invoice
 
-![extra fee27](https://i.imgur.com/pI9xSLa.png)
+![extra fee27](https://i.imgur.com/blztfLE.png)
 
 ### 7.3. PDF Shipment
 
-![extra fee28](https://i.imgur.com/glMML3j.png)
+![extra fee28](https://i.imgur.com/huKzDyo.png)
 
 ### 7.4. PDF Credit Memo
 
-![extra fee29](https://i.imgur.com/d36vUAq.png)
+![extra fee29](https://i.imgur.com/xFp6eFX.png)
 
 ## 8. Compatible with PDF of Magento
 ### 8.1. PDF Invoice
@@ -245,7 +245,6 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
     - Get Extra Fee information at Payment Method.
 ```    
     {{if order.getHasBillingExtraFee()}}
-				<h3>{{trans "Payment ExtraFee"}}</h3>
 				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$order}}
 			 {{/if}}
 ```
@@ -254,7 +253,6 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
    
 ```
 {{if order.getHasShippingExtraFee()}}
-				<h3>{{trans "Shipping ExtraFee"}}</h3>
 				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$order}}
 			 {{/if}}
 ```
@@ -263,7 +261,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 ```
 {{if order.getHasExtraFee()}}
-				<h3>{{trans "ExtraFee"}}</h3>
+                                 <h3>{{trans "Extra Fee"}}</h3>
 				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$order}}
 			 {{/if}}
 ```
@@ -282,7 +280,6 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   
 ```
 {{if invoice.getHasShippingExtraFee()}}
-				<h3>{{trans "Shipping ExtraFee"}}</h3>
 				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$invoice}}
 			 {{/if}}
 ```
@@ -291,7 +288,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   
 ```
 {{if invoice.getHasExtraFee()}}
-				<h3>{{trans "ExtraFee"}}</h3>
+				<h3>{{trans "Extra Fee"}}</h3>
 				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$invoice}}
 			 {{/if}}
 ```
@@ -301,7 +298,6 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
     
 ```
 {{if creditmemo.getHasBillingExtraFee()}}
-				<h3>{{trans "Payment ExtraFee"}}</h3>
 				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$creditmemo}}
 			 {{/if}}
 ```
@@ -310,7 +306,6 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   
 ```
 {if creditmemo.getHasShippingExtraFee()}}
-				<h3>{{trans "Shipping ExtraFee"}}</h3>
 				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$creditmemo}}
 			 {{/if}}
 ```
@@ -319,12 +314,15 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 ```
 {{if creditmemo.getHasExtraFee()}}
-				<h3>{{trans "ExtraFee"}}</h3>
+				<h3>{{trans "Extra Fee"}}</h3>
 				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$creditmemo}}
 			 {{/if}}
 ```
 
+
+
 ``Note``: 
+- You can view the template of PDF Order when it is compatible with Extra Fee extension [here](https://github.com/mageplaza/pdf-invoice-templates/blob/master/invoice/pdf-invoice-extra-fee.html)
 - For Invoice and Credit Memo, all fees of Extra Fee will be added to Invoice or Credit Memo first.
 
 
