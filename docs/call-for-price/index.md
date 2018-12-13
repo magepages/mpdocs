@@ -29,36 +29,38 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   
 #### Terms and Conditions
 
-![Terms and Conditions](https://i.imgur.com/g8JhSqd.png)
+![Terms and Conditions](https://i.imgur.com/m3DDlmO.png)
 
 - **Check by default**: Choose `Yes` to auto-tick on the checkbox (always agree with the terms and conditions of the store)
+- **Is Required**: Choose "Yes" to display this required field
 - **Title**:
   - Enter the title for the **Terms and Conditions**
+  - If you use "%anchor" variable in this field, the text entering into `Anchor Text` will match with the ext of `Title` field
   
-- **Anchor**: 
+- **Anchor Text**: 
   - Enter the content displaying for this field
   - The content of this field will merge with the Title field
 
-- **URL**:
+- **Anchor URL**:
   - Enter the URL that store owners want to redirect the customers when clicking in the content filled in the `Anchor` field
-  - You are not allowed to leave this field blank
-  - For instance: In the `Title` field, you fill is that *I agree with*, in the `Anchor` field, you fill is that *Terms and Conditions* and the `URL` field is that *[https://domain.com/tos.html](https://www.domain.com/tos?)*, then the result displaying on the frontend is that *I agree with the <a href="https://domain.com/tos.html">Terms and Conditions</a>*
+  - If you leave this field blank, `Anchor Text` field don't have the link to click and it will be a text description as usual.
+  - For instance: In the `Title` field, you fill is that *I agree with the %anchor of Services*, in the `Anchor` field, you fill is that *Terms and Conditions* and the `URL` field is that *[https://domain.com/tos.html](https://www.domain.com/tos?)*, then the result displaying on the frontend is that *I agree with the <a href="https://domain.com/tos.html">Terms and Conditions</a> of Services*
 
 #### Disable Default Functions
 
-![Disable Default Functions](https://i.imgur.com/XjBkSrh.png)
+![Disable Default Functions](https://i.imgur.com/mgABx91.png)
 
 - **Disable Add to compare, Wishlist**: Choose `Yes` to hide the `Add to compare` and `Add to Wishlist` buttons on the product on the frontend
 - **Disable Register Customer Account**: Choose `Yes` to hide the `Create an Account` button after customers checkout by their guest account
 - **Disable Shopping cart by Customer groups**:
   - The selected customer groups cannot access on Shopping cart page
   - Allow choosing many customer groups simultaneously
-  - If you don't choose to apply for any group, the default will apply for all groups
+  - The default is that no group is selected
   
 - **Disable Checkout page by Customer groups**:
   - The selected customer groups cannot access on the Checkout page
   - Allow choosing many customer groups simultaneously
-  - If you don't choose to apply for any group, the default will apply for all groups
+  - The default is that no group is selected
   
 #### Admin Email Notification
 
@@ -115,7 +117,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
     - Hide the Add to cart button on the product
     - This section is usually for reference products or non-selling products
     
-![design the display rule](https://i.imgur.com/OqmIFh1.gif)
+![design the display rule](https://i.imgur.com/DZPm8Ky.gif)
 
 ##### Step 3: Set the condition applying the rule for products in the Where to Show section
   
