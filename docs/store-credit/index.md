@@ -34,7 +34,25 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - **Force Cancel Transaction**: In case the canceled amount is greater than the actual amount in the balance:
   - Choose Yes, the Balance is 0
   - Choose No, the Balance will 
+  
+- **Allow Refund Order to Credit Balance**: Choose "Yes" so that the customer amount when they refund order is transferred to credit balance instead of sending cash to the customers
+- **Allow Refund Store Credit Product**: Choose "Yes" so that customers can refund Store Credit Product.
 
+#### 1.2. Spending Configuration
+
+!
+
+- **Enable Spending On**:
+  - Choose pages that can allow using Credit in Balance
+  - Multiple pages can be selected
+  
+- **Apply for**:
+  - Choose product types that Credit can pay
+  - Multiple pages can be selected
+  
+- **Apply for tax**: Choose "Yes" so that Credit can be used to pay the tax fee
+- **Apply for Shipping Fee**: Choose "Yes" so that Credit can be used to pay the Shipping fee
+- **Limit Spend Amount By**: 
 
 
 
