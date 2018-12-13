@@ -866,3 +866,79 @@ In this field, admin can view the sales and the commission of related Affiliate 
 * You can see some syntaxes that we list [here]. Also, please refer the guide on how to create API [here] and creating token-based authentication [here]. 
 
 
+11. Import/Export
+`````````````````````````````
+
+When admins want to change their Magento store system, for backup data purpose, we add the Import/Export function for all the data of Account Affiliate and Transaction of Affiliate. 
+
+11.1 Import/Export Affiliate Account
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* **Import**
+
+From the **Admin Panel**, go to *Sytem > Data Tranfer > Import*
+
+.. image:: https://i.imgur.com/s9EibFJ.png
+
+**Step  1**: Choose *Entity Type = Mageplaza Affiliate Account*
+
+**Step 2**: Select Import behavior: You can Add/Update or Delete account
+
+**Step 3**: Upload the import file from your computer. If you do not know what the file format is and which data to insert, please click to **Download Sample File** to see the example. 
+
+**Step 4**: Check and import data
+
+
+* **Export**
+
+From the **Admin Panel**, go to *Marketing> Affiliate > Manage Accounts*
+
+.. image:: https://i.imgur.com/XZzrtr9.png
+
+* Click **Export** and choose the file format to download the data. Also, you can use this file to import to other system.
+
+* **Note**: When import file to other system, please check the header to make sure it is compatible with that system. 
+
+
+11.2 Import/Export Affiliate Transaction
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+* **Import** 
+
+
+From the **Admin Panel**, go to *Sytem > Data Tranfer > Import*
+
+.. image:: https://i.imgur.com/XZMyGJ3.png
+
+**Step 1**: Choose *Entity Type = Mageplaza Affiliate Transaction* 
+
+**Step 2**: Select Import behavior: Add transaction
+
+**Step 3**: Upload the import file from your computer. If you do not know what the file format is and which data to insert, please click to **Download Sample File** to see the example. 
+
+**Step 4**: Check and import data
+
+* **Export**
+
+From the **Admin Panel**, go to *Marketing> Affiliate > Transactions*
+
+.. image:: https://i.imgur.com/7eFckon.png
+
+* Click **Export** and choose the file format to download the data. Also, you can use this file to import to other system.
+
+* **Note**: When import file to other system, please check the header to make sure it is compatible with that system. Also be noted that all the data imported to orther system are in log. Therefore, you can not add transaction such as adding commission and withdrawal into these files. 
+
+* Below are headers that this module support to import/export data. In which, the header with * is required.  
+
+* **Affiliate Account**
+
+.. image:: https://i.imgur.com/Ys2otp6.png
+
+*Note*: If you do not insert the data in column, it will be set as NULL at the database. If you import the same email twice, the system will record the initial email and ID.
+
+* **Transaction**
+
+.. image:: https://i.imgur.com/KHVGOQN.png
+
+
+*Note*: If you do not insert the date or time then the module will automatically get the date and time when you import the data. For the data imported with the actions as in the table above but shown at **Transaction Grid**, the **Action Type = Admin**
