@@ -91,12 +91,46 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 !
 
+- **Select Customer**
+  - When you click on this item, the popup displays a list of all the customers in the store. Admins only select a customer in the list.
+  - The name of customers selected by admins in this section will be added to the credit into their `Store credit balance`
+  - If leaving this field blank, customer will have an error message
+
+- **Amount Note**
+  - The number that is filled in this section is the credit number added to customers
+  - If you enter a negative number or leave this field blank, it will give an error
+
+- **Customer Note**
+  - This is the section for admins to fill out a comment for this transaction
+  - The content filled out in this section will be displayed to customers
+
+- **Admin Note**
+  - This is the section for admins to fill out comments for themselves
+  - The content filled in here will only be visible by admins
+  
+### 3. Manage Reward Points at Admin Customer
+
+!
+
+- Admins can manage Store Credit Balance, Transactions and Notification of customers by going to `Customer > Edit Customer > Store Credit`
+- The Credit Information tab tells the administrators to know the total amount of Credit that customers has, and shows the status of the email receipt action when the balance update of the customers. Admins can also change the status of this action.
+- The Update Balance tab allows admins to change the balance by filling in the `Amount Change` field and adding a comment to the customers or admins. `Customer Note` will be displayed for customers.
+- The Transaction tab displays information about all of the transactions performed by customers: *ID, Title, Customer, Status, Action, Amount, Balance, Create Date*.
+- The Balance, Notification and Transaction information in the admin will sync with the customer's `Frontend My Account/My Store Credit`
 
 
+### 4. How to create a Store Credit Product
 
+- To create a Store Credit Product,  admins need to access `Product > Catalog > Add New Product > Store Credit Product`
+- After filling in the basic information of Store Credit Product such as Name, SKU, Qty and Category, admins need to configure the following options:
 
+!
 
+- **Allow Amount Range**:
+  - Select "Yes" so that customers can change the `Amount of Credit` as their wish within the Amount `Range From - To` that admins have set.
+  - Select "No" to set the Fixed Amount for the `Credit Credit Store`
 
+- **Price**: The price displayed on `Frontend = Price Percentage * Amount` entered by customers. If you leave it blank, `Price Percentage = 100%`
 
 
 
