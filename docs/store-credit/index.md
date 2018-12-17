@@ -8,23 +8,22 @@ Mageplaza Store Credit extension is fully compatible with Mageplaza OSC and Mage
 - Thanks to this extension, customes can perform some actions:
   - Manage Balance
   
-  ![Imgur](https://i.imgur.com/s14o46W.png)
+  ![Imgur](https://i.imgur.com/ydiUuAM.png)
   
   - Purchase Store Credit Product
   
-  ![Imgur](https://i.imgur.com/Mm29CoQ.png)
+  ![Imgur](https://i.imgur.com/ICmJcP4.png)
   
   - Use Credit to pay the order
   
-  ![Imgur](https://i.imgur.com/Mm29CoQ.png)
+  ![Imgur](https://i.imgur.com/VzbxMyE.png)
   
-
 
 ## How to configure
 
 From the Admin Panel, go to `Marketing > Store Credit`
 
-!
+![Imgur](https://i.imgur.com/tLncGM5.png)
 
 ### 1. Configuration
 #### 1.1. General Tab
@@ -36,22 +35,20 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - **Display Balance on Toplink**: Choose "Yes" so that the balance value of customers is displayed on the toplink
 - **Force Cancel Transaction**: In case the canceled amount is greater than the actual amount in the balance:
   - Choose Yes, the Balance is 0
-  - Choose No, the Balance will 
+  - Choose No, admins cannot cancel the transaction
   
-- **Allow Refund Order to Credit Balance**: Choose "Yes" so that the customer amount when they refund order is transferred to credit balance instead of sending cash to the customers
+- **Allow Refund Order to Credit Balance**: Choose "Yes" to display the text box filling the amount that the shop owner wants to refund the credit balance when the order is refunded
 - **Allow Refund Store Credit Product**: Choose "Yes" so that customers can refund Store Credit Product.
 
 #### 1.2. Spending Configuration
 
 !
 
-- **Enable Spending On**:
-  - Choose pages that can allow using Credit in Balance
-  - Multiple pages can be selected
+- **Enable Spending On**: Choose Credit that can use in the backend or frontend
   
 - **Apply for**:
   - Choose product types that Credit can pay
-  - Multiple pages can be selected
+  - Multiple product types can be selected
   
 - **Apply for tax**: Choose "Yes" so that Credit can be used to pay the tax fee
 - **Apply for Shipping Fee**: Choose "Yes" so that Credit can be used to pay the Shipping fee
@@ -64,6 +61,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - **Limit Value**: 
   - Set the number of credit that customers can use for the order
   - The unit of the value will be based on the admin option selected in `Limit Spend Amount By`
+  - This limit applies only to the subtotal, excluding tax and shipping charges
   
 - **Allow Refund**: Choose "Yes" so that the number of credit customers use for order will be transferred to `Credit Balance` when the order is refunded
 
@@ -111,7 +109,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
   - This is the section for admins to fill out comments for themselves
   - The content filled in here will only be visible by admins
   
-### 3. Manage Reward Points at Admin Customer
+### 3. Manage Store Credit at Admin Customer
 
 !
 
