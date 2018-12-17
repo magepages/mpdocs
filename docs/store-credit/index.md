@@ -1,5 +1,8 @@
 # Store Credit
 ## Overview
+Mageplaza Store Credit extension allows customers to recharge their store account with certain discounts/bonuses. All transactions will be stored and managed in My Account/Store Credit of Customer (Frontend) and in the admin. Credits are used to make purchases at the store. Admins can also use credit for customers when creating New Order. This extension provides admins credit products. Customers can purchase this product to add credit to the balance. In addition, admins can refund customer orders in cash to customer accounts in your store instead of returns and customers will be able to use it for future purchases. Customers can see the balance on the toplink, see the usage history and receive an email when the balance is updated. This extension encourages shoppers to purchase and increase the performance of the payment on your website. Through this module, you can increase the number of customers and their satisfaction.
+
+Mageplaza Store Credit extension is fully compatible with Mageplaza OSC and Mageplaza SMTP
 
 ## How to use
 - Thanks to this extension, customes can perform some actions:
