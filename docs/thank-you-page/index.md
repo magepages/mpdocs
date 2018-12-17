@@ -1,29 +1,28 @@
 # Thank You Page
 ## Overview
 
-With Mageplaza Thank You Page, you can impress your customers with ease. They can completely check their orders including various information such as order number and status, order date, shipping address, payment method, and so on. This will help the customers know that they have successfully placed orders. Also, it helps customers feel your respect and concern. Moreover, you can insert useful information into the Thank You Page such as coupon, product slider, FAQ, and social sharing buttons that allow customers to share with their friends. This gives customers many interesting benefits during the payment process. It is a great way to bring satisfaction to grumpy customers. More interestingly, this is a way to promote your brand in the memory of the customer.
+With the help of [Mageplaza Thank You Page](), you can impress your customers with ease. They can completely check their orders including various information such as order number and status, order date, shipping address, payment method, and so on. This will help the customers know that they have successfully placed orders. Also, it helps customers feel your respect and concern. Moreover, you can insert useful information into the Thank You Page such as coupon, product slider, FAQ, and social sharing buttons that allow customers to share with their friends. This gives customers many interesting benefits during the payment process. It is a great way to bring satisfaction to grumpy customers. More interestingly, this is a way to promote your brand in the memory of the customer.
 
 We also support the Newsletter Success page with similar features.
 
 ## How to use
 ### 1. Display Thank You Page after customers complete the order
 
-![Imgur](https://i.imgur.com/XUbXvZO.png)
+![thank you page](https://i.imgur.com/XUbXvZO.png)
 
 ### 2. Display Thank You Page after customers click on subscribe
 
-![Imgur](https://i.imgur.com/CwmhZto.png)
-
+![thank you page1](https://i.imgur.com/CwmhZto.png)
 
 
 ## How to configure
 From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza Extension` tab, choose `Thank You Page`
 
-![Imgur](https://i.imgur.com/DXzRvh6.png)
+![thank you page2](https://i.imgur.com/DXzRvh6.png)
 
 ### 1. General Configuration
 
-![Imgur](https://i.imgur.com/H1DDusy.png)
+![thank you page3](https://i.imgur.com/H1DDusy.png)
 
 - **Enable**: Choose "Yes" to use the feature of this module
 - **Apply for Customer Group(s)**:
@@ -34,7 +33,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
   - Enter the key of AddThis to refer to the friends via AddThis
   
 ### 2. Order Success Page
-![Imgur](https://i.imgur.com/FshSeYA.png)
+![thank you page4](https://i.imgur.com/FshSeYA.png)
 
 - **Enable**: Choose "Yes" to display Thank You Page after customers complete the order
 - **Route**:
@@ -48,7 +47,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
 - **Custom Style**:
   - **Custom Style = Use Default Style**:
   
-  ![Imgur](https://i.imgur.com/cWFW8gN.png)
+  ![thank you page5](https://i.imgur.com/cWFW8gN.png)
   
     - `Page Title`: 
       - Enter the title for Thank You Page
@@ -71,7 +70,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
       
   - **Custom Style = Edit Default Style**:
   
-  ![Imgur](https://i.imgur.com/5mtzKsi.png)
+  ![thank you page6](https://i.imgur.com/5mtzKsi.png)
   
     - `Load Template button`: After clicking on this button, the code of the selected style in `Select Style` field will be loaded and displayed on `Page HTML` field and CSS of the selected style is also loaded and displayed on the `Custom CSS` field.
     - `Page HTML`:
@@ -89,7 +88,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
     - `Static Block 2 = No display`: This means that there're no any block to display on Thank You Page
 
 #### Coupon Block
-![Imgur](https://i.imgur.com/9JzEsQv.png)
+![thank you page7](https://i.imgur.com/9JzEsQv.png)
 
 - **Select Rule**:
   - Choose the rule (The rule is created at `Marketing > Promotions > Cart Price Rules`)
@@ -112,7 +111,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - HTML is supported
   
 #### Mageplaza FAQ
-![Imgur](https://i.imgur.com/fY3cJUK.png)
+![thank you page8](https://i.imgur.com/fY3cJUK.png)
 
 - **Enable**: Choose "Yes" to display FAQ on Thank You Page
 - **Title**:
@@ -128,7 +127,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
    - The default number of display is 5
    
 #### Product Slider Block
-![Imgur](https://i.imgur.com/qmPTQZE.png)
+![thank you page9](https://i.imgur.com/qmPTQZE.png)
 
 - **Enable**: Choose "Yes" to display Product Slider Block on Thank You Page
 - **Title**:
@@ -144,7 +143,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - Multiple information can be displayed.
   
 ### 3. Newsletter Success Page
-![Imgur](https://i.imgur.com/cvdXpFj.png)
+![thank you page10](https://i.imgur.com/cvdXpFj.png)
 
 - **Enable**: Choose "Yes" to display Thank You Page after customers click on `Subscribe` button
 - **Route**:
@@ -153,7 +152,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 
 - **Select Style**: Choose the style for Thank you Page after customers click on `subscribe`
 
-![Imgur](https://i.imgur.com/eWPgGvz.png)
+![thank you page11](https://i.imgur.com/eWPgGvz.png)
 
 - **Page Title**
   - Enter the title for Thank You Page
@@ -185,7 +184,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 - **Custom CSS**: You can edit the color, font text, etc of the selected style
     
 #### Coupon Block
-![Imgur](https://i.imgur.com/p4KCXrk.png)
+![thank you page12](https://i.imgur.com/p4KCXrk.png)
 
 - **Select Rule**:
   - Choose the rule (The rule is created at `Marketing > Promotions > Cart Price Rules`)
@@ -208,7 +207,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - HTML is supported
   
 #### Mageplaza FAQ
-![Imgur](https://i.imgur.com/S4mMRyr.png)
+![thank you page13](https://i.imgur.com/S4mMRyr.png)
 
 - **Enable**: Choose "Yes" to display FAQ on Thank You Page
 - **Title**:
