@@ -40,7 +40,6 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
 - **Route**:
   - Enter the route for Thank You Page
   - If you leave this field blank, the default route is *mpthankyoupage*
-  - The default title is *Thank you for your purchase!*
 
 - **Select Style**:
   - Choose the style for Thank You Page
@@ -51,7 +50,9 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
   
   ![Imgur](https://i.imgur.com/cWFW8gN.png)
   
-    - `Page Title`: Enter the title for Thank You Page
+    - `Page Title`: 
+      - Enter the title for Thank You Page
+      - The default title is *Thank you for your purchase*
   
     - `Page Sub-title`:
       - Enter the sub-title for Thank You Page
