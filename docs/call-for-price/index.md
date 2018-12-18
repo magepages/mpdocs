@@ -1,4 +1,4 @@
-# Magento 2 Call for Price
+# Call for Price
 
 ## Overview
 
