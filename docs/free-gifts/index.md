@@ -116,7 +116,7 @@ free gifts4
 
 #### Frontend Popup
 
-[free gifts9](https://i.imgur.com/e5y4msh.png)
+![free gifts9](https://i.imgur.com/e5y4msh.png)
 
 
 Please note that Frontend Popup is only shown with `Manually` type.
