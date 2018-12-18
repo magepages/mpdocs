@@ -42,7 +42,7 @@ From the Admin Panel, go to `System > Webhook > Manage Hooks`.
 
 From the Admin Panel, go to `System > Webhook > Manage Hooks`, choose `Add New` button in the right corner with some options as New Order, New Product, Update Product, Delete Product, etc
 
-![webhook4](https://i.imgur.com/pMatsrz.gif)
+![webhook4](https://i.imgur.com/SwxOeiG.gif)
 
 ##### 2.1. General
 
