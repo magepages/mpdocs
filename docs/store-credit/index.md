@@ -28,7 +28,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 ### 1. Configuration
 #### 1.1. General Tab
 
-!
+![Imgur](https://i.imgur.com/yiC8AaV.png)
 
 - **Enable**: Choose "Yes" to use the features of this module
 - **Enable for Customer Groups**: Only customers in the selected groups is used this extension
@@ -42,7 +42,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 1.2. Spending Configuration
 
-!
+![Imgur](https://i.imgur.com/kI58jTo.png)
 
 - **Enable Spending On**: Choose Credit that can use in the backend or frontend
   
@@ -67,7 +67,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 1.3. Email Configuration
 
-!
+![Imgur](https://i.imgur.com/SBI71pk.png)
 
 - **Enable** : Select "Yes" to use this feature
 - **Subcribe by default**: Select "Yes" so that customers who signup a new account will automatically accept the email when credit balance is updated
@@ -79,7 +79,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 ### 2. Transaction
 #### 2.1. Grid
-!
+![Imgur](https://i.imgur.com/vwfVF6c.png)
 
 - This is a place to save all transactions on the store
 - From the Grid, admins can capture the basic information of the generated transactions such as *ID, Title, Customer, Status, Action, Amount, Balance, Create Date* and can perform the following actions:
@@ -90,7 +90,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 2.2. Add New/Edit Form
 
-!
+![Imgur](https://i.imgur.com/qYCsYpg.png)
 
 - **Select Customer**
   - When you click on this item, the popup displays a list of all the customers in the store. Admins only select a customer in the list.
@@ -101,7 +101,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
   - The number that is filled in this section is the credit number added to customers
   - If you enter a negative number or leave this field blank, it will give an error
 
-- **Customer Note**
+- **Customer**
   - This is the section for admins to fill out a comment for this transaction
   - The content filled out in this section will be displayed to customers
 
@@ -111,7 +111,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
   
 ### 3. Manage Store Credit at Admin Customer
 
-!
+![Imgur](https://i.imgur.com/2vO7rCc.png)
 
 - Admins can manage Store Credit Balance, Transactions and Notification of customers by going to `Customer > Edit Customer > Store Credit`
 - The Credit Information tab tells the administrators to know the total amount of Credit that customers has, and shows the status of the email receipt action when the balance update of the customers. Admins can also change the status of this action.
@@ -125,15 +125,20 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - To create a Store Credit Product,  admins need to access `Product > Catalog > Add New Product > Store Credit Product`
 - After filling in the basic information of Store Credit Product such as Name, SKU, Qty and Category, admins need to configure the following options:
 
-!
-
 - **Allow Amount Range**:
   - Select "Yes" so that customers can change the `Amount of Credit` as their wish within the Amount `Range From - To` that admins have set.
+  
+  ![Imgur](https://i.imgur.com/MUhqhko.png)
+  
   - Select "No" to set the Fixed Amount for the `Credit Credit Store`
+  
+  ![Imgur](https://i.imgur.com/itVB8iA.png)
 
 - **Price**: The price displayed on `Frontend = Price Percentage * Amount` entered by customers. If you leave it blank, `Price Percentage = 100%`
 
+### 5. Email Update Balance
 
+![Imgur](https://i.imgur.com/s5AlSi0.png)
 
 
 
