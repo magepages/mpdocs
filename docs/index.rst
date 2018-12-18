@@ -67,4 +67,5 @@ Welcome to Mageplaza Docs
    product-slider-m2/index
    multi-flat-rates/index
    order-export/index
+   banner-slider/index
 
