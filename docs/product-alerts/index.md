@@ -46,7 +46,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 - **Popup Description**: Insert the description for your Popup
 
-- **Email Placeholder**: Insert the email for notification of price change
+- **Email Placeholder**: Insert the Placeholder message for notifying customers that this is the field to add email addresses receiving notification. For example: `Your email address`
 
 - **Add me to email list label**: Enable this field to allow checkbox for customers to add their emails to the store mailing list
 
@@ -62,29 +62,35 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 - **Email Sender**: Select the store representative that you want to show in the notification emails. Here are the options: 
 
-![Imgur](https://i.imgur.com/KwZe4kV.png)
 
-- **Email Template**: Go to `Marketing > Email Templates > Add New Template` to create Email template. Please choose the email template that you want to send to your customers when their favorite items are restocked.
+- **Email Template**: Go to `Marketing > Email Templates > Add New Template` to create Email template. Please choose the email template that you want to send to your customers when their favorite items are restock.
 
 - **Show on Product Listing Page**: Select `yes` to show the Button text field
 
   - **Button text**:  Name the Button to be shown at Product Listing Page. When customers click on this button, they can register to get notification emails of restock items. If you leave it empty, it will be `Notify me` as default.
   
-  ![Imgur](https://i.imgur.com/FneDROS.png)
+  ![Imgur](https://i.imgur.com/0Q5AZ6J.png)
 
-- **Text for subscribed customers**: This text is displayed after subscribing successfully, so customers can subscribe only once.
+- **Text for subscribed customers**: Insert the message you want to send to customers. This text is displayed after subscribing successfully, so customers can subscribe only once. For example: `Congratulations! You will receive a notification email when this product has just come back to stock.`
+
+![Imgur](https://i.imgur.com/4E4Yx2S.png)
 
 ##### 3.1. Popup Configuration
 
-- **Popup Heading**: Add the Title for Popup. Allow showing Popup when customers click to `Notify me when the price drops` and only show Popup with not-log-in customers.
+![Imgur](https://i.imgur.com/nTVzEBj.png)
 
-- **Popup Description**: Insert the description for your Popup
+- **Popup Heading**: 
+  - Add the Title for Popup. Allow showing Popup when customers click to `Notify me when the price drops` and only show Popup with not-log-in customers. `Notify me!` button is the name set for Button text.
+  
+  - If you leave it blank, the default message is: `Grab your chance when this product back in stock!`
 
-- **Email Placeholder**: Insert the email for notification of price change
+- **Popup Description**: Insert the description for your Popup. If you leave it empty, the default description is: `Subscribe Back-In-Stock Alerts now! Register your email address to be the first to know when our product comes back. Do not miss your chance!`
 
-- **Add me to email list label**: Enable this field to allow checkbox for customers to add their emails to the store mailing list
+- **Email Placeholder**: Insert the Placeholder message for notifying customers that this is the field to add email addresses receiving notification. The default text if you leave this field blank is: `Your email address`
 
-- **Footer Content**: Insert the note or warning to your customers, which is displayed at the footer of Popup
+- **Button text**: Add the button name for popup. When customers insert the email correctly, click to this button to subscribe notification of restock products. If you leave it blank, the default button is: `Notify me!`
+
+- **Footer Content**: Insert the note or warning to your customers, which is displayed at the footer of Popup. If it is left blank, the default content is: `Kindly notice that the back-in-stock email will be delivered only one time, and your email address will not be shared or published with anyone else.`
 
 #### 4. Product Alert Run Settings
 
@@ -110,22 +116,24 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock 
 
 - **Edit subcription**
 
-![Imgur](https://i.imgur.com/Xkl2Ysg.png)
+![Imgur](https://i.imgur.com/qnfFnJc.png)
 
-- **Product SKU**: Insert the SKUs for products that customers want to be notified when they are out of stock and restocked as well
+- **Product SKU**: Insert the SKUs for products that customers want to be notified when they are out of stock and restocked as well. This is a required field.
 - **Product Name**: This field allows showing the product name after customers subscribe the email notifications
-- **Customer Email**: Insert the customer emails to get notification when products are in stock
+- **Customer Email**: Insert the customer emails to get notification when products are in stock. This is a required field.
 - **Customer Name**: This field allows showing the customers' name after they subscribe the email notifications, which are based on their email addresses. For customers who have not subscribed accounts on your site, they will be named as `Guest` 
 - **Store View**: Select the store views whose products can be subscribed for out of stock notification. 
-- **Status**: Show the product status after subcription. 
+- **Status**: Show the product status after subscription. Status will be change along with the change of product SKU, Product name and Customer email.
 - **Created At**: Show the time of subscription only after subscribing.
 - **Last Send Date**: Show the last date of subscription
+
+`Note`: When you click to `Save` or `Save and continue edit`, the system will send email to the customers who have subscribed notification. If you click `Sent` or `Resent`, the system will send emails to customers notifying of back in stock products. 
 
 #### 2. Most Requested Products
 
 ##### 2.1. Most Requested Products
 
-This part reports the most wanted products based on the data of customers subscription of restock items, which includes: Product name, Product SKU, Number of Requests, etc. 
+This part reports the most wanted products based on the data of customers subscription of restock items, which includes: Product name, Product SKU, Number of Requests, etc. The subscribed products which are canceled will not be reported here. 
 
 ![Imgur](https://i.imgur.com/J2rKzrY.png)
 
@@ -151,20 +159,22 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Product Price
 
 ![Imgur](https://i.imgur.com/YZbbSzZ.png)
 
-- **Product SKU**: Insert the SKUs for products that customers want to be notified when they have better prices
+- **Product SKU**: Insert the SKUs for products that customers want to be notified when they have better prices. This is a required field.
 - **Product Name**: This field allow showing the product name after customers subscribe the email notifications
-- **Customer Email**: Insert the customer emails to get notification when product prices are better
+- **Customer Email**: Insert the customer emails to get notification when product prices are better. This is a required field.
 - **Customer Name**: This field allows showing the customers' name after they subscribe the email notifications, which are based on their email addresses. For customers who have not subscribed accounts on your site, they will be named as `Guest` 
 - **Store View**: Select the store views whose products can be subscribed of price change notification. 
-- **Status**: Show the product status after subscription. 
+- **Status**: Show the product status after subscription. Status will be change along with the change of product SKU, Product name and Customer email.
 - **Created At**: Show the time of subscription only after subscribing.
 - **Last Send Date**: Show the last date of subscription
+
+`Note`: When you click to `save` or `Save and continue edit`, the system will send email to the customers who have subscribed notification. If you click `Sent` or `Resent`, the system wil send emails to customers notifying of back in stock products. 
 
 #### 2. Most Requested Products
 
 ##### 2.1. Most Requested Products
 
-This part reports the most wanted products based on the data of customers subscription of better price items, which includes: Product name, Product SKU, Number of Requests, etc. 
+This part reports the most wanted products based on the data of customers subscription of better price items, which includes: Product name, Product SKU, Number of Requests, etc. The subscribed products which are canceled will not be reported here. 
 
 ![Imgur](https://i.imgur.com/b4kNnuE.png)
 
@@ -186,12 +196,15 @@ This part records the subscribers' information ( both for out-of-stock products 
 - **Back in Stock Notification**: 
   - `Enable` this field to show the link `Notify me when this product is in stock` on the product page
   -  Visitors can click to this link to subscribe to the products. When they are in stock, customers will get email notifications
-  
+  -  Turn on this field to activate Stock Notification function.
+
 - **Price Alert**: 
   - `Enable` this field to show the link `Notify me when the price drops` on the product page
   -  Visitors can click to this link to subscribe to the products. When they are at better prices, customers will get email notifications
+  - Turn on this field to activate Price Alert function.
+
   
-  ![Imgur](https://i.imgur.com/EPwIPBW.png)
+  ![Imgur](https://i.imgur.com/Y0GG8CE.png)
   
 ### V. Email Notifications
 
@@ -213,13 +226,11 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 **Notification of Successful subscription for out of stock** 
 
-![Imgur](https://i.imgur.com/ZloAPTG.png)
-
+![Imgur](https://i.imgur.com/2AFdu6u.png)
 
 **Back in Stock Notification**
 
-![Imgur](https://i.imgur.com/YNgbTfO.png)
-
+![Imgur](https://i.imgur.com/paOYw2C.png)
 
 ## Frontend
 
