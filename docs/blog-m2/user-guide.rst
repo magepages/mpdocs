@@ -376,7 +376,7 @@ VIII. Import
   
 .. image:: https://i.imgur.com/g0Hv6Pz.png
 
-* How to import in details can be found [here](https://www.mageplaza.com/blog/how-import-blog-wordpress-aheadworks-blog-magefan-blog-magento-2.html).
+* How to import in details can be found `here <https://www.mageplaza.com/blog/how-import-blog-wordpress-aheadworks-blog-magefan-blog-magento-2.html>`_
 
 IX. Create new Widget
 -----
