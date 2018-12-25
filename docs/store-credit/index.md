@@ -1,6 +1,6 @@
 # Store Credit
 ## Overview
-Mageplaza Store Credit extension allows customers to recharge their store account with certain discounts/bonuses. All transactions will be stored and managed in My Account/Store Credit of Customer (Frontend) and in the admin. Credits are used to make purchases at the store. Admins can also use credit for customers when creating New Order. This extension provides admins credit products. Customers can purchase this product to add credit to the balance. In addition, admins can refund customer orders in cash to customer accounts in your store instead of returns and customers will be able to use it for future purchases. Customers can see the balance on the toplink, see the usage history and receive an email when the balance is updated. This extension encourages shoppers to purchase and increase the performance of the payment on your website. Through this module, you can increase the number of customers and their satisfaction.
+[Mageplaza Store Credit extension](https://www.mageplaza.com/magento-2-store-credit/) allows customers to recharge their store account with certain discounts/bonuses. All transactions will be stored and managed in My Account/Store Credit of Customer (Frontend) and in the admin. Credits are used to make purchases at the store. Admins can also use credit for customers when creating New Order. This extension provides admins credit products. Customers can purchase this product to add credit to the balance. In addition, admins can refund customer orders in cash to customer accounts in your store instead of returns and customers will be able to use it for future purchases. Customers can see the balance on the toplink, see the usage history and receive an email when the balance is updated. This extension encourages shoppers to purchase and increase the performance of the payment on your website. Through this module, you can increase the number of customers and their satisfaction.
 
 Mageplaza Store Credit extension is fully compatible with Mageplaza OSC and Mageplaza SMTP
 
@@ -8,27 +8,27 @@ Mageplaza Store Credit extension is fully compatible with Mageplaza OSC and Mage
 - Thanks to this extension, customes can perform some actions:
   - Manage Balance
   
-  ![Imgur](https://i.imgur.com/ydiUuAM.png)
+  ![store crdit](https://i.imgur.com/ydiUuAM.png)
   
   - Purchase Store Credit Product
   
-  ![Imgur](https://i.imgur.com/ICmJcP4.png)
+  ![store crdit1](https://i.imgur.com/ICmJcP4.png)
   
   - Use Credit to pay the order
   
-  ![Imgur](https://i.imgur.com/VzbxMyE.png)
+  ![store crdit2](https://i.imgur.com/VzbxMyE.png)
   
 
 ## How to configure
 
 From the Admin Panel, go to `Marketing > Store Credit`
 
-![Imgur](https://i.imgur.com/tLncGM5.png)
+![store crdit3](https://i.imgur.com/tLncGM5.png)
 
 ### 1. Configuration
 #### 1.1. General Tab
 
-![Imgur](https://i.imgur.com/yiC8AaV.png)
+![store crdit4](https://i.imgur.com/yiC8AaV.png)
 
 - **Enable**: Choose "Yes" to use the features of this module
 - **Enable for Customer Groups**: Only customers in the selected groups is used this extension
@@ -42,7 +42,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 1.2. Spending Configuration
 
-![Imgur](https://i.imgur.com/kI58jTo.png)
+![store crdit5](https://i.imgur.com/kI58jTo.png)
 
 - **Enable Spending On**: Choose Credit that can use in the backend or frontend
   
@@ -67,7 +67,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 1.3. Email Configuration
 
-![Imgur](https://i.imgur.com/SBI71pk.png)
+![store crdit6](https://i.imgur.com/SBI71pk.png)
 
 - **Enable** : Select "Yes" to use this feature
 - **Subcribe by default**: Select "Yes" so that customers who signup a new account will automatically accept the email when credit balance is updated
@@ -79,7 +79,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 ### 2. Transaction
 #### 2.1. Grid
-![Imgur](https://i.imgur.com/vwfVF6c.png)
+![store crdit7](https://i.imgur.com/vwfVF6c.png)
 
 - This is a place to save all transactions on the store
 - From the Grid, admins can capture the basic information of the generated transactions such as *ID, Title, Customer, Status, Action, Amount, Balance, Create Date* and can perform the following actions:
@@ -90,7 +90,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 2.2. Add New/Edit Form
 
-![Imgur](https://i.imgur.com/qYCsYpg.png)
+![store crdit8](https://i.imgur.com/qYCsYpg.png)
 
 - **Select Customer**
   - When you click on this item, the popup displays a list of all the customers in the store. Admins only select a customer in the list.
@@ -111,7 +111,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
   
 ### 3. Manage Store Credit at Admin Customer
 
-![Imgur](https://i.imgur.com/2vO7rCc.png)
+![store crdit9](https://i.imgur.com/2vO7rCc.png)
 
 - Admins can manage Store Credit Balance, Transactions and Notification of customers by going to `Customer > Edit Customer > Store Credit`
 - The Credit Information tab tells the administrators to know the total amount of Credit that customers has, and shows the status of the email receipt action when the balance update of the customers. Admins can also change the status of this action.
@@ -128,7 +128,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - **Allow Amount Range**:
   - Select "Yes" so that customers can change the `Amount of Credit` as their wish within the Amount `Range From - To` that admins have set.
   
-  ![Imgur](https://i.imgur.com/MUhqhko.png)
+  ![store crdit10](https://i.imgur.com/MUhqhko.png)
   
   - Select "No" to set the Fixed Amount for the `Credit Credit Store`
   
@@ -138,7 +138,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 ### 5. Email Update Balance
 
-![Imgur](https://i.imgur.com/s5AlSi0.png)
+![store crdit 11](https://i.imgur.com/s5AlSi0.png)
 
 
 
