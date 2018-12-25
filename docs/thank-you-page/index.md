@@ -223,10 +223,26 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
    - The default number of display is 5
 
 
+### 4. The guide to install the library
+#### 4.1. Manual setting
 
+- Create the folder: lib/internal/Mageplaza
+- Access to the path to download the library of Thank You Page [here](https://gitlab.com/users/sign_in)
+- Extract `module-thank-you-page-library.zip` into `lib/internal/Mageplaza` and rechange the file name that you just extracted as `ThankYouPage`
 
+![thank you page i](https://i.imgur.com/sBXSOnp.png)
 
+- Run the following command to setup:
+`php bin/magento setup:upgrade`
 
+#### 4.2. Install via composer
+- Run the following command to install the library:
+
+```
+composer require liquid/liquid
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
 
 
 
