@@ -27,7 +27,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 
 - **Enable**: Choose `Yes` to activate the module
-- **Custom CSS**: Allow changing CSS. This field is applied to Product List and Product View page
+- **Custom CSS**: Allow changing CSS. This field is applied to Product List and Product View page. For example: `.action.primary { background: #f311cd; }, .product.alert { background: pink`,...
 
 
 #### 2. Alert When Product Price Change
@@ -36,9 +36,18 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 ![Imgur](https://i.imgur.com/hPJ41E6.png)
 
 
-- **Enable**: Choose `Yes` to allow notification email of price change of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
+- **Enable**: 
+  - Choose `Yes` to allow notification email of price change of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
 
-- **Apply for Customer Groups**: YOu can choose one or more customer groups to send emails.
+  - When admins enable Price change alert, the link `Mp-Notify me when the price drops` appears in each product page
+  
+  - When customers click to that link, a popup displayed allows customers subscribe for notification of price change. All subscribers will get notification emails whenever their favored items are offered at a better price. 
+  
+
+![Imgur](https://i.imgur.com/jbyG0oj.png)
+
+
+- **Apply for Customer Groups**: You can choose one or more customer groups to send emails.
 
 - **Email Sender**: Select the store representative that you want to show in the notification emails. Here are the options: 
 
@@ -48,17 +57,20 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 - **Email Template**: Access to `Marketing > Email Templates > Add New Template` to create Email Templates. Please choose the email template that you want to send for price change of products.
 
-- **Text for subscribed customers**: This message will be displayed when customers have subscribed successfully. You can insert the text here, otherwise, default message is: `Congratulations! You will receive a notification email when this product has just changed the price`
+- **Text for subscribed customers**: This message will be displayed when customers have subscribed successfully. You can insert the text here, otherwise, the default message is: `Congratulations! You will receive a notification email when this product has just changed the price`
 
 
-![Imgur](https://i.imgur.com/Kp0HpBf.png)
+![Imgur](https://i.imgur.com/vP14nfz.png)
 
 
 ##### 2.1 Popup configuration
 
+![Imgur](https://i.imgur.com/IEUlKXj.png)
+
+
 - **Popup Heading**: Add the Title for Popup. Allow showing popup when customers click to `Notify me when the price drops` and only show popup with not-log-in customers. The default heading is: `Stay tuned for any updates on this product's price!`
 
-- **Popup Description**: Insert the description for your Popup. The default description is: `Subcribe Price-Change Alerts now! Register your email address to be the first to know when our product has any changes in price. You are always updated to get product pricing goodness!`
+- **Popup Description**: Insert the description for your Popup. The default description is: `Subscribe Price-Change Alerts now! Register your email address to be the first to know when our product has any changes in price. You are always updated to get product pricing goodness!`
 
 - **Email Placeholder**: Insert the Placeholder message for notifying customers that this is the field to add email addresses receiving notification. For example: `Your email address`
 
@@ -67,22 +79,37 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 - **Footer Content**: Insert the note or warning to your customers, which is displayed at the footer of Popup. If it is left blank, the default content is: `Kindly notice that the price notification email will be delivered only one time, and your email address will not be shared or published with anyone else.`
 
 
+
+
+
+
 #### 3. Alert When Product Out Of Stock
 
 
 ![Imgur](https://i.imgur.com/6KNpbc4.png)
 
 
-- **Enable**: Choose `Yes` to allow notification emails of restock of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
+- **Enable**: 
 
-- **Apply for Customer Groups**: YOu can choose one or more customer groups to send emails.
+  - Choose `Yes` to allow notification emails of restock of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
+
+  - When admin enable Out of stock alert, the link `Mp-Notify me when this product is in stock` appears in each product page
+  
+  - When customers click to that link, a popup displayed allows customers subscribe for notification of back-in-stock products. All subscribers will get notification emails whenever their favored items are restocked. 
+  
+
+![Imgur](https://i.imgur.com/f14nonM.png)
+
+- **Apply for Customer Groups**: You can choose one or more customer groups to send emails.
 
 - **Email Sender**: Select the store representative that you want to show in the notification emails. Here are the options: 
+
+![Imgur](https://i.imgur.com/SpLRPPZ.png)
 
 
 - **Email Template**: Go to `Marketing > Email Templates > Add New Template` to create Email template. Please choose the email template that you want to send to your customers when their favorite items are restock.
 
-- **Show on Product Listing Page**: Select `yes` to show the Button text field
+- **Show on Product Listing Page**: Select `Yes` to show the Button text field
 
   - **Button text**:  Name the Button to be shown at Product Listing Page. When customers click on this button, they can register to get notification emails of restock items. If you leave it empty, it will be `Notify me` as default.
   
@@ -103,7 +130,8 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 
 - **Popup Heading**: 
-  - Add the Title for Popup. Allow showing Popup when customers click to `Notify me when the price drops` and only show Popup with not-log-in customers. `Notify me!` button is the name set for Button text.
+
+  - Add the Title for Popup. Allow showing Popup when customers click to `Notify me!` and only show Popup with not-log-in customers (`Notify me!` button is the name set for Button text).
   
   - If you leave it blank, the default message is: `Grab your chance when this product back in stock!`
 
@@ -131,7 +159,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 ### II. Out of Stock Notification
 
-Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock Notification`.
+Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock Notification`
 
 
 ![Imgur](https://i.imgur.com/TubHdLc.png)
@@ -204,7 +232,7 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Product Price
 
 
 - **Product SKU**: Insert the SKUs for products that customers want to be notified when they have better prices. This is a required field.
-- **Product Name**: This field allow showing the product name after customers subscribe the email notifications
+- **Product Name**: This field allows showing the product name after customers subscribe the email notifications
 - **Customer Email**: Insert the customer emails to get notification when product prices are better. This is a required field.
 - **Customer Name**: This field allows showing the customers' name after they subscribe the email notifications, which are based on their email addresses. For customers who have not subscribed accounts on your site, they will be named as `Guest` 
 - **Store View**: Select the store views whose products can be subscribed of price change notification. 
@@ -248,19 +276,12 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 
 - **Stock Status (Magento default)**: Select the stock status including **In Stock** and **Out of Stock**. 
-- **Back in Stock Notification**: 
-  - `Enable` this field to show the link `Mp-Notify me when this product is in stock` on the product page
-  -  Visitors can click to this link to subscribe to the products. When they are in stock, customers will get email notifications
-  -  Turn on this field to activate Stock Notification function.
 
-- **Price Alert**: 
-  - `Enable` this field to show the link `Mp-Notify me when the price drops` on the product page
-  -  Visitors can click to this link to subscribe to the products. When they are at better prices, customers will get email notifications
-  - Turn on this field to activate Price Alert function.
+- **Back in Stock Notification**: Turn on this field to activate Stock Notification function.
 
-  
-  ![Imgur](https://i.imgur.com/Y0GG8CE.png)
-  
+- **Price Alert**: Turn on this field to activate Price Alert function.
+
+
   
 ### V. Email Notifications
 
@@ -270,7 +291,7 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Notification of Successful subscription for price change** 
 
 
-![Imgur](https://i.imgur.com/KMDitSq.png)
+![Imgur](https://i.imgur.com/CgYWOdd.png)
 
 
 **Price change notification**
@@ -285,25 +306,29 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Notification of Successful subscription for out of stock** 
 
 
-![Imgur](https://i.imgur.com/2AFdu6u.png)
+![Imgur](https://i.imgur.com/s4BaFSa.png)
 
 
 **Back in Stock Notification**
 
 
-![Imgur](https://i.imgur.com/paOYw2C.png)
+![Imgur](https://i.imgur.com/pVlKq6g.png)
 
+
+`Note`: Click `View Your List` button, visitors will be redirected to `My product alerts` where all the subscribed products of them are listed.  
 
 ### VI. Compatible with Reports extension 
 
-Products Alert extension is fully compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/). This allows admin to generate Reports of most requesrted products that customers has subscribed for out-of-stock and price change notifications. Especially, admin can also make reports of interested products recently which are back in stock and changed in price. These reports can be shown on Dashboard.
+Products Alert extension is fully compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/). This allows admin to generate Reports of Recent request stock available, Recent request price change, Most request price change and Most request stock available. 
+
+![Imgur](https://i.imgur.com/Wd6B6UI.png)
+
 
 ## Frontend
 
 At **My product alert**, customers can view their subscribed products of out-of-stock and price change notifications.
 
 
-![Imgur](https://i.imgur.com/Ynl14cj.png)
-
+![Imgur](https://i.imgur.com/MES9qbJ.png)
 
 
