@@ -4,6 +4,26 @@
 
 Nowadays, some stores or distributors don't want to display the price of the product on the website, they want to display the information only so that customers must contact the shop owners to ask the price or may bargain the price of the product; however, Magento doesn't support this feature currently. To resolve this problem, therefore, Mageplaza provides [Call for Price module](https://www.mageplaza.com/magento-2-call-for-price/) that can meet the needs of store owners.
 
+## Frontend
+
+### Display on the Product Listing
+- Display on the popup
+
+![display on the popup](https://i.imgur.com/hBwLHCc.png)
+
+- Hide Add to Cart button
+
+![hide add to cart button](https://i.imgur.com/l011k3V.png)
+
+### Display on the Product Page
+
+![display product page](https://i.imgur.com/MoRFIn7.png)
+
+- Hide Add to Cart button
+
+![hide add to cart button](https://i.imgur.com/r9beQb4.png)
+
+
 ## How to configure
 
 From the Admin Panel, go to ``Sales > Call For Price > Configuration``
@@ -157,24 +177,6 @@ If you have installed Mageplaza Reports Standard extension on your site, in the 
 
 When You click on the View Details link in the Call for Requests card, Requests page will show all information of the request sent to the website.
 
-### Frontend
-
-#### Display in the Product Listing
-- Display on the popup
-
-![display on the popup](https://i.imgur.com/hBwLHCc.png)
-
-- Hide Add to Cart button
-
-![hide add to cart button](https://i.imgur.com/l011k3V.png)
-
-#### Display on the Product Page
-
-![display product page](https://i.imgur.com/MoRFIn7.png)
-
-- Hide Add to Cart button
-
-![hide add to cart button](https://i.imgur.com/r9beQb4.png)
 
 ### Email
 
