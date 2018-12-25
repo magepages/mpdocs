@@ -356,6 +356,7 @@ VII. Manage Comments
   * **View on Frontend**: link of the post on the frontend.
 
 VIII. Import
+-----
 
 * Login to the Magento Admin, choose `Content > better Blog > Import`
 * Choose import source is "Wordpress" or "AheadWork Blog extension" [Magento 1] or "MageFan Blog" [Magento 2]
