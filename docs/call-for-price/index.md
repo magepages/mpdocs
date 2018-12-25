@@ -23,6 +23,9 @@ Nowadays, some stores or distributors don't want to display the price of the pro
 
 ![hide add to cart button](https://i.imgur.com/r9beQb4.png)
 
+### Email
+
+![email](https://i.imgur.com/wCRhpUX.png)
 
 ## How to configure
 
@@ -177,9 +180,7 @@ If you have installed Mageplaza Reports Standard extension on your site, in the 
 
 When You click on the View Details link in the Call for Requests card, Requests page will show all information of the request sent to the website.
 
-### Email
 
-![email](https://i.imgur.com/wCRhpUX.png)
   
   
   
