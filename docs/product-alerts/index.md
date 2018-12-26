@@ -147,11 +147,16 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 #### 4. Product Alert Run Settings
 
 
-![Imgur](https://i.imgur.com/frLLcKy.png)
+![Imgur](https://i.imgur.com/5NDWTI2.png)
 
 
-- **Frequency**: Choose to send emails errors by Daily/Weekly/Monthly
-- **Start Time**: Choose the starting time to send email errors
+- **Cron Schedule**: Insert the value to run cron which decides email sending frequency. For example: 
+  - Insert  `*****` means that sending email of price change or restock notifications **each minute**
+  - `20 */3 * * *` means that sending email at **minute 20th after each 3 hours**
+  - **Run Daily** is `00***` means that scron will run at 00:00 everyday
+  - **Run Weekly** is `00**7` means that email sent at 00:00 every Sunday. If insert `00**1`, emails are sent at 00:00 every Monday
+  - **Run Monthly** is `001**` means that emails sent at 00:00 on 1st January, 2019 
+
 - **Error Email Recipient**: Insert the email which will receive the email errors
 - **Error Email Sender**: Insert the email which represents your store to send the email errors
 - **Error Email Template**: Choose Error Email Template to send the email errors
