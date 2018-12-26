@@ -3,13 +3,15 @@
 
 In practice, shop owners often want to limit the display of Payment Method based on multiple criteria such as Customer group, Cart condition, product attribute, time limit, or the compatibility with sales rule. Thanks to [Mageplaza Payment Restriction extension](https://www.mageplaza.com/magento-2-payment-restriction/), you will be able to achieve this and fully control the use of in-store payment methods and improve efficiency.
 
+This extension is totally compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+
 ## How to configure
 
 ### 1. Configuration
 
 From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choose `General Configuration` section.
 
-![payment restriction](https://i.imgur.com/cIht2lG.png)
+![payment restriction](https://i.imgur.com/uKV1hUp.png)
 
 - **Enable**: Choose "Yes" to enable the features of this module
 
@@ -18,7 +20,7 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
 
 From the Admin Panel, go to `Sales > Payment Restriction > Manage Rules`.
 
-![payment restriction1](https://i.imgur.com/CoiEZQw.png)
+![payment restriction1](https://i.imgur.com/ZzYlWQU.png)
 
 - This section will record all created rules with the basic information as *Name, Status, Method, Store view, Customer Groups, etc*
 - Admins can perform some actions:
@@ -32,11 +34,10 @@ From the Admin Panel, go to `Sales > Payment Restriction > Manage Rules`.
 
 From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choose `Add New` button in the right corner
 
-![payment restriction2](https://i.imgur.com/BuYxsIm.png)
 
 ##### 2.2.1. General
 
-![payment restriction3](https://i.imgur.com/7xOWr0c.png)
+![payment restriction3](https://i.imgur.com/vkp4CEY.png)
 
 - **Name**: Set the name of the name
 - **Description**: Enter the description for the rule
@@ -63,17 +64,14 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
   
 ##### 2.2.2. Conditions
 
-![payment restriction4](https://i.imgur.com/NUhirhB.png)
+![payment restriction4](https://i.imgur.com/RIErTB5.png)
 
 **Apply the rule only if the following conditions are met (leave blank for all products)**
 
 - Set the conditions to apply the rule. All products that meet the conditions will be applied the rule
 
-![payment restriction5](https://i.imgur.com/NUhirhB.png)
 
 **Apply the rule depending on Cart Price Rules (This will override the conditions above)**
-
-![payment restriction6](https://i.imgur.com/NUhirhB.png)
 
   - **Active if these Cart Price Rules are applied:**
     - Select created the rule in the `Cart Price Rules` to activate the rule for Payment.
@@ -89,7 +87,7 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
 
 ##### 2.2.3. Actions
 
-![payment restriction7](https://i.imgur.com/NUhirhB.png)
+![payment restriction7](https://i.imgur.com/SX5RNXO.png)
 
 - **Select Payment Methods**: Choose the payment method to apply the rule. You can choose more or all payment methods to show all `Enabled Payment Methods`
 - **Action**: Choose "Show" to display the selected payment methods
@@ -98,7 +96,6 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
   - Frontend Order
 
 
-### 3. Compatible with Mageplaza One Step Checkout
 
 
 
