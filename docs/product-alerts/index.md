@@ -23,14 +23,22 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 #### 1. General
 
 
-![Imgur](https://i.imgur.com/aqCTC4j.png)
+![Imgur](https://i.imgur.com/vEa3dlm.png)
 
 
 - **Enable**: Choose `Yes` to activate the module
+
 - **Custom CSS**: Allow changing CSS. This field is applied to Product List and Product View page. For example: `.action.primary { background: #f311cd; }, .product.alert { background: pink`,...
 
+- **Cron Schedule**: Insert the value to run cron which decides email sending frequency. For example: 
+  - Insert  `*****` means that sending email of price change or restock notifications **each minute**
+  - `20 */3 * * *` means that sending email at **minute 20th after each 3 hours**
+  - **Run Daily** is `00***` means that scron will run at 00:00 everyday
+  - **Run Weekly** is `00**7` means that email sent at 00:00 every Sunday. If insert `00**1`, emails are sent at 00:00 every Monday
+  - **Run Monthly** is `001**` means that emails sent at 00:00 on 1st January, 2019 
+  
 
-#### 2. Alert When Product Price Change
+#### 2. Alert of Product Price Change
 
 
 ![Imgur](https://i.imgur.com/hPJ41E6.png)
@@ -83,7 +91,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 
 
-#### 3. Alert When Product Out Of Stock
+#### 3. Alert of Out Of Stock Product
 
 
 ![Imgur](https://i.imgur.com/6KNpbc4.png)
@@ -144,24 +152,6 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 - **Footer Content**: Insert the note or warning to your customers, which is displayed at the footer of Popup. If it is left blank, the default content is: `Kindly notice that the back-in-stock email will be delivered only one time, and your email address will not be shared or published with anyone else.`
 
 
-#### 4. Product Alert Run Settings
-
-
-![Imgur](https://i.imgur.com/5NDWTI2.png)
-
-
-- **Cron Schedule**: Insert the value to run cron which decides email sending frequency. For example: 
-  - Insert  `*****` means that sending email of price change or restock notifications **each minute**
-  - `20 */3 * * *` means that sending email at **minute 20th after each 3 hours**
-  - **Run Daily** is `00***` means that scron will run at 00:00 everyday
-  - **Run Weekly** is `00**7` means that email sent at 00:00 every Sunday. If insert `00**1`, emails are sent at 00:00 every Monday
-  - **Run Monthly** is `001**` means that emails sent at 00:00 on 1st January, 2019 
-
-- **Error Email Recipient**: Insert the email which will receive the email errors
-- **Error Email Sender**: Insert the email which represents your store to send the email errors
-- **Error Email Template**: Choose Error Email Template to send the email errors
-
-
 ### II. Out of Stock Notification
 
 Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock Notification`
@@ -172,13 +162,13 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock 
 
 #### 1. Subscribers
 
-- **New subcription**
+- **New subscription**
 
 
 ![Imgur](https://i.imgur.com/7YAKVlW.png)
 
 
-- **Edit subcription**
+- **Edit subscription**
 
 
 ![Imgur](https://i.imgur.com/qnfFnJc.png)
