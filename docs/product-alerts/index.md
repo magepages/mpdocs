@@ -38,7 +38,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
   - **Run Monthly** is `001**` means that emails sent at 00:00 on 1st January 2019 
   
 
-#### 2. Alert of Product Price Change
+#### 2. Alert for Price Changed Product
 
 
 ![Imgur](https://i.imgur.com/hPJ41E6.png)
@@ -47,12 +47,12 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 - **Enable**: 
   - Choose `Yes` to allow notification email of price change of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
 
-  - When admins enable Price change alert, the link `Mp-Notify me when the price drops` appears in each product page
+  - When admins enable Price change alert, the link `Notify me when the price drops` appears in each product page
   
   - When customers click to that link, a popup displayed allows customers subscribe for notification of price change. All subscribers will get notification emails whenever their favored items are offered at a better price. 
   
 
-![Imgur](https://i.imgur.com/jbyG0oj.png)
+![Imgur](https://i.imgur.com/SOpO6bW.png)
 
 
 - **Apply for Customer Groups**: You can choose one or more customer groups to send emails.
@@ -68,7 +68,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 - **Text for subscribed customers**: This message will be displayed when customers have subscribed successfully. You can insert the text here, otherwise, the default message is: `Congratulations! You will receive a notification email when this product has just changed the price`
 
 
-![Imgur](https://i.imgur.com/vP14nfz.png)
+![Imgur](https://i.imgur.com/cehplY2.png)
 
 
 ##### 2.1 Popup configuration
@@ -101,12 +101,13 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
   - Choose `Yes` to allow notification emails of restock of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
 
-  - When admin enable Out of stock alert, the link `Mp-Notify me when this product is in stock` appears in each product page
+  - When admin enable Out of stock alert, the link `Notify me when this product is in stock` appears in each product page
   
   - When customers click to that link, a popup displayed allows customers subscribe for notification of back-in-stock products. All subscribers will get notification emails whenever their favored items are restocked. 
   
 
-![Imgur](https://i.imgur.com/f14nonM.png)
+![Imgur](https://i.imgur.com/O22s1hk.png)
+
 
 - **Apply for Customer Groups**: You can choose one or more customer groups to send emails.
 
@@ -264,8 +265,7 @@ Login to the **Magento Admin**, choose `Catalog > Products`.
 This part records the subscribers' information ( both for out-of-stock products and better price products notifications, which includes: Customer name, Customer Email, Subscribe Date, Last Sent, Send Count.
 
 
-![Imgur](https://i.imgur.com/syfNX1u.png)
-
+![Imgur](https://i.imgur.com/jRbKxl5.png)
 
 ![Imgur](https://i.imgur.com/feY2bqg.png)
 
@@ -274,12 +274,12 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 - **Back in Stock Notification**: Turn on this field to activate Stock Notification function.
 
-  - Choose `Enable`, then the link `Mp-Notify me when this product is in stock` will be displayed on product page 
+  - Choose `Enable`, then the link `Notify me when this product is in stock` will be displayed on product page 
   - Customers can click to this link to subscribe for notification of back-in-stock products
   
 - **Price Alert**: Turn on this field to activate Price Alert function.
 
-  - Choose `Enable`, then the link `Mp-Notify me when the price drops` will be displayed on product page 
+  - Choose `Enable`, then the link `Notify me when the price drops` will be displayed on product page 
   - Customers can click to this link to subscribe for notification of price change products
 
 
@@ -298,7 +298,7 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Price change notification**
 
 
-![Imgur](https://i.imgur.com/FFFrROj.png)
+![Imgur](https://i.imgur.com/owasXe0.png)
 
 
 #### 2. Out of Stock
