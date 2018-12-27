@@ -1,7 +1,7 @@
 # Quick View & Ajax Cart
 ## Overview
 
-When customers want to view the product detail page, they have to click on the product and wait for a while to see it. So, if they want to view a product, they have to open more tabs and take more time to know more details about that product. That's why Mageplaza Quick View module is released. It helps you save more time surfing the web, see more details and increase sales for your store. Customers don't need to visit the Product Detail page to view product details, just click on the icon or label on the image, then they can view full product information through the popup displayed on the screen. This allows customers to view multiple products without spending a lot of time. Not only that, when customers add products to the cart, the popup about product details information is also displayed and that product will automatically fly into the cart quickly.
+When customers want to view the product detail page, they have to click on the product and wait for a while to see it. So, if they want to view a product, they have to open more tabs and take more time to know more details about that product. That's why [Mageplaza Quick View module]() is released. It helps you save more time surfing the web, see more details and increase sales for your store. Customers don't need to visit the Product Detail page to view product details, just click on the icon or label on the image, then they can view full product information through the popup displayed on the screen. This allows customers to view multiple products without spending a lot of time. Not only that, when customers add products to the cart, the popup about product details information is also displayed and that product will automatically fly into the cart quickly.
 
 ## How to use
 ### 1. Quick View Popup
@@ -88,7 +88,7 @@ From the Admin Panel, go to `Store > Settings > Configuration > MAGEPLAZA EXTENS
   - Enter the number of seconds displaying for the popup of Ajax Cart
   - The default Ajax Cart popup is 10 seconds
 
-#### Compatible with Widget
+#### 4. Compatible with Widget
 - Use the following code: `{{block class="Mageplaza\QuickView\Block\QuickView\Popup"template="Mageplaza_QuickView::quickview/widget/button.phtml"}}` and add it into anywhere you want to display Quick View Popup. You can add one page or one block in `Content > Page`. Also, you can insert it into .phtml, .xml files of Magento as well as other extensions that you want to display the popup.
 
 
