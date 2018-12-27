@@ -32,10 +32,10 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 
 - **Cron Schedule**: Insert the value to run cron which decides email sending frequency. For example: 
   - Insert  `*****` means that sending email of price change or restock notifications **each minute**
-  - `20 */3 * * *` means that sending email at **minute 20th after each 3 hours**
-  - **Run Daily** is `00***` means that scron will run at 00:00 everyday
+  - `20 */3 * * *` means that sending email at **minute 20th after every 3 hours**
+  - **Run Daily** is `00***` means that cron will run at 00:00 every day
   - **Run Weekly** is `00**7` means that email sent at 00:00 every Sunday. If insert `00**1`, emails are sent at 00:00 every Monday
-  - **Run Monthly** is `001**` means that emails sent at 00:00 on 1st January, 2019 
+  - **Run Monthly** is `001**` means that emails sent at 00:00 on 1st January 2019 
   
 
 #### 2. Alert of Product Price Change
@@ -115,7 +115,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 ![Imgur](https://i.imgur.com/SpLRPPZ.png)
 
 
-- **Email Template**: Go to `Marketing > Email Templates > Add New Template` to create Email template. Please choose the email template that you want to send to your customers when their favorite items are restock.
+- **Email Template**: Go to `Marketing > Email Templates > Add New Template` to create Email template. Please choose the email template that you want to send to your customers when their favorite items are restocked.
 
 - **Show on Product Listing Page**: Select `Yes` to show the Button text field
 
@@ -274,7 +274,13 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 - **Back in Stock Notification**: Turn on this field to activate Stock Notification function.
 
+  - Choose `Enable`, then the link `Mp-Notify me when this product is in stock` will be displayed on product page 
+  - Customers can click to this link to subscribe for notification of back-in-stock products
+  
 - **Price Alert**: Turn on this field to activate Price Alert function.
+
+  - Choose `Enable`, then the link `Mp-Notify me when the price drops` will be displayed on product page 
+  - Customers can click to this link to subscribe for notification of price change products
 
 
   
@@ -292,7 +298,7 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Price change notification**
 
 
-![Imgur](https://i.imgur.com/7EIChW5.png)
+![Imgur](https://i.imgur.com/FFFrROj.png)
 
 
 #### 2. Out of Stock
