@@ -33,9 +33,9 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 - **Cron Schedule**: Insert the value to run cron which decides email sending frequency. For example: 
   - Insert  `*****` means that sending email of price change or restock notifications **each minute**
   - `20 */3 * * *` means that sending email at **minute 20th after every 3 hours**
-  - **Run Daily** is `00***` means that cron will run at 00:00 every day
-  - **Run Weekly** is `00**7` means that email sent at 00:00 every Sunday. If insert `00**1`, emails are sent at 00:00 every Monday
-  - **Run Monthly** is `001**` means that emails sent at 00:00 on 1st January 2019 
+  - **Run Daily** is `00***` means that cron will run at **00:00 every day**
+  - **Run Weekly** is `00**7` means that email sent at **00:00 every Sunday**. If insert `00**1`, emails are sent at **00:00 every Monday**
+  - **Run Monthly** is `001**` means that emails sent at **00:00 on 1st January 2019** 
   
 
 #### 2. Alert for Price Changed Product
@@ -274,12 +274,12 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 - **Back in Stock Notification**: Turn on this field to activate Stock Notification function.
 
-  - Choose `Enable`, then the link `Notify me when this product is in stock` will be displayed on product page 
+  - Choose `Enable`, then the link `Notify me when this product is in stock` will be displayed on product page. This configuration applies for each product.
   - Customers can click to this link to subscribe for notification of back-in-stock products
   
 - **Price Alert**: Turn on this field to activate Price Alert function.
 
-  - Choose `Enable`, then the link `Notify me when the price drops` will be displayed on product page 
+  - Choose `Enable`, then the link `Notify me when the price drops` will be displayed on product page. This configuration applies for each product.
   - Customers can click to this link to subscribe for notification of price change products
 
 
@@ -292,13 +292,12 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Notification of Successful subscription for price change** 
 
 
-![Imgur](https://i.imgur.com/CgYWOdd.png)
-
+![Imgur](https://i.imgur.com/5Skufem.png)
 
 **Price change notification**
 
 
-![Imgur](https://i.imgur.com/owasXe0.png)
+![Imgur](https://i.imgur.com/kdZYXOK.png)
 
 
 #### 2. Out of Stock
@@ -307,13 +306,13 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Notification of Successful subscription for out of stock** 
 
 
-![Imgur](https://i.imgur.com/s4BaFSa.png)
+![Imgur](https://i.imgur.com/3bss4KJ.png)
 
 
 **Back in Stock Notification**
 
 
-![Imgur](https://i.imgur.com/pVlKq6g.png)
+![Imgur](https://i.imgur.com/7vZ9Up1.png)
 
 
 `Note`: Click `View Your List` button, visitors will be redirected to `My product alerts` where all the subscribed products of them are listed.  
