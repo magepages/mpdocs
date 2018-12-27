@@ -89,7 +89,18 @@ From the Admin Panel, go to `Store > Settings > Configuration > MAGEPLAZA EXTENS
   - The default Ajax Cart popup is 10 seconds
 
 #### 4. Compatible with Widget
-- Use the following code: `{{block class="Mageplaza\QuickView\Block\QuickView\Popup"template="Mageplaza_QuickView::quickview/widget/button.phtml"}}` and add it into anywhere you want to display Quick View Popup. You can add one page or one block in `Content > Page`. Also, you can insert it into .phtml, .xml files of Magento as well as other extensions that you want to display the popup.
+To insert the code, you use the following code: 
+
+{% raw %}
+```
+{{block class="Mageplaza\QuickView\Block\QuickView\Popup"template="Mageplaza_QuickView::quickview/widget/button.phtml"}}
+
+```
+{% endraw %}
+
+, then add it into anywhere you want to display Quick View Popup. 
+
+You can add it on one page or one block by going to `Content > Page`. Also, you can insert it into *.phtml, .xml* files of Magento as well as other extensions that you want to display the popup.
 
 
 
