@@ -26,13 +26,13 @@ From **Admin panel**, go to `Stores > Configuration > Mageplaza > Login as Custo
   
 ![Imgur](https://i.imgur.com/jcc7jTM.png)
 
-![Imgur](https://i.imgur.com/HcGcpcn.png)
+![Imgur](https://i.imgur.com/VTcNPuH.png)
 
 
 ### 2. Login as Customer Logs
 
 - This allows recording all login transactions as customers of any admin at backend.
 - Admin cannot delete or edit the Log 
-- Admin only can export the specific logs that they want
+- Admin only can export the specific logs that they want in CSV or XML forms. 
 
 ![Imgur](https://i.imgur.com/awQyeLW.png)
