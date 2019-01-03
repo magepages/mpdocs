@@ -14,7 +14,7 @@ Today, social media is growing strongly and having tremendous influence on human
 
 ### Frontend - Floating:
 
-![Imgur](https://i.imgur.com/pogZmvb.gif)
+![Imgur](https://i.imgur.com/Wff29cq.gif)
 
 
 ### Frontend - Inline
