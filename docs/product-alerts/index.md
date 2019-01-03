@@ -23,20 +23,24 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Prod
 #### 1. General
 
 
-![Imgur](https://i.imgur.com/vEa3dlm.png)
+![Imgur](https://i.imgur.com/OF7ugaP.png)
 
 
 - **Enable**: Choose `Yes` to activate the module
 
 - **Custom CSS**: Allow changing CSS. This field is applied to Product List and Product View page. For example: `.action.primary { background: #f311cd; }, .product.alert { background: pink`,...
 
-- **Cron Schedule**: Insert the value to run cron which decides email sending frequency. For example: 
+- **Cron Schedule**: Insert the value to run cron which decides email sending frequency. With default cron will run every 1 hour. You can refer this [link](https://www.mageplaza.com/faqs/how-configure-cronjob.html) for detailed instruction.
+
+For example: 
   - Insert  `*****` means that sending email of price change or restock notifications **each minute**
   - `20 */3 * * *` means that sending email at **minute 20th after every 3 hours**
   - **Run Daily** is `00***` means that cron will run at **00:00 every day**
   - **Run Weekly** is `00**7` means that email sent at **00:00 every Sunday**. If insert `00**1`, emails are sent at **00:00 every Monday**
   - **Run Monthly** is `001**` means that emails sent at **00:00 on 1st January 2019** 
   
+`Note`: When entering values, between two values must be a space so that cron can be run. For example: `* * * * *`
+
 
 #### 2. Alert for Price Changed Product
 
@@ -319,9 +323,12 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 ### VI. Compatible with Reports extension 
 
-Products Alert extension is fully compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/). This allows admin to generate Reports of Recent request stock available, Recent request price change, Most request price change and Most request stock available. 
+Products Alert extension is fully compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/). This allows admin to generate Reports of **Recent request stock available, Recent request price change, Most request price change and Most request stock available**. Click to **View Details** will redirect to **Grid** or **Most Requested Product** 
 
-![Imgur](https://i.imgur.com/Wd6B6UI.png)
+![Imgur](https://i.imgur.com/mjzaYvG.png)
+
+
+
 
 
 ## Frontend
