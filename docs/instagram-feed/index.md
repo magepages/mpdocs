@@ -16,8 +16,27 @@ The Instagram Feed supports displaying your Instagram photos on the homepage, pr
 ## How to Use 
 
 ### 1. Single Row
+
+![Imgur](https://i.imgur.com/UxbV1j1.png)
+
+
 ### 2. Multiple Rows
-### 3. Optimized image
+
+![Imgur](https://i.imgur.com/jOVztok.png)
+
+
+### 3. Optimized images
+
+![Imgur](https://i.imgur.com/LxPEF9f.png)
+
+### 4. Show Likes/Comments
+
+
+![Imgur](https://i.imgur.com/ZYSYcwr.png)
+
+### 5. Show Popup when licking to the images
+
+![Imgur](https://i.imgur.com/7UB5bj5.png)
 
 
 ## How to configure
