@@ -339,3 +339,21 @@ At **My product alert**, customers can view their subscribed products of out-of-
 ![Imgur](https://i.imgur.com/MES9qbJ.png)
 
 
+
+## Note
+
+- If you want to uninstall the extension, please use the composer to run the command: `bin/magento module:uninstall Mageplaza_ProductAlerts`
+
+- In case you have deleted the extension manually, you need to delete the `mp_facebook_comments` attribute as well in the data base or at backend 
+
+  - **Method 1 Backend**: From the **Admin Panel**, go to `Stores > Attributes > Product`. At column **Attribute Code**, look for attribute `mp_productalerts_price_alert` and `mp_productalerts_stock_notify`, click to them and delete
+  
+![Imgur](https://i.imgur.com/IGz10AH.png)
+  
+  - **Method 2 Data base**: Navigate to **eav_attribute** table. At column **Attribute_code**, look for attribute `mp_productalerts_price_alert` and `mp_productalerts_stock_notify`, click to them and delete
+
+
+
+
+![Imgur](https://i.imgur.com/8Wb93D4.png)
+
