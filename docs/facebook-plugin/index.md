@@ -80,7 +80,16 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
   - Enter the number of comments you want to display
   - The minimum number of comments for the display is 1
 
-### 2. Widgets
+### 2. Product 
+
+From the Admin Panel, go to Catalog > Product
+
+![Imgur](https://i.imgur.com/N4rzhpe.png)
+
+- **Disabled Facebook Comments**: Select `Yes` to allow the function **Disabled Facebook Comments** on the Product Detail Page 
+
+
+### 3. Widgets 
 
 #### How to add the widget
 
@@ -159,22 +168,35 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
   - Select Yes to automatically adjust the width of the Facebook display frame accordingly
   - The default is Yes
 
-## 3. Frontend
-### 3.1. The display of the Facebook page
+## 4. Frontend
+### 4.1. The display of the Facebook page
 
 ![facebook plugin 14](https://i.imgur.com/E9xOSGg.png)
 
-### 3.2. The display of facebook comment on the product page
+### 4.2. The display of facebook comment on the product page
 
 ![facebook plugin 15](https://i.imgur.com/zlfQZXJ.png)
 
-### 3.3. Manage the comment on the App of Facebook
+### 4.3. Manage the comment on the App of Facebook
 
 ![facebook plugin 16](https://i.imgur.com/b6RXN6X.png)
 
 
 
+## Note
 
+- If you want to uninstall the extension, please use the composer to run the command: `bin/magento module:uninstall Mageplaza_FacebookPlugin`
+
+- In case you have deleted the extension manually, you need to delete the `mp_facebook_comments` attribute as well in the data base or at backend 
+
+  - **Method 1 Backend**: From the **Admin Panel**, go to `Stores > Attributes > Product`. At column **Attribute Code**, look for attribute `mp_facebook_comments`, click to it and delete.
+  
+![Imgur](https://i.imgur.com/Oj6L81P.png)
+  
+  - **Method 2 Data base**: Navigate to **eav_attribute** table. At column **Attribute_code**, look for attribute `mp_facebook_comments`, click to it and delete.
+
+
+![Imgur](https://i.imgur.com/Hkxz5dQ.png)
 
 
 
