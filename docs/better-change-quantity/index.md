@@ -33,7 +33,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
   
   - *Change Qty Step = Fixed Value*: Display step as similar as in **Qty Step Value** configuration
     - **Qty Step Value**: 
-      - Enter the number of products for each time adding products to your cart
+      - Enter the number of products for each time adding products to your cart. The number of products for each step will be increased by arithmetic progression
       - For example: If **Qty Step Value = 2**, every time you add product to the cart, you must add 2 products
 
   - **Change Qty Step = Custom Value**: Display step increasing by the number configured in **Custom Step** field
@@ -44,41 +44,48 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
       
 - **Max Qty Step**
 
-  - Max Qty Step = Stock Quantity: Hiển thị số lượng sản phẩm của từng step cho đến khi sản phẩm hết hàng
+  - *Max Qty Step = Stock Quantity*: Display the product number of each step until the product is out of stock. For example: **Quantity = 20** (as in product configuration), **Custom Step = 5,15,19,21** then it will so only thre steps which is 5,15,19
   
-  - Max Qty Step = Fixed Value: Hiển thị số lượng sản phẩm của từng step cho đến khi số lượng sản phẩm bằng giá trị đã cấu hình ở trường Max Qty Value
-    - Max Qty Value: Nhập số lượng sản phẩm tối đa để hiển thị các step tương ứng
-    
-  - Max Qty Step = Both: Hiển thị số lượng sản phẩm của từng step cho đến khi số lượng sản phẩm bằng giá trị đã cấu hình ở trường Max Qty Value hoặc đến khi sản phẩm hết hàng (giá trị nào nhỏ hơn thì sẽ hiển thị step theo giá trị đó). Ví dụ: Stock Quantity là 50, Max Qty Value là 70 thì step sẽ dừng lại ở mốc 50
-    - Max Qty Value: Nhập số lượng sản phẩm tối đa để hiển thị các step tương ứng
-    
-  - Allow Open Qty: Chọn Yes để hiển thị ô text box cho khách hàng nhập số lượng sản phẩm tùy ý
-  
-  - Option Template
-    - Template sẽ có kiểu Buy {qty}, kiểu này sẽ được áp dụng nếu số lượng sản phẩm là 1
-  
-  - Option Template for Multiple Qty
-    - Template sẽ có kiểu Buy {qty} for {price} each, kiểu này sẽ được áp dụng nếu số lượng sản phẩm lớn hơn 1
 
-  - Option Template with tier price
-    - Template sẽ có kiểu Buy {qty} for {price} each and save {percent}, kiểu này sẽ được áp dụng nếu tier price được áp dụng
-Bỏ trống trường này thì template ở trường Option Template được áp dụng
-Các Option Template sẽ hiển thị ngoài frontend dưới dạng select
-Bạn có thể sử dụng một số biến mà chúng tôi hỗ trợ (tất cả giá trị của các biến này đều được lấy theo cấu hình tier price của Magento): 
-{qty}: số lượng sản phẩm
-{price}: giá sản phẩm
-{total}: Tổng số tiền của order
-{percent}: phần trăm được giảm giá
-Apply for Categories
-Chọn category áp dụng hiển thị Qty step
-Có thể chọn hiển thị ở nhiều category
-Apply for Product Types
-Chọn loại sản phẩm áp dụng hiển thị Qty step
-Có thể chọn hiển thị ở nhiều loại sản phẩm khác nhau
-Apply on
-Chọn trang áp dụng hiển thị Qty step
-Có thể chọn nhiều trang cùng áp dụng một lúc. Có 3 trang có thể lựa chọn: Product List page, Product View page, Wishlist page
-Hide Tier price notice: Chọn Yes để ẩn thông báo tier price của Magento
+  - *Max Qty Step = Fixed Value*: Displays the maximum number of products for each time adding product to the cart.
+    - `Max Qty Value`: Enter the maximum number of products to display the corresponding steps. For example: **Qty Step Value = 5**, **Max Qty Value = 25** then there are 5 steps is: 5,10,15,20,25
+    
+  - *Max Qty Step = Both*: Display the product number of each step until the number of products is equal to the configured value in **Max Qty Value** field or until the product runs out of stock (prioritize the smaller value). For example: **Stock Quantity = 50**, **Max Qty Value = 70** then step will stop at 50 products.
+  
+    - `Max Qty Value`: Enter the maximum number of products. For example: **Qty Step Value = 5**, **Max Qty Value = 25** and **Stock Qty = 30 then there are 5 steps is: 5,10,15,20,25
+    
+  - **Allow Open Qty**: Select `Yes` to show text box which allows customer to add quantity
+  
+  - **Option Template**
+    - Template **Buy {qty}** is applied when product quantity is 1
+  
+  - **Option Template for Multiple Qty**
+    - Template **Buy {qty} for {price} each** is applied when product quantity is more than 1
+
+  - **Option Template with tier price**
+    - Template **Buy {qty} for {price} each and save {percent}** is applied when tier price is applied as well
+    - Leaving this field blank, the template in the **Option Template** field will be applied
+    - The **Options Template** will be displayed at the frontend as selecting type
+    - You can use some variables that we support (all values of these variables are taken according to tier price configuration of Magento):
+      - {qty}: Quantity of products
+      - {price}: Product price
+      - {total}: The total amount of the order
+      - {percent}: Discount percentage
+      
+  - **Apply for Categories**
+    - Select category to apply Qty step display
+    - You can choose to display in multiple categories
+    
+  - **Apply for Product Types**
+    - Select the product type to apply Qty step display
+    - Can choose to display in many different types of products
+    
+  - **Apply on**
+    - Select the page for applying Qty step display
+    - You can select multiple pages to apply at once. There are 3 pages to choose from: Product List page, Product View page, Wishlist page
+  - **Hide Tier price notice**: Select `Yes` to hide tier price notice from Magento
+  
+
 
 
 
