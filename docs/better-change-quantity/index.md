@@ -26,12 +26,12 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 - **Enable**: Select `Yes` to activate the module 
 
 - **Change Qty Step**
-  - *Change Qty Step = Product Qty Increment*: Display step increasing by the number configured in Magento products
+  - **Change Qty Step = Product Qty Increment**: Display step increasing by the number configured in Magento products
   
   For example: If **Qty Increments = 3** as in Magento product configuration; Step 1 is 1 product, Step 2 is 4 products, Step 3 is 7 products and so on. The difference of product quantity is 3. 
   
   
-  - *Change Qty Step = Fixed Value*: Display step as similar as in **Qty Step Value** configuration
+  - **Change Qty Step = Fixed Value**: Display step as similar as in **Qty Step Value** configuration
     - **Qty Step Value**: 
       - Enter the number of products for each time adding products to your cart. The number of products for each step will be increased by arithmetic progression
       - For example: If **Qty Step Value = 2**, every time you add product to the cart, you must add 2 products
@@ -44,15 +44,15 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
       
 - **Max Qty Step**
 
-  - *Max Qty Step = Stock Quantity*: Display the product number of each step until the product is out of stock. For example: **Quantity = 20** (as in product configuration), **Custom Step = 5,15,19,21** then it will so only thre steps which is 5,15,19
+  - **Max Qty Step = Stock Quantity**: Display the product number of each step until the product is out of stock. For example: **Quantity = 20** (as in product configuration), **Custom Step = 5,15,19,21** then it will so only thre steps which is 5,15,19
   
 
-  - *Max Qty Step = Fixed Value*: Displays the maximum number of products for each time adding product to the cart.
+  - **Max Qty Step = Fixed Value**: Displays the maximum number of products for each time adding product to the cart.
     - `Max Qty Value`: Enter the maximum number of products to display the corresponding steps. For example: **Qty Step Value = 5**, **Max Qty Value = 25** then there are 5 steps is: 5,10,15,20,25
     
-  - *Max Qty Step = Both*: Display the product number of each step until the number of products is equal to the configured value in **Max Qty Value** field or until the product runs out of stock (prioritize the smaller value). For example: **Stock Quantity = 50**, **Max Qty Value = 70** then step will stop at 50 products.
+  - **Max Qty Step = Both**: Display the product number of each step until the number of products is equal to the configured value in **Max Qty Value** field or until the product runs out of stock (prioritize the smaller value). For example: **Stock Quantity = 50**, **Max Qty Value = 70** then step will stop at 50 products.
   
-    - `Max Qty Value`: Enter the maximum number of products. For example: **Qty Step Value = 5**, **Max Qty Value = 25** and **Stock Qty = 30 then there are 5 steps is: 5,10,15,20,25
+    - `Max Qty Value`: Enter the maximum number of products. For example: **Qty Step Value = 5**, **Max Qty Value = 25** and **Stock Qty = 30** then there are 5 steps is: 5,10,15,20,25
     
   - **Allow Open Qty**: Select `Yes` to show text box which allows customer to add quantity
   
