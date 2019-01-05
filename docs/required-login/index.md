@@ -40,7 +40,9 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   
 #### 1.2. Configuration
 
-![Imgur](https://i.imgur.com/m5DuFGt.png)
+![Imgur](https://i.imgur.com/2LgMdSP.png)
+
+![Imgur](https://i.imgur.com/txjs1St.png)
 
 
 - **Apply for**: 
@@ -56,12 +58,13 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   - **Exclude page URLs**: 
     - Show more fields as text. Enter the URL paths which are separated by a `/` in the field. Required Login with all pages not including the url links entered below.
     
-`Note`: The field **Apply for Custom Page** will be prioritized applied if you choose the same URLs in other fields. 
+`Note`: The field **Apply for Custom Page** will be prioritized applied if you choose the same URLs in other fields. Besides, if insert the same URL to both **Include page** and **Exclude page** then the system will exclude that URL. means that not apply required login to that URL 
 
 - **Redirect To**: 
   - Select the page you want visitors to be redirected to after successful login
   - Select **Custom URL**, a text field will appear letting you insert URL. They must be separated by a `/`  
-  - This is a required field
+  - This is a required field. If the URL is wrong, there will be a notification: `Please enter a valid URL. Protocol is required (http://, https:// or ftp://).`
+
 
 
 
