@@ -13,7 +13,8 @@ Mageplaza Required Login which can be applied to any page you want is used to fo
 
 ## How to use Required Login
 
-![Imgur](https://i.imgur.com/GXeySUy.png)
+![Imgur](https://i.imgur.com/e9pUnNG.png)
+
 
 ## How to configure
 
@@ -21,12 +22,12 @@ Mageplaza Required Login which can be applied to any page you want is used to fo
 
 Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`.
 
-![Imgur](https://i.imgur.com/c8J7ZV1.png)
+![Imgur](https://i.imgur.com/l2idYu0.png)
 
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/nFEdGIE.png)
+![Imgur](https://i.imgur.com/m7CqGWQ.png)
 
 
 - **Enable**: Select `Yes` to enable the module 
@@ -54,7 +55,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   - You can leave this field blank
   
 - **Apply for Custom Page**:  Choose Custom page:
-  - **Include page URLs**: Show a field as text for entering the URL paths which must be separated by a `/` in the field. Required Login with all pages including the url links entered below. Fro example: /blog/,/men/top/t-shirt,...
+  - **Include page URLs**: Show a field as text for entering the URL paths which must be separated by a `/` in the field. Required Login with all pages including the url links entered below. Fro example: /blog, /men/top/t-shirt,...
   - **Exclude page URLs**: 
     - Show more fields as text. Enter the URL paths which are separated by a `/` in the field. Required Login with all pages not including the url links entered below.
     
@@ -63,6 +64,9 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
 - **Redirect To**: 
   - Select the page you want visitors to be redirected to after successful login
   - Select **Custom URL**, a text field will appear letting you insert URL. They must be separated by a `/`  
+  - **Home page**: Redirect to home page after successful login
+  - **Customer dashboard**: Redirect to Customer dashboard after successful login 
+  - **Previous Page**: Redirect to Previous Page (the page that is required login) after successful login. For example: required login for Home page  means that customers will be redirected to Home page after logging in
   - This is a required field. If the URL is wrong, there will be a notification: `Please enter a valid URL. Protocol is required (http://, https:// or ftp://).`
 
 
