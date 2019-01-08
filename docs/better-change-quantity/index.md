@@ -12,8 +12,30 @@ For the convenience of customers when purchasing multiple products with various 
 
 ## How to use
 
-### 1. Option Template
-### 2. Open Quantity
+### 1. Display on Product View Page
+
+
+#### 1.1 Option Template
+
+![Imgur](https://i.imgur.com/G2xUblW.png) 
+
+#### 1.2 Open Quantity
+
+![Imgur](https://i.imgur.com/PAnIw2N.png)
+
+### 2. Display on Product List Page
+
+#### 2.1 Option Template
+
+![Imgur](https://i.imgur.com/ULGnPfK.png)
+
+#### 1.2 Open Quantity
+
+![Imgur](https://i.imgur.com/XzoiMKE.png)
+
+### 3. Display on Wish List Page
+
+![Imgur](https://i.imgur.com/tka5N6V.png)
 
 ## How to Configure
 
@@ -25,7 +47,10 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 - **Enable**: Select `Yes` to activate the module 
 
-- **Change Qty Step**
+- **Change Qty Step** (number of items increase per option)
+
+![Imgur](https://i.imgur.com/xIxPoOF.png)
+
   - **Change Qty Step = Product Qty Increment**: Display step increasing by the number configured in Magento products
   
   For example: If **Qty Increments = 3** as in Magento product configuration; Step 1 is 1 product, Step 2 is 4 products, Step 3 is 7 products and so on. The difference of product quantity is 3. 
@@ -42,7 +67,9 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
       - You can enter multiple steps with different product numbers, steps must be separated by a commas
       - For example: **Qty Step Value = 3,5,9**, means that Step 1 is 3 product, Step 2 is 5 prodducts and Step 3 is 9 products
       
-- **Max Qty Step**
+- **Max Qty Step** (Set the maximum bumber of steps)
+
+![Imgur](https://i.imgur.com/qlXnvOw.png)
 
   - **Max Qty Step = Stock Quantity**: Display the product number of each step until the product is out of stock. For example: **Quantity = 20** (as in product configuration), **Custom Step = 5,15,19,21** then it will so only thre steps which is 5,15,19
   
@@ -58,18 +85,20 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
   
   - **Option Template**
     - Template **Buy {qty}** is applied when product quantity is 1
+    - If you leave this field blank, the default template will be used
   
   - **Option Template for Multiple Qty**
     - Template **Buy {qty} for {price} each** is applied when product quantity is more than 1
-
+    - If you leave this field blank, the default template will be used
+    
   - **Option Template with tier price**
     - Template **Buy {qty} for {price} each and save {percent}** is applied when tier price is applied as well
-    - Leaving this field blank, the template in the **Option Template** field will be applied
+     - If you leave this field blank, the default template will be used
     - The **Options Template** will be displayed at the frontend as selecting type
     - You can use some variables that we support (all values of these variables are taken according to tier price configuration of Magento):
       - {qty}: Quantity of products
       - {price}: Product price
-      - {total}: The total amount of the order
+      - {total}: The total amount of the order with the chosen quantity
       - {percent}: Discount percentage
       
   - **Apply for Categories**
@@ -82,12 +111,15 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
     
   - **Apply on**
     - Select the page for applying Qty step display
-    - You can select multiple pages to apply at once. There are 3 pages to choose from: Product List page, Product View page, Wishlist page
+    - You can select multiple pages to apply at once. There are 3 pages to choose from: Product List page, Product View page, Wish List page
   - **Hide Tier price notice**: Select `Yes` to hide tier price notice from Magento
   
 
+`Note`: 
 
-
+- All the products with check box appled to Better Change Qty must satisfied 3 fields: **Apply for Categories, Apply for Product Types, Apply on**
+- For **Configurable products, Grouped products, Bundle products and Gift Card products**, the check box will not be displayed on the **Wish List page**
+- For **Grouped products, Bundle products and Gift Card products**, they will not be displayed as the check box box on the **Product List page**
 
 
 
