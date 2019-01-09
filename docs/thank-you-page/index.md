@@ -16,29 +16,80 @@ We also support the Newsletter Success page with similar features.
 
 
 ## How to configure
-From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza Extension` tab, choose `Thank You Page`
+From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
-![thank you page2](https://i.imgur.com/DXzRvh6.png)
+![thank you page2](https://i.imgur.com/yIfVzq3.png)
 
-### 1. General Configuration
 
-![thank you page3](https://i.imgur.com/H1DDusy.png)
+### 1. Configuration
+
+![thank you page3](https://i.imgur.com/XzEOZLM.png)
+
+#### 1.1 General Configuration
+
+- **Enable**: Select `Yes` to enable the module 
+
+- **AddThis API key**
+  - Enter the key of AddThis to refer to the friends via AddThis
+  
+#### 1.2 Order Success Page
+
+- **Enable**: Select `Yes` to show Thank You Page after customer placed orders 
+- **Route**
+  - Add the route for Thank You Page
+  - If you leave this field blank, the default route applied is: *mpthankyoupage* 
+
+#### 1.3 Newsletter Success Page
+
+- **Enable**: Select `Yes` to show Thank You page after customers click to subcribe 
+- **Route**
+  - Add the route for Thank You Page
+  - If you leave this field blank, the default route applied is: *subscribe* 
+  
+### 2. Manage Templates  
 
 - **Enable**: Choose "Yes" to use the feature of this module
 - **Apply for Customer Group(s)**:
   - Only customers in the selected group can see the products that are applied the rules
   - Multiple groups can be selected at the same time
   
-- **AddThis API key**
-  - Enter the key of AddThis to refer to the friends via AddThis
-  
-### 2. Order Success Page
-![thank you page4](https://i.imgur.com/FshSeYA.png)
 
-- **Enable**: Choose "Yes" to display Thank You Page after customers complete the order
-- **Route**:
-  - Enter the route for Thank You Page
-  - If you leave this field blank, the default route is *mpthankyoupage*
+  
+### 2.1 Order Success Page
+
+#### 2.1.1 General
+
+![Imgur](https://i.imgur.com/Ss9w2t3.png)
+
+- **Name**
+  - Enter a name for the template
+  - This is a required field
+  
+- **Status**: Select `Enable` to use the template
+
+- **Store Views**
+  - Select storeview to apply the template
+  - You can choose multiple stores once
+  
+- **Customer Group(s)**
+  - Only customers of the selected group can see the product that has been applied to the rule
+  - You can select multiple groups at the same time
+  
+- **Priority**
+  - Enter the priority order for applying templates
+  - The smaller the number, the greater the priority. If different templates have equal priority, the priority will be considered by ID
+
+#### 2.1.2 Condition
+
+![Imgur](https://i.imgur.com/o2iAQhU.png)
+
+- Select the condition to apply the rule
+- You can set the conditions for the Cart or Product section like: *Subtotal greater than 50, Total Items Quantity less than 5* ...
+
+#### 2.1.3 Display
+
+![Imgur](https://i.imgur.com/XTgoKgt.png)
+
 
 - **Select Style**:
   - Choose the style for Thank You Page
@@ -70,8 +121,10 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
       
   - **Custom Style = Edit Default Style**:
   
-  ![thank you page6](https://i.imgur.com/5mtzKsi.png)
+  ![Imgur](https://i.imgur.com/PgHyQ7j.png)
   
+  
+ 
     - `Load Template button`: After clicking on this button, the code of the selected style in `Select Style` field will be loaded and displayed on `Page HTML` field and CSS of the selected style is also loaded and displayed on the `Custom CSS` field.
     - `Page HTML`:
       - Allow editing the code of the selected style
@@ -88,7 +141,8 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at `Mageplaza E
     - `Static Block 2 = No display`: This means that there're no any block to display on Thank You Page
 
 #### Coupon Block
-![thank you page7](https://i.imgur.com/9JzEsQv.png)
+
+[Imgur](https://i.imgur.com/0K7MJqt.png)
 
 - **Select Rule**:
   - Choose the rule (The rule is created at `Marketing > Promotions > Cart Price Rules`)
@@ -127,7 +181,34 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
    - The default number of display is 5
    
 #### Product Slider Block
-![thank you page9](https://i.imgur.com/qmPTQZE.png)
+
+![Imgur](https://i.imgur.com/JzZjNGf.png)
+
+
+#### Mageplaza FAQ block
+
+![Imgur](https://i.imgur.com/Km1hxBp.png)
+
+- **Enable**: Choose "Yes" to display FAQ on Thank You Page
+- **Title**:
+  - Enter the title for FAQ
+  - The default title is `Frequently Asked Questions`
+  
+- **Select Category**:
+  - Choose Category to apply for displaying FAQ
+  - For example: choose `Select Category = Category 1` of FAQ, then FAQ will be displayed at Category 1.
+  
+- **Limit**:
+   - Enter the number of FAQ that will display
+   - The default number of display is 5
+
+
+
+
+
+
+
+
 
 - **Enable**: Choose "Yes" to display Product Slider Block on Thank You Page
 - **Title**:
@@ -142,17 +223,41 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - Choose the information that displays on the product at Product Slider Block as Add To Cart, Add To Compare, Add To Wishlist, and Review Information section.
   - Multiple information can be displayed.
   
-### 3. Newsletter Success Page
-![thank you page10](https://i.imgur.com/cvdXpFj.png)
+  
+  
+  
+  
+  
+  
+### 2.2 Newsletter Success Page
 
-- **Enable**: Choose "Yes" to display Thank You Page after customers click on `Subscribe` button
-- **Route**:
-  - Enter the route for Thank You Page
-  - If leaving this field blank, the default route is *mpthankyoupage/subscribe*
+#### 2.2.1 General
 
-- **Select Style**: Choose the style for Thank you Page after customers click on `subscribe`
+![Imgur](https://i.imgur.com/ZlHwrFe.png)
 
-![thank you page11](https://i.imgur.com/eWPgGvz.png)
+- **Name**
+  - Enter a name for the template
+  - This is a required field
+  
+- **Status**: Select `Enable` to use the template
+
+- **Store Views**
+  - Select storeview to apply the template
+  - You can choose multiple stores once
+  
+- **Customer Group(s)**
+  - Only customers of the selected group can see the product that has been applied to the rule
+  - You can select multiple groups at the same time
+  
+- **Priority**
+  - Enter the priority order for applying templates
+  - The smaller the number, the greater the priority. If different templates have equal priority, the priority will be considered by ID
+
+#### 2.2.2 Display
+
+![Imgur](https://i.imgur.com/Jl4cQqj.png)
+
+- **Select Style**: Select the style for the Thank You page after the customer has subscribed
 
 - **Page Title**
   - Enter the title for Thank You Page
