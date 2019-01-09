@@ -46,20 +46,13 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
   - Add the route for Thank You Page
   - If you leave this field blank, the default route applied is: *subscribe* 
   
-### 2. Manage Templates  
-
-- **Enable**: Choose "Yes" to use the feature of this module
-- **Apply for Customer Group(s)**:
-  - Only customers in the selected group can see the products that are applied the rules
-  - Multiple groups can be selected at the same time
-  
-
+### 2. Manage Templates 
   
 ### 2.1 Order Success Page
 
 #### 2.1.1 General
 
-![Imgur](https://i.imgur.com/Ss9w2t3.png)
+![Imgur](https://i.imgur.com/6II9zCP.png)
 
 - **Name**
   - Enter a name for the template
@@ -142,7 +135,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
 #### Coupon Block
 
-[Imgur](https://i.imgur.com/0K7MJqt.png)
+![Imgur](https://i.imgur.com/0K7MJqt.png)
 
 - **Select Rule**:
   - Choose the rule (The rule is created at `Marketing > Promotions > Cart Price Rules`)
@@ -164,21 +157,6 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - You can use multiple available variables that are supported by clicking on the `Insert Variable` link
   - HTML is supported
   
-#### Mageplaza FAQ
-![thank you page8](https://i.imgur.com/fY3cJUK.png)
-
-- **Enable**: Choose "Yes" to display FAQ on Thank You Page
-- **Title**:
-  - Enter the title for FAQ
-  - The default title is `Frequently Asked Questions`
-  
-- **Select Category**:
-  - Choose Category to apply for displaying FAQ
-  - For example: choose `Select Category = Category 1` of FAQ, then FAQ will be displayed at Category 1.
-  
-- **Limit**:
-   - Enter the number of FAQ that will display
-   - The default number of display is 5
    
 #### Product Slider Block
 
@@ -201,33 +179,8 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 - **Limit**:
    - Enter the number of FAQ that will display
    - The default number of display is 5
-
-
-
-
-
-
-
-
-
-- **Enable**: Choose "Yes" to display Product Slider Block on Thank You Page
-- **Title**:
-  - Enter the title for Product Slider Block
-  - If you leave this field blank, there's no title for Product Slider Block
   
-- **Limit the number of products**:
-  - Enter the number of displaying products
-  - The default number of display is 10
-  
-- **Display Information**:
-  - Choose the information that displays on the product at Product Slider Block as Add To Cart, Add To Compare, Add To Wishlist, and Review Information section.
-  - Multiple information can be displayed.
-  
-  
-  
-  
-  
-  
+   
   
 ### 2.2 Newsletter Success Page
 
