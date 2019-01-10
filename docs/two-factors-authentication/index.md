@@ -59,11 +59,11 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 
 ![Imgur](https://i.imgur.com/pXtezSd.png)
 
-- After enabling 2FA, the admin needs to use the Authy app or Google Authenticator on the phone to scan the QR code or enter the Key into the app to get the confirmation code.
-- After QR code is saved in the app, app automatically generates confirmation code. Admin needs to get that code and enter the Confirmation code to register
-- After registering, from the following login, the admin needs to get the code from the app to verify that the dashboard page is entered
-- The confirmation code created by the app after being replaced 30s still works to fill in the verify item
-- When force using 2FA is enabled, the admin user cannot disable 2FA here
+- After enabling 2FA, admins need to use the **Authy app or Google Authenticator** on the phone to scan the QR code or enter the Key into the app to get the confirmation code.
+- After QR code is saved in the app, it automatically generates confirmation code. Admin needs to get that code and enter the it to register
+- After registering, from the next login, admins need to get the code from the app to verify so that they can access the dashboard
+- The confirmation code created by the app after being replaced 30s still works for verification
+- When **Force using 2FA** is enabled, the admin user cannot disable 2FA here
 
 
 
@@ -75,7 +75,7 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 
 
 - Log the browser on the machine with certain IPs that can be trusted and the last time the user logs in with this browser
-- When the enable trust device, in the trust time period, the devices stored here will not need to enter the confirmation code to log on.
+- When the enable trust device, in the trust time period, the devices saved here will not need to enter the confirmation code to log on.
 - Over time of trust time, device will be automatically removed from the list
-- User admin can also remove that period by clicking the Remove button
+- User admin can also remove that period by clicking the `Remove` button
 
