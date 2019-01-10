@@ -52,7 +52,10 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 ![Imgur](https://i.imgur.com/5s0e8hG.png)
 
 
-- **Register 2FA**:
+
+
+
+#### **Register 2FA**:
 
 ![Imgur](https://i.imgur.com/pXtezSd.png)
 
@@ -64,7 +67,9 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 
 
 
-- **Check and remove Trusted Devices**:
+
+
+#### **Check and remove Trusted Devices**:
 
 ![Imgur](https://i.imgur.com/rG9dRFD.png)
 
