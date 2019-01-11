@@ -8,7 +8,7 @@ We also support the Newsletter Success page with similar features.
 ## How to use
 ### 1. Display Thank You Page after customers complete the order
 
-![thank you page](https://i.imgur.com/XUbXvZO.png)
+![Imgur](https://i.imgur.com/KbFTbHa.png)
 
 ### 2. Display Thank You Page after customers click on subscribe
 
@@ -52,7 +52,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
 #### 2.1.1 General
 
-![Imgur](https://i.imgur.com/6II9zCP.png)
+![Imgur](https://i.imgur.com/s09Y5OO.png)
 
 - **Name**
   - Enter a name for the template
@@ -81,7 +81,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
 #### 2.1.3 Display
 
-![Imgur](https://i.imgur.com/XTgoKgt.png)
+![Imgur](https://i.imgur.com/cGiLMz6.png)
 
 
 - **Select Style**:
@@ -186,7 +186,9 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 
 #### 2.2.1 General
 
-![Imgur](https://i.imgur.com/ZlHwrFe.png)
+![Imgur](https://i.imgur.com/eeGrMZz.png)
+
+
 
 - **Name**
   - Enter a name for the template
@@ -208,7 +210,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 
 #### 2.2.2 Display
 
-![Imgur](https://i.imgur.com/Jl4cQqj.png)
+![Imgur](https://i.imgur.com/tFhTEQy.png)
 
 - **Select Style**: Select the style for the Thank You page after the customer has subscribed
 
