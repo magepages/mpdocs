@@ -2,7 +2,7 @@
 
 ## Overview
 
-For the convenience of customers when purchasing multiple products with various discount options, Mageplaza integrates the ability to display Magento tier price notifications into the Better Change Qty module. Customers can easily choose different options at different prices. With only 1 select option and Add To Cart, customers have added products to the cart conveniently, quickly without entering the number of products corresponding to Mgento's announcement to receive the same discount.
+For the convenience of customers when purchasing multiple products with various discount options, Mageplaza integrates the ability to display Magento tier price notifications into the [Better Change Qty module](). Customers can easily choose different options at different prices. With only 1 select option and Add To Cart, customers have added products to the cart conveniently, quickly without entering the number of products corresponding to Mgento's announcement to receive the same discount.
 
 ## Download & Install
 
@@ -29,7 +29,7 @@ For the convenience of customers when purchasing multiple products with various 
 
 ![Imgur](https://i.imgur.com/ULGnPfK.png)
 
-#### 1.2 Open Quantity
+#### 2.2 Open Quantity
 
 ![Imgur](https://i.imgur.com/XzoiMKE.png)
 
@@ -45,23 +45,42 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 #### General 
 
+![Imgur](https://i.imgur.com/LPI8nPV.png)
+
 - **Enable**: Select `Yes` to activate the module 
 
 - **Change Qty Step** (number of items increase per option)
 
 ![Imgur](https://i.imgur.com/xIxPoOF.png)
 
-  - **Change Qty Step = Product Qty Increment**: Display step increasing by the number configured in Magento products
+  - *Change Qty Step = Product Qty Increment*: Display step increasing by the number configured in Magento products
   
   For example: If **Qty Increments = 3** as in Magento product configuration; Step 1 is 1 product, Step 2 is 4 products, Step 3 is 7 products and so on. The difference of product quantity is 3. 
   
+  ![Imgur](https://i.imgur.com/I1JYqpl.png)
   
-  - **Change Qty Step = Fixed Value**: Display step as similar as in **Qty Step Value** configuration
-    - **Qty Step Value**: 
+  - **Limit Number of Options**
+    - Enter the limits for displaying options
+    - The default display is 10 options
+    - If left blank or filled as 0, there will be no limit to the display of options
+  
+  
+  
+  - *Change Qty Step = Fixed Value*: Display step as similar as in **Qty Step Value** configuration
+  
+  ![Imgur](https://i.imgur.com/uAbeOhi.png)
+  
+
+   - **Qty Step Value**: 
       - Enter the number of products for each time adding products to your cart. The number of products for each step will be increased by arithmetic progression
       - For example: If **Qty Step Value = 2**, every time you add product to the cart, you must add 2 products
+      
+   - **Limit Number of Options**
+      - Enter the limits for displaying options
+      - The default display is 10 options
+      - If left blank or filled as 0, there will be no limit to the display of options     
 
-  - **Change Qty Step = Custom Value**: Display step increasing by the number configured in **Custom Step** field
+  - *Change Qty Step = Custom Value*: Display step increasing by the number configured in **Custom Step** field
     - **Custom Step**
       - Enter the number of products for each step
       - You can enter multiple steps with different product numbers, steps must be separated by a commas
@@ -84,22 +103,22 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
   - **Allow Open Qty**: Select `Yes` to show text box which allows customer to add quantity
   
   - **Option Template**
-    - Template **Buy {qty}** is applied when product quantity is 1
+    - Template **Buy {{qty}}** is applied when product quantity is 1
     - If you leave this field blank, the default template will be used
   
   - **Option Template for Multiple Qty**
-    - Template **Buy {qty} for {price} each** is applied when product quantity is more than 1
+    - Template **Buy {{qty}} for {{price}} each** is applied when product quantity is more than 1
     - If you leave this field blank, the default template will be used
     
   - **Option Template with tier price**
-    - Template **Buy {qty} for {price} each and save {percent}** is applied when tier price is applied as well
+    - Template **Buy {{qty}} for {{price}} each and save {{percent}}** is applied when tier price is applied as well
      - If you leave this field blank, the default template will be used
     - The **Options Template** will be displayed at the frontend as selecting type
     - You can use some variables that we support (all values of these variables are taken according to tier price configuration of Magento):
-      - {qty}: Quantity of products
-      - {price}: Product price
-      - {total}: The total amount of the order with the chosen quantity
-      - {percent}: Discount percentage
+      - {{qty}}: Quantity of products
+      - {{price}}: Product price
+      - {{total}}: The total amount of the order with the chosen quantity
+      - {{percent}}: Discount percentage
       
   - **Apply for Categories**
     - Select category to apply Qty step display
