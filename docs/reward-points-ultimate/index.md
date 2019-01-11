@@ -61,9 +61,9 @@ Log in to your backend, then go to ``Marketing > Reward Points`` and follow the 
 
 ![rewardpoints](https://i.imgur.com/eNkN87B.png)
 
-```
-Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
-```
+- Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
+
+
 ![rewardpoints3](https://i.imgur.com/q1QmqDU.png)
 
 ### I. Earning 
@@ -803,9 +803,60 @@ To set the price by Point for Product, admins need to Edit Product and enter the
 
 ![rp28](https://i.imgur.com/o8JHF3A.png)
 
-### IX. Customer Frontend.
 
-#### 9.1. Create New Account
+### IX. Import 
+To assist customers in backing up Reward Point data when switching systems, we have added the Import feature of Account and Transaction Reward.
+
+#### 9.1. Import Reward Account`
+From the **Admin Panel**, go to `Sytem> Data Tranfer> Import`, select *Entity Type = Mageplaza Reward Account*
+
+![Imgur](https://i.imgur.com/GtMcV93.png)
+
+
+- **Step 1**: Choose **Entity Type = Mageplaza Reward Account**
+
+- **Step 2**: Choose import action: **Add/Update account** or **Delete account**
+
+![Imgur](https://i.imgur.com/qOgPv2Y.png)
+
+
+- **Step 3**: Download the file imported from the computer. If you don't know what the import file format is and what data you need to fill in, you can click on the link **Download Sample File** to view the sample file
+
+- **Step 4**: Check Data and import data
+
+
+#### 9.2 Import Reward Transaction 
+
+From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity Type = Mageplaza Reward Transaction*
+
+![Imgur](https://i.imgur.com/fBvosxw.png)
+
+- **Step 1**: Choose **Entity Type = Mageplaza Reward Account**
+
+- **Step 2**: Choose import action: **Add transaction**
+
+![Imgur](https://i.imgur.com/jzyfH7C.png)
+
+
+- **Step 3**: Download the file imported from the computer. If you don't know what the import file format is and what data you need to fill in, you can click on the link Download Sample File to view the sample file
+
+- **Step 4**: Check Data and import data
+
+### X. API
+
+- Reward Point Ultimate supports API function. The API allows users to get a list with all their offers in the selected format (JSON) with the payout showcased in the selected currency. The list can be filtered by status (pending, approved, or cancel), order, account affiliate, transaction, withdraw and campaign; add new account affiliate, withdraw; delete account affiliate, campaign.
+- Moreover, it can be customized to return only the selected fields (Order, Reward accounts, Transactions, Invitations)
+- You can check out some of the syntax we have supported as the follwings:
+
+
+![Imgur](https://i.imgur.com/fMca1hk.png)
+
+- See how to create an API [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#web-api-access) and how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#integration-tokens).
+
+
+### XI. Customer Frontend.
+
+#### 11.1. Create New Account
 
 ![rp29](https://i.imgur.com/V8STFbs.png)
 
@@ -813,8 +864,8 @@ To set the price by Point for Product, admins need to Edit Product and enter the
 - Customers can get refer code information or the email of refereers, they can completely fill in the Refer Email Or Code, then `Create an Account` and place order and get point/discount.
 - For customers who have an account, they need to have the correct link to access, login and use the refer code
 
-#### 9.2. My Account > My Points & Reward
-##### 9.2.1. Reward Dashboard
+#### 11.2. My Account > My Points & Reward
+##### 11.2.1. Reward Dashboard
 
 Customers can check the Reward Point information in this section after logging in:
 
@@ -824,7 +875,7 @@ Customers can check the Reward Point information in this section after logging i
   * The maximum number of points that the customer's balance can receive from orders.
   * The maximum number of days that point(s) can be used since that customer receives point(s).
   
-##### 9.2.3. Transactions
+##### 11.2.3. Transactions
 
 * At **Transaction History**: Customer can know the transaction history in details
   * Made transaction(s) and its comments.
@@ -837,7 +888,7 @@ Customers can check the Reward Point information in this section after logging i
 
 ![i23](https://i.imgur.com/70QxdpB.png)
 
-##### 9.2.3. My Referral
+##### 11.2.4. My Referral
 
 ![rp30](https://i.imgur.com/vblrX6z.png)
 
@@ -846,7 +897,7 @@ Customers can check the Reward Point information in this section after logging i
 - Your Invitee saves the information about the referral action that they did when the referrer performed a successful place order
 - When the order is completed, Customers will receive a point equal to the amount of points `You Earn`
 
-#### 9.3. Checkout Page
+#### 11.3. Checkout Page
 * Customers can use the slider or text box to select the amount of reward point(s) they want to spend.
 * Used reward point(s) can be limited to a range.
   * Customers are only allowed to use their point(s) within this range.
@@ -861,7 +912,7 @@ Customers can check the Reward Point information in this section after logging i
 
 ![i24](https://i.imgur.com/jYxvQV7.png)
 
-#### 9.4. Other additional frontends.
+#### 11.4. Other additional frontends.
 * **Top link**: Displays the point(s) that customer has.
 
 ![i25](https://i.imgur.com/IDryq1q.png)
