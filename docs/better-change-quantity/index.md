@@ -53,7 +53,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 ![Imgur](https://i.imgur.com/xIxPoOF.png)
 
-  - *Change Qty Step = Product Qty Increment*: Display step increasing by the number configured in Magento products
+  1. *Change Qty Step = Product Qty Increment*: Display step increasing by the number configured in Magento products
   
   For example: If **Qty Increments = 3** as in Magento product configuration; Step 1 is 1 product, Step 2 is 4 products, Step 3 is 7 products and so on. The difference of product quantity is 3. 
   
@@ -66,7 +66,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
   
   
   
-  - *Change Qty Step = Fixed Value*: Display step as similar as in **Qty Step Value** configuration
+  2. *Change Qty Step = Fixed Value*: Display step as similar as in **Qty Step Value** configuration
   
   ![Imgur](https://i.imgur.com/uAbeOhi.png)
   
@@ -80,7 +80,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
       - The default display is 10 options
       - If left blank or filled as 0, there will be no limit to the display of options     
 
-  - *Change Qty Step = Custom Value*: Display step increasing by the number configured in **Custom Step** field
+  3. *Change Qty Step = Custom Value*: Display step increasing by the number configured in **Custom Step** field
     - **Custom Step**
       - Enter the number of products for each step
       - You can enter multiple steps with different product numbers, steps must be separated by a commas
