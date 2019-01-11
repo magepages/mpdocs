@@ -186,7 +186,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 
 #### 2.2.1 General
 
-![Imgur](https://i.imgur.com/eeGrMZz.png)
+![Imgur](https://i.imgur.com/QG7wmL7.png)
 
 
 
