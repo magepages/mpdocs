@@ -1,6 +1,6 @@
 Support
 ----------
 
-#. Find solutions: https://mageplaza.freshdesk.com/support/solutions
-#. Ask community: https://mageplaza.freshdesk.com/support/discussions
+#. Find solutions: https://www.mageplaza.com/faqs/
+#. Ask community: https://github.com/mageplaza/ or https://stackoverflow.com/questions/tagged/magento2
 #. Ask Mageplaza: https://www.mageplaza.com/contact.html

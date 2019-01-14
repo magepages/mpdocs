@@ -64,7 +64,7 @@ Run following command:
 
 Any other questions, issues please contact Mageplaza:
 
-- Ask Mageplaza: https://mageplaza.freshdesk.com/support/tickets/new
+- Ask Mageplaza: https://www.mageplaza.com/contact.html
 
 
 .. _this guide: https://www.mageplaza.com/kb/magento-2-404-page-not-found.html

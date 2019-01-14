@@ -428,7 +428,7 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
 * In the **Template** field: 
    
    * We created a new default template and this is the only one you can use.
-   * If you want to create a new template, please contact with our Support Department by submit a ticket to `https://mageplaza.freshdesk.com/support/home <https://mageplaza.freshdesk.com/support/home>`_ or via the email `support@mageplaza.com <support@mageplaza.com>`_
+   * If you want to create a new template, please contact with our Support Department by submit a ticket to `https://www.mageplaza.com/contact.html <https://www.mageplaza.com/contact.html>`_ or via the email `support@mageplaza.com <support@mageplaza.com>`_
 
 * Finally, click ``Insert widget`` button to add the widget into the content.
 * Don’t forget to click the ``Save`` button at the top of the backend.
