@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Better Sorting by Mageplaza](https://www.mageplaza.com/magento-2-better-sorting) will help customers to have a compelling shopping experience, increase the ability to access and search easily and be friendly with customers. By supporting customers to arrange products by Bestseller, Most Viewed, Discount, Reviews count, Top Rated, New, Added to wishlist, Stock (quantity), etc. That's the feature of Better Sorting extension of Mageplaza.
+[Better Sorting by Mageplaza](https://www.mageplaza.com/magento-2-better-sorting) will help customers to have a compelling shopping experience, increase the ability to access and search easily and be friendly with customers. By supporting customers to arrange products by Bestseller, Most Viewed, Discount, Reviews count, Top Rated, New, Added to wishlist, Stock (quantity), etc, Better Sorting extension will boost your site traffic dramatically.
 
 ## Download & Install
 
@@ -11,7 +11,7 @@
 
 ## How to use
 
-## Hoe to configure
+## How to configure
 
 ### 1. Configuration
 
