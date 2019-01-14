@@ -2,12 +2,12 @@
 
 ## Overview
 
-Today, social media is growing strongly and having tremendous influence on human life. Thanks to thousands of people accessing social networking sites every day, most online businesses take advantage of this opportunity to promote their brands and products closer to customers as well as increase the amount of interaction on their websites. With the new Social Share extension of Mageplaza, it will help you to do the above tasks and especially help you save time and advertising costs.
+Today, social media is growing strongly and having tremendous influence on human life. Thanks to thousands of people accessing social networking sites every day, most online businesses take advantage of this opportunity to promote their brands and products closer to customers as well as increase the amount of interaction on their websites. With the new [Social Share extension of Mageplaza](https://www.mageplaza.com/magento-2-social-share/), it will help you to do the above tasks and especially help you save time and advertising costs.
 
 
 ## Download & Install
 
-- [Mageplaza Social Share]()
+- [Mageplaza Social Share](https://www.mageplaza.com/magento-2-social-share/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
@@ -92,11 +92,14 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Soci
   
 #### 1.2. Floating Configuration
 
-  ![Imgur](https://i.imgur.com/pNfHLv2.png)
+  ![Imgur](https://i.imgur.com/wGClUxR.png)
   
 - **Apply For**: 
   - Choose the position to display Services at **Floating Configuration**
-  - Enable showing in multi positions
+    - **All Pages**: Displays services on all pages
+    - **Select Pages**: Show 2 more fields: **Apply for Select Page** and **Apply for CMS Page** to choose the location to display services:
+        - **Apply for Select Page**: Select the page to display services. You can choose to apply multiple pages at once. Pages not selected will not display services.
+        - **Apply for CMS Page**: Select CMS page to display services. You can choose to apply multiple CMS pages at the same time. CMS pages that are not selected will not display services.
   
 - **Style**: Select the style for displaying Menu
   - **Horizontal**: Icons are arranged horizontally.
