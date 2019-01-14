@@ -2,11 +2,11 @@
 
 ## Overview
 
-Mageplaza Two Factors Authentication extension assure more security for online stores' backend. Admin users need to verify two factors when logging in the backend on every device. This extension supports three commonly used authentication authors: Authy, Duo or Google Authenticator. This authentication tool applies only to admin users, not to the Frontend Customer Account
+[Mageplaza Two Factors Authentication extension](https://www.mageplaza.com/magento-2-two-factors-authentication/) assure more security for online stores' backend. Admin users need to verify two factors when logging in the backend on every device. This extension supports three commonly used authentication authors: Authy, Duo or Google Authenticator. This authentication tool applies only to admin users, not to the Frontend Customer Account
 
 ## Download & Install
 
-- [Mageplaza Two Factors Authentication]()
+- [Mageplaza Two Factors Authentication](https://www.mageplaza.com/magento-2-two-factors-authentication/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/) 
 
 ## How to use
@@ -26,7 +26,7 @@ When turn on Trusted Device, authentication request page looks like this:
 
 From **Admin panel**, go to `Stores > Configuration > Mageplaza > Two factor Authentication`
 
-![Imgur](https://i.imgur.com/UBaH2XP.png)
+![Imgur](https://i.imgur.com/6V0ncoR.png)
 
 - **Enable**: Select `Yes` to activate the module
 
@@ -42,6 +42,13 @@ From **Admin panel**, go to `Stores > Configuration > Mageplaza > Two factor Aut
   - During the time period set in this section, when logging in with this device, the admin users do not need to authenticate two factors. 
   - When changing **Trust time**, the previously saved devices also change the trust time accordingly
   - Time is set by day
+  
+- **Whitelist(s)**:
+  - Only the IP addresses filled in this section can access the Dashboard page without 2FA authentication (even if not in the Trust Device List)
+  - It is possible to allow 1 IP address, multiple IP addresses, 1 range of IP addresses or multiple IP address ranges to have access to admin. IP addresses are separated by commas
+  - The owner can also allow IP addresses to be accessible to admin pages without authenticating 2FA in the following form:
+10.0.0.10, 10.0.0. *, 10.0. *. *, 10.0.0. * - 123.0.0. *, 12.3. *. * - 222.0. *. *
+Symbol "*" in range 0 - 255
   
   
 ### 2. My Account Admin
@@ -78,4 +85,19 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 - When the enable trust device, in the trust time period, the devices saved here will not need to enter the confirmation code to log on.
 - Over time of trust time, device will be automatically removed from the list
 - User admin can also remove that period by clicking the `Remove` button
+
+
+### 3. How to install extension library via composer using manual method
+
+Run the following command lines to install library:
+
+```
+composer require donatj/phpuseragentparser
+composer require sonata-project/google-authenticator:2.0.0
+composer require endroid/qr-code:2.5
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+
 
