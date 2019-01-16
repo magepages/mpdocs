@@ -78,13 +78,11 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 ### 2. Transaction
 #### 2.1. Grid
-![store crdit7](https://i.imgur.com/vwfVF6c.png)
+
+![store credit 7](https://i.imgur.com/g2BaaJ5.png)
 
 - This is a place to save all transactions on the store
-- From the Grid, admins can capture the basic information of the generated transactions such as *ID, Title, Customer, Status, Action, Amount, Balance, Create Date* and can perform the following actions:
-  - `View`: To review the details of a transaction, admins select `View` in the `Action` column (the last column to the right of the Grid)
-  - `Cancel`: To cancel a transaction that has been created but not expire. Admins need to tick a transaction, then select `Cancel` in the `Action` field (upper left of the Grid)
-
+- From the Grid, admins can capture the basic information of the generated transactions such as *ID, Title, Customer, Status, Action, Amount, Balance, Create Date* and view Transaction when click to **View** at **Action** column
 - In addition, admins can filter, hide/show Columns or Export Transaction
 
 #### 2.2. Add New/Edit Form
