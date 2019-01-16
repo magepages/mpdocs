@@ -4,7 +4,7 @@
 
 In many countries, the law is required to apply a verification process before users can access the content of the website or if the website you are selling has products that are only suitable for certain ages. You want to limit it. With [Mageplaza's new Age Verification extension](https://www.mageplaza.com/magento-2-age-verification/), you will be able to confirm the age of your customers and grant access to the site only after age verification. And in particular, you can configure the content design for popup to validate the age to improve efficiency and fully capture customer information.
 
-## How to dowload and install
+## How to download and install
 
 - [Download Mageplaza Age Verification](https://www.mageplaza.com/magento-2-age-verification/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
