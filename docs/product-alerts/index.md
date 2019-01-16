@@ -2,11 +2,11 @@
 
 ## Overview
 
-These days, your customers may too busy to drop in your stores but they still want to update their interested products. Thanks to Mageplaza Product Alerts extension, your customers can subscribe to get notification for out-of-stock products or price change. The notification emails of restock items or better prices will be sent to related customers. By this extension, online stores save a lot of time and effort for advertising since they can keep in touch with their potential customers, hence helps boost sales and profit significantly.
+These days, your customers may too busy to drop in your stores but they still want to update their interested products. Thanks to [Mageplaza Product Alerts extension](https://www.mageplaza.com/magento-2-product-alerts/), your customers can subscribe to get notification for out-of-stock products or price change. The notification emails of restock items or better prices will be sent to related customers. By this extension, online stores save a lot of time and effort for advertising since they can keep in touch with their potential customers, hence helps boost sales and profit significantly.
 
 ## Download & Install
 
-- [Mageplaza Product Alerts]()
+- [Mageplaza Product Alerts](https://www.mageplaza.com/magento-2-product-alerts/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
