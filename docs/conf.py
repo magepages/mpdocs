@@ -285,3 +285,5 @@ texinfo_documents = [
 #texinfo_no_detailmenu = False
 
 
+def setup(app):
+    app.add_javascript('custom.js')
