@@ -28,6 +28,9 @@ Welcome to Mageplaza Docs
    reward-points-ultimate/index
    gift-card/index
    automatic-related-products/index
+   affiliate-m2/index
+   affiliate-pro/index
+   affiliate-ultimate/index
    social-login-m2/index
    social-login-pro/index
    smtp-m2/index
@@ -39,7 +42,6 @@ Welcome to Mageplaza Docs
    reports-pro/index
    product-feed/index
    abandoned-cart-email/index
-   affiliate-m2/index
    banner-slider/index
    better-coupon/index
    better-popup/index
@@ -71,6 +73,7 @@ Welcome to Mageplaza Docs
    product-attachments/index
    product-labels/index
    product-slider-m2/index
+   quick-view-ajax-cart/index
    quick-order/index
    search/index
    security/index
