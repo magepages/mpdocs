@@ -70,6 +70,7 @@ Welcome to Mageplaza Docs
    multi-flat-rates/index
    order-attributes/index
    order-export/index
+   payment-restriction/index
    product-attachments/index
    product-labels/index
    product-slider-m2/index
@@ -86,6 +87,7 @@ Welcome to Mageplaza Docs
    share-cart/index
    search-m2/index
    shop-by-brand-m2/index
+   shipping-rules/index
    size-chart/index
    social-share/index
    store-locator/index
