@@ -127,7 +127,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 #### 1.1.4. Top Rated
 
 
-![Imgur](https://i.imgur.com/PVPQ2M4.png)
+![Imgur](https://i.imgur.com/gUjuk89.png)
 
 
 - **Enable**:
@@ -152,7 +152,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
   - If left blank, the default order is 4
 
 
-1.1.5. Reviews Count
+#### 1.1.5. Reviews Count
 
 ![Imgur](https://i.imgur.com/cyOv54b.png)
 
@@ -178,16 +178,15 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
   - If left blank, the default order is 5
 
 
-1.1.6. New, Stock (Quantity), Added to Wishlist, Product Name, Price, Position, Relevance
+#### 1.1.6. New, Stock (Quantity), Added to Wishlist, Product Name, Price
 
 
 ![Imgur](https://i.imgur.com/CBhEOJU.png)
 
 ![Imgur](https://i.imgur.com/EUBt9D0.png)
 
-![Imgur](https://i.imgur.com/Gmlf5dD.png)
+![Imgur](https://i.imgur.com/AHBODEZ.png)
 
-![Imgur](https://i.imgur.com/mBJfgAZ.png)
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **selected sorting type**
@@ -208,3 +207,27 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
   - If left blank, the default order is 6
+  
+  
+#### 1.1.7. Position, Relevance
+
+![Imgur](https://i.imgur.com/dZkFXV1.png)
+
+- **Enable**:
+  - Selecting `Yes` to allow sorting products by **Position/Relevance**
+  - If `No`, a notification will be displayed when saving configuration if Default Sort set is Position or Relevance
+ 
+- **Label**:
+  - Enter a name for product sorting by **Position/Relevance**
+  - If left blank, the default label is **Position/Relevance**
+  
+
+- **Default Sort Direction**: Select the default sort direction with selected sorting type:
+  - **Ascending**: arrange selected sorting products in the direction of increasing
+  - **Descending**: arrange selected sorting products in the direction of decreasing
+
+- **Sort Order**:
+  - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
+  - If left blank, the default order is 11 for Position and 12 for Relevance
+
+
