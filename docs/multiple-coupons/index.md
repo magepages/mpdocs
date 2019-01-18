@@ -41,7 +41,7 @@ This extension is fully compatible with [Mageplaza One Step Checkout](https://ww
 
 From the **Admin panel**, go to `Stores > Configuration > Mageplaza > Multiple Coupons`
 
-![Imgur](https://i.imgur.com/0FmXWkF.png)
+![Imgur](https://i.imgur.com/51MtkVM.png)
 
 - Select **Enable = Yes** to enable the module
 
@@ -53,7 +53,7 @@ From the **Admin panel**, go to `Stores > Configuration > Mageplaza > Multiple C
   - If left this field blank or equal to 0, the coupon number can be used unrestricted
   
 **Unique Coupon Code**:
-  - It is helpful to avoid multiple discount coupons used in the same cart since the owner may suffer big loss
+  - It is helpful to avoid multiple discount coupons used in the same cart as the owner may suffer loss
   - When the specific coupon in this field is applied, all other coupons will be canceled (including before or after the unique coupon)
   - For multiple coupons, the customer needs to remove unique coupon
   
