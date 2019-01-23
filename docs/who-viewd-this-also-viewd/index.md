@@ -6,17 +6,18 @@ Customers are more likely to make purchasing decisions when they see a product t
 
 ## How to download and install
 
-- [Download Mageplaza Age Verification](https://www.mageplaza.com/magento-2-who-viewed-this-also-viewed/)
+- [Download Mageplaza Who Viewed This Also Viewed](https://www.mageplaza.com/magento-2-who-viewed-this-also-viewed/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
 ## How to use
-- Products which applicable with this function is set by admin based on both Product Types and Categories that they belong to.
 
-![Imgur](https://i.imgur.com/57vMSIY.png)
+- Products which applicable with this function is set by admin based on both **Product Types** and **Categories** that they belong to.
+
+![apply for](https://i.imgur.com/57vMSIY.png)
 
 - This extension supports the recommendation of the most viewed products at Product Detail page
-  - At varous positions:
+  - **At varous positions**:
     - Top of Content
     - Bottom of Content
     - Replace Related Product
@@ -25,19 +26,19 @@ Customers are more likely to make purchasing decisions when they see a product t
     - Replace Upsale Product
     - Before Upsale Product
     - After Upsale Product
-  - Select way to display the block:
+  - **Select way to display the block**:
     - Grid
     - Slider
-  - Based on many criteria:
+  - **Based on many criteria**:
     - With higher price 
     - In stock
     - In the same category
-  - Sort by:
+  - **Sort by**:
     - Name
     - Price
     - Relevant
     - Stock Qty
-  - Add the extra information:
+  - **Add the extra information**:
     - Add to Cart button
     - Add to Wish list button
     - Add to Compare button
@@ -46,48 +47,55 @@ Customers are more likely to make purchasing decisions when they see a product t
 
 ## How to Configure
 ### 1. Configuration
-From the Admin panel, go to `Stores> Configuration> Mageplaza> Who viewed this also viewed`
+From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Who viewed this also viewed`
 
-- Select Enable = Yes to enable the module
-- Block Title:
+
+![configuration](https://i.imgur.com/a9aEzWb.png)
+
+
+- Select **Enable = Yes** to enable the module
+- **Block Title**:
   - Name the Block which will be displayed in Frontend
   - If left blank, the default title is `Who viewed this item also viewed`
-- Apply for: Select Product Detail Page which can show the Who viewed this also viewed block. The block can only be displayed on the Product Detail pages of the products that meet both the Product Type and Category selected by the Admin
+- **Apply for**: Select **Product Detail Page** which can show the **Who viewed this also viewed block**. The block can only be displayed on the Product Detail pages of the products that meet both the **Product Type** and **Category** selected by the Admin
   - Admin can choose multiple options at Product Types and Categories
-- How to show: there are 2 ways to display blocks including:
-  - Ajax Display: `Who viewed this also viewed` block is loaded after the page has finished loading and will need a period of time to display in Frontend. This option will be good for the page loading speed
-  - Block Display: `Who viewed this also viewed` block will be loaded instantly when loading the page and displayed as soon as the page is finished loading. This option helps improve SEO for the page
-- Display Position: Choose the position to display the block
-  - Top of Content: Block is displayed above the Content of Product Page
-  - Bottom of Content: Block is shown below the Content of Product Page
-  - Replace Related Products: Block replaces the default Related Product Block of Magento
-  - Before Related Products: Block is displayed above the default Related Product Block of Magento
-  - After Related Products: Block is shown below the default Related Product Block of Magento
-  - Replace Upsell products: Block replaces the default Upsell Products Block of Magento
-  - Before Upsell Products: Block is displayed above the default Upsell Product Block of Magento
-  - After Upsell Products: Block is displayed below the default Upsell Product Block of Magento
-- Display Type: You can select Slider mode or Grid mode
-  - Slider: Products are displayed on 1 line, customer can click the arrow or hold and move the cursor to view all products in the block quickly.
-  - Grid: Products are displayed into multiple lines (if there are multiple products)
-- Limit Number of Products:
+- **How to show**: there are 2 ways to display blocks including:
+  - **Ajax Display**: `Who viewed this also viewed` block is loaded after the page has finished loading and will need a period of time to display in Frontend. This option will be good for the page loading speed
+  - **Block Display**: `Who viewed this also viewed` block will be loaded instantly when loading the page and displayed as soon as the page is finished loading. This option helps improve SEO for the page
+- **Display Position**: Choose the position to display the block
+
+![Display Position](https://i.imgur.com/pfLXsLx.png)
+
+  - **Top of Content**: Block is displayed above the Content of Product Page
+  - **Bottom of Content**: Block is shown below the Content of Product Page
+  - **Replace Related Products**: Block replaces the default Related Product Block of Magento
+  - **Before Related Products**: Block is displayed above the default Related Product Block of Magento
+  - **After Related Products**: Block is shown below the default Related Product Block of Magento
+  - **Replace Upsell products**: Block replaces the default Upsell Products Block of Magento
+  - **Before Upsell Products**: Block is displayed above the default Upsell Product Block of Magento
+  - **After Upsell Products**: Block is displayed below the default Upsell Product Block of Magento
+- **Display Type**: You can select Slider mode or Grid mode
+  - **Slider**: Products are displayed on 1 line, customer can click the arrow or hold and move the cursor to view all products in the block quickly.
+  - **Grid**: Products are displayed into multiple lines (if there are multiple products)
+- **Limit Number of Products**:
   - Limit the number of Product displayed in the block
-  - If left blank or = 0, the maximum number of Product is shown is 10
-- Hiển thị Products chỉ với: A criterion for Product to have multiple views displayed in Block
-  - Giá là cao hơn các giá trị hiện thời: Product that is seen as much must have a price higher than the price of the product that the   Customer is watching
-  - In stock: That much-viewed product must be stock
-  - In the same category: That much-viewed product must have the same category as the Product that the Customer is viewing
-  - Admin can select multiple criteria simultaneously
-- Sort by: A criterion for organizing the products that are currently displayed in the block
-  - Name: sorted by Alphabet
-  - Price: sorted by price from high to low
-  - Relevant:
-  - Stock Qty: products with quantity and in stock are displayed
-- Verify data to last (ngày):
+  - If left blank or = 0, the maximum number of Product shown is 10
+- **Show Products only with**: Choose the condition for Most-viewed Products to be displayed in Block
+  - **With higher price**: Most-viewed Products have a price higher than the price of the product that the customers are watching
+  - **In stock**: Most-viewed products must be available in stock
+  - **In the same category**: Most-viewed products must have the same category as the Products that the customers are viewing
+  - Admin can select multiple criterias at once
+- **Sort by**: Choose the way to organize the products displayed in the block
+  - **Name**: sorted by Alphabet
+  - **Price**: sorted by price from high to low
+  - **Relevant**:
+  - **Stock Qty**: show products with higher quantity in stock 
+- **Check data in the last (days)**:
   - Set the amount of time that data is retrieved. Only products viewed during this time period can be compared and displayed in the block (if they meet the conditions above).
   - The time period is calculated in days
-  - If left blank, default = 30 days
-- Hiển thị thông tin thêm: Allow admin to select the attached information on Product image in Block
+  - If left blank, default period = 30 days
+- **Display additional information**: Allow admin to select the extra information on Product image in Block
   - Add to Cart button
   - Add to Wishlist button
-  - Thêm vào Compare button
+  - Add to Compare button
   - Review Information
