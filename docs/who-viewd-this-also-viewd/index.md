@@ -88,7 +88,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Who viewed th
 - **Sort by**: Choose the way to organize the products displayed in the block
   - **Name**: sorted by Alphabet
   - **Price**: sorted by price from high to low
-  - **Relevant**:
+  - **Relevant**: Arrange products according to the frequency viewed together. The more frequency these products are viewd together, the priority they will be displayed first. 
   - **Stock Qty**: show products with higher quantity in stock 
 - **Check data in the last (days)**:
   - Set the amount of time that data is retrieved. Only products viewed during this period can be compared and displayed in the block (if they meet the conditions above).
