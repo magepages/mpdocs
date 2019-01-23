@@ -62,7 +62,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 #### 1.2. Page Verify Configuration 
 
-![Imgur](https://i.imgur.com/9Soar3a.png)
+![Imgur](https://i.imgur.com/HE3KExM.png)
 
 ![Imgur](https://i.imgur.com/KgGj5gu.png)
 
@@ -70,7 +70,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 - **Apply for**:
   - Select the page you want to require Age Verification. You can choose to apply multiple pages at once. Sites not selected will not require Age Verification.
   - You can leave this field blank.
-  - `Note`: With one checkout page including checkout page and checkout page when compatible with One Step Checkout. You can install One Step Checkout features to make payment steps more convenient and shorter.
+  - `Note`: With checkout page including default checkout page and checkout page which are compatible with One Step Checkout, you can install [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extension to make payment steps more convenient and faster.
 
 - **Apply for CMS Page**:
   - Select the CMS page you want to apply Age Verification. You can choose to apply multiple CMS pages at the same time. The CMS pages not selected will not require Age Verification.
@@ -115,7 +115,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 #### 1.4. Design
 
-![Imgur](https://i.imgur.com/SbciPlS.png)
+![Imgur](https://i.imgur.com/YVNC3oF.png)
 
 - **Checkbox Type**:
   
