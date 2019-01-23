@@ -12,11 +12,11 @@ Customers are more likely to make purchasing decisions when they see a product t
 
 ## How to use
 
-- Products which applicable with this function is set by admin based on both **Product Types** and **Categories** that they belong to.
+- Products applied to this module is set by admin based on both **Product Types** and **Categories** that they belong to.
 
 ![apply for](https://i.imgur.com/57vMSIY.png)
 
-- This extension supports the recommendation of the most viewed products at Product Detail page
+- This extension supports the recommendation of the most viewed products at the Product Detail page
   - **At varous positions**:
     - Top of Content
     - Bottom of Content
@@ -60,8 +60,8 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Who viewed th
 - **Apply for**: Select **Product Detail Page** which can show the **Who viewed this also viewed block**. The block can only be displayed on the Product Detail pages of the products that meet both the **Product Type** and **Category** selected by the Admin
   - Admin can choose multiple options at Product Types and Categories
 - **How to show**: there are 2 ways to display blocks including:
-  - **Ajax Display**: `Who viewed this also viewed` block is loaded after the page has finished loading and will need a period of time to display in Frontend. This option will be good for the page loading speed
-  - **Block Display**: `Who viewed this also viewed` block will be loaded instantly when loading the page and displayed as soon as the page is finished loading. This option helps improve SEO for the page
+  - **Ajax Display**: `Who viewed this also viewed` block is loaded after the page has finished loading and will need a period to display in Frontend. This option will be good for the page loading speed
+  - **Block Display**: `Who viewed this also viewed` block will be loaded when loading the page and displayed as soon as the page is finished loading. This option helps improve SEO for the page
 - **Display Position**: Choose the position to display the block
 
 ![Display Position](https://i.imgur.com/pfLXsLx.png)
@@ -75,7 +75,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Who viewed th
   - **Before Upsell Products**: Block is displayed above the default Upsell Product Block of Magento
   - **After Upsell Products**: Block is displayed below the default Upsell Product Block of Magento
 - **Display Type**: You can select Slider mode or Grid mode
-  - **Slider**: Products are displayed on 1 line, customer can click the arrow or hold and move the cursor to view all products in the block quickly.
+  - **Slider**: Products are displayed on 1 line, customers can click the arrow or hold and move the cursor to view all products in the block quickly.
   - **Grid**: Products are displayed into multiple lines (if there are multiple products)
 - **Limit Number of Products**:
   - Limit the number of Product displayed in the block
@@ -84,15 +84,15 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Who viewed th
   - **With higher price**: Most-viewed Products have a price higher than the price of the product that the customers are watching
   - **In stock**: Most-viewed products must be available in stock
   - **In the same category**: Most-viewed products must have the same category as the Products that the customers are viewing
-  - Admin can select multiple criterias at once
+  - Admin can select multiple criteria at once
 - **Sort by**: Choose the way to organize the products displayed in the block
   - **Name**: sorted by Alphabet
   - **Price**: sorted by price from high to low
   - **Relevant**:
   - **Stock Qty**: show products with higher quantity in stock 
 - **Check data in the last (days)**:
-  - Set the amount of time that data is retrieved. Only products viewed during this time period can be compared and displayed in the block (if they meet the conditions above).
-  - The time period is calculated in days
+  - Set the amount of time that data is retrieved. Only products viewed during this period can be compared and displayed in the block (if they meet the conditions above).
+  - The period is calculated in days
   - If left blank, default period = 30 days
 - **Display additional information**: Allow admin to select the extra information on Product image in Block
   - Add to Cart button
