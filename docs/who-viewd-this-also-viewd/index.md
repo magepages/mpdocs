@@ -50,27 +50,25 @@ From the Admin panel, go to `Stores> Configuration> Mageplaza> Who viewed this a
 
 - Select Enable = Yes to enable the module
 - Block Title:
-  - Name Block at will. The block name will be displayed in Frontend
-  - If left blank, the default is `Who viewed this item also viewed`
-- Apply for:
-  - Is the criterion for selecting Product Detail Page which may be displaying the `Who viewed this also viewed block block`. The block can only be displayed on the Product Detail pages of the products that meet the Product Type and Category selected by the Admin
-  - Admin can choose multiple options at Product Type and Category
-- How to show: there are 2 ways to display blocks that you can choose
+  - Name the Block which will be displayed in Frontend
+  - If left blank, the default title is `Who viewed this item also viewed`
+- Apply for: Select Product Detail Page which can show the Who viewed this also viewed block. The block can only be displayed on the Product Detail pages of the products that meet both the Product Type and Category selected by the Admin
+  - Admin can choose multiple options at Product Types and Categories
+- How to show: there are 2 ways to display blocks including:
   - Ajax Display: `Who viewed this also viewed` block is loaded after the page has finished loading and will need a period of time to display in Frontend. This option will be good for the page loading speed
-  - Block Display: `Who viewed this also viewed` block will be loaded always when loading the page and displayed as soon as the page is finished loading. This option helps improve SEO for the page
-- Display Position: This is where you specify the Block of the extension to show where the Product Page is located
-
-  - Top of Content: Block of the extension displayed above Content of Product Page
-  - Bottom of Content: Block of extension shown below Content of Product Page
-  - Replace Related Products: Block of extension replaces the default Related Product Block of Magento
-  - Before Related Products: Block of the extension displayed above the default Related Product Block of Magento
-  - After Related Products: Block of extension shown below of Magento's Related Product Block default
-  - Replace Upsell products: Block of extension replaces the default Upsell Products Block of Magento
-  - Before Upsell Products: Block of the extension displayed above the default Upsell Product Block of Magento
-  - After Upsell Products: Block of the extension displays below the default Upsell Product Block of Magento
-- Display Type: There are 2 modes. You can select Slider mode or Grid mode
-  - Slider: Product displays on 1 line, Customer can click the arrow or hold and move the cursor to view all products in the block quickly.
-  - Grid: displays all block products into multiple lines (if there are multiple Product)
+  - Block Display: `Who viewed this also viewed` block will be loaded instantly when loading the page and displayed as soon as the page is finished loading. This option helps improve SEO for the page
+- Display Position: Choose the position to display the block
+  - Top of Content: Block is displayed above the Content of Product Page
+  - Bottom of Content: Block is shown below the Content of Product Page
+  - Replace Related Products: Block replaces the default Related Product Block of Magento
+  - Before Related Products: Block is displayed above the default Related Product Block of Magento
+  - After Related Products: Block is shown below the default Related Product Block of Magento
+  - Replace Upsell products: Block replaces the default Upsell Products Block of Magento
+  - Before Upsell Products: Block is displayed above the default Upsell Product Block of Magento
+  - After Upsell Products: Block is displayed below the default Upsell Product Block of Magento
+- Display Type: You can select Slider mode or Grid mode
+  - Slider: Products are displayed on 1 line, customer can click the arrow or hold and move the cursor to view all products in the block quickly.
+  - Grid: Products are displayed into multiple lines (if there are multiple products)
 - Limit Number of Products:
   - Limit the number of Product displayed in the block
   - If left blank or = 0, the maximum number of Product is shown is 10
