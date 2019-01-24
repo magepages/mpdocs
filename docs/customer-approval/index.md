@@ -138,10 +138,11 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 
 **Note**: For the API tab you should select **Customers** and **Mageplaza Customer Approval**.
+
     
-    ![Imgur](https://i.imgur.com/Kwo7RJv.png)
+![Imgur](https://i.imgur.com/Kwo7RJv.png)
     
-    ![Imgur](https://i.imgur.com/jK2IONR.png)
+![Imgur](https://i.imgur.com/jK2IONR.png)
 
 
 
@@ -155,7 +156,9 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 ![Imgur](https://i.imgur.com/CknBYeA.png)
 
 
+
 ### 2. Postman:
+
 
 #### 2.1 To list the approved customers, you can use the GET method:
 - For example:
@@ -165,6 +168,8 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 ![Imgur](https://i.imgur.com/DpFCqvy.png)
 
+
+
 #### 2.2 Approval with customers who have registered an account are in the status of Pending or Not Approval, you can use POST method.
 
 - `Note`: At the **Body** part, fill in the email you want to approve. As for the **Header** section, fill the same as above with the GET method.
@@ -172,6 +177,8 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 - Example: Url: http://mageplaza.com/tester/ce230a/rest/V1/customer/approve/email
 
 ![Imgur](https://i.imgur.com/XWsMGpE.png)
+
+
 
 #### 2.3 Not Approval with customers who have registered an account are in Pending or Approval status, you can use POST method.
 
@@ -181,7 +188,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 ## Instructions to run the command to Approval or Not Approval
 
-- Approval: You want approval when the registered account is in pending status or not approval, please run the following command:
+- **Approval**: You want approval when the registered account is in pending status or not approval, please run the following command:
 
 ```
 sudo php bin/magento customer:user:approve --customer-email="email customer"
@@ -189,7 +196,9 @@ sudo php bin/magento customer:user:approve --customer-email="email customer"
 
 - Example: `sudo php bin/magento customer:user:approve --customer-email="mageplaza@gmail.com"`
 
-- Not Approval:
+
+
+- **Not Approval**:
 
 ```
 sudo php bin/magento customer:user:notapprove --customer-email="email customer"
