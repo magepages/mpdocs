@@ -16,14 +16,23 @@ Managing customers from the beginning will help you control your website well, g
 
 ### Approval Account Notification
 
+![Imgur](https://i.imgur.com/Z9D3r7c.png)
+
 ### [Customer] Successful Register
+
+![Imgur](https://i.imgur.com/3YdPkPL.png)
 
 ### [Customer] Approve Notification
 
+![Imgur](https://i.imgur.com/HJ33SLO.png)
+
 ### [Customer] Not Approve Notification
+
+![Imgur](https://i.imgur.com/O2SfdmF.png)
 
 ### Admin Notification
 
+![Imgur](https://i.imgur.com/bqDIrtx.png)
 
 
 ## How to configure
@@ -32,7 +41,12 @@ Managing customers from the beginning will help you control your website well, g
 
 Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval`.
 
+![Imgur](https://i.imgur.com/bEYNaih.gif)
+
+
 #### 1.1. General
+
+![Imgur](https://i.imgur.com/1IQ8Tle.png)
 
 - **Enable**: Select `Yes` to turn on the Module.
 
@@ -45,16 +59,26 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 - **Not Approve Customer Login**: Select the **Not Approve Customer Login** notification type and still login:
   - **Show Error**: Will display the **Not Approve Customer Login** error message. Displaying additional **Error Message** field.
     - **Error Message**: Enter the notification when the client account is not accepted or still has not been reviewed by the account but still logged in. If left blank, the default is "Your account is not approved".
-  - **Redirect Page**: Select to redirect to the **Not Approve Customer Login page**:
-    - **For Not Approve Customer Login page**
+    
+    ![Imgur](https://i.imgur.com/GxJrvZR.png)
+    
+  - **Redirect CMS Page**: Select to redirect to the **Not Approve Customer Login page**:
+  
+  ![Imgur](https://i.imgur.com/9RDDRv6.png)
+  
+    - **For Not Approve Customer Page**
 
 #### 1.2. Admin Notification Email
+
+![Imgur](https://i.imgur.com/Cin8GEw.png)
 
 - **Enable**:
   - Select "Yes" to turn on email notification for admin when a customer successfully registers an account.
   - Install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending to spam box.
 
 - **Sender**: Select the person to send email to notify admin:
+
+![Imgur](https://i.imgur.com/yJ5ygIX.png)
 
 - **Email Template**: Select an email template to notify admin when the customer successfully registered an account. You can go to `Marketing> Email Templates`, select **Add New Template** to choose to create a notification email template.
 
@@ -64,7 +88,11 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 #### 1.3. Customer Nofitication Email
 
+![Imgur](https://i.imgur.com/mtz1lLo.png)
+
 - **Sender**: Select the person who sent the email to notify the customer.
+
+![Imgur](https://i.imgur.com/yJ5ygIX.png)
 
 ##### 1.3.1. Successful Register
 
@@ -88,11 +116,85 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 #### 2.1. Grid
 - Login to the **Magento Admin**, choose `Customers> All Customers`.
-- This section lists the information of the registered customer with fields such as **Name, Email, Group, Approval Status, Date of Birth, etc.** Here you can manually approve or not approve with any customer you want.
+- This section lists the information of the registered customer with fields such as **Name, Email, Group, Approval Status, Date of Birth, etc.** Here you can manually approve or not approve at **Action and edit** with any customer you want.
+
+![Imgur](https://i.imgur.com/bZIu5Bu.png)
 
 #### 2.2. Edit Customer
 
 - Click on `Edit` to edit or approve/not approve any client. With **Approval Status** shows the status of customer account registration.
 
 
-![Imgur](https://i.imgur.com/4bN1jWG.png)
+![Imgur](https://i.imgur.com/xtl9cne.png)
+
+## Using API
+
+- You can use the API integrated with Magento to view the Approved Customers, Waiting for Approval and Not Approval Customers when they sign up for an account.
+- Here, we use Postman to support this. You can register Postman [here](https://www.getpostman.com/).
+
+### 1. Integration with magento:
+
+#### Step 1: Login to the **Magento Admin**, choose `System> Extensions> Integrations> Add New Integrations` to create new integration.
+
+
+**Note**: For the API tab you should select **Customers** and **Mageplaza Customer Approval**.
+    
+    ![Imgur](https://i.imgur.com/Kwo7RJv.png)
+    
+    ![Imgur](https://i.imgur.com/jK2IONR.png)
+
+
+
+#### Step 2: After creating the Integration, please select Activate
+
+![Imgur](https://i.imgur.com/nJ2bsr3.png)
+
+
+#### Step 3: Click `Allow` to get the information of the **Access Token** field.
+
+![Imgur](https://i.imgur.com/CknBYeA.png)
+
+
+### 2. Postman:
+
+#### 2.1 To list the approved customers, you can use the GET method:
+- For example:
+  - Url: http://mageplaza.com/tester/ce215c/rest/V1/customer/list-approve
+  - With Key and Value: Get the information of the **Access Token** field that you have just integrated to fill it out below. For example: bearer "information of Access Token field"
+  - Click Send to get the list of approved customers.
+
+![Imgur](https://i.imgur.com/DpFCqvy.png)
+
+#### 2.2 Approval with customers who have registered an account are in the status of Pending or Not Approval, you can use POST method.
+
+- `Note`: At the **Body** part, fill in the email you want to approve. As for the **Header** section, fill the same as above with the GET method.
+
+- Example: Url: http://mageplaza.com/tester/ce230a/rest/V1/customer/approve/email
+
+![Imgur](https://i.imgur.com/XWsMGpE.png)
+
+#### 2.3 Not Approval with customers who have registered an account are in Pending or Approval status, you can use POST method.
+
+- Example: Url: http://mageplaza.com/tester/ce230a/rest/V1/customer/not-approve/email
+
+![Imgur](https://i.imgur.com/QQC22cX.png)
+
+## Instructions to run the command to Approval or Not Approval
+
+- Approval: You want approval when the registered account is in pending status or not approval, please run the following command:
+
+```
+sudo php bin/magento customer:user:approve --customer-email="email customer"
+```
+
+- Example: `sudo php bin/magento customer:user:approve --customer-email="mageplaza@gmail.com"`
+
+- Not Approval:
+
+```
+sudo php bin/magento customer:user:notapprove --customer-email="email customer"
+```
+
+- Example: `sudo php bin/magento customer:user:notapprove --customer-email="mageplaza@gmail.com"`
+
+
