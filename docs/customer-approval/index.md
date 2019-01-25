@@ -28,12 +28,11 @@ Managing customers from the beginning will help you control your website well, g
 
 ### [Customer] Not Approve Notification: Send notification email to customers when admins do not approve the customers' accounts
 
-![Imgur](https://i.imgur.com/9fWWiX0.png)
-
+![Imgur](https://i.imgur.com/Ro17dMF.png)
 
 ### Admin Notification: Send notification email to admins when customers registed accounts that need to be approved
 
-![Imgur](https://i.imgur.com/Ro17dMF.png)
+![Imgur](https://i.imgur.com/q2wV5Zx.png)
 
 
 ## How to configure
@@ -158,34 +157,36 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 
 
-### 2. Postman:
+### 2. Guide for using Postman to get customers list of not yet approval, approved and not approved accounts. 
 
 
 #### 2.1 To list the approved customers, you can use the GET method:
 - For example:
-  - Url: http://mageplaza.com/tester/ce215c/rest/V1/customer/list-approve
-  - With Key and Value: Get the information of the **Access Token** field that you have just integrated to fill it out below. For example: bearer "information of Access Token field"
+  - Url: http://example.com//rest/V1/customer/id
+  - For example: http://example.com/rest/V1/customers/1
+  - With Key and Value: Get the information of the **Access Token** field that you have just integrated to fill it out below. For example:  Authorization: bearer access_token và Content-Type: application/json
   - Click Send to get the list of approved customers.
 
-![Imgur](https://i.imgur.com/DpFCqvy.png)
-
+![Imgur](https://i.imgur.com/OnFGBBu.png)
 
 
 #### 2.2 Approval with customers who have registered an account are in the status of Pending or Not Approval, you can use POST method.
 
 - `Note`: At the **Body** part, fill in the email you want to approve. As for the **Header** section, fill the same as above with the GET method.
 
-- Example: Url: http://mageplaza.com/tester/ce230a/rest/V1/customer/approve/email
+- Example: Url: http://example.com/rest/V1/customer/approve/email
 
-![Imgur](https://i.imgur.com/XWsMGpE.png)
+
+![Imgur](https://i.imgur.com/P0NHkTd.png)
 
 
 
 #### 2.3 Not Approval with customers who have registered an account are in Pending or Approval status, you can use POST method.
 
-- Example: Url: http://mageplaza.com/tester/ce230a/rest/V1/customer/not-approve/email
+- Example: Url: http://example.com/rest/V1/customer/not-approve/email
 
-![Imgur](https://i.imgur.com/QQC22cX.png)
+
+![Imgur](https://i.imgur.com/W7jIVES.png)
 
 ## Instructions to run the command to Approval or Not Approval
 
