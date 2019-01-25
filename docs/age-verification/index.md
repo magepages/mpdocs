@@ -33,11 +33,11 @@ In many countries, the law is required to apply a verification process before us
 
 Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`.
 
-![Imgur](https://i.imgur.com/YFV3brA.gif)
+![Imgur](https://i.imgur.com/9gZcVsC.gif)
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/GXwHwiO.png)
+![Imgur](https://i.imgur.com/4lLdHCD.png)
 
 - **Enable**: Select "Yes" to turn on the Module.
 
@@ -46,6 +46,8 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   - This is a required field. If you enter the letter, it will display an error message (only number allowed).
 
 - **Enable Term & Condition**: Select `Yes` to turn on the display of **Term & Condition** notifications as a check box as `I agree with the terms and conditions`.
+
+- 
 
 - **Cookie life-time**:
   - Enter the number of days to save the cookie and apply this period for age verification. When the time runs out, the age verification applied for certain pages will be disabled then. Also, cookie will not save the data for under age verification.
