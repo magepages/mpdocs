@@ -47,7 +47,13 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 - **Enable Term & Condition**: Select `Yes` to turn on the display of **Term & Condition** notifications as a check box as `I agree with the terms and conditions`.
 
-- 
+- **Link Title**: Enter a name to notify **Term & Condition**. For example: "I agree with the"
+
+- **Anchor Text**: Enter a click name that will display the information you want to convey to your customers. Example: Term & Condition
+
+- **Anchor URL**: Enter the page link so that clicking on the name you just entered in the **Anchor Text** field will redirect to the page you want.
+
+![Imgur](https://i.imgur.com/o0W4iPF.png)
 
 - **Cookie life-time**:
   - Enter the number of days to save the cookie and apply this period for age verification. When the time runs out, the age verification applied for certain pages will be disabled then. Also, cookie will not save the data for under age verification.
@@ -66,7 +72,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 ![Imgur](https://i.imgur.com/HE3KExM.png)
 
-![Imgur](https://i.imgur.com/KgGj5gu.png)
+![Imgur](https://i.imgur.com/Ktb9QkN.png)
 
 
 - **Apply for**:
@@ -85,8 +91,10 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 ![Imgur](https://i.imgur.com/VAxXnYH.png)
 
-- **Apply for Product Detail Page(s)**: Select to apply age verification on the product detail page. Those products that are satisfied will be applied to age verification. If this field is left blank, it will auto-apply age verification for all product detail pages. 
-
+- **Apply for Product Detail Page(s)**: 
+  - Select `Yes` to show another field to apply Age Verification on the Product Detail Page. Those products that are satisfied will be applied to age verification. If this field is left blank, it will auto-apply age verification for all product detail pages. 
+  - Select `No`: Not apply Popup of Age verification for any Product Detail Page.
+  
 - **Include Custom Page**: Enter the Url path which must be separated by a / in the field. Apply Age Verification to all pages with the url selected. For example: / blog, / men / top / t-shirt, ...
 
 - **Exclude Custom Page**:
@@ -96,10 +104,10 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 #### 1.3. Purchase Verify Configuration
 
-![Imgur](https://i.imgur.com/WNbrDxQ.png)
+![Imgur](https://i.imgur.com/5mPncum.png)
 
 - **Select Product Condition**:
-  - Select the condition for age verification on the product detail page. Those products that are satisfied will be applied age verification. If this field is left blank, it will auto-apply age verification for all product detail pages when clicking `Add to cart`
+  - Select `Yes` to show another field to choose the condition for age verification on the product detail page. Those products that are satisfied will be applied age verification. If this field is left blank, it will auto-apply age verification for all product detail pages when clicking `Add to cart`
 
   - If the Product condition belongs to both the **Page Verify Configuration** and **Purchase Verify Configuration**, it is preferable to consider the Product condition in the **Purchase Verify Configuration** first.
   
