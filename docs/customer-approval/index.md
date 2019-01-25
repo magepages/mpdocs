@@ -70,7 +70,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 #### 1.2. Admin Notification Email
 
-![Imgur](https://i.imgur.com/Cin8GEw.png)
+![Imgur](https://i.imgur.com/DMI6oQF.png)
 
 - **Enable**:
   - Select "Yes" to turn on email notification for admin when a customer successfully registers an account.
@@ -88,7 +88,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 #### 1.3. Customer Notification Email
 
-![Imgur](https://i.imgur.com/mtz1lLo.png)
+![Imgur](https://i.imgur.com/CIJx0vf.png)
 
 - **Sender**: Select the person who sent the email to notify the customer.
 
