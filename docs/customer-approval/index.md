@@ -14,25 +14,26 @@ Managing customers from the beginning will help you control your website well, g
 
 ## How to use
 
-### Approval Account Notification
+### Approval Account Notification: Show the notification when customers have registered accounts and are waiting for approval
 
 ![Imgur](https://i.imgur.com/Z9D3r7c.png)
 
-### [Customer] Successful Register
+### [Customer] Successful Register: Send notification email to customers when they have registered the accounts successfully
 
-![Imgur](https://i.imgur.com/3YdPkPL.png)
+![Imgur](https://i.imgur.com/1FUBtIn.png)
 
-### [Customer] Approve Notification
+### [Customer] Approve Notification: Send notification email to customers when admins approve the customers' accounts
 
 ![Imgur](https://i.imgur.com/HJ33SLO.png)
 
-### [Customer] Not Approve Notification
+### [Customer] Not Approve Notification: Send notification email to customers when admins do not approve the customers' accounts
 
-![Imgur](https://i.imgur.com/O2SfdmF.png)
+![Imgur](https://i.imgur.com/9fWWiX0.png)
 
-### Admin Notification
 
-![Imgur](https://i.imgur.com/bqDIrtx.png)
+### Admin Notification: Send notification email to admins when customers registed accounts that need to be approved
+
+![Imgur](https://i.imgur.com/Ro17dMF.png)
 
 
 ## How to configure
@@ -48,7 +49,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 ![Imgur](https://i.imgur.com/1IQ8Tle.png)
 
-- **Enable**: Select `Yes` to turn on the Module.
+- **Enable**: Select `Yes` to turn on the Module and use **Approve Ciustomer Account** function
 
 - **Auto Approve**: If selecting `Yes`, it will automatically Approve when the customer registers in Frontend.
 
@@ -118,21 +119,21 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 - Login to the **Magento Admin**, choose `Customers> All Customers`.
 - This section lists the information of the registered customer with fields such as **Name, Email, Group, Approval Status, Date of Birth, etc.** Here you can manually approve or not approve at **Action and edit** with any customer you want.
 
-![Imgur](https://i.imgur.com/bZIu5Bu.png)
+![Imgur](https://i.imgur.com/i0c4Q9M.png)
 
 #### 2.2. Edit Customer
 
 - Click on `Edit` to edit or approve/not approve any client. With **Approval Status** shows the status of customer account registration.
 
 
-![Imgur](https://i.imgur.com/xtl9cne.png)
+![Imgur](https://i.imgur.com/tViNc7w.png)
 
 ## Using API
 
 - You can use the API integrated with Magento to view the Approved Customers, Waiting for Approval and Not Approval Customers when they sign up for an account.
-- Here, we use Postman to support this. You can register Postman [here](https://www.getpostman.com/).
+- Here, we use Postman to support this. You can register Postman [here](https://www.getpostman.com/). Also, you can use other apps to support approval and not approval.
 
-### 1. Integration with magento:
+### 1. Integration with Magento:
 
 #### Step 1: Login to the **Magento Admin**, choose `System> Extensions> Integrations> Add New Integrations` to create new integration.
 
