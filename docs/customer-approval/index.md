@@ -209,3 +209,16 @@ sudo php bin/magento customer:user:notapprove --customer-email="email customer"
 - Example: `sudo php bin/magento customer:user:notapprove --customer-email="mageplaza@gmail.com"`
 
 
+## Note
+
+When installing, you should run the following command to update customer grid:
+
+```
+  php bin / magento indexer: reindex customer_grid
+  ```
+  
+When you want to remove the extension, you should go to the database to delete. Access to `eav_attribute` table, in the `attribute_code` column, you find and delete the `is_approved` attribute
+
+ 
+ ![Imgur](https://i.imgur.com/aiFNWrY.png)
+
