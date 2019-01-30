@@ -15,56 +15,79 @@ Customers are more likely to make purchasing decisions when they see a product t
 
 #### 1.1. Product Details
 
-On the Product Detail Page, Customer can:
+On the Product Detail Page, customers can:
 
 - See Review Summary including: review number, average number of stars, recommend percentage, rating star chart at the top of the review block
 
+![Imgur](https://i.imgur.com/CH1u2zl.png)
+
 - Reorder the reviews to show the Newest Review, High Rating, Helpfulness reviews
 
-- Evaluate Helpful Review 
+![Imgur](https://i.imgur.com/uscfmbq.png)
 
-Any Share Review on social networks with Social Share Button.
+- Evaluate Helpful Review. Share any review on social network by **Social Share** button
 
-- Write Review: In addition to filling the Review name and content, Customer can also Add image, Recommend product, Term of Conditions, Recaptcha
+![Imgur](https://i.imgur.com/07dOfAm.png)
 
-- Customer can also see admin reply Review (if any)
+- Write Review: In addition to filling the Review summary and content, customers can also Add image, Recommend product, Agree with Term of Conditions
+
+![Imgur](https://i.imgur.com/9qcgxZm.png)
+
+- Customer can also can see admin reply Review (if any)
+
+![Imgur](https://i.imgur.com/O7RtHa6.png)
 
 
 1.2. My Account> My Product Reviews
 
-- In My Product Reviews, the module allows you to display the Product that the Customer has purchased but not yet Review
-- Customers can quickly find the product that they bought to make a Review for that product
+![Imgur](https://i.imgur.com/yr2BTn7.png)
+
+- In My Product Reviews, the module allows displaying the products that customers have purchased but not yet left reviews
+- Customers can quickly find the product that they bought to write a review for that product
 
 
 2. Admin
 
-In addition to setting the settings at Configuration, Admin can also:
-- Control, edit and Customer's product review reply: Choose Marketing> User Content> Reviews
+In addition to settings at Configuration, admin can also:
+- Control, edit and reply customers' reviews: Choose `Marketing> User Content> Reviews`
 
-- Understand the Product or Customer Review number, thereby understanding upcoming sales trends
-  - Product Reviews Report: Select Report> Reviews> By Products
+![Imgur](https://i.imgur.com/d2pEui7.png)
 
-  - Customer Reviews Report: Select Report> Reviews> By Customers
+- Get the report of reviews by products or by customers, thereby understanding upcoming sales trends
+
+  - Product Reviews Report: Select `Report> Reviews> By Products`
+  
+  ![Imgur](https://i.imgur.com/hBg04NA.png)
+
+  - Customer Reviews Report: Select `Report> Reviews> By Customers`
+  
+  ![Imgur](https://i.imgur.com/jEKKqmA.png)
 
 ## How to Configure
 
 1. Configuration
-From the Admin panel, go to Stores> Configuration> Mageplaza> Better Product Reviews
+
+
+From the Admin panel, go to `Stores> Configuration> Mageplaza> Better Product Reviews`
+
+![Imgur](https://i.imgur.com/o8a2paC.png)
 
 1.1. General Configuration
 
-- Select Enable = Yes to enable the module
-- Remine Review on Customer Dashboard:
-  - Select Yes to display Remine Review block in My Account> My Product Reviews of customers
-  - With Remine Review block, Customer can see the products they have purchased but have not yet released Review about it
-  - Only products in the completed order are displayed at Remine Review Block
+![Imgur](https://i.imgur.com/ReP1Qr9.png)
+
+- Select `Enable = Yes` to enable the module
+- Remind Review on Customer Dashboard:
+  - Select `Yes` to display Remind Review block in `My Account> My Product Reviews` of customers
+  - With Remind Review block, customers can see the products they have purchased but have not yet leave review for it
+  - Only products in the completed order are displayed at Remind Review Block
 - Enable Review Summary:
-  - Select Yes to display the Review Summary at the Review tab of the Product Detail Page
-  - Review Summary includes: review number, average number of stars,% recomment, chart star rating
+  - Select `Yes` to display the Review Summary at the Review tab of the Product Detail Page
+  - Review Summary includes: review number, average number of stars, recommend percentage, rating star chart
 - Report Review status:
-  - Filter statistics by selected options.
-  - Admin needs to go to Report> By Customers / By Products to check. Above 2 pages only show the number of option reviews selected
-  - There are 3 admin options that can be selected
+  - Filter statistics by selected options
+  - Admins need to go to `Report> By Customers / By Products` to check thr status. On these 2 pages only show the number of option reviews selected
+  - There are 3 admin options that can be selected:
     - Approved: Display the approved review number of Customer / Product
     - Pending: Displays the pending review number of Customer / Product
     - Both: Displays the number of approve review and pending of Customer / Product
@@ -72,9 +95,11 @@ From the Admin panel, go to Stores> Configuration> Mageplaza> Better Product Rev
     
 1.2. Write Review Configuration
 
+![Imgur](https://i.imgur.com/c5vcadK.png)
+
 - Enable:
-  - Select Yes so Customer can write review for the product
-  - Select No to turn off the Write a Review feature
+  - Select `Yes` so Customer can write review for the product
+  - Select `No` to turn off the Write a Review feature
   - Select For Purchase Only to display the Review form with the Customer who completed the order containing this product
 - Customer Group: Only customers belonging to the selected Group can see the Form Review
 - Use Ajax: Select yes to when Customer Submit 1 review, that Product Detail page will not be reloaded
@@ -96,6 +121,8 @@ From the Admin panel, go to Stores> Configuration> Mageplaza> Better Product Rev
 
 1.2.1 Terms and Conditions
 
+![Imgur](https://i.imgur.com/mwjtKIT.png)
+
 - Enable: Select Yes to display the Term and Condition feature in the Review form
 - Link Title
   - Enter a title for the Terms and Conditions section
@@ -112,6 +139,8 @@ From the Admin panel, go to Stores> Configuration> Mageplaza> Better Product Rev
 
 1.3. Review Listing Configuration
 
+![Imgur](https://i.imgur.com/nqYKYaG.png)
+
 - Enable Helpful Voting: Select Yes to display the Helpful button in each Review. Customer can click on the button to evaluate the usefulness of the Review
 - Show Store Owner Answer: Select Yes to display admin answers (if any) at under each Review they answer
 - Enable Share via Social: Select Yes to display Share via Social buttons in each Review. Customer can click on the Social button to share that review on their social page
@@ -125,6 +154,8 @@ From the Admin panel, go to Stores> Configuration> Mageplaza> Better Product Rev
   
 1.3.1. Sorting
 
+![Imgur](https://i.imgur.com/R9xsd31.png)
+
 - Enable Sorting On Frontend: Select Yes for the customer to change the way the reviews are sorted
 - Select Type:
   - Select the sorting options that may be displayed in Frontend
@@ -136,30 +167,42 @@ From the Admin panel, go to Stores> Configuration> Mageplaza> Better Product Rev
 2. Edit Review of Customer
 Whenever Customer submit 1 review, that review will be logged in Pending status at Marketing> User Content> Reviews
 
+![Imgur](https://i.imgur.com/vAq4wXr.png)
+
 When admin edit 1 review, in addition to the available Magento field, the Mageplaza Better Product Reviews module also adds some other useful fields.
 - Approve and Next button: in order for admin to browse a review and move to the next review quickly
+
+![Imgur](https://i.imgur.com/LnZA2x6.png)
 
 - Review Details: Add fields
   - Review Image:
     - Display the images that the Customer uploaded with Review
     - Admin can add edit delete image without effect of settings in Configuration
-  - Recommend Product:
+  - Recommendation Display: 
     - Let admin know whether Customer wrote this review or not, will introduce product to their friends.
     - Admin can also change the status of Recommend Product
   - Verified Buyer:
     - Let admin know if the reviewer has purchased this product
     - Admin cannot edit this field
+    
+    ![Imgur](https://i.imgur.com/vR5aSlW.png)
 
 - Admin Reply
   - Admin user: displays the username of the administrator who is logged in
   - Write a Reply: Select Yes so the admin can add answers to customer reviews
     - Nickname: the name that the admin wants to display outside Frontend
     - Comment: The content of the answer to the review
+    
+    ![Imgur](https://i.imgur.com/AxBiNbP.png)
 
 3. Statistics Quality Review
 
 3.1. Report by Customers
 Customer reviews are listed according to Report Review Status which has been installed at Configuration. With each status selected, the report will be different
 
+![Imgur](https://i.imgur.com/Ku3SBVh.png)
+
 3.2. Report by Products
 Product reviews are listed according to Report Review Status installed at Configuration. With each status selected, the report will be different
+
+![Imgur](https://i.imgur.com/cYI9sVs.png)
