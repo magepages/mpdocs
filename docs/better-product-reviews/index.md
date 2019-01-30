@@ -2,7 +2,7 @@
 
 ## Overview
 
-Customers are more likely to make purchasing decisions when they see a product that gets good reviews from other customers. Mageplaza Better Product Reviews extension helps new customers to quickly capture the number of reviews, average number of stars,% recomment, chart star rating at the beginning of the review block of each Product Detail page. In addition, Customer can also write Review for products purchased quickly when entering My Account> My Product Reviews. Another great function of the module is that Admin can not only browse or approve reviews, but also can answer customer reviews. Review apply will be displayed right below that review without drifting away. Thereby bringing a great experience to customers, increasing attraction, and increasing revenue for store owners
+Customers are more likely to make purchasing decisions when they see a product that has good reviews from other customers. [Mageplaza Better Product Reviews](https://www.mageplaza.com/magento-2-better-product-reviews) extension helps new customers to quickly capture the number of reviews, average number of stars, recommend percentage, rating star chart at the top of the review block of each Product Detail page. In addition, customers can also write reviews for products purchased quickly when entering `My Account> My Product Reviews`. Another great function of the module is that admin can not only browse or approve reviews, but also can reply customer reviews. Review apply will be displayed right below that review without drifting away. Thereby bringing a great experience to customers, increasing attraction, and increasing revenue for store owners
 
 ## Download & Install
 
@@ -10,12 +10,16 @@ Customers are more likely to make purchasing decisions when they see a product t
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
-1. Customer
-1.1. Product Details
-On the Product Detail Page, Customer can:
-- See Review Summary including: review number, average number of stars,% recomment, chart star rating at the top of the review block
 
-- Reorder the order to show the Newest Review, High Rating, Helpfulness
+### 1. Customer
+
+#### 1.1. Product Details
+
+On the Product Detail Page, Customer can:
+
+- See Review Summary including: review number, average number of stars, recommend percentage, rating star chart at the top of the review block
+
+- Reorder the reviews to show the Newest Review, High Rating, Helpfulness reviews
 
 - Evaluate Helpful Review 
 
