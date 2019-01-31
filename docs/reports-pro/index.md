@@ -4,27 +4,37 @@ Previously, Mageplaza has released Reports module that helps shop owners statist
 
 ## How to configure
 
-From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > Reports``
+Login to the Magento admin panel, choose `Store > Settings > Configuration > Mageplaza Extensions > Reports`
 
-![configuration](https://i.imgur.com/rrfk0Kz.png)
+![Imgur](https://i.imgur.com/KmSr5GG.png)
 
-### Configuration
-#### General configuration
 
-![general configuration](https://i.imgur.com/0lJ7kWM.png)
+#### 1. General 
 
-* In the **Enable** field: Choose Yes to use this module
-* In the **Enable Chart** field: Choose Yes to display the chart
-* In the **Enable Compare** field: Choose Yes to show the compare section
-* In the **Reindex** field: After installing this module, you should reindex to reload all data displaying outside the dashboard
+![general](https://i.imgur.com/IGClDwN.png)
 
-#### Display outside the dashboard
+* In the **Module Enable** field: Choose `Yes` to enable this module.
+* In the **Enable Chart** field: Select `Yes` to show the graph.
+* In the **Enable Compare** field: select `Yes` to display the comparison.
+
+#### 2. Display outside the dashboard
+
+- In addition to the cards available in the Standard version, the Pro version provides additional mostly used cards, including:
+  - **Abandoned Carts**
+  - **Stock vs Sold**
+  - **Customer Group**
+- The **Report Pro** also allows administrators to view the report details of some cards when clicking on **View Details** of Chart
 
 ![display outside the dashboard](https://i.imgur.com/6qy9GOX.png)
 
+- Detail Report Pages are displayed in **Mageplaza Report**: 
+
+![Imgur](https://i.imgur.com/tNDheJv.png)
+
+
 #### Bestsellers
 
-Clic on the **View Details** section in the right corner of the card to see the details of the Bestsellers section.
+Click on the **View Details** section in the right corner of the card to see the details of the **Bestsellers** section.
 
 ![details of the bestsellers](https://i.imgur.com/zbEJ3EP.png)
 
