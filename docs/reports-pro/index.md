@@ -9,7 +9,7 @@ Login to the Magento admin panel, choose `Store > Settings > Configuration > Mag
 ![Imgur](https://i.imgur.com/KmSr5GG.png)
 
 
-#### 1. General 
+### 1. General 
 
 ![general](https://i.imgur.com/IGClDwN.png)
 
@@ -17,7 +17,7 @@ Login to the Magento admin panel, choose `Store > Settings > Configuration > Mag
 * In the **Enable Chart** field: Select `Yes` to show the graph.
 * In the **Enable Compare** field: select `Yes` to display the comparison.
 
-#### 2. Display outside the dashboard
+### 2. Display outside the dashboard
 
 - In addition to the cards available in the Standard version, the Pro version provides additional mostly used cards, including:
   - **Abandoned Carts**
@@ -32,7 +32,7 @@ Login to the Magento admin panel, choose `Store > Settings > Configuration > Mag
 ![Imgur](https://i.imgur.com/tNDheJv.png)
 
 
-#### Bestsellers
+### Bestsellers
 
 Click on the **View Details** section in the right corner of the card to see the details of the **Bestsellers** section.
 
@@ -44,7 +44,7 @@ In this field, store owners can view the details of the bestsellers for a period
 
 Store owners can add the SKU of products that they want to compare with the first product they choose, then click on the **Apply** button to add the product data as well as compare them. Besides, they can also filter according to various fields that aren't included in the default of Magento.
 
-#### Sales By Location
+### Sales By Location
 
 Click on the **View Details** in the right corner of the card to view the detail of **Sale By Location** section
 
@@ -54,7 +54,7 @@ In this section, shop owners can view which country has the largest number of or
 
 ![sales by state](https://i.imgur.com/CDGjIBO.png)
 
-#### Customer Group
+### Customer Group
 
 Click on the **View Details** in the right corner of the card to view the details of the **Customer Group** field
 
@@ -62,7 +62,7 @@ Click on the **View Details** in the right corner of the card to view the detail
 
 This section shows the groups of customers that have purchased and the number shown on the chart helps the store owner to easily see which group of customers buy the most. From that, they can make useful marketing strategies to improve the revenues for stores.
 
-#### Customers
+### Customers
 
 Click on **View Details** section in the right corner of the card to view the detail of the **Customers** field
 
@@ -70,7 +70,7 @@ Click on **View Details** section in the right corner of the card to view the de
 
 **Customers** card will display customer details of which customer groups buy the most. This will help store owners have policies or incentives for these customers.
 
-#### Stock & Sold
+### Stock & Sold
 
 Click on the **View Details** in the right corner of the card to see the detail of **Stock & Sold** field
 
@@ -78,7 +78,7 @@ Click on the **View Details** in the right corner of the card to see the detail 
 
 This field will allow store owners to know what time and how many items were sold so that store owners can easily manage as well as add the items that are about to run out.
 
-#### Abandoned Carts
+### Abandoned Carts
 
 Click on the **View Details** in the right corner of the card to view the detail of **Abandoned Carts** field
 
