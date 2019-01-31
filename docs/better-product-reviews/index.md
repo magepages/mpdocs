@@ -80,17 +80,17 @@ From the Admin panel, go to `Stores> Configuration> Mageplaza> Better Product Re
 - Remind Review on Customer Dashboard:
   - Select `Yes` to display Remind Review block in `My Account> My Product Reviews` of customers
   - With Remind Review block, customers can see the products they have purchased but have not yet leave review for it
-  - Only products in the completed order are displayed at Remind Review Block
+  - Only products in the completed orders are displayed at Remind Review Block
 - Enable Review Summary:
   - Select `Yes` to display the Review Summary at the Review tab of the Product Detail Page
   - Review Summary includes: review number, average number of stars, recommend percentage, rating star chart
 - Report Review status:
   - Filter statistics by selected options
   - Admins need to go to `Report> By Customers / By Products` to check thr status. On these 2 pages only show the number of option reviews selected
-  - There are 3 admin options that can be selected:
-    - Approved: Display the approved review number of Customer / Product
-    - Pending: Displays the pending review number of Customer / Product
-    - Both: Displays the number of approve review and pending of Customer / Product
+  - There are 3 review statuses that can be selected:
+    - Approved: Display the approved review number by Customer/Product
+    - Pending: Displays the pending review number by Customer/Product
+    - Both: Displays the number of approve reviews and pending reviews by Customer/Product
     
     
 1.2. Write Review Configuration
@@ -98,79 +98,78 @@ From the Admin panel, go to `Stores> Configuration> Mageplaza> Better Product Re
 ![Imgur](https://i.imgur.com/c5vcadK.png)
 
 - Enable:
-  - Select `Yes` so Customer can write review for the product
-  - Select `No` to turn off the Write a Review feature
-  - Select For Purchase Only to display the Review form with the Customer who completed the order containing this product
-- Customer Group: Only customers belonging to the selected Group can see the Form Review
-- Use Ajax: Select yes to when Customer Submit 1 review, that Product Detail page will not be reloaded
+  - Select `Yes` to enable customers to write reviews for the products
+  - Select `No` to turn off the Write a Review function
+  - Select For Purchase Only to display the Write Review field with the Customer who completed the order containing this product
+- Customer Group: Only customers belonging to the selected Group can see the Review Form
+- Use Ajax: Select `Yes` to enable AJAX loading. When a customer submit 1 product review, that Product Detail page will not be reloaded
 - Enable Recommend Product:
   - Select Yes to display a comment indicating that the reviewer has introduced this product to their friends, and displayed the check box at Write a Review form.
   - Select No to hide checkboxes and comments
-  - Select For Purchase Only to display the checkbox and comment with the Customer who completed the order containing this product
-  
-- Enable Google reCAPTCHA:
-  - Select Yes to enable authentication with Google reCAPTCHA
-  - This feature only runs when installing the Mageplaza Google reCAPTCHA module
+  - Select For Purchase Only to display the checkbox and comment with the customers who completed the order containing this product
 - Allow Upload Images:
-  - Select Yes to allow Customer to upload photos when writing Review
-  - With the backend Review section, the admin can upload photos even if Disable Allow Upload Images = No
+  - Select `Yes` to allow customers to upload photos when writing reviews
+  - With the backend Review section, admins can upload photos even if `Disable Allow Upload Images = No`
 - Limit Image Upload:
-  - Limit the number of photos that Customer can upload in comments
+  - Limit the number of photos that customers can upload in comments
   - If left blank or 0, there is no limit to the number of images uploaded
-  - With the Review section at the backend, admin is not limited to uploading
+  - With the Review section at the backend, admin is not limited to upload images
 
 1.2.1 Terms and Conditions
 
 ![Imgur](https://i.imgur.com/mwjtKIT.png)
 
-- Enable: Select Yes to display the Term and Condition feature in the Review form
+- Enable: Select `Yes` to display the Term and Condition feature in the Review form
 - Link Title
   - Enter a title for the Terms and Conditions section
-  - If you use the "% anchor" variable in this field, the text entered at the Anchor Text field will be followed by the Title field's text.
+  - If you use the "%anchor" variable in this field, the text entered at the Anchor Text field will be followed by the Title field's text.
 - Anchor Text
   - Enter the content displayed for this field
   - Content in this field will be paired with the Title field
 - Anchor URL
   - Enter the URL where the store owner wants to redirect the user until clicking on the filled content at the Anchor field
-  - If you leave this field blank then the field If you leave this field blank, the Anchor Text field will not have a link to click and is a regular text
-  - For example, in Title field, I agree with the% anchor of Services, the Anchor field is filled with Terms and Conditions and the URL is filled with https://domain.com/tos.html, the results displayed outside the frontend will be:
+  - If you leave this field blank then the field, the Anchor Text field will not have a link to click and is a regular text
+  - For example, in Title field: `I agree with the% anchor of Services`, the Anchor field is filled with `Terms and Conditions` and the URL is filled with https://domain.com/tos.html, the results displayed outside the frontend will be:
+  
 `I agree with the <a href="https://domain.com/tos.html"> Terms and Conditions </a> of Services`
-- Checked by default: Select Yes to automatically check the checkbox (always agree to store terms and conditions)
+
+- Checked by default: Select `Yes` to automatically check the checkbox (always agree to store terms and conditions)
 
 1.3. Review Listing Configuration
 
-![Imgur](https://i.imgur.com/nqYKYaG.png)
+![Imgur](https://i.imgur.com/mzUtXBB.png)
 
-- Enable Helpful Voting: Select Yes to display the Helpful button in each Review. Customer can click on the button to evaluate the usefulness of the Review
-- Show Store Owner Answer: Select Yes to display admin answers (if any) at under each Review they answer
-- Enable Share via Social: Select Yes to display Share via Social buttons in each Review. Customer can click on the Social button to share that review on their social page
+
+- Enable Helpful Voting: Select `Yes` to display the Helpful button in each Review. Customer can click on the button to evaluate the usefulness of the Review
+- Show Store Reply: Select `Yes` to display admin answers (if any) at under each Review
+- Enable Social Share: Select Yes to display Share via Social buttons in each Review. Customer can click on the Social button to share that review on their social page
 - Show Verified Buyer Mark: Select Yes to display a distinguishing sign that Customer reviews have purchased products with Customer's reivew not yet purchased this product
-- Show nickname: Show customer nickname at Review
-- Show Review Date: Shows the date the review was created
+- Show Nickname: Show customer nickname at Review
+- Show Review Date: Show the date the review was created
 - Default Item Qty per Page:
   - Limit the number of reviews displayed in each Product Detail Page
-  - When the number of reviews is more than the limited Qty, the Load More button will be displayed
+  - When the number of reviews is more than the limited quantity, the Load More button will be displayed
   
   
 1.3.1. Sorting
 
 ![Imgur](https://i.imgur.com/R9xsd31.png)
 
-- Enable Sorting On Frontend: Select Yes for the customer to change the way the reviews are sorted
+- Enable Sorting On Frontend: Select `Yes` for the customer to change the way the reviews are sorted
 - Select Type:
   - Select the sorting options that may be displayed in Frontend
-  - Note: Helpfulness Type is only visible when admin select Enable Helpful Voting = yes
+  - Note: Helpfulness Type is only visible when admin select `Enable Helpful Voting = Yes`
 - Default Sorting: Choose the default arrangement when the new Customer opens the Review tab
-- Default Sort Direction: Choose Increase or Decrease to sort the values in a certain order
+- Default Sort Direction: Choose Ascending or Descending to sort the values in a certain order
 
 
 2. Edit Review of Customer
-Whenever Customer submit 1 review, that review will be logged in Pending status at Marketing> User Content> Reviews
+Whenever Customer submit 1 review, that review will be logged in Pending status at `Marketing> User Content> Reviews`
 
 ![Imgur](https://i.imgur.com/vAq4wXr.png)
 
-When admin edit 1 review, in addition to the available Magento field, the Mageplaza Better Product Reviews module also adds some other useful fields.
-- Approve and Next button: in order for admin to browse a review and move to the next review quickly
+When admin edit 1 review, in addition to the available Magento fields, the Mageplaza Better Product Reviews module also adds some other useful fields.
+- Approve and Next button: in order for admin to approve a review and move to the next review quickly
 
 ![Imgur](https://i.imgur.com/LnZA2x6.png)
 
