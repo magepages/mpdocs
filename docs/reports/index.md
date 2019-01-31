@@ -45,7 +45,7 @@ After the configuration is completed, you will get the result displayed as the f
 ![configuration result](https://i.imgur.com/1DL4ks1.png)
 
 
-Dasboard Displaying
+**Dasboard Displaying**
 
 ![Imgur](https://i.imgur.com/7BzRy6v.png)
 
