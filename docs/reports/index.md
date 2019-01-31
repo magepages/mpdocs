@@ -19,15 +19,14 @@ In this extension, all the reports will use line graphs, which are fond of showi
 - Config in this store doesn't affect the config in the other store.
 ```
 
-### How to config
+### How to configure 
 
 Login to the Magento admin panel, choose `Store > Settings > Configuration > Mageplaza Extensions > Reports`
 
-![Configuration](https://i.imgur.com/BkoGnd1.png)
+![Imgur](https://i.imgur.com/KmSr5GG.png)
 
-Follow the following guide to complete **Reports** configuration.
 
-#### 1. General Configuration
+#### 1. General 
 
 ![general](https://i.imgur.com/IGClDwN.png)
 
@@ -35,18 +34,38 @@ Follow the following guide to complete **Reports** configuration.
 * In the **Enable Chart** field: Select `Yes` to show the graph.
 * In the **Enable Compare** field: select `Yes` to display the comparison.
 
-#### 2. Display outside the dashboard
+#### 2. Mobile Dashboard
+Thí function allow mobiles access to admin Dashboard by Access Key. In Mobilde Dashboard, there is no Magento menu, header, footer,...minimal the content to enhance the loading speed. Also, at Mobile Dashboard, admin can adjust the date like in Destop. 
+
+
+##### Display outside the dashboard
 
 After the configuration is completed, you will get the result displayed as the following image:
 
 ![configuration result](https://i.imgur.com/1DL4ks1.png)
 
 
+Dasboard Displaying
 
+![Imgur](https://i.imgur.com/7BzRy6v.png)
 
+- The charts displeyed at Moblie Dashboard include: 
+  - Default report at Dashboard such as Lifetime Sales, Average Order, Last Orders, Last Search Terms, Top Search Terms, BestSellers, Most View Products, New Customer, Customers, Tax, Shipping. 
+  - Moreover, Mageplaza provides additional mostly use reports:
+    - Orders
+    - Sales by Location
+    - Repeat Customer
+    - Totals
+    - Conversion Funnel
+    
+- Each Chart displays only 5 results typical for its criteria
+- Each chart is represented by 1 card. Admin can adjust dashboard with cards provided by the module
 
+![Imgur](https://i.imgur.com/DwPlEM0.png)
 
+- Admins can also filter the results by the time period they want
 
+![Imgur](https://i.imgur.com/jMxUTeo.png)
 
 ## Must-have extensions for your Magento stores
 
