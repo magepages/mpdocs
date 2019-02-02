@@ -24,7 +24,7 @@ From **Admin panel**, go to `Stores > Configuration > Mageplaza > Twitter Widget
 
 #### 1.1 General Configuration
 
-![Twitter widget 3](https://i.imgur.com/QDvQjco.png)
+![Twitter widget 3](https://i.imgur.com/mVuC4E4.png)
 
 - **Enable**: Select `Yes` to enable the module.
 - **Show Follow Button**: Select `Yes` to display the button Follow a twitter account in the header widget
