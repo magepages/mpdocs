@@ -28,11 +28,11 @@ In the e-commerce industry, many businesses want to promote their upcoming produ
 
 Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre Order`.
 
-![Imgur](https://i.imgur.com/G7a9U6h.gif)
+![Imgur](https://i.imgur.com/XOcCaZm.gif)
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/DCjOZNR.png)
+![Imgur](https://i.imgur.com/sVoelNa.png)
 
 - **Enable**: Select `Yes` to turn on the module and use the Pre Order or Back Order.
 - **Apply Pre-order** for Products: 
@@ -44,7 +44,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 ##### 1.2. Displaying Configuration
 ###### 1.2.1. Pre-order Display Configuration
 
-![Imgur](https://i.imgur.com/0r1xhyb.png)
+![Imgur](https://i.imgur.com/WaL1Tjp.png)
 
 - **Add to Cart Button Label**:
   - Enter the button Label to replace **Add to cart** button when you want to pre-order with products that are about to be launched or out of stock, with less quantity instock compared to the number that customers want to buy.
@@ -138,21 +138,25 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 
 - You can display an Order Notice on [PDF invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/) template.  
 
-![Imgur](https://i.imgur.com/TCUJkBg.png)
+![Imgur](https://i.imgur.com/zwGd2A3.png)
 
 
 - **Note**:
 
-  - Go to `Store> PDF Invoice> Manage Templates`, Choose **Add New Template** with order, to create Email Templates, with each email template you need to insert the following command line under the **Template Name** field in the position you want to put **Order Notice**:
+  - Go to `Store> PDF Invoice> Manage Templates`, Choose **Add New Template** with order, invoice,...To create PDF Templates, you can get it [here](https://github.com/mageplaza/pdf-invoice-templates). Otherwise, you can insert the following command under the **Template Name** field in the position you want to put **Order Notice**:
   
  
 ```
-{{depend order.getIsMpPreOrder ()}}
-     <p> Order Notice: <b> {{var order.getMpPreOrderNotice ()}} </b> </p>
-{{/ depend}}
+{{depend order.getIsMpPreOrder()}}
+    <div class="footer-left">  
+        <h3 class="mp-note">{{trans "Order Notice"}}:</h3>
+        <span style="font-style: italic;">{{var order.getMpPreOrderNotice()}}</span>
+    </div>
+{{/depend}}
+
 ```
 
-![Imgur](https://i.imgur.com/ed2yCK7.png)
+![Imgur](https://i.imgur.com/driT0NA.png)
 
 - After creating your Email Template, go to `Stores> Configuration> Mageplaza> PDF Invoice`, in the Order section with the **Select Template** field select the email template you just created.
 
