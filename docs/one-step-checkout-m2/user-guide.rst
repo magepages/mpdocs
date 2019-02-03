@@ -74,6 +74,22 @@ A one-step checkout will be totally done on one page only by completing informat
 * Eventually, the one step checkout can be finished by a click on the **Place Order** button. The whole process is completed in one page only.
 * Seal block is displayed to make sure this is the official checkout page of the store, not forged. 
 
+1.7. Quickly add Product and Coupon by URL
+- Customer can quickly add a certain number of Products by SKU by adding some information at the URL
+- Supported Product Types include: Simple Product, Configurable Product, Downloadable Product
+- Customers can also quickly add Coupon when inserting information to the URL
+- Adding Product: For example, adding 2 products with SKU is MH01 and MN23 to OSC at store with website: www.example.com
+
+`www.example.com/onestepcheckout/?sku [MH01] = 2 & sku [MN23] = 3`
+
+- Add Coupon: For example, add a coupon with the code `COUPON123` to the OSC at the store with a website: www.example.com
+
+`www.example.com/onestepcheckout/? coupon = COUPON123`
+
+- Add Coupon and Product at the same time: For example, add 2 products with SKU as MH01 and coupon with code CO COONON123 to OSC at store with website: www.example.com
+
+`www.example.com/onestepcheckout/?sku [MH01] = 2 & coupon = COUPON123`
+
 
 II. How to configure
 ----------------
@@ -85,8 +101,7 @@ Login to Magento Admin, following our given guide below to complete One Step Che
   * General Configuration
   * Display Configuration
   * Design Configuration
-  * GeoIP Configuration
-
+  
 2.1. Field Management
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -128,7 +143,7 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * Open the **Display Configuration** section, and continue with following:
 
-.. image:: https://i.imgur.com/ybrsbLq.png
+.. image:: https://i.imgur.com/MxGFUBR.png
 
 * In the **Show Login Link** field: Set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
 * Show/Hide Footer/Header: Depending on each theme that the checkout page will or will not display the Header/Footer of that page.
@@ -152,7 +167,7 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * In the **Show Terms and Conditions** field: You can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
 
-.. image:: http://imgur.com/QpvpZmH.jpg
+
 
 2.2.2.1. Review Cart Section
 ''''''''''''''''''''''''''''''''''''
@@ -198,13 +213,15 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 .. image:: https://i.imgur.com/PKJoptF.png
 
 * There are 3 display Seal Block options: 
+
   * Enable = No: Not display Seal Block in One Step Checkout
   
-.. image:: https://i.imgur.com/8cSlIhN.png
+  .. image:: https://i.imgur.com/N2O88ts.png
+  
 
   * Enable = Select Static Block. When the admin selects this option, the Block option will be displayed to admin select the CMS block that he or she wants to act as Seal Block to show outside the Frontend. We also provide you seal block default which is One Step Checkout Seal Content to refer
   
-.. image:: https://i.imgur.com/QOyQ8Cw.png
+.. image:: https://i.imgur.com/p3kXnox.png
 
   * Enable = Use Default Design. When choosing this option, admin can customize the images and contents of Seal Block quickly and easily
   
