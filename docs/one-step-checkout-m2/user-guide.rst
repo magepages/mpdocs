@@ -1,6 +1,6 @@
 
 
-`One Step Checkout extension for Magento 2 <https://www.mageplaza.com/magento-2-one-step-checkout-extension/>`_, developed by Mageplaza, is the best marketing tool developed to help you reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customers checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page and make it more powerful and more effective. 
+`One Step Checkout extension for Magento 2 <https://www.mageplaza.com/magento-2-one-step-checkout-extension/>`_, developed by Mageplaza, is the best marketing tool which helps you to reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customers checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page and make it more powerful and more effective. 
 
 
 Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
@@ -75,10 +75,12 @@ A one-step checkout will be totally done on one page only by completing informat
 * Seal block is displayed to make sure this is the official checkout page of the store, not forged. 
 
 1.7. Quickly add Product and Coupon by URL
-- Customer can quickly add a certain number of Products by SKU by adding some information at the URL
-- Supported Product Types include: Simple Product, Configurable Product, Downloadable Product
-- Customers can also quickly add Coupon when inserting information to the URL
-- Adding Product: For example, adding 2 products with SKU is MH01 and MN23 to OSC at store with website: www.example.com
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+* Customer can quickly add a certain number of Products by SKU by adding some information at the URL
+* Supported Product Types include: Simple Product, Configurable Product, Downloadable Product
+* Customers can also quickly add Coupon when inserting information to the URL
+* Adding Product: For example, adding 2 products with SKU is MH01 and MN23 to OSC at store with website: www.example.com
 
 `www.example.com/onestepcheckout/?sku [MH01] = 2 & sku [MN23] = 3`
 
@@ -147,7 +149,9 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * In the **Show Login Link** field: Set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
 * Show/Hide Footer/Header: Depending on each theme that the checkout page will or will not display the Header/Footer of that page.
+
   * With themes which display, choose Yes in this section to make it also display in the One Step Checkout page and choose No to hide it
+  
   * With themes which not, you can pass this config
 
 * In the **Discount Code Section** field: 
@@ -184,7 +188,9 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 .. image:: https://i.imgur.com/tZG0Yxc.png
 
 * Select "Yes" if you allow the customer to choose Gift Wrap option. After choosing, the change will be applied automatically to the order.If you allow showing Gift Wrap option, two following fields will be shown:
+
   * **Calculate Method** field, select **Per Order** or **Per Item** to calculate the gift wrap fee based on the item quantity or the order total. Comment box will be shown at the Shipping Method area.
+  
   * **Amount** field, enter the gift wrap fee. If you leave it blank, **Gift wrap fee = 0**
   
 2.2.2.3. Newsletter
@@ -201,8 +207,11 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 .. image:: https://i.imgur.com/0DkKo3v.png
 
 * Set "Yes" to allow store owner can issue a survey question to buyers when they placed order successfully, some additional fields will be expanded.
+
   * **Survey Question**: The questionnaire is filled in this section
+  
   * **Survey Answers**: Store owners can offer multiple answer options to their customers. Each of an answer options are displayed as a checkbox, which means that customers can select multiple answers at a time.
+  
   * **Allow Customer Add Other Option**: Select “Yes” so that customers can make their own answers to survey questions.
 
 2.2.2.5. Seal Block
@@ -214,16 +223,17 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * There are 3 display Seal Block options: 
 
-  * Enable = No: Not display Seal Block in One Step Checkout
+* *Enable = No*: Not display Seal Block in One Step Checkout
   
-  .. image:: https://i.imgur.com/N2O88ts.png
+.. image:: https://i.imgur.com/N2O88ts.png
   
 
-  * Enable = Select Static Block. When the admin selects this option, the Block option will be displayed to admin select the CMS block that he or she wants to act as Seal Block to show outside the Frontend. We also provide you seal block default which is One Step Checkout Seal Content to refer
+* *Enable = Select Static Block*. When the admin selects this option, the Block option will be displayed to admin select the CMS block that he or she wants to act as Seal Block to show outside the Frontend. We also provide you seal block default which is One Step Checkout Seal Content to refer
   
 .. image:: https://i.imgur.com/p3kXnox.png
 
-  * Enable = Use Default Design. When choosing this option, admin can customize the images and contents of Seal Block quickly and easily
+
+* *Enable = Use Default Design*. When choosing this option, admin can customize the images and contents of Seal Block quickly and easily
   
 .. image:: https://i.imgur.com/EXFwdXT.png
 
