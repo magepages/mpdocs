@@ -227,13 +227,13 @@ Login to the **Magento Admin**, choose `Catalog > Product > Edit Product > Advan
 - **Stock Status Label**:
   - Enter **Stock Status Label** to be displayed above the default label (eg "Back Order") with each product. For example: "Available Soon"
   - If empty, no label will be shown. You can select **Use Config Settings** to use the configuration in the **Configuration** section above. If both configuration for each product and configuration in different **Configuration** section, priority will be given to configuration for each product first.
-- **Variables available**:
-  - {{short_date}} - the delivery date set in short format. Ex: 11/20/2019.
-  - {{long_date}} - the delivery date in long format. Ex: Nov 20, 2019.
-  - {{day}} - number of days from current day to delivery date.
+- This section relies on the **Delivery Date** field to get date information. **Variables available**:
+  - **{{short_date}}** - the delivery date set in short format. Ex: 11/20/2019.
+  - **{{long_date}}** - the delivery date in long format. Ex: Nov 20, 2019.
+  - **{{day}}** - number of days from current day to delivery date.
 
 
-- **Delivery Date**: Choose a date to deliver goods with each product when stock is available or when stock is returned. And will announce the date of shipment based on the information of Stock Status Label field.
+- **Delivery Date**: Choose a date to deliver goods with each product when stock is available or when stock is returned. And will announce the date of shipment based on the information of **Stock Status Label** field. If you leave the **Delivery Date** field blank, **Stock Status Label** will not be applied on all pages.
 
 ![Imgur](https://i.imgur.com/5PeNSXs.png)
 
