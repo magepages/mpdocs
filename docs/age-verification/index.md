@@ -152,7 +152,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 - **Button Color**: Choose the color for Button at popup.
 - **Text Color**: Choose text color shown at popup.
 
-![Age Verification 16](https://i.imgur.com/A5KYf8f.png)
+![Age Verification 16](https://i.imgur.com/xABHYpB.png)
 
 
 
