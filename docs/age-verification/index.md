@@ -45,7 +45,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   - Enter the age number to limit website access
   - This is a required field. If you enter the letter, it will display an error message (only number allowed).
 
-- **Enable Term & Condition**: Select `Yes` to turn on the display of **Term & Condition** notifications as a check box as `I agree with the terms and conditions`.
+- **Enable Term & Condition**: Select `Yes` to turn on the display of **Term & Condition** notifications as a checkbox as `I agree with the terms and conditions`.
 
 - **Link Title**: Enter a name to notify **Term & Condition**. For example: "I agree with the"
 
@@ -56,7 +56,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 ![Imgur](https://i.imgur.com/o0W4iPF.png)
 
 - **Cookie life-time**:
-  - Enter the number of days to save the cookie and apply this period for age verification. When the time runs out, the age verification applied for certain pages will be disabled then. Also, cookie will not save the data for under age verification.
+  - Enter the number of days to save the cookie and apply this period for age verification. When the time runs out, the age verification applied for certain pages will be disabled then. Also, cookie will not save the data for underage verification.
   - If left blank, default period is 365 days.
 
 - **Apply for Customer Group (s)**: Select the **Customer Groups** group to apply Age Verification. You can select multiple customer groups at once. Customer groups not selected will not be applied Age Verification
@@ -99,7 +99,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 - **Exclude Custom Page**:
   - Enter the Url path which must be separated by a / in the field. Apply Age Verification with all pages except the url selected.
-  - This field is highest priority for applying age verification
+  - This field is the highest priority for applying age verification
   - `Note`: If the rule belongs to both **Include Custom Page** and **Exclude Custom Page**, then Age Verification will not be applied.
 
 #### 1.3. Purchase Verify Configuration
@@ -107,7 +107,9 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 ![Imgur](https://i.imgur.com/5mPncum.png)
 
 - **Select Product Condition**:
-  - Select `Yes` to show another field to choose the condition for age verification on the product detail page. Those products that are satisfied will be applied age verification. If this field is left blank, it will auto-apply age verification for all product detail pages when clicking `Add to cart`
+  - Select `Yes` to show another field to choose the condition for age verification on the product detail page. Those products that are satisfied will be applied age verification. If this field is left blank, it will auto-apply age verification for all product detail pages and other pages when clicking `Add to cart`
+  
+  - Select `No`, not apply age verification when clicking **Add to cart** for all pages
 
   - If the Product condition belongs to both the **Page Verify Configuration** and **Purchase Verify Configuration**, it is preferable to consider the Product condition in the **Purchase Verify Configuration** first.
   
@@ -125,7 +127,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 #### 1.4. Design
 
-![Imgur](https://i.imgur.com/YVNC3oF.png)
+![Imgur](https://i.imgur.com/vRCkRG2.png)
 
 - **Checkbox Type**:
   
@@ -140,11 +142,17 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   ![Imgur](https://i.imgur.com/tHaG5J7.png)
 
 
-- **Icon**: click **Choose file** button to upload image. This icon is shown at the top of the popup. If left blank, system will use the default image.
-- **Title**: Enter popup name at the top. If left blank, the default name is **AGE VERIFY**.
-- **Description**: Enter the poup description which is shown under the icon. If left blank, it will default to the number of ages set at the **Verification Age** field, for example, `You must be older than 18 years old to enter this page`.
-- **Confirm button label**: Enter the name of the button for Confirm the information added by visitors. If left blank, default label is **Enter**.
-- **Cancel button label**: Enter the button name for Cancel the age verification filling by visitor. If left blank, default label is **Cancel**.
+- **Icon**: click **Choose file** button to upload image. This icon is shown at the top of the popup. If left blank, the system will use the default image.
+- **Title**: Enter popup name at the top. If left blank, the default name is **AGE VERIFICATION**.
+- **Description**: Enter the popup description which is shown under the icon. If left blank, it will default to the number of ages set at the **Verification Age** field, for example, `You must be older than 18 years old to enter this page`.
+- **Confirm button label**: Enter the name of the button to Confirm the information added by visitors. If left blank, default label is **Enter**.
+- **Cancel button label**: Enter the button name for Cancel the age verification filling by visitors. If left blank, default label is **Cancel**.
+- **Header Background Color**: Choose the color for Header Background on popup.
+- **Body Background Color**: Choose the color for Body Background on popup.
+- **Button Color**: Choose the color for Button at popup.
+- **Text Color**: Choose text color shown at popup.
+
+![Imgur](https://i.imgur.com/TblwXZE.png)
 
 
 
