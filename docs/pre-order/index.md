@@ -28,7 +28,7 @@ In the e-commerce industry, many businesses want to promote their upcoming produ
 
 Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre Order`.
 
-![Imgur](https://i.imgur.com/XOcCaZm.gif)
+![Imgur](https://i.imgur.com/EAtiV1Q.gif)
 
 #### 1.1. General
 
@@ -41,8 +41,8 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
   - **Both**: All products can be pre-ordered
 - **Apply Pre-order for Customer Group(s)**: Select customer group(s) to apply Pre-order. You can choose multiple Customer Groups. Those groups that are not selected will not be appled the Pre Order.
 
-##### 1.2. Displaying Configuration
-###### 1.2.1. Pre-order Display Configuration
+#### 1.2. Displaying Configuration
+##### 1.2.1. Pre-order Display Configuration
 
 ![Imgur](https://i.imgur.com/WaL1Tjp.png)
 
@@ -138,7 +138,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 
 - You can display an Order Notice on [PDF invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/) template.  
 
-![Imgur](https://i.imgur.com/zwGd2A3.png)
+![Imgur](https://i.imgur.com/RGMt7x5.png)
 
 
 - **Note**:
