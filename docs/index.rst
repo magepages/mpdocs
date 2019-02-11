@@ -42,6 +42,7 @@ Welcome to Mageplaza Docs
    reports-pro/index
    product-feed/index
    abandoned-cart-email/index
+   age-verification/index
    banner-slider/index
    better-coupon/index
    better-popup/index
@@ -68,12 +69,14 @@ Welcome to Mageplaza Docs
    google-maps/index
    login-as-customer/index
    multi-flat-rates/index
+   multiple-coupons/index
    order-attributes/index
    order-export/index
    payment-restriction/index
    product-attachments/index
    product-labels/index
    product-slider-m2/index
+   product-alerts/index
    quick-view-ajax-cart/index
    quick-order/index
    search/index
@@ -92,7 +95,10 @@ Welcome to Mageplaza Docs
    social-share/index
    store-locator/index
    store-switcher/index
+   store-credit/index
+   thank-you-page/index
    who-bought-this-also-bought/index
+   who-viewed-this-also-viewed/index
    webhook/index
  
    
