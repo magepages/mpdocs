@@ -99,7 +99,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
   * **Include Pages**:
     * Enter the pages that you want to show the popup
-    * The pages are separated by commas
+    * The pages are separated line by line
     * For example:
       * Want to show the popup only on the **homepage**, you need to enter: cms_index_index
       * Want to show the popup on the **Shopping Cart** page, you need to enter: checkout_cart_index
