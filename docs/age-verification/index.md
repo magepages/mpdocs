@@ -123,7 +123,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   - **Notice Message**: Apply the **Purchase Verify Configuration** to the **Notice Message**. Show a **Notice Message** field.
     - **Notice Message**: Enter the age notification in the **Notice Message** field. If left blank, the default is "You must verify your age to buy this product."
 
-![Age Verification 11](https://i.imgur.com/ZkPLtOc.png)
+![Age Verification 11](https://i.imgur.com/Y9C8Emw.png)
 
 #### 1.4. Design
 
