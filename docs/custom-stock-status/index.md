@@ -3,11 +3,11 @@
 ## Overview
 
 
-[Custom Stock Status]() will help admin install additional stock status for the product, information about the product's stock status is displayed at the frontend more accurately and clearly, giving customers sympathy and increasing the ability to buy from customers. In particular, you can Custom stock status automatically or manually with image, label to easily attract customers' attention with attractive status. That's the feature of Mageplaza's new Custom stock status extension.
+Custom Stock Status will help admin install additional stock statuses for the products. Information about the product's stock status is displayed at the frontend more accurately and clearly, giving customers better shopping experience and increasing the ability to buy from them. In particular, admins can custom stock status automatically or manually with image, label to quickly attract customers' attention with appealing status. That's the feature of [Mageplaza Custom Stock Status](https://www.mageplaza.com/magento-2-custom-stock-status/) extension.
 
 ## How to download and install 
 
-- [Download Mageplaza Custom Stock Status](https://www.mageplaza.com/magento-2-custom-product-status/)
+- [Download Mageplaza Custom Stock Status](https://www.mageplaza.com/magento-2-custom-stock-status/)
 - [Install Custom Stock Status](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
@@ -17,7 +17,7 @@
 
 ### 1. Configuration
 
-Login to the **Admin Magento**, choose Stores> Custom Stock Status> Configuration.
+Login to the **Admin Magento**, choose `Stores> Custom Stock Status> Configuration`.
 1.1. General
 
 - **Enable**: Select `Yes` to turn on the module
