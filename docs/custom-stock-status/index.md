@@ -18,7 +18,8 @@ Custom Stock Status will help admin install additional stock statuses for the pr
 ### 1. Configuration
 
 Login to the **Admin Magento**, choose `Stores> Custom Stock Status> Configuration`.
-1.1. General
+
+#### 1.1. General configuration
 
 - **Enable**: Select `Yes` to turn on the module
 - **Apply for Product**: Choose to apply **Custom Stock Status** to products:
