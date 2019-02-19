@@ -1,4 +1,4 @@
-# Better Change Quantity
+# Better Change Qty
 
 ## Overview
 
@@ -6,7 +6,7 @@ For the convenience of customers when purchasing multiple products with various 
 
 ## Download & Install
 
-- [Mageplaza Better Change Quantity]()
+- [Mageplaza Better Change Qty]()
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
