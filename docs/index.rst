@@ -46,7 +46,7 @@ Welcome to Mageplaza Docs
    banner-slider/index
    better-coupon/index
    better-popup/index
-   better-change-quantity/index
+   better-change-qty/index
    blog-m2/index
    call-for-price/index
    custom-order-number/index
