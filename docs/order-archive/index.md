@@ -29,40 +29,43 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
 
 #### 1.1. General Configuration
 
-![Imgur](https://i.imgur.com/9Aogcl4.png)
+![Imgur](https://i.imgur.com/SoQPPks.png)
 
-- Select `Enable = Yes` to enable the module
+- **Enable**: Select `Enable = Yes` to enable the module
 - **Show Archive Order for Customer(s)**: Select `No` to have the orders transferred to the Archive be hidden from **My Orders** in **Customer's Dashboard**
 
 
 #### 1.2. Schedule Configuration
 
-![Imgur](https://i.imgur.com/uAQr1Jh.png)
+![Imgur](https://i.imgur.com/yUrYB3I.png)
 
 - Includes settings related to automatic order storage. An order is only stored in schedule when and only if it satisfies all the conditions on **Purchase Date, Order Status, Customer Group, Store View, Shipping Country and Order Total**
-- **Schedule**: set the cycle automatically according to daily, weekly or yearly
+- **Schedule For**: 
+  - Set the cycle automatically according to daily, weekly or monthly
+  - With Weekly, schedule will run automatically on every Monday
+  - With Monthly, schedule will run automatically on the 1st of every month
 - **Start Time**:
   - Set the automatic storage time of each cycle
   - By that time of day, the schedule will be run automatically
-- **Apply for Period Before**:
+- **Excluded Period**:
   - Set the time interval for automatic schedule application
   - The orders calculated from the moment the current number of days back and forth will be converted to Archive
   - For example, **Period = 10**, today is December 31st, 2018, all orders created from December 21st, 2018 and earlier will be transferred to Archive (if they meet the conditions below)
 - **Order Status**:
   - Satisfactory orders can be archived automatically according to schedule
   - When selecting **Please Select**, no order can automatically be archived
-- **Customer Group**: **Automatic Schedule** applies only to orders purchased by customers of the selected Customer group
-- **Store View**: Select Store view where the order is placed
-- **Shipping Country**:
+- **Customer Group(s)**: **Automatic Schedule** applies only to orders purchased by customers of the selected Customer group
+- **Store View(s)**: Select Store view where the order is placed
+- **Shipping Countries**:
   - **All Countries**: Check all Orders
   - **Specific Country**: Check for orders with **Shipping Address** at Country selected
-- **Order Total Under**: Order's Maximum Total Paid 
+- **Order Total less than**: Order's Maximum Total Paid 
 - In addition to the way the schedule is run automatically, Admin can also click the `Run Manually` button to store orders that meet conditions whenever they want.
 
 
 #### 1.3. Email Notification
 
-![Imgur](https://i.imgur.com/ktURTSw.png)
+![Imgur](https://i.imgur.com/pM61T5A.png)
 
 - **Enable**: Select `Yes` to enable email sending feature to admin every time an order is stored (including manual or automatic storage)
 - **Sender**: There are 5 default types of **Magento Sender** for Admin to choose: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
@@ -75,11 +78,11 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
   - Each email is separated by commas (,)
   
   
-### 2. Order Archive Grid
+### 2. Order Archives Grid
 
 ![Imgur](https://i.imgur.com/dWrvNDR.png)
 
-- Similar to the default **Magento Grid Order**, the **Order Archive Grid** also has basic features such as **Filter, Add Columns or Export and View Order**
+- Similar to the default **Magento Grid Order**, the **Order Archives Grid** also has basic features such as **Filter, Add Columns or Export and View Order**
 - In Grid, Admin can perform 3 main actions
   - **UnArchive**: The selected orders will be transferred to the default Grid Order
   - **Delete**: The selected Orders will be deleted from the database. This feature only works when the store owner installs the [Mageplaza Delete Order module](https://www.mageplaza.com/magento-2-delete-order/)
@@ -93,8 +96,8 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
 Admins can use the following command to archive or unarchive any order that they want: 
 
 ```
-php bin / magento order: archive --id = "order_id"
-php bin / magento order: unarchive --id = "order_id"
+php bin / magento order: archive order_id
+php bin / magento order: unarchive order_id
 ```
 
 ![Imgur](https://i.imgur.com/hcxnXa0.png)
@@ -108,6 +111,7 @@ Order Archive features **API integration** with the Rest API commands of Magento
 
 #### Step 1: Get Access Token
 - Log in to **Postman**, in the **Headers section** select **Key = Content-Type**, **Value = application/json**
+- At **Body** tab, insert `{"username": "demo", "password": "demo123"}` with `demo/demo123`are `username/password` to login to your backend  
 - Use the **Post** and **Send** method with the following command:
 `http://example.com/rest/default/V1/integration/admin/token`
 
@@ -134,4 +138,4 @@ Order Archive features **API integration** with the Rest API commands of Magento
 
 ### 5. Notification Email
 
-![Imgur](https://i.imgur.com/Qk1RSkU.png)
+![Imgur](https://i.imgur.com/Va0cS2U.png)
