@@ -20,19 +20,19 @@ This extension is fully compatible with [Mageplaza One Step Checkout](https://ww
 
 ### 1. Shopping Cart page
 
-![Imgur](https://i.imgur.com/w2xkNgj.png)
+![Multiple Coupons1](https://i.imgur.com/w2xkNgj.png)
 
 ### 2. Magento Default Checkout page
 
-![Imgur](https://i.imgur.com/3q4M7rn.png)
+![Multiple Coupons2](https://i.imgur.com/3q4M7rn.png)
 
 ### 3. One Step Checkout page
 
-![Imgur](https://i.imgur.com/6kNAL6p.png)
+![Multiple Coupons3](https://i.imgur.com/6kNAL6p.png)
 
 ### 4. Admin Order page
 
-![Imgur](https://i.imgur.com/N0urBoL.png)
+![Multiple Coupons4](https://i.imgur.com/N0urBoL.png)
 
 
 ## How to Configure
@@ -41,7 +41,7 @@ This extension is fully compatible with [Mageplaza One Step Checkout](https://ww
 
 From the **Admin panel**, go to `Stores > Configuration > Mageplaza > Multiple Coupons`
 
-![Imgur](https://i.imgur.com/51MtkVM.png)
+![Multiple Coupons5](https://i.imgur.com/51MtkVM.png)
 
 - Select **Enable = Yes** to enable the module
 
@@ -71,12 +71,13 @@ Multiple Coupon extension supports API integration with Rest API commands of Mag
 ### Instructions for using Postman to check API
 
 #### Step 1: Get Access Token
-- Log in to Postman, in the Headers section select `Key = Content-Type`, `Value = application/json`
-- Use the POST method and send the following command:
+- Log in to **Postman**, in the **Headers** section select `Key = Content-Type`, `Value = application/json`
+- At **Body** tab, insert `{"username": "demo", "password": "demo123"}` with `demo/demo123`are `username/password` to login to your backend  
+- Use the **POST** method and send the following command:
 
 http://example.com/rest/default/V1/integration/admin/token
 
-![Imgur](https://i.imgur.com/FP9x7jg.png)
+![Multiple Coupons6](https://i.imgur.com/FP9x7jg.png)
 
 - **Access Key** will be displayed in the **Body** section
 
@@ -87,16 +88,16 @@ http://example.com/rest/default/V1/integration/admin/token
   - **Authorization**: bearer access_token
   - **Content-Type**: application/json
   
-  ![Imgur](https://i.imgur.com/9vtG53C.png)
+  ![Multiple Coupons7](https://i.imgur.com/9vtG53C.png)
   
 - **Send REST API commands**:
 
-![Imgur](https://i.imgur.com/lxAFg9w.png)
+![Multiple Coupons8](https://i.imgur.com/lxAFg9w.png)
 
 - Here are the **results** after sending commands:
 
-![Imgur](https://i.imgur.com/a5HxPkW.png)
+![Multiple Coupons8](https://i.imgur.com/a5HxPkW.png)
 
-![Imgur](https://i.imgur.com/Ln6YjDW.png)
+![Multiple Coupons9](https://i.imgur.com/Ln6YjDW.png)
 
 
