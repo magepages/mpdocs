@@ -38,7 +38,7 @@ On the Product Detail Page, customers can:
 ![Better Product Reviews5](https://i.imgur.com/O7RtHa6.png)
 
 
-1.2. My Account> My Product Reviews
+#### 1.2. My Account> My Product Reviews
 
 ![Better Product Reviews6](https://i.imgur.com/yr2BTn7.png)
 
@@ -46,7 +46,7 @@ On the Product Detail Page, customers can:
 - Customers can quickly find the product that they bought to write a review for that product
 
 
-2. Admin
+### 2. Admin
 
 In addition to settings at Configuration, admin can also:
 - Control, edit and reply customers' reviews: Choose `Marketing> User Content> Reviews`
@@ -65,14 +65,14 @@ In addition to settings at Configuration, admin can also:
 
 ## How to Configure
 
-1. Configuration
+### 1. Configuration
 
 
 From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Product Reviews`
 
 ![Better Product Reviews10](https://i.imgur.com/o8a2paC.png)
 
-1.1. General Configuration
+#### 1.1. General Configuration
 
 ![Better Product Reviews11](https://i.imgur.com/ReP1Qr9.png)
 
@@ -93,7 +93,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
     - **Both**: Displays the number of approve reviews and pending reviews by Customer/Product
     
     
-1.2. Write Review Configuration
+#### 1.2. Write Review Configuration
 
 ![Better Product Reviews12](https://i.imgur.com/B7zCWpY.png)
 
@@ -117,7 +117,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
   - If left blank or 0, there is no limit to the number of images uploaded
   - With the Review section at the backend, admin is not limited to upload images
 
-1.2.1 Terms and Conditions
+##### 1.2.1 Terms and Conditions
 
 ![Better Product Reviews13](https://i.imgur.com/pacUDV2.png)
 
@@ -137,7 +137,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
 
 - **Checked by default**: Select `Yes` to automatically check the checkbox (always agree to store terms and conditions)
 
-1.3. Review Listing Configuration
+#### 1.3. Review Listing Configuration
 
 ![Better Product Reviews14](https://i.imgur.com/Y1yNJo4.png)
 
@@ -152,7 +152,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
   - When the number of reviews is more than the limited quantity, the Load More button will be displayed
   
   
-1.3.1. Sorting
+##### 1.3.1. Sorting
 
 ![Better Product Reviews15](https://i.imgur.com/URXGte9.png)
 
@@ -164,7 +164,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
 - **Default Sort Direction**: Choose **Ascending** or **Descending** to sort the values in a certain order
 
 
-2. Edit Review of Customer
+### 2. Edit Review of Customer
 
 Whenever Customer submit 1 review, that review will be logged in **Pending** status at `Marketing> User Content> Reviews`
 
@@ -196,15 +196,15 @@ When admin edit 1 review, in addition to the available Magento fields, the **Mag
     
     ![Better Product Reviews19](https://i.imgur.com/AxBiNbP.png)
 
-3. Statistics Quality Review
+### 3. Statistics Quality Review
 
-3.1. Report by Customers
+#### 3.1. Report by Customers
 
 Customer reviews are listed according to **Report Review Status** which has been installed at Configuration. With each status selected, the report will be different
 
 ![Better Product Reviews20](https://i.imgur.com/Ku3SBVh.png)
 
-3.2. Report by Products
+#### 3.2. Report by Products
 
 Product reviews are listed according to **Report Review Status** installed at Configuration. With each status selected, the report will be different
 
