@@ -110,75 +110,109 @@ In this section, configure the option of attributes for the Custom Stock Status 
 ![Imgur](https://i.imgur.com/i8Cmk1D.png)
 
 
-- Default Label:
+- **Default Label**:
   - You can change the name for attributes, the names of these attributes will be displayed in the `Catalog> Product` section, edit a product.
   - This is a required field.
   
-- Catalog Input Type for Store Owner: Select the input type. Include options:
-  - Visual Swatch: Create an option of attributes Custom Stock Status in Manage Swatch (Values of Your Attribute) with label and image. You can upload image with .gif, .jpg, .png format. You can enter the option replacement name of attributes Custom Stock  Status for each store. Here, we support adding the variable in status to the Quantity label of the product. For example: Only {{qty}} in stock, Will be available tomorrow, {{attribute_code}}
+- **Catalog Input Type for Store Owner**: Select the input type. Include options:
+  - **Visual Swatch**: Create an option of attributes Custom Stock Status in Manage Swatch (Values of Your Attribute) with label and image. You can upload image with .gif, .jpg, .png format. You can enter the option replacement name of attributes Custom Stock  Status for each store. Here, we support adding the variable in status to the Quantity label of the product. For example: Only {{qty}} in stock, Will be available tomorrow, {{attribute_code}}
   
   ![Imgur](https://i.imgur.com/BzgUBzD.png)
   
-  Note: If you select the Visual Swatch, you can display both the label and image outside the Frontend for Custom Stock Status, depending on the selection of the Status format field at Configuration.
+- **Note**: If you select the Visual Swatch, you can display both the label and image outside the Frontend for Custom Stock Status, depending on the selection of the Status format field at Configuration.
+  
 With Admin is the price you must enter and for each store you can replace the option name of attributes. If the names of the stores are left blank, they will default to Admin values.
-Values Required: If "yes" is selected, attributes will be set to the default values required to select an option of attributes.
+
+- **Values Required**: Select `Yes`, attributes will be set to the default values required to select an option of attributes.
+
 2.1.2. Advanced Attribute Properties
+
 This section you can configure the display position design of attributes. With the Attribute Code field and the Validation Input for Store Owner the default value.
 
+![Imgur](https://i.imgur.com/pfwhbJV.png)
 
 2.2. Manage Labels
+
 Fill Titles to replace Attributes Custom Stock Status shows which store you want. The title will display replacing the Attributes name. If left blank, it will default to the Attributes name you set in the Default Label field. Example: Custom Stock Status
 
+![Imgur](https://i.imgur.com/V1lUohx.png)
+
 2.3. Storefront Properties
+
 Select Storefront Properties information to display Attributes in the store location you want.
 
+![Imgur](https://i.imgur.com/eRgwbBe.png)
+
 3. Manage Dynamic Groups
-Login to the Magento Admin, choose Stores> Custom Stock Status> Manage Dynamic Quantity Groups. Or you can visit Store> Attributes> Product, search in Attributes Code field with mp_dynamic_groups.
-For Dynamic Group, it only applies to Simple Product and if the product satisfies Dynamic Group, it will give priority to consider or apply Dynamic Group first.
+
+- Login to the Magento Admin, choose `Stores> Custom Stock Status> Manage Dynamic Quantity Groups`. Or you can visit `Store> Attributes> Product`, search in Attributes Code field with `mp_dynamic_groups`.
+
+- For **Dynamic Group**, it only applies to **Simple Product** and if the product satisfies Dynamic Group, it will give priority to consider or apply Dynamic Group first.
+
 3.1. Properties
+
 3.1.1. Attribute Properties
 
+![Imgur](https://i.imgur.com/jwv9Tmj.png)
 
-Default Label:
-You can change the name for attributes, the names of these attributes will be displayed in the Catalog> Product section, edit a product. For example: Dynamic Group, ...
-The required field must not be blank. Leave the "This is a required field" message blank.
-Catalog Input Type for Store Owner: In this field, the default input type is Multiple Select.
-Multiple Select: create a name for Dynamic Group in Manage Options (Values ​​of Your Attribute). If Simple Product satisfies each Dynamic group, then it will apply Stock Status with Dynamic group selected.
+- **Default Label**:
+  - You can change the name for attributes, the names of these attributes will be displayed in the Catalog> Product section, edit a product. For example: Dynamic Group, ...
+  - The required field must not be blank. Leave the "This is a required field" message blank.
+- **Catalog Input Type for Store Owner**: In this field, the default input type is Multiple Select.
+- **Multiple Select**: create a name for Dynamic Group in Manage Options (Values of Your Attribute). If Simple Product satisfies each Dynamic group, then it will apply Stock Status with Dynamic group selected.
+
 3.1.2. Advanced Attribute Properties
-This section is similar to the Custom Stock Status section, you can configure the design of the display location of attributes. With the Attribute Code field and the Validation Input for Store Owner the default value.
-With Manage Labels and Storefront Properties is exactly the same as the ones above we have guided.
+
+- This section is similar to the Custom Stock Status section, you can configure the design of the display location of attributes. With the Attribute Code field and the Validation Input for Store Owner the default value.
+- With Manage Labels and Storefront Properties is exactly the same as the ones above we have guided.
 
 3.2. Dynamic Quantity Groups Properties
 
-In this section, selecting the Dynamic Group based on qty will apply the selected Stock Status if the field Enable Automatic Stock Status based on Dynamic Quantity Ranges at Configuration is enabled and Dynamic Group applies only to Simple Product.
-For example, with Group Name Available, select Stock Status as Coming Soon2 (get Stock Status from the Custom Stock Status option you created above) with Quantity From = 0, Quantity To = 3. If the Simple product has Quantity within About on will be applied Dynamic Group
-Note: When your product has a satisfactory Quantity to apply Dynamic Group, you must also consider that product meets the condition that you have configured at Configuration and you will apply Dynamic Group. If the product selects all Dynamic Group groups then the priority will be considered from top to bottom.
+![Imgur](https://i.imgur.com/NlCxTCG.png)
+
+- In this section, selecting the Dynamic Group based on qty will apply the selected Stock Status if the field Enable Automatic Stock Status based on Dynamic Quantity Ranges at Configuration is enabled and Dynamic Group applies only to Simple Product.
+- For example, with Group Name Available, select Stock Status as Coming Soon2 (get Stock Status from the Custom Stock Status option you created above) with Quantity From = 0, Quantity To = 3. If the Simple product has Quantity within About on will be applied Dynamic Group
+- Note: When your product has a satisfactory Quantity to apply Dynamic Group, you must also consider that product meets the condition that you have configured at Configuration and you will apply Dynamic Group. If the product selects all Dynamic Group groups then the priority will be considered from top to bottom.
 
 4. Edit Product
 4.1. Edit Product
-Login to the Magento Admin, choose Catalog> Products.
-In the Edit product section, these two fields are added when installing the Custom Stock Status extension of Mageplaza. With the Option of these two fields, you have created options attributes in Manage Custom Stock Status and Manage Dynamic Groups
+- Login to the Magento Admin, choose `Catalog> Products`.
+- In the Edit product section, these two fields are added when installing the Custom Stock Status extension of Mageplaza. With the Option of these two fields, you have created options attributes in Manage Custom Stock Status and Manage Dynamic Groups
 
+![Imgur](https://i.imgur.com/LR4jvCi.png)
 
-Note:
+**Note**:
+
 In case if both Custom Stock Status and Dynamic Groups to be selected, then priority will be given to Dynamic group first. If the product is not satisfied Dynamic group will continue to consider applying Custom Stock Status. And if you continue to Custom Custom Status, the default Stock Status will be applied by magento.
+
 4.2. Product Grid
-You can edit products for multiple products at the same time to save time. Go to Catalog> Products, on the product page select the products you want to edit the Custom Stock Status and select Actions> Update Attributes.
+
+You can edit products for multiple products at the same time to save time. Go to `Catalog> Products`, on the product page select the products you want to edit the Custom Stock Status and select Actions> Update Attributes.
+
+![Imgur](https://i.imgur.com/EPjUWlU.gif)
 
 
+### Attention
 
-Attention
-When you want to remove the extension, you should use composer to run the command: "bin / magento module: uninstall Mageplaza_ProductAlerts"
-If you delete the extension manually, you need to delete the mp_dynamic_groups and mp_stock_status attributes in the database or in the backend.
-Method 1: Go to the backend: From the Admin Panel, go to Stores> Attributes> Product. In the Attribute Code column, find the attribute mp_dynamic_groups and mp_stock_status, click and delete
+- When you want to remove the extension, you should use composer to run the command: `bin / magento module: uninstall Mageplaza_ProductAlerts`
 
-Method 2: Go to the database to delete: Access to eav_attribute table. In the attribute_code column, you find and delete the attribute mp_dynamic_groups and mp_stock_status
+- If you delete the extension manually, you need to delete the `mp_dynamic_groups` and `mp_stock_status` attributes in the database or in the backend.
 
+#### Method 1: 
+Go to the backend: From the Admin Panel, go to Stores> Attributes> Product. In the Attribute Code column, find the attribute mp_dynamic_groups and mp_stock_status, click and delete
 
-Mageplaza Extension compatible
+![Imgur](https://i.imgur.com/dDESXC4.png)
+
+#### Method 2: 
+
+Go to the database to delete: Access to eav_attribute table. In the attribute_code column, you find and delete the attribute mp_dynamic_groups and mp_stock_status
+
+![Imgur](https://i.imgur.com/Vuoa5an.png)
+
+- Mageplaza Extension compatible
 You can install some Mageplaza extensions, it is fully compatible with Custom Stock Status.
 Product Slider: allows you to easily create many sliders such as featured products, bestselling products, new products, etc. If you install Product Slider products that apply Custom Stock Status on sliders with image or text or both.
 Automatic Related Products: with this extension you can design for related products, can display on slider and display image and text of Custom Stock Status on that slider.
 Who Viewed This Also Viewed: Customers are more likely to make a purchase decision when they see a product that other customers have seen. By smart algorithms, the most viewed products will be automatically updated and proposed to customers.
   
-
+![Imgur](https://i.imgur.com/L67ztPy.gif)
