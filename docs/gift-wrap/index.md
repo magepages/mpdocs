@@ -3,7 +3,7 @@
 
 ## Overview
 
-In order to improve consumption of products, especially during important holidays and days for customers, Mageplaza developed Gift Wrap extension. Gift Wrap allows to create/ delete/ edit/ classify attractive gift packages to serve customers, view and manage order information with gift packages. And of course, customers can freely choose suitable gift packages. In addition, customers can add cards, add messages in the card to the recipient. The Gift Wrap utility is fully compatible with Mageplaza's One Checkout Step.
+In order to improve consumption of products, especially during important holidays and customers' special days, Mageplaza developed [Gift Wrap extension](https://www.mageplaza.com/magento-2-gift-wrap/). Gift Wrap allows to create/ delete/ edit/ classify attractive gift packages to serve customers. Admins can view and manage order information with gift packages. And of course, customers can freely choose suitable gift packages. In addition, customers can add cards with messages to the recipient. The Gift Wrap plugin is fully compatible with [Mageplaza's One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## How to download and install
 
@@ -13,12 +13,17 @@ In order to improve consumption of products, especially during important holiday
 
 ## How to use
 
-- Customers can choose/ change the gift package.
+- Customers can choose the Gift Wrap 
+
+![Imgur](https://i.imgur.com/jBiFlit.png)
+
+- Change Gift Wrap 
+
+![Imgur](https://i.imgur.com/QsBW9F6.png)
+
 - Send messages to recipients.
 
-![Imgur](https://i.imgur.com/3ED4Nfn.png)
-
-![Imgur](https://i.imgur.com/GktZwuQ.png)
+![Imgur](https://i.imgur.com/fveHVOJ.png)
 
 
 ## How to Configuration
@@ -31,9 +36,9 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`
 
 ### 1. Configuration
 
-From the **Admin Panel**, go to **Configuration**, select **General**
+From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select **General**
 
-![Imgur](https://i.imgur.com/D4MeFLa.gif)
+![Imgur](https://i.imgur.com/quEJRHe.gif)
 
 - **Enable**: Select `Yes` to turn on the Module.
 - **Add Gift Wrap Button Label**: Choose the label for Gift Wrap button, default label is **Add Gift Wrap**.
@@ -43,39 +48,57 @@ From the **Admin Panel**, go to **Configuration**, select **General**
 [Imgur](https://i.imgur.com/FgxMx8s.png)
 
 - **Gift Wrap Icon**:
-  - Click **Choose file** to select the icon displayed infront of **Add Gift Wrap** label in Frontend.
+  - Click **Choose file** to select the icon displayed infront of **Add Gift Wrap** label in Frontend. 
+  - **Delete image**: Delete the icon chosen. 
   - Only accept jpg, png and gif files
+  - Provie suggested icon for admin
+
+![Imgur](https://i.imgur.com/krxXiyX.png)
   
 - **Gift Wrap Type**: 
   - **Per Item**: applicable to each type of product, displaying an extra field **Gift Wrap on Product View Page**
     - **Gift Wrap on Product View Page**: Choose "Yes" to wrap the gift on the **Product Detail Page**
     - For example: Cart has 3 products, customers can choose each type of Gift Wrap for each product
     
-    ![Imgur](https://i.imgur.com/yIwLRR2.png)
-
+    ![Imgur](https://i.imgur.com/ex1nuCs.png)
+    
   - **Per Cart**: Applies one Gift Wrap type to all products in the shopping cart, displaying the extra field **Notice for Customer**
     - **Notice for Customer**: Displays a notification to the customer, default message is `All items will be wrapped in one gift box by default`
     - For example: Cart has 3 products, customers can only choose one type of Gift Wrap to apply to all Product in Cart
     
     
-    ![Imgur](https://i.imgur.com/YZlybUd.png)
+    ![Imgur](https://i.imgur.com/eqBQAV6.png)
 
 - **Both**:
 - Apply for each certain Product and for the shopping cart as well .
 - For example: A Cart has 3 products, customer can choose a Gift Wrap type, apply for all Product in Cart, or choose separately Gift Wrap for each Product
 - Show both fields above (**Notice to Customers** và **Gift Wrap on Product View Page**)
 
-![Imgur](https://i.imgur.com/HZXloXM.png)
+![Imgur](https://i.imgur.com/xxLTHAe.png)
 
 - **Enable Gift Message**: Select `Yes` to display the message box, display 2 more fields: **Max Characters, Gift Message Fee**.
 - **Max Characters**: limit the maximum number of characters of the message, the default is 120.
 - **Gift Message Fee**: set the message fee, default fee is 0.
-- **Show Gift Message Under Product On**: 
-  - Choose to show gift message under porduct on the following pages: 
+- **Show Gift Message Under Product On**: Choose to show gift message under porduct on the following pages: 
   
   
+  - **Shopping Cart Page**
+ 
+![Imgur](https://i.imgur.com/VxsGZFt.png)
 
-![Imgur](https://i.imgur.com/zWFSavw.png)
+  - **Checkout Page**
+  
+  ![Imgur](https://i.imgur.com/QL6jfO1.png)
+  
+  - **Mageplaza One Step Checkout**
+  
+  ![Imgur](https://i.imgur.com/mPoROYU.png)
+  
+  
+  ![Imgur](https://i.imgur.com/ZKLVCm2.png)
+  
+ - Show Mageplaza One Step Checkout khi cài đặt extension One Step Checkout của Mageplaza. Khi cài One Step Checkout của Mageplaza bạn có thể tóm gọn 6 bước thanh toán chỉ trong 1 trang giúp khách hàng thuận tiện , dễ dàng rút ngắn thời gian trong việc thanh toán.
+
 
 ### 2. Manage Wrap Categories
 
