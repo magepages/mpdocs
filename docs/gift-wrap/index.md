@@ -45,7 +45,7 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select 
 - **Change Gift Wrap Button Label**: Choose the label for selected gift wrap, the default label is **Change Your Gift Wrap**.
 - **Tax Class**: Select **Tax Class** that customers need to pay.
 
-[Imgur](https://i.imgur.com/FgxMx8s.png)
+![Imgur](https://i.imgur.com/FgxMx8s.png)
 
 - **Gift Wrap Icon**:
   - Click **Choose file** to select the icon displayed infront of **Add Gift Wrap** label in Frontend. 
@@ -70,9 +70,9 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select 
     ![Imgur](https://i.imgur.com/eqBQAV6.png)
 
 - **Both**:
-- Apply for each certain Product and for the shopping cart as well .
-- For example: A Cart has 3 products, customer can choose a Gift Wrap type, apply for all Product in Cart, or choose separately Gift Wrap for each Product
-- Show both fields above (**Notice to Customers** và **Gift Wrap on Product View Page**)
+  - Apply for each certain Product and for the shopping cart as well .
+  - For example: A Cart has 3 products, customer can choose a Gift Wrap type, apply for all Product in Cart, or choose separately Gift Wrap for each Product
+  - Show both fields above (**Notice to Customers** và **Gift Wrap on Product View Page**)
 
 ![Imgur](https://i.imgur.com/xxLTHAe.png)
 
@@ -97,8 +97,7 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select 
   
   ![Imgur](https://i.imgur.com/ZKLVCm2.png)
   
- - Show Mageplaza One Step Checkout khi cài đặt extension One Step Checkout của Mageplaza. Khi cài One Step Checkout của Mageplaza bạn có thể tóm gọn 6 bước thanh toán chỉ trong 1 trang giúp khách hàng thuận tiện , dễ dàng rút ngắn thời gian trong việc thanh toán.
-
+- Show the Mageplaza One Step Checkout option when installing [Mageplaza's One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/). With this module, customers can go through 6 steps of payment in one page, making it convenient for them to process with checkout.
 
 ### 2. Manage Wrap Categories
 
@@ -106,15 +105,7 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Manage Category`
 
 #### 2.1. Manage Category Grid
 
-
-
-- This is where the gift package catalog is displayed.
-- From Manage Category, admin can capture basic information of Categories such as ID, Name, Status, Customer Groups, Store View, Sort Order, Action.
-- Action:
-- Delete: Delete the information on Manage Category page.
-- Change Status: Change the status of the selected Categories.
-- Edit: Go to the Category information editing page.
-- In addition, admin can Filter, Change Store View, Hide / Display Columns.
+![Imgur](https://i.imgur.com/i3fy8yP.png)
 
 - This is where the gift package catalog is displayed.
 - From **Manage Category**, admin can capture basic information of Gift Wrap such as ID, Name, Status, Price Type, Amount, Image, Category, Sort Order, Action.
@@ -131,11 +122,11 @@ From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Category > Create
 
 ![Imgur](https://i.imgur.com/z1Y0aUV.png)
 
-- **Name**: Enter a name for the Category.
+- **Name**: Enter a name for the Category. This is a required field.
 - **Status**: Select **Enable** to display the Category in Frontend.
 - **Description**: Enter the description of the Category.
-- **Store View(s)**: Select a storeview for category.
-- **Customer Group(s)**: Select the customer group for which the Category will display.
+- **Store View(s)**: Select a storeview for category shown at frontend. You can select multiple storeviews. 
+- **Customer Group(s)**: Select the customer group for which the Category will display. You can select multiple customer groups. 
 - **Sort Order**: default is 0, the Category with smaller Sort Order will be displayed first at Frontend.
 
 
@@ -145,9 +136,9 @@ From the Admin Panel, go to `Marketing > Gift Wrap > Manage Gift Wrappers`
 
 #### 3.1. Manage Gift Wrappers Grid
 
-![Imgur](https://i.imgur.com/ALNlEv5.png)
+![Imgur](https://i.imgur.com/JpCIqd0.png)
 
-- This is where the gift package catalog is displayed.
+- This is where the gift wrap catalog is displayed.
 - From **Manage Gift Wrappers**, admin can capture basic information of Gift Wrap such as ID, Name, Status, Price Type, Amount, Image, Category, Sort Order, Action.
 - **Action**:
   - **Delete**: Delete information on **Manage Gift Wrappers** page
@@ -162,13 +153,17 @@ From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Gift Wrap > Creat
 
 ![Imgur](https://i.imgur.com/51yao8Y.png)
 
-- **Name**: Enter a name for Gift Wrap.
+- **Name**: Enter a name for Gift Wrap. This is a required field. 
 - **Status**: Select **Enable** to display Gift Wrap in Frontend.
 - **Price**: Choose the type of gift price calculation:
   - **Fixed**: Calculate the price basing on cart total.
   - **By Qty**: Calculate price by product quantity. For example, the number of products is 2, get the price $ multiplied by 2
 - **Amount**: Enter the gift package price.
-- **Description**: Enter the description of Gift Wrap.
+- **Description**: Enter the description shown under Gift Wrap.
+
+![Imgur](https://i.imgur.com/YClsmwM.png)
+
+
 - **Image**: Select the image displayed in Frontend.
 - **Category**: Select the gift package category.
 - **Sort Order**: default to 0, Gift Wrap with smaller Sort Order will be displayed first at Frontend.
@@ -178,6 +173,7 @@ From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Gift Wrap > Creat
 
 From **Admin panel**, go to `Marketing > Gift Wrap > Manage History`
 
-![Imgur](https://i.imgur.com/SH4podK.png)
+![Imgur](https://i.imgur.com/N6LAyx0.png)
 
-Here is the storage of the Gift Wrap products and messages that customers has ordered. 
+- Here is the storage of the Gift Wrap products and messages that customers has ordered. 
+- Admin can Filter, Change Store View, Hide/Show Columns or download information table in csv and xml file.
