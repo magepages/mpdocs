@@ -14,15 +14,15 @@ Custom Stock Status will help admin install additional stock statuses for the pr
 
 Custom Stock Status apply for the followign product types:
 
-### Simple Product
+- **Simple Product**
 
 ![Imgur](https://i.imgur.com/7Dc7N7i.png)
 
-### Bundle Product: Can apply for child products of Bundle products
+- **Bundle Product**: Can apply for child products of Bundle products
 
 ![Imgur](https://i.imgur.com/hWVisBa.png)
 
-### Group Product: Can apply for child products of Bundle products
+- **Group Product**: Can apply for child products of Bundle products
 
 ![Imgur](https://i.imgur.com/GdHFzkq.png)
 
