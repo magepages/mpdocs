@@ -52,7 +52,7 @@ Login to the **Magento Admin**, choose `System> Import`
 
 ![Imgur](https://i.imgur.com/EuD1Icc.png)
 
-- In the **Select File to Import** section, click "Choose File" to select the imported categories file.
+- In the **Select File to Import** section, click **Choose File** to select the imported categories file.
 - Note: If **Entity File = Mageplaza Categories Import** then your entity file must be matched with the fields in that file. The file format is CSV.
 - If the imported files contains a path to the product image, in case the **Images File Directory** is empty, include your image in the directory with the path: `pub/media/import/wysiwyg` (if not available, you need to create this folder)
 
@@ -60,8 +60,8 @@ Login to the **Magento Admin**, choose `System> Import`
 
 #### Step 4: Check data and finish data entry
 
-- After entering the above information, click "Check Data" at the top right to check if the data you entered is correct.
-  - If the file is valid, click "Import" in the **Validation Results** section.
+- After entering the above information, click **Check Data** at the top right to check if the data you entered is correct.
+  - If the file is valid, click **Import** in the **Validation Results** section.
 
 ![Imgur](https://i.imgur.com/Pt5APda.png)
 
@@ -107,7 +107,7 @@ Login to the **Magento Admin**, choose `System > Export`
 
 
 ### Note: In case you want to get the Export file to import, pay attention to the following cases:
-- Incase you need to change some of the export fields before you want to perform Import: "store_id", "parent", "is_active", "include_in_menu"
+- Incase you need to change some of the export fields before you want to perform Import such as store_id, parent, is_active, include_in_menu
   - **Store_id**: In the Export file, the value of the fields is **admin** when you import it to "0".
   - **Parent**: Notice that the value **parent** cannot be the same as the value of **category_id**.
   - **Is_active**: In the Export file, the value of the fields is Yes/No when you import it to change to 1/0.
