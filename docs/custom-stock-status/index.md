@@ -26,7 +26,7 @@ Custom Stock Status apply for the followign product types:
 
 ![Imgur](https://i.imgur.com/GdHFzkq.png)
 
-### Configurable Product: With this product type, you can configure the Custom Stock Status by size and color of products
+- **Configurable Product**: With this product type, you can configure the Custom Stock Status by size and color of products
 
 ![Imgur](https://i.imgur.com/CRmRC4F.gif)
 
@@ -85,13 +85,13 @@ Login to the **Admin Magento**, choose `Stores> Custom Stock Status> Configurati
   ![Imgur](https://i.imgur.com/amI1oMI.png)
   
 - **Apply with Child Configurable Product Options**:
-  - Selecting "Yes" to display the **Custom Stock Status** on options such as size, color, ... with the **Configurable Product** and the **sub-products** of **Group Product, Bundle Product**.
-  - Selecting "No" will not display the **Custom Stock Status** at any child product type.
+  - Selecting `Yes` to display the **Custom Stock Status** on options such as size, color, ... with the **Configurable Product** and the **sub-products** of **Group Product, Bundle Product**.
+  - Selecting `No` will not display the **Custom Stock Status** at any child product type.
   
 - **Enable Automatic Stock Status based on Dynamic Quantity Ranges**:
   - Select `Yes`, it will enable **Automatic Stock Status based on Dynamic Quantity Ranges**. If the product satisfies Dynamic Group, it will apply Stock Status with Group Name group. Dynamic Group applies only to Simple Group.
-  - If "No" is selected, it will not apply **Dynamic Groups**.
-  - In case both the **Custom Stock Status** and **Dynamic Groups** are selected and enable, it will prioritize the information in the previous **Dynamic Groups** field. You can access  Store> Attributes> Product` to search with 2 attributes to create additional options for **Custom Stock Status** and **Dynamic Groups**.
+  - If `No` is selected, it will not apply **Dynamic Groups**.
+  - In case both the **Custom Stock Status** and **Dynamic Groups** are selected and enable, it will prioritize the information in the previous **Dynamic Groups** field. You can access `Store> Attributes> Product` to search with 2 attributes to create additional options for **Custom Stock Status** and **Dynamic Groups**.
   
 
 ### 2. Manage Custom Stock Status
@@ -115,7 +115,7 @@ In this section, you can create the option Custom Stock Status attribute when ac
 - **Catalog Input Type for Store Owner**: 
   - **Visual Swatch**: Create an option of Custom Stock Status attributes in **Manage Swatch** (Values of Your Attribute) with label and image. You can upload image with .gif, .jpg, .png format. You can enter the replaced name of Custom Stock Status attributes for each store. Here, we support adding the variable in status to the Quantity label of the product. For example: Only {{qty}} in stock, Will be available tomorrow, {{attribute_code}}
   
-  ![Imgur](https://i.imgur.com/BzgUBzD.png)
+  ![Imgur](https://i.imgur.com/5bg0e3j.png)
   
 - **Note**: If you select the **Visual Swatch**, you can display both the label and image outside the Frontend for **Custom Stock Status**, depending on the selection of the **Status format** field at Configuration.
   
@@ -192,24 +192,24 @@ You can edit products for multiple products at the same time to save time. Go to
 ![Imgur](https://i.imgur.com/EPjUWlU.gif)
 
 
-### Attention
+### 5. Attention
 
 - When you want to remove the extension, you should use composer to run the command: `bin / magento module: uninstall Mageplaza_StockStatus`
 
 - If you delete the extension manually, you need to delete more the `mp_dynamic_groups` and `mp_stock_status` attributes in the database or in the backend.
 
-#### Solution 1: 
+#### 5.1 Solution 1: 
 Go to the backend: From the **Admin Panel**, go to `Stores> Attributes> Product`. In the **Attribute Code** column, find the attribute `mp_dynamic_groups` and `mp_stock_status`, click and delete
 
 ![Imgur](https://i.imgur.com/dDESXC4.png)
 
-#### Solution 2: 
+#### 5.2 Solution 2: 
 
 Go to the database to delete: Access to `eav_attribute` table. In the `attribute_code` column, you find and delete the attribute `mp_dynamic_groups` and `mp_stock_status`
 
 ![Imgur](https://i.imgur.com/Vuoa5an.png)
 
-### Compatible with Mageplaza Extensions 
+### 6. Compatible with Mageplaza Extensions 
 
 You can install some Mageplaza extensions. They are fully compatible with Custom Stock Status and :
 
