@@ -2,7 +2,7 @@
 
 ## Overview 
 
-Currently, stores use e-commerce sites more and more, thus shop owners must cooperate with suppliers to add categories pages to their stores. With [Mageplaza Import Export Categories extension](https://www.mageplaza.com/magento-2-import-export-categories/), customers can perform import and export of their categories.
+Currently, stores use e-commerce sites more and more, thus shop owners must cooperate with suppliers to add categories pages to their stores. With [Mageplaza Import Export Categories extension](https://www.mageplaza.com/magento-2-import-export-categories/), customers can perform import and export of their categories. By this, admins can easily manage products by categories, update new categories quickly hence help them lessen time and increase the efficiency of product data management.
 
 ## How to download and install
 
