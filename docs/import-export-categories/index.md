@@ -1,4 +1,4 @@
-# Import Export Categories Extension User Guide
+# Import Export Categories User Guide
 
 ## Overview 
 
