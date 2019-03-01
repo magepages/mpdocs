@@ -44,13 +44,16 @@ Welcome to Mageplaza Docs
    abandoned-cart-email/index
    age-verification/index
    banner-slider/index
+   backend-reindex/index
    better-coupon/index
    better-popup/index
    better-change-qty/index
+   better-product-reviews/index
    blog-m2/index
    call-for-price/index
    custom-order-number/index
    customer-attributes/index
+   custom-stock-status/index
    daily-deal/index
    delete-order-m2/index
    delivery-time/index
@@ -67,9 +70,12 @@ Welcome to Mageplaza Docs
    google-recaptcha/index
    google-analytics-m2/index
    google-maps/index
+   import-export-categories/index
+   instagram-feed/index
    login-as-customer/index
    multi-flat-rates/index
    multiple-coupons/index
+   order-archive/index
    order-attributes/index
    order-export/index
    payment-restriction/index
@@ -79,13 +85,11 @@ Welcome to Mageplaza Docs
    product-alerts/index
    quick-view-ajax-cart/index
    quick-order/index
+   required-login/index
+   review-reminder/index
    search/index
    security/index
    security-pro/index
-   reports/index
-   reports-pro/index
-   required-login/index
-   review-reminder/index
    same-order-number/index
    share-cart/index
    search-m2/index
@@ -97,6 +101,7 @@ Welcome to Mageplaza Docs
    store-switcher/index
    store-credit/index
    thank-you-page/index
+   twitter-widget/index
    who-bought-this-also-bought/index
    who-viewed-this-also-viewed/index
    webhook/index
