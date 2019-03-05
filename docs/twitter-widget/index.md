@@ -1,4 +1,4 @@
-# Magento 2 Twitter Widget Extension
+# Twitter Widget 
 
 ## Overview
 Twitter is a popular social networking for people and stores who all need to advertise there. Therefore, Mageplaza builds a new module called [Twitter Widget](https://www.mageplaza.com/magento-2-twitter-widget). It allows owners to easily insert Twitter Timeline widgets. This makes stores more accessible to customers, less expensive and highly efficient. Not only that, the owner can manage tweets on any page you want.
