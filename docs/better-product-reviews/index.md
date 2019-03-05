@@ -1,4 +1,4 @@
-# Magento 2 Better Product Reviews Extension
+# Better Product Reviews 
 
 ## Overview
 
