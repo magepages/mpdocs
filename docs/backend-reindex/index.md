@@ -1,4 +1,4 @@
-# Backend Reindex Extension for Magento 2
+# Backend Reindex 
 
 ## Overview
 
