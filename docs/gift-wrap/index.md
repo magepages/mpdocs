@@ -1,4 +1,4 @@
-# Gift Wrap Extension User Guide
+# Gift Wrap 
 
 
 ## Overview
