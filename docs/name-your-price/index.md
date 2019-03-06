@@ -2,7 +2,7 @@
 
 ## Overview
 
-When shopping, customers would love to bargain for their intereted products. [Mageplaza Name Your Price extension](https://www.mageplaza.com/magento-2-name-your-price/) can help them gain this little joy. Customers can make a request for a price that he wants to buy for the owner. All requests are sent to the server, and the admin may approve or reject this request according to the suitability of the price offered by the customer. Of course, approve or reject will be notified to Customer by email. When the price is released, Customer will buy the Product at that price for a certain period of time. If you do not like the price that Admin has approved, Customer can completely cancel it and request a new price. However, only Product installed by the admin can be sent.
+When shopping, customers would love to bargain for their favored products. [Mageplaza Name Your Price extension](https://www.mageplaza.com/magento-2-name-your-price/) can help them gain this little joy. Customers can request a price that he wants to buy for the owner. All requests are sent to the server, and the admin may approve or reject this request according to the suitability of the price offered by the customer. Of course, approve or reject will be notified to Customer by email. When the price is released, Customer will buy the Product at that price for a certain period of time. If you do not like the price that Admin has approved, Customer can completely cancel it and request a new price. However, only the Product installed by the admin can be sent.
 
 - Name Your Price supports these product types: Simple, Configurable, Downloadable, Bundle
 - Name Your Price is compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and [Mageplaza Smtp](https://www.mageplaza.com/magento-2-smtp/)
@@ -15,10 +15,8 @@ When shopping, customers would love to bargain for their intereted products. [Ma
 
 ## How to Use
 
-### Customer
-
 With this extension, customers can conduct the following actions:
-- Send an request quantity and price of products to admin
+- Send a request quantity and price of products to admin
 
 - Buy with request price for a certain period of time
 - Cancel the previously paid price of a product
@@ -37,8 +35,8 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 - **Customer Group**: Only selected customer groups can send requests to the store admins
 - **Apply for**: Products that meet the conditions here will display the **Price Bargain** button for the Customers to send the request to the store owner.
 - **Minimum price type**: set the lowest price calculation type that Customer can give to admin, includes:
-  - **Fixed Price**: The lowest price is a fixed price admin set. All bargain products choosen will be applied this fixed lowest price. 
-  - **Percent Price**: The lowest price is taken as percentage of the original price of each Product. All products that are applied may have different lowest prices. 
+  - **Fixed Price**: The lowest price is a fixed price admin set. All bargain products chosen will be applied to this fixed lowest price. 
+  - **Percent Price**: The lowest price is taken as the percentage of the original price of each Product. All products that are applied may have different lowest prices. 
 - **Minimum Price Value**: Set the value of the lowest bargain price
   - **Fixed Price**: The value filled in this field will be the lowest bargain price for all products. The price unit bases on the **Default Display Currency** of your site
   - **Percent**: Fill in the % value. The lowest price is equal to the original price multiply with the % value entered in this section then divided by 100.
@@ -47,7 +45,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
   - Calculated in days
   - During this time, customers will be able to purchase products at the price they requested (as long as the admin has approved request).
 - **Bargain by Qty**:
-  - Select **Yes** to display the **Qty Step** field when customer requests the bargain price
+  - Select **Yes** to display the **Qty Step** field when customers request the bargain price
   - Customer is required to buy x items in one cart
   
   
@@ -73,19 +71,19 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
   
 - **Email Confirm**:
   - Select the Confirmation email template sent to the customer
-  - Confirm email will be sent to customes after they send a bargain request
+  - Confirm email will be sent to customers after they send a bargain request
   - To change **Email Confirm Template**, Admin can create another Email Template in `Marketing> Email Template`
   - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
   
 - **Email Approve**:
   - Select the Approve email template sent to the customer
-  - Approve email will be sent to customes after their bargain request is accepted
+  - Approve email will be sent to customers after their bargain request is accepted
   - To change **Email Approval Template**, Admin can create another Email Template in `Marketing> Email Template`
   - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
   
 - **Email Reject**:
-  - Select the Rejiect email template sent to the customer
-  - Rejection email will be sent to customes after their bargain request is rejected
+  - Select the Reject email template sent to the customer
+  - Rejection email will be sent to customers after their bargain request is rejected
   - To change **Email Rejection Template**, Admin can create another Email Template in `Marketing> Email Template`
   - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
   
@@ -98,7 +96,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 - Grid includes information: **Id, Product Name, SKU, Original Price, Bargain Price, Quantity, Status, Customer Name, Customer Email, View Store, Submitted Date, Order's Id, Action**
 - Admin can conduct some actions such as **Delete, Approve, Reject**
-- Also admin can **Sort, Filter, Search** the **Bargain Request**.
+- Also, admin can **Sort, Filter, Search** the **Bargain Request**.
 
 
 #### 2.2. Edit Request
@@ -123,8 +121,8 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 - **Status**:
   - Show the status of Bargain Price.
   - **Pending**: Admins are review and not yet accept the bargain price.
-  - **Approved**: Admin approved the bargain price from customers. They can buy the products with bargain price in specific time allowed
-  - **Rejected**: Admin does not agree with baragin price. Customers cannot buy products at that price
+  - **Approved**: Admin approved the bargain price from customers. They can buy the products with bargain price in the specific time allowed
+  - **Rejected**: Admin does not agree with bargain price. Customers cannot buy products at that price
   - **Reject by customer**: When customer cancel Request
   - **Closed**: when Request has expired
 - **Order’s Id**:
