@@ -72,7 +72,7 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select 
 - **Both**:
   - Apply for each certain Product and for the shopping cart as well .
   - For example: A Cart has 3 products, customer can choose a Gift Wrap type, apply for all Product in Cart, or choose separately Gift Wrap for each Product
-  - Show both fields above (**Notice to Customers** và **Gift Wrap on Product View Page**)
+  - Show both fields above (**Notice to Customers** and **Gift Wrap on Product View Page**)
 
 ![Gift Wrap 10](https://i.imgur.com/nh57ujl.png)
 
