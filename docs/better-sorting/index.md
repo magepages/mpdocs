@@ -11,6 +11,10 @@
 
 ## How to use
 
+Better Soring supports showing product by:
+
+![Imgur](https://i.imgur.com/0yFl9Qu.png)
+
 ## How to configure
 
 ### 1. Configuration
@@ -20,19 +24,29 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 ![Imgur](https://i.imgur.com/tjOLc2v.gif)
 
+#### 1.1. General
+
 ![Imgur](https://i.imgur.com/XYJmmWu.png)
 
 
-- **Enable**: Select `Yes` to activate the Module
+- **Enable**: Select `Yes` to activate the Module and you can sort product as the product types you want. 
 - **Show Out of Stock at the End**: Here are the options
 
 ![Imgur](https://i.imgur.com/nX7WGwN.png)
 
 
-- **Base on stock label**: Display the Out of Stock products at the page bottom based on on stock label
-- **No**: Not display the Out of Stock product at the page bottom.
-- **Base on qty (<1)**: Display the Out of Stock products at page bottom based on product quantity (<1)
-- **Default Sort by on Search Page**: Choose the product options to sort the default products on the search page. A notification will be displayed when saving configuration if the Default Sort by option is selected but not yet enable.
+- **Base on stock label**: Display the **Out of Stock products** at the page bottom based on stock label. You can access to `Catalog > Products`, then change **Stock Status** field into **Out of stock** for any products shown at botoom page even though it still remains in inventory. 
+
+![Imgur](https://i.imgur.com/NyZgCOw.png)
+
+- **No**: Not display the **Out of Stock** product at the page bottom.
+
+- **Base on qty (<1)**: Display the **Out of Stock** products at page bottom based on **product quantity (<1)**. Please go to `Catalog> Products` to change **Quantity**, if the product qantity is smaller than 1, those products will be shown at page bottom, otherwise they will not be applied **Sorting** and hence display products as usual.
+
+![Imgur](https://i.imgur.com/uv9stNr.png)
+
+- **Default Sort by on Search Page**: Default sorting product on search page. If the first sorting type is not enable, the second one will be applied. For example, if the **Discount** Sorting type is not enable, then the module will show product by **Bestseller**
+
 
 ![Imgur](https://i.imgur.com/0e7Nnoy.png)
 
@@ -42,20 +56,25 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 ![Imgur](https://i.imgur.com/vD8V9G6.png)
 
 - **Enable**:
-  - Selecting `Yes` to allow sorting products by Discount.
-  - If `No`, a notification will be displayed when saving configuration if Default Sort by Discount is selected
+  - Selecting `Yes` to allow sorting products by Discount items.
+  - If `No`, not apply **Discount** product on Sorting but will apply the next enable product type as in **Default Sort By On Search Page**.
   
 - **Label**:
   - Enter a name for product sorting by Discount.
-  - If left blank, the default label is "Discount".
+  - This is a required field. 
 
 - **Base on**: Select product sorting with Discount by:
-  - Percent
-  - Amount
+  - **Percent**: Display products based on it's percentage discount. Which one has more discount will be shown first.
+  - **Amount**: Display products based on it's fixed discount amount. Which one has more discount will be shown first.
 
 - **Apply On**: Select to show product sorting by Discount in:
-  - Category Page
-  - Search Page
+  - **Category Page**: 
+  
+  ![Imgur](https://i.imgur.com/E5IXGNz.png)
+  
+  - **Search Page**:
+  
+  ![Imgur](https://i.imgur.com/vttTCBg.png)
 
 - **Default Sort Direction**: Select the default sort direction with Discount:
   - **Ascending**: arrange discount products in the direction of increasing
@@ -63,8 +82,11 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
   
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
-  - If left blank, the default order is 1.
+  - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
 
+**Note**: With **Sort By Discount**, you can run this command to update the newest discount products data:
+
+`php bin/magento indexer:reindex`
 
 #### 1.1.2. Bestseller
 
@@ -72,19 +94,22 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Bestseller**
-  - If `No`, a notification will be displayed when saving configuration if Default Sort by Bestseller is selected
+  - If `No`, not apply **Bestseller** product on Sorting but will apply the next enable product type as in **Default Sort By On Search Page**
   
 - **Label**:
   - Enter a name for product sorting by Bestseller
-  - If left blank, the default label is "Bestseller"
+  - This is a required field
 
 - **Time base (days)**:
-  - Enter the number of days to arrange the bestsellers
+  - Enter the number of days to sort the bestsellers. For example: You enter 10 days means that the best sellers product in 10 days most recently will be shown. Otherwise, you can access to **Dashboard**, click to **Reload Data** to see Bestseller Product. 
+  
+  ![Imgur](https://i.imgur.com/RjiYtqC.png)
+  
   - If this field is left blank, the default is the entire time
 
 - **Apply On**: Select to show product sorting by Bestseller in:
-  - Category Page
-  - Search Page
+  - **Category Page**
+  - **Search Page**
 
 - **Default Sort Direction**: Select the default sort direction with Bestseller:
   - **Ascending**: arrange Bestseller products in the direction of increasing
@@ -92,8 +117,11 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
-  - If left blank, the default order is 2
+  - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
 
+**Note**: With **Sort By Bestsellers**, you can run this command to update the newest bestseller products data:
+
+`php bin/magento indexer:reindex`
 
 #### 1.1.3. Most Viewed
 
@@ -101,28 +129,34 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Most Viewed**
-  - If `No`, a notification will be displayed when saving configuration if Default Sort by Most Viewed is selected
+  - If `No`, not apply **Most Viewed** product on Sorting but will apply the next enable product type as in **Default Sort By On Search Page**
   
 - **Label**:
-  - Enter a name for product sorting by Most Viewed
-  - If left blank, the default label is "Most Viewed"
+  - Enter a name for product sorting by **Most Viewed**
+  - This is a required field
 
 - **Time base (days)**:
-  - Enter the number of days to arrange the Most Viewed
+  - Enter the number of days to arrange the **Most Viewed**. For example: You enter 10 days means that the **Most Viewed** product in 10 days most recently will be shown. Otherwise, you can access to **Dashboard**, click to **Reload Data** to see **Most Viewed** Product.
+  
+  ![Imgur](https://i.imgur.com/Oi5ERUq.png)
+  
   - If this field is left blank, the default is the entire time
 
 - **Apply On**: Select to show product sorting by Most Viewed in:
   - Category Page
   - Search Page
 
-- **Default Sort Direction**: Select the default sort direction with Most Viewed:
+- **Default Sort Direction**: Select the default sort direction with **Most Viewed**:
   - **Ascending**: arrange Most Viewed products in the direction of increasing
   - **Descending**: arrange Most Viewed products in the direction of decreasing
 
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
-  - If left blank, the default order is 3
+  - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
 
+**Note**: With **Sort By Most Viewed**, you can run this command to update the newest most viewed products data:
+
+`php bin/magento indexer:reindex`
 
 #### 1.1.4. Top Rated
 
@@ -132,12 +166,12 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Top Rated**
-  - If `No`, a notification will be displayed when saving configuration if Default Sort by Top Rated is selected
-  - [Yotpo Review](https://www.yotpo.com/platform/reviews/) can be installed to support the top rated feature of Yotpo.
+  - If `No`, not apply **Top Rated** product on Sorting but will apply the next enable product type as in **Default Sort By On Search Page**
+  
   
 - **Label**:
   - Enter a name for product sorting by Top Rated
-  - If left blank, the default label is "Top Rated"
+  - This is a required field
 
 - **Apply On**: Select to show product sorting by Top Rated in:
   - Category Page
@@ -149,8 +183,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
-  - If left blank, the default order is 4
-
+  - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
 
 #### 1.1.5. Reviews Count
 
@@ -158,12 +191,11 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Reviews Count**
-  - If `No`, a notification will be displayed when saving configuration if Default Sort by Reviews Count is selected
-  - [Yotpo Review](https://www.yotpo.com/platform/reviews/) can be installed to support the top rated feature of Yotpo.
+  - If `No`, not apply **Reviews Count** product on Sorting but will apply the next enable product type as in **Default Sort By On Search Page**
   
 - **Label**:
   - Enter a name for product sorting by Reviews Count
-  - If left blank, the default label is "Reviews Count"
+  - This is a required field
 
 - **Apply On**: Select to show product sorting by Reviews Count in:
   - Category Page
@@ -175,10 +207,10 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
-  - If left blank, the default order is 5
+  - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
 
 
-#### 1.1.6. New, Stock (Quantity), Added to Wishlist, Product Name, Price
+#### 1.1.6. New Arrivals, Stock Quantity, Wishlist, Product Name, Price
 
 
 ![Imgur](https://i.imgur.com/CBhEOJU.png)
@@ -190,11 +222,10 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **selected sorting type**
-  - If `No`, a notification will be displayed when saving configuration if Default Sort set is selected sorting type
- 
+  - If `No`, not apply this product type on Sorting but will apply the next enable product type as in **Default Sort By On Search Page**
 - **Label**:
   - Enter a name for product sorting by selected sorting type
-  - If left blank, the default label is name of selected sorting type
+  - This is a required field
 
 - **Apply On**: Select to show product sorting by selected sorting type in:
   - Category Page
@@ -206,7 +237,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
-  - If left blank, the default order is 6
+  - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
   
   
 #### 1.1.7. Position, Relevance
@@ -214,12 +245,12 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 ![Imgur](https://i.imgur.com/dZkFXV1.png)
 
 - **Enable**:
-  - Selecting `Yes` to allow sorting products by **Position/Relevance**
-  - If `No`, a notification will be displayed when saving configuration if Default Sort set is Position or Relevance
+  - Selecting `Yes` to allow sorting products by **Position/Relevance**. With **Sort by Position**, only apply for **Category Page**, And for **Sort by Relevance**, only apply for Search page.
+  - If `No`, not apply this product type on Sorting but will apply the next enable product type as in **Default Sort By On Search Page*
  
 - **Label**:
   - Enter a name for product sorting by **Position/Relevance**
-  - If left blank, the default label is **Position/Relevance**
+  - This is a required field
   
 
 - **Default Sort Direction**: Select the default sort direction with selected sorting type:
@@ -228,6 +259,18 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - **Sort Order**:
   - Enter the number for the Sort Order field. Smaller numbers will prioritize the default display on Sort by
-  - If left blank, the default order is 11 for Position and 12 for Relevance
+  - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
+  
+**Note**: With **Position**, Sort By Position when accessing `Catalog > Categories`, you can choose the to apply any category for Sort By Position then click to **Products tab** in Category to see their Positions.
 
+- For example with **Bags** folder: 
 
+![Imgur](https://i.imgur.com/nUk8Ttm.png)
+
+### Notation
+
+When you install the module, you should run the following command to update newest product data:
+
+```php bin/magento indexer:reindex```
+
+When you want to uninstall the module, please go to data base to delete it. Please access to **Views** table, et **Table** column, find and delete the old data.
