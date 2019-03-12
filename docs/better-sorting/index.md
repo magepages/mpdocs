@@ -35,17 +35,17 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 ![Imgur](https://i.imgur.com/nX7WGwN.png)
 
 
-- **Base on stock label**: Display the **Out of Stock products** at the page bottom based on stock label. You can access to `Catalog > Products`, then change **Stock Status** field into **Out of stock** for any products shown at botoom page even though it still remains in inventory. 
+- **Base on stock label**: Display the **Out of Stock products** at the page bottom based on stock label. You can access to `Catalog > Products`, then change **Stock Status** field into **Out of stock** for any products shown at bottom page even though it still remains in inventory. 
 
 ![Imgur](https://i.imgur.com/NyZgCOw.png)
 
 - **No**: Not display the **Out of Stock** product at the page bottom.
 
-- **Base on qty (<1)**: Display the **Out of Stock** products at page bottom based on **product quantity (<1)**. Please go to `Catalog> Products` to change **Quantity**, if the product qantity is smaller than 1, those products will be shown at page bottom, otherwise they will not be applied **Sorting** and hence display products as usual.
+- **Base on qty (<1)**: Display the **Out of Stock** products at page bottom based on **product quantity (<1)**. Please go to `Catalog> Products` to change **Quantity**, if the product quantity is smaller than 1, those products will be shown at page bottom, otherwise, they will not be applied **Sorting** and hence display products as usual.
 
 ![Imgur](https://i.imgur.com/uv9stNr.png)
 
-- **Default Sort by on Search Page**: Default sorting product on search page. If the first sorting type is not enable, the second one will be applied. For example, if the **Discount** Sorting type is not enable, then the module will show product by **Bestseller**
+- **Default Sort by on Search Page**: Default sorting product on the search page. If the first sorting type is not enabled, the second one will be applied. For example, if the **Discount** Sorting type is not enabled, then the module will show product by **Bestseller**
 
 
 ![Imgur](https://i.imgur.com/0e7Nnoy.png)
@@ -64,7 +64,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
   - This is a required field. 
 
 - **Base on**: Select product sorting with Discount by:
-  - **Percent**: Display products based on it's percentage discount. Which one has more discount will be shown first.
+  - **Percent**: Display products based on its percentage discount. Which one has more discount will be shown first.
   - **Amount**: Display products based on it's fixed discount amount. Which one has more discount will be shown first.
 
 - **Apply On**: Select to show product sorting by Discount in:
@@ -101,7 +101,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
   - This is a required field
 
 - **Time base (days)**:
-  - Enter the number of days to sort the bestsellers. For example: You enter 10 days means that the best sellers product in 10 days most recently will be shown. Otherwise, you can access to **Dashboard**, click to **Reload Data** to see Bestseller Product. 
+  - Enter the number of days to sort the bestsellers. For example, you enter 10 days means that the best sellers product in 10 days most recently will be shown. Otherwise, you can access to **Dashboard**, click to **Reload Data** to see Bestseller Product. 
   
   ![Imgur](https://i.imgur.com/RjiYtqC.png)
   
@@ -269,8 +269,8 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 ### Notation
 
-When you install the module, you should run the following command to update newest product data:
+When you install the module, you should run the following command to update the newest product data:
 
 ```php bin/magento indexer:reindex```
 
-When you want to uninstall the module, please go to data base to delete it. Please access to **Views** table, et **Table** column, find and delete the old data.
+When you want to uninstall the module, please go to database to delete it. Please access to **Views** table, et **Table** column, find and delete the old data.
