@@ -240,9 +240,13 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
   - This is a required field. If left blank, a message shown: `Please enter a valid number in this field`
   
   
+**Note**: With **New Arrivals**, products only be applied to this Sorting type when admin set the field **Set Product as New From** for them. The products which is in-stock most recently will be displayed first then come sooner in-stock products. For products which is not choosen in this Sorting type or not be set up the time at **Set Product as New From** field, will not be considered as New Arrivals. Please access to `Catalog > Product`, then choose to edit any product and go to **Set Product as New From** to set the New Arrivals. 
+
+![better Sorting 19](https://i.imgur.com/psMGD37.png)
+  
 #### 1.1.7. Position, Relevance
 
-![Better Sorting 19](https://i.imgur.com/dZkFXV1.png)
+![Better Sorting 20](https://i.imgur.com/dZkFXV1.png)
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Position/Relevance**. With **Sort by Position**, only apply for **Category Page**, And for **Sort by Relevance**, only apply for Search page.
@@ -265,7 +269,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - For example with **Bags** folder: 
 
-![Better Sorting 20](https://i.imgur.com/nUk8Ttm.png)
+![Better Sorting 21](https://i.imgur.com/nUk8Ttm.png)
 
 ### Notation
 
@@ -275,4 +279,4 @@ When you install the module, you should run the following command to update the 
 
 When you want to uninstall the module, please go to database to delete it. Please access to **Views** table, et **Table** column, find and delete the old data.
 
-![Better Sorting 21](https://i.imgur.com/Ydrs3T3.png)
+![Better Sorting 22](https://i.imgur.com/Ydrs3T3.png)
