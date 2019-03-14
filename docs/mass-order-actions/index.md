@@ -103,7 +103,7 @@ Admin chooses the delivery method for order.
 
 - Select **Process** to create an shipment method
 - Select **Process & Print** to create and print shipment.
-  - Select **Process & Print Shipping Labels ** to print shipment labels.
+  - Select **Process & Print Shipping Labels** to print shipment labels.
     - Note: To create **Shipping labels**, please see the guide [here](https://www.mageplaza.com/kb/how-to-create-shipping-labels-magento-2.html)
   - Select **Process & Print PDF Shipment** to create and print shipmets in PDF format.
     - **Note**: **PDF Shipment** only appears when Admin install extension [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/).
