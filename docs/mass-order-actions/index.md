@@ -102,94 +102,104 @@ You can create an Invoice for Order by: Move the mouse to the Order you want to 
 Admin chooses the delivery method for order.
 
 - Select **Process** to create an shipment method
-- Select **Process & Print Shipping Labels ** to create and print shipment labels.
-    - Note: To create Shipping labels, please see the guide [here](https://www.mageplaza.com/kb/how-to-create-shipping-labels-magento-2.html)
-  - Select **Process & Print PDF Shipment** to create and print invoices in PDF format.
-    - **Note**: PDF Invoice only appears when Admin install extension [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/).
-- **Show message to notify of creating Invoice successfully**:
+- Select **Process & Print** to create and print shipment.
+  - Select **Process & Print Shipping Labels ** to print shipment labels.
+    - Note: To create **Shipping labels**, please see the guide [here](https://www.mageplaza.com/kb/how-to-create-shipping-labels-magento-2.html)
+  - Select **Process & Print PDF Shipment** to create and print shipmets in PDF format.
+    - **Note**: **PDF Shipment** only appears when Admin install extension [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/).
+- **Show message to notify of creating Shipment successfully**:
 
-![Imgur](https://i.imgur.com/gLcdVmS.png)
+![Imgur](https://i.imgur.com/SVtC2o2.png)
 
 - **Note**:
-You can create an Invoice for Order by: Move the mouse to the Order you want to create an invoice and click **Invoice**. The next configurations you do as the same as we guided above.
+You can create an Shipment for Order by: Move the mouse to the Order you want to create an invoice and click **Ship**. The next configurations you do as the same as we guided above.
+
+![Imgur](https://i.imgur.com/RuYNFVr.png)
 
 
-Change order status to: Select to change the display status of the invoice.
-Note: If in the Configuration section, in Create shipment, you have selected the default display status for Shipment, then Change order status to display that status.
-Email Copy of Shipment: Select to send Shipment copies via email to customers.
-Shipment Comments: Enter a comment for the invoice.
-Append comment: Select to allow comments to be displayed on email.
-Note: If you do not select Email Copy of Shipment, the Append Comments checkbox will not allow you to select.
-Add Tracking Number:
+#### 2.3. Create Invoice and Shipment
 
-Admin selects the form of order delivery.
-Select Process to create shipping method.
-Select Process & Print to create and print shipping method.
-Select Process & Print Shipping Labels to print shipping labels.
-Note: To create Shipping Labels, you can refer here.
-Select Process & Print PDF Shipments to create and print shipping methods.
-Note: PDF Shipment only appears when Admin install extension PDF Invoice.
-Successful display of Shipment creation:
+![Imgur](https://i.imgur.com/jigeUQk.png)
 
-Note:
-You can create Shipment for Order by: Move the mouse to the Order you want to create an invoice and click Ship. The next operation you do is the same as I guided above.
+- **Change order status to**: Select to change the order status 
 
-2.3. Create Invoice and Shipment
+- **Invoice**
+  - **Email Copy of Invoice**: Select to send a copy of the invoice to the customer via email.
+  - **Invoice Comments**: Add a comment for the invoice.
+  - **Append comment: Tick it to display comments on email.
+    - **Note**: If you do not select **Email Copy of Invoice**, the **Append Comments** checkbox will not allow you to select.
+    
+- **Shipment**
+  - **Email Copy of Shipment**: Select to send a copy of the shipment to the customer via email.
+  - **Shipment Comments**: Add a comment for the shipment.
+  - **Append comment: Tick it to display comments on email.
+    - **Note**: If you do not select **Email Copy of Shipment**, the **Append Comments** checkbox will not allow you to select.
+  - **Add Tracking Number**: 
 
-Change order status to: Select to change the invoice status.
-Invoice:
-Email Copy of Invoice: Select to send a copy of the email invoice to the customer.
-Invoice Comments: Add a comment for the invoice.
-Append comment: Check to display comments on email.
-Note: If you do not select Email Copy of Invoice, the Append Comments checkbox will not allow you to select.
-Shipment
-Email Copy of Shipment: Select to send Shipment copies via email to customers.
-Shipment Comments: Enter a comment for the invoice.
-Append comment: Select to allow comments to be displayed on emai
-Note: If you do not select Email Copy of Invoice, the Append Comments checkbox will not allow you to select.
-Shipment
-Email Copy of Shipment: Select to send Shipment copies via email to customers.
-Shipment Comments: Enter a comment for the invoice.
-Append comment: Select to allow comments to be displayed on email.
-Note: If you do not select Email Copy of Shipment, the Append Comments checkbox will not allow you to select.
-Add Tracking Number:
-
-Admin selects the form of order delivery.
-Select Process to create invoices and shipping
-Select Process & Print Invoices + Shipment: create, print invoices and print shipping methods.
-Select Process & Print Invoices + Shipping Labels: create, print invoices and print shipping labels.
-To create Shipping Labels, you can refer here.
-The message displays successful creation of Invoice and Shipment
-
-2.4. Add Order Comments
-
-Change order status to: Select to change the invoice status display.
-Comment: Add a comment for the invoice.
-Send Email to Customer: Select to send email to customers.
-Visible on Store Front: Select to display comments on the store.
-Select Submit Comment to create a comment.
-Display message Add comment successfully:
-
-2.5. Change Orders Status
-
-Admin makes a choice to change the status of Orders.
-Admin can select multiple orders to change the same status and not allowed to select multiple statuses for orders.
-Notice of successful status change:
-
-III. Frontend
-1. Display Comments
-
-2. Display Invoice
+![Imgur](https://i.imgur.com/83IZSr8.png)
 
 
-3. Display Shipment
+Admin selects the shipment method for order
 
-IV. Backend
-1. Display Comments
+- Select **Process** to create invoices and shipping
+- Select **Process & Print Invoices + Shipment**: create, print invoices and print shipping methods.
+- Select **Process & Print Invoices + Shipping Labels**: create, print invoices and print shipping labels.
+  - To create **Shipping Labels**, you can refer [here](https://www.mageplaza.com/kb/how-to-create-shipping-labels-magento-2.html).
+- The message displays successful generating of **Invoice and Shipment**
 
-V. Email
-1. Display Comments
+![Imgur](https://i.imgur.com/lF27OuA.png)
 
-2. Display Invoice
+#### 2.4. Add Order Comments
 
-3. Display Shipment
+- **Change order status to**: Select to change the invoice status display.
+- **Comment**: Add a comment for the invoice.
+- **Send Email to Customer**: Select to send email to customers.
+- **Visible on Store Front**: Select to allow displaying comments on the store.
+- Select **Submit Comment** to create a comment.
+- Display message **Add comment successfully**:
+
+![Imgur](https://i.imgur.com/iYOxACU.png)
+
+#### 2.5. Change Orders Status
+
+![Imgur](https://i.imgur.com/T2ZStw3.gifv)
+
+- Admin select to change the status of Orders.
+- Admin can select multiple orders to change to the same status and not allowed to select multiple statuses for one order.
+- Notice of changign status successfully:
+
+![Imgur](https://i.imgur.com/SyayZ0g.png)
+
+## III. Frontend
+
+### 1. Display Comments
+
+![Imgur](https://i.imgur.com/77aESAS.png)
+
+### 2. Display Invoice
+
+![Imgur](https://i.imgur.com/1c2aQTL.png)
+
+### 3. Display Shipment
+
+![Imgur](https://i.imgur.com/j45NK5m.png)
+
+## IV. Backend
+
+### 1. Display Comments
+
+![Imgur](https://i.imgur.com/lhNd0l7.png)
+
+## V. Email
+
+### 1. Display Comments
+
+![Imgur](https://i.imgur.com/9oNF54D.png)
+
+### 2. Display Invoice
+
+![Imgur](https://i.imgur.com/tqfpRHt.png)
+
+### 3. Display Shipment
+
+![Imgur](https://i.imgur.com/RNLK1wp.png)
