@@ -70,7 +70,7 @@ Click **Actions**, where the actions will display in the **Select Actions** conf
 - **Note**: If at the **Configuration**, in the **Create Invoice** section you have selected the default display status for Invoice, then at **Change order status to** will display that status.
 - **Email Copy of Invoice**: Select to send a copy of the invoice to the customer via email.
 - **Invoice Comments**: Add a comment for the invoice.
-- **Append comment: Tick it to display comments on email.
+- **Append comment**: Tick it to display comments on email.
   - **Note**: If you do not select **Email Copy of Invoice**, the **Append Comments** checkbox will not allow you to select.
 - Select **Process** to create an invoice
   - Select **Process & Print** to create and print invoices.
@@ -93,7 +93,7 @@ You can create an Invoice for Order by: Move the mouse to the Order you want to 
 - **Note**: If at the **Configuration**, in the **Create shipment** section you have selected the default display status for shipment, then at **Change order status to** will display that status.
 - **Email Copy of Shipment**: Select to send a copy of the shipment to the customer via email.
 - **Shipment Comments**: Add a comment for the shipment.
-- **Append comment: Tick it to display comments on email.
+- **Append comment**: Tick it to display comments on email.
   - **Note**: If you do not select **Email Copy of Shipment**, the **Append Comments** checkbox will not allow you to select.
 - **Add Tracking Number**: 
 
@@ -126,13 +126,13 @@ You can create an Shipment for Order by: Move the mouse to the Order you want to
 - **Invoice**
   - **Email Copy of Invoice**: Select to send a copy of the invoice to the customer via email.
   - **Invoice Comments**: Add a comment for the invoice.
-  - **Append comment: Tick it to display comments on email.
+  - **Append comment**: Tick it to display comments on email.
     - **Note**: If you do not select **Email Copy of Invoice**, the **Append Comments** checkbox will not allow you to select.
     
 - **Shipment**
   - **Email Copy of Shipment**: Select to send a copy of the shipment to the customer via email.
   - **Shipment Comments**: Add a comment for the shipment.
-  - **Append comment: Tick it to display comments on email.
+  - **Append comment**: Tick it to display comments on email.
     - **Note**: If you do not select **Email Copy of Shipment**, the **Append Comments** checkbox will not allow you to select.
   - **Add Tracking Number**: 
 
@@ -162,7 +162,7 @@ Admin selects the shipment method for order
 
 #### 2.5. Change Orders Status
 
-![Imgur](https://i.imgur.com/T2ZStw3.gifv)
+![Imgur](https://i.imgur.com/T2ZStw3.gif)
 
 - Admin select to change the status of Orders.
 - Admin can select multiple orders to change to the same status and not allowed to select multiple statuses for one order.
