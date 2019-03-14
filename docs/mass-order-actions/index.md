@@ -22,7 +22,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass
 
 #### 1. General
 
-![Imgur](https://i.imgur.com/D0e8Xnz.png)
+![Imgur](https://i.imgur.com/1f4uONp.png)
 
 - Select **Enable = Yes** to enable the module. [Mass Order Actions extension](https://www.mageplaza.com/magento-2-mass-order-actions/) is compatible with [Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/) and [Order Archive](https://www.mageplaza.com/magento-2-order-archive/).
 - **Select Actions**:
@@ -87,7 +87,7 @@ You can create an Invoice for Order by: Move the mouse to the Order you want to 
 
 #### 2.2. Create Shipment
 
-![Imgur](https://i.imgur.com/0qaoysv.png)
+![Imgur](https://i.imgur.com/5K3oYl2.png)
 
 - **Change order status to**: Select to change the status display for the shipment.
 - **Note**: If at the **Configuration**, in the **Create shipment** section you have selected the default display status for shipment, then at **Change order status to** will display that status.
