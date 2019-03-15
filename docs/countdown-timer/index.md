@@ -13,15 +13,15 @@ In order to increase the accessibility of customers and demand for products, Mag
 
 ## How to use
 
-- Display the countdown for the catalog
+### Display the countdown for the catalog
 
 ![Imgur](https://i.imgur.com/FzqZbEC.png)
 
-- Display countdown timer for none product
+### Display countdown timer for none product
 
 ![Imgur](https://i.imgur.com/K6R42kq.png)
 
-- Support 5 clock types
+### Support 5 clock types
 
 ![Imgur](https://i.imgur.com/Eyqoh0E.png)
 
