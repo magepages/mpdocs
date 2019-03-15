@@ -84,15 +84,15 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 
 ![Imgur](https://i.imgur.com/kubEvxv.png)
 
-- **Enable**: Select `Yes` to enable **Restrict Product** and will display a new field **Customer Group Restriction** under the **Content** tab when accessing the `Catalog> Products`.
+- **Enable**: Select `Yes` to enable **Restrict Static Page** and will display a new field **Customer Group Restriction** under the **Content** tab when accessing the `Catalog> Page`.
 
-- **Redirect To**: Select the page you want to redirect to after accessing to the restricted Product:
+- **Redirect To**: Select the page you want to redirect to after accessing to the restricted Static Page:
   - **CMS Page**: Display the **Select CMS Page** field to select CMS Page to be redirected to when access to the restricted Product.
     - **Select CMS Page**: Select CMS page. You can access `Content > Page`, click **Add New Page** to create more pages you want to redirect to.
     
     ![Imgur](https://i.imgur.com/BDR6uH6.png)
 
-  - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted Product 
+  - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted page 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
 
   
