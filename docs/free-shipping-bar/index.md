@@ -50,12 +50,13 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 ##### 1.2.1. General
 
-![general](https://i.imgur.com/Sk1qyfD.png)
+![General](https://i.imgur.com/vzSIGsZ.png)
 
 * **Name**: The name of Free Shipping bar. This name is only displayed in the backend. 
 * **Status**: Choose `Enable` to display the Free Shipping Bar on the backend.
 * **Priority**: At the same position, Free Shipping bar has the higher priority, it will be displayed on the frontend.
 * **Store View**: One website can have many store views. The category will only display selected store views.
+* **Customer Groups**: Select customer groups to apply Free Shipping Bar. Admin can choose multiple customer groups once. 
 * **From Date**: Set the start date to use Free Shipping bar
 * **To Date**: Set the finish date to use Free Shipping bar
 
