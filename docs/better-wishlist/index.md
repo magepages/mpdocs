@@ -1,4 +1,4 @@
-# Better Wishlist User Guide
+# Better Wishlist 
 
 ## Overview
 
