@@ -49,6 +49,7 @@ Welcome to Mageplaza Docs
    better-popup/index
    better-change-qty/index
    better-product-reviews/index
+   better-wishlist/index
    blog-m2/index
    call-for-price/index
    custom-order-number/index
@@ -66,11 +67,13 @@ Welcome to Mageplaza Docs
    gdpr/index
    gdpr-pro/index
    geoip/index
+   gift-wrap/index
    google-tag-manager-m2/index
    google-recaptcha/index
    google-analytics-m2/index
    google-maps/index
    import-export-categories/index
+   import-export-cms/index
    instagram-feed/index
    login-as-customer/index
    multi-flat-rates/index
