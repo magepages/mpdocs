@@ -113,7 +113,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
   - Only show the **Product View** option when **Apply for = Apply for product base**.
 - **Snippet Code**: display the code segment.
 
-  - **CMS Page/Static Block**: Copy and paste the code into the page or block the page you want to display the external Countdown Timer page.
+  - **CMS Page/Static Block**: Copy and paste the code into the page in which you want to display the Countdown Timer
   - **Phtml file file**: Copy and paste the code into the .phtml file in which you want to display Countdown Timer
   - **Layout file**: Copy the code and insert it into Magento's .xml file or other extensions you want to display Countdown Timer.
   
