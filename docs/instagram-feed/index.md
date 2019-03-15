@@ -115,7 +115,7 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
 
 - In the upper-right corner of **Widgets** workplace, click on **Add Widget** button.
 - In the **Settings** section:
-  - Choose **CMS Static Block type** in the Type box.
+  - Choose **Widget type** in the Type box.
   - Choose the current theme you are applying in the **Design Theme**.
   - Click **Continue** button.
 
