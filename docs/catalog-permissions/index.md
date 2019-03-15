@@ -131,7 +131,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted category 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
-- You can choose **Use Config Settings** to redirect to the default URL or CMS page that you set in **Configuration Restrict Category**, at **Redirect To** field.
+  - You can choose **Use Config Settings** to redirect to the default URL or CMS page that you set in **Configuration Restrict Category**, at **Redirect To** field.
 
 - **Also Hide Menu**:
   - Select `Yes` to hide that category in Frontend. Otherwise, selecting `No` will display that category in Frontend.
@@ -174,7 +174,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted Product 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
-- You can choose **Use Config Settings** to redirect to the default URL or CMS page that you set in **Configuration Restrict Product**, at **Redirect To** field.
+  - You can choose **Use Config Settings** to redirect to the default URL or CMS page that you set in **Configuration Restrict Product**, at **Redirect To** field.
 
 - **Also Hide Menu**:
   - Select `Yes` to hide that Product in Frontend. Otherwise, selecting `No` will display that Product in Frontend.
