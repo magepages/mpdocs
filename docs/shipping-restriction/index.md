@@ -2,7 +2,7 @@
 
 ## Overview
 
-In fact, shop owners often would like to limit the shipping methods based on specific condition such as the storeview, customer group, cart condition, product attributes, time limit or the compatibility with sales rules. Thanks to ơMageplaza Shipping Restriction(https://www.mageplaza.com/magento-2-shipping-restriction/) extension, your store will be able to perform this and take full control of shipping methods and improve sales efficiency.
+In fact, shop owners often would like to limit the shipping methods based on specific condition such as the storeview, customer group, cart condition, product attributes, time limit or the compatibility with sales rules. Thanks to [Mageplaza Shipping Restriction](https://www.mageplaza.com/magento-2-shipping-restriction/) extension, your store will be able to perform this and take full control of shipping methods and improve sales efficiency.
 
 The Shipping Restriction module is fully compatible with [Mageplaza's One Checkout Step](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
@@ -56,21 +56,31 @@ From the **Admin Panel**, go to `Stores > Shipping Restriction > Manage Rules`, 
 
 
 - **Name**: Name the rule, which is the required field.
+
 - **Description**: Enter the description for the rule.
-- **Status**: Select "Enable" to allow the rule to be applied.
+
+- **Status**: Select **Enabl** to allow the rule to be applied.
+
 - **Store View(s)**:
   - Select store view. Only apply rules for products on selected stores.
   - Many store views can be selected at the same time to display the rule.
+  
 - **Customer Group(s)**: Select one or more customer groups at the same time to use the rule. Non-selected customer groups will not apply the rule.
-- **From**: Click on the calendar icon to select the date / month / year. The rule will start from the date / month / year you selected.
-- **To**: Click the calendar icon to select the date / month / year to complete the rule application.
-- **Select Day (s)**: Select the days of the week. The rule will be applied to the days of the week with the date / year / year you selected. The remaining days will not apply the rule.
+
+- **From**: Click on the calendar icon to select the date/month/year. The rule will start from the date/month/year you selected.
+
+- **To**: Click the calendar icon to select the date/month/year to complete the rule application.
+
+- **Select Day (s)**: Select the days of the week. The rule will be applied to the days of the week with the date/month/year you selected. The remaining days will not apply the rule.
+
 - **Time from**:
   - Select the time of day to start applying the rule.
   - For countries located in different time zones, they will be applied according to the time selected for those countries. For example: Vietnam is in GMT +7, US in GMT -5. Time from 8 am, so 8 am in Vietnam and 8 am in the US will begin to apply the rule when customers buy goods.
+  
 - **Time to**:
   - Choose the time of day. The rule will end at the time you selected.
   - For countries located in different time zones, they will be applied according to the time selected for those countries. For example: Vietnam is in GMT +7, US in GMT -5. The end time is 19h in Vietnam and 19h in the US will not apply the rule when customers buy goods.
+  
 - **Priority**:
   - Enter the priority for the rule.
   - The smaller the number of priority rules, the higher the priority. 0 is the highest priority.
@@ -78,7 +88,7 @@ From the **Admin Panel**, go to `Stores > Shipping Restriction > Manage Rules`, 
 
 #### 2.2.2. Conditions
 
-![Imgur](https://i.imgur.com/D23ICfh.png)
+![Imgur](https://i.imgur.com/k86Nj8S.png)
 
 - **Apply the rule only if the following conditions are met (leave blank for all products)**
 
