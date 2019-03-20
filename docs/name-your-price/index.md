@@ -18,18 +18,29 @@ When shopping, customers would love to bargain for their favored products. [Mage
 With this extension, customers can conduct the following actions:
 - Send a request quantity and price of products to admin
 
+![Imgur](https://i.imgur.com/skUc8Qy.png)
+
 - Buy with request price for a certain period of time
 - Cancel the previously paid price of a product
 
+![Imgur](https://i.imgur.com/BVOkF7G.png)
+
 - Review details of all products that have been successfully bargained
+
+![Imgur](https://i.imgur.com/FZPlAnO.png)
 
 ## How to Configure
 
 From the **Admin panel**, go to `Marketing > Name Your Price`
 
+![Imgur](https://i.imgur.com/FK7fEc5.png)
+
 
 ### 1. Configuration
+
 #### 1.1. General Tab
+
+![Imgur](https://i.imgur.com/anThjqB.png)
 
 - **Enable**: Select **Yes** to enable the extension
 - **Customer Group**: Only selected customer groups can send requests to the store admins
@@ -41,6 +52,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
   - **Fixed Price**: The value filled in this field will be the lowest bargain price for all products. The price unit bases on the **Default Display Currency** of your site
   - **Percent**: Fill in the % value. The lowest price is equal to the original price multiply with the % value entered in this section then divided by 100.
 - **Apply for Tax**: The price that customer offers is not yet included Tax. Select **Yes** to apply Tax for this price.
+- **Allow Using Discounts**: Select **Yes** to allow discounts to be available for the order containing admin approved bargain products
 - **Limit using Time**:
   - Calculated in days
   - During this time, customers will be able to purchase products at the price they requested (as long as the admin has approved request).
@@ -51,12 +63,16 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
   
 #### 1.2 Bargain Form
 
+![Imgur](https://i.imgur.com/64JbHym.png)
+
   - **Use Popup**: Select **Yes** to use a popup to display the form request
   - **Additional Fields**: The selected fields will be displayed on the front-end, not required to fill in these fields.
   - **Button Label**: Set the label to open bargain price form. **Default = Price Bargain**.
   
   
 #### 1.3 Notification Email
+
+![Imgur](https://i.imgur.com/DOVTAG4.png)
 
 - **Enable**: Select **Yes** to allow Notification Email
 
@@ -94,6 +110,8 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 #### 2.1. Grid
 
+![Imgur](https://i.imgur.com/V6NKO5A.png)
+
 - Grid includes information: **Id, Product Name, SKU, Original Price, Bargain Price, Quantity, Status, Customer Name, Customer Email, View Store, Submitted Date, Order's Id, Action**
 - Admin can conduct some actions such as **Delete, Approve, Reject**
 - Also, admin can **Sort, Filter, Search** the **Bargain Request**.
@@ -101,9 +119,13 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 #### 2.2. Edit Request
 
+![Imgur](https://i.imgur.com/sqAlXsH.png)
+
 - Admin can quickly **Approve** or **Reject** a request when editing the request
 
 ##### 2.2.1. General tab
+
+![Imgur](https://i.imgur.com/AX59S3C.png)
 
 - **Customer Name**: Display customer name submitted. Admin cannot edit this field
 - **Customer Email**: Display customer email. Admin cannot edit this field
@@ -131,6 +153,8 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 
 ##### 2.2.2 Message
+
+![Imgur](https://i.imgur.com/6x4SdEn.png)
 
 - **Customer’s Message**:
   - Display the message of the customer along with bargain products
