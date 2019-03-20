@@ -7,12 +7,18 @@
 
 ## How to use
 
-- **Product View & Item**: Display Membership product information on the **Product View Page**
+- **Product View & Item**: Display information of Membership product on the **Product View Page**
+
+![Imgur](https://i.imgur.com/l6GbDi8.png)
 
 
-- **Customer Dashboard**: This section will display the information and payment history of the membership products purchased by the customer. You can use the link on the Customer Dashboard above toplink. After expiration, the dashboard customer will still display the expire status of the membership with the "Re New" button.
+- **Membership Dashboard**: This section will display the information and payment history of the membership purchased by the customer. You can use the link on the **Membership Dashboard** above toplink. After memebership is expired, the Membership Dashboard will display the expire status of the membership with the **Re New** button. And the **Upgrade** button is displayed when the membership has not expired. You can click the **Upgrade** button to upgrade the membership package at a better price and offer, and the site only has membership levels higher than the current membership.
 
-- **Membership Page**: Display membership products at the Membership page
+![Imgur](https://i.imgur.com/gU3PJEa.png)
+
+- **Membership Page**: Display memberships at the **Membership page** if they had ordered the default products
+
+![Imgur](https://i.imgur.com/ZNUcbX2.png)
 
 
 ## How to configure
@@ -21,42 +27,69 @@
 
 Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
 
+![Imgur](https://i.imgur.com/W65mF0n.gif)
+
 #### 1.1. General
 
+![Imgur](https://i.imgur.com/o7qPv7p.png)
+
 - **Enable**: Select **Yes** to enable the module's features.
+
 - **Default Group**: Select customer group so that when the Membership expires, the customer will be transferred back to this default customer group. With the following customer groups:
   - General
   - Wholesale
   - Retail
-- **Allow Override Membership**:
-  - If you choose **Yes** so that when customers are membership, you can buy another membership product and buy a link to buy membership. And buy a new product at the customer dashboard.
-  - Selecting **No**, customers in certain membership cannot buy products from other membership.
-- **Allow membership Upgrade**:
-  - If **Yes** is selected, the current membership upgrade will be allowed when it is not expired or expired and the membership dashboard upgrade link is available. Show more fields:
-- **Upgrading Cost**: Choose the type of cost upgrade when you can upgrade your current membership:
-- **Full Price**: When upgrading membership, the price will be calculated according to new membership and not deducted even if the old membership has not expired.
-- **Deducted by Remaining Membership Duration**: When upgrading membership, the price will be deducted by the old membership if membership has not expired. Example: The old Membership you bought has a duration of 2 months, the price is $ 60. After 1 month of membership use, you can pack more membership with more convenience and benefits, ... you want to buy another membership but the old membership hasn't expired. When buying another membership, you can deduct the amount of the remaining time of the old membership.
-- If you select **No**, you will not be allowed to upgrade membership if the membership is not expired or has expired.
-- Show link membership dashboard on toplink: If you select **Yes**, the link membership dashboard will be displayed on toplink.
-- After place order, change membership when: After buying membership, the customer applied that membership when:
-- **Invoice created**: customer applies that membership when Invoice created (order created invoice). If not completed Invoice created will not be able to apply that membership.
-- **Order complete**: customer applies that membership when Order complete (invoice + shipment). If you don't complete Order complete, you won't be able to apply that membership.
+  
+- **Allow Overriding Membership**:
+  - If you choose **Yes** so that when customers had bought and used membership, they can buy another membership product
+  - Selecting **No**, customers in certain membership cannot buy products from other membership types. They only can buy other memebership products if their current memberships are exprired.
+  
+  ![Imgur](https://i.imgur.com/A3xXY6v.png)
+  
+- **Allow Upgrading Membership**:
+  - If **Yes** is selected, the current membership will be allowed to upgrade even when it is not expired. Showing a **upgrade** button on **My Membership** at frontend. You can click the **Upgrade** button to upgrade the membership package at a better price and offer, and the site only has membership levels higher than the current membership. Show extra fields as following: 
+  
+    - **Upgrading Cost**: Choose the type of cost upgrade when you can upgrade your current membership:
+      - **Full Price**: When upgrading membership, the price will be calculated according to new membership and not deducted even if the old membership has not expired.
+      - **Deducted by Remaining Membership Duration**: When upgrading membership, the price will be deducted by the old membership if membership has not expired. Example: The old Membership you bought has a duration of 2 months, the price is $ 60. After 1 month of membership use, you want to use another membership with more convenience and benefits but the old membership hasn't expired. When buying another membership, your membership price is deducted by the amount of the remaining time of the old membership.
+      
+  - If you select **No**, you will not be allowed to upgrade membership if the membership is not expired.
+
+**Note**: The deduction time will be converted to seconds and rounded up to the hour unit. Example: Your membership is 2 hours long and has been used for several minutes. Time will be rounded up, you will only be deducted 1 hour. 
+
+- **Show Membership Dashboard Link at Toplink**: If you select **Yes**, the link membership dashboard will be displayed on toplink.
+
+![Imgur](https://i.imgur.com/edg3RTy.png)
+
+- **After Order Placed, Activate Membership When**: After buying membership product, the customer can apply that membership when:
+  - **Invoice created**: customer applies that membership when Invoice created (order is created with invoice). If not Invoice is not created completely, membership will not be applied. For example: when customers buy one membership product and 1 non-vertual product ( ex: Joust Duffle Bag). Membership only be applied when customers place the order and invoice is created.  
+  - **Order complete**: customer applies that membership when Order complete (invoice and shipment are created). If not, you won't be able to apply that membership. For example, when customers buy one membership product and 1 non-vertual product ( ex: Joust Duffle Bag). Membership only be applied when customers place the order and invoice as well as shipment is generated.  
 
 
 
 #### 1.2. Membership Page
 
-- **Enable Membership Page**: Select **yes** to display the Membership page at the frontend and display 2 more Place membership page link on, Membership route.
-- **Place membership page link on**: Select the membership page link above:
+![Imgur](https://i.imgur.com/DuwBjqn.png)
+
+- **Enable**: Select **yes** to display the Membership page at the frontend and display 2 more Place membership page link on, Membership route.
+- **Place Membership Page Link on**: Select the membership page link above
   - **Menu**: display membership page link on the menu bar.
+  
+  ![Imgur](https://i.imgur.com/kgSBGJD.png)
+
   - **Footer Links**: displays membership page link in Footer Links.
+  
+  ![Imgur](https://i.imgur.com/8CZcGcG.png)
+  
 - **Membership route**:
-  - Enter a name for the membership page.
+  - Enter a route for the membership page.
   - If left blank, the default is "Membership".
-- **Snippet**: Can change the interface design for membership page with:
-  - CMS
-  - Phtml
-  - Layout
+  
+  !https://i.imgur.com/njhPp1M.png
+  
+- **Snippet Code**: Can add the following code to insert membership page anywhere you want:
+  
+  ![Imgur](https://i.imgur.com/bTW8tu5.png)
   
 ### 2. Manage Membership
 
@@ -64,14 +97,17 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
 
 #### 2.1. Membership Grid
 
+![Imgur](https://i.imgur.com/TeaeaUU.png)
 
-- This section records the membership creation information including Membership Name, Level, Status, No. Member, Customer Groups, Is Feature,...
+- This section records the membership creation information including Membership Name, Level, Status, No. Member, Customer Groups, Is Feature,...You can add membership when creating customer groups. To set customer group, please go to `Customers > Customer Group`, click **Add new customer group**
 - You can choose to edit membership and delete information to delete membership.
 - Choose Change Status to change Active/Inactive status of membership.
 - Filter the fields of information you want to search.
 
 #### 2.2. Edit Membership
 ##### 2.2.1. General
+
+![Imgur](https://i.imgur.com/QDWXAsH.png)
 
 - **Customer Group**: Select customer group for membership:
   - General
@@ -81,60 +117,82 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
   - **Inactive**: membership will not work and does not appear in Frontend.
   - **Active**: Membership works and does membership on the frontend.
 - **Level**:
-  - Enter the level of membership for membership.
+  - Enter the level of membership. Only higher levers can be displayed on **Upgrade Page**
   - If left blank, the default is 0.
-- **Default Duration**: Select the duration for membership to be calculated according to:
+- **Default Duration**: Select the duration for membership by:
   - Day
   - Month
   - Year
 - **Duration No.**:
-  - Enter the number in the Duration No. field. to determine the duration of that membership.
-  - If left blank, the default is 0.
+  - Enter the number in the **Duration No.** field to determine the duration of that membership. Only apply this configuration if you choose Defaule value of Duration at **Membership product**
+  - If left blank or insert "0", membership will be applied unlimited time. 
 
 ##### 2.2.2. Display Config
 
+![Imgur](https://i.imgur.com/fFM0xpc.png)
+
 - **Membership Name**:
   - Enter a name for membership. With each store view, you can name a membership replacement in the frontend.
-  - If left blank, it will default to the value of the Default field.
+  - If left blank, it will default to the value of the Admin field.
   
-- **Image**: Click Choose file to upload image file for membership. If left blank, use the default image.
-- **Background Color**: Choose color for background membership.
-- **Default Product**: Choose products to apply to membership, this product will be used to add to cart on page membership.
+- **Image**: Click Choose file to upload image file for membership. If you cannot find the suitable image for specific memembership, it will left empty.
+
+- **Background Color**: Choose color for background membership. 
+
+![Imgur](https://i.imgur.com/2po2dbS.png)
+
+- **Default Product**: Choose products to apply to membership, this product will be used to add to cart on page membership. If you do not choose default product, membership will not be shown on **Membership Page**
+
 - **Benefit**:
-  - Click Add Option to import premium content, benefit from buying membership and will be displayed in membership in addition to the frontend. You can enter your own benefits for each store view. If left blank will default to benefits.
-  - With the benefits you want to display, click Delete.
-- **Is Feature**: Choose "yes" to use all features for membership.
+  - Click Add Option to import premium content, benefit from buying membership and will be displayed in membership in addition to the frontend. You can enter your own benefits for each store view. 
+  - With the benefits you want to remove, click **Delete**.
+  
+- **Is Feature**: Choose **yes** to use **Featured** for membership.
+
+![Imgur](https://i.imgur.com/U3jHe99.png)
+
 - **Sort Order**:
-- Enter the number for the Sort Order field. If left blank, the default is 0.
-- Smaller numbers will prioritize pre-arranged membership page.
+  - Enter the number for the Sort Order field. If left blank, the default is 0.
+  - Smaller numbers will prioritize pre-arranged membership page.
 
 ##### 2.2.3. Members
 
-This section records the information, status and duration of membership packages that customers use including information according to **Customer, Status, Start Date, End Date fields**.
+This section records the information, status and duration of membership packages that customers use including information according to **Customer, Status, Activation Date, Expiration Date** fields.
 
 ##### 2.2.4. History
 
-Here save the information and payment history of customers when buying membership including information according to **Customer, Status, Action fields, Pay Amount, Created Date**
+Here save the information and payment history of customers when buying each membership, which including information according to **Customer, Action, Pay Amount, Duration, Purchased Date, Activation Date**
+
+![Imgur](https://i.imgur.com/ZIRIS6Y.png)
 
 ### 3. Manage History
 
-This Manage History section is like History in Manage Membership and is separated from it. It stores customer information and payment history when purchasing membership.
+The information in this **Manage History** section is similar to **History in Manage Membership** but here are all membership histories. It stores customer information and payment history when purchasing membership.
+
+![Imgur](https://i.imgur.com/5t8vKno.png)
 
 
 ### 4. Membership Product
 
-Login to the **Magento Admin**, choose `Catalog> Products`, click **Add New** to Create Membership Product.
+Login to the **Magento Admin**, choose `Catalog> Products`, click **Add Product** to create Membership Product
+
+![Imgur](https://i.imgur.com/pnLyFy3.gif)
 
 - **Enable Product**: Select **Yes** to turn on product display in addition to the frontend.
 - **Product Name**: Enter a name for the membership product. The required field must not be blank.
-- **SKU**: Enter SKU for membership product. The required field must not be blank.
-- **Membership**: Select membership will display membership products on the membership site for the selected membership.
+- **SKU**: Enter SKU for membership product. This is a required field.
+- **Membership**: Choosing membership to apply for membership products, if membership products are set up by Membership as a default product, it will not be possible to change membership.
 - **Duration**: Choose the duration and price corresponding to membership membership:
 - **Default**: Apply the product price of membership to the selected Duration Duration. Show more fields Price:
 - **Price**: Enter the price into the Price field. This price will be applied according to the duration of membership products.
 - **Permanent**: Apply membership price permanently with selected price. When the time is up, it will still display that price. Show more fields Price:
 - **Price**: Enter the price into the Price field. This price will be applied permanently to membership products.
 - **Custom**: Show more Duration, No., Price schools to enter each time and price separately when customers buy membership products.
+
+**Note**: 
+- To update the newest products, please run the following commands: `php bin/magento indexer:reindex`
+- 
+
 - **Customer edit**
   - Login to the **Magento Admin**, choose `Customers> All Customers> Add New Customer/Edit Customer`.
   - Here Admin can change customer group manually and the customer in group will be assigned to the default duration of that membership.    - Upon expiration (in hours) will expire membership and pay the customer to the default group you configured at Configuration.
