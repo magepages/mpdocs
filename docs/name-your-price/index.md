@@ -16,16 +16,16 @@ When shopping, customers would love to bargain for their favored products. [Mage
 ## How to Use
 
 With this extension, customers can conduct the following actions:
-- Send a request quantity and price of products to admin
+- **Send a request quantity and price of products to admin**
 
 ![Imgur](https://i.imgur.com/skUc8Qy.png)
 
-- Buy with request price for a certain period of time
-- Cancel the previously paid price of a product
+- **Buy with request price for a certain period of time**
+- **Cancel the previously paid price of a product**
 
 ![Imgur](https://i.imgur.com/BVOkF7G.png)
 
-- Review details of all products that have been successfully bargained
+- **Review details of all products that have been successfully bargained**
 
 ![Imgur](https://i.imgur.com/FZPlAnO.png)
 
