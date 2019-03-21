@@ -117,7 +117,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > (Mageplaza) Goo
   - If you leave it blank or enter a wrong tracking ID, it will not be able to track the information.
   
 - **Second Tracking ID**:
-  - Enter another Tracking ID of Google Analytics in the **Second Tracking ID** field so you can add the ability to track website information such as product, category page, checkout page, page cart, one step checkout page (compatible with One step checkout), remove from cart, ...
+  - Enter another Tracking ID of Google Analytics in the **Second Tracking ID** field so you can add the ability to track website information such as product, category page, checkout page, page cart, one step checkout page (compatible with [One step checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)), remove from cart, ...
   - If you leave it blank or enter a wrong tracking ID, it will not be able to track the information.
   
 - **Enable Enhanced Link Attribution**: Selecting **Yes** to enable allows customers to track each link, know the accuracy of the analytics report in the page by automatically distinguishing between multiple links to the same URL on one The page from which the number of customers clicked on the page or product was calculated.
@@ -127,10 +127,10 @@ Login to the **Magento Admin**, choose `Stores > Configuration > (Mageplaza) Goo
 - **For example**: Catalog page includes information such as: id, name, price, sku,...
 
 - **Enable Linker**:
-  - If you select **Yes**, Google Analytics allows you to view sessions from two related websites (such as separate e-commerce and shopping cart websites) as a session. Will cross link and count the number of customers tracking when using the affiliate link. Show more Linker Domain (s) fields.
-  - **Linker Domain (s)**: Enter an additional domain link to add customer tracking from two related websites. You can import multiple domain links at the same time and be separated by a ",". You can configure additional domain links for your site when you go to `Store > Configuration > Web > Base URLs`. For example, the current link domain of your site is http://example.com. You configure another domain link when changing store view with the same content as http://mageplaza.com. So the tracking number of customers will be counted as 2.
+  - If you select **Yes**, Google Analytics allows you to view sessions from two related websites (such as separate e-commerce and shopping cart websites) as a session. Will cross link and count the number of customers tracking when using the affiliate link. Show more **Linker Domain(s)** fields.
+    - **Linker Domain(s)**: Enter an additional domain link to add customer tracking from two related websites. You can import multiple domain links at the same time and be separated by a ",". You can configure additional domain links for your site when you go to `Store > Configuration > Web > Base URLs`. For example, the current link domain of your site is http://example.com. You configure another domain link when changing store view with the same content as http://mageplaza.com. So the tracking number of customers will be counted as 2.
   
-- **Enable Display Features**: Select **No** to enable Google Analytics advertising features (including Remarketing Lists for Search Ads) that can be enabled in Google Analytics from Property Settings> Data Collection.
+- **Enable Display Features**: Select **No** to enable Google Analytics advertising features (including Remarketing Lists for Search Ads) that can be enabled in Google Analytics from `Property Settings > Data Collection`.
 
 - **Enable IP Anonymization**: Select **Yes** to allow anonymous IP addresses of visits (http requests) sent to Google Analytics. And will be sent to the region.
 
@@ -142,12 +142,12 @@ Login to the **Magento Admin**, choose `Stores > Configuration > (Mageplaza) Goo
 
 - **Enable**: Select **Yes** to enable the use of Facebook Pixel features.
 - **Facebook Pixel ID**:
-  - Enter Facebook's Pixel ID in the Facebook Pixel ID field to report and update website information.
+  - Enter **Facebook Pixel ID** in the Facebook Pixel ID field to report and update website information.
   - If left blank or incorrectly filled in, the Pixel ID will not report and update the website's information to Facebook.
 
 #### 1.5. Google Adwords Conversion Tracking (GTag)
 
 - **Enable**: Select **Yes** to enable the use of Google Tag Manager feature
 - **Google Adwords ID**:
-  - Enter Google Adwords ID into the Google Adwords ID field to connect to magento.
+  - Enter **Google Adwords ID** into the Google Adwords ID field to connect to magento.
   - If left blank or incorrectly entered the ID will not be connected to magento.
