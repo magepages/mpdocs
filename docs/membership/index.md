@@ -27,11 +27,11 @@
 
 Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
 
-![Imgur](https://i.imgur.com/W65mF0n.gif)
+![Imgur](https://i.imgur.com/SjkjpVL.gif)
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/o7qPv7p.png)
+![Imgur](https://i.imgur.com/QAjB1Kl.png)
 
 - **Enable**: Select **Yes** to enable the module's features.
 
@@ -40,18 +40,18 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
   - Wholesale
   - Retail
   
-- **Allow Overriding Membership**:
+- **Override Membership**:
   - If you choose **Yes** so that when customers had bought and used membership, they can buy another membership product
   - Selecting **No**, customers in certain membership cannot buy products from other membership types. They only can buy other memebership products if their current memberships are exprired.
   
   ![Imgur](https://i.imgur.com/A3xXY6v.png)
   
-- **Allow Upgrading Membership**:
+- **Upgrade Membership**:
   - If **Yes** is selected, the current membership will be allowed to upgrade even when it is not expired. Showing a **upgrade** button on **My Membership** at frontend. You can click the **Upgrade** button to upgrade the membership package at a better price and offer, and the site only has membership levels higher than the current membership. Show extra fields as following: 
   
-    - **Upgrading Cost**: Choose the type of cost upgrade when customer can upgrade your current membership:
+    - **Upgrading Price**: Choose the type of cost when customer can upgrade your current membership:
       - **Full Price**: When upgrading membership, the price will be calculated according to new membership price and not be discounted even if the old membership has not expired.
-      - **Deducted by Remaining Membership Duration**: When upgrading membership, the price will be deducted by the old membership if membership has not expired. Example: The old Membership you bought has a duration of 2 months, the price is $60. After 1 month of membership use, you want to use another membership which cost $100 but the old membership hasn't expired. When buying this new membership, your membership price is deducted by the amount of the remaining time of the old membership (which means that you only have to pay $70)
+      - **Deducted by Remaining Time**: When upgrading membership, the price will be deducted by the old membership if membership has not expired. Example: The old Membership you bought has a duration of 2 months, the price is $60. After 1 month of membership use, you want to use another membership which cost $100 but the old membership hasn't expired. When buying this new membership, your membership price is deducted by the amount of the remaining time of the old membership (which means that you only have to pay $70)
       
   - If you select **No**, you will not be allowed to upgrade membership if the membership is not expired.
 
@@ -61,7 +61,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
 
 ![Imgur](https://i.imgur.com/edg3RTy.png)
 
-- **After Order Placed, Activate Membership When**: After buying membership product, the customer can apply that membership when:
+- **Activate Membership When**: After buying membership product, the customer can apply that membership when:
   - **Invoice created**: customer applies that membership when Invoice created (order is created with invoice). If not Invoice is not created completely, membership will not be applied. For example: when customers buy one membership product and 1 non-vertual product ( ex: Joust Duffle Bag). Membership only be applied when customers place the order and invoice is created.  
   - **Order complete**: customer applies that membership when Order complete (invoice and shipment are created). If not, you won't be able to apply that membership. For example, when customers buy one membership product and 1 non-vertual product ( ex: Joust Duffle Bag). Membership only be applied when customers place the order and invoice as well as shipment is generated.  
 
@@ -69,10 +69,11 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
 
 #### 1.2. Membership Page
 
-![Imgur](https://i.imgur.com/DuwBjqn.png)
+![Imgur](https://i.imgur.com/3FDHLkp.png)
 
-- **Enable**: Select **yes** to display the Membership page at the frontend and display 2 more **Place membership page link on** and **Membership route**.
-- **Place Membership Page Link on**: Select the membership page link displayed on:
+- **Enable**: Select **yes** to display the Membership page at the frontend and display 2 more **Display on** and **Membership route**.
+
+- **Display on**: Select the place to display Membership Page link on:
   - **Menu**: display membership page link on the menu bar.
   
   ![Imgur](https://i.imgur.com/kgSBGJD.png)
@@ -129,7 +130,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
 
 ##### 2.2.2. Display Config
 
-![Imgur](https://i.imgur.com/fFM0xpc.png)
+![Imgur](https://i.imgur.com/Id1nOCO.png)
 
 - **Membership Name**:
   - Enter a name for membership. With each store view, you can name a membership replacement in the frontend.
@@ -151,9 +152,11 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
 
 ![Imgur](https://i.imgur.com/U3jHe99.png)
 
+- **Featured Label**: Add the label for **Featured Label**. If left blank, the default label is `Featured`. Please make sure that your label is nottoo long so that it can be shown on forntend.
+
 - **Sort Order**:
   - Enter the number for the Sort Order field. If left blank, the default is 0.
-  - Membership with smaller numbers will prioritize pre-arranged in membership page.
+  - The one with the smallest order will display first.
 
 ##### 2.2.3. Members
 
@@ -174,7 +177,7 @@ The information in this **Manage History** section is similar to **History in Ma
 
 ### 4. Membership Product
 
-Login to the **Magento Admin**, choose `Catalog> Products`, click **Add Product** to create Membership Product
+Login to the **Magento Admin**, choose `Catalog> Products`. At **Add Product** button, choose Membership Product:
 
 ![Imgur](https://i.imgur.com/pnLyFy3.gif)
 
@@ -183,7 +186,7 @@ Login to the **Magento Admin**, choose `Catalog> Products`, click **Add Product*
 - **SKU**: Enter SKU for membership product. This is a required field.
 - **Membership**: Choosing membership to apply for membership products, if membership products are set up by Membership as a default product, it will not be possible to change membership.
 - **Duration**: Choose the duration and price corresponding to membership products:
-  - **Default**: Apply the product price of membership to the selected Duration Duration. Show more fields Price:
+  - **Default**: Apply the membership product price following **Default Duration** selected at membership. Choose **default** will show another field **Price**:
     - **Price**: Enter the price into the Price field. This price will be applied according to the duration of membership products.
   - **Permanent**: Apply membership price permanently with selected price. When the time is up, it will still display that price. Show more fields Price:
     - **Price**: Enter the price into the Price field. This price will be applied permanently to membership products.
@@ -191,8 +194,39 @@ Login to the **Magento Admin**, choose `Catalog> Products`, click **Add Product*
 
 **Note**: 
 - To update the newest products, please run the following commands: `php bin/magento indexer:reindex`
-- 
+- Each membership will only be able to choose one membership product to make the default product and be displayed at the Membership page. For other membership products, it's not the default choice of the membership. You should create a separate category page to organize membership products there. That, membership products will not show up scattered, miscellaneous and in particular can create many choices for customers when buying membership products. Visit the Catalog> Categories to create a category page.
 
-- **Customer edit**
+![Imgur](https://i.imgur.com/a8YREWi.png)
+
+### 5. Customer edit
+
   - Login to the **Magento Admin**, choose `Customers> All Customers> Add New Customer/Edit Customer`.
-  - Here Admin can change customer group manually and the customer in group will be assigned to the default duration of that membership.    - Upon expiration (in hours) will expire membership and pay the customer to the default group you configured at Configuration.
+  - Here, Admin can change customer group manually and the customers in group will be assigned to the default duration of that membership. Upon expiration (in hours) will expire membership and move the customer back to the default group you configured at Configuration.
+  
+  ![Imgur](https://i.imgur.com/5OuNuRJ.png)
+  
+  - With Membership **Expiration Date** field, you can set your own membership duration for each customer and will prioritize membership configuration here.
+  
+###  6. Manage Member
+
+In this part, Members' information of Membership will be recorded here including Customers' email, Membership type, Status, Activation Date, Expiration Date. 
+
+![Imgur](https://i.imgur.com/0VHdrLs.png)
+  
+  ## Notation
+  
+  - To uninstall the module, please use composer to run the command `bin/magento module:uninstall Mageplaza_Membership`
+  - Delete the module by going to data base, please 
+    - Access `eav_attribute` table, at `attribute_code`, please find and delete attribute `mpmembership, mpmembership_duration, mpmembership_price_fixed, mpmembership_duration_options`
+    
+    ![Imgur](https://i.imgur.com/1Xnierd.png)
+    
+    - Then delete `mp_mageplaza_membership_customer, mp_mageplaza_membership_history, mp_mageplaza_membership_list`
+    
+    ![Imgur](https://i.imgur.com/LYyEo5y.png)
+    
+    - Access table `mp_ui_bookmark`. At column `namespace`, delete `mpmembership_membership_grid, mpmembership_membership_grid, mpmembership_history_grid, mpmembership_history_grid`
+
+![Imgur](https://i.imgur.com/fvDVDHk.png)
+
+
