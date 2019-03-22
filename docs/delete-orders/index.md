@@ -32,44 +32,44 @@ Select **Enable = Yes** to enable the module.
 
 ![Imgur](https://i.imgur.com/wsWjXc4.png)
 
-Includes settings of au-delete orders. An Order can only be deleted automatically by schedule when and only if it satisfies all the conditions of: Purchase Date, Order Status, Customer Group, Store View, Shipping Country and Order Total.
+An Order can only be deleted automatically by schedule when and only if it satisfies all the conditions of Purchase Date, Order Status, Customer Group, Store View, Shipping Country, and Order Total.
 
 - **Schedule For**:
   - Set the schedule for delete order daily, weekly or monthly.
-  - With Daily, schedule will run automatically by date.
-  - With Weekly, schedule will run automatically on every Monday.
-  - With Monthly, schedule will run automatically on the 1st of the month.
+  - With Daily, the schedule runs automatically by date.
+  - With Weekly, the schedule runs automatically on every Monday.
+  - With Monthly, the schedule runs automatically on the 1st of the month.
   
 - **Start Time**:
   - Set the starting time to delete order 
   - By that time of day, the schedule will be run automatically.
   
 - **Excluded Period**:
-  - Enter the period to apply delete order before it. 
+  - Enter the period to apply to delete order before it. 
   - For example, **Period = 10**, today is **December 31st, 2018**, all orders created before **December 21st, 2018** will be deleted (if they meet the conditions below).
   
 - **Order Status**: Select order status to be applied Delete order. 
   
 - **Customer Group(s)**: Choose the customer groups whose orders will be deleted auto by schedule
 
-- **Store View(s)**: Select Store view where Order is purchased to apply Delete Orders
+- **Store View(s)**: Select Store view where Order is purchased to apply for Delete Orders
 
 - **Shipping Countries**:
   - **All Countries**: Check all Orders.
   - **Specific Country**: Check for orders with **Shipping Address** at Country selected.
   
-- **Order Total less than**: Limit the order's Maximum Value to apply delete order. 
+- **Order Total less than**: Limit the order's Maximum Value to apply to delete order. 
 
-- Besides delete orders automatically, Admin can also click the "Run Manually" button to delete specidic orders that meet all conditions 
+- Besides delete orders automatically, Admin can also click the "Run Manually" button to delete specific orders that meet all conditions 
 
-- **Note**: Admin can also delete orders by using the command line `php bin / magento order: delete order_id`. For example: Admin wants to delete the order with **ID = 15**, admin on the command line running the command `php bin / magento order: delete 15`.
+- **Note**: Admin can also delete orders by using the command line `php bin / magento order: delete order_id`. For example Admin wants to delete the order with **ID = 15**, admin on the command line running the command `php bin / magento order: delete 15`.
 
 
 #### 3. Email Notification
 
 ![Imgur](https://i.imgur.com/1b3EGcY.png)
 
-- **Enable**: Select **yes** to enable email sending to Admin every time an Order is deleted (including manual or auto deletion).
+- **Enable**: Select **yes** to enable email sending to Admin every time an Order is deleted (including manual or auto-deletion).
 
 - **Sender**: There are 5 default types of Magento Sender for Admin to choose: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**.
 
@@ -79,8 +79,8 @@ Includes settings of au-delete orders. An Order can only be deleted automaticall
   - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
   
 - **Send To**:
-  - Insert the email receipients a notification when Order is Delete.
-  - Each email =must be separated by a commas (,).
+  - Insert the email who receive notification when Order is Delete.
+  - Each email =must be separated by commas (,).
 
 
 ### II. Grid
@@ -98,7 +98,7 @@ From **Admin panel**, go to `Sales > Orders`.
 
 ![Imgur](https://i.imgur.com/1NSnKah.png)
 
-- Also, Admin can delete an order by clicking to **View** of the order.
+- Also, Admin can delete order by clicking to **View** of the order.
 
 ![Imgur](https://i.imgur.com/iuFrIGv.png)
 
