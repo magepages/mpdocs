@@ -1,4 +1,4 @@
-Delete Orders
+# Delete Orders
 
 
 ## Overview
@@ -13,7 +13,9 @@ Every day there are many orders placed and processed. The management at the **Or
 
 
 ## How to Configure
+
 ### I.Configuration
+
 From the **Admin panel**, go to `Stores > Configuration > Mageplaza > Delete Orders`.
 
 ![Imgur](https://i.imgur.com/dFJpzZb.png)
@@ -108,6 +110,7 @@ From **Admin panel**, go to `Sales > Orders`.
 
 ![Imgur](https://i.imgur.com/SNDHFwT.png)
 
-III. Email
+
+### III. Email
 
 ![Imgur](https://i.imgur.com/hjBYzVr.png)
