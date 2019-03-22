@@ -56,6 +56,7 @@ Welcome to Mageplaza Docs
    customer-attributes/index
    custom-stock-status/index
    daily-deal/index
+   delete-orders/index
    delete-order-m2/index
    delivery-time/index
    email-attachments/index
@@ -76,6 +77,7 @@ Welcome to Mageplaza Docs
    import-export-cms/index
    instagram-feed/index
    login-as-customer/index
+   mass-order-actions/index
    multi-flat-rates/index
    multiple-coupons/index
    order-archive/index
