@@ -15,36 +15,36 @@ In order to increase the accessibility of customers and demand for products, Mag
 
 ### Display the countdown for the catalog
 
-![Imgur](https://i.imgur.com/MahznQF.png)
+![catalog](https://i.imgur.com/MahznQF.png)
 
 ### Display countdown timer for none product
 
-![Imgur](https://i.imgur.com/K6R42kq.png)
+![nonproduct](https://i.imgur.com/K6R42kq.png)
 
 ### Support 5 clock types
 
-![Imgur](https://i.imgur.com/Eyqoh0E.png)
+![clock1](https://i.imgur.com/Eyqoh0E.png)
 
-![Imgur](https://i.imgur.com/JJK7YXK.png)
+![clock2](https://i.imgur.com/JJK7YXK.png)
 
-![Imgur](https://i.imgur.com/lrcqAK5.png)
+![clock3](https://i.imgur.com/lrcqAK5.png)
 
-![Imgur](https://i.imgur.com/6ToUTkJ.png)
+![clock4](https://i.imgur.com/6ToUTkJ.png)
 
-![Imgur](https://i.imgur.com/yHtEtji.png)
+![clock5r](https://i.imgur.com/yHtEtji.png)
 
 
 ## How to Configuration
 
 From the **Admin Panel**, go to `Content > Countdown Timer > Configuration`
 
-![Imgur](https://i.imgur.com/aGnjKM3.gif)
+![configuration](https://i.imgur.com/aGnjKM3.gif)
 
 ### 1. Configuration
 
 From the **Admin Panel**, go to `Content> Countdown Timer> Configuration`, select **General**
 
-![Imgur](https://i.imgur.com/vlLfWer.png)
+![general](https://i.imgur.com/vlLfWer.png)
 
 - **Enable**: Select **Yes** to turn on the module 
 
@@ -53,7 +53,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Configuration`, selec
 
 From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules`
 
-![Imgur](https://i.imgur.com/LvUqfiz.gif)
+![manage rules](https://i.imgur.com/LvUqfiz.gif)
 
 - This is where the discount list is displayed.
 - From Countdown Timer, admin can capture basic information of Countdown Timer such as ID, Name, Status, Customer Groups, Store View, Priority, Action.
@@ -73,7 +73,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 
 From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new`, select **General**
 
-![Imgur](https://i.imgur.com/6sJyWSx.png)
+![general](https://i.imgur.com/6sJyWSx.png)
 
 - **Name**: Enter a name for Countdown Timer, this is a required field
 - **Status**: Select **Enable** to display **Countdown Timer** in **Frontend**.
@@ -85,18 +85,18 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 
   - **All Products with Special Price**: Countdown Timer displayed on all products with special price at Frontend.
   
-  ![Imgur](https://i.imgur.com/qBzA9J6.png)
+  ![all products](https://i.imgur.com/qBzA9J6.png)
 
   - **Specific Products with Special Price**: Choose to apply to each product with special price.
     - Show more item information **Conditions**
     - You can also choose the catalog to apply Countdown Timer
     
-    ![Imgur](https://i.imgur.com/PN8Xbv6.png)
+    ![specific poducts](https://i.imgur.com/PN8Xbv6.png)
 
   - **Inherit condition from Catalog Rules**: inherit conditions from the catalog rule
     - Show additional **Select Catalog Price Rule** field
     
-    ![Imgur](https://i.imgur.com/LuQsr4j.png)
+    ![inherrit](https://i.imgur.com/LuQsr4j.png)
 
 - **Priority**: default value is 0. Countdown Timer has smaller Priority numbers will be displayed first at Frontend.
 
@@ -105,7 +105,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 
 From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new`, select **Display**
 
-![Imgur](https://i.imgur.com/HTARtzj.png)
+![display](https://i.imgur.com/HTARtzj.png)
 
 
 - **Display on**:
@@ -121,7 +121,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 - **Before Starting Countdown**:
 
 
-  ![Imgur](https://i.imgur.com/RMKZTRb.png)
+  ![Before Starting Countdown](https://i.imgur.com/RMKZTRb.png)
 
   - **Enable**: Select **Yes** to display Countdown Timer before product promotion start.
   - **Clock Style**: choose 1 of 5 available timer types.
@@ -152,11 +152,11 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
   - **Number Color**: Select the number of colors displayed.
   - **Text Color**: Select the color for the text inside the clock 
 
-  ![Imgur](https://i.imgur.com/UdlulQb.png)
+  ![Text Color](https://i.imgur.com/UdlulQb.png)
   
 - **Time Remaining Countdown**:
 
-![Imgur](https://i.imgur.com/QFzF0vE.png)
+![Time Remaining Countdown](https://i.imgur.com/QFzF0vE.png)
 
   - **Enable**: Select **Yes** to display **Countdown Timer** while product is on discount program
   - **Clock Style**: choose 1 of 5 available clock types.
@@ -183,11 +183,11 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 - `{{save_amount}}`: Show discounted amount
 - `{{save_percent}}`: Show discounted percentage
     
-  - **Title Color**: Choose title color displayed above the clock.
-  - **Message Color**: Select the color for the message displayed below the clock.
-  - **Clock Background Color**: Select the inside background color of the clock.
-  - **Number Color**: Select the number of colors displayed.
-  - **Text Color**: Select the color for the text inside the clock 
+- **Title Color**: Choose title color displayed above the clock.
+- **Message Color**: Select the color for the message displayed below the clock.
+- **Clock Background Color**: Select the inside background color of the clock.
+- **Number Color**: Select the number of colors displayed.
+- **Text Color**: Select the color for the text inside the clock 
   
   
 ### 4. Widget
@@ -199,18 +199,18 @@ From the **Admin Panel**, go to `Content > Elements > Widget`, chọn **Add new 
 
 #### Step 2: Select **Type = Mageplaza Countdown Timer**, choose the current theme at **Design Theme**, then click to **Continue**
 
-![Imgur](https://i.imgur.com/dViylrH.png)
+![Step 2](https://i.imgur.com/dViylrH.png)
 
 #### Step 3: Fill in the required information
 
-![Imgur](https://i.imgur.com/GR0wGV1.png)
+![Step 3](https://i.imgur.com/GR0wGV1.png)
 
 #### Step 4: Select the position to display widget
 
-![Imgur](https://i.imgur.com/psMzBmE.png)
+![Step 4](https://i.imgur.com/psMzBmE.png)
 
 #### Step 5: Select rule applying to widget
 
-![Imgur](https://i.imgur.com/zQlFV5j.png)
+![Step 5](https://i.imgur.com/zQlFV5j.png)
 
 #### Step 6: Save widget and check the store frontend
