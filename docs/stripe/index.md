@@ -66,7 +66,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
   - There are 5 types of cards that can be verified by 3D Secure:
     - **Required**: 3D Secure authentication must be completed for the payment to be successful
     - **Recommended**: 3D Secure is supported and recommended but not required on this card. Payments succeed whether 3D Secure is used or not.
-    - **Optional**: 3D Secure is supported but not required on this card. 3D Secure authentication may still be performed, but is not required. - Payments succeed whether 3D Secure is used or not
+    - **Optional**: 3D Secure is supported but not required on this card. 3D Secure authentication may still be performed, but is not required. Payments succeed whether 3D Secure is used or not
     - **Optional**: 3D Secure is supported for this card, but this card is not enrolled in 3D Secure. This means that if 3D Secure is invoked, the customer is not asked to authenticate. Payments succeed whether 3D Secure is invoked or not.
     - **Not_supported**: 3D Secure is not supported on this card and cannot be invoked.
 
