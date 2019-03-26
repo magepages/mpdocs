@@ -61,23 +61,29 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
   - Choose 1 or more cards for payment
   - Cards will be authenticated when customer completes the card number at check out. For cards not selected in this section, there will be an invalid message for the customer.
   
-- **3D Secure**: Select **Yes** to use 3D Secure to verify Customer's card, thereby preventing payment fraud
-  - **Force Using**: Select **Yes** to compulsorily verify the card. Only successful 3D Secure verified cards can process orders
-  - There are 5 types of cards that can be verified by 3D Secure:
-    - **Required**: 3D Secure authentication must be completed for the payment to be successful
-    - **Recommended**: 3D Secure is supported and recommended but not required on this card. Payments succeed whether 3D Secure is used or not.
-    - **Optional**: 3D Secure is supported but not required on this card. 3D Secure authentication may still be performed, but is not required. Payments succeed whether 3D Secure is used or not
-    - **Optional**: 3D Secure is supported for this card, but this card is not enrolled in 3D Secure. This means that if 3D Secure is invoked, the customer is not asked to authenticate. Payments succeed whether 3D Secure is invoked or not.
-    - **Not_supported**: 3D Secure is not supported on this card and cannot be invoked.
+- **3D Secure**: Select **Yes** to use 3D Secure to verify Customer's card, thereby preventing payment fraud. Showing extra field **Force using**
 
-  - Using 3D Secure When
-    - **3D Secure is recommended**: use 3D secure with recommended type
-    - **3D Secure is optional**: use 3D secure with optional type
+![Imgur](https://i.imgur.com/eWkoUeF.png)
+
+  - **Force Using**: Select **Yes** to compulsorily verify the card. Showing additional field **USing 3D secure when**. Only successful 3D Secure verified cards can process orders
+    - There are 5 types of cards that can be verified by 3D Secure:
+      - **Required**: 3D Secure authentication must be completed for the payment to be successful
+      - **Recommended**: 3D Secure is supported and recommended but not required on this card. Payments succeed whether 3D Secure is used or not.
+      - **Optional 1**: 3D Secure is supported but not required on this card. 3D Secure authentication may still be performed, but is not required. Payments succeed whether 3D Secure is used or not
+      - **Optional 2**: 3D Secure is supported for this card, but this card is not enrolled in 3D Secure. This means that if 3D Secure is invoked, the customer is not asked to authenticate. Payments succeed whether 3D Secure is invoked or not.
+      - **Not_supported**: 3D Secure is not supported on this card and cannot be invoked.
+
+  - **Using 3D Secure When**
+    - **3D Secure is recommended**: Force using 3D secure with recommended card type
+    - **3D Secure is optional**: Force using 3D secure with optional card type
+    
 - **Payment from Applicable Countries**:
   - Select **All Countries** to allow Stripe payment method available in all countries
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries can show the **Card** payment method
+    
 - **Instruction**: A simple description of this payment method. The instruction will be displayed at Frontend to instruct Customer how to use this payment method
+
 - **Sort Order**:
   - Choose display position of this payment method compared to other payment methods
   - 0 is the highest number
