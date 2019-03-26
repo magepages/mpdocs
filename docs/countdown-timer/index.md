@@ -128,22 +128,22 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
   
   - **Template on Product View**: Insert the variables `{{clock}}, {{save_amount}} & {{save_percent}}`, allow showing countdown timer at Product View before sales with the default template: 
   
-```
-<div class="mp-countdown-title">This product is discounting {{save_percent}}</div>
+  ```
+  <div class="mp-countdown-title">This product is discounting {{save_percent}}</div>
                             {{clock}}
                             <div class="mp-countdown-message">Hurry up!</div>
-```
+  ```
 
-  - **Template on Category View**: Insert the variables `{{clock}}, {{save_amount}} & {{save_percent}}` allow showing countdown timer at **Category View** before sales with the default template:
-```
-<div class="mp-countdown-title">Discounting {{save_percent}}. Hurry up!</div>
+    - **Template on Category View**: Insert the variables `{{clock}}, {{save_amount}} & {{save_percent}}` allow showing countdown timer at **Category View** before sales with the default template:
+  ```
+  <div class="mp-countdown-title">Discounting {{save_percent}}. Hurry up!</div>
                             {{clock}}
-```
+  ```
 
-In which: 
-- `{{clock}}`: Show clock
-- `{{save_amount}}`: Show discounted amount
-- `{{save_percent}}`: Show discounted percentage
+  In which: 
+    - `{{clock}}`: Show clock
+    - `{{save_amount}}`: Show discounted amount
+    - `{{save_percent}}`: Show discounted percentage
 
 
   - **Title Color**: Choose title color displayed above the clock.
@@ -154,20 +154,35 @@ In which:
 
   ![Imgur](https://i.imgur.com/UdlulQb.png)
   
-- **While Running**:
+- **Time Remaining Countdown**:
 
-![Imgur](https://i.imgur.com/kgLNw1o.png)
+![Imgur](https://i.imgur.com/QFzF0vE.png)
 
   - **Enable**: Select **Yes** to display **Countdown Timer** while product is on discount program
   - **Clock Style**: choose 1 of 5 available clock types.
-  - **Template**: Use the `{{clock}}` variable, `{{save_amount}}` & `{{save_percent}}` to put in. Default template:
-
-```
+  - **Template on Product View**: Insert the variables `{{clock}}, {{save_amount}} & {{save_percent}}`, allow showing countdown timer at Product View while running sales with the default template: 
+  
+  ```
+  <div class="mp-countdown-title">This product is discounting {{save_percent}}</div>
+                            {{clock}}
+                            <div class="mp-countdown-message">Hurry up!</div>
 <div class="mp-countdown-title">This product is discounting {{save_amount}}</div>
 {{clock}}
 <div class="mp-countdown-message">Hurry up!</div> .
 
-```
+  ```
+
+    - **Template on Category View**: Insert the variables `{{clock}}, {{save_amount}} & {{save_percent}}` allow showing countdown timer at **Category View** while running sales with the default template:
+  ```
+ <div class="mp-countdown-title">Discounting {{save_percent}}. Hurry up!</div>
+                            {{clock}}
+  ```
+
+  In which: 
+    - `{{clock}}`: Show clock
+    - `{{save_amount}}`: Show discounted amount
+    - `{{save_percent}}`: Show discounted percentage
+    
   - **Title Color**: Choose title color displayed above the clock.
   - **Message Color**: Select the color for the message displayed below the clock.
   - **Clock Background Color**: Select the inside background color of the clock.
