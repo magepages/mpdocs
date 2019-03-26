@@ -94,6 +94,8 @@ From the **Admin Panel**, go to `Stores > Shipping Restriction > Manage Rules`, 
 
 Set conditions to apply the rule. All products that meet the conditions will be applied with the rule.
 
+![Imgur](https://i.imgur.com/qkvqc2z.png)
+
 - **Apply the rule depending on Cart Price Rules (This will override the conditions above)**
 
   - **Active if these Cart Price Rules are applied:**
@@ -109,10 +111,19 @@ Set conditions to apply the rule. All products that meet the conditions will be 
     
 #### 2.2.3. Actions
 
-![Imgur](https://i.imgur.com/UX18isY.png)
+![Imgur](https://i.imgur.com/9Icq0VL.png)
 
-- **Select Shipping Methods**: Select the shipping method to apply the rule. You can choose multiple or all shipping methods to display them all.
+- **What To Do**: 
+  - **Show**: Show the chosen shipping methods
+  - **Hide**: Hide the chosen shipping methods
+
+
+- **Select Shipping Methods**: Select the shipping method to apply the rule. You can choose multiple or all shipping methods to show/hide them all.
 - **Action**: Select **Show** to display the selected shipping method.
 - **Location**: Select the location to apply the rule on:
 - **Backend Order**
 - **Frontend Order**
+- **Where To Apply**: Select the place to apply the rule on:
+  - **Orders Backend**
+  - **Storefront Purchases**
+- **Note**: If you want to hide/show Shipping Rule in holidays, please go back to setup the date/month you want to hide/show it. And noted to set Priority at the lowest number to get the highest priority.
