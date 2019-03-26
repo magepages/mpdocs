@@ -15,7 +15,7 @@ In order to increase the accessibility of customers and demand for products, Mag
 
 ### Display the countdown for the catalog
 
-![Imgur](https://i.imgur.com/FzqZbEC.png)
+![Imgur](https://i.imgur.com/MahznQF.png)
 
 ### Display countdown timer for none product
 
@@ -73,21 +73,21 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 
 From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new`, select **General**
 
-![Imgur](https://i.imgur.com/auZ7T8q.png)
+![Imgur](https://i.imgur.com/6sJyWSx.png)
 
 - **Name**: Enter a name for Countdown Timer, this is a required field
 - **Status**: Select **Enable** to display **Countdown Timer** in **Frontend**.
 - **Store View(s)**: Select the store in which Countdown Timer is displayed, you can select multiple stores
 - **Customer Group(s)**: Select the customer group for which Countdown Timer will be visible, you can select multiple customer groups.
 - **Apply for**: Countdown Timer applies to each option:
-  - **None Product base**: not applicable based on product, the position to show clock will depend on where you put widget (instruction in point 4)
+  - **None Product Base**: not applicable based on product, the position to show clock will depend on where you put widget (instruction in point 4)
     - Displays two more field **Start countdown date** and **End countdown dates**.
 
-  - **All products with special price**: Countdown Timer displayed on all products with special price at Frontend.
+  - **All Products with Special Price**: Countdown Timer displayed on all products with special price at Frontend.
   
   ![Imgur](https://i.imgur.com/qBzA9J6.png)
 
-  - **Specific Products with special price**: Choose to apply to each product with special price.
+  - **Specific Products with Special Price**: Choose to apply to each product with special price.
     - Show more item information **Conditions**
     - You can also choose the catalog to apply Countdown Timer
     
@@ -118,20 +118,32 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
   - **Layout file**: Copy the code and insert it into Magento's .xml file or other extensions you want to display Countdown Timer.
   
 
-- **Before Start**:
+- **Before Starting Countdown**:
 
 
-  ![Imgur](https://i.imgur.com/bDnuX0G.png)
+  ![Imgur](https://i.imgur.com/RMKZTRb.png)
 
   - **Enable**: Select **Yes** to display Countdown Timer before product promotion start.
   - **Clock Style**: choose 1 of 5 available timer types.
-  - **Template**: Default Displaying: 
+  
+  - **Template on Product View**: Insert the variables `{{clock}}, {{save_amount}} & {{save_percent}}`, allow showing countdown timer at Product View before sales with the default template: 
   
 ```
-<div class="mp-countdown-title">This product is discounting {{save_amount}}</div>
-{{clock}}
-<div class="mp-countdown-message">Hurry up!</div> .
+<div class="mp-countdown-title">This product is discounting {{save_percent}}</div>
+                            {{clock}}
+                            <div class="mp-countdown-message">Hurry up!</div>
 ```
+
+  - **Template on Category View**: Insert the variables `{{clock}}, {{save_amount}} & {{save_percent}}` allow showing countdown timer at **Category View** before sales with the default template:
+```
+<div class="mp-countdown-title">Discounting {{save_percent}}. Hurry up!</div>
+                            {{clock}}
+```
+
+In which: 
+- `{{clock}}`: Show clock
+- `{{save_amount}}`: Show discounted amount
+- `{{save_percent}}`: Show discounted percentage
 
 
   - **Title Color**: Choose title color displayed above the clock.
