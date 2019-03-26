@@ -16,13 +16,13 @@ The Shipping Restriction module is fully compatible with [Mageplaza's One Checko
 
 From **Admin Panel**, go to `Stores > Shipping Restriction > Configuration`
 
-![Imgur](https://i.imgur.com/g39bBQX.png)
+![configuration](https://i.imgur.com/g39bBQX.png)
 
 ### 1. Configuration
 
 From the **Admin Panel**, go to `Stores > Shipping Restriction > Configuration`, select **General**
 
-![Imgur](https://i.imgur.com/3EqNhqX.png)
+![general configuration](https://i.imgur.com/3EqNhqX.png)
 
 Choose **Enable = Yes** to turn on the module
 
@@ -32,7 +32,7 @@ Choose **Enable = Yes** to turn on the module
 
 - From the **Admin Panel**, go to `Stores > Shipping Restriction > Manage Rules`
 
-![Imgur](https://i.imgur.com/ctkUae7.png)
+![grid](https://i.imgur.com/ctkUae7.png)
 
 - From **Manage Rules**, admin can capture basic information such as **ID, Name, Status, Method, Store View, Customer Groups, Sort Order, Action**.
 
@@ -50,9 +50,9 @@ From the **Admin Panel**, go to `Stores > Shipping Restriction > Manage Rules`, 
 
 #### 2.2.1. General
 
-![Imgur](https://i.imgur.com/AOxl3ys.png)
+![new rules](https://i.imgur.com/AOxl3ys.png)
 
-![Imgur](https://i.imgur.com/3mwLpZ5.png)
+![general](https://i.imgur.com/3mwLpZ5.png)
 
 
 - **Name**: Name the rule, which is the required field.
@@ -88,13 +88,13 @@ From the **Admin Panel**, go to `Stores > Shipping Restriction > Manage Rules`, 
 
 #### 2.2.2. Conditions
 
-![Imgur](https://i.imgur.com/k86Nj8S.png)
+![conditions](https://i.imgur.com/k86Nj8S.png)
 
 - **Apply the rule only if the following conditions are met (leave blank for all products)**
 
 Set conditions to apply the rule. All products that meet the conditions will be applied with the rule.
 
-![Imgur](https://i.imgur.com/qkvqc2z.png)
+![conditions](https://i.imgur.com/qkvqc2z.png)
 
 - **Apply the rule depending on Cart Price Rules (This will override the conditions above)**
 
@@ -111,7 +111,7 @@ Set conditions to apply the rule. All products that meet the conditions will be 
     
 #### 2.2.3. Actions
 
-![Imgur](https://i.imgur.com/9Icq0VL.png)
+![actions](https://i.imgur.com/9Icq0VL.png)
 
 - **What To Do**: 
   - **Show**: Show the chosen shipping methods
@@ -125,5 +125,6 @@ Set conditions to apply the rule. All products that meet the conditions will be 
 - **Frontend Order**
 - **Where To Apply**: Select the place to apply the rule on:
   - **Orders Backend**
-  - **Storefront Purchases**
+  - **Storefront Purchases**
+  
 - **Note**: If you want to hide/show Shipping Rule in holidays, please go back to setup the date/month you want to hide/show it. And noted to set Priority at the lowest number to get the highest priority.
