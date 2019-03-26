@@ -140,10 +140,10 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
                             {{clock}}
   ```
 
- In which: 
- - `{{clock}}`: Show clock
- - `{{save_amount}}`: Show discounted amount
- - `{{save_percent}}`: Show discounted percentage
+   - In which: 
+     - `{{clock}}`: Show clock
+     - `{{save_amount}}`: Show discounted amount
+     - `{{save_percent}}`: Show discounted percentage
 
 
   - **Title Color**: Choose title color displayed above the clock.
@@ -178,10 +178,10 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
                             {{clock}}
   ```
 
-  In which: 
-- `{{clock}}`: Show clock
-- `{{save_amount}}`: Show discounted amount
-- `{{save_percent}}`: Show discounted percentage
+  - In which: 
+    - `{{clock}}`: Show clock
+    - `{{save_amount}}`: Show discounted amount
+    - `{{save_percent}}`: Show discounted percentage
     
 - **Title Color**: Choose title color displayed above the clock.
 - **Message Color**: Select the color for the message displayed below the clock.
@@ -195,7 +195,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 You can put Countdown Timer anywhere by creating a widget. To generate widget, please do the following steps:
 
 #### Step 1: 
-From the **Admin Panel**, go to `Content > Elements > Widget`, chọn **Add new Widget**
+From the **Admin Panel**, go to `Content > Elements > Widget`, select **Add new Widget**
 
 #### Step 2: Select **Type = Mageplaza Countdown Timer**, choose the current theme at **Design Theme**, then click to **Continue**
 
