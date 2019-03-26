@@ -140,10 +140,10 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
                             {{clock}}
   ```
 
-  In which: 
-    - `{{clock}}`: Show clock
-    - `{{save_amount}}`: Show discounted amount
-    - `{{save_percent}}`: Show discounted percentage
+ In which: 
+ - `{{clock}}`: Show clock
+ - `{{save_amount}}`: Show discounted amount
+ - `{{save_percent}}`: Show discounted percentage
 
 
   - **Title Color**: Choose title color displayed above the clock.
@@ -179,9 +179,9 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
   ```
 
   In which: 
-    - `{{clock}}`: Show clock
-    - `{{save_amount}}`: Show discounted amount
-    - `{{save_percent}}`: Show discounted percentage
+- `{{clock}}`: Show clock
+- `{{save_amount}}`: Show discounted amount
+- `{{save_percent}}`: Show discounted percentage
     
   - **Title Color**: Choose title color displayed above the clock.
   - **Message Color**: Select the color for the message displayed below the clock.
