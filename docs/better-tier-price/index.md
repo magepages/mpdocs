@@ -1,14 +1,14 @@
 # Better Tier Price
 
-## How to download and install
-
-- [Download Mageplaza Better Tier Price](https://www.mageplaza.com/magento-2-better-tier-price/)
-- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
-
 ## Overview
 
 Magento Tier Price allows salespeople to create certain discounts according to quantity for each product, encouraging customers to buy more products. With the [Mageplaza Better Tier Price Extension](https://www.mageplaza.com/magento-2-better-tier-price/), admin can make available Tier Price Groups to reduce setting time for each product. Besides, admin can target individual customers by creating Tier Price by each customer. Also, admin can install Mass Price Tier for multiple products at the same time by using mass action Update Attribute on the Products Grid page.
 
+
+## How to download and install
+
+- [Download Mageplaza Better Tier Price](https://www.mageplaza.com/magento-2-better-tier-price/)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Use
 
