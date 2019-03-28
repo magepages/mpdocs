@@ -75,8 +75,8 @@ At **Products Grid**, admin can set Tier Price for **multiple products** at the 
 
 ### 3. Frontend
 
-![Imgur](https://i.imgur.com/6ywuhoY.png)
+![Imgur](https://i.imgur.com/U8FdCSf.png)
 
-![Imgur](https://i.imgur.com/rwcFOWt.png)
+![Imgur](https://i.imgur.com/LK14tEC.png)
 
-![Imgur](https://i.imgur.com/HlbYYrm.png)
+![Imgur](https://i.imgur.com/MYw2RO2.png)
