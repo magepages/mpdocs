@@ -134,9 +134,9 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
   - Enter the number in the **Duration No.** field to determine the duration of that membership. Only apply this configuration if you choose Duration at **Membership product** is in Default value. 
   - If left blank or insert "0", membership will be applied unlimited time. 
 
-##### 2.2.2. Display Config
+##### 2.2.2. Display 
 
-![Imgur](https://i.imgur.com/Id1nOCO.png)
+![Imgur](https://i.imgur.com/n74RhI7.png)
 
 - **Membership Name**:
   - Enter a name for membership. With each store view, you can name a membership replacement in the frontend.
@@ -174,11 +174,11 @@ Here save the information and payment history of customers when buying each memb
 
 ![Imgur](https://i.imgur.com/ZIRIS6Y.png)
 
-### 3. Manage History
+### 3. Transactions
 
-The information in this **Manage History** section is similar to **History in Manage Membership** but here are all membership histories. It stores customer information and payment history when purchasing membership.
+The information in this **Transaction** section is similar to **History in Manage Membership** but here are all membership histories. It stores customer information and payment history when purchasing membership.
 
-![Imgur](https://i.imgur.com/5t8vKno.png)
+![Imgur](https://i.imgur.com/1Tk5fGz.png)
 
 
 ### 4. Membership Product
@@ -213,7 +213,7 @@ Login to the **Magento Admin**, choose `Catalog> Products`. At **Add Product** b
   
   - With Membership **Expiration Date** field, you can set your own membership duration for each customer and will prioritize membership configuration here.
   
-###  6. Manage Member
+###  6. Manage Members
 
 In this part, Members' information of Membership will be recorded here including Customers' email, Membership type, Status, Activation Date, Expiration Date. 
 
