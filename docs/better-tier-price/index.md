@@ -16,35 +16,33 @@ With this extension, Customer can perform the following actions:
 
 #### Set Tier Price for each product at fixed price, discount by percentage and fixed discount
 
-![Imgur](https://i.imgur.com/glw3IsZ.png)
+![each product](https://i.imgur.com/glw3IsZ.png)
 
 #### Set the default Group Tier for products
 
-![Imgur](https://i.imgur.com/7SZ5heO.png)
+![group tier](https://i.imgur.com/7SZ5heO.png)
 
 #### Set Price Tier for each specific customer
 
-![Imgur](https://i.imgur.com/5LOy4Xs.png)
+![each customer](https://i.imgur.com/5LOy4Xs.png)
 
 #### Support Tier Price setting for multiple products via mass action
 
-![Imgur](https://i.imgur.com/7Ho1PDV.png)
+![mass action](https://i.imgur.com/7Ho1PDV.png)
 
 ## How to Configure
 
 From the **Admin panel**, go to `Store > Configuration > Mageplaza Extensions > Better Tier Price`
 
-![Imgur](https://i.imgur.com/s1sd02M.png)
-
 ### 1. Configuration
 
 #### 1.1. General Tab
 
-![Imgur](https://i.imgur.com/s1sd02M.png)
+![general tab](https://i.imgur.com/s1sd02M.png)
 
 
 - **Enable**: Select **Yes** to enable the extension.
-- **Enable Pricing Table**: Display Tier Price on **Product View** page in grid including information of **Quantity, Save Amount, Price Per Item**.
+- **Enable Pricing Table**: Display Tier Price on **Product View** page in table including information of **Quantity, Save Amount, Price Per Item**.
 - **Auto Qty Change**: If you choose **Yes**, after selecting an option from the **Tier Price table**, the number of products in the Qty box at the **Product View** page will automatically change according to that choice. This field is only applicable when **Enable Pricing Table = Yes**.
 - **Only Show Optimal Options**: If you choose **Yes**, show only **Tier Prices** that can be applied on **Product View**.
 - **Example**: For product A, which has a price of $ 10, Tier Price with option 1 is a 50% discount when buying 5 products and option 2 is a $ 2 discount (equivalent to a 20% discount) when buying 10 products. On the Product View page, only option 1 will be displayed.
@@ -55,28 +53,28 @@ From the **Admin panel**, go to `Store > Configuration > Mageplaza Extensions > 
 
 #### 2.1 Setting for each product
 
-![Imgur](https://i.imgur.com/YF9uTdC.png)
+![each product setting](https://i.imgur.com/YF9uTdC.png)
 
 
 - Go to `Catalog > Products > Edit products > Advanced Pricing`
 - **Tier Group**: The default Tier Tier, if selected, the product will automatically apply Tier Price in that Group.
 - You can **Add New Tier Group or Edit Current Tier Group**. Clicking the **Add New / Edit** button next to the **Tier Group** field will display a popup containing the **New Add/Edit Tier Group** form. At this form, admin can set the name of the desired Tier Price option group or delete that Tier Group.
 
-![Imgur](https://i.imgur.com/bNt6m5R.png)
+![tier group](https://i.imgur.com/bNt6m5R.png)
 
 - **Tier Price (s)**: install Tier Price according to Qty and desired price. For prices with 3 options: **Fixed Price, Discount Percent, Discount Amount**.
 - **Tier Price for Specific Customer (s)**: Install Tier Price for each customer. When clicking on the **Customer field** will display a popup containing customer grid for admin to select the desired customer.
 
 #### 2.2 Setting for multiple products
 
-![Imgur](https://i.imgur.com/Z6S6sNx.png)
+![multiple products](https://i.imgur.com/Z6S6sNx.png)
 
 At **Products Grid**, admin can set Tier Price for **multiple products** at the same time by selecting the desired product, then selecting **mass action Update Attributes**, on the **Tier Price** tab. At this tab will display the same Tier Price setting as when creating Tier Price for each product above.
 
 ### 3. Frontend
 
-![Imgur](https://i.imgur.com/U8FdCSf.png)
+![frontend1](https://i.imgur.com/U8FdCSf.png)
 
-![Imgur](https://i.imgur.com/LK14tEC.png)
+![frontend2](https://i.imgur.com/LK14tEC.png)
 
-![Imgur](https://i.imgur.com/MYw2RO2.png)
+![frontend3](https://i.imgur.com/MYw2RO2.png)
