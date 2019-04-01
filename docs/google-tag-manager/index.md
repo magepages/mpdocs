@@ -6,7 +6,7 @@ How to know the increase in traffic of a website every week? What is the convers
 
 ## How to download and install
 
-- [Download Mageplaza Google Analytics](https://www.mageplaza.com/magento-2-google-analytics/)
+- [Download Mageplaza Google Tag Manager](https://www.mageplaza.com/magento-2-google-analytics/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
