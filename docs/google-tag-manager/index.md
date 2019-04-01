@@ -130,7 +130,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
   
 **Note**: To turn on Google Tag Manager, you need to create **Trigger** then **Tag** and click **Preview** or **Submit** in case GTM is disable. 
 
-![Imgur](https://i.imgur.com/i63KNQy.gifv)
+![Imgur](https://i.imgur.com/i63KNQy.gif)
 
 
 #### 1.3. Google Analytics eCommerce
@@ -149,7 +149,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
   
   ![Imgur](https://i.imgur.com/c1RG4C6.png)
   
-- **Enable Enhanced Link Attribution**: Selecting **Yes** to enable allows customers to track each link, know the accuracy of the analytics report in the page by automatically distinguishing between multiple links to the same URL on one The page from which the number of customers clicked on the page or product was calculated. For example, your link to the same page is the same but the path is completely different in the same page. When you go to Gear> Bags folder, but you still click on the view of products like Grid or List, then click on each part in the Bags folder and when you click on the Grid or list are different You should install and turn on **Google Analytics Debugger** and **Page Analytics** add to the browser you are using to support the reporting feature to see the number of clicks.
+- **Enable Enhanced Link Attribution**: Selecting **Yes** to enable allows customers to track each link, know the accuracy of the analytics report in the page by automatically distinguishing between multiple links to the same URL on one The page from which the number of customers clicked on the page or product was calculated. For example, your link to the same page is the same but the path is completely different in the same page. When you go to `Gear> Bags` folder, but you still click on the view of products like Grid or List, then click on each part in the Bags folder and when you click on the Grid or list are different You should install and turn on **Google Analytics Debugger** and **Page Analytics** add to the browser you are using to support the reporting feature to see the number of clicks.
 
 ![Imgur](https://i.imgur.com/AtjaOpC.png)
 
