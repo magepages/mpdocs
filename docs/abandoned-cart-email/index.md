@@ -6,17 +6,17 @@ Cart abandonment is an action that consumers leave the website after adding a pr
 
 [Magento 2 Abandoned Cart Email](https://www.mageplaza.com/magento-2-abandoned-cart-email/) extension will help you solve this problem. This extension assists  you determine which cart is having forgotten products, from those initial crumbs to send reminders, or be possible to send discounts to help shoppers easily recover their shopping cart and complete the checkout, which will absolutely skyrocket the value of orders, sales, profits for the store 
 
-```
-*Note: 
+
+**Note**: 
 * Mageplaza Abandoned Cart Email is totally compatible with Mageplaza SMTP extension
 * The extension supports and keeps track of logged customers or entered emails by visitors when they're in the checkout page
 * The module will be run depend on the Cronjob configuration
-```
+
 
 ## How to configure
 
 Login to Magento Admin, ``Marketing > Abandoned Cart Email`` to configure it in general
-![ACE1](https://i.imgur.com/Xa985mo.png)
+![ACE1](https://i.imgur.com/i6XuSNP.png)
 
 ### 1. Configuration
 
@@ -29,12 +29,12 @@ Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Car
 * **Email**: This section is for the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
-* In the **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
-* In the **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section
-* **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in [**1.3 Coupon**](https://docs.mageplaza.com/abandoned-cart-email/index.html#coupon)
+  * In the **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
+  * In the **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section
+  * **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in [**1.3 Coupon**](https://docs.mageplaza.com/abandoned-cart-email/index.html#coupon)
   * Click the trash can icon ![image](https://i.imgur.com/62D0Zqz.png) to delete a email
   * Click the Send test icon to send a test email. To send a test mail successfully, admin has to provide at least one email address in the field ``Send Test Email to``. This feature is available for multi-stores also.
-  * ``Send Test Email To``: This field is required only for the sending test email purpose. To guarantee that customers' data will not be leaked, only the most recent abandoned cart's information which belongs to a guest can be sent to this test email.
+* ``Send Test Email To``: This field is required only for the sending test email purpose. To guarantee that customers' data will not be leaked, only the most recent abandoned cart's information which belongs to a guest can be sent to this test email.
   
 #### 1.2 Analytics
 Google Analytics is integrated with Mageplaza Abandoned Cart extension. Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` and click on **Analytics**.
@@ -77,6 +77,9 @@ An example of the Abandoned Cart Email sent to a customer
 ![ACE6](https://i.imgur.com/PB7n1bW.png)
 
 ### 2. Reports
+
+#### 2.1 Reports
+
 Go to ``Marketing > Abandoned Cart Email > Report``. This is the place where archives the number of Abandoned Carts, the number of Abandoned Carts sent, the number of failed Abandoned Carts and the number of Abandoned Carts that were recovered in a period of time. There are two Report Time modes:
 * DAY
   * When you select the **DAY** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a daily basis
@@ -86,22 +89,33 @@ Go to ``Marketing > Abandoned Cart Email > Report``. This is the place where arc
 * MONTH: When you select **MONTH** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a monthly basis
 ![ACE8](https://i.imgur.com/O9Iz9vu.png)
 
-### 3. Logs
+#### 2.2 Logs
+
 This is the place archiving abandoned cart emails which have been sent, including their ID, Subject, Receiver, Coupon, Sequent Number, Sent, Status (Sent / Error) and Action (Preview / Delete, Send Again)
 
 From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
 ![ACE9](https://i.imgur.com/zmKitE3.png)
 
 * **Action = Preview**: a pop-up window showing the email which has been sent will appear
-![ACE10](https://i.imgur.com/LpCjhCY.png)
+![ACE10](https://i.imgur.com/0MasgKH.png)
 
 * **Action = Delete**: the selected emails will be deleted. You can choose multiple emails at the same time
 * **Action = Send Again**: the selected email will be sent to customers again. This email has the same content as the selected email
 * **Clear Logs** button: Click the Clear Logs button to quickly delete all the emails stored in the logs. The next email’s ID has nothing to do with the deleted one
 
- 
+ ### 3. Checkout Process
 
+* Here will show statistics about Abandoned Cart Checkout 
+* Display statistics on checkout cart and abandoned cart grid about quantity, rate (%), total revenue ($)
+* Display statistics tables about abandoned cart after send email (ACE):
+* Statistics the number of abandoned cart after sending abandoned cart email
+  * Number of emails sent
+  * The amount can be saved after sending an email
+  * Saved revenue
+  * Checked out rate of abandoned cart
 
+![ACE11](https://i.imgur.com/frP8l8P.png)
 
+- Show detailed statistics in period (day/week/month/year/custom) by Grid
 
-
+![ACE12](https://i.imgur.com/P6owmfH.png)
