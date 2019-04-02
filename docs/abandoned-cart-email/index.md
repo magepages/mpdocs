@@ -16,16 +16,18 @@ Cart abandonment is an action that consumers leave the website after adding a pr
 ## How to configure
 
 Login to Magento Admin, ``Marketing > Abandoned Cart Email`` to configure it in general
-![ACE1](https://i.imgur.com/i6XuSNP.png)
+![ACE1](https://i.imgur.com/G4kMlki.png)
 
 ### 1. Configuration
 
 #### 1.1 General Configuration
 Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` then click on ``General Configuration``
 
-![ACE2](https://i.imgur.com/KFSSJo5.png)
+![ACE2](https://i.imgur.com/gOPOs33.png)
 
 * **Enabled**: select “Yes” to enable Mageplaza Abandoned Cart Email extension
+* **Send Email to Subcriber Only**: Select **Yes**, only sending abandoned cart eamil to registed customers and supscribed customers. If select **No**, sending email to all abandoned carts which are satisfy the conditions. 
+
 * **Email**: This section is for the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
@@ -76,11 +78,11 @@ An example of the Abandoned Cart Email sent to a customer
 
 ![ACE6](https://i.imgur.com/PB7n1bW.png)
 
-### 2. Reports
+### 2. Overall Reports
 
 #### 2.1 Reports
 
-Go to ``Marketing > Abandoned Cart Email > Report``. This is the place where archives the number of Abandoned Carts, the number of Abandoned Carts sent, the number of failed Abandoned Carts and the number of Abandoned Carts that were recovered in a period of time. There are two Report Time modes:
+Go to ``Marketing > Abandoned Cart Email > Overall Report``. This is the place where archives the number of Abandoned Carts, the number of Abandoned Carts sent, the number of failed Abandoned Carts and the number of Abandoned Carts that were recovered in a period of time. There are two Report Time modes:
 * DAY
   * When you select the **DAY** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a daily basis
   * If the distance between **From** and **To** is too far apart, the distance between two days in Report Time will be increased
@@ -97,7 +99,7 @@ From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
 ![ACE9](https://i.imgur.com/zmKitE3.png)
 
 * **Action = Preview**: a pop-up window showing the email which has been sent will appear
-![ACE10](https://i.imgur.com/0MasgKH.png)
+![ACE10](https://i.imgur.com/AX0wnPF.png)
 
 * **Action = Delete**: the selected emails will be deleted. You can choose multiple emails at the same time
 * **Action = Send Again**: the selected email will be sent to customers again. This email has the same content as the selected email
@@ -114,8 +116,8 @@ From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
   * Saved revenue
   * Checked out rate of abandoned cart
 
-![ACE11](https://i.imgur.com/frP8l8P.png)
+![ACE11](https://i.imgur.com/XTDuIE0.png)
 
 - Show detailed statistics in period (day/week/month/year/custom) by Grid
 
-![ACE12](https://i.imgur.com/P6owmfH.png)
+![ACE12](https://i.imgur.com/bH8Vql3.png)
