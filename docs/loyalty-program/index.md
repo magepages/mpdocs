@@ -4,7 +4,7 @@
 
 ## Overview
 
-In order to increase the demand for shopping, connecting between customers and store owners especially close customers, Mageplaza developed the [Loyalty Program extension](https://www.mageplaza.com/magento-2-loyalty-program/). This module can create incentive programs for loyal customers who meet certain conditions. Conditions will be based on customer information and customer order information within a certain time. In addition, the module also allows the admin to add/remove certain customers to a loyalty program, create a separate program with statistics of the current status of customers and information about the program (using static blocks).
+In order to increase the demand for shopping, connecting between customers and store owners especially close customers, Mageplaza developed the [Loyalty Program extension](https://www.mageplaza.com/magento-2-loyalty-program/). This module can create incentive programs for loyal customers who meet certain conditions. Conditions will be based on customer information and customer order information within a certain time. In addition, the module also allows the admin to add/remove certain customers to a loyalty program, create a separate program with statistics of the current status of customers and information about the program (using static blocks). You should intall [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending your email to spam box. It is fully compatible with Loyalty Program. 
 
 ## How to download and install
 
@@ -16,11 +16,11 @@ In order to increase the demand for shopping, connecting between customers and s
 
 #### Email notification when customer can join certain loyalty program
 
-![join email](https://i.imgur.com/Q6uYlw7.png)
+![join email](https://i.imgur.com/ScYjhpZ.png)
 
 #### Email notification of expiration of the loyalty program
 
-![expire email](https://i.imgur.com/TzfNAlq.png)
+![expire email](https://i.imgur.com/9zM6wAN.png)
 
 #### Show order statistics and information about the program
 
@@ -44,10 +44,10 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
 ![general](https://i.imgur.com/IORqB9s.png)
 
 - **Enable**: Select **Yes** to enable the module.
-- **Enable Loyalty Page**: Select **Yes** to activate the Loyalty page
+- **Enable Loyalty Page**: Select **Yes** to show the Loyalty page at frontend
 - **Select Static Block**:
   - Select the content displayed on the Loyalty page.
-  - You can access `Content > Block`, click **Add New Block** to create a new **Static Block page**, or click **Edit** to edit the **Static page** you created. 
+  - You can access `Content > Elements > Blocks`, click **Add New Block** to create a new **Static Block page**, or click **Edit** to edit the **Static page** you created. 
   
   ![static block](https://i.imgur.com/TaC89qL.png)
 
@@ -101,7 +101,7 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Loyalty Pr
 
 ##### 2.2.1. General
 
-![general](https://i.imgur.com/lygWdB3.png)
+![general](https://i.imgur.com/ZB32hza.png)
 
 - **Name**: Enter the name of a loyalty program. this is a required field.
 - **Status**: Select **Enable** so that the loyalty program can be activated
@@ -128,11 +128,11 @@ Select the conditions to apply customers to each program. The customer informati
 ![conditions](https://i.imgur.com/AMf3Ftr.png)
 
  
-##### 2.2.3. Customer
+##### 2.2.3. Customers
 
 Only displayed when admin finishes creating the program
 
-![customer](https://i.imgur.com/8P7mcyA.png)
+![customer](https://i.imgur.com/mq58Et2.png)
 
 - **Customer**: Clicking on the **Customer** field will display the table, select specific customer to add to the loyalty program.
 
@@ -142,4 +142,4 @@ Only displayed when admin finishes creating the program
   - The time that the customer can join the program which is calculated by day.
   - If left blank, there is no time limit for loyalty program by default.
   
-  ![duration](https://i.imgur.com/Gpv9Obs.png)
+  ![duration](https://i.imgur.com/YJZf16c.png)
