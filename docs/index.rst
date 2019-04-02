@@ -52,6 +52,7 @@ Welcome to Mageplaza Docs
    better-wishlist/index
    blog-m2/index
    call-for-price/index
+   catalog-permissions/index
    custom-order-number/index
    customer-attributes/index
    custom-stock-status/index
