@@ -16,6 +16,7 @@ Cart abandonment is an action that consumers leave the website after adding a pr
 ## How to configure
 
 Login to Magento Admin, ``Marketing > Abandoned Cart Email`` to configure it in general
+
 ![ACE1](https://i.imgur.com/G4kMlki.png)
 
 ### 1. Configuration
