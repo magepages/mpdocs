@@ -19,11 +19,11 @@ In order to increase the accessibility of customers and demand for products, Mag
 
 ### Display countdown timer for none product
 
-![nonproduct](https://i.imgur.com/K6R42kq.png)
+![nonproduct](https://i.imgur.com/v4gyjbD.png)
 
 ### Support 5 clock types
 
-![clock1](https://i.imgur.com/Eyqoh0E.png)
+![clock1](https://i.imgur.com/C7ol2ln.png)
 
 ![clock2](https://i.imgur.com/JJK7YXK.png)
 
@@ -85,7 +85,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 
   - **All Products with Special Price**: Countdown Timer displayed on all products with special price at Frontend.
   
-  ![all products](https://i.imgur.com/qBzA9J6.png)
+  ![all products](https://i.imgur.com/dQqmAno.png)
 
   - **Specific Products with Special Price**: Choose to apply to each product with special price.
     - Show more item information **Conditions**
@@ -121,7 +121,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
 - **Before Starting Countdown**:
 
 
-  ![Before Starting Countdown](https://i.imgur.com/RMKZTRb.png)
+  ![Before Starting Countdown](https://i.imgur.com/LDzl7gv.png)
 
   - **Enable**: Select **Yes** to display Countdown Timer before product promotion start.
   - **Clock Style**: choose 1 of 5 available timer types.
@@ -156,7 +156,7 @@ From the **Admin Panel**, go to `Content> Countdown Timer> Manage Rules> Add new
   
 - **Time Remaining Countdown**:
 
-![Time Remaining Countdown](https://i.imgur.com/QFzF0vE.png)
+![Time Remaining Countdown](https://i.imgur.com/U3y0eA2.png)
 
   - **Enable**: Select **Yes** to display **Countdown Timer** while product is on discount program
   - **Clock Style**: choose 1 of 5 available clock types.
