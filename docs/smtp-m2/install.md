@@ -14,7 +14,7 @@ How to install SMTP
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mageplaza/mmodule-smtp
+composer require mageplaza/module-smtp
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
