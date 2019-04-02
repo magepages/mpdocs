@@ -26,7 +26,7 @@ Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Car
 ![ACE2](https://i.imgur.com/gOPOs33.png)
 
 * **Enabled**: select “Yes” to enable Mageplaza Abandoned Cart Email extension
-* **Send Email to Subcriber Only**: Select **Yes**, only sending abandoned cart eamil to registed customers and supscribed customers. If select **No**, sending email to all abandoned carts which are satisfy the conditions. 
+* **Send Email to Subscriber Only**: Select **Yes**, only sending abandoned cart eamil to registed and subscribed customers. If select **No**, sending email to all abandoned carts of registed customers which are satisfy the conditions. 
 
 * **Email**: This section is for the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
