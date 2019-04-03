@@ -52,7 +52,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 #### 1.1. General 
 
 
-![Imgur](https://i.imgur.com/BDbiaOF.png)
+![Imgur](https://i.imgur.com/I9ZA7aE.png)
 
 - **Enable**: Select `Yes` to enable the module
 - **Client ID**: Insert the App ID
@@ -61,7 +61,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 #### 1.2. Display
 
-![Imgur](https://i.imgur.com/JTIr3aV.png)
+![Imgur](https://i.imgur.com/ZB67Y2X.png)
 
 
 - **Total number of photos**
