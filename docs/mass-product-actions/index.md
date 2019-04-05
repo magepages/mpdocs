@@ -16,19 +16,29 @@ Sometimes, stores' admins want to change or edit products data in their store, t
 
 Login to the **Magento Admin**, go to `Stores > Configuration > Mageplaza > Mass Product Actions`.
 
+![Imgur](https://i.imgur.com/RPNzFec.png)
+
 #### 1. General
 
+![Imgur](https://i.imgur.com/afo5xdd.png)
+
 - Select **Enable = Yes** to enable the module.
-- **Enable Mass Action**:
-  - Admin selects the action to apply to the product.
-  - Admin is allowed to select multiple actions.
-  - The selected actions will display in products grid.
+- **Select Actions**: 
+  - Click checkbox to activate Action. Admin csn choose mulitple actions
+  - **Position**: Set the priority of Action shown on Grid
+  - **Note**: 
+    - The smaller the position is, the higher the priority of it
+    - If two actions have same position, Grid will show Actions in order at **Select Actions** field
 
 ### II. Grid
 
 Login to the **Magento Admin**, choose `Catalog > Products`.
 
+![Imgur](https://i.imgur.com/6MO7DHB.png)
+
 Click **Actions**, there, actions will be displayed according to **Enable Mass Action** configuration created at the **Configuration** section.
+
+![Imgur](https://i.imgur.com/YMPwu2g.png)
 
 
 #### 2.1. Quick Update Attributes
@@ -37,6 +47,10 @@ Click **Actions**, there, actions will be displayed according to **Enable Mass A
 - Admin can change **Attribute Set** for one or multiple orders by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
 - Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+
+![Imgur](https://i.imgur.com/DRF4rRj.png)
+
+![Imgur](https://i.imgur.com/a80EfpM.png)
 
 - After selecting the order, Admin click **Action** and select **Change Attribute Set**. The system will display popup for admin to change product attributes.
 
@@ -47,6 +61,7 @@ Click **Actions**, there, actions will be displayed according to **Enable Mass A
 - Or click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 - After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
+![Imgur](https://i.imgur.com/iCFafpJ.png)
 
 - Admin changes the display of the product on the page by clicking **Remove Categories/Add Categories**.
 - Select **Remove Categories** if Admin wants to delete the current display position of the product.
