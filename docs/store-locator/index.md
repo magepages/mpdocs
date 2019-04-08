@@ -268,11 +268,61 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 
 
+## Mageplaza Store Pickup
+
+### 1. Configuration
+
+Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shipping Methods > Mageplaza Store Pickup`.
 
 
+- **Enable**: Select **Yes** to enable using the Shipping Methods feature with Mageplaza Store Pickup.
+- **Title**:
+  - Enter the title for the ****Shipping Methods** type with [Mageplaza Store Pickup]().
+  - If left blank, the default is *Select store to pickup*.
+
+![Imgur](https://i.imgur.com/NKgSyWf.png)
+
+- **Method Name**:
+  - Enter a name for this Shipping methods type and will appear on Shipping methods when the customer checkout.
+  - If left blank, the default is *Store Pickup*.
+  
+  ![Imgur](https://i.imgur.com/A3G2Kon.png)
+
+- **Price**: Enter the price for shipping methods. If left blank, the ship price will default to 0.
+- **Calculate Handling Fee**: Select the **Handling Fee** for the shipping methods, this price will be added to the Price field and displayed in shipping methods when the customer checkout. With two **Handling Fee** types:
+  - **Fixed**: Shipping methods will be calculated according to the price and handling free fields as follows: Price + Handling Fee. For example: Price: 5, Handling Fee: 6, so the total ship charge is: 5 + 6 = 11.
+  - **Precent**: Shipping methods will be calculated according to the free and handling price fields: Price + Handling Fee. For example: Price: 5, Handling Fee: 6, so the ship's total charge is: 5 + 5 * 6/100 = 5.3.
+- **Handling Fee**: Enter the price for Handling Free. If left blank, the default is 0.
+- **Pickup product (s) available after**:
+  - Enter the number of days after ordering at least how many days customers can pick up the goods.
+  - If left blank means that the product is always available in the store so customers can pick it up during business hours at any time.
+- **Displayed Error Message**:
+  - Enter **Error Message** for shipping method when the product in the cart is not in the same locator store.
+  - If left blank, the default is *This shipping method is not available. To use this shipping method, please contact us*.
+- **Ship to Applicable Countries**: Select a country to ship to this shipping method:
+  - **All Allowed Countries**: can send products to all countries.
+  - **Specific Countries**: Select a country to send products to. Show an extra filed **Ship to Specific Countries** 
+    - **Ship to Specific Countries**: Select the countries to which you can send products. Non-selected countries will not be applied shipping 
+- **Sort Order**:
+  - Enter the number in the Sort Order field. Display sort order for Shipping method when customer pays. The higher the number, the more priority the shipping method has. With 0 being the highest.
+  - If left blank, the default is 0.
+
+### 2. Form Add New/Edit Product
+
+Login to the **Magento Admin**, choose `Catalog > Products Add new/Edit any product`
+
+[Imgur](https://i.imgur.com/4kN8hmD.png)
+
+- **Available Store Pickup**:
+  - Select store locator to display product on that store locator.
+  - If left blank, the product will not display and be in any store locator.
+- **Note**: If the Form **Add New/Edit Store locator** has been selected, in this part the product will be selected for that store locator. Or you can edit the store locator for each product here.
+
+### 3. Orders Backend
+This section records the store locator's address information, after ordering for how long the customer can come to pick up the goods and the amount of additional charges customers have to pay as shipping,...
 
 
-
+![Imgur](https://i.imgur.com/FY8ysd9.png)
 
 
 
