@@ -41,10 +41,9 @@ Click **Actions**, there, actions will be displayed according to **Enable Mass A
 ![Imgur](https://i.imgur.com/YMPwu2g.png)
 
 
-#### 2.1. Quick Update Attributes
-#### 2.2. Change Attribute Set
+#### 2.1. Change Attribute Set
 
-- Admin can change **Attribute Set** for one or multiple orders by clicking on **order ID**
+- Admin can **Change Attribute Set** for one or multiple orders by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
 - Or click **Select All on This Page**, the system will select all orders displayed on the grid.
 
@@ -54,23 +53,114 @@ Click **Actions**, there, actions will be displayed according to **Enable Mass A
 
 - After selecting the order, Admin click **Action** and select **Change Attribute Set**. The system will display popup for admin to change product attributes.
 
+#### 2.2 Quick Attributes Update
+
+Admin can perform **Quick Attributes Update** for one or multiple orders by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+
+![Imgur](https://i.imgur.com/QZvlwYd.png)
+
+- Admins change Update the Product Attributes by clicking to the checkbox. After finish action, click to **Submit**.
+
+![Imgur](https://i.imgur.com/rdsYlyI.png)
+
 #### 2.3. Update Category
 
 - Admin can perform **Update Category** for one or multiple order by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Or click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 - After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
 ![Imgur](https://i.imgur.com/iCFafpJ.png)
 
 - Admin changes the display of the product on the page by clicking **Remove Categories/Add Categories**.
-- Select **Remove Categories** if Admin wants to delete the current display position of the product.
-- Select **Add Categories** if Admin wants to display products at different pages.
+  - Select **Remove Categories** if Admin wants to delete the current display position of the product.
+  - Select **Add Categories** if Admin wants to display products at different pages.
 
 - In addition, Admin can create a new display position for the product by clicking **New Category**.
-- **Category Name**: Enter a name for the Category. The system will report an error if this field is left blank.
-- **Parent Category**: Set the location for Category. The system will report an error if this field is left blank.
-- Click **Create Category** to complete creating the category.
+  - **Category Name**: Enter a name for the Category. The system will report an error if this field is left blank.
+  - **Parent Category**: Set the location for Category. The system will report an error if this field is left blank.
+  - Click **Create Category** to complete creating the category.
+  
+  #### 2.4. Update Cross-sell Products
+
+- Admin can perform **Update Cross-sell Products** for one or multiple order by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+  
+  ![Imgur](https://i.imgur.com/DTYWz7E.png)
+
+- After selecting the order, Admin click **Action** and select **Update Cross-sell Products**. The system will display popup for admin to perform the action
+
+![Imgur](https://i.imgur.com/lifi5Ho.png)
+
+- Configuration to **display or delete Cross-sell products**.
+
+- **Direction**:
+
+![Imgur](https://i.imgur.com/HoUzwgR.png)
+
+  - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
+  - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
+
+- **Remove Cross-sell Product(s)**: Admin selects the product to remove it from Cross-sell Products.
+- **Add Cross-sell Product(s)**: Admin selects the product to display the product at Cross-sell Products.
+- **Copy from Product(s)**: Admin selects the product to copy its Cross-sell products.
+- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
+
+![Imgur](https://i.imgur.com/vPJO9Sh.png)
+
+- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
+
+![Imgur](https://i.imgur.com/6yk6neO.png)
+
+#### 2.5. Copy Custom Options
+
+- Admin can perform **Copy Custom Options** for one or multiple order by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+  
+  ![Imgur](https://i.imgur.com/Q9gTNy0.png)
+
+- After selecting the order, Admin click **Action** and select **Copy Custom Options**. The system will display popup for admin to perform the action
+
+![Imgur](https://i.imgur.com/tfqYA87.png)
+
+- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
+
+
+#### 2.6. Update Images
+
+ Admin can perform **Update Images** for one or multiple order by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+
+![Imgur](https://i.imgur.com/enRsaiZ.png)
+
+- After selecting the order, Admin click **Action** and select **Update Images**. The system will display popup for admin to perform the action. Admin changes the product image by clicking **Remove all images of selected products/Copy image(s) from other product(s).
+
+![Imgur](https://i.imgur.com/GWfIKOD.png)
+
+- **Remove all images of selected products**: Admin deletes the product image. The image of the product will be deleted in the backend and frontend.
+- **Copy image(s) from other product(s)**: Admin copies images og other product's image. The image of the product will be displayed in the backend and frontend.
+
+![Imgur](https://i.imgur.com/VLi8eQh.png)
+
+- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
+
+#### 2.7. Update Inventory
+
+- Admin can perform **Update Inventory** for one or multiple order by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+  
+  ![Imgur](https://i.imgur.com/Q9gTNy0.png)
+
+- After selecting the order, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
+
+![Imgur](https://i.imgur.com/UeIXnPV.png) 
+  
 
 #### 2.4. Update Website
 
@@ -131,54 +221,20 @@ To choose :
 - Admin can choose one or more products by clicking on the desired product and click **Submit** to finish select products.
 
 
-#### 2.8. Update Cross-sell Products
 
-- Admin can perform **Update Cross-sell Products** for one or multiple order by clicking on **order ID**
+
+#### 2.7. Update Inventory
+
+- Admin can perform **Update Inventory** for one or multiple order by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+  
+  ![Imgur](https://i.imgur.com/Q9gTNy0.png)
 
-- After selecting the order, Admin click **Action** and select **Update Cross-sell Products**. The system will display popup for admin to perform the action
+- After selecting the order, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
 
-- Configuration to **display or delete Cross-sell products**.
+![Imgur](https://i.imgur.com/UeIXnPV.png)
 
-- **Direction**:
-- Select: The action product will display or delete the selected up-sell product at Remove/Add Cross-sell Products.
-- To choose :
-
-  - **Remove Cross-sell Product(s)**: Admin selects the product to remove it from Cross-sell Products.
-  - **Add Cross-sell Product(s)**: Admin selects the product to display the product at Cross-sell Products.
-  - **Copy from Product(s)**: Admin selects the product to copy its Cross-sell products.
-- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
-
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
-
-
-#### 2.9. Update Inventory
-
-#### 2.10. Copy Custom Options
-
-- Admin can perform **Copy Custom Options** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
-
-- After selecting the order, Admin click **Action** and select **Copy Custom Options**. The system will display popup for admin to perform the action
-
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
-
-
-#### 2.11. Update Images
-
- Admin can perform **Update Images** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
-
-- After selecting the order, Admin click **Action** and select **Update Images**. The system will display popup for admin to perform the action. Admin changes the product image by clicking **Remove all images of selected products/Copy image(s) from other product(s).
-
-
-- **Remove all images of selected products**: Admin deletes the product image. The image of the product will be deleted in the backend and frontend.
-- **Copy image(s) from other product(s)**: Admin copies images og other product's image. The image of the product will be displayed in the backend and frontend.
-
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
 
 ### III. Backend
 
