@@ -277,8 +277,8 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shippin
 
 - **Enable**: Select **Yes** to enable using the Shipping Methods feature with Mageplaza Store Pickup.
 - **Title**:
-  - Enter the title for the ****Shipping Methods** type with [Mageplaza Store Pickup]().
-  - If left blank, the default is *Select store to pickup*.
+  - Enter the title for the **Shipping Methods** type with [Mageplaza Store Pickup]().
+  - If left blank, the default is *Select Store to pickup*.
 
 ![Imgur](https://i.imgur.com/NKgSyWf.png)
 
@@ -293,7 +293,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shippin
   - **Fixed**: Shipping methods will be calculated according to the price and handling free fields as follows: Price + Handling Fee. For example: Price: 5, Handling Fee: 6, so the total ship charge is: 5 + 6 = 11.
   - **Precent**: Shipping methods will be calculated according to the free and handling price fields: Price + Handling Fee. For example: Price: 5, Handling Fee: 6, so the ship's total charge is: 5 + 5 * 6/100 = 5.3.
 - **Handling Fee**: Enter the price for Handling Free. If left blank, the default is 0.
-- **Pickup product (s) available after**:
+- **Pickup product(s) available after**:
   - Enter the number of days after ordering at least how many days customers can pick up the goods.
   - If left blank means that the product is always available in the store so customers can pick it up during business hours at any time.
 - **Displayed Error Message**:
@@ -311,7 +311,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shippin
 
 Login to the **Magento Admin**, choose `Catalog > Products Add new/Edit any product`
 
-[Imgur](https://i.imgur.com/4kN8hmD.png)
+![Imgur](https://i.imgur.com/4kN8hmD.png)
 
 - **Available Store Pickup**:
   - Select store locator to display product on that store locator.
