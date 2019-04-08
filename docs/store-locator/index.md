@@ -23,6 +23,18 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 ![store locator iii](https://i.imgur.com/Tu8jvUL.png)
 
+- **Checkout page**: show the detail information including store location, shipping fee and pickup time after that customer can get their items. Please make sure that the products in cart have the same addresses as store locator. If not, the error message will be shown. coressponding to the ordered products. Click **Select Store** to show popup.
+
+![Imgur](https://i.imgur.com/863ZrDc.png)
+
+- **Click **Select Store** to show popup. In here, customer can choose the location and time to pick their items up.
+- **Note**: Only show the opening time of stores. The time waiting for order is available or the closing time of store will be hiden, customers cannot choose them. Then click **Submit** button to confirm the store location and time to pickup items. Click **Cancel** to quit the popup. 
+
+![Imgur](https://i.imgur.com/A3Bga2N.png)
+
+- **Frontend Order**: Record the order data: time, location, shipping fee customers choose to get their items. 
+
+![Imgur](https://i.imgur.com/k2tjwPR.png)
 
 ## How to configure
 
@@ -191,6 +203,16 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 - Admins can upload typical images of the store to display on the Frontend.
 - The uploaded first image is displayed on the store locator page, the remaining images is displayed as a slider when the customer clicks on the location detail.
 
+##### 2.2.6 Available Products
+
+
+![Imgur](https://i.imgur.com/b1kbj7L.png)
+
+- **Show on Product Page**: Select **Yes** to allow showing specific store can be picked up on **Product Page** 
+- **Selected Product**: This part records the information of products within related stores. Admin can search, filter product ID, SKU, Price in the Grid
+- Click **Add Product** button to show popup in which allow admin to add products into store locator. You can select multiple products once. 
+
+![Imgur](https://i.imgur.com/tckPL0z.png)
 
 ### 3. Holidays
 #### 3.1. Grid
