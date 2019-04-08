@@ -27,7 +27,7 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 ![Imgur](https://i.imgur.com/863ZrDc.png)
 
-- **Click **Select Store** to show popup. In here, customer can choose the location and time to pick their items up.
+- Click **Select Store** to show popup. In here, customer can choose the location and time to pick their items up.
 - **Note**: Only show the opening time of stores. The time waiting for order is available or the closing time of store will be hiden, customers cannot choose them. Then click **Submit** button to confirm the store location and time to pickup items. Click **Cancel** to quit the popup. 
 
 ![Imgur](https://i.imgur.com/A3Bga2N.png)
