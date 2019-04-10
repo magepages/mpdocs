@@ -45,23 +45,23 @@ Click **Actions**, there, actions will be displayed according to **Enable Mass A
 
 - Admin can **Change Attribute Set** for one or multiple orders by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 ![Imgur](https://i.imgur.com/DRF4rRj.png)
 
 ![Imgur](https://i.imgur.com/a80EfpM.png)
 
-- After selecting the order, Admin click **Action** and select **Change Attribute Set**. The system will display popup for admin to change product attributes.
+After selecting the order, Admin click **Action** and select **Change Attribute Set**. The system will display popup for admin to change product attributes.
 
 #### 2.2 Quick Attributes Update
 
-Admin can perform **Quick Attributes Update** for one or multiple orders by clicking on **order ID**
+- Admin can perform **Quick Attributes Update** for one or multiple orders by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 ![Imgur](https://i.imgur.com/QZvlwYd.png)
 
-- Admins change Update the Product Attributes by clicking to the checkbox. After finish action, click to **Submit**.
+Admins change Update the Product Attributes by clicking to the checkbox. After finish action, click to **Submit**.
 
 ![Imgur](https://i.imgur.com/rdsYlyI.png)
 
@@ -69,9 +69,10 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 
 - Admin can perform **Update Category** for one or multiple order by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 - After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
+
 ![Imgur](https://i.imgur.com/iCFafpJ.png)
 
 - Admin changes the display of the product on the page by clicking **Remove Categories/Add Categories**.
@@ -95,11 +96,12 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 
 ![Imgur](https://i.imgur.com/lifi5Ho.png)
 
-- Configuration to **display or delete Cross-sell products**.
+
+Configuration to **display or delete Cross-sell products**.
 
 - **Direction**:
 
-![Imgur](https://i.imgur.com/HoUzwgR.png)
+  ![Imgur](https://i.imgur.com/HoUzwgR.png)
 
   - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
   - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
@@ -107,11 +109,12 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 - **Remove Cross-sell Product(s)**: Admin selects the product to remove it from Cross-sell Products.
 - **Add Cross-sell Product(s)**: Admin selects the product to display the product at Cross-sell Products.
 - **Copy from Product(s)**: Admin selects the product to copy its Cross-sell products.
-- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
+
+Admin selects the product by clicking **Select**. The system will display product grid for selecting 
 
 ![Imgur](https://i.imgur.com/vPJO9Sh.png)
 
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
+Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
 
 ![Imgur](https://i.imgur.com/6yk6neO.png)
 
@@ -123,22 +126,22 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
   
   ![Imgur](https://i.imgur.com/Q9gTNy0.png)
 
-- After selecting the order, Admin click **Action** and select **Copy Custom Options**. The system will display popup for admin to perform the action
+After selecting the order, Admin click **Action** and select **Copy Custom Options**. The system will display popup for admin to perform the action
 
 ![Imgur](https://i.imgur.com/tfqYA87.png)
 
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
+Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
 
 
 #### 2.6. Update Images
 
- Admin can perform **Update Images** for one or multiple order by clicking on **order ID**
+- Admin can perform **Update Images** for one or multiple order by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 ![Imgur](https://i.imgur.com/enRsaiZ.png)
 
-- After selecting the order, Admin click **Action** and select **Update Images**. The system will display popup for admin to perform the action. Admin changes the product image by clicking **Remove all images of selected products/Copy image(s) from other product(s).
+After selecting the order, Admin click **Action** and select **Update Images**. The system will display popup for admin to perform the action. Admin changes the product image by clicking **Remove all images of selected products/Copy image(s) from other product(s).
 
 ![Imgur](https://i.imgur.com/GWfIKOD.png)
 
@@ -147,7 +150,7 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 
 ![Imgur](https://i.imgur.com/VLi8eQh.png)
 
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
+Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
 
 #### 2.7. Update Inventory
 
@@ -157,12 +160,12 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
   
   ![Imgur](https://i.imgur.com/Q9gTNy0.png)
 
-- After selecting the order, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
+After selecting the order, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
 
 ![Imgur](https://i.imgur.com/BbVQDlD.png)
 
 - Admin can Update Inventory by clicking to checbox **Change**
-- **Note**: With the products having **Use Config Settings** checkbox, Admin can click to that checkbox to update the inventory of products. 
+  - **Note**: With the products having **Use Config Settings** checkbox, Admin can click to that checkbox to update the inventory of products. 
 - Choose **Manage Stock = Yes** to be enable to manage the inventory
 - **Qty**: Add the products number in the inventory
 - **Out-of-Stock Threshold**: Insert the number of out-of-stock products 
@@ -198,11 +201,11 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
   
   ![Imgur](https://i.imgur.com/Q9gTNy0.png)
 
-- After selecting the order, Admin click **Action** and select **Update Price**. The system will display popup for admin to perform the action
+After selecting the order, Admin click **Action** and select **Update Price**. The system will display popup for admin to perform the action
 
 ![Imgur](https://i.imgur.com/0OGkSYa.png)
   
-- **Change Price**: Select.
+- **Change Price**: Select the following actions
 
 ![Imgur](https://i.imgur.com/zr680Bc.png)
 
@@ -257,15 +260,16 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 
 - Admin can perform **Update Related Products** for one or multiple order by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 ![Imgur](https://i.imgur.com/m6rKuvN.png)
 
-- After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
+After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
 
 ![Imgur](https://i.imgur.com/RK7wqDz.png)
 
-- Admin choose settings to **display or delete related products**.
+
+Admin choose settings to **display or delete related products**.
 
 - **Direction**:
 
@@ -277,11 +281,12 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 - **Remove Related Product(s)**: Admin selects the product to remove it from Related Products.
 - **Add Related Product(s)**: Admin selects the product to display the product at Related Products.
 - **Copy from Product(s)**: Admin selects the product to copy its related products.
-- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
+
+Admin selects the product by clicking **Select**. The system will display product grid for selecting 
 
 ![Imgur](https://i.imgur.com/MQW6Mo7.png)
 
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish selecting products.
+Admin can choose one or more products by clicking on the desired product and click **Submit** to finish selecting products.
 
 ![Imgur](https://i.imgur.com/NVy1ojM.png)
 
@@ -289,16 +294,16 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 
 - Admin can perform **Update Up-sell Products** for one or multiple order by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 ![Imgur](https://i.imgur.com/m6rKuvN.png)
 
 
-- After selecting the order, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
+After selecting the order, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
 
 ![Imgur](https://i.imgur.com/grcvlY4.png)
 
-- Configuration to **display or delete Up-sell products**.
+Configuration to **display or delete Up-sell products**.
 
 - **Direction**:
 
@@ -309,11 +314,12 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 - **Remove Up-sell Product(s)**: Admin selects the product to remove it from Up-sell Products.
 - **Add Up-sell Product(s)**: Admin selects the product to display the product at Up-sell Products.
 - **Copy from Product(s)**: Admin selects the product to copy its Up-sell products.
-- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
+
+Admin selects the product by clicking **Select**. The system will display product grid for selecting 
 
 ![Imgur](https://i.imgur.com/cctQfZM.png)
 
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish select products.
+Admin can choose one or more products by clicking on the desired product and click **Submit** to finish select products.
 
 ![Imgur](https://i.imgur.com/Rftexs8.png)
   
@@ -325,14 +331,16 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
   
 ![Imgur](https://i.imgur.com/kkVm4OB.png)
 
-- After selecting the order, Admin click **Action** and select **Update Websites**. The system will display popup for admin to choose actions to update websites
+After selecting the order, Admin click **Action** and select **Update Websites**. The system will display popup for admin to choose actions to update websites
 
 ![Imgur](https://i.imgur.com/tIbtS8A.png)
 
-- Admin changes the display position of the product on the website by clicking **Remove Product From Websites/Add Product To Websites**.
+
+Admin changes the display position of the product on the website by clicking **Remove Product From Websites/Add Product To Websites**.
+
 - **Remove Product From Websites**: Admin select the website on which products are not displayed
 - **Add Product To Websites**: Admin select the website on which allowing the product to display 
-- **Note**: In the case admin select both **Remove and Add Product From Websites**, the system will perform **Remove** first and then perform **Add Product From Websites**.
+  - **Note**: In the case admin select both **Remove and Add Product From Websites**, the system will perform **Remove** first and then perform **Add Product From Websites**.
 
 
 
