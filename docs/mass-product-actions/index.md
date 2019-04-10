@@ -2,7 +2,7 @@
 
 ## Overview
 
-Sometimes, stores' admins want to change or edit products data in their store, they need to go to the edit link, then edit the product one by one manually. But what if you have to do it in large quantities? With [Mageplaza Mass Product Actions extension](https://www.mageplaza.com/magento-2-mass-product-actions/), we created more advanced features to help you handle bulk actions. To save your time and effort, the module will create additional mass action at product grid pages so that you can update many products at the same time. This extension makes it easy to handle products quickly and dramatically improve product management at your store.
+Sometimes, stores' admins want to change or edit products data in their store, they need to go to the edit link, then edit the product one by one manually. But what if you have to do it in large quantities? With [Mageplaza Mass Product Actions extension](https://www.mageplaza.com/magento-2-mass-product-actions/), we created more advanced features to help you handle bulk actions. To save your time and effort, the module creates additional mass action at product grid pages so that you can update many products at the same time. This extension makes it easy to handle products quickly and dramatically improve product management at your store.
 
 
 ## How to download and install
@@ -44,19 +44,19 @@ Click **Actions**, there, actions will be displayed according to **Enable Mass A
 #### 2.1. Change Attribute Set
 
 - Admin can **Change Attribute Set** for one or multiple orders by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
   - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 ![Imgur](https://i.imgur.com/DRF4rRj.png)
 
 ![Imgur](https://i.imgur.com/a80EfpM.png)
 
-After selecting the order, Admin click **Action** and select **Change Attribute Set**. The system will display popup for admin to change product attributes.
+After selecting the order, Admin click **Action** and select **Change Attribute Set**. The system will display a popup for admin to change product attributes.
 
 #### 2.2 Quick Attributes Update
 
 - Admin can perform **Quick Attributes Update** for one or multiple orders by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
   - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
 ![Imgur](https://i.imgur.com/QZvlwYd.png)
@@ -68,10 +68,10 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
 #### 2.3. Update Category
 
 - Admin can perform **Update Category** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
   - Click **Select All on This Page**, the system will select all orders displayed on the grid.
 
-- After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
+- After selecting the order, Admin click **Action** and select **Update Category**. The system will display a popup for admin to perform the action
 
 ![Imgur](https://i.imgur.com/iCFafpJ.png)
 
@@ -92,7 +92,7 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
   
   ![Imgur](https://i.imgur.com/DTYWz7E.png)
 
-- After selecting the order, Admin click **Action** and select **Update Cross-sell Products**. The system will display popup for admin to perform the action
+- After selecting the order, Admin click **Action** and select **Update Cross-sell Products**. The system will display a popup for admin to perform the action
 
 ![Imgur](https://i.imgur.com/lifi5Ho.png)
 
@@ -121,7 +121,7 @@ Admin can choose one or more products by clicking on the desired product and cli
 #### 2.5. Copy Custom Options
 
 - Admin can perform **Copy Custom Options** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
   - Click **Select All on This Page**, the system will select all orders displayed on the grid.
   
   ![Imgur](https://i.imgur.com/Q9gTNy0.png)
@@ -166,7 +166,7 @@ After selecting the order, Admin click **Action** and select **Update Inventory*
 
 - Admin can Update Inventory by clicking to checbox **Change**
   - **Note**: With the products having **Use Config Settings** checkbox, Admin can click to that checkbox to update the inventory of products. 
-- Choose **Manage Stock = Yes** to be enable to manage the inventory
+- Choose **Manage Stock = Yes** to be enabled to manage the inventory
 - **Qty**: Add the products number in the inventory
 - **Out-of-Stock Threshold**: Insert the number of out-of-stock products 
 - **Minimum Qty Allowed in Shopping Cart/Maximum Qty Allowed in Shopping Cart**: Insert the maximum and minimum quantity allowed in Shopping Cart 
@@ -179,13 +179,13 @@ After selecting the order, Admin click **Action** and select **Update Inventory*
   - **Allow Qty Below 0**: Allow backorder when the product quantity is below 0 - cho phép đặt hàng backorder với số lượng ít hơn 0.
   - **Allow Qty Below 0 and Notify Customer**: Allow backorder when the product quantity is below 0 and notify customers that they can backorder  
   
-- **Notify for Quantity Below**: Insert a number by which if product quantity is smaller, the module wil send notification to customers
+- **Notify for Quantity Below**: if product quantity is smaller than the number inserted here, the module will send notification to customers
 - **Enable Qty Increments**: Select **Yes** and insert the incremental number. For example: You insert number 4, means that shopping cart of customers must be added up 4, 8, 12 products each time updated. 
 - **Stock Availability**: Choose **In Stock** if the product is in stock and choose **Out of Stock** if it is running out in the inventory. 
 
 ![Imgur](https://i.imgur.com/W94uKnC.png)
 
-- **Note**: With some fields having the following otptions:
+- **Note**: With some fields having the following options:
   - **Fixed value**: Only get the new value 
   - **Plus**: Add the new value to the previous one 
   - **Minus**: Minus the previous value by the new one. If the new value is greater than the old one, the value resulted is 0 
@@ -211,7 +211,7 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
 
   - **Plus**: Plus the price value
   - **Plus by Percentage**: Plus the price by percentage
-  - **Fixed value**: Use as fixed value
+  - **Fixed value**: Use as a fixed value
   - **Minus**: Minus the value
   - **Minus by Percentage**: Minus value by percentage
   - After you select one of the above options, two more fields will be shown
@@ -260,7 +260,7 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
 
 ![Imgur](https://i.imgur.com/AbIFX6d.png)
 
-- **Website**: If you ahve more than one website. choose the one you to add tier price
+- **Website**: If you have more than one website. choose the one you to add tier price
 - **Customer Group**: choose customer group to apply tier price
 - **Quantity**: Insert the quantity to apply the tier price
 - **Price**: Insert the price to apply to the rule  
@@ -402,7 +402,7 @@ Admin changes the display position of the product on the website by clicking **R
 
 #### 3.9. Update Price
 
-Tier Price shown on admin order page
+Tier Price is shown on admin order page
 
 ![Imgur](https://i.imgur.com/qoDkMm0.png)
 
@@ -445,18 +445,18 @@ Tier Price shown on admin order page
 
 #### 4.7. Update Price
 
-- Special Price shown on Category Product Page.
+- Special Price is shown on Category Product Page.
 
 ![Imgur](https://i.imgur.com/F1J8hgr.png)
 
-- Special Price shown on Detail Product Page.
+- Special Price is shown on Detail Product Page.
 
 ![Imgur](https://i.imgur.com/mx0zuyu.png)
 
-- Tier price shown on Category product page
+- Tier price is shown on Category product page
 
 ![Imgur](https://i.imgur.com/fgCKz6V.png)
 
-- Tier price shown on Detail product page
+- Tier price is shown on Detail product page
 
 ![Imgur](https://i.imgur.com/4pCPCqe.png)
