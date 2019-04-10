@@ -185,7 +185,7 @@ After selecting the order, Admin click **Action** and select **Update Inventory*
 
 ![Imgur](https://i.imgur.com/W94uKnC.png)
 
-- **Note**: With some fields having the following otptions:Với những fields có select như dưới đây, admin thực hiện lựa chọn với:
+- **Note**: With some fields having the following otptions:
   - **Fixed value**: Only get the new value 
   - **Plus**: Add the new value to the previous one 
   - **Minus**: Minus the previous value by the new one. If the new value is greater than the old one, the value resulted is 0 
@@ -257,6 +257,15 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
   
   
 ##### 2.8.4 Change Tier Price: Select options to change the tier price of products
+
+![Imgur](https://i.imgur.com/AbIFX6d.png)
+
+- **Website**: If you ahve more than one website. choose the one you to add tier price
+- **Customer Group**: choose customer group to apply tier price
+- **Quantity**: Insert the quantity to apply the tier price
+- **Price**: Insert the price to apply to the rule  
+- Click icon "Garbage bin" to delete rule 
+
 
 #### 2.9. Update Related Products
 
