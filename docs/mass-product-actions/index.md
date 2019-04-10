@@ -159,9 +159,152 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 
 - After selecting the order, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
 
-![Imgur](https://i.imgur.com/UeIXnPV.png) 
-  
+![Imgur](https://i.imgur.com/BbVQDlD.png)
 
+- Admin can Update Inventory by clicking to checbox **Change**
+- **Note**: With the products having **Use Config Settings** checkbox, Admin can click to that checkbox to update the inventory of products. 
+- Choose **Manage Stock = Yes** to be enable to manage the inventory
+- **Qty**: Add the products number in the inventory
+- **Out-of-Stock Threshold**: Insert the number of out-of-stock products 
+- **Minimum Qty Allowed in Shopping Cart/Maximum Qty Allowed in Shopping Cart**: Insert the maximum and minimum quantity allowed in Shopping Cart 
+- **Qty Uses Decimals**: Choose **Yes** if the product quantity can be in decimal number
+- Set **Backorders** from CMS block:
+
+  ![Imgur](https://i.imgur.com/sKwsw3l.png)
+  
+  - **No Backorder**: Do not allow customers to backorder the out-of-stock product 
+  - **Allow Qty Below 0**: Allow backorder when the product quantity is below 0 - cho phép đặt hàng backorder với số lượng ít hơn 0.
+  - **Allow Qty Below 0 and Notify Customer**: Allow backorder when the product quantity is below 0 and notify customers that they can backorder  
+  
+- **Notify for Quantity Below**: Insert a number by which if product quantity is smaller, the module wil send notification to customers
+- **Enable Qty Increments**: Select **Yes** and insert the incremental number. For example: You insert number 4, means that shopping cart of customers must be added up 4, 8, 12 products each time updated. 
+- **Stock Availability**: Choose **In Stock** if the product is in stock and choose **Out of Stock** if it is running out in the inventory. 
+
+![Imgur](https://i.imgur.com/W94uKnC.png)
+
+- **Note**: With some fields having the following otptions:Với những fields có select như dưới đây, admin thực hiện lựa chọn với:
+  - **Fixed value**: Only get the new value 
+  - **Plus**: Add the new value to the previous one 
+  - **Minus**: Minus the previous value by the new one. If the new value is greater than the old one, the value resulted is 0 
+  
+  ![Imgur](https://i.imgur.com/VyuXQai.png)
+
+
+#### 2.8. Update Price
+
+- Admin can perform **Update Price** for one or multiple order by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+  
+  ![Imgur](https://i.imgur.com/Q9gTNy0.png)
+
+- After selecting the order, Admin click **Action** and select **Update Price**. The system will display popup for admin to perform the action
+
+![Imgur](https://i.imgur.com/0OGkSYa.png)
+  
+- **Change Price**: Select.
+
+![Imgur](https://i.imgur.com/zr680Bc.png)
+
+  - **Plus**: Plus the price value
+  - **Plus by Percentage**: Plus the price by percentage
+  - **Fixed value**: Use as fixed value
+  - **Minus**: Minus the value
+  - **Minus by Percentage**: Minus value by percentage
+  - After you select one of the above options, two more fields will be shown
+  
+  ![Imgur](https://i.imgur.com/TysPcIP.png)
+  
+  - **Update using Cost = Yes**: The Price value will be updated based on Cost value 
+  - **Value**: Insert the value. The system will notify an error if you leave this field blank or insert the wrong value. 
+- **Change Cost**: Select to change product cost
+
+![Imgur](https://i.imgur.com/UcMdAd1.png)
+
+  - **Plus**: Plus the cost value
+  - **Plus by Percentage**: Plus the cost by percentage
+  - **Fixed value**: Use as fixed value
+  - **Minus**: Minus the value
+  - **Minus by Percentage**: Minus value by percentage
+  - After you select one of the above options, one more field will be shown:
+  
+  ![Imgur](https://i.imgur.com/naXM7jy.png)
+  
+   - **Value**: Insert the value. The system will notify an error if you leave this field blank or insert the wrong value. 
+   
+- **Special Price**: Select to change the special price of products
+
+![Imgur](https://i.imgur.com/UcMdAd1.png)
+
+  - **Plus**: Plus the cost value
+  - **Plus by Percentage**: Plus the cost by percentage
+  - **Fixed value**: Use as fixed value
+  - **Minus**: Minus the value
+  - **Minus by Percentage**: Minus value by percentage
+  - After you select one of the above options, some more fields will be shown:
+  
+  ![Imgur](https://i.imgur.com/LxOXKmh.png)
+  
+  - **Update using Price = Yes**: The Special Price value will be updated based on Price value
+  - **Value**: Insert the value. The system will notify an error if you leave this field blank or insert the wrong value. 
+  - **Special Price From Date**: Choose the day to begin applying special price 
+  - **Special Price To Date**: Choose the day to finish applying special price 
+  
+  
+- **Change Tier Price**: Select to change the tier price of products
+
+#### 2.9. Update Related Products
+
+- Admin can perform **Update Related Products** for one or multiple order by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+
+- After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
+
+- Admin choose settings to **display or delete related products**.
+
+- **Direction**:
+
+![Imgur](https://i.imgur.com/HoUzwgR.png)
+
+  - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
+  - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
+
+- **Remove Related Product(s)**: Admin selects the product to remove it from Related Products.
+- **Add Related Product(s)**: Admin selects the product to display the product at Related Products.
+- **Copy from Product(s)**: Admin selects the product to copy its related products.
+- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
+
+![Imgur](https://i.imgur.com/MQW6Mo7.png)
+
+- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish selecting products.
+
+![Imgur](https://i.imgur.com/NVy1ojM.png)
+
+#### 2.10. Update Up-sell Products
+
+- Admin can perform **Update Up-sell Products** for one or multiple order by clicking on **order ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
+- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+
+- After selecting the order, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
+
+- Configuration to **display or delete Up-sell products**.
+
+- **Direction**:
+
+![Imgur](https://i.imgur.com/HoUzwgR.png)
+
+  - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
+  - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
+- **Remove Up-sell Product(s)**: Admin selects the product to remove it from Up-sell Products.
+- **Add Up-sell Product(s)**: Admin selects the product to display the product at Up-sell Products.
+- **Copy from Product(s)**: Admin selects the product to copy its Up-sell products.
+- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
+
+- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish select products.
+
+  
 #### 2.4. Update Website
 
 - Admin can perform **Update Website** for one or multiple websites by clicking on **order ID**
@@ -175,7 +318,9 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 - **Add Product To Websites**: Admin select the website on which allowing the product to display 
 - **Note**: In the case admin select both **Remove and Add Product From Websites**, the system will perform **Remove** first and then perform **Add Product From Websites**.
 
-#### 2.5. Update Price
+
+
+#### 2.8. Update Price
 
 #### 2.6. Update Related Products
 
@@ -199,7 +344,7 @@ To choose :
 
 - Admin can choose one or more products by clicking on the desired product and click **Submit** to finish selecting products.
 
-#### 2.7. Update Up-sell Products
+#### 2.10. Update Up-sell Products
 
 - Admin can perform **Update Up-sell Products** for one or multiple order by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
