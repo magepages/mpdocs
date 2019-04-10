@@ -259,7 +259,11 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
 - Or click **Select All on This Page**, the system will select all orders displayed on the grid.
 
+![Imgur](https://i.imgur.com/m6rKuvN.png)
+
 - After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
+
+![Imgur](https://i.imgur.com/RK7wqDz.png)
 
 - Admin choose settings to **display or delete related products**.
 
@@ -287,7 +291,12 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
 - Or click **Select All on This Page**, the system will select all orders displayed on the grid.
 
+![Imgur](https://i.imgur.com/m6rKuvN.png)
+
+
 - After selecting the order, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
+
+![Imgur](https://i.imgur.com/grcvlY4.png)
 
 - Configuration to **display or delete Up-sell products**.
 
@@ -302,16 +311,23 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 - **Copy from Product(s)**: Admin selects the product to copy its Up-sell products.
 - Admin selects the product by clicking **Select**. The system will display product grid for selecting 
 
+![Imgur](https://i.imgur.com/cctQfZM.png)
+
 - Admin can choose one or more products by clicking on the desired product and click **Submit** to finish select products.
 
+![Imgur](https://i.imgur.com/Rftexs8.png)
   
-#### 2.4. Update Website
+#### 2.11. Update Website
 
 - Admin can perform **Update Website** for one or multiple websites by clicking on **order ID**
 - In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
+  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+  
+![Imgur](https://i.imgur.com/kkVm4OB.png)
 
 - After selecting the order, Admin click **Action** and select **Update Websites**. The system will display popup for admin to choose actions to update websites
+
+![Imgur](https://i.imgur.com/tIbtS8A.png)
 
 - Admin changes the display position of the product on the website by clicking **Remove Product From Websites/Add Product To Websites**.
 - **Remove Product From Websites**: Admin select the website on which products are not displayed
@@ -320,107 +336,108 @@ Admin can perform **Quick Attributes Update** for one or multiple orders by clic
 
 
 
-#### 2.8. Update Price
-
-#### 2.6. Update Related Products
-
-- Admin can perform **Update Related Products** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
-
-- After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
-
-- Admin choose settings to **display or delete related products**.
-
-- **Direction**:
-
-Select: Action execution product will display or delete the selected related product at Remove / Add Related Products.
-To choose :
-
-  - **Remove Related Product(s)**: Admin selects the product to remove it from Related Products.
-  - **Add Related Product(s)**: Admin selects the product to display the product at Related Products.
-  - **Copy from Product(s)**: Admin selects the product to copy its related products.
-- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
-
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish selecting products.
-
-#### 2.10. Update Up-sell Products
-
-- Admin can perform **Update Up-sell Products** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-- Or click **Select All on This Page**, the system will select all orders displayed on the grid.
-
-- After selecting the order, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
-
-- Configuration to **display or delete Up-sell products**.
-
-- **Direction**:
-- Select: The action product will display or delete the selected up-sell product at Remove/Add Up-sell Products.
-- To choose :
-
-  - **Remove Up-sell Product(s)**: Admin selects the product to remove it from Up-sell Products.
-  - **Add Up-sell Product(s)**: Admin selects the product to display the product at Up-sell Products.
-  - **Copy from Product(s)**: Admin selects the product to copy its Up-sell products.
-- Admin selects the product by clicking **Select**. The system will display product grid for selecting 
-
-- Admin can choose one or more products by clicking on the desired product and click **Submit** to finish select products.
-
-
-
-
-#### 2.7. Update Inventory
-
-- Admin can perform **Update Inventory** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
-  
-  ![Imgur](https://i.imgur.com/Q9gTNy0.png)
-
-- After selecting the order, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
-
-![Imgur](https://i.imgur.com/UeIXnPV.png)
-
-
 ### III. Backend
 
 #### 3.1. Change Attribute Set
 
+![Imgur](https://i.imgur.com/rxkEJd6.png)
+
 #### 3.2. Update Category
 
+![Imgur](https://i.imgur.com/iSRzh65.png)
+
 #### 3.3. Update Website
+
+![Imgur](https://i.imgur.com/s0AwNgY.png)
 
 
 #### 3.4. Update Related Products
 
+![Imgur](https://i.imgur.com/TMGJQiB.png)
+
 #### 3.5. Update Up-sell Products
 
+![Imgur](https://i.imgur.com/OrxbmW1.png)
+
 #### 3.6. Update Cross-sell Products
+
+![Imgur](https://i.imgur.com/dwBaDkm.png)
 
 #### 3.7. Copy Custom Options
 
 - Custom options are displayed in the **Admin order page**.
 
+![Imgur](https://i.imgur.com/9A5c7WR.png)
+
+- Custom options are displayed in the **Admin order page**.
+
+![Imgur](https://i.imgur.com/Fv7O9Jc.png)
+
 - The Custom options results are displayed in the **order information**.
 
+![Imgur](https://i.imgur.com/AVW2Tk8.png)
+
 #### 3.8. Update Images
+
+![Imgur](https://i.imgur.com/HudcOpP.png)
+
+#### 3.9. Update Price
+
+Tier Price shown on admin order page
+
+![Imgur](https://i.imgur.com/qoDkMm0.png)
 
 ### IV. Frontend
 
 #### 4.1. Update Category
 
+![Imgur](https://i.imgur.com/8x0BiUp.png)
+
+
 #### 4.2. Update Related Products
+
+![Imgur](https://i.imgur.com/OwiZTK6.png)
 
 #### 4.3. Update Up-sell Products
 
+![Imgur](https://i.imgur.com/crzOrng.png)
+
 #### 4.4. Update Cross-sell Products
+
+![Imgur](https://i.imgur.com/iSo68go.png)
 
 #### 4.5. Copy Custom Options
 
-- Custom options displayed at **Product Page** product.
+- Custom options displayed at **Product Page**
+
+![Imgur](https://i.imgur.com/ycCoaSa.png)
 
 - Custom options are displayed in the **Shopping Cart Page** after performing **Add products** to the cart.
 
+![Imgur](https://i.imgur.com/HRulbn2.png)
+
 - The Custom options results are displayed in the **order information**.
+
+![Imgur](https://i.imgur.com/S9vH40Z.png)
 
 #### 4.6. Update Images
 
+![Imgur](https://i.imgur.com/YnsKMnj.png)
+
+#### 4.7. Update Price
+
+- Special Price shown on Category Product Page.
+
+![Imgur](https://i.imgur.com/F1J8hgr.png)
+
+- Special Price shown on Detail Product Page.
+
+![Imgur](https://i.imgur.com/mx0zuyu.png)
+
+- Tier price shown on Category product page
+
+![Imgur](https://i.imgur.com/fgCKz6V.png)
+
+- Tier price shown on Detail product page
+
+![Imgur](https://i.imgur.com/4pCPCqe.png)
