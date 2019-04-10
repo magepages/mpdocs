@@ -205,7 +205,7 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
 
 ![Imgur](https://i.imgur.com/0OGkSYa.png)
   
-- **Change Price**: Select the following actions
+##### 2.8.1 Change Price: Select one of the following actions
 
 ![Imgur](https://i.imgur.com/zr680Bc.png)
 
@@ -220,7 +220,9 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
   
   - **Update using Cost = Yes**: The Price value will be updated based on Cost value 
   - **Value**: Insert the value. The system will notify an error if you leave this field blank or insert the wrong value. 
-- **Change Cost**: Select to change product cost
+  
+  
+##### 2.8.2 Change Cost: Select one of the following options to change product cost
 
 ![Imgur](https://i.imgur.com/UcMdAd1.png)
 
@@ -235,7 +237,7 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
   
    - **Value**: Insert the value. The system will notify an error if you leave this field blank or insert the wrong value. 
    
-- **Special Price**: Select to change the special price of products
+##### 2.8.3. Special Price: Select option to change the special price of products
 
 ![Imgur](https://i.imgur.com/UcMdAd1.png)
 
@@ -254,7 +256,7 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
   - **Special Price To Date**: Choose the day to finish applying special price 
   
   
-- **Change Tier Price**: Select to change the tier price of products
+##### 2.8.4 Change Tier Price: Select options to change the tier price of products
 
 #### 2.9. Update Related Products
 
