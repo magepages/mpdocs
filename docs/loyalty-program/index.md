@@ -22,7 +22,7 @@ In order to increase the demand for shopping, connecting between customers and s
 
 ![Imgur](https://i.imgur.com/139zNez.png)
 
-#### Email notification of downgrade loyalty program
+#### Email notification of downgrading loyalty program
 
 ![Imgur](https://i.imgur.com/bSpeYcV.png)
 
