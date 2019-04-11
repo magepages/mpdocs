@@ -18,11 +18,11 @@ In order to increase the demand for shopping, connecting between customers and s
 
 ![join email](https://i.imgur.com/ScYjhpZ.png)
 
-#### Email notification of continuing the loyalty program
+#### Email notification of maintaining the loyalty program
 
 ![Imgur](https://i.imgur.com/139zNez.png)
 
-#### Email notification of lowering loyalty program
+#### Email notification of downgrade loyalty program
 
 ![Imgur](https://i.imgur.com/bSpeYcV.png)
 
@@ -61,20 +61,20 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
   ![static block](https://i.imgur.com/TaC89qL.png)
   
 
-- **Order Statistic Row**: cài đặt để hiển thị số liệu thống kê, hiển thị dạng hàng. Nhấn More để thêm dữ liệu, nhấn icon thùng rác  để xóa bớt dữ liệu.
- - **Row Name**: điền tên hiển thị
-- **Order Condition**: chọn điều kiện để hiển thị. Có 3 lựa chọn: Number of Order, Total Order Amount, Average Order Amount
-- **Order Status**: Chọn trạng thái order.
-- **Order Statistic Column**: cài đặt để hiển thị số liệu thống kê, hiển thị dạng cột. Nhấn More để thêm dữ liệu, nhấn icon thùng rác  để xóa bớt dữ liệu
-- **Column Name**: điền tên hiển thị
-- **Duration**:  lựa chọn thời gian để hiển thị. Có 4 lựa chọn: Day, Month, Year, Custom
-- **Start Time**: bắt đầu tính số liệu .
-- **End Time**: kết thúc tính dữ liệu.
+- **Order Statistic Row**: show the order statistics by row. Click **More** to add the data, or click the Bin icon to delete the data 
+  - **Row Name**: Insert the row name
+  - **Order Condition**: Choose the conditions to show orders. There are 3 options: Number of Order, Total Order Amount, Average Order Amount
+  - **Order Status**: Choose the order status
+- **Order Statistic Column**: show the order statistics by column. Click **More** to add the data, or click the Bin icon to delete the data
+  - **Column Name**: Add the column name
+  - **Duration**: Choose the time to show statistics. There are four options: Day, Month, Year, Custom
+  - **Start Time**: Starting time to calculate the statistic
+  - **End Time**: Finishing time to get the statistic
 - **Note**: If Day or Month or Year is chosen for Duration, Start Time and End Time must be in numbers only. The numbers indicate the length of time.
 - Eg: Duration = Month, Start Time = 2, End Time = 0 (or left blank).
 => The result is the statistics of 2 months earlier.
 As for Custom duration, Start Time and End Time can be in text which is in relative formats.
-- Eg: Start Time = first day of previous month, End Time = first day of this month.
+- Eg: Start Time = first day of the previous month, End Time = first day of this month.
 => The result will be the statistics of last month.
 
   
@@ -83,7 +83,7 @@ As for Custom duration, Start Time and End Time can be in text which is in relat
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, select **Email Configuration**
 
-![email](https://i.imgur.com/FflarfT.png)
+![email](https://i.imgur.com/cQc6Pxu.png)
 
 - **Enable**:
   - Select **Yes** to allow sending email notifications to customers.
@@ -96,9 +96,25 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
 - **Enable join program email**: Select **Yes** to allow email notification when customers can join certain loyalty program.
 
 - **Join program template**:
-  - Email notifications are preinstalled when customers gain certain loyalty program.
+  - Email notifications are auto-sent when customers gain certain loyalty program.
   - You can access `Marketing > Email Templates`, select **Add New Templates** to create a notification email template
   - Instructions on how to create new email templates can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+  
+  
+- **Enable Maintain Program Email**: Select **Yes** to enable sending email notification of maintaining loyalty program when customers are still satisfy the program's conditions 
+
+- **Maintain Program Email Template**: 
+  - Email notifications are auto-sent when customers maintain certain loyalty program.
+  - You can access `Marketing > Email Templates`, select **Add New Templates** to create a notification email template
+  - Instructions on how to create new email templates can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+  
+- **Enable Downgrade Program Email**: Select **Yes** to enable sending email notification of downgrade loyalty program
+
+- **Downgrade Program Email Template**: 
+  - Email notifications are auto-sent when customers are downgraded to certain loyalty program.
+  - You can access `Marketing > Email Templates`, select **Add New Templates** to create a notification email template
+  - Instructions on how to create new email templates can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+
   
 - **Enable leave program email**: Select **Yes** to allow sending email notification when customer account expires a loyalty program.
 
@@ -129,25 +145,23 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Loyalty Pr
 
 ##### 2.2.1. General
 
-![general](https://i.imgur.com/ZB32hza.png)
+![general](https://i.imgur.com/rK7eNTX.png)
 
 - **Name**: Enter the name of a loyalty program. this is a required field.
 - **Status**: Select **Enable** so that the loyalty program can be activated
-- **Description**: Enter the description of the loyalty program, the information is displayed under the program name.
+- **Duration**: Set the active time for loyalty program. There are four options: Permanent, Day, Month ,Year. In which Permanent means that Loyalty Program will be active unlimited time
+- **Description**: Enter the description of the loyalty program, the information is displayed under the program name. Admin can add images, change description to HTML, adit the description types. 
 
-![description](https://i.imgur.com/Hz4ZLnZ.png)
+![description](https://i.imgur.com/Ca9QbwK.png)
 
-- **Cart Price Rule**:
-  - Select the rule that applies to the loyalty program. Click **Add new rule** or access `Marketing > Cart Price Rule`, select **Add new rule** to create a new rule.
-  - In **Cart Price Rule**, select **Loyalty Programs**
-  
-  ![cart price rule](https://i.imgur.com/B6VjYqw.png)
 
-- **From Date**: click on the calender image to select the date of applying the loyalty program.
-- **To Date**: click on the calendar to select the date of the loyalty program. If left blank, default setting is unlimited loyalty program
 - **Priority**:
   - Enter the priority level to filter conditions for customer satisfied the loyalty program.  
   - 0 is the highest priority. 
+  
+  **Note**: Select the rule to apply loyalty program. Please access to `Marketing > Cart Price Rule`, select **Add new rule** to create a rule. At **Cart Price Rule** choose **Loyalty Programs**
+
+![Imgur](https://i.imgur.com/XMocm2a.png)
 
 ##### 2.2.2. Conditions
 
@@ -162,12 +176,16 @@ Only displayed when admin finishes creating the program
 
 ![customer](https://i.imgur.com/mq58Et2.png)
 
-- **Customer**: Clicking on the **Customer** field will display the table, select specific customer to add to the loyalty program.
+- **Customer**: Clicking on the **Customer** field will display the table, select specific customer to add to the loyalty program, then click **Save**. Admin can choose many customers once.
 
-![customer1](https://i.imgur.com/oMN5gYX.png)
+![customer1](https://i.imgur.com/ldIDQjK.png)
 
-- **Duration**:
-  - The time that the customer can join the program which is calculated by day.
-  - If left blank, there is no time limit for loyalty program by default.
-  
-  ![duration](https://i.imgur.com/YJZf16c.png)
+#### 2.3. Manage Customer
+
+From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Customer`
+
+![Imgur](https://i.imgur.com/Qfl2Jsy.png)
+
+- Here showing customer information in their Loyalty Program
+- From **Manage Customer**, admin can have basic customer information such as: ID, Customers Name, Email, Customer Group, Loyalty Program, Expired Date, Action.
+- In addition, admin can filter, change the storeview, show/hide the column. 
