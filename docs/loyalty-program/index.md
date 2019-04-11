@@ -18,13 +18,22 @@ In order to increase the demand for shopping, connecting between customers and s
 
 ![join email](https://i.imgur.com/ScYjhpZ.png)
 
+#### Email notification of continuing the loyalty program
+
+![Imgur](https://i.imgur.com/139zNez.png)
+
+#### Email notification of lowering loyalty program
+
+![Imgur](https://i.imgur.com/bSpeYcV.png)
+
 #### Email notification of expiration of the loyalty program
 
 ![expire email](https://i.imgur.com/9zM6wAN.png)
 
 #### Show order statistics and information about the program
 
-![program info](https://i.imgur.com/abOgTIb.png)
+![program info](https://i.imgur.com/Ic1vYXs.png)
+
 
 ## How to Configure
 
@@ -33,7 +42,7 @@ In order to increase the demand for shopping, connecting between customers and s
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`
 
-![path](https://i.imgur.com/tluhkqd.png)
+![path](https://i.imgur.com/TdXJnTy.png)
 
 ![configuration](https://i.imgur.com/Dkmzj2l.png)
 
@@ -41,7 +50,7 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, select **General**
 
-![general](https://i.imgur.com/IORqB9s.png)
+![general](https://i.imgur.com/HfKEPsa.png)
 
 - **Enable**: Select **Yes** to enable the module.
 - **Enable Loyalty Page**: Select **Yes** to show the Loyalty page at frontend
@@ -50,6 +59,25 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
   - You can access `Content > Elements > Blocks`, click **Add New Block** to create a new **Static Block page**, or click **Edit** to edit the **Static page** you created. 
   
   ![static block](https://i.imgur.com/TaC89qL.png)
+  
+
+- **Order Statistic Row**: cài đặt để hiển thị số liệu thống kê, hiển thị dạng hàng. Nhấn More để thêm dữ liệu, nhấn icon thùng rác  để xóa bớt dữ liệu.
+ - **Row Name**: điền tên hiển thị
+- **Order Condition**: chọn điều kiện để hiển thị. Có 3 lựa chọn: Number of Order, Total Order Amount, Average Order Amount
+- **Order Status**: Chọn trạng thái order.
+- **Order Statistic Column**: cài đặt để hiển thị số liệu thống kê, hiển thị dạng cột. Nhấn More để thêm dữ liệu, nhấn icon thùng rác  để xóa bớt dữ liệu
+- **Column Name**: điền tên hiển thị
+- **Duration**:  lựa chọn thời gian để hiển thị. Có 4 lựa chọn: Day, Month, Year, Custom
+- **Start Time**: bắt đầu tính số liệu .
+- **End Time**: kết thúc tính dữ liệu.
+- **Note**: If Day or Month or Year is chosen for Duration, Start Time and End Time must be in numbers only. The numbers indicate the length of time.
+- Eg: Duration = Month, Start Time = 2, End Time = 0 (or left blank).
+=> The result is the statistics of 2 months earlier.
+As for Custom duration, Start Time and End Time can be in text which is in relative formats.
+- Eg: Start Time = first day of previous month, End Time = first day of this month.
+=> The result will be the statistics of last month.
+
+  
 
 #### 1.2. Email Configuration
 
