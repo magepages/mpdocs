@@ -120,7 +120,7 @@ From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag
 
 * Open the ``Stores > Settings > Configuration > Mageplaza Extensions > One Step Checkout > General Configuration`` section:
 
-.. image:: https://i.imgur.com/J2q7jYR.png
+.. image:: https://i.imgur.com/PGn5rvj.png
 
 * In the **Enable One Step Checkout** field: Select "Yes" to enable One Step Checkout extension.
 * In the **One Step Checkout Page Title** field: Enter the page title you want.
@@ -137,6 +137,13 @@ From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag
 
     * In **Google API Key** field: Insert the Key. About how to get this key, you can refer `this guide <https://developers.google.com/maps/documentation/javascript/get-api-key>`_.
     * In **Restrict the auto suggestion for a specific country** field: Select default country for Billing address and Shipping address.
+    
+* **Enable GeoIP**: GeoIP is a useful extension which allows detecting customers’ location based on their IP addresses while they are shopping at the stores. This is the essential feature to assist store owners to bring a better experience for customers during their shopping journey. You need install `GeoIP Mageplaza Extension <https://www.mageplaza.com/magento-2-geoip/?utm_source=mageplaza.com&utm_medium=one-step-checkout&utm_campaign=one-step-checkout>`_ to use this function.
+
+  * Select **No**: If you don’t want to use GeoIP
+  
+  * Select **Yes** to enable GeoIP Extension.
+
 
 2.2.2. Display Configuration
 ''''''''''''''''''''''''''''''''''''
@@ -249,7 +256,7 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * Open the **Design Configuration** section, and continue with following:
 
-.. image:: https://i.imgur.com/xhCMHpj.png
+.. image:: https://i.imgur.com/N5hjf8m.png
 
 * In the **Checkout Page Layout** field: Select one of the following layouts to have your checkout page be shown in four different interfaces
 
@@ -282,19 +289,6 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 * In the **Place Order button color** field: Choose the color for the place order button which should be a highlight to attract shoppers the most.
 * In the **Custom CSS** field: You can add the CSS code to custom your own style.
 
-2.2.4. Geo IP Configuration
-''''''''''''''''''''''''''''''''''''
-
-GeoIP allows you to lookup the approximate location of an IP address. If store owners enable this function, when a customer comes to the checkout page, State, country, city and zip code will be automatically entered based on his current IP address. Ask customers fill less, they will buy yours more! 
-
-Enable GeoIP is pretty easy. Let's follow these steps in **GEO IP** section
-
-* Uncheck the ``Use system value`` box
-* Choose “Yes” to enable the GeoIP
-* Click Download Library button and wait for a second to apply the change
-* Click Save Config
-
-.. image:: https://imgur.com/7nREABf.jpg
 
 2.3. Other configurations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
