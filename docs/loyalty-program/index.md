@@ -20,11 +20,11 @@ In order to increase the demand for shopping, connecting between customers and s
 
 #### Email notification of maintaining the loyalty program
 
-![Imgur](https://i.imgur.com/139zNez.png)
+![maintaining the loyalty program](https://i.imgur.com/139zNez.png)
 
 #### Email notification of downgrading loyalty program
 
-![Imgur](https://i.imgur.com/bSpeYcV.png)
+![downgrading loyalty program](https://i.imgur.com/bSpeYcV.png)
 
 #### Email notification of expiration of the loyalty program
 
