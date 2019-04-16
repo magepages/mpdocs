@@ -4,7 +4,7 @@
 
 ## Overview
 
-In order to increase the demand for shopping, connecting between customers and store owners especially close customers, Mageplaza developed the [Loyalty Program extension](https://www.mageplaza.com/magento-2-loyalty-program/). This module can create incentive programs for loyal customers who meet certain conditions. Conditions will be based on customer information and customer order information within a certain time. In addition, the module also allows the admin to add/remove certain customers to a loyalty program, create a separate program with statistics of the current status of customers and information about the program (using static blocks). You should intall [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending your email to spam box. It is fully compatible with Loyalty Program. 
+For increasing the demand for shopping, connecting between customers and store owners especially close customers, Mageplaza developed the [Loyalty Program extension](https://www.mageplaza.com/magento-2-loyalty-program/). This module can create incentive programs for loyal customers who meet certain conditions. Conditions will be based on customer information and customer order information within a certain time. In addition, the module also allows the admin to add/remove certain customers to a loyalty program, create a separate program with statistics of the current status of customers and information about the program (using static blocks). You should intall [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending your email to spam box. It is fully compatible with Loyalty Program. 
 
 ## How to download and install
 
@@ -128,7 +128,7 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Loyalty Program`
 
-![manage loyalty program](https://i.imgur.com/tkzIbJg.png)
+![manage loyalty program](https://i.imgur.com/f2YsNnS.png)
 
 - This is where the Loyalty Program information is displayed.
 - From the **Manage Loyalty Program** section, admin can capture basic information of Loyalty Programs such as ID, Name, Status, Number of customers, Number of Rules, Priority, and Action.
@@ -174,7 +174,7 @@ Select the conditions to apply customers to each program. The customer informati
 
 Only displayed when admin finishes creating the program
 
-![customer](https://i.imgur.com/mq58Et2.png)
+![customer](https://i.imgur.com/9tHt4Am.png)
 
 - **Customer**: Clicking on the **Customer** field will display the table, select specific customer to add to the loyalty program, then click **Save**. Admin can choose many customers once.
 
