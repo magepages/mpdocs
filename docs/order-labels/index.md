@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Mageplaza Order Labels extension](https://www.mageplaza.com/magento-2-order-labels/) allows admin to create and customize the lables of order columns, sort orders in Order Grid explicitly, thereby easier to manage orders. With this module, admin can not only use an image or text to display the label but can also use a combination of both. In addition, this module also supports manual assignment or automatic labeling of orders. Moreover, this module also displays and allows for Label editing in both Order Grid and Order Form. In particular, it improves the Order Status display section and allows it to be displayed at Frontend so that customers can easily know how their order is in status.
+[Mageplaza Order Labels extension](https://www.mageplaza.com/magento-2-order-labels/) allows admin to create and customize the labels of order columns, sort orders in Order Grid explicitly, thereby easier to manage orders. With this module, admin can not only use an image or text to display the label but can also use a combination of both. In addition, this module also supports manual assignment or automatic labeling of orders. Moreover, this module also displays and allows for Label editing in both Order Grid and Order Form. In particular, it improves the Order Status display section and allows it to be displayed at Frontend so that customers can quickly know how their order is in status.
 
 
 ## How to download and install
@@ -45,12 +45,12 @@ From the **Admin Panel**, go to `Sales > Order Labels > Order Label`
 ![Imgur](https://i.imgur.com/Sc9Ypcu.png)
 
 - This is where the Order Labels are displayed
-- From **Management Grid Labels**, admin can view basic information of Order Labels such as: ID, Name, Column, Enable / Disable, Sort Order, Action
+- From **Management Grid Labels**, admin can view basic information of Order Labels such as ID, Name, Column, Enable / Disable, Sort Order, Action
 - **Action**:
   - **Delete**: Delete Order Labels
   - **Edit**: Choose `Edit` will redirect to the previously created Order Label page.
   - **Create New Label**: Create a new Order Label
-- Also Admin can Filter, Sort, Search Order Labels
+- Also, Admin can Filter, Sort, Search Order Labels
 
 
 ### 3. Create / Edit Label
@@ -71,7 +71,7 @@ From the Admin Panel, go to `Sales > Order Labels > Order Label > Add New Label,
 - **Sort Order**: Shows the display priority of this Label compared to other Labels in a column if Is Multiple in the Configuration section is enabled.
 
 ##### 3.1.2. Display Tab
-- **Display on**: Choose position to display Label. There are two options that are on **Admin Grid** and **Admin Form**
+- **Display on**: Choose a position to display Label. There are two options that are on **Admin Grid** and **Admin Form**
 - **Display Type**: Select Label display type, there are 4 choices.
   - *Image Only*: Only displayed in image format
   - *Text Only*: Only displayed in text
