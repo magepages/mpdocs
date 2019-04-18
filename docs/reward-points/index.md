@@ -64,7 +64,7 @@ Go to ``Marketing > Reward Points: Earning Rate``
 #### 1.1. General Management.
 This is the place where admins can store Earning Rates created.
 
-![i5](https://i.imgur.com/cFVjBBf.png)
+![i5](https://i.imgur.com/i9p2zXz.png)
 
 * From the grid view, admins can acknowledge some fundamental information of Earning Rate such as **Website**, **Customer Group(s)**, **Money Spent**, **Earning Point(s)** and **Priority**. Also, admins are able to **Edit Rate**:
   * To edit an earning rate, choose “Edit” in the **Action** column.
