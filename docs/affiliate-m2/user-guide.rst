@@ -441,7 +441,7 @@ For example: refer code is 123, Custom parameter is abc
 
 With Affiliate Standard, the system creates a Campaign by default, you can edit this campaign's information to match your store development strategy.
 
-.. image:: [Imgur](https://i.imgur.com/z6thKwa.png)
+.. image:: https://i.imgur.com/z6thKwa.png
 
 * **Edit Campaigns**
 
@@ -610,7 +610,7 @@ In this section, allowing to configure the Tier 1 as follow:
 
 * Admin can also change the status or delete the transaction records.
 
-.. image:: https://i.imgur.com/dcVRnAO.png
+.. image:: https://i.imgur.com/2eWCqAI.png
 
 
 Assign to Affiliate Group
