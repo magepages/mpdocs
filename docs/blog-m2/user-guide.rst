@@ -40,7 +40,7 @@ Login to Magento Admin, ``Content > Better Blog: Configuration``. Open **General
 
 * In the **Enable** field: Choose “Yes” to turn the extension on.
 * In the **Blog Name** field: Set name for the new blog
-* In the **Route Name** field: Enter the route name which appears on the URL. If you leave it blank, the default Route name is ``blog``. E.x ``https://mageplaza.com/**blog**``
+* In the **Route Name** field: Enter the route name which appears on the URL. If you leave it blank, the default Route name is ``blog``. E.x ``https://domain.com/blog``. You can change to `news`, `docs`.
 * In the **Url Suffix**: Enter the Url Suffix. There won’t be no suffix if you leave it blank.
 * In the **Show Blog Link in Top Menu** field: Choose “Yes” if you want to show blog links in the top of the menu.
 * In the **Show Blog in Footer Links** field: To make the blog link visible on footer links on your site, set "Yes".
