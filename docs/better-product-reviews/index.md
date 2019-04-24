@@ -19,28 +19,28 @@ On the Product Detail Page, customers can:
 
 - See Review Summary including: review number, average number of stars, recommend percentage, rating star chart at the top of the review block
 
-![Better Product Reviews1](https://i.imgur.com/CH1u2zl.png)
+![](https://i.imgur.com/CH1u2zl.png)
 
 - Reorder the reviews to show the Newest Review, High Rating, Helpfulness reviews
 
-![Better Product Reviews2](https://i.imgur.com/uscfmbq.png)
+![](https://i.imgur.com/uscfmbq.png)
 
 - Evaluate Helpful Review. Share any review on social network by **Social Share** button
 
-![Better Product Reviews3](https://i.imgur.com/07dOfAm.png)
+![](https://i.imgur.com/07dOfAm.png)
 
 - Write Review: In addition to filling the Review summary and content, customers can also Add image, Recommend product, Agree with Term of Conditions
 
-![Better Product Reviews4](https://i.imgur.com/9qcgxZm.png)
+![(https://i.imgur.com/9qcgxZm.png)
 
 - Customer can also can see admin reply Review (if any)
 
-![Better Product Reviews5](https://i.imgur.com/O7RtHa6.png)
+![](https://i.imgur.com/O7RtHa6.png)
 
 
 #### 1.2. My Account> My Product Reviews
 
-![Better Product Reviews6](https://i.imgur.com/yr2BTn7.png)
+![](https://i.imgur.com/yr2BTn7.png)
 
 - In **My Product Reviews**, the module allows displaying the products that customers have purchased but not yet left reviews
 - Customers can quickly find the product that they bought to write a review for that product
@@ -51,17 +51,17 @@ On the Product Detail Page, customers can:
 In addition to settings at Configuration, admin can also:
 - Control, edit and reply customers' reviews: Choose `Marketing> User Content> Reviews`
 
-![Better Product Reviews7](https://i.imgur.com/d2pEui7.png)
+![](https://i.imgur.com/d2pEui7.png)
 
 - Get the report of reviews by products or by customers, thereby understanding upcoming sales trends
 
   - **Product Reviews Report**: Select `Report> Reviews> By Products`
   
-  ![Better Product Reviews8](https://i.imgur.com/hBg04NA.png)
+  ![](https://i.imgur.com/hBg04NA.png)
 
   - **Customer Reviews Report**: Select `Report> Reviews> By Customers`
   
-  ![Better Product Reviews9](https://i.imgur.com/jEKKqmA.png)
+  ![](https://i.imgur.com/jEKKqmA.png)
 
 ## How to Configure
 
@@ -70,11 +70,11 @@ In addition to settings at Configuration, admin can also:
 
 From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Product Reviews`
 
-![Better Product Reviews10](https://i.imgur.com/o8a2paC.png)
+![](https://i.imgur.com/o8a2paC.png)
 
 #### 1.1. General Configuration
 
-![Better Product Reviews11](https://i.imgur.com/ReP1Qr9.png)
+![](https://i.imgur.com/ReP1Qr9.png)
 
 - Select `Enable = Yes` to enable the module
 - **Remind Review on Customer Dashboard**:
@@ -95,7 +95,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
     
 #### 1.2. Write Review Configuration
 
-![Better Product Reviews12](https://i.imgur.com/B7zCWpY.png)
+![](https://i.imgur.com/B7zCWpY.png)
 
 
 - **Enable**:
@@ -119,7 +119,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
 
 ##### 1.2.1 Terms and Conditions
 
-![Better Product Reviews13](https://i.imgur.com/pacUDV2.png)
+![](https://i.imgur.com/pacUDV2.png)
 
 - **Enable**: Select `Yes` to display the **Term and Condition** feature in the Review form
 - **Link Title**:
@@ -139,7 +139,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
 
 #### 1.3. Review Listing Configuration
 
-![Better Product Reviews14](https://i.imgur.com/Y1yNJo4.png)
+![](https://i.imgur.com/Y1yNJo4.png)
 
 - **Enable Helpful Voting**: Select `Yes` to display the Helpful button in each Review. Customer can click on the button to evaluate the usefulness of the Review
 - **Show Store Reply**: Select `Yes` to display admin answers (if any) at under each Review
@@ -154,7 +154,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
   
 ##### 1.3.1. Sorting
 
-![Better Product Reviews15](https://i.imgur.com/URXGte9.png)
+![](https://i.imgur.com/URXGte9.png)
 
 - **Enable Sorting On Frontend**: Select `Yes` for the customer to change the way the reviews are sorted
 - **Select Type**:
@@ -168,12 +168,12 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
 
 Whenever Customer submit 1 review, that review will be logged in **Pending** status at `Marketing> User Content> Reviews`
 
-![Better Product Reviews16](https://i.imgur.com/vAq4wXr.png)
+![](https://i.imgur.com/vAq4wXr.png)
 
 When admin edit 1 review, in addition to the available Magento fields, the **Mageplaza Better Product Reviews** module also adds some other useful fields.
 - **Approve and Next button**: in order for admin to approve a review and move to the next review quickly
 
-![Better Product Reviews17](https://i.imgur.com/LnZA2x6.png)
+![](https://i.imgur.com/LnZA2x6.png)
 
 - **Review Details**: Add fields
   - **Review Image**:
@@ -186,7 +186,7 @@ When admin edit 1 review, in addition to the available Magento fields, the **Mag
     - Let admin know if the reviewer has purchased this product
     - Admin cannot edit this field
     
-    ![Better Product Reviews18](https://i.imgur.com/vR5aSlW.png)
+    ![](https://i.imgur.com/vR5aSlW.png)
 
 - **Admin Reply**:
   - **Admin user**: displays the username of the administrator who is logged in
@@ -194,7 +194,7 @@ When admin edit 1 review, in addition to the available Magento fields, the **Mag
     - **Nickname**: the name that the admin wants to display outside Frontend
     - **Comment**: The content of the answer to the review
     
-    ![Better Product Reviews19](https://i.imgur.com/AxBiNbP.png)
+    ![](https://i.imgur.com/AxBiNbP.png)
 
 ### 3. Statistics Quality Review
 
@@ -202,10 +202,10 @@ When admin edit 1 review, in addition to the available Magento fields, the **Mag
 
 Customer reviews are listed according to **Report Review Status** which has been installed at Configuration. With each status selected, the report will be different
 
-![Better Product Reviews20](https://i.imgur.com/Ku3SBVh.png)
+![](https://i.imgur.com/Ku3SBVh.png)
 
 #### 3.2. Report by Products
 
 Product reviews are listed according to **Report Review Status** installed at Configuration. With each status selected, the report will be different
 
-![Better Product Reviews21](https://i.imgur.com/cYI9sVs.png)
+![](https://i.imgur.com/cYI9sVs.png)
