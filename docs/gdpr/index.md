@@ -8,11 +8,11 @@ In order to capture the EU data protection standards, Mageplaza has released a n
 ## How to Configure
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > GDPR``
 
-![gdrp1](https://i.imgur.com/YGJmKZh.png)
+![](https://i.imgur.com/YGJmKZh.png)
 
 Check in **General** to learn the basic configuration of the module
 
-![gdrp2](https://i.imgur.com/4cB3TrU.png)
+![](https://i.imgur.com/4cB3TrU.png)
 
 * In the **Enable** field: Choose "Yes" to turn the module on.
 * In the **Allow Delete Customer Account**: Choose "Yes" to allow customers can delete their account by themselves.
@@ -20,11 +20,11 @@ Check in **General** to learn the basic configuration of the module
   * Enter the message displayed when customers are going to delete their account.
   * Custom message is supported by HTML code.
 
-![gdpr3](https://i.imgur.com/SuWVlKw.png)
+![](https://i.imgur.com/SuWVlKw.png)
 
 * In the **Allow Delete Default Address** field: Choose "Yes" to allow customers can delete their default address.
 
-![gdpr4](https://i.imgur.com/CccsEGQ.png)
+![](https://i.imgur.com/CccsEGQ.png)
 
 
 

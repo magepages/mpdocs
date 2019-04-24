@@ -15,11 +15,11 @@ In the e-commerce industry, many businesses want to promote their upcoming produ
 
 - **Pre order**: configure with pre-order products
 
-![Imgur](https://i.imgur.com/0omolWL.png)
+![](https://i.imgur.com/0omolWL.png)
 
 - **Back order**: configure with back-order products
 
-![Imgur](https://i.imgur.com/eHqWX90.png)
+![](https://i.imgur.com/eHqWX90.png)
 
 
 ## How to configure
@@ -28,11 +28,11 @@ In the e-commerce industry, many businesses want to promote their upcoming produ
 
 Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre Order`.
 
-![Imgur](https://i.imgur.com/EAtiV1Q.gif)
+![](https://i.imgur.com/EAtiV1Q.gif)
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/sVoelNa.png)
+![](https://i.imgur.com/sVoelNa.png)
 
 - **Enable**: Select `Yes` to turn on the module and use the Pre Order or Back Order.
 - **Apply Pre-order** for Products: 
@@ -44,13 +44,13 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 #### 1.2. Displaying Configuration
 ##### 1.2.1. Pre-order Display Configuration
 
-![Imgur](https://i.imgur.com/WaL1Tjp.png)
+![](https://i.imgur.com/WaL1Tjp.png)
 
 - **Add to Cart Button Label**:
   - Enter the button Label to replace **Add to cart** button when you want to pre-order with products that are about to be launched or out of stock, with less quantity instock compared to the number that customers want to buy.
   - If left blank, **Add to cart** button will be used.
 
-![Imgur](https://i.imgur.com/lcggfPi.png)
+![](https://i.imgur.com/lcggfPi.png)
 
 - **Stock Status Label**:
   - Enter the Stock Status Label to be displayed above the default label **Pre Order** on **Product Listing Page**. For example: Available Soon, Availabel in {{day}} days, Delivery on {{long_date}},...
@@ -59,51 +59,51 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
     - {{long_date}} - the delivery date in long format. Ex: Nov 20, 2019.
     - {{day}} - number of days from current day to delivery date.
     
-    ![Imgur](https://i.imgur.com/xbP9WyE.png)
+    ![](https://i.imgur.com/xbP9WyE.png)
 
 - **Show Stock Status Label On**: Select to display Stock Status Label on:
   - **Category Page**:
 
-  ![Imgur](https://i.imgur.com/vP5Cshp.png)
+  ![](https://i.imgur.com/vP5Cshp.png)
 
   - **Product Detail Page**:
   
-  ![Imgur](https://i.imgur.com/FcmYaUs.png)
+  ![](https://i.imgur.com/FcmYaUs.png)
 
   - **Shopping Cart Page**:
   
-  ![Imgur](https://i.imgur.com/9erBAwa.png)
+  ![](https://i.imgur.com/9erBAwa.png)
 
 - **Note**: If you do not want to display Stock Status Label on any page you can select Please Select. You can choose to display on one or multiple pages.
 
 - **Admin Order Page**: displays the message Stock Status Label in the backend with the pre-order products
 
-![Imgur](https://i.imgur.com/rehRy8e.png)
+![](https://i.imgur.com/rehRy8e.png)
 
 - **Checkout Page**: displays the Stock Status Label in the Checkout page.
 
- ![Imgur](https://i.imgur.com/LB1upQx.png)
+ ![](https://i.imgur.com/LB1upQx.png)
  
 - Compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
 
-![Imgur](https://i.imgur.com/P8ruce3.png)
+![](https://i.imgur.com/P8ruce3.png)
 
 - **Show Checkout Notice**: Select to display Checkout Notice when the customer pays for the pre-order products on the pages:
 
   - **Admin Order Page**:
-  ![Imgur](https://i.imgur.com/VOClvyx.png)
+  ![](https://i.imgur.com/VOClvyx.png)
   
   - **Shopping Cart Page**: displays Checkout Notice on the Shopping Cart Page.
 
-  ![Imgur](https://i.imgur.com/GURKjBu.png)
+  ![](https://i.imgur.com/GURKjBu.png)
 
   - **Checkout Page**:
   
-  ![Imgur](https://i.imgur.com/8hwpbnw.png)
+  ![](https://i.imgur.com/8hwpbnw.png)
 
 - You can install [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) to make the payment steps convenient, fast and compact in 6 steps.
 
-![Imgur](https://i.imgur.com/BNLWhlD.png)
+![](https://i.imgur.com/BNLWhlD.png)
 
 - **Note**: If you do not want to display the Checkout Notice on any page you can select Please Select. You can choose to display on one or multiple pages.
 
@@ -113,15 +113,15 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 - **Show Order Notice**: Choose to apply the **Order Notice** when the customer orders with pre-order products. Pages that are not selected will not apply the **Order Notice** display. Order Notice will be shown on pages:
   - **Admin View Order Page**: Displays a notification when the admins order pre-order products at backend
 
-![Imgur](https://i.imgur.com/bbEhHU8.png)
+![](https://i.imgur.com/bbEhHU8.png)
 
   - **Frontend View Order Page**: Display the **Order Notice** notification when the customers orders pre-order products at frontend
   
-  ![Imgur](https://i.imgur.com/rKbQvgF.png)
+  ![](https://i.imgur.com/rKbQvgF.png)
   
 - **Order Confirmation Email**: Automatically display a notification with the order confirmation email when the order is finished. Visit `Marketing> Email Templates> Add New Template` to create Email Templates.
 
-![Imgur](https://i.imgur.com/WmlMlKd.png)
+![](https://i.imgur.com/WmlMlKd.png)
 
 - **Note**: When you visit `Marketing> Email Templates> Add New Template`, to create Email Templates, for each template email, you need to insert the following command line in the **Template Content** field in the position where you want to put **Order Notice**:
 
@@ -133,12 +133,12 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 ```
 
 
-![Imgur](https://i.imgur.com/ro3NfxY.png)
+![](https://i.imgur.com/ro3NfxY.png)
 
 
 - You can display an Order Notice on [PDF invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/) template.  
 
-![Imgur](https://i.imgur.com/RGMt7x5.png)
+![](https://i.imgur.com/RGMt7x5.png)
 
 
 - **Note**:
@@ -156,11 +156,11 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 
 ```
 
-![Imgur](https://i.imgur.com/driT0NA.png)
+![](https://i.imgur.com/driT0NA.png)
 
 - After creating your Email Template, go to `Stores> Configuration> Mageplaza> PDF Invoice`, in the Order section with the **Select Template** field select the email template you just created.
 
-![Imgur](https://i.imgur.com/mpD2muE.png)
+![](https://i.imgur.com/mpD2muE.png)
 
 - **Order Notice**:
   - Enter **Order Notice** to display a notification for pre-order products when the customer orders them.
@@ -168,7 +168,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 
 ##### 1.2.2. Backorder Displaying Configuration 
 
-![Imgur](https://i.imgur.com/L8o9UeT.png)
+![](https://i.imgur.com/L8o9UeT.png)
 
 - **Add to Cart Button Label**:
   - Enter the Label button to replace **Add to cart** button when you want to backorder with products that have less quantity in stock than the number customers want to buy. For example: Customers want to buy 5 items but you only have 3 available. Then customers will get these 3 items first and back-order 2 items. When stock is back in store, they will deliver the them or notify customers. You can install the [Product Alerts extension](https://www.mageplaza.com/magento-2-product-alerts/) of Mageplaza to automatically email customers when products are returned to stock or out of stock.
@@ -185,19 +185,19 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 - **Show Stock Status Label On**: Select to display **Stock Status Label** on:
   - **Category Page**:
   
-  ![Imgur](https://i.imgur.com/N0SksGV.png)
+  ![](https://i.imgur.com/N0SksGV.png)
 
   - **Product View Page**:
   
-  ![Imgur](https://i.imgur.com/LnUjOzl.png)
+  ![](https://i.imgur.com/LnUjOzl.png)
 
   - **Checkout Page**:
   
-  ![Imgur](https://i.imgur.com/WWvmTSG.png)
+  ![](https://i.imgur.com/WWvmTSG.png)
 
 - Compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
 
-![Imgur](https://i.imgur.com/tFGNcdw.png)
+![](https://i.imgur.com/tFGNcdw.png)
 
 - **Note**: If you do not want to display **Stock Status Label** on any page you can select **Please Select**. You can choose to display on one or multiple pages.
 - **Cart Item Notification**:
@@ -206,12 +206,12 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
     - {{name}} - the name of the backorder product
     - {{qty}} - the backorder quantity 
 
-![Imgur](https://i.imgur.com/tFGNcdw.png)
+![](https://i.imgur.com/tFGNcdw.png)
 
 ### 2. Configuration in Product
 Login to the **Magento Admin**, choose `Catalog > Product > Edit Product > Advanced Inventory`.
 
-![Imgur](https://i.imgur.com/sklFrGb.png)
+![](https://i.imgur.com/sklFrGb.png)
 
 - **Pre-order/Back Order**:
   - Select pre order or back order for each individual product. Priority will be given to the configuration of each product in this section first.
@@ -222,7 +222,7 @@ Login to the **Magento Admin**, choose `Catalog > Product > Edit Product > Advan
 
 - You can select **Use Config Settings** to use the configuration in the Configuration section above. If both configuration for each product and configuration in different **Configuration** section, priority will be given to configuration for each product first.
 
-![Imgur](https://i.imgur.com/FDYCgGG.png)
+![](https://i.imgur.com/FDYCgGG.png)
 
 - **Stock Status Label**:
   - Enter **Stock Status Label** to be displayed above the default label (eg "Back Order") with each product. For example: "Available Soon"
@@ -235,7 +235,7 @@ Login to the **Magento Admin**, choose `Catalog > Product > Edit Product > Advan
 
 - **Delivery Date**: Choose a date to deliver goods with each product when stock is available or when stock is returned. And will announce the date of shipment based on the information of **Stock Status Label** field. If you leave the **Delivery Date** field blank, **Stock Status Label** will not be applied on all pages.
 
-![Imgur](https://i.imgur.com/5PeNSXs.png)
+![](https://i.imgur.com/5PeNSXs.png)
 
 ## Notation
 
@@ -243,4 +243,4 @@ Login to the **Magento Admin**, choose `Catalog > Product > Edit Product > Advan
 - If you want to delete the extension, you need to delete more `mppo_add_to_cart_label`, `mppo_stock_status_label` and `mppo_delivery_date` attribute in the database
 - Into the database to delete: Access to eav_attribute table. In the attribute_code column, you find and delete the attribute `mppo_add_to_cart_label`, `mppo_stock_status_label` and `mppo_delivery_date`
 
-![Imgur](https://i.imgur.com/vfY0S2u.png)
+![](https://i.imgur.com/vfY0S2u.png)

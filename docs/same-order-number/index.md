@@ -7,17 +7,17 @@ With the ID configuration of the current Magento 2, when you view the ID of the 
 
 From the Magento Admin, choose `Store > Settings > Configuration > Mageplaza Extensions > Same Order Number`
 
-![same order number](https://i.imgur.com/RJtzbSY.png)
+![](https://i.imgur.com/RJtzbSY.png)
 
 ### 1. General Configuration
 
-![same order number 1](https://i.imgur.com/ibkyChH.png)
+![](https://i.imgur.com/ibkyChH.png)
 
 - **Enable**: Choose Yes to use this module
 - **Apply for**: Choose the object to apply for the extension. You can apply simultaneously to Invoice, Shipment, Credit memo.
   - `Apply for Shipment`: Shipment ID will be configured according to Order ID. In the case of multiple shipments for an order, the second shipment's ID will be followed by a suffix. For example: Order's ID is Order #003, Shipment's ID is #003, the second Shipment's ID is #003-1.
   
-  ![same order number 2](https://i.imgur.com/A0Iz71l.png)
+  ![](https://i.imgur.com/A0Iz71l.png)
   
   
   - If you don't apply the extension for Shipment, the Shipment ID will increase based on the Main Website.
@@ -25,13 +25,13 @@ From the Magento Admin, choose `Store > Settings > Configuration > Mageplaza Ext
     - Same Order Number is also available for the case as automatic Invoice creation when paying with Paypal.
     - In the case of multiple Invoices for an Order, the second Invoice ID onwards will be followed by a suffix. For example, the Order ID is Order #003, the Invoice ID is #003, the 2nd Invoice ID is #003-1.
     
-    ![same order number 4](https://i.imgur.com/venMMt6.png)
+    ![](https://i.imgur.com/venMMt6.png)
     
     
   - If you don't apply the extension for Invoice, the Invoice ID will increase based on the Main Website.
   - `Apply for Credit Memo`: Credit memo ID will be configured according to Order ID. In the case of multiple credit memos for an order, the second credit memo onwards will be followed by a suffix. For example: Order ID is Order #003, Credit Memo ID #003, the 2nd Credit Memo is #003-1.
   
-  ![same order number 5](https://i.imgur.com/r1xsiOT.png)
+  ![](https://i.imgur.com/r1xsiOT.png)
 
   - If you don't apply the extension for Credit Memo, the Credit Memo ID will increase based on the Main Website.
   
@@ -44,15 +44,15 @@ From the Magento Admin, choose `Store > Settings > Configuration > Mageplaza Ext
 ### 3. Frontend
 #### 3.1. Invoice after applying Same Order Number extension
 
-![same order number 6](https://i.imgur.com/K2UiXH7.png)
+![](https://i.imgur.com/K2UiXH7.png)
   
 #### 3.2. Shipment after applying Same Order Number extension
 
-![same order number7](https://i.imgur.com/LkZlFLm.png)
+![](https://i.imgur.com/LkZlFLm.png)
 
 #### 3.3. Credit Memo after applying Same Order Number extension
 
-![same order number 8](https://i.imgur.com/MenMo0l.png)
+![](https://i.imgur.com/MenMo0l.png)
 
 
 

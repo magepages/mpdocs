@@ -18,11 +18,11 @@ Currently, when having to process orders at the management page, the shop owner 
 
 Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass Order Actions`.
 
-![Imgur](https://i.imgur.com/SiLZXp3.png)
+![](https://i.imgur.com/SiLZXp3.png)
 
 #### 1. General
 
-![Imgur](https://i.imgur.com/1f4uONp.png)
+![](https://i.imgur.com/1f4uONp.png)
 
 - Select **Enable = Yes** to enable the module. [Mass Order Actions extension](https://www.mageplaza.com/magento-2-mass-order-actions/) is compatible with [Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/) and [Order Archive](https://www.mageplaza.com/magento-2-order-archive/).
 - **Select Actions**:
@@ -38,7 +38,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass
 
 #### 2. Create Invoice
 
-![Imgur](https://i.imgur.com/eSsyb97.png)
+![](https://i.imgur.com/eSsyb97.png)
 
 - **Auto Select Order Status After Invoice**: Select the status, the selected status will automatically be assigned to the **Create Invoice** popup at the grid.
 - **Auto Check Email Copy of Invoice**: Select **Yes** to automatically send mail to customers.
@@ -46,7 +46,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass
 
 #### 3. Create Shipment
 
-![Imgur](https://i.imgur.com/lt833fh.png)
+![](https://i.imgur.com/lt833fh.png)
 
 - **Auto Select Order Status After Shipment**: Select the status, the selected status will automatically be assigned to popup Create Shipment at the grid.
 - **Auto Check Email Copy of Shipment**: Select **Yes** to automatically send mail to customers.
@@ -56,15 +56,15 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass
 
 Login to the **Magento Admin**, choose `Sales > Orders`
 
-![Imgur](https://i.imgur.com/SftT4B7.png)
+![](https://i.imgur.com/SftT4B7.png)
 
 Click **Actions**, where the actions will display in the **Select Actions** configuration created at the **Configuration** section.
 
-![Imgur](https://i.imgur.com/lyfpa9P.png)
+![](https://i.imgur.com/lyfpa9P.png)
 
 #### 2.1. Create Invoice
 
-![Imgur](https://i.imgur.com/8Bjyy1Q.png)
+![](https://i.imgur.com/8Bjyy1Q.png)
 
 - **Change order status to**: Select to change the status display for the invoice.
 - **Note**: If at the **Configuration**, in the **Create Invoice** section you have selected the default display status for Invoice, then at **Change order status to** will display that status.
@@ -78,16 +78,16 @@ Click **Actions**, where the actions will display in the **Select Actions** conf
     - **Note**: PDF Invoice only appears when Admin install extension [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/).
 - **Show message to notify of creating Invoice successfully**:
 
-![Imgur](https://i.imgur.com/gLcdVmS.png)
+![](https://i.imgur.com/gLcdVmS.png)
 
 - **Note**:
 You can create an Invoice for Order by: Move the mouse to the Order you want to create an invoice and click **Invoice**. The next configurations you do as the same as we guided above.
 
-![Imgur](https://i.imgur.com/0Qg9kIu.png)
+![](https://i.imgur.com/0Qg9kIu.png)
 
 #### 2.2. Create Shipment
 
-![Imgur](https://i.imgur.com/5K3oYl2.png)
+![](https://i.imgur.com/5K3oYl2.png)
 
 - **Change order status to**: Select to change the status display for the shipment.
 - **Note**: If at the **Configuration**, in the **Create shipment** section you have selected the default display status for shipment, then at **Change order status to** will display that status.
@@ -97,7 +97,7 @@ You can create an Invoice for Order by: Move the mouse to the Order you want to 
   - **Note**: If you do not select **Email Copy of Shipment**, the **Append Comments** checkbox will not allow you to select.
 - **Add Tracking Number**: 
 
-![Imgur](https://i.imgur.com/83IZSr8.png)
+![](https://i.imgur.com/83IZSr8.png)
 
 Admin chooses the delivery method for order.
 
@@ -109,17 +109,17 @@ Admin chooses the delivery method for order.
     - **Note**: **PDF Shipment** only appears when Admin install extension [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/).
 - **Show message to notify of creating Shipment successfully**:
 
-![Imgur](https://i.imgur.com/SVtC2o2.png)
+![](https://i.imgur.com/SVtC2o2.png)
 
 - **Note**:
 You can create an Shipment for Order by: Move the mouse to the Order you want to create an invoice and click **Ship**. The next configurations you do as the same as we guided above.
 
-![Imgur](https://i.imgur.com/RuYNFVr.png)
+![](https://i.imgur.com/RuYNFVr.png)
 
 
 #### 2.3. Create Invoice and Shipment
 
-![Imgur](https://i.imgur.com/jigeUQk.png)
+![](https://i.imgur.com/jigeUQk.png)
 
 - **Change order status to**: Select to change the order status 
 
@@ -136,7 +136,7 @@ You can create an Shipment for Order by: Move the mouse to the Order you want to
     - **Note**: If you do not select **Email Copy of Shipment**, the **Append Comments** checkbox will not allow you to select.
   - **Add Tracking Number**: 
 
-![Imgur](https://i.imgur.com/83IZSr8.png)
+![](https://i.imgur.com/83IZSr8.png)
 
 
 Admin selects the shipment method for order
@@ -147,7 +147,7 @@ Admin selects the shipment method for order
   - To create **Shipping Labels**, you can refer [here](https://www.mageplaza.com/kb/how-to-create-shipping-labels-magento-2.html).
 - The message displays successful generating of **Invoice and Shipment**
 
-![Imgur](https://i.imgur.com/lF27OuA.png)
+![](https://i.imgur.com/lF27OuA.png)
 
 #### 2.4. Add Order Comments
 
@@ -158,48 +158,48 @@ Admin selects the shipment method for order
 - Select **Submit Comment** to create a comment.
 - Display message **Add comment successfully**:
 
-![Imgur](https://i.imgur.com/iYOxACU.png)
+![](https://i.imgur.com/iYOxACU.png)
 
 #### 2.5. Change Orders Status
 
-![Imgur](https://i.imgur.com/T2ZStw3.gif)
+![](https://i.imgur.com/T2ZStw3.gif)
 
 - Admin select to change the status of Orders.
 - Admin can select multiple orders to change to the same status and not allowed to select multiple statuses for one order.
 - Notice of changign status successfully:
 
-![Imgur](https://i.imgur.com/SyayZ0g.png)
+![](https://i.imgur.com/SyayZ0g.png)
 
 ## III. Frontend
 
 ### 1. Display Comments
 
-![Imgur](https://i.imgur.com/77aESAS.png)
+![](https://i.imgur.com/77aESAS.png)
 
 ### 2. Display Invoice
 
-![Imgur](https://i.imgur.com/1c2aQTL.png)
+![](https://i.imgur.com/1c2aQTL.png)
 
 ### 3. Display Shipment
 
-![Imgur](https://i.imgur.com/j45NK5m.png)
+![](https://i.imgur.com/j45NK5m.png)
 
 ## IV. Backend
 
 ### 1. Display Comments
 
-![Imgur](https://i.imgur.com/lhNd0l7.png)
+![](https://i.imgur.com/lhNd0l7.png)
 
 ## V. Email
 
 ### 1. Display Comments
 
-![Imgur](https://i.imgur.com/9oNF54D.png)
+![](https://i.imgur.com/9oNF54D.png)
 
 ### 2. Display Invoice
 
-![Imgur](https://i.imgur.com/tqfpRHt.png)
+![](https://i.imgur.com/tqfpRHt.png)
 
 ### 3. Display Shipment
 
-![Imgur](https://i.imgur.com/RNLK1wp.png)
+![](https://i.imgur.com/RNLK1wp.png)

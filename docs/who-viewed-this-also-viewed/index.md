@@ -14,7 +14,7 @@ Customers are more likely to make purchasing decisions when they see a product t
 
 - Products applied to this module is set by admin based on both **Product Types** and **Categories** that they belong to.
 
-![apply for](https://i.imgur.com/57vMSIY.png)
+![](https://i.imgur.com/57vMSIY.png)
 
 - This extension supports the recommendation of the most viewed products at the Product Detail page
   - **At varous positions**:
@@ -50,7 +50,7 @@ Customers are more likely to make purchasing decisions when they see a product t
 From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Who viewed this also viewed`
 
 
-![configuration](https://i.imgur.com/a9aEzWb.png)
+![](https://i.imgur.com/a9aEzWb.png)
 
 
 - Select **Enable = Yes** to enable the module
@@ -64,7 +64,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Who viewed th
   - **Block Display**: `Who viewed this also viewed` block will be loaded when loading the page and displayed as soon as the page is finished loading. This option helps improve SEO for the page
 - **Display Position**: Choose the position to display the block
 
-![Display Position](https://i.imgur.com/inSmNw4.png)
+![](https://i.imgur.com/inSmNw4.png)
 
   - **Top of Content**: Block is displayed above the Content of Product Page
   - **Bottom of Content**: Block is shown below the Content of Product Page

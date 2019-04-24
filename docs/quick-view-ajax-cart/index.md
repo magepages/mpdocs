@@ -13,43 +13,43 @@ When customers want to view the product detail page, they have to click on the p
 ### 1. Quick View Popup
 #### 1.1. Display the icon on the product
 
-![quick view](https://i.imgur.com/kh53PzJ.png)
+![](https://i.imgur.com/kh53PzJ.png)
 
 #### 1.2. Display the label on the product
 
-![quick view1](https://i.imgur.com/4v7yimD.png)
+![](https://i.imgur.com/4v7yimD.png)
 
 #### 1.3. Display the popup
 
-![quick view2](https://i.imgur.com/KM8xWXz.png)
+![](https://i.imgur.com/KM8xWXz.png)
 
 ### 2. Ajax Cart
 #### 2.1. When clicking on Add To Cart button
 
-![quick view3](https://i.imgur.com/dVq815g.png)
+![](https://i.imgur.com/dVq815g.png)
 
 #### 2.2. When clicking on Add To Wishlist
 
-![quick view4](https://i.imgur.com/twBFZLK.png)
+![](https://i.imgur.com/twBFZLK.png)
 
 #### 2.3. When clicking on Add to Compare
 
-![quick view5](https://i.imgur.com/0PtMlIB.png)
+![](https://i.imgur.com/0PtMlIB.png)
 
 ## How to configure
 
 From the Admin Panel, go to `Store > Settings > Configuration > MAGEPLAZA EXTENSIONS > Quick View`
 
-![quick view6](https://i.imgur.com/qfd1ptJ.png)
+![](https://i.imgur.com/qfd1ptJ.png)
 
 ### Configuration
 #### 1. General
-![quick view7](https://i.imgur.com/dKADlL3.png)
+![](https://i.imgur.com/dKADlL3.png)
 
 - **Enable**: Choose "Yes' to use the feature of this module.
 
 #### 2. Quick View Configuration
-![quick view8](https://i.imgur.com/zbSVcaF.png)
+![](https://i.imgur.com/zbSVcaF.png)
 
 - **Enable**: Choose "Yes" to display the popup of Quick View
 - **Apply for**:
@@ -77,7 +77,7 @@ From the Admin Panel, go to `Store > Settings > Configuration > MAGEPLAZA EXTENS
     - Allow displaying many product's information on the popup
     
 #### 3. Ajax Cart Configuration
-![quick view9](https://i.imgur.com/pAem8uJ.png)
+![](https://i.imgur.com/pAem8uJ.png)
 
 - **Enable**: Choose "Yes" to display the popup of Ajax Cart
 - **Apply for**:

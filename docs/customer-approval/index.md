@@ -16,23 +16,23 @@ Managing customers from the beginning will help you control your website well, g
 
 ### Approval Account Notification: Show the notification when customers have registered accounts and are waiting for approval
 
-![Imgur](https://i.imgur.com/Z9D3r7c.png)
+![](https://i.imgur.com/Z9D3r7c.png)
 
 ### [Customer] Successful Register: Send notification emails to customers when they have registered the accounts successfully
 
-![Imgur](https://i.imgur.com/1FUBtIn.png)
+![](https://i.imgur.com/1FUBtIn.png)
 
 ### [Customer] Approve Notification: Send notification emails to customers when admins approve the customers' accounts
 
-![Imgur](https://i.imgur.com/HJ33SLO.png)
+![](https://i.imgur.com/HJ33SLO.png)
 
 ### [Customer] Not Approve Notification: Send notification emails to customers when admins do not approve the customers' accounts
 
-![Imgur](https://i.imgur.com/Ro17dMF.png)
+![](https://i.imgur.com/Ro17dMF.png)
 
 ### Admin Notification: Send notification emails to admins when customers registered accounts that need to be approved
 
-![Imgur](https://i.imgur.com/q2wV5Zx.png)
+![](https://i.imgur.com/q2wV5Zx.png)
 
 
 ## How to configure
@@ -41,12 +41,12 @@ Managing customers from the beginning will help you control your website well, g
 
 Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval`.
 
-![Imgur](https://i.imgur.com/bEYNaih.gif)
+![](https://i.imgur.com/bEYNaih.gif)
 
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/1IQ8Tle.png)
+![](https://i.imgur.com/1IQ8Tle.png)
 
 - **Enable**: Select `Yes` to turn on the Module and use **Approve Customer Account** function
 
@@ -60,17 +60,17 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
   - **Show Error**: Will display the **Not Approve Customer Login** error message. Displaying additional **Error Message** field.
     - **Error Message**: Enter the notification when the client account is not accepted or still has not been approved but try to log in. If left blank, the default is "Your account is not approved".
     
-    ![Imgur](https://i.imgur.com/GxJrvZR.png)
+    ![](https://i.imgur.com/GxJrvZR.png)
     
   - **Redirect CMS Page**: Select to redirect to the **Not Approve Customer Login page**:
   
-  ![Imgur](https://i.imgur.com/9RDDRv6.png)
+  ![](https://i.imgur.com/9RDDRv6.png)
   
     - **For Not Approve Customer Page**
 
 #### 1.2. Admin Notification Email
 
-![Imgur](https://i.imgur.com/DMI6oQF.png)
+![](https://i.imgur.com/DMI6oQF.png)
 
 - **Enable**:
   - Select "Yes" to turn on email notification for admin when a customer successfully registers an account.
@@ -78,7 +78,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 - **Sender**: Select the person to send email to notify admin:
 
-![Imgur](https://i.imgur.com/yJ5ygIX.png)
+![](https://i.imgur.com/yJ5ygIX.png)
 
 - **Email Template**: Select an email template to notify admin when the customer successfully registered an account. You can go to `Marketing> Email Templates`, select **Add New Template** to choose to create a notification email template.
 
@@ -88,11 +88,11 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 
 #### 1.3. Customer Notification Email
 
-![Imgur](https://i.imgur.com/CIJx0vf.png)
+![](https://i.imgur.com/CIJx0vf.png)
 
 - **Sender**: Select the person who sent the email to notify the customer.
 
-![Imgur](https://i.imgur.com/yJ5ygIX.png)
+![](https://i.imgur.com/yJ5ygIX.png)
 
 ##### 1.3.1. Successful Register
 
@@ -118,14 +118,14 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 - Login to the **Magento Admin**, choose `Customers> All Customers`.
 - This section lists the information of the registered customer with fields such as **Name, Email, Group, Approval Status, Date of Birth, etc.** Here you can manually approve or not approve at **Action and edit** with any customer you want.
 
-![Imgur](https://i.imgur.com/i0c4Q9M.png)
+![](https://i.imgur.com/i0c4Q9M.png)
 
 #### 2.2. Edit Customer
 
 - Click on `Edit` to edit or approve/not approve any client. With **Approval Status** shows the status of customer account registration.
 
 
-![Imgur](https://i.imgur.com/tViNc7w.png)
+![](https://i.imgur.com/tViNc7w.png)
 
 ## Using API
 
@@ -140,20 +140,20 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 **Note**: For the API tab you should select **Customers** and **Mageplaza Customer Approval**.
 
     
-![Imgur](https://i.imgur.com/Kwo7RJv.png)
+![](https://i.imgur.com/Kwo7RJv.png)
     
-![Imgur](https://i.imgur.com/jK2IONR.png)
+![](https://i.imgur.com/jK2IONR.png)
 
 
 
 #### Step 2: After creating the Integration, please select Activate
 
-![Imgur](https://i.imgur.com/nJ2bsr3.png)
+![](https://i.imgur.com/nJ2bsr3.png)
 
 
 #### Step 3: Click `Allow` to get the information of the **Access Token** field.
 
-![Imgur](https://i.imgur.com/CknBYeA.png)
+![](https://i.imgur.com/CknBYeA.png)
 
 
 
@@ -167,7 +167,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
   - With Key and Value: Get the information of the **Access Token** field that you have just integrated to fill it out below. For example:  Authorization: bearer access_token và Content-Type: application/json
   - Click Send to get the list of approved customers.
 
-![Imgur](https://i.imgur.com/OnFGBBu.png)
+![](https://i.imgur.com/OnFGBBu.png)
 
 
 #### 2.2 Approve with customers who have registered an account are in the status of Pending or Not Approval, you can use POST method.
@@ -177,7 +177,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 - Example: Url: http://example.com/rest/V1/customer/approve/email
 
 
-![Imgur](https://i.imgur.com/P0NHkTd.png)
+![](https://i.imgur.com/P0NHkTd.png)
 
 
 
@@ -186,7 +186,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 - Example: Url: http://example.com/rest/V1/customer/not-approve/email
 
 
-![Imgur](https://i.imgur.com/W7jIVES.png)
+![](https://i.imgur.com/W7jIVES.png)
 
 ## Instructions to run the command to Approve or Not Approve customer accounts
 
@@ -220,5 +220,5 @@ When installing, you should run the following command to update customer grid:
 When you want to remove the extension, you should go to the database to delete. Access to `eav_attribute` table, in the `attribute_code` column, you find and delete the `is_approved` attribute
 
  
- ![Imgur](https://i.imgur.com/aiFNWrY.png)
+ ![](https://i.imgur.com/aiFNWrY.png)
 

@@ -14,13 +14,13 @@
 
 From the admin backend, go to `System > Index Management` 
 
-![Imgur](https://i.imgur.com/IWBgPPC.png)
+![](https://i.imgur.com/IWBgPPC.png)
 
 ### Reindex one indexer:
 
 At the **Action** box, click on **Reindex Data** to reindex each indexer separately. 
 
-![Imgur](https://i.imgur.com/hvRRinh.png)
+![](https://i.imgur.com/hvRRinh.png)
 
 
 ### Reindex some indexers:
@@ -29,7 +29,7 @@ At the **Action** box, click on **Reindex Data** to reindex each indexer separat
   - Select **Reindex Data** 
   - Click **Submit** 
 
- ![Imgur](https://i.imgur.com/0j4q32o.png)
+ ![](https://i.imgur.com/0j4q32o.png)
 
 ### Reindex all the indexers
 
@@ -37,24 +37,24 @@ At the **Action** box, click on **Reindex Data** to reindex each indexer separat
 - Select **Reindex Data** 
 - Click **Submit** 
 
-![Imgur](https://i.imgur.com/fUn2aV0.png)
+![](https://i.imgur.com/fUn2aV0.png)
 
 ### User roles with reindex
 
 #### Step 1: Go to `Admin > System > User role`
 
-![Imgur](https://i.imgur.com/Ch0qBSS.png)
+![](https://i.imgur.com/Ch0qBSS.png)
  
 #### Step 2: Add a new role resource
 
 Fill in role information at **Role Information** section
 
-![Imgur](https://i.imgur.com/3H9By5B.png)
+![](https://i.imgur.com/3H9By5B.png)
 
 Select index management role at **Role Resources** section, then click on **Save Role** 
 
-![Imgur](https://i.imgur.com/3aIoSyz.png)
+![](https://i.imgur.com/3aIoSyz.png)
 
 #### Step 3: Set role users for admin accounts, then click on Save Role to finish. 
 
-![Imgur](https://i.imgur.com/hveeS2l.png)
+![](https://i.imgur.com/hveeS2l.png)

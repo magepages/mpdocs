@@ -7,7 +7,7 @@ In the market, you want to expand your business in different countries to meet y
 ### Configuration
 From the Admin Panel, go to `Stores > Store Switcher > Configuration > Mageplaza Extension > Geo IP Configuration`, choose `Geo IP Configuration` section.
 
-![geoip](https://i.imgur.com/DdgK0WU.png)
+![](https://i.imgur.com/DdgK0WU.png)
 
 - **Enable Geo IP**: Choose "Yes" to enable the feature of Geo IP that helps you verify the customers countries.
 - **Download Library**: Click on `Download Library` button to download the library of Geo IP. Please download library before enabling it.

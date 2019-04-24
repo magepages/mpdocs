@@ -13,7 +13,7 @@ Moreover, Delivery Time extension is totally compatible with our [One Step Check
 
 After adding the right products in the cart, the customers will be navigated to the checkout page. Delivery Time will be displayed here:
 
-![how to use](https://i.imgur.com/qrpWYAY.png)
+![](https://i.imgur.com/qrpWYAY.png)
 
 The customers can choose the day, time to receive the products and the related information to store owners as well as the shippers.
 
@@ -21,7 +21,7 @@ The customers can choose the day, time to receive the products and the related i
 
 Login to Magento Admin, go to **Stores > Settings > Configuration > Mageplaza Extensions > Delivery Time > General Configuration**
 
-![how to configure](https://i.imgur.com/s4GdkLc.png)
+![](https://i.imgur.com/s4GdkLc.png)
 
 * **Enable**: Set “Yes” to allow customers to note the time when they can receive the shipping items
 * **Enable Delivery Time**: Choose "Yes" so that customers can choose the time frame that they want to get the products. Admins need to set the time frame in the `Delivery Time` field.

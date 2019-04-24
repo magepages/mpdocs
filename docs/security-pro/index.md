@@ -8,7 +8,7 @@ Security Professional grants store owners the ability to forbid all login attemp
 ## How to use
 You can review login records from the dashboard when entering the backend. The log displays the newest 5 logins and you can click on the login name to view the details.
 
-![i6](https://i.imgur.com/X4qv87Y.png)
+![](https://i.imgur.com/X4qv87Y.png)
 
 ## How to configure
 After logging in Magento backend, go to ``System > Security``. We will provide detail guides to these bellow configuration
@@ -18,13 +18,13 @@ After logging in Magento backend, go to ``System > Security``. We will provide d
 * Action Log Backup
 * File Change Log
 
-![i1](https://i.imgur.com/QmVUjki.png)
+![](https://i.imgur.com/QmVUjki.png)
 
 ### I. Configuration
 #### 1.1. General
 After entering ``Store > Settings > Configuration > Mageplaza Extensions > Security``, expand the General configuration
 
-![i10](https://i.imgur.com/uqGBWW1.png)
+![](https://i.imgur.com/uqGBWW1.png)
 
 * In the **Enable** field: Choose “Yes” to turn the Security module on.
 * In the **Send warning emails to** field: 
@@ -34,7 +34,7 @@ After entering ``Store > Settings > Configuration > Mageplaza Extensions > Secur
 #### 1.2. Brute Force Protection
 Follow ``System > Security > Configuration > General > Brute Force Protection``
 
-![i2](https://i.imgur.com/PC2809t.png)
+![](https://i.imgur.com/PC2809t.png)
 
 * In the **Enable** field: Choose "Yes" to enable this function.
 * In the **Maximum number of failed login attempts** field:
@@ -52,11 +52,11 @@ Follow ``System > Security > Configuration > General > Brute Force Protection``
 
 Here’s an example of a warning emails:
 
-![i7](https://i.imgur.com/ymrlPta.png)
+![](https://i.imgur.com/ymrlPta.png)
 
 #### 1.2. Blacklist/Whitelist IPs
 
-![i3](https://i.imgur.com/CI5lmut.jpg)
+![](https://i.imgur.com/CI5lmut.jpg)
 
 * In the **Blacklist(s)** field:
   *  All IP addresses filled in this section will be blocked whenever accessing the admin login page.
@@ -84,7 +84,7 @@ Blacklist(s) has higher priority than Whitelist(s) which means if a IP address i
 
 #### 1.3. Action Log Backup
 
-![i6](https://i.imgur.com/aDKC0r1.png)
+![](https://i.imgur.com/aDKC0r1.png)
 
 * In the **Enable** field: Choose "Yes" to back up the Action log.
 * In the **Frequency** field: Choose one of avalable time options
@@ -95,7 +95,7 @@ Blacklist(s) has higher priority than Whitelist(s) which means if a IP address i
 
 #### 1.4. Amway Mode
 
-![i7](https://i.imgur.com/BH3q7dc.png)
+![](https://i.imgur.com/BH3q7dc.png)
 
 * In the **Enable** field: Choose "Yes" to forbid all login attempts in this configured time.
 * In the **From Time** field: Choose the start time you want to set Away Mode.
@@ -115,7 +115,7 @@ Configured Away Mode time will follow the store's timezone.
 
 #### 1.5. File Change
 
-![i8](https://i.imgur.com/OEaGepV.png)
+![](https://i.imgur.com/OEaGepV.png)
 
 * In the **Exclude folders** field: This will exclude folders which are
   * Paths have ``/`` at the start is permanent links. *E.g: /var means magento_root_directory/var/*
@@ -135,24 +135,24 @@ Configured Away Mode time will follow the store's timezone.
   * You can edit/customize one at ``Marketing > Email Template``.
 To see how the File Change Notification looks like, please check this below image
 
-![i10](https://i.imgur.com/CxZCHGE.png)
+![](https://i.imgur.com/CxZCHGE.png)
   
 ### III. Login Log
 From the admin panel, make your way to ``System > Security > Login Log``. All logins and login attempts will be recorded here.
 
-![i4](https://i.imgur.com/gIBNONW.png)
+![](https://i.imgur.com/gIBNONW.png)
 
 Click ``View`` to see login details. Here’s an example:
 
-![i5](https://i.imgur.com/8CbThoJ.png)
+![](https://i.imgur.com/8CbThoJ.png)
 
 * Once an admin account has exceeded the allowed login attempts (which is configured at ``Store> Settings> Configuration> Advanced> Maximum Login Failures to Lockout Account``), there will be a mail notification to the store owner that this account has been lock up. Store owner should review this case again to reset safety settings. You can refer this [article](https://www.mageplaza.com/kb/how-to-reset-a-locked-admin-account-in-magento-2.html) to learn how to unlock an admin user account. 
 
-![i7](https://i.imgur.com/EE2EZq9.png)
+![](https://i.imgur.com/EE2EZq9.png)
 
 * Also, store owners can check the last login of a specific administratore. You can follow ``System > Permissions > All Users``
 
-![i8](https://i.imgur.com/f7a0SkZ.png)
+![](https://i.imgur.com/f7a0SkZ.png)
 
 * The **Last login** column records the newest recent login attempt of an admin.
 * The **IP Address** column records the IP address corresponding to the newest recent login attempt of an admin. Clicking on an IP address, it will redirect to the [Traceip](http://www.traceip.net/) page.  
@@ -160,7 +160,7 @@ Click ``View`` to see login details. Here’s an example:
 ### II. Checklist
 Checklist is a bunch of outlines pointing out which factor(s) can be the possible vulnarablity for your stores. Go to ``System > Security > Checklist``
 
-![i6](https://i.imgur.com/YyRbNhE.png)
+![](https://i.imgur.com/YyRbNhE.png)
 
 * In the **Check admin's username** box: 
   * Check the name of the admin account, if the default name is too obvious to guess or popular to name, the message will alert the store owner.
@@ -180,21 +180,21 @@ Checklist is a bunch of outlines pointing out which factor(s) can be the possibl
 ### III. Action Log
 From the admin panel, go to ``System > Security > Action Log``
 
-![i9](https://i.imgur.com/FkZPClU.png)
+![](https://i.imgur.com/FkZPClU.png)
 
 Here records all the actions of admin users when they logged into the admin page. Clicking on any IP address will redirect the store owner to the [Trace IP](http://www.traceip.net/) page. Click ``View`` to display detailed information of that log. All logs at this directory will be deleted if the store owner chooses to delete the log after the log has been backed up.
 
 ### IV. Action Log Backup
 You can go to ``System > Security > Action Log Backup``.
 
-![i10](https://i.imgur.com/G3iA78m.png)
+![](https://i.imgur.com/G3iA78m.png)
 
 In this section, all logs in the Action Log are automatically backed up as a csv file. Clicking on any file will automatically be downloaded.
 
 ### V. File Change Log
 Please check at ``System > Security > File Change log``
 
-![i11](https://i.imgur.com/EBOcIL5.png)
+![](https://i.imgur.com/EBOcIL5.png)
 
 This section records all created, modified, deleted files. All files are scanned and recorded daily at 0:00 PM according to the store's configuration time and automatically. Email alert will also be sent to the store owner about the change of files. Clicking ``View`` to display information for the log.
 

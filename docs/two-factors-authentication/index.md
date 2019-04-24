@@ -13,11 +13,11 @@
 
 When logging in the backend, admin users need to fill in the authentication factors
 
-![Imgur](https://i.imgur.com/eD6CJJZ.png)
+![](https://i.imgur.com/eD6CJJZ.png)
 
 When turn on Trusted Device, authentication request page looks like this:
 
-![Imgur](https://i.imgur.com/LTusIgC.png)
+![](https://i.imgur.com/LTusIgC.png)
 
 
 ## How to Configure
@@ -26,7 +26,7 @@ When turn on Trusted Device, authentication request page looks like this:
 
 From **Admin panel**, go to `Stores > Configuration > Mageplaza > Two factor Authentication`
 
-![Imgur](https://i.imgur.com/6V0ncoR.png)
+![](https://i.imgur.com/6V0ncoR.png)
 
 - **Enable**: Select `Yes` to activate the module
 
@@ -56,7 +56,7 @@ Symbol "*" in range 0 - 255
 Admins need to go to **Account Setting** to set **QR/Pin code**
 
 
-![Imgur](https://i.imgur.com/5s0e8hG.png)
+![](https://i.imgur.com/5s0e8hG.png)
 
 
 
@@ -64,7 +64,7 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 
 #### **Register 2FA**:
 
-![Imgur](https://i.imgur.com/pXtezSd.png)
+![](https://i.imgur.com/pXtezSd.png)
 
 - After enabling 2FA, admins need to use the **Authy app or Google Authenticator** on the phone to scan the QR code or enter the Key into the app to get the confirmation code.
 - After QR code is saved in the app, it automatically generates confirmation code. Admin needs to get that code and enter the it to register
@@ -78,7 +78,7 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 
 #### **Check and remove Trusted Devices**:
 
-![Imgur](https://i.imgur.com/rG9dRFD.png)
+![](https://i.imgur.com/rG9dRFD.png)
 
 
 - Log the browser on the machine with certain IPs that can be trusted and the last time the user logs in with this browser

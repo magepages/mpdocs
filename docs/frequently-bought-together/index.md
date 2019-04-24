@@ -15,22 +15,22 @@ You can download from the following resouces:
 
 Here how Frequently Bought Together block appears in your shopping site
 
-![FBT1](https://i.imgur.com/3hARgQL.png)
+![](https://i.imgur.com/3hARgQL.png)
 
-![FBT2](https://i.imgur.com/hxmv2aa.png)
+![](https://i.imgur.com/hxmv2aa.png)
 
 ## How to configure
 
 After logging to Magento Admin, navigate to ``Stores > Settings > Configuration > Mageplaza Extension > Frequently Bought Together
 ``
 
-![how to configure](https://i.imgur.com/6oCEzog.png)
+![](https://i.imgur.com/6oCEzog.png)
 
 ### General configuration
 
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extension > Frequently Bought Together``, choose ``General Configuration`` sections
 
-![FBT3](https://i.imgur.com/O69ziZX.png)
+![](https://i.imgur.com/O69ziZX.png)
 
 - In the **Enable Frequently Bought Together** field: choose "Yes" to enable extension. Here some rough sketch how this module works.
   - The Frequently Bought Together list is under the Product image and on the Product Description tab.
@@ -66,23 +66,23 @@ Follow this instruction to know how to add your custom combination related produ
 
 - Back to the Magento’s Admin page again, choose `Products > Inventory > Catalog`, choose the product you want add Related Product to it.
 
-![FBT4](https://i.imgur.com/c0vQHfY.png)
+![](https://i.imgur.com/c0vQHfY.png)
 
 - Scroll down until the **Related Product, Up-sells, and Cross-sells** reaches your eyesight, choose black Add Related Product button.
 
-![FBT5](https://i.imgur.com/FTZOBKe.png)
+![](https://i.imgur.com/FTZOBKe.png)
 
 - In the **Add Related Products**, tick preferred items you wish to add. When you’ve done, choose red `Add Selected Product` near the header of the page.
 
-![FBT6](https://i.imgur.com/DIOylfx.png)
+![](https://i.imgur.com/DIOylfx.png)
 
 - You will be redirected back to Product page, don’t forget clicking the `Save` button.
 
-![FBT7](https://i.imgur.com/FcfII3o.png)
+![](https://i.imgur.com/FcfII3o.png)
 
 - Finally, check on the frontend. Go the the product detail page on the frontend to check again.
 
-![FBT8](https://i.imgur.com/i38BWxM.png)
+![](https://i.imgur.com/i38BWxM.png)
 
 And now you can back to the live site to check the completed result.
 

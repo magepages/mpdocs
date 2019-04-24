@@ -11,21 +11,21 @@ In particular, with the support of Mageplaza's Geo IP extension, it will help yo
 
 From the Admin Panel, go to `Stores > Store Switcher > Configuration > Mageplaza Extension > Store Switcher`, choose `General Configuration` section.
 
-![store switcher](https://i.imgur.com/YB2VbRR.png)
+![](https://i.imgur.com/YB2VbRR.png)
 
 - **Enable**: Select `Yes` to enable the Module.
 - **Allow visitors save switched store view**: 
   - Choose "Yes" to use the feature `Allow visitors save switched store view`.
   - If Yes is chosen, a popup will be shown to visitors to ask if they want to save the switched store view for the next visit. Save customer choice (popup when manually changing store view)
   
-  ![store switcher i](https://i.imgur.com/j5FiXkf.png)
+  ![](https://i.imgur.com/j5FiXkf.png)
 
 ### 2. Manage Rules
 #### 2.1. Grid
 
 From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`.
 
-![store switcher 1](https://i.imgur.com/PnXwsFa.gif)
+![](https://i.imgur.com/PnXwsFa.gif)
 
 - This section will record all created rules with the basic info as: Name, Status, Type, Countries, Created Date and Update Date, etc.
 - Admins can perform some actions:
@@ -39,11 +39,11 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`.
 
 From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Add New` button in the right corner.
 
-![store switcher 2](https://i.imgur.com/ZYFnGuY.gif)
+![](https://i.imgur.com/ZYFnGuY.gif)
 
 ##### 2.2.1. General
 
-![store switcher 3](https://i.imgur.com/DwcB5gt.png)
+![](https://i.imgur.com/DwcB5gt.png)
 
 - **Name**: Enter the name of the rule
 - **Status**: Choose "Enble" to use the rule
@@ -53,7 +53,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 
 ##### 2.2.2. Conditions
 
-![store switcher 4](https://i.imgur.com/OMGi413.gif)
+![](https://i.imgur.com/OMGi413.gif)
 
 
 - **Countries**: Select the country to apply the rule. Multiple countries can be selected at the same time.
@@ -71,7 +71,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 
 ##### 2.2.3. Actions
 
-![store switcher 5](https://i.imgur.com/cqYDMfu.gif)
+![](https://i.imgur.com/cqYDMfu.gif)
 
 - **Type**: Choose the type that you want to redirect to the rule
   - `Redirect to a URL`: It will show more fields:
@@ -86,7 +86,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
       - `Manually`: If Manually is selected, a notice will be shown to ask if visitor wants to change the store view which suits with the current location. 
         - Notice customer to manually change store view.
 
-![store switcher 6](https://i.imgur.com/L2e41ej.png)
+![](https://i.imgur.com/L2e41ej.png)
 
       - `Automatic`: If Automatically is selected, the appropriate store view will be auto-switched without any advanced notice or permission.
 
@@ -94,7 +94,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 
 From the Admin Panel, go to `Stores > Store Switcher > Configuration > Mageplaza Extension > Geo IP Configuration`, choose `Geo IP Configuration` section.
 
-![geo ip](https://i.imgur.com/fzEq0Kp.png)
+![](https://i.imgur.com/fzEq0Kp.png)
 
 - **Enable Geo IP**: Select "Yes" to enable the Geo IP feature that helps you identify the customer's country, and then redirect the customers to the relevant view store.
 - **Download Library** button: Click on **Download Library** button to download the library of `Geo IP`. Please download library before you enable.

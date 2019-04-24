@@ -16,15 +16,15 @@ In many countries, the law is required to apply a verification process before us
 
   - **Checkbox Type**:
   
-  ![Age Verification 1](https://i.imgur.com/2Lmp2vU.png)
+  ![](https://i.imgur.com/2Lmp2vU.png)
 
   - **Input DOB Type**:
   
-  ![Age Verification 2](https://i.imgur.com/E4bZ9go.png)
+  ![](https://i.imgur.com/E4bZ9go.png)
   
   - **Yes/No Type**:
   
-  ![Age Verification 3](https://i.imgur.com/tHaG5J7.png)
+  ![](https://i.imgur.com/tHaG5J7.png)
   
   
 ## How to configure
@@ -33,11 +33,11 @@ In many countries, the law is required to apply a verification process before us
 
 Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`.
 
-![Age Verification 4](https://i.imgur.com/9gZcVsC.gif)
+![](https://i.imgur.com/9gZcVsC.gif)
 
 #### 1.1. General
 
-![Age Verification 5](https://i.imgur.com/4lLdHCD.png)
+![](https://i.imgur.com/4lLdHCD.png)
 
 - **Enable**: Select "Yes" to turn on the Module.
 
@@ -53,7 +53,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 - **Anchor URL**: Enter the page link so that clicking on the name you just entered in the **Anchor Text** field will redirect to the page you want.
 
-![Age Verification 6](https://i.imgur.com/o0W4iPF.png)
+![](https://i.imgur.com/o0W4iPF.png)
 
 - **Cookie life-time**:
   - Enter the number of days to save the cookie and apply this period for age verification. When the time runs out, the age verification applied for certain pages will be disabled then. Also, cookie will not save the data for underage verification.
@@ -70,9 +70,9 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 #### 1.2. Page Verify Configuration 
 
-![Age Verification 7](https://i.imgur.com/HE3KExM.png)
+![](https://i.imgur.com/HE3KExM.png)
 
-![Age Verification 8](https://i.imgur.com/Ktb9QkN.png)
+![](https://i.imgur.com/Ktb9QkN.png)
 
 
 - **Apply for**:
@@ -89,7 +89,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   - You can leave this field blank.
   - Compatible with [Product Labels](https://www.mageplaza.com/magento-2-product-labels/) to add **Age Verify** label for product
 
-![Age Verification 8](https://i.imgur.com/VAxXnYH.png)
+![](https://i.imgur.com/VAxXnYH.png)
 
 - **Apply for Product Detail Page(s)**: 
   - Select `Yes` to show another field to apply Age Verification on the Product Detail Page. Those products that are satisfied will be applied to age verification. If this field is left blank, it will auto-apply age verification for all product detail pages. 
@@ -104,7 +104,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 #### 1.3. Purchase Verify Configuration
 
-![Age Verification 9](https://i.imgur.com/5mPncum.png)
+![](https://i.imgur.com/5mPncum.png)
 
 - **Select Product Condition**:
   - Select `Yes` to show another field to choose the condition for age verification on the product detail page. Those products that are satisfied will be applied age verification. If this field is left blank, it will auto-apply age verification for all product detail pages and other pages when clicking `Add to cart`
@@ -118,28 +118,28 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   - **Small Image**: Apply **Purchase Verify Configuration** with **Small image**. Show a **Notice Image** field.
     - **Notice Image**: click `Choose file` to upload the Image. Display the image at the top left of the page. If left blank, default image will be used
     
-    ![Age Verification 10](https://i.imgur.com/Kjyq1yO.png)
+    ![](https://i.imgur.com/Kjyq1yO.png)
 
   - **Notice Message**: Apply the **Purchase Verify Configuration** to the **Notice Message**. Show a **Notice Message** field.
     - **Notice Message**: Enter the age notification in the **Notice Message** field. If left blank, the default is "You must verify your age to buy this product."
 
-![Age Verification 11](https://i.imgur.com/Y9C8Emw.png)
+![](https://i.imgur.com/Y9C8Emw.png)
 
 #### 1.4. Design
 
-![Age Verification 12](https://i.imgur.com/vRCkRG2.png)
+![](https://i.imgur.com/vRCkRG2.png)
 
 - **Checkbox Type**:
   
-  ![Age Verification 13](https://i.imgur.com/2Lmp2vU.png)
+  ![](https://i.imgur.com/2Lmp2vU.png)
 
 - **Input DOB Type**:
   
-  ![Age Verification 14](https://i.imgur.com/E4bZ9go.png)
+  ![](https://i.imgur.com/E4bZ9go.png)
   
 - **Yes/No Type**:
   
-  ![Age Verification 15](https://i.imgur.com/tHaG5J7.png)
+  ![](https://i.imgur.com/tHaG5J7.png)
 
 
 - **Icon**: click **Choose file** button to upload image. This icon is shown at the top of the popup. If left blank, the system will use the default image.
@@ -152,7 +152,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 - **Button Color**: Choose the color for Button at popup.
 - **Text Color**: Choose text color shown at popup.
 
-![Age Verification 16](https://i.imgur.com/xABHYpB.png)
+![](https://i.imgur.com/xABHYpB.png)
 
 
 

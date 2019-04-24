@@ -26,7 +26,7 @@ Here we go how to know detail in instructions and configuration in extension’s
 
 Login to the Magento admin, choose `Stores > Settings > Configuration > Mageplaza > SMTP`
 
-![configuration](https://i.imgur.com/IXDoxLr.png)
+![](https://i.imgur.com/IXDoxLr.png)
 
 Follow the guide below to complete **SMTP** configuration
 
@@ -39,7 +39,7 @@ Follow the guide below to complete **SMTP** configuration
 
 This can be accessed by the following  `Stores > SMTP > Emails Log`. From here you can look back all the sent email from the server to customers.
 
-![Email logs](https://i.imgur.com/ad8w9WV.png)
+![](https://i.imgur.com/ad8w9WV.png)
 
 At here, you can view all information as *ID, Subject, From, To, Bcc, Status, Created At* as well as allow admins to take some actions for emails that are sent from the server to customers. At the same time, you also delete all emails by clicking on the **Clear** button.
 
@@ -49,7 +49,7 @@ Some actions can be taken:
 
 Below is the content of an email after you click on the **View** button
 
-  ![Order](https://i.imgur.com/IZ7EuMt.png)
+  ![](https://i.imgur.com/IZ7EuMt.png)
 
 * **Resend**:
 
@@ -57,14 +57,14 @@ Below is the content of an email after you click on the **View** button
   * The `Resend` feature can work well even if you disable the module. The Resend Email will apply the Provider of SMTP, however, it won’t be logged in the Emails Log.
   * To resend lots of emails at once, you only need to tick, then choose `Action` at the upper left of the Grid, and select `Resend`.
 
-      ![Resend](https://i.imgur.com/pS7OfD0.png)
+      ![](https://i.imgur.com/pS7OfD0.png)
 
 * **Delete**: 
 
   * In the `Action` column, click `Select > Delete`: This means that the selected email will be removed from the grid.
   * To Delete many emails at once, you only need to tick, then choose `Action` at the upper left of the Grid, and choose `Delete`.
 
-      ![Actions Delete](https://i.imgur.com/zX11Azm.png)
+      ![](https://i.imgur.com/zX11Azm.png)
 
 ### 2. Configuration
 
@@ -72,7 +72,7 @@ Below is the content of an email after you click on the **View** button
 
 Be sure you’re at Admin Panel, for general configuration `Stores > Settings > Configuration > Mageplaza > SMTP`. Choose **General Configuration** sections.
 
-![SMTP on](https://i.imgur.com/Hm7Wofm.png)
+![](https://i.imgur.com/Hm7Wofm.png)
 
 * In the **Enable Mageplaza SMTP** field, select “Yes” to enable Mageplaza SMTP extension.
 * **Log Email** provides two modes:
@@ -84,7 +84,7 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
 #### 2.2.2 SMTP Configuration Options
 Still from the same structure with [SMTP](https://github.com/mageplaza/magento-2-smtp) General Configuration, go to `Stores > Settings > Configuration > Mageplaza > SMTP`, then choose **SMTP Configuration Options** sections.
 
-![smtp configuration](https://i.imgur.com/uM3osyl.png)
+![](https://i.imgur.com/uM3osyl.png)
 
 * In the **Host** field: This is a field that allows you to fill in the Support Host name and ID address. If you click on *Load Settings* button, a popup about SMTP Providers will be displayed. Admins can choose SMTP Provider that they want and the system will auto-fill some fields as Host, Port, and Protocol.
 * In the **Port** field: This is a specific gate that emails will be sent through. You can also pass this step if you had chosen Load Settings from the first place. In general, there will be 3 kinds of Default Port:
@@ -110,17 +110,17 @@ Still from the same structure with [SMTP](https://github.com/mageplaza/magento-2
   * Send To: Allow entering the email address that admins want to test the email.
   * To test the email, you need to fill the email address in the `Send To` field, then click `Test Now` button.
 
-![send test email](https://i.imgur.com/Qgi0sf5.png)
+![](https://i.imgur.com/Qgi0sf5.png)
 
 If the information you filled out is valid, a successful email message will be sent from Username to Email Test. That email has the following content:
 
-![smtp test result](https://i.imgur.com/7aoGqeB.png)
+![](https://i.imgur.com/7aoGqeB.png)
 
 ### 2.2.3 Developer mode
 
 From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza > SMTP`, choose **Developer** sections.
 
-![developer mode](https://i.imgur.com/bI84WgH.png)
+![](https://i.imgur.com/bI84WgH.png)
 
 * **Developer Mode**:
   * Yes: Magento will not deliver any email to the receiver

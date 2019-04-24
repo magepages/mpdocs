@@ -18,19 +18,19 @@ Every day there are many orders placed and processed. The management at the **Or
 
 From the **Admin panel**, go to `Stores > Configuration > Mageplaza > Delete Orders`.
 
-![Imgur](https://i.imgur.com/dFJpzZb.png)
+![](https://i.imgur.com/dFJpzZb.png)
 
 #### 1.General
 
-![Imgur](https://i.imgur.com/MvgjaEa.png)
+![](https://i.imgur.com/MvgjaEa.png)
 
 Select **Enable = Yes** to enable the module.
 
 #### 2. Automatic Delete Configuration
 
-![Imgur](https://i.imgur.com/1r50764.png)
+![](https://i.imgur.com/1r50764.png)
 
-![Imgur](https://i.imgur.com/wsWjXc4.png)
+![](https://i.imgur.com/wsWjXc4.png)
 
 An Order can only be deleted automatically by schedule when and only if it satisfies all the conditions of Purchase Date, Order Status, Customer Group, Store View, Shipping Country, and Order Total.
 
@@ -67,7 +67,7 @@ An Order can only be deleted automatically by schedule when and only if it satis
 
 #### 3. Email Notification
 
-![Imgur](https://i.imgur.com/1b3EGcY.png)
+![](https://i.imgur.com/1b3EGcY.png)
 
 - **Enable**: Select **yes** to enable email sending to Admin every time an Order is deleted (including manual or auto-deletion).
 
@@ -87,30 +87,30 @@ An Order can only be deleted automatically by schedule when and only if it satis
 
 From **Admin panel**, go to `Sales > Orders`.
 
-![Imgur](https://i.imgur.com/e3SrAHU.png)
+![](https://i.imgur.com/e3SrAHU.png)
 
 - Admin can delete orders created by clicking on the order ID
 - In case Admin wants to delete all order, click **Select All**, the system will select all created orders.
 
-![Imgur](https://i.imgur.com/kg4ikwL.png)
+![](https://i.imgur.com/kg4ikwL.png)
 
 - After Select order, admin click `Action > Delete` to delete order.
 
-![Imgur](https://i.imgur.com/1NSnKah.png)
+![](https://i.imgur.com/1NSnKah.png)
 
 - Also, Admin can delete order by clicking to **View** of the order.
 
-![Imgur](https://i.imgur.com/iuFrIGv.png)
+![](https://i.imgur.com/iuFrIGv.png)
 
 - Then click **Delete**.
 
-![Imgur](https://i.imgur.com/p7N4glD.png)
+![](https://i.imgur.com/p7N4glD.png)
 
 - The system will show a popup, click **OK** to delete order
 
-![Imgur](https://i.imgur.com/SNDHFwT.png)
+![](https://i.imgur.com/SNDHFwT.png)
 
 
 ### III. Email
 
-![Imgur](https://i.imgur.com/hjBYzVr.png)
+![](https://i.imgur.com/hjBYzVr.png)

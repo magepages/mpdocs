@@ -20,19 +20,19 @@ This extension is fully compatible with [Mageplaza One Step Checkout](https://ww
 
 ### 1. Shopping Cart page
 
-![Multiple Coupons1](https://i.imgur.com/w2xkNgj.png)
+![](https://i.imgur.com/w2xkNgj.png)
 
 ### 2. Magento Default Checkout page
 
-![Multiple Coupons2](https://i.imgur.com/3q4M7rn.png)
+![](https://i.imgur.com/3q4M7rn.png)
 
 ### 3. One Step Checkout page
 
-![Multiple Coupons3](https://i.imgur.com/6kNAL6p.png)
+![](https://i.imgur.com/6kNAL6p.png)
 
 ### 4. Admin Order page
 
-![Multiple Coupons4](https://i.imgur.com/N0urBoL.png)
+![](https://i.imgur.com/N0urBoL.png)
 
 
 ## How to Configure
@@ -41,7 +41,7 @@ This extension is fully compatible with [Mageplaza One Step Checkout](https://ww
 
 From the **Admin panel**, go to `Stores > Configuration > Mageplaza > Multiple Coupons`
 
-![Multiple Coupons5](https://i.imgur.com/51MtkVM.png)
+![](https://i.imgur.com/51MtkVM.png)
 
 - Select **Enable = Yes** to enable the module
 
@@ -77,7 +77,7 @@ Multiple Coupon extension supports API integration with Rest API commands of Mag
 
 http://example.com/rest/default/V1/integration/admin/token
 
-![Multiple Coupons6](https://i.imgur.com/FP9x7jg.png)
+![](https://i.imgur.com/FP9x7jg.png)
 
 - **Access Key** will be displayed in the **Body** section
 
@@ -88,16 +88,16 @@ http://example.com/rest/default/V1/integration/admin/token
   - **Authorization**: bearer access_token
   - **Content-Type**: application/json
   
-  ![Multiple Coupons7](https://i.imgur.com/9vtG53C.png)
+  ![](https://i.imgur.com/9vtG53C.png)
   
 - **Send REST API commands**:
 
-![Multiple Coupons8](https://i.imgur.com/lxAFg9w.png)
+![](https://i.imgur.com/lxAFg9w.png)
 
 - Here are the **results** after sending commands:
 
-![Multiple Coupons8](https://i.imgur.com/a5HxPkW.png)
+![](https://i.imgur.com/a5HxPkW.png)
 
-![Multiple Coupons9](https://i.imgur.com/Ln6YjDW.png)
+![](https://i.imgur.com/Ln6YjDW.png)
 
 

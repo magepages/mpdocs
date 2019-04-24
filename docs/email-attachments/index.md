@@ -9,12 +9,12 @@ Email Attachments allows you to automatically attach the documents as PDF Invoic
 
 Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Email Attachments`
 
-![email attachments](https://i.imgur.com/CGI157U.gif)
+![](https://i.imgur.com/CGI157U.gif)
 
 #### 1.1. General Configuration
 
 
-![email attachments 2](https://i.imgur.com/ev3T7Zh.png)
+![](https://i.imgur.com/ev3T7Zh.png)
 
 
 - **Enable**: Select "Yes" to turn on this module or "No" to turn it off.
@@ -32,7 +32,7 @@ Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Email At
     - Credit memo
     - Shipment
     
-![email attachments 5](https://i.imgur.com/zalbhHD.png)    
+![](https://i.imgur.com/zalbhHD.png)    
 
 - **Enable Attach Terms and Conditions**: Select "Yes" to display the `Attach Terms and Conditions` in the email and it will display two more fields:
   - `Attach Terms and Conditions`: Select the item to display `Attach Terms and Conditions` in the email. Terms and Conditions will be attached to the above billing document(s) as a file. Displayed in categories:

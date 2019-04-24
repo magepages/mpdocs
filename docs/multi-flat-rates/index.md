@@ -12,11 +12,11 @@
 
 Login vào Magento Admin, `Stores > Settings > Configuration > Sales > Shipping methods > Flat Rate #1-5`
 
-![how to configure](https://i.imgur.com/PfnXF0x.png)
+![](https://i.imgur.com/PfnXF0x.png)
 
 ### 1. Flat rates #1
 
-![flat rate](https://i.imgur.com/kWuux38.png)
+![](https://i.imgur.com/kWuux38.png)
 
 - **Enable**: Choose `Yes` so that this module can work well
 - **Method Name**:
@@ -31,7 +31,7 @@ Login vào Magento Admin, `Stores > Settings > Configuration > Sales > Shipping 
 
 For example: flate rate #1: Sort Order = 1, flate rate #2: Sort Order = 2, when it displays on the frontend, flate rate #1 will be ordered first.
 
-![flat rate 2](https://i.imgur.com/lGnot2i.png)
+![](https://i.imgur.com/lGnot2i.png)
 
 - **Title**:
   - Set the title for flat rate 31-5, the title will display on the cart page and checkout page
@@ -41,7 +41,7 @@ For example: flate rate #1: Sort Order = 1, flate rate #2: Sort Order = 2, when 
   - `All Allowed Countries`: Flat rate is applied in all countries
   - `Specific Countries`: The Flat rate will only be applied in the selected countries in the `Ship to Specific Countries` field
   
-![flat rate 3](https://i.imgur.com/JueCVl5.png)
+![](https://i.imgur.com/JueCVl5.png)
 
 - **Ship to Specific Countries**: Choose the countries that you want to apply the flat rate
 - **Displayed Error Message**:
@@ -49,7 +49,7 @@ For example: flate rate #1: Sort Order = 1, flate rate #2: Sort Order = 2, when 
   - If leaving this field blank, the default message is `Sorry, but we can't deliver to the destination country with this shipping module.`
   - The error message will display on the frontend if the `Show Method if Not Applicable = Yes`
   
-  ![flat rate 4](https://i.imgur.com/hdDFdQw.png)
+  ![](https://i.imgur.com/hdDFdQw.png)
   
 - **Show Method if Not Applicable**: Choose Yes to display the shipping methods when it doesn't include in the `Applicable Countries`
 
@@ -59,8 +59,8 @@ The same as `Flate rate #1`, admins can add at most 5 shipping methods to their 
 
 ### 1. On View Cart page
 
-![flat rate 5](https://i.imgur.com/SHkEW5O.png)
+![](https://i.imgur.com/SHkEW5O.png)
 
 ### 2. On Checkout page
 
-![flat rate 6](https://i.imgur.com/TQNvOAB.png)
+![](https://i.imgur.com/TQNvOAB.png)

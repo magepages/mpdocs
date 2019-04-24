@@ -9,11 +9,11 @@ Magento's Contact Us page is too simple, it displays the text only. With the rel
 
 Login to the Magento Admin, choose `Store > Settings > Configuration > Mageplaza Extensions > Google Maps`
 
-![google maps](https://i.imgur.com/zVsKDMB.png)
+![](https://i.imgur.com/zVsKDMB.png)
 
 #### 1. General
 
-![google maps 2](https://i.imgur.com/eJpFv5M.png)
+![](https://i.imgur.com/eJpFv5M.png)
 
 - **Enable**: Choose Yes to enable this feature
 - **Insert on Contact Pgae**: Choose yes to insert Google Maps on Contact Page and show the `Position` field
@@ -24,14 +24,14 @@ It supports 2 modes to set the maps as the following:
 
 ``Protocol = API``
 
-![google maps 3](https://i.imgur.com/lTB5hev.gif)
+![](https://i.imgur.com/lTB5hev.gif)
 
 - **Google API Key**: Enter Google API Key. You can get the Google API Key [here](https://developers.google.com/maps/documentation/javascript/get-api-key)
 
 - **Map Type**: There're 4 types to display maps on the frontend: Roadmap, Terrain, Satellite, and Hybrid.
 - **Map Style**: This is a map style to display on the frontend. There're 10 popular map styles as below:
 
-![google maps 4](https://i.imgur.com/qcA6b3L.png)
+![](https://i.imgur.com/qcA6b3L.png)
 
 - **Allow Map Dragging**: Choose Yes to allow dragging and dropping on the maps
 - **Zoom Default**: The default zoom of the map when loading maps
@@ -39,7 +39,7 @@ It supports 2 modes to set the maps as the following:
 
 - **Location Settings**: Map Setting > Location Settings
 
-![google maps 6](https://i.imgur.com/a6xcGzQ.png)
+![](https://i.imgur.com/a6xcGzQ.png)
 
 - **Address**: Enter the address shown on the map.
   - Click Get GPS coordinates button to load `Latitude` and `Longitude`.
@@ -51,7 +51,7 @@ It supports 2 modes to set the maps as the following:
 
 This way, just embed the google iframe code to insert the map on the frontend without the map setting below
 
-![google maps 5](https://i.imgur.com/uRhLXWp.png)
+![](https://i.imgur.com/uRhLXWp.png)
 
 - **Code**: Embed google iframe code. 
 
@@ -64,19 +64,19 @@ By adding a widget, you can insert the map anywhere on your store.
 - **Step 1**: Login to Magento Admin, select Content> Elements> Widgets
 - **Step 2**: Click the Add Widget button to start the widget installation
 
-![google maps 7](https://i.imgur.com/Ktx3Ou5.png)
+![](https://i.imgur.com/Ktx3Ou5.png)
 
 - Choose `Type = Mageplaza Google Maps, Design Theme = Magento Luma`, then click on `Continue`
 
 - **Step 3**: Fill in the information in the Storefrontend Properties section
 
-![google maps 8](https://i.imgur.com/uKSnP82.png)
+![](https://i.imgur.com/uKSnP82.png)
 
 - **Step 4**: Choose the position to show the widget
 
 From `Layout Updates` > Click on `Add Layout Updates`:
 
-![google maps 9](https://i.imgur.com/qQWpc0E.png)
+![](https://i.imgur.com/qQWpc0E.png)
 
 - **Step 5**: Save > System > Cache Management > Flush Magento Cache
 
@@ -84,12 +84,12 @@ From `Layout Updates` > Click on `Add Layout Updates`:
 
 ### Use API
 
-![google maps 10](https://i.imgur.com/Gdlcw6o.png)
+![](https://i.imgur.com/Gdlcw6o.png)
 
 ### Use Embed Code
 
 
-![google maps 11](https://i.imgur.com/raB1spF.png)
+![](https://i.imgur.com/raB1spF.png)
 
 
 

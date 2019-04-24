@@ -8,13 +8,13 @@ All disturbing issues now can be remedied by only one proficient plugin. [Magent
 ## How to configure 
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions: Better Coupon``
 
-![bettercoupon1](https://i.imgur.com/k6iqSnV.png)
+![](https://i.imgur.com/k6iqSnV.png)
 
 ### I. Configuration
 #### 1.1. General configuration
 After entering the module's configuration, you will find the General configuration to turn the module on/off generally. 
 
-![bettercoupon2](https://i.imgur.com/9OHyYIS.png)
+![](https://i.imgur.com/9OHyYIS.png)
 
 * Choose "Yes" to enable the Better Coupon extension.
 * If you choose "No", you will be able to generate and send coupon(s) by [Generator](http://docs.mageplaza.com/better-coupon/index.html#generator).
@@ -22,7 +22,7 @@ After entering the module's configuration, you will find the General configurati
 #### 1.2. Generate Coupon
 ##### 1.2.1. Generator
 
-![bettercoupon3](https://imgur.com/H3uehi2)
+![](https://imgur.com/H3uehi2)
 
 * In the **Rule** field: 
   * Choose the rule you want to apply for the coupon generator (Rule can be created from ``Marketing > Promotions > Cart Price Rules``)
@@ -48,11 +48,11 @@ After entering the module's configuration, you will find the General configurati
 
 This is an example of the email for informing generated coupon code(s).
 
-![bettercoupon7](https://i.imgur.com/fWCXgTM.png)
+![](https://i.imgur.com/fWCXgTM.png)
 
 ##### 1.2.2. Quick Coupon Link Generator 
 
-![bettercoupon4](https://i.imgur.com/SLKutBG.png)
+![](https://i.imgur.com/SLKutBG.png)
 
 * At the **Pattern** column:
   * Follow this rule to create a pattern: [4A] - 4 alpha, [4N] - 4 numeric, [4AN] - 4 alphanumeric. For example: GIFT-[4AN]-[3A]-[5N] => GIFT-J34T-OEC-54354.
@@ -71,7 +71,7 @@ This is an example of the email for informing generated coupon code(s).
 
 #### 1.3. Coupon link builder
 
-![bettercoupon5](https://i.imgur.com/hAVd2Gm.png)
+![](https://i.imgur.com/hAVd2Gm.png)
 
 * In the **URL** field: Enter the URL which can be accessed and used to have coupon codes auto-applied by customers.
 * In the **URL Style** field: There are 2 available options
@@ -88,13 +88,13 @@ From the Admin Panel, go to ``Marketing > Promotions > Cart Price Rules > Add Ne
 
 #### 2.1. Import by CSV file
 
-![bettercoupon5](https://i.imgur.com/HtcOttF.png)
+![](https://i.imgur.com/HtcOttF.png)
 
 You can import a CSV file type which contains coupon code in this section. After selecting and importing the file, coupon code will be added in **Manage Coupon Code**.
 
 #### 2.2. Import by Text Area
 
-![bettercoupon6](https://i.imgur.com/nr24t8s.png)
+![](https://i.imgur.com/nr24t8s.png)
 
 Similar to [Importing by CSV file](https://docs.mageplaza.com/better-coupon/index.html#ii-import-coupon-code), coupon codes after being imported can be used normally in **Manage Coupon Code** as well.
 
@@ -119,4 +119,4 @@ The created coupon link is similar to [The quick coupon link](https://docs.magep
 You can learn how to create an API and token-based authentication [here](http://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#web-api-access).
 
 
-![bettercoupon8](https://i.imgur.com/kzWLXRG.png)
+![](https://i.imgur.com/kzWLXRG.png)

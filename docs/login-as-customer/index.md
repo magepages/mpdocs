@@ -18,15 +18,15 @@ Mageplaza Login as Customer extension allows the admin to log in to the customer
 
 From **Admin panel**, go to `Stores > Configuration > Mageplaza > Login as Customer`
 
-![Imgur](https://i.imgur.com/j7O7gTN.png)
+![](https://i.imgur.com/j7O7gTN.png)
 
 - Choose `Yes` to: 
   - Enable the module, admin can login to customers' accounts from backend
   - Display the button `Login as Customer` on **Customer Edit** and **Order View** page at the backend
   
-![Imgur](https://i.imgur.com/jcc7jTM.png)
+![](https://i.imgur.com/jcc7jTM.png)
 
-![Imgur](https://i.imgur.com/VTcNPuH.png)
+![](https://i.imgur.com/VTcNPuH.png)
 
 
 ### 2. Login as Customer Logs
@@ -38,4 +38,4 @@ From **Admin panel**, go to `Report > Customer > Login as Customer Logs`
 - Admin cannot delete or edit the Log 
 - Admin only can export the specific logs that they want in CSV or XML forms. 
 
-![Imgur](https://i.imgur.com/awQyeLW.png)
+![](https://i.imgur.com/awQyeLW.png)

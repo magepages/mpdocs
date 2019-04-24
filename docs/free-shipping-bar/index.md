@@ -28,12 +28,12 @@ Besides that, [Mageplaza Free Shipping Bar](https://www.mageplaza.com/magento-2-
 
 Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
-![how to configure](https://i.imgur.com/ExGInFq.png)
+![](https://i.imgur.com/ExGInFq.png)
 
 ### 1. Free Shipping Bar Manage
 #### 1.1. Managerial Grid
 
-![free shipping bar](https://i.imgur.com/wYAfSlY.png)
+![](https://i.imgur.com/wYAfSlY.png)
 
 * This is a place to store all Free Shipping bar created.
 * From the Grid, admins can understand all basic information of Free Shipping bar as ID, Name, From Date, To Date, Update Date, Status, and Action.
@@ -50,7 +50,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 ##### 1.2.1. General
 
-![General](https://i.imgur.com/vzSIGsZ.png)
+![](https://i.imgur.com/vzSIGsZ.png)
 
 * **Name**: The name of Free Shipping bar. This name is only displayed in the backend. 
 * **Status**: Choose `Enable` to display the Free Shipping Bar on the backend.
@@ -64,7 +64,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 **What to Display**
 
-![what to display](https://i.imgur.com/ptjxvr7.png)
+![](https://i.imgur.com/ptjxvr7.png)
 
 * **Goal**: 
     * Enter the minimum subtotal value for free shipping
@@ -76,7 +76,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
     * The content to inform customers is the minimum value of their order required to get the free shipping
     * To enter a round number (example: $100 instead of $100.00), admins can remove the variable {{goal}} and fill in the message directly.
     
-    ![free shipping](https://i.imgur.com/0I9hU26.png)
+    ![](https://i.imgur.com/0I9hU26.png)
     
 * **Below-goal message**:
     * When customers add at least 1 product to Cart, this message will be displayed
@@ -97,7 +97,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 **Design Template**
 
-![design template](https://i.imgur.com/ltbrjZJ.png)
+![](https://i.imgur.com/ltbrjZJ.png)
 
 * We offer 6 available templates, admins can rely on it to change as they like. All changes (except that the image must be saved) are displayed immediately in the `Preview Template`
 * **Bar Background Opacity**: Adjust the opacity for Free Shipping bar
@@ -123,13 +123,13 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 * All changes above (except that the image must be saved) are displayed immediately in the `Preview Template` section
 * Goal and Below Goal sections are updated on the frontend
 
-![preview template](https://i.imgur.com/VBYsHyk.png)
+![](https://i.imgur.com/VBYsHyk.png)
 
 ##### 1.2.3. Where to Display
 
 **Where to display**
 
-![where to display](https://i.imgur.com/2aUkmWg.png)
+![](https://i.imgur.com/2aUkmWg.png)
 
 * **Position**: There are 5 positions that admins can choose:
     * **The top of the page**: Free Shipping bar is fixed at the top of the page, it will not slip when customers scroll down the next page
@@ -151,16 +151,16 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 * For instance:
     * **Handle name**:
     
-    ![handle name](https://i.imgur.com/t0YwE5K.png)
+    ![](https://i.imgur.com/t0YwE5K.png)
     
     * **URL**:
     
-    ![url](https://i.imgur.com/5PeNrgv.png)
+    ![](https://i.imgur.com/5PeNrgv.png)
     
     
 **Snippet Code**
 
-![snippet code](https://i.imgur.com/9OaNIA3.png)
+![](https://i.imgur.com/9OaNIA3.png)
 
 * **CMS Page/Static Block**: Copy the code and insert it into the pages in the `Content > Page` section
 * **Template .phtml file**: Copy the code and insert it into the `.phtml file` of Magento or other extensions that you want to show Free Shipping bar
@@ -170,7 +170,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > Free Shipping bar``
 
-![configuration](https://i.imgur.com/ypUUiBO.png)
+![](https://i.imgur.com/ypUUiBO.png)
 
 * **Enable**: Choose Yes to allow this module to work well.
 

@@ -13,7 +13,7 @@ Furthermore, Gift Card extension allows store owners can send to their customer 
 ### I. For customers
 Customers are able to manage their gift cards at:
 
-![GC1](https://i.imgur.com/n99dHjm.png)
+![](https://i.imgur.com/n99dHjm.png)
 
 * ``Account > My Gift Card``
   * Ability to  **Check**, **Add to list** and **Redeem** gift cards
@@ -23,20 +23,20 @@ Customers are able to manage their gift cards at:
   * Click here for more information
 * In **View Cart Page**: Customers can use available Gift Cards, Gift Cards in the Saved List or Gift Credit as a discount on the order total.
 
-![GC2](https://i.imgur.com/deIqPNE.png)
+![](https://i.imgur.com/deIqPNE.png)
 
 * In **Checkout Page**: Similar to the View Cart, if the customer wants to change the Gift Card or Gift Credit, they can also edit in the last step.
 
-![GC3](https://i.imgur.com/RYru3IN.png)
+![](https://i.imgur.com/RYru3IN.png)
 
 ### II. For admins
 * Admins can use **Gift Card** or **Gift Credit** when they create a new order
 
-![GC4](https://i.imgur.com/pVnDeYE.png)
+![](https://i.imgur.com/pVnDeYE.png)
 
 * Admins can generate a new **Gift Card Product**, manage Gift Code, Gift Code Pool, Template, History as well as set up the extension’s configuration.
 
-![GC5](https://i.imgur.com/owPMRQk.jpg)
+![](https://i.imgur.com/owPMRQk.jpg)
 
 ## How to configure
 Log in to Magento’s backend and follow ``Mageplaza > Gift Card``, follow our given guide below to complete Gift Card configuration
@@ -46,7 +46,7 @@ Log in to Magento’s backend and follow ``Mageplaza > Gift Card``, follow our g
 * Manage Gift Code Pools
 * Manage Gift Codes
 
-![GC6](https://i.imgur.com/uEj27oy.png)
+![](https://i.imgur.com/uEj27oy.png)
 
 ### I. Configuration
 
@@ -56,7 +56,7 @@ At ``Mageplaza > Gift Card: Configuration`` to have an overview look in the exte
 ##### 1.1.1. General 
 Follow the path ``Mageplaza > Gift Card: Configuration > General Configuration``
 
-![GC7](https://i.imgur.com/NaT65QQ.png)
+![](https://i.imgur.com/NaT65QQ.png)
 
 * In the **Module Enable** field: choose “Yes” to turn the module on.
 * In the **Gift Code Pattern** field: Is the common pattern of generated codes. When creating a Gift Code or a Gift Code Pool, admins can change this template as their desire.
@@ -69,7 +69,7 @@ Follow the path ``Mageplaza > Gift Card: Configuration > General Configuration``
 ##### 1.1.2. Gift Code Hidden Configuration
 Expand the ``General Configuration > Gift Code Hidden Configuration``
 
-![GC8](https://i.imgur.com/dmZlvND.png)
+![](https://i.imgur.com/dmZlvND.png)
 
 * This is an additional module of **General Configuration**
 * In the **Enable** field
@@ -87,30 +87,30 @@ Expand the ``General Configuration > Gift Code Hidden Configuration``
   * If you leave it blank, nothing will be displayed
   
 *An example of a Saved Gift Card List. When customers click on the Hidden Code, the entire code will be displayed*
-![GC9](https://i.imgur.com/lJcVsYE.png)
+![](https://i.imgur.com/lJcVsYE.png)
 
 *View Cart Page*
-![GC10](https://i.imgur.com/NS0nvyd.png)
+![](https://i.imgur.com/NS0nvyd.png)
 
 *Checkout page*
-![GC11](https://i.imgur.com/wypNblj.png)
+![](https://i.imgur.com/wypNblj.png)
 
 *The email sent to senders*
-![GC12](https://i.imgur.com/agY8q2F.png)
+![](https://i.imgur.com/agY8q2F.png)
 
 #### 1.2. Gift Card Product configuration
 
 ##### 1.2.1. General
 This is where you can set up fews of basic configuration for Gift Card Product ``Mageplaza > Gift Card: Configuration > Gift Card Product Configuration``
 
-![GC13](https://i.imgur.com/EtzbRSG.png)
+![](https://i.imgur.com/EtzbRSG.png)
 
 * In the **Gift Card Lifetime** field: It’s the place to set the expiration date of a gift card purchased by a customer. 
 * In the **Enable Delivery Time** field 
   * Select “Yes” to display **Delivery Date** on the frontend Gift card Product page. This also allows the customer to choose the gift card delivery date as they wish.
   * When you select “Yes”, **Customer Can Select Timezone** section is displayed.
   
-![GC14](https://i.imgur.com/HYEVTZ0.png)
+![](https://i.imgur.com/HYEVTZ0.png)
 
 * In the **Customer Can Select Timezone** field
   * Will be displayed when admin selects “Yes” in **Enable Delivery Date**
@@ -119,7 +119,7 @@ This is where you can set up fews of basic configuration for Gift Card Product `
 ##### 1.2.2. Buy Gift Card Product Process
 It’s an add-on part of Gift Card Product Configuration
 
-![GC15](https://i.imgur.com/UhQBe3e.png)
+![](https://i.imgur.com/UhQBe3e.png)
 
 * In the **Gift Card Fields Show On Item** field
   * This section allows admin to setup the display of the components of a Gift Card in the View Page.
@@ -137,7 +137,7 @@ It’s an add-on part of Gift Card Product Configuration
 ##### 1.3.1. General
 Follow the path ``Mageplaza > Gift Card: Configuration > Gift Card/Credit Checkout Configuration``
 
-![GC16](https://i.imgur.com/JuoxURL.png)
+![](https://i.imgur.com/JuoxURL.png)
 
 * In the **Use Coupon Box To Apply Gift Card** field
   * Select “Yes” to apply Gift Code with Magento's default Coupon Box. So that:
@@ -162,7 +162,7 @@ Follow the path ``Mageplaza > Gift Card: Configuration > Gift Card/Credit Checko
 ##### 1.3.2. Checkout Process
 This is a supplementary part of **Gift Card Product Configuration** section
 
-![GC17](https://i.imgur.com/90cJKcl.png)
+![](https://i.imgur.com/90cJKcl.png)
 
 * In the **Can Use For Shipping Amount** field: Select “Yes” to apply a gift Card and gift credit for the shipping fee. If both gift card and gift credit are having sufficient value and the customer doesn’t purchase Gift Card Product, the order can be considered as a free one.
 * In the **Allow Refund Gift Card** field: Select “Yes” to be able to refund the amount of a gift card or gift credit to customer's balance.
@@ -170,7 +170,7 @@ This is a supplementary part of **Gift Card Product Configuration** section
 #### 1.4. Gift Card Template Configuration
 Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration`` to modify general modules changing template for gift certificates
 
-![GC18](https://i.imgur.com/sYDT1td.png)
+![](https://i.imgur.com/sYDT1td.png)
 
 * In the **Logo** field: Choose your own store’s logo. If a logo is already included in the Template, then it will be applied on customer’s gift card.
 * In the **Maximum message character** field 
@@ -185,7 +185,7 @@ Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration
 ##### 1.5.1. General
 Visit  ``Mageplaza > Gift Card: Configuration > Email Configuration`` and drop the module down
 
-![GC19](https://i.imgur.com/66y0g4e.png)
+![](https://i.imgur.com/66y0g4e.png)
 
 * In the **Enable Email Notification** section: Choose “Yes” to enable the function and “No” for the vice versa result. When a gift card arrived to recipients perfectly, an email containing the gift card will be informed back to the sender.
 * In the **Email sender** field: Available 5 Magento’s default email senders for your selection: General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2
@@ -197,7 +197,7 @@ Visit  ``Mageplaza > Gift Card: Configuration > Email Configuration`` and drop t
 ##### 1.5.2. Gift Card Update Notification
 Another small extra for the email configuration, is provided for updating email actions.
 
-![GC20](https://i.imgur.com/d39LMoc.jpg)
+![](https://i.imgur.com/d39LMoc.jpg)
 
 * In the **Enable** field: Choose “Yes” to turn the function on.
 * In the **Gift Card Update Email Template** function: Similar to **Gift Card Email Template**
@@ -205,7 +205,7 @@ Another small extra for the email configuration, is provided for updating email 
 ##### 1.5.3. Before Expired Notification
 Another extra module for the email configuration, is provided for notifying the expiration via emails.
 
-![GC21](https://i.imgur.com/WIQt7ya.png)
+![](https://i.imgur.com/WIQt7ya.png)
 
 * In the **Enable** field 
   * Choose “Yes” to send email to the recipient before the gift card is going to be expired after X day(s)
@@ -218,7 +218,7 @@ Another extra module for the email configuration, is provided for notifying the 
 ##### 1.5.4. Notify Sender After Gift Card is Sent
 Another extra add on for the email configuration, is provided for notifying the recipient after sending gift cards.
 
-![GC22](https://i.imgur.com/1T4QOMX.png)
+![](https://i.imgur.com/1T4QOMX.png)
 
 * In the **Enable** field: Choose “Yes” to turn the function on.
 * In the **Sender Confirmation Email Template** function: Similar to **Gift Card Email Template**
@@ -226,7 +226,7 @@ Another extra add on for the email configuration, is provided for notifying the 
 ##### 1.5.5. Gift Card Unused Notification
 Is a complement function for the email configuration
 
-![GC23](https://i.imgur.com/BFLEcNN.png)
+![](https://i.imgur.com/BFLEcNN.png)
 
 * In the **Enable** field
   * Select “Yes” so the senders can receive an email confirmation that the gift card they gave to the recipient has not been used for X day(s) since it was sent.
@@ -242,7 +242,7 @@ Is a complement function for the email configuration
 ##### 1.5.6. Customer Balance Update Notification
 Is an add-on function for the email configuration
 
-![GC24](https://i.imgur.com/LnmTKKz.png)
+![](https://i.imgur.com/LnmTKKz.png)
 
 * In the **Enable** field: Select “Yes” so that customers can receive emails every time the balance of a gift credit is updated.
 * In the **Update Balance Email Template** field: Similar to **Gift Card Email Template**
@@ -250,7 +250,7 @@ Is an add-on function for the email configuration
 #### 1.6. SMS Configuration
 ##### 1.6.1. General
 
-![GC25](https://i.imgur.com/OvuDpsU.png)
+![](https://i.imgur.com/OvuDpsU.png)
 
 * In the **Enable SMS Delivery** field: Select “Yes” to allow the system to send SMS about the gift card message to customers.
 * In the **Twilio Account SID**: Admin needs to register a Twilio Account, use the SMS sending method to enter the correct SID of his Twilio Account.
@@ -261,7 +261,7 @@ Is an add-on function for the email configuration
 ##### 1.6.2. Gift Card Update Notification
 After SMS’s general configuration is some bonus mini configurations. First it’s about **Gift Card Update Notification**
 
-![GC26](https://i.imgur.com/YiNvoKW.jpg)
+![](https://i.imgur.com/YiNvoKW.jpg)
 
 * In the **Enable** field:
   * Choose “Yes” to receive a gift card SMS message informing how many day(s) left to use their gift card.
@@ -270,7 +270,7 @@ After SMS’s general configuration is some bonus mini configurations. First it�
 
 ##### 1.6.3. Before Expired Notification
 
-![GC27](https://i.imgur.com/kbJ0aqn.jpg)
+![](https://i.imgur.com/kbJ0aqn.jpg)
 
 * In the **Enabled** field:
   * Select “Yes” to let customers receive a SMS message informing how many days to use their gift card.
@@ -282,7 +282,7 @@ Go to ``Mageplaza > Gift Card: Manage Templates``
 
 #### 2.1. General Management
 
-![GC28](https://i.imgur.com/jonNULh.png)
+![](https://i.imgur.com/jonNULh.png)
 
 * This is the core panel archiving all Gift Card Templates
 * From Grid, admin can capture the basic information of the template such as ID, Name, Status, Thumbnail, Created Date and can perform some below actions
@@ -296,7 +296,7 @@ After entering the Manage Template page, you can select the red``Create New Temp
 
 ##### 2.2.1. Template Information
 
-![GC29](https://i.imgur.com/5qWTuu3.png)
+![](https://i.imgur.com/5qWTuu3.png)
 
 * In the **Template Name** field
   * Admin is able to name the template. When a gift card product selects this template and its status is Active, **Template Name** will be displayed on the Gift Card Product Page frontend
@@ -320,26 +320,26 @@ After entering the Manage Template page, you can select the red``Create New Temp
 Includes two actions:
 * **Load From Exist Template**: Admins can load existing templates to edit quickly by selecting a template in the list box, then select **Load Template**, the design of the selected template will be displayed in the Design Template section.
 
-![GC30](https://i.imgur.com/JHLUs1w.gif)
+![](https://i.imgur.com/JHLUs1w.gif)
 
 * **Design template**:
   * Admins can design the Gift Card template on this interface easily and quickly by dragging left items and dropping them in the empty box on the right.
   * Admins can also change some CSS in the **Custom** section of each option
   
-![GC31](https://i.imgur.com/RvkNSOy.gif)
+![](https://i.imgur.com/RvkNSOy.gif)
   
 ##### 2.2.3. Image
 * Admins will select some images as default images of gift cards by uploading or dragging images directly into the **Upload Image** box.
 * When the template is displayed on the Gift Card Product Page frontend, these images will also be displayed. Customers can choose different images to print different gift cards.
 
-![GC32](https://i.imgur.com/18D3mfv.gif)
+![](https://i.imgur.com/18D3mfv.gif)
 
 ### III. Manage Gift Codes
 By visiting ``Mageplaza > Gift Card: Manage Gift Code``
 
 #### 3.1. General Management
 
-![GC33](https://i.imgur.com/yTyEF34.png)
+![](https://i.imgur.com/yTyEF34.png)
 
 * This is the interface which archives all created gift codes.
 * From this grid, admins can collect such fundamental information of a gift code like:
@@ -368,7 +368,7 @@ After accessing the Manage Gift Code(s) page, admins can select ``Create New Gif
 
 ##### 3.2.1 Gift Code Information
 
-![GC34](https://i.imgur.com/RGh89Jd.png)
+![](https://i.imgur.com/RGh89Jd.png)
 
 * In the **Code Pattern** field
   * Will be taken from the **General Configuration**. Admins can change Code Pattern flexibly.
@@ -397,7 +397,7 @@ Follow these steps if you want to create a new gift code.
 
 ###### 3.2.2.1 Sending Information
 
-![GC35](https://i.imgur.com/ULZ2rPf.png)
+![](https://i.imgur.com/ULZ2rPf.png)
 
 * In the **Template** field: The generated templates will be displayed here. When you select the desired template, its image will be displayed (if the Template has image)
 * In the **Image** field: This part is visible when the above Template is selected. Admins can change images to print on the gift card. The image that customers upload when buying Gift Card Product is also shown in this section.
@@ -415,30 +415,30 @@ Follow these steps if you want to create a new gift code.
 Includes 4 types of Delivery Method: Email, Text Message, Print At Home and Post Office.
 
 * **Email**: When you select this method, the gift card will be sent to the recipient by email. Admins need to fill in all the details so that the system can send the emails correctly (according to Email Configuration)
-![GC36](https://i.imgur.com/TMEWdio.png)
+![](https://i.imgur.com/TMEWdio.png)
 
 * **Text Message**: The same with **Email** type, but messages will be sent via SMS
-![GC37](https://i.imgur.com/QQegSKw.png)
+![](https://i.imgur.com/QQegSKw.png)
 
 * **Print At Home**:
   * Is the same with other delivery methods, but only automatically be filled when the order contains Gift Card Product Type = Print at home
   * With gift codes created from these orders, they are automatically added to the Saved Gift Card’s customer and can be printed at home. (Other gift codes in the Saved List are able to be viewed, redeemed and removed.)
   * With the gift code created by admins and has been sent successfully, only the customer whose email is the same as sent email can print the gift card.
-![GC38](https://i.imgur.com/an9DSkO.png)
+![](https://i.imgur.com/an9DSkO.png)
 
 * **Post Office**: you need to fill precise information to avoid losing gift cards in the way.
-![GC39](https://i.imgur.com/LbJlQHk.png)
+![](https://i.imgur.com/LbJlQHk.png)
 
 ##### 3.2.3. History
 This module is only visible when the gift code has been created (i.e the gift code has been saved). It points out when the code was executed, what actions were done, how much of the remaining balance is, how the amount was changed, if the gift code is still valid
 
-![GC40](https://i.imgur.com/sLMrShC.png)
+![](https://i.imgur.com/sLMrShC.png)
 
 ### IV. Manage Gift Code Pools
 The general path to manage all modules is ``Mageplaza > Gift Card: Manage Gift Code Pools``
 
 #### 4.1. General Management
-![GC41](https://i.imgur.com/4S75uIO.png)
+![](https://i.imgur.com/4S75uIO.png)
 
 * Gift Code Pool is a set of gift codes with the same information as Balance, Expiration Date, Template ... Admins can create a Pool to issue a series of gift code quickly.
 * All Gift Code Pools can be recorded and saved in log there
@@ -454,20 +454,20 @@ The general path to manage all modules is ``Mageplaza > Gift Card: Manage Gift C
 #### 4.2. Create/Edit a Gift Code Pool
 ##### 4.2.1. Gift Code Information
 
-![GC42](https://i.imgur.com/omkuBd8.png)
+![](https://i.imgur.com/omkuBd8.png)
 
 * In the **Name** field: A friendly note that you need to name the gift code pool to distinguish easily from other pools.
 * In the **Status** field: Choose “Active” to enable the pool .
 * In the **Can Inherit** field: Select “Yes” so that created gift codes will also be changed according to the new alternative of the Pool (except for the Status Attribute)
 
 ###### 4.2.2. Gift Card Information
-![GC43](https://i.imgur.com/POUIwe4.png)
+![](https://i.imgur.com/POUIwe4.png)
 
 * Includes the basic information of the gift card, you just need to fill in this information similarly to when creating a gift code.
 * After saving, the created gift card will then have the same information with each others (except the gift card code)
 
 ###### 4.2.3. Generate Gift Cards
-![GC44](https://i.imgur.com/takLd1O.png)
+![](https://i.imgur.com/takLd1O.png)
 
 ```
 This module is only visible when Pool is created, which provides information about the Code, Balance, Status and Date created by the gift card.
@@ -477,7 +477,7 @@ This module is only visible when Pool is created, which provides information abo
 * In the **Gift Card Qty**: Admins simply enter the number of gift card you want to create and click ``Generate`` to get code quickly
 
 ### V. Gift Card History
-![GC45](https://i.imgur.com/rxGHfEU.png)
+![](https://i.imgur.com/rxGHfEU.png)
 
 * Gift Card History shows the history log of all Gift Cards, including ID, Code, Action, Balance, Amount Change, Status, Detail and Created Date.
 * To delete the history of a gift card, make your way to **Manage Gift Code** section and delete the gift card, all its history will be also deleted.
@@ -486,7 +486,7 @@ This module is only visible when Pool is created, which provides information abo
 ### VI. How to create a Gift Card Product
 To create a new Gift Card Product, follow this link when you’re in store’s backend ``Product > Catalog > Add New Product > Gift Card Product``
 
-![GC46](https://i.imgur.com/ATrsXZb.gif)
+![](https://i.imgur.com/ATrsXZb.gif)
 
 After filling in all required information of a Gift Card Product such as Name, SKU, Qty and Category (Gift Card), admins need to choose **Gift Card Information** to create a Gift Card Product.
 * **Gift Code Pattern**: admins can change the configured Code Pattern as you wish. When customers buy a gift card product containing this gift code, the product will have the form according to the pattern with the one admin used.
@@ -511,10 +511,10 @@ After filling in all required information of a Gift Card Product such as Name, S
 * **Template**: Templates are automatically added to this section. The selected template will be displayed in the frontend.
 
 *Example for a gift card which is created when purchasing a gift card product*
-![GC47](https://i.imgur.com/TXF2MFK.png)
+![](https://i.imgur.com/TXF2MFK.png)
 
 ### VII. Manage Gift Card Credit in Customer’s backend
-![GC48](https://i.imgur.com/Lzf6dvz.png)
+![](https://i.imgur.com/Lzf6dvz.png)
 
 * You can manage **Balance Gift Card Credit** and Transaction of customer by following ``Customer > Edit Customer > Gift Card``
 * The tab **Gift Card** shows you the day Gift Card Credit changed, its Action, the Balance after changing, the amount of change and changing’s Detail.
@@ -524,7 +524,7 @@ After filling in all required information of a Gift Card Product such as Name, S
 ### VIII. Frontend
 
 #### 8.1. Account > Gift Card
-![GC49](https://i.imgur.com/n99dHjm.png)
+![](https://i.imgur.com/n99dHjm.png)
 
 * **My Current Balance** indicates the Balance Gift Card Credit of a customer. Balance of Customer is in sync with the balance in ``Admin/Customer``
 * In **Check/Redeem Gift Card**
@@ -546,20 +546,20 @@ After filling in all required information of a Gift Card Product such as Name, S
   * Check the ``Update Balance Notification`` so that Customer can receive email notification every time their balance of Gift Card Credit is updated
 
 #### 8.2. Gift Card Category
-![GC50](https://i.imgur.com/DYSjp2G.png)
+![](https://i.imgur.com/DYSjp2G.png)
 
 This is the place archiving all created Gift Card Products. Admins can create a new Category for storage works conveniently. There’re 2 ways of creating a new Category:
 
 * Go to ``Product > Category``, click ``New Category``, fill required information and don’t forget clicking ``Save``
-![GC51](https://i.imgur.com/wNUaiQt.gif)  
+![](https://i.imgur.com/wNUaiQt.gif)  
 
 * Go to ``Product > Catalog > Edit Gift Card Product (or create new)`` > Category > New Category``
-![GC52](https://i.imgur.com/5yCEWxj.gif)
+![](https://i.imgur.com/5yCEWxj.gif)
 
 #### 8.3. Gift Card Product Page
 Customers can configure their Gift Card Product in here. Depending on the type of the gift card, the Gift Card Product Page has different interfaces. Gift Card Product Page has 2 main sections: Gift Card Template and Gift Card Information
 
-![GC53](https://i.imgur.com/fsxw8tX.png)
+![](https://i.imgur.com/fsxw8tX.png)
 
 * In **Gift Card Template**:
   * This is where all the Active Template Gift Cards ( which admin selected in the Backend) is stored.
@@ -569,7 +569,7 @@ Customers can configure their Gift Card Product in here. Depending on the type o
   * Upload is only visible when the selected template allows Upload Image
 * In **Gift Card Information**: This is where customers can configure a gift card information. Each type of a Gift Card Product has its own configuration form. Gift Card Product Type = Egift: Gift Card Information includes the following items
 
-![GC54](https://i.imgur.com/4JI47ob.jpg)
+![](https://i.imgur.com/4JI47ob.jpg)
 
 * For **Amount**:
   * Amount of a gift card installed by the admin in the backend. Usually, a gift card has only 1 amount.
@@ -590,21 +590,21 @@ Customers can configure their Gift Card Product in here. Depending on the type o
   * Delivery method is Print At Home. When the customer purchases this Gift Card Product type successfully, the gift code will automatically be added to the customer's Save List
   * No Email / Phone Num. , Delivery Date and Timezone
 
-![GC55](https://i.imgur.com/FxVgdqT.png)
+![](https://i.imgur.com/FxVgdqT.png)
 
 * **Gift Card Product Type = Mail**: Gift Card Information of Mail Gift Card The product is essentially the same as E-gift Card Product type. They have different delivery methods. Delivery of a Mail Gift Card Product is Post Office which means the gift card will be sent based on the customer's address
-![GC56](https://i.imgur.com/o1OXX8c.png)
+![](https://i.imgur.com/o1OXX8c.png)
 
 ### IX. How to import Gift Card Code(s)
 
 At the admin backend, keep track ``System > Data Transfer: Import``
-![GC57](https://i.imgur.com/NLPKIXl.png)
+![](https://i.imgur.com/NLPKIXl.png)
 
 At the Import page, choose the extension you need to input Gift Code(s). At **Import Settings**, choose ``Entity Types = Mageplaza Gift Card Code``, **Import Behaviour** and **File to Import** will be displayed.
-![GC58](https://i.imgur.com/rlGZphI.png)
+![](https://i.imgur.com/rlGZphI.png)
 
 To have a CSV file containing basic information to import Gift Card Code(s), you need to click ``Download Sample File``. Then edit the content in available columns in the Sample File to have a CSV file which has Gift Card Code(s) easily and quickly. A quick note that you shouldn’t change the name of columns, otherwise it will get an error message when Check Data lauches.
-![GC59](https://i.imgur.com/TQlwiFO.png)
+![](https://i.imgur.com/TQlwiFO.png)
 
 A CSV file contains:
 * **Code**: This is the column to fill Gift Card Code(s). The admin can enter any code as his wish. This is a required information.
@@ -625,13 +625,13 @@ A CSV file contains:
 * **Expired_at**: indicates the expiration date of a gift card. If you leave it blank, the gift card has no expiration (Permanent)
 
 To the next step, we need to choose an Action for Import. In **Import Behaviour**, choose “Add/Update” so that gift code(s) will be automatically added to **Manage Gift Code**
-![GC60](https://i.imgur.com/b7917m6.png)
+![](https://i.imgur.com/b7917m6.png)
 
 Now you can select a CSV file to import.
 * Choose file you want to import.
 * The importable CSV file needs to meet the above conditions.
 To make sure things will be worked well, click the red ``Check data`` button. Data in the submitted CSV file will be checked and a message will inform whether it's valid or not. In case of being invalid, admins need to check the CSV file (specially required columns, column’s name,etc). With the valid case, the Import button will appear along with the message like below
-![GC61](https://i.imgur.com/XbzorBO.png)
+![](https://i.imgur.com/XbzorBO.png)
 
 Clicking the ``Import`` button is the final steps!
 

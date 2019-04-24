@@ -7,7 +7,7 @@
 
 From the Admin Panel, go to ``Sales > Order Export``
 
-![how to configure](https://i.imgur.com/HPLYLTv.png)
+![](https://i.imgur.com/HPLYLTv.png)
 
 ### Admins can export the profile by 4 ways:
 
@@ -20,7 +20,7 @@ From the Admin Panel, go to ``Sales > Order Export``
 
 Go to `Sales > Order Export > Configuration`
 
-![configuration](https://i.imgur.com/duMVuG2.png)
+![](https://i.imgur.com/duMVuG2.png)
 
 - **General**:
   - **Enable**: Choose `Yes` to enable this module and display in the `Sales` section
@@ -39,7 +39,7 @@ Go to `Sales > Order Export > Configuration`
 ### 2. Manage Profiles
 #### 2.1. Grid
 
-![manage profiles](https://i.imgur.com/ibNd7x0.png)
+![](https://i.imgur.com/ibNd7x0.png)
 
 - This is a place where all the profiles are stored
 - From the Grid, admins can capture the basic information of the Profile such as ID, Name, Object, Status, File Type, Run Mode, Created Date, Generated On and Action can be done with Profile.
@@ -54,7 +54,7 @@ Go to `Sales > Order Export > Configuration`
 
 - In addition, Admins can Filter, Change Store View, hide/show Columns, Export Grid or edit inline.
 
-![manage profiles 1](https://i.imgur.com/Zx4tlpj.png)
+![](https://i.imgur.com/Zx4tlpj.png)
 
 #### 2.2. Add New/Edit Profile Order form
 
@@ -70,7 +70,7 @@ To create a profile, admins need to do some following steps:
 - Choose `Add New Order`
 - `General` Tab
 
-![general information](https://i.imgur.com/mL9RlAs.png)
+![](https://i.imgur.com/mL9RlAs.png)
 
 - Fill in the name displaying in the `Grid Profile` for the export type
 - `Status`: Choose Enable so that Profile can auto-export based on Cron or Command
@@ -96,7 +96,7 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 - For the file format is XML, Excel XML, JSON:
 
 
-    ![manage profile](https://i.imgur.com/eGwbE6Z.gif)
+    ![](https://i.imgur.com/eGwbE6Z.gif)
 
 
   - `Template Content`: The template content is shown in this field. Admins can edit the template here
@@ -105,7 +105,7 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 
 - For file format is CSV, TXT, TSV:
 
-   ![file format](https://i.imgur.com/GRZfcfv.gif)
+   ![](https://i.imgur.com/GRZfcfv.gif)
 
   - `Export Type`:
     - `Loop order`: If you choose this format, when the file is exported, it will repeat the order with each item as a line
@@ -122,7 +122,7 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 
 ##### 2.2.3. Conditions
 
-![condition](https://i.imgur.com/BPC12dv.png)
+![](https://i.imgur.com/BPC12dv.png)
 
 
 - Choose the condition to export the file. Any order that meets the conditions will be exported. If all fields (except Store Views field) are empty, all orders will be exported
@@ -147,11 +147,11 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
   - If you want to save the file where to enter the path in the `Directory Path` field.
   - To check whether it is connected to the host, press `Test Connection`
 
-![delivery](https://i.imgur.com/I9qokqE.png)
+![](https://i.imgur.com/I9qokqE.png)
 
 - `Email`:
 
-![email](https://i.imgur.com/idnjOpW.png)
+![](https://i.imgur.com/idnjOpW.png)
 
   - Select `Enable` so that Admins can receive email with attached export file when the profile is delivered
   - Admins can select one of 5 available Magento Senders to be the sender, including: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
@@ -164,7 +164,7 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 
 - `HTTP Request`
 
-![http request](https://i.imgur.com/xWohyWI.png)
+![](https://i.imgur.com/xWohyWI.png)
 
   - Choose Enable = Yes to send the file by HTTP Request via URL that is filled below
   - Admins can add Headers to clarify about HTTP Request
@@ -175,7 +175,7 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 
 - Check the update history of exported files. Admins can check the update history of the file in Logs.
 
-![history](https://i.imgur.com/nA0gF9b.png)
+![](https://i.imgur.com/nA0gF9b.png)
 
 ``NOTE``: Creating Profile of Invoice, Credit Memo, Shipment is similar to create profile of Order. However, they don't have `change Order Status` section.
 
@@ -184,11 +184,11 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 This section will record all changes of profiles as status, type, notification, etc. When licking on any file, it will auto-download the file.
 
 
-![manage export logs](https://i.imgur.com/NZ7m40g.png)
+![](https://i.imgur.com/NZ7m40g.png)
 
 ### 4. Quick Export
 
-![quick export](https://i.imgur.com/lLRlDpK.png)
+![](https://i.imgur.com/lLRlDpK.png)
 
 
 - To export quickly, admins need to create a profile for the object they want to export (Order, Invoice, Memo, Shipment)
@@ -199,11 +199,11 @@ This section will record all changes of profiles as status, type, notification, 
 
 #### 5.1. Email notification about Generate/Delivery successfully or fail
 
-![email notification](https://i.imgur.com/uxONjHe.png)
+![](https://i.imgur.com/uxONjHe.png)
 
 #### 5.2. Email notification when sending the exported file uploaded successfully
 
-![email notification 2](https://i.imgur.com/EljyeFi.png)
+![](https://i.imgur.com/EljyeFi.png)
 
 
 

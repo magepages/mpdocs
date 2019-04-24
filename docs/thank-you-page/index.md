@@ -8,22 +8,22 @@ We also support the Newsletter Success page with similar features.
 ## How to use
 ### 1. Display Thank You Page after customers complete the order
 
-![Imgur](https://i.imgur.com/KbFTbHa.png)
+![](https://i.imgur.com/KbFTbHa.png)
 
 ### 2. Display Thank You Page after customers click on subscribe
 
-![thank you page1](https://i.imgur.com/CwmhZto.png)
+![](https://i.imgur.com/CwmhZto.png)
 
 
 ## How to configure
 From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
-![thank you page2](https://i.imgur.com/yIfVzq3.png)
+![](https://i.imgur.com/yIfVzq3.png)
 
 
 ### 1. Configuration
 
-![thank you page3](https://i.imgur.com/XzEOZLM.png)
+![](https://i.imgur.com/XzEOZLM.png)
 
 #### 1.1 General Configuration
 
@@ -52,7 +52,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
 #### 2.1.1 General
 
-![Imgur](https://i.imgur.com/s09Y5OO.png)
+![](https://i.imgur.com/s09Y5OO.png)
 
 - **Name**
   - Enter a name for the template
@@ -74,14 +74,14 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
 #### 2.1.2 Condition
 
-![Imgur](https://i.imgur.com/o2iAQhU.png)
+![](https://i.imgur.com/o2iAQhU.png)
 
 - Select the condition to apply the rule
 - You can set the conditions for the Cart or Product section like: *Subtotal greater than 50, Total Items Quantity less than 5* ...
 
 #### 2.1.3 Display
 
-![Imgur](https://i.imgur.com/cGiLMz6.png)
+![](https://i.imgur.com/cGiLMz6.png)
 
 
 - **Select Style**:
@@ -91,7 +91,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 - **Custom Style**:
   - **Custom Style = Use Default Style**:
   
-  ![thank you page5](https://i.imgur.com/cWFW8gN.png)
+  ![](https://i.imgur.com/cWFW8gN.png)
   
     - `Page Title`: 
       - Enter the title for Thank You Page
@@ -114,7 +114,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
       
   - **Custom Style = Edit Default Style**:
   
-  ![Imgur](https://i.imgur.com/PgHyQ7j.png)
+  ![](https://i.imgur.com/PgHyQ7j.png)
   
   
  
@@ -135,7 +135,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
 #### Coupon Block
 
-![Imgur](https://i.imgur.com/0K7MJqt.png)
+![](https://i.imgur.com/0K7MJqt.png)
 
 - **Select Rule**:
   - Choose the rule (The rule is created at `Marketing > Promotions > Cart Price Rules`)
@@ -160,12 +160,12 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
    
 #### Product Slider Block
 
-![Imgur](https://i.imgur.com/JzZjNGf.png)
+![](https://i.imgur.com/JzZjNGf.png)
 
 
 #### Mageplaza FAQ block
 
-![Imgur](https://i.imgur.com/Km1hxBp.png)
+![](https://i.imgur.com/Km1hxBp.png)
 
 - **Enable**: Choose "Yes" to display FAQ on Thank You Page
 - **Title**:
@@ -186,7 +186,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 
 #### 2.2.1 General
 
-![Imgur](https://i.imgur.com/QG7wmL7.png)
+![](https://i.imgur.com/QG7wmL7.png)
 
 
 
@@ -210,7 +210,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 
 #### 2.2.2 Display
 
-![Imgur](https://i.imgur.com/tFhTEQy.png)
+![](https://i.imgur.com/tFhTEQy.png)
 
 - **Select Style**: Select the style for the Thank You page after the customer has subscribed
 
@@ -244,7 +244,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 - **Custom CSS**: You can edit the color, font text, etc of the selected style
     
 #### Coupon Block
-![thank you page12](https://i.imgur.com/p4KCXrk.png)
+![](https://i.imgur.com/p4KCXrk.png)
 
 - **Select Rule**:
   - Choose the rule (The rule is created at `Marketing > Promotions > Cart Price Rules`)
@@ -267,7 +267,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - HTML is supported
   
 #### Mageplaza FAQ
-![thank you page13](https://i.imgur.com/S4mMRyr.png)
+![](https://i.imgur.com/S4mMRyr.png)
 
 - **Enable**: Choose "Yes" to display FAQ on Thank You Page
 - **Title**:
@@ -290,7 +290,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 - Access to the path to download the library of Thank You Page [here](https://gitlab.com/users/sign_in)
 - Extract `module-thank-you-page-library.zip` into `lib/internal/Mageplaza` and rechange the file name that you just extracted as `ThankYouPage`
 
-![thank you page i](https://i.imgur.com/sBXSOnp.png)
+![](https://i.imgur.com/sBXSOnp.png)
 
 - Run the following command to setup:
 `php bin/magento setup:upgrade`

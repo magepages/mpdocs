@@ -11,55 +11,55 @@ Magento 2 Banner Slider Extension supports you to create carousel image slider, 
 
 Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner Sliders`
 
-![banner slider 1](https://i.imgur.com/tRHs4qo.gif)
+![](https://i.imgur.com/tRHs4qo.gif)
 
 #### 1.1. General
 
-![banner slider](https://i.imgur.com/18lwj1D.png)
+![](https://i.imgur.com/18lwj1D.png)
 
 - `Enable`: Choose Yes to enable this module or choose No to disable it.
 
 #### 1.2. Slider Design Configuration
 
-![banner sliderr](https://i.imgur.com/p9BMGzz.png)
+![](https://i.imgur.com/p9BMGzz.png)
 
 - `Responsive`:
   - Choose "No" so that the number of banners displaying on the browser is default (1 banner)
   
-  ![banner slider 2](https://i.imgur.com/leMCoQe.png)
+  ![](https://i.imgur.com/leMCoQe.png)
   
   - Select "Yes" so that the number of banners displaying on the sliders can be changed. You can change the `Screen size from` and `Number of items` in the `Max Items slider` field. For example: Screen size max = 1000, Number of item is 3, the user interface will look like this:
   
-  ![banner slider 3](https://i.imgur.com/TaLKxVN.png)
+  ![](https://i.imgur.com/TaLKxVN.png)
 
 - `Auto Width`: Choose "Yes" to use Auto Width
 
-![banner slider 4](https://i.imgur.com/4hNh16p.gif)
+![](https://i.imgur.com/4hNh16p.gif)
 
 ``Note``: Use width style on elements to get the result you want. If using with `infinity loop`, add option 'items' more than 1. It all depends on the width of your content.
 
 - `Auto Height`: Choose "Yes" to use Auto Height
 
-![banner slider 5](https://i.imgur.com/9L9GPbP.gif)
+![](https://i.imgur.com/9L9GPbP.gif)
 
 - `Infinity Loop`: Choose "Yes" to re-display sliders after it show in the last item.
 
-![banner slider 6](https://i.imgur.com/oHuBV8U.gif)
+![](https://i.imgur.com/oHuBV8U.gif)
 
 - `Show Next/Pre buttons`:
   - You can choose Yes to show Next/Pre buttons on the user interface when you ant to view the detail product
   - When you click on Next/Pre button, the slider will move the product to be left or right.
   
-  ![banner slider 7](https://i.imgur.com/7yxqyjB.gif)
+  ![](https://i.imgur.com/7yxqyjB.gif)
 
 - `Show Dots Navigation`: Can choose "Yes" in this field to display the dot that represents for the page number of the sliders.
 
-![banner slider 8](https://i.imgur.com/CmTUjcy.png)
+![](https://i.imgur.com/CmTUjcy.png)
 
 - `Lazy Load Images`: Set "Yes" so that Lazy load is displayed when loading images.
 - `Autoplay`: Select "Yes" so that the products on the slider will automatically move to the left for a certain time when installed in the `Autoplay TimeOut`. The `Autoplay TimeOut` field will be displayed.
 
-![banner slider 9](https://i.imgur.com/6oTt7LR.gif)
+![](https://i.imgur.com/6oTt7LR.gif)
 
 - `Autoplay TimeOut`: Set the speed at which the product moves to the left.
 
@@ -69,7 +69,7 @@ Login to the Magento Admin, choose `Store > Configuration > Mageplaza > Banner S
 
 From the Admin Panel, go to `Content > Banner Sliders > Manage Banners`, choose `Add New` button in the right corner
 
-![banner slider 10](https://i.imgur.com/AyVScYt.gif)
+![](https://i.imgur.com/AyVScYt.gif)
 
 #### Banner Information
 
@@ -85,23 +85,23 @@ From the Admin Panel, go to `Content > Banner Sliders > Manage Banners`, choose 
   
     - `Demo Template 1`:
     
-  ![banner slider 30](https://i.imgur.com/Bv4yKoW.png)
+  ![](https://i.imgur.com/Bv4yKoW.png)
    
     - `Demo Template 2`:
     
-    ![banner slider 31](https://i.imgur.com/BHOZthM.png)
+    ![](https://i.imgur.com/BHOZthM.png)
     
     - `Demo Template 3`:
     
-    ![demo template banner slider](https://i.imgur.com/ay6zSKo.png)
+    ![](https://i.imgur.com/ay6zSKo.png)
     
     - `Demo Template 4`:
     
-    ![demo template 4](https://i.imgur.com/WXd2EPn.png)
+    ![](https://i.imgur.com/WXd2EPn.png)
     
     - `Demo Template 5`:
     
-    ![demo template 5](https://i.imgur.com/lXwBBUI.png)
+    ![](https://i.imgur.com/lXwBBUI.png)
     
   
 ``Note``:
@@ -122,11 +122,11 @@ From the Admin Panel, go to `Content > Banner Sliders > Manage Banners`, choose 
 
 From the Admin Panel, go to `Content > Banner Sliders > Manage Slider`, choose `Add New` button in the right corner
 
-![banner slider 12](https://i.imgur.com/U2RuCkF.png)
+![](https://i.imgur.com/U2RuCkF.png)
 
 #### 3.1. General
 
-![banner slider 13](https://i.imgur.com/EAVO4Yn.gif)
+![](https://i.imgur.com/EAVO4Yn.gif)
 
 ##### 3.1.1. Slider Information
 
@@ -134,7 +134,7 @@ From the Admin Panel, go to `Content > Banner Sliders > Manage Slider`, choose `
 - `Status`: Select "Enable" to use the Slider. It helps to view the banner in the most convenient way.
 - `Position`: Select the position to appear the sliders on the user interface.
 
-![banner slider 14](https://i.imgur.com/pfi94Wm.png)
+![](https://i.imgur.com/pfi94Wm.png)
 
 - `Store View`: Select the Store View where the Slider is displayed. With unselected store views, the slider will not appear.
 - `Customer Groups`: The slider is only visible on selected customer groups.
@@ -152,51 +152,51 @@ In this section, for each slider, you can use **Widgets** to choose the diplay p
 
 This section will record all information of the banner that you have created as Banner, Status, Type, etc. You can choose any banner you want to show on the sliders
 
-![banner slider 15](https://i.imgur.com/7hZpN0q.png)
+![](https://i.imgur.com/7hZpN0q.png)
 
 #### 3.3. Design
 
-![banner slider q16](https://i.imgur.com/3P1V5IJ.gif)
+![](https://i.imgur.com/3P1V5IJ.gif)
 
 - `Annimation Effect`: Choose the effect to show on the sliders
 
-![banner slider 17](https://i.imgur.com/NDZYBUd.png)
+![](https://i.imgur.com/NDZYBUd.png)
 
   - `No`:
 
-![banner slider 18](https://i.imgur.com/t9m2Rpe.gif)
+![](https://i.imgur.com/t9m2Rpe.gif)
 
   - `FadeOut`:
   
-  ![banner slider 19](https://i.imgur.com/YIPaqXT.gif)
+  ![](https://i.imgur.com/YIPaqXT.gif)
 
   - `RotateOut`:
   
-  ![banner slider 20](https://i.imgur.com/xZ7Wx78.gif)
+  ![](https://i.imgur.com/xZ7Wx78.gif)
   
   - `FlipOut`:
   
-  ![banner slider 21](https://i.imgur.com/nhIyxdL.gif)
+  ![](https://i.imgur.com/nhIyxdL.gif)
 
   - `RollOut`:
   
-  ![banner slider 22](https://i.imgur.com/Rx4SpbK.gif)
+  ![](https://i.imgur.com/Rx4SpbK.gif)
   
   - `ZoomOut`:
   
-  ![banner slider 23](https://i.imgur.com/RpC8NpV.gif)
+  ![](https://i.imgur.com/RpC8NpV.gif)
   
   - `SlideOutLeft`:
   
-  ![banner slider 24](https://i.imgur.com/NsWIOaV.gif)
+  ![](https://i.imgur.com/NsWIOaV.gif)
   
   - `SlideOutRight`
   
-  ![banner slider 25](https://i.imgur.com/hilJtML.gif)
+  ![](https://i.imgur.com/hilJtML.gif)
   
   - `LightSpeedOut`:
   
-  ![banner slider 26](https://i.imgur.com/F4KUmBl.gif)
+  ![](https://i.imgur.com/F4KUmBl.gif)
 
 - `Manually Design`: Select the data that is designed from:
   - Select `Use config`: It will hide the fields below and retrieve the data from the configuration
@@ -211,19 +211,19 @@ To create a widget, you need to perform the following steps:
 - Step 1: From the Admin panel, go to `Content > Elements > Widgets`, choose `Add Widget`
 - Step 2: `Settings > Type =Banner Slider widget`, `Design Theme = Magento Luma`. Click `Continue` button to move the next step
 
-![banner slider 27](https://i.imgur.com/88OMQCC.png)
+![](https://i.imgur.com/88OMQCC.png)
 
 - Step 3: Enter the required information in the Storefront Properties
 
-![banner slider 28](https://i.imgur.com/RrVHy0f.png)
+![](https://i.imgur.com/RrVHy0f.png)
 
 - Step 4: Choose the position to display the widget
 
-![banner slider 29](https://i.imgur.com/LRgyxnt.png)
+![](https://i.imgur.com/LRgyxnt.png)
 
 - Step 5: Choose the slider that you want to show
 
-![banner slider 30](https://i.imgur.com/rz8HbIe.png)
+![](https://i.imgur.com/rz8HbIe.png)
 
 - Step 6: Save the information and check on the user interface
 

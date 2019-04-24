@@ -11,11 +11,11 @@ Product Slider for Magento 2 enables store owners to create many slider titles l
 
 Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mageplaza Extensions > Product Slider``
 
-![configuration](https://i.imgur.com/EPUmpxH.png)
+![](https://i.imgur.com/EPUmpxH.png)
 
 #### 1.1. General Configuration
 
-![general configuration](https://i.imgur.com/Kc1x4hd.png)
+![](https://i.imgur.com/Kc1x4hd.png)
 
 * In the **Enable** field: Choose Yes to enable Product Slider extension
 * In the **Default Display Additional Information** field:
@@ -25,12 +25,12 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
 
 #### 1.2. Slider Design Configuration
 
-![slider design configuration](https://i.imgur.com/Xx5aPDh.png)
+![](https://i.imgur.com/Xx5aPDh.png)
 
 * In the **Is Responsive** field:
     * Choose `No` so that the number of products display on the browser is the default (3 products)
     
-    ![product slider](https://i.imgur.com/H7xiwj4.png)
+    ![](https://i.imgur.com/H7xiwj4.png)
     
     * Choose `Yes` so that the number of products display on the slider can be changed when changing the size of the browser window. You can set this in the **Max item slider** field.
     * Only apply for Widget or when admins add Product Slider by the code or can choose this in the rule `Reponsive = Use Config`
@@ -38,47 +38,47 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
 * In the **Max item slider** field: This section only displays when the **Is Responsive = Yes**. Set the number of products display on the slide when the browser window changes the size.
     * Example: Screen size max = 1000, Number of item is 5. The frontend will be displayed as the following:
     
-    ![example](https://i.imgur.com/3mtx2xg.png)
+    ![](https://i.imgur.com/3mtx2xg.png)
 
 * In the **Loop Slider** field: Choose "Yes" to allow the first products repeated when the slider runs to the end
 
-![loop slider](https://i.imgur.com/Qd8WNkY.png)
+![](https://i.imgur.com/Qd8WNkY.png)
 
-![design template](https://i.imgur.com/1gMEqdO.gif)
+![](https://i.imgur.com/1gMEqdO.gif)
 
 * In the **Margin Between Items** field:
     * This is a place that allows you to set the distance between products in the slider
     * We recommend you should set the distance to be 10
     
-    ![distance of products in the slider](https://i.imgur.com/cWIJzKa.png)
+    ![](https://i.imgur.com/cWIJzKa.png)
     
 * In the **Next/Prev buttons** field:
     * Choose "Yes" so that the Prev/Next button is displayed on the frontend
     * When you click on Prev/Next button, Sliders will move the product to the left or the right
     
-    ![next/prev button](https://i.imgur.com/p3rhGPd.png)
+    ![](https://i.imgur.com/p3rhGPd.png)
  
 * In the **Show Dots Navigation** field:
     * You can choose "Yes" in this section to display dots representing the number of slider pages
     
-  ![dots navigation](https://i.imgur.com/zmjevMN.png)
+  ![](https://i.imgur.com/zmjevMN.png)
   
     * When clicking on Dots, products on the side slider will be displayed (in this case, it includes 5 products)
 
 * In the **Lazy Load Images** field: Choose "Yes" to represent Lazy Load displayed when loading the image
 * In the **Autoplay** field: Select "Yes" so that products on the slider will auto-move to the left after a certain period of time installed at the **Autoplay Timeout** section
 
-![autoplay](https://i.imgur.com/KjVb8Tb.gif)
+![](https://i.imgur.com/KjVb8Tb.gif)
 
 * In the **Autoplay Timeout** field: Set the amount of time so that the slider moves a product to the left. For example, set "Autoplay Timeout" = 5000 (ms), after 5 seconds, the slider will auto-run instead of clicking on the next button to move.
 * In the **Autoplay HoverPause** field: Choose "Yes" so that the slider stops running automatically when the cursor is placed on the slider
 
-![autoplay hoverpause](https://i.imgur.com/EV0EV1r.gif)
+![](https://i.imgur.com/EV0EV1r.gif)
 
 ### 2. Manage Rules
 #### 2.1. Grid
 
-![grid](https://i.imgur.com/3i11EVn.png)
+![](https://i.imgur.com/3i11EVn.png)
 
 * This section saves all Product Sliders created
 * From the Grid, admins can understand all basic information of the rule as ID, Name, Slider Type, Slider Location, Start Date, End Date, and Action.
@@ -92,25 +92,25 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
 
 ##### 2.2.1. General Information
 
-![general information](https://i.imgur.com/AP7syUb.png)
+![](https://i.imgur.com/AP7syUb.png)
 
 * **Name**: The name of the slider is filled in this section only show in the backend. It helps distinguish with other products.
 * **Status**: Choose "Enable" so that the sliders work well.
 * **Position**: Choose the position to appear of sliders on the frontend. We offer the available positions as the following:
 
-![position](https://i.imgur.com/DwhYlum.png)
+![](https://i.imgur.com/DwhYlum.png)
 
 * **Type**: Choose Product Type that you want to showw on the slider
 
-![product type](https://i.imgur.com/je9tPiu.png)
+![](https://i.imgur.com/je9tPiu.png)
 
    * **Select By Category**: When choosing `Type = Select By Category`, **Option Categories** will be displayed for you to choose. Products of selected categories will be shown on the slider outside the frontend.
    
-   ![select by category](https://i.imgur.com/ggmrX8X.png)
+   ![](https://i.imgur.com/ggmrX8X.png)
   
   * **Custom Specific Products**: When choosing `Type = Select By Category`, **Tab Select Product** will be displayed for you to choose. The selected products will be shown on the slider outside the frontend.
   
-  ![custom specific products](https://i.imgur.com/wMnIioG.png)
+  ![](https://i.imgur.com/wMnIioG.png)
   
 * **Store View**: Choose Store View that sliders are displayed. With unselected store views, sliders never appear.
 * **Customer**: The slider only displays for selected customer group.
@@ -120,7 +120,7 @@ Login to the **Magento Admin**, choose ``Stores > Settings > Configuration > Mag
 
 ##### 2.2.2. Design
 
-![design](https://i.imgur.com/Yc7T5ut.png)
+![](https://i.imgur.com/Yc7T5ut.png)
 
 * **Title**: The content filled in this field will be the name of the slider displaying on the frontend.
 * **Description**: Describe about the slider. The description is also displayed on the frontend.
@@ -143,19 +143,19 @@ When creating the widget, you can allow Product Slider to appear anywhere you wa
 * **Step 1**: From the Admin panel, go to ``Content > Elements > Widgets``, choose **Add Widget**
 * **Step 2**: Choose ``Type = Mageplaza Product Slider, Design Theme = Magento Luma``. Afterward, click on `Continue`.
 
-![desogn theme](https://i.imgur.com/IeiHrsy.png)
+![](https://i.imgur.com/IeiHrsy.png)
 
 * **Step 3**: Enter the required information in the Storefront Properties
 
-![widget](https://i.imgur.com/gEBoenp.png)
+![](https://i.imgur.com/gEBoenp.png)
 
 * **Step 4**: Choose the position to display the widget
 
-![layout update](https://i.imgur.com/JSIrsii.png)
+![](https://i.imgur.com/JSIrsii.png)
 
 * **Step 5**: Fill in the information about the slider into `Type Product` displayed on the slider in the `Widget Options Tab`
 
-![widget1](https://i.imgur.com/9b1tR39.png)
+![](https://i.imgur.com/9b1tR39.png)
 
 * **Step 6**: Save the widget and check on the frontend.
 
@@ -254,7 +254,7 @@ You can custom template file at  ``app/code/Mageplaza/Productslider/view/fronten
 4.1. From the Admin Panel, go to `Report > Products > Bestsellers`
 4.2. Click here to update the Best Seller Products
 
-![Imgur](https://i.imgur.com/BEnZ3NO.png)
+![](https://i.imgur.com/BEnZ3NO.png)
 
 4.3. Check this on the Frontend (You will see that it appears in the Product Slider if you have set). You can also check it in the Dashboard/Bestsellers field.
 

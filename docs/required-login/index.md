@@ -13,7 +13,7 @@
 
 ## How to use Required Login
 
-![Imgur](https://i.imgur.com/e9pUnNG.png)
+![](https://i.imgur.com/e9pUnNG.png)
 
 
 ## How to configure
@@ -22,12 +22,12 @@
 
 Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`.
 
-![Imgur](https://i.imgur.com/l2idYu0.png)
+![](https://i.imgur.com/l2idYu0.png)
 
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/m7CqGWQ.png)
+![](https://i.imgur.com/m7CqGWQ.png)
 
 
 - **Enable**: Select `Yes` to enable the module 
@@ -41,9 +41,9 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   
 #### 1.2. Configuration
 
-![Imgur](https://i.imgur.com/2LgMdSP.png)
+![](https://i.imgur.com/2LgMdSP.png)
 
-![Imgur](https://i.imgur.com/txjs1St.png)
+![](https://i.imgur.com/txjs1St.png)
 
 
 - **Apply for**: 

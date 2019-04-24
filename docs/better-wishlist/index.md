@@ -18,11 +18,11 @@ Customers tend to save their favorite products into Wishlist to review and buy l
 - Customers can create/update multiple Wish Lists
 - Also, they can copy/move products between Wish Lists
 
-![Better Wishlist 1](https://i.imgur.com/qlz28xE.png)
+![](https://i.imgur.com/qlz28xE.png)
 
 - Add one product to different Wish Lists ([Quick View](https://www.mageplaza.com/magento-2-quick-view/) compatible)
 
-![Better Wishlist2](https://i.imgur.com/B6zANUh.gif)
+![](https://i.imgur.com/B6zANUh.gif)
 
 
 ### 2. Admin
@@ -36,11 +36,11 @@ Customers tend to save their favorite products into Wishlist to review and buy l
 
 From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Wishlist`
 
-![Better Wishlist3](https://i.imgur.com/kJcWF2q.png)
+![](https://i.imgur.com/kJcWF2q.png)
 
 #### 1.1 General Configuration
 
-![Better Wishlist4](https://i.imgur.com/CfrbQtF.png)
+![](https://i.imgur.com/CfrbQtF.png)
 
 
 - **Enable**: Select `Yes` to turn on the module.
@@ -65,7 +65,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Wishli
 
 - Each Wishlist Category and each Product added to the wishlist is saved in the **Wishlist tab** at the backend **Customer details** page. To edit them, admins can go to `Customers> All Customers` 
 
-![Better Wishlist5](https://i.imgur.com/F74kcNw.png)
+![](https://i.imgur.com/F74kcNw.png)
 
 - Admin can do the following actions:
   - Create or rename the Wishlist Category
@@ -78,4 +78,4 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Wishli
 
 - From the **Admin panel**, go to `Reports> Better Wishlist> Wishlist Report`
 
-![Better Wishlist6](https://i.imgur.com/QNufVQD.png)
+![](https://i.imgur.com/QNufVQD.png)

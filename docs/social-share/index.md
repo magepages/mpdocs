@@ -14,12 +14,12 @@ Today, social media is growing strongly and having tremendous influence on human
 
 ### Frontend - Floating:
 
-![Imgur](https://i.imgur.com/Wff29cq.gif)
+![](https://i.imgur.com/Wff29cq.gif)
 
 
 ### Frontend - Inline
 
-![Imgur](https://i.imgur.com/UJ1Dtpl.png)
+![](https://i.imgur.com/UJ1Dtpl.png)
 
 ## How to configure
 
@@ -27,11 +27,11 @@ Today, social media is growing strongly and having tremendous influence on human
 
 Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Social Share`.
 
-![Imgur](https://i.imgur.com/cIE9dtk.gif)
+![](https://i.imgur.com/cIE9dtk.gif)
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/nvupGDh.png)
+![](https://i.imgur.com/nvupGDh.png)
 
 
 - **Enable**: Choose `Yes` to activate the module
@@ -51,32 +51,32 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Soci
 - **Border Radius**: Insert the % value for `Border Radius` field, with the value range from 0 - 50% ( 0 is square, 50 is round by default). For example when you insert the value of 50%:
 
 
-![Imgur](https://i.imgur.com/LtIjjxv.png)
+![](https://i.imgur.com/LtIjjxv.png)
 
 
 - **Enable Share Counter**: Select `yes` to count the Share number in the URL links
 
-![Imgur](https://i.imgur.com/8tkmXCI.png)
+![](https://i.imgur.com/8tkmXCI.png)
 
 - **Enable Thank You Popup**: Select `yes` to show Thank you popup after sharing
 
-![Imgur](https://i.imgur.com/iBVBNMD.png)
+![](https://i.imgur.com/iBVBNMD.png)
 
-![Imgur](https://i.imgur.com/ifB51Fu.png)
+![](https://i.imgur.com/ifB51Fu.png)
 
-![Imgur](https://i.imgur.com/pXQh5gu.png)
+![](https://i.imgur.com/pXQh5gu.png)
 
 - **Enable**: Select `Yes` to enable social share on specific social networks
 - **Image**: click `Choose File` button to upload the file image of those social networks
 
-![Imgur](https://i.imgur.com/IzSY8b7.png)
+![](https://i.imgur.com/IzSY8b7.png)
 
 
 - **Enable**: Choose “Yes” to show more services for sharing. It will allow icon ``+`` to display more Services on Frontend.
 
 - **Display Menu Type**: Choose the Menu displaying method 
 
-![Imgur](https://i.imgur.com/ljJV4KR.png)
+![](https://i.imgur.com/ljJV4KR.png)
 
   - **Hover**: Allow showing Menu when mouse over
   - **Click**: Allow showing Menu when clicking to Service symbol and show the field: 
@@ -92,7 +92,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Soci
   
 #### 1.2. Floating Configuration
 
-  ![Imgur](https://i.imgur.com/wGClUxR.png)
+  ![](https://i.imgur.com/wGClUxR.png)
   
 - **Apply For**: 
   - Choose the position to display Services at **Floating Configuration**
@@ -105,23 +105,23 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Soci
   - **Horizontal**: Icons are arranged horizontally.
 
 
-![Imgur](https://i.imgur.com/SHNHJLm.gif)
+![](https://i.imgur.com/SHNHJLm.gif)
 
 
   - **Vertical**: Icons are arranged vertically.
 
 
-![Imgur](https://i.imgur.com/7UARNP7.png)
+![](https://i.imgur.com/7UARNP7.png)
 
 - **Position**: Choose the position to show Menu at 2 sides:
   - **Left**: Icons are on the left side of pages
   
-  ![Imgur](https://i.imgur.com/87uRNAr.png)
+  ![](https://i.imgur.com/87uRNAr.png)
   
   
   - **Right**: Icons are on the right side of pages
   
-  ![Imgur](https://i.imgur.com/lUfNXUH.png)
+  ![](https://i.imgur.com/lUfNXUH.png)
   
 - **Margin Top**:
   - Choose the size of services to decide the margin top of sharing button block. Only show this field when choosing Vertical style
@@ -134,11 +134,11 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Soci
   
 - **Button Size**: Choose the button size for Icons. The default size of icons is 32x32
 
-![Imgur](https://i.imgur.com/WWF3UwQ.png)
+![](https://i.imgur.com/WWF3UwQ.png)
 
 #### 1.3. Inline Configuration
 
-![Imgur](https://i.imgur.com/7Evq2x0.png)
+![](https://i.imgur.com/7Evq2x0.png)
 
 
 - **Apply For**: 
@@ -149,21 +149,21 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Soci
 - **Position**: Choose the position to show Menu at:
   - **Top content**: Icons shown at the top of page
   
-  ![Imgur](https://i.imgur.com/MbFm7xr.png)
+  ![](https://i.imgur.com/MbFm7xr.png)
   
   - **Bottom content**: Icons shown at the bottom of page
   
-  ![Imgur](https://i.imgur.com/eZvn2rh.png)
+  ![](https://i.imgur.com/eZvn2rh.png)
 
   
 - **Show under Add To Cart on Product detail Page**: Select `Yes` to display under **Add To Cart** on Product Detail Page
 
-  ![Imgur](https://i.imgur.com/MBHPOCf.png)
+  ![](https://i.imgur.com/MBHPOCf.png)
   
   
 - **Button Size**: Choose the button size for Icons. The default size of icons is 32x32
 
 
-![Imgur](https://i.imgur.com/IPVN3qC.png)
+![](https://i.imgur.com/IPVN3qC.png)
 
 

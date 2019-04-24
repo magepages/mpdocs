@@ -15,22 +15,22 @@ In order to improve consumption of products, especially during important holiday
 
 - Customers can choose the Gift Wrap 
 
-![Gift Wrap 1](https://i.imgur.com/jBiFlit.png)
+![](https://i.imgur.com/jBiFlit.png)
 
 - Change Gift Wrap 
 
-![Gift Wrap 2](https://i.imgur.com/QsBW9F6.png)
+![](https://i.imgur.com/QsBW9F6.png)
 
 - Send messages to recipients.
 
-![Gift Wrap 3](https://i.imgur.com/fveHVOJ.png)
+![](https://i.imgur.com/fveHVOJ.png)
 
 
 ## How to Configuration
 
 From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`
 
-![Gift Wrap 4](https://i.imgur.com/WXZWvF4.png)
+![](https://i.imgur.com/WXZWvF4.png)
 
 
 
@@ -38,14 +38,14 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`
 
 From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select **General**
 
-![Gift Wrap 5](https://i.imgur.com/quEJRHe.gif)
+![](https://i.imgur.com/quEJRHe.gif)
 
 - **Enable**: Select `Yes` to turn on the Module.
 - **Add Gift Wrap Button Label**: Choose the label for Gift Wrap button, default label is **Add Gift Wrap**.
 - **Change Gift Wrap Button Label**: Choose the label for selected gift wrap, the default label is **Change Your Gift Wrap**.
 - **Tax Class**: Select **Tax Class** that customers need to pay.
 
-![Gift Wrap 6](https://i.imgur.com/FgxMx8s.png)
+![](https://i.imgur.com/FgxMx8s.png)
 
 - **Gift Wrap Icon**:
   - Click **Choose file** to select the icon displayed infront of **Add Gift Wrap** label in Frontend. 
@@ -53,28 +53,28 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select 
   - Only accept jpg, png and gif files
   - Provie suggested icon for admin
 
-![Gift Wrap 7](https://i.imgur.com/krxXiyX.png)
+![](https://i.imgur.com/krxXiyX.png)
   
 - **Gift Wrap Type**: 
   - **Per Item**: applicable to each type of product, displaying an extra field **Gift Wrap on Product View Page**
     - **Gift Wrap on Product View Page**: Choose "Yes" to wrap the gift on the **Product Detail Page**
     - For example: Cart has 3 products, customers can choose each type of Gift Wrap for each product
     
-    ![Gift Wrap 8](https://i.imgur.com/ex1nuCs.png)
+    ![](https://i.imgur.com/ex1nuCs.png)
     
   - **Per Cart**: Applies one Gift Wrap type to all products in the shopping cart, displaying the extra field **Notice for Customer**
     - **Notice for Customer**: Displays a notification to the customer, default message is `All items will be wrapped in one gift box by default`
     - For example: Cart has 3 products, customers can only choose one type of Gift Wrap to apply to all Product in Cart
    
     
-    ![Gift Wrap 9](https://i.imgur.com/jhKGpAy.png)
+    ![](https://i.imgur.com/jhKGpAy.png)
 
 - **Both**:
   - Apply for each certain Product and for the shopping cart as well .
   - For example: A Cart has 3 products, customer can choose a Gift Wrap type, apply for all Product in Cart, or choose separately Gift Wrap for each Product
   - Show both fields above (**Notice to Customers** and **Gift Wrap on Product View Page**)
 
-![Gift Wrap 10](https://i.imgur.com/nh57ujl.png)
+![](https://i.imgur.com/nh57ujl.png)
 
 - **Enable Gift Message**: Select `Yes` to display the message box, display 2 more fields: **Max Characters, Gift Message Fee**.
 - **Max Characters**: limit the maximum number of characters of the message, the default is 120.
@@ -84,18 +84,18 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select 
   
   - **Shopping Cart Page**
  
-![Gift Wrap 11](https://i.imgur.com/VxsGZFt.png)
+![](https://i.imgur.com/VxsGZFt.png)
 
   - **Checkout Page**
   
-  ![Gift Wrap 12](https://i.imgur.com/QL6jfO1.png)
+  ![](https://i.imgur.com/QL6jfO1.png)
   
   - **Mageplaza One Step Checkout**
   
-  ![Gift Wrap 13](https://i.imgur.com/mPoROYU.png)
+  ![](https://i.imgur.com/mPoROYU.png)
   
   
-  ![Gift Wrap 14](https://i.imgur.com/ZKLVCm2.png)
+  ![](https://i.imgur.com/ZKLVCm2.png)
   
 - Show the Mageplaza One Step Checkout option when installing [Mageplaza's One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/). With this module, customers can go through 6 steps of payment in one page, making it convenient for them to process with checkout.
 
@@ -105,7 +105,7 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Manage Category`
 
 #### 2.1. Manage Category Grid
 
-![Gift Wrap 15](https://i.imgur.com/i3fy8yP.png)
+![](https://i.imgur.com/i3fy8yP.png)
 
 - This is where the gift package catalog is displayed.
 - From **Manage Category**, admin can capture basic information of Gift Wrap such as ID, Name, Status, Price Type, Amount, Image, Category, Sort Order, Action.
@@ -120,7 +120,7 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Manage Category`
 
 From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Category > Create New Category/Edit`
 
-![Gift Wrap 16](https://i.imgur.com/z1Y0aUV.png)
+![](https://i.imgur.com/z1Y0aUV.png)
 
 - **Name**: Enter a name for the Category. This is a required field.
 - **Status**: Select **Enable** to display the Category in Frontend.
@@ -136,7 +136,7 @@ From the Admin Panel, go to `Marketing > Gift Wrap > Manage Gift Wrappers`
 
 #### 3.1. Manage Gift Wrappers Grid
 
-![Gift Wrap 17](https://i.imgur.com/JpCIqd0.png)
+![](https://i.imgur.com/JpCIqd0.png)
 
 - This is where the gift wrap catalog is displayed.
 - From **Manage Gift Wrappers**, admin can capture basic information of Gift Wrap such as ID, Name, Status, Price Type, Amount, Image, Category, Sort Order, Action.
@@ -151,7 +151,7 @@ From the Admin Panel, go to `Marketing > Gift Wrap > Manage Gift Wrappers`
 
 From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Gift Wrap > Create New Gift Wrap`
 
-![Gift Wrap 18](https://i.imgur.com/qhG4CKr.png)
+![](https://i.imgur.com/qhG4CKr.png)
 
 - **Name**: Enter a name for Gift Wrap. This is a required field. 
 - **Status**: Select **Enable** to display Gift Wrap in Frontend.
@@ -161,7 +161,7 @@ From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Gift Wrap > Creat
 - **Amount**: Enter the gift package price.
 - **Description**: Enter the description shown under Gift Wrap.
 
-![Gift Wrap 19](https://i.imgur.com/YClsmwM.png)
+![](https://i.imgur.com/YClsmwM.png)
 
 
 - **Image**: Select the image displayed in Frontend.
@@ -173,7 +173,7 @@ From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Gift Wrap > Creat
 
 From **Admin panel**, go to `Marketing > Gift Wrap > Manage History`
 
-![Gift Wrap 20](https://i.imgur.com/N6LAyx0.png)
+![](https://i.imgur.com/N6LAyx0.png)
 
 - Here is the storage of the Gift Wrap products and messages that customers has ordered. 
 - Admin can Filter, Change Store View, Hide/Show Columns or download information table in csv and xml file.

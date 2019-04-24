@@ -17,13 +17,13 @@ These days, your customers may too busy to drop in your stores but they still wa
 Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Product Alerts`
 
 
-![Imgur](https://i.imgur.com/cnJ0HeN.png)
+![](https://i.imgur.com/cnJ0HeN.png)
 
 
 #### 1. General
 
 
-![product alert1](https://i.imgur.com/OF7ugaP.png)
+![](https://i.imgur.com/OF7ugaP.png)
 
 
 - **Enable**: Choose `Yes` to activate the module
@@ -45,7 +45,7 @@ For example:
 #### 2. Alert for Price Changed Product
 
 
-![product alert2](https://i.imgur.com/hPJ41E6.png)
+![](https://i.imgur.com/hPJ41E6.png)
 
 
 - **Enable**: 
@@ -56,7 +56,7 @@ For example:
   - When customers click to that link, a popup displayed allows customers subscribe for notification of price change. All subscribers will get notification emails whenever their favored items are offered at a better price. 
   
 
-![product alert3](https://i.imgur.com/SOpO6bW.png)
+![](https://i.imgur.com/SOpO6bW.png)
 
 
 - **Apply for Customer Groups**: You can choose one or more customer groups to send emails.
@@ -64,7 +64,7 @@ For example:
 - **Email Sender**: Select the store representative that you want to show in the notification emails. Here are the options: 
 
 
-![product alert4](https://i.imgur.com/SpLRPPZ.png)
+![](https://i.imgur.com/SpLRPPZ.png)
 
 
 - **Email Template**: Access to `Marketing > Email Templates > Add New Template` to create Email Templates. Please choose the email template that you want to send for price change of products.
@@ -72,12 +72,12 @@ For example:
 - **Text for subscribed customers**: This message will be displayed when customers have subscribed successfully. You can insert the text here, otherwise, the default message is: `Congratulations! You will receive a notification email when this product has just changed the price`
 
 
-![product alert5](https://i.imgur.com/cehplY2.png)
+![](https://i.imgur.com/cehplY2.png)
 
 
 ##### 2.1 Popup configuration
 
-![product alert6](https://i.imgur.com/IEUlKXj.png)
+![](https://i.imgur.com/IEUlKXj.png)
 
 
 - **Popup Heading**: Add the Title for Popup. Allow showing popup when customers click to `Notify me when the price drops` and only show popup with not-log-in customers. The default heading is: `Stay tuned for any updates on this product's price!`
@@ -98,7 +98,7 @@ For example:
 #### 3. Alert of Out Of Stock Product
 
 
-![product alert7](https://i.imgur.com/6KNpbc4.png)
+![](https://i.imgur.com/6KNpbc4.png)
 
 
 - **Enable**: 
@@ -110,14 +110,14 @@ For example:
   - When customers click to that link, a popup displayed allows customers subscribe for notification of back-in-stock products. All subscribers will get notification emails whenever their favored items are restocked. 
   
 
-![product alert8](https://i.imgur.com/O22s1hk.png)
+![](https://i.imgur.com/O22s1hk.png)
 
 
 - **Apply for Customer Groups**: You can choose one or more customer groups to send emails.
 
 - **Email Sender**: Select the store representative that you want to show in the notification emails. Here are the options: 
 
-![product alert9](https://i.imgur.com/SpLRPPZ.png)
+![](https://i.imgur.com/SpLRPPZ.png)
 
 
 - **Email Template**: Go to `Marketing > Email Templates > Add New Template` to create Email template. Please choose the email template that you want to send to your customers when their favorite items are restocked.
@@ -127,19 +127,19 @@ For example:
   - **Button text**:  Name the Button to be shown at Product Listing Page. When customers click on this button, they can register to get notification emails of restock items. If you leave it empty, it will be `Notify me` as default.
   
   
-  ![product alert10](https://i.imgur.com/0Q5AZ6J.png)
+  ![](https://i.imgur.com/0Q5AZ6J.png)
   
 
 - **Text for subscribed customers**: Insert the message you want to send to customers. This text is displayed after subscribing successfully, so customers can subscribe only once. For example: `Congratulations! You will receive a notification email when this product has just come back to stock.`
 
 
-![product alert11](https://i.imgur.com/4E4Yx2S.png)
+![](https://i.imgur.com/4E4Yx2S.png)
 
 
 ##### 3.1. Popup Configuration
 
 
-![product alert12](https://i.imgur.com/nTVzEBj.png)
+![](https://i.imgur.com/nTVzEBj.png)
 
 
 - **Popup Heading**: 
@@ -162,7 +162,7 @@ For example:
 Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock Notification`
 
 
-![product alert13](https://i.imgur.com/TubHdLc.png)
+![](https://i.imgur.com/TubHdLc.png)
 
 
 #### 1. Subscribers
@@ -170,13 +170,13 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock 
 - **New subscription**
 
 
-![product alert14](https://i.imgur.com/7YAKVlW.png)
+![](https://i.imgur.com/7YAKVlW.png)
 
 
 - **Edit subscription**
 
 
-![product alert15](https://i.imgur.com/qnfFnJc.png)
+![](https://i.imgur.com/qnfFnJc.png)
 
 
 - **Product SKU**: Insert the SKUs for products that customers want to be notified when they are out of stock and restocked as well. This is a required field.
@@ -198,7 +198,7 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Out of Stock 
 This part reports the most wanted products based on the data of customers subscription of restock items, which includes: Product name, Product SKU, Number of Requests, etc. The subscribed products which are canceled will not be reported here. 
 
 
-![product alert16](https://i.imgur.com/J2rKzrY.png)
+![](https://i.imgur.com/J2rKzrY.png)
 
 
 ##### 2.2. Report 
@@ -206,7 +206,7 @@ This part reports the most wanted products based on the data of customers subscr
 Basing on the above data, this module enables generating the chart of most requested products. The horizontal axis is Product SKU whereas the vertical axis is Number of Requests. 
 
 
-![product alert17](https://i.imgur.com/BjWGsr7.png)
+![](https://i.imgur.com/BjWGsr7.png)
 
 
 ### III. Product Price Alerts
@@ -214,7 +214,7 @@ Basing on the above data, this module enables generating the chart of most reque
 Login to the **Magento Admin**, choose `Catalog > Product Alerts > Product Price Alerts`.
 
 
-![product alert18](https://i.imgur.com/KrtjWtN.png)
+![](https://i.imgur.com/KrtjWtN.png)
 
 
 #### 1. Subscribers
@@ -222,13 +222,13 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Product Price
 - **New subcription**
 
 
-![product alert19](https://i.imgur.com/QbhsPwv.png)
+![](https://i.imgur.com/QbhsPwv.png)
 
 
 - **Edit subcription**
 
 
-![product alert20](https://i.imgur.com/YZbbSzZ.png)
+![](https://i.imgur.com/YZbbSzZ.png)
 
 
 - **Product SKU**: Insert the SKUs for products that customers want to be notified when they have better prices. This is a required field.
@@ -251,7 +251,7 @@ Login to the **Magento Admin**, choose `Catalog > Product Alerts > Product Price
 This part reports the most wanted products based on the data of customers subscription of better price items, which includes: Product name, Product SKU, Number of Requests, etc. The subscribed products which are canceled will not be reported here. 
 
 
-![product alert21](https://i.imgur.com/b4kNnuE.png)
+![](https://i.imgur.com/b4kNnuE.png)
 
 
 ##### 2.2. Report 
@@ -259,7 +259,7 @@ This part reports the most wanted products based on the data of customers subscr
 Using the above data, this module enables generating the chart of most requested products for better prices. The horizontal axis is Product SKU whereas the vertical axis is Number of Requests. 
 
 
-![product alert22](https://i.imgur.com/BjWGsr7.png)
+![](https://i.imgur.com/BjWGsr7.png)
 
 
 ### IV. Edit product
@@ -269,9 +269,9 @@ Login to the **Magento Admin**, choose `Catalog > Products`.
 This part records the subscribers' information ( both for out-of-stock products and better price products notifications, which includes: Customer name, Customer Email, Subscribe Date, Last Sent, Send Count.
 
 
-![product alert23](https://i.imgur.com/jRbKxl5.png)
+![](https://i.imgur.com/jRbKxl5.png)
 
-![product alert24](https://i.imgur.com/feY2bqg.png)
+![](https://i.imgur.com/feY2bqg.png)
 
 
 - **Stock Status (Magento default)**: Select the stock status including **In Stock** and **Out of Stock**. 
@@ -296,12 +296,12 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Notification of Successful subscription for price change** 
 
 
-![product alert25](https://i.imgur.com/5Skufem.png)
+![](https://i.imgur.com/5Skufem.png)
 
 **Price change notification**
 
 
-![product alert26](https://i.imgur.com/kdZYXOK.png)
+![](https://i.imgur.com/kdZYXOK.png)
 
 
 #### 2. Out of Stock
@@ -310,13 +310,13 @@ This part records the subscribers' information ( both for out-of-stock products 
 **Notification of Successful subscription for out of stock** 
 
 
-![product alert27](https://i.imgur.com/3bss4KJ.png)
+![](https://i.imgur.com/3bss4KJ.png)
 
 
 **Back in Stock Notification**
 
 
-![product alert28](https://i.imgur.com/7vZ9Up1.png)
+![](https://i.imgur.com/7vZ9Up1.png)
 
 
 `Note`: Click `View Your List` button, visitors will be redirected to `My product alerts` where all the subscribed products of them are listed.  
@@ -325,7 +325,7 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 Products Alert extension is fully compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/). This allows admin to generate Reports of **Recent request stock available, Recent request price change, Most request price change and Most request stock available**. Click to **View Details** will redirect to **Grid** or **Most Requested Product** 
 
-![product alert29](https://i.imgur.com/mjzaYvG.png)
+![](https://i.imgur.com/mjzaYvG.png)
 
 
 
@@ -336,7 +336,7 @@ Products Alert extension is fully compatible with [Mageplaza Reports extension](
 At **My product alert**, customers can view their subscribed products of out-of-stock and price change notifications.
 
 
-![product alert30](https://i.imgur.com/MES9qbJ.png)
+![](https://i.imgur.com/MES9qbJ.png)
 
 
 
@@ -348,12 +348,12 @@ At **My product alert**, customers can view their subscribed products of out-of-
 
   - **Method 1 Backend**: From the **Admin Panel**, go to `Stores > Attributes > Product`. At column **Attribute Code**, look for attribute `mp_productalerts_price_alert` and `mp_productalerts_stock_notify`, click to them and delete
   
-![product alert31](https://i.imgur.com/IGz10AH.png)
+![](https://i.imgur.com/IGz10AH.png)
   
   - **Method 2 Data base**: Navigate to **eav_attribute** table. At column **Attribute_code**, look for attribute `mp_productalerts_price_alert` and `mp_productalerts_stock_notify`, click to them and delete
 
 
 
 
-![product alert32](https://i.imgur.com/8Wb93D4.png)
+![](https://i.imgur.com/8Wb93D4.png)
 

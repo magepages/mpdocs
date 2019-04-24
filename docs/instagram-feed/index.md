@@ -17,33 +17,33 @@ The Instagram Feed supports displaying your Instagram photos on the homepage, pr
 
 ### 1. Single Row
 
-![Imgur](https://i.imgur.com/UxbV1j1.png)
+![](https://i.imgur.com/UxbV1j1.png)
 
 
 ### 2. Multiple Rows
 
-![Imgur](https://i.imgur.com/jOVztok.png)
+![](https://i.imgur.com/jOVztok.png)
 
 
 ### 3. Optimized images
 
-![Imgur](https://i.imgur.com/LxPEF9f.png)
+![](https://i.imgur.com/LxPEF9f.png)
 
 ### 4. Show Likes/Comments
 
 
-![Imgur](https://i.imgur.com/ZYSYcwr.png)
+![](https://i.imgur.com/ZYSYcwr.png)
 
 ### 5. Show Popup when licking to the images
 
-![Imgur](https://i.imgur.com/7UB5bj5.png)
+![](https://i.imgur.com/7UB5bj5.png)
 
 
 ## How to configure
  
 From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EXTENSIONS > Instagram Feed`
 
-![Imgur](https://i.imgur.com/gtkq63P.png)
+![](https://i.imgur.com/gtkq63P.png)
 
 
 ### 1. Configuration 
@@ -52,7 +52,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 #### 1.1. General 
 
 
-![Imgur](https://i.imgur.com/I9ZA7aE.png)
+![](https://i.imgur.com/I9ZA7aE.png)
 
 - **Enable**: Select `Yes` to enable the module
 - **Client ID**: Insert the App ID
@@ -61,7 +61,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 #### 1.2. Display
 
-![Imgur](https://i.imgur.com/ZB67Y2X.png)
+![](https://i.imgur.com/ZB67Y2X.png)
 
 
 - **Total number of photos**
@@ -70,7 +70,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
   
 - **Sort by**
 
-![Imgur](https://i.imgur.com/yzqN72i.png)
+![](https://i.imgur.com/yzqN72i.png)
 
 - **Sort by = Most recent**: Show the most recent products
 - **Sort by = Most liked**: Show the most liked products
@@ -81,7 +81,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 - **Layout**
 
-![Imgur](https://i.imgur.com/cxTACKL.png)
+![](https://i.imgur.com/cxTACKL.png)
 
 
   - *Layout = Single Row*: Display images on a row
@@ -93,7 +93,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 - **Image resolutions**
 
-![Imgur](https://i.imgur.com/1bmDFp6.png)
+![](https://i.imgur.com/1bmDFp6.png)
 
   - *Image resolutions = Standard*: Display images with standard resolution
   - *Image resolutions = Low*: Display images with low resolution
@@ -119,7 +119,7 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
   - Choose the current theme you are applying in the **Design Theme**.
   - Click **Continue** button.
 
-![Imgur](https://i.imgur.com/AB4TAd8.png)
+![](https://i.imgur.com/AB4TAd8.png)
 
 ##### Step 2: Complete the Storefront Properties section
 
@@ -128,14 +128,14 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
   - Assign the block to all store views in the **Assign to Store View** field or to any store view you want to apply the block.
   - Set the **Sort Order** if many blocks are placed at the same container. The block is at the top if the inserted value is zero.
 
-![Imgur](https://i.imgur.com/xWcKx1u.png)
+![](https://i.imgur.com/xWcKx1u.png)
 
 
 - In the **Layout Updates** section, click on **Layout Update** to set the layout.
   - In the **Display on** field, choose the **category**, **product**, or **page** in which the block can be shown 
   - If you want to display the block on specific page, you can choose the **Page** and the **Container** is the position the block will appear on that page.
 
-![Imgur](https://i.imgur.com/O0nXEzZ.png)
+![](https://i.imgur.com/O0nXEzZ.png)
 
 
 ##### Step 3: Configure Widget Options to display Instagram images
@@ -144,7 +144,7 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
 - **Description**: Insert the description for Instagram images displayed on Frontend
 - **Design** 
 
-![Imgur](https://i.imgur.com/kl2zUZt.png)
+![](https://i.imgur.com/kl2zUZt.png)
 
 - **Design = Use Config**: Display the product images by using the Instagram images configuration
 - **Design = Custom**: Admin can custom the displaying of Instagram images on frontend
@@ -153,7 +153,7 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
   - The maximum number is 20
 - **Sort by**
 
-![Imgur](https://i.imgur.com/J6tZ66f.png)
+![](https://i.imgur.com/J6tZ66f.png)
 
 - **Sort by = Most recent**: Show the most recent products
 - **Sort by = Most liked**: Show the most liked products
@@ -164,7 +164,7 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
 
 - **Layout**
 
-![Imgur](https://i.imgur.com/cxTACKL.png)
+![](https://i.imgur.com/cxTACKL.png)
 
 
   - *Layout = Single Row*: Display images on a row
@@ -176,7 +176,7 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
 
 - **Image resolutions**
 
-![Imgur](https://i.imgur.com/1bmDFp6.png)
+![](https://i.imgur.com/1bmDFp6.png)
 
   - *Image resolutions = Standard*: Display images with standard resolution
   - *Image resolutions = Low*: Display images with low resolution

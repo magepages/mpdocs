@@ -23,12 +23,12 @@ In this extension, all the reports will use line graphs, which are fond of showi
 
 Login to the Magento admin panel, choose `Store > Settings > Configuration > Mageplaza Extensions > Reports`
 
-![Imgur](https://i.imgur.com/KmSr5GG.png)
+![](https://i.imgur.com/KmSr5GG.png)
 
 
 #### 1. General 
 
-![general](https://i.imgur.com/IGClDwN.png)
+![](https://i.imgur.com/IGClDwN.png)
 
 * In the **Module Enable** field: Choose `Yes` to enable this module.
 * In the **Enable Chart** field: Select `Yes` to show the graph.
@@ -42,12 +42,12 @@ Thí function allow mobiles access to admin Dashboard by Access Key. In Mobilde 
 
 After the configuration is completed, you will get the result displayed as the following image:
 
-![configuration result](https://i.imgur.com/1DL4ks1.png)
+![](https://i.imgur.com/1DL4ks1.png)
 
 
 **Dasboard Displaying**
 
-![Imgur](https://i.imgur.com/7BzRy6v.png)
+![](https://i.imgur.com/7BzRy6v.png)
 
 - The charts displeyed at Moblie Dashboard include: 
   - Default report at Dashboard such as Lifetime Sales, Average Order, Last Orders, Last Search Terms, Top Search Terms, BestSellers, Most View Products, New Customer, Customers, Tax, Shipping. 
@@ -61,11 +61,11 @@ After the configuration is completed, you will get the result displayed as the f
 - Each Chart displays only 5 results typical for its criteria
 - Each chart is represented by 1 card. Admin can adjust dashboard with cards provided by the module
 
-![Imgur](https://i.imgur.com/DwPlEM0.png)
+![](https://i.imgur.com/DwPlEM0.png)
 
 - Admins can also filter the results by the time period they want
 
-![Imgur](https://i.imgur.com/jMxUTeo.png)
+![](https://i.imgur.com/jMxUTeo.png)
 
 ## Must-have extensions for your Magento stores
 

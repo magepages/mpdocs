@@ -16,19 +16,19 @@ To use this module, customers need to click on the Quick Order link or the butto
 
 * **Top Menu**
 
-![top menu](https://i.imgur.com/rE9mlwa.png)
+![](https://i.imgur.com/rE9mlwa.png)
 
 * **Next to Search Box**
 
-![next to search box](https://i.imgur.com/GDZ1YHO.png)
+![](https://i.imgur.com/GDZ1YHO.png)
 
 * **Footer Link**
 
-![footer link](https://i.imgur.com/b3myLsO.png)
+![](https://i.imgur.com/b3myLsO.png)
 
 After clicking on the button/link of Quick Order, customers can access to the Quick Order page that its interface is displayed as below:
 
-![interface of quick order](https://i.imgur.com/77urGjp.png)
+![](https://i.imgur.com/77urGjp.png)
 
 * 1 - **Add to cart button**:
 
@@ -75,7 +75,7 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
 
 * This is the general configuration, which can be applied for the module.
 
-![general configuration](https://i.imgur.com/ziwjbNc.png)
+![](https://i.imgur.com/ziwjbNc.png)
 
 * **Enable**: 
   * Choose Yes to enable this module
@@ -89,19 +89,19 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
 * **Show Quick Order Link**: There are 3 positions that Link/button of Quick Order page can be shown:
   * **Top Menu**
   
-  ![top menu](https://i.imgur.com/xdhJxKn.png)
+  ![](https://i.imgur.com/xdhJxKn.png)
   
   * **Next to Search Box**
   
-  ![next to search box](https://i.imgur.com/u8fZsl1.png)
+  ![](https://i.imgur.com/u8fZsl1.png)
   
   * **Footer Link**
   
-  ![footer link](https://i.imgur.com/aWwBYGY.png)
+  ![](https://i.imgur.com/aWwBYGY.png)
   
 ### Search
 
-![search field](https://i.imgur.com/j4HCpFs.png)
+![](https://i.imgur.com/j4HCpFs.png)
 
 * **Auto search minimum character**:
   * The number entered here specifies the minimum number of characters that customers must enter to display the search result.
@@ -115,7 +115,7 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
   
 ### Design
 
-![design field](https://i.imgur.com/xUcOKzM.png)
+![](https://i.imgur.com/xUcOKzM.png)
 
 * **Heading Background Color**: This field specifies the color of the Heading.
 * **Heading Text Color**: This field specifies the text color of the Heading Text.

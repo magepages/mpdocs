@@ -8,12 +8,12 @@ In order to capture the EU data protection standards, Mageplaza has released a n
 ## How to Configure
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > GDPR``
 
-![gdrp1](https://i.imgur.com/YGJmKZh.png)
+![](https://i.imgur.com/YGJmKZh.png)
 
 ### I. General 
 Check in **General** to learn the basic configuration of the module
 
-![gdrp2](https://i.imgur.com/4cB3TrU.png)
+![](https://i.imgur.com/4cB3TrU.png)
 
 * In the **Enable** field: Choose "Yes" to turn the module on.
 * In the **Allow Delete Customer Account**: Choose "Yes" to allow customers can delete their account by themselves.
@@ -21,21 +21,21 @@ Check in **General** to learn the basic configuration of the module
   * Enter the message displayed when customers are going to delete their account.
   * Custom message is supported by HTML code.
 
-![gdpr3](https://i.imgur.com/SuWVlKw.png)
+![](https://i.imgur.com/SuWVlKw.png)
 
 * In the **Allow Delete Default Address** field: Choose "Yes" to allow customers to delete their default address.
 
-![gdpr4](https://i.imgur.com/CccsEGQ.png)
+![](https://i.imgur.com/CccsEGQ.png)
 
 * In the **Allow password verification** field:
   * Choose Yes to use this feature
   * When customers want to remove their account, they need to enter the password correctly to delete the account successfully.
   
-![Imgur](https://i.imgur.com/SoTXGCv.png)
+![](https://i.imgur.com/SoTXGCv.png)
 
 * In the **Show Customer Register Term and Condition**: Select Yes to show the Term and Condition when customers create a new account.
 
-![Imgur](https://i.imgur.com/1zDzGns.png)
+![](https://i.imgur.com/1zDzGns.png)
 
 * In the **GDPR Checkbox Title** field: Enter the title that is displayed in the checkbox in the Term and Condition section.
 * In the **Term and Condition** field: 
@@ -44,11 +44,11 @@ Check in **General** to learn the basic configuration of the module
 
 ### II. Anonymise Account Configuration
 
-![gdpr5](https://i.imgur.com/OwqDIad.png)
+![](https://i.imgur.com/OwqDIad.png)
 
 * In the **Allow Delete Abandoned Cart** field: Choose "Yes" to delete abandoned cart when customers delete their accounts.
 
-![gdpr6](https://i.imgur.com/SvoWNOz.png)
+![](https://i.imgur.com/SvoWNOz.png)
 
 * In the **Allow anonymizing account in billing document** field:
   * Choose "Yes" to anonymize Billing Address, Shipping Address of the customer after he deletes his account.
@@ -73,30 +73,30 @@ Check in **General** to learn the basic configuration of the module
   * Allow hiding one or more information in the address field.
   * The selected information will be hidden when the customers delete the account.
 
-![Imgur](https://i.imgur.com/V2khIOt.png)
+![](https://i.imgur.com/V2khIOt.png)
 
 The information will be hidden in the order when customers remove their account.
   
-![gdpr7](https://i.imgur.com/xrSpILH.png)
+![](https://i.imgur.com/xrSpILH.png)
 
-![gdpr8](https://i.imgur.com/VksrRV5.png)
+![](https://i.imgur.com/VksrRV5.png)
 
 ### III. Cookie Restriction
 
-![gdpr9](https://i.imgur.com/Xu06tpk.png)
+![](https://i.imgur.com/Xu06tpk.png)
 
 * In the **Enable Cookie Restriction Mode** field: Choose "Yes" to restrict the cookie using of Magento 2.
 * In the **Visitors must accept cookie policy** field: Choose "Yes" so that:
   * Customers need to confirm their consent in cookie using policies to be able to sign in, or add the product to their Wishlist.
   * A warning popup box will be displayed if customers don't accept the policy
 
-![gdpr9](https://i.imgur.com/59W32xi.png)
+![](https://i.imgur.com/59W32xi.png)
 
 * In the **Cookie Text Message** field: 
   * Enter the content of the suggest message to let them consider whether or not to allow cookies using.
   * HTML code is supported.
 
-![gdpr10](https://i.imgur.com/VWOgSjp.png)
+![](https://i.imgur.com/VWOgSjp.png)
 
 * In the **CMS Cookie Policy Page** field: Choose from the list the page you want to put the internal link in ``Learn more`` of **Cookie Text Message**.
 * In the **Button Label** field: Enter the name of the button in **Cookie Text Message** (default is "Allow Cookies")
@@ -106,7 +106,7 @@ The information will be hidden in the order when customers remove their account.
 
 ### IV. Email Configuration
 
-![Imgur](https://i.imgur.com/HlGrROY.png)
+![](https://i.imgur.com/HlGrROY.png)
 
 * In the **Enable Email Confirmation** field:
   * Choose Yes to send the email confirmation when customers remove the account.
@@ -118,7 +118,7 @@ The information will be hidden in the order when customers remove their account.
 
 Below is the content of the email:
 
-![Imgur](https://i.imgur.com/0uRTyAs.png)
+![](https://i.imgur.com/0uRTyAs.png)
   
 
 

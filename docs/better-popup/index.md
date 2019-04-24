@@ -15,22 +15,22 @@ Are you ready to revolutionize your e-commerce store? It's easier than ever to t
 
 Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Better Popup**
 
-![configuration](https://i.imgur.com/3TbZ96J.png)
+![](https://i.imgur.com/3TbZ96J.png)
 
 ## Configuration
 ### General Configuration
 
-![general configuration](https://i.imgur.com/zgyGlgJ.png)
+![](https://i.imgur.com/zgyGlgJ.png)
 
 * **Enable**: Choose Yes to enable the module
 
 ### What to Show
 
-![what to show](https://i.imgur.com/Pgo4Uov.png)
+![](https://i.imgur.com/Pgo4Uov.png)
 
 * **Template**
 
-![template](https://i.imgur.com/BROYv9b.png)
+![](https://i.imgur.com/BROYv9b.png)
 
   * Allow choosing the popup template displaying in the frontend
   * Use the "Default Template"
@@ -44,7 +44,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
   
 * **Responsive Design**
 
-![responsive design](https://i.imgur.com/Q9FLxMU.png)
+![](https://i.imgur.com/Q9FLxMU.png)
 
   * **Responsive design = Center Popup**: The popup will display in the center of the screen and display with the moderate size
   * **Responsive design = FullScreen Popup**: The popup will show full screen. The content of the popup will show in the center of the screen
@@ -59,7 +59,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
   
 * **Popup Success**
 
-![popup success](https://i.imgur.com/0lZQxBK.png)
+![](https://i.imgur.com/0lZQxBK.png)
 
   * **Coupon code**
     * Enter the coupon code
@@ -75,16 +75,16 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
  
 ### Where to Show
 
-![where to show](https://i.imgur.com/sYDTXhP.png)
+![](https://i.imgur.com/sYDTXhP.png)
 
 * **Page(s) to show**
 
-![which page to show](https://i.imgur.com/5gKcBQt.png)
+![](https://i.imgur.com/5gKcBQt.png)
 
   * **Page(s) to show = All Pages**: This means that it will display the popup on all pages.
   * **Page(s) to show = Manually Insert**: Show the popup on the pages that are inserted the code at the Manually Insert. 
 
-![manually insert](https://i.imgur.com/MOJl7ia.png)
+![](https://i.imgur.com/MOJl7ia.png)
 
   * **Insert manually this snippet to your page**: Display the code so that admins can copy and insert into the pages they wish to display the popup
     
@@ -95,7 +95,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
     
   * **Page(s) to show = Specific Page**: Display the popup on some selected pages
   
-![specific page](https://i.imgur.com/lfx1NTq.png)
+![](https://i.imgur.com/lfx1NTq.png)
 
   * **Include Pages**:
     * Enter the pages that you want to show the popup
@@ -128,17 +128,17 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ### When to Show
 
-![when to show](https://i.imgur.com/Synd8mp.png)
+![](https://i.imgur.com/Synd8mp.png)
 
 * **When the popup appears**
 
-![when the popup appear](https://i.imgur.com/mkqpIRB.png)
+![](https://i.imgur.com/mkqpIRB.png)
 
   * **When the popup appears = Exit Intent**: This means that the popup will appear when hovering away from the current page
   * **When the popup appears = After page loaded**: The popup will appear when loading the page
   * **When the popup appears = After X seconds**: The popup will appear after x seconds 
 
-![after x seconds](https://i.imgur.com/ZxONFiO.png)
+![](https://i.imgur.com/ZxONFiO.png)
 
   * **After x seconds**
     * Enter the number of seconds to display the popup
@@ -147,7 +147,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
   
   * **When the popup appears = After scrolling down X% of page**: The popup will appear when scrolling the page down x% configured
   
-  ![after scroll down x%](https://i.imgur.com/afgzM4h.png)
+  ![](https://i.imgur.com/afgzM4h.png)
   
   * **After scroll down**
     * Enter the percentage after scrolling down to show the popup
@@ -160,11 +160,11 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
     
   * **Show floating button**: Choose Yes to display the gift button
   
-  ![show float button](https://i.imgur.com/FAj8om0.png)
+  ![](https://i.imgur.com/FAj8om0.png)
   
   * **Floating button position**
   
-     ![floating button position](https://i.imgur.com/Z4jDDtf.png)
+     ![](https://i.imgur.com/Z4jDDtf.png)
   
     * **Floating button position = Left**: The gift button will display below, the left corner of the screen
     * **Floating button position = Right**: The gift button will display below, the right corner of the screen
@@ -177,7 +177,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
     
 * **Send Email**
 
-![send email](https://i.imgur.com/lDUjy6X.png)
+![](https://i.imgur.com/lDUjy6X.png)
 
 * **Enable Send Email**: Choose Yes to use the email notification feature
 * **Send Email To**:
@@ -189,15 +189,15 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ## Better Popup
 
-![better popup](https://i.imgur.com/pd8DDiu.png)
+![](https://i.imgur.com/pd8DDiu.png)
 
 ## Email Reports
 
-![email report](https://i.imgur.com/T92IMKk.png)
+![](https://i.imgur.com/T92IMKk.png)
 
 ## Email's content
 
-![email content](https://i.imgur.com/xc9rnGq.png)
+![](https://i.imgur.com/xc9rnGq.png)
 
  
     

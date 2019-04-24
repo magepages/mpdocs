@@ -15,16 +15,16 @@ Currently, for websites that have some pages you want to create their own promot
 
 Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissions`
 
-![Imgur](https://i.imgur.com/dVzgEXk.gif)
+![](https://i.imgur.com/dVzgEXk.gif)
 
 ### 1.1. General
 
-![Imgur](https://i.imgur.com/F8T0wlr.png)
+![](https://i.imgur.com/F8T0wlr.png)
 
 - **Enable**: Select `Yes` to enable the module. You can install [Call for Price extension](https://www.mageplaza.com/magento-2-call-for-price/) of Mageplaza to contact the store to ask for price or product information or ask for the restricted page you want to access.
 
 
-![Imgur](https://i.imgur.com/19IRxvu.png)
+![](https://i.imgur.com/19IRxvu.png)
 
 
 - **Disable Catalog Search for**: Selecting customers from whom you want to restrict **Catalog Search** at all the pages having the search tab. You can choose to restrict multiple customer groups at the same time. The customer group that is not selected can use Catalog Search normally. If you do not want to restrict any customer group, you can leave this option blank. You can disable catelog search for the following customer groups:
@@ -33,7 +33,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   - Wholesale
   - Retail
   
-  ![Imgur](https://i.imgur.com/Mo3fdQj.png)
+  ![](https://i.imgur.com/Mo3fdQj.png)
   
   
 - **WhitelistIP(s)**:
@@ -44,7 +44,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   
 #### 1.1.1. Restrict Category
 
-![Imgur](https://i.imgur.com/eL8KiCi.png)
+![](https://i.imgur.com/eL8KiCi.png)
 
 - **Enable**: Select `Yes` to enable **Restrict Category** and will display a new field **Customer Group Restriction** under the **Content** tab when accessing the `Catalog> Categories`.
 
@@ -52,7 +52,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   - **CMS Page**: Display the **Select CMS Page** field to select CMS Page to be redirected to when access to the restricted category.
     - **Select CMS Page**: Select CMS page. You can access `Content > Page`, click **Add New Page** to create more pages you want to redirect to.
     
-    ![Imgur](https://i.imgur.com/BDR6uH6.png)
+    ![](https://i.imgur.com/BDR6uH6.png)
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted category 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
@@ -63,7 +63,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   
 #### 1.1.2. Restrict Product
 
-![Imgur](https://i.imgur.com/3jR2hKF.png)
+![](https://i.imgur.com/3jR2hKF.png)
 
 - **Enable**: Select `Yes` to enable **Restrict Product** and will display a new field **Customer Group Restriction** under the **Content** tab when accessing the `Catalog> Products`.
 
@@ -71,7 +71,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   - **CMS Page**: Display the **Select CMS Page** field to select CMS Page to be redirected to when access to the restricted Product.
     - **Select CMS Page**: Select CMS page. You can access `Content > Page`, click **Add New Page** to create more pages you want to redirect to.
     
-    ![Imgur](https://i.imgur.com/BDR6uH6.png)
+    ![](https://i.imgur.com/BDR6uH6.png)
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted Product 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
@@ -82,7 +82,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   
 #### 1.1.3. Restrict Static Page
 
-![Imgur](https://i.imgur.com/kubEvxv.png)
+![](https://i.imgur.com/kubEvxv.png)
 
 - **Enable**: Select `Yes` to enable **Restrict Static Page** and will display a new field **Customer Group Restriction** under the **Content** tab when accessing the `Catalog> Page`.
 
@@ -90,7 +90,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   - **CMS Page**: Display the **Select CMS Page** field to select CMS Page to be redirected to when access to the restricted Product.
     - **Select CMS Page**: Select CMS page. You can access `Content > Page`, click **Add New Page** to create more pages you want to redirect to.
     
-    ![Imgur](https://i.imgur.com/BDR6uH6.png)
+    ![](https://i.imgur.com/BDR6uH6.png)
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted page 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
@@ -98,7 +98,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   
 #### 1.1.4. Restrict Static Block
 
-![Imgur](https://i.imgur.com/rxgIscf.png)
+![](https://i.imgur.com/rxgIscf.png)
 
 - **Enable**: select `Yes` to enable **Restrict Static Block** and will display a new field **Customer Group Restriction** when accessing `Content > Blocks`.
 
@@ -110,7 +110,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 - **This section applies the configuration when choose new/edit for each Category.** 
 - **Note**: If the Restrict Category in the Configuration section and for each Category here are different, priorities will be given to each category first.
 
-![Imgur](https://i.imgur.com/oez4vp0.png)
+![](https://i.imgur.com/oez4vp0.png)
 
 - **Enable**:
   - Default is `No` if **Enable Restrict Category** is enabled.
@@ -127,7 +127,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   - **CMS Page**: Display the **Select CMS Page** field to select CMS Page to be redirected to when access to the restricted category.
     - **Select CMS Page**: Select CMS page. You can access `Content > Page`, click **Add New Page** to create more pages you want to redirect to.
     
-    ![Imgur](https://i.imgur.com/BDR6uH6.png)
+    ![](https://i.imgur.com/BDR6uH6.png)
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted category 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
@@ -153,7 +153,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 - **This section applies the configuration when choose new/edit for each Product.** 
 - **Note**: If the Restrict Products in the Configuration section and for each Product here are different, priorities will be given to each Product first.
 
-![Imgur](https://i.imgur.com/uDOO7g4.png)
+![](https://i.imgur.com/uDOO7g4.png)
 
 - **Enable**:
   - Default is `No` if **Enable Restrict Product** is enabled.
@@ -170,7 +170,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   - **CMS Page**: Display the **Select CMS Page** field to select CMS Page to be redirected to when access to the restricted Product.
     - **Select CMS Page**: Select CMS page. You can access `Content > Page`, click **Add New Page** to create more pages you want to redirect to.
     
-    ![Imgur](https://i.imgur.com/BDR6uH6.png)
+    ![](https://i.imgur.com/BDR6uH6.png)
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted Product 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
@@ -197,11 +197,11 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 
 *Page*
 
-![Imgur](https://i.imgur.com/bLK7hid.png)
+![](https://i.imgur.com/bLK7hid.png)
 
 *Block*
 
-![Imgur](https://i.imgur.com/eN5tQjo.png)
+![](https://i.imgur.com/eN5tQjo.png)
 
 - **Enable**:
   - Default is `No` if **Enable Restrict Product** is enabled.
@@ -228,7 +228,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   - **CMS Page**: Display the **Select CMS Page** field to select CMS Page to be redirected to when access to the restricted Product.
     - **Select CMS Page**: Select CMS page. You can access `Content > Page`, click **Add New Page** to create more pages you want to redirect to.
     
-    ![Imgur](https://i.imgur.com/BDR6uH6.png)
+    ![](https://i.imgur.com/BDR6uH6.png)
 
   - **Select Specific URL**: Display the **Specific URL** field allow you to choose specific URL to be redirected to when accessing the restricted Product 
     - **Specific URL**: Enter Url for the **Specific URL** field. If left blank or incorrectly entered the URL format, it will redirect to the 404 page by default
@@ -244,4 +244,4 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 - If you delete the extension manually, you need to delete `mpcp_isactive, mpcp_customergroup, mpcp_redirectto, mpcp_usecf_redirectto, mpcp_hideaction, mpcp_usecf_hideaction, mpcp_startdate, mpcp_enddate` attribute in the database.
   - Access the database to delete: Access to `eav_attribute` table. In the `attribute_code` column, find and delete the `mpcp_isactive, mpcp_customergroup, mpcp_redirectto attribute, mpcp_usecf_redirectto, mpcp_hideaction, mpcp_usecf_hideaction, mpcp_startdate, mpcp_enddate`.
   
-  ![Imgur](https://i.imgur.com/1m5f1BO.png)
+  ![](https://i.imgur.com/1m5f1BO.png)

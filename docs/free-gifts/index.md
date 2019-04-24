@@ -8,19 +8,19 @@
 - Customers can add Free Gift if the product is added to cart and applied the promotion. Free Gift will be added automatically or customers will select the gift they like depending on the installation of admins.
 - When the product that is applied for promotion is removed from the cart, their free gifts are also removed.
 
-![free gifts](https://i.imgur.com/3CFLTaG.png)
+![](https://i.imgur.com/3CFLTaG.png)
 
 ## How to configure
 
 From the Admin panel, go to `Marketing > Free Gifts`
 
-![free gifts1](https://i.imgur.com/dWZ4sT6.png)
+![](https://i.imgur.com/dWZ4sT6.png)
 
 ### 1. Configuration
 
 From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
-![free gifts2](https://i.imgur.com/1qG9Zt9.png)
+![](https://i.imgur.com/1qG9Zt9.png)
 
 - **Enable**: Choose "Yes" to enable this module
 - **Gift Icon**:
@@ -38,7 +38,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 ### 2. Manage Rule
 #### 2.1. Grid
-![free gifts3](https://i.imgur.com/nhPgvzc.png)
+![](https://i.imgur.com/nhPgvzc.png)
 
 - This is a place to store all the created rules
 - From the Grid, admins can capture the basic information of the rules such as *ID, Name, Status, State, Website, Customer Group, Priority and Action can be implemented with the Rule*
@@ -48,12 +48,12 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - In the `Action` column, click the `Edit` button to edit the information
   - In addition, admins can filter, change Store View, hide/show Columns, Export Grid or edit Inline.
   
-  ![free gifts5](https://i.imgur.com/mJT42fV.png)
+  ![](https://i.imgur.com/mJT42fV.png)
   
 #### 2.2. Add New/Edit Form
 ##### 2.2.1. General tab
 
-![Imgur](https://i.imgur.com/iqkEVix.png)
+![](https://i.imgur.com/iqkEVix.png)
 free gifts4
 
 - **Name**: Enter the rule name. This name only displays in the backend to distinguish from other rules
@@ -72,7 +72,7 @@ free gifts4
   
 ##### 2.2.2. Condition
 
-![free gifts6](https://i.imgur.com/eBJefE1.png)
+![](https://i.imgur.com/eBJefE1.png)
 
 - This is a place that you select the conditions for the rule. Only products that meet the selected condisitons, the new rule is applied.
 - You can add/remove the condition by clicking on `+` or `x`
@@ -80,7 +80,7 @@ free gifts4
 
 ##### 2.2.3. Action
 
-![free gifts7](https://i.imgur.com/vVxWUl3.png)
+![](https://i.imgur.com/vVxWUl3.png)
 
 - **Type**: Choose how to add Free Gift to Cart:
   - `Automatic`: Free Gift is automatically added randomly from the Gift List
@@ -112,11 +112,11 @@ free gifts4
 
 #### Frontend Cart
 
-![free gifts8](https://i.imgur.com/39nHpU8.png)
+![](https://i.imgur.com/39nHpU8.png)
 
 #### Frontend Popup
 
-![free gifts9](https://i.imgur.com/e5y4msh.png)
+![](https://i.imgur.com/e5y4msh.png)
 
 
 Please note that Frontend Popup is only shown with `Manually` type.

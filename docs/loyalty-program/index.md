@@ -16,23 +16,23 @@ For increasing the demand for shopping, connecting between customers and store o
 
 #### Email notification when customer can join certain loyalty program
 
-![join email](https://i.imgur.com/ScYjhpZ.png)
+![](https://i.imgur.com/ScYjhpZ.png)
 
 #### Email notification of maintaining the loyalty program
 
-![maintaining the loyalty program](https://i.imgur.com/139zNez.png)
+![](https://i.imgur.com/139zNez.png)
 
 #### Email notification of downgrading loyalty program
 
-![downgrading loyalty program](https://i.imgur.com/bSpeYcV.png)
+![](https://i.imgur.com/bSpeYcV.png)
 
 #### Email notification of expiration of the loyalty program
 
-![expire email](https://i.imgur.com/9zM6wAN.png)
+![](https://i.imgur.com/9zM6wAN.png)
 
 #### Show order statistics and information about the program
 
-![program info](https://i.imgur.com/Ic1vYXs.png)
+![](https://i.imgur.com/Ic1vYXs.png)
 
 
 ## How to Configure
@@ -42,15 +42,15 @@ For increasing the demand for shopping, connecting between customers and store o
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`
 
-![path](https://i.imgur.com/TdXJnTy.png)
+![](https://i.imgur.com/TdXJnTy.png)
 
-![configuration](https://i.imgur.com/Dkmzj2l.png)
+![](https://i.imgur.com/Dkmzj2l.png)
 
 #### 1.1. General
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, select **General**
 
-![general](https://i.imgur.com/HfKEPsa.png)
+![](https://i.imgur.com/HfKEPsa.png)
 
 - **Enable**: Select **Yes** to enable the module.
 - **Enable Loyalty Page**: Select **Yes** to show the Loyalty page at frontend
@@ -58,7 +58,7 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
   - Select the content displayed on the Loyalty page.
   - You can access `Content > Elements > Blocks`, click **Add New Block** to create a new **Static Block page**, or click **Edit** to edit the **Static page** you created. 
   
-  ![static block](https://i.imgur.com/TaC89qL.png)
+  ![](https://i.imgur.com/TaC89qL.png)
   
 
 - **Order Statistic Row**: show the order statistics by row. Click **More** to add the data, or click the Bin icon to delete the data 
@@ -83,7 +83,7 @@ As for Custom duration, Start Time and End Time can be in text which is in relat
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, select **Email Configuration**
 
-![email](https://i.imgur.com/cQc6Pxu.png)
+![](https://i.imgur.com/cQc6Pxu.png)
 
 - **Enable**:
   - Select **Yes** to allow sending email notifications to customers.
@@ -91,7 +91,7 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
   
 - **Sender**: Select the representative to send the email notification to customer:
 
-![sender](https://i.imgur.com/5hGRTMa.png)
+![](https://i.imgur.com/5hGRTMa.png)
 
 - **Enable join program email**: Select **Yes** to allow email notification when customers can join certain loyalty program.
 
@@ -128,7 +128,7 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Loyalty Program`
 
-![manage loyalty program](https://i.imgur.com/f2YsNnS.png)
+![](https://i.imgur.com/f2YsNnS.png)
 
 - This is where the Loyalty Program information is displayed.
 - From the **Manage Loyalty Program** section, admin can capture basic information of Loyalty Programs such as ID, Name, Status, Number of customers, Number of Rules, Priority, and Action.
@@ -145,14 +145,14 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Loyalty Pr
 
 ##### 2.2.1. General
 
-![general](https://i.imgur.com/rK7eNTX.png)
+![](https://i.imgur.com/rK7eNTX.png)
 
 - **Name**: Enter the name of a loyalty program. this is a required field.
 - **Status**: Select **Enable** so that the loyalty program can be activated
 - **Duration**: Set the active time for loyalty program. There are four options: Permanent, Day, Month ,Year. In which Permanent means that Loyalty Program will be active unlimited time
 - **Description**: Enter the description of the loyalty program, the information is displayed under the program name. Admin can add images, change description to HTML, adit the description types. 
 
-![description](https://i.imgur.com/Ca9QbwK.png)
+![](https://i.imgur.com/Ca9QbwK.png)
 
 
 - **Priority**:
@@ -161,30 +161,30 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Loyalty Pr
   
   **Note**: Select the rule to apply loyalty program. Please access to `Marketing > Cart Price Rule`, select **Add new rule** to create a rule. At **Cart Price Rule** choose **Loyalty Programs**
 
-![Imgur](https://i.imgur.com/XMocm2a.png)
+![](https://i.imgur.com/XMocm2a.png)
 
 ##### 2.2.2. Conditions
 
 Select the conditions to apply customers to each program. The customer information will be shown at table below (2.2.3)
 
-![conditions](https://i.imgur.com/AMf3Ftr.png)
+![](https://i.imgur.com/AMf3Ftr.png)
 
  
 ##### 2.2.3. Customers
 
 Only displayed when admin finishes creating the program
 
-![customer](https://i.imgur.com/9tHt4Am.png)
+![](https://i.imgur.com/9tHt4Am.png)
 
 - **Customer**: Clicking on the **Customer** field will display the table, select specific customer to add to the loyalty program, then click **Save**. Admin can choose many customers once.
 
-![customer1](https://i.imgur.com/ldIDQjK.png)
+![](https://i.imgur.com/ldIDQjK.png)
 
 #### 2.3. Manage Customer
 
 From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Customer`
 
-![Imgur](https://i.imgur.com/Qfl2Jsy.png)
+![](https://i.imgur.com/Qfl2Jsy.png)
 
 - Here showing customer information in their Loyalty Program
 - From **Manage Customer**, admin can have basic customer information such as: ID, Customers Name, Email, Customer Group, Loyalty Program, Expired Date, Action.

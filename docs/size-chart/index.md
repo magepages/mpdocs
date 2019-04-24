@@ -14,14 +14,14 @@ There is an obvious fact that every brand, every region has a different size reg
 ## How to Configure
 Login to the **Magento Admin**, choose **Catalog > Size Chart**
 
-![how to configure](https://i.imgur.com/nxV9aA6.png)
+![](https://i.imgur.com/nxV9aA6.png)
 
 ### 1. Manage Rules 
 #### 1.1. Basic management interface 
 
 This field allows admins to stipulate the Size Chart display according to each of certain rule.
 
-![manage rules](https://i.imgur.com/jufQK7x.png)
+![](https://i.imgur.com/jufQK7x.png)
 
 * This is a place where stores all Size Chart created.
 * From the Grid, admins can capture the basic information of the rule as ID, Name, Display Type, Priority, Create Date, Update Date, Active, and Action.
@@ -31,7 +31,7 @@ This field allows admins to stipulate the Size Chart display according to each o
   * **Edit**: To edit a rule, admins choose Edit in the `Action` box (the last column on the right of the Grid).
   * **Quick Edit**: Admins can edit some fields of the rule on the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
   
-  ![the change of the grid](https://i.imgur.com/GRD0EiF.png)
+  ![](https://i.imgur.com/GRD0EiF.png)
   
 * Also, admins can filter, change store view, hide or appear the columns or Export Grid.
 
@@ -41,7 +41,7 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
 
 ##### 1.2.1. Information 
 
-![information](https://i.imgur.com/tfDbaaf.png)
+![](https://i.imgur.com/tfDbaaf.png)
 
 * **Name**: 
   * Set the name for the rule. This name only displays in the backend to distinguish between the different rules.
@@ -58,7 +58,7 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
 
 ##### 1.2.2. What to Show 
 
-![what to show](https://i.imgur.com/6rhXzXV.png)
+![](https://i.imgur.com/6rhXzXV.png)
 
 * **Template HTML**: With this customizable HTML, it is easy for you to design your desired template with the HTML command line.
 * **Template CSS**: You can add CSS in this field so that your template becomes beautifully.
@@ -66,7 +66,7 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
 
 ##### 1.2.3. Where to Show
 
-![where to show](https://i.imgur.com/nnVaamy.png)
+![](https://i.imgur.com/nnVaamy.png)
 
 * This is a place that you select the conditions for the rule. The new rule will be applied when these products can satisfy the selected conditions.
 * You can add/delete the condition by clicking on `+` or `x`
@@ -74,21 +74,21 @@ After logging into the `Manage Rules` page, admins choose `Add Rule` to create a
 
 ##### 1.2.4. How to Show
 
-![how to show](https://i.imgur.com/v0Z6hAv.png)
+![](https://i.imgur.com/v0Z6hAv.png)
 
 * **How to display**: We offer 3 ways for you to show Size Chart in the frontend. You can allow displaying many positions at the same time, however, at the same position shows 1 size chart only.
 
   * **Popup**: Size Chart will display as the popup when you click on the Size Chart button. The position of the popup button depends on the attribute you enter in the `Attribute Code` field. This button will display when the `Attribute Code` is entered as a swatch/dropdown attribute.
   
-  ![the position popup](https://i.imgur.com/7JlO2yb.png)
+  ![](https://i.imgur.com/7JlO2yb.png)
   
   * **Inline:Under Add to Cart button**: Size Chart is displayed on the frontend under the Social Link button.
   
-  ![the position inline](https://i.imgur.com/4fP8j0W.png)
+  ![](https://i.imgur.com/4fP8j0W.png)
   
   * **Product Tab**: Size Chart is displayed as a tab in the **Product information** block.
   
-  ![product tab position](https://i.imgur.com/YtZOx04.png)
+  ![](https://i.imgur.com/YtZOx04.png)
   
 * **Attribute Code**:
   * Only show this field when you choose **How to display = Popup**
@@ -101,7 +101,7 @@ From the Admin Panel, please go to **Catalog > Size Chart > Configuration**
 
 #### 2.1. General Configuration 
 
-![general configuration](https://i.imgur.com/dDipsRZ.png)
+![](https://i.imgur.com/dDipsRZ.png)
 
 * Choose Yes to Enable this module.
 * Choose Icon for Size Chart popup so that it can display on the frontend.
@@ -111,7 +111,7 @@ From the Admin Panel, please go to **Catalog > Size Chart > Configuration**
 
 * To install a particular product without a rule, admins can select `Catalog > Product > Edit Product` and set the size chart rule for the product by using the attribute `size chart` 
 
-![Size chart attribute](https://i.imgur.com/4SGMiWr.png)
+![](https://i.imgur.com/4SGMiWr.png)
 
 
 * Attribute Size Chart includes 3 main options:
@@ -134,7 +134,7 @@ In case the option `Inherit from Category/Rule` is set for both categories Jacke
 
 * To set all products in the category by one certain Size Chart Rule, admins can select `Catalog > Categories`, and set the attribute Size Chart similar to when setting Size Chart in `Edit Product`.
 
-![size chart in categories](https://i.imgur.com/mkulVE3.png)
+![](https://i.imgur.com/mkulVE3.png)
 
 * If you select **Size Chart = Inherit from Rule**, the selected products (Inherit from Rule in the Edit Product) in the Category will be applied the rule with the satisfied condition and the highest (smallest) Priority.
 
@@ -143,15 +143,15 @@ In case the option `Inherit from Category/Rule` is set for both categories Jacke
 * Size Chart extension is displayed in the frontend with 3 positions:
   * **Popup**: Size Chart will appear as a popup when you click on the Size Chart button. The position of the popup button depends on the attribute you enter in the `Attribute Code` field. The button will display when the `Attribute Code` is entered as a swatch/dropdown attribute
 
-![the popup position](https://i.imgur.com/RaZBWaP.png)
+![](https://i.imgur.com/RaZBWaP.png)
 
   * **Inline:Under Add to Cart button**: Size Chart is displayed in the frontend under the Social Link button.
   
-  ![inline position](https://i.imgur.com/4fP8j0W.png)
+  ![](https://i.imgur.com/4fP8j0W.png)
   
   * **Product Tab**: Size Chart is displayed as a tab in the Product Information block
   
-  ![product tab position](https://i.imgur.com/YtZOx04.png)
+  ![](https://i.imgur.com/YtZOx04.png)
   
 
 

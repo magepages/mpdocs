@@ -6,21 +6,21 @@ Default Magento only allows fixed shipping fees for item or order, admins can on
 ## How to use
 - The rule is applied on the frontend
 
-![shipping rules](https://i.imgur.com/L6rlhBE.png)
+![](https://i.imgur.com/L6rlhBE.png)
 
 - The rule is apllied in the backend
 
-![shipping rules 1](https://i.imgur.com/xlL1aav.png)
+![](https://i.imgur.com/xlL1aav.png)
 
 ## How to configure
 
 From the Admin Panel, go to `Sales > Shipping Rules > Configuration`
 
-![shipping rules 2](https://i.imgur.com/NcNUmpR.png)
+![](https://i.imgur.com/NcNUmpR.png)
 
 ### 1. Configuration
 
-![shipping rules3](https://i.imgur.com/WCcgXpJ.png)
+![](https://i.imgur.com/WCcgXpJ.png)
 
 #### General
 
@@ -71,7 +71,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
   - The smaller the number, the higher the priority
   - For rules with equal priority, the priority will be based on what rules are created first.
 
-![shipping rules4](https://i.imgur.com/LvWuyfE.png)
+![](https://i.imgur.com/LvWuyfE.png)
 
 ##### Step 2: Set the conditions to apply the rule in the Conditions section
 
@@ -89,14 +89,14 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
     - If the customers use a coupon or purchase and satisfy the conditions of the selected rule in the `Cart Price Rules`, this shipping rule will not apply without checking the applicable conditions of the selection above.
     - If one or more rules is selected in the `Active if Cart Price Rules applied` fields and `Inactive if Cart Price Rules applied` fields, the `Inactive if Cart Price Rules applied` field will be checked based on the `Inactive if Cart Price Rules applied`
 
-![shipping rules5](https://i.imgur.com/T8phYaX.png)
+![](https://i.imgur.com/T8phYaX.png)
 
 ##### Step 3: Set up shipment calculation in Actions section
 ###### Configure Calculation Shipping Fee
 
 - **How to apply fee**
 
-![shipping rules6](https://i.imgur.com/ivnS9py.png)
+![](https://i.imgur.com/ivnS9py.png)
 
   - `How to apply fee = Re-calculate shipping fee`: Replace the old shipping fee calculation
   - `How to apply fee = Add extra fee`: Add the extra fee for the shipping
@@ -112,13 +112,13 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
 - `Maximal of Total Shipping Fee`: Enter the maximum shipping charge that the customers will pay
   - For example: Admins configure `Minimal of Total Shipping Fee` is $15. After calculating the shipping fee will be $12. The actual shipping fee will be $15. Similar to the `Maximal of Total Shipping Fee`, the Maximal of Total Shipping Fee is $25. After calculating the shipping fee is  30. The actual shipping fee will be $25.
 
-![shipping rules7](https://i.imgur.com/nikv7Qo.png)
+![](https://i.imgur.com/nikv7Qo.png)
 
 ###### Configure Order Scope: Shipping fee is calculated for the Order
 
 - **Type**
 
-![shipping rules8](https://i.imgur.com/AuqQKmb.png)
+![](https://i.imgur.com/AuqQKmb.png)
 
   - `Type = Disable`: The shipping fee is not calculated for the Order
   - `Type = Fixed Amount`: The shipping fee is a fixed amount per order
@@ -130,7 +130,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
       - `Cart Total includes = Discount`: Shipping fee is calculated based on the total purchase amount after discount
       - Cart Total can be selected including Tax and Discount
       
-      ![shipping rules9](https://i.imgur.com/affYta2.png)
+      ![](https://i.imgur.com/affYta2.png)
 
 - **Fee Amount**
   - Enter fixed shipment or percentage to charge ship
@@ -140,7 +140,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
 
 - **Type**
 
-![shipping rules11](https://i.imgur.com/8fcuLLo.png)
+![](https://i.imgur.com/8fcuLLo.png)
 
   - `Type = Disable`: The shipping fee is not calculated for each product
   - `Type = Fixed Amount`: The shipping fee is a fixed amount per each order
@@ -152,7 +152,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
       - `Item price includes = Discount`: Ship charges are calculated based on the price of each item after discount
       - You can choose the price of each product including Tax and Discount
       
-      ![shipping rules12](https://i.imgur.com/g76dgXd.png)
+      ![](https://i.imgur.com/g76dgXd.png)
 
 - **Fee Amount**
   - Enter fixed shipment or percentage to charge ship
@@ -163,11 +163,11 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
   - `Apply for free shipping items`
     - Select Yes to apply the rule to the products that are shipped free if the selected products are also in the same rule and that rule has a free shipping configuration when purchasing these products.
 
-![shipping rules13](https://i.imgur.com/aXbKT0Z.png)
+![](https://i.imgur.com/aXbKT0Z.png)
 
 ### 3. Compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) 
 
-![shipping rules14](https://i.imgur.com/QS2AJem.png)
+![](https://i.imgur.com/QS2AJem.png)
 
 
 

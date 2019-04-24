@@ -17,20 +17,20 @@ You can download from the following resouces:
 ## How to use
 You can review login records from the dashboard when entering the backend. The log displays the newest 5 logins and you can click on the login name to view the details.
 
-![i6](https://i.imgur.com/X4qv87Y.png)
+![](https://i.imgur.com/X4qv87Y.png)
 
 ## How to configure
 After logging in Magento backend, go to ``System > Security``. We will provide detail guides to these bellow configuration
 * Login Log
 * Checklist
 
-![i1](https://i.imgur.com/pTHmlzL.png)
+![](https://i.imgur.com/pTHmlzL.png)
 
 ### I. Configuration
 #### 1.1. General
 After entering ``Store > Settings > Configuration > Mageplaza Extensions > Security``, expand the General configuration
 
-![i10](https://i.imgur.com/uqGBWW1.png)
+![](https://i.imgur.com/uqGBWW1.png)
 
 * In the **Enable** field: Choose “Yes” to turn the Security module on.
 * In the **Send warning emails to** field: 
@@ -40,7 +40,7 @@ After entering ``Store > Settings > Configuration > Mageplaza Extensions > Secur
 #### 1.2. Brute Force Protection
 Follow ``System > Security > Configuration > General > Brute Force Protection``
 
-![i2](https://i.imgur.com/PC2809t.png)
+![](https://i.imgur.com/PC2809t.png)
 
 * In the **Enable** field: Choose "Yes" to enable this function.
 * In the **Maximum number of failed login attempts** field:
@@ -58,11 +58,11 @@ Follow ``System > Security > Configuration > General > Brute Force Protection``
 
 Here’s an example of a warning emails:
 
-![i7](https://i.imgur.com/ymrlPta.png)
+![](https://i.imgur.com/ymrlPta.png)
 
 #### 1.2. Blacklist/Whitelist IPs
 
-![i3](https://i.imgur.com/CI5lmut.jpg)
+![](https://i.imgur.com/CI5lmut.jpg)
 
 * In the **Blacklist(s)** field:
   *  All IP addresses filled in this section will be blocked whenever accessing the admin login page.
@@ -90,7 +90,7 @@ Blacklist(s) has higher priority than Whitelist(s) which means if a IP address i
 ### II. Checklist
 Checklist is a bunch of outlines pointing out which factor(s) can be the possible vulnarablity for your stores. Go to ``System > Security > Checklist``
 
-![i6](https://i.imgur.com/YyRbNhE.png)
+![](https://i.imgur.com/YyRbNhE.png)
 
 * In the **Check admin's username** box: Check the name of the admin account, if the default name is too obvious to guess or popular to name, the message will alert the store owner.
 * In the **Check captcha** box
@@ -108,19 +108,19 @@ For possible low-key factors that are not good for your security, they will be m
 ### III. Login Log
 From the admin panel, make your way to ``System > Security > Login Log``. All logins and login attempts will be recorded here.
 
-![i4](https://i.imgur.com/gIBNONW.png)
+![](https://i.imgur.com/gIBNONW.png)
 
 Click ``View`` to see login details. Here’s an example:
 
-![i5](https://i.imgur.com/8CbThoJ.png)
+![](https://i.imgur.com/8CbThoJ.png)
 
 * Once an admin account has exceeded the allowed login attempts (which is configured at ``Store> Settings> Configuration> Advanced> Maximum Login Failures to Lockout Account``), there will be a mail notification to the store owner that this account has been lock up. Store owner should review this case again to reset safety settings. You can refer this [article](https://www.mageplaza.com/kb/how-to-reset-a-locked-admin-account-in-magento-2.html) to learn how to unlock an admin user account. 
 
-![i7](https://i.imgur.com/EE2EZq9.png)
+![](https://i.imgur.com/EE2EZq9.png)
 
 * Also, store owners can check the last login of a specific administratore. You can follow ``System > Permissions > All Users``
 
-![i8](https://i.imgur.com/f7a0SkZ.png)
+![](https://i.imgur.com/f7a0SkZ.png)
 
 * The **Last login** column records the newest recent login attempt of an admin.
 * The **IP Address** column records the IP address corresponding to the newest recent login attempt of an admin. Clicking on an IP address, it will redirect to the [Traceip](http://www.traceip.net/) page.

@@ -25,11 +25,11 @@ In addition, this extension is fully compatible with the [Mageplaza Delete Order
 
 From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive`
 
-![Imgur](https://i.imgur.com/wccAHvS.png)
+![](https://i.imgur.com/wccAHvS.png)
 
 #### 1.1. General Configuration
 
-![Imgur](https://i.imgur.com/SoQPPks.png)
+![](https://i.imgur.com/SoQPPks.png)
 
 - **Enable**: Select `Enable = Yes` to enable the module
 - **Show Archive Order for Customer(s)**: Select `No` to have the orders transferred to the Archive be hidden from **My Orders** in **Customer's Dashboard**
@@ -37,7 +37,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
 
 #### 1.2. Schedule Configuration
 
-![Imgur](https://i.imgur.com/yUrYB3I.png)
+![](https://i.imgur.com/yUrYB3I.png)
 
 - Includes settings related to automatic order storage. An order is only stored in schedule when and only if it satisfies all the conditions on **Purchase Date, Order Status, Customer Group, Store View, Shipping Country and Order Total**
 - **Schedule For**: 
@@ -65,7 +65,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
 
 #### 1.3. Email Notification
 
-![Imgur](https://i.imgur.com/pM61T5A.png)
+![](https://i.imgur.com/pM61T5A.png)
 
 - **Enable**: Select `Yes` to enable email sending feature to admin every time an order is stored (including manual or automatic storage)
 - **Sender**: There are 5 default types of **Magento Sender** for Admin to choose: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
@@ -80,7 +80,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
   
 ### 2. Order Archives Grid
 
-![Imgur](https://i.imgur.com/dWrvNDR.png)
+![](https://i.imgur.com/dWrvNDR.png)
 
 - Similar to the default **Magento Grid Order**, the **Order Archives Grid** also has basic features such as **Filter, Add Columns or Export and View Order**
 - In Grid, Admin can perform 3 main actions
@@ -88,7 +88,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
   - **Delete**: The selected Orders will be deleted from the database. This feature only works when the store owner installs the [Mageplaza Delete Order module](https://www.mageplaza.com/magento-2-delete-order/)
   - **View**: The **Detail Order page** will be displayed
 
-![Imgur](https://i.imgur.com/UbeCAzW.png)
+![](https://i.imgur.com/UbeCAzW.png)
 
 
 ### 3. Command line
@@ -100,7 +100,7 @@ php bin / magento order: archive order_id
 php bin / magento order: unarchive order_id
 ```
 
-![Imgur](https://i.imgur.com/hcxnXa0.png)
+![](https://i.imgur.com/hcxnXa0.png)
 
 
 ### 4. API
@@ -115,7 +115,7 @@ Order Archive features **API integration** with the Rest API commands of Magento
 - Use the **Post** and **Send** method with the following command:
 `http://example.com/rest/default/V1/integration/admin/token`
 
-![Imgur](https://i.imgur.com/iSJ5mA5.png)
+![](https://i.imgur.com/iSJ5mA5.png)
 
 - **Access Key** will be displayed in the **Body** section
 
@@ -126,16 +126,16 @@ Order Archive features **API integration** with the Rest API commands of Magento
   - **Authorization**: `bearer access_token`
   - **Content-Type**: `application/json`
 
-![Imgur](https://i.imgur.com/hqv5YNr.png)
+![](https://i.imgur.com/hqv5YNr.png)
 
 - **Send REST API command**
 
-![Imgur](https://i.imgur.com/V0C6VLA.png)
+![](https://i.imgur.com/V0C6VLA.png)
 
 - **Result**: 
 
-![Imgur](https://i.imgur.com/XAiLCol.png)
+![](https://i.imgur.com/XAiLCol.png)
 
 ### 5. Notification Email
 
-![Imgur](https://i.imgur.com/Va0cS2U.png)
+![](https://i.imgur.com/Va0cS2U.png)

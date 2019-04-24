@@ -19,7 +19,7 @@ Mageplaza Stripe extension is fully compatible with [Mageplaza One Step Checkout
 - Pay by Alipay
 - Pay with Giropay
 
-![Imgur](https://i.imgur.com/MYcGbJ8.png)
+![](https://i.imgur.com/MYcGbJ8.png)
 
 - Verify by 3D Secure
 
@@ -36,7 +36,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
 
 #### 1.1 Credential
 
-![Imgur](https://i.imgur.com/UaBM8vk.png)
+![](https://i.imgur.com/UaBM8vk.png)
 
 - **Environment**:
   - Admin can choose **Sandbox** environment to check payment features with Stripe
@@ -47,7 +47,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
 
 ##### 1.1.1 Card
 
-![Imgur](https://i.imgur.com/VH47B1K.png)
+![](https://i.imgur.com/VH47B1K.png)
 
 - **Enable**: Select **Yes** so that Customer can pay by **Card**
 
@@ -63,7 +63,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
   
 - **3D Secure**: Select **Yes** to use 3D Secure to verify Customer's card, thereby preventing payment fraud. Showing extra field **Force using**
 
-![Imgur](https://i.imgur.com/eWkoUeF.png)
+![](https://i.imgur.com/eWkoUeF.png)
 
   - **Force Using**: Select **Yes** to compulsorily verify the card. Showing additional field **USing 3D secure when**. Only successful 3D Secure verified cards can process orders
     - There are 5 types of cards that can be verified by 3D Secure:
@@ -91,7 +91,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
 
 ##### 1.1.2 Alipay
 
-![Imgur](https://i.imgur.com/aYOsnjj.png)
+![](https://i.imgur.com/aYOsnjj.png)
 
 - **Enable**: Select **Yes** so that Customer can pay by **Alipay**
 
@@ -112,7 +112,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
   
   ##### 1.2.3 Giropay
 
-![Imgur](https://i.imgur.com/ASKVpoj.png)
+![](https://i.imgur.com/ASKVpoj.png)
 
 
 - **Enable**: Select **Yes** so that Customer can pay by **Giropay**

@@ -13,12 +13,12 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 ## How to Configure
 
-![configuration](https://i.imgur.com/EbqoGrS.png)
+![](https://i.imgur.com/EbqoGrS.png)
 
 ### Configuration
 #### General Configuration
 
-![general configuration](https://i.imgur.com/a5kd3XU.png)
+![](https://i.imgur.com/a5kd3XU.png)
 
 * **Enable**: Choose Yes to enable this module
 * **Language Code**: Choose the language displaying the reCAPTCHA on the frontend and in the backend
@@ -40,7 +40,7 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
     
 #### Backend Configuration
 
-![backend configuration](https://i.imgur.com/U9jFJNu.png)
+![](https://i.imgur.com/U9jFJNu.png)
 
 * **Enable**: Choose Yes to enable reCAPTCHA when accessing the admin panel
 * **Forms**: Choose a place displaying the reCAPTCHA. Store owners can allow reCAPTCHA to display in 2 forms:
@@ -48,26 +48,26 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
     * **Forms = Admin Forgot Password**: reCAPTCHA will display in the Admin Forgot Password Form when store owners access on the Admin Forgot Password page
 * **Size**: Choose the size to show the reCAPTCHA
 
-![size recaptcha](https://i.imgur.com/nOO4UV2.png)
+![](https://i.imgur.com/nOO4UV2.png)
 
    * **Size = Compact**: reCAPTCHA will display as the following image:
    
-![compact size](https://i.imgur.com/lzx6dDc.png)
+![](https://i.imgur.com/lzx6dDc.png)
 
    * **Size = Normal**: reCAPTCHA will display as the following:
    
-   ![normal size](https://i.imgur.com/XNH5sPO.png)
+   ![](https://i.imgur.com/XNH5sPO.png)
   
 * **Theme**
    
-![theme](https://i.imgur.com/I0bKSvx.png)
+![](https://i.imgur.com/I0bKSvx.png)
 
    * **Theme = Light**: reCAPTCHA will display the light color
    * **Theme = Dark**: reCAPTCHA will display the dark color
    
 #### Frontend Configuration
 
-![frontend configuration](https://i.imgur.com/qZ9u4RV.png)
+![](https://i.imgur.com/qZ9u4RV.png)
 
 * **Enable**: Select Yes to display reCAPTCHA on the frontend
 * **Forms**: Choose a place displaying reCAPTCHA on the frontend. Store owners can allow reCAPTCHA to display in all forms.
@@ -80,7 +80,7 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 * **Badge Position**
 
-![badge position](https://i.imgur.com/7hpEcL1.png)
+![](https://i.imgur.com/7hpEcL1.png)
 
    * **Badge Position = Inline**: Recaptcha will display in the selected form on the frontend
    * **Badge Position = Bottom Right**: Recaptcha will display at the bottom right of the page
@@ -88,14 +88,14 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
    
 * **Theme**
 
-![theme](https://i.imgur.com/8oMvOLG.png)
+![](https://i.imgur.com/8oMvOLG.png)
 
    * **Theme = Light**: reCAPTCHA will display the light color
    * **Theme = Dark**: reCAPTCHA will display the dark color
 
 * **Custom Form Position**: Use this feature to add reCAPTCHA into any form on your store
 
-![custom form  position](https://i.imgur.com/1EWvPP4.png)
+![](https://i.imgur.com/1EWvPP4.png)
 
 * **Form Post Paths**
     * Enter the path (url) where will process your form information 
@@ -108,7 +108,7 @@ Below are some detailed steps:
 - Step 2: Choose Form that you want to display reCAPTCHA and open the Test window
 - Step 3: After that, choose **Element** tab, then choose the form that contains the field you want to add reCAPTCHA
 
-![example](https://i.imgur.com/SLQ7BZp.png)
+![](https://i.imgur.com/SLQ7BZp.png)
 
 - Step 4: In the Subscriber Form in the **Action** field, copy the URL path. (In this example, the URL is **"newsletter/subscriber/new/"**)
 - Step 5: Paste the URL into the **Form Post Paths** field
@@ -116,14 +116,14 @@ Below are some detailed steps:
     * The paths are separated by down stream.
     * If you this field is empty and you fill in the information in the **CSS Selectors** field, reCAPTCHA still displays on the form that you fill in the information CSS Selectors, but it doesn't still work on that form.
     
-    ![css selectors](https://i.imgur.com/GdQvB9G.png)
+    ![](https://i.imgur.com/GdQvB9G.png)
     
 * **CSS Selectors**
     * You need to take CSS Selector of the form. At our example, we will take ID of the form.
     
     For example: #newsletter-validate-detail, display reCAPTCHA in the **Subscriber**
     
-   ![css selectors](https://i.imgur.com/91U0SoK.png)
+   ![](https://i.imgur.com/91U0SoK.png)
     
     * The IDs are separated by down stream.
     * If you leave this field blank while filling in the information in **Form Post Paths** field, reCAPTCHA won't display on the form you want.
@@ -147,22 +147,22 @@ Or you also disable the configuration by the command below:
 * Go to the path to download the library of Google Recaptcha [here](https://github.com/mageplaza/magento-2-google-recaptcha/tree/library)
 * Extract `magento-2-google-recaptcha-library.zip` into `lib/internal/Mageplaza`, then change the name of the file that you have just extracted, `Recaptcha`
 
-![recaptcha](https://i.imgur.com/Kh8q150.png)
+![](https://i.imgur.com/Kh8q150.png)
 
 * Run the following command to install:
 `php bin/magento setup:upgrade`
 
 #### The display of reCAPTCHA on the frontend
 
-![display recaptcha](https://i.imgur.com/Hi0kGnx.png)
+![](https://i.imgur.com/Hi0kGnx.png)
 
-![display recaptcha on the frontend](https://i.imgur.com/9TnOxom.png)
+![](https://i.imgur.com/9TnOxom.png)
 
 
 #### The display of reCAPTCHA in the backend
 
 
-![Recaptcha in the backend](https://i.imgur.com/rQRCtCF.png)
+![](https://i.imgur.com/rQRCtCF.png)
 
 
 

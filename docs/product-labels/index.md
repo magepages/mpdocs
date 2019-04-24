@@ -23,13 +23,13 @@ php bin/magento setup:static-content:deploy
 
 From the Admin Panel, go to `Content > Product Labels > Configuration`
 
-![how to configure](https://i.imgur.com/cnAlD7g.png)
+![](https://i.imgur.com/cnAlD7g.png)
 
 ### Configuration
 
 From the Admin Panel, go to  `Content > Product Labels > Configuration`, choose `General` section
 
-![configuration](https://i.imgur.com/ljnXfOI.png)
+![](https://i.imgur.com/ljnXfOI.png)
 
 #### General
 
@@ -69,7 +69,7 @@ From the Admin Panel, go to  `Content > Product Labels > Configuration`, choose 
   - Enter priority for synchronizing objects
   - The smaller the input number, the higher the priority. Items have the equal priority, the priority will be based on ID.
   
-  ![fill full information](https://i.imgur.com/GvGlmfb.gif)
+  ![](https://i.imgur.com/GvGlmfb.gif)
   
   
 ##### Step 2: Set the condition to apply the label display for the products in the `Where to Show` section
@@ -78,7 +78,7 @@ From the Admin Panel, go to  `Content > Product Labels > Configuration`, choose 
 - **Limit**: Enter the maximum number of best-selling products automatically labeled
 - You can customize the product displayed the label by selecting the products shown below after clicking the `Preview Product` button or selecting the products of the category that will be displayed the label. You will see all products meet the conditions in the `PREVIEW PRODUCTS` field
 
-![set the condition](https://i.imgur.com/YO0HaD6.gif)
+![](https://i.imgur.com/YO0HaD6.gif)
 
 ##### Step 3: Design labels and images on the product in the `label design` section
 
@@ -113,16 +113,16 @@ Design the labels and images for the product on the `Product Listing` (the label
     - `Same design with product page = Yes`: Auto-get the design the same as with `Product Page` above
     - `Same design with product page = No`: Display the design the same as `Product Page` above and admins can edit arbitrarily
     
-![product labels](https://i.imgur.com/184QCG2.gif)     
+![](https://i.imgur.com/184QCG2.gif)     
     
 ### Frontend
 #### Display on the Product Listing
 
-![Display on the Product Listing](https://i.imgur.com/1QmoqfC.png)
+![](https://i.imgur.com/1QmoqfC.png)
 
 #### Display on the Product Page
 
-![Display on the Product Page](https://i.imgur.com/gEOG0Tz.png)
+![](https://i.imgur.com/gEOG0Tz.png)
 
 
 

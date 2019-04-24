@@ -7,12 +7,12 @@ Nowadays, Facebook is one of the most popular social networks to be used. And al
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Facebook Plugin > Configuration`
 
-![facebook plugin](https://i.imgur.com/SeNSNDj.png)
+![](https://i.imgur.com/SeNSNDj.png)
 
 ### 1. Configuration
 #### 1.1. General Configuration
 
-![facebook plugin 1](https://i.imgur.com/p6OMV2V.png)
+![](https://i.imgur.com/p6OMV2V.png)
 
 - **Enable**: Choose Yes to use the feature of this module
 - **Facebook App ID**:
@@ -21,7 +21,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
   
 #### 1.2. Facebook Plugin
 
-![facebook plugin 2](https://i.imgur.com/NjAHx0K.png)
+![](https://i.imgur.com/NjAHx0K.png)
 
 - **Enable**: Select Yes to insert the Facebook page into the Widget
 - **Facebook URL**:
@@ -65,7 +65,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
 
 #### 1.3. Facebook Comment
 
-![facebook plugin 7](https://i.imgur.com/Je0rH0O.png)
+![](https://i.imgur.com/Je0rH0O.png)
 
 - **Enable Facebook Comment**: Select Yes to enable the comment feature on the `Product View` page by Facebook
 - **Title**:
@@ -84,7 +84,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
 
 From the Admin Panel, go to Catalog > Product
 
-![Imgur](https://i.imgur.com/N4rzhpe.png)
+![](https://i.imgur.com/N4rzhpe.png)
 
 - **Disabled Facebook Comments**: Select `Yes` to allow the function **Disabled Facebook Comments** on the Product Detail Page 
 
@@ -106,7 +106,7 @@ From the Admin Panel, go to Catalog > Product
   - Choose the current theme you are applying in the `Design Theme`.
   - Click `Continue` button.
 
-![facebook plugin 9](https://i.imgur.com/CvLiImj.png)
+![](https://i.imgur.com/CvLiImj.png)
 
 
 ##### Step 2: Complete the Storefront Properties section
@@ -115,24 +115,24 @@ From the Admin Panel, go to Catalog > Product
   - Assign the block to all store views in the `Assign to Store View` field or to any store view you want to apply the block.
   - Set the `Sort Order` if many blocks are placed at the same container. The block is at the top if the inserted value is zero.
 
-![facebook plugin 10](https://i.imgur.com/FFYSrgD.png)
+![](https://i.imgur.com/FFYSrgD.png)
 
 - In the Layout Updates section, click on `Layout Update` to set the layout.
   - Choose the [category](https://www.mageplaza.com/kb/how-to-create-a-new-category-in-magento-2.html), [product](https://www.mageplaza.com/kb/how-create-simple-product-magento-2.html), or [page]https://www.mageplaza.com/kb/how-to-add-a-new-cms-page-magento-2.html) where shows the block in the `Display on` field.
   - If set to a specific page, you need to choose Page you want to the block to display and set Container that is the position of the page the block appears.
 
-![facebook plugin 11](https://i.imgur.com/KvK6beI.png)
+![](https://i.imgur.com/KvK6beI.png)
 
 ##### Step 3: Configure Widget Options to display the Facebook page
 
 - `Facebook Widget options`:
 
-![facebook plugin 12](https://i.imgur.com/0iW8mVE.png)
+![](https://i.imgur.com/0iW8mVE.png)
 
   - `Facebook Widget options = Use Config`: Use the configuration displaying for Facebook page in the `Configuration` section
   - `Facebook Widget options = Custom`: Admins set the display for Facebook page
 
-![facebook plugin 13](https://i.imgur.com/YAQMaxu.png)
+![](https://i.imgur.com/YAQMaxu.png)
 
 - **Facebook URL**:
   - Enter the URL of the Facebook page you want to advertise
@@ -171,15 +171,15 @@ From the Admin Panel, go to Catalog > Product
 ## 4. Frontend
 ### 4.1. The display of the Facebook page
 
-![facebook plugin 14](https://i.imgur.com/E9xOSGg.png)
+![](https://i.imgur.com/E9xOSGg.png)
 
 ### 4.2. The display of facebook comment on the product page
 
-![facebook plugin 15](https://i.imgur.com/zlfQZXJ.png)
+![](https://i.imgur.com/zlfQZXJ.png)
 
 ### 4.3. Manage the comment on the App of Facebook
 
-![facebook plugin 16](https://i.imgur.com/b6RXN6X.png)
+![](https://i.imgur.com/b6RXN6X.png)
 
 
 
@@ -191,12 +191,12 @@ From the Admin Panel, go to Catalog > Product
 
   - **Method 1 Backend**: From the **Admin Panel**, go to `Stores > Attributes > Product`. At column **Attribute Code**, look for attribute `mp_facebook_comments`, click to it and delete.
   
-![Imgur](https://i.imgur.com/Oj6L81P.png)
+![](https://i.imgur.com/Oj6L81P.png)
   
   - **Method 2 Data base**: Navigate to **eav_attribute** table. At column **Attribute_code**, look for attribute `mp_facebook_comments`, click to it and delete.
 
 
-![Imgur](https://i.imgur.com/Hkxz5dQ.png)
+![](https://i.imgur.com/Hkxz5dQ.png)
 
 
 

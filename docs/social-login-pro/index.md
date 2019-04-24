@@ -21,7 +21,7 @@ Social Login Professional is an improved version of Social Login Standard. With 
 
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login``, choose **General** sections
 
-![i1](https://i.imgur.com/HW3wSN7.png)
+![](https://i.imgur.com/HW3wSN7.png)
 
 * In the **Enable** field: Select "Yes" to allow customers sign in quickly via social networking sites they are using.
 * In the **Send Password To Customer** field: Select "Yes" to activate sending notifications to customers to remind them to change their passwords when signing in via social accounts. They can change their passwords via their emails used to register for that social account.
@@ -35,7 +35,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 * In the **Require Real Email** field: Choose Yes to enable the real email confirmation feature with the social media that don't provide a real email as Yahoo, Github, etc.
 * Popup Effect : Admin can select one among popup display effects below
 
-![i2](https://i.imgur.com/UdCPC1D.png)
+![](https://i.imgur.com/UdCPC1D.png)
 
 * In the **Style Management** field:  Admin can choose one of the display colors for popup. Style Management = Custom means Admin can select custom the color swatch.
 * In the **Custom CSS** field: You can add CSS code to customize based on your personal preference.
@@ -45,7 +45,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 
 #### 1.2. CAPTCHA
 
-![i3](https://i.imgur.com/xpaKLLd.png)
+![](https://i.imgur.com/xpaKLLd.png)
 
 * In the **Enable CAPTCHA** field: There will be 3 selections
   * **Enable CAPTCHA = No**: No display CAPTCHA on popup
@@ -57,7 +57,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
     * Show CAPTCHA on popup
     * Use default CAPTCHA of Google
   
-  ![captcha](https://i.imgur.com/Xb0req8.png)
+  ![](https://i.imgur.com/Xb0req8.png)
     
 * In the **Forms** field
   * **Login**: Show CAPTCHA at Sign In Popup
@@ -76,7 +76,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Facebook``.
 
-![i](https://i.imgur.com/DCfYg9g.png)
+![](https://i.imgur.com/DCfYg9g.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Facebook button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -84,7 +84,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 1.2. Login using Facebook
 
-![i](https://i.imgur.com/YYTboV0.png)
+![](https://i.imgur.com/YYTboV0.png)
 
 Facebook Login dialog will be shown after clicking on Sign in with Facebook button.
 
@@ -93,7 +93,7 @@ Facebook Login dialog will be shown after clicking on Sign in with Facebook butt
  
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Google``.
 
-![i](https://i.imgur.com/zmgb6Xc.png)
+![](https://i.imgur.com/zmgb6Xc.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Google button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -101,7 +101,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 2.2. Login using Google
 
-![i](https://i.imgur.com/8HH65wn.png)
+![](https://i.imgur.com/8HH65wn.png)
 
 Google Login dialog will be shown after clicking on Sign in with Google button
  
@@ -110,14 +110,14 @@ Google Login dialog will be shown after clicking on Sign in with Google button
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Amazon``.
 
-![i](https://i.imgur.com/A8QygO0.png)
+![](https://i.imgur.com/A8QygO0.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Amazon button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 
 ##### 3.2. Login using Amazon
 
-![i](https://i.imgur.com/OPolbZs.png)
+![](https://i.imgur.com/OPolbZs.png)
 
 Amazon Login dialog will be shown after clicking on Sign in with Amazon button.
 
@@ -126,7 +126,7 @@ Amazon Login dialog will be shown after clicking on Sign in with Amazon button.
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Twitter``.
 
-![i](https://i.imgur.com/7nJyMQO.png)
+![](https://i.imgur.com/7nJyMQO.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Twitter button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -134,7 +134,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 4.2. Login using Twitter
 
-![i](https://i.imgur.com/7krIzKe.png)
+![](https://i.imgur.com/7krIzKe.png)
 
 Twitter Login dialog will be shown after clicking on Sign in with Twitter button.
 
@@ -143,7 +143,7 @@ Twitter Login dialog will be shown after clicking on Sign in with Twitter button
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Linkedln``
 
-![i](https://i.imgur.com/FLUlpJz.png)
+![](https://i.imgur.com/FLUlpJz.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with LinkedIn button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -151,7 +151,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 5.2. Login using LinkedIn
 
-![i](https://i.imgur.com/xbGp02N.png)
+![](https://i.imgur.com/xbGp02N.png)
 
 LinkedIn Login dialog will be shown after clicking on Sign in with LinkedIn button.
 
@@ -160,7 +160,7 @@ LinkedIn Login dialog will be shown after clicking on Sign in with LinkedIn butt
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Yahoo``.
 
-![i](https://i.imgur.com/Tw1ak6i.png)
+![](https://i.imgur.com/Tw1ak6i.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Yahoo button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -168,7 +168,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 6.2. Login using Yahoo
 
-![i](https://i.imgur.com/KRZM5v2.png)
+![](https://i.imgur.com/KRZM5v2.png)
 
 Yahoo Login dialog will be shown after clicking on Sign in with Yahoo button.
  
@@ -177,7 +177,7 @@ Yahoo Login dialog will be shown after clicking on Sign in with Yahoo button.
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Foursquare``.
 
-![i](https://i.imgur.com/QasGjHu.png)
+![](https://i.imgur.com/QasGjHu.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Foursquare button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -185,7 +185,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 7.2. Login using Foursquare
 
-![i](https://i.imgur.com/vq67cqO.png)
+![](https://i.imgur.com/vq67cqO.png)
 
 Foursquare Login dialog will be shown after clicking on Sign in with Foursquare button.
  
@@ -194,7 +194,7 @@ Foursquare Login dialog will be shown after clicking on Sign in with Foursquare 
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Instagram``.
 
-![i](https://i.imgur.com/CtDYMVw.png)
+![](https://i.imgur.com/CtDYMVw.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Instagram button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -202,7 +202,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 8.2. Login using Instagram
 
-![i](https://i.imgur.com/P5HffnF.png)
+![](https://i.imgur.com/P5HffnF.png)
 
 Instagram Login dialog will be shown after clicking on Sign in with Instagram button.
 
@@ -211,7 +211,7 @@ Instagram Login dialog will be shown after clicking on Sign in with Instagram bu
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Vkontakte``.
 
-![i](https://i.imgur.com/xtzV4YM.png)
+![](https://i.imgur.com/xtzV4YM.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Vkontakte button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -219,7 +219,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 9.2. Login using Vkontakte
 
-![i](https://i.imgur.com/SWgvRaJ.png)
+![](https://i.imgur.com/SWgvRaJ.png)
 
 Vkontakte Login dialog will be shown after clicking on Sign in with Vkontakte button.
 
@@ -228,7 +228,7 @@ Vkontakte Login dialog will be shown after clicking on Sign in with Vkontakte bu
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Github``.
 
-![i](https://i.imgur.com/PmA4aTL.png)
+![](https://i.imgur.com/PmA4aTL.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Github button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -236,7 +236,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 ##### 10.2. Login using Github
 
-![i](https://i.imgur.com/BptHpHv.png)
+![](https://i.imgur.com/BptHpHv.png)
 
 Github Login dialog will be shown after clicking on Sign in with Github button.
 
@@ -246,14 +246,14 @@ Github Login dialog will be shown after clicking on Sign in with Github button.
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Disqus``
 
-![how to configure disqus](https://i.imgur.com/pXou8VZ.png)
+![](https://i.imgur.com/pXou8VZ.png)
 
 * In the **Enable** field: Choose Yes to display the Signin button with Disqus
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 ### Login using Disqus
 
-![login using disqus](https://i.imgur.com/YKfuCOG.png)
+![](https://i.imgur.com/YKfuCOG.png)
 
 * The Disqus login dialog will be displayed after clicking the Login button with Disqus.
 
@@ -263,14 +263,14 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Mailru`
 
-![how to configure mailru](https://i.imgur.com/7ZpQlgQ.png)
+![](https://i.imgur.com/7ZpQlgQ.png)
 
 * In the **Enable** field: Choose Yes to enable the login button with Mailru
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 ### Login using Mailru
 
-![login using mailru](https://i.imgur.com/ivjRtZx.png)
+![](https://i.imgur.com/ivjRtZx.png)
 
 * The Mailru login dialog will be displayed after clicking the Login button with Mailru.
 
@@ -280,7 +280,7 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Odnoklassniki`
 
-![how to configure Odnoklassniki](https://i.imgur.com/HsBQYYx.png)
+![](https://i.imgur.com/HsBQYYx.png)
 
 * In the **Enable** field: Choose Yes to enable the login button with Odnoklassniki
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
@@ -288,7 +288,7 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 ### Login using Odnoklassniki
 
-![login using Odnoklassniki](https://i.imgur.com/2VvBjWZ.png)
+![](https://i.imgur.com/2VvBjWZ.png)
 
 * The Odnoklassniki login dialog will be displayed after clicking the Login button with Odnoklassniki.
 
@@ -298,7 +298,7 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Steam`
 
-![steam](https://i.imgur.com/CX94jEz.png)
+![](https://i.imgur.com/CX94jEz.png)
 
 
 * In the **Enable** field: Choose Yes to enable the login button with Steam
@@ -306,7 +306,7 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 ### Login using Steam
 
-![login using steam](https://i.imgur.com/9Biu7h3.png)
+![](https://i.imgur.com/9Biu7h3.png)
 
 * The Steam login dialog will be displayed after clicking the Login button with Steam.
 

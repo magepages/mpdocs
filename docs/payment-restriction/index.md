@@ -11,7 +11,7 @@ This extension is totally compatible with [Mageplaza One Step Checkout](https://
 
 From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choose `General Configuration` section.
 
-![payment restriction](https://i.imgur.com/uKV1hUp.png)
+![](https://i.imgur.com/uKV1hUp.png)
 
 - **Enable**: Choose "Yes" to enable the features of this module
 
@@ -20,7 +20,7 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
 
 From the Admin Panel, go to `Sales > Payment Restriction > Manage Rules`.
 
-![payment restriction1](https://i.imgur.com/ZzYlWQU.png)
+![](https://i.imgur.com/ZzYlWQU.png)
 
 - This section will record all created rules with the basic information as *Name, Status, Method, Store view, Customer Groups, etc*
 - Admins can perform some actions:
@@ -37,7 +37,7 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
 
 ##### 2.2.1. General
 
-![payment restriction3](https://i.imgur.com/vkp4CEY.png)
+![](https://i.imgur.com/vkp4CEY.png)
 
 - **Name**: Set the name of the name
 - **Description**: Enter the description for the rule
@@ -64,7 +64,7 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
   
 ##### 2.2.2. Conditions
 
-![payment restriction4](https://i.imgur.com/RIErTB5.png)
+![](https://i.imgur.com/RIErTB5.png)
 
 **Apply the rule only if the following conditions are met (leave blank for all products)**
 
@@ -87,7 +87,7 @@ From the Admin Panel, go to `Sales > Payment Restriction > Configuration`, choos
 
 ##### 2.2.3. Actions
 
-![payment restriction7](https://i.imgur.com/SX5RNXO.png)
+![](https://i.imgur.com/SX5RNXO.png)
 
 - **Select Payment Methods**: Choose the payment method to apply the rule. You can choose more or all payment methods to show all `Enabled Payment Methods`
 - **Action**: Choose "Show" to display the selected payment methods

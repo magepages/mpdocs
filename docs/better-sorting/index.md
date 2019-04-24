@@ -13,7 +13,7 @@
 
 Better Soring supports showing product by:
 
-![Better Sorting1](https://i.imgur.com/0yFl9Qu.png)
+![](https://i.imgur.com/0yFl9Qu.png)
 
 ## How to configure
 
@@ -22,38 +22,38 @@ Better Soring supports showing product by:
 Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`.
 
 
-![Better Sorting2](https://i.imgur.com/tjOLc2v.gif)
+![](https://i.imgur.com/tjOLc2v.gif)
 
 #### 1.1. General
 
-![Better Sorting3](https://i.imgur.com/XYJmmWu.png)
+![](https://i.imgur.com/XYJmmWu.png)
 
 
 - **Enable**: Select `Yes` to activate the Module and you can sort product as the product types you want. 
 - **Show Out of Stock at the End**: Here are the options
 
-![Better Sorting4](https://i.imgur.com/nX7WGwN.png)
+![](https://i.imgur.com/nX7WGwN.png)
 
 
 - **Base on stock label**: Display the **Out of Stock products** at the page bottom based on stock label. You can access to `Catalog > Products`, then change **Stock Status** field into **Out of stock** for any products shown at bottom page even though it still remains in inventory. 
 
-![Better Sorting5](https://i.imgur.com/NyZgCOw.png)
+![](https://i.imgur.com/NyZgCOw.png)
 
 - **No**: Not display the **Out of Stock** product at the page bottom.
 
 - **Base on qty (<1)**: Display the **Out of Stock** products at page bottom based on **product quantity (<1)**. Please go to `Catalog> Products` to change **Quantity**, if the product quantity is smaller than 1, those products will be shown at page bottom, otherwise, they will not be applied **Sorting** and hence display products as usual.
 
-![Better Sorting 6](https://i.imgur.com/uv9stNr.png)
+![](https://i.imgur.com/uv9stNr.png)
 
 - **Default Sort by on Search Page**: Default sorting product on the search page. If the first sorting type is not enabled, the second one will be applied. For example, if the **Discount** Sorting type is not enabled, then the module will show product by **Bestseller**
 
 
-![Better Sorting 7](https://i.imgur.com/0e7Nnoy.png)
+![](https://i.imgur.com/0e7Nnoy.png)
 
 
 #### 1.1.1. Discount
 
-![Better Sorting 8](https://i.imgur.com/vD8V9G6.png)
+![](https://i.imgur.com/vD8V9G6.png)
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by Discount items.
@@ -70,11 +70,11 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 - **Apply On**: Select to show product sorting by Discount in:
   - **Category Page**: 
   
-  ![Better Sorting 9](https://i.imgur.com/E5IXGNz.png)
+  ![](https://i.imgur.com/E5IXGNz.png)
   
   - **Search Page**:
   
-  ![Better Sorting 10](https://i.imgur.com/vttTCBg.png)
+  ![](https://i.imgur.com/vttTCBg.png)
 
 - **Default Sort Direction**: Select the default sort direction with Discount:
   - **Ascending**: arrange discount products in the direction of increasing
@@ -90,7 +90,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 #### 1.1.2. Bestseller
 
-![Better Sorting 11](https://i.imgur.com/v4UCSu8.png)
+![](https://i.imgur.com/v4UCSu8.png)
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Bestseller**
@@ -103,7 +103,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 - **Time base (days)**:
   - Enter the number of days to sort the bestsellers. For example, you enter 10 days means that the best sellers product in 10 days most recently will be shown. Otherwise, you can access to **Dashboard**, click to **Reload Data** to see Bestseller Product. 
   
-  ![Better Sorting 12](https://i.imgur.com/RjiYtqC.png)
+  ![](https://i.imgur.com/RjiYtqC.png)
   
   - If this field is left blank, the default is the entire time
 
@@ -125,7 +125,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 #### 1.1.3. Most Viewed
 
-![Better Sorting 12](https://i.imgur.com/iZ21uhE.png)
+![](https://i.imgur.com/iZ21uhE.png)
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Most Viewed**
@@ -138,7 +138,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 - **Time base (days)**:
   - Enter the number of days to arrange the **Most Viewed**. For example: You enter 10 days means that the **Most Viewed** product in 10 days most recently will be shown. Otherwise, you can access to **Dashboard**, click to **Reload Data** to see **Most Viewed** Product.
   
-  ![Better Sorting 13](https://i.imgur.com/Oi5ERUq.png)
+  ![](https://i.imgur.com/Oi5ERUq.png)
   
   - If this field is left blank, the default is the entire time
 
@@ -161,7 +161,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 #### 1.1.4. Top Rated
 
 
-![Better Sorting 14](https://i.imgur.com/gUjuk89.png)
+![](https://i.imgur.com/gUjuk89.png)
 
 
 - **Enable**:
@@ -187,7 +187,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 #### 1.1.5. Reviews Count
 
-![Better Sorting 15](https://i.imgur.com/cyOv54b.png)
+![](https://i.imgur.com/cyOv54b.png)
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Reviews Count**
@@ -213,11 +213,11 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 #### 1.1.6. New Arrivals, Stock Quantity, Wishlist, Product Name, Price
 
 
-![Better Sorting 16](https://i.imgur.com/CBhEOJU.png)
+![](https://i.imgur.com/CBhEOJU.png)
 
-![Better Sorting 17](https://i.imgur.com/EUBt9D0.png)
+![](https://i.imgur.com/EUBt9D0.png)
 
-![Better Sorting 18](https://i.imgur.com/AHBODEZ.png)
+![](https://i.imgur.com/AHBODEZ.png)
 
 
 - **Enable**:
@@ -242,11 +242,11 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
   
 **Note**: With **New Arrivals**, products only be applied to this Sorting type when admin set the field **Set Product as New From** for them. The products which is in-stock most recently will be displayed first then come sooner in-stock products. For products which is not choosen in this Sorting type or not be set up the time at **Set Product as New From** field, will not be considered as New Arrivals. Please access to `Catalog > Product`, then choose to edit any product and go to **Set Product as New From** to set the New Arrivals. 
 
-![better Sorting 19](https://i.imgur.com/psMGD37.png)
+![](https://i.imgur.com/psMGD37.png)
   
 #### 1.1.7. Position, Relevance
 
-![Better Sorting 20](https://i.imgur.com/dZkFXV1.png)
+![](https://i.imgur.com/dZkFXV1.png)
 
 - **Enable**:
   - Selecting `Yes` to allow sorting products by **Position/Relevance**. With **Sort by Position**, only apply for **Category Page**, And for **Sort by Relevance**, only apply for Search page.
@@ -269,7 +269,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Better Sorting`
 
 - For example with **Bags** folder: 
 
-![Better Sorting 21](https://i.imgur.com/nUk8Ttm.png)
+![](https://i.imgur.com/nUk8Ttm.png)
 
 ### Notation
 
@@ -279,4 +279,4 @@ When you install the module, you should run the following command to update the 
 
 When you want to uninstall the module, please go to database to delete it. Please access to **Views** table, et **Table** column, find and delete the old data.
 
-![Better Sorting 22](https://i.imgur.com/Ydrs3T3.png)
+![](https://i.imgur.com/Ydrs3T3.png)

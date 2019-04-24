@@ -17,25 +17,25 @@ For the convenience of customers when purchasing multiple products with various 
 
 #### 1.1 Option Template
 
-![Imgur](https://i.imgur.com/G2xUblW.png) 
+![](https://i.imgur.com/G2xUblW.png) 
 
 #### 1.2 Open Quantity
 
-![Imgur](https://i.imgur.com/PAnIw2N.png)
+![](https://i.imgur.com/PAnIw2N.png)
 
 ### 2. Display on Product List Page
 
 #### 2.1 Option Template
 
-![Imgur](https://i.imgur.com/ULGnPfK.png)
+![](https://i.imgur.com/ULGnPfK.png)
 
 #### 2.2 Open Quantity
 
-![Imgur](https://i.imgur.com/XzoiMKE.png)
+![](https://i.imgur.com/XzoiMKE.png)
 
 ### 3. Display on Wish List Page
 
-![Imgur](https://i.imgur.com/tka5N6V.png)
+![](https://i.imgur.com/tka5N6V.png)
 
 ## How to Configure
 
@@ -45,19 +45,19 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 #### General 
 
-![Imgur](https://i.imgur.com/LPI8nPV.png)
+![](https://i.imgur.com/LPI8nPV.png)
 
 - **Enable**: Select `Yes` to activate the module 
 
 - **Change Qty Step** (number of items increase per option)
 
-![Imgur](https://i.imgur.com/xIxPoOF.png)
+![](https://i.imgur.com/xIxPoOF.png)
 
   1. *Change Qty Step = Product Qty Increment*: Display step increasing by the number configured in Magento products
   
   For example: If **Qty Increments = 3** as in Magento product configuration; Step 1 is 1 product, Step 2 is 4 products, Step 3 is 7 products and so on. The difference of product quantity is 3. 
   
-  ![Imgur](https://i.imgur.com/I1JYqpl.png)
+  ![](https://i.imgur.com/I1JYqpl.png)
   
   - **Limit Number of Options**
     - Enter the limits for displaying options
@@ -68,7 +68,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
   
   2. *Change Qty Step = Fixed Value*: Display step as similar as in **Qty Step Value** configuration
   
-  ![Imgur](https://i.imgur.com/uAbeOhi.png)
+  ![](https://i.imgur.com/uAbeOhi.png)
   
 
    - **Qty Step Value**: 
@@ -88,7 +88,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
       
 - **Max Qty Step** (Set the maximum bumber of steps)
 
-![Imgur](https://i.imgur.com/qlXnvOw.png)
+![](https://i.imgur.com/qlXnvOw.png)
 
   - **Max Qty Step = Stock Quantity**: Display the product number of each step until the product is out of stock. For example: **Quantity = 20** (as in product configuration), **Custom Step = 5,15,19,21** then it will so only thre steps which is 5,15,19
   

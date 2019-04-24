@@ -7,13 +7,13 @@ Magento currently only supports certain shipping methods: Free Shipping, Flat Ra
 
 From the Admin Panel, go to `Stores > Extra Fee > Configuration`
 
-![extra fee](https://i.imgur.com/0P4gSBJ.png)
+![](https://i.imgur.com/0P4gSBJ.png)
 
 ### 1. Configuration
 
 From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `General` sections
 
-![extra fee1](https://i.imgur.com/qfQmWmN.png)
+![](https://i.imgur.com/qfQmWmN.png)
 
 - **Enable**: Select Yes to use the feature of the module
 - **Calculate Total includes**: Choose how to calculate the service cost
@@ -47,25 +47,25 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   - Enter the priority for applying the rule
   - The smaller the number, the higher the priority. For rules with equal priority, the priority will be based on ID.
 
-![extra fee2](https://i.imgur.com/TLlSmPb.png)
+![](https://i.imgur.com/TLlSmPb.png)
 
 ##### Step 2: Set the conditions to apply the rule in the Condition section
 
 - Select conditions to apply the rule
 - You can set the conditions for the **Cart** or **Product** section as *Subtotal  greater than  50, Total Items Quantity  less than  5, etc*
 
-![extra fee3](https://i.imgur.com/yMwCnDt.png)
+![](https://i.imgur.com/yMwCnDt.png)
 
 ##### Step 3: Set the form, service fee, display area ... of the rule in Action section
 
 - **Apply Type**:
 
-![extra fee4](https://i.imgur.com/QYCcCaq.png)
+![](https://i.imgur.com/QYCcCaq.png)
 
   - **Apply Type = Manual**: Customers can optionally choose the service type of the rule
     - `Display Area`: Choose the area to show the rule
     
-![extra fee5](https://i.imgur.com/rAHAzPu.png)
+![](https://i.imgur.com/rAHAzPu.png)
 
   - `Display Area = Cart Summary`: Display the rule in the `Cart Summary` section
   - `Display Area = Shipping Method`: Display the rule in the `Shipping Method` section
@@ -73,7 +73,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 - **Display Type`: Choose the display type of the rule for customers to choose
 
-![extra fee6](https://i.imgur.com/Ns1uxwt.png)
+![](https://i.imgur.com/Ns1uxwt.png)
 
   - `Display Type = Radio`: Allow choosing the display type as radio
   - `Display type= Select`: Allow choosing the display type as select
@@ -84,7 +84,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 - **Apply Type = Automatic**: Service type of the rule will be applied automatically.
   - `Fee Type`: Choose the fee type
   
-  ![extra fee7](https://i.imgur.com/XL20wsa.png)
+  ![](https://i.imgur.com/XL20wsa.png)
   
   - `Fee  Type = Percentage of cart total`: Service fee will be calculated as percentage of total cart
   - `Fee Type = Fixed amount for the whole cart`: Service fee will be charged as a certain amount when the customers purchase the products
@@ -112,7 +112,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
     - All rules are set as `Stop further processing  = No: all rules are applied
     - Edit the Rule 3 and choose `Stop further processing = Yes`: After you Apply Ryle, the applied rules is Rule 1 (as the high priority) and Rule 3. Rule 2 (as the small priority) and Rule 4 (as creating later) are not applied.
     
-    ![extra fee8](https://i.imgur.com/PeEUu1V.png)
+    ![](https://i.imgur.com/PeEUu1V.png)
      
 
 ##### Step 4: Enter labels for service types for the store and in the backend
@@ -139,104 +139,104 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
     
   - *Stores*: Enter the display name for selected service type on the frontend of the stores
   
-  ![extra fee9](https://i.imgur.com/PJbQJuh.png)
+  ![](https://i.imgur.com/PJbQJuh.png)
   
 ## 3. Frontend
 ### 3.1. Display on the Cart Summary
 
-![extra fee1](https://i.imgur.com/kJ0lC1i.png)
+![](https://i.imgur.com/kJ0lC1i.png)
 
 ### 3.2. Display on the Payment Method
 
-![extra fee11](https://i.imgur.com/N9iQAn8.png)
+![](https://i.imgur.com/N9iQAn8.png)
 
 ### 3.3. Display on the Shipping Methods
-![extra fee12](https://i.imgur.com/lRq5pFG.png)
+![](https://i.imgur.com/lRq5pFG.png)
 
 ### 3.4. Display on the Order
-![extra fee13](https://i.imgur.com/ZFe8K2n.png)
+![](https://i.imgur.com/ZFe8K2n.png)
 
 ### 3.5. Display on the Invoice
 
-![extra fee14](https://i.imgur.com/I6L4FIA.png)
+![](https://i.imgur.com/I6L4FIA.png)
 
 ### 3.6. Display on the Shipment
 
-![extra fee15](https://i.imgur.com/qN8XCiz.png)
+![](https://i.imgur.com/qN8XCiz.png)
 
 ### 3.7 Display on the Credit Memo
-![extra fee16](https://i.imgur.com/2mFf40A.png)
+![](https://i.imgur.com/2mFf40A.png)
 
 
 ## 4. Backend
 ### 4.1. Order
 
-![extra fee17](https://i.imgur.com/LZ9HbFJ.png)
+![](https://i.imgur.com/LZ9HbFJ.png)
 
 ### 4.2. Invoice
-![extra fee18](https://i.imgur.com/zntETEa.png)
+![](https://i.imgur.com/zntETEa.png)
 
 ### 4.3. Shipment
 
-![extra fee19](https://i.imgur.com/xVnq215.png)
+![](https://i.imgur.com/xVnq215.png)
 
 ### 4.4. Credit Memo
 
-![extra fee20](https://i.imgur.com/n1tI2M8.png)
+![](https://i.imgur.com/n1tI2M8.png)
 
 
 ## 5. Email
 ### 5.1. Order Email
 
-![extra fee21](https://i.imgur.com/t6U8Xk5.png)
+![](https://i.imgur.com/t6U8Xk5.png)
 
 ### 5.2. Invoice Email
 
-![extra fee22](https://i.imgur.com/OKoJybq.png)
+![](https://i.imgur.com/OKoJybq.png)
 
 ### 5.3. Shipment Email
 
-![extra fee23](https://i.imgur.com/BIoFaDD.png)
+![](https://i.imgur.com/BIoFaDD.png)
 
 ### 5.4. Credit Memo Email
 
-![extra fee24](https://i.imgur.com/cOAWqHP.png)
+![](https://i.imgur.com/cOAWqHP.png)
 
   
 ## 6. Compatible with Mageplaza One Step Checkout
 
-![extra fee25](https://i.imgur.com/T7BHIPC.png)
+![](https://i.imgur.com/T7BHIPC.png)
 
 ## 7. Compatible with Mageplaza PDF Invoice
 
 ### 7.1. PDF Order
 
-![extra fee26](https://i.imgur.com/j9qvd2k.png)
+![](https://i.imgur.com/j9qvd2k.png)
 
 ### 7.2. PDF Invoice
 
-![extra fee27](https://i.imgur.com/blztfLE.png)
+![](https://i.imgur.com/blztfLE.png)
 
 ### 7.3. PDF Shipment
 
-![extra fee28](https://i.imgur.com/huKzDyo.png)
+![](https://i.imgur.com/huKzDyo.png)
 
 ### 7.4. PDF Credit Memo
 
-![extra fee29](https://i.imgur.com/xFp6eFX.png)
+![](https://i.imgur.com/xFp6eFX.png)
 
 ## 8. Compatible with PDF of Magento
 ### 8.1. PDF Invoice
 
-![extra fee30](https://i.imgur.com/YqPkCUw.png)
+![](https://i.imgur.com/YqPkCUw.png)
 
 ### 8.2. PDF Shipment
 
-![extra fee31](https://i.imgur.com/0SfCytC.png)
+![](https://i.imgur.com/0SfCytC.png)
 
 ### 8.3. PDF Credit Memo
 
-![extra fee32](https://i.imgur.com/tJIdwQj.png)
+![](https://i.imgur.com/tJIdwQj.png)
 
 ## 9. How to custom using the layout handle
 

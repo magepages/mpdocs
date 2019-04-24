@@ -14,18 +14,18 @@ Currently, business doers use e-commerce sites more and more. Therefore, shop ow
 ### I. Configuration
 Login to the **Magento Admin**, choose `Store> Configuration> Mageplaza> Import Export CMS`
 
-![Imgur](https://i.imgur.com/vf5mZQE.png)
+![](https://i.imgur.com/vf5mZQE.png)
 
 #### 1. General
 - **Enable**: Select "Yes" to turn on the Module
 - **Export cms page Fields**: Admin selects the required field when exporting CMS pages. Fields that are not selected when exporting the file will not display the field and its data in the CMS page.
 
-![Imgur](https://i.imgur.com/CJhNfDP.gif)
+![](https://i.imgur.com/CJhNfDP.gif)
 
 
 - **Export cms block Fields**: Admin selects the required fields when exporting CMS blocks. Fields that are not selected when exporting the file will not display the field and that field data in the CMS block.
 
-![Imgur](https://i.imgur.com/LbzjoXZ.png)
+![](https://i.imgur.com/LbzjoXZ.png)
 
 ### II. Pages
 
@@ -33,7 +33,7 @@ Login to the **Magento Admin**, choose `Store> Configuration> Mageplaza> Import 
 
 Login to the **Magento Admin**, choose `Content> Pages> Export`. This section records the information of the created pages.
 
-![Imgur](https://i.imgur.com/3d8JB1y.png)
+![](https://i.imgur.com/3d8JB1y.png)
 
 - Select the page you want to export the file
 - Select the file format you want to export (CSV or Excel XML)
@@ -49,7 +49,7 @@ Login to the **Magento Admin**, choose `Content> Pages> Export`. This section re
 
 Login to the **Magento Admin**, choose `Content> Pages> Import`.
 
-![Imgur](https://i.imgur.com/PGpzse6.png)
+![](https://i.imgur.com/PGpzse6.png)
 
 - In the **Import CMS Page** section, select **File Type** and click **Download Sample File** that you want to download.
   - **Select file type**:
@@ -57,19 +57,19 @@ Login to the **Magento Admin**, choose `Content> Pages> Import`.
     - For each file type, the admin needs to download and edit the sample file so that it can be imported correctly.
 - Check that the input file size does not exceed the limit shown in the message which is 5M.
 
-![Imgur](https://i.imgur.com/6svnMni.png)
+![](https://i.imgur.com/6svnMni.png)
 
 - Edit the information you want to import in the template file
 
-![Imgur](https://i.imgur.com/f8OYJ6x.png)
+![](https://i.imgur.com/f8OYJ6x.png)
 
 If the input data includes the path to the product image, the image files must be uploaded to the appropriate location. The default location on the Magento server is **pub / media /**.
 
-![Imgur](https://i.imgur.com/wW2gYP5.png)
+![](https://i.imgur.com/wW2gYP5.png)
 
 ##### Step 2: Configure Import Behavior
 
-![Imgur](https://i.imgur.com/j9Ka7La.png)
+![](https://i.imgur.com/j9Ka7La.png)
 
 - In the **Import Behavior** section,
   - Select the action you want when importing data in the **Import Behavior** field:
@@ -92,7 +92,7 @@ If the input data includes the path to the product image, the image files must b
 
 ##### Step 3: Select File to Import
 
-![Imgur](https://i.imgur.com/SDyOUNw.png)
+![](https://i.imgur.com/SDyOUNw.png)
 
 - In the **Select File to Import** section, click "Choose File" to select your page input file.
   - **Note**: If you select `File Type = CSV (or XML)`, your input file must be a CSV (or XML) file correctly.
@@ -104,17 +104,17 @@ If the input data includes the path to the product image, the image files must b
 - After entering the above information, click "Check Data" at the top right of the popup to check if the data you entered is correct.
   - If the file is valid, click "Import" is displayed in the **Validation Results** section.
 
-![Imgur](https://i.imgur.com/BApYf5D.png)
+![](https://i.imgur.com/BApYf5D.png)
 
 - Otherwise, if the upload file is invalid, please correct the error reported in the message and try again.
 - Example of error message:
 
-![Imgur](https://i.imgur.com/PlZdiUo.png)
+![](https://i.imgur.com/PlZdiUo.png)
 
 - When the import process is complete, the system turn off the popup and displays your action message in addition to the grid.
 - Example of displaying message success on grid.
 
-![Imgur](https://i.imgur.com/0U7G4gk.png)
+![](https://i.imgur.com/0U7G4gk.png)
 
 
 
@@ -124,7 +124,7 @@ If the input data includes the path to the product image, the image files must b
 
 Login to the **Magento Admin**, choose `Content> Blocks> Export`. This section records the information of the created blocks.
 
-![Imgur](https://i.imgur.com/SeOHmrJ.png)
+![](https://i.imgur.com/SeOHmrJ.png)
 
 - Select the block you want to export the file
 - Select the file format you want to export (CSV or Excel XML)
@@ -140,7 +140,7 @@ Login to the **Magento Admin**, choose `Content> Blocks> Export`. This section r
 
 Login to the **Magento Admin**, choose `Content> Blocks> Import`.
 
-![Imgur](https://i.imgur.com/Xc5hGRS.png)
+![](https://i.imgur.com/Xc5hGRS.png)
 
 - In the **Import CMS Block** section, select **File Type** and click **Download Sample File** that you want to download.
   - **Select file type**:
@@ -148,20 +148,20 @@ Login to the **Magento Admin**, choose `Content> Blocks> Import`.
     - For each file type, the admin needs to download and edit the sample file so that it can be imported correctly.
 - Check that the input file size does not exceed the limit shown in the message which is 5M.
 
-![Imgur](https://i.imgur.com/2S6yfEg.png)
+![](https://i.imgur.com/2S6yfEg.png)
 
 
 - Edit the information you want to import in the template file
 
-![Imgur](https://i.imgur.com/HgeoI7V.png)
+![](https://i.imgur.com/HgeoI7V.png)
 
 If the input data includes the path to the product image, the image files must be uploaded to the appropriate location. The default location on the Magento server is **pub / media /**.
 
-![Imgur](https://i.imgur.com/lbPtm8w.png)
+![](https://i.imgur.com/lbPtm8w.png)
 
 ##### Step 2: Configure Import Behavior
 
-![Imgur](https://i.imgur.com/w7MBxi0.png)
+![](https://i.imgur.com/w7MBxi0.png)
 
 - In the **Import Behavior** section,
   - Select the action you want when importing data in the **Import Behavior** field:
@@ -184,7 +184,7 @@ If the input data includes the path to the product image, the image files must b
 
 ##### Step 3: Select File to Import
 
-![Imgur](https://i.imgur.com/NJkUfGW.png)
+![](https://i.imgur.com/NJkUfGW.png)
 
 - In the **Select File to Import** section, click "Choose File" to select your block input file.
   - **Note**: If you select `File Type = CSV (or XML)`, your input file must be a CSV (or XML) file correctly.
@@ -196,17 +196,17 @@ If the input data includes the path to the product image, the image files must b
 - After entering the above information, click "Check Data" at the top right of the popup to check if the data you entered is correct.
   - If the file is valid, click "Import" is displayed in the **Validation Results** section.
 
-![Imgur](https://i.imgur.com/CwZPaPK.png)
+![](https://i.imgur.com/CwZPaPK.png)
 
 - Otherwise, if the upload file is invalid, please correct the error reported in the message and try again.
 - Example of error message:
 
-![Imgur](https://i.imgur.com/MTWbbJ5.png)
+![](https://i.imgur.com/MTWbbJ5.png)
 
 - When the import process is complete, the system turn off the popup and displays your action message in addition to the grid.
 - Example of displaying message success on grid.
 
-![Imgur](https://i.imgur.com/JDOSbBa.png)
+![](https://i.imgur.com/JDOSbBa.png)
 
 
 

@@ -16,7 +16,7 @@ Customer reviews have tremendous influence over making a purchase of other consu
 #### 1.1 General Configuration
 A bunch of fundamental configuration will assist you in modifying reminder email chains which can be accomplished just a few click. Follow this path ``Mageplaza > Review Reminder: Configuration`` then expand the **General Configuration**
 
-![RR1](https://i.imgur.com/HYXEpBO.png)
+![](https://i.imgur.com/HYXEpBO.png)
 
 * In **Enable** field: select “Yes” to enable Mageplaza Review Reminder extension
 * In **Email** modules
@@ -31,11 +31,11 @@ To keep track statistics of sent reminder emails, Magento 2 Review Reminder is w
 
 It manifests in this direct link in the frontend like 
 
-![RR2](https://i.imgur.com/u2u0z67.png)
+![](https://i.imgur.com/u2u0z67.png)
 
 In the backend, this is Google Analytics's configuration
 
-![RR3](https://i.imgur.com/YNpOnpX.jpg)
+![](https://i.imgur.com/YNpOnpX.jpg)
 
 * In **Enabled** field: Select “Yes” to use Google Analytics tool. Then, the Source, Medium, Name, Term, Content items will be displayed automatically
 * In **Source** field: the data of Source will appear in the Link back to Cart if it’s available. If you leave it blank, Source on frontend won’t be displayed
@@ -47,7 +47,7 @@ In the backend, this is Google Analytics's configuration
 #### 1.3 Order Configuration
 In this section you will be able to limit which products can be sent review invitation by determine its particular SKU.
 
-![RR4](https://i.imgur.com/TSOva6H.jpg)
+![](https://i.imgur.com/TSOva6H.jpg)
 
 * In **Exclude SKUs** field
   * Products which have SKU in this field won’t be received review reminder
@@ -58,7 +58,7 @@ In this section you will be able to limit which products can be sent review invi
 
 **An example of the Review reminder sent to a customer**
 
-![RR9](https://i.imgur.com/UMhTZVS.png)
+![](https://i.imgur.com/UMhTZVS.png)
 
 ### 2. Reports
 This is the place to store a number of sent Review Sent Email successfully and failed for a specific period of time. Keep track ``Mageplaza > Review Reminder: Reports`` There are two Report Time modes
@@ -66,16 +66,16 @@ This is the place to store a number of sent Review Sent Email successfully and f
   * When you select the **DAY** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a daily basis
   * If the distance between **From** and **To** is too far apart, the distance between two days in Report Time will be increased
 
-![RR6](https://i.imgur.com/nisaCur.png) 
+![](https://i.imgur.com/nisaCur.png) 
 
 * MONTH: When you select **MONTH** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a monthly basis
 
-![RR7](https://i.imgur.com/XtnAGfp.png)
+![](https://i.imgur.com/XtnAGfp.png)
 
 ### 3. Logs
 This is the place archiving abandoned cart emails which have been sent, including their ID, Order, Subject, Receiver, Sequence Number, Schedule At, Create At, Status (Sent / Error) và Action (Preview/Delete/Send Now)
 
-![RR8](https://i.imgur.com/XZ7gjo1.png)
+![](https://i.imgur.com/XZ7gjo1.png)
 
 * **Action = Preview**: a pop-up window showing the email which has been sent will appear
 * **Action = Delete**: the selected emails will be deleted. You can choose multiple emails at the same time

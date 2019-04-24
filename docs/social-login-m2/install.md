@@ -30,22 +30,22 @@ Download SFTP clients, we recommend clients: <a href="https://filezilla-project.
 
 After purchasing order from Mageplaza, go to <a href="https://store.mageplaza.com/downloadable/customer/products/" target="_blank">My Downloadable Products</a> page to download the module package. You have to log in (User/Password or Social accounts) before accessing the `My Downloadable Products`.
 
-![Login form to Download the Package](https://cdn.mageplaza.com/media/general/XLDM5l7.png)
+![](https://cdn.mageplaza.com/media/general/XLDM5l7.png)
 
 Here are the screenshot of `My Downloadable Products` page.
 
-![Download Magento 2 extension](https://cdn.mageplaza.com/media/general/e7bwTUF.png) 
+![](https://cdn.mageplaza.com/media/general/e7bwTUF.png) 
 
 Now click on extension version link to download the package. 
 
-![Downloaded Magento 2 extension](https://cdn.mageplaza.com/media/general/pdbYAoU.png)
+![](https://cdn.mageplaza.com/media/general/pdbYAoU.png)
 
 ### Step 3: Upload files to server
 
 Let's extract the package and connect to your server using SFTP Clients above.
 Then upload files, folders to your server, see this video:
 
-![upload Magento 2 extension](https://cdn.mageplaza.com/media/general/01LVyw5.gif)
+![](https://cdn.mageplaza.com/media/general/01LVyw5.gif)
 
 Upload the app folder to Magento 2 root folder.
 

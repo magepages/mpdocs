@@ -13,7 +13,7 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 ## How to use
 ### FAQs Homepage
 
-![faqs homepage](https://i.imgur.com/qZqrOji.png)
+![](https://i.imgur.com/qZqrOji.png)
 
 * Allow displaying all categories and dependent question
 * Depending on the installation of admins, FAQ Homepage will display Search box or not. Customers can search any question on FAQ Homepage quickly when using Seach box.
@@ -21,7 +21,7 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 
 ### FAQs Category Page
 
-![faqs category page](https://i.imgur.com/wdpHOlH.png)
+![](https://i.imgur.com/wdpHOlH.png)
 
 * Display all questions of the category
 * The same as FAQ Homepage, Category page is also displayed on the Search box and performs the function as on FAQ Homepage. When you find by the search box, all satisfied questions (in all categories) will be displayed. To return the current category, you only need to delete the condition that you have just searched.
@@ -30,21 +30,21 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 
 ### FAQs Detail Page
 
-![faqs detail page](https://i.imgur.com/tkKaXoO.png)
+![](https://i.imgur.com/tkKaXoO.png)
 
 * Display all answer's contents for each question, Pageview, first public dates, positive feedbacks.
 * Question Detail Page can display the `Voting for helpfulness` field so that customers can respond if this answer is helpful to them or not.
 
-![voting for helpfulness](https://i.imgur.com/SculFSj.png)
+![](https://i.imgur.com/SculFSj.png)
 
 * If getting the allowance of admins, customers can also submit the question at the bottom of each Question Detail page. The notification will be sent to the customer email box when their question is added the answer and public if they tick in the checkbox `Receive email notification`.
 * For the countries don't use the English alphabet (such as Russian, Japanese, Korean, Chinese, Arabic, etc.), questions will not be submitted.
 
-![ask a question](https://i.imgur.com/6THz5QL.png)
+![](https://i.imgur.com/6THz5QL.png)
 
 ### FAQs Product Tab
 
-![faqs product tab](https://i.imgur.com/zv4ZDXA.png)
+![](https://i.imgur.com/zv4ZDXA.png)
 
 * Display all questions regarding the product.
 * Customers can submit a question here. The question submitted by creating the form in the Product Tab will be auto-displayed in the Product Detail when it's public.
@@ -55,12 +55,12 @@ Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.magepla
 
 Login to the Magento Admin, choose **Content > FAQs**
 
-![how to configure](https://i.imgur.com/skj2kUi.png)
+![](https://i.imgur.com/skj2kUi.png)
 
 ### 1. Manage Articles
 #### 1.1. Management Grid
 
-![management grid](https://i.imgur.com/IPaZZOH.png)
+![](https://i.imgur.com/IPaZZOH.png)
 
 * This is a place to save all required questions. It includes that admins have created and customers have created.
 * From the Grid, admins can know all basic information of question as `ID, the content and URL of the question, who created the question, the status of the question (answered or not), Visibility (public, hidden, need approved), displayed store view, Helpful rate, Create date, Update date, Position, and Action`.
@@ -70,14 +70,14 @@ Login to the Magento Admin, choose **Content > FAQs**
     * **Edit**: To edit a rule, admins need to choose `Edit` in the Action box (the last column on the right of the Grid)
     * **Instant Edit**: Admins can edit some fields of the Rule in the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
     
-![questions](https://i.imgur.com/egCeiPP.png)
+![](https://i.imgur.com/egCeiPP.png)
 
 * Also, admins can filter, change Store View, hide/represent the columns or export Grid.
 
 #### 1.2. Add New/Edit Form
 ##### 1.2.1. General
 
-![general](https://i.imgur.com/apujiXY.png)
+![](https://i.imgur.com/apujiXY.png)
 
 **Statistic**
 * This is a place to count the view (the detail page view), the total number of actions (counted by times), positive and negative (as a percentage).
@@ -89,7 +89,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 **General**
 
-![general1](https://i.imgur.com/CE1YNbw.png)
+![](https://i.imgur.com/CE1YNbw.png)
 
 * **Question**: The question will be filled in this section. It is displayed in the backend and on the frontend (if published)
 * **URL Key**:
@@ -106,7 +106,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Categories**:
     * A question will belong to a certain field and admins can classify it by adding Category to Question.
     
-    ![categories](https://i.imgur.com/VdbaSmu.png)
+    ![](https://i.imgur.com/VdbaSmu.png)
     
     * To display the Category, admins need to create it in the `Manage Categories` section.
     
@@ -120,7 +120,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 **Customer Information**
 
-![customer information](https://i.imgur.com/3DfW3PM.png)
+![](https://i.imgur.com/3DfW3PM.png)
 
 * **Author Name**:
     * When a question is submitted, the name of the submitter is also submitted to the backend.
@@ -135,7 +135,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 **SEO Config**
 
-![seo config](https://i.imgur.com/ibFcumZ.png)
+![](https://i.imgur.com/ibFcumZ.png)
 
 * You can configure the meta that is useful for your better SEO
     * Set Meta title for question detail page
@@ -145,7 +145,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 ##### 1.2.2. Product
 
-![product](https://i.imgur.com/psi5NWI.png)
+![](https://i.imgur.com/psi5NWI.png)
 
 * You can do Assign Products to the Question in the Products tab when you create a new post 
 * In the list of the available products, mark the checkbox that is next to the products you want to assign
@@ -154,7 +154,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 ### 2. Manage Categories
 #### 2.1. Management Grid
 
-![manage grid](https://i.imgur.com/zQwpHIo.png)
+![](https://i.imgur.com/zQwpHIo.png)
 
 * This is a place to save all categories that admins have created.
 * From the Grid, admins can know all basic information of question as `ID, the name and URL of the question, icon of the Category, the status of Category, Store View, the number of questions, Create Date, Update Date, Position, and Action`.
@@ -164,7 +164,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * **Edit**: To edit a rule, admins need to choose `Edit` in the Action box (the last column on the right of the Grid)
     * **Instant Edit**: Admins can edit some fields of the Rule in the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
 
-![grid](https://i.imgur.com/lOhYEFT.png)
+![](https://i.imgur.com/lOhYEFT.png)
 
 * Also, admins can also filter, change the store view, hide/represent the columns or export the grid.
 
@@ -173,7 +173,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 **General**
 
-![general config](https://i.imgur.com/wUJijtl.png)
+![](https://i.imgur.com/wUJijtl.png)
 
 * **Name**: The name of Category entered in this section will be displayed both in the backend and frontend (if enabled and it has the dependent questions)
 * **URL Key**:
@@ -191,7 +191,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 **SEO Config**
 
-![seo configure](https://i.imgur.com/mpfRxD1.png)
+![](https://i.imgur.com/mpfRxD1.png)
 
 * You can configure the meta that is useful for your better SEO
     * Set Meta title for Category page
@@ -201,7 +201,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 ##### 2.2.2. Question
 
-![category information](https://i.imgur.com/6vDAYjn.png)
+![](https://i.imgur.com/6vDAYjn.png)
 
 * You can do Assign Question to the Category in the Question tab when you create a new category
 * In the list of the available question, mark the checkbox that is next to the question you want to assign
@@ -210,7 +210,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 ### 3. Configuration
 #### 3.1. General
 
-![general configuration](https://i.imgur.com/dqY3ZmE.png)
+![](https://i.imgur.com/dqY3ZmE.png)
 
 * **Enable Module**: Choose Yes to enable this module
 * **Choose FAQ's color**: The color that you choose in this section will stipulate the main color of FAQ Page on the frontend
@@ -223,11 +223,11 @@ Login to the Magento Admin, choose **Content > FAQs**
 * This field stipulates the configuration about adding questions
 * The action about adding questions will be displayed in the Question detail page
 
-![add question config](https://i.imgur.com/LMGRURh.png)
+![](https://i.imgur.com/LMGRURh.png)
 
 * **Allow Guests To Add Questions**: There are 3 options to stipulate who can submit the question for admins
 
-![allow add question](https://i.imgur.com/dkrYTqZ.png)
+![](https://i.imgur.com/dkrYTqZ.png)
 
 
    * **Only Logged In Customer**: Only customers who have the account can add the question
@@ -245,7 +245,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 * **The Name Field is**:
 
-![add name field](https://i.imgur.com/aY5m0W1.png)
+![](https://i.imgur.com/aY5m0W1.png)
 
    * **No**: The name field won't be displayed on the frontend
    * **Optional**: The name field will be displayed on the frontend but customers don't need to fill in
@@ -254,7 +254,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 * **The Email Field is**:
 
-![add email field](https://i.imgur.com/muWP6r3.png)
+![](https://i.imgur.com/muWP6r3.png)
 
    * **No**: The email field won't be displayed on the frontend
    * **Optional**: The email name will be displayed on the frontend but customers don't need to fill in
@@ -270,7 +270,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 * It's a part of General Config
 * This section stipulates the configuration about the Question Detail page
 
-![question detail page](https://i.imgur.com/XlEXTg1.png)
+![](https://i.imgur.com/XlEXTg1.png)
 
    * **Enable Question Details Page**:
      * Choose Yes to view the question and answer detail when clicking on `Read More`
@@ -281,7 +281,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 * **Detail Page Layout**:
 
-![detail page layout](https://i.imgur.com/uzM704J.png)
+![](https://i.imgur.com/uzM704J.png)
 
 * Select one of the following layouts to have your checkout page be shown in four different interfaces
   * 1 column
@@ -291,7 +291,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 ##### 3.1.3. Search box Config
 
-![search box config](https://i.imgur.com/nRt9lS8.png)
+![](https://i.imgur.com/nRt9lS8.png)
 
 * **Enable Search Box**: Choose Yes so that Search Box will be displayed on the FAQ homepage, FAQ Category, and FAQ Question Detail.
 * **Search Box Title**:
@@ -307,7 +307,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 #### 3.2. FAQ Home Page Configuration
 
-![faq homepage configuration](https://i.imgur.com/vj8SWka.png)
+![](https://i.imgur.com/vj8SWka.png)
 
 * **Enable**: Choose Yes to enable the FAQ homepage
 * **Route**: The route of FAQ Homepage is entered in this field. If leaving it blank, FAQ Homepage will be disabled
@@ -322,7 +322,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 * **Page Layout**:
 
-![page layout](https://i.imgur.com/n7LpV4u.png)
+![](https://i.imgur.com/n7LpV4u.png)
 
 * Select one of the following layouts to have your checkout page be shown in four different interfaces
     * 1 column
@@ -334,7 +334,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Categories Columns**: Categories are arranged into 1 or 2 or 3 columns depending on the option that admins choose in this section
 * **Question Style**:
 
-![question style](https://i.imgur.com/b11Srmt.png)
+![](https://i.imgur.com/b11Srmt.png)
 
    * **Collapsible**: On the FAQ Homepage, the answers will be collapsed with their questions. The answer only will be displayed if customers click on the question, and it will be hidden if the question is clicked again.
    * **Default**: The answer will be displayed under the question and customers cannot collapse the question anymore.
@@ -345,7 +345,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 ##### 3.2.1. SEO Config
 
-![seo configuration](https://i.imgur.com/vQLSopz.png)
+![](https://i.imgur.com/vQLSopz.png)
 
 * You can configure the meta that is useful for your better SEO
     * Set Meta title for FAQ Homepage
@@ -355,7 +355,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 #### 3.3. Product Tab Configuration
 
-![product tab configuration](https://i.imgur.com/iMLvGoW.png)
+![](https://i.imgur.com/iMLvGoW.png)
 
 * **Enable**: Choose Yes so that FAQ Tab can display in the Product Info Detail Box
 * **Tab Title**:
@@ -369,7 +369,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **FAQ Style**: Now we only offer one style, `Material`.
 * **Question Style**:
 
-![question style](https://i.imgur.com/9FZHDoo.png)
+![](https://i.imgur.com/9FZHDoo.png)
 
    * **Collapsible**: On the homepage, the answers will be collapsed with their questions. The answer will only be displayed if customers click on the question, and it will be hidden if the question is clicked again.
    * **Default**: The answer will be shown under each question and customers cannot collapse the question.   
@@ -381,11 +381,11 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 #### 3.4. Terms & Conditions
 
-![terms and conditions](https://i.imgur.com/kT5OGiR.png)
+![](https://i.imgur.com/kT5OGiR.png)
 
 * **Show Terms & Conditions when submitting questions**:
 
-![show terms and conditions](https://i.imgur.com/FWuDko8.png)
+![](https://i.imgur.com/FWuDko8.png)
 
    * **No**: Terms & Conditions will not be displayed on the frontend, `Submit Question Form`
    * **Yes (checkbox)**: Terms & Conditions will be displayed in the `Submit Question Form` under checkbox form. Customers need to tick on the checkbox, after that the question can be submitted.
@@ -397,13 +397,13 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 #### 3.5 Email Configuration
 
-![email configuration](https://i.imgur.com/oOWY0sR.png)
+![](https://i.imgur.com/oOWY0sR.png)
 
 * **Enable**: Choose Yes so that the actions regarding the email can be enabled
 
 ##### 3.5.1. Email to Customer
 
-![email to customer](https://i.imgur.com/kJQPe17.png)
+![](https://i.imgur.com/kJQPe17.png)
 
 * **Send an email to a customer when an answer is added**: Choose Yes to email the notification to customers when the answers are public and sent to the registered customers to receive the email
 * **Sender**: Allow choosing one in five senders that Magento offers: General Contact, Sales Representative, Customer Support, Custom Email 1, and Custom Email 2
@@ -414,7 +414,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     
 ##### 3.5.2. Email to Admin
 
-![email to admin](https://i.imgur.com/KniXmkB.png)
+![](https://i.imgur.com/KniXmkB.png)
 
 * **Send an email to admins when a question is created**: Choose Yes to email the notification for admin when a question is submitted by customers.
 * **Send To**: Fill in the email that you want to get the notification when a question is submitted
@@ -431,23 +431,23 @@ Login to the Magento Admin, choose **Content > FAQs**
     * **Step 1**: From the admin panel, choose `Content > Elements > Widget > Add New Widget`
     * **Step 2**: Choose `Type = Mageplaza FAQs`, `Design Theme = Magento Luma`. After that, select **Continue**
     
-    ![mageplaza faqs](https://i.imgur.com/WNlnQPo.png)
+    ![](https://i.imgur.com/WNlnQPo.png)
     
     * **Step 3**: Set the name for the widget (displayed in the backend) and choose **Store View** that you want to allow Widget to display
     
-    ![widget](https://i.imgur.com/VZD6oWS.png)
+    ![](https://i.imgur.com/VZD6oWS.png)
     
     * **Step 4**: Choose the page and the position that you want the FAQ Widget to display
     
-    ![layout updates](https://i.imgur.com/sviNKYg.png)
+    ![](https://i.imgur.com/sviNKYg.png)
     
     * **Step 5**: Switch to `Widget Options` tab, then set the widget name that you want to display on the frontend.
     
-    ![widget2](https://i.imgur.com/nqreDGn.png)
+    ![](https://i.imgur.com/nqreDGn.png)
     
     * **Step 6**: Save Widget and check it on the frontend
     
-    ![mageplaza faqs widget](https://i.imgur.com/7UKoFiW.png)
+    ![](https://i.imgur.com/7UKoFiW.png)
     
 
 

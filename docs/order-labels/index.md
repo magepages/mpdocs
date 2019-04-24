@@ -15,13 +15,13 @@
 
 From the **Admin Panel**, go to `Stores > Configuration > Mageplaza Extensions > Order Labels`
 
-![Imgur](https://i.imgur.com/MwVnxdl.gif)
+![](https://i.imgur.com/MwVnxdl.gif)
 
 ### 1. Configuration
 
 From the **Admin Panel**, go to `Stores > Configuration > Mageplaza Extensions > Order Labels > General Configuration`
 
-![Imgur](https://i.imgur.com/t18kfSH.png)
+![](https://i.imgur.com/t18kfSH.png)
 
 - **Enable**: Select **Yes** to enable the Order Labels module.
 - **Label’s Columns**: These are columns containing Label. There must be at least one column for a label.
@@ -42,7 +42,7 @@ From the **Admin Panel**, go to `Stores > Configuration > Mageplaza Extensions >
 
 From the **Admin Panel**, go to `Sales > Order Labels > Order Label`
 
-![Imgur](https://i.imgur.com/Sc9Ypcu.png)
+![](https://i.imgur.com/Sc9Ypcu.png)
 
 - This is where the Order Labels are displayed
 - From **Management Grid Labels**, admin can view basic information of Order Labels such as ID, Name, Column, Enable / Disable, Sort Order, Action
@@ -61,7 +61,7 @@ From the **Admin Panel**, go to `Sales > Order Labels > Order Label > Add New La
 
 From the Admin Panel, go to `Sales > Order Labels > Order Label > Add New Label, select General`
 
-![Imgur](https://i.imgur.com/E4WESzA.png)
+![](https://i.imgur.com/E4WESzA.png)
 
 ##### 3.1.1. General Tab
 - **Name**: Enter a name for Label, this is a required field
@@ -86,9 +86,9 @@ From the Admin Panel, go to `Sales > Order Labels > Order Label > Add New Label,
 
 From the **Admin Panel**, go to `Sales > Order Labels > Order Label > Add New Label`, select **Auto Assign Condition**
 
-![Imgur](https://i.imgur.com/cae6xb1.png)
+![](https://i.imgur.com/cae6xb1.png)
 
-![Imgur](https://i.imgur.com/1489kzM.png)
+![](https://i.imgur.com/1489kzM.png)
 
 - **Auto Assign Label**: Select **Yes** to enable the auto-tagging function for the Order that meets the selected condition.
 - We will choose the condition to automatically assign this Label to the order that meets the selected conditions. These conditions are taken from [Mageplaza Order Attributes module](https://www.mageplaza.com/magento-2-order-attributes/). You can see how to install and use the Order Attributes module [here](https://docs.mageplaza.com/order-attributes/index.html).
@@ -100,7 +100,7 @@ From the **Admin Panel**, go to `Sales > Order Labels > Order Label > Add New La
 
 From **Admin Panel**, go to `Stores > Setting > Order Status`
 
-![Imgur](https://i.imgur.com/cPpCTk3.png)
+![](https://i.imgur.com/cPpCTk3.png)
 
 - This is where the list of order status is displayed.
 - From Order Status, admin can easily grasp basic Order Status information such as Status, Status Code, Default Status, Visible on Storefront, Display, Action
@@ -114,7 +114,7 @@ From **Admin Panel**, go to `Stores > Setting > Order Status`
 
 - If you want to Edit an order status, you just need to click on that Order Status and start editing the information.
 
-![Imgur](https://i.imgur.com/tfoI5VG.png)
+![](https://i.imgur.com/tfoI5VG.png)
 
 #### 4.2.1. Order Status Information
 - **Status Code**: Enter the code specific to Status. This is a required field.
@@ -143,30 +143,30 @@ From **Admin Panel**, go to `Sales > Operations > Orders`
 #### 5.1. Order Grid
 From **Admin Panel**, go to `Sales > Operations > Orders`
 
-![Imgur](https://i.imgur.com/b45caA5.png)
+![](https://i.imgur.com/b45caA5.png)
 
 - Label's status will be displayed in the column in the Order Grid.
 -  When we click on Label or **Add Label** a popup will appear and we can edit Label right here.
 
-![Imgur](https://i.imgur.com/2FJP7A0.png)
+![](https://i.imgur.com/2FJP7A0.png)
 
 #### 5.2. Order View
 
 - From a record of an Order, in the **Action** column, click on **View** to see Order information. Select **Information**.
 
-![Imgur](https://i.imgur.com/6mc1lRr.png)
+![](https://i.imgur.com/6mc1lRr.png)
 
 - On the Information tab, you can see Label information there. If you want to update the status of the Label, click "Update Labels" and edit.
 
-![Imgur](https://i.imgur.com/Sl3Wj8e.png)
+![](https://i.imgur.com/Sl3Wj8e.png)
 
 ## Frontend
 
 - Order Label images are on the Order list
 
-![Imgur](https://i.imgur.com/wgVp17Q.png)
+![](https://i.imgur.com/wgVp17Q.png)
 
 - The image of Order Label in the order detail form
 
-![Imgur](https://i.imgur.com/kOIKupn.png)
+![](https://i.imgur.com/kOIKupn.png)
 

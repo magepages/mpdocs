@@ -15,16 +15,16 @@
 
 - **Product View & Item**: Display information of Membership product on the **Product View Page**
 
-![Product View & Item](https://i.imgur.com/l6GbDi8.png)
+![](https://i.imgur.com/l6GbDi8.png)
 
 
 - **Membership Dashboard**: This section will display the information and payment history of the membership purchased by the customer. You can use the link **Membership Dashboard** at toplink. After memebership is expired, the Membership Dashboard will display the expire status of the membership with the **Re New** button. And the **Upgrade** button is displayed when the membership has not expired. You can click the **Upgrade** button to upgrade the membership package at a better price and offer, and the site only has membership levels higher than the current membership.
 
-![Membership Dashboard](https://i.imgur.com/gU3PJEa.png)
+![](https://i.imgur.com/gU3PJEa.png)
 
 - **Membership Page**: Display memberships at the **Membership page** if they had ordered the default products
 
-![Membership Page](https://i.imgur.com/ZNUcbX2.png)
+![](https://i.imgur.com/ZNUcbX2.png)
 
 
 ## How to configure
@@ -33,11 +33,11 @@
 
 Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
 
-![Configuration](https://i.imgur.com/SjkjpVL.gif)
+![](https://i.imgur.com/SjkjpVL.gif)
 
 #### 1.1. General
 
-![General](https://i.imgur.com/QAjB1Kl.png)
+![](https://i.imgur.com/QAjB1Kl.png)
 
 - **Enable**: Select **Yes** to enable the module's features.
 
@@ -50,7 +50,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
   - If you choose **Yes** so that when customers had bought and used membership, they can buy another membership product
   - Selecting **No**, customers in certain membership cannot buy products from other membership types. They only can buy other memebership products if their current memberships are exprired.
   
-  ![Override Membership](https://i.imgur.com/A3xXY6v.png)
+  ![](https://i.imgur.com/A3xXY6v.png)
   
 - **Upgrade Membership**:
   - If **Yes** is selected, the current membership will be allowed to upgrade even when it is not expired. Showing a **upgrade** button on **My Membership** at frontend. You can click the **Upgrade** button to upgrade the membership package at a better price and offer, and the site only has membership levels higher than the current membership. Show extra fields as following: 
@@ -65,7 +65,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
 
 - **Show Membership Dashboard Link at Toplink**: If you select **Yes**, the link membership dashboard will be displayed on toplink.
 
-![Show Membership Dashboard Link](https://i.imgur.com/edg3RTy.png)
+![](https://i.imgur.com/edg3RTy.png)
 
 - **Activate Membership When**: After buying membership product, the customer can apply that membership when:
   - **Invoice created**: customer applies that membership when Invoice created (order is created with invoice). If not Invoice is not created completely, membership will not be applied. For example: when customers buy one membership product and 1 non-vertual product ( ex: Joust Duffle Bag). Membership only be applied when customers place the order and invoice is created.  
@@ -75,18 +75,18 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
 
 #### 1.2. Membership Page
 
-![Membership Page](https://i.imgur.com/3FDHLkp.png)
+![](https://i.imgur.com/3FDHLkp.png)
 
 - **Enable**: Select **yes** to display the Membership page at the frontend and display 2 more **Display on** and **Membership route**.
 
 - **Display on**: Select the place to display Membership Page link on:
   - **Menu**: display membership page link on the menu bar.
   
-  ![Menu](https://i.imgur.com/kgSBGJD.png)
+  ![](https://i.imgur.com/kgSBGJD.png)
 
   - **Footer Links**: displays membership page link on Footer Links.
   
-  ![Footer Links](https://i.imgur.com/8CZcGcG.png)
+  ![](https://i.imgur.com/8CZcGcG.png)
   
 - **Membership route**:
   - Enter a route for the membership page.
@@ -95,7 +95,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Configuration`.
   
 - **Snippet Code**: Can add the following code to insert membership page anywhere you want:
   
-  ![Snippet Code](https://i.imgur.com/bTW8tu5.png)
+  ![](https://i.imgur.com/bTW8tu5.png)
   
 ### 2. Manage Membership
 
@@ -103,7 +103,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
 
 #### 2.1. Membership Grid
 
-![Membership Grid](https://i.imgur.com/TeaeaUU.png)
+![](https://i.imgur.com/TeaeaUU.png)
 
 - This section records the membership creation information including Membership Name, Level, Status, No. Member, Customer Groups, Is Feature,...You can add membership when creating customer groups. To set customer group, please go to `Customers > Customer Group`, click **Add new customer group**
 - You can choose to edit membership and delete information to delete membership.
@@ -113,7 +113,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
 #### 2.2. Edit Membership
 ##### 2.2.1. General
 
-![General](https://i.imgur.com/QDWXAsH.png)
+![](https://i.imgur.com/QDWXAsH.png)
 
 - **Customer Group**: Select customer group for membership:
   - General
@@ -135,7 +135,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
 
 ##### 2.2.2. Display 
 
-![Display](https://i.imgur.com/n74RhI7.png)
+![](https://i.imgur.com/n74RhI7.png)
 
 - **Membership Name**:
   - Enter a name for membership. With each store view, you can name a membership replacement in the frontend.
@@ -145,7 +145,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
 
 - **Background Color**: Choose color for background membership. 
 
-![Background Color](https://i.imgur.com/2po2dbS.png)
+![](https://i.imgur.com/2po2dbS.png)
 
 - **Default Product**: Choose products to apply to membership, this product will be used to add to cart on page membership. If you do not choose default product, membership will not be shown on **Membership Page**
 
@@ -155,7 +155,7 @@ Login to the **Magento Admin**, choose `Marketing> Membership> Manage Membership
   
 - **Is Feature**: Choose **yes** to use **Featured** for membership.
 
-![Is Feature](https://i.imgur.com/U3jHe99.png)
+![](https://i.imgur.com/U3jHe99.png)
 
 - **Featured Label**: Add the label for **Featured Label**. If left blank, the default label is `Featured`. Please make sure that your label is nottoo long so that it can be shown on forntend.
 
@@ -171,20 +171,20 @@ This section records the information, status and duration of membership packages
 
 Here save the information and payment history of customers when buying each membership, which including **Customer, Action, Pay Amount, Duration, Purchased Date, Activation Date**
 
-![History](https://i.imgur.com/ZIRIS6Y.png)
+![](https://i.imgur.com/ZIRIS6Y.png)
 
 ### 3. Transactions
 
 The information in this **Transaction** section is similar to **History in Manage Membership** but here are all membership histories. It stores customer information and payment history when purchasing membership.
 
-![Transactions](https://i.imgur.com/1Tk5fGz.png)
+![](https://i.imgur.com/1Tk5fGz.png)
 
 
 ### 4. Membership Product
 
 Login to the **Magento Admin**, choose `Catalog> Products`. At **Add Product** button, choose Membership Product:
 
-![Membership Product](https://i.imgur.com/pnLyFy3.gif)
+![](https://i.imgur.com/pnLyFy3.gif)
 
 - **Enable Product**: Select **Yes** to display membership product at frontend.
 - **Product Name**: Enter a name for the membership product. This is a required field.
@@ -201,14 +201,14 @@ Login to the **Magento Admin**, choose `Catalog> Products`. At **Add Product** b
 - To update the newest products, please run the following commands: `php bin/magento indexer:reindex`
 - Each membership will only be able to choose one membership product to make the default product and be displayed at the Membership page. For other membership products, it's not the default choice of the membership. You should create a separate category page to organize membership products there. That, membership products will not show up scattered, miscellaneous and in particular can create many choices for customers when buying membership products. Visit the Catalog> Categories to create a category page.
 
-![Note](https://i.imgur.com/a8YREWi.png)
+![](https://i.imgur.com/a8YREWi.png)
 
 ### 5. Customer edit
 
   - Login to the **Magento Admin**, choose `Customers> All Customers> Add New Customer/Edit Customer`.
   - Here, Admin can change customer group manually and the customers in group will be assigned to the default duration of that membership. Upon expiration (in hours) will expire membership and move the customer back to the default group you configured at Configuration.
   
-  ![Customer edit](https://i.imgur.com/5OuNuRJ.png)
+  ![](https://i.imgur.com/5OuNuRJ.png)
   
   - With Membership **Expiration Date** field, you can set your own membership duration for each customer and will prioritize membership configuration here.
   
@@ -216,7 +216,7 @@ Login to the **Magento Admin**, choose `Catalog> Products`. At **Add Product** b
 
 In this part, Members' information of Membership will be recorded here including Customers' email, Membership type, Status, Activation Date, Expiration Date. 
 
-![Manage Members](https://i.imgur.com/0VHdrLs.png)
+![](https://i.imgur.com/0VHdrLs.png)
   
   ## Notation
   
@@ -224,14 +224,14 @@ In this part, Members' information of Membership will be recorded here including
   - Delete the module by going to data base, please 
     - Access `eav_attribute` table, at `attribute_code`, please find and delete attribute `mpmembership, mpmembership_duration, mpmembership_price_fixed, mpmembership_duration_options`
     
-    ![Notation](https://i.imgur.com/1Xnierd.png)
+    ![](https://i.imgur.com/1Xnierd.png)
     
     - Then delete `mp_mageplaza_membership_customer, mp_mageplaza_membership_history, mp_mageplaza_membership_list`
     
-    ![delete](https://i.imgur.com/LYyEo5y.png)
+    ![](https://i.imgur.com/LYyEo5y.png)
     
     - Access table `mp_ui_bookmark`. At column `namespace`, delete `mpmembership_membership_grid, mpmembership_membership_grid, mpmembership_history_grid, mpmembership_history_grid`
 
-![Access table](https://i.imgur.com/fvDVDHk.png)
+![](https://i.imgur.com/fvDVDHk.png)
 
 

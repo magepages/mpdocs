@@ -16,19 +16,19 @@ With this extension, Customer can perform the following actions:
 
 #### Set Tier Price for each product at fixed price, discount by percentage and fixed discount
 
-![each product](https://i.imgur.com/glw3IsZ.png)
+![](https://i.imgur.com/glw3IsZ.png)
 
 #### Set the default Group Tier for products
 
-![group tier](https://i.imgur.com/7SZ5heO.png)
+![](https://i.imgur.com/7SZ5heO.png)
 
 #### Set Price Tier for each specific customer
 
-![each customer](https://i.imgur.com/5LOy4Xs.png)
+![](https://i.imgur.com/5LOy4Xs.png)
 
 #### Support Tier Price setting for multiple products via mass action
 
-![mass action](https://i.imgur.com/7Ho1PDV.png)
+![](https://i.imgur.com/7Ho1PDV.png)
 
 ## How to Configure
 
@@ -38,7 +38,7 @@ From the **Admin panel**, go to `Store > Configuration > Mageplaza Extensions > 
 
 #### 1.1. General Tab
 
-![general tab](https://i.imgur.com/s1sd02M.png)
+![](https://i.imgur.com/s1sd02M.png)
 
 
 - **Enable**: Select **Yes** to enable the extension.
@@ -53,28 +53,28 @@ From the **Admin panel**, go to `Store > Configuration > Mageplaza Extensions > 
 
 #### 2.1 Setting for each product
 
-![each product setting](https://i.imgur.com/YF9uTdC.png)
+![](https://i.imgur.com/YF9uTdC.png)
 
 
 - Go to `Catalog > Products > Edit products > Advanced Pricing`
 - **Tier Group**: The default Tier Tier, if selected, the product will automatically apply Tier Price in that Group.
 - You can **Add New Tier Group or Edit Current Tier Group**. Clicking the **Add New / Edit** button next to the **Tier Group** field will display a popup containing the **New Add/Edit Tier Group** form. At this form, admin can set the name of the desired Tier Price option group or delete that Tier Group.
 
-![tier group](https://i.imgur.com/bNt6m5R.png)
+![](https://i.imgur.com/bNt6m5R.png)
 
 - **Tier Price (s)**: install Tier Price according to Qty and desired price. For prices with 3 options: **Fixed Price, Discount Percent, Discount Amount**.
 - **Tier Price for Specific Customer (s)**: Install Tier Price for each customer. When clicking on the **Customer field** will display a popup containing customer grid for admin to select the desired customer.
 
 #### 2.2 Setting for multiple products
 
-![multiple products](https://i.imgur.com/Z6S6sNx.png)
+![](https://i.imgur.com/Z6S6sNx.png)
 
 At **Products Grid**, admin can set Tier Price for **multiple products** at the same time by selecting the desired product, then selecting **mass action Update Attributes**, on the **Tier Price** tab. At this tab will display the same Tier Price setting as when creating Tier Price for each product above.
 
 ### 3. Frontend
 
-![frontend1](https://i.imgur.com/U8FdCSf.png)
+![](https://i.imgur.com/U8FdCSf.png)
 
-![frontend2](https://i.imgur.com/LK14tEC.png)
+![](https://i.imgur.com/LK14tEC.png)
 
-![frontend3](https://i.imgur.com/MYw2RO2.png)
+![](https://i.imgur.com/MYw2RO2.png)

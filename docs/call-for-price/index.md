@@ -9,38 +9,38 @@ Nowadays, some stores or distributors don't want to display the price of the pro
 ### Display on the Product Listing
 - Display on the popup
 
-![display on the popup](https://i.imgur.com/hBwLHCc.png)
+![](https://i.imgur.com/hBwLHCc.png)
 
 - Hide Add to Cart button
 
-![hide add to cart button](https://i.imgur.com/l011k3V.png)
+![](https://i.imgur.com/l011k3V.png)
 
 ### Display on the Product Page
 
-![display product page](https://i.imgur.com/MoRFIn7.png)
+![](https://i.imgur.com/MoRFIn7.png)
 
 - Hide Add to Cart button
 
-![hide add to cart button](https://i.imgur.com/r9beQb4.png)
+![](https://i.imgur.com/r9beQb4.png)
 
 ### Email
 
-![email](https://i.imgur.com/wCRhpUX.png)
+![](https://i.imgur.com/wCRhpUX.png)
 
 ## How to configure
 
 From the Admin Panel, go to ``Sales > Call For Price > Configuration``
 
-![how to configure](https://i.imgur.com/5XdfN65.png)
+![](https://i.imgur.com/5XdfN65.png)
 
 ### Configuration
 From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``General`` sections
 
-![Configuration](https://i.imgur.com/JCN8Ryj.png)
+![](https://i.imgur.com/JCN8Ryj.png)
 
 #### General Configuration
 
-![general configuration](https://i.imgur.com/OCCyyuf.png)
+![](https://i.imgur.com/OCCyyuf.png)
 
 - **Enable**: Choose `Yes` to use the functions of this module
 - **Request status**:
@@ -52,7 +52,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   
 #### Terms and Conditions
 
-![Terms and Conditions](https://i.imgur.com/m3DDlmO.png)
+![](https://i.imgur.com/m3DDlmO.png)
 
 - **Check by default**: Choose `Yes` to auto-tick on the checkbox (always agree with the terms and conditions of the store)
 - **Is Required**: Choose "Yes" to display this required field
@@ -71,7 +71,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 
 #### Disable Default Functions
 
-![Disable Default Functions](https://i.imgur.com/mgABx91.png)
+![](https://i.imgur.com/mgABx91.png)
 
 - **Disable Add to compare, Wishlist**: Choose `Yes` to hide the `Add to compare` and `Add to Wishlist` buttons on the product on the frontend
 - **Disable Register Customer Account**: Choose `Yes` to hide the `Create an Account` button after customers checkout by their guest account
@@ -87,7 +87,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   
 #### Admin Email Notification
 
-![Admin Email Notification](https://i.imgur.com/eVZgKJH.png)
+![](https://i.imgur.com/eVZgKJH.png)
 
 - **Enable**: Choose `Yes` to send the email notification to the store owner when there're requests from customers
 - **Sender Email**: Choose the sender to send the email notification
@@ -121,7 +121,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   - The smaller the input number, the higher the priority. 
   - Items have the equal priority, the priority will be based on what item is created first.  
   
-  ![full information](https://i.imgur.com/VyvPZRT.gif)
+  ![](https://i.imgur.com/VyvPZRT.gif)
   
 ##### Step 2: Design the display of the rule on the frontend in the What to Show section  
 - **Button label**: Enter the label for the button to replace the Add to Cart button
@@ -140,28 +140,28 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
     - Hide the Add to cart button on the product
     - This section is usually for reference products or non-selling products
     
-![design the display rule](https://i.imgur.com/DZPm8Ky.gif)
+![](https://i.imgur.com/DZPm8Ky.gif)
 
 ##### Step 3: Set the condition applying the rule for products in the Where to Show section
   
 - Choose the condition to apply the rule
 - You can customize label products by setting the conditions for the product or selecting which products of the category will be displayed labels. You can find products that meet the conditions in the `PREVIEW PRODUCTS` section
 
-![set condition apply rule](https://i.imgur.com/VC6dUwa.gif)
+![](https://i.imgur.com/VC6dUwa.gif)
 
 ### Requests Management
 Display all customer requests sending to the store. 
 
-![requests](https://i.imgur.com/GkzRIEY.png)
+![](https://i.imgur.com/GkzRIEY.png)
 
 When you click on `View`, store owners can view the details of the request, such as the date of the request, the name and email of the customers, the product the customers are interested in and store owners can change the status of the request to manage requirements with ease. At the same time, they can also annotate on customer requirements.
 
-![requests managment](https://i.imgur.com/9ugxE1d.png)
+![](https://i.imgur.com/9ugxE1d.png)
 
 ### Product
 From the Admin Panel, go to `Catalog > Products > Add Product or Edit Product`
 
-![call for price](https://i.imgur.com/fW5pFdy.png)
+![](https://i.imgur.com/fW5pFdy.png)
 
 - **Call for Price**: The product will be applied based on the selected rule in this field
   - `Call for Price = Inherit from Rule`: The product that complies with the created rule in `Rules` section will continue to apply that rule
@@ -176,7 +176,7 @@ If you have installed Mageplaza Reports Standard extension on your site, in the 
 
 `Top Requested Products` dashboard will display the top 5 products that are requested the most and the number of requests respectively with that products.
 
-![compatible with reports](https://i.imgur.com/ZFVXDZV.png)
+![](https://i.imgur.com/ZFVXDZV.png)
 
 When You click on the View Details link in the Call for Requests card, Requests page will show all information of the request sent to the website.
 

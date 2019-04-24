@@ -11,9 +11,9 @@ Using discounts for items at certain times is a smart way to attract customers t
 * Daily Deal only applies for Simple Product, Configurable Product, and Group Product
 * Daily Deal is displayed  on the Category Page and Product Detail Page, including the information as Countdown, Deal Price, Percent Discount, the number of sold deals, and the number of left deals
 
-![how to use](https://i.imgur.com/FoSG66j.png)
+![](https://i.imgur.com/FoSG66j.png)
 
-![how to use 1](https://i.imgur.com/LFrNldx.png)
+![](https://i.imgur.com/LFrNldx.png)
 
 * Customers can access on the pages as All Deal, New Deal, Best-seller Deal, Feature Deal if admins allows them to be displayed on the frontend
 * Also, Deal can be installed to display on the slidebar, or the screen corner of the Store
@@ -22,12 +22,12 @@ Using discounts for items at certain times is a smart way to attract customers t
 
 Login to the Magento Admin, choose **Marketing > Daily Deal**
 
-![how to configure](https://i.imgur.com/neyHUtw.png)
+![](https://i.imgur.com/neyHUtw.png)
 
 ### 1. Manage Daily Deal
 #### 1.1. Managerial Grid
 
-![daily deal](https://i.imgur.com/kNC2id2.png)
+![](https://i.imgur.com/kNC2id2.png)
 
 * This is a place to store all created deals
 * From the grid, admins can understand all basic information of the Deal as ID, deal applied products, the products SKU, the deal's status, Deal Price, Deal Quantity, Store View, Sale Quantity, Start On, End on, and Action
@@ -38,7 +38,7 @@ Login to the Magento Admin, choose **Marketing > Daily Deal**
 
 #### 1.2. Add New/ Edit Form
 
-![products](https://i.imgur.com/yRnpgdz.png)
+![](https://i.imgur.com/yRnpgdz.png)
 
 * **Product**: The name of the product that is applied the deal. To select the product, click on `Select Product`. The name of the selected product will automatically appear in `Product` section
 * **Original Price**:
@@ -81,7 +81,7 @@ Login to the Magento Admin, choose **Marketing > Daily Deal**
 #### 2.1. General
 From the Admin Panel, go to **Mageplaza > Daily Deal**
 
-![general](https://i.imgur.com/sdFw2Ny.png)
+![](https://i.imgur.com/sdFw2Ny.png)
 
 * **Enable**: Choose Yes to enable this module
 * **Show Qty of Remaining Items**: Choose Yes to display the Deal Qty on the frontend
@@ -89,7 +89,7 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
 
 ##### 2.1.1. Countdown Timer
 
-![countdown timer](https://i.imgur.com/ZhIkQCB.png)
+![](https://i.imgur.com/ZhIkQCB.png)
 
 * **Show countdown timer**: Select Yes so that the countdown timer can be displayed on the Product Detail Page
 * **Outer background color**: Change the background color of the Countdown timer
@@ -98,11 +98,11 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
 
 ##### 2.1.2. Discount Label
 
-![discount label](https://i.imgur.com/YE4HSIw.png)
+![](https://i.imgur.com/YE4HSIw.png)
 
 * **Show Discount Label**: Discount label can be displayed on the Category Page and the Product Detail Page. There are 3 options to choose:
 
-![discount label](https://i.imgur.com/nVP72lM.png)
+![](https://i.imgur.com/nVP72lM.png)
 
   * **No**: Discount Label is not displayed on the Frontend
   * **Under Price**: Discount Label is displayed below the price of the product
@@ -111,7 +111,7 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
 * **Label**: Display the discount label on the frontend
 * **Show On**:
 
-![show on](https://i.imgur.com/UfEp2lE.png)
+![](https://i.imgur.com/UfEp2lE.png)
 
   * Only show this item when **Show Discount label = Above Product Image**
   * Select a location to display the Discount label on the product's image
@@ -123,7 +123,7 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
 #### 2.2. Deal Pages
 ##### 2.2.1. All Deals Page
 
-![all deals page](https://i.imgur.com/MoFkc2V.png)
+![](https://i.imgur.com/MoFkc2V.png)
 
 * **Enable**:
     * Select Yes to display the All Deals Page on the Frontend.
@@ -142,25 +142,25 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
     
 ##### 2.2.2. New Deals Page
 
-![new deals page](https://i.imgur.com/d2PZEve.png)
+![](https://i.imgur.com/d2PZEve.png)
 
 Similar to the settings of All Deals Page, but `New Deal Page` displays all Product Deal based on Deal Start Date. Any deal `RUNNING` that is started lastest will be displayed first
 
 ##### 2.2.3. Bestseller Deals Page
 
-![bestseller deals page](https://i.imgur.com/eEAgxgY.png)
+![](https://i.imgur.com/eEAgxgY.png)
 
 Similar to the settings of the All Deals Page, but the Bestseller Deals Page displays all Product Deals by old items. The deal `RUNNING` which is most bought by customers will be displayed first
 
 ##### 2.2.4. Feature Deals Page
 
-![feature deals page](https://i.imgur.com/kMdPhPn.png)
+![](https://i.imgur.com/kMdPhPn.png)
 
 Similar to the settings of the All Deals Page, but the Deal Page Feature displays the Product Deal based on the `Is Featured` attribute in the backend. Only deals `RUNNING` that have` Is Featured = Yes` are displayed on this page
 
 #### 2.3. Sidebar Widget
 
-![sidebar widget](https://i.imgur.com/deZ7IuX.png)
+![](https://i.imgur.com/deZ7IuX.png)
 
 * **Enable**: Select Yes to enable the Deal feature in the Sidebar widget
 * **Show Qty of Remaining Items**: Select Yes to display the remaining Deal quantity of the Product
@@ -168,7 +168,7 @@ Similar to the settings of the All Deals Page, but the Deal Page Feature display
 
 ##### 2.3.1. Random Deal
 
-![random deal](https://i.imgur.com/CFdAfOw.png)
+![](https://i.imgur.com/CFdAfOw.png)
 
 * **Show**: Choose Yes to display Block Random Deal on the sidebar. Product Deals are selected randomly
 * **Block Title**:
@@ -177,7 +177,7 @@ Similar to the settings of the All Deals Page, but the Deal Page Feature display
     
 * **Show On**: Choose the position to show on the Top or Botton of the sidebar
 
-![show on](https://i.imgur.com/p5mjzti.png)
+![](https://i.imgur.com/p5mjzti.png)
 
 * **Limit**:
     * Limit the maximum deals displaying in the block
@@ -185,19 +185,19 @@ Similar to the settings of the All Deals Page, but the Deal Page Feature display
     
 ##### 2.3.2. Top Selling Deal
 
-![top selling deal](https://i.imgur.com/1UgxBky.png)
+![](https://i.imgur.com/1UgxBky.png)
 
 Similar to the setting of the Random Deal, but the `Top Selling Deal Block` displays Product Deal based on sold items. The deal `RUNNING` which is most bought by customers will be displayed first
 
 ##### 2.3.3. Upcoming Deal
 
-![upcoming deal](https://i.imgur.com/I2locko.png)
+![](https://i.imgur.com/I2locko.png)
 
 Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays the Deal based on the Deal Start Date (Start On). The deal that has not arrived on sale is displayed in this block
 
 ##### 2.3.4. Floating Slider Deal
 
-![floating slider deal](https://i.imgur.com/Eo4siZy.png)
+![](https://i.imgur.com/Eo4siZy.png)
 
 * **Show**: Select Yes to display the Floating Slider Deal Block in the corner of the screen. Deal Features are displayed in this block
 * **Show on mobile**: Choose NO to disable Floating Slider Deal when it's on the mobile mode.
@@ -217,7 +217,7 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
     
 #### 2.4. Snippet
 
-![snippet](https://i.imgur.com/LzGgpcr.png)
+![](https://i.imgur.com/LzGgpcr.png)
 
 * With the command Snippet, admins can choose any position in the store to display the Daily Deal Block via pasting the command into the CMS Page, CMS Static Block of the store
 * Daily Deal is displayed according to one or six types as the following: all, feature, new, upcoming, bestseller, random. If deleting `typing` in the command, it will be got the error.
@@ -229,23 +229,23 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
 ### 3. Frontend
 #### 3.1. Category Page
 
-![category page](https://i.imgur.com/Ppn9tDz.png)
+![](https://i.imgur.com/Ppn9tDz.png)
 
 #### 3.2. Product Detail Page
 
-![product detail page](https://i.imgur.com/WrN5F7y.png)
+![](https://i.imgur.com/WrN5F7y.png)
 
 #### 3.3. Deal Pages
 
-![deal pages](https://i.imgur.com/CfgoLum.png)
+![](https://i.imgur.com/CfgoLum.png)
 
 #### 3.4. Sidebar Widget
 
-![sidebar widget](https://i.imgur.com/87ipMZM.png)
+![](https://i.imgur.com/87ipMZM.png)
 
 #### 3.5. Floating Deal Block
 
-![floating deal block](https://i.imgur.com/2QEEitM.png)
+![](https://i.imgur.com/2QEEitM.png)
 
 #### 3.6. Snippet
 
@@ -253,13 +253,13 @@ For example: Displaying the Daily Deal on the `About Us` page by using the Snipp
 
 * **Step 1**: In the backend, go to **Content > Elements > Page**, then edit the `About us` page
 
-![snippet](https://i.imgur.com/WcpBJaj.png)
+![](https://i.imgur.com/WcpBJaj.png)
 
 * **Step 2**: Insert the snippet code into the content of `About us` page
 
-![about us page](https://i.imgur.com/g0PSYCT.png)
+![](https://i.imgur.com/g0PSYCT.png)
 
 * **Step 3**: Save and check on the frontend
 
-![about us page 2](https://i.imgur.com/RABN80d.png)
+![](https://i.imgur.com/RABN80d.png)
 

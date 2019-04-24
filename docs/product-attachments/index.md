@@ -8,15 +8,15 @@ With attachments that admins have installed on the product, [Mageplaza Product A
 - Product Attachments can display on some following positions:
   * Product Tab
   
-  ![product tab](https://i.imgur.com/D2T2B7J.png)
+  ![](https://i.imgur.com/D2T2B7J.png)
   
   * Under Product Social Link
   
-  ![Under Product Social Link](https://i.imgur.com/YHXvi8X.png)
+  ![](https://i.imgur.com/YHXvi8X.png)
   
   * Sidebar
   
-  ![Sidebar](https://i.imgur.com/ptWqkqp.png)
+  ![](https://i.imgur.com/ptWqkqp.png)
   
   * Some different positions according to Widget or Snippet
   
@@ -28,7 +28,7 @@ With attachments that admins have installed on the product, [Mageplaza Product A
 
 Login to the Magento Admin, choose `Catalog > Product Attachments`
 
-![how to configure](https://i.imgur.com/XPCbNnU.png)
+![](https://i.imgur.com/XPCbNnU.png)
 
 Admins can add an attached file for the Product in 2 ways:
   * Create a file at the `Manage General File`. It's so quick and convenient if you want to apply an attached file for many products.
@@ -40,7 +40,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 #### 1.1. General
 
-![general configuration](https://i.imgur.com/d1U2MUT.png)
+![](https://i.imgur.com/d1U2MUT.png)
 
 * **Enable**: Choose Yes so that this module can work well
 * **Block Title**: 
@@ -57,11 +57,11 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
     * The icons added in this field will display in the `Edit/Add New File` under Dropdown
     * We recommend you should use SVG file, or the icons have the size format not as 45x25
     
-    ![manage icons](https://i.imgur.com/CofYYlZ.png)
+    ![](https://i.imgur.com/CofYYlZ.png)
     
 #### 1.2. Default Value
 
-![default value](https://i.imgur.com/Ly10kJs.png)
+![](https://i.imgur.com/Ly10kJs.png)
 
 * All values selected in this section are taken as the default value of the product attachment when they are uploaded
 * These values will be selected by default when adding new files, but admins can change these values while editing/adding new files.
@@ -75,7 +75,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 #### 1.3. Snippet
 
-![snippet](https://i.imgur.com/P4CNPsJ.png)
+![](https://i.imgur.com/P4CNPsJ.png)
 
 * **CMS Page/Static Block**: Copy code and insert into the pages in the `Content > Page` section.
 * **Template .phtml file**: Copy code and insert into the .phtml files of Magento or other extensions that you want to display Free Shipping Bar
@@ -84,7 +84,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 ### 2. Manage General Files
 #### 2.1. Managerial Grid
 
-![managerial grid](https://i.imgur.com/z52Pl1u.png)
+![](https://i.imgur.com/z52Pl1u.png)
 
 * This is a place to save all attached files into the product.
 * From the Grid, admins can understand the basic information of the file as ID, Label, Name, Status, Store View, Customer Group, Priority, Create Date, and Action.
@@ -96,7 +96,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 ##### 2.2.1. General
 
-![general](https://i.imgur.com/XOhLofu.png)
+![](https://i.imgur.com/XOhLofu.png)
 
 * **File Label**:
   * Set the file label to display on the Frontend
@@ -135,45 +135,45 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   * 0 is the highest priority.
   * Attachments that is added directly in the `Edit Product` will be displayed first. After displaying all attachments in `Edit Product`, attachments in the `Manage Files` will be arranged again based on `Priority`
   
-  ![priority](https://i.imgur.com/i3dTEr8.png)
+  ![](https://i.imgur.com/i3dTEr8.png)
   
 ##### 2.2.2. Assign To
 
-![assign to](https://i.imgur.com/8kUbwga.png)
+![](https://i.imgur.com/8kUbwga.png)
 
 * This is a place for you to select the conditions for the rule. Only available on selected products, the new rule can be applied.
 * You can add/remove the condition by clicking on `+` or `x`
 * You can change the true/false of the condition by clicking `bold` text
 * Admins can review the products satisfied the condition when clicking on `Preview Products`
 
-![assign to 2](https://i.imgur.com/vWo8Yhn.png)
+![](https://i.imgur.com/vWo8Yhn.png)
 
 ### 3. Add the attached file in the `Catalog > Products`
 
 * Admins can add directly in the Grid or go to `Edit Product Page` to add the file.
 
   * Grid
-![add the attached file](https://i.imgur.com/ZN2e1EK.png)
+![](https://i.imgur.com/ZN2e1EK.png)
 
   * Edit Product Page
   
-![Edit Product Page](https://i.imgur.com/NaxHGLb.png)
+![](https://i.imgur.com/NaxHGLb.png)
 
 * By one of two ways, admins can set the display location of the attached files and upload files easily.
 * All product attachments are displayed here, including the files created in the `Manage Product` (if that file is assigned to this product).
 * When you click on an attached file, a popup is displayed and admins can quickly edit the file information.
 
-![add the attached file](https://i.imgur.com/jrNM6mU.png)
+![](https://i.imgur.com/jrNM6mU.png)
 
 * The information is similar to the information when adding new files in `Manage File`
 * Note that File Name does not support hieroglyphs such as Chinese, Japanese, Korean, Russian
 * The files added here will be sorted before the attachments in Manage Files even with lower priority. After all the attachments in the `Edit Product` are listed, Attachments in `Manage Files` are sorted again based on priority.
 
-![add the attached file](https://i.imgur.com/Zinmraq.png)
+![](https://i.imgur.com/Zinmraq.png)
 
 ### 4. Report
 
-![report](https://i.imgur.com/alxCdgn.png)
+![](https://i.imgur.com/alxCdgn.png)
 
 * Record the information about actions performed by the customer on the Product Attachments such as: File Label, File Name, Customer Implementation, Product, Action, Store View, Customer Group and Action Date.
 * Admins can clear logs if they want.
@@ -183,11 +183,11 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * The import function is built based on the import function of Magento.
 * Note that admins must select `Entity Type = Mageplaza Product Attachments`
 
-![import file](https://i.imgur.com/PtFR0AW.png)
+![](https://i.imgur.com/PtFR0AW.png)
 
 * Before Check Data, admins need to upload attachments into the `pub/media/import`
 
-![import file 2](https://i.imgur.com/7829axK.png)
+![](https://i.imgur.com/7829axK.png)
 
 * After importing, Product Attachment files are stored in `Manage General File`
 * To know more Magento's import, please visit [here](https://www.mageplaza.com/kb/how-to-import-products-magento-2.html)

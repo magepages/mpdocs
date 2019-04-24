@@ -8,26 +8,26 @@ Mageplaza Store Credit extension is fully compatible with [Mageplaza One Step Ch
 - Thanks to this extension, customes can perform some actions:
   - Manage Balance
   
-  ![store crdit](https://i.imgur.com/ydiUuAM.png)
+  ![](https://i.imgur.com/ydiUuAM.png)
   
   - Purchase Store Credit Product
   
-  ![store crdit1](https://i.imgur.com/ICmJcP4.png)
+  ![](https://i.imgur.com/ICmJcP4.png)
   
   - Use Credit to pay the order
   
-  ![store crdit2](https://i.imgur.com/VzbxMyE.png)
+  ![](https://i.imgur.com/VzbxMyE.png)
   
 ## How to configure
 
 From the Admin Panel, go to `Marketing > Store Credit`
 
-![store crdit3](https://i.imgur.com/tLncGM5.png)
+![](https://i.imgur.com/tLncGM5.png)
 
 ### 1. Configuration
 #### 1.1. General Tab
 
-![store crdit4](https://i.imgur.com/yiC8AaV.png)
+![](https://i.imgur.com/yiC8AaV.png)
 
 - **Enable**: Choose "Yes" to use the features of this module
 - **Enable for Customer Groups**: Only customers in the selected groups is used this extension
@@ -41,7 +41,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 1.2. Spending Configuration
 
-![store crdit5](https://i.imgur.com/kI58jTo.png)
+![](https://i.imgur.com/kI58jTo.png)
 
 - **Enable Spending On**: Choose Credit that can use in the backend or frontend
   
@@ -66,7 +66,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 1.3. Email Configuration
 
-![store crdit6](https://i.imgur.com/SBI71pk.png)
+![](https://i.imgur.com/SBI71pk.png)
 
 - **Enable** : Select "Yes" to use this feature
 - **Subcribe by default**: Select "Yes" so that customers who signup a new account will automatically accept the email when credit balance is updated
@@ -79,7 +79,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 ### 2. Transaction
 #### 2.1. Grid
 
-![store credit 7](https://i.imgur.com/g2BaaJ5.png)
+![](https://i.imgur.com/g2BaaJ5.png)
 
 - This is a place to save all transactions on the store
 - From the Grid, admins can capture the basic information of the generated transactions such as *ID, Title, Customer, Status, Action, Amount, Balance, Create Date* and view Transaction when click to **View** at **Action** column
@@ -87,7 +87,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 2.2. Add New/Edit Form
 
-![store crdit8](https://i.imgur.com/qYCsYpg.png)
+![](https://i.imgur.com/qYCsYpg.png)
 
 - **Select Customer**
   - When you click on this item, the popup displays a list of all the customers in the store. Admins only select a customer in the list.
@@ -108,7 +108,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
   
 ### 3. Manage Store Credit at Admin Customer
 
-![store crdit9](https://i.imgur.com/2vO7rCc.png)
+![](https://i.imgur.com/2vO7rCc.png)
 
 - Admins can manage Store Credit Balance, Transactions and Notification of customers by going to `Customer > Edit Customer > Store Credit`
 - The Credit Information tab tells the administrators to know the total amount of Credit that customers has, and shows the status of the email receipt action when the balance update of the customers. Admins can also change the status of this action.
@@ -125,17 +125,17 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - **Allow Amount Range**:
   - Select "Yes" so that customers can change the `Amount of Credit` as their wish within the Amount `Range From - To` that admins have set.
   
-  ![store crdit10](https://i.imgur.com/MUhqhko.png)
+  ![](https://i.imgur.com/MUhqhko.png)
   
   - Select "No" to set the Fixed Amount for the `Credit Credit Store`
   
-  ![store credit 10i](https://i.imgur.com/itVB8iA.png)
+  ![](https://i.imgur.com/itVB8iA.png)
 
 - **Price**: The price displayed on `Frontend = Price Percentage * Amount` entered by customers. If you leave it blank, `Price Percentage = 100%`
 
 ### 5. Email Update Balance
 
-![store crdit 11](https://i.imgur.com/s5AlSi0.png)
+![](https://i.imgur.com/s5AlSi0.png)
 
 
 

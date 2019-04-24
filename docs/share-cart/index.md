@@ -9,7 +9,7 @@
 
 From the Admin Panel, go to `Store > Settings > Configuration > Mageplaza Extensions > Share Cart > Configuration`, choose `General Configuration` section.
 
-![share cart 1](https://i.imgur.com/sZ5giNx.png)
+![](https://i.imgur.com/sZ5giNx.png)
 
 #### 1.1. General
 
@@ -33,20 +33,20 @@ After enabling the module, customers can use the `Share Cart` button to send the
 
 - Show the Share Cart button on the Minicart page when adding to cart:
 
-![share cart 2](https://i.imgur.com/K3FrpU0.png)
+![](https://i.imgur.com/K3FrpU0.png)
 
 - Show the Share Cart button on the Shopping Cart page when using the URL to share
 
-![share cart 3](https://i.imgur.com/2WXJK43.png)
+![](https://i.imgur.com/2WXJK43.png)
 
   - Customers can choose `Update Shopping Cart` to update again the information that you have edited
   - Click `Text` button to view the information of each product and the total price
   
-  ![share cart 4](https://i.imgur.com/eCa4Ujp.png)
+  ![](https://i.imgur.com/eCa4Ujp.png)
   
   - Choose PDF button to view the order information
   
-  ![share cart 5](https://i.imgur.com/AVEjzOA.png)
+  ![](https://i.imgur.com/AVEjzOA.png)
   
   
   

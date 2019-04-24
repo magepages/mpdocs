@@ -9,49 +9,49 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 - Customers can see a list of all the addresses of the store branches
 
-![store locatorr](https://i.imgur.com/KGGZqnt.png)
+![](https://i.imgur.com/KGGZqnt.png)
 
 - Customers can quickly search any store in a certain area. For example, when a customer searches in Washington, all stores in the selected radius in Washington will be displayed.
 
-![store locator i](https://i.imgur.com/RyJtVWd.png)
+![](https://i.imgur.com/RyJtVWd.png)
 
 - Customers can zoom in, zoom out Map as well as can change the store search radius
 
-![store locator ii](https://i.imgur.com/X9KNDqr.gif)
+![](https://i.imgur.com/X9KNDqr.gif)
 
 - By clicking on the detail, customers will see detailed information about the Store and can use the directions to the selected store
 
-![store locator iii](https://i.imgur.com/Tu8jvUL.png)
+![](https://i.imgur.com/Tu8jvUL.png)
 
 - **Checkout page**: show the detail information including store location, shipping fee and pickup time after that customer can get their items. Please make sure that the products in cart have the same addresses as store locator. If not, the error message will be shown. coressponding to the ordered products. Click **Select Store** to show popup.
 
-![Imgur](https://i.imgur.com/863ZrDc.png)
+![](https://i.imgur.com/863ZrDc.png)
 
 - Click **Select Store** to show popup. In here, customer can choose the location and time to pick their items up.
 - **Note**: Only show the opening time of stores. The time waiting for order is available or the closing time of store will be hiden, customers cannot choose them. Then click **Submit** button to confirm the store location and time to pickup items. Click **Cancel** to quit the popup. 
 
-![Imgur](https://i.imgur.com/A3Bga2N.png)
+![](https://i.imgur.com/A3Bga2N.png)
 
 - **Frontend Order**: Record the order data: time, location, shipping fee customers choose to get their items. 
 
-![Imgur](https://i.imgur.com/k2tjwPR.png)
+![](https://i.imgur.com/k2tjwPR.png)
 
 ## How to configure
 
 - There're 2 ways to access the menu of the extension:
   - 1. `Content > Store Locator`
   
-  ![configuration](https://i.imgur.com/mSGJanL.png)
+  ![](https://i.imgur.com/mSGJanL.png)
   
   - 2. Enable Mageplaza Menu, all extensions of Mageplaza you are installing will be displayed in this menu:
   
-  ![configuration2](https://i.imgur.com/oAw0jjx.png)
+  ![](https://i.imgur.com/oAw0jjx.png)
 
 
 ### 1. Configuration
 #### 1.1. General
 
-![store locator 2](https://i.imgur.com/l5431CP.png)
+![](https://i.imgur.com/l5431CP.png)
 
 - `Enable`: Choose Yes to enable this module
 - `Title`:
@@ -72,17 +72,17 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 ##### 1.1.1. Filter store
 
-![store locator 2](https://i.imgur.com/E4behlO.png)
+![](https://i.imgur.com/E4behlO.png)
 
 - `Enable`: Select Yes to enable the search feature.
 - `Auto-Filter by current position`: Select Yes so that customers can move the maps back to their position by one click in the search box:
 
-![store locator iiiii](https://i.imgur.com/SW1ltyZ.png)
+![](https://i.imgur.com/SW1ltyZ.png)
 
 
 #### 1.2. Map Settings
 
-![store locator 3](https://i.imgur.com/YeGQ2hA.png)
+![](https://i.imgur.com/YeGQ2hA.png)
 
 - `Google Map API Key`: In order for Google Map to obtain the coordinates of the locations that admins have added, admins need to enter the Google Map API Key into this section.
 - `Map Style`:
@@ -111,13 +111,13 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 #### 1.3. Store Time Default
 
-![store locator 4](https://i.imgur.com/U0im4oH.png)
+![](https://i.imgur.com/U0im4oH.png)
 
 - Admins can set the timezone and opening time for each item of the week for all stores. These values are only default values. They are only applied when admins click the `Use Config` button when they `Add New Location`
 
 #### 1.4. SEO
 
-![store locator 5](https://i.imgur.com/lTOyuXQ.png)
+![](https://i.imgur.com/lTOyuXQ.png)
 
 *You can configure the meta that is useful for your better SEO*
 
@@ -130,7 +130,7 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 ### 2. Locations
 #### 2.1. Grid
 
-![store locator 6](https://i.imgur.com/TPZ895i.png)
+![](https://i.imgur.com/TPZ895i.png)
 
 - This is a place to store all store locations that are created
 - From the Grid, admins can capture the basics of Store Location such as ID, Name, Visibility, Store View, City, Zip Code, Country, Sort Order, Create Date and Action that can be done with Store Location.
@@ -141,12 +141,12 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 - In the `Action` column, admins can click on `Edit` to modify the Store Location
 - In addition, admins can Filter, Change Store View, hide/show Columns, Export Grid or edit inline
 
-![store locator 7](https://i.imgur.com/pSdlUZY.png)
+![](https://i.imgur.com/pSdlUZY.png)
 
 #### 2.2. Add New/Edit Store Locator Order form
 ##### 2.2.1. General
 
-![store locator 8](https://i.imgur.com/yHes7Ol.png)
+![](https://i.imgur.com/yHes7Ol.png)
 
 - `Name`: The name entered here is displayed in both the backend and the frontend
 - `Visibility`: Select Yes so that store locator is displayed on the frontend
@@ -163,14 +163,14 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 ##### 2.2.2. Location
 ###### 2.2.2.1. Address Information
 
-![store locator 9](https://i.imgur.com/fuKi3Ix.png)
+![](https://i.imgur.com/fuKi3Ix.png)
 
 - Fill in the store location's address information in these fields
 - After entering the correct address, admins click on `Get GPS coordinates` to automatically get coordinates and display on Maps
 
 ###### 2.2.2.2. Review Map
 
-![store locator 10](https://i.imgur.com/22qt7Q1.png)
+![](https://i.imgur.com/22qt7Q1.png)
 
 - The coordinates of the store location are shown here
 - They can be obtained automatically when admins `Get GPS coordinates`, admins can also manually fill
@@ -180,25 +180,25 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 ###### 2.2.3.1. Open Hours
 
-![store locator 11](https://i.imgur.com/gZBuyd0.png)
+![](https://i.imgur.com/gZBuyd0.png)
 
 ###### 2.2.3.2. Holiday
 
-![store locator 12](https://i.imgur.com/BYOdkdd.png)
+![](https://i.imgur.com/BYOdkdd.png)
 
 - Holidays created under `Content > Store Locator > Holidays` will be displayed in this section
 - The selected holidays will be applied for the store. Opening times on the Frontend will change from Open to Close on holidays
 
 ##### 2.2.4. Contact
 
-![store locator 13](https://i.imgur.com/bhsNsSt.png)
+![](https://i.imgur.com/bhsNsSt.png)
 
 - Admins can enter their contact information to display on the frontend
 - Basic information includes: phone number, website address, fax number and email address
 
 ##### 2.2.5. Images
 
-![store locators 14](https://i.imgur.com/QXDBgfn.png)
+![](https://i.imgur.com/QXDBgfn.png)
 
 - Admins can upload typical images of the store to display on the Frontend.
 - The uploaded first image is displayed on the store locator page, the remaining images is displayed as a slider when the customer clicks on the location detail.
@@ -206,18 +206,18 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 ##### 2.2.6 Available Products
 
 
-![Imgur](https://i.imgur.com/b1kbj7L.png)
+![](https://i.imgur.com/b1kbj7L.png)
 
 - **Show on Product Page**: Select **Yes** to allow showing specific store can be picked up on **Product Page** 
 - **Selected Product**: This part records the information of products within related stores. Admin can search, filter product ID, SKU, Price in the Grid
 - Click **Add Product** button to show popup in which allow admin to add products into store locator. You can select multiple products once. 
 
-![Imgur](https://i.imgur.com/tckPL0z.png)
+![](https://i.imgur.com/tckPL0z.png)
 
 ### 3. Holidays
 #### 3.1. Grid
 
-![holidays](https://i.imgur.com/CI4jaOd.png)
+![](https://i.imgur.com/CI4jaOd.png)
 
 - This is a place to store all the Holidays that admins installed for store
 - From the Grid, admins can capture basic Holiday information such as: ID, Name, Status, No. of Locations, Create Date and Action that can be done with Holiday
@@ -229,17 +229,17 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 - In addition, admins can Filter, Change Store View, hide/show Columns, Export Grid or edit inline
 
 
-![grid](https://i.imgur.com/QDhVqAq.png)
+![](https://i.imgur.com/QDhVqAq.png)
 
 #### 3.2. Add New/Edit Form
 
 ##### 3.2.1. General
 
-![Imgur](https://i.imgur.com/BLXAwCD.png)
+![](https://i.imgur.com/BLXAwCD.png)
 
 ##### 3.2.2. Locations
 
-![Imgur](https://i.imgur.com/9EJOjjP.png)
+![](https://i.imgur.com/9EJOjjP.png)
 
 - The created locations in the `Content > Store Locator > Locations` section will be displayed in this section
 - Selected stores will be applied for this holiday. Opening times on the Frontend will change from Open to Close on holidays.
@@ -248,23 +248,23 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 ## How to add Map Style
 - Step 1: Choose `Map Style = Custom`
 
-![store switcher i](https://i.imgur.com/qcYHaJD.png)
+![](https://i.imgur.com/qcYHaJD.png)
 
 - Step 2: Click here in the comment. The link will be lead to https://snazzymaps.com/
 
-![store switcher ii](https://i.imgur.com/qBwCXvK.png)
+![](https://i.imgur.com/qBwCXvK.png)
 
 - Step 3: Click on Map Style that you want. For example: `Lost in the desert`
 
-![store switcher ii](https://i.imgur.com/UbXsqgD.png)
+![](https://i.imgur.com/UbXsqgD.png)
 
 - Step 4: Expand Code and Copy JAVASCRIPT STYLE ARRAY into the Custom checkbox in the configuration
 
-![store switcher iii](https://i.imgur.com/Dbl5elA.png)
+![](https://i.imgur.com/Dbl5elA.png)
 
 - Step 5: Save and check on the frontend
 
-![store switcher iiii](https://i.imgur.com/ST2Xc41.png)
+![](https://i.imgur.com/ST2Xc41.png)
 
 
 
@@ -280,13 +280,13 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shippin
   - Enter the title for the **Shipping Methods** type with [Mageplaza Store Pickup]().
   - If left blank, the default is *Select Store to pickup*.
 
-![Imgur](https://i.imgur.com/NKgSyWf.png)
+![](https://i.imgur.com/NKgSyWf.png)
 
 - **Method Name**:
   - Enter a name for this Shipping methods type and will appear on Shipping methods when the customer checkout.
   - If left blank, the default is *Store Pickup*.
   
-  ![Imgur](https://i.imgur.com/A3G2Kon.png)
+  ![](https://i.imgur.com/A3G2Kon.png)
 
 - **Price**: Enter the price for shipping methods. If left blank, the ship price will default to 0.
 - **Calculate Handling Fee**: Select the **Handling Fee** for the shipping methods, this price will be added to the Price field and displayed in shipping methods when the customer checkout. With two **Handling Fee** types:
@@ -311,7 +311,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shippin
 
 Login to the **Magento Admin**, choose `Catalog > Products Add new/Edit any product`
 
-![Imgur](https://i.imgur.com/4kN8hmD.png)
+![](https://i.imgur.com/4kN8hmD.png)
 
 - **Available Store Pickup**:
   - Select store locator to display product on that store locator.
@@ -322,7 +322,7 @@ Login to the **Magento Admin**, choose `Catalog > Products Add new/Edit any prod
 This section records the store locator's address information, after ordering for how long the customer can come to pick up the goods and the amount of additional charges customers have to pay as shipping,...
 
 
-![Imgur](https://i.imgur.com/FY8ysd9.png)
+![](https://i.imgur.com/FY8ysd9.png)
 
 
 

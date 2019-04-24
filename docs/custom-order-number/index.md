@@ -23,14 +23,14 @@ To resolve this problem, Mageplaza has launched a handy extension, called [Magen
 Login to the Magento Admin, choose **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**
 
 
-![how to configure](https://i.imgur.com/e2k0vE2.png)
+![](https://i.imgur.com/e2k0vE2.png)
 
 ### General Configuration
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **General  Configuration** section
 
 
-![general configuration](https://i.imgur.com/r8jkN85.png)
+![](https://i.imgur.com/r8jkN85.png)
 
 * **Enable**: Choose Yes to enable this module
 
@@ -39,7 +39,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Order Number** section
 
 
-![order number](https://i.imgur.com/FwMn6WV.png)
+![](https://i.imgur.com/FwMn6WV.png)
 
 * **Enable**: Choose Yes to use the feature that allows configuring the changing ID of the Order
 * **Pattern**: 
@@ -64,7 +64,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Reset Counter**:
 
-![reset counter](https://i.imgur.com/8w9dH9B.png)
+![](https://i.imgur.com/8w9dH9B.png)
 
    * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
    * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
@@ -78,14 +78,14 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Invoice Number** section
 
-![invoice number](https://i.imgur.com/BzYomZP.png)
+![](https://i.imgur.com/BzYomZP.png)
 
 
 * **Enable**: 
     * Choose Yes to use the feature that allows changing the ID of Invoice
     * Choose **Same as Order Number** to use the configuration the same as the configuration of **Order Number**
 
-![invoice number 1](https://i.imgur.com/qrT1a4b.png)
+![](https://i.imgur.com/qrT1a4b.png)
 
 * **Replace**
     * Enter the characters you want to change if you choose the same configuration as the **Order Number**
@@ -118,7 +118,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Reset Counter**:
 
-![reset counter](https://i.imgur.com/vu6E2lF.png)
+![](https://i.imgur.com/vu6E2lF.png)
 
    * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
    * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
@@ -131,13 +131,13 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Shipment Number** section
 
-![shipment number](https://i.imgur.com/uLiV82l.png)
+![](https://i.imgur.com/uLiV82l.png)
 
 * **Enable**: 
     * Choose Yes to use the function that allows configuring the change of the Shipment ID.
     * Choose **Same as Order Number** to use the configuration the same as the configuration of **Order Number**
 
-![shipment number 2](https://i.imgur.com/bHlFHRe.png)
+![](https://i.imgur.com/bHlFHRe.png)
 
 * **Replace**
     * Enter the characters you want to change if you choose the same configuration as the **Order Number**
@@ -170,7 +170,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Reset Counter**:
 
-![reset counter](https://i.imgur.com/iGcZIxV.png)
+![](https://i.imgur.com/iGcZIxV.png)
 
    * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
    * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
@@ -184,13 +184,13 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Creditmemos Number** section
 
-![credit memo](https://i.imgur.com/Bm85ath.png)
+![](https://i.imgur.com/Bm85ath.png)
 
 * **Enable**: 
     * Choose Yes to use the function that allows configuring the change of the Credit Memo ID.
     * Choose **Same as Order Number** to use the configuration the same as the configuration of **Order Number**
 
-![credit memo](https://i.imgur.com/cYox0fS.png)
+![](https://i.imgur.com/cYox0fS.png)
 
 * **Replace**
     * Enter the characters you want to change if you choose the same configuration as the **Order Number**
@@ -223,7 +223,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Reset Counter**:
 
-![reset counter](https://i.imgur.com/RQeInHV.png)
+![](https://i.imgur.com/RQeInHV.png)
 
    * **Reset Counter = Daily**: Counter will be reset to the `Counter Start From` value that is using at 00h daily
    * **Reset Counter = Weekly**: Counter will be reset to the `Counter Start From` value that is using at 00h the first day of the week
@@ -235,7 +235,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 ### Mail
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Email** section
 
-![mail](https://i.imgur.com/KQx1ZZG.png)
+![](https://i.imgur.com/KQx1ZZG.png)
 
 * **Send Email To**
     * Enter the email to send the notification
@@ -281,17 +281,17 @@ For the **Pattern** field of Order Number, Invoice Number, Shipment Number or Cr
 
 Please click on [here](https://www.mageplaza.com/faqs/order-id-conflicted.html) to know more information.
 
- ![format email notification](https://i.imgur.com/RGOpNuJ.png)
+ ![](https://i.imgur.com/RGOpNuJ.png)
  
 ####  The ID's format after configured
     
 **Display in the backend**  
 
-![display in the backend](https://i.imgur.com/cph3xDJ.png)
+![](https://i.imgur.com/cph3xDJ.png)
 
 **Display on the frontend**
 
-![display on the frontend](https://i.imgur.com/nkymmUl.png)
+![](https://i.imgur.com/nkymmUl.png)
 
     
     

@@ -18,29 +18,29 @@ When shopping, customers would love to bargain for their favored products. [Mage
 With this extension, customers can conduct the following actions:
 - **Send a request quantity and price of products to admin**
 
-![Imgur](https://i.imgur.com/skUc8Qy.png)
+![](https://i.imgur.com/skUc8Qy.png)
 
 - **Buy with request price for a certain period of time**
 - **Cancel the previously paid price of a product**
 
-![Imgur](https://i.imgur.com/BVOkF7G.png)
+![](https://i.imgur.com/BVOkF7G.png)
 
 - **Review details of all products that have been successfully bargained**
 
-![Imgur](https://i.imgur.com/FZPlAnO.png)
+![](https://i.imgur.com/FZPlAnO.png)
 
 ## How to Configure
 
 From the **Admin panel**, go to `Marketing > Name Your Price`
 
-![Imgur](https://i.imgur.com/FK7fEc5.png)
+![](https://i.imgur.com/FK7fEc5.png)
 
 
 ### 1. Configuration
 
 #### 1.1. General Tab
 
-![Imgur](https://i.imgur.com/anThjqB.png)
+![](https://i.imgur.com/anThjqB.png)
 
 - **Enable**: Select **Yes** to enable the extension
 - **Customer Group**: Only selected customer groups can send requests to the store admins
@@ -63,7 +63,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
   
 #### 1.2 Bargain Form
 
-![Imgur](https://i.imgur.com/64JbHym.png)
+![](https://i.imgur.com/64JbHym.png)
 
   - **Use Popup**: Select **Yes** to use a popup to display the form request
   - **Additional Fields**: The selected fields will be displayed on the front-end, not required to fill in these fields.
@@ -72,7 +72,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
   
 #### 1.3 Notification Email
 
-![Imgur](https://i.imgur.com/DOVTAG4.png)
+![](https://i.imgur.com/DOVTAG4.png)
 
 - **Enable**: Select **Yes** to allow Notification Email
 
@@ -110,7 +110,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 #### 2.1. Grid
 
-![Imgur](https://i.imgur.com/V6NKO5A.png)
+![](https://i.imgur.com/V6NKO5A.png)
 
 - Grid includes information: **Id, Product Name, SKU, Original Price, Bargain Price, Quantity, Status, Customer Name, Customer Email, View Store, Submitted Date, Order's Id, Action**
 - Admin can conduct some actions such as **Delete, Approve, Reject**
@@ -119,13 +119,13 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 #### 2.2. Edit Request
 
-![Imgur](https://i.imgur.com/sqAlXsH.png)
+![](https://i.imgur.com/sqAlXsH.png)
 
 - Admin can quickly **Approve** or **Reject** a request when editing the request
 
 ##### 2.2.1. General tab
 
-![Imgur](https://i.imgur.com/AX59S3C.png)
+![](https://i.imgur.com/AX59S3C.png)
 
 - **Customer Name**: Display customer name submitted. Admin cannot edit this field
 - **Customer Email**: Display customer email. Admin cannot edit this field
@@ -154,7 +154,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 ##### 2.2.2 Message
 
-![Imgur](https://i.imgur.com/6x4SdEn.png)
+![](https://i.imgur.com/6x4SdEn.png)
 
 - **Customer’s Message**:
   - Display the message of the customer along with bargain products
