@@ -23,13 +23,16 @@ Go to `Stores > PDF Invoice > Manage Templates`, select **Add New Order Template
 
   - For **Input Type = Text, Text Area, Date, Content, Media Image, Single File Attachment**
   
+  
   ```
 {{order order.getOrderAttrText1 ()}}
      <p> {{var order.getOrderAttrText1Label ()}} {{var order.getOrderAttrText1 () | raw}} </p>
 {{/ depend}}
 ```
 
+
   - For **Input Type = Yes / No, Dropdown, Multiple Select, Single-select with Image, Multiple-select with Image**
+  
 
 ```
 {{order order.getOrderAttrText1Option ()}}
@@ -46,6 +49,8 @@ Go to `Stores > PDF Invoice > Manage Templates`, select **Add New Order Template
      <p> {{var order.getOrderAttrText1Label ()}}: <a target="_blank" href="{{var order.getOrderAttrText1Url()}}"> {{var order.getOrderAttrText1Name ()}} </a> </p>
 {{/ depend}}
 ```
+
+
   - For **Media Image**. When inserting this code, Media Image is displayed in the email. Customer can click the link to open the image in a new tab
   
   ```
@@ -101,8 +106,8 @@ Go to `Stores > PDF Invoice > Manage Templates`, select **Add New Order Template
 
 ![](https://i.imgur.com/eXF9Y2n.png)
 
-### Check the function 
-- You cna check the setup above by placing Order at Frontend
+### 4. Check the function 
+- You can check the setup above by placing Order at Frontend
 - Then check email that the system sends to customer
 
 ![](https://i.imgur.com/6i1vHDT.png)
