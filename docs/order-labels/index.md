@@ -100,7 +100,7 @@ From the **Admin Panel**, go to `Sales > Order Labels > Order Label > Add New La
 
 From **Admin Panel**, go to `Stores > Setting > Order Status`
 
-![](https://i.imgur.com/cPpCTk3.png)
+![](https://i.imgur.com/l6agd0R.png)
 
 - This is where the list of order status is displayed.
 - From Order Status, admin can easily grasp basic Order Status information such as Status, Status Code, Default Status, Visible on Storefront, Display, Action
@@ -143,7 +143,7 @@ From **Admin Panel**, go to `Sales > Operations > Orders`
 #### 5.1. Order Grid
 From **Admin Panel**, go to `Sales > Operations > Orders`
 
-![](https://i.imgur.com/b45caA5.png)
+![](https://i.imgur.com/p6XZ3S7.png)
 
 - Label's status will be displayed in the column in the Order Grid.
 -  When we click on Label or **Add Label** a popup will appear and we can edit Label right here.
@@ -154,7 +154,7 @@ From **Admin Panel**, go to `Sales > Operations > Orders`
 
 - From a record of an Order, in the **Action** column, click on **View** to see Order information. Select **Information**.
 
-![](https://i.imgur.com/6mc1lRr.png)
+![](https://i.imgur.com/i2KYFVa.png)
 
 - On the Information tab, you can see Label information there. If you want to update the status of the Label, click "Update Labels" and edit.
 
@@ -164,9 +164,8 @@ From **Admin Panel**, go to `Sales > Operations > Orders`
 
 - Order Label images are on the Order list
 
-![](https://i.imgur.com/wgVp17Q.png)
+![](https://i.imgur.com/CvbwSiB.png)
 
 - The image of Order Label in the order detail form
 
-![](https://i.imgur.com/kOIKupn.png)
-
+![](https://i.imgur.com/cdy2JEc.png)
