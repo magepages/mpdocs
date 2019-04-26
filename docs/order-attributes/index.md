@@ -77,7 +77,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 ![](https://i.imgur.com/nLUAHQU.png)
 
 - `Media Image`: Customers can upload the image file (only include the image file, not docs file or PDF files, etc) that they want
-- `Single File Attachment`: Customers can upload the attachment (not be uploaded the image) that they want
+- `Single File Attachment`: Customers can upload the attachment that they want
 - `Content`: Customers can insert the image and enter the text as well as edit them with ease.
 
 ![](https://i.imgur.com/PsGFja6.png)
