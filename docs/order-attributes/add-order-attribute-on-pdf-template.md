@@ -60,39 +60,38 @@ Go to `Stores > PDF Invoice > Manage Templates`, select **Add New Order Template
 
     - For example: Order Attribute with input type = **Date**, with attribute code is `delivery_time`, so you need to add the following code:
     
-    ```
-{{depend order.getDeliveryTime ()}}
+   
+`{{depend order.getDeliveryTime ()}}
    <p> {{var order.getDeliveryTimeLabel ()}} {{var order.getDeliveryTime () | raw}} </p>
-{{/ depend}}
-```
+{{/ depend}}`
+
 
 
 - Order Attribute type input = **Dropdown**, with attribute code is `choose_gift_wrap`, so you need to add the following code:
 
-```
-{depend order.getChooseGiftWrapOption ()}}
+
+`{depend order.getChooseGiftWrapOption ()}}
    <p> {{var order.getChooseGiftWrapLabel ()}} {{var order.getChooseGiftWrapOption () | raw}} </p>
-{{/ depend}}
-```
+{{/ depend}}`
+
 
 
 - Order Attribute type input = **Single File Attachment**, with attribute code is `attachment`, so you need to add the following code:
 
 
-```
-{depend order.getAttachment ()}}
+`{depend order.getAttachment ()}}
      <p> {{var order.getAttachmentLabel ()}}: <a target="_blank" href="{{var order.getAttachmentUrl()}}"> {{var order.getAttachmentName ()}} </a> </p>
-{{/ depend}}
-```
+{{/ depend}}`
+
 
 
 - Order Attribute type input = **Media Image**, with attribute code is `media_image`, so you need to add the following code:
 
-```
-{{order order.getMediaImage ()}}
+
+`{{order order.getMediaImage ()}}
      <p> {{var order.getMediaImageLabel ()}}: <a target="_blank" href="{{var order.getMediaImageUrl()}}"> <img title = "View Full Size" alt = "{{ var order.getMediaImageName ()}} "src =" {{var order.getMediaImageUrl ()}} "/> </a> </p>
-{{/ depend}}
-```
+{{/ depend}}`
+
 
 
 ### 3. Apply the PDF Order Template created
