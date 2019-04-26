@@ -24,40 +24,35 @@ Go to `Stores > PDF Invoice > Manage Templates`, select **Add New Order Template
   - For **Input Type = Text, Text Area, Date, Content, Media Image, Single File Attachment**
   
   
-  ```
-{{order order.getOrderAttrText1 ()}}
+`{{order order.getOrderAttrText1 ()}}
      <p> {{var order.getOrderAttrText1Label ()}} {{var order.getOrderAttrText1 () | raw}} </p>
-{{/ depend}}
-```
+{{/ depend}}`
 
 
   - For **Input Type = Yes / No, Dropdown, Multiple Select, Single-select with Image, Multiple-select with Image**
-  
+ 
 
-```
-{{order order.getOrderAttrText1Option ()}}
+`{{order order.getOrderAttrText1Option ()}}
      <p> {{var order.getOrderAttrText1Label ()}} {{var order.getOrderAttrText1Option () | raw}} </p>
-{{/ depend}}
-```
+{{/ depend}}`
+
 
 
   - For **Single File Attachment**, when inserting this code, the attachment is displayed in the email as a link. Customer can click the link to download the file:
   
-  
-  ```
-  {{order order.getOrderAttrText1 ()}}
+  `{{order order.getOrderAttrText1 ()}}
      <p> {{var order.getOrderAttrText1Label ()}}: <a target="_blank" href="{{var order.getOrderAttrText1Url()}}"> {{var order.getOrderAttrText1Name ()}} </a> </p>
-{{/ depend}}
-```
+{{/ depend}}`
+
 
 
   - For **Media Image**. When inserting this code, Media Image is displayed in the email. Customer can click the link to open the image in a new tab
   
-  ```
-{{order order.getOrderAttrText1 ()}}
+  
+`{{order order.getOrderAttrText1 ()}}
      <p> {{var order.getOrderAttrText1Label ()}}: <a target="_blank" href="{{var order.getOrderAttrText1Url()}}"> <img title = "View Full Size" alt = "{{ var order.getOrderAttrText1Name ()}} "src =" {{var order.getOrderAttrText1Url ()}} "/> </a> </p>
-{{/ depend}}
-```
+{{/ depend}}`
+
 
   - In which: 
     - Depend tag is to check that attribute is empty or not. If not, it will not be shown and either the html. 
