@@ -16,7 +16,7 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 
 
-  - After logging in the Moneris account, request the sign in information in USA or Canada. At the Homepage > My Profile, click to ** Full Profile** 
+  - After logging in the Moneris account, request the sign in information in USA or Canada. At the Homepage > My Profile, click to **Full Profile** 
 
 
 
