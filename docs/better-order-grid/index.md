@@ -1,6 +1,6 @@
 # Better Order Grid
 
-How can admin change or allow showing order information in the most convenient way? With [Mageplaza's Better Order Grid extension](https://www.mageplaza.com/magento-2-better-order-grid/) you can do that with ease. This module allow admins to add columns of customers, shipping, and billing, so you can track and manage all orders at the grid easily. In addition, you can change or create custom grid orders that meet your business requirements using this module.
+How can admin change or allow showing order information in the most convenient way? With [Mageplaza Better Order Grid extension](https://www.mageplaza.com/magento-2-better-order-grid/) you can do that with ease. This module allow admins to add columns of customers, shipping, and billing, so you can track and manage all orders at the grid easily. In addition, you can change or create custom grid orders that meet your business requirements using this module.
 
 ## How to download and install
 
@@ -42,7 +42,7 @@ Admin selects **Columns** from the **Orders menu** to hide/show columns on the p
 In the **Columns** menu, there are 4 order attributes tabs:
 
 
-- **Group Default**
+##### Group Default
 
 ![](https://i.imgur.com/8t201l7.gif)
 
@@ -52,7 +52,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   - **Cancel**: Cancel the action.
   
   
-- **Group Billing**
+##### Group Billing
 
 ![](https://i.imgur.com/Qct5mFy.gif)
 
@@ -62,7 +62,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   - **Cancel**: Cancel the action.  
   
   
-- **Group Shipping**
+##### Group Shipping
 
 ![](https://i.imgur.com/VCzEJnD.gif)
 
@@ -72,7 +72,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   - **Cancel**: Cancel the action.
 
 
-- **Group Product**
+##### Group Product
 
 ![](https://i.imgur.com/RdFLPfv.gif)
 
