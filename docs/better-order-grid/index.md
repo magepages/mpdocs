@@ -18,10 +18,10 @@ Login to the **Magento Admin**, go to `Stores > Configuration > Mageplaza > Bett
 
 #### 1. General
 
-![](https://i.imgur.com/izsYCNV.png)
+![](https://i.imgur.com/AkXB6oM.png)
 
 - Select **Enable = Yes** to enable the module.
-- Select **Can Change Columns Header = Yes** to change the header of the column.
+- Select **Change Columns Header = Yes** to change the header of the column.
 - **Select Status to Hide Orders**: Admin selects status
   - The orders with the selected status will be hidden from the grid.
   - Admin can select multiple statuses.
