@@ -325,7 +325,7 @@ This section records the store locator's address information, after ordering for
 
 ## Notation
 
-If you want to uninstal the extension, please use composer to run the command `bin/magento module:uninstall Mageplaza_StoreLocator`
+If you want to **uninstall the extension**, please use composer to run the command `bin/magento module:uninstall Mageplaza_StoreLocator`
 
 Find the follow table to delete extension `mp_mageplaza_storelocator_holiday`, `mp_mageplaza_storelocator_location`, `mp_mageplaza_storelocator_location_holiday` attribute in your data base. 
 
