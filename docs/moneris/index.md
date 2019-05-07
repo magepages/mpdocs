@@ -10,8 +10,8 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
-## How to use
-### **Moneris account registration **:
+## How to get the Moneris credentials 
+### **Moneris account registration**:
   - To register the Moneris account, please access to [this link](https://developer.moneris.com/Profile/My%20Profile)
 
 ![](https://i.imgur.com/UPMqPNw.png)
@@ -37,7 +37,7 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 ### How to configure Redirect Moneris Checkout
 
 
-- **For USA**: 
+#### **For USA**: 
   - At Moneris Page, please go to `Admin > Hosted Config`. You need to configure Magento 2 using `hpp_id`, `hpp_key`. If you do not have these keys, please click to `Generate a New Configuration` to create new keys.  
 
  ![](https://i.imgur.com/8mt186n.png)
@@ -46,27 +46,39 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
   
   ![](https://i.imgur.com/0KzlCAq.png)
   
-- **For Canada**: 
+#### **For Canada**: 
   - Log in to your Moneris account and go to `Admin > Hosted Paypage Config`. You need to configure Magento 2 using `ps_store_id` and `hpp_key`. If you do not have those keys, please click to `Generate a New Configuration` to create new keys.  
   
 ![](https://i.imgur.com/bKrLLHT.png)
-  -  
+  -  At **Paypage Appearance** choose **Configure Appearance** to add the **Cancel button Url**.
 
-  - At **Response/Receipt Field Configuration**, choose **Return the txn_number**. 
+![](https://i.imgur.com/bOjLp5R.png)
+
+  - At **Response/Receipt Field Configuration**, choose **Return the txn_number**. This is a require selection. 
  
-![](https://i.imgur.com/xRBdw8X.png)
+![](https://i.imgur.com/sstsymO.png)
 
 - **Checkout page**: Choose the Moneris Payment method. Fill in the credit card information: Credit Card Number, Expiration Date, Card Verification Number. Here, customers can save the credit cart information for the next payments.
 
-![](https://i.imgur.com/LwofhXO.png)
+![](https://i.imgur.com/R8fCX6T.png)
 
 - **Stored Payment Methods**: Here saves the credit card info. Customers can delete the outdate/ no-longer-used credit card.
 
-![](https://i.imgur.com/PyITkYZ.png)
+![](https://i.imgur.com/B6iGiqU.png)
+
 <span id="redirect-moneris-checkout"></span>
  - **Redirect Moneris Checkout**: This feature will be configured by admin at backend, which allows customers to be redirected to Moneris Payment Gateway to process their payment. 
  
-![](https://i.imgur.com/PTRaNcw.png) 
+![](https://i.imgur.com/B6iGiqU.png)
+
+- Here is the USA Moneris Checkout Page after beign redirected:
+
+![](https://i.imgur.com/c2xEfdd.png)
+
+- Here is the Canada Moneris Checkout Page after beign redirected:
+
+![](https://i.imgur.com/14WrWzW.png)
+
 
 
 ## How to Configure
@@ -74,9 +86,13 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Payment Method > Moneris`.
 
+![](https://i.imgur.com/TmrUkzE.png)
+
 - **Enable**: Select **Yes** to activate the module. 
 
 #### 1.1. Credentials
+
+![](https://i.imgur.com/LeMyMmO.gifv)
 
 - **Environment**: 
   - Admin can choose **Sandbox** environment to test the payment by Moneris
@@ -105,6 +121,8 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Payment
 
 
 #### 1.2. Card
+
+![](https://i.imgur.com/MkExXbb.png)
 
 - **Title**: Add the Title of Payment Method, which will be shown at checkout page.
 - **Payment Action**:
