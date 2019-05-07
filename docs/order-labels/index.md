@@ -123,7 +123,7 @@ From **Admin Panel**, go to `Stores > Setting > Order Status`
 #### 4.2.2. Store View Specific Labels
 Select Store View to apply Label
 
-#### 4.2.3. display
+#### 4.2.3. Display
 
 - **Use Custom**: Select **Yes** to allow Customization. Otherwise, if **No** is selected, the following fields will not be shown.
 - **Apply on**: There are three options to display Order Status: Admin Grid, Admin Form and Frontend Order View. This field depends on *Use Custom = Yes*
@@ -162,10 +162,10 @@ From **Admin Panel**, go to `Sales > Operations > Orders`
 
 ## Frontend
 
-- Order Label are in the Order list
+- **Order Label are in the Order list**
 
 ![](https://i.imgur.com/CvbwSiB.png)
 
-- Order Labels are in the order detail form
+- **Order Labels are in the order detail form**
 
 ![](https://i.imgur.com/cdy2JEc.png)
