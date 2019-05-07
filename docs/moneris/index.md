@@ -36,8 +36,8 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 ![](https://i.imgur.com/jfuRXQJ.png)
 
-### 2. Configure Redirect Moneris Checkout
 
+### 2. Configure Redirect Moneris Checkout
 
 #### **For USA**: 
   - At Moneris Page, please go to `Admin > Hosted Config`. You need to configure Magento 2 using `hpp_id`, `hpp_key`. If you do not have these keys, please click to `Generate a New Configuration` to create new keys.  
