@@ -44,7 +44,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
 
 ##### Group Default
 
-![](https://i.imgur.com/8t201l7.gif)
+![](https://i.imgur.com/4tvznXX.gif)
 
   - Admin ticks to the checkboxes to allow showing corresponding columns at the grid.
   - At **Column Header**, admin can changes column names and clicks **Save**.
@@ -54,7 +54,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   
 ##### Group Billing
 
-![](https://i.imgur.com/Qct5mFy.gif)
+![](https://i.imgur.com/v5a7ZgM.gif)
 
   - Admin ticks to the checkboxes to allow showing corresponding columns at the grid.
   - At **Column Header**, admin can changes column names and clicks **Save**.
@@ -64,7 +64,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   
 ##### Group Shipping
 
-![](https://i.imgur.com/VCzEJnD.gif)
+![](https://i.imgur.com/IIl6ctx.gif)
 
   - Admin ticks to the checkboxes to allow showing corresponding columns at the grid.
   - At **Column Header**, admin can changes column names and clicks **Save**.
@@ -74,7 +74,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
 
 ##### Group Product
 
-![](https://i.imgur.com/RdFLPfv.gif)
+![](https://i.imgur.com/lcEyzMq.gif)
 
   -  Admin ticks to the checkboxes to allow showing corresponding columns at the grid. The columns selected at **Group Product**** will be displayed in the **Item Details** column of the **Group Default**.
   - At **Column Header**, admin changes column names and clicks **Save**.
