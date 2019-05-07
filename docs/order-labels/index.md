@@ -32,10 +32,10 @@ From the **Admin Panel**, go to `Stores > Configuration > Mageplaza Extensions >
     - *Show on Form = Alway*: Always display Column to Order Form
     - *Show on Form = Only has label*: Only when Label is available for Column, will it display Column to Order Form
     - *Show on Form = No*: Do not display Column to Order Form
-- **Skip Manual Add Label**:
-  - If **Yes** is selected, the label has been manually added will not be removed by schedule).
-  - If **No** is selected, manually added labels can still be deleted if the status of the order no longer satisfies the auto-tagging condition.
-- **Auto Set Label**: Click **Run** to turn on auto-tagging
+- **Skip Manually-added Order Labels**:
+  - If **Yes** is selected, the label has been manually added will not be affected by **Auto-set lables**.
+  - If **No** is selected, manually added labels can still be deleted if the order status is unsatisfies the conditions of **Auto-set lables**.
+- **Auto-set Order Labels**: Click **Run** to allow auto-set labels for columns at order grid. 
 
 
 ### 2. Management Grid Labels
@@ -75,9 +75,9 @@ From the Admin Panel, go to `Sales > Order Labels > Order Label > Add New Label,
 - **Display Type**: Select Label display type, there are 4 choices.
   - *Image Only*: Only displayed in image format
   - *Text Only*: Only displayed in text
-  - *Image + Text*: Displayed in images and text with the following
-  - *Text + Image*: Display in text and images with the following
-- **Select Image**: Select the image to represent Label. It is recommended that you use a picture of 150x50 px size. Or you can use the icon. You can find the appropriate icon [here](https://www.flaticon.com/search).
+  - *Image + Text*: Displayed in images and followed by text
+  - *Text + Image*: Display in text and followed by images
+- **Select Image**: Select the image to represent Label. It is recommended that you use a picture of 150x50 px size. Or you can use the icon suggested [here](https://www.flaticon.com/search).
 - **Background Color**: Select the background color for Label.
 - **Text Color**: Choose colors for text.
 
@@ -117,21 +117,21 @@ From **Admin Panel**, go to `Stores > Setting > Order Status`
 ![](https://i.imgur.com/tfoI5VG.png)
 
 #### 4.2.1. Order Status Information
-- **Status Code**: Enter the code specific to Status. This is a required field.
-- **Status Labels**: Enter the status labels. This is a required field. 
+- **Status Code**: Enter the Status Code. This is a required field.
+- **Status Labels**: Enter the Status Labels. This is a required field. 
 
 #### 4.2.2. Store View Specific Labels
 Select Store View to apply Label
 
 #### 4.2.3. display
 
-- **Use Custom**: Select **Yes** to allow Customization. Otherwise, if **No** is selected, the following fields will not be available.
+- **Use Custom**: Select **Yes** to allow Customization. Otherwise, if **No** is selected, the following fields will not be shown.
 - **Apply on**: There are three options to display Order Status: Admin Grid, Admin Form and Frontend Order View. This field depends on *Use Custom = Yes*
 - **Display Type**: Select Label display type, there are 4 choices. This field depends on *Use Custom = Yes*.
   - *Image Only*: Only displayed in image format
   - *Text Only*: Only displayed in text
-  - *Image + Text*: Displayed in images and text with the following
-  - *Text + Image*: Display in text and images with the following
+  - *Image + Text*: Displayed in images and followed by text
+  - *Text + Image*: Display in text and followed by images
 - **Select Image**: Select an image to represent Status. This field depends on **Use Custom = Yes*.
 - **Background Color**: Select the background color for the Status name. This field depends on *Use Custom = Yes*.
 - **Text Color**: Choose colors for text. This field depends on *Use Custom = Yes*.
@@ -162,10 +162,10 @@ From **Admin Panel**, go to `Sales > Operations > Orders`
 
 ## Frontend
 
-- Order Label images are on the Order list
+- Order Label are in the Order list
 
 ![](https://i.imgur.com/CvbwSiB.png)
 
-- The image of Order Label in the order detail form
+- Order Labels are in the order detail form
 
 ![](https://i.imgur.com/cdy2JEc.png)
