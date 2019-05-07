@@ -11,7 +11,9 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 
 ## How to get the Moneris credentials 
-### **Moneris account registration**:
+
+### 1. Register Moneris account
+
   - To register the Moneris account, please access to [this link](https://developer.moneris.com/Profile/My%20Profile)
 
 ![](https://i.imgur.com/UPMqPNw.png)
@@ -34,7 +36,7 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 ![](https://i.imgur.com/jfuRXQJ.png)
 
-### How to configure Redirect Moneris Checkout
+### 2. Configure Redirect Moneris Checkout
 
 
 #### **For USA**: 
