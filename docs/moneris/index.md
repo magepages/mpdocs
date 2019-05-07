@@ -177,7 +177,7 @@ This section records the Credit Card (Moneris) information that the customer has
 
 ![](https://i.imgur.com/Hpbt53W.png)
 
-### 4. Compatible Instant Purchase
+### 4. Compatible with Instant Purchase
 
 - Customers can use **Instant Purchase** to place orders quickly. 
 - **Note**: **Instant Purchase** only shown when you have saved your payment cards. Also, you should disable **3D Secure** because the card verification was done when customer fill in the payment card information.
