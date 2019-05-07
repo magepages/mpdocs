@@ -149,6 +149,8 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Payment
 
 #### 1.3. Verification and Security
 
+![](https://i.imgur.com/fccLy2a.png)
+
 - **Enable AVS Verification**: Select **yes** to turn on **AVS verification** for **Billing Address** of customers. **AVS** is only supported by Visa, MasterCard, Discover and American Express.
 - **AVS verification failed**: AVS verification for Billing Address failed when Customer Name, Street Address and Zip/ Postal Code do not match. In case AVS verification fails, you can:
   - **Reject Payment**: deny payment and customers cannot continue making payments.
@@ -167,8 +169,37 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Payment
 ### 2. Admin order
 This section records the Credit Card (Moneris) information that the customer has ordered and paid.
 
-![](https://i.imgur.com/VRWeRXz.png) 
+![](https://i.imgur.com/qA0zXcZ.png)
 
+### 3. Order Frontend
 
+![](https://i.imgur.com/Hpbt53W.png)
 
+### 4. Compatible Instant Purchase
 
+- Customers can use **Instant Purchase** to place orders quickly. 
+- **Note**: **Instant Purchase** only shown when you have saved your payment cards. Also, you should disable **3D Secure** because the card verification was done when customer fill in the payment card information.
+
+![](https://i.imgur.com/oL1Ujmt.png)
+
+- Compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+
+![](https://i.imgur.com/wfD3x1q.png)
+
+- Compatible with [Mageplaza Payment Restriction](https://www.mageplaza.com/magento-2-payment-restriction/): Payment Restriction extension supports hiding/showing Moneris at Frontend followign admin configurations. 
+
+![](https://i.imgur.com/kCMzpqE.png)
+
+### 5. Refund Order
+
+Here admin can **Refund Online/ Offline** individual or all orders.
+
+![](https://i.imgur.com/J8PsUS2.png)
+
+### 6. Instructions for installing the library
+
+- Create directory: `lib/internal/Mageplaza`
+- Visit the link to download the **Moneris library** [here](https://gitlab.com/users/sign_in)
+- Extract the **module-moneris-library** into `lib/internal/Mageplaza` and rename the file name you just extracted as: Moneris
+
+![](https://i.imgur.com/HR4N1M2.png)
