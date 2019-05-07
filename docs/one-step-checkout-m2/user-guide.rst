@@ -327,7 +327,7 @@ In general, Magento just displays two basic shipping methods are Flat Rate and T
 - One Step Checkout Module can be compatible with Paypal Payment Gateway. To know more about Paypal, please visit `here <https://www.paypal.com/us/webapps/mpp/paypal-popup>`_
 - Moreover, One Step Checkout also support Braintree, a Paypal service. To know more about Braintree, please visit `here <https://www.braintreepayments.com/>`_. 
 
-- To configure the Payment methods integrated with One Step Checkout, go to **Stores > Settings > Configuration > Sales > Payments Method**. Then choose the Payment method you want to configure. 
+- To configure the Payment methods integrated with One Step Checkout, go to ``Stores > Settings > Configuration > Sales > Payments Method``. Then choose the Payment method you want to configure. 
 
 .. image:: https://i.imgur.com/iIbH2M2.png
 
