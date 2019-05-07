@@ -120,7 +120,7 @@ From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag
 
 * Open the ``Stores > Settings > Configuration > Mageplaza Extensions > One Step Checkout > General Configuration`` section:
 
-.. image:: https://i.imgur.com/PGn5rvj.png
+.. image:: https://i.imgur.com/gtHPlwa.png
 
 * In the **Enable One Step Checkout** field: Select "Yes" to enable One Step Checkout extension.
 * In the **One Step Checkout Page Title** field: Enter the page title you want.
@@ -138,11 +138,13 @@ From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag
     * In **Google API Key** field: Insert the Key. About how to get this key, you can refer `this guide <https://developers.google.com/maps/documentation/javascript/get-api-key>`_.
     * In **Restrict the auto suggestion for a specific country** field: Select default country for Billing address and Shipping address.
     
-* **Enable GeoIP**: GeoIP is a useful extension which allows detecting customers’ location based on their IP addresses while they are shopping at the stores. This is the essential feature to assist store owners to bring a better experience for customers during their shopping journey. You need install `GeoIP Mageplaza Extension <https://www.mageplaza.com/magento-2-geoip/?utm_source=mageplaza.com&utm_medium=one-step-checkout&utm_campaign=one-step-checkout>`_ to use this function.
+* **Enable GeoIP**: GeoIP allows you to lookup the approximate location of an IP address. If store owners enable this function, when a customer comes to the checkout page, State, country, city and zip code will be automatically entered based on his current IP address. Ask customers fill less, they will buy yours more! You need install `GeoIP Mageplaza Extension <https://www.mageplaza.com/magento-2-geoip/?utm_source=mageplaza.com&utm_medium=one-step-checkout&utm_campaign=one-step-checkout>`_ to use this function.
 
   * Select **No**: If you don’t want to use GeoIP
   
   * Select **Yes** to enable GeoIP Extension.
+
+* **Route**: Allow admin to modify the URL route of One Step Checkout Page. You can left this field blank if you want to use the default route which is `onestepcheckout`.
 
 
 2.2.2. Display Configuration
@@ -319,3 +321,17 @@ When you enable this option but can't see its icon on the frontend, you might no
 In general, Magento just displays two basic shipping methods are Flat Rate and Table Rates. To add another shipping method, go to ``Stores > Settings > Configuration``, enter ``Sale > Shipping Method`` and follow this `guide <https://www.mageplaza.com/kb/how-to-configure-shipping-method-magento-2.html>`_. 
 
 
+2.3.4. Compatible One Step Checkout with Paypal
+''''''''''''''''''''''''''''''''''''
+
+- One Step Checkout Module can be compatible with Paypal Payment Gateway. To know more about Paypal, please visit [here](https://www.paypal.com/us/webapps/mpp/paypal-popup). 
+- Moreover, One Step Checkout also support Braintree, a Paypal service. To know more about Braintree, please visit [here](https://www.braintreepayments.com/). 
+
+- To configure the Payment methods integrated with One Step Checkout, go to `Stores > Settings > Configuration > Sales > Payments Method`. Then choose the Payment method you want to configure. 
+
+![](https://i.imgur.com/iIbH2M2.png)
+
+-  For Paypal Express Checkout Configuration, please follow the guide [here](https://docs.magento.com/m2/ce/user_guide/payment/paypal-express-checkout.html)
+- For Braintree Configuration, please follow the guide [here](https://docs.magento.com/m2/ce/user_guide/payment/braintree.html)
+
+![](https://i.imgur.com/8d8c2Er.png)
