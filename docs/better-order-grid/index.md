@@ -42,7 +42,7 @@ Admin selects **Columns** from the **Orders menu** to hide/show columns on the p
 In the **Columns** menu, there are 4 order attributes tabs:
 
 
-##### Group Default
+##### 1.1 Group Default
 
 ![](https://i.imgur.com/4tvznXX.gif)
 
@@ -52,7 +52,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   - **Cancel**: Cancel the action.
   
   
-##### Group Billing
+##### 1.2 Group Billing
 
 ![](https://i.imgur.com/v5a7ZgM.gif)
 
@@ -62,7 +62,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   - **Cancel**: Cancel the action.  
   
   
-##### Group Shipping
+##### 1.3 Group Shipping
 
 ![](https://i.imgur.com/IIl6ctx.gif)
 
@@ -72,7 +72,7 @@ In the **Columns** menu, there are 4 order attributes tabs:
   - **Cancel**: Cancel the action.
 
 
-##### Group Product
+##### 1.4 Group Product
 
 ![](https://i.imgur.com/lcEyzMq.gif)
 
