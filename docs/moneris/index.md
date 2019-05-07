@@ -11,38 +11,46 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 
 ## How to use
-- **Moneris**:
+### **Moneris account registration **:
   - To register the Moneris account, please access to [this link](https://developer.moneris.com/Profile/My%20Profile)
 
 ![](https://i.imgur.com/UPMqPNw.png)
 
-  - After logging in the Moneris account, request the sign in information in USA or Canada. At the Homepage > My Profile, click to **Full Profile** 
+  - After logging in the Moneris account, request to sign in information in USA or Canada by clicking to **Full Profile** 
 
 ![](https://i.imgur.com/740IGON.png)
 
-  - At **Full Profile**, look at **My Testing Credentials**, click to **Request Testing Credentials** then a popup shown require you to fill in your password and country to verify your test account. 
+  - At **Full Profile**, look at **My Testing Credentials**, click to **Request Testing Credentials** then a popup shown require you to fill in your Password and Country to verify your test account. 
  
-![](https://i.imgur.com/wCOnVJ3.png)
+![](https://i.imgur.com/L59DskV.png)
 
-![](https://i.imgur.com/fMmkS0c.png)
+![](https://i.imgur.com/ROPSK5i.png)
 
   - At homepage, **Test Credentials** is on the right bar menu. Store ID is at the first line (represented by store icon). The second line is API Token (represented by a key icon). Admin need these two information to configure the module Moneris. 
   
-  ![](https://i.imgur.com/ZetXY0u.png)
+  ![](https://i.imgur.com/EBm20d1.png)
+
+- After logging in to your account, you need to fill in some account information and questions.
+
+![](https://i.imgur.com/jfuRXQJ.png)
+
+### How to configure Redirect Moneris Checkout
+
 
 - **For USA**: 
   - At Moneris Page, please go to `Admin > Hosted Config`. You need to configure Magento 2 using `hpp_id`, `hpp_key`. If you do not have these keys, please click to `Generate a New Configuration` to create new keys.  
 
- ![](https://i.imgur.com/ErWauIO.png)
+ ![](https://i.imgur.com/8mt186n.png)
  
   - At **Response Method**, insert your Store **Response URL** then **Save Changes**. URLs must start with http or https and must be a registered domain. IP addresses are not supported here. 
   
-  ![](https://i.imgur.com/b9fuHv7.png)
+  ![](https://i.imgur.com/0KzlCAq.png)
   
 - **For Canada**: 
   - Log in to your Moneris account and go to `Admin > Hosted Paypage Config`. You need to configure Magento 2 using `ps_store_id` and `hpp_key`. If you do not have those keys, please click to `Generate a New Configuration` to create new keys.  
   
-![](https://i.imgur.com/zGHARPm.png)
+![](https://i.imgur.com/bKrLLHT.png)
+  -  
 
   - At **Response/Receipt Field Configuration**, choose **Return the txn_number**. 
  
@@ -55,7 +63,7 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 - **Stored Payment Methods**: Here saves the credit card info. Customers can delete the outdate/ no-longer-used credit card.
 
 ![](https://i.imgur.com/PyITkYZ.png)
-
+<span id="redirect-moneris-checkout"></span>
  - **Redirect Moneris Checkout**: This feature will be configured by admin at backend, which allows customers to be redirected to Moneris Payment Gateway to process their payment. 
  
 ![](https://i.imgur.com/PTRaNcw.png) 
