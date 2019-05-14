@@ -144,13 +144,6 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     * **Show Custom Print Button = No**: This won’t display ``Print PDF Order`` button. When the button is clicked at My Order page on the frontend,  the file will be downloaded as the Magento 2’s template.
   * Check **Use system value** to use “Show Custom Print Button = Both” as the default setting.
   
-* **Display Print Button On Top**: Select **Yes** to show the Print button at the top of Order Grid. Choose **No**, not display the Print button but using default Magento PDF file. 
-
-![](https://i.imgur.com/FRUdGSK.png)
-
-
-* In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
-  
 *Frontend*
 
 ![](https://i.imgur.com/msWz7PK.png)
@@ -162,6 +155,13 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 *In massAction*
 
 ![](https://i.imgur.com/XrN15kE.png)
+
+* **Display Print Button On Top**: Select **Yes** to show the Print button at the top of Order Grid. Choose **No**, not display the Print button but using default Magento PDF file. 
+
+![](https://i.imgur.com/FRUdGSK.png)
+
+
+* In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
 
 #### 1.4. Invoice
 
