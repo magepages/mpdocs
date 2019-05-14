@@ -238,7 +238,7 @@ Or in massAction:
 
 * **Display Print Button In Order Grid**: Select **Yes** to show the Print PDF Invoices button at the top of Order Grid. Choose **No**, not display the Print button but using default Magento PDF file. 
 
-![](https://i.imgur.com/vWJK33M.png)
+![](https://i.imgur.com/H44pos7.png)
 
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
 
