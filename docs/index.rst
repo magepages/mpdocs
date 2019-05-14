@@ -49,10 +49,12 @@ Welcome to Mageplaza Docs
    better-popup/index
    better-change-qty/index
    better-product-reviews/index
+   better-sorting/index
    better-wishlist/index
    blog-m2/index
    call-for-price/index
    catalog-permissions/index
+   countdown-timer/index
    custom-order-number/index
    customer-attributes/index
    custom-stock-status/index
@@ -70,6 +72,7 @@ Welcome to Mageplaza Docs
    gdpr-pro/index
    geoip/index
    gift-wrap/index
+   google-tag-manager/index
    google-tag-manager-m2/index
    google-recaptcha/index
    google-analytics-m2/index
@@ -79,6 +82,8 @@ Welcome to Mageplaza Docs
    instagram-feed/index
    login-as-customer/index
    mass-order-actions/index
+   mass-product-actions/index
+   membership/index
    multi-flat-rates/index
    multiple-coupons/index
    order-archive/index
@@ -101,6 +106,7 @@ Welcome to Mageplaza Docs
    search-m2/index
    shop-by-brand-m2/index
    shipping-rules/index
+   shipping-restriction/index
    size-chart/index
    social-share/index
    store-locator/index
