@@ -21,7 +21,7 @@ Log in to your Magento Admin, follow the path ``Store > Setting > Configuration 
 #### 1.1. General Configuration
 Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF Invoice > General Configuration``, expand the section
 
-![](https://i.imgur.com/p8V33ey.png)
+![](https://i.imgur.com/u1NB5Ef.png)
 
 * In **Enable PDF Invoice** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Yes” to enable it
@@ -31,11 +31,12 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     * Enter your company/store name, it will be displayed in your PDF invoice.
     * If you leave it blank, the Company Name place won’t have a name.
     * Check **Use system value** to use it as default.
-  * In **Logo** field:
-    * Select your logo file displayed on the PDF file.
-    * Only image/video file can be valid; otherwise, there will be an error message.
-    * If you leave it blank, the default logo will be displayed.
-    * Check **Use system value** to use it as default.
+  * In **Black Logo (Color)**: 
+    * Choose logo shown on PDF Template 1. Only allow choosing logo for image format: jpeg, gif, png.
+    * Use the default logo if you leave this field blank 
+  * In **White Logo**
+    * Choose logo shown on PDF Template 2. Only allow choosing logo for image format: jpeg, gif, png.
+    * Use the default logo if you leave this field blank
   * In **Logo Width** field:
     * Select the size for your logo (pixel)
     * If you leave it blank, defaul width is 180px
@@ -91,7 +92,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.3. Order 
 
-![](https://i.imgur.com/iyHO9Nz.png)
+![](https://i.imgur.com/mbKFvhn.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Yes” to send the PDF invoice attached along with the email.
@@ -142,6 +143,12 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
   *
     * **Show Custom Print Button = No**: This won’t display ``Print PDF Order`` button. When the button is clicked at My Order page on the frontend,  the file will be downloaded as the Magento 2’s template.
   * Check **Use system value** to use “Show Custom Print Button = Both” as the default setting.
+  
+* **Display Print Button On Top**: Select **Yes** to show the Print button at the top of Order Grid. Choose **No**, not display the Print button but using default Magento PDF file. 
+
+![](https://i.imgur.com/FRUdGSK.png)
+
+
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
   
 *Frontend*
@@ -158,7 +165,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.4. Invoice
 
-![](https://i.imgur.com/17s1jmb.png)
+![](https://i.imgur.com/8pHffYl.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
@@ -229,11 +236,15 @@ Or in massAction:
 
 ![](https://i.imgur.com/ssMFsOd.png)
 
+* **Display Print Button In Order Grid**: Select **Yes** to show the Print PDF Invoices button at the top of Order Grid. Choose **No**, not display the Print button but using default Magento PDF file. 
+
+![](https://i.imgur.com/vWJK33M.png)
+
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be use in here.
 
 #### 1.5. Shipment
 
-![](https://i.imgur.com/afiFw01.png)
+![](https://i.imgur.com/hVYfy1P.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
@@ -295,9 +306,11 @@ Or in massAction:
 
 * In **Note** field: This is the place where you enter your note for the Order. HTML code can be used in here.
 
+* **Display Print Button In Order Grid**: Select **Yes** to show the Print PDF Shipments button at the top of Order Grid. Choose **No**, not display the Print button but using default Magento PDF file. 
+
 #### 1.6. Credit Memo
 
-![](https://i.imgur.com/FTPuBDN.png)
+![](https://i.imgur.com/F8fo8OS.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
@@ -362,6 +375,8 @@ Or in massAction:
 Also, when you print in the massAction, store owners can print all PDF files of many different stores. All this PDF files will display as the configuration of that store and the PDF files are extracted in the zip format.
 
 ![](https://i.imgur.com/QQDomN4.png)
+
+* **Display Print Button In Order Grid**: Select **Yes** to show the Print PDF Credit Memo button at the top of Order Grid. Choose **No**, not display the Print button but using default Magento PDF file.
 
 ### 2. Manage Templates
 From the Admin Panel, go to ``Store > PDF Invoice > Manage Templates``
