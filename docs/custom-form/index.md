@@ -102,7 +102,7 @@ This grid stores all the created Forms
 ### Note:
 After saving the Form, the General Tab will display the Snippet section. Admin needs to copy this snippet to a certain location so that the Form is displayed in Frontend
 
-![](https://i.imgur.com/gLKp4EY.png)
+![](https://i.imgur.com/vUtwRMO.png)
 
 ##### 2.2.2 Form Behavior
 
