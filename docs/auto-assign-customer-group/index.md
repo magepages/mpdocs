@@ -105,7 +105,7 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, s
 
 From the Admin Panel, go to `Customers > Auto Customer Group > Manage Rules`
 
-![](https://i.imgur.com/cbJ7SL3.png)
+![](https://i.imgur.com/voxnMDX.png)
 
 - Rules of changing customer group is displayed here.
 - From **Manage Rules**, admin can view basic information such as ID, Name, Status, Website, Original Group, Destined Group, Priority, From Date, To Date, Action.
