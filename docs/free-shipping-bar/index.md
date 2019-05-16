@@ -129,7 +129,7 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 
 **Where to display**
 
-![](https://i.imgur.com/2aUkmWg.png)
+![](https://i.imgur.com/2MhjpNN.png)
 
 * **Position**: There are 5 positions that admins can choose:
     * **The top of the page**: Free Shipping bar is fixed at the top of the page, it will not slip when customers scroll down the next page
