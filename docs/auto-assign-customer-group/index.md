@@ -2,7 +2,7 @@
 
 ## Overview
 
-In order to increase revenue and manage customers more easily, Mageplaza developed the Auto Assign Customer Group extension. This module can be installed to automatically change the Customer's Customer Group based on rules. In addition, send email notification to Customer when changing Group and email notification, log log changes to admin. You should install Mageplaza_SMTP to avoid your email being sent to the spam mailbox and it is fully compatible with the Auto Assign Customer Group extension.
+In order to manage customers more easily, Mageplaza developed the [Auto Assign Customer Group](https://www.mageplaza.com/magento-2-auto-assign-customer-group/) extension. This module can be configures to automatically change the Customer Group based on rules. In addition, it support sending email notification to customer when changing Group and email notification include changes log sent to admin. You should install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box and it is fully compatible with the Auto Assign Customer Group extension.
 
 ## How to download and install
 
@@ -38,15 +38,16 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, s
 
 ![](https://i.imgur.com/cdq3dBj.png)
 
-- Enable: Select "Yes" to enable the module.
-- Show Group: Select "Yes" to display the Group name at the Customer Dashboard in Frontend.
-- Schedule For: Set a schedule for email to be sent automatically. Include options:
-  - Every Hour: Hourly will automatically send email.
-  - Daily: Daily email automatically.
-  - Weekly: Weekly will automatically send email.
-  - Monthly: Monthly will automatically send email.
-  - Disable: turn off the schedule to send email.
-- Start Time: Set when the email will be sent.
+- **Enable**: Select **Yes** to enable the module.
+- **Show Group**: Select **Yes** to display the **Group name** at the **Customer Dashboard** in Frontend.
+- **Schedule For**: Set a schedule for email to be sent automatically. Options included:
+  - **Every Hour**: Automatically send email every hour.
+  - **Daily**: Email automatically every day.
+  - **Weekly**:Automatically send email every week.
+  - **Monthly**: Automatically send email every month.
+  - **Disable**: Turn off the schedule to send email.
+- **Start Time**: Set the start time email will be sent.
+
 For example: Schedule For = Daily, Start Time = 12:30:00, the email will be sent daily at 12:30
 
 
@@ -56,76 +57,80 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, s
 
 ![](https://i.imgur.com/Ih73RG0.png)
 
-- Enable:
+- **Enable**:
   - Select "Yes" to allow email notifications to customers.
-  - Install Mageplaza_SMTP to avoid sending to spam box.
-- Sender: Select the representative to send notification email to customer:
+  - Install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending email to spam box.
+- **Sender**: Select the representative to send notification email to customer:
 
 ![](https://i.imgur.com/Wd9ht8U.png)
 
-- Email Template:
-  - Email notifications are sent automatically when a customer reaches a certain Customer Group.
-  - You can access Marketing> Email Templates, select Add New Templates to create a notification email template
-  - Instructions on how to create new email templates can be found here
+- **Email Template**:
+  - Email notifications are sent automatically when a customer reaches a certain Customer Group condition.
+  - You can access `Marketing > Email Templates`, select **Add New Templates** to create a notification email template
+  - Instructions on how to create new email templates can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 
 
 #### 1.3. Admin Notification
+
 From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, select Admin Notification
 
 ![](https://i.imgur.com/SLFsA23.png)
 
-- Enable:
-  - Select "Yes" to allow email notifications to admin.
-  - Install Mageplaza_SMTP to avoid sending to spam box.
-- Sender: Select the representative to send notification email to customer:
+- **Enable**: Select "Yes" to allow email notifications to admin about changing on Customer Group.
+ 
+- **Sender**: Select the representative to send notification email to customer:
 
 ![](https://i.imgur.com/Wd9ht8U.png)
 
-- Email Template:
+- **Email Template**:
   - Email notifications are sent automatically to admin.
-  - You can access Marketing> Email Templates, select Add New Templates to create a notification email template
-  - Instructions on how to create new email templates can be found here
-- Send To:
+  - You can access `Marketing > Email Templates`, select **Add New Templates** to create a notification email template
+  - Instructions on how to create new email templates can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+  
+- **Send To**:
   - Enter the admin email address.
   - You can enter multiple emails, each separated by commas (,).
-- Schedule For: Set the calendar to email automatically to admin. Include options:
-  - Every Hour: Hourly will automatically send an email to the admin about the change of Customer Group of customers.
-  - Daily: Every day will automatically send an email to the admin about the change of Customer Group of customers.
-  - Weekly: Weekly will automatically send an email to the admin about the change of Customer Group of customers.
-  - Monthly: Monthly will automatically send an email to the admin about the change of Customer Group of customers.
-  - Disable: turn off the schedule feature to email the admin to change the Customer Group of customers.
-- Start Time: Set when the email will be sent.
+  
+- **Schedule For**: Set the calendar to email automatically to admin. Include options:
+  - **Schedule For**: Set a schedule for email to be sent automatically. Options included:
+  - **Every Hour**: Automatically send email every hour.
+  - **Daily**: Email automatically every day.
+  - **Weekly**:Automatically send email every week.
+  - **Monthly**: Automatically send email every month.
+  - **Disable**: Turn off the schedule to send email.
+- **Start Time**: Set the start time email will be sent.
 
 ### 2. Grid
 #### 2.1. Manage Rules
+
 From the Admin Panel, go to `Customers > Auto Customer Group > Manage Rules`
 
 ![](https://i.imgur.com/cbJ7SL3.png)
 
-- This is where the Customer Group conversion rule information is displayed.
-- From Manage Rules, admin can capture basic information such as ID, Name, Status, Website, Original Group, Destined Group, Priority, From Date, To Date, Action.
-- Apply Rule: Apply all the rules to the customer to change the Customer Group's customer when meeting the conditions.
-- Action:
-  - Delete: Delete the information in the Manage Rule page.
-  - Change Status: Change the status of the selected rules.
-  - Edit: Navigate to the edit page of the previously created rule information.
-- In addition, admin can filter, change store view, hide / display columns.
+- Rules of changing customer group is displayed here.
+- From **Manage Rules**, admin can view basic information such as ID, Name, Status, Website, Original Group, Destined Group, Priority, From Date, To Date, Action.
+- **Apply Rule**: Apply all the rules to customer to change the their Group when meeting the conditions.
+- **Action**:
+  - **Delete**: Delete the information in the **Manage Rule** page.
+  - **Change Status**: Change the status of the selected rules.
+  - **Edit**: Navigate to the edit page of the previously created rule.
+- In addition, admin can **filter,change store view, hide/show columns**.
 
 
 #### 2.2. Create/ Edit Rule
 
-From the Admin Panel, go to Customers> Auto Customer Group> Manage Rules, select Add new / edit
+From the Admin Panel, go to `Customers > Auto Customer Group > Manage Rules`, select **Add new/ edit**
 
 ##### 2.2.1. General
 
 ![](https://i.imgur.com/JVLHOIR.png)
 
-- Name: Enter the rule name, which is the required field.
-- Description: Enter the rule description, only displayed in Backend.
-- Status: Select "Enable" for the rule to work.
-- Website: Select the Website for the operation rule.
-- From: Select the date / month / year for the rule to start.
-- To: Select the date / month / year for the rule to end.
+- **Name**: Enter the rule name, which is a required field.
+- **Description**: Enter the rule description, only displayed in Backend.
+- **Status**: Select **Enable** for the rule to work.
+- **Website**: Select the Website for the operation rule.
+- **From**: Select the date/month/year for the rule to start.
+- **To**: Select the date/month/year for the rule to finish.
 
 ##### 2.2.2. Conditions
 
@@ -137,18 +142,18 @@ Select the condition to apply customers to each rule:
 
 ![](https://i.imgur.com/kHfLBC5.png)
 
-- Original Group:
-  - Select the original group to apply the group switch.
+- **Original Group**:
+  - Select the original group to apply the group switching.
   - You can select multiple customer groups.
-  - Is the required field selected.
-- Destined Group:
+  - This is a required field.
+- **Destined Group**:
   - Select the group you want to convert to.
-  - Is the required field selected.
-- Processing Type: Customer's Customer Group will change if it meets the above Conditions and 1 of 2 types below:
-  - Event: Displays 2 events:
-    - Customer creation & saving: Customer account will convert Customer Group when customer create account and save.
-    - Order creation & saving: Customer account will convert Customer when
-  - Cron: Customer Group changed when running cron command: `php bin/magento cron:run`
+  - This is a required field.
+- **Processing Type**: Customer's Customer Group will change if it meets the above Conditions and 1 of 2 types below:
+  - **Event**: Displays 2 events:
+    - **Customer creation & saving**: Customer account will convert Customer Group when customer create account and save.
+    - **Order creation & saving**: Customer account will convert Customer when order is created and saved
+  - **Cron**: Customer Group changed when running cron command: `php bin/magento cron:run`
   
 ### 3.Manage Log
 
@@ -156,8 +161,8 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Manage Logs`
 
 ![](https://i.imgur.com/1jaerAe.png)
 
-- This is where customers' accounts are transferred from this Customer Group to another Customer Group.
-- From Manage Logs, admin can capture basic information such as ID, Customers Name, Customer Email, Original Group, Destined Group, Rule Name, Update Date.
-- In addition, admin can filter, change store view, hide / display columns.
+- This shown info of customers' accounts which are transferred from this Customer Group to another Customer Group.
+- From **Manage Logs**, admin can view basic information such as ID, Customers Name, Customer Email, Original Group, Destined Group, Rule Name, Update Date.
+- Also, admin can filter, change store view, hide/ display columns.
 
 
