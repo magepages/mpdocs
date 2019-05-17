@@ -115,7 +115,7 @@ After saving the Form, the **General Tab** will display the **Snippet section**.
 - **Form Behavior**: there are 2 Form Styles to choose from
   - **Static**: The form is displayed as soon as the page is loaded
 
-![](https://i.imgur.com/nFheCFo.png)
+  ![](https://i.imgur.com/nFheCFo.png)
 
   - **Popup**:
     - The form is displayed as a button. When Customer clicks on the button, the popup contains the Form will be shown.
@@ -161,7 +161,7 @@ After saving the Form, the **General Tab** will display the **Snippet section**.
 - Admin can **Add New** or **Duplicate** any field/ group/ page
 - We offer more than 10 types of fields: **Text, Text Area, Dropdown, Checkbox, Radio, Date Time, Grid, Upload File, Agreement, Rating Star, Google Map**
 
-!
+[![Form Creator](http://img.youtube.com/vi/T0Rx2R0_Nqc/0.jpg)](http://www.youtube.com/watch?v=T0Rx2R0_Nqc "Form Creator")
 
 - For each field, admin can edit **Title information, Tooltip, Additional Class, Is Required, Validation Class, Width, Depend Field**.
 
