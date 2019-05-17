@@ -139,19 +139,6 @@ Click on the `View Logs`, it will redirect the email recipients to the Feed Logs
 * When the extension is enabled, Manage Feed and Logs will be displayed
 
 
-### The guide to download the library
-
-Create the folder: lib/internal/Mageplaza
-Go to the following path to [download the library of Product Feed here](https://gitlab.com/mageplaza/module-product-feed/tree/library)
-Extract module-product-feed-library.zip into lib / internal / Mageplaza, rename the extracted file to ProductFeed.
-
-![](https://i.imgur.com/X7fzai2.png)
-
-Run the following command to install:
-
-`php bin/magento setup:upgrade`
-
-
 ## FAQs
 
 - Question: How to solve the issue of **Product URL does not show correctly**?
