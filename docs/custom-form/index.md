@@ -161,6 +161,8 @@ After saving the Form, the **General Tab** will display the **Snippet section**.
 - Admin can **Add New** or **Duplicate** any field/ group/ page
 - We offer more than 10 types of fields: **Text, Text Area, Dropdown, Checkbox, Radio, Date Time, Grid, Upload File, Agreement, Rating Star, Google Map**
 
+See the instruction video here:
+
 [![Form Creator](http://img.youtube.com/vi/T0Rx2R0_Nqc/0.jpg)](http://www.youtube.com/watch?v=T0Rx2R0_Nqc "Form Creator")
 
 
