@@ -17,7 +17,7 @@ In order to manage customers more easily, Mageplaza developed the [Auto Assign C
 
 ### Email notification to Admin
 
-![](https://i.imgur.com/Ab5tp6t.png)
+![](https://i.imgur.com/bPmXeSc.png)
 
 ### Display the Customer Group at Frontend
 
@@ -25,35 +25,34 @@ In order to manage customers more easily, Mageplaza developed the [Auto Assign C
 
 ## How to Configure
 
-![](https://i.imgur.com/mugIK3i.png)
+![](https://i.imgur.com/b6iQjqK.png)
 
 ### 1. Configuration
 
-From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`
+From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`
 
 ![](https://i.imgur.com/q9aM0Mh.png)
 
 #### 1.1. General
-From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, select General
+From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`, select General
 
-![](https://i.imgur.com/cdq3dBj.png)
+![](https://i.imgur.com/qNh4Z1J.png)
 
 - **Enable**: Select **Yes** to enable the module.
 - **Show Group**: Select **Yes** to display the **Group name** at the **Customer Dashboard** in Frontend.
-- **Schedule For**: Set a schedule for email to be sent automatically. Options included:
-  - **Every Hour**: Automatically send email every hour.
+- **Schedule For Cron**: Applied for Processing Type as Cron. Set schedule to automatically switch customer groups on a frequent basis as daily, weekly or monthly:
   - **Daily**: Email automatically every day.
   - **Weekly**:Automatically send email every week.
   - **Monthly**: Automatically send email every month.
   - **Disable**: Turn off the schedule to send email.
 - **Start Time**: Set the start time email will be sent.
 
-For example: Schedule For = Daily, Start Time = 12:30:00, the email will be sent daily at 12:30
+For example: Schedule For Cron = Daily, Start Time = 12:30:00, the email will be sent daily at 12:30
 
 
 #### 1.2. Customer Notification
 
-From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, select Customer Notification
+From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`, select Customer Notification
 
 ![](https://i.imgur.com/Ih73RG0.png)
 
@@ -72,13 +71,13 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, s
 
 #### 1.3. Admin Notification
 
-From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, select Admin Notification
+From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`, select Admin Notification
 
 ![](https://i.imgur.com/SLFsA23.png)
 
 - **Enable**: Select "Yes" to allow email notifications to admin about changing on Customer Group.
  
-- **Sender**: Select the representative to send notification email to customer:
+- **Sender**: Select the representative to send notification email to admin:
 
 ![](https://i.imgur.com/Wd9ht8U.png)
 
@@ -91,9 +90,7 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, s
   - Enter the admin email address.
   - You can enter multiple emails, each separated by commas (,).
   
-- **Schedule For**: Set the calendar to email automatically to admin. Include options:
-  - **Schedule For**: Set a schedule for email to be sent automatically. Options included:
-  - **Every Hour**: Automatically send email every hour.
+- **Schedule For**: Set a schedule for email to be sent automatically. Options included:
   - **Daily**: Email automatically every day.
   - **Weekly**:Automatically send email every week.
   - **Monthly**: Automatically send email every month.
@@ -103,7 +100,7 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Configuration`, s
 ### 2. Grid
 #### 2.1. Manage Rules
 
-From the Admin Panel, go to `Customers > Auto Customer Group > Manage Rules`
+From the Admin Panel, go to `Customers > Auto Assign Customer Group > Manage Rules`
 
 ![](https://i.imgur.com/voxnMDX.png)
 
@@ -119,7 +116,7 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Manage Rules`
 
 #### 2.2. Create/ Edit Rule
 
-From the Admin Panel, go to `Customers > Auto Customer Group > Manage Rules`, select **Add new/ edit**
+From the Admin Panel, go to `Customers > Auto Assign Customer Group > Manage Rules`, select **Add new/ edit**
 
 ##### 2.2.1. General
 
@@ -131,6 +128,9 @@ From the Admin Panel, go to `Customers > Auto Customer Group > Manage Rules`, se
 - **Website**: Select the Website for the operation rule.
 - **From**: Select the date/month/year for the rule to start.
 - **To**: Select the date/month/year for the rule to finish.
+- **Priority**:
+  - Set the priority to apply to conditions of assigning customers to certain groups. 
+  - 0 is the highest priority. The smaller the number, the higher the priority. 
 
 ##### 2.2.2. Conditions
 
@@ -140,7 +140,7 @@ Select the condition to apply customers to each rule:
 
 ##### 2.2.3. Actions
 
-![](https://i.imgur.com/kHfLBC5.png)
+![](https://i.imgur.com/GCq9Gdn.png)
 
 - **Original Group**:
   - Select the original group to apply the group switching.
@@ -151,13 +151,13 @@ Select the condition to apply customers to each rule:
   - This is a required field.
 - **Processing Type**: Customer's Customer Group will change if it meets the above Conditions and 1 of 2 types below:
   - **Event**: Displays 2 events:
-    - **Customer creation & saving**: Customer account will convert Customer Group when customer create account and save.
-    - **Order creation & saving**: Customer account will convert Customer when order is created and saved
+    - **Customer Creating & Saving Actions**: Customer account will convert Customer Group when customer create account and save.
+    - **Order Creating & Saving Actions**: Customer account will convert Customer when order is created and saved
   - **Cron**: Customer Group changed when running cron command: `php bin/magento cron:run`
   
 ### 3.Manage Log
 
-From the Admin Panel, go to `Customers > Auto Customer Group > Manage Logs`
+From the Admin Panel, go to `Customers > Auto Assign Customer Group > Manage Logs`
 
 ![](https://i.imgur.com/1jaerAe.png)
 
