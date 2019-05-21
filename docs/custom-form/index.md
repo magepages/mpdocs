@@ -48,6 +48,9 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 - **Email Sender**: There are 5 default types of Magento Sender for Admin to choose: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
 - **Email Template**:
   - This module has a default Email notification template for Customer
+  
+  ![](https://i.imgur.com/5x6KAfy.png)
+  
   - To change **Email Template**, Admin can create another Email Template in `Marketing > Email Template`.
   - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 
@@ -56,7 +59,7 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 
 ![](https://i.imgur.com/z0aoNtY.png)
 
-- **Enable Auto Response**:
+- **Admin Notification**:
   - Select **Yes** to allow successful submission of email notification to Admin
 - **Send To**:
   - All emails filled in this section will receive a notification every time the form is submitted
@@ -65,6 +68,9 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 - **Email Sender**: There are 5 default types of Magento Sender for Admin to choose: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
 - **Email Template**:
   - This module has a default Email notification template for Admin
+  
+  ![](https://i.imgur.com/WrsYgB0.png)
+  
   - To change **Email Template**, Admin can create another Email Template in `Marketing > Email Template`.
   - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 
