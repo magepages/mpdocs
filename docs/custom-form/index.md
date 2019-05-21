@@ -59,7 +59,7 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 
 ![](https://i.imgur.com/z0aoNtY.png)
 
-- **Admin Notification**:
+- **Enable**:
   - Select **Yes** to allow successful submission of email notification to Admin
 - **Send To**:
   - All emails filled in this section will receive a notification every time the form is submitted
