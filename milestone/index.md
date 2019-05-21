@@ -1,19 +1,19 @@
-# Auto Assign Customer Group
+# Milestone 
 
 ## Overview
 
-In order to manage customers more easily, Mageplaza developed the [Auto Assign Customer Group](https://www.mageplaza.com/magento-2-auto-assign-customer-group/) extension. This module can be configures to automatically change the Customer Group based on rules. In addition, it support sending email notification to customer when changing Group and email notification include changes log sent to admin. You should install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box and it is fully compatible with the Auto Assign Customer Group extension.
+In order to manage customers more easily, Mageplaza developed the [Milestone](https://www.mageplaza.com/magento-2-auto-assign-customer-group/) extension. This module can be configures to automatically change the Customer Group based on rules. In addition, it support sending email notification to customer when changing Group and email notification include changes log sent to admin. You should install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box and it is fully compatible with the Milestone extension.
 
 ## How to download and install
 
-- [Download Mageplaza Auto Assign Customer Group](https://www.mageplaza.com/magento-2-auto-assign-customer-group/)
+- [Download Mageplaza Milestone](https://www.mageplaza.com/magento-2-milestone/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
 
 ### Email notification to Customer
 
-![](https://i.imgur.com/pgDWXiD.png)
+![](https://i.imgur.com/PyLG3ld.png)
 
 ### Email notification to Admin
 
@@ -23,20 +23,24 @@ In order to manage customers more easily, Mageplaza developed the [Auto Assign C
 
 ![](https://i.imgur.com/MJeoNom.png)
 
+### Show more `Disable Auto Assign Rule` at Customer Backend (Go to `Customer > All Customer > Edit > Account Information`):
+
+![](https://i.imgur.com/sO3habr.png)
+
 ## How to Configure
 
-![](https://i.imgur.com/b6iQjqK.png)
+![](https://i.imgur.com/XoX2cvn.png)
 
 ### 1. Configuration
 
-From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`
+From the Admin Panel, go to `Customers > Milestone > Configuration`
 
-![](https://i.imgur.com/q9aM0Mh.png)
+![](https://i.imgur.com/dsbGeKE.png)
 
 #### 1.1. General
-From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`, select General
+From the Admin Panel, go to `Customers > Milestone > Configuration`, select General
 
-![](https://i.imgur.com/qNh4Z1J.png)
+![](https://i.imgur.com/8jB9j8w.png)
 
 - **Enable**: Select **Yes** to enable the module.
 - **Show Group**: Select **Yes** to display the **Group name** at the **Customer Dashboard** in Frontend.
@@ -52,7 +56,7 @@ For example: Schedule For Cron = Daily, Start Time = 12:30:00, the email will be
 
 #### 1.2. Customer Notification
 
-From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`, select Customer Notification
+From the Admin Panel, go to `Customers > Milestone > Configuration`, select Customer Notification
 
 ![](https://i.imgur.com/Ih73RG0.png)
 
@@ -71,7 +75,7 @@ From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configurat
 
 #### 1.3. Admin Notification
 
-From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configuration`, select Admin Notification
+From the Admin Panel, go to `Customers > Milestone > Configuration`, select Admin Notification
 
 ![](https://i.imgur.com/SLFsA23.png)
 
@@ -100,7 +104,7 @@ From the Admin Panel, go to `Customers > Auto Assign Customer Group > Configurat
 ### 2. Grid
 #### 2.1. Manage Rules
 
-From the Admin Panel, go to `Customers > Auto Assign Customer Group > Manage Rules`
+From the Admin Panel, go to `Customers > Milestone > Manage Rules`
 
 ![](https://i.imgur.com/voxnMDX.png)
 
@@ -116,7 +120,7 @@ From the Admin Panel, go to `Customers > Auto Assign Customer Group > Manage Rul
 
 #### 2.2. Create/ Edit Rule
 
-From the Admin Panel, go to `Customers > Auto Assign Customer Group > Manage Rules`, select **Add new/ edit**
+From the Admin Panel, go to `Customers > Milestone > Manage Rules`, select **Add new/ edit**
 
 ##### 2.2.1. General
 
@@ -140,7 +144,7 @@ Select the condition to apply customers to each rule:
 
 ##### 2.2.3. Actions
 
-![](https://i.imgur.com/GCq9Gdn.png)
+![](https://i.imgur.com/zjTKsSP.png)
 
 - **Original Group**:
   - Select the original group to apply the group switching.
@@ -154,12 +158,22 @@ Select the condition to apply customers to each rule:
     - **Customer Creating & Saving Actions**: Customer account will convert Customer Group when customer create account and save.
     - **Order Creating & Saving Actions**: Customer account will convert Customer when order is created and saved
   - **Cron**: Customer Group changed when running cron command: `php bin/magento cron:run`
+
+- **Coupon Rule**:
+  - Set the rule in which customers can earn coupon when they are assigned to new groups.
+  - Go to `Marketing > Cart Price Rule` to generate a rule 
+  - The rule should be set as a Specific Coupon and Auto-generated.
+- Email Template:
+  - Email sent automatically when customer reach any customer group will be attached with a coupon
+  - You can access `Marketing > Email Templates`, select **Add New Templates** to create a notification email template
+  - Instructions on how to create new email templates can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+
   
 ### 3.Manage Log
 
-From the Admin Panel, go to `Customers > Auto Assign Customer Group > Manage Logs`
+From the Admin Panel, go to `Customers > Milestone > Manage Logs`
 
-![](https://i.imgur.com/1jaerAe.png)
+![](https://i.imgur.com/dZCFf9Y.png)
 
 - This shown info of customers' accounts which are transferred from this Customer Group to another Customer Group.
 - From **Manage Logs**, admin can view basic information such as ID, Customers Name, Customer Email, Original Group, Destined Group, Rule Name, Update Date.
