@@ -17,7 +17,7 @@ In order to manage customers more easily, Mageplaza developed the [Milestone](ht
 
 ### Email notification to Admin
 
-![](https://i.imgur.com/uHh4ptr.png)
+![](https://i.imgur.com/ClEOASF.png)
 
 ### Display the Customer Group at Frontend
 
