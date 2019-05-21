@@ -2,7 +2,7 @@
 
 ## Overview
 
-When customers access a page of any configurable product, it is hard for them to review and choose the attributes if no options are available. [Configurable Products Preselect of Mageplaza](https://www.mageplaza.com/magento-2-configurable-products-preselect/) supports displaying certain combinations of a Configurable product, helping to orient and save time for customers. With this extension, you can set the selections you like and display them by default at the **Product View Detail Page**. This extension also supports 4 types of Preselect: **The First Option of Each Attribute Option, Default Product, The Cheapest Product and The Most Expensive Product**. It is fully compatible with [Mageplaza Quick View & AJAX Cart](https://www.mageplaza.com/magento-2-quick-view/), [Mageplaza Seo URL](https://www.mageplaza.com/magento-2-seo-extension/) and ]Mageplaza Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/seo-friendly-url.html).
+When customers access a page of any configurable product, it is hard for them to review and choose the attributes if no options are available. [Configurable Products Preselect of Mageplaza](https://www.mageplaza.com/magento-2-configurable-products-preselect/) supports displaying certain combinations of a Configurable product, helping to orient and save time for customers. With this extension, you can set the selections you like and display them by default at the **Product View Detail Page**. This extension also supports 4 types of Preselect: **The First Option of Each Attribute Option, Default Product, The Cheapest Product and The Most Expensive Product**. It is fully compatible with [Mageplaza Quick View & AJAX Cart](https://www.mageplaza.com/magento-2-quick-view/), [Mageplaza Seo](https://www.mageplaza.com/magento-2-seo-extension/) and [Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/seo-friendly-url.html).
 
 
 ## How to download and install
@@ -21,7 +21,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Con
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Configurable Products Preselect > General Configuration`
 
-![](https://i.imgur.com/xaM7URl.png)
+![](https://i.imgur.com/LMolSGo.png)
 
 - **Enable**: Select **Yes** to turn on the module Configurable Products Preselect.
 - **Preselect Type**: There are 4 types of Preselect as follows:
