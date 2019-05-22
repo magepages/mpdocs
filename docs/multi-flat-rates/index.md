@@ -1,4 +1,5 @@
-# Multiple Flat Rates
+# Multiple Flat Rates Shipping
+
 ## Overview
 
 [Multiple Flat Rates Shipping extension](https://www.mageplaza.com/magento-2-multi-flat-rates/) gives your store more choices about the shipping method. Thanks to this module, you can apply different delivery rates to different countries. It not only helps increase the conversion rate but also boost your sale significantly.
@@ -18,7 +19,7 @@
 
 ## How to configure
 
-Login vào Magento Admin, `Stores > Settings > Configuration > Sales > Shipping methods > Flat Rate #1-5`
+Login to Magento Admin, `Stores > Settings > Configuration > Sales > Shipping methods > Flat Rate #1-5`
 
 ![](https://i.imgur.com/PfnXF0x.png)
 
