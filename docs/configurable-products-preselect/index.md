@@ -15,37 +15,38 @@ When customers access a page of any configurable product, it is hard for them to
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Configurable Products Preselect > Configuration`
 
-![](https://i.imgur.com/VVYj38w.gif)
+![](https://i.imgur.com/u1OIn9k.gif)
 
 ### 1. Configuration
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Configurable Products Preselect > General Configuration`
 
-![](https://i.imgur.com/LMolSGo.png)
+![](https://i.imgur.com/Pixh4Pn.png)
 
 - **Enable**: Select **Yes** to turn on the module Configurable Products Preselect.
 - **Preselect Type**: There are 4 types of Preselect as follows:
 
-![](https://i.imgur.com/hScZsg5.png)
+![](https://i.imgur.com/n8ZBDC1.png)
 
-- **The First Option of Each Attribute**: This type will default to taking the product with the first attributes set for Configurable Products
-- **The Cheapest Product**: This type will choose to display the product with the lowest price
-- **The Most Expensive Product**: This will choose to display the highest priced product.
-- **Default Product**: This is the default pre-selected product. If you choose this type, go to the **Edit** page of **Configurable Products** to select the Preselect Default product at the **Configuration tab**. (details instruction at Part 2)
+- **First-option Preselect**: This type will default to taking the product with the first attributes set for Configurable Products
+- **Cheapest-option Preselect**: This type will choose to display the product with the lowest price
+- **Most Expensive-option Preselect**: This will choose to display the highest priced product.
+- **Default-option Preselect**: This is the default pre-selected product. If you choose this type, go to the **Edit** page of each **Configurable Product** to select the Default option for that product at the **Configuration tab**. (details instruction at Part 2)
 - **Preselect on Category Page**: If the child product has **Swatch Attribute**, it can be applied on Category page. To understand the Swatch Attribute you can refer it [here](https://www.mageplaza.com/kb/how-to-configure-swatches-in-magento-2.html).
   - Select **Yes** to enable this feature
   - Select **No** to disable this feature
 
 
-### 2. Edit Configurable to select Default Product Preselect
+### 2. Edit Configurable to select Default Preselect Option when  `Preselect Type = Default-option Preselect`. 
+
 
 You can follow these steps:
 
 - **Step 1**: From Admin Panel, go to `Products > Catalog`
 - **Step 2**: Filter products by `Type = Configurable Product`
-- **Step 3**: Choose a product. Go to Tab **Configurations** and tick to select a product to set it as the **Default Product Preselect**.
+- **Step 3**: Choose a product. Go to Tab **Configurations** and tick to select a product to set it as the **Default Preselect Option**.
 
-![](https://i.imgur.com/tZHZlz3.png)
+![](https://i.imgur.com/U2VYR1S.png)
 
 ## Frontend
 
