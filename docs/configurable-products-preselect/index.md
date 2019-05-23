@@ -37,10 +37,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Con
   - Select **No** to disable this feature
 
 
-### 2. Edit Configurable to select Default Preselect Option when  `Preselect Type = Default-option Preselect`. 
+### 2. Edit Configurable Product to select Default Preselect Option 
 
-
-You can follow these steps:
+When  `Preselect Type = Default-option Preselect`, you can follow these steps to select **Default Preselect Option** for each product:
 
 - **Step 1**: From Admin Panel, go to `Products > Catalog`
 - **Step 2**: Filter products by `Type = Configurable Product`
