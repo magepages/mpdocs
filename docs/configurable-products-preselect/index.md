@@ -43,9 +43,9 @@ You can follow these steps:
 
 - **Step 1**: From Admin Panel, go to `Products > Catalog`
 - **Step 2**: Filter products by `Type = Configurable Product`
-- **Step 3**: Choose a product. Go to Tab **Configurations** and select a product to set it as the **Default Product Preselect**.
+- **Step 3**: Choose a product. Go to Tab **Configurations** and tick to select a product to set it as the **Default Product Preselect**.
 
-![](https://i.imgur.com/3IG7AiW.png)
+![](https://i.imgur.com/tZHZlz3.png)
 
 ## Frontend
 
