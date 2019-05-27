@@ -282,7 +282,7 @@ Admin chooses conditions to apply the rule. Do not add conditions if the rule ap
 - **Return Shipping Address**: Admin adds the shipping address.
 - **Store View(s)**: Select store to apply label.
 - **Logo**: Upload the logo for label.
-- **Barcode Value**: Select order to apply label.
+- **Barcode Value**: Select barcode value to apply label.
 - **Information**: Select the information to display shipping label
 - **Priority**: Admin enters the priority for label. The lower the input value, the higher the priority.
 
