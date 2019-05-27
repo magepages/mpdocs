@@ -204,7 +204,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 - **Default Label**:
   - **Default Status Label for All Store Views**: Set the default label for all stores.
-  - *Note*: This is a required field. The system will display an error message if left blank.
+  - *Note: This is a required field. The system will display an error message if left blank.*
 - **Store View Specific Labels**: Set the label for each store view. If this field is blank, it will automatically get Default Label.
 
 #### 3.1.3. Default Comment/ Reply
@@ -214,7 +214,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 - Select **Enable Default comment = Yes**, the Default comment/ reply will be applied. If you select **No**, this feature will be hidden.
 - **Default Comment**:
   - **Default Comment for All Store Views**: Set a default comment for all stores.
-  - *Note*: This is a required field. The system will display an error message if left blank.
+  - *Note: This is a required field. The system will display an error message if left blank.*
 - **Store View Specific Comment**: Set a comment for each store view. If this field is blank, it will automatically be taken as Default Comment.
 
 
@@ -241,7 +241,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 - **Website**: Select the website to which the rule applies.
 - **Customer Group**: Select the group of customers to apply the rule.
 - **Priority**: Enter the priority for the rule
-- *Note*: The smaller the Priority value, the higher the priority.
+- *Note: The smaller the Priority value, the higher the priority*.
 
 
 #### 4.1.2. Condition
@@ -286,28 +286,28 @@ Admin chooses conditions to apply the rule. Do not add conditions if the rule ap
 - **Information**: Select the information to display shipping label
 - **Priority**: Admin enters the priority for label. The lower the input value, the higher the priority.
 
-1.2. Condition
+#### 5.1.2. Condition
 
 ![Imgur](https://i.imgur.com/oVMsLTZ.png)
 
-1.3. Default Comments
+#### 5.1.3. Default Comments
 
 ![Imgur](https://i.imgur.com/nKwLnlv.png)
 
 - **Default Label**:
   - **Default Shipping Label for All Store Views**: Set the default label for all stores.
-  - *Note*: This is a required field. The system will display an error message if left blank.
+  - *Note: This is a required field. The system will display an error message if left blank.*
 - **Store View Specific Labels**: Set the label for each store view. If this field is blank, it will automatically get the label name the same as the Default Label.
 
 ## VI. Frontend
 
 ### 6.1 Display RMA link and RMA Policy link
 
-- Show in Top Link
+- **Show in Top Link**
 
 ![Imgur](https://i.imgur.com/tmXUjIS.png)
 
-- Displayed in Footer Link
+- **Displayed in Footer Link**
 
 ![Imgur](https://i.imgur.com/dMDyc6H.png)
 
@@ -319,32 +319,32 @@ At Find Order By, in addition to entering Email, customers can enter and enter t
 
 ### 6.3. Create New RMA Request Form (for customer who has Login)
 
-- Request All Items
+- **Request All Items**
 
 ![Imgur](https://i.imgur.com/QrM9XnB.png)
 
-- Request Each Item
+- **Request Each Item**
 
 ![Imgur](https://i.imgur.com/dLD4oIU.png)
 
 ### 6.4. Create New RMA Request Form (for customers Non-Logged in)
-- Request All Items
+- **Request All Items**
 
 ![Imgur](https://i.imgur.com/b1ryFXq.png)
 
-- Request Each Item
+- **Request Each Item**
 
 ![Imgur](https://i.imgur.com/I2X9xUK.png)
 
-#### 6.5. My RMA Request
+### 6.5. My RMA Request
 
 ![Imgur](https://i.imgur.com/Y7ValbF.png)
 
-- See Details
+- **See Details**
 
 ![Imgur](https://i.imgur.com/XLu3zNj.png)
 
-- Print Shipping Label
+- **Print Shipping Label**
 
 ![Imgur](https://i.imgur.com/0JBIUqZ.png)
 
@@ -354,10 +354,10 @@ At Find Order By, in addition to entering Email, customers can enter and enter t
 
 ![Imgur](https://i.imgur.com/Pwlb1T3.png)
 
-- Sample of customer messages sent to admin
+- Message template sent to admin when RMA status has been changed
 
 ![Imgur](https://i.imgur.com/2hx6QJ4.png)
 
-- Admin message template sent to customers
+- Admin message template sent to customers when their RMA status has been updated
 
 ![Imgur](https://i.imgur.com/PWLwmOC.png)
