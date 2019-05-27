@@ -28,17 +28,17 @@ Are you looking for a solution to help customers return products and the store o
 
 Login to the Magento Admin, go to `Sales > RMA > Configuration`.
 
-![](https://i..com/vwwuQiw.png)
+![](https://i.imgur.com/vwwuQiw.png)
 
 Admin can also access `Stores > Configuration >  Mageplaza > RMA` to configure the module.
 
-![](https://i..com/j5IzPvv.png)
+![](https://i.imgur.com/j5IzPvv.png)
 
 ### 1. General
 
 #### 1.1. General
 
-![](https://i..com/BWFdGoX.png)
+![](https://i.imgur.com/BWFdGoX.png)
 
 - Select **Enable = Yes** to enable the module.
 - **Show RMA for Guest**: select **Yes** to apply to customers who do not have an account but have already ordered so that they can return the item.
@@ -48,24 +48,24 @@ Admin can also access `Stores > Configuration >  Mageplaza > RMA` to configure t
     - If cystomers not logged in, the link leads to the **filter order** page to submit the request. If **Enable RMA for Guest = No**, hide this link.
 - **RMA Policy Page**: Select the page to display RMA policy.
 
-![](https://i..com/7LGAnNG.png)
+![](https://i.imgur.com/7LGAnNG.png)
 
 - **Show RMA Policy Link on**: Select the page to display the RMA policy link. This link is only visible when the admin selects the RMA Policy Page.
 
 
 #### 1.2. RMA ID Increment Pattern
 
-![](https://i..com/8RUI738.png)
+![](https://i.imgur.com/8RUI738.png)
 
 Admin select the ID increment type for RMA
 - **Only ID**: Only display ID and does not show prefixes or suffixes.
 - **Custom**: Display ID with prefix and suffix
 
-![](https://i..com/n0M7Xqm.png)
+![](https://i.imgur.com/n0M7Xqm.png)
 
 ### 2. Request Configuration
 
-![](https://i..com/dsmuTYJ.png)
+![](https://i.imgur.com/dsmuTYJ.png)
 
 - **Allow RMA for Each Item of An Order**: Select **Yes** to create RMA for each item in the order.
 - **AAllow Uploading Attachments**: Select **Yes** to allow attachments fro RMA request.
@@ -85,16 +85,16 @@ Admin select the ID increment type for RMA
   - **Solution**: Admin creates solution for RMA. You can make multiple solution.
   - **Additional Field**: Admin creates additional fields for RMA. You can make multiple additional fields. 
   
-  ![](https://i..com/ZKTRVjV.png)
+  ![](https://i.imgur.com/ZKTRVjV.png)
   
 ### 3. Email Configuration
 
-![](https://i..com/24Ktq7x.png)
+![](https://i.imgur.com/24Ktq7x.png)
 
 - **Select Enable = Yes**: Allow sending mail. RMA is compatible with [SMTP extension](https://www.mageplaza.com/magento-2-smtp/)
 - **Sender**: Select the representative to send mail.
 
-![](https://i..com/HO0RMVE.png)
+![](https://i.imgur.com/HO0RMVE.png)
 
 - **Admin Email**: Enter the email that admin will receive the request from customer.
   - *Note*:
@@ -109,7 +109,7 @@ Admin select the ID increment type for RMA
 
 ## II. Manage RMA Request
 
-![](https://i..com/vrKCuON.png)
+![](https://i.imgur.com/vrKCuON.png)
 
 - This is where all RMA Requests are saved.
 - At the grid, Admin can view all the basic information of Status such as **ID, Request Increment ID, Order Increment ID, Status, Customer Email, Item(s), Last responded by, Store View, Created Date, Updated Date, Action**.
@@ -123,7 +123,7 @@ Admin select the ID increment type for RMA
 
 Admin can create request at backend.
 
-![](https://i..com/cUcbp2r.png)
+![](https://i.imgur.com/cUcbp2r.png)
 
 - **RMA Status**: Admin select status to apply for RMA request.
 - **Comment**: Admin enter the message for RMA request.
@@ -143,7 +143,7 @@ Admin can create request at backend.
 
 To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **Save and Continue Edit** when **creating RMA Request**.
 
-![](https://i..com/ZyUI3Vg.png)
+![](https://i.imgur.com/ZyUI3Vg.png)
    
 - Here, RMA Request displays additional **Return Shipping Label** and **Conversation**.
 - **Return Shipping Label**: Admin select shipping label for return request.
@@ -152,19 +152,19 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 - **Reply Template**: Click here when the admin wants to send the message to the guest in a premade template.
 - Select **Create new** to create a **Reply Template**. Admin enter name and message template for template.
 
-![](https://i..com/FSOSCJH.png)
+![](https://i.imgur.com/FSOSCJH.png)
 
 - Select **Edit** to edit the **Reply Template**.
 - Select **Insert** to apply the template **message** to the reply.
 - Click the **trash icon** when the admin wants to delete the reply template.
 
-![](https://i..com/bovOqLh.png)
+![](https://i.imgur.com/bovOqLh.png)
 
 - Select **Send email to Customer**: The message will be sent to the customer's email.
 - Select **Visible on Frontend**: The message will be displayed outside the frontend.
 - Click **Submit** to send the message.
 
-![](https://i..com/5rKoa0c.png)
+![](https://i.imgur.com/5rKoa0c.png)
 
 - The conversation between admin and customer will be displayed in this area. We use colors to distinguish messages.
   - *Note*:
@@ -175,7 +175,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
     
 ## III. Manage RMA Status
 
-![](https://i..com/UioSi8K.png)
+![](https://i.imgur.com/UioSi8K.png)
 
 - Here saved all RMA Status.
 - At the grid, admin can view all the basic information of Status such as: ID, Status Title, Active, Created Date, Update Date, Action.
@@ -189,7 +189,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 #### 3.1.1. General
 
-![](https://i..com/lz5wa3p.png)
+![](https://i.imgur.com/lz5wa3p.png)
 
 - **Status Name**: Name the status.
 - Select **Active = Yes**: Allow the status to be enabled
@@ -201,7 +201,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 #### 3.1.2. Label
 
-![](https://i..com/5mlsMSX.png)
+![](https://i.imgur.com/5mlsMSX.png)
 
 - **Default Label**:
   - **Default Status Label for All Store Views**: Set the default label for all stores.
@@ -210,7 +210,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 #### 3.1.3. Default Comment/ Reply
 
-![](https://i..com/yhUXvfW.png)
+![](https://i.imgur.com/yhUXvfW.png)
 
 - Select **Enable Default comment = Yes**, the Default comment/ reply will be applied. If you select **No**, this feature will be hidden.
 - **Default Comment**:
@@ -221,7 +221,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 ## IV. Manage RMA Rule
 
-![](https://i..com/YBJ6A7N.png)
+![](https://i.imgur.com/YBJ6A7N.png)
 
 - Here stored all the RMA rules created.
 - At the form grid, Admin can understand all the basic information such as ID, Name, Status, Website, Customer Group, Created Date, Update Date, Priority, Action.
@@ -234,7 +234,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 ### 4.1. Create New/ Edit RMA Rule
 #### 4.1.1. General
 
-![](https://i..com/31g5mhW.png)
+![](https://i.imgur.com/31g5mhW.png)
 
 - **Name**: Enter a name for the RMA rule
 - **Description**: Add Description of RMA rule.
@@ -249,11 +249,11 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 Admin chooses conditions to apply the rule. Do not add conditions if the rule applies to all products.
 
-![](https://i..com/0PyV5OT.png)
+![](https://i.imgur.com/0PyV5OT.png)
 
 #### 4.1.3. RMA Information
 
-![](https://i..com/2tL6FVo.png)
+![](https://i.imgur.com/2tL6FVo.png)
 
 - **Reason**: Select the reason to apply the rule.
 - **Solution**: Select the resolution for the rule.
@@ -261,7 +261,7 @@ Admin chooses conditions to apply the rule. Do not add conditions if the rule ap
 
 ## V. Manage Shipping Label
 
-![](https://i..com/F5rZjMj.png)
+![](https://i.imgur.com/F5rZjMj.png)
 
 - This is where all the created labels are saved.
 - At the form grid, Admin can understand all the basic information of shipping labels such as: ID, Label, Status, Store View, Return Shipping Address, Created Date, Update Date, Action.
@@ -275,7 +275,7 @@ Admin chooses conditions to apply the rule. Do not add conditions if the rule ap
 ### 5.1. Create New/ Edit Shipping Label
 #### 5.1.1. General
 
-![](https://i..com/LSM79to.png)
+![](https://i.imgur.com/LSM79to.png)
 
 - **Label Name**: Name the label
 - **Status**: Select the status for label. Select **Yes**, label applied.
@@ -289,11 +289,11 @@ Admin chooses conditions to apply the rule. Do not add conditions if the rule ap
 
 #### 5.1.2. Condition
 
-![](https://i..com/oVMsLTZ.png)
+![](https://i.imgur.com/oVMsLTZ.png)
 
 #### 5.1.3. Default Comments
 
-![](https://i..com/nKwLnlv.png)
+![](https://i.imgur.com/nKwLnlv.png)
 
 - **Default Label**:
   - **Default Shipping Label for All Store Views**: Set the default label for all stores.
@@ -306,59 +306,59 @@ Admin chooses conditions to apply the rule. Do not add conditions if the rule ap
 
 - **Show in Top Link**
 
-![](https://i..com/tmXUjIS.png)
+![](https://i.imgur.com/tmXUjIS.png)
 
 - **Displayed in Footer Link**
 
-![](https://i..com/dMDyc6H.png)
+![](https://i.imgur.com/dMDyc6H.png)
 
 ### 6.2. From Request Filter
 
 At Find Order By, in addition to entering Email, customers can enter and enter the zip code used for order by clicking on the arrow and selecting Zip Code.
 
-![](https://i..com/Y7DXN1h.png)
+![](https://i.imgur.com/Y7DXN1h.png)
 
 ### 6.3. Create New RMA Request Form (for customer who has Login)
 
 - **Request All Items**
 
-![](https://i..com/QrM9XnB.png)
+![](https://i.imgur.com/QrM9XnB.png)
 
 - **Request Each Item**
 
-![](https://i..com/dLD4oIU.png)
+![](https://i.imgur.com/dLD4oIU.png)
 
 ### 6.4. Create New RMA Request Form (for customers Non-Logged in)
 - **Request All Items**
 
-![](https://i..com/b1ryFXq.png)
+![](https://i.imgur.com/b1ryFXq.png)
 
 - **Request Each Item**
 
-![](https://i..com/I2X9xUK.png)
+![](https://i.imgur.com/I2X9xUK.png)
 
 ### 6.5. My RMA Request
 
-![](https://i..com/Y7ValbF.png)
+![](https://i.imgur.com/Y7ValbF.png)
 
 - **See Details**
 
-![](https://i..com/XLu3zNj.png)
+![](https://i.imgur.com/XLu3zNj.png)
 
 - **Print Shipping Label**
 
-![](https://i..com/0JBIUqZ.png)
+![](https://i.imgur.com/0JBIUqZ.png)
 
 ## VII. Email
 
 - Admin can check email sent to customers or view messages sent by customers by going to `Stores > SMTP > Emails Log`.
 
-![](https://i..com/Pwlb1T3.png)
+![](https://i.imgur.com/Pwlb1T3.png)
 
 - Message template sent to admin when RMA status has been changed
 
-![](https://i..com/2hx6QJ4.png)
+![](https://i.imgur.com/2hx6QJ4.png)
 
 - Admin message template sent to customers when their RMA status has been updated
 
-![](https://i..com/PWLwmOC.png)
+![](https://i.imgur.com/PWLwmOC.png)
