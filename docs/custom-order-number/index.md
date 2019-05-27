@@ -151,10 +151,10 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 * **Pattern**:
     * Enter the format for the Shipment ID. For instance, SHI-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
     * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
-    * If the format of supported variables is entered wrong, the Shipment ID will be displayed under the text 
+    * If the format of supported variables is entered wrong, the Shipment ID will be displayed under the text.
     
 * **Counter Start From**:
-    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added to the number 0 in front.  For example: You enter as 15, counter variable that is used will be [4counter]. The ID displayed will have the format as 015
+    * Enter the counter when using the variable [counter]. When the number of digits in this field is less than the number of digits of the variable [counter], the ID is automatically added one or multiple number 0 in front.  For example: You enter as 15, counter variable that is used will be [4counter]. The ID displayed will have the format as 0015.
     * The ID of the next shipment will begin with the number entered and it will incrementally increase based on the `Counter by Step` field below.
     * For example, when you use the variable [2counter], if you enter 04, the shipment ID after configuring will start from 04
     * If you want to change the `Counter Start From` field, after entering a new value and saving, admins need to click on `Reset Now` button so that the Shipment ID can get a new `Counter Start From` value.
