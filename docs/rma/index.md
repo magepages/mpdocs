@@ -38,11 +38,11 @@ Admin can also access `Stores > Configuration >  Mageplaza > RMA` to configure t
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/onXevaX.png)
+![Imgur](https://i.imgur.com/BWFdGoX.png)
 
 - Select **Enable = Yes** to enable the module.
-- **Enable RMA for Guest**: select **Yes** to apply to customers who do not have an account but have already ordered so that they can return the item.
-- **Show RMA Link**: Select the position of RMA link display.
+- **Show RMA for Guest**: select **Yes** to apply to customers who do not have an account but have already ordered so that they can return the item.
+- **Display RMA Link at**: Select the position of RMA link display.
   - *Note*:
     - If customers logged in, the link leads to the request management page.
     - If cystomers not logged in, the link leads to the **filter order** page to submit the request. If **Enable RMA for Guest = No**, hide this link.
@@ -50,7 +50,7 @@ Admin can also access `Stores > Configuration >  Mageplaza > RMA` to configure t
 
 ![Imgur](https://i.imgur.com/7LGAnNG.png)
 
-- **Show RMA Policy link**: Select the page to display the RMA policy link. This link is only visible when the admin selects the RMA Policy Page.
+- **Show RMA Policy Link on**: Select the page to display the RMA policy link. This link is only visible when the admin selects the RMA Policy Page.
 
 
 #### 1.2. RMA ID Increment Pattern
@@ -65,10 +65,10 @@ Admin select the ID increment type for RMA
 
 ### 2. Request Configuration
 
-![Imgur](https://i.imgur.com/6iBKMqS.png)
+![Imgur](https://i.imgur.com/dsmuTYJ.png)
 
-- **Create RMA for each item in order**: Select **Yes** to create RMA for each item in the order.
-- **Allow upload attachment**: Select **Yes** to allow attachments fro RMA request.
+- **Allow RMA for Each Item of An Order**: Select **Yes** to create RMA for each item in the order.
+- **AAllow Uploading Attachments**: Select **Yes** to allow attachments fro RMA request.
 - **Google Recaptcha**: choose **Yes** to allow request compatible with [Google Recaptcha extension](https://www.mageplaza.com/magento-2-google-recaptcha/)
 - **Default Request Status**: Select the default status when customer has just submitted the request.
 - **Customer can Cancel Request in Status**: Select status in which allow customer to cancel the request.
@@ -85,11 +85,11 @@ Admin select the ID increment type for RMA
   - **Solution**: Admin creates solution for RMA. You can make multiple solution.
   - **Additional Field**: Admin creates additional fields for RMA. You can make multiple additional fields. 
   
-  ![Imgur](https://i.imgur.com/N3CW65y.png)
-
+  ![Imgur](https://i.imgur.com/ZKTRVjV.png)
+  
 ### 3. Email Configuration
 
-![Imgur](https://i.imgur.com/3pCG9Kv.png)
+![Imgur](https://i.imgur.com/24Ktq7x.png)
 
 - **Select Enable = Yes**: Allow sending mail. RMA is compatible with [SMTP extension](https://www.mageplaza.com/magento-2-smtp/)
 - **Sender**: Select the representative to send mail.
@@ -100,11 +100,12 @@ Admin select the ID increment type for RMA
   - *Note*:
     - The emails will be separated by commas (,).
     - When a customer sends a request, an email notification will be sent to the admin via this address.
-- **Notice Admin when new reply**: Displays notification for Admin when there is a new reply.
+- **Notice Admin About A New Reply**: Displays notification for Admin when there is a new reply.
   - **All above address**: Allows for all email addresses.
   - **No**: Disallow notifications when having new replies.
   - **Only request argent**: Only allowed when requested.
-- **Email Notify Customer Template**: Email form sent to the customer when the admin answers the comment in the conversation
+- **Notification Email Template to Customers**: Choose the Notification emails sending to customers
+- **Notification Email Template to Admins**: Choose the Notification emails sending to admin.
 
 ## II. Manage RMA Request
 
