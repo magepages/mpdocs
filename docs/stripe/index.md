@@ -15,17 +15,17 @@ Mageplaza Stripe extension is fully compatible with [Mageplaza One Step Checkout
 ## How to use
 ### For Customer
 
-- Pay by Card
-- Pay by Alipay
-- Pay with Giropay
-- Pay with Bancontact
-- Pay with Przelewy24
-- Payment by SOFORT
-- Pay with EPS
-- Pay with iDEAL Bank
-- Pay with Google Pay
-- Pay with Apple Pay
-- Pay with Microsoft Pay
+- Pay by **Card**
+- Pay by **Alipay**
+- Pay with **Giropay**
+- Pay with **Bancontact**
+- Pay with **Przelewy24**
+- Payment by **SOFORT****
+- Pay with **EPS**
+- Pay with **iDEAL Bank**
+- Pay with **Google Pay**
+- Pay with **Apple Pay**
+- Pay with **Microsoft Pay**
 
 ![](https://i.imgur.com/RAnr4KZ.png)
 
@@ -33,6 +33,7 @@ Mageplaza Stripe extension is fully compatible with [Mageplaza One Step Checkout
 - Allow customers to save card information at their first payment to use for next payments.
 
 ### For Admin
+
 - Turn on/off 3D Secure
 - Set up the countries using the Payment Method
 - Specify Payment Action
@@ -149,7 +150,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
   
 #### 1.5. Bancontact
 
-![](https://i.imgur.com/HZ3ef8w.png)
+![](https://i.imgur.com/ubKcmjA.png)
 
 - **Enable**: Select **Yes** so that Customer can pay by **Bancontact**
 
@@ -310,7 +311,7 @@ From the **Admin panel**, go to `Stores > Configuration > Sales > Payment Method
   
 ### 2. Admin create order at backend 
 - Go to `Sales > Orders > Create New Order > Select Customer > Select Store`.
-- After choosing product to make order, please fill the Address Information and choose Shipping Method. At Payment Method, choose Credit Cards(Stripe), then select one card which has been saved to process the payment. 
+- After choosing product to make order, please fill the **Address Information** and choose **Shipping Method**. At **Payment Method**, choose **Credit Cards(Stripe)**, then select one card which has been saved to process the payment. 
 - Mageplaza Stripe extension only support admin to create backend order with the saved card information previously.
 
 ![](https://i.imgur.com/JCd1Ty8.png)
