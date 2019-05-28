@@ -16,12 +16,10 @@ Install via composer (recommend)
 
 Run the following command in Magento 2 root folder:
 
-```
-composer require mageplaza/magento-2-blog-extension
+``composer require mageplaza/magento-2-blog-extension
 php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy
+php bin/magento setup:static-content:deploy``
 
-```
 
 Here we go how to know detail in instructions and configuration in extension’s backend.
 
