@@ -1,4 +1,4 @@
-# GDRP Professional
+# GDPR Professional
 
 ## Overview 
 GDPR principle was created to protect customer data. In a nutshell, GDPR establishes a clear set of rules about which regulations businesses can operate in relation to the process of executing customer data. With these new rules, boundaries are easier to understand for both businesses and consumers, which will facilitate earning money and retain customer loyalty.
