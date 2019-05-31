@@ -17,17 +17,17 @@ Cart abandonment is an action that consumers leave the website after adding a pr
 
 Login to Magento Admin, ``Marketing > Abandoned Cart Email`` to configure it in general
 
-![](https://i.imgur.com/G4kMlki.png)
+![](https://i.imgur.com/KaRgALH.png)
 
 ### 1. Configuration
 
 #### 1.1 General Configuration
 Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` then click on ``General Configuration``
 
-![](https://i.imgur.com/gOPOs33.png)
+![](https://i.imgur.com/TpAPlK5.png)
 
 * **Enabled**: select “Yes” to enable Mageplaza Abandoned Cart Email extension
-* **Send Email to Subscriber Only**: Select **Yes**, only sending abandoned cart eamil to registed and subscribed customers. If select **No**, sending email to all abandoned carts of registed customers which are satisfy the conditions. 
+* **Send Email to Subscribers Only**: Select **Yes**, only sending abandoned cart eamil to registed and subscribed customers. If select **No**, sending email to all abandoned carts of registed customers which are satisfy the conditions. 
 
 * **Email**: This section is for the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
@@ -37,7 +37,7 @@ Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Car
   * **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in [**1.3 Coupon**](https://docs.mageplaza.com/abandoned-cart-email/index.html#coupon)
   * Click the trash can icon ![](https://i.imgur.com/62D0Zqz.png) to delete a email
   * Click the Send test icon to send a test email. To send a test mail successfully, admin has to provide at least one email address in the field ``Send Test Email to``. This feature is available for multi-stores also.
-* ``Send Test Email To``: This field is required only for the sending test email purpose. To guarantee that customers' data will not be leaked, only the most recent abandoned cart's information which belongs to a guest can be sent to this test email.
+* **Send Test Email To**: This field is required only for the sending test email purpose. To guarantee that customers' data will not be leaked, only the most recent abandoned cart's information which belongs to a guest can be sent to this test email.
   
 #### 1.2 Analytics
 Google Analytics is integrated with Mageplaza Abandoned Cart extension. Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` and click on **Analytics**.
@@ -47,17 +47,17 @@ Google Analytics is integrated with Mageplaza Abandoned Cart extension. Go to ``
 It manifests in this direct link in the frontend like
 ![](https://i.imgur.com/O9qLYDH.png)
 
-* In the **Enabled** field: Select “Yes” to use Google Analytics tool. Then, the Source, Medium, Name, Term, Content items will be displayed automatically
-* In the **Source** field: the data of Source will appear in the Link back to Cart if it’s available. If you leave it blank, Source on frontend won’t be displayed.
-* In the **Medium** field: the data of Medium will appear in the Link back to Cart if it’s available. If you leave it blank, Medium on frontend won’t be displayed
-* In the **Name** field: data of Name will appear in the Link back to Cart if it’s available. If you leave it blank, Name on frontend won’t be displayed
-* In the **Term** field: the data of Term will appear in the Link back to Cart if it’s available. If you leave it blank, Term on frontend won’t be displayed
-* In the **Content** field: the data of Content will appear in the Link back to Cart if it’s available. If you leave it blank, Content on frontend won’t be displayed
+* In the **Enable** field: Select “Yes” to use Google Analytics tool. Then, the Campaign Source, Campaign Medium, Campaign Name, Campaign Term, Campaign Content items will be displayed automatically
+* In the **Campaign Source** field: the data of Campaign Source will appear in the Link back to Cart if it’s available. If you leave it blank, Source on frontend won’t be displayed.
+* In the **Campaign Medium** field: the data of Campaign Medium will appear in the Link back to Cart if it’s available. If you leave it blank, Medium on frontend won’t be displayed
+* In the **Campaign Name** field: data of Campaign Name will appear in the Link back to Cart if it’s available. If you leave it blank, Name on frontend won’t be displayed
+* In the **Campaign Term** field: the data of Campaign Term will appear in the Link back to Cart if it’s available. If you leave it blank, Term on frontend won’t be displayed
+* In the **Campaign Content** field: the data of Campaign Content will appear in the Link back to Cart if it’s available. If you leave it blank, Content on frontend won’t be displayed
 
 #### 1.3 Coupon
 Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` and click on **Coupon**.
 
-![](https://i.imgur.com/f0el2jw.png)
+![](https://i.imgur.com/jOcCvdM.png)
 
 * In the **Rule** field: choose a principle to generate a discount code
   * Only those rules that are activated and generated automatically will be displayed in the configuration
@@ -79,17 +79,41 @@ An example of the Abandoned Cart Email sent to a customer
 
 ![](https://i.imgur.com/PB7n1bW.png)
 
+
+#### 1.4. Real-time Reports
+
+Go to `Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`, choose **Real-time Reports****
+
+![](https://i.imgur.com/7J0uZ4I.png)
+
+**How to measure Abandoned Cart**: Time to define an abandoned cart. The unit is minute.
+Example: If we enter 30, then after 30 minutes, carts will be considered abandoned. The carts under 30 minutes will be in the Real Time column. 
+**Default Date Range**: Day limit on **Cart Board** Page
+
+![](https://i.imgur.com/BffbSdH.png)
+
+Ex: Select **Default Date Range= 30 days** > at Cart Board page, the Cart will be shown in 30 days. See the picture below:
+
+![](https://i.imgur.com/HvdyyLY.png)
+
+
 ### 2. Overall Reports
 
 #### 2.1 Reports
 
-Go to ``Marketing > Abandoned Cart Email > Overall Report``. This is the place where archives the number of Abandoned Carts, the number of Abandoned Carts sent, the number of failed Abandoned Carts and the number of Abandoned Carts that were recovered in a period of time. There are two Report Time modes:
-* DAY
+Go to ``Marketing > Abandoned Cart Email > Overall Report``. 
+
+![](https://i.imgur.com/3sqQXYX.png)
+
+This is the place where archives the number of Abandoned Carts, the number of Abandoned Carts sent, the number of failed Abandoned Carts and the number of Abandoned Carts that were recovered in a period of time. 
+
+There are two Report Time modes:
+* **DAY**
   * When you select the **DAY** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a daily basis
   * If the distance between **From** and **To** is too far apart, the distance between two days in Report Time will be increased
 ![](https://i.imgur.com/gvpQhk2.png)
 
-* MONTH: When you select **MONTH** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a monthly basis
+* **MONTH**: When you select **MONTH** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a monthly basis
 ![](https://i.imgur.com/O9Iz9vu.png)
 
 #### 2.2 Logs
@@ -106,7 +130,11 @@ From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
 * **Action = Send Again**: the selected email will be sent to customers again. This email has the same content as the selected email
 * **Clear Logs** button: Click the Clear Logs button to quickly delete all the emails stored in the logs. The next email’s ID has nothing to do with the deleted one
 
- ### 3. Checkout Process
+ ### 3. Checkout Abandonment Report
+ 
+ From Admin Panel, go to `Marketing > Abandoned Cart Email > Checkout Abandonment Report`
+ 
+ ![](https://i.imgur.com/G7MHd75.png)
 
 * Here will show statistics about Abandoned Cart Checkout 
 * Display statistics on checkout cart and abandoned cart grid about quantity, rate (%), total revenue ($)
@@ -117,8 +145,54 @@ From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
   * Saved revenue
   * Checked out rate of abandoned cart
 
-![](https://i.imgur.com/XTDuIE0.png)
-
 - Show detailed statistics in period (day/week/month/year/custom) by Grid
 
 ![](https://i.imgur.com/bH8Vql3.png)
+
+
+### 4. Abandoned Product Report
+From the Admin Panel, select `Marketing > Abandoned Cart Email > Abandoned Product Report`
+
+![](https://i.imgur.com/qMoC9gZ.png)
+
+- Here listing 5 most abandoned products by time filter + group by. Each product will be shown in one specific lolor. 
+
+![](https://i.imgur.com/mg5kSBm.png)
+- Display information of abandoned products by time filter, **sort by = Abandoned Time** (number of times to be abandoned). The information includes:
+  - Product Name
+  - Thumbnails
+  - SKU
+  - Price
+  - Abandoned Time: The number of the abandoned cart containing the product.
+  - Qty: The total qty of the product in the abandoned cart.
+  - Abandoned Revenue: the total value of the order of abandoned products.
+  
+  
+### 5. Shopping Behavior Analysis
+
+From Admin Panel, select `Marketing > Abandoned Cart Email > Shopping Behavior Analysis`
+
+![](https://i.imgur.com/2itzrL5.png)
+
+![](https://i.imgur.com/ogbD6I7.png)
+
+- Here showing the times percentage when fields were filled/updated on the checkout page before the cart was abandoned.
+- **Column chart**: displays the % value at the beginning and inside of the column. Color is changed by different %:
+  -  0-40%: displayed in red.
+  - > 40-70%: display yellow.
+  - > 70-100%: displayed in green.
+- Admin can choose to hide/ show columns at each statistics table. Clicking on **Hide optional fields**, the popup will show all the information fields in the table along with the checkbox; Any field that is checked will be displayed, unchecked ones will not display statistics.
+
+![](https://i.imgur.com/SGZfbHL.png)
+
+### 6. Cart Board
+
+From the Admin Panel, select `Marketing > Abandoned Cart Email > Cart Board`
+
+![](https://i.imgur.com/kLtKHWq.png)
+
+- Here reported all the Cart types:
+  - **Real-time**: cart will be here if abandoned cart time is less than the time to set at **How to measure Abandoned Cart** field in Configuration.
+  - **Abandoned Cart**: in contrast to the **Real-time cart** column, cart will be here if the abandoned cart time is greater than the time to install **How to measure Abandoned Cart** field in Configuration, and this column only displays cart without email.
+  - **Recoverable**: Just like the Abandoned Cart column but it just shows the cart with email address.
+  - **Converted**: Show the ordered cart.
