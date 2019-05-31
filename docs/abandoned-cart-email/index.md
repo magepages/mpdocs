@@ -82,7 +82,7 @@ An example of the Abandoned Cart Email sent to a customer
 
 #### 1.4. Real-time Reports
 
-Go to `Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`, choose **Real-time Reports****
+Go to `Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`, choose **Real-time Reports**
 
 ![](https://i.imgur.com/7J0uZ4I.png)
 
@@ -92,7 +92,7 @@ Example: If we enter 30, then after 30 minutes, carts will be considered abandon
 
 ![](https://i.imgur.com/BffbSdH.png)
 
-Ex: Select **Default Date Range= 30 days** > at Cart Board page, the Cart will be shown in 30 days. See the picture below:
+Ex: Select **Default Date Range= 30 days** then at Cart Board page, the Cart will be shown in 30 days. See the picture below:
 
 ![](https://i.imgur.com/HvdyyLY.png)
 
@@ -118,7 +118,7 @@ There are two Report Time modes:
 
 #### 2.2 Logs
 
-This is the place archiving abandoned cart emails which have been sent, including their ID, Subject, Receiver, Coupon, Sequent Number, Sent, Status (Sent / Error) and Action (Preview / Delete, Send Again)
+This is the place archiving abandoned cart emails which have been sent, including their ID, Subject, Receiver, Coupon, Sequent Number, Sent, Status (Sent/ Error) and Action (Preview/ Delete, Send Again)
 
 From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
 ![](https://i.imgur.com/zmKitE3.png)
