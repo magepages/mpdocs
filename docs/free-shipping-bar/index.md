@@ -132,10 +132,10 @@ Login to the **Magento Admin**, choose `Marketing > Free Shipping bar`
 ![](https://i.imgur.com/2MhjpNN.png)
 
 * **Position**: There are 5 positions that admins can choose:
-    * **The top of the page**: Free Shipping bar is fixed at the top of the page, it will not slip when customers scroll down the next page
-    * **Fixed bar at the top of the page**: Free Shipping bar is always displayed at the top of the page, it will slip when the customers scroll down the next page
-    * **The top of the content**: Free Shipping bar is fixed at the top of the content per page
-    * **Fixed bar at the bottom of the page**: Free Shipping bar is fixed at the bottom of the page, it will slip when customers scroll down the next page
+    * **The top of the page**: Free Shipping bar is put fixed at the top of the page, it will not slip when customers scroll down the page.
+    * **Fixed bar at the top of the page**: Free Shipping bar is always displayed at the top of the page, it will slip when the customers scroll down the page.
+    * **The top of the content**: Free Shipping bar is fixed at the top of the content on a page
+    * **Fixed bar at the bottom of the page**: Free Shipping bar is fixed at the bottom of the page, it will slip when customers scroll down the page
     * **Insert snippet**: Free shipping bar is located at the `insert snippet`
 
 * **Allow Show = All Pages**:
