@@ -6,6 +6,12 @@ Normally, customers access to your store to see your product but they cannot buy
 
 [Mageplaza Save Cart And Buy Later](https://www.mageplaza.com/magento-2-save-cart-and-buy-later/) allows customers to save shopping carts/ products they want to buy in the future, thereby saving time and providing a better experience for customers. With this extension, customers can manage and perform some actions at Customer DashBoard such as Save Cart/ Product, Restore, Delete and Share by Link.
 
+## How to download and install
+
+- [Download Mageplaza Save Cart And Buy Later](https://www.mageplaza.com/magento-2-save-cart-and-buy-later/)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
+
 
 ## How to Configure
 
