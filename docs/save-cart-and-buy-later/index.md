@@ -96,7 +96,7 @@ When clicking **Save**, you will be redirected to the **Buy Later Notes** page a
   - **Back**: Return to the **Buy Later Carts** page originally
   - **Restore**: Transfer all Items in Saved Cart to the current Shopping Cart.
 
-#### 3.3. Saved Products
+#### 3.3. Saved Products
 
 ![](https://i.imgur.com/iEjEygp.png)
 
