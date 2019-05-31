@@ -61,7 +61,7 @@ Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Car
 
 * In the **Rule** field: choose a principle to generate a discount code
   * Only those rules that are activated and generated automatically will be displayed in the configuration
-  * How to create rules in Marketing > Cart Price Rules guide can be found [here](https://www.mageplaza.com/kb/how-create-a-cart-price-rule-in-magento-2.html)
+  * How to create rules in `Marketing > Cart Price Rules` guide can be found [here](https://www.mageplaza.com/kb/how-create-a-cart-price-rule-in-magento-2.html)
 * In the **Valid** field: Where to change expiration date of a discount code
   * The discount code is only used during the time set since the code was created
   * Time will be counted in hour(s)
@@ -153,7 +153,7 @@ From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
 ### 4. Abandoned Product Report
 From the Admin Panel, select `Marketing > Abandoned Cart Email > Abandoned Product Report`
 
-![](https://i.imgur.com/qMoC9gZ.png)
+![](https://i.imgur.com/nUff3Vp.png)
 
 - Here listing 5 most abandoned products by time filter + group by. Each product will be shown in one specific lolor. 
 
@@ -179,8 +179,8 @@ From Admin Panel, select `Marketing > Abandoned Cart Email > Shopping Behavior A
 - Here showing the times percentage when fields were filled/updated on the checkout page before the cart was abandoned.
 - **Column chart**: displays the % value at the beginning and inside of the column. Color is changed by different %:
   -  0-40%: displayed in red.
-  - > 40-70%: display yellow.
-  - > 70-100%: displayed in green.
+  -  40-70%: display yellow.
+  -  70-100%: displayed in green.
 - Admin can choose to hide/ show columns at each statistics table. Clicking on **Hide optional fields**, the popup will show all the information fields in the table along with the checkbox; Any field that is checked will be displayed, unchecked ones will not display statistics.
 
 ![](https://i.imgur.com/SGZfbHL.png)
