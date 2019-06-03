@@ -33,8 +33,8 @@ From the **Admin Panel**, go to `Stores > Configuration > Mageplaza Extensions >
     - *Show on Form = Only has label*: Only when Label is available for Column, will it display Column to Order Form
     - *Show on Form = No*: Do not display Column to Order Form
 - **Skip Manually-added Order Labels**:
-  - If **Yes** is selected, the label has been manually added will not be affected by **Auto-set lables**.
-  - If **No** is selected, manually added labels can still be deleted if the order status is unsatisfies the conditions of **Auto-set lables**.
+  - If **Yes** is selected, the label has been manually added will not be affected by **Auto-set labels**.
+  - If **No** is selected, manually added labels can still be deleted if the order status is unsatisfied the conditions of **Auto-set labels**.
 - **Auto-set Order Labels**: Click **Run** to allow auto-set labels for columns at order grid. 
 
 
@@ -106,7 +106,7 @@ From **Admin Panel**, go to `Stores > Setting > Order Status`
 - From Order Status, admin can easily grasp basic Order Status information such as Status, Status Code, Default Status, Visible on Storefront, Display, Action
 - **Action**:
   - **Unassign**: Unassign Status.
-- Also Admin can Filter, Search Order Status.
+- Also, Admin can Filter, Search Order Status.
 
 #### 4.2. Create New/Edit Order Status
 
@@ -162,7 +162,7 @@ From **Admin Panel**, go to `Sales > Operations > Orders`
 
 ## Frontend
 
-- **Order Label are in the Order list**
+- **Order Label is in the Order list**
 
 ![](https://i.imgur.com/CvbwSiB.png)
 
