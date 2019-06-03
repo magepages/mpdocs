@@ -1,6 +1,6 @@
 # Moneris
 
-Moneris provides online payment services with different card types (debit, credit card, Visa), especially for customers in USA and Canada. [Mageplaza Moneris extension](https://www.mageplaza.com/magento-2-moneris/) will help you integrate this payment gateway with your store. Customers can save and edit credit card information at the first payment to save time at the next purchase. In particular, admin can configure the module to redirect to Moneris payment gateway. Also, Moneris support authorize, capture and 3D secure, AVS Verification. 
+Moneris provides online payment services with different card types (debit, credit card, Visa), especially for customers in the USA and Canada. [Mageplaza Moneris extension](https://www.mageplaza.com/magento-2-moneris/) will help you integrate this payment gateway with your store. Customers can save and edit credit card information at the first payment to save time at the next purchase. In particular, admin can configure the module to redirect to Moneris payment gateway. Also, Moneris support authorizes, capture and 3D secure, AVS Verification. 
 
 Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
 
@@ -22,13 +22,13 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 ![](https://i.imgur.com/740IGON.png)
 
-  - At **Full Profile**, look at **My Testing Credentials**, click to **Request Testing Credentials** then a popup shown require you to fill in your Password and Country to verify your test account. 
+  - At **Full Profile**, look at **My Testing Credentials**, click to **Request Testing Credentials** then a popup shown requires you to fill in your Password and Country to verify your test account. 
  
 ![](https://i.imgur.com/L59DskV.png)
 
 ![](https://i.imgur.com/ROPSK5i.png)
 
-  - At homepage, **Test Credentials** is on the right bar menu. Store ID is at the first line (represented by store icon). The second line is API Token (represented by a key icon). Admin need these two information to configure the module Moneris. 
+  - At homepage, **Test Credentials** is on the right bar menu. Store ID is at the first line (represented by store icon). The second line is API Token (represented by a key icon). Admin needs this two information to configure the module Moneris. 
   
   ![](https://i.imgur.com/EBm20d1.png)
 
@@ -56,15 +56,15 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 ![](https://i.imgur.com/bOjLp5R.png)
 
-  - At **Response/Receipt Field Configuration**, choose **Return the txn_number**. This is a require selection. 
+  - At **Response/Receipt Field Configuration**, choose **Return the txn_number**. This is a required selection. 
  
 ![](https://i.imgur.com/sstsymO.png)
 
-- **Checkout page**: Choose the Moneris Payment method. Fill in the credit card information: Credit Card Number, Expiration Date, Card Verification Number. Here, customers can save the credit cart information for the next payments.
+- **Checkout page**: Choose the Moneris Payment method. Fill in the credit card information: Credit Card Number, Expiration Date, Card Verification Number. Here, customers can save the credit card information for the next payments.
 
 ![](https://i.imgur.com/R8fCX6T.png)
 
-- **Stored Payment Methods**: Here saves the credit card info. Customers can delete the outdate/ no-longer-used credit card.
+- **Stored Payment Methods**: Here saves the credit card info. Customers can delete the outdated/ no-longer-used credit card.
 
 ![](https://i.imgur.com/B6iGiqU.png)
 
@@ -73,11 +73,11 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
  
 ![](https://i.imgur.com/B6iGiqU.png)
 
-- Here is the USA Moneris Checkout Page after beign redirected:
+- Here is the USA Moneris Checkout Page after being redirected:
 
 ![](https://i.imgur.com/c2xEfdd.png)
 
-- Here is the Canada Moneris Checkout Page after beign redirected:
+- Here is the Canada Moneris Checkout Page after being redirected:
 
 ![](https://i.imgur.com/14WrWzW.png)
 
@@ -128,13 +128,13 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Payment
 
 - **Title**: Add the Title of Payment Method, which will be shown at checkout page.
 - **Payment Action**:
-  -  **Authorize and Capture**: Payment is catured right after customers place order successfully. At that time, customers' credit card is used to pay before invoice is created then. 
+  -  **Authorize and Capture**: Payment is captured right after customers place order successfully. At that time, customers' credit card is used to pay before invoice is created then. 
   - **Authorize**: Payments captured only when Invoice is created. 
 - **Card Types**: 
   - You can choose one or several card types to use in payment. 
-  - Cards will be authorized after customers fill in Card ID at checkout. For the unselected cards, there is invalid message shown here. 
+  - Cards will be authorized after customers fill in Card ID at checkout. For the unselected cards, there is an invalid message shown here. 
 - **Allow Customer Credit Vault**: 
-  - Select **Yes**, Credit Card Information will be saved in Customer account and can use it for payemnt right after. 
+  - Select **Yes**, Credit Card Information will be saved in Customer account and can use it for payment right after. 
   - You can tick on the tick box to save the credit card ino. Do not apppy for Not Logged In customers. 
 - **Vault Title**: 
   - Enter an alternate name in the **Vault Title** field. This name will be displayed when customer order is completed and using the previously saved credit card.
@@ -143,10 +143,10 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Payment
   - Select **All Countries** to allow Card payment method available in all countries
   - Select **Specific Countries** to restrict certain countries to use this payment method
     - **Payment from Specific Countries**: Choose the countries that allow this Card payment method
-- **Debug Mode**: If Yes, diagnostic information is stored in log file trên magento web server.
+- **Debug Mode**: If Yes, diagnostic information is stored in log file on Magento web server.
 - **Sort Order**:
   - Specify the display position of this payment method compared to other payment methods
-  - 0 is the largest number. The smaller the number, the more priority will be displayed firstly.
+  - 0 is the largest number. The smaller the number, the more priority the country is displayed first.
 
 
 #### 1.3. Verification and Security
@@ -180,7 +180,7 @@ This section records the Credit Card (Moneris) information that the customer has
 ### 4. Compatible with Instant Purchase
 
 - Customers can use **Instant Purchase** to place orders quickly. 
-- **Note**: **Instant Purchase** only shown when you have saved your payment cards. Also, you should disable **3D Secure** because the card verification was done when customer fill in the payment card information.
+- **Note**: **Instant Purchase** only shown when you have saved your payment cards. Also, you should disable **3D Secure** because the card verification was done when customers fill in the payment card information.
 
 ![](https://i.imgur.com/oL1Ujmt.png)
 
@@ -188,7 +188,7 @@ This section records the Credit Card (Moneris) information that the customer has
 
 ![](https://i.imgur.com/wfD3x1q.png)
 
-- Compatible with [Mageplaza Payment Restriction](https://www.mageplaza.com/magento-2-payment-restriction/): Payment Restriction extension supports hiding/showing Moneris at Frontend followign admin configurations. 
+- Compatible with [Mageplaza Payment Restriction](https://www.mageplaza.com/magento-2-payment-restriction/): Payment Restriction extension supports hiding/showing Moneris at Frontend following admin configurations. 
 
 ![](https://i.imgur.com/kCMzpqE.png)
 
