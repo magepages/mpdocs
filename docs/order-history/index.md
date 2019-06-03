@@ -16,7 +16,7 @@ From Admin Panel, go to `Stores > Settings > Configuration> Mageplaza Extensions
 
 ![](https://i.imgur.com/Hi1lM8P.png)
 
-### 1.Configuration
+### 1. Configuration
 
 From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extensions > Order History`, select **General**
 
