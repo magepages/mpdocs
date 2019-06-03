@@ -30,13 +30,14 @@ From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extens
 - **Show Related Orders History on Product Edit Page**: Select **Yes** to display the **Order History** tab which show s order data by product on **Product Details Page**.
 
 ### 2. Orders tab on Customer Details Page
+
 From the Admin Panel, go to `Customers > All Customers > Edit Customers> Order`
 
 ![](https://i.imgur.com/Tu6EoK7.png)
 
 - Here shown **sucessfully ordered products**.  
 - From the table, admin can capture the following information: **ID, Purchase Point, Purchase Date, Bill-to Name, Ship-to Name, Grand Total (Purchased), Status, Action, Item Detail (Name, SKU, Qty, Item Status)**.
-- In addition, admin can also filter, export table information to the machine in two forms, CSV and Excel XML.
+- In addition, admin can also **filter, export** order data in two forms, **CSV and Excel XML**.
 - Below is the information exported from the grid:
 
 ![](https://i.imgur.com/ghdi42M.png)
@@ -48,9 +49,9 @@ From the Admin Panel, go to `Customers > All Customers > Edit Customers > Ordere
 ![](https://i.imgur.com/oAlL7IR.png)
 
 - Here shown the **purchased products information**. Admin can save and export these data. 
-- From the table, admin can capture the following information: Order ID, Order Status, Product Name, Product SKU, Qty, Discount, Item Status, Order Total.
-- When you click on the product, go to the product details page.
-- In addition, admin can Sort, Filter, Search, Export table information to the machine in two forms of CSV, Excel XML.
+- From the grid, admin can capture the following information: **Order ID, Order Status, Product Name, Product SKU, Qty, Discount, Item Status, Order Total**.
+- When you click on any product, you will be redirected to the product details page.
+- In addition, admin can **Sort, Filter, Search, Export** order data in two forms, **CSV and Excel XML**.
 - The exported data is shown below:
 
 ![](https://i.imgur.com/gaqEWO5.png)
@@ -61,11 +62,11 @@ From the Admin Panel, go to `Catalog > Products > Product Edit > Related Orders 
 
 ![](https://i.imgur.com/y0VyUqg.png)
 
-- This is where order statistics are based on products.
-- From the table, the admin can capture the following information: ID, Status, Purchase Point, Purchase Date, Customer Name, Customer Email, Original Price, Order Price, Qty, Grand Total (Purchased), Action.
+- Here saved the **orders by products**
+- From the table, the admin can capture the following information: **ID, Status, Purchase Point, Purchase Date, Customer Name, Customer Email, Original Price, Order Price, Qty, Grand Total (Purchased), Action**.
 - **Action**:
-  - **View**: Displays the order information of that product of the customer.
-  - In addition, admin can **Sort, Filter, Search, Export** table information to the machine in two forms of CSV, Excel XML.
+  - **View**: Displays the detailed order information of the customer.
+  - In addition, admin can **Sort, Filter, Search, Export** order data in two forms, **CSV and Excel XML**
 - The exported data is shown below:
 
 ![](https://i.imgur.com/atJOGvQ.png)
