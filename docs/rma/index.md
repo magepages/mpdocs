@@ -137,7 +137,7 @@ Admin can create request at backend.
 - **Attach File(s)**: Click **Browse** to download the file for request.
 - **Order Information**:
   - **Order Increment ID**: Admin chooses to order RMA request.
-  - **Select**: Admin click to the button, order grid will be shown. Here, admin choose order to make new RMA request. 
+  - **Select**: Admin click to **Select**, order grid will be shown. Here, admin choose order to make new RMA request. 
 
 ![](https://i.imgur.com/xm2AVvk.png)
 
