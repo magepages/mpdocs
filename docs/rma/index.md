@@ -143,7 +143,7 @@ Admin can create request at backend.
 
 - **Load**: After choosing order and filling the order Increment ID, please click the button **Load** to allow showing order information
 
-![](https://i.imgur.com/3F684lJ.png)
+![](https://i.imgur.com/ghsgivy.png)
 
 - At **RMA Information**, you can click to checkbox at select column to create new RMA request for the corresponding product.
 
