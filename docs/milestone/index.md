@@ -2,7 +2,7 @@
 
 ## Overview
 
-In order to manage customers more easily, Mageplaza developed the [Milestone](https://www.mageplaza.com/magento-2-milestone/) extension. This module can be configures to automatically change the Customer Group based on rules. In addition, it support sending email notification to customer when changing Group and email notification include changes log sent to admin. You should install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box and it is fully compatible with the Milestone extension.
+To manage customers more efficiently, Mageplaza developed the [Milestone](https://www.mageplaza.com/magento-2-milestone/) extension. This module can be configured to change the Customer Group based on rules automatically. Also, it supports sending email notification to customer when changing Group and email notification includes changes log sent to admin. You should install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box and it is fully compatible with the Milestone extension.
 
 ## How to download and install
 
@@ -46,7 +46,7 @@ From the Admin Panel, go to `Customers > Milestone > Configuration`, select Gene
 - **Show Group**: Select **Yes** to display the **Group name** at the **Customer Dashboard** in Frontend.
 - **Schedule For Cron**: Applied for Processing Type as Cron. Set schedule to automatically switch customer groups on a frequent basis as daily, weekly or monthly:
   - **Daily**: Email automatically every day.
-  - **Weekly**:Automatically send email every week.
+  - **Weekly**: Automatically send email every week.
   - **Monthly**: Automatically send email every month.
   - **Disable**: Turn off the schedule to send email.
 - **Start Time**: Set the start time email will be sent.
@@ -96,7 +96,7 @@ From the Admin Panel, go to `Customers > Milestone > Configuration`, select Admi
   
 - **Schedule For**: Set a schedule for email to be sent automatically. Options included:
   - **Daily**: Email automatically every day.
-  - **Weekly**:Automatically send email every week.
+  - **Weekly**: Automatically send email every week.
   - **Monthly**: Automatically send email every month.
   - **Disable**: Turn off the schedule to send email.
 - **Start Time**: Set the start time email will be sent.
@@ -108,9 +108,9 @@ From the Admin Panel, go to `Customers > Milestone > Manage Rules`
 
 ![](https://i.imgur.com/voxnMDX.png)
 
-- Rules of changing customer group is displayed here.
+- Rules of changing customer group are displayed here.
 - From **Manage Rules**, admin can view basic information such as ID, Name, Status, Website, Original Group, Destined Group, Priority, From Date, To Date, Action.
-- **Apply Rule**: Apply all the rules to customer to change the their Group when meeting the conditions.
+- **Apply Rule**: Apply all the rules to customer to change their Group when meeting the conditions.
 - **Action**:
   - **Delete**: Delete the information in the **Manage Rule** page.
   - **Change Status**: Change the status of the selected rules.
