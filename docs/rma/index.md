@@ -45,7 +45,7 @@ Admin can also access `Stores > Configuration >  Mageplaza > RMA` to configure t
 - **Display RMA Link at**: Select the position of RMA link display.
   - *Note*:
     - If customers logged in, the link leads to the request management page.
-    - If cystomers not logged in, the link leads to the **filter order** page to submit the request. If **Enable RMA for Guest = No**, hide this link.
+    - If customer not logged in, the link leads to the **filter order** page to submit the request. If **Enable RMA for Guest = No**, hide this link.
 - **RMA Policy Page**: Select the page to display RMA policy.
 
 ![](https://i.imgur.com/7LGAnNG.png)
@@ -57,7 +57,7 @@ Admin can also access `Stores > Configuration >  Mageplaza > RMA` to configure t
 
 ![](https://i.imgur.com/8RUI738.png)
 
-Admin select the ID increment type for RMA
+Admin selects the ID increment type for RMA
 - **Only ID**: Only display ID and does not show prefixes or suffixes.
 - **Custom**: Display ID with prefix and suffix
 
@@ -68,7 +68,7 @@ Admin select the ID increment type for RMA
 ![](https://i.imgur.com/fvKdHCB.png)
 
 - **Allow RMA for Each Item of An Order**: Select **Yes** to create RMA for each item in the order.
-- **AAllow Uploading Attachments**: Select **Yes** to allow attachments fro RMA request.
+- **Allow Uploading Attachments**: Select **Yes** to allow attachments for RMA request.
 - **Allow Attachment File Extensions**: Show the file format allowed 
 - **Google Recaptcha**: choose **Yes** to allow request compatible with [Google Recaptcha extension](https://www.mageplaza.com/magento-2-google-recaptcha/)
 - **Default Request Status**: Select the default status when customer has just submitted the request.
@@ -80,7 +80,7 @@ Admin select the ID increment type for RMA
   - *Note*:
     - This is a required field, the system will report an error if you leave it blank.
     - Default Name only displays Admin reply under Name = Default Name.
-- **Order Condition**: Admin select the order condition for applying. If left blank, the conditions for all orders apply.
+- **Order Condition**: Admin selects the order condition for applying. If left blank, the conditions for all orders apply.
 - **RMA Information**:
   - **Reason**: Admin creates reason for RMA. You can make multiple reasons.
   - **Solution**: Admin creates solution for RMA. You can make multiple solution.
@@ -89,7 +89,7 @@ Admin select the ID increment type for RMA
     - Type: Choose field type.
     - Is require: Click to checkbox if you want that field is required
     - Validation Class: Add the validation class for the field
-      - For example: Inserting `Validation Class = validate-email`means that the value filling in this field must be email. Error message will be shown if filling the wrong value.
+      - For example: Inserting `Validation Class = validate-email` means that the value filling in this field must be email. An error message will be shown if filling the wrong value.
     - Sort Order: Select the priority for the field. The smaller the sort order is, the higher priority it has.
 
   ![](https://i.imgur.com/ZKTRVjV.png)
@@ -148,7 +148,7 @@ Admin can create request at backend.
 - At **RMA Information**, you can click to checkbox at select column to create new RMA request for the corresponding product.
 
 - **Customer Email**: Customer's email will be automatically displayed when the admin selects the order.
-- **Store View**: When Admin select order, thí fielf will automatically display storeview which order is created there.
+- **Store View**: When Admin select order, this field will automatically display storeview which order is created there.
 - **RMA Information**:
 - In the **Select column**, click the checkbox in which admin wants to RMA request that product.
 - **Quantity Returned**: Admin changes the number of products.
@@ -185,7 +185,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 - The conversation between admin and customer will be displayed in this area. We use colors to distinguish messages.
   - *Note*:
-    - Orange is admin's private message. The customer cannot view this message.
+    - Orange is admin' s private message. The customer cannot view this message.
     - Dark blue is the message sent by the admin to the admin
     - Light blue is the information that the admin sends to guests and customers can view it at the frontend. With news of a mail icon, the message will be sent to the email to the customer.
     
@@ -210,7 +210,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 - **Status Name**: Name the status.
 - Select **Active = Yes**: Allow the status to be enabled
-- **Description**: Write Description fstatus.
+- **Description**: Write Description for status.
 - **Select Allowed Action**:
   - **Create New Credit Memo**: Enables new credit created at the edit RMA Request page.
   - **Reorder**: Enables reordering at the edit RMA Request page.
