@@ -2,7 +2,7 @@
 
 
 ## Overview
-[Mageplaza Custom Form](https://www.mageplaza.com/magento-2-custom-form/) allows the admin to create multiple custom forms with different field types to collect customer information and feedbacks. **Custom Form** can be shown anywhere in the store. For each **Custom Form** submitted by customers, admin can manage and make statistics effectively. Thereby can capture customer trends and contribute to the increase of store revenue significantly. 
+[Mageplaza Custom Form](https://www.mageplaza.com/magento-2-custom-form/) allows the admin to create multiple custom forms with different field types to collect customer information and feedbacks. **Custom Form** can be shown anywhere in the store. For each **Custom Form** submitted by customers, admin can manage and make statistics effectively. Thereby can capture customer trends and contribute to the increase in store revenue significantly. 
 
 ## How to download and install
 
@@ -20,7 +20,7 @@ Customer can submit any form shown in Frontend.
 ### 2. Admin
 - Admin can create multiple Custom Forms
 - Admin can also set Custom Form displayed anywhere
-- Report the customers responses via form results
+- Report the customers' responses via form results
 - Turn on/ off the email notifications for admin or customer
 
 
@@ -44,7 +44,7 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 ![](https://i.imgur.com/FgSPhz2.png)
 
 - **Enable Auto Response**:
-  - Select **Yes** to automatically send the email of successful submission to Customer. Do not apply to **Not Logged in Customer**
+  - Select **Yes** to automatically send the email of a successful submission to Customer. Do not apply to **Not Logged in Customer**
 - **Email Sender**: There are 5 default types of Magento Sender for Admin to choose: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**
 - **Email Template**:
   - This module has a default Email notification template for Customer
@@ -105,7 +105,7 @@ This grid stores all the submitted Forms
 - **Name**: Enter the form name. This is a required field.
 - **Status**: Select **Enable** to activate the form
 - **Store View(s)**:
-  - Select store view. The form is only displayed in the selected Store View
+  - Select storeview. The form is only displayed in the selected Store View
   - Many store views can be selected at the same time.
 - **Customer Group(s)**: Select one or more customer groups at the same time to use the form. Unselected customer groups will not see the form at Frontend.
 - **Valid from date**: Click the calendar icon to select the date/month/year. The form will start showing up at Frontend from the date/ month/year you selected.
@@ -190,7 +190,7 @@ See the instruction video here:
   
 ##### 2.2.5. Responses Summary
 - Only show response when at least one Customer successfully submitted this form
-- Report of the number of times each field is filled in the Form
+- Report on the number of times each field is filled in the Form
 - For option fields, ít responses will be displayed as Chart
 
 
