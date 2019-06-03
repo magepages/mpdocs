@@ -19,7 +19,7 @@ Normally, customers access to your store to see your product but they cannot buy
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Save Cart And Buy Later > General Configuration`
 
-![](https://i.imgur.com/X6OBWMc.png)
+![](https://i.imgur.com/70MP05O.png)
 
 
 - **Enable**: Select **Yes** to turn on the module
@@ -32,6 +32,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Sav
   - Select **Yes** to allow customers to copy this link and share **Buy Later Cart** to others.
   - When customer accesses the link shared, Cart/ Product saved at the link will be automatically added to the new cart
   - Otherwise, select **No**.
+- **Upload Buy Later Product Icon**: This feature allows you to select icon to replace for "Buy Product Later" phrase when your website is at "Responsive" or "Mobile mode"
+
+![](https://i.imgur.com/nmS08VM.png)
 
 ### 2. Edit Customer Form
 
