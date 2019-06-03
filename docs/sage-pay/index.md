@@ -16,7 +16,7 @@ Your customers can use all debit cards, credit cards, Visa, etc. And also be pro
 
 ## How to use
 
-### Registration Account on Sage Pay:
+### Register Account on Sage Pay:
 
 To register for a Sage Pay account, visit [this link](https://applications.sagepay.com/apply).
 
