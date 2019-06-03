@@ -61,14 +61,15 @@ Admin select the ID increment type for RMA
 - **Only ID**: Only display ID and does not show prefixes or suffixes.
 - **Custom**: Display ID with prefix and suffix
 
-![](https://i.imgur.com/n0M7Xqm.png)
+![](https://i.imgur.com/Q6KzN5C.png)
 
 ### 2. Request Configuration
 
-![](https://i.imgur.com/dsmuTYJ.png)
+![](https://i.imgur.com/fvKdHCB.png)
 
 - **Allow RMA for Each Item of An Order**: Select **Yes** to create RMA for each item in the order.
 - **AAllow Uploading Attachments**: Select **Yes** to allow attachments fro RMA request.
+- **Allow Attachment File Extensions**: Show the file format allowed 
 - **Google Recaptcha**: choose **Yes** to allow request compatible with [Google Recaptcha extension](https://www.mageplaza.com/magento-2-google-recaptcha/)
 - **Default Request Status**: Select the default status when customer has just submitted the request.
 - **Customer can Cancel Request in Status**: Select status in which allow customer to cancel the request.
@@ -84,7 +85,13 @@ Admin select the ID increment type for RMA
   - **Reason**: Admin creates reason for RMA. You can make multiple reasons.
   - **Solution**: Admin creates solution for RMA. You can make multiple solution.
   - **Additional Field**: Admin creates additional fields for RMA. You can make multiple additional fields. 
-  
+    - Title: Set name for the new field
+    - Type: Choose field type.
+    - Is require: Click to checkbox if you want that field is required
+    - Validation Class: Add the validation class for the field
+      - For example: Inserting `Validation Class = validate-email`means that the value filling in this field must be email. Error message will be shown if filling the wrong value.
+    - Sort Order: Select the priority for the field. The smaller the sort order is, the higher priority it has.
+
   ![](https://i.imgur.com/ZKTRVjV.png)
   
 ### 3. Email Configuration
@@ -123,13 +130,23 @@ Admin select the ID increment type for RMA
 
 Admin can create request at backend.
 
-![](https://i.imgur.com/cUcbp2r.png)
+![](https://i.imgur.com/gztOgyg.png)
 
-- **RMA Status**: Admin select status to apply for RMA request.
+- **Status RMA**: Admin select status to apply for RMA request.
 - **Comment**: Admin enter the message for RMA request.
 - **Attach File(s)**: Click **Browse** to download the file for request.
 - **Order Information**:
   - **Order Increment ID**: Admin chooses to order RMA request.
+  - **Select**: Admin click to the button, order grid will be shown. Here, admin choose order to make new RMA request. 
+
+![](https://i.imgur.com/xm2AVvk.png)
+
+- **Load**: After choosing order and filling the order Increment ID, please click the button **Load** to allow showing order information
+
+![](https://i.imgur.com/3F684lJ.png)
+
+- At **RMA Information**, you can click to checkbox at select column to create new RMA request for the corresponding product.
+
 - **Customer Email**: Customer's email will be automatically displayed when the admin selects the order.
 - **Store View**: When Admin select order, thí fielf will automatically display storeview which order is created there.
 - **RMA Information**:
@@ -143,7 +160,7 @@ Admin can create request at backend.
 
 To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **Save and Continue Edit** when **creating RMA Request**.
 
-![](https://i.imgur.com/ZyUI3Vg.png)
+![](https://i.imgur.com/tk9wOEZ.png)
    
 - Here, RMA Request displays additional **Return Shipping Label** and **Conversation**.
 - **Return Shipping Label**: Admin select shipping label for return request.
@@ -347,7 +364,7 @@ At Find Order By, in addition to entering Email, customers can enter and enter t
 
 - **Print Shipping Label**
 
-![](https://i.imgur.com/0JBIUqZ.png)
+![](https://i.imgur.com/CaF7l8B.png)
 
 ## VII. Email
 
