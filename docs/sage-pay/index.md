@@ -130,3 +130,16 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 - **Note**: For rules that can be configured when accessing MySagePay: `Settings > 3D Secure > click Add rule`, then select the condition where you want to apply the rule to verify.
 
 ![Imgur](https://i.imgur.com/CCLG53P.png)
+
+- AVS/CV2 Setting: Choose the AVS/CV2 Verification for payment address of customers. cho địa chỉ thanh toán của khách hàng:
+- Use default MySagePay settings: Use AVS/CV2 verification for payment address as SagePay default setting. 
+- Apply authentication even if turned off: Use AVS/CV2 verification for payment address even if it is turned off. Access to **MySagePay** to set up.  
+
+![Imgur](https://i.imgur.com/ZDjkPrW.png)
+
+- Disable authentication and rules: Disable AVS/CV2 authentication for payment info and rules configured in Sage Pay.
+- Apply authentication but ignore rules: Sử dụng xác minh AVS/CV2 cho địa chỉ thanh toán của khách hàng nhưng bỏ qua các rules.
+- Note: Đối với rules có thể cấu hình khi truy cập vào trang MySagePay: Settings > AVS/CV2 > click Add rule, sau chọn điều kiện mà bạn muốn áp dụng rule để xác minh.
+
+![Imgur](https://i.imgur.com/rB40awC.png)
+
