@@ -47,7 +47,8 @@ From the Admin Panel, go to `Customers > All Customers > Edit Customers > Buy La
   - In the **Action** column, admin can delete any Saved Cart.
 - In **Saved Products Grid**, customers can capture all basic information about Saved Products such as **Image, Name, SKU, Amount Change, Quantity, Action**.
   - In the **Action** column, admin can delete any Saved Product.
-
+  
+![](https://i.imgur.com/sAkOGnF.png)
 
 ## Frontend
 
@@ -78,7 +79,7 @@ When clicking **Save**, you will be redirected to the **Buy Later Notes** page a
 
 ### 3. Buy Later Notes Tab
 
-![](https://i.imgur.com/nzwzlmp.png)
+![](https://i.imgur.com/qXXnbNZ.png)
 
 #### 3.1. Saved Carts
 
@@ -101,7 +102,7 @@ When clicking **Save**, you will be redirected to the **Buy Later Notes** page a
 
 #### 3.3. Saved Products
 
-![](https://i.imgur.com/iEjEygp.png)
+![](https://i.imgur.com/LwbrGTE.png)
 
 - From **Buy Later Products** tab, customers can capture all the basic information of Buy Later Products like: **Product Name, SKU, Image, Price, Quantity, Subtotal, Action**.
 - In the Action column, customers can perform Actions: Share, Restore, Delete.
