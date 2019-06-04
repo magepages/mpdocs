@@ -81,9 +81,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
   * `Show Affiliate link on = Footer Link`: Display the Affiliate link in the bottom of the page
   
-  * `Show Affiliate link on = Top Link`: Display the Affiliate link in the top of the page along with the display of the link
-  
-* **My Account**
+  * `Show Affiliate link on = Top Link`: Display the Affiliate link in the top of the page along with the link **My Account**
 
   * You can choose to display in both positions
   
@@ -661,6 +659,8 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 7.2 Notification emails for Affiliate account aproval
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/BuHof4t.png
 
 7.3 Notification emails for changing the Afiliate account balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
