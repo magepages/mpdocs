@@ -40,6 +40,7 @@ Welcome to Mageplaza Docs
    seo-ultimate/index
    reports/index
    reports-pro/index
+   reports-ultimate/index
    product-feed/index
    abandoned-cart-email/index
    age-verification/index
@@ -48,12 +49,14 @@ Welcome to Mageplaza Docs
    better-coupon/index
    better-popup/index
    better-change-qty/index
+   better-order-grid/index
    better-product-reviews/index
    better-sorting/index
    better-wishlist/index
    blog-m2/index
    call-for-price/index
    catalog-permissions/index
+   configurable-product-preselect/index
    countdown-timer/index
    custom-order-number/index
    customer-attributes/index
@@ -84,11 +87,14 @@ Welcome to Mageplaza Docs
    mass-order-actions/index
    mass-product-actions/index
    membership/index
+   milestone/index
+   moneris/index
    multi-flat-rates/index
    multiple-coupons/index
    order-archive/index
    order-attributes/index
    order-export/index
+   order-labels/index
    payment-restriction/index
    product-attachments/index
    product-labels/index
@@ -112,6 +118,7 @@ Welcome to Mageplaza Docs
    store-locator/index
    store-switcher/index
    store-credit/index
+   stripe/index
    thank-you-page/index
    twitter-widget/index
    who-bought-this-also-bought/index
