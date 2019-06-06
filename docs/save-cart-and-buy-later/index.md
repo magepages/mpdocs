@@ -19,18 +19,17 @@ Normally, customers access to your store to see your product but they cannot buy
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Save Cart And Buy Later > General Configuration`
 
-![](https://i.imgur.com/70MP05O.png)
+![](https://i.imgur.com/qZT0tRm.png)
 
 
 - **Enable**: Select **Yes** to turn on the module
 - **Button Title**: Set a title for the button which the customer will click to use this feature. Leaving this field blank will receive the default value which is **Save Cart**.
-- **Show Button for Guest**: Guest will be asked to login so that they can save their cart. 
+- **Show Button for Guest**: By clicking to this button, Guest customers will be asked to login so that they can save their cart. 
   - Select **Yes** to allow this button to be shown for Guest.
   - Otherwise, select **No**.
 - **Show Buy Later Cart Page Link**: Select the position to display the link to **Buy Later Cart**. There are 2 positions that are **Top Link** and **Footer Link**.
 - **Allow Sharing**:
-  - Select **Yes** to allow customers to copy this link and share **Buy Later Cart** to others.
-  - When customer accesses the link shared, Cart/ Product saved at the link will be automatically added to the new cart
+  - Select **Yes** to allow customers to copy this link and share **Buy Later Cart** to others. When customer accesses the link shared, Cart/ Product saved at the link will be automatically added to the new cart
   - Otherwise, select **No**.
 - **Upload Buy Later Product Icon**: This feature allows you to select icon to replace for "Buy Product Later" phrase when your website is at "Responsive" or "Mobile mode"
 
@@ -79,16 +78,16 @@ When clicking **Save**, you will be redirected to the **Buy Later Notes** page a
 
 ### 3. Buy Later Notes Tab
 
-![](https://i.imgur.com/qXXnbNZ.png)
+![](https://i.imgur.com/EVG1MrY.png)
 
 #### 3.1. Saved Carts
 
 - From **Saved Carts** tab, customers can capture all Saved Carts basic information such as **Cart ID, Date, Cart’s Name, Cart Total, Item (s), Description, Action**.
 - In the **Action** column, customers can perform actions such as View, Share, Restore, Delete.
-  - **View**: Customers can view details of **Buy Later Cart**.
-  - **Share**: Customers can copy the link and share **Buy Later Cart** for another person.
-  - **Restore**: Customers will transfer all Items in Saved Cart to the current Shopping Cart.
-  - **Delete**: Customers can delete Cart.
+  - **Action View**: Customers can view details of **Buy Later Cart**.
+  - **Action Copy Link**: Customers can copy the link and share **Buy Later Cart** for another person.
+  - **Action Restore**: Customers will transfer all Items in Saved Cart to the current Shopping Cart.
+  - **Action Delete**: Customers can delete Cart.
 
 
 #### 3.2. View Buy Later Carts
@@ -102,10 +101,10 @@ When clicking **Save**, you will be redirected to the **Buy Later Notes** page a
 
 #### 3.3. Saved Products
 
-![](https://i.imgur.com/LwbrGTE.png)
+![](https://i.imgur.com/bm6mceS.png)
 
 - From **Buy Later Products** tab, customers can capture all the basic information of Buy Later Products like: **Product Name, SKU, Image, Price, Quantity, Subtotal, Action**.
 - In the Action column, customers can perform Actions: Share, Restore, Delete.
-  - **Share**: Customers can copy the link and share this Saved Product to another person.
-  - **Restore**: Customers will transfer Items in the Saved Products to the current Shopping Cart.
-  - **Action**: Customers can delete this Saved Product.
+  - **Action Copy Link**: Customers can copy the link and share this Saved Product to another person.
+  - **Action Restore**: Customers will transfer Items in the Saved Products to the current Shopping Cart.
+  - **Action Delete**: Customers can delete this Saved Product.
