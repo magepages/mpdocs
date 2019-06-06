@@ -156,7 +156,7 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 ![Imgur](https://i.imgur.com/8ctfkdH.png)
 
 - **Enable**: Select **Yes** to use **Sage Pay Direct/ PI Integration**.
-- **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
+- **Title**: Enter the title of the method which is displayed on the checkout page.
 - **New Order Status**: Select status when customer order successfully:
   - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
   - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to Processing.
@@ -174,4 +174,87 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 - **Display Checkout**: choose the display type of Sage Pay Payment on checkout page:
   - **Magento Default**: Displays payment by Sage Pay by default of magento
   ![Imgur](https://i.imgur.com/KN2CFSD.png)
-  - **Drop-in Checkout**: 
+  - **Drop-in Checkout**: Show Sage Pay methods at checkout as Drop-in Checkout type. Choosing this type show the additional field:
+    - **Use Pop-up**:
+      - Choose **Yes** showing SagePay methods in Popup form
+      
+      ![Imgur](https://i.imgur.com/JFQg1Pf.png)
+      
+      - Choose **No**, showing SagePay methods in Inline form
+      
+      ![Imgur](https://i.imgur.com/wuopgIP.png)
+      
+- **Allow Customer Credit Vault**: 
+  - If you select **Yes**, information about the credit card will be saved to the customer account and you can use it for payment instantly. If you want to save the card with your account, please contact Sage Pay.
+  - Displays the checkbox to check whether you want to save or not. Not applicable for **Not Log In** account.
+- **Vault Title**:
+  - Enter an alternate name in the **Vault Title** field. This name will be displayed when customer order is completed and using the previously saved credit card.
+ 
+ ![Imgur](https://i.imgur.com/ROkQ8gP.png)
+ 
+  - If left blank the default name will be used.
+- **Payment from Applicable Countries**:
+  - Select **All Countries** to allow Card payment available in all countries
+  - Select **Specific Countries** to limit certain countries to use this payment method
+    - **Payment from Specific Countries**: the Card payment method will be shown only in the selected countries.
+- **Sort Order**:
+  - Specify the display position of this payment method compared to other payment methods
+  - 0 is the highest number. The smaller the number, the more priority the method is displayed first.
+  
+  
+#### 1.3. Sage Pay Form Integration
+
+![Imgur](https://i.imgur.com/nSoedWQ.png)
+
+- **Enable**: Select **Yes** to enable this payment function and redirect to the payment page of **Sage Pay Form Integration**.
+- **Title**: Enter the title of the payment method which is displayed on the **Sage Pay Form Integration** page.
+- **New Order Status**: Select status when customer order successfully:
+  - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
+  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to Processing.
+- **Payment Action**:
+  - **Authorize and Capture**: Payment will be captured immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
+  - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
+- **Payment from Applicable Countries**:
+  - Select **All Countries** to allow Card payment available in all countries
+  - Select **Specific Countries** to limit certain countries to use this payment method
+    - **Payment from Specific Countries**: the Card payment method will be shown only in the selected countries.
+- **Confirmation Email**: Select the Confirmation Email sent to:
+  - **Send to both admins and customers**: Will send Confirmation Email to both customer and admin when customers pay via Sage Pay Form Integration page
+  - **Not sending to anyone**: do not send Email Confirmation when customer pays via Sage Pay From Integration
+  - **Send to admins only**: send Confirmation Email to admin only when customer pays via Sage Pay Form Integration. 
+- **Admin Email**:
+  - Enter the admin email receiver to send the confirmation email to them when customers pay via Sage Pay.
+  - Allow multiple emails to send at once and they must be separated by comma (,).
+- **Sort Order**:
+  - Specify the display position of this **Sage Pay Form Integration** compared to other payment methods
+  - 0 is the highest number. The smaller the number, the more priority the method is displayed first.
+ 
+#### 1.4 Sage Pay Server Integration
+
+![Imgur](https://i.imgur.com/GtjI5Jx.png)
+
+- **Enable**: Select **Yes** to enable this payment function and redirect to the payment page of **Sage Pay Server Integration**.
+- **Title**: Enter the title of the payment method which is displayed on the **Sage Pay Server Integration** page.
+- **New Order Status**: Select status when customer order successfully:
+  - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
+  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to Processing.
+- **Payment Action**:
+  - **Authorize and Capture**: Payment will be captured immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
+  - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
+- **Profile**: Select the payment type of Sage Pay, click on **Place Order** will show popup with 2 types:
+  - **Low**: redirect to simple payment pages with only one step and minimal format which is designed to run in iframe.
+  
+  ![Imgur](https://i.imgur.com/ZhQOsuf.png)
+
+  - **Normal**: Displays the normal card selection page
+  
+  ![Imgur](https://i.imgur.com/I9dq84O.png)
+  
+- **Payment from Applicable Countries**:
+  - Select **All Countries** to allow Sage Pay Server Integration available in all countries
+  - Select **Specific Countries** to limit certain countries to use this payment method
+    - **Payment from Specific Countries**: the **Sage Pay Server Integration** method will be shown only in the selected countries.
+- **Sort Order**:
+  - Specify the display position of **Sage Pay Server Integration** method compared to other payment methods
+  - 0 is the highest number. The smaller the number, the more priority the method is displayed first.
+
