@@ -2,7 +2,7 @@
 
 ## Overview
 
-Sage Pay is Europe's leading independent payment service provider (PSP) and is one of the most trusted payment brands. [Mageplaza Sage pay extension](https://www.mageplaza.com/magento-2-sage-pay/) will help you integrate this payment gateway with your store. Sage Pay supports online payment via card and customers can save credit card information at the first payment to save time at the next purchase. Also, customer can manage saved credit card information and delete card information at any time. In particular, the admin will be able to create backend order with Sage Pay.
+Sage Pay is Europe's leading independent payment service provider (PSP) and is one of the most trusted payment brands. [Mageplaza Sage Pay extension](https://www.mageplaza.com/magento-2-sage-pay/) will help you integrate this payment gateway with your store. Sage Pay supports online payment via card and customers can save credit card information at the first payment to save time at the next purchase. Also, customer can manage saved credit card information and delete card information at any time. In particular, the admin will be able to create backend order with Sage Pay.
 
 Your customers can use all debit cards, credit cards, Visa, etc. And also be producted by authorizes, capture and 3D secure as well as AVS/CV2. Store can choose to redirect customer to Sage Pay Payment page or process all the purchase right on your checkout page. 
 
@@ -31,7 +31,7 @@ To register for a Sage Pay account, visit [this link](https://applications.sagep
 
 ![Imgur](https://i.imgur.com/xGIfN2f.png)
 
-![Imgur](https://i.imgur.com/ViKIClN.png)
+![Imgur](https://i.imgur.com/YeqxkZZ.png)
 
 - **Checkout page**: choose the payment method with Sage Pay. Enter credit card information including: **Credit Card Number, Expiration Date, Card Verification Number**. Here the customer can save credit card information for subsequent payments. Support 3 Sage Pay payment methods inlcuding **Sage Pay Direct/PI Intergration, Sage Pay Form Intergration, Sage Pay Server Intergration**.
 
@@ -97,7 +97,7 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 
 ##### 1.1.2. Security and Feature
 
-![Imgur](https://i.imgur.com/OWAyLrR.png)
+![Imgur](https://i.imgur.com/DcSrOTK.png)
 
 - **3D Secure Setting**: Select the authentication type with 3D Secure to verify the card of Customer:
   - **Use default MySagePay settings**: Use 3d Secure by installing my Sagepay by default to verify Customer's card, thereby preventing payment fraud
