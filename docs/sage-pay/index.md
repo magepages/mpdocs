@@ -153,7 +153,7 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 
 ![Imgur](https://i.imgur.com/io57jgC.png)
 
-![Imgur](https://i.imgur.com/8ctfkdH.png)
+![Imgur](https://i.imgur.com/1OvSYvt.png)
 
 - **Enable**: Select **Yes** to use **Sage Pay Direct/ PI Integration**.
 - **Title**: Enter the title of the method which is displayed on the checkout page.
