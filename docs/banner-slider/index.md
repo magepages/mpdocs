@@ -211,7 +211,7 @@ To create a widget, you need to perform the following steps:
 - Step 1: From the Admin panel, go to `Content > Elements > Widgets`, choose `Add Widget`
 - Step 2: `Settings > Type =Banner Slider widget`, `Design Theme = Magento Luma`. Click `Continue` button to move the next step
 
-![](https://i.imgur.com/88OMQCC.png)
+![](https://i.imgur.com/6hGumOr.png)
 
 - Step 3: Enter the required information in the Storefront Properties
 
