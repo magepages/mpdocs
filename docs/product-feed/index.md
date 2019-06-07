@@ -134,6 +134,24 @@ Click on the `View Logs`, it will redirect the email recipients to the Feed Logs
 
 ![](https://i.imgur.com/NgwNooY.png)
 
+
+## How to Run Command to Generate Feed
+
+To generate one or more feed quickly, you can run the following command line:
+
+```
+php bin/magento mp-productfeed:generate {id}
+```
+- In which: `{id}` is the Feed ID. If you do not fill Feed ID, all the feed will be generated. 
+
+- Exmaple: Generate some feed that you want, running the command:
+
+```
+php bin/magento mp-productfeed:generate 1 3 4
+```
+
+
+
 ``Note``:
 * After installing the extension, you need to download Liquid by running the command `bin/magento composer require liquid/liquid`or need to install the library
 * When the extension is enabled, Manage Feed and Logs will be displayed
