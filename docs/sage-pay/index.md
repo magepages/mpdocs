@@ -2,9 +2,9 @@
 
 ## Overview
 
-Sage Pay is Europe's leading independent payment service provider (PSP) and is one of the most trusted payment brands. [Mageplaza Sage Pay extension](https://www.mageplaza.com/magento-2-sage-pay/) will help you integrate this payment gateway with your store. Sage Pay supports online payment via card and customers can save credit card information at the first payment to save time at the next purchase. Also, customer can manage saved credit card information and delete card information at any time. In particular, the admin will be able to create backend order with Sage Pay.
+Sage Pay is the leading payment service provider (PSP) in Europe. [Mageplaza Sage Pay extension](https://www.mageplaza.com/magento-2-sage-pay/) will help you integrate this payment gateway with your store. Sage Pay supports online payment via card and customers can save credit card information at the first payment to save time at the next purchase. Also, customers can manage saved credit card information and delete card information at any time. In particular, the admin will be able to create backend order with Sage Pay.
 
-Your customers can use all debit cards, credit cards, Visa, etc. And also be producted by authorizes, capture and 3D secure as well as AVS/CV2. Store can choose to redirect customer to Sage Pay Payment page or process all the purchase right on your checkout page. 
+Your customers can use all debit cards, credit cards, Visa, etc. And also be protected by authorizes, capture and 3D secure as well as AVS/CV2. Stores can choose to redirect customers to Sage Pay Payment page or process all the purchase right on your checkout page. 
 
 **Mageplaza Sage Pay** is fully compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and Instant Purchase and [Reports](https://www.mageplaza.com/magento-2-reports-extension/) which helps customers to order, make reports on the sales quickly and conveniently.
 
@@ -26,18 +26,18 @@ To register for a Sage Pay account, visit [this link](https://applications.sagep
 
 - *Note*: After registering an account, **Sage Pay** will send mail for authentication and after completing the registration, Sage pay will send information of **Vendor Name, Username, Password**. You need to save the above information to connect with Sage Pay.
 
-- Access to Sage Pay, sign in by the account you registered before. Then do to `Settings > Administrator`, tick to `I understand that this will create new credentials and may break any existing Sage Pay API implementations.` then click **Create API credentials** button to get the **Integration Key, Integration Password**. Here, you also can get the infoamtion of **Form Integration Encryption Password**.
+- Access to Sage Pay, sign in by the account you registered before. Then go to `Settings > Administrator`, stick to `I understand that this will create new credentials and may break any existing Sage Pay API implementations.` then click **Create API credentials** button to get the **Integration Key, Integration Password**. Here, you also can get the information of **Form Integration Encryption Password**.
 
 
 ![Imgur](https://i.imgur.com/xGIfN2f.png)
 
 ![Imgur](https://i.imgur.com/YeqxkZZ.png)
 
-- **Checkout page**: choose the payment method with Sage Pay. Enter credit card information including: **Credit Card Number, Expiration Date, Card Verification Number**. Here the customer can save credit card information for subsequent payments. Support 3 Sage Pay payment methods inlcuding **Sage Pay Direct/PI Intergration, Sage Pay Form Intergration, Sage Pay Server Intergration**.
+- **Checkout page**: choose the payment method with Sage Pay. Enter credit card information including **Credit Card Number, Expiration Date, Card Verification Number**. Here the customer can save credit card information for subsequent payments. Support 3 Sage Pay payment methods including **Sage Pay Direct/PI Integration, Sage Pay Form Integration, Sage Pay Server Intergration**.
 
 ![Imgur](https://i.imgur.com/GorWUlB.png)
 
-  - **Magento Default**: Displays payment by Sage Pay by default of magento
+  - **Magento Default**: Displays payment by Sage Pay by default of Magento
 
 ![Imgur](https://i.imgur.com/KN2CFSD.png)
 
@@ -126,7 +126,7 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 
 ![Imgur](https://i.imgur.com/TRSMZd0.png)
 
-- **Note**: For Gift Aid, in some countries like UK, customers can get back some of the tax fee when making payments by donating through Gift Aid, a tax rebate incentive created to benefit organizations and **Charity and Community Amateur Sports Club (CASC)**. Gift Aid Details will be sent to Customer and Store Admin. They can check the information of their Gift Aid at Sage Pay page when access to `Transaction > Transaction Report > Daily`, click to the related order and choose **Additional Details** to view more. 
+- **Note**: For Gift Aid, in some countries like the UK, customers can get back some of the tax fee when making payments by donating through Gift Aid, a tax rebate incentive created to benefit organizations and **Charity and Community Amateur Sports Club (CASC)**. Gift Aid Details will be sent to Customer and Store Admin. They can check the information of their Gift Aid at Sage Pay page when access to `Transaction > Transaction Report > Daily`, click to the related order and choose **Additional Details** to view more. 
 
 ![Imgur](https://i.imgur.com/64lvv0K.png)
 
@@ -153,7 +153,7 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 - **Title**: Enter the title of the method which is displayed on the checkout page.
 - **New Order Status**: Select status when customer order successfully:
   - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
-  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to Processing.
+  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status, admin can accept payment or reject payment and then transfer status to Processing.
 - **Payment Action**:
   - **Authorize and Capture**: Payment will be captured immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
   - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
@@ -259,11 +259,11 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 This section records the customer or admin orders information and the customers' card information (including the order with the new card or the previous card saved at the **Integration Type** field. Here, **Statistics Status** and **Order Status** will be reported when customer order with Sage Pay payment methods.
 
 - **View Transaction**: Record card information of customer or admin orders.
-- Click **View Order**: Redirect to the view order page to see the information and card of paid order. 
+- Click **View Order**: Redirect to the view order page to see the information and card of paid orders. 
 
 ![Imgur](https://i.imgur.com/PrM0hRY.png)
 
-- Compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/): Support additional Reports of Order Status and Transacrion Status in the filterable time.
+- Compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/): Support additional Reports of Order Status and Transaction Status in the filterable time.
 
 ![Imgur](https://i.imgur.com/iLZlJbH.png)
 
@@ -301,7 +301,7 @@ Compatible with [One Step Checkout]()https://www.mageplaza.com/magento-2-one-ste
 
 ### 6. Refund Order
 
-Here admin can **Refund Online/ Offline** all order or individual one.
+Here admin can **Refund Online/ Offline** all order or an individual one.
 
 ![Imgur](https://i.imgur.com/cvDU2rO.png)
 
