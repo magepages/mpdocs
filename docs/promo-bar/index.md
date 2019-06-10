@@ -2,7 +2,7 @@
 
 ## Overview
 
-Suppose that you have special promotions or big events coming up, how can you notify your customers about those programs or events? With [Mageplaza Promo Bar extension](https://www.mageplaza.com/magento-2-promo-bar/), you can do it with ease. Promo Bar allows you to display one or more advertising bars at different locations and on multiple pages. By that you can also set the display time for the promo bar. In addition, we also support Promo Bar compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/). 
+Suppose that you have special promotions or big events coming up, how can you notify your customers about those programs or events? With [Mageplaza Promo Bar extension](https://www.mageplaza.com/magento-2-promo-bar/), you can do it with ease. Promo Bar allows you to display one or more advertising bars at different locations and on multiple pages. By that, you can also set the display time for the promo bar. In addition, we also support Promo Bar compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/). 
 
 ## How to download and install
 
@@ -28,10 +28,10 @@ Admin can also go to `Stores > Configuration > Mageplaza > Promo Bars` to set mo
 
 - Select **Enable = Yes** to enable the module.
 - **Promotion Category**:
-  - **Category Name**: Admin enter a name for the promotion. The system will display an error message if left blank.
+  - **Category Name**: Admin enters a name for the promotion. The system will display an error message if left blank.
   - **Action**: Click on the trash icon if you want to delete promotion category.
   - **Add**: Click Add button if you want to create a promotion category.
-- **Allow Customer to Close Promo Bar**: Select **No** to not allow customers to close the promo bar.
+- **Allow Customer to Close Promo Bar**: Select **No** not to allow customers to close the promo bar.
 - **Auto Close Promo Bar After**: Admin set the time period for automatically closing the promo bar
 - **Auto-reopen schedule**: admin select the schedule to activate the promo bar again.
 
@@ -68,7 +68,7 @@ Admin can also go to `Stores > Configuration > Mageplaza > Promo Bars` to set mo
 
 - **Name**: Set the title for promo bar.
 - Select **Status = Enable** to allow promo bar to be applied.
-- **Store Views**: Admin select a store to display promo bar on.
+- **Store Views**: Admin selects a store to display promo bar .
 - **Customer Groups**: Select groups of customers who can view promo bar.
 - **Promotion Category**: Select the promo category to be applied on promo bar.
 - **Start Date**: Select the start date of promo bar display.
@@ -85,7 +85,7 @@ Admin chooses the conditions to show promo bar.
 
 ![Imgur](https://i.imgur.com/B0RxYyR.png)
 
-- **Text Content**: Admin enter content for promo bar.
+- **Text Content**: Admin enters content for promo bar.
 - **URL Text**: Enter the content displayed for the value `{{url_text}}`.
 - **URL**: Assign the link to the URL Text. When customer clicks on the text url will automatically open a new tab with the assigned link.
 - **Load Template**: Admin selects the template for the promo bar.
@@ -121,7 +121,7 @@ Admin chooses the conditions to show promo bar.
 
 ##### 2.1.5. Trigger Setting
 
-- **Auto-close after**: Admin selects the time to automatically turn off Promo Bar. If you select **Use Config**, the promo bar will apply the time sey in the **Configuration** section.
+- **Auto-close after**: Admin selects the time to automatically turn off Promo Bar. If you select **Use Config**, the promo bar will apply the time set in the **Configuration** section.
 - **Auto-reopen schedule**: Admin choose the time to re-display Promo Bar. If you select **Use Config**, the promo bar will apply the time set in the **Configuration** section.
 
 ### III. Frontend
@@ -144,7 +144,7 @@ Admin chooses the conditions to show promo bar.
 
 #### 5. One Step Checkout Page
 
-Promo Bar is fully conpatible with One Step Checkout
+Promo Bar is fully compatible with One Step Checkout
 
 ![Imgur](https://i.imgur.com/qXWVGlB.png)
 
