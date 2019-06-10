@@ -100,7 +100,8 @@ Admin chooses the conditions to show promo bar.
 ![Imgur](https://i.imgur.com/2OLoDEA.png)
 
 - **Display Position**: Select the display position of the promo bar.
-![Imgur](https://i.imgur.com/qVjvA44.png)
+
+  ![Imgur](https://i.imgur.com/qVjvA44.png)
   - **Top of the page**: promo bar displayed at the top of the page.
   - **Top of the content**: promo bar displayed on the content section.
   - **Fixed bar at the top of the page**: promo bar displayed fixed at the top of the page.
