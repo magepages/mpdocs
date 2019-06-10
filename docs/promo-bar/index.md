@@ -102,11 +102,10 @@ Admin chooses the conditions to show promo bar.
 - **Display Position**: Select the display position of the promo bar.
 
 ![Imgur](https://i.imgur.com/qVjvA44.png)
-
-- **Top of the page**: promo bar displayed at the top of the page.
-- **Top of the content**: promo bar displayed on the content section.
-- **Fixed bar at the top of the page**: promo bar displayed fixed at the top of the page.
-- **Fixed bar at the bottom of the page**: promo bar displayed fixed at the bottom of the page
+  - **Top of the page**: promo bar displayed at the top of the page.
+  - **Top of the content**: promo bar displayed on the content section.
+  - **Fixed bar at the top of the page**: promo bar displayed fixed at the top of the page.
+  - **Fixed bar at the bottom of the page**: promo bar displayed fixed at the bottom of the page
 - **Custom**: Admin can choose any location in the store to display the Promo Bar by copying and pasting commands into the **CMS page/ Static Block**, **template.phtml file** and store **Layout file**.
 
 ![Imgur](https://i.imgur.com/8UH2vsS.png)
@@ -114,18 +113,16 @@ Admin chooses the conditions to show promo bar.
 - **Select Page**: Select the location for displaying the promo bar at the pages.
   - **All Pages**: Promo Bar displayed on all pages.
   - **Specific Page**:
-
   ![Imgur](https://i.imgur.com/qc8rCfM.png)
-
-    - Display On Page(s): Select the page that allows you to display promo bar on. The One Step Checkout Page will be displayed here when the admin configure the [One Step Checkout extension])(https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
-    - Display On Category Page: Select the category page to display the promo bar on.
-    - Display On Product Page: Select Yes to allow promo bar to display in the product page.
+    - **Display On Page(s)**: Select the page that allows you to display promo bar on. The **One Step Checkout Page** will be displayed here when the admin configure the [One Step Checkout extension])(https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+    - **Display On Category Page**: Select the category page to display the promo bar on.
+    - **Display On Product Page**: Select **Yes** to allow promo bar to display in the product page.
 
 
 ##### 2.1.5. Trigger Setting
 
-- Auto-close after: Admin selects the time to automatically turn off Promo Bar. If you select **Use Config**, the promo bar will apply the time sey in the **Configuration** section.
-- Auto-reopen schedule: Admin choose the time to re-display Promo Bar. If you select **Use Config**, the promo bar will apply the time set in the **Configuration** section.
+- **Auto-close after**: Admin selects the time to automatically turn off Promo Bar. If you select **Use Config**, the promo bar will apply the time sey in the **Configuration** section.
+- **Auto-reopen schedule**: Admin choose the time to re-display Promo Bar. If you select **Use Config**, the promo bar will apply the time set in the **Configuration** section.
 
 ### III. Frontend
 
