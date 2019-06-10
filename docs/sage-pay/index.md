@@ -6,7 +6,7 @@ Sage Pay is Europe's leading independent payment service provider (PSP) and is o
 
 Your customers can use all debit cards, credit cards, Visa, etc. And also be producted by authorizes, capture and 3D secure as well as AVS/CV2. Store can choose to redirect customer to Sage Pay Payment page or process all the purchase right on your checkout page. 
 
-**Mageplaza Sage Pay** is fully compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and Instant Purchase, which helps customers to order quickly and conveniently.
+**Mageplaza Sage Pay** is fully compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and Instant Purchase and [Reports](https://www.mageplaza.com/magento-2-reports-extension/) which helps customers to order, make reports on the sales quickly and conveniently.
 
 ## How to download and install
 
@@ -61,13 +61,13 @@ To register for a Sage Pay account, visit [this link](https://applications.sagep
 
 Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > Sage Pay`.
 
-![Imgur](https://i.imgur.com/wdRx3r9.png)
+![Imgur](https://i.imgur.com/rMD4ToO.png)
 
 #### 1.1. General Setting
 
 ##### 1.1.1. Credential
 
-![Imgur](https://i.imgur.com/lMrLqMh.png)
+![Imgur](https://i.imgur.com/AR5zliq.png)
 
 - **Vendor Name**:
   - Enter the registered Sage Pay account name.
@@ -75,15 +75,6 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 - **Environment**:
   - Admin can choose Sandbox environment to test Sage Pay function.
   - When you want to apply for online payment, please change to **Production**.
-- **Username**:
-  - Enter the username that you took when you registered your Sage pay account.
-  - If left blank, you cannot connect to Sage Pay.
-- **Password**:
-  - Enter the password with the Sage pay account.
-  - If left blank, you cannot connect to Sage Pay.
-- **Server Domain**:
-  - Enter **Domain** has been received from Sage pay. Used for **Sagepay Form/ Server Integration**.
-  - If left blank or incorrectly entered, it will not integrate with Sage Pay.
 - **Form Integration Encryption Password**:
   - Enter the password of Sage Pay. Used for **Sagepay Form/ Server Integration**.
   - If left blank or incorrectly entered, it will not integrate with Sage Pay.
@@ -97,7 +88,7 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 
 ##### 1.1.2. Security and Feature
 
-![Imgur](https://i.imgur.com/DcSrOTK.png)
+![Imgur](https://i.imgur.com/FktbeIO.png)
 
 - **3D Secure Setting**: Select the authentication type with 3D Secure to verify the card of Customer:
   - **Use default MySagePay settings**: Use 3d Secure by installing my Sagepay by default to verify Customer's card, thereby preventing payment fraud
@@ -132,6 +123,9 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 ![Imgur](https://i.imgur.com/eyOfFn6.png)
 
 - **Enable Gift Aid**: If selecting **Yes**, the checkbox will be displayed to allow the customer to choose **Donate Tax to Gift Aid**. This feature only works when the Sage Pay account is enabled for Gift Aid. Only registered charities can use **Gift Aid** through the Sage Pay platform.
+
+![Imgur](https://i.imgur.com/TRSMZd0.png)
+
 - **Note**: For Gift Aid, in some countries like UK, customers can get back some of the tax fee when making payments by donating through Gift Aid, a tax rebate incentive created to benefit organizations and **Charity and Community Amateur Sports Club (CASC)**. Gift Aid Details will be sent to Customer and Store Admin. They can check the information of their Gift Aid at Sage Pay page when access to `Transaction > Transaction Report > Daily`, click to the related order and choose **Additional Details** to view more. 
 
 ![Imgur](https://i.imgur.com/64lvv0K.png)
@@ -258,3 +252,65 @@ Example: The following picture shows Sage Pay Payment Page with French language:
   - Specify the display position of **Sage Pay Server Integration** method compared to other payment methods
   - 0 is the highest number. The smaller the number, the more priority the method is displayed first.
 
+
+
+### 2. Manage Transactions
+
+This section records the customer or admin orders information and the customers' card information (including the order with the new card or the previous card saved at the **Integration Type** field. Here, **Statistics Status** and **Order Status** will be reported when customer order with Sage Pay payment methods.
+
+- **View Transaction**: Record card information of customer or admin orders.
+- Click **View Order**: Redirect to the view order page to see the information and card of paid order. 
+
+![Imgur](https://i.imgur.com/PrM0hRY.png)
+
+- Compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/): Support additional Reports of Order Status and Transacrion Status in the filterable time.
+
+![Imgur](https://i.imgur.com/iLZlJbH.png)
+
+### 3. Admin order
+
+#### 3.1. View Order
+
+This section records the information of **Credit Card (Sage Pay)** that customers have ordered and paid.
+
+![Imgur](https://i.imgur.com/4mjeacI.png)
+
+#### 3.2. Admin Order
+
+Admin can order by Sage Pay method with the cards that customer has saved.
+
+![Imgur](https://i.imgur.com/eDpSco8.png)
+
+### 4. Order Frontend
+
+This section saves the card information that the customer has ordered.
+
+![Imgur](https://i.imgur.com/NXPliaW.png)
+
+### 5. Compatible with Instant Purchase
+
+This customer part can use Instant Purchase to execute orders conveniently and quickly
+
+Note: **Instant Purchase** only shows when you have saved the payment cards. Also, to use Instant Purchase, you should **turn off 3D Secure** because the card verification was done during customer save and fill in the payment card information.
+
+![Imgur](https://i.imgur.com/bGIYFQ1.png)
+
+Compatible with [One Step Checkout]()https://www.mageplaza.com/magento-2-one-step-checkout-extension/
+
+![Imgur](https://i.imgur.com/KbRNnQD.png)
+
+### 6. Refund Order
+
+Here admin can **Refund Online/ Offline** all order or individual one.
+
+![Imgur](https://i.imgur.com/cvDU2rO.png)
+
+### 7. Sage Pay Extra Fee
+
+When paying via Sage Pay with some cards like **American Express**, customer will have to pay an extra fee. **Sage Pay extra fee** is displayed at the **view order page** when customer order is completed.
+
+![Imgur](https://i.imgur.com/UaJYc4h.png)
+
+Admin needs to install **Surcharge** at **MySagePay** page to add extra fee for each card type. Visit MySagePay and go to `Settings > Surcharges`, click **Add** button to install Surcharge with each card.
+
+![Imgur](https://i.imgur.com/tTapVJw.png)
