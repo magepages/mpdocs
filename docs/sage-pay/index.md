@@ -16,21 +16,21 @@ Your customers can use all debit cards, credit cards, Visa, etc. And also be pro
 **Table of Contents**
  - How to use Sage Pay
  - How to Configure
-   - 1. Configuration
+   - 1 Configuration
      - 1.1 General Setting
        - 1.1.1 Credential
        - 1.1.2 Security and Feature
      - 1.2 Sage Pay Direct/PI Integration
      - 1.3 Sage Pay Form Integration
      - 1.4 Sage Pay Server Integration
-   - 2. Manage Transactions
-   - 3. Admin Order
+   - 2 Manage Transactions
+   - 3 Admin Order
      - 3.1 View Order
      - 3.2 Admin Order
-   - 4. Order Frontend
-   - 5. Compatible with Instant Purchase
-   - 6. Refund Order
-   - 7. Sage Pay Extra Fee
+   - 4 Order Frontend
+   - 5 Compatible with Instant Purchase
+   - 6 Refund Order
+   - 7 Sage Pay Extra Fee
    
    
 
