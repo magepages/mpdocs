@@ -264,9 +264,9 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 
 #### 4.1.2. Condition
 
-Admin chooses conditions to apply the rule. Do not add conditions if the rule applies to all products.
+Admin chooses conditions to apply the RMA rule. Do not add conditions if the rule applies to all products.
 
-![](https://i.imgur.com/0PyV5OT.png)
+![](https://i.imgur.com/kSi7n5d.png)
 
 #### 4.1.3. RMA Information
 
@@ -306,7 +306,11 @@ Admin chooses conditions to apply the rule. Do not add conditions if the rule ap
 
 #### 5.1.2. Condition
 
+Choose the condition of Return Address of Product based on Order Attribute: Shipping Postcode, Shipping Region, Shipping State/Province, Shipping Country. 
+
 ![](https://i.imgur.com/oVMsLTZ.png)
+
+![](https://i.imgur.com/TBLm4DS.png)
 
 #### 5.1.3. Default Comments
 
