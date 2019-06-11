@@ -65,11 +65,11 @@ Admin selects the ID increment type for RMA
 
 ### 2. Request Configuration
 
-![](https://i.imgur.com/fvKdHCB.png)
+![](https://i.imgur.com/81upiqm.png)
 
 - **Allow RMA for Each Item of An Order**: Select **Yes** to create RMA for each item in the order.
 - **Allow Uploading Attachments**: Select **Yes** to allow attachments for RMA request.
-- **Allow Attachment File Extensions**: Show the file format allowed 
+- **Allow Files Format**: Show the file format allowed 
 - **Google Recaptcha**: choose **Yes** to allow request compatible with [Google Recaptcha extension](https://www.mageplaza.com/magento-2-google-recaptcha/)
 - **Default Request Status**: Select the default status when customer has just submitted the request.
 - **Customer can Cancel Request in Status**: Select status in which allow customer to cancel the request.
