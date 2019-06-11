@@ -24,14 +24,14 @@ Admin can also go to `Stores > Configuration > Mageplaza > Promo Bars` to set mo
 
 #### 1.1. General
 
-![](https://i.imgur.com/yrl0yht.png)
+![](https://i.imgur.com/GbE0XtO.png)
 
 - Select **Enable = Yes** to enable the module.
 - **Promotion Category**:
   - **Category Name**: Admin enters a name for the promotion. The system will display an error message if left blank.
   - **Action**: Click on the trash icon if you want to delete promotion category.
   - **Add**: Click Add button if you want to create a promotion category.
-- **Allow Customer to Close Promo Bar**: Select **Never** not to allow customers to close the promo bar.
+- **Allow Customer to Close Promo Bar**: Select **No** not to allow customers to close the promo bar.
 - **Auto Close Promo Bar After**: Admin set the time period for automatically closing the promo bar
 - **Auto-reopen schedule**: admin select the schedule to activate the promo bar again.
 
@@ -83,8 +83,9 @@ Admin chooses the conditions to show promo bar at Checkout Page.
 
 ##### 2.1.3. Design
 
-![](https://i.imgur.com/B0RxYyR.png)
+![](https://i.imgur.com/NhWe0lp.png)
 
+- **Load Template**: Choose Promo Bar template. The system will show the Preview Promo Bar when admin choose a specific template. 
 - **Text Content**: Admin enters content for promo bar.
 - **URL Text**: Enter the content displayed for the value `{{url_text}}`.
 - **URL**: Assign the link to the URL Text. When customer clicks on the text url will automatically open a new tab with the assigned link.
