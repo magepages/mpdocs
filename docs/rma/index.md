@@ -323,7 +323,7 @@ Choose the condition of **Return Address** of Product based on **Order Attribute
 
 ### 6.1 Display RMA link and RMA Policy link
 
-- **Show in Top Link**
+- **Shown in Top Link**
 
 ![](https://i.imgur.com/tmXUjIS.png)
 
@@ -331,9 +331,9 @@ Choose the condition of **Return Address** of Product based on **Order Attribute
 
 ![](https://i.imgur.com/dMDyc6H.png)
 
-### 6.2. From Request Filter
+### 6.2. Form Request Filter
 
-At Find Order By, in addition to entering Email, customers can enter and enter the zip code used for order by clicking on the arrow and selecting Zip Code.
+At **Find Order By**, in addition to entering Email, customers can enter and enter the zip code used for order by clicking on the arrow and selecting **Zip Code**.
 
 ![](https://i.imgur.com/Y7DXN1h.png)
 
@@ -347,7 +347,7 @@ At Find Order By, in addition to entering Email, customers can enter and enter t
 
 ![](https://i.imgur.com/dLD4oIU.png)
 
-### 6.4. Create New RMA Request Form (for customers Non-Logged in)
+### 6.4. Create New RMA Request Form (for Not-Logged in customers)
 - **Request All Items**
 
 ![](https://i.imgur.com/b1ryFXq.png)
@@ -374,10 +374,10 @@ At Find Order By, in addition to entering Email, customers can enter and enter t
 
 ![](https://i.imgur.com/Pwlb1T3.png)
 
-- Message template sent to admin when RMA status has been changed
+- **Message template sent to admin when RMA status has been changed**
 
 ![](https://i.imgur.com/2hx6QJ4.png)
 
-- Admin message template sent to customers when their RMA status has been updated
+- **Admin message template sent to customers when their RMA status has been updated**
 
 ![](https://i.imgur.com/PWLwmOC.png)
