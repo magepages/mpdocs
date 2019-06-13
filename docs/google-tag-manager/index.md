@@ -156,12 +156,12 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 - **Enable Linker**:
   - If you select **Yes**, Google Analytics allows you to view sessions from two related websites (such as separate e-commerce and shopping cart websites) as a session. Show more **Linker Domain(s)** fields.
-    - **Linker Domain(s)**: Enter an additional domain link to count customer tracking from two related websites. You can import multiple domain links at the same time and be separated by a ",". You can configure additional domain links for your site when you go to `Store > Configuration > Web`. For example, the current link domain of your site is http://example.com. You configure another domain link when changing store view with the same content as http://mageplaza.com. So the tracking number of customers will be counted as 1 session. You can access to `Audience > Overview` of **Google Analytics** to view the exact number of sessions by day. 
+    - **Linker Domain(s)**: Enter an additional domain link to count customer tracking from two related websites. You can import multiple domain links at the same time and be separated by a ",". You can configure additional domain links for your site when you go to `Store > Configuration > Web`. For example, the current link domain of your site is `http://example.com`. You configure another domain link when changing store view with the same content as http://mageplaza.com. So the tracking number of customers will be counted as 1 session. You can access to `Audience > Overview` of **Google Analytics** to view the exact number of sessions by day. 
   
   
   ![](https://i.imgur.com/H416oS1.png)
   
-  **Note**: Io see the amount of **Link Attribution**, **Linker** or some features of **Google Analytics**, you need to wait some time for Google Analytics to update data. You should install and enable **Google Analytics Debugger** and **Page Analytics** add to the browser you are using to support adding reporting features to see click number.
+  **Note**: To see the amount of **Link Attribution**, **Linker** or some features of **Google Analytics**, you need to wait some time for Google Analytics to update data. You should install and enable **Google Analytics Debugger** and **Page Analytics** add to the browser you are using to support adding reporting features to see click number.
   
   
 - **Enable Display Ads (Remarketing)**: Select **Yes** to enable Google Analytics advertising features (including Remarketing Lists for Search Ads) that can be enabled in Google Analytics from `Property Settings > Data Collection`.
