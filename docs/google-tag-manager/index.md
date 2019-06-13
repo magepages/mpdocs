@@ -107,7 +107,7 @@ First, click on **Sign up** to register using the **Google Analytics** tool
 
 Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Extensions > Google Tag Manager`.
 
-![](https://i.imgur.com/xWc6Y2g.gif)
+![](https://i.imgur.com/Eq9Xfl9.gifv)
 
 #### 1.1. General
 
