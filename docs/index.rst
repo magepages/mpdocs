@@ -56,7 +56,7 @@ Welcome to Mageplaza Docs
    blog-m2/index
    call-for-price/index
    catalog-permissions/index
-   configurable-products-preselect/index
+   configurable-preselect/index
    countdown-timer/index
    custom-order-number/index
    customer-attributes/index
