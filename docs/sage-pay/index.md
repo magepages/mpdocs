@@ -167,7 +167,7 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 
 ![](https://i.imgur.com/1OvSYvt.png)
 
-- **Enable**: Select **Yes** to use **Sage Pay Direct/ PI Integration**.
+- **Enable**: Select **Yes** to use **Sage Pay Direct/ PI Integration**. See more information of this Integration method [here](https://www.sagepay.co.uk/support/15/36/direct-integration-understanding-the-process)
 - **Title**: Enter the title of the method which is displayed on the checkout page.
 - **New Order Status**: Select status when customer order successfully:
   - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
@@ -218,7 +218,7 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 
 ![](https://i.imgur.com/nSoedWQ.png)
 
-- **Enable**: Select **Yes** to enable this payment function and redirect to the payment page of **Sage Pay Form Integration**.
+- **Enable**: Select **Yes** to enable this payment function and redirect to the payment page of **Sage Pay Form Integration**. See more information of this Integration method [here](https://www.sagepay.co.uk/support/12/36/sage-pay-form)
 - **Title**: Enter the title of the payment method which is displayed on the **Sage Pay Form Integration** page.
 - **New Order Status**: Select status when customer order successfully:
   - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
@@ -245,7 +245,7 @@ Example: The following picture shows Sage Pay Payment Page with French language:
 
 ![](https://i.imgur.com/GtjI5Jx.png)
 
-- **Enable**: Select **Yes** to enable this payment function and redirect to the payment page of **Sage Pay Server Integration**.
+- **Enable**: Select **Yes** to enable this payment function and redirect to the payment page of **Sage Pay Server Integration**. See more information of this Integration method [here](https://www.sagepay.co.uk/support/15/36/sage-pay-server-understanding-the-process)
 - **Title**: Enter the title of the payment method which is displayed on the **Sage Pay Server Integration** page.
 - **New Order Status**: Select status when customer order successfully:
   - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
@@ -279,11 +279,11 @@ This section records the customer or admin orders information and the customers'
 - **View Transaction**: Record card information of customer or admin orders.
 - Click **View Order**: Redirect to the view order page to see the information and card of paid orders. 
 
-![](https://i.imgur.com/PrM0hRY.png)
+![](https://i.imgur.com/I4wZXAN.png)
 
-- Compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/): Support additional Reports of Order Status and Transaction Status in the filterable time.
+- Compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/): Support additional Reports of **Order Status** and **Transaction Status** in the filterable time.
 
-![](https://i.imgur.com/iLZlJbH.png)
+![](https://i.imgur.com/fOf00Sy.png)
 
 ### 3. Admin order
 
