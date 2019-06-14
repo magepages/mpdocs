@@ -76,19 +76,19 @@ From the Admin panel, go to `Stores > Settings > Configuration > Mageplaza > Bar
 **Logo**: Admin can upload the logo/ image you want to display on the barcode label
 Barcode Label Template: choose the template displayed for barcode labels. There are 4 types of templates:
 
-***Classic 1***
+***Type 1: Classic 1***
 
 ![Imgur](https://i.imgur.com/zIMibGF.png)
 
-***Classic 2***
+***Type 2: Classic 2***
 
 ![Imgur](https://i.imgur.com/XOdcdxv.png)
 
-***Standard***
+***Type 3: Standard***
 
 ![Imgur](https://i.imgur.com/KTOedWT.png)
 
-***Standard with QR code***
+***Type 4: Standard with QR code***
 
 ![Imgur](https://i.imgur.com/VzRDf0B.png)
 
@@ -146,8 +146,8 @@ Then, your barcode label printed will contain information about the **Activity**
 ### 2. Print Barcode
 
 - To print barcode, we can use 2 ways:
-- Print barcode for **each product** by clicking the **Print Barcode** button at their edit page
-- Print for **multiple products** at the **Product Grid** page using **Mass action Print Barcode Label**.
+  - Print barcode for **each product** by clicking the **Print Barcode** button at their edit page
+  - Print for **multiple products** at the **Product Grid** page using **Mass action Print Barcode Label**.
 
 ![Imgur](https://i.imgur.com/pLDN8DN.png)
 
