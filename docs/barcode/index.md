@@ -14,33 +14,33 @@ With [Mageplaza Barcode Extension](https://www.mageplaza.com/magento-2-barcode/)
 
 With Barcode extension, admin can perform the following actions:
 
-#### Automatically generate barcode with the preselected template
+### Automatically generate barcode with the preselected template
 
 ![Imgur](https://i.imgur.com/gFKPzG4.png)
 
-#### Select Product Attribute for barcode printing
+### Select Product Attribute for barcode printing
 
 ![Imgur](https://i.imgur.com/2Pv0qtK.png)
 
-**Product Attribute = Mageplaza Barcode**
+***Product Attribute = Mageplaza Barcode***
 
 ![Imgur](https://i.imgur.com/NbisV0e.png)
 
-**Product Attribute = SKU**
+***Product Attribute = SKU***
 
 ![Imgur](https://i.imgur.com/67QNYoT.png)
 
-#### Design barcode: 
+### Design barcode: 
 
 Choose **Barcode Type**, **Label Content** and **Printing Paper** by the available templates. 
 
 ![Imgur](https://i.imgur.com/n8wMo8U.png)
 
-**Preview barcode before printing**
+***Preview barcode before printing***
 
 ![Imgur](https://i.imgur.com/uJ2jqg0.png)
 
-**Print multiple labels of multiple products**
+***Print multiple labels of multiple products***
 
 ![Imgur](https://i.imgur.com/98FIHtP.png)
 
@@ -67,28 +67,28 @@ From the Admin panel, go to `Stores > Settings > Configuration > Mageplaza > Bar
 
 #### 1.2. Barcode Design
 
-- **Barcode Type**: Choose the type of encryption code barcode. Currently, the module supports 18 different encryption types.
+- **Barcode Type**: Choose the type of encryption code barcode. Currently, the module supports **18 different encryption types**.
 
 ##### 1.2.1 Label Content
 
 ![Imgur](https://i.imgur.com/QGLyFjR.png)
 
-**Logo**: Admin can upload the logo / image you want to display on the barcode label
+**Logo**: Admin can upload the logo/ image you want to display on the barcode label
 Barcode Label Template: choose the template displayed for barcode labels. There are 4 types of templates:
 
-**Classic 1**
+***Classic 1***
 
 ![Imgur](https://i.imgur.com/zIMibGF.png)
 
-**Classic 2**
+***Classic 2***
 
 ![Imgur](https://i.imgur.com/XOdcdxv.png)
 
-**Standard**
+***Standard***
 
 ![Imgur](https://i.imgur.com/KTOedWT.png)
 
-**Standard with QR code**
+***Standard with QR code***
 
 ![Imgur](https://i.imgur.com/VzRDf0B.png)
 
@@ -158,7 +158,8 @@ After clicking **print**, the **popup** will appear for admin to install barcode
 ![Imgur](https://i.imgur.com/RRzlhpM.png)
 
 - **In Popup**:
+
   - At **Qty** field, admin select the number of barcode to print it out 
-  - Admin can reselect the barcode and paper configuration again. Unless, you can choose **Use Config Settings** to use the preset information in Configuration before
+  - Admin can reselect the barcode and paper configuration again. Unless you can choose **Use Config Settings** to use the preset information in Configuration before
   - Admin can also preview the barcode label and paper before printing by clicking to **Preview Print Paper Type**.
 
