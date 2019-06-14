@@ -4,6 +4,12 @@
 
 With [Mageplaza Barcode Extension](https://www.mageplaza.com/magento-2-barcode/), admin can easily create barcode to manage products in store easily. This extension supports automatically generating barcode with 18 different barcode encryption types. Admin can also design barcode labels, preview before printing and print multiple barcodes for many products at the same time.
 
+## How to download and install
+
+- [Download Mageplaza Barcode](https://www.mageplaza.com/magento-2-barcode/)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
+
 ## How to Use
 
 With Barcode extension, admin can perform the following actions:
@@ -24,7 +30,9 @@ With Barcode extension, admin can perform the following actions:
 
 ![Imgur](https://i.imgur.com/67QNYoT.png)
 
-#### Design barcode: choose **Barcode Type**, **Label Content** and **Printing Paper** by the available templates. 
+#### Design barcode: 
+
+Choose **Barcode Type**, **Label Content** and **Printing Paper** by the available templates. 
 
 ![Imgur](https://i.imgur.com/n8wMo8U.png)
 
@@ -39,11 +47,13 @@ With Barcode extension, admin can perform the following actions:
 ![Imgur](https://i.imgur.com/ldshDpZ.png)
 
 ## How to Configure
+
 From the Admin panel, go to `Stores > Settings > Configuration > Mageplaza > Barcode`
 
 ![Imgur](https://i.imgur.com/14SpuRK.png)
 
 ### 1. Configuration
+
 #### 1.1. General Configuration
 
 ![Imgur](https://i.imgur.com/0vddXyX.png)
@@ -56,13 +66,14 @@ From the Admin panel, go to `Stores > Settings > Configuration > Mageplaza > Bar
 
 
 #### 1.2. Barcode Design
+
 - **Barcode Type**: Choose the type of encryption code barcode. Currently, the module supports 18 different encryption types.
 
 ##### 1.2.1 Label Content
 
 ![Imgur](https://i.imgur.com/QGLyFjR.png)
 
-- **Logo**: Admin can upload the logo / image you want to display on the barcode label
+**Logo**: Admin can upload the logo / image you want to display on the barcode label
 Barcode Label Template: choose the template displayed for barcode labels. There are 4 types of templates:
 
 **Classic 1**
@@ -82,19 +93,19 @@ Barcode Label Template: choose the template displayed for barcode labels. There 
 ![Imgur](https://i.imgur.com/VzRDf0B.png)
 
 - **Load Template**: After selecting one of the 4 types of templates above, click **Load template**, the value of the setting fields for the paper will automatically be filled.
-**Barcode Width**: in Inches. Set the length of the barcode code displayed on a barcode label. Self-recognition by template or editable.
-**Barcode Height**: in Inch. Set the width of the barcode displayed on a barcode label. Self-recognition by template or editable.
-**QR Code Size**: in Inches. Set the length/ width of the QR Code displayed on a barcode label. This field is only displayed when the template is selected with **Standard with QR code**. Self-recognition by template or editable.
+- **Barcode Width**: in Inches. Set the length of the barcode code displayed on a barcode label. Self-recognition by template or editable.
+- **Barcode Height**: in Inch. Set the width of the barcode displayed on a barcode label. Self-recognition by template or editable.
+- **QR Code Size**: in Inches. Set the length/ width of the QR Code displayed on a barcode label. This field is only displayed when the template is selected with **Standard with QR code**. Self-recognition by template or editable.
 
 ![Imgur](https://i.imgur.com/INt6gTE.png)
 
-**Barcode Label Content**: Install content on barcode labels. Support variables can be used to display content such as barcode, barcode content after scanning, product name, SKU, product price, QR code, logo and some other attributes of the product.
+- **Barcode Label Content**: Install content on barcode labels. Support variables can be used to display content such as barcode, barcode content after scanning, product name, SKU, product price, QR code, logo and some other attributes of the product.
 With the variable `{{logo_url}}`, you must use the `<img>` tag to display the selected logo image in the above field: `<img src = "{{logo_url}}" alt = "logo">`
 With variable `{{attribute_code}}`, you must replace the `attribute_code` with the code of the attribute you want to display. You can go to `Store > Attributes > Product` to get the value in the **Attribute Code** field
 
 ![Imgur](https://i.imgur.com/7tvu8vS.png)
 
-**For example**: You want to display **Activity** and **Color** Attribute, write more:
+- **For example**: You want to display **Activity** and **Color** Attribute, write more:
 
 ```
 <div class = "attribute-code">
@@ -110,8 +121,8 @@ Then, your barcode label printed will contain information about the **Activity**
 
 ![Imgur](https://i.imgur.com/bUEFP7g.png)
 
-**Barcode CSS**: Display settings (font, color, format) for content on barcode labels.
-**Preview Barcode Label Content**: Click this button to see the preview of the barcode label according to the settings above.
+- **Barcode CSS**: Display settings (font, color, format) for content on barcode labels.
+- **Preview Barcode Label Content**: Click this button to see the preview of the barcode label according to the settings above.
 
 #### 1.2.2 Printing Paper
 
@@ -119,9 +130,9 @@ Then, your barcode label printed will contain information about the **Activity**
 
 - **Paper Template**: Choose to use the template for available print paper or you can customize the paper size
 - **Paper Size**: Select the paper size to print barcode labels. The paper size will default to the template available in the **Paper Template** field or edit it when the **Paper Template** field selects **Custom**.
-- **Barcode Label Width**: in Inches. The length setting of a barcode label will appear on the paper. Self-recognition by template or editable.
-- **Barcode Label Height**: in Inch. The width setting of a barcode label will be displayed on the paper. Self-recognition by template or editable.
-- **Barcode Label Padding**: in Inches. Set the distance between the barcode labels on a printed paper. Self-recognition by template or editable.
+- **Barcode Label Width**: Calculated in Inches. The length setting of a barcode label will appear on the paper. Self-recognition by template or editable.
+- **Barcode Label Height**: Calculated in Inch. The width setting of a barcode label will be displayed on the paper. Self-recognition by template or editable.
+- **Barcode Label Padding**: Calculated in Inches. Set the distance between the barcode labels on a printed paper. Self-recognition by template or editable.
 - **Orientation**: Choose a layout method. There are 2 options: **Portrait (vertical)** and **Landscape (horizontal)**.
 - **Preview Paper Template**: Clicking on this button will display the paper preview that will be printed when the above settings are satisfied.
 
@@ -132,16 +143,17 @@ Then, your barcode label printed will contain information about the **Activity**
 - **Print Sample**: Click on the button to print the barcode labels on 1 paper according to the above settings.
 - **Note**: Must **Save Config** before clicking **Print** to make sure the printout will print the latest installation correctly.
 
-### 2. In Barcode
+### 2. Print Barcode
+
 - To print barcode, we can use 2 ways:
-- Print barcode for each product by clicking the Print Barcode button at their edit page
-- Print for multiple products at the Product Grid page using Mass action Print Barcode Label.
+- Print barcode for **each product** by clicking the **Print Barcode** button at their edit page
+- Print for **multiple products** at the **Product Grid** page using **Mass action Print Barcode Label**.
 
 ![Imgur](https://i.imgur.com/pLDN8DN.png)
 
 ![Imgur](https://i.imgur.com/tiMRT5E.png)
 
-After clicking print, the popup will appear for admin to install barcode printing.
+After clicking **print**, the **popup** will appear for admin to install barcode printing.
 
 ![Imgur](https://i.imgur.com/RRzlhpM.png)
 
