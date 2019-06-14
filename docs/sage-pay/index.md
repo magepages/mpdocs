@@ -329,6 +329,6 @@ When paying via Sage Pay with some cards like **American Express**, customer wil
 
 ![](https://i.imgur.com/UaJYc4h.png)
 
-Admin needs to install **Surcharge** at **MySagePay** page to add extra fee for each card type. Visit MySagePay and go to `Settings > Surcharges`, click **Add** button to install Surcharge with each card.
+Admin needs to install **Surcharge** at **MySagePay** page to add extra fee for each card type. Visit **MySagePay** and go to `Settings > Surcharges`, click **Add** button to install **Surcharge** with each card.
 
 ![](https://i.imgur.com/tTapVJw.png)
