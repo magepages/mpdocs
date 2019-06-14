@@ -97,7 +97,7 @@ From the Admin Panel, go to `System > Cron Schedule > Manage Cron Jobs`
 - **Run All Cron Jobs**: run all Cron Jobs in the table.
 - In addition, admin can filter, change store view, hide/ display columns.
 
-2.2. Create New Cron Jobs
+#### 2.2. Create New Cron Jobs
 
 From the Admin Panel, go to `System > Cron Schedule > Manage Cron Jobs`, select **Add New**
 
@@ -123,22 +123,21 @@ From the Admin Panel, go to `System > Cron Schedule > Manage Cron Jobs`, select 
 
 
 ### 3. Cron Jobs Log
-From the Admin Panel, go to `System > Cron Schedule > Cron Jobs Log`
 
-This is where the Cron Jobs information is displayed running in 5 states: Error, Missed, Pending, Running, Success.
-From Cron Jobs Log, admin can capture basic information such as ID, Job Code, Status, Message, Total Executed Time, Created At, Scheduled At, Executed At, Finished At, Action.
-Action:
-Delete: Delete the information on the Cron Jobs Log page.
-View: View detailed information of running Job Code, only see the admin cron jobs created.
- Run All Cron Jobs: Rerun all Cron Jobs in the table.
-Clear All: Delete the entire history of running Cron Jobs before.
-In addition, admin can filter, change store view, hide / display columns.
-4. Cron Jobs Timetable
-From the Admin Panel, go to System> Cron Schedule> Cron Jobs Timetable
+- From the Admin Panel, go to `System > Cron Schedule > Cron Jobs Log`
 
-This is the Timetable display page of the Cron Jobs Log page. What is the meaning of this page?
-Select Time: Select the time to display Cron Jobs.
-Gửi phản hồi
-Lịch sử
-Đã lưu
-Cộng đồng
+- This is where the Cron Jobs information is displayed running in 5 states: Error, Missed, Pending, Running, Success.
+- From Cron Jobs Log, admin can capture basic information such as ID, Job Code, Status, Message, Total Executed Time, Created At, Scheduled At, Executed At, Finished At, Action.
+- Action:
+  - Delete: Delete the information on the Cron Jobs Log page.
+  - View: View detailed information of running Job Code, only see the admin cron jobs created.
+  - Clear All: Delete the entire history of running Cron Jobs before.
+- In addition, admin can filter, change store view, hide / display columns.
+
+### 4. Cron Jobs Timetable
+
+From the Admin Panel, go to `System > Cron Schedule > Cron Jobs Timetable`
+
+- This is the Timetable display page of the Cron Jobs Log page. It plays a role of a chart report helping admin to know the results of cron running process. 
+
+- Select Time: Select the time to display Cron Jobs.
