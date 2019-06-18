@@ -2,6 +2,9 @@
 
 ## Overview
 
+[Mageplaza Cron Schedule extension](#https://www.mageplaza.com/magento-2-cron-schedule/) assists Magento admin control and report Cron related tasks. Admins can set up, check any Cron Jobs they quickly and easily. And whenever any Cron Job is found that has problems such as Error or Missed, you will always be notified via email.
+
+You should install [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/?utm_source=mageplaza&utm_medium=mageplaza&utm_campaign=cron-schedule&utm_content=SMTP) to avoid your email being sent to the spam box. It is fully compatible with the Cron Schedule extension.
 
 
 ## How to download and install
@@ -45,7 +48,7 @@
 
 From the Admin Panel, go to `System > Cron Schedule > Configuration`
 
-![Imgur](https://i.imgur.com/y4VkwEE.png)
+![Imgur](https://i.imgur.com/fjtqdz6.png)
 
 ### 1. Configuration
 
@@ -79,7 +82,31 @@ From the Admin Panel, go to `System > Cron Schedule > Configuration`, select **G
 
 ![Imgur](https://i.imgur.com/9AKHU5y.png)
 
+- **Auto Clear Log Every**: 
+  - Set the time to auto clear log. Calculated by day.
+  - If Empty or 0, the cron jobs log will not be clean.
+
+
 ### 2. Grid
+
+There are three methods to run Cron manually:
+- Method 1: Run the command: `php bin/magento cron:run`
+- Method 2: Click **Run All Cron Jobs** at **Manage Cron Jobs** Page.
+- Method 3: Tick to choose the Cron Jobs you want to check at **Manage Cron Jobs** table, then choose **Action = Execute**.
+
+**Note**:
+
+- First time running Cron, all the cron schedules are in Pending Status. You can view them at **cron_schedule** table or **Cron Jobs Log** Page. 
+
+- The second time running Cron, there are two case:
+  - Schedules have the time in **scheduled_at** smaller than the current time, Cron Schedules will be executed then finished.
+  - Schedules 
+
+- You can view or change the Missed Time by:
+ 
+From the Admin Panel, go to `Stores > Configuration > Advanced > System > Cron`, change it in the field **Missed If Not Run Within**
+
+![Imgur](https://i.imgur.com/agun0FO.png)
 
 #### 2.1. Manage Cron Jobs
 
