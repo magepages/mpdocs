@@ -4,7 +4,7 @@
 
 With [Mageplaza Better Maintenance](https://www.mageplaza.com/magento-2-better-maintenance/), instead of seeing each error page every time store maintains, visitors will see the page is attractively and not boring at all. You can insert useful information on pages such as countdown timer, subscribe forms, and social sharing buttons that allow customers to share with their friends. This gives customers many interesting benefits in the process of waiting for the page. This is a great way to bring satisfaction to fastidious customers. 
 
-We also support Coming Soon page with similar features in this module.
+We also support Coming Soon Page with similar features in this module.
 
 ## How to download and install
 
@@ -21,9 +21,13 @@ We also support Coming Soon page with similar features in this module.
 
 ## How to Configure
 
-From the Admin Panel, go to `Stores > Settings > Configuration`, at the **Mageplaza Extension** tab select **Better Maintenance
+From the Admin Panel, go to `Stores > Settings > Configuration`, at the **Mageplaza Extension** tab select **Better Maintenance**
+
+![Imgur](https://i.imgur.com/psjaf4M.png)
 
 ### 1. General Configuration
+
+![Imgur](https://i.imgur.com/N4cZWlv.png)
 
 - **Enable**: Select **Yes** to use the module's feature
 - **Real Time of Website**:
@@ -42,7 +46,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration`, at the **Magepl
   - If **No**, **Maintenance** is always applied until the admin turn off the module or switches the **Auto Switch** to **Yes**
 - **Whitelist IP(s)**:
   - Only IP addresses filled in this section can access the page without being redirected to **Maintenance Page**
-  - It is possible to allow 1 IP address, multiple IP addresses, 1 range of IP addresses or multiple IP address ranges to have access to maintenance page, IP addresses are separated by commas.
+  - It is possible to allow 1 IP address, multiple IP addresses, 1 range of IP addresses or multiple IP address ranges, IP addresses are separated by commas.
   - Store owners can also allow IP addresses as follows:
     - `10.0.0.10`, `10.0.0.*`, `10.0.*.*`, `10.0.0.* - 123.0.0.*`, `12.3.*.* - 222.0.*.*`
     - Symbol "*" in range 0 - 255
@@ -74,6 +78,8 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 #### 2.2. Subscribe Setting
 
+![Imgur](https://i.imgur.com/079YvqD.png)
+
 - **Subscription Type**: 3 options can be selected:
   - **None**: Subscription form will not be displayed in Frontend
   - **Newsletter Subscription**: Subscribe form only includes **Email** field and **Subscribe** button. Admin can check the customer who subscribed by going to `Marketing > Communications > Newsletter Subscribers`
@@ -97,10 +103,14 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 #### 2.3. Footer Block
 
+![Imgur](https://i.imgur.com/VVkhzxj.png)
+
 - Select CMS Block to be the Footer at Frontend.
 - The selected CMS Block is the footer of **Maintenance/ Coming Soon Page**. Therefore, it is recommended to select CMS Block Link on the **Whitelist Page Link(s)** list for customers to access.
 
 #### 2.4. Social Contact
+
+![Imgur](https://i.imgur.com/bHCgbCJ.png)
 
 - **Enable**: Select **Yes** to display social contacts at Frontend
 - **Label**: Set Label for **Social Contact** field
@@ -113,76 +123,102 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 ### 3. Maintenance Page Setting
 
-- **Route**:
+![Imgur](https://i.imgur.com/fr8j1W7.png)
+
+- **Page Route**:
   - Enter the route name which appears on the URL. 
   - If you leave it blank, the default Route name is `mpmaintenance`. 
-  - E.x `https://domain.com/mpmaintenance`. You can change it to anything you want
+  - Example Route name is `https://domain.com/mpmaintenance`. You can change it to anything you want
+
 - **Select Layout**: we provide 3 types of layout for the page
   - **Single-column**
   - **Double-column**
   - **Double-column with Left-side content**
+
 - **Page Title**:
   - Set the Title of the Page
   - If left blank, **default = Under Maintenance**
+
 - **Page Description**:
-  - Page Description settings
-  - If left blank, default = `We're currently down for maintenance. Be right back! `
+  - Enter Page Description 
+  - If left blank, default = `We're currently down for maintenance. Be right back!`
+
 - **Text Color**: Change the text color of **Page Title** and **Description**
+
 - **Logo**:
   - Admin can upload the store **Logo** to **Maintenance Page**
   - Logo supports image files
-- **Background Type**: 3 types of Background admin can be selected as following:
+
+- **Background Type**: 3 types of Background admin can be selected as follows:
   - **Image**: Background is a fixed image uploaded by admin
   - **Video**: Background is a fixed video uploaded by admin
-  - **Multi-image**: The background is displayed as a photo slide uploaded by admin.
-- **Select**:
+  - **Multi-image**: Background is displayed as a photo slide uploaded by admin.
+
+- **Upload File**:
   - Depending on the background type, the type file is changed.
   - Only upload **image files** if background type is **Image/ Multi Image**
   - Only upload **mp4 files** if background type is **Video**
+
 - **Show Progress Bar**:
 
   - Select **Yes** to display the Progress Bar in **Maintenance Page**
   - This will help customer estimate the maintenance progress of the page
-- **Progress Value**: Enter the maintenance percentage that the page has made.
-- **Label**: Enter the label for **Progress bar**
-- **Label Color**: Change the font color for Label
-- **Progress Bar**: Change the background color of Progress bar
+
+  - **Progress Value**: Enter the maintenance percentage that the page has made.
+  - **Label**: Enter the label for **Progress bar**
+  - **Label Color**: Change the font color for Label
+  - **Progress Bar Color**: Change the background color of Progress bar
+  
 - **HTTP Response Header**: Send the status of the page to Google
   - **503 Service Unavailable**
+  
+  ![Imgur](https://i.imgur.com/LiqboYP.png)
 
   - **200 OK**
+  
+  ![Imgur](https://i.imgur.com/Ickb1Fm.png)
 
-- **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview **page has the same content as Frontend. If uploading files, need to save the configuration before previewing
+- **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview** page has the same content as Frontend. If uploading files, need to save the configuration before previewing
 
 #### 4. Coming Soon Page Setting
 
-- Route:
-- Hãy nhập tên đường dẫn mà hiển thị trên URL.
-- Nếu nó bỏ nó trống, mặc định mặc định tên là `mpcomingsoon`.
-- Example: Page route is https://domain.com/mpcomingsoon. You can change it to anything you want
-- Select Layout: we provide 3 types of layouts for page including:
-- Single-column
-- Double-column
-- Double-column with Left-side content
-- Page Title:
-- Set the Title of the Page
-- If left blank, default = Coming Soon
-- Page Description:
-- Set Page Description
-- If left blank, default = `Our new site is coming soon. Stay tuned! `
-- Text Color: Change the font color of Page Title and Description
-- Logo:
-- Admin can upload store logo to Coming Soon Page
-- Logo supports image files
-- Background Type: there are 3 types of Backgrounds admin can choose
-- Image: Background is a fixed image uploaded by admin
-- Video: Background is a fixed video uploaded by admin
-- Multi-image: The background is displayed as a photo slide. Photos of the slide are uploaded by admin.
-- Select:
-- Depending on the background type, the type file is changed.
-- Only upload image file if background type is Image / Multi Image
-- Only upload mp4 files if background type is video
-- Meta Title: Enter the Meta Title for Page. This will support better SEO
-- Meta Description: Enter Meta Description for Page. This will support better SEO
-- Meta Keywords: Enter Meta Keyword for Page. This will support better SEO
-- Preview button: Admin can click Preview to quickly see the edited page. The Preview page has the same content as Frontend. If the admin uploads files, need to save the configuration before previewing.
+![Imgur](https://i.imgur.com/1ufp4m1.png)
+
+- **Page Route**:
+  - Enter the route name which appears on the URL. 
+  - If you leave it blank, the default Route name is `mpcomingsoon`. 
+  - Example: Page route is https://domain.com/mpcomingsoon. You can change it to anything you want
+  
+  - **Select Layout**: we provide 3 types of layout for the page
+  - **Single-column**
+  - **Double-column**
+  - **Double-column with Left-side content**
+
+- **Page Title**:
+  - Set the Title of the Page
+  - If left blank, **default = Coming Soon**
+  
+- **Page Description**:
+  - Enter Page Description 
+  - If left blank, default = `Our new site is coming soon. Stay tuned!`
+
+- **Text Color**: Change the text color of **Page Title** and **Description**
+
+- **Logo**:
+  - Admin can upload the store **Logo** to **Coming Soon Page**
+  - Logo supports image files
+
+- **Background Type**: 3 types of Background admin can be selected as follows:
+  - **Image**: Background is a fixed image uploaded by admin
+  - **Video**: Background is a fixed video uploaded by admin
+  - **Multi-image**: Background is displayed as a photo slide uploaded by admin.
+
+- **Upload File**:
+  - Depending on the background type, the type file is changed.
+  - Only upload **image files** if background type is **Image/ Multi Image**
+  - Only upload **mp4 files** if background type is **Video**
+
+- **Meta Title**: Enter the Meta Title for Coming Soon Page. This helps improve your SEO
+- **Meta Description**: Enter Meta Description for Coming Soon Page. This will support better SEO
+- **Meta Keywords**: Enter Meta Keyword for Coming Soon Page. This will support better SEO
+- **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview** page has the same content as Frontend. If the admin uploads files, need to save the configuration before previewing.
