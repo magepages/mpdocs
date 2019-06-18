@@ -4,7 +4,7 @@
 
 [Mageplaza Cron Schedule extension](#https://www.mageplaza.com/magento-2-cron-schedule/) assists Magento admin control and report Cron related tasks. Admins can set up, check any Cron Jobs they quickly and easily. And whenever any Cron Job is found that has problems such as Error or Missed, you will always be notified via email.
 
-You should install [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/?utm_source=mageplaza&utm_medium=mageplaza&utm_campaign=cron-schedule&utm_content=SMTP) to avoid your email being sent to the spam box. It is fully compatible with the Cron Schedule extension.
+You should install [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box. It is fully compatible with the Cron Schedule extension.
 
 
 ## How to download and install
@@ -99,8 +99,8 @@ There are three methods to run Cron manually:
 - First time running Cron, all the cron schedules are in Pending Status. You can view them at **cron_schedule** table or **Cron Jobs Log** Page. 
 
 - The second time running Cron, there are two case:
-  - Schedules have the time in **scheduled_at** smaller than the current time, Cron Schedules will be executed then finished.
-  - Schedules 
+  - Schedule will be Executed if its starting time is over current time but still smaller than 2 mins (The time set at field **Missed If Not Run Within**)
+  - Schedule will be assigned as Missed status if its starting time is over 2 mins 
 
 - You can view or change the Missed Time by:
  
@@ -128,43 +128,60 @@ From the Admin Panel, go to `System > Cron Schedule > Manage Cron Jobs`
 
 From the Admin Panel, go to `System > Cron Schedule > Manage Cron Jobs`, select **Add New**
 
-![Imgur](https://i.imgur.com/ODYxtnh.png)
+![Imgur](https://i.imgur.com/yHp5jDL.png)
 
 - **Cron Job Code**:
   - Enter the code of Cron Jobs.
   - This is a required field.
 - **Group Name**:
-  - **Default**:
-  - **Index**:
+
+![Imgur](https://i.imgur.com/GvZ9oWf.png)
+
+- Choose the group suitable for cron job applying
+- In which:
+  - All groups are available on Magento EE 2.2.x
+  - Magento CE 2.1.x only has two groups: Default and Index
+  - Magento CE 2.2.x has three groups: Default, Index and Ddg_automation
+  - Magento CE 2.3.x has four groups: Default, Index, Ddg_automation and Consumers
+  
 - **Status**: Select **Enable** for Cron Jobs to work.
 - **Instance Classpath**:
-  - Enter the path
-  - Is required field.
+  - Enter the path to the object, or called **namespace**
+  - This is a required field.
+  - Example: `Mageplaza\CronSchedule\Model\Test`
+
 - **Job Method**:
-  - Enter the Method name.
-  - Is required field.
+  - Enter the Method name (Each object has several method to fill in thí field)
+  - This is a required field.
+  - Example: execute, recurring billing
+  
 - **Time Schedule**:
   - Enter the runtime of Cron Jobs.
   - Using Cron format [here](http://www.nncron.ru/help/EN/working/cron-format.htm) to set time for running cron job.
   - This is a required field.
+  - Example: * * * * * means that cron will be run once every minute.
 
 
 ### 3. Cron Jobs Log
 
 - From the Admin Panel, go to `System > Cron Schedule > Cron Jobs Log`
 
+![Imgur](https://i.imgur.com/eHy1n39.png)
+
 - This is where the Cron Jobs information is displayed running in 5 states: Error, Missed, Pending, Running, Success.
-- From Cron Jobs Log, admin can capture basic information such as ID, Job Code, Status, Message, Total Executed Time, Created At, Scheduled At, Executed At, Finished At, Action.
-- Action:
-  - Delete: Delete the information on the Cron Jobs Log page.
-  - View: View detailed information of running Job Code, only see the admin cron jobs created.
-  - Clear All: Delete the entire history of running Cron Jobs before.
-- In addition, admin can filter, change store view, hide / display columns.
+- From **Cron Jobs Log**, admin can capture basic information such as ID, Job Code, Status, Message, Total Executed Time, Created At, Scheduled At, Executed At, Finished At, Action.
+- **Action**:
+  - **Delete**: Delete the information on the **Cron Jobs Log** page.
+  - **View**: View detailed information of running **Job Code**, only can see the cron jobs created by admin.
+  - **Clear All**: Delete the entire history of running Cron Jobs before.
+- In addition, admin can filter, change store view, hide/ display columns.
 
 ### 4. Cron Jobs Timetable
 
 From the Admin Panel, go to `System > Cron Schedule > Cron Jobs Timetable`
 
+![Imgur](https://i.imgur.com/9fjMt7a.png)
+
 - This is the Timetable display page of the Cron Jobs Log page. It plays a role of a chart report helping admin to know the results of cron running process. 
 
-- Select Time: Select the time to display Cron Jobs.
+- **Select Time**: Select the time to display Cron Jobs.
