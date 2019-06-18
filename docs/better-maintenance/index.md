@@ -98,61 +98,61 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 #### 2.3. Footer Block
 
 - Select CMS Block to be the Footer at Frontend.
-- The selected CMS Block is the footer of Maintenance / Coming Soon Page. Therefore, it is recommended to select CMS Block Link on the - Whitelist Page Link (s) list for customers to access.
+- The selected CMS Block is the footer of **Maintenance/ Coming Soon Page**. Therefore, it is recommended to select CMS Block Link on the **Whitelist Page Link(s)** list for customers to access.
 
 #### 2.4. Social Contact
 
-- Enable: Select Yes to display social contacts at Frontend
-- Label: Label for Social Contact field
-- Label Color: Change the font color of Label
-- Social Page Link:
-- Admin can fill in the links of the social page according to the corresponding fields
-- We offer 6 basic social pages: Facebook, Twitter, Instagram, Google+, Youtube, Pinterest
-- Each field is filled with links, their icon icons will be displayed in Frontend
+- **Enable**: Select **Yes** to display social contacts at Frontend
+- **Label**: Set Label for **Social Contact** field
+- **Label Color**: Change the text color of Label
+- **Social Page Link**:
+  - Admin can fill the links of the social page according to the corresponding fields
+  - We offer 6 basic social pages: **Facebook, Twitter, Instagram, Google+, Youtube, Pinterest**
+  - Each field is filled with links, their icons will be displayed in Frontend
 
 
 ### 3. Maintenance Page Setting
 
-- Route:
-  - Hãy nhập tên đường dẫn mà hiển thị trên URL.
-  - If you leave it blank, the default route name is `mpmaintenance`.
-  - E.x https://domain.com/mpmaintenance. You can change it to anything you want
-- Select Layout: we provide 3 types of layout for the page
-- Single-column
-- Double-column
-- Double-column with Left-side content
-- Page Title:
-- Set the Title of the Page
-- If left blank, default = Under Maintenance
-- Page Description:
-- Page Description settings
-- If left blank, default = `We're currently down for maintenance. Be right back! `
-- Text Color: Change the font color of Page Title and Description
-- Logo:
-- Admin can upload the store Logo to Maintenance Page
-- Logo supports image files
-- Background Type: 3 types of Background admin can be selected
-- Image: Background is a fixed image uploaded by admin
-- Video: Background is a fixed video uploaded by admin
-- Multi-image: The background is displayed as a photo slide. Photos of the slide are uploaded by admin.
-- Select:
-- Depending on the background type, the type file is changed.
-- Only upload image file if background type is Image / Multi Image
-- Only upload mp4 files if background type is video
-- Show Progress Bar:
+- **Route**:
+  - Enter the route name which appears on the URL. 
+  - If you leave it blank, the default Route name is `mpmaintenance`. 
+  - E.x `https://domain.com/mpmaintenance`. You can change it to anything you want
+- **Select Layout**: we provide 3 types of layout for the page
+  - **Single-column**
+  - **Double-column**
+  - **Double-column with Left-side content**
+- **Page Title**:
+  - Set the Title of the Page
+  - If left blank, **default = Under Maintenance**
+- **Page Description**:
+  - Page Description settings
+  - If left blank, default = `We're currently down for maintenance. Be right back! `
+- **Text Color**: Change the text color of **Page Title** and **Description**
+- **Logo**:
+  - Admin can upload the store **Logo** to **Maintenance Page**
+  - Logo supports image files
+- **Background Type**: 3 types of Background admin can be selected as following:
+  - **Image**: Background is a fixed image uploaded by admin
+  - **Video**: Background is a fixed video uploaded by admin
+  - **Multi-image**: The background is displayed as a photo slide uploaded by admin.
+- **Select**:
+  - Depending on the background type, the type file is changed.
+  - Only upload **image files** if background type is **Image/ Multi Image**
+  - Only upload **mp4 files** if background type is **Video**
+- **Show Progress Bar**:
 
-- Select Yes to display the Progress Bar in Maintenance Page
-- This will help Customer estimate the maintenance progress of the page
-- Progress Value: Enter the maintenance percentage that the page has made.
-- Label: Enter the label for Progress bar
-- Label Color: Change the font color for Label
-- Progress Bar: Change the background color of Progress bar
-- HTTP Response Header: Send the status of the page to Google
-- 503 Service Unavailable
+  - Select **Yes** to display the Progress Bar in **Maintenance Page**
+  - This will help customer estimate the maintenance progress of the page
+- **Progress Value**: Enter the maintenance percentage that the page has made.
+- **Label**: Enter the label for **Progress bar**
+- **Label Color**: Change the font color for Label
+- **Progress Bar**: Change the background color of Progress bar
+- **HTTP Response Header**: Send the status of the page to Google
+  - **503 Service Unavailable**
 
-- 200 OK
+  - **200 OK**
 
-- Preview button: Admin can click Preview to quickly see the edited page. The Preview page has the same content as Frontend. If uploading files, need to save the configuration before previewing
+- **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview **page has the same content as Frontend. If uploading files, need to save the configuration before previewing
 
 #### 4. Coming Soon Page Setting
 
