@@ -10,11 +10,16 @@ Customer reviews have tremendous influence over making a purchase of other consu
 ```
 *Note: Mageplaza Review Reminder is totally compatible with Mageplaza SMTP extension
 ```
+## How to configure
+
+Login to Magento Admin, go to `Stores > Configuration >  Mageplaza Extensions > Review Reminder`
+
+![](https://i.imgur.com/7EhXSCP.png)
 
 ### 1. Configuration
 
 #### 1.1 General Configuration
-A bunch of fundamental configuration will assist you in modifying reminder email chains which can be accomplished just a few click. Follow this path ``Mageplaza > Review Reminder: Configuration`` then expand the **General Configuration**
+A bunch of fundamental configuration will assist you in modifying reminder email chains which can be accomplished just a few click. Follow this path ``Go to Admin Panel > Stores > Configuration >  Mageplaza Extensions > Review Reminder > Configuration`` then expand the **General Configuration**
 
 ![](https://i.imgur.com/HYXEpBO.png)
 
@@ -27,7 +32,11 @@ A bunch of fundamental configuration will assist you in modifying reminder email
   * In **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section.
   
 #### 1.2 Analytics
-To keep track statistics of sent reminder emails, Magento 2 Review Reminder is well-integrate designed for Google Analytics to let you have a comprehensive overlook for SEO staffs. This function helps store admins follow and determine from where shoppers get the link back to the completed order
+
+To keep track statistics of sent reminder emails, Magento 2 Review Reminder is well-integrate designed for Google Analytics to let you have a comprehensive overlook for SEO staffs. This function helps store admins follow and determine from where shoppers get the link back to the completed order.
+
+Go to `Admin Panel > Stores > Configuration >  Mageplaza Extensions > Review Reminder > Configuration`, choose Analytics:
+
 
 It manifests in this direct link in the frontend like 
 
@@ -47,6 +56,8 @@ In the backend, this is Google Analytics's configuration
 #### 1.3 Order Configuration
 In this section you will be able to limit which products can be sent review invitation by determine its particular SKU.
 
+Please go to `Admin Panel > Stores > Configuration >  Mageplaza Extensions > Review Reminder > Configuration`
+
 ![](https://i.imgur.com/TSOva6H.jpg)
 
 * In **Exclude SKUs** field
@@ -61,7 +72,8 @@ In this section you will be able to limit which products can be sent review invi
 ![](https://i.imgur.com/UMhTZVS.png)
 
 ### 2. Reports
-This is the place to store a number of sent Review Sent Email successfully and failed for a specific period of time. Keep track ``Mageplaza > Review Reminder: Reports`` There are two Report Time modes
+This is the place to store a number of sent Review Sent Email successfully and failed for a specific period of time. Keep track at  ``Admin Panel > Marketing > Review Reminder > Report``. There are two Report Time modes
+
 * DAY
   * When you select the **DAY** mode, adjust the **From** and **To** entries, the Report Time will be displayed on a daily basis
   * If the distance between **From** and **To** is too far apart, the distance between two days in Report Time will be increased
