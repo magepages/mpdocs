@@ -6,7 +6,7 @@ Sage Pay is the leading payment service provider (PSP) in Europe. [Mageplaza Sag
 
 Your customers can use all debit cards, credit cards, Visa, etc. And also be protected by authorizes, capture and 3D secure as well as AVS/CV2. Stores can choose to redirect customers to Sage Pay Payment page or process all the purchase right on your checkout page. 
 
-**Mageplaza Sage Pay** is fully compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and Instant Purchase and [Reports](https://www.mageplaza.com/magento-2-reports-extension/) which helps customers to order, make reports on the sales quickly and conveniently.
+**Mageplaza Sage Pay** is fully compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), Magento Instant Purchase and [Reports](https://www.mageplaza.com/magento-2-reports-extension/) which helps customers to order, make reports on the sales quickly and conveniently.
 
 ## How to download and install
 
