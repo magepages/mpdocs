@@ -1,9 +1,10 @@
 # Edit Order
 
-
 ## Overview
-Currently, Magento only allows to edit Customer Information and Address Information at the view order page. If you want to edit other information, you must go to the private Edit Order page, then the old order will automatically be canceled and the new order will be created. And can only edit other information (besides Customer and Address Information) when Order is Pending.
-But with Mageplaza Edit Order the editing becomes easier than ever. Extension allows admin to edit information at the order view page via slide popup without having to switch to another link, add Quick Edit action to be able to edit all order information at the same time. In addition, the admin allows to automatically calculate shipping fee if the order information changes
+
+Currently, Magento only allows to edit **Customer Information** and **Address Information** at the view order page. If you want to edit other information, you must go to the separated **Edit Order** page, then the old order will automatically be canceled and the new order will be created. Also. admin can only edit other information (besides Customer and Address Information) when Order is Pending.
+
+With [Mageplaza Edit Order](https://www.mageplaza.com/magento-2-edit-order/), the editing becomes easier than ever. This extension allows admin to edit information right at the order view page via slide popup without having to switch to another link. Moreover, Quick Edit action is integrated to be able to edit all order information at the same time. In addition, it allows to automatically calculate shipping fee if the order information changes.
 
 ## How to download and install
 
@@ -12,6 +13,7 @@ But with Mageplaza Edit Order the editing becomes easier than ever. Extension al
 
 
 ## How to Configuration
+
 From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Extensions > Edit Order`
 
 ![Imgur](https://i.imgur.com/jRiI98I.png)
@@ -58,7 +60,7 @@ From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select *
 
 - **Customer Email**:
   - If you select **Edit Current Customer** option. it will show the customer email in text format, allowing you to edit customer emails.
-  - If on select **Change Customer**, this field displays the form 
+  - If you select **Change Customer**, this field displays the form 
 - **First Name**: Edit customer first name. Do not leave the field blank.
 - **Middle Name/ Initial**: Edit customer middle/ initial name. Do not leave the field blank.
 - **Last Name**: Edit customer last name. Do not leave the field blank.
