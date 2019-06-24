@@ -13,34 +13,22 @@ Zoho CRM or Customer Relationship Management software is a cloud-based CRM servi
 
 ## How to use
 
-
 **Zoho CRM**:
 
 To **register** a Zoho CRM account, visit the [this link](https://www.zoho.com/crm/).
 
+![Imgur](https://i.imgur.com/qm5DDBV.png)
+
 After registering an account, visit [this link](https://accounts.zoho.com/developerconsole) to get your **Zoho API** login information when clicking **Add Client ID**. There provided with **Client Id** information, **Client Secret** you need be able to connect with Zoho CRM.
-
-
+![Imgur](https://i.imgur.com/0cFYd9x.png)
 
 Fill in the information below to **Create Zoho Client ID**.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Imgur](https://i.imgur.com/wnzzwfc.png)
 
 After click **Create** button, you get the Zoho API including **Client Id, Client Secret**, you need to save this information so you can connect to Zoho CRM.
 
-
+![Imgur](https://i.imgur.com/H5qMPa6.png)
 
 ## How to Configure
 ### 1. Configuration
@@ -99,30 +87,34 @@ Login to the Magento Admin, choose `System > Zoho CRM Integration > Manage Sync 
   - Enter the name of Sync rules
   - This is a required field
 - **Status**: Select **Active** to rule active and synchronize data to Zoho Module.
-- Data of Magento Object schools, Zoho Module, Website are taken according to the object information above before creating sync rules and can only change information when admin changes object information before creating.
-2.2.2. Conditions
+- Data of **Magento Object, Zoho Module, Website** are taken according to the object data above before creating sync rules and can only be changed when admin changes object information before creating.
+
+##### 2.2.2. Conditions
 
 
 
 
 
 
-2.2.3. Mapping Fields
+##### 2.2.3. Mapping Fields
 
-Zoho Contact Fields: Displays the fields managed by Zoho for this Module according to the selected Magento Object.
-Magento Customer Fields:
-Enter the fields of the corresponding magento object with the fields of Zoho Module.
-Leaving this column blank will get the Default Value field applied to Zoho Module.
-Description: Enter a description in the Description field. This section is only for admin note information with this rule, there is no value when processing data.
-Insert Variables: Select the fields of the Magento object corresponding to the fields of Zoho Module. Here you can select multiple display field values ​​at the same time.
-2.2.4. Queue Report
-Here record Queu information
+- **Zoho Contact Fields**: Displays the fields managed by Zoho corresponding to the selected Magento Objects.
+- **Magento Customer Fields**:
+  - Enter the fields of the corresponding Magento object with the fields of Zoho Module.
+  - Leaving this column blank will get the **Default Value** comlumn to apply to Zoho Module.
+  - **Description**: Enter a description for any note of this rule. There is no value when processing data.
+  - **Insert Variables**: Select the fields of the Magento object corresponding to the fields of Zoho Module. Here you can select multiple field values at the same time.
 
-
+##### 2.2.4. Queue Report
 
 
-3. Manage Queue
+Here records **Queue data** by rules which includes information of **Object, Event, Status. etc**. Also, there are reports of **Pending Request, Total Object, Total Request (Queue number created)**.
 
-This section records the information of Queue including Object information, Sync Rule, Magento Object, Zoho Module, .....
-Here admin can Sync All or Sync with Zoho Modules such as Sync Account, Campaign Sync, Sync Contact, Sync Lead, Sync Order, Sync Invoice, Sync Product.
-When you click on View, it will display Popup View Queue to see all information of each Queue. Select Delete to delete Queue and Resend to Resend Queue.
+
+
+
+### 3. Manage Queue
+
+- This section records the information of Queue including **Object information, Sync Rule, Magento Object, Zoho Module, and so on.**
+- Here admin can **Sync All** or **Sync with Zoho Modules** such as **Sync Account, Campaign Sync, Sync Contact, Sync Lead, Sync Order, Sync Invoice, Sync Product**.
+- When you click on **View**, it will display **Popup View Queue** to see all information of each Queue. Select **Delete** to delete Queue and **Resend** to resend Queue.
