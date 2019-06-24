@@ -60,7 +60,6 @@ Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Met
   - There are 2 Statuses that Admin can choose: **Processing and Suspected Fraud**
   
 - **Payment Action**:
-  
   - **Authorize and Capture**: Payment will be Capture immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
   - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
   
