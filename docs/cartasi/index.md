@@ -16,7 +16,7 @@ Mageplaza CartaSi extension is fully compatible with [Mageplaza One Step Checkou
 
 **Redirect CartaSi Checkout**: This section has been configured by admin to redirect customers to the **CartaSi Payment Gateway** to make payment there.
 
-![Imgur](https://i.imgur.com/Kqh0vmr.png)
+![](https://i.imgur.com/Kqh0vmr.png)
 
 ## How to Configure
 
@@ -24,13 +24,13 @@ Mageplaza CartaSi extension is fully compatible with [Mageplaza One Step Checkou
 
 Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Method > CartaSi`.
 
-![Imgur](https://i.imgur.com/6fBcCLp.png)
+![](https://i.imgur.com/6fBcCLp.png)
 
 - **Enable**: Select **Yes** to enable the module's feature and use the payment methods supported by CartaSi.
 
 #### 1.1. Credentials
 
-![Imgur](https://i.imgur.com/n13nqmR.png)
+![](https://i.imgur.com/n13nqmR.png)
 
 - **Environment**:
   - Admin can choose **Sandbox** environment to check payment feature by CartaSi
@@ -47,11 +47,11 @@ Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Met
 
 - **Get Test URL** button: Admin can check your app by clicking the **Get Test URL** button. If **Merchant Alias & MAC Calculation Secret Key** is filled correctly, admin can check one sample order by CartaSi payment method.
 
-![Imgur](https://i.imgur.com/IxFfObI.png)
+![](https://i.imgur.com/IxFfObI.png)
 
 #### 1.2. General Setting
 
-![Imgur](https://i.imgur.com/LTKmfba.png)
+![](https://i.imgur.com/LTKmfba.png)
 
 - **Title**: Enter the title of the payment method displayed on the checkout page.
 
@@ -60,6 +60,8 @@ Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Met
   - There are 2 Statuses that Admin can choose: **Processing and Suspected Fraud**
   
 - **Payment Action**:
+
+
   - **Authorize and Capture**: Payment will be Capture immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
   - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
   
@@ -86,4 +88,4 @@ Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Met
 
 ### 2. Order Frontend
 
-![Imgur](https://i.imgur.com/fQ4zMMy.png)
+![](https://i.imgur.com/fQ4zMMy.png)
