@@ -54,24 +54,32 @@ Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Met
 ![Imgur](https://i.imgur.com/LTKmfba.png)
 
 - **Title**: Enter the title of the payment method displayed on the checkout page.
+
 - **New Order Status**:
   - Set Status for Order to be set by CartaSi payment method
   - There are 2 Statuses that Admin can choose: **Processing and Suspected Fraud**
+  
 - **Payment Action**:
   - **Authorize and Capture**: Payment will be Capture immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
   - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
+  
 - **Payment Page Language**: Choose 1 of 10 languages to display on the CartaSi payment page
+
 - **Payment from Applicable Countries**:
   - Select **All Countries** to have Card payment method available in all countries
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries will be shown the Card payment method
+    
 - **Minimum Order Total**:
   - Minimum amount setting for the whole order (including ship, tax, discount) to be paid by CartaSi
   - When **Order Total** reaches this limit, the new CartaSi payment method is displayed in Frontend
+  
 - **Maximum Order Total**:
   - Set the maximum amount of the whole order (including ship, tax, discount) to be paid by CartaSi
   - When Order Total exceeds this limit, CartaSi payment method will be hidden in Frontend
+  
 - **Debug mode**: If Yes, diagnostic information is stored in log files on the Magento web server.
+
 - **Sort Order**:
   - Specify the display position of this payment method compared to other payment methods
   - 0 is the largest number. The smaller the number, the more priority will be displayed in the first position.
