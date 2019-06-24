@@ -37,12 +37,12 @@ Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Met
   - When you want to apply for online payment, admin needs to change the environment to **Production**.
 - **Payment Page URL**:
   - The URL to which the customer is redirected when paying with CartaSi
-  - For Sandbox environment, URL = https://int-ecommerce.nexi.it/ecomm/ecomm/DispatcherServlet
-  - With Production environment, URL = https://ecommerce.nexi.it/ecomm/ecomm/DispatcherServlet
+  - For Sandbox environment, `URL = https://int-ecommerce.nexi.it/ecomm/ecomm/DispatcherServlet`
+  - With Production environment, `URL = https://ecommerce.nexi.it/ecomm/ecomm/DispatcherServlet`
   - You can refer more information [here](https://ecommerce.nexi.it/specifiche-tecniche/codicebase/introduzione.html)
 - **Merchant Alias & MAC Calculation Secret Key**:
   - Depending on the solution Admin wants to use when checkout, **Merchant Alias and MAC Calculation Secret Key** will change
-  - There are 4 main solutions: **Simple payment** in Frontend, **Periodic payment/ OneClick in Frontend, Simple payment in Backend, Recurring payment in Backend**
+  - There are 4 main solutions: **Simple payment in Frontend**, **Periodic payment/ OneClick in Frontend, Simple payment in Backend, Recurring payment in Backend**
   - You can refer [here](https://ecommerce.nexi.it/area-test)
 
 - **Get Test URL** button: Admin can check your app by clicking the **Get Test URL** button. If **Merchant Alias & MAC Calculation Secret Key** is filled correctly, admin can check one sample order by CartaSi payment method.
