@@ -77,36 +77,58 @@ Beside the existing conditions of Magento, we also add a number of conditions to
 
 Click (+) to select conditions for rules with **Orders subselection**.
 
-- Choose different conditions here. Example: "If total paid amount equals or greater than 50 for a subselection of orders matching ALL of these conditions (leave blank for all orders)". If only the condition is selected here - without the extra conditions, it will apply to all orders.
+- Choose different conditions here. Example: "If **total paid amount equals or greater than $50** for a subselection of orders matching ALL of these conditions (leave blank for all orders)". If only the condition is selected here - without the extra conditions, it will apply to all orders.
 
 
 
-
-
-
-
-
-
-
-Admin can choose to add extra conditions to attract your customers. Special offer for each customer group. Example: "If total paid amount equals or greater than $ 50 for a subselection of orders matching ALL of these conditions (leave blank for all orders) and Order Status contains Complete". If customer satisfies the selected conditions, discount will apply.
+- Admin can choose to add extra conditions to attract your customers. Example: "If **total paid amount equals or greater than $50** for a subselection of orders matching ALL of these conditions (leave blank for all orders) and **Order Status** contains **Complete**". If customer order satisfies the selected conditions, discount will apply.
 
 #### 2.2.3. Actions
 
-- Apply: Select Discount Type for rules to apply a discount.
-- Percent of product price discount: Reduce the price of goods by subtracting a percentage from the original price. Discount applies to each eligible item in the cart. Example: Discount Amount is 10. So if you meet the conditions, you will get a 10% discount from the original price.
-- Fixed amount discount: Discount the product by deducting the fixed amount discount from the original price of each eligible item in the cart. Example: Discount Amount is 10. So will get a discount of $ 10 from the original price.
-- Fixed amount discount for whole cart: Discount the entire cart by subtracting one Fixed amount from the total amount in the cart. -  - - Example: Discount Amount is 10. So will get a discount of $ 10 for the total amount of the entire cart.
-- To-fixed amount discount: discount only to fixed amount compared to Subtotal of each product. For example: Discount Amount is 10, - - - Discount Qty Step is 30. So when in the cart with each Subtotal product with $ 30, the amount paid for that product is only $ 10.
-- Buy X get Y free (discount amount is Y): Determine the amount that customers must buy to receive free quantities. For example: - ----- - Discount Amount (get Y) is 1, Discount Qty Step (Buy X) is 3. So if the condition is satisfied, when customers buy 3 products of the same type, if you buy the fourth product, it is still that product. If you buy Buy 3 tee shirts and get the 4th, you will receive a fourth product promotion.
-- For each $ X spent, get $ Y discount: Determine the amount that customers have to buy with each product to receive a discounted amount. Example: Discount Amount (get $ Y) is 1, Discount Qty Step (Buy X) is 30. So when you have a cart with each Subtotal product with $ 30, you will get a discount of $ 1. Discounts for Subtotal products <$ 30 will not apply.
-- For each $ X spent, get $ Y discount for the whole cart: Determine the amount that customers have to buy to receive a discounted amount compared to the entire cart. For example: Discount Amount (get $ Y) is 1, Discount Qty Step (Buy X) is 30. So the entire cart has a Subtotal of $ 30 and will be reduced by $ 1.
-- Discount Amount: Enter the discounted amount in the Discount Amount field.
-- Maximum Qty Discount is Applied To: Enter the maximum number of same products that may be eligible for a discount in the same cart. If the quantity of the same product exceeds the maximum permitted quantity, the discount will not be applied.
-- Discount Qty Step (Buy X): Enter the amount in the Discount Qty Step (Buy X) field that the customer must purchase to receive the discount. For example: If you choose to apply a discount type For each $ X spent, get $ Y discount, Discount Qty Step (Buy X), then 30, you must buy with the Subtotal of each product in the cart to reach or exceed $ 30. Discount will apply. If the Subtotal is not reached $ 30, there is no discount for that product.
-- Maximum Discount Type: Choose the maximum discount for each rule:
-- No: there is no limit to the discount according to each rule.
-- Fixed amount: apply maximum discount for rules for rules with Maximum Discount Type is Fixed amount. Show more fields:
-- Maximum Discount Amount: Enter the maximum discountable amount according to Fixed amount to apply the discount for the entire cart. - - Example: Maximum Discount Amount is 10. So the maximum discount amount is no more than $ 10 compared to the entire cart.
-- Percent of cart subtotal: Maximum discount for all shopping carts in rules with Maximum Discount Type is Percent of cart subtotal. Show more fields:
-- Maximum Discount Amount: Enter the maximum amount that can be discounted by Percent of cart subtotal to apply the discount for the entire cart. Example: Maximum Discount Amount is 10. So the maximum discount amount should not exceed 10% of the entire cart.
-- Note: Apply the maximum discount amount for each rule when the Configuration section with general field of Maximum Discount Type is not selected. Priority consider the amount of discount for
+- **Apply**: Select **Discount Type** for promotion rules.
+
+- **Percent of product price discount**: Discount by a percentage from the original price. Discount applies to each eligible item in the cart. Example: **Discount Amount** is 10. So if any product meets the conditions, it will get a 10% discount from the original price.
+
+- **Fixed amount discount**: Discount by a fixed amount from the original price of each eligible item in the cart. Example: **Discount Amount** is 10. So will get a discount of 10 from the original price.
+
+- **Fixed amount discount for whole cart**: Discount the entire cart by a Fixed amount from the total amount in the cart.  Example: **Discount Amount** is 10. So will get a discount of $10 for the total cart amount. 
+
+- **To-fixed amount discount**: Discount only to a fixed amount compared to Subtotal of each product. For example: **Discount Amount** is 10, **Discount Qty Step** is 30. So when in the cart with each **Subtotal** product with $30, the amount paid for that product is only $10.
+
+- **Buy X get Y free (discount amount is Y)**: Set the quantity that customers must buy to receive free quantities. For example: **Discount Amount (get Y)** is 1, **Discount Qty Step (Buy X)** is 3. So if the condition is satisfied, when customers buy 3 products of the same type, if you buy the fourth product, it is still that product. If you buy Buy 3 tee shirts, you will receive a fourth product for free.
+
+- **For each $X spent, get $Y discount**: Set the amount that customers have to buy with each product to receive a discounted amount. Example: **Discount Amount (get $Y)** is 1, **Discount Qty Step (Buy X)** is 30. So when you have a cart with each **Subtotal** product is $30, you will get a discount of $1. Subtotal products price is smaller than $30 will not be applied discount.
+
+- **For each $X spent, get $Y discount for the whole cart**: Set the amount that customers have to buy to receive a discounted amount over the whole cart. For example: **Discount Amount (get $Y)** is 1, **Discount Qty Step (Buy X)** is 30. So the entire cart has a Subtotal of $30 and will be discounted by $1.
+
+- **Discount Amount**: Enter the discounted amount in the **Discount Amount** field.
+
+- **Maximum Qty Discount is Applied To**: Enter the maximum number of same products that can be eligible for a discount in the same cart. If the quantity of the same product exceeds the maximum permitted quantity, the discount will not be applied. If you leave this field blank or fill in 0 here, there will be no limited for same product quantity eligible for discount.  
+- **Discount Qty Step (Buy X)**: Enter the amount in the Discount Qty Step (Buy X) field that the customer must purchase to receive the discount. For example: If you choose to apply a discount type For each $ X spent, get $ Y discount, Discount Qty Step (Buy X), then 30, you must buy with the Subtotal of each product in the cart to reach or exceed $ 30. Discount will apply. If the Subtotal is not reached $ 30, there is no discount for that product.
+
+- **Maximum Discount Type**: Choose the maximum discount for each rule:
+  - **No**: there is no limit to the discount according to each rule.
+  - **Fixed amount**: apply maximum discount for rules with **Maximum Discount Type** is **Fixed amount**. Choose this will show an extra field:
+    - **Maximum Discount Amount**: Enter the maximum discount amount according to **Fixed amount** to apply the discount for the whole cart. Example: **Maximum Discount Amount** is 10. So the maximum discount amount is no more than $10 of the whole cart value.
+  - **Percent of cart subtotal**: Maximum discount for all shopping carts in rules with **Maximum Discount Type** is **Percent of cart subtotal**. Choose this will show an extra field:
+    - **Maximum Discount Amount**: Enter the maximum amount that can be discounted by **Percent of cart subtotal** to apply the discount for the whole cart. Example: **Maximum Discount Amount** is 10. So the maximum discount amount should not exceed 10% of the whole cart value.
+  
+- **Note**: Apply the maximum discount amount for each rule when the **Configuration** section with general field of **Maximum Discount Type** is not selected at the same time. The priority is to consider the discount amount for the whole cart in the **Configuration** section with general.
+
+- **Apply to Shipping Amount**: Select **yes** to apply the discount for **Subtotal** and **Shipping Amount**.
+- **Discard subsequent rules**: Select **Yes** to stop applying other rules after this rule is applied
+- **Free Shipping**: If the order is satisfied with the rule, select the option for Free Shipping configuration: 
+  - **No**
+  - **For matching items only**
+  - **For shipment with matching items**
+
+- **Addition Item Action**: Choose additional conditions to apply product discounts:
+- **Cheapest item**: apply discount for the product with the lowest price in cart. Show an extra field:
+  - **Number of products are Applied To**:
+    - Enter the number in the field **Number of products are Applied To**. Example: The input value for the field is 3. In the cart there are 4 products: A ($ 10), B ($ 20), C ($ 30), D ($ 40). So disocunt will be applied for products A, B and C.
+    - If left blank or fill in 0, there is default one product is applied for discount. 
+    
+- **Expensive item**: apply discount for the most expensive product in cart. Show an extra field:
+  - **Number of products are Applied To**:
+    - Enter the number in the field **Number of products are Applied To**. Example: The input value for the field is 3. In the cart there are 4 products: A ($ 10), B ($ 20), C ($ 30), D ($ 40). So disocunt will be applied for products B, C and D.
+    - If left blank or 0, there is default one product is applied for discount. 
