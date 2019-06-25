@@ -226,7 +226,7 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
 
 ##### 1.3. Popup Banner
 
-![Imgur](https://i.imgur.com/DyjinKZ.gif)
+![Imgur](https://i.imgur.com/CNa8xAQ.gif)
 
 ##### 1.4. Floating Banner
 
@@ -260,19 +260,19 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
 
 ##### 2.5. Under Add To Cart Button (Product Details Page)
 
-![Imgur](https://i.imgur.com/PI02jBB.png)
+![Imgur](https://i.imgur.com/zHYDCct.png)
 
 ##### 2.6. Under Total Order (Cart View Page)
 
-![Imgur](https://i.imgur.com/dDDJjzA.png)
+![Imgur](https://i.imgur.com/Lw21gZa.png)
 
 ##### 2.7. Checkout Page
 
-![Imgur](https://i.imgur.com/6pt8gmS.png)
+![Imgur](https://i.imgur.com/QsisM4v.png)
 
 ##### 2.8. Mageplaza One Step Checkout Page
 
-![Imgur](https://i.imgur.com/bV1on62.png)
+![Imgur](https://i.imgur.com/Htn9WpH.png)
 
 #### 3. Snippet Code
 
