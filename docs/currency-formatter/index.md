@@ -45,13 +45,14 @@ Configure the currency format for all currency enabled by the store
 ![Imgur](https://i.imgur.com/8fPGUGE.png)
 
 
-##### Currencies:
+#### Currencies:
 - Displays the name of the currency enabled by the store
 - If choosing **Use System** checkbox, the default template of magento will be used.
 
 #### Template:
 
 - **Show symbol**: Select the display position for the currency symbol. There are 5 options: **Before value with space options, Before value, After value with space, After value and None**:
+  
   ![Imgur](https://i.imgur.com/ODbN10i.png)
   - **Before value with space**: The currency symbol displays before the numeric value. There is a space between symbol and the numerical value. For example: $ 100
   - **Before value**: Currency symbol displayed before numeric value, but between symbol and numeric value there is no space. For example: $100
@@ -62,6 +63,7 @@ Configure the currency format for all currency enabled by the store
 - **Symbol**: Select the currency symbol. For example, if you enter Symbol = $, the currency symbol in currency format is $ which is displayed at the price of the product is $ 100.
 
 - **Group separator**: Choose a way to display the thousandth value separator.
+  
   ![Imgur](https://i.imgur.com/NdcShEr.png)
   - **Dot (.)**: The thousands value is separated by dots, for example: 1.000
   - **Comma (,)**: The thousandth value is separated by commas, for example: 1,000
@@ -75,6 +77,7 @@ For example: Decimal number = 2, there will be 2 decimal numbers. The product pr
 ![Imgur](https://i.imgur.com/oja1BLv.png)
 
 - **Decimal separator**: Select an symbol to separate the integral and decimal value.
+  
   ![Imgur](https://i.imgur.com/cTOSFoR.png)
   - **Dot (.)**: The integral and decimals are separated by dots, for example: 100.1
   - **Comma (,)**: The integer and decimal are separated by commas, for example: 100,1
