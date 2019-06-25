@@ -133,7 +133,7 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
 
 ##### 3.4. Floating Banner
 
-![Imgur](https://i.imgur.com/4g2eGYX.png)
+![Imgur](https://i.imgur.com/MdECF8A.png)
 
 - Select **Promo Banner Type = Floating Banner**: The display type of promo banner is floating.
 - **Select Floating Banner**: Click **Choose File** to upload image for Floating banner. 
@@ -142,7 +142,7 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
 
 ##### 3.5. HTML Text
 
-![Imgur](https://i.imgur.com/wOI73eG.png)
+![Imgur](https://i.imgur.com/OnylqZu.png)
 
 - Choose **Promo Banner Type = HTML Text**: The display style of promo banner is HTML Text.
 - **Text Content**:
@@ -184,7 +184,7 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
     - **Display on Category Page**: Select the position at category page to display promo banner.
     - **Display on Product Page**: Select **Yes** to allow promo banner to be shown in the product page.
     
-![Imgur](https://i.imgur.com/DiZ30HL.png)
+![Imgur](https://i.imgur.com/glsF10O.png)
 
 ##### 4.2. Apply to Design as Floating Banner
 
