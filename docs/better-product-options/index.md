@@ -29,7 +29,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Bet
   - If **No** is selected, by default the options will not link to the template.
 - **Result after removing template**:
   - If **Delete the linked products options** is selected, when the template is deleted, the options in the products linked to this template are also deleted
-  - If you select **Update the current linked products options**, when the template is deleted, the options in the products linked to this template before will not be linked with that template anymore.
+  - If you select **Unlink the current linked products options**, when the template is deleted, the options in the products linked to this template before will not be linked with that template anymore.
 
 
 ### 2. Product Option Templates Grid
