@@ -73,7 +73,7 @@ Login to the Admin Magento, choose `Stores > Configuration > Mageplaza > Admin P
 
 - **Can Create New**: Select **Yes** to allow the admin account to create new customers.
 - **Allow Action (s)**: Set the Action that the admin is allowed to use with Customer:
-  - **View: Admin is only allowed to see customers authorized.
+  - **View**: Admin is only allowed to see customers authorized.
   - **Edit**: Admin is allowed to edit the information that customers are authorized.
   - **Delete**: Admin is allowed to view and delete Customer created by new and authorized customers.
 - **Apply for**: Customer settings where the admin account is allowed to perform actions at **Allow Action** field
@@ -95,7 +95,7 @@ Login to the Admin Magento, choose `Stores > Configuration > Mageplaza > Admin P
  - **Specific Product Attributes**: Allow admin to perform actions with some Product Attributes selected in **Product Attribute table**.
 
 
-#### 6.User Role
+#### 6. User Role
 
 ![Imgur](https://i.imgur.com/AdY2rmB.png)
 
@@ -108,7 +108,7 @@ Login to the Admin Magento, choose `Stores > Configuration > Mageplaza > Admin P
   - **All User Roles**: Allows the admin to do actions with all User Roles.
   - **Specific User Roles**: Allows admin to do actions with some User Roles selected in the **User Role table**.
 
-#### 7.Time Valid
+#### 7. Time Valid
 
 ![Imgur](https://i.imgur.com/HGCDto7.png)
 
