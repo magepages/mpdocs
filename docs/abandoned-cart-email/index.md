@@ -4,13 +4,13 @@
 
 Cart abandonment is an action that consumers leave the website after adding a product to their virtual cart. Discount codes, Exit offers, and Security badges are some of the ways you can keep customers from recovering their carts. 
 
-[Magento 2 Abandoned Cart Email](https://www.mageplaza.com/magento-2-abandoned-cart-email/) extension will help you solve this problem. This extension assists  you determine which cart is having forgotten products, from those initial crumbs to send reminders, or be possible to send discounts to help shoppers easily recover their shopping cart and complete the checkout, which will absolutely skyrocket the value of orders, sales, profits for the store 
+[Magento 2 Abandoned Cart Email](https://www.mageplaza.com/magento-2-abandoned-cart-email/) extension will help you solve this problem. This extension assists  you to determine which cart is having forgotten products, from those initial crumbs to send reminders, or be possible to send discounts to help shoppers easily recover their shopping cart and complete the checkout, which will absolutely skyrocket the value of orders, sales, profits for the store 
 
 
 **Note**: 
 * Mageplaza Abandoned Cart Email is totally compatible with Mageplaza SMTP extension
 * The extension supports and keeps track of logged customers or entered emails by visitors when they're in the checkout page
-* The module will be run depend on the Cronjob configuration
+* The module will be run depending on the Cronjob configuration
 
 
 ## How to configure
@@ -27,15 +27,15 @@ Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Car
 ![](https://i.imgur.com/TpAPlK5.png)
 
 * **Enabled**: select “Yes” to enable Mageplaza Abandoned Cart Email extension
-* **Send Email to Subscribers Only**: Select **Yes**, only sending abandoned cart eamil to registed and subscribed customers. If select **No**, sending email to all abandoned carts of registed customers which are satisfy the conditions. 
+* **Send Email to Subscribers Only**: Select **Yes**, only sending abandoned cart email to registered and subscribed customers. If select **No**, sending email to all abandoned carts of registered customers which satisfy the conditions. 
 
 * **Email**: This section is for the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
-  * In the **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
+  * In the **Sender** to choose senders entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
   * In the **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section
   * **Has coupon** is an optional selection. Choose “Yes” to submit a discount code. Coupon installation will be instructed later in [**1.3 Coupon**](https://docs.mageplaza.com/abandoned-cart-email/index.html#coupon)
-  * Click the trash can icon ![](https://i.imgur.com/62D0Zqz.png) to delete a email
+  * Click the trash can icon![](https://i.imgur.com/62D0Zqz.png) to delete a email
   * Click the Send test icon to send a test email. To send a test mail successfully, admin has to provide at least one email address in the field ``Send Test Email to``. This feature is available for multi-stores also.
 * **Send Test Email To**: This field is required only for the sending test email purpose. To guarantee that customers' data will not be leaked, only the most recent abandoned cart's information which belongs to a guest can be sent to this test email.
   
@@ -62,7 +62,7 @@ Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Car
 * In the **Rule** field: choose a principle to generate a discount code
   * Only those rules that are activated and generated automatically will be displayed in the configuration
   * How to create rules in `Marketing > Cart Price Rules` guide can be found [here](https://www.mageplaza.com/kb/how-create-a-cart-price-rule-in-magento-2.html)
-* In the **Valid** field: Where to change expiration date of a discount code
+* In the **Valid** field: Where to change the expiration date of a discount code
   * The discount code is only used during the time set since the code was created
   * Time will be counted in hour(s)
   * Discount code can’t be applied if this section is blank
@@ -138,7 +138,7 @@ From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
 
 * Here will show statistics about Abandoned Cart Checkout 
 * Display statistics on checkout cart and abandoned cart grid about quantity, rate (%), total revenue ($)
-* Display statistics tables about abandoned cart after send email (ACE):
+* Display statistics tables about abandoned cart after sending email (ACE):
 * Statistics the number of abandoned cart after sending abandoned cart email
   * Number of emails sent
   * The amount can be saved after sending an email
@@ -155,7 +155,7 @@ From the Admin Panel, select `Marketing > Abandoned Cart Email > Abandoned Produ
 
 ![](https://i.imgur.com/nUff3Vp.png)
 
-- Here listing 5 most abandoned products by time filter + group by. Each product will be shown in one specific lolor. 
+- Here listing 5 most abandoned products by time filter + group by. Each product will be shown in one specific color. 
 
 ![](https://i.imgur.com/mg5kSBm.png)
 - Display information of abandoned products by time filter, **sort by = Abandoned Time** (number of times to be abandoned). The information includes:
