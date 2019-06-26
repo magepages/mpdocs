@@ -59,8 +59,11 @@ From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select *
 ![](https://i.imgur.com/DWqeg2l.png)
 
 - **Customer Email**:
-  - If you select **Edit Current Customer** option. it will show the customer email in text format, allowing you to edit customer emails.
-  - If you select **Change Customer**, this field displays the dropdown allowing customers to choose their existed account on your store. 
+  - If you select **Edit Current Customer** option, it will show the customer email in text format, allowing you to edit customer emails.
+  - If you select **Change Customer**, it will show a input ext box with **Select** button. Click on **Select** to show a filterable grid to choose one existed account on your store.
+  
+  ![](https://i.imgur.com/VJpzkM9.png)
+  
 - **First Name**: Edit customer first name. Do not leave the field blank.
 - **Middle Name/ Initial**: Edit customer middle/ initial name. Do not leave the field blank.
 - **Last Name**: Edit customer last name. Do not leave the field blank.
@@ -102,16 +105,14 @@ Example: Shipping Fee = $5, Tax = $2, Discount = $4, thus Total Fee = 5 + 5 * 2/
 
 From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **Quick Edit**
 
-![](https://i.imgur.com/xxDA22g.png)
-
-![](https://i.imgur.com/o6ybPPE.png?1)
+![](https://i.imgur.com/u2N3HfZ.gif)
 
 Quick edit allows editing all order information at the same time.
 
 
 ### 3.Grid
 
-![](https://i.imgur.com/r6KA89g.png)
+![](https://i.imgur.com/gWAgIxH.png)
 
 #### 3.1. Manage Logs
 
@@ -129,4 +130,5 @@ From the Admin Panel, go to `Sales > Edit Order > Manage Logs`
 
 From the Admin Panel, go to `Sales > Edit Order > Manage Logs`, select **View Logs**
 
-![](https://i.imgur.com/BqJgzLB.png)
+![](https://i.imgur.com/QNNVo5J.png)
+
