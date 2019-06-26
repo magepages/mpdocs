@@ -21,7 +21,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza > Better Product
 ### 1. General Configuration 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Better Product Options > General Configuration`
 
-![Imgur](https://i.imgur.com/OfXIWKj.png)
+![Imgur](https://i.imgur.com/wnQzNYp.png)
 
 - **Enable**: Select **Yes** to enable the **Better Product Options** module
 - **Link Options by Default**:
@@ -132,18 +132,18 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 ## Frontend
 
-#### Image of ***Option Type = Text*** on Product View Detail page
+- Image of ***Option Type = Text*** on Product View Detail page
 
 ![Imgur](https://i.imgur.com/CbRLd3I.png)
 
-#### Image of ***Option Type = File*** on Product View Detail page
+- Image of ***Option Type = File*** on Product View Detail page
 
 ![Imgur](https://i.imgur.com/aHcQYLt.png)
 
-#### Image of ***Option Type = Select*** on Product View Detail page
+- Image of ***Option Type = Select*** on Product View Detail page
 
 ![Imgur](https://i.imgur.com/RrAgxs4.png)
 
-#### Image of ***Option Type = Date Time*** on Product View Detail page
+- Image of ***Option Type = Date Time*** on Product View Detail page
 
 ![Imgur](https://i.imgur.com/V883rOc.png)
