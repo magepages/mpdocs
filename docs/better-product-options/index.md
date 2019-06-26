@@ -57,8 +57,8 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 - **Name**: Set a name for template. This is a required field.
 - **Description**: Add a description for the template.
 - **Status**:
-  - **Enable**: Active the template
-  - **Disable**: Disable the template, then the options for this template will be hidden at the frontend/ cart.
+  - **Yes**: Active the template
+  - **No**: Disable the template, then the options for this template will be hidden at the frontend/ cart.
 
 #### 3.2. Customizable Tab Options
 
