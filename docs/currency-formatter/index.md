@@ -42,8 +42,7 @@ Login to Magento Admin, Select `Stores > Settings > Configuration > Mageplaza > 
 
 Configure the currency format for all currency enabled by the store
 
-![](https://i.imgur.com/8fPGUGE.png)
-
+![](https://i.imgur.com/dswJCeC.png)
 
 #### 1.1.1 Currencies:
 - Displays the name of the currency enabled by the store
