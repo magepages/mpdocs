@@ -45,7 +45,7 @@ Configure the currency format for all currency enabled by the store
 ![](https://i.imgur.com/8fPGUGE.png)
 
 
-#### Currencies:
+#### 1.1.1 Currencies:
 - Displays the name of the currency enabled by the store
 - **Use System** (For **Store View: Default Config**):
 
@@ -62,7 +62,7 @@ Configure the currency format for all currency enabled by the store
   ![](https://i.imgur.com/8oWtvmR.png)
   - Click to **Use Website** checkbox, template is auto loaded using website template
 
-#### Template:
+#### 1.1.2 Template:
 
 - **Show symbol**: Select the display position for the currency symbol. There are 5 options: **Before value with space options, Before value, After value with space, After value and None**:
   
@@ -105,7 +105,7 @@ For example: Decimal Digit(s) = 2, there will be 2 decimal numbers. The product 
   - **Before symbol**: minus sign displayed before the currency symbol. For example: -$ 100
   - **After symbol**: minus sign displayed after the currency symbol. Example: $ 100-
   
-#### Preview:
+#### 1.1.3. Preview:
 
 Preview the format of the currency configured in the template section
 
