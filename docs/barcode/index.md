@@ -62,7 +62,7 @@ From the Admin panel, go to `Stores > Settings > Configuration > Mageplaza > Bar
 - **Attribute for Barcode**: Select the coded attribute to scan barcode.
 - **For example**: Attribute for **Barcode = SKU**, module then will use the product SKU to encode into barcode. When scanning the barcode, we get the SKU of the product.
 - **Barcode number template**: Sample format to generate barcode codes, Example: **MPBC-[4AN]-[3A]-[5N]** => The generated barcode may be **MPBC-J34T-OEC-54354**
-- **Auto generate barcode**: Click **Run** to automatically generate barcode for Product without barcode. If you want to create a barcode for a product which has barcode before, please tick "Regenerate?". And **Save Config** before **Run**. To create barcode faster, you can use this command `php bin/magento mpbarcode: autogen command`
+- **Auto generate barcode**: Click **Run** to automatically generate barcode for Product without barcode. If you want to create a barcode for a product which has barcode before, please tick **Regenerate?**. And **Save Config** before **Run**. To create barcode faster, you can use this command `php bin/magento mpbarcode: autogen command`
 
 
 #### 1.2. Barcode Design
