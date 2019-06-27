@@ -4,7 +4,7 @@
 
 Currently, Magento only allows editing **Customer Information** and **Address Information** at the view order page. If you want to edit other information, you must go to the separated **Edit Order** page, then the old order will automatically be canceled and the new order will be created. Also, admin can only edit other information (besides Customer and Address Information) when Order is Pending.
 
-With [Mageplaza Edit Order](https://www.mageplaza.com/magento-2-edit-order/), the editing becomes easier than ever. This extension allows admin to edit information right at the order view page via slide popup without having to switch to another link. Moreover, Quick Edit action is integrated to be able to edit all order information at the same time. In addition, it automatically calculates the shipping fee if the order information changes.
+With [Mageplaza Edit Order](https://www.mageplaza.com/magento-2-edit-order/), the editing becomes easier than ever. This extension allows admin to edit information right at the order view page via slide popup without having to switch to another link. Moreover, Quick Edit action is integrated to be able to edit all order information at the same time. 
 
 ## How to download and install
 
@@ -21,7 +21,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
 ### 1. Configuration
 From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extensions > Edit Order`, select **General**
 
-![](https://i.imgur.com/ELfu8sj.png)
+![](https://i.imgur.com/b0uwZyo.png)
 
 - **Enable**: Select **Yes** to turn on the Module.
 - **Apply For Order With Status**:
@@ -30,15 +30,15 @@ From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extens
 - **Enable Quick Edit**:
   - Select **Yes** to display the **Quick Edit** button at the **Edit Order** page.
   - When clicked, the slide popup display can edit all information at the **Edit Order** page.
-- **Auto Recalculate Shipping Fee**: Choose **Yes** to automatically apply new shipping fee if there is any update on ordered products and shipping addresses. 
 
 
 ### 2. Edit Order
 
 #### 2.1. Edit Order Information
+
 From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, choose **Edit Order Information**
 
-![](https://i.imgur.com/00HhSiY.png?1)
+![](https://i.imgur.com/WLg7rn6.png)
 
 - **Order Number**:
   - Edit the order number, the same as the previous order.
@@ -52,7 +52,7 @@ From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, choose **
 #### 2.2. Edit Customer Information
 From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select **Edit Customer**
 
-![](https://i.imgur.com/SNw34rV.png?1)
+![](https://i.imgur.com/QCBIoAz.png)
 
 - **Select**: Choose to edit customer information
 
@@ -62,7 +62,7 @@ From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select *
   - If you select **Edit Current Customer** option, it will show the customer email in text format, allowing you to edit customer emails.
   - If you select **Change Customer**, it will show a input ext box with **Select** button. Click on **Select** to show a filterable grid to choose one existed account on your store.
   
-  ![](https://i.imgur.com/VJpzkM9.png)
+  ![](https://i.imgur.com/uCepVb1.png)
   
 - **First Name**: Edit customer first name. Do not leave the field blank.
 - **Middle Name/ Initial**: Edit customer middle/ initial name. Do not leave the field blank.
@@ -72,40 +72,28 @@ From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select *
 
 #### 2.3. Edit Billing Address/ Edit Shipping Address
 
-From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **Edit Billing Address/ Edit Shipping Address**
+From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **Edit** at **Edit Billing Address/ Edit Shipping Address**
 
 Display information same as Magento but Edit Order extension will show Billing and Shipping Addresses via slide popup right at that view order page.
 
-![](https://i.imgur.com/vw2Y3YR.png?1)
+![](https://i.imgur.com/vyPA0jx.png)
 
-![](https://i.imgur.com/Du0ozDI.png?1)
+![](https://i.imgur.com/j2MvYzH.png)
 
 #### 2.4. Edit Payment Method
 
 From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select **Edit Payment Method**
 
-![](https://i.imgur.com/spBmZcT.png?1)
+![](https://i.imgur.com/hjjyWIP.png)
 
 Choose the available payment method at your store.
 
-#### 2.5. Edit Shipping Method
 
-From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select **Edit Shipping Method**
-
-![](https://i.imgur.com/NWN9QyM.png?1)
-
-Select Shipping Method. Admin can change the fields in Shipping section. Total Fee will be recalculated as follows: 
-
-**Total Fee = Shipping Fee + Shipping Fee * Tax/100 - Discount**
-
-Example: Shipping Fee = $5, Tax = $2, Discount = $4, thus Total Fee = 5 + 5 * 2/100 - 4 = $1.1
-
-
-#### 2.6. Quick Edit
+#### 2.5. Quick Edit
 
 From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **Quick Edit**
 
-![](https://i.imgur.com/u2N3HfZ.gif)
+![](https://i.imgur.com/BtBfZS7.gif)
 
 Quick edit allows editing all order information at the same time.
 
@@ -130,5 +118,5 @@ From the Admin Panel, go to `Sales > Edit Order > Manage Logs`
 
 From the Admin Panel, go to `Sales > Edit Order > Manage Logs`, select **View Logs**
 
-![](https://i.imgur.com/QNNVo5J.png)
+![](https://i.imgur.com/Ag1IyLR.png)
 
