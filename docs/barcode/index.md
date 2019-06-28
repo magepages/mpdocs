@@ -30,6 +30,11 @@ With Barcode extension, admin can perform the following actions:
 
 ![](https://i.imgur.com/67QNYoT.png)
 
+***Product Attribute = Product Name***
+
+![](https://i.imgur.com/pfIpYnC.png)
+
+
 ### Design barcode: 
 
 Choose **Barcode Type**, **Label Content** and **Printing Paper** by the available templates. 
