@@ -165,3 +165,303 @@ Login to the Magento Admin, choose `Marketing > Promotions > Cart Price Rules`, 
 
 Please look at the below table, we will guide you to set up some typical rules by **Special Promotions** extension. 
 
+
+<p>&nbsp;</p>
+<table style="width: 681px;">
+<tbody>
+<tr>
+<td style="width: 38px;">
+<p><strong>Case</strong></p>
+</td>
+<td style="width: 104px;">
+<p><strong>Title</strong></p>
+</td>
+<td style="width: 259px;">
+<p><strong>Example</strong></p>
+</td>
+<td style="width: 258px;">
+<p><strong>Setting Steps</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 659px;" colspan="4">
+<p><span style="font-weight: 400;">To-fixed amount discount</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">1</span></p>
+</td>
+<td style="width: 104px;">
+<p><span style="font-weight: 400;">For each $90, discount to only $20</span></p>
+</td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">First, to receive a discount, customers must satisfy the condition that they have paid for a total amount equal to or greater than $100.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Suppose, in the shopping cart, the customer has 2 products A ($45), the subtotal is $ 90.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Result: Customers only need to pay the final amount of $20 ($70 discount)</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<p><span style="font-weight: 400;">If total paid amount equals or greater than 100 for a subselection of orders matching ALL of these conditions (leave blank for all orders).&nbsp;</span></p>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<p><span style="font-weight: 400;">Selecr Apply = To-fixed amount discount &gt; Discount Amount = 20 &gt;&nbsp; Discount Qty Step (Buy X) = 90&nbsp;&nbsp;</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">2</span></p>
+</td>
+<td style="width: 104px;">
+<p><span style="font-weight: 400;">For each $90 in price, discount to only $20 and only apply to 2 cheapest products in cart</span></p>
+</td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">First, in order to receive a discount, the customer must satisfy the condition of having purchased and paid with the total amount equal to or greater than $100 and the Order Status contains Complete.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The shopping cart contains 3 products: 2 products A ($45), 1 product B ($100), 1 product C ($47). Here, there are two products with the lowest prices, A and C, but only Subtotal A products are $90 satisfying the condition.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Result: So only product A meets the discount and will receive a discount of $70 and the amount of money paid when purchasing product A is only $20.</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If total paid amount equals or greater than 100 for a subselection of orders matching ALL of these conditions (leave blank for all orders).</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">And </span><span style="font-weight: 400;">Order Status contains Complete</span></li>
+</ul>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Choose Apply = To-fixed amount discount &gt; Discount Amount = 20 &gt;&nbsp; Discount Qty Step (Buy X) = 90&nbsp;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Additional Item Action = Cheapest item &gt;&nbsp; Qty of applied products is 2</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">3</span></p>
+</td>
+<td style="width: 104px;">
+<p><span style="font-weight: 400;">For each $90 in price, discount to only $20 and only apply to 2 most expensive products in cart&nbsp;&nbsp;</span></p>
+<br /><br /></td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">First, to receive a discount, customers must satisfy the condition that they have purchased and paid with the total amount equal to or greater than $100 and the date of order creation is equal to or smaller than the date 2019-06-26 00:00:00.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The cart contains 3 products: 2 products A ($45), 1 product B ($90), 1 product C ($47). Here, there are two most expensive products, B and C, where only Product B has a Subtotal of $ 90 that meets the condition. So product B will be reduced by $70 and the amount to be paid when buying product B is only $20 left.</span></li>
+</ul>
+<br /><br /></td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If total paid amount equals or greater than 100 for a subselection of orders matching ALL of these conditions (leave blank for all orders)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">&nbsp;And </span><span style="font-weight: 400;">Order Created Date&nbsp; equals or less than 2019-06-26 00:00:00&nbsp;</span></li>
+</ul>
+<p><span style="font-weight: 400;">2. Action</span></p>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Select Apply = To-fixed amount discount &gt; Discount Amount = 20 &gt;&nbsp; Discount Qty Step (Buy X) = 90&nbsp;</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Additional Item Action = Expensive item &gt;&nbsp; Qty of applied products is 2</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 659px;" colspan="4">
+<p><strong>For each $X spent, get $Y discount</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">4</span></p>
+</td>
+<td style="width: 104px;">
+<p><span style="font-weight: 400;">For each $30 spent, get $1 discount for each product in cart</span></p>
+</td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">First, to receive a discount, customers must satisfy the condition that they have purchased and paid with the total amount equal to or greater than $100 and the order was created in the previous 3 days.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The cart includes: 2 products A ($34), 1 product B ($22) and 1 product C ($52). So, product A is reduced by $2, C is reduced by $1, so the total amount reduced will be $3.</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If total paid amount equals or greater than 100 for a subselection of orders matching ALL of these conditions (leave blank for all orders).</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">And Order Created Within (days) is 3</span></li>
+</ul>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Select Apply = For each $X spent, get $Y discount &gt; Discount Amount = 1 &gt;&nbsp; Discount Qty Step (Buy X) = 30</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">5.&nbsp;</span></p>
+</td>
+<td style="width: 104px;">
+<p><span style="font-weight: 400;">For each $30 spent, get $1 discount for 2 cheapest products in cart</span></p>
+</td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In order to receive a discount, guests must have a total refund of 36 for an order and have a Status Order as one of Pending, Processing.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The cart includes: 2 products A ($34), 1 product B ($22), 1 product C ($52). Here, there are 2 products with the lowest prices, A and B, only Subtotal product A is $68 satisfying the condition. So it will be reduced to $2 for product A for $2.</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If total refunded amount is 36&nbsp; for a subselection of orders matching ALL of these conditions (leave blank for all orders)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">And Order Status is one of&nbsp; Pending, Processing</span></li>
+</ul>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Choose Apply = For each $X spent, get $Y discount &gt; Discount Amount = 1 &gt;&nbsp; Discount Qty Step (Buy X) = 30</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Additional Item Action = Cheapest item &gt;&nbsp; Qty of applied products is 2</span></li>
+</ul>
+<br /><br /></td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">6</span></p>
+</td>
+<td style="width: 104px;">
+<p><span style="font-weight: 400;">For each $30 spent, get $1 discount for 2 most expensive products in cart</span></p>
+</td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">In order to receive a discount, the customer must have a total refund amount of 36 for an order and the order created within the previous 3 days.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The cart includes 2 products A ($34), 1 product B ($22), 1 product C ($52). Here, there are 2 most expensive products, A and C. So the discounted price will be $3.</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If total refunded amount is 36&nbsp; for a subselection of orders matching ALL of these conditions (leave blank for all orders)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">And Order Created Within (days) is 3</span></li>
+</ul>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Select Apply = For each $X spent, get $Y discount &gt; Discount Amount = 1 &gt;&nbsp; Discount Qty Step (Buy X) = 30</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Additional Item Action = Expensive item &gt;&nbsp; Qty of applied products is 2</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 659px;" colspan="4">
+<p><span style="font-weight: 400;">For each $X spent, get $Y discount for the whole cart</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">7</span></p>
+</td>
+<td style="width: 104px;"><br />
+<p><span style="font-weight: 400;">For each 30$ spent, get $1 discount for the whole cart</span></p>
+</td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">First, to receive a discount the customer must have an average amount equal to or greater than 36 for an order and the Order Status contains Complete.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The cart includes: 2 products A ($34), 1 product B ($22), 1 product C ($52). So the Subtotal of the entire cart is $142, but only products A and C have a Subtotal of $30, so the discount will be $4 for the entire cart.</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If average amount equals or greater than 36 for a subselection of orders matching ALL of these conditions (leave blank for all orders)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">And Order Status contains&nbsp; Complete</span></li>
+</ul>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Select Apply = For each $X spent, get $Y discount for the whole cart &gt; Discount Amount = 1 &gt;&nbsp; Discount Qty Step (Buy X) = 30&nbsp;</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">8</span></p>
+</td>
+<td style="width: 104px;">
+<p><span style="font-weight: 400;">For each 30$ spent, get $1 discount for 2 cheapest products in cart</span></p>
+<br /><br /></td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">First, to receive a discount the customer must have an average amount equal to or greater than 36 for an order and the Order Status contains Complete.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The cart includes: 2 products A ($34), 1 product B ($22), 1 product C ($52). So the Subtotal of B and A which are 2 cheapest is $90 but only Product A has Subtotal from $30 so it will get a discount of $2 for the entire cart.</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If average amount equals or greater than 36 for a subselection of orders matching ALL of these conditions (leave blank for all orders)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">And Order Status contains&nbsp; Complete</span></li>
+</ul>
+<br />
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Select Apply = For each $X spent, get $Y discount for the whole cart &gt; Discount Amount = 1 &gt;&nbsp; Discount Qty Step (Buy X) = 30</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Additional Item Action = Cheapest item &gt;&nbsp; Qty of applied products is 2</span></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td style="width: 38px;">
+<p><span style="font-weight: 400;">9</span></p>
+</td>
+<td style="width: 104px;"><br />
+<p><span style="font-weight: 400;">For each 30$ spent, get $1 discount for 2 most expensive products in cart&nbsp;</span></p>
+</td>
+<td style="width: 259px;">
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">First, to receive a discount the customer must have an average amount equal to or greater than 36 for an order and the Order Status contains Complete.</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">The cart includes: 2 products A ($34), 1 product B ($22), 1 product C ($52). So Subtotal A and C which are 2 products with the most expensive price is $120, will get a discount of $ 4 for the entire cart</span></li>
+</ul>
+</td>
+<td style="width: 258px;">
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Condition</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">If average amount&nbsp; equals or greater than 36 for a subselection of orders matching ALL of these conditions (leave blank for all orders)</span></li>
+<li style="font-weight: 400;"><span style="font-weight: 400;">And Order Status contains&nbsp; Complete</span></li>
+</ul>
+<ol>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Action</span></li>
+</ol>
+<ul>
+<li style="font-weight: 400;"><span style="font-weight: 400;">Additional Item Action = Expensive item &gt;&nbsp; Qty of applied products is 2</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+
