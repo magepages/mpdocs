@@ -20,7 +20,7 @@ With Barcode extension, admin can perform the following actions:
 
 ### Select Product Attribute for barcode printing
 
-![](https://i.imgur.com/2Pv0qtK.png)
+![](https://i.imgur.com/HuG4qj0.png)
 
 ***Product Attribute = Mageplaza Barcode***
 
