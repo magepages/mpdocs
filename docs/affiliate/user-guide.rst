@@ -1,8 +1,6 @@
 Quick Guide
 =============
 
-.. include:: index
-
 Welcome to our Magento Affiliate extension Quick Start. We will bring the most necessary steps to run the module effectively in the short time.
 
 How to configure
