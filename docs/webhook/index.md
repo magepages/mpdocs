@@ -1,7 +1,7 @@
 # Webhook
 ## Overview
 
-Webhook is the configuration that allows sending the API request to another server with entities based on the event of Magento when some events occur. Thanks to Mageplaza Webhook extension, it will auto-activate an error email notification during the sending of the Hook to the customers when your store has some events as New Order, New Order Comment, New Invoice, New Customer, New Product, etc. All will be done quickly and conveniently with the help of this great module. Let's follow us to explore this plugin!
+Webhook is the configuration that allows sending the API request to another server with entities based on the event of Magento when some events occur. Thanks to Mageplaza Webhook extension, it will auto-activate an error email notification during the sending of the Hook to the customers when your store has some events as New Order, New Order Comment, New Invoice, New Customer, New Product, Subcribe, etc. Especially, the module allows sending data automatically by Every Minute, Daily, Weekly, Monthly. All will be done quickly and conveniently with the help of this great module. Let's follow us to explore this plugin!
 
 ## Download & Install
 
@@ -25,6 +25,19 @@ Login to the Magento Admin, choose `Store > Settings > Configuration > Mageplaza
 
 ![](https://i.imgur.com/Aa0tN1j.png)
 
+#### 2. Schedule For Cron
+
+![](https://i.imgur.com/8KLGcI2.png)
+
+- **Schedule For Cron**: Select the time to synchronizely send data:
+  - **Disable**: will send the data right after the event occurs. For example: Create Hook with New order, after each new order, the data will be synchronized to the app. You can see the list that has been submitted at Logs.
+  - **Every Minute**: data will be synchronized every minute.
+  - **Daily**: data is synchronized every day.
+  - **Weekly**: data will be synchronized on Monday every week 
+  - **Monthly**: data will be synchronized every month on the first day of each month.
+- **Start Time**: Only show this field when selecting **Daily/ Weekly/ Monthly**. Choose the time to synchronize data. For example: **Schedule For Cron** is **Daily**, **Start Time** is **2:30:00**, every day at 2:30:00 data will be synchronized
+- **Note**: If the logs report Error on the time priod synchronized, the system will send email notification to admin. 
+
 ### II. Manage Hook
 #### 1. Grid
 
@@ -39,9 +52,9 @@ From the Admin Panel, go to `System > Webhook > Manage Hooks`.
   - `Edit`: Click "Edit" to edit the contend of Webhook.
   
 - Also, admins can filter, change the Store View, hide/show columns on Grid.
-- For `Add New` button, you can choose `Trigger` type to `Create New Hook` and activate the data to the server.
+- For `Add New` button, you can choose `Trigger` type to `Create New Hook` and activate the data to the server. Especially, **Event Subscribe** is also supported.
 
-![](https://i.imgur.com/HU9ucq4.png)
+![](https://i.imgur.com/IEYBtHd.png)
 
 #### 2. Create a Hook
 ##### How to Create New Hook
@@ -98,18 +111,31 @@ From the Admin Panel, go to `System > Webhook > Manage Hooks`, choose `Add New` 
   
   - **Body**: With the Method as POST or PUT, etc, you need to add the content into `Content` field to send a request. Click `Insert Variable` to choose the variable.
   
+#### 3. Logs
+
+Here saved the change logs of the synchronization process of each Hook. 
+
+![](https://i.imgur.com/EcnDCeW.png)
+  
 ### III. Logs
 
 From the Admin Panel, go to `Mageplaza > Webhook > Logs`
-This section will record the Webhooks change logs as Name, Status, Entity, Message, etc. When you click on any file, it will auto-open that file.
+This section will record all the Webhooks change logs as Name, Status, Entity, Message, etc. When you click on any file, it will auto-open that file.
 
 ![](https://i.imgur.com/eFD30lA.png)
 
 #### View Log
+
 Click `View`, it will redirect the email receiver to the Logs page in order to view the detailed logs.
 
 ![](https://i.imgur.com/y4xu4Ze.png)
 
+
+## Guide to install the library
+
+Please run the below command to install module library:
+
+`composer require liquid/liquid` 
 
 
 
