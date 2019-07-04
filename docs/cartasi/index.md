@@ -58,9 +58,9 @@ Login to the Admin Magento, choose `Stores > Configuration > Sales > Payment Met
 - **New Order Status**:
   - Set Status for Order to be set by CartaSi payment method
   - There are 2 Statuses that Admin can choose: **Processing and Suspected Fraud**
-  
+
 - **Payment Action**:
-  - **Authorize and Capture**: Payment will be Capture immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
+  - **Authorize and Capture**: Payment will be Capture immediately after the Customer place order successfully. At that moment, the Customer's card will pay for the order and the Invoice will be created
   - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
   
 - **Payment Page Language**: Choose 1 of 10 languages to display on the CartaSi payment page
