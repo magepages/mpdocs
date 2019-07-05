@@ -104,6 +104,7 @@ Welcome to Mageplaza Docs
    quick-order/index
    required-login/index
    review-reminder/index
+   sagepay/index
    search/index
    security/index
    security-pro/index
