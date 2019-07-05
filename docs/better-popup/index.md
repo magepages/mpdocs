@@ -123,7 +123,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
     * The poopup won't display on the pages that contain the URL path entered
     * The URL path is separated by downlines
 
-**Note**: The priority of Exclude section is greater than the Include section.
+**Note**: The priority of Exclude section is greater than the Include section. **Include Pages** and **Include Page with URL contains** are two fields that need to enter a value to display the popup. If left blank, an error message will be displayed.
 
 
 ### When to Show
@@ -134,7 +134,7 @@ Log into the Admin Panel, go to **Store > Settings > Configuration > Mageplaza E
 
 ![](https://i.imgur.com/mkqpIRB.png)
 
-  * **When the popup appears = Exit Intent**: This means that the popup will appear when hovering away from the current page
+  * **When the popup appears = Exit Intent**: This means that the popup will appear when hovering away from the current page. It does **not** support **Exit Intent Popup on Mobile**. 
   * **When the popup appears = After page loaded**: The popup will appear when loading the page
   * **When the popup appears = After X seconds**: The popup will appear after x seconds 
 
