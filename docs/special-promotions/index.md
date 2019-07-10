@@ -158,9 +158,9 @@ Login to the Magento Admin, choose `Marketing > Promotions > Cart Price Rules`, 
 
 Please look at the below table, we will guide you to set up some typical rules by **Special Promotions** extension. 
 
-![](https://i.imgur.com/tu4BXbz.png)
+![](https://i.imgur.com/tjAjXaZ.png)
 
-![](https://i.imgur.com/EOOvZC0.png)
+![](https://i.imgur.com/6hDPu4s.png)
 
-![](https://i.imgur.com/ldf6obP.png)
+![](https://i.imgur.com/xWHPJH8.png)
 
