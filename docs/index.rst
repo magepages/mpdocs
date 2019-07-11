@@ -54,10 +54,13 @@ Welcome to Mageplaza Docs
    better-sorting/index
    better-wishlist/index
    blog-m2/index
+   cartasi/index
    call-for-price/index
    catalog-permissions/index
    configurable-products-preselect/index
    countdown-timer/index
+   cron-schedule/index
+   currency-formatter/index
    custom-order-number/index
    customer-attributes/index
    custom-stock-status/index
@@ -76,7 +79,6 @@ Welcome to Mageplaza Docs
    geoip/index
    gift-wrap/index
    google-tag-manager/index
-   google-tag-manager-m2/index
    google-recaptcha/index
    google-analytics-m2/index
    google-maps/index
@@ -94,6 +96,7 @@ Welcome to Mageplaza Docs
    order-archive/index
    order-attributes/index
    order-export/index
+   order-history/index
    order-labels/index
    payment-restriction/index
    product-attachments/index
@@ -105,6 +108,7 @@ Welcome to Mageplaza Docs
    required-login/index
    review-reminder/index
    sagepay/index
+   save-cart-and-buy-later/index
    search/index
    security/index
    security-pro/index
@@ -116,6 +120,7 @@ Welcome to Mageplaza Docs
    shipping-restriction/index
    size-chart/index
    social-share/index
+   special-promotions/index
    store-locator/index
    store-switcher/index
    store-credit/index
