@@ -27,21 +27,17 @@ From the Admin Panel, go to `Marketing > Store Credit`
 ### 1. Configuration
 #### 1.1. General Tab
 
-![](https://i.imgur.com/yiC8AaV.png)
+![](https://i.imgur.com/ih8ukIq.png)
 
 - **Enable**: Choose "Yes" to use the features of this module
 - **Enable for Customer Groups**: Only customers in the selected groups is used this extension
 - **Display Balance on Toplink**: Choose "Yes" so that the balance value of customers is displayed on the toplink
-- **Force Cancel Transaction**: In case the canceled amount is greater than the actual amount in the balance:
-  - Choose Yes, the Balance is 0
-  - Choose No, admins cannot cancel the transaction
-  
-- **Allow Refund Order to Credit Balance**: Choose "Yes" to display the text box filling the amount that the shop owner wants to refund the credit balance when the order is refunded
-- **Allow Refund Store Credit Product**: Choose "Yes" so that customers can refund Store Credit Product.
+- **Allow Refunding Orders to Credit Balance**: Choose "Yes" to display the text box filling the amount that the shop owner wants to refund the credit balance when the order is refunded
+- **Allow Refunding Store Credit Products**: Choose "Yes" so that customers can refund Store Credit Product.
 
 #### 1.2. Spending Configuration
 
-![](https://i.imgur.com/kI58jTo.png)
+![](https://i.imgur.com/2GRHtY1.png)
 
 - **Enable Spending On**: Choose Credit that can use in the backend or frontend
   
@@ -51,10 +47,10 @@ From the Admin Panel, go to `Marketing > Store Credit`
   
 - **Apply for tax**: Choose "Yes" so that Credit can be used to pay the tax fee
 - **Apply for Shipping Fee**: Choose "Yes" so that Credit can be used to pay the Shipping fee
-- **Limit Spend Amount By**: Set the number of Credit that is applied for each order
+- **Limit Spend Amount**: Set the number of Credit that is applied for each order
   - `No`: No apply the credit to pay for the order
-  - `Percenatge of Subtotal`: The number of credits that Customers can use will be equal to x% of the subtotal of the Order
-  - `Fix Amount`: Customers is only used up to x$ for each order
+  - `Percenatge of Subtotal (exclude Tax)`: The number of credits that Customers can use will be equal to x% of the subtotal of the Order (exclude Tax)
+  - `Fix Amount (exclude Tax)`: Customers is only used up to x$ for each order (exclude Tax)
   - x% (or x$) is set in the `Limit Value` field
 
 - **Limit Value**: 
@@ -62,14 +58,14 @@ From the Admin Panel, go to `Marketing > Store Credit`
   - The unit of the value will be based on the admin option selected in `Limit Spend Amount By`
   - This limit applies only to the subtotal, excluding tax and shipping charges
   
-- **Allow Refund**: Choose "Yes" so that the number of credit customers use for order will be transferred to `Credit Balance` when the order is refunded
+- **Allow Refunding**: Choose "Yes" so that the number of credit customers use for order will be transferred to `Credit Balance` when the order is refunded
 
 #### 1.3. Email Configuration
 
 ![](https://i.imgur.com/SBI71pk.png)
 
 - **Enable** : Select "Yes" to use this feature
-- **Subcribe by default**: Select "Yes" so that customers who signup a new account will automatically accept the email when credit balance is updated
+- **Subcribe Customers by Default**: Select "Yes" so that customers who signup a new account will automatically accept the email when credit balance is updated
 - **Sender**: There are 5 default Magento Senders for admins to choose: *General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2*
 - **Update Balance Email Template**:
   - The extension is installed the available Email notification for customers when their credit balance is updated
@@ -86,6 +82,9 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - In addition, admins can filter, hide/show Columns or Export Transaction
 
 #### 2.2. Add New/Edit Form
+
+From the Admin Panel, go to `Marketing > Store Credit > Credit Transactions > Create New Transaction`
+
 
 ![](https://i.imgur.com/qYCsYpg.png)
 
