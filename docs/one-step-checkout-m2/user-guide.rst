@@ -340,5 +340,4 @@ In general, Magento just displays two basic shipping methods are Flat Rate and T
 2.3.5. Add comment into Order Confirmation Email
 ''''''''''''''''''''''''''''''''''''
 
-To add comment into Order Confirmation Email, please refer the [guide here](https://www.mageplaza.com/faqs/how-add-comment-email-order-confirmations.html).
-
+To add comment into Order Confirmation Email, please refer the `guide here <https://www.mageplaza.com/faqs/how-add-comment-email-order-confirmations.html>`_
