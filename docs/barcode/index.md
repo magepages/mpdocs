@@ -216,6 +216,8 @@ Edit the information you want to import in the template file:
 - **Field separator**: Enter a separator to separate the field in the column. Default value is a comma (,)
 - **Multiple value separator**: Enter the separator to separate multiple values in the cell of 1 column. Default value is a comma (,)
   - Note: In a CSV file, comma is the default separator. To use a different character, make sure that the data in the CSV file matches the character you choose.
+- Two fields **Empty attribute value constant** and **Field Enclosure** are in default value so that you do not need to change them.
+
 
 #### Step 3: Select File to Import
 
