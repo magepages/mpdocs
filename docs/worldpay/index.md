@@ -37,12 +37,12 @@ Mageplaza WorldPay extension is fully compatible with [Mageplaza One Step Checko
 
 ![Imgur](https://i.imgur.com/ZNewEmz.png)
 
-- Display Checkout: display by 2 types when paying by Worldpay:
-  - Magento Default:
+- **Display Checkout**: display by 2 types when paying by Worldpay:
+  - **Magento Default**:
   
   ![Imgur](https://i.imgur.com/gNMbNhT.png)
 
-  - Iframe Checkout:
+  - **Iframe Checkout**:
   
   ![Imgur](https://i.imgur.com/uywkLM0.png)
 
@@ -224,7 +224,7 @@ Worldpay Yandex
 
 This section records the information of Credit Card (WorldPay) that the customer has used to make orders:
 
-![Imgur](https://i.imgur.com/FOe57yj.png)
+![Imgur](https://i.imgur.com/g91h3qm.png)
 
 #### 5.2. Admin order
 
