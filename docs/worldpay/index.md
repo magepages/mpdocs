@@ -112,9 +112,9 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
   
 - **Payment Action**:
 
-  - **Authorize and Capture**: Payment will be catured immediately after the order is placed successful. At that moment, the Customer's card will be applied for the order and the **Invoice will be created.
+  - **Authorize and Capture**: Payment will be catured immediately after the order is placed successful. At that moment, the Customer's card will be applied for the order and the **Invoice** will be created.
   
-  - **Authorize and Capture**: Payment will be catured immediately after the order is placed successful. At that moment, the Customer's card will be applied for the order and the **Invoice will be created.
+  - **Authorize and Capture**: Payment will be catured immediately after the order is placed successful. At that moment, the Customer's card will be applied for the order and the **Invoice** will be created.
   
   - **Authorize**: Payment will only be captured when admin creates an **Invoice** for Customer's order. When the **Invoice** is successfully created, admin can receive money from Customer's card.
   
