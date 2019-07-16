@@ -228,7 +228,7 @@ Worldpay Yandex
 
 This section records the information of Credit Card (WorldPay) that the customer has used to make orders:
 
-![Imgur](https://i.imgur.com/g91h3qm.png)
+![Imgur](https://i.imgur.com/ROOii8Z.png)
 
 #### 5.2. Admin order
 
