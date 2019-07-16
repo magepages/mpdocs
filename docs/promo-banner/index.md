@@ -24,7 +24,7 @@ Admin can also access `Stores > Configuration > Mageplaza > Promo Banner` to con
 
 #### 1.General
 
-![](https://i.imgur.com/d6hXRlh.png)
+![](https://i.imgur.com/VVZMNg7.png)
 
 - Select **Enable = Yes** to enable the module
 - **Promotion Category**:
@@ -34,7 +34,8 @@ Admin can also access `Stores > Configuration > Mageplaza > Promo Banner` to con
   - **Add**: Click **Add** button when you want to create a promotion category.
   - **Allow Customer to Close Promo Banner**: Select **Yes** to allow customers to turn off promo banner.
   - **Auto Close Promo Banner After**: Admin sets the auto-closing time for promo banner.
-  - **Auto-reopen schedule**: Admin set time to auto-display banner again after it is turned off. 
+  - **Auto-reopen schedule**: Admin set time to reopen the promo banner after being closed.
+    - Note: Auto-reopen will be run again if customers click **Close** button.  
 
 #### 2. Slider Banner Settings
 
@@ -202,15 +203,15 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
 
 #### 5. Trigger
 
-![](https://i.imgur.com/WRHW6cP.png)
+![](https://i.imgur.com/PTCaMWy.png)
 
 - **Auto-close after**: Admin selects the time to automatically close the Promo Banner. If you select **Use Config**, promo banner will be shown following the time in the **Configuration** section. 
 
-![](https://i.imgur.com/81lGw6g.png)
+![](https://i.imgur.com/Flimw3a.png)
 
 - **Auto-reopen schedule**: Admin choose the time to display the Promo Banner again. If you select **Use Config**, promo banner will be re-shown following the time in the **Configuration** section. 
 
-![](https://i.imgur.com/558VmjH.png)
+![](https://i.imgur.com/8MWE1vw.png))
 
 ### III. Frontend
 
