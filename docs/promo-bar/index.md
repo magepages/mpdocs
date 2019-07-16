@@ -24,7 +24,7 @@ Admin can also go to `Stores > Configuration > Mageplaza > Promo Bars` to set mo
 
 #### 1.1. General
 
-![](https://i.imgur.com/GbE0XtO.png)
+![](https://i.imgur.com/tmYtxUG.png)
 
 - Select **Enable = Yes** to enable the module.
 - **Promotion Category**:
@@ -33,7 +33,8 @@ Admin can also go to `Stores > Configuration > Mageplaza > Promo Bars` to set mo
   - **Add**: Click Add button if you want to create a promotion category.
 - **Allow Customer to Close Promo Bar**: Select **No** not to allow customers to close the promo bar.
 - **Auto Close Promo Bar After**: Admin set the time period for automatically closing the promo bar
-- **Auto-reopen schedule**: admin select the schedule to activate the promo bar again.
+- **Auto-reopen schedule**: admin select the schedule to re-open the promo bar after being closed. 
+  - Note: Auto-reopen is activated when customers click **close** button. 
 
 #### 1.2. Display Setting
 
@@ -122,8 +123,15 @@ Admin chooses the conditions to show promo bar at Checkout Page.
 
 ##### 2.1.5. Trigger Setting
 
+![](https://i.imgur.com/7p90Owq.png)
+
 - **Auto-close after**: Admin selects the time to automatically turn off Promo Bar. If you select **Use Config**, the promo bar will apply the time set in the **Configuration** section.
+
+![Imgur](https://i.imgur.com/zFncqk8.png)
+
 - **Auto-reopen schedule**: Admin choose the time to re-display Promo Bar. If you select **Use Config**, the promo bar will apply the time set in the **Configuration** section.
+
+![](https://i.imgur.com/bKgxpyX.png)
 
 ### III. Frontend
 
