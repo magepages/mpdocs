@@ -203,7 +203,7 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
 
 #### 5. Trigger
 
-![](https://i.imgur.com/PTCaMWy.png)
+![](https://i.imgur.com/Qpy7Fy6.png)
 
 - **Auto-close after**: Admin selects the time to automatically close the Promo Banner. If you select **Use Config**, promo banner will be shown following the time in the **Configuration** section. 
 
