@@ -204,7 +204,7 @@ Edit the information you want to import in the template file:
 
 #### Step 2: Configure Import Behavior
 
-![](https://i.imgur.com/tiFlSa2.png)
+![](https://i.imgur.com/5q7X7YW.png)
 
 - In the **Import Behavior** section,
   - Select the action relating to importing data in the **Import Behavior** field:
