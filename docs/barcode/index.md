@@ -219,7 +219,7 @@ Edit the information you want to import in the template file:
 
 #### Step 3: Select File to Import
 
-![](https://i.imgur.com/K8FdcTI.png)
+![](https://i.imgur.com/duj36Pn.png)
 
 - In the **Select File to Import** section, click **Choose File** to choose the file to import your categories.
   - **Note**: If **Entity File = "Mageplaza Categories Import"** then your input file must match the fields inside and the file format must be CSV.
@@ -230,13 +230,13 @@ Edit the information you want to import in the template file:
 - After entering the above information, click **Check Data** at the top right to check if the data you entered is correct.
   - If the file is valid, click **Import** is displayed in the **Validation Results** section.
   
-  ![](https://i.imgur.com/B6AzSka.png)
+  ![](https://i.imgur.com/MBQssk6.png)
 
   - Otherwise, if the upload file is invalid or your process is wrong, please correct the error reported in the message and try again.
   - Examples of displaying error messages when entering data incorrectly:
   
-  ![](https://i.imgur.com/a7bh43M.png)
+  ![](https://i.imgur.com/pmCw3Ea.png)
 
 - When the import process is complete, the system displays successful importing message. 
 
-![](https://i.imgur.com/8t0nTSB.png)
+![](https://i.imgur.com/0kjkqpK.png)
