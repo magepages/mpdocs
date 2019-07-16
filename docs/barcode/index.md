@@ -167,4 +167,76 @@ After clicking **print**, the **popup** will appear for admin to install barcode
   - At **Qty** field, admin select the number of barcode to print it out 
   - Admin can reselect the barcode and paper configuration again. Unless you can choose **Use Config Settings** to use the preset information in Configuration before
   - Admin can also preview the barcode label and paper before printing by clicking to **Preview Print Paper Type**.
+  
+### 3. Print Barcode with Import CSV
 
+By 2 ways to print the barcode above, you can only print the same number of barcode for each product in one time. **Printing barcode with Import CSV** file allows printing multiple barcodes, each barcode has different number.
+
+Visit the **Product Grids** page, click the **Import Barcode** button. This will display the popup **Print Import Barcode Label**.
+
+![](https://i.imgur.com/mu1WNqf.png)
+
+- Here, you only need to import the CSV file with the SKU and the number of barcode labels you want to print accordingly. Click **Check** and **Show** to check the CSV file imported and display the list of products that want to print barcode.
+
+- At **Grid**,it displays the list of products that can print barcode, you can change the number of barcode you want to print by checking the checkbox before the product name and changing the quantity at the **Quantity** column.
+
+- After checking products and the number of barcode labels you want to print, click **Print** button.
+
+![](https://i.imgur.com/zpfO0Hr.png)
+
+### 4. Import Barcode with CSV
+
+#### Step 1: Prepare data
+
+Login to the Magento Admin, choose `System > Import`
+
+![](https://i.imgur.com/qigAP8L.png)
+
+In the **Import Settings** section, select **Entity Type = "Mageplaza Barcode"** and click **Download Sample File** to download the file. We support the CSV file can be imported.
+
+Check that the input file size which must not exceed the limit shown in the message is 2M or 5M.
+
+![](https://i.imgur.com/FL8xX9m.png)
+
+Edit the information you want to import in the template file:
+
+![](https://i.imgur.com/i9MXTPV.png)
+
+#### Step 2: Configure Import Behavior
+
+![](https://i.imgur.com/tiFlSa2.png)
+
+- In the **Import Behavior** section,
+  - Select the action relating to importing data in the **Import Behavior** field:
+    - **Add/ Update**: For the products in the csv file, only the new add barcode for the product has no barcode before. 
+    - **Replace**: Replace the whole barcodes for all products in the csv file whether or not it has a barcode.
+    - **Delete**: Delete the barcode of all the products listed in the csv file.
+  - Option **Stop on Error** or **Skip Error Entries** are used to stop import when you get an error or ignore the error to continue importing.
+- Next, in the **Allowed Errors Count** field, enter the error limit to pause the import process. The default value is 10.
+- **Field separator**: Enter a separator to separate the field in the column. Default value is a comma (,)
+- **Multiple value separator**: Enter the separator to separate multiple values in the cell of 1 column. Default value is a comma (,)
+  - Note: In a CSV file, comma is the default separator. To use a different character, make sure that the data in the CSV file matches the character you choose.
+
+#### Step 3: Select File to Import
+
+![](https://i.imgur.com/K8FdcTI.png)
+
+- In the **Select File to Import** section, click **Choose File** to choose the file to import your categories.
+  - **Note**: If **Entity File = "Mageplaza Categories Import"** then your input file must match the fields inside and the file format must be CSV.
+
+
+#### Step 4: Check data and finish importing
+
+- After entering the above information, click **Check Data** at the top right to check if the data you entered is correct.
+  - If the file is valid, click **Import** is displayed in the **Validation Results** section.
+  
+  ![](https://i.imgur.com/B6AzSka.png)
+
+  - Otherwise, if the upload file is invalid or your process is wrong, please correct the error reported in the message and try again.
+  - Examples of displaying error messages when entering data incorrectly:
+  
+  ![](https://i.imgur.com/a7bh43M.png)
+
+- When the import process is complete, the system displays successful importing message. 
+
+![](https://i.imgur.com/8t0nTSB.png)
