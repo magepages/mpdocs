@@ -2,9 +2,9 @@
 
 ## Overview
 
-**WorldPay** is America's most reliable payment processing provider. [Mageplaza WorldPay extension](https://www.mageplaza.com/magento-2-worldpay/) helps integrate Worldpay to support online payment by card or Paypal, allowing customers to save credit card information at the first purchase to use it for the next payment. Customer can manage saved credit card information and delete card information at any time. In addition, the module also supports direct payment at checkout page (iframe) and support 3D Secure.
+**Worldpay** is America's most reliable payment processing provider. [Mageplaza Worldpay extension](https://www.mageplaza.com/magento-2-worldpay/) helps integrate Worldpay to support online payment by card or Paypal, allowing customers to save credit card information at the first purchase to use it for the next payment. Customer can manage saved credit card information and delete card information at any time. In addition, the module also supports direct payment at checkout page (iframe) and support 3D Secure.
 
-Mageplaza WorldPay extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+Mageplaza Worldpay extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
 
 ## How to use
@@ -111,8 +111,11 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
   - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to **Processing**.
   
 - **Payment Action**:
+
   - **Authorize and Capture**: Payment will be catured immediately after the order is placed successful. At that moment, the Customer's card will be applied for the order and the **Invoice will be created.
+  
   - **Authorize and Capture**: Payment will be catured immediately after the order is placed successful. At that moment, the Customer's card will be applied for the order and the **Invoice will be created.
+  
   - **Authorize**: Payment will only be captured when admin creates an **Invoice** for Customer's order. When the **Invoice** is successfully created, admin can receive money from Customer's card.
   
 - **Card Types**:
@@ -133,7 +136,8 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
   ![Imgur](https://i.imgur.com/WN3zPys.png)
 
 - **Vault Enabled**: Select **Yes** to display previously saved cards.
-- **Vault Title**: Enter the title of the method. The name of the payment method will be replaced displayed on **Order Information****:
+
+- **Vault Title**: Enter the title of the method. The name of the payment method will be replaced displayed on **Order Information**:
 
 ![Imgur](https://i.imgur.com/axGcXzX.png)
 
