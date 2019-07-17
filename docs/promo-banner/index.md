@@ -46,11 +46,11 @@ Admin can also access `Stores > Configuration > Mageplaza > Promo Banner` to con
 
 #### 3. Popup Banner Settings
 
-![](https://i.imgur.com/NRvpgUn.png)
+![](https://i.imgur.com/2wbHvYK.png)
 
-- **Popup Responsive**: admins choose to show promo banner in popup.
-- **Popup Width**: Enter the width for the popup.
-- **Height Popup**: Enter the height for the popup.
+- **Popup Responsive**: admins choose showing style of promo banner in popup.
+  - **Full Screen Popup**: Popup show in full screen
+  - **Center Popup**: Popup show at the screen center
 - **Rejection Checkbox**: Select **Yes** to display the checkbox asking customers if they do not want to see the popup Promo Banner for the next visit. If the customer tick to this checkbox, on the next visit, promo banner will not be displayed.
 - **Checkbox Label**: Enter a name for the checkbox.
 
