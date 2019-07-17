@@ -31,7 +31,7 @@ On the Product Detail Page, customers can:
 
 - Write Review: In addition to filling the Review summary and content, customers can also Add image, Recommend product, Agree with Term of Conditions
 
-![(https://i.imgur.com/9qcgxZm.png)
+![](https://i.imgur.com/9qcgxZm.png)
 
 - Customer can also can see admin reply Review (if any)
 
