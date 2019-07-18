@@ -143,7 +143,7 @@ Here records **Queue data** by rules which includes information of **Object, Cre
 
 ### 3. Manage Queue
 
-![Imgur](https://i.imgur.com/mZr9Mkr.png)
+![Imgur](https://i.imgur.com/j187URg.png)
 
 - This section records the information of Queue including **Object information, Sync Rule, Magento Object, Zoho Module, and so on.**
 - Here admin can **Synchronize All** or **Synchronize with Zoho Modules** such as **Sync Account, Campaign Sync, Sync Contact, Sync Lead, Sync Order, Sync Invoice, Sync Product**. Or it can be **selected separated data** entered into Queue to synchronize to Zoho CRM. All data changes such as **create, update, delete** are included in Queue.
