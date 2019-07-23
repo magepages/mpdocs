@@ -66,7 +66,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sale > Payment 
 
 Login to the **Magento Admin**, choose `Stores > Configuration > Sale > Payment Methods`, at WordPay Payment Method, click `Configure > Credentials`:
 
-![Imgur](https://i.imgur.com/THav3es.png)
+![Imgur](https://i.imgur.com/oigoLfC.png)
 
 - **Environment**:
   - Admin can choose **Sandbox** environment to check payment features of methods.
@@ -83,24 +83,38 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sale > Payment 
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`, at Payment Method WordPay, click `Configure > General Setting`:
 
-![Imgur](https://i.imgur.com/4XyOU8j.png)
+![Imgur](https://i.imgur.com/8GIn0zh.png)
 
-- **Merchant Country**: The country that is used by the Worldwide Payment Gateway to determine which payment methods the shopper can use.
+- **Merchant Country**: The country that is used by the Worldwide Payment Gateway to determine which payment methods the shopper can use. Default is "EN".
+
+Example: Some payment depend on Merchant Country: 
+* Worldpay Alipay need to choose Merchant Country = China
+* Worldpay Giropay need to choose Merchant Country = Germany
+* Worldpay Ideal need to choose Merchant Country = Netherlands
+* Worldpay Mistercash need to choose Merchant Country = Belgium
+* Worldpay Paysafecard need to choose Merchant Country = United Kingdom
+* Worldpay Postepay need to choose Merchant Country = Italy
+* Worldpay Przelewy24 need to choose Merchant Country = Poland
+* Worldpay Qiwi need to choose Merchant Country = Russia
+* Worldpay Sofort need to choose Merchant Country = Germany
+* Worldpay Yandex need to choose Merchant Country = Russia
+
 - **Settlement Currency**: Select the payment currency.
 - **Language Code**:
   - [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) indicates the preferred language of the shopper, where supported by the Payment Provider.
+   - Change language when **Environment = Production**.
 - **Show Worldpay Logo**: Select `Yes` to display the **Cart logo**
 - **Site Codes**:
   - Change currency from **Currency** to **Settlement Currency** column, if this field is blank, it will be taken from the **Settlement Currency** field above by default.
   - Admin can add and delete site code.
   
-  ![Imgur](https://i.imgur.com/uSA0YtW.png)
+  ![Imgur](https://i.imgur.com/FPhHpH9.png)
 
 ### 3. Worldpay Cards
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`, At Payment Method WordPay, click `Configure > Worldpay Cards`:
 
-![Imgur](https://i.imgur.com/SF4ohVw.png)
+![Imgur](https://i.imgur.com/MwwFazA.png)
 
 - **Enable**: Select **Yes** to enable using the **Worldpay Cards** payment feature.
 
@@ -143,6 +157,7 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 
 - **Payment from Applicable Countries**:
   - Select the **All Allowed Countries** to apply Card payment methods in all countries
+  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restriction/) module.
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries will be allowed to apply the Card payment method.
 - **Minimum Order Total**:
@@ -161,23 +176,23 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 
 Worldpay Paypal
 
-![Imgur](https://i.imgur.com/3ZtheFp.png)
+![Imgur](https://i.imgur.com/fkgHPVL.png)
 
 Worldpay Alipay
 
-![Imgur](https://i.imgur.com/35PSILG.png)
+![Imgur](https://i.imgur.com/XzUHab8.png)
 
 Worldpay Giropay
 
-![Imgur](https://i.imgur.com/vT7X2F3.png)
+![Imgur](https://i.imgur.com/6evzgHM.png)
 
 Worldpay iDeal
 
-![Imgur](https://i.imgur.com/SAHAY1j.png)
+![Imgur](https://i.imgur.com/pR8A2cy.png)
 
 Worldpay Mistercash
 
-![Imgur](https://i.imgur.com/ycz8vZD.png)
+![Imgur](https://i.imgur.com/U3TCtzD.png)
 
 Worldpay PaySafeCard
 
@@ -185,28 +200,29 @@ Worldpay PaySafeCard
 
 Worldpay Postepay
 
-![Imgur](https://i.imgur.com/t6csysw.png)
+![Imgur](https://i.imgur.com/xXksaCG.png)
 
 Worldpay Przelewy24
 
-![Imgur](https://i.imgur.com/bfu0MW5.png)
+![Imgur](https://i.imgur.com/OnpmQnB.png)
 
 Worldpay Qiwi
 
-![Imgur](https://i.imgur.com/oMLFfnd.png)
+![Imgur](https://i.imgur.com/yf1Hfb9.png)
 
 Worldpay Sofort
 
-![Imgur](https://i.imgur.com/9C5Kn5a.png)
+![Imgur](https://i.imgur.com/1w6oE2p.png)
 
 Worldpay Yandex
 
-![Imgur](https://i.imgur.com/HaD0azN.png)
+![Imgur](https://i.imgur.com/TQ3dHhG.png)
 
 - **Enable**: Select **Yes** to enable the use of the selected Worldpay payment feature.
 - **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
 - **Payment from Applicable Countries**:
   - Select the **All Allowed Countries** to apply Card payment methods in all countries
+  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restriction/) module.
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries will be allowed to apply the Card payment method.
 - **Minimum Order Total**:
@@ -228,7 +244,7 @@ Worldpay Yandex
 
 This section records the information of Credit Card (WorldPay) that the customer has used to make orders:
 
-![Imgur](https://i.imgur.com/ROOii8Z.png)
+![Imgur](https://i.imgur.com/QCX5C3I.png)
 
 #### 5.2. Admin order
 
@@ -240,8 +256,15 @@ Admin can create order using WorldPay payment with the cards that customer has s
 
 This section saves the card information that the customer has ordered:
 
-![Imgur](https://i.imgur.com/ZEEaOND.png)
+![Imgur](https://i.imgur.com/kAm3lrC.png)
 
 ### 7. Compatible One Step Checkout
 
-![Imgur](https://i.imgur.com/B9CtaMn.png)
+![Imgur](https://i.imgur.com/bHKQcyR.png)
+
+### 8. How to install Worldpay library
+
+- Create folder: lib/internal/Mageplaza
+- Access [this link](https://gitlab.com/users/sign_in) to download Worldpay library
+- Extract **module-worldpay-library** into `lib/internal/Mageplaza` and rename the extracted file to for example: Worldpay.
+
