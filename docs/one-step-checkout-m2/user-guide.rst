@@ -120,14 +120,18 @@ From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag
 
 * Open the ``Stores > Settings > Configuration > Mageplaza Extensions > One Step Checkout > General Configuration`` section:
 
-.. image:: https://i.imgur.com/gtHPlwa.png
+.. image:: https://i.imgur.com/3JXDvwI.png
 
 * In the **Enable One Step Checkout** field: Select "Yes" to enable One Step Checkout extension.
 * In the **One Step Checkout Page Title** field: Enter the page title you want.
 * In the **One Step Checkout Description** field: Enter the short description to describe the One Step Checkout page.
 * In the **Default Shipping Method** field: Set default shipping method in the checkout process.
 * In the **Default Payment Method** field: Set default payment method in the checkout process.
-* In the **Allow Guest Checkout** field: Select "Yes" to allow checking out as a guest. Also, guests can create an account on the checkout page.
+* In the **Allow Guest Checkout** field: 
+  * Select "Yes" to allow checking out as a guest. Also, guests can create an account on the checkout page.
+  * Select “No (require create account)” : Guest must enter password to create account at checkout
+  * Select “No (require login)”: Guest must login before checkout
+
 * In the **Auto-redirect to One Step Checkout page** field: Select "Yes" to turn this function on
 * In the **Show Billing Address** field: Select "Yes" to allow shipping items to a different address from billing address.
 * In the **Use Auto Suggestion Technology** field: Select one of the following options:
