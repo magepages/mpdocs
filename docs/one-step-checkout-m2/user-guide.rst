@@ -128,6 +128,7 @@ From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag
 * In the **Default Shipping Method** field: Set default shipping method in the checkout process.
 * In the **Default Payment Method** field: Set default payment method in the checkout process.
 * In the **Allow Guest Checkout** field: 
+  
   * Select "Yes" to allow checking out as a guest. Also, guests can create an account on the checkout page.
   * Select “No (require create account)” : Guest must enter password to create account at checkout
   * Select “No (require login)”: Guest must login before checkout
