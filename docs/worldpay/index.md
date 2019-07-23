@@ -44,11 +44,11 @@ Mageplaza Worldpay extension is fully compatible with [Mageplaza One Step Checko
 
   - **Iframe Checkout**:
   
-  ![Imgur](https://i.imgur.com/uywkLM0.png)
+  ![Imgur](https://i.imgur.com/6WZl0yF.png)
 
 - Display the **Payment Method** in the Order Backend:
 
-![Imgur](https://i.imgur.com/Lr7xW2Z.png)
+![Imgur](https://i.imgur.com/UZ3RyJ8.png)
 
 - **Stored Payment Methods**: Here save the credit card information that customers have saved at the previous purchase. If you do not want to save old or unused credit cards, you can click delete to remove them.
 
@@ -174,47 +174,47 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 
 ### 4. Alternative Payment Methods
 
-Worldpay Paypal
+**Worldpay Paypal**
 
 ![Imgur](https://i.imgur.com/fkgHPVL.png)
 
-Worldpay Alipay
+**Worldpay Alipay**
 
 ![Imgur](https://i.imgur.com/XzUHab8.png)
 
-Worldpay Giropay
+**Worldpay Giropay**
 
 ![Imgur](https://i.imgur.com/6evzgHM.png)
 
-Worldpay iDeal
+**Worldpay iDeal**
 
 ![Imgur](https://i.imgur.com/pR8A2cy.png)
 
-Worldpay Mistercash
+**Worldpay Mistercash**
 
 ![Imgur](https://i.imgur.com/U3TCtzD.png)
 
-Worldpay PaySafeCard
+**Worldpay PaySafeCard**
 
 ![Imgur](https://i.imgur.com/kIVqGOs.png)
 
-Worldpay Postepay
+**Worldpay Postepay**
 
 ![Imgur](https://i.imgur.com/xXksaCG.png)
 
-Worldpay Przelewy24
+**Worldpay Przelewy24**
 
 ![Imgur](https://i.imgur.com/OnpmQnB.png)
 
-Worldpay Qiwi
+**Worldpay Qiwi**
 
 ![Imgur](https://i.imgur.com/yf1Hfb9.png)
 
-Worldpay Sofort
+**Worldpay Sofort**
 
 ![Imgur](https://i.imgur.com/1w6oE2p.png)
 
-Worldpay Yandex
+**Worldpay Yandex**
 
 ![Imgur](https://i.imgur.com/TQ3dHhG.png)
 
@@ -264,7 +264,7 @@ This section saves the card information that the customer has ordered:
 
 ### 8. How to install Worldpay library
 
-- Create folder: lib/internal/Mageplaza
+- Create folder: `lib/internal/Mageplaza`
 - Access [this link](https://gitlab.com/users/sign_in) to download Worldpay library
 - Extract **module-worldpay-library** into `lib/internal/Mageplaza` and rename the extracted file to for example: Worldpay.
 
