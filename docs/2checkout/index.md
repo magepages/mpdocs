@@ -19,27 +19,27 @@ Mageplaza 2Checkout extension is fully compatible with [Mageplaza One Step Check
 
 ### 1. Sandbox: 
 
-This is the environment that helps you track transactions using the 2Checkout payment method and check the payment feature with 2Checkout.
+This is the environment that helps you track transactions using the 2Checkout payment method and check the payment features with 2Checkout.
 
 - To register for a Sandbox account, visit the [following link](https://sandbox.2checkout.com/sandbox/signup).
 
 ![Imgur](https://i.imgur.com/BoEnG0P.png)
 
-- After registering the Sandbox account, please access `Account> Site Management` to fill in the information to manage the site. You need to enter **Approved URL** of your site here to manage. **Secret Word** is the secret code that Sandbox provides for your account. You will use it to configure in the **Credentials** section guided later.
+- After registering the Sandbox account, please access `Account> Site Management` to fill in the information relating your Site Management. You need to enter **Approved URL** of your site here. **Secret Word** is the secret code that Sandbox provides for your account. You will use it to configure in the **Credentials** section which will be guided later.
 
 ![Imgur](https://i.imgur.com/Kz8Tw56.png)
 
 ![Imgur](https://i.imgur.com/jzET1nn.png)
 
-- You must access the **API** section to get **Publishable Key** and **Private Key** and use it to configure in the **Credentials** section of this Extensions.
+- You must access the **API** section to get **Publishable Key** and **Private Key** and use it to configure in the **Credentials** section of this extension.
 
 ![Imgur](https://i.imgur.com/poQlCvE.png)
 
-- In addition, you must access the **Account** symbol to get **Account Number** to configure at the **Credentials** section of this Extensions.
+- In addition, you must access the **Account** symbol to get **Account Number** and configure at the **Credentials** section of this extension.
 
 ![Imgur](https://i.imgur.com/jOdx4Al.png)
 
-When you want to track transactions using the 2Checkout payment method and check the payment feature with 2Checkout on your website, visit the Sales section and check.
+When you want to track transactions using the 2Checkout and check the payment features with 2Checkout on your website, visit the **Sales** section and check.
 
 ![Imgur](https://i.imgur.com/sQHgMZy.png)
 
@@ -50,7 +50,7 @@ When you want to track transactions using the 2Checkout payment method and check
 
 ### 2. Production
 
-This environment is suitable when you want to apply for online payments with 2Checkout. To register an account at Production, you can visit [here](https://www.2checkout.com/login/).
+This environment is suitable when you want to apply for online payments with 2Checkout. To register an account at **Production**, you can visit [here](https://www.2checkout.com/login/).
 
 
 ## How to Configure
@@ -66,21 +66,21 @@ Login to the Magento Admin, choose `Sales > Payment Method > 2Checkout > Configu
 ![Imgur](https://i.imgur.com/UQoRm3R.png)
 
 - **Environment**:
-  - Admin can choose **Sandbox environment** to check payment feature with 2Checkout. Access [here](https://sandbox.2checkout.com/sandbox/api/) to create an account and get the necessary information. Review the instructions in How to use> 1. Sandbox
-  - When you want to apply for online payment, admin needs to change the environment to **Production**. Access [here](https://www.2checkout.com/login/) to create an account and get the necessary information.
+  - Admin can choose **Sandbox environment** to check payment feature with 2Checkout. Access [here](https://sandbox.2checkout.com/sandbox/api/) to create an account and get the necessary information. Review the instructions in `How to use> 1. Sandbox`
+  - When you want to apply for online payment, please change the environment to **Production**. Access [here](https://www.2checkout.com/login/) to create an account and get the necessary information.
 - **Merchant ID**:
   - Enter your **Account Number** or **Seller ID**.
   - If left blank or incorrectly entered, it will not integrate with 2Checkout.
 - **Publishable Key**:
-  - Enter **Publishable Key** received from 2Checkout.
+  - Enter **Publishable Key** got from 2Checkout.
   - If left blank or entered incorrectly, 2Checkout will not be connected.
 - **Private Key**:
-  - Enter the **Private Key** received from 2Checkout.
+  - Enter the **Private Key** got from 2Checkout.
   - If left blank or entered incorrectly, 2Checkout will not be connected.
-- **API Username**: Enter your **API Username** at 2Checkout. You can refer to how to create a Username API for 2Checkout [here](http://help.2checkout.com/articles/FAQ/How-to-create-an-API-only-Username).
+- **API Username**: Enter your **API Username** at 2Checkout. Refer instruction to create a Username API for 2Checkout [here](http://help.2checkout.com/articles/FAQ/How-to-create-an-API-only-Username).
 - **API Password**: Enter your API Password at 2Checkout
 - **Test Credential** button: Admin can check the connection with 2Checkout by clicking the **Test Credential** button.
-- **Approved URL**: Enter Approved URL of your store. This field appears only when you select **Environment = Sandbox**.
+- **Approved URL**: Enter **Approved URL** of your store. This field appears only when you select **Environment = Sandbox**.
 
 
 ### 2. General Configuration
@@ -93,20 +93,20 @@ Login to the Magento Admin, choose `Sales > Payment Method > 2Checkout > Configu
 
 - **Enable**: Select **Yes** to turn on the module and use the 2Checkout features.
 - **Title**: Set the title for this payment method at storeview.
-- **Payment Action**: Use **Payment Action** here as **Authorize and Capture**. Payment will be Capture immediately after the Customer Place order is successful. At that moment, the Customer's card will pay for the order and the Invoice will be created
+- **Payment Action**: Use **Payment Action** here as **Authorize and Capture**. Payment will be captured immediately after the customer place order successfully. At that moment, the customer's card will pay for the order and the invoice will be created.
 - **New Order Status**: Select status when customer orders successfully:
-  - **Processing**: Display status with Processing when order is successful. You can change the status in the backend with each order.
-  - **Suspected Fraud**: Displays status with Suspected Fraud when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to Processing.
-- **Transfer Cart Items To Payment Gateway**: Select "Yes" to transfer the list of items in the order to the payment gateway. In contrast, select "No".
+  - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
+  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to **Processing**.
+- **Transfer Cart Items To Payment Gateway**: Select "Yes" to transfer the item list in the order to the payment gateway. In contrast, select "No".
 
 ![Imgur](https://i.imgur.com/Pq40Dfz.png)
 
 - **Accepted Currencies**: Admin can choose which currencies on the website are allowed to use this payment method
 - **Display Checkout**: Select the type of checkout display for this payment method. There are 3 types of display:
-- **Display Checkout = Magento Default**: Displays the payment method of 2Checkout at Magento's default checkout page. When choosing this type of payment display, admin can choose Card Types to apply with 2Checkout payment method.
-- **Card Types**:
-  - Choose 1 or more cards for payment
-  - Cards will be authenticated when Customer completes the card number when checking out. For cards not selected in this section, there will be an invalid message for the customer. With the card not selected it will not be displayed in the Checkout page and when ordering the backend.
+  - **Display Checkout = Magento Default**: Displays the payment method of 2Checkout at Magento's default checkout page. When choosing this type of payment display, admin can choose Card Types to apply with 2Checkout payment method.
+    - **Card Types**:
+      - Choose 1 or more cards for payment
+      - Cards will be authenticated when Customer completes the card number when checking out. For cards not selected in this section, there will be an invalid message for the customer. With the card not selected it will not be displayed in the Checkout page and when ordering the backend.
   
   ![Imgur](https://i.imgur.com/WXhCknf.png)
 
