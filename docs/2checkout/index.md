@@ -17,7 +17,7 @@ Mageplaza 2Checkout extension is fully compatible with [Mageplaza One Step Check
 
 ## How to use
 
-1. Sandbox: 
+### 1. Sandbox: 
 
 This is the environment that helps you track transactions using the 2Checkout payment method and check the payment feature with 2Checkout.
 
