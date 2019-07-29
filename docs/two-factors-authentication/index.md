@@ -1,12 +1,12 @@
-# Two Factors Authentication
+# Two-Factor Authentication
 
 ## Overview
 
-[Mageplaza Two Factors Authentication extension](https://www.mageplaza.com/magento-2-two-factors-authentication/) assure more security for online stores' backend. Admin users need to verify two factors when logging in the backend on every device. This extension supports three commonly used authentication authors: Authy, Duo or Google Authenticator. This authentication tool applies only to admin users, not to the Frontend Customer Account
+[Mageplaza Two-Factor Authentication extension](https://www.mageplaza.com/magento-2-two-factor-authentication/) assure more security for online stores' backend. Admin users need to verify two factors when logging in the backend on every device. This extension supports three commonly used authentication authors: Authy, Duo or Google Authenticator. This authentication tool applies only to admin users, not to the Frontend Customer Account
 
 ## Download & Install
 
-- [Mageplaza Two Factors Authentication](https://www.mageplaza.com/magento-2-two-factors-authentication/)
+- [Mageplaza Two-Factor Authentication](https://www.mageplaza.com/magento-2-two-factor-authentication/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/) 
 
 ## How to use
@@ -31,7 +31,7 @@ From **Admin panel**, go to `Stores > Configuration > Mageplaza > Two factor Aut
 - **Enable**: Select `Yes` to activate the module
 
 - **Force Using 2FA**: 
-  - Choose `Yes` to force all admin users to register Two Factors Authentication. If the account logged in has not yet installed 2FA in the account setting, it will be linked to the **Account setting** page for installation
+  - Choose `Yes` to force all admin users to register Two-Factor Authentication (2FA). If the account logged in has not yet installed 2FA in the account setting, it will be linked to the **Account setting** page for installation
   - When 2FA is enable, all admin users who have not registered 2FA must go to **My Account** page to set it up. After that, they can access others admin pages
   
 - **Enable Trusted Device**: 
@@ -44,7 +44,7 @@ From **Admin panel**, go to `Stores > Configuration > Mageplaza > Two factor Aut
   - Time is set by day
   
 - **Whitelist(s)**:
-  - Only the IP addresses filled in this section can access the Dashboard page without 2FA authentication (even if not in the Trust Device List)
+  - Only the IP addresses filled in this section can access the Dashboard page without 2FA (even if not in the Trust Device List)
   - It is possible to allow 1 IP address, multiple IP addresses, 1 range of IP addresses or multiple IP address ranges to have access to admin. IP addresses are separated by commas
   - The owner can also allow IP addresses to be accessible to admin pages without authenticating 2FA in the following form:
 10.0.0.10, 10.0.0. *, 10.0. *. *, 10.0.0. * - 123.0.0. *, 12.3. *. * - 222.0. *. *
