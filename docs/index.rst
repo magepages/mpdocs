@@ -62,6 +62,7 @@ Welcome to Mageplaza Docs
    cron-schedule/index
    currency-formatter/index
    custom-order-number/index
+   customer-approval/index
    customer-attributes/index
    custom-stock-status/index
    daily-deal/index
