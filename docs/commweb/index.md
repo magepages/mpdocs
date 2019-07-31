@@ -11,34 +11,35 @@ It also is compatible with [Mageplaza One Step Checkout extension](https://www.m
 
 ### 1. Commonwealth Bank
 
-- To be able to configure CommWeb you need a **Commonwealth Bank** account.
+- To be able to configure CommWeb you need a **Commonwealth Bank** account.
+
 - Go to [this link](https://commbank.simplify.com/commerce/login/auth#/account/apiKeys) to login to **Commonwealth Bank**. After login sucessfully, from the left sidebar, select `Account Settings > Account Settings > Account Details > Select API Keys` to get **Public Key** and **Private Key**
 
-![Imgur](https://i.imgur.com/af4plQT.png)
+![](https://i.imgur.com/af4plQT.png)
 
 ### 2. Make payments with CommWeb
 
 - **Checkout page**: select CommWeb payment method. Enter credit card information including: **Credit Card Number, Expiration Date, Card Verification Number**.
 
-![Imgur](https://i.imgur.com/BbnO9do.png)
+![](https://i.imgur.com/BbnO9do.png)
 
 - **Magento Default**: Displays payment by CommWeb by default of Magento
 
-![Imgur](https://i.imgur.com/BbnO9do.png)
+![](https://i.imgur.com/BbnO9do.png)
 
 - **Popup Checkout**: Displays the payment by CommWeb when clicking the **Place Order** button
 
-![Imgur](https://i.imgur.com/ujy0wGs.png)
+![](https://i.imgur.com/ujy0wGs.png)
 
 - **Iframe Checkout**: CommWeb payment method is displayed as iframes
 
-![Imgur](https://i.imgur.com/XeQIBB6.png)
+![](https://i.imgur.com/XeQIBB6.png)
 
 **Note**: To be able to make payments with CommWeb, the currency on the Magento site needs to match the currency of **Commonwealth Bank**.
 
 - To set currency for the Commonwealth Bank, log in to your Commonwealth Bank account. Then from the left sidebar, select `Account Settings > Account Settings > Developer`, at the droplist, select the appropriate currency.
 
-![Imgur](https://i.imgur.com/3lLXOgk.png)
+![](https://i.imgur.com/3lLXOgk.png)
 
 ## How to Configure
 
@@ -46,11 +47,11 @@ It also is compatible with [Mageplaza One Step Checkout extension](https://www.m
 
 Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > CommWeb Payment by Mageplaza > Configure`
 
-![Imgur](https://i.imgur.com/sCkfQFs.png)
+![](https://i.imgur.com/sCkfQFs.png)
 
 #### 1.1. Credentials
 
-![Imgur](https://i.imgur.com/KrOFXfR.png)
+![](https://i.imgur.com/KrOFXfR.png)
 
 - **Environment**:
   - Admin can choose **Sandbox environment** to check payment feature with CommWeb.
@@ -66,7 +67,7 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 
 #### 1.2. Card
 
-![Imgur](https://i.imgur.com/sCV2k5I.png)
+![](https://i.imgur.com/sCV2k5I.png)
 
 - **Enable**: Select **Yes** to enable the use of payment features with CommWeb
 - **Title**: Enter the title for the card, the name of the card will be displayed at the **Checkout page**, **Order Information** at the frontend and **Payment Information** in the backend.
@@ -74,49 +75,49 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 
 - **Displayed at the checkout page**
 
-![Imgur](https://i.imgur.com/dQ2ziHM.png)
+![](https://i.imgur.com/dQ2ziHM.png)
 
 - **Displayed in Order Information**
 
-![Imgur](https://i.imgur.com/twogNYf.png)
+![](https://i.imgur.com/twogNYf.png)
 
 - **Display at Payment Information in backend**
 
-![Imgur](https://i.imgur.com/l2zzHyH.png)
+![](https://i.imgur.com/l2zzHyH.png)
 
 - **Payment Action**:
-![Imgur](https://i.imgur.com/K6Y77uX.png)
+![](https://i.imgur.com/K6Y77uX.png)
   - **Authorize**: Payment will only be captured when admin creates an Invoice for Customer's order. When the Invoice is successfully created, admin can receive money from Customer's card
   - **Authorize and Capture**: Payment will be Capture immediately after the Customer Place order is successful. At that moment, the Customer's card will pay for the order and the Invoice will be created
 - **New Order Status**: status of order when creating new payment with CommWeb.
 
-![Imgur](https://i.imgur.com/DCdaIQW.png)
+![](https://i.imgur.com/DCdaIQW.png)
 
   - **Processing**: Status of order is **Processing** when order is completed. You can change the status in the backend with each order.
   - Suspected Fraud: The order's Status is Suspected Fraud when the order is completed. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to Processing.
   
-  ![Imgur](https://i.imgur.com/qr6fiX8.png)
+  ![](https://i.imgur.com/qr6fiX8.png)
 
 - **Show Logo**: Choose **Yes** to allow the CommWeb logo to be displayed at the frontend
 - **Display Checkout**: Choose displaying style when check out with CommWeb. There are several ways as follows:
 
-![Imgur](https://i.imgur.com/FdVO8T0.png)
+![](https://i.imgur.com/FdVO8T0.png)
 
   - **Magento Default**: Displays the payment method at Magento's default checkout page
   
-  ![Imgur](https://i.imgur.com/GMZW5jp.png)
+  ![](https://i.imgur.com/GMZW5jp.png)
 
   - **Popup Checkout**: CommWeb payment method display when checkout as popup. When you click the **Place Order** button, the popup will appear.
   
-  ![Imgur](https://i.imgur.com/eo8AZUZ.png)
+  ![](https://i.imgur.com/eo8AZUZ.png)
   
   - **Iframe Checkout**: CommWeb method payment display at the checkout page as CommWeb iframe insertion
   
-  ![Imgur](https://i.imgur.com/qcFkZ9r.png)
+  ![](https://i.imgur.com/qcFkZ9r.png)
 
 - **Card Types**: Select the type of card that allows checkout, can select multiple types at once.
 
-![Imgur](https://i.imgur.com/p1I0ugc.png)
+![](https://i.imgur.com/p1I0ugc.png)
 
 - Cards will be authenticated when Customer completes the card number when checking out. For cards not selected in this section, there will be an invalid message for the customer. With the card not selected it will not be displayed in the Checkout page and when ordering the backend.
 - **Payment from Applicable Countries**: Select a country to apply the payment method
@@ -136,10 +137,10 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 
 At Magento Admin, access `Sales> Orders > Action > View > Payment Information`, you can view payment information via CommWeb
 
-![Imgur](https://i.imgur.com/ViCWSyU.png)
+![](https://i.imgur.com/ViCWSyU.png)
 
 ### 3. Order Frontend
 
 Go to `My Account > My Orders > View Order`, you can view payment information with the CommWeb card saved at the Payment Method section of the order
 
-![Imgur](https://i.imgur.com/1pCJ95n.png)
+![](https://i.imgur.com/1pCJ95n.png)
