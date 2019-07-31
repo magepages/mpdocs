@@ -85,7 +85,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   - You can leave this field blank.
 
 - **Apply for Category Pages**:
-  - Select Category Pages to apply the Age Verification. You can select all or multiple category pages at once. Non-selected category pages will not require Age Verification. 
+  - Select Category Pages to apply the Age Verification. Verification popup will be shown when visitors access these category pages. You can select all or multiple category pages at once. Non-selected category pages will not require Age Verification. 
     - **Note**: Enable the field **Apply for Category Pages** doesn't mean that all products included in that category are applicable with verification popup. To apply Age Verification for specific products, you can configure at **Apply for Product Detail Page(s)**.
   - You can leave this field blank.
   - Compatible with [Product Labels](https://www.mageplaza.com/magento-2-product-labels/) to add **Age Verify** label for product
