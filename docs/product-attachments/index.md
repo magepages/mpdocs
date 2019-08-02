@@ -78,8 +78,8 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 ![](https://i.imgur.com/P4CNPsJ.png)
 
 * **CMS Page/Static Block**: Copy code and insert into the pages in the `Content > Page` section.
-* **Template .phtml file**: Copy code and insert into the .phtml files of Magento or other extensions that you want to display Free Shipping Bar
-* **Layout file**: Copy code and insert into .xml files of Magento or other extensions that you want to display Free Shipping Bar
+* **Template .phtml file**: Copy code and insert into the .phtml files of Magento or other extensions that you want to display Product Attachments
+* **Layout file**: Copy code and insert into .xml files of Magento or other extensions that you want to display Product Attachments
 
 ### 2. Manage General Files
 #### 2.1. Managerial Grid
