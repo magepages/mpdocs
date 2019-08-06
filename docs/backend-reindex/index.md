@@ -2,11 +2,11 @@
 
 ## Overview
 
-[Backend Reindex](https://www.mageplaza.com/magento-2-backend-reindex/) by Mageplaza allows store admins to update individual or all indexes manually right from the admin backend easily instead of running command line. 
+Backend Reindex by Mageplaza allows store admins to update individual or all indexes manually right from the admin backend easily instead of running command line. 
 
 ## How to download and install
 
-- [Download Mageplaza Backend Reindex](https://www.mageplaza.com/magento-2-backend-reindex/)
+- Download Mageplaza Backend Reindex
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
