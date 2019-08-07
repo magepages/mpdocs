@@ -107,7 +107,8 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
   
   ![](https://i.imgur.com/GMZW5jp.png)
 
-  - **Popup Checkout**: CommWeb payment method display when checkout as popup. When you click the **Place Order** button, the popup will appear.
+  - **Popup Checkout**: CommWeb payment method display when checkout as popup. When you click the **Place Order** button, the popup will appear. 
+    - To use Popup Checkout, you must not use IP adress in the Magento domain. 
   
   ![](https://i.imgur.com/eo8AZUZ.png)
   
@@ -144,3 +145,14 @@ At Magento Admin, access `Sales> Orders > Action > View > Payment Information`, 
 Go to `My Account > My Orders > View Order`, you can view payment information with the CommWeb card saved at the **Payment Method section** of the order.
 
 ![](https://i.imgur.com/1pCJ95n.png)
+
+**NOTE: Install the library for Mageplaza CommWeb extension**
+
+When installing Mageplaza CommWeb extension you need to install its library: 
+
+- Please visit [the link](https://commbank.simplify.com/commerce/docs/sdk/php#install) then click on the **Download link** 
+- From the Magento site, go to the **/lib/internal** directory, then create a new folder called **Mageplaza**
+- Unzip the downloaded file, add the **lib** folder in the downloaded file to the **Mageplaza** folder created above, change the lib name to **CommWeb**
+- Add the php file called **registration.php** with the following command:
+
+![](https://i.imgur.com/IGgpQep.png)
