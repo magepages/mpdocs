@@ -4,7 +4,10 @@
 
 Currently, Magento only allows editing **Customer Information** and **Address Information** at the view order page. If you want to edit other information, you must go to the separated **Edit Order** page, then the old order will automatically be canceled and the new order will be created. Also, admin can only edit other information (besides Customer and Address Information) when Order is Pending.
 
-With [Mageplaza Edit Order](https://www.mageplaza.com/magento-2-edit-order/), the editing becomes easier than ever. This extension allows admin to edit information right at the order view page via slide popup without having to switch to another link. Moreover, Quick Edit action is integrated to be able to edit all order information at the same time. 
+With [Mageplaza Edit Order](https://www.mageplaza.com/magento-2-edit-order/), the editing becomes easier than ever. This extension allows admin to edit information right at the order view page via slide popup without having to switch to another link. Quick Edit action is integrated to be able to edit all order information at the same time. In addition, this module automatically recalculates shipping fee if the order information changes and returns the item to stock if changing the item in the order.
+
+Mageplaza Edit Order is fully compatible with [Customer Order Number](https://www.mageplaza.com/magento-2-custom-order-number/), [Multiple Shipping Flat Rate](https://www.mageplaza.com/magento-2-multi-flat-rates-shipping/), [Shipping Restriction](https://www.mageplaza.com/magento-2-shipping-restrictions/), [Payment Restriction](https://www.mageplaza.com/magento-2-payment-restriction/).
+
 
 ## How to download and install
 
@@ -21,16 +24,13 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
 ### 1. Configuration
 From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extensions > Edit Order`, select **General**
 
-![](https://i.imgur.com/b0uwZyo.png)
+![](https://i.imgur.com/e9MomvA.png)
 
 - **Enable**: Select **Yes** to turn on the Module.
-- **Apply For Order With Status**:
-  - Apply edit to order with the selected status.
-  - Can select multiple statuses.
 - **Enable Quick Edit**:
   - Select **Yes** to display the **Quick Edit** button at the **Edit Order** page.
   - When clicked, the slide popup display can edit all information at the **Edit Order** page.
-
+- **Auto Recalculate Shipping Fee**: Select **Yes** to auto apply the new shipping amount after updating ordered items or shipping addresses.
 
 ### 2. Edit Order
 
@@ -52,16 +52,18 @@ From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, choose **
 #### 2.2. Edit Customer Information
 From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select **Edit Customer**
 
-![](https://i.imgur.com/QCBIoAz.png)
+![](https://i.imgur.com/eua4wGR.png)
 
 - **Select**: Choose to edit customer information
 
-![](https://i.imgur.com/DWqeg2l.png)
+![](https://i.imgur.com/j78zM64.png)
 
 - **Customer Email**:
-  - If you select **Edit Current Customer** option, it will show the customer email in text format, allowing you to edit customer emails.
-  - If you select **Change Customer**, it will show a input ext box with **Select** button. Click on **Select** to show a filterable grid to choose one existed account on your store.
-  
+  - **Edit Current Customer**: show the customer email in text format, allowing you to edit customer emails.
+  - **Change Customer**: show a input ext box with **Select** button. Click on **Select** to show a filterable grid to choose one existed account on your store.
+  - Choose **Save Information** to save the information change in Customer account page. 
+Note: Nếu Customer Email = Edit Current Customer và tích chọn Save Information to Customer sau đó thay đổi email của customer đó thì tạo thêm một tài khoản khách hàng mới.
+ 
   ![](https://i.imgur.com/uCepVb1.png)
   
 - **First Name**: Edit customer first name. Do not leave the field blank.
