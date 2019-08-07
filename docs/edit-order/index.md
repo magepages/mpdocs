@@ -62,14 +62,24 @@ From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select *
   - **Edit Current Customer**: show the customer email in text format, allowing you to edit customer emails.
   - **Change Customer**: show a input ext box with **Select** button. Click on **Select** to show a filterable grid to choose one existed account on your store.
   - Choose **Save Information** to save the information change in Customer account page. 
-Note: Nếu Customer Email = Edit Current Customer và tích chọn Save Information to Customer sau đó thay đổi email của customer đó thì tạo thêm một tài khoản khách hàng mới.
+- Note: In case you choose `Select = Edit Current Customer` then tick to `Save Information to Customer` and change that customer' s email, the sytem will generate a new customer account. 
  
-  ![](https://i.imgur.com/uCepVb1.png)
+  ![](https://i.imgur.com/gz8G1Rx.png)
   
-- **First Name**: Edit customer first name. Do not leave the field blank.
-- **Middle Name/ Initial**: Edit customer middle/ initial name. Do not leave the field blank.
+ Under the Edit Customer Information Grid shown the similar fields to Magento Edit/Add New Customer:
+  
+- **Associate to Website**: Choose the associate website with the edition of customer information. This is a required field. 
+- **Name Prefix**: Edit the Prefix of customer name 
+- **First Name**: Edit customer first name. This is a required field.
+- **Middle Name/ Initial**: Edit customer middle/ initial name. 
 - **Last Name**: Edit customer last name. Do not leave the field blank.
+- **Name Suffix**: Edit the Suffix of customer name
 - **Customer Group**: Choose a group for customers.
+- **Date of Birth**: Fill in customer date of birth
+- **Tax/VAT Number**: Edit the tax information
+- **Gender**: Choose the customer gender
+- **Send Welcome Email From**: Choose the storeview to send welcome email
+- **Vertex Customer Code**: 
 
 
 #### 2.3. Edit Billing Address/ Edit Shipping Address
@@ -84,14 +94,41 @@ Display information same as Magento but Edit Order extension will show Billing a
 
 #### 2.4. Edit Payment Method
 
-From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select **Edit Payment Method**
+From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select **Edit** at **Payment Information**
 
 ![](https://i.imgur.com/hjjyWIP.png)
 
 Choose the available payment method at your store.
 
+#### 2.5. Edit Shipping Method
 
-#### 2.5. Quick Edit
+From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select **Edit** in the **Shipping & Handling Information** section
+
+![](https://i.imgur.com/s7Echvm.png)
+
+Select the Shipping Method available at the store.
+
+#### 2.6. Edit Items Ordered
+
+From the Admin Panel, go to `Sales> Orders> View Order> Edit Order`, select **Edit** in the **Items Ordered** section
+
+![](https://i.imgur.com/ttH923u.png)
+
+- Choose **Custom Price** buttons if you want to update product prices.
+- **Custom**:
+  - **Percent**: Discount = percent of price.
+  - **Fixed Amount**: Discount = value enter to the box below
+
+- **Action**:
+  - **Remove**: Remove the product from the shopping cart.
+
+- To add products to cart, click `Add Products > Select products > Add Selected Product(s) to Order`:
+
+- Note: When changing Qty, adding product, removing product, you always need to click the `Update Items and Quantities > Update`.
+
+![](https://i.imgur.com/hbCzpw5.png)
+
+#### 2.7. Quick Edit
 
 From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **Quick Edit**
 
@@ -100,7 +137,7 @@ From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **
 Quick edit allows editing all order information at the same time.
 
 
-### 3.Grid
+### 3. Grid
 
 ![](https://i.imgur.com/gWAgIxH.png)
 
@@ -108,10 +145,10 @@ Quick edit allows editing all order information at the same time.
 
 From the Admin Panel, go to `Sales > Edit Order > Manage Logs`
 
-![](https://i.imgur.com/iJNJz2Z.png)
+![](https://i.imgur.com/uuq89d7.png)
 
 - This is where the order information was edited.
-- From **Manage Logs**, admin can capture basic information such as **ID, Editor, Order Number, Edited Type, Created Date, Action**.
+- From **Manage Logs**, admin can capture basic information such as **ID, Editor, Order Number, Edited Field, Created Date, Action**.
 - **Action**:
   - **View**: Redirect to Logs page to view edited orders before.
   - In addition, admin can filter, change store view, hide/ display columns.
@@ -120,5 +157,39 @@ From the Admin Panel, go to `Sales > Edit Order > Manage Logs`
 
 From the Admin Panel, go to `Sales > Edit Order > Manage Logs`, select **View Logs**
 
+![](https://i.imgur.com/nl2JglK.png)
+
+![](https://i.imgur.com/Ptm8iAa.png)
+
 ![](https://i.imgur.com/Ag1IyLR.png)
+
+### 4. Compatible
+
+#### 4.1. Compatible with Customer Order Number
+
+Order numbers will include both letters and numbers. It will be beneficial for the website, especially new websites, the number of orders is low which likely create higher reliability.
+
+![](https://i.imgur.com/QJac1Dh.png)
+
+#### 4.2. Compatible with Multiple Shipping Flat Rate
+
+In addition to the Magento Shipping Method, when installing the module **Multiple Shipping Flat Rate**, you can create more Shipping Methods to help admin and customers have more options.
+
+![](https://i.imgur.com/RRkX34Z.png)
+
+#### 4.3. Compatible with Shipping Restriction
+
+Creating the **show/ hide the Shipping rule** which is displayed in both the backend and frontend.
+
+![](https://i.imgur.com/CQpaDiu.png)
+
+#### 4.4. Compatible with Payment Restriction
+
+Creating the **show/ hide the Payment rule** which is displayed in both the backend and frontend.
+
+![](https://i.imgur.com/JhOW4Ev.png)
+
+#### 4.5. Compatible with One Step Checkout
+
+![](https://i.imgur.com/G4RGUJW.png)
 
