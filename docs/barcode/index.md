@@ -64,8 +64,7 @@ From the Admin panel, go to `Stores > Settings > Configuration > Mageplaza > Bar
 ![](https://i.imgur.com/ScFk1g5.png)
 
 - **Enable**: Select **Yes** to activate extension
-- **Attribute for Barcode**: Select the coded attribute to scan barcode.
-- **For example**: Attribute for **Barcode = SKU**, module then will use the product SKU to encode into barcode. When scanning the barcode, we get the SKU of the product.
+- **Attribute for Barcode**: Select the coded attribute to scan barcode. **For example**: Attribute for **Barcode = SKU**, module then will use the product SKU to encode into barcode. When scanning the barcode, we get the SKU of the product.
 - **Barcode number template**: Sample format to generate barcode codes, Example: **MPBC-[4AN]-[3A]-[5N]** => The generated barcode may be **MPBC-J34T-OEC-54354**
 - **Auto generate barcode**: Click **Run** to automatically generate barcode for Product without barcode. If you want to create a barcode for a product which has barcode before, please tick **Regenerate?**. And **Save Config** before **Run**. To create barcode faster, you can use this command `php bin/magento mpbarcode: autogen command`
 
@@ -97,8 +96,9 @@ From the Admin panel, go to `Stores > Settings > Configuration > Mageplaza > Bar
 
 ![](https://i.imgur.com/QGLyFjR.png)
 
-**Logo**: Admin can upload the logo/ image you want to display on the barcode label
-Barcode Label Template: choose the template displayed for barcode labels. There are 4 types of templates:
+- **Logo**: Admin can upload the logo/ image you want to display on the barcode label
+
+- **Barcode Label Template**: choose the template displayed for barcode labels. There are 4 types of templates:
 
 ***Type 1: Classic 1***
 
