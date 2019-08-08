@@ -145,8 +145,8 @@ Then, your barcode label printed will contain information about the **Activity**
 
 ![](https://i.imgur.com/bUEFP7g.png)
 
-- **Barcode CSS**: Display settings (font, color, format) for content on barcode labels.
-- **Preview Barcode Label Content**: Click this button to see the preview of the barcode label according to the settings above.
+- **Barcode Label CSS**: Display settings (font, color, format) for content on barcode labels.
+- **Preview Barcode Label**: Click this button to see the preview of the barcode label according to the settings above.
 
 #### 1.3. Print Sample File
 
