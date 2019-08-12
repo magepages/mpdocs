@@ -78,7 +78,7 @@ From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select *
 - **Date of Birth**: Fill in customer date of birth
 - **Tax/VAT Number**: Edit the tax information
 - **Gender**: Choose the customer gender
-- **Send Welcome Email From**: Choose the storeview to send welcome email
+- **Send Welcome Email From**: Choose the storeview from which to send welcome email
 - **Vertex Customer Code**: 
 
 
@@ -132,7 +132,24 @@ From the Admin Panel, go to `Sales> Orders> View Order> Edit Order`, select **Ed
 
 From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **Quick Edit**
 
-![](https://i.imgur.com/BtBfZS7.gif)
+
+![](https://i.imgur.com/SzpTz6F.png)
+
+**Edit order and customer information**
+
+![](https://i.imgur.com/vqLeIhf.png)
+
+**Edit Billing Address**
+
+![](https://i.imgur.com/Xh8OIaf.png)
+
+**Edit Shipping Address**
+
+![](https://i.imgur.com/k70hk3F.png)
+
+**Edit Items Ordered**
+
+![](https://i.imgur.com/h4gKAfK.png)
 
 Quick edit allows editing all order information at the same time.
 
