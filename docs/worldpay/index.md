@@ -6,6 +6,11 @@
 
 Mageplaza Worldpay extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
+## Download and Install
+
+- [How to dowload Worldpay extension](https://www.mageplaza.com/magento-2-worldpay/) 
+- [How to install Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/) 
+
 
 ## How to use
 
