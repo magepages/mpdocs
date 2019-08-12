@@ -78,8 +78,11 @@ From the Admin Panel, go to `Sales > Orders > View Order > Edit Order`, select *
 - **Date of Birth**: Fill in customer date of birth
 - **Tax/VAT Number**: Edit the tax information
 - **Gender**: Choose the customer gender
-- **Send Welcome Email From**: Choose the storeview from which to send welcome email
-- **Vertex Customer Code**: 
+- **Send Welcome Email From**: Choose the Magento storeview from which to send welcome email to customers when their email adress is changed. 
+
+![](https://i.imgur.com/0rA0a4e.png)
+
+- **Vertex Customer Code**: Enter the code to connect to Vertex Cloud which is used to calculate tax and sales. 
 
 
 #### 2.3. Edit Billing Address/ Edit Shipping Address
@@ -141,7 +144,7 @@ From the Admin Panel, go to `Sales> Orders > View Order > Edit Order`, select **
 
 **Edit Billing Address**
 
-![](https://i.imgur.com/Xh8OIaf.png)
+![](https://i.imgur.com/zKZ48IW.png)
 
 **Edit Shipping Address**
 
