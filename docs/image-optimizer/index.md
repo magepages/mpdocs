@@ -2,7 +2,7 @@
 
 ## Overview
 
-Do you want the image of your website or product having best quality to attract customers? Do you want to reduce images' size without reducing image quality and still speeding up the website. With [Image Optimizer extension](https://www.mageplaza.com/magento-2-image-optimizer/) of Mageplaza, you can definitely do it. The module supports online stores to manually or auto optimize images after a certain time. Also, it can backup the original image, optimize the size and image quality by folder. And in particular, you can optimize images through the server and use commands to optimize each image or all photos quickly and conveniently.
+Do you want your website' s images to have the best quality with optimal size and still ensure the high loading speed? With [Image Optimizer extension](https://www.mageplaza.com/magento-2-image-optimizer/) of Mageplaza, it is definitely possible. The module supports online stores to manually or auto optimize images after a certain time. Also, it can backup the original image, optimize the size and image quality by folder. And in particular, you can optimize images through the server and use commands to optimize each image or all photos quickly and conveniently.
 
 Mageplaza Image Optimizer extension is fully compatible with [Mageplaza Cron Schedule](https://www.mageplaza.com/magento-2-cron-schedule/) to support automatic scan, backup original photos and optimize images in the most convenient and fast way.
 
@@ -35,7 +35,7 @@ Login to the Admin Magento, choose `Stores > Image Optimizer > Configuration`
 Choosing **Custom** will show more fields:
     - **Quality percent**: Enter the percent in the **Quality percent** field which will be limited between 1 and 100. For good image quality, please maintain quality above 90. If left blank, default value is 92.
 - **Lossless**: is a data compression filter. This does not reduce image quality but it will require uncompressed images before they can be rendered.
-- **Skip Transparent Images**: If **yes** is selected, the white image or transparent image will be skipped during the optimization process.
+- **Skip Transparent Images**: If **yes** is selected, the white image or transparent image will be skipped during the optimization process. If you want to optimzie these transparent photos, you must **Restore** and **Requeue** them. The second way is just choosing "No" in this field, all the transparent images will be optimized too. 
 - **Force File Permission**:
   - If **No** is selected, there is no change on the image permission. 
   - Select **Yes** so that after optimizing the image will be granted with permission. Choose **Yes** will show more fields:
