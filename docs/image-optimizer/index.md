@@ -21,9 +21,9 @@ Login to the Admin Magento, choose `Stores > Image Optimizer > Configuration`
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/CNlxEDJ.png)
+![Imgur](https://i.imgur.com/K0aCEhd.png)
 
-- **Enable**: Select **Yes** to use the module features.
+- **Enable**: Select **Yes** to use the module features. Support image types: JPG, PNG, GIF, TIF, BMP.
 - **Backup Image**: If **Yes** is selected, the original image will be backed up at `var/ backup_image` directory before being optimized.
 
 #### 1.2. Optimize Options
@@ -33,14 +33,14 @@ Login to the Admin Magento, choose `Stores > Image Optimizer > Configuration`
 - **Image Quality**: select the image optimization level, including 2 types:
   - **Custom**: a filter which help to remove some data. Noted that this will reduce the image quality so you should be careful with the level of image quality reduction as the image can be blurry and unclear. 
 Choosing **Custom** will show more fields:
-    - **Quality percent**: Enter the percent in the **Quality percent** field which will be limited between 1 and 100. For good image quality, please maintain quality above 90. If left blank, default value is 92.
+    - **Quality Percent**: Enter the percent in the **Quality percent** field which will be limited between 1 and 100. For good image quality, please maintain quality above 90. If left blank, default value is 92.
 - **Lossless**: is a data compression filter. This does not reduce image quality but it will require uncompressed images before they can be rendered.
 - **Skip Transparent Images**: If **yes** is selected, the white image or transparent image will be skipped during the optimization process. If you want to optimzie these transparent photos, you must **Restore** and **Requeue** them. The second way is just choosing "No" in this field, all the transparent images will be optimized too. 
 - **Force File Permission**:
   - If **No** is selected, there is no change on the image permission. 
-  - Select **Yes** so that after optimizing the image will be granted with permission. Choose **Yes** will show more fields:
+  - Select **Yes** to provide permission for optimized images. Choose **Yes** will show more fields:
     - **Select Permission**:
-      - Enter the number in the **Select Permission** field to choose the permission types for the image after the image is optimized. You can refer [more information here](http://linuxcommand.org/lc3_lts0090.php). Example: 0755, ...
+      - Enter the number presenting the permission in the **Select Permission** field to choose the permission types for optimized images. You can refer [more information here](http://linuxcommand.org/lc3_lts0090.php). Example: 0755, ...
   - This is a required field. 
 
 #### 1.3. Directory
@@ -51,7 +51,7 @@ Choosing **Custom** will show more fields:
   - Click **Add** button to enter the path into the path field. The entered paths will be scanned with images in that path. For example: `pub/media/catalog/product`, `pub/media/customer`. 
   - If left blank, the system will scan the default directory of `pub/media/`. Click **Remove** to delete the entered path.
 - **Excluded Directories**:
-  - Select **Add** button to enter the path where you don't want to scan the image with that folder. For example: `pub/media/mageplaza`, `pub/ media/logo`.
+  - Select **Add** button to enter the path where you don't want to scan the image in that folder. For example: `pub/media/mageplaza`, `pub/ media/logo`.
   - If left blank, there is no limit to scan images with paths. Click **Remove** to delete the path if you still want to optimize the path.
 - **Note**: If the path is in both **Excluded Directories** and **Included Directories**, then the scan with that path will not apply.
 
@@ -67,19 +67,19 @@ Choosing **Custom** will show more fields:
     - Run Weekly: 00 ** 7 will be run at 00:00 Sunday, 00 ** 1 will be run at 00:00 Monday
     - Run Month: 001 ** will be run at 00:00 on 01/01/2019.
 **Note**: When entering values, between two values linked by spaces, start running scans. For example: * * * * *
-- **Enable Optimize**: Select **yes** to automatically optimize with scanned images after a certain time and display additional fields:
-  - **Optimize Schedule**: Enter the time in Optimize Schedule field, after the selected time will automatically optimize the scanned images. Unscanned images will not be optimized. The time period entered in Optimize Schedule field is the same as the Scan Schedule field, you can refer to above.
+- **Enable Optimization**: Select **yes** to automatically optimize with scanned images after a certain time and display additional fields:
+  - **Optimization Schedule**: Enter the time in Optimization Schedule field, after the selected time will automatically optimize the scanned images. Unscanned images will not be optimized. The time period entered in Optimization Schedule field is the same as the Scan Schedule field, you can refer to above.
   - **Limit Number of Images**: Enter the number of photos that each time you want to automatically optimize after the selected time period.
 
 ### 2. Manage Images
 
 - Login to the Admin Magento, choose `Stores > Image Optimizer > Manage Images`
-- Here recorded and statistics scanned image information and Optimize or not include information of the fields: Path, Status, Original Size (Byte), Optimized Size (Byte), Compression Level (%), Error Message , ....
+- Here recorded and statistics scanned image information and Optimize or not include information of the fields: Path, Status, Original Size, Optimized Size, Compression Level (%), Error Message , ....
 
-![Imgur](https://i.imgur.com/bYMqGst.png)
+![Imgur](https://i.imgur.com/MYmY3g3.png)
 
-- Click **Scan Image** button to start scaning all images. Only optimize the scanned images.
-- Choose **Optimize Image** button to optimize with the scanned images.
+- Click **Scan Images** button to start scaning all images. Only optimize the scanned images.
+- Choose **Optimize Images** button to optimize with the scanned images.
 - With **Optimize Action**, you can choose optimize with each image or all scanned images without optimizing, the optimized images will not be optimized anymore.
 - If **Restore**, the image returns to skipped status and will ignore the optimize image.
 - **Re-Queue**: the image returns to the pending state.
@@ -89,9 +89,9 @@ Choosing **Custom** will show more fields:
 
 ![Imgur](https://i.imgur.com/y1ZES6t.png)
 
-- Display the popup when clicking **Stop** with message `Are you sure you will stop image optimization?`
+- Display the popup when clicking **Stop** with message `Are you sure you want to stop optimizing images?`
 
-![Imgur](https://i.imgur.com/ltGt8F9.png)
+![Imgur](https://i.imgur.com/13Nw5GP.png)
 
 ### 3. Command line
 
