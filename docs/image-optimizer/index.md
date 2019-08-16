@@ -43,9 +43,9 @@ Choosing **Custom** will show more fields:
       - Enter the number presenting the permission in the **Select Permission** field to choose the permission types for optimized images. You can refer [more information here](http://linuxcommand.org/lc3_lts0090.php). Example: 0755, ...
   - This is a required field. 
 
-#### 1.3. Directory
+#### 1.3. Scan Directory
 
-![Imgur](https://i.imgur.com/LWAbu9I.png)
+![Imgur](https://i.imgur.com/WTqR0Fh.png)
 
 - **Included Directories**:
   - Click **Add** button to enter the path into the path field. The entered paths will be scanned with images in that path. For example: `pub/media/catalog/product`, `pub/media/customer`. 
@@ -101,3 +101,8 @@ It is possible to run the following command to optimize images quickly, convenie
 php bin/ magento mpimageoptimizer: optimize
 ```
 
+Also, please run the following command to scan images following the confiruration at the field **Scan Directory**:
+
+```
+php bin/magento mpimageoptimizer:scan
+```
