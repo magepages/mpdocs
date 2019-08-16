@@ -27,11 +27,11 @@ We also support Coming Soon Page with similar features in this module.
 
 From the Admin Panel, go to `Stores > Settings > Configuration`, at the **Mageplaza Extension** tab select **Better Maintenance**
 
-![Imgur](https://i.imgur.com/psjaf4M.png)
+![](https://i.imgur.com/psjaf4M.png)
 
 ### 1. General Configuration
 
-![Imgur](https://i.imgur.com/N4cZWlv.png)
+![](https://i.imgur.com/N4cZWlv.png)
 
 - **Enable**: Select **Yes** to use the module's feature
 - **Real Time of Website**:
@@ -82,7 +82,7 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 #### 2.2. Subscribe Setting
 
-![Imgur](https://i.imgur.com/079YvqD.png)
+![](https://i.imgur.com/4oVdEqc.png)
 
 - **Subscription Type**: 3 options can be selected:
   - **None**: Subscription form will not be displayed in Frontend
@@ -107,14 +107,14 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 #### 2.3. Footer Block
 
-![Imgur](https://i.imgur.com/VVkhzxj.png)
+![](https://i.imgur.com/VVkhzxj.png)
 
 - Select CMS Block to be the Footer at Frontend.
 - The selected CMS Block is the footer of **Maintenance/ Coming Soon Page**. Therefore, it is recommended to select CMS Block Link on the **Whitelist Page Link(s)** list for customers to access.
 
 #### 2.4. Social Contact
 
-![Imgur](https://i.imgur.com/bHCgbCJ.png)
+![](https://i.imgur.com/bHCgbCJ.png)
 
 - **Enable**: Select **Yes** to display social contacts at Frontend
 - **Label**: Set Label for **Social Contact** field
@@ -127,7 +127,7 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 ### 3. Maintenance Page Setting
 
-![Imgur](https://i.imgur.com/fr8j1W7.png)
+![](https://i.imgur.com/fr8j1W7.png)
 
 - **Page Route**:
   - Enter the route name which appears on the URL. 
@@ -176,17 +176,17 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 - **HTTP Response Header**: Send the status of the page to Google
   - **503 Service Unavailable**
   
-  ![Imgur](https://i.imgur.com/LiqboYP.png)
+  ![](https://i.imgur.com/LiqboYP.png)
 
   - **200 OK**
   
-  ![Imgur](https://i.imgur.com/Ickb1Fm.png)
+  ![](https://i.imgur.com/Ickb1Fm.png)
 
 - **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview** page has the same content as Frontend. If uploading files, need to save the configuration before previewing
 
 ### 4. Coming Soon Page Setting
 
-![Imgur](https://i.imgur.com/1ufp4m1.png)
+![](https://i.imgur.com/1ufp4m1.png)
 
 - **Page Route**:
   - Enter the route name which appears on the URL. 
