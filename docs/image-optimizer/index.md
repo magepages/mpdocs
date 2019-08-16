@@ -17,18 +17,18 @@ Mageplaza Image Optimizer extension is fully compatible with [Mageplaza Cron Sch
 
 Login to the Admin Magento, choose `Stores > Image Optimizer > Configuration`
 
-![Imgur](https://i.imgur.com/KkLkVBW.png)
+![](https://i..com/KkLkVBW.png)
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/K0aCEhd.png)
+![](https://i.imgur.com/K0aCEhd.png)
 
 - **Enable**: Select **Yes** to use the module features. Support image types: JPG, PNG, GIF, TIF, BMP.
 - **Backup Image**: If **Yes** is selected, the original image will be backed up at `var/ backup_image` directory before being optimized.
 
 #### 1.2. Optimize Options
 
-![Imgur](https://i.imgur.com/Fx0TCa1.png)
+![](https://i.imgur.com/Fx0TCa1.png)
 
 - **Image Quality**: select the image optimization level, including 2 types:
   - **Custom**: a filter which help to remove some data. Noted that this will reduce the image quality so you should be careful with the level of image quality reduction as the image can be blurry and unclear. 
@@ -45,7 +45,7 @@ Choosing **Custom** will show more fields:
 
 #### 1.3. Scan Directory
 
-![Imgur](https://i.imgur.com/WTqR0Fh.png)
+![](https://i.imgur.com/WTqR0Fh.png)
 
 - **Included Directories**:
   - Click **Add** button to enter the path into the path field. The entered paths will be scanned with images in that path. For example: `pub/media/catalog/product`, `pub/media/customer`. 
@@ -57,7 +57,7 @@ Choosing **Custom** will show more fields:
 
 #### 1.4. Cron job
 
-![Imgur](https://i.imgur.com/re50otG.png)
+![](https://i.imgur.com/re50otG.png)
 
 - **Enable Image Scan**: Select **yes** to automatically scan images after a certain period of time and display additional fields:
   - **Scan Schedule**: Enter the time in the **Scan Schedule** field, after the selected time will automatically scan the image. You can refer to [this link](https://www.mageplaza.com/faqs/how-configure-cronjob.html). For example:
@@ -76,7 +76,7 @@ Choosing **Custom** will show more fields:
 - Login to the Admin Magento, choose `Stores > Image Optimizer > Manage Images`
 - Here recorded and statistics scanned image information and Optimize or not include information of the fields: Path, Status, Original Size, Optimized Size, Compression Level (%), Error Message , ....
 
-![Imgur](https://i.imgur.com/MYmY3g3.png)
+![](https://i.imgur.com/MYmY3g3.png)
 
 - Click **Scan Images** button to start scaning all images. Only optimize the scanned images.
 - Choose **Optimize Images** button to optimize with the scanned images.
@@ -87,11 +87,11 @@ Choosing **Custom** will show more fields:
 - **Progress**: recounting the status of the photo with Pending, Error, Skipped, Success.
 - Display popup when clicking **Mass Action Optimized** or button **Optimize Image**. When **Optimize** is clicked, the Progress bar displays 0%, and displays the first image. Click **Stop** if you want to stop the pptimize process.
 
-![Imgur](https://i.imgur.com/y1ZES6t.png)
+![](https://i.imgur.com/y1ZES6t.png)
 
 - Display the popup when clicking **Stop** with message `Are you sure you want to stop optimizing images?`
 
-![Imgur](https://i.imgur.com/13Nw5GP.png)
+![](https://i.imgur.com/13Nw5GP.png)
 
 ### 3. Command line
 
