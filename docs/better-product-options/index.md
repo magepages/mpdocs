@@ -162,10 +162,9 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
       - If the template has many options, all options will be linked to template and vice versa.
       - If ticked this **Link Template** checkbox, all field of this option(s) will be disabled and unedited.
       - Unticked, it can be edited normally.
+      
 - **SKU Display Type**: Select the display type of the product SKU when viewing order details. There are 3 options as shown below.
-
 ![](https://i.imgur.com/LKyxjxn.png)
-
   - **Parent SKU**: Only display the SKU of the product, not the SKU of the option.
   - **Custom Option SKU**: Display only SKUs configured for each option.
   - **Both**: Display the selected SKUs of the product and the selected SKUs of the option.
