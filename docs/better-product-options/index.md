@@ -25,7 +25,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Bet
 
 - **Enable**: Select **Yes** to enable the **Better Product Options** module
 - **Link Options by Default**:
-  - If **Yes** is selected, the options will be default linked to the template. Admin can only change the value on the template, then it will apply to all products assigned with those options.
+  - If **Yes** is selected, the options will be default linked to the template. Admin can only change the option on the template, then it will apply to all products assigned with those options.
   - If **No** is selected, by default the options will not link to the template.
 - **Result after removing template**:
   - If **Delete the linked products options** is selected, when the template is deleted, the options in the products linked to this template are also deleted
@@ -62,29 +62,29 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 #### 3.2. Customizable Tab Options
 
-![Imgur](https://i.imgur.com/sSzIpVc.png)
+![](https://i.imgur.com/sSzIpVc.png)
 
 - Admin can create multiple Options in the same template by selecting **Add Option**
 - **Option Title**: Enter a title for the Option. This is a required field.
 - **Option Type**: Select Option Type. This is a required field. There are many different Option Types as shown below:
 
-![Imgur](https://i.imgur.com/Sob7xS1.gifv)
+![](https://i.imgur.com/Sob7xS1.gif)
 
 - ***Option Type = Text (Field/ Area)***
 
-![Imgur](https://i.imgur.com/5dJxMGB.png)
+![](https://i.imgur.com/5dJxMGB.png)
 
 - ***Option Type = File***
 
-![Imgur](https://i.imgur.com/PyDyJB3.png)
+![](https://i.imgur.com/PyDyJB3.png)
 
 - ***Option Type = Date (Date & Time/ Date/ Time)***
 
-![Imgur](https://i.imgur.com/JWBc0kl.png)
+![](https://i.imgur.com/JWBc0kl.png)
  
 - ***Option Type = Select (Drop-down/ Radio Buttons/ Multiple Select/ Checkbox/ Visual Swatch/Text Swatch)***
 
-![Imgur](https://i.imgur.com/GvIUef4.png)
+![](https://i.imgur.com/GvIUef4.png)
 
 - **Sort Order**: Present the priority of options showing of a product. Option with smaller sort order will be displayed first. This is a required field. 
 - **Required**: Tick this checkbox so that this option is required. Otherwise, do not select.
@@ -98,31 +98,31 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 - **SKU**: Set the SKU for each option/ value of the option.
 - **Qty**: Set the limit number for each value in the option.
 - **Weight**: Set the weight for each value in the option.
-- After completing the fields above, click on the icon [Imgur](https://i.imgur.com/vbxk6Wf.png) at the right of each option to open **Popup Configuration**, this popup contains all the information you need to configure for that option.
+- After completing the fields above, click on the icon ![](https://i.imgur.com/vbxk6Wf.png) at the right of each option to open **Popup Configuration**, this popup contains all the information you need to configure for that option.
   - **Visibility Tab**:
-  ![Imgur](https://i.imgur.com/KYrArun.png)
+  ![](https://i.imgur.com/KYrArun.png)
     - **Customer Group (s)**: Only selected customer groups can see this option.
     - **Store View (s)**: Only Store View(s) selected can display this option.
   - **Title Tab**:
-  ![Imgur](https://i.imgur.com/gIVt9oT.png)
+  ![](https://i.imgur.com/gIVt9oT.png)
     - This tab only appears when the popup template is turned on.
     - Set title for option in each Store View. If left blank, the default title will be displayed.
   - **Tooltip Description Tab**:
-  ![Imgur](https://i.imgur.com/JuqQAEN.png)
+  ![](https://i.imgur.com/JuqQAEN.png)
     - **Tooltips Description**: This is the tool for admin to enter the description for Tooltip of this option.
     - **Store View**: Select "Yes" to set the Tooltips Description for certain storeview. Select "No", it will display Tooltips Description by default.
 
   - **Dependency Tab**:
-  ![Imgur](https://i.imgur.com/26iIUko.png)
+  ![](https://i.imgur.com/26iIUko.png)
     - **Dependency Type**: Select the dependency type for this option. There are two choices: **One of below options is filled** and **All of below options are filled**
     - **Dependency Options**: The display of this option will depend on the **Options, Operation and Values** configured.
     
     
-- For options with **Type = Select Option (Drop-down/ Radio Buttons/ Multiple Select/ Checkbox/ Visual Swatch/ Text Swatch)**, you can click on the icon to the right of each value corresponding to this option, to open **Popup Configuration**, on this popup will contain all the information you need to configure for that value.
+- For options with **Type = Select Option (Drop-down/ Radio Buttons/ Multiple Select/ Checkbox/ Visual Swatch/ Text Swatch)**, you can click on the icon ![](https://i.imgur.com/vbxk6Wf.png) at the right of each option to open **Popup Configuration** which contains all the information you need to configure for that option.
 
-![Imgur](https://i.imgur.com/0Nfx5K8.png)
-![Imgur](https://i.imgur.com/HV9WoyO.png)
-![Imgur](https://i.imgur.com/jAYofcs.png)
+![](https://i.imgur.com/0Nfx5K8.png)
+![](https://i.imgur.com/HV9WoyO.png)
+![](https://i.imgur.com/jAYofcs.png)
 
 - **Title Tab**: Set title by each Store View for each option. If left blank, it will display the default title of this option.
 - **Image Tab**: This is the place to customize images for each option.
@@ -151,12 +151,12 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 - **Add Option**: When you click here, you will see a form to create a new option.
 
-![Imgur](https://i.imgur.com/009VEoG.png)
+![](https://i.imgur.com/009VEoG.png)
 
 - **Add Option From Template**: Clicking here will appear a popup to add options from the product options template chosen into this product.
   - In the options are taken from **Product Options Template**, there are some differences compared with the options created at the Product page as follows:
 
-    ![Imgur](https://i.imgur.com/m766vud.png)
+    ![](https://i.imgur.com/m766vud.png)
     - **Template**: This is name of the template which will be assigned to this option.
     - **Link Template**: Link this option to the template taken from **Better Options Template**.
       - If the template has many options, all options will be linked to template and vice versa.
@@ -164,13 +164,13 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
       - Unticked, it can be edited normally.
 - **SKU Display Type**: Select the display type of the product SKU when viewing order details. There are 3 options as shown below.
 
-![Imgur](https://i.imgur.com/LKyxjxn.png)
+![](https://i.imgur.com/LKyxjxn.png)
 
   - **Parent SKU**: Only display the SKU of the product, not the SKU of the option.
   - **Custom Option SKU**: Display only SKUs configured for each option.
   - **Both**: Display the selected SKUs of the product and the selected SKUs of the option.
   
-![Imgur](https://i.imgur.com/jhdEmWJ.png)
+![](https://i.imgur.com/jhdEmWJ.png)
 
 #### 3.5. Mass action at the Product Grid
 
@@ -204,4 +204,4 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 - **Show image with option value**
 
-![Imgur](https://i.imgur.com/1S3YZPa.png)
+![](https://i.imgur.com/1S3YZPa.png)
