@@ -16,7 +16,7 @@ The module allows adding to cart multiple children products of a configurable pr
 
 ## How to use
 
-### Show all the available simple product of the configurable product as a table:
+### Show all the available simple products of the configurable product as a table:
 
 ![](https://i.imgur.com/lpHEFPU.png)
 
@@ -42,7 +42,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Con
 
 - **Enable**: Select **Yes** to activate the module.
 - **Allow Customer Group(s)**:
-  - Select the customer group who can view all available Simple Product of the Configurable Product in a table.
+  - Select the customer group who can view all available Simple Products of the Configurable Product in a table.
   - You can choose multiple customer groups.
 
 #### 1.2. Display
