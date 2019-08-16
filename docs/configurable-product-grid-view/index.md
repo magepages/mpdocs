@@ -8,9 +8,15 @@ The module allows adding to cart multiple children products of a configurable pr
 
 **Mageplaza Configurable Product Grid View** is fully compatible with [Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/) to help customers save the most time.
 
+## How to download and install
+
+- [Download Mageplaza Configurable Product Grid View](https://www.mageplaza.com/magento-2-configurable-product-grid-view/)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
+
 ## How to use
 
-### Show all the existing simple product children of the Configurable Product as a table:
+### Show all the available simple product of the configurable product as a table:
 
 ![](https://i.imgur.com/lpHEFPU.png)
 
