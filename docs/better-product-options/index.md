@@ -62,36 +62,76 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 #### 3.2. Customizable Tab Options
 
-![](https://i.imgur.com/zgeLw4i.png)
+![Imgur](https://i.imgur.com/sSzIpVc.png)
 
 - Admin can create multiple Options in the same template by selecting **Add Option**
 - **Option Title**: Enter a title for the Option. This is a required field.
 - **Option Type**: Select Option Type. This is a required field. There are many different Option Types as shown below:
 
-![](https://i.imgur.com/3A2iW2x.gif)
+![Imgur](https://i.imgur.com/Sob7xS1.gifv)
 
 - ***Option Type = Text (Field/ Area)***
 
-![](https://i.imgur.com/CyZoCXE.png)
+![Imgur](https://i.imgur.com/5dJxMGB.png)
 
 - ***Option Type = File***
 
-![](https://i.imgur.com/zdIztLb.png)
+![Imgur](https://i.imgur.com/PyDyJB3.png)
 
 - ***Option Type = Date (Date & Time/ Date/ Time)***
 
-![](https://i.imgur.com/lgfPfrT.png)
+![Imgur](https://i.imgur.com/JWBc0kl.png)
  
-- ***Option Type = Select (Drop-down/ Radio Buttons/ Multiple Select/ Checkbox)***
+- ***Option Type = Select (Drop-down/ Radio Buttons/ Multiple Select/ Checkbox/ Visual Swatch/Text Swatch)***
 
-![](https://i.imgur.com/6rJo8gY.png)
+![Imgur](https://i.imgur.com/GvIUef4.png)
 
+- **Sort Order**: Present the priority of options showing of a product. Option with smaller sort order will be displayed first. This is a required field. 
 - **Required**: Tick this checkbox so that this option is required. Otherwise, do not select.
 - **Disable**:
   - Tick **Disable**, the option will be disabled and not displayed at the frontend/ cart.
   - If not tick **Disable**, the option is used and displayed normally.
 - **Default Value**: Select the default value for this option.
+- **Visual Swatch**: You can choose a color or an image to represent the value in the option. This field only appears when **Option Type = Visual Swatch/Text Swatch**.
+- **Title**: Set the title for the values in each option.
+- **Price**: Set a price for each value. There are 2 price types as **Fixed** and **Percent**.
+- **SKU**: Set the SKU for each option/ value of the option.
+- **Qty**: Set the limit number for each value in the option.
+- **Weight**: Set the weight for each value in the option.
+- After completing the fields above, click on the icon [Imgur](https://i.imgur.com/vbxk6Wf.png) at the right of each option to open **Popup Configuration**, this popup contains all the information you need to configure for that option.
+  - **Visibility Tab**:
+  ![Imgur](https://i.imgur.com/KYrArun.png)
+    - **Customer Group (s)**: Only selected customer groups can see this option.
+    - **Store View (s)**: Only Store View(s) selected can display this option.
+  - **Title Tab**:
+  ![Imgur](https://i.imgur.com/gIVt9oT.png)
+    - This tab only appears when the popup template is turned on.
+    - Set title for option in each Store View. If left blank, the default title will be displayed.
+  - **Tooltip Description Tab**:
+  ![Imgur](https://i.imgur.com/JuqQAEN.png)
+    - **Tooltips Description**: This is the tool for admin to enter the description for Tooltip of this option.
+    - **Store View**: Select "Yes" to set the Tooltips Description for certain storeview. Select "No", it will display Tooltips Description by default.
 
+  - **Dependency Tab**:
+  ![Imgur](https://i.imgur.com/26iIUko.png)
+    - **Dependency Type**: Select the dependency type for this option. There are two choices: **One of below options is filled** and **All of below options are filled**
+    - **Dependency Options**: The display of this option will depend on the **Options, Operation and Values** configured.
+    
+    
+- For options with **Type = Select Option (Drop-down/ Radio Buttons/ Multiple Select/ Checkbox/ Visual Swatch/ Text Swatch)**, you can click on the icon to the right of each value corresponding to this option, to open **Popup Configuration**, on this popup will contain all the information you need to configure for that value.
+
+![Imgur](https://i.imgur.com/0Nfx5K8.png)
+![Imgur](https://i.imgur.com/HV9WoyO.png)
+![Imgur](https://i.imgur.com/jAYofcs.png)
+
+- **Title Tab**: Set title by each Store View for each option. If left blank, it will display the default title of this option.
+- **Image Tab**: This is the place to customize images for each option.
+- **Alt Text**: Enter Alt Text for the image
+- **Update Product Preview Image**: Select "Yes" to update the image of the product when selecting this option. If you dont' want to pdate images, select "No".
+- **Display along with Option Value**: Select the display position of the image associated with Option Value. This field is only displayed when **Option Type = Radio Buttons/ Checkbox**.
+- **Display Tooltip when hover Option**: Select **Yes** to show the tooltip image when hovering over this option. This field only appears when **Option Type = Radio Buttons/ Checkbox/ Visual Swatch/ Text Swatch**.
+- **Advanced Pricing**: This tab is for advanced price settings of this sub-option. Here admin can give a special price for the option, and set the applying date as well as set the option price for specific customer group.
+- **Option Dependency**: This tab is used to configure the dependency of this sub-option on other options. The display of this Option will depend on the **Options, Operation and Values** configured. It is similar to the **Option Dependency** section of the Father Option.
 
 #### 3.3. Manage Assign Products Tab
 
@@ -111,17 +151,26 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 - **Add Option**: When you click here, you will see a form to create a new option.
 
-![](https://i.imgur.com/3YEl8th.png)
+![Imgur](https://i.imgur.com/009VEoG.png)
 
 - **Add Option From Template**: Clicking here will appear a popup to add options from the product options template chosen into this product.
   - In the options are taken from **Product Options Template**, there are some differences compared with the options created at the Product page as follows:
 
-    ![](https://i.imgur.com/O4ATSyq.png)
-    - **Template**: Enter the name of the Template to which this option will be added.
+    ![Imgur](https://i.imgur.com/m766vud.png)
+    - **Template**: This is name of the template which will be assigned to this option.
     - **Link Template**: Link this option to the template taken from **Better Options Template**.
       - If the template has many options, all options will be linked to template and vice versa.
       - If ticked this **Link Template** checkbox, all field of this option(s) will be disabled and unedited.
       - Unticked, it can be edited normally.
+- **SKU Display Type**: Select the display type of the product SKU when viewing order details. There are 3 options as shown below.
+
+![Imgur](https://i.imgur.com/LKyxjxn.png)
+
+  - **Parent SKU**: Only display the SKU of the product, not the SKU of the option.
+  - **Custom Option SKU**: Display only SKUs configured for each option.
+  - **Both**: Display the selected SKUs of the product and the selected SKUs of the option.
+  
+![Imgur](https://i.imgur.com/jhdEmWJ.png)
 
 #### 3.5. Mass action at the Product Grid
 
@@ -129,6 +178,11 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 - From the Admin Panel, go to `Products > Catalog` then select one or more Product then choose `Actions> Assign Product Options Templates`
 
 ![](https://i.imgur.com/5MjWKSN.gif)
+
+### 4. Import/Export Template
+#### 4.1. Import
+#### 4.2. Export
+
 
 ## Frontend
 
@@ -147,3 +201,7 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 - Image of ***Option Type = Date Time*** on Product View Detail page
 
 ![](https://i.imgur.com/V883rOc.png)
+
+- **Show image with option value**
+
+![Imgur](https://i.imgur.com/1S3YZPa.png)
