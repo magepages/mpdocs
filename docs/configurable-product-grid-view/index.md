@@ -92,7 +92,7 @@ Ex: In the color attribute, if you select **Mageplaza Grid View = Inactive**, th
 
 When installing **Quick View** module, at each Simple Product will display the search button.
 
-![](https://i.imgur.com/2uBj8bw.png)
+![](https://i.imgur.com/wiC1VED.png)
 
 Click on Search button will display popup allowing to select multiple chield products of a parent product at the same time:
 
