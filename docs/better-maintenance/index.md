@@ -16,7 +16,11 @@ We also support Coming Soon Page with similar features in this module.
 
 ### Display Maintenance Page during maintenance time
 
+![](https://i.imgur.com/I44SSJL.png)
+
 ### Show Coming Soon Page for New Products or Services
+
+![](https://i.imgur.com/v5oIKHi.png)
 
 
 ## How to Configure
@@ -180,7 +184,7 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 - **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview** page has the same content as Frontend. If uploading files, need to save the configuration before previewing
 
-#### 4. Coming Soon Page Setting
+### 4. Coming Soon Page Setting
 
 ![Imgur](https://i.imgur.com/1ufp4m1.png)
 
