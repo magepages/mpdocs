@@ -99,7 +99,7 @@ Admin chooses the conditions for promo banner displayed in the checkout page.
 
 ##### 3.1. Single-Image Banner
 
-![](https://i.imgur.com/XHQrF9m.png)
+![](https://i.imgur.com/Jrca8gh.png)
 
 - Choose **Promo Banner Type = Single-Image Banner**: The display promo banner in images form. 
 - **Select Image**: Click **Choose File** to download images for promo banner.
