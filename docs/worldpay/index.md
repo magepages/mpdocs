@@ -49,11 +49,11 @@ Mageplaza Worldpay extension is fully compatible with [Mageplaza One Step Checko
 
   - **Iframe Checkout**:
   
-  ![](https://i.imgur.com/nGtgv6X.png)
+  ![](https://i.imgur.com/J086ZRF.png)
 
 - Display the **Payment Method** in the Order Backend:
 
-![](https://i.imgur.com/IQRaBBN.png)
+![](https://i.imgur.com/6K0ovzD.png)
 
 - **Stored Payment Methods**: Here save the credit card information that customers have saved at the previous purchase. If you do not want to save old or unused credit cards, you can click delete to remove them.
 
