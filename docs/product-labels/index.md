@@ -1,10 +1,10 @@
 # Product Labels
 ## Overview
 
-[Product Labels extension](https://www.mageplaza.com/magento-2-product-labels/) offers the feature that helps store owners display images, labels, characters, symbols on the products. This feature brings the customers the intuitive interface that allows them to know that Which products are being got the sale off and what percentage of sales is, etc. Also, when you integrate this module, store owners can easily attract customers to the best-selling products or products that they are planning for marketing to increase sales and revenues for their online stores.
+Product Labels extension offers the feature that helps store owners display images, labels, characters, symbols on the products. This feature brings the customers the intuitive interface that allows them to know that Which products are being got the sale off and what percentage of sales is, etc. Also, when you integrate this module, store owners can easily attract customers to the best-selling products or products that they are planning for marketing to increase sales and revenues for their online stores.
 
 ## Documentation
-- [Download Mageplaza Product Labels extension](https://www.mageplaza.com/magento-2-product-labels/)
+- Download Mageplaza Product Labels extension
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to install
