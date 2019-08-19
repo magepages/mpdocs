@@ -2,12 +2,12 @@
 
 ## Overview
 
-Mageplaza Order Labels extension allows admin to create and customize the labels of order columns, sort orders in Order Grid explicitly, thereby easier to manage orders. With this module, admin can not only use an image or text to display the label but can also use a combination of both. In addition, this module also supports manual assignment or automatic labeling of orders. Moreover, this module also displays and allows for Label editing in both Order Grid and Order Form. In particular, it improves the Order Status display section and allows it to be displayed at Frontend so that customers can quickly know how their order is in status.
+[Mageplaza Order Labels extension](https://www.mageplaza.com/magento-2-order-labels-extension/) allows admin to create and customize the labels of order columns, sort orders in Order Grid explicitly, thereby easier to manage orders. With this module, admin can not only use an image or text to display the label but can also use a combination of both. In addition, this module also supports manual assignment or automatic labeling of orders. Moreover, this module also displays and allows for Label editing in both Order Grid and Order Form. In particular, it improves the Order Status display section and allows it to be displayed at Frontend so that customers can quickly know how their order is in status.
 
 
 ## How to download and install
 
-- Download Mageplaza Order Labels
+- [Download Mageplaza Order Labels](https://www.mageplaza.com/magento-2-order-labels-extension/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
