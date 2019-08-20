@@ -18,7 +18,7 @@ Mageplaza Quick Cart is fully compatible with [Mageplaza Reward Points](https://
 
 ![Imgur](https://i.imgur.com/pKZj7tn.png)
 
-### Automatically display minicart popup when pointing to cart:
+### Automatically display minicart popup when hovering to cart:
 
 ![Imgur](https://i.imgur.com/DtbepFz.gif)
 
@@ -96,6 +96,6 @@ With **Reward Points** integration, it allows displaying the total number of poi
 
 ### 3. Compatible with Gift Card
 
-With the Gift Card integration, it allows showing more on the total, including the amount of discount due to Gift Card code or Gift Card Credit:
+With the **Gift Card** integration, it allows showing more on the total, including the amount of discount due to Gift Card code or Gift Card Credit:
 
 ![Imgur](https://i.imgur.com/xv7iSLq.png)
