@@ -138,7 +138,7 @@ Welcome to Mageplaza Docs
    who-viewed-this-also-viewed/index
    webhook/index
    worldpay/index
-   2-checkout/index
+   2checkout/index
  
    
    
