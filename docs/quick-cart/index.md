@@ -2,9 +2,9 @@
 
 ## Overview
 
-Normally, if you want to check the cart details right into view cart or check out, it will be inconvenient and quite time consuming. But with Mageplaza it is solved easily and quickly thanks to [Quick Cart extension](https://www.mageplaza.com/magento-2-quick-cart/). The module has a more modern minicart design, combined with a shopping cart detailing feature that helps customers save shopping time, without having to access the view cart page directly. The module also allows to customize the number of products, options to configure the background color, title, customize CSS in minicart. In addition, you can set effects for minicart.
+Usually, if you want to check the cart details right into view cart or check out, it will be inconvenient and quite time-consuming. But with Mageplaza, it is solved easily and quickly thanks to [Quick Cart extension](https://www.mageplaza.com/magento-2-quick-cart/). The module has a modern minicart design, combined with a shopping cart detailing feature that helps customers save shopping time, without having to access the view cart page directly. The module also allows to customize the number of products, options to configure the background color, title, customize CSS in minicart. In addition, you can set effects for minicart.
 
-Mageplaza Quick Cart is fully compatible with [Mageplaza Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/) and [Mageplaza Gift Card](https://www.mageplaza.com/magento-2-gift-card-extension/) helps customers have a better overview and save more time to pay quickly.
+Mageplaza Quick Cart is fully compatible with [Mageplaza Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/) and [Mageplaza Gift Card](https://www.mageplaza.com/magento-2-gift-card-extension/) helping customers have a better overview and save more time to purchase items quickly.
 
 ## How to download and install
 
@@ -16,25 +16,25 @@ Mageplaza Quick Cart is fully compatible with [Mageplaza Reward Points](https://
 
 ### Minicart with new interface:
 
-![Imgur](https://i.imgur.com/pKZj7tn.png)
+![](https://i.imgur.com/pKZj7tn.png)
 
 ### Automatically display minicart popup when hovering to cart:
 
-![Imgur](https://i.imgur.com/DtbepFz.gif)
+![](https://i.imgur.com/DtbepFz.gif)
 
 ### Always display the minicart when the page is scrolled down:
 
-![Imgur](https://i.imgur.com/dwa45oM.png)
+![](https://i.imgur.com/dwa45oM.png)
 
 ### Compatible with Reward Points and Gift Card:
 
-![Imgur](https://i.imgur.com/3cjx15k.png)
+![](https://i.imgur.com/HeZwZ43.png)
 
 ## How to Configure
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Quick Cart`
 
-![Imgur](https://i.imgur.com/7NfwJq9.png)
+![](https://i.imgur.com/kg7UyDh.png)
 
 ### 1.Configuration
 
@@ -42,20 +42,20 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Quick Cart`, select **General**
 
-![Imgur](https://i.imgur.com/LyMD989.png)
+![](https://i.imgur.com/LyMD989.png)
 
 - **Enable**: Select **Yes** to turn on the Module.
 - **Popup Effect**:
   - **Slide popup (right)**: Display new popup minicart when clicking on cart:
-  ![Imgur](https://i.imgur.com/NRx7zg8.png)
+  ![](https://i.imgur.com/NRx7zg8.png)
   - **Hover**: Automatically display the minicart popup when hovering to the shopping cart
-  ![Imgur](https://i.imgur.com/kkDInHu.gif)
+  ![](https://i.imgur.com/kkDInHu.gif)
 
 - **Auto Open Minicart**:
   - Only displayed when at **Popup Effect** field, you select **Slide popup (right)**.
   - Minicart is auto displayed when customer adds product to cart.
-  
-  ![Imgur](https://i.imgur.com/R0ZklMe.gif)
+  - Note: it will work provided that [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) is supported.
+  ![](https://i.imgur.com/R0ZklMe.gif)
 
 - **Show Coupon**:
   - Display the coupon filling box applied
@@ -66,36 +66,47 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
   - **Full Total Information**: Displays all information in minicart including: Subtotal, Discount, Shipping & Handling, Tax, Grand Total.
   - **Only Subtotal**: Only displays Subtotal information in minicart.
   
-- **Fixed position minicart**: Select **Yes** to always display the minicart when the page is scrolled down.
+- **Fixed position minicart**: Select **Yes** to always display the minicart icon when the page is scrolled.
 
-![Imgur](https://i.imgur.com/6T1sHrl.png)
+![](https://i.imgur.com/6T1sHrl.png)
 
 #### 1.2. Design
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Quick Cart`, select **Design**
 
-![Imgur](https://i.imgur.com/Kz8tKZP.png)
+![](https://i.imgur.com/Kz8tKZP.png)
 
-- **Header Background color**: select the background color for the minicart header.
-- **Header Text Color**: select the text color of the minicart header.
-- **Subtotal Background color**: select Subtotal background color.
-- **Subtotal Text Color**: select the font color in Subtotal.
+- **Header Background color**: 
+  - Select the background color for the minicart header.
+  - If empty, the default color "#1979c3" will be used.
+  
+- **Header Text Color**: 
+  - Select the text color of the minicart header.
+  - If empty, the default color "#ffffff" will be used.
+  
+- **Subtotal Background color**: 
+  - Select Subtotal background color.
+  - If empty, the default color "#ffffff" will be used.
+  
+- **Subtotal Text Color**: 
+  - Select the font color in Subtotal.
+  - If empty, the default color "#333333" will be used.
 
-![Imgur](https://i.imgur.com/Re4x75y.png)
+![](https://i.imgur.com/Re4x75y.png)
 
-- **Custom CSS**: you can write CSS code here, it can not only changes colors but also many other things
-- **Example**: At the **Custom CSS** field, you fill in `.mpquickcart .block-title {font-size: 28px;}`, then at Frontend, it will display the bigger size of text indicating the Item number in the cart ( see picture below)
+- **Custom CSS**: you can write CSS code here, it not only can change colors but also many other things
+- **Example**: At the **Custom CSS** field, you fill in `.mpquickcart .block-title {font-size: 28px;}`, then at Frontend, it will display the bigger size of text indicating the item number in the cart ( see picture below)
 
-![Imgur](https://i.imgur.com/bXfAss7.png)
+![](https://i.imgur.com/bXfAss7.png)
 
 ### 2. Compatible with Reward Points
 
-With **Reward Points** integration, it allows displaying the total number of points of the shopping cart that customer can get after payment in minicart. Also it allow displaying the number of reward points that customer uses to deduct from the total cart.
+With **Reward Points** integration, it allows displaying the total number of points of the shopping cart that customer can get after payment in minicart. Also, it enables displaying the number of reward points that customer uses to deduct from the total cart.
 
-![Imgur](https://i.imgur.com/t7n4B8a.png)
+![](https://i.imgur.com/tQlLPKn.png)
 
 ### 3. Compatible with Gift Card
 
 With the **Gift Card** integration, it allows showing more on the total, including the amount of discount due to Gift Card code or Gift Card Credit:
 
-![Imgur](https://i.imgur.com/xv7iSLq.png)
+![](https://i.imgur.com/xv7iSLq.png)
