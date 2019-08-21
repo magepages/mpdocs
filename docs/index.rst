@@ -46,9 +46,11 @@ Welcome to Mageplaza Docs
    age-verification/index
    banner-slider/index
    backend-reindex/index
+   barcode/index
    better-coupon/index
    better-popup/index
    better-change-qty/index
+   better-maintenance/index
    better-order-grid/index
    better-product-reviews/index
    better-sorting/index
@@ -57,6 +59,7 @@ Welcome to Mageplaza Docs
    cartasi/index
    call-for-price/index
    catalog-permissions/index
+   commweb/index
    configurable-products-preselect/index
    countdown-timer/index
    cron-schedule/index
@@ -104,10 +107,13 @@ Welcome to Mageplaza Docs
    product-labels/index
    product-slider-m2/index
    product-alerts/index
+   promo-bar/index
+   promo-banner/index
    quick-view-ajax-cart/index
    quick-order/index
    required-login/index
    review-reminder/index
+   rma/index
    sagepay/index
    save-cart-and-buy-later/index
    search/index
@@ -131,6 +137,8 @@ Welcome to Mageplaza Docs
    who-bought-this-also-bought/index
    who-viewed-this-also-viewed/index
    webhook/index
+   worldpay/index
+   2-checkout/index
  
    
    
