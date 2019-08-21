@@ -78,19 +78,19 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
 
 - **Header Background color**: 
   - Select the background color for the minicart header.
-  - If empty, the default color "#1979c3" will be used.
+  - If empty, the default color **#1979c3** will be used.
   
 - **Header Text Color**: 
   - Select the text color of the minicart header.
-  - If empty, the default color "#ffffff" will be used.
+  - If empty, the default color **#ffffff** will be used.
   
 - **Subtotal Background color**: 
   - Select Subtotal background color.
-  - If empty, the default color "#ffffff" will be used.
+  - If empty, the default color **#ffffff** will be used.
   
 - **Subtotal Text Color**: 
   - Select the font color in Subtotal.
-  - If empty, the default color "#333333" will be used.
+  - If empty, the default color **#333333** will be used.
 
 ![](https://i.imgur.com/Re4x75y.png)
 
