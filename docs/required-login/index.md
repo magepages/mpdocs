@@ -41,9 +41,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   
 #### 1.2. Configuration
 
-![](https://i.imgur.com/2LgMdSP.png)
-
-![](https://i.imgur.com/txjs1St.png)
+![](https://i.imgur.com/I3fnRFc.png)
 
 
 - **Apply for**: 
@@ -54,12 +52,10 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   - Select the CMS page you want to apply required login. You can choose to apply multiple CMS pages at the same time. The CMS pages unselected will not apply login requests.
   - You can leave this field blank
   
-- **Apply for Custom Page**:  Choose Custom page:
-  - **Include page URLs**: Show a field as text for entering the URL paths which must be separated by a `/` in the field. Required Login with all pages including the url links entered below. Fro example: /blog, /men/top/t-shirt,...
-  - **Exclude page URLs**: 
+- **Include Custom Page**: Show a field as text for entering the URL paths which must be separated by a `/` in the field. Required Login with all pages including the url links entered below. Fro example: /blog, /men/top/t-shirt,...
+- **Exclude Custom Page**: 
     - Show more fields as text. Enter the URL paths which are separated by a `/` in the field. Required Login with all pages not including the url links entered below.
-    
-`Note`: The field **Apply for Custom Page** will be prioritized applied if you choose the same URLs in other fields. Besides, if insert the same URL to both **Include page** and **Exclude page** then the system will exclude that URL. means that not apply required login to that URL 
+    - If insert the same URL to both **Include Custom Page** and **Exclude Custom Page**, the system will not apply required login to those URLs (means that **Exclude Custom Page** is prioritized) 
 
 - **Redirect To**: 
   - Select the page you want visitors to be redirected to after successful login
@@ -69,6 +65,9 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   - **Previous Page**: Redirect to Previous Page (the page that is required login) after successful login. For example: required login for Home page  means that customers will be redirected to Home page after logging in
   - This is a required field. If the URL is wrong, there will be a notification: `Please enter a valid URL. Protocol is required (http://, https:// or ftp://).`
 
+- **Apply Redirect for**: 
+  - **Only require login**: Only apply redirecting for the first time login of selected page. The second time login, customers will not be redirected to another site. 
+  - **All login on site**: Apply redirecting for the selected page whenever customer login
 
 
 
