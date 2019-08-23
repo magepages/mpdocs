@@ -5,7 +5,10 @@ GDPR principle was created to protect customer data. In a nutshell, GDPR establi
 
 In order to capture the EU data protection standards, Mageplaza has released a new extension for this standard. That's the GDPR module. [Magento 2 GDPR](https://github.com/mageplaza/magento-2-gdpr) module will assist you to delete customer data permanently, to ensure your GDPR regulation compliance.
 
+In addition, GDPR pro now supports customers to download their account information which also can be auto deleted after a long time unlogged in. This removal will be notified for customers before the deleting date. 
+
 ## How to Configure
+
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > GDPR``
 
 ![](https://i.imgur.com/YGJmKZh.png)
@@ -13,9 +16,17 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 ### I. General 
 Check in **General** to learn the basic configuration of the module
 
-![](https://i.imgur.com/4cB3TrU.png)
+![](https://i.imgur.com/RddUFPe.png)
 
 * In the **Enable** field: Choose "Yes" to turn the module on.
+* **Allow Download Customer Information**: Choose **Yes** to allow customers to download their personal data related their account. The supported file is in CSV and Excel XML. There are one extra field shown:
+
+  * **Download message**: 
+  * Enter the message shown when customer want to downloaf their personal data. This message will be displayed in Download section. HTML code is allowed.
+  * Default message is: “Here you can download a copy of your personal data in CSV or Excel XML file”.
+
+![](https://i.imgur.com/dSvs8eu.png)
+
 * In the **Allow Delete Customer Account**: Choose "Yes" to allow customers can delete their account by themselves.
 * In the **Delete message** field
   * Enter the message displayed when customers are going to delete their account.
@@ -41,6 +52,13 @@ Check in **General** to learn the basic configuration of the module
 * In the **Term and Condition** field: 
   * Allow editing the display content of the GDPR policy or use the default content of Mageplaza
   * Support HTML code
+  
+* **Auto Delete Customer Account**: If you select **yes**, it will automatically delete the account of the customer when the customer after a long time does not log in. Show more fields:
+  * **Delete After Last Login For**:
+    * Enter the time period in the field **Delete After Last Login For**. After the selected time will automatically delete the customer's account. Time is calculated from the last time customers log into their account.
+    * If you leave it blank or enter 0, it will not automatically delete the customer's account.
+
+**Note**: It is recommended to enter a time period in the **Delete After Last Login For** field greater than or equal to the period in the **Notification Email Before Delete Account** section. Because sending an email to notify customers that their account is about to be deleted is essential for customers to continue using that account with your site.
 
 ### II. Anonymise Account Configuration
 
@@ -106,7 +124,7 @@ The information will be hidden in the order when customers remove their account.
 
 ### IV. Email Configuration
 
-![](https://i.imgur.com/HlGrROY.png)
+![](https://i.imgur.com/YIWsUu9.png)
 
 * In the **Enable Email Confirmation** field:
   * Choose Yes to send the email confirmation when customers remove the account.
@@ -120,6 +138,14 @@ Below is the content of the email:
 
 ![](https://i.imgur.com/0uRTyAs.png)
   
+* **Notification Email Before Delete Account**
+  * **Enable**: Select **yes** to send email to customers before thier accounts are auto deleted 
+  * **Send Email Before Delete Account**:
+    * Enter the number of days before deletting account that notification email will be sent out. Hence, value in this field must be less than or equal to the number of days in **Delete After Last Login For**.
+    * If left blank or 0, notification email will not be sent. 
+  * **Notification Email Template**: Choose the email template. You can design new email template by going to `Marketing > Email Templates`.
+  
+![](https://i.imgur.com/Xy673CD.png)
 
 
 
