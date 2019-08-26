@@ -14,7 +14,6 @@
 
 ## Download & Install
 
-- [Download on Github](https://github.com/mageplaza/magento-2-multi-flat-rates)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
