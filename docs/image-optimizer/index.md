@@ -17,7 +17,7 @@ Mageplaza Image Optimizer extension is fully compatible with [Mageplaza Cron Sch
 
 Login to the Admin Magento, choose `Stores > Image Optimizer > Configuration`
 
-![](https://i..com/KkLkVBW.png)
+![](https://i.imgur.com/KkLkVBW.png)
 
 #### 1.1. General
 
