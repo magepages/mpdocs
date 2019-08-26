@@ -10,10 +10,6 @@ Note: **Mageplaza Currency Formatter Extension** can be used with multiple store
 - Config of the extension in each store will be applied in the store itself.
 - Config in this store doesn't affect the config in the other store.
 
-## How to download and install
-
-- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
-
 
 ## How to use
 
