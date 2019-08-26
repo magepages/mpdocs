@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Multiple Flat Rates Shipping extension](https://www.mageplaza.com/magento-2-multi-flat-rates/) gives your store more choices about the shipping method. Thanks to this module, you can apply different delivery rates to different countries. It not only helps increase the conversion rate but also boost your sale significantly.
+**Multiple Flat Rates Shipping extension** gives your store more choices about the shipping method. Thanks to this module, you can apply different delivery rates to different countries. It not only helps increase the conversion rate but also boost your sale significantly.
 
 *Note*: Magento 2 Custom Order Number can be used with multiple stores. Multiple stores module:
 - This extension is applied to multiple stores.
@@ -13,7 +13,7 @@
 
 
 ## Download & Install
-- [Download on Mageplaza](https://www.mageplaza.com/magento-2-multi-flat-rates/)
+
 - [Download on Github](https://github.com/mageplaza/magento-2-multi-flat-rates)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
