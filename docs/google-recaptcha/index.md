@@ -2,14 +2,16 @@
 
 ## Overview
 
-According to the search from [Economictimes](https://tech.economictimes.indiatimes.com/news/internet/google-is-bringing-its-recaptcha-service-to-android-devices/59098427), today's Artificial Intelligence (AI) technology can solve almost variant of distorted text at 99.8% accuracy. Distorted text, therefore, is no longer a dependable tool to test. To prevent human effort from accessing your online store, [Magento 2 Google Recaptcha extension](https://www.mageplaza.com/magento-2-google-recaptcha/) has been released by Mageplaza experts.
+According to the search from [Economictimes](https://tech.economictimes.indiatimes.com/news/internet/google-is-bringing-its-recaptcha-service-to-android-devices/59098427), today's Artificial Intelligence (AI) technology can solve almost variant of distorted text at 99.8% accuracy. Distorted text, therefore, is no longer a dependable tool to test. To prevent human effort from accessing your online store, **Magento 2 Google Recaptcha extension** has been released by Mageplaza experts.
 
 Google Recaptcha extension is the best solution to protect your e-commerce store from spams and frauds. Also, it is also a useful tool that helps online stores avoid the requirements of the bots. Thanks to this module, interestingly, valid users can be accepted easily.
 
-## Download & Install
-- [Mageplaza Google Recaptcha](https://www.mageplaza.com/magento-2-google-recaptcha/)
+Besides, Mageplaza Google Recaptcha extension is fully compatible with **Mageplaza Age Verification**, **Better Product Reviews**, **One Step Checkout**.
+
+
+## Installation
+
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
-- [Github Google Recaptcha](https://github.com/mageplaza/magento-2-google-recaptcha)
 
 ## How to Configure
 
@@ -32,7 +34,7 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
 
 * **Visible**
 
-`Note`: Apply for the backend
+`Note`: Apply for the backend and frontend
 
    * **Google API Key**: Enter the Key Visible reCAPTCHA
    * **Google API Secret Key**: Enter the Secret Key
@@ -67,9 +69,14 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
    
 #### Frontend Configuration
 
-![](https://i.imgur.com/qZ9u4RV.png)
+![](https://i.imgur.com/3raElIs.png)
 
 * **Enable**: Select Yes to display reCAPTCHA on the frontend
+* **Recaptcha Type**: Show Recaptcha at Frontend with 2 types:
+  * **Visible**: Show Visible Recaptcha at Frontend
+  ![](https://i.imgur.com/uRSIR0C.png)
+  * **Invisible**: Show Invisible raCapcha at Frontend
+  ![](https://i.imgur.com/X6I5zej.png)
 * **Forms**: Choose a place displaying reCAPTCHA on the frontend. Store owners can allow reCAPTCHA to display in all forms.
     * **Forms = Login**: reCAPTCHA will show in the Login Form when visitors login to the website
     * **Forms = Create User**: reCAPTCHA will show in the Create User Forms when visitors create an account
@@ -77,15 +84,25 @@ Google Recaptcha extension is the best solution to protect your e-commerce store
     * **Forms = Contact Us**: reCAPTCHA will display in the Contact Us Form
     * **Forms = Change Password**: reCAPTCHA will show in the Change Password Form
     * **Forms = Product ReView**: reCAPTCHA will display when visitors access the product page to review
+    
+* Google Recaptcha is totally compatible with Better Product Reviews extension which supports customers to leave reviews to your product pages easily and accurately. Recaptcha will be shown when you click to **Write a review button**.
 
-* **Badge Position**
+![](https://i.imgur.com/ZU2p0Qs.png)
+
+* **Age Verification**: Only show this feature configuration when installing Mageplaza Age Verification extension which supports your store to show reCaptcha at age verification popup. 
+
+* **Badge Position**: Show this field when choosing Invisible reCaptcha
 
 ![](https://i.imgur.com/7hpEcL1.png)
 
    * **Badge Position = Inline**: Recaptcha will display in the selected form on the frontend
    * **Badge Position = Bottom Right**: Recaptcha will display at the bottom right of the page
    * **Badge Position = Bottom Left**: Recaptcha will display at the bottom left of the page
-   
+   * **Size**: Show this field when choosing Visible reCaptcha
+     * **Normal**: Show reCaptcha at Frontend as in the following image:
+      ![](https://i.imgur.com/pUF6R1x.png)
+      * **Compact**: Recaptcha is shown at Frontend like this:
+      ![](https://i.imgur.com/QRtKUs3.png)
 * **Theme**
 
 ![](https://i.imgur.com/8oMvOLG.png)
@@ -170,28 +187,3 @@ Or you also disable the configuration by the command below:
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## Must-have extensions for your Magento stores
-
-- Increase website traffic: [SEO](https://www.mageplaza.com/magento-2-seo-extension/)
-- [Build leads](https://www.mageplaza.com/magento-2-better-popup/)
-- Increase conversion rates: [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/)
-- We believe that you can sell more: [Gift Cards](https://www.mageplaza.com/magento-2-gift-card-extension/), [Auto Related Products](https://www.mageplaza.com/magento-2-automatic-related-products/), [Frequently Bought Together](https://www.mageplaza.com/magento-2-frequently-bought-together/), [Free shipping bar](https://www.mageplaza.com/magento-2-free-shipping-bar/), [Daily Deal](https://www.mageplaza.com/magento-2-daily-deal-extension/) , [Product Feed](https://www.mageplaza.com/magento-2-product-feed-extension/)
-- Keep customers return: [Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/)
-- Let your customer [become raving fans](https://www.mageplaza.com/magento-2-affiliate-extension/)
-- Optimize your stores: [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [Custom Order Number](https://www.mageplaza.com/magento-2-custom-order-number/), [Stop return items issue](https://www.mageplaza.com/magento-2-size-chart/)
