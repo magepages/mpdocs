@@ -2,10 +2,10 @@
 
 ## Overview
 
-Commonwealth Bank of Australia is a multinational bank, offering many of Australia's leading financial services. [Mageplaza CommWeb extension](https://www.mageplaza.com/magento-2-commweb/) will allow you to allow payment via Commonwealth Bank on the store of Magento 2. With CommWeb, you can make online payments quickly and reliably.
+Commonwealth Bank of Australia is a multinational bank, offering many of Australia's leading financial services. **Mageplaza CommWeb extension** will allow you to allow payment via Commonwealth Bank on the store of Magento 2. With CommWeb, you can make online payments quickly and reliably.
 
 Mageplaza CommWeb extension allows customers to make payments with MasterCard, Visa, Discover, American Express, Diners, JBC.
-It also is compatible with [Mageplaza One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and [Payment Restriction](https://www.mageplaza.com/magento-2-payment-restrictions/) extension.
+It also is compatible with **Mageplaza One Step Checkout extension** and **Payment Restriction** extension.
 
 ## How to use
 
@@ -124,7 +124,7 @@ Login to the Magento Admin, choose `Sales > Payment Settings > Payment Method > 
 - **Payment from Applicable Countries**: Select a country to apply the payment method
   - **All Countries**: Applies to all countries
   - **Specific Countries**: Only applicable for the countries selected in the **Payment from Specific Countries** field.
-  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restrictions/) module.
+  - To restrict this payment with more conditions, see **Payment Restrictions** module.
     - **Payment from Specific Countries**: Select countries that are allowed to display and pay using CommWeb
 - **Maximum Order Total**: Enter the maximum value of order to display and pay with CommWeb
   - If the value of the order is greater than the information of this school will not display CommWeb payment method when checkout
