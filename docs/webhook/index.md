@@ -104,7 +104,7 @@ From the Admin Panel, go to `System > Webhook > Manage Hooks`, choose `Add New` 
   
   ![](https://i.imgur.com/AUQ02Cn.png)
   
-  - **Headers**: Click `Add` button to add the values of headers such as `Name and Value` as required by the server to be able to call that API. For example: Name: Authorization, Value is "Token token = "Your API Key"`
+  - **Headers**: Click `Add` button to add the values of headers such as `Name and Value` as required by the server to be able to call that API. For example: Name: Authorization, Value is `Token token = "Your API Key"`
   - **Content-type**: Select the content type to send the information. For Method as `GET`, you can leave this field blank.
   
   ![](https://i.imgur.com/VhZvf6h.png)
