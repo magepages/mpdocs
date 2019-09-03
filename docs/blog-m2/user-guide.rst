@@ -246,9 +246,10 @@ II.  Create New Post
 * Tap ``Save and Continue Edit`` at the header
 
 2.2. Duplicate Post
+^^^^^ 
 
 * With Mageplaza Better Blog extension, you can duplicate the available post to create the new one. 
-* Login to `Magento Admin > Content > Better Blog > Manage Posts`, click **Edit** to the post you want to duplicate 
+* Login to **Magento Admin > Content > Better Blog > Manage Posts**, click **Edit** to the post you want to duplicate 
 
 .. image:: https://i.imgur.com/qGLmos0.gif
 
@@ -331,7 +332,7 @@ V.  Category
 
 
 * With Mageplaza Better Blog extension, you can duplicate the available category to create the new one. 
-* Login to `Magento Admin > Content > Better Blog > Categories`, choose category you want to duplicate. Choose **Duplicate** at menu tab. 
+* Login to **Magento Admin > Content > Better Blog > Categories**, choose category you want to duplicate. Choose **Duplicate** at menu tab. 
 
 .. image:: https://i.imgur.com/0FnavmV.gif
 
