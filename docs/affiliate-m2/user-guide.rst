@@ -8,16 +8,16 @@ Mageplaza Affiliate User Guide will provide the detailed instructions to know **
 How to Use
 ^^^^^^^^^^^^^^
 
-After installing Affilliate module, Affiliate link is available on the footer of your site. Click on the link and go to Affiliate Home Page. 
+After installing Affiliate module, an Affiliate link is available on the footer of your site. Click on the link and go to Affiliate Home Page. 
 
 Affiliate Home Page
 ``````````````````````
 
-Affiliate Home Page is already setup with CMS Block including Welcome Message and How does Affiliate Program work? If you want to change the text, it is possible to edit from the backend. In addition, all of active Affiliate Program will be displayed on the Affiliate Home Page.
+Affiliate Home Page is already setup with CMS Block including Welcome Message and How does Affiliate Program work? If you want to change the text, it is possible to edit from the backend. In addition, all of the active Affiliate Program will be displayed on the Affiliate Home Page.
 
 .. image:: https://i.imgur.com/hqZGoQs.png
 
-Look at the left panel on the page, the customer can sign up to become an affiliate.
+Look at the left panel on the page, customers can sign up to become an affiliate.
 
 .. image:: https://i.imgur.com/SVNIBSZ.png
 
@@ -42,12 +42,12 @@ My Withdrawal Page
 
 .. image:: https://i.imgur.com/O4RnMKe.png
 
-Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in the progress.
+Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in progress.
 
 Affiliate Settings Page
 `````````````````````````
 
-Mark the box to register Affiliate Subcription.
+Mark the box to register Affiliate Subscription.
 
 .. image:: https://i.imgur.com/fAlNhr3.png
 
@@ -174,7 +174,7 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default content is Affiliate terms & conditions
   
-* **Checkbox is checked by default**: Choose **Yes** to automiautomatically tick in the checkbox
+* **Checkbox is checked by default**: Choose **Yes** to tick in the checkbox automatically
 
 1.2.3. Account Balance
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -187,7 +187,7 @@ For example: refer code is 123, Custom parameter is abc
   
   * If the field is left empty or entered as zero, Affiliate Balance will have no limitation
   
-* **Allow negative balance**: If Affiliate's account balance is not enough to taking back commission, allow the balance be negative number by choosing **Yes** in the respective field
+* **Allow negative balance**: If Affiliate's account balance is not enough to take back commission, allow the balance to be negative number by choosing **Yes** in the respective field
 
 1.3. Commission Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -215,9 +215,9 @@ For example: refer code is 123, Custom parameter is abc
   * If the field is blank or entered as 0, the transaction will not be kept
   
   
-* **Deduct commission from Affiliate's balance when the order is refunded/cancelled**
+* **Deduct commission from Affiliate's balance when the order is refunded/canceled**
 
-  * Choose Yes to allow deduct the commission from the balance of the  branch when the order is refunded or cancelled
+  * Choose **Yes** to allow deducting the commission from the balance of the  branch when the order is refunded or canceled
   
   * The default allows deducting
   
@@ -378,7 +378,7 @@ For example: refer code is 123, Custom parameter is abc
 2.1. Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* **Display Affiliate account information**: account balance, total earned amount, account activity status,etc. Click the **Edit** link to see the account details.
+* **Display Affiliate account information**: account balance, total earned amount, account activity status, etc. Click the **Edit** link to see the account details.
 
 * In this panel, admin can delete the account by clicking to the account checkbox, then choose `Action > Delete`
 
@@ -460,9 +460,9 @@ Step 1: Fill in the Campaign Information
   * Name your campaign
   * This is a required field
   
-* **Discription**: Fill in the discription of your campaign
+* **Description**: Fill in the description of your campaign
   
-* **Status**: Sellect `yes` to apply the campaign
+* **Status**: Select `yes` to apply the campaign
   
 * **Website IDs**
   
@@ -498,7 +498,7 @@ Step 2: Choose the conditions for applying the campaign
  
 .. image:: https://i.imgur.com/LFy1DPq.png
   
-* You can choose the products for a specific campaign by set the rules for those products
+* You can choose the products for a specific campaign by setting the rules for those products
 
 * Or you can also choose the categories for applying the campaign
 
@@ -511,7 +511,7 @@ Step 3: Set up the Discount
 
   * *Apply = Percent of cart total*: Apply discount for the percentage of cart total
   
-  * *Apply = Fixed amount discount for whole cart*: Apply a fixed discount for purchasing
+  * *Apply = Fixed amount discount for the whole cart*: Apply a fixed discount for purchasing
   
 * **Discount Amount**: Insert the amount or the percentage of discount for purchasing
 
@@ -530,7 +530,7 @@ In this section, allowing to configure the Tier 1 as follow:
 
 * There are two commision types:
 
-  * **Percentage of grand total**: Commision is calculated based on the percentage of garnd cart total 
+  * **Percentage of grand total**: Commision is calculated based on the percentage of grand cart total 
   
   * **Fixed amount**: Commission is a fixed amount
   
@@ -542,7 +542,7 @@ In this section, allowing to configure the Tier 1 as follow:
 5.1. Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  
-* Allow to show the withdraw history of each Affiliate account including: The amount, the status, payment method, etc. Click **Edit** to see the details of each withdraw. 
+* Allow showing the withdraw history of each Affiliate account including The amount, the status, payment method, etc. Click **Edit** to see the details of each withdraw. 
 
 * Admin can also change the status or delete the withdraw history.
 
@@ -556,7 +556,7 @@ In this section, allowing to configure the Tier 1 as follow:
 
 * **Account** 
 
-  * Click to this field to show the affilicate account that have positive balance which can be withdrawn
+  * Click to this field to show the affiliate account that has positive balance which can be withdrawn
   
   * This field is required
 
@@ -570,7 +570,7 @@ In this section, allowing to configure the Tier 1 as follow:
   
 * **Fee**
 
-  * Inseart the withdraw fee
+  * Insert the withdraw fee
   
   * If you let this field empty, the configuration value will be applied
   
@@ -578,7 +578,7 @@ In this section, allowing to configure the Tier 1 as follow:
 
   * Choose the payment method for withdrawal
   
-  * There are three payment methods: Offline payment, Bank Tranfer, Paypal payment
+  * There are three payment methods: Offline payment, Bank Transfer, Paypal payment
   
 * **Withdraw Reason**: Fill in the reason for withdrawal
 
@@ -589,7 +589,7 @@ In this section, allowing to configure the Tier 1 as follow:
   .. image:: https://i.imgur.com/wgy8Wt6.png
 
 
-  * For **Bank Tranfer**, insert the Bank account
+  * For **Bank Transfer**, insert the Bank account
   
   .. image:: https://i.imgur.com/NX2JkE9.png
 
@@ -608,7 +608,7 @@ In this section, allowing to configure the Tier 1 as follow:
 6.1 Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-* Show the transaction of each affiliate account including: the amount, status, the order that generates commission. Click **View** to see more details of each transaction. 
+* Show the transaction of each affiliate account including the amount, status, the order that generates commission. Click **View** to see more details of each transaction. 
 
 * Admin can also change the status or delete the transaction records.
 
@@ -633,7 +633,7 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 * **Account** 
 
-  * Click to this field to show the affilicate account and then you can choose the account to add transaction in
+  * Click to this field to show the affiliate account and then you can choose the account to add transaction in
   
   * This is a required field
   
@@ -643,15 +643,15 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
   * Insert the added amount. It can be a negative one
   
-  * This is a compusorily required field
+  * This is a required field
   
-* **Title**: Add the Title of transatction
+* **Title**: Add the Title of transaction
 
 * **Holding Transaction For**
 
   * Add the number of days that you want to keep the transaction records
   
-  * If you leave it empty or inseart 0, the transaction will be deleted 
+  * If you leave it empty or insert 0, the transaction will be deleted 
   
 7. Email
 `````````````````````````````
