@@ -583,20 +583,24 @@ In this section, allowing to configure the Tier 1 as follow:
 * **Withdraw Reason**: Fill in the reason for withdrawal
 
 * **Payment Detail**: 
-
+  
   * For **Offline payment**, you need to insert the **Addresses**
 
-.. image:: https://i.imgur.com/5w1uKvg.png
+  .. image:: https://i.imgur.com/wgy8Wt6.png
 
 
   * For **Bank Tranfer**, insert the Bank account
   
-.. image:: https://i.imgur.com/ywa7PZk.png
+  .. image:: https://i.imgur.com/NX2JkE9.png
 
 
   * For **Paypal payment**, you need to fill in the **Paypal email** and **Transaction ID** 
 
-.. image:: https://i.imgur.com/kE5UN64.png
+  .. image:: https://i.imgur.com/GxDDU1q.png
+
+
+- **Payment Email**: Enter the Paypal email who receive commission 
+- **Paypal transaction Id**:  Enter Paypal transaction ID
 
 6. Transactions
 `````````````````````````````
