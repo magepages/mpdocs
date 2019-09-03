@@ -245,15 +245,15 @@ II.  Create New Post
 
 * Tap ``Save and Continue Edit`` at the header
 
-2.2. Assign Products to the post
-^^^^^ 
+2.2. Duplicate Post
 
-* You can do it when you create a new post in the Products tab, or go to Posts tab
-* In the list of the available posts, mark the checkbox that is next to the products you want to assign
+* With Mageplaza Better Blog extension, you can duplicate the available post to create the new one. 
+* Login to `Magento Admin > Content > Better Blog > Manage Posts`, click **Edit** to the post you want to duplicate 
 
-.. image:: https://i.imgur.com/udnmg84.gif
+.. image:: https://i.imgur.com/qGLmos0.gif
 
-* Tap ``Save and Continue Edit``, then hit ``Save Post`` to finish.
+* At detailed post page, click **Duplicate** on menu tab, a new post will be created which is the same as the previous one. Admins can modify the post information and content. 
+
 
 III.  Create New Tag
 -----
@@ -301,8 +301,11 @@ IV.  Create New Topic
 * If necessary, you can assign the new topic to a specific post.
 * Click on ``Save Topic`` when complete.
 
-V.  Create New Category
+V.  Category
 -----
+
+5.1. Create new category
+^^^^^ 
 
 * Login to Magento Admin, follow ``Content > Better Blog: Categories``
 
@@ -322,6 +325,17 @@ V.  Create New Category
 
 * If necessary, you can assign the new category to a specific post.
 * Click on ``Save Category`` when complete.
+
+5.2. Duplicate Category
+^^^^^ 
+
+
+* With Mageplaza Better Blog extension, you can duplicate the available category to create the new one. 
+* Login to `Magento Admin > Content > Better Blog > Categories`, choose category you want to duplicate. Choose **Duplicate** at menu tab. 
+
+.. image:: https://i.imgur.com/0FnavmV.gif
+
+* A new category is created. You can modify it's information. 
 
 VI. Author Information
 -----
