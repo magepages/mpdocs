@@ -18,6 +18,476 @@ Mageplaza CartaSi extension is fully compatible with [Mageplaza One Step Checkou
 
 ![](https://i.imgur.com/Kqh0vmr.png)
 
+Following provides some **sample card information** for your testing:
+
+<p>&nbsp;</p>
+<table style="width: 611px;">
+<tbody>
+<tr>
+<td style="width: 77px;">
+<p><strong>Card Type</strong></p>
+</td>
+<td style="width: 149px;">
+<p><strong>Card number</strong></p>
+</td>
+<td style="width: 49px;">
+<p><strong>Deadline</strong></p>
+</td>
+<td style="width: 41px;">
+<p><strong>CVV2*</strong></p>
+</td>
+<td style="width: 117px;">
+<p><strong>Expected Result</strong></p>
+</td>
+<td style="width: 142px;">
+<p><strong>Error message</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000000006 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento accettato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Message Ok</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000000014 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Auth. Denied</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000101010 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">expired card</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000104014 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">restricted card</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000109013 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">invalid merchant</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000110011 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">transaction not permitted</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000116018 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">not sufficient funds</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000117016 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">incorret PIN</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000118014 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">no card record</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000902011 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Technical problem</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">4539970000907010 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Host not found</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000000001 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento accettato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Message Ok</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000000019 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Auth. Denied</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000101015 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">expired card</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000104019 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">restricted card</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000109018 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">invalid merchant</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000110016 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">transaction not permitted</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000116013 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">not sufficient funds</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000117011 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">incorret PIN</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000118019 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">no card record</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000902016 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Technical problem</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">MASTERCARD</span></p>
+</td>
+<td style="width: 149px;">
+<p><span style="font-weight: 400;">5255000000907015 (EUR)</span></p>
+</td>
+<td style="width: 49px;">
+<p><span style="font-weight: 400;">12/2030</span></p>
+</td>
+<td style="width: 41px;">
+<p><span style="font-weight: 400;">***</span></p>
+</td>
+<td style="width: 117px;">
+<p><span style="font-weight: 400;">Pagamento rifiutato</span></p>
+</td>
+<td style="width: 142px;">
+<p><span style="font-weight: 400;">Host not found</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+`*any combination of 3 numbers is accepted`
+
 ## How to Configure
 
 ### 1. Configuration
