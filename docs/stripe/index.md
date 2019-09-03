@@ -31,6 +31,7 @@ Mageplaza Stripe extension is fully compatible with [Mageplaza One Step Checkout
 
 - Verify by 3D Secure when paying by Card
 - Allow customers to save card information at their first payment to use for next payments.
+- You can check the checkout process by card payment [here](https://stripe.com/docs/testing#cards)
 
 ### For Admin
 
