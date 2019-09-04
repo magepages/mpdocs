@@ -47,6 +47,66 @@ When you want to track transactions using the 2Checkout and check the payment fe
 
 ![](https://i.imgur.com/74dYBdN.png)
 
+#### Test Cards
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Card type</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Card number</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">VISA</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4111111111111111</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5555555555554444</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">AMEX</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">378282246310005</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Discover</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6011111111111117</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">3566111111111113</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+Use the test payment information above, in conjunction with:
+- Any billing currency
+- Any card expiration date
+- Any CVV code
 
 ### 2. Production
 
