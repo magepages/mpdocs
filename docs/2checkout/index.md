@@ -104,9 +104,9 @@ When you want to track transactions using the 2Checkout and check the payment fe
 </table>
 
 Use the test payment information above, in conjunction with:
-- Any billing currency
-- Any card expiration date
-- Any CVV code
+- Any **billing currency**
+- Any **card expiration date**
+- Any **CVV code**
 
 ### 2. Production
 
