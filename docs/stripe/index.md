@@ -31,7 +31,674 @@ Mageplaza Stripe extension is fully compatible with [Mageplaza One Step Checkout
 
 - Verify by 3D Secure when paying by Card
 - Allow customers to save card information at their first payment to use for next payments.
-- You can check the checkout process by card payment [here](https://stripe.com/docs/testing#cards)
+- You can check the payment by using following test card information:
+
+#### Test card numbers
+Use any of the following test card numbers, a valid expiration date in the future, and any random CVC number, to create a successful payment. Each test card's billing country is set to U.S
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">NUMBER</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">BRAND</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4242424242424242</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000056655665556</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa (debit)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5555555555554444</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Mastercard</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">2223003122003222</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Mastercard (2-series)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5200828282828210</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Mastercard (debit)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5105105105105100</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Mastercard (prepaid)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">378282246310005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">American Express</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">371449635398431</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">American Express</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">6011111111111117</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Discover</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">6011000990139424</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Discover</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">30569309025904</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Diners Club</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">38520000023237</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Diners Club</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3566002020360505</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">6200000000000005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">UnionPay</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+#### 3D Secure test card numbers
+
+Not all cards [support 3D Secure](https://stripe.com/docs/payments/3d-secure) or require the customer to be redirected to their card issuer's authentication page. Use the following card information to test 3D Secure payments.
+
+<p>&nbsp;</p>
+<table style="width: 1040px;">
+<tbody>
+<tr>
+<td style="width: 112px;">
+<p><span style="font-weight: 400;">NUMBER</span></p>
+</td>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">3D SECURE USAGE</span></p>
+</td>
+<td style="width: 831px;">
+<p><span style="font-weight: 400;">DESCRIPTION</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 112px;">
+<p><span style="font-weight: 400;">4000000000003220</span></p>
+</td>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">Required</span></p>
+</td>
+<td style="width: 831px;">
+<p><span style="font-weight: 400;">3D Secure 2 authentication must be completed for the payment to be successful. By default, your Radar rules will request 3D Secure authentication for this card.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 112px;">
+<p><span style="font-weight: 400;">4000000000003063</span></p>
+</td>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">Required</span></p>
+</td>
+<td style="width: 831px;">
+<p><span style="font-weight: 400;">3D Secure authentication must be completed for the payment to be successful. By default, your Radar rules will request 3D Secure authentication for this card.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 112px;">
+<p><span style="font-weight: 400;">4000008400001629</span></p>
+</td>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">Required</span></p>
+</td>
+<td style="width: 831px;">
+<p><span style="font-weight: 400;">3D Secure authentication is required, but payments will be declined with a </span><span style="font-weight: 400;">card_declined</span><span style="font-weight: 400;"> failure code after authentication. By default, your Radar rules will request 3D Secure authentication for this card.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 112px;">
+<p><span style="font-weight: 400;">4000000000003055</span></p>
+</td>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">Supported</span></p>
+</td>
+<td style="width: 831px;">
+<p><span style="font-weight: 400;">3D Secure authentication may still be performed, but is not required. By default, your Radar rules will not request 3D Secure authentication for this card.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 112px;">
+<p><span style="font-weight: 400;">4242424242424242</span></p>
+</td>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">Supported</span></p>
+</td>
+<td style="width: 831px;">
+<p><span style="font-weight: 400;">3D Secure is supported for this card, but this card is not enrolled in 3D Secure. This means that if 3D Secure is requested by your Radar rules, the customer will not go through additional authentication. By default, your Radar rules will not request 3D Secure authentication for this card.</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 112px;">
+<p><span style="font-weight: 400;">378282246310005</span></p>
+</td>
+<td style="width: 77px;">
+<p><span style="font-weight: 400;">Not supported</span></p>
+</td>
+<td style="width: 831px;">
+<p><span style="font-weight: 400;">3D Secure is not supported on this card and cannot be invoked. The PaymentIntent will proceed without performing authentication.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+*All other Visa and Mastercard test cards do not require authentication from the customer's card issuer.*
+
+
+#### International test card numbers and tokens
+
+You can use any of the following test cards to simulate a successful payment for different billing countries.
+
+**For America**
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">NUMBER</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">COUNTRY</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">BRAND</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000000760000002</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Brazil (BR)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000001240000000</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Canada (CA)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4012888888881881</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Canada (CA)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000004840000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Mexico (MX)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+#### For Europe, Middle East, and Africa
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">NUMBER</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">COUNTRY</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">BRAND</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000000400000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Austria (AT)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000000560000004</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Belgium (BE)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000002080000001</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Denmark (DK)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000002330000009</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Estonia (EE)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000002460000001</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Finland (FI)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000002500000003</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">France (FR)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000002760000016</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Germany (DE)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000003000000030</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Greece (GR)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000003720000005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Ireland (IE)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000003800000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Italy (IT)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000004280000005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Latvia (LV)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000004400000000</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Lithuania (LT)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000004420000006</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Luxembourg (LU)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000005280000002</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Netherlands (NL)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000005780000007</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Norway (NO)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000006160000005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Poland (PL)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000006200000007</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Portugal (PT)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000006430000009</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Russian Federation (RU)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000007240000007</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Spain (ES)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000007520000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Sweden (SE)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000007560000009</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Switzerland (CH)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000008260000000</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">United Kingdom (GB)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000058260000005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">United Kingdom (GB)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa (debit)</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+#### For Asia Pacific
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">NUMBER</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">COUNTRY</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">BRAND</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000000360000006</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Australia (AU)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000001560000002</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">China (CN)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000003440000004</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Hong Kong (HK)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000003920000003</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Japan (JP)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3530111333300000</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Japan (JP)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000004580000002</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Malaysia (MY)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000005540000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">New Zealand (NZ)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4000007020000003</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Singapore (SG)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+For other cases, please access more [here](https://stripe.com/docs/testing#cards).
 
 ### For Admin
 
