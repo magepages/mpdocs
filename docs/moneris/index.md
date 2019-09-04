@@ -81,6 +81,722 @@ Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkou
 
 ![](https://i.imgur.com/14WrWzW.png)
 
+- **Test card numbers**
+
+Use any of the following test card numbers, a valid expiration date in the future, and any random CVC number, to create a successful payment. Each test card's billing country is set to U.S, Canada.
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">BRAND</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">NUMBER</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5454545454545454</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard (Bin2 CAN)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">2222400041240011</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard (Bin2 US)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">2223000048400011</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4242424242424242</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Amex</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">373599005095005</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">3566007770015365</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Diners</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">36462462742008</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Discover</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6011000992927602</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Track 2</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5258968987035454=06061015454001060101?</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">UnionPay</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6250944000000771 &nbsp; </span> <span style="font-weight: 400;">Expiry date: 12/49 (MM/YY), CVN2 value '371'</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+- **3D Secure (MPI) test card numbers**
+
+When testing your implementation of the Moneris MPI, you can use the VISA/MasterCard/Amex PIT (production integration testing) environment.
+
+May only be tested in the following test stores
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p><span style="font-weight: 400;">CANADA</span></p>
+</td>
+<td>
+<p><span style=a"font-weight: 400;">US</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Store ID</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">store5</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">monusqa002</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">API Token</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">yesguy</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">qatoken</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+- **Test Card numbers (Visa and MasterCard Only)**
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">CARD NUMBER</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">VERES</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">PARES</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">ACTION</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4012001038443335</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">N</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">NA</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Send transaction to Moneris Payment Gateway using either the basic Purchase or the basic Pre-Authorization transaction. Set crypt_type = 6.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4012001038488884</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">U</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">NA</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Send transaction to Moneris Payment Gateway using either the basic Purchase or the basic Pre-Authorization transaction. Set crypt_type = 7.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4012001037141112</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">True</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">TXN &ndash; Call function to create inLine window.</span></p>
+<p><span style="font-weight: 400;">ACS &ndash; Send CAVV to Moneris Payment Gateway using either the Cavv Purchase or the Cavv Pre-Authorization transaction</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4005559876540</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">True</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">TXN &ndash; Call function to create inLine window.</span></p>
+<p><span style="font-weight: 400;">ACS &ndash; Send CAVV to Moneris Payment Gateway using either the Cavv Purchase or the Cavv Pre-Authorization transaction</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4012001037167778</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">True</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">TXN &ndash; Call function to create inLine window.</span></p>
+<p><span style="font-weight: 400;">ACS &ndash; Send CAVV to Moneris Payment Gateway using either the Cavv Purchase or the Cavv Pre-Authorization transaction</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4012001037461114</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">False</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Card failed to authenticate. Merchant may choose to send transaction or decline transaction. If transaction is sent, use crypt type = 7.</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+- **Test Card numbers (AmEx Only)**
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">CARD NUMBER AMEX ONLY</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">VERES</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">PARES</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">ACTION</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">375987000000062</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><span style="font-weight: 400;">Set crypt_type = 7</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">375987000000013</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+<td>
+<p><span style="font-weight: 400;">Set crypt_type = 6</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+- You can refer 3D secure testing [here](https://developer.moneris.com/en/More/Testing/Testing%203D%20Solutions)
+
+  - CVD & AVS test card numbers
+
+- Things to consider:
+  - CVD is only supported by Visa, MasterCard, Discover, JCB and American Express.
+  - AVS is only supported by Visa, MasterCard, Discover and American Express.
+  - Card verification transaction is only supported by Visa, MasterCard, Discover and American Express.
+
+- **VISA Pre-Authorization/Purchase with AVS & CVD ( Applicable for card: 4242424242424242)**
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td colspan="2">
+<p><span style="font-weight: 400;">REQUEST</span></p>
+</td>
+<td colspan="2">
+<p><span style="font-weight: 400;">RESPONSE</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">AMOUNT</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">RESPONSE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">AVS</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CVD</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<p><span style="font-weight: 400;">AVS</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.10</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Approved</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">A</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.13</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Approved</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">D</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.24</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Declined</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.26</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Declined</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">S</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<p><span style="font-weight: 400;">CVD</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.30</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Approved</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">P</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.36</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Declined</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.37</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Declined</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Z</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+</tr>
+<tr>
+<td colspan="4">
+<p><span style="font-weight: 400;">COMBO (AVS AND CVD)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.40</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Approved</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Z</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">S</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">$10.41</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Approved</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">X</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+- **For other card types such as MasterCard, Discover, Visa, AMEX, please refer the testing [here](https://developer.moneris.com/More/Testing/E-Fraud%20Simulator)
+
+
+- **CVD result definitions**
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">VALUE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">DEFINITION</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">M</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Match</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">N</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">No Match</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">P</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Not Processed</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">S</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CVD should be on the card, but Merchant has indicated that CVD is not present.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">U</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Issuer is not a CVD participant</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Y</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Match for AmEx/JCB only</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">D</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Invalid security code for AmEx/JCB</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Other</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Invalid response code</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Table of CAVV Result Codes**
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">RESULT CODE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MESSAGE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">WHAT THIS MEANS TO YOU AS A MERCHANT&hellip;</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">0</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV could not be verified or CAVV data was not provided when expected</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">For this transaction you may not receive protection from chargebacks as a result of using VBV as the CAVV was considered invalid at the time the financial transaction was processed. Please check that you are following the VBV process correctly and passing the correct data in our transactions.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">1</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV failed validation; authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Provided that you have implemented the VBV process correctly the liability for this transaction should remain with the Issuer for chargeback reason codes covered by Verified by Visa.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">2</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV passed verification&mdash;authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The CAVV was confirmed as part of the financial transaction. This transaction is a fully authenticated VBV transaction (ECI 5)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV passed verification&mdash;attempted authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The CAVV was confirmed as part of the financial transaction. This transaction is an attempted VBV transaction (ECI 6)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV failed verification&mdash;attempted authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Provided that you have implemented the VBV process correctly the liability for this transaction should remain with the Issuer for chargeback reason codes covered by Verified by Visa.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">6</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV not verified, issuer not participating in CAVV verification</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV value was not verified, because the issueing bank does not participate in VBV</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">7</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV failed verification&mdash;attempted authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Please check that you are following the VBV process correctly and passing the correct data in our transactions. Provided that you have implemented the VBV process correctly the liability for this transaction should be the same as an attempted transaction (ECI 6)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">8</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV passed verification&mdash;attempted authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The CAVV was confirmed as part of the financial transaction. This transaction is an attempted VBV transaction (ECI 6)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">9</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV failed verification&mdash;attempted authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Please check that you are following the VBV process correctly and passing the correct data in our transactions. Provided that you have implemented the VBV process correctly the liability for this transaction should be the same as an attempted transaction (ECI 6)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">A</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV passed verification&mdash;attempted authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The CAVV was confirmed as part of the financial transaction. This transaction is an attempted VBV transaction (ECI 6)</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">B</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV passed verification&mdash;attempted authentication, no liability shift</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">The CAVV was confirmed as part of the financial transaction. However, this transaction does qualify for the liability shift. Treat this transaction the same as an ECI 7.</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">C</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV was not verified&mdash;attempted authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">If 3-D Secure Authentication Results Code value is 07 in the CAVV and the issuer did not return a CAVV results code in the authorization response,</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">D</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CAVV was not verified&mdash;cardholder authentication</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">If 3-D Secure Authentication Results Code value is 00 in the CAVV and the issuer did not return a CAVV results code in the authorization response</span></p>
+</td>
+</tr>
+</tbody>
+</table>
 
 
 ## How to Configure
