@@ -553,7 +553,7 @@ May only be tested in the following test stores
 </tbody>
 </table>
 
-- **For other card types such as MasterCard, Discover, Visa, AMEX, please refer the testing [here](https://developer.moneris.com/More/Testing/E-Fraud%20Simulator)
+- **For other card types such as MasterCard, Discover, Visa, AMEX, please refer the testing [here](https://developer.moneris.com/More/Testing/E-Fraud%20Simulator)**
 
 
 - **CVD result definitions**
