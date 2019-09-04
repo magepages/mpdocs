@@ -70,10 +70,10 @@ Only the following credit/debit card numbers may be used for test payments in th
 <tbody>
 <tr>
 <td>
-<p><span style="font-weight: 400;">Card</span></p>
+<p><strong>Card</strong></p>
 </td>
 <td>
-<p><span style="font-weight: 400;">Number</span></p>
+<p><strong>Number</strong></p>
 </td>
 </tr>
 <tr>
