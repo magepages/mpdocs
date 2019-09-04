@@ -72,6 +72,315 @@ To register for a Sage Pay account, visit [this link](https://applications.sagep
 
 ![](https://i.imgur.com/hldhhYv.png)
 
+**Test card numbers**: 
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Payment Method</strong></p>
+</td>
+<td>
+<p><strong>Card Number</strong></p>
+</td>
+<td>
+<p><strong>Card Type</strong></p>
+</td>
+<td>
+<p><strong>3-D Secure object status</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4929000000006</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4929000005559</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CardNotEnrolled</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4929000000014</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">IssuerNotEnrolled</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4929000000022</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Error</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa Corporate</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4484000000002</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CardNotEnrolled</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa Debit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4462000000000003</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">VisaDebit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa Electron</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4917300000000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">VisaElectron</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5404000000000001</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5404000000000043</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">CardNotEnrolled</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5404000000000084</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">IssuerNotEnrolled</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5404000000000068</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Error</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Debit MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5573470000000001</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">DebitMasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Maestro (UK Issued)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6759000000005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Maestro</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Maestro (German Issued)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6705000000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Maestro</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Maestro (Irish Issued)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6777000000007</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Maestro</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Maestro (Spanish Issued)</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6766000000000</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Maestro</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Authenticated</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">American Express</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">374200000000004</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">AmericanExpress</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">N/A</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Diners Club / Discover</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">36000000000008</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Discover</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">N/A</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">3569990000000009</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">N/A</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+- The **securityCode (CV2/CVV)** is always: 123
+- The **billingAddress.address1** is: 88
+- The **billingAddress.postalCode** is: 412
+- Any **expiryDate** can be entered as long as it is in the future
+
+**Testing 3-D Secure Authentication**
+
+You can use some following sample account to test 3D secure:
+- **vendorName**: sandboxEC
+- **integrationKey**: dq9w6WkkdD2y8k3t4olqu8H6a0vtt3IY7VEsGhAtacbCZ2b5Ud
+- **integrationPassword**: hno3JTEwDHy7hJckU4WuxfeTrjD0N92pIaituQBw5Mtj7RG3V8zOdHCSPKwJ02wAV
+
+To aid the implementation and testing of the 3-D Secure authentication functionality, each card will provide you with a specific 3-D Secure authentication result. This is indicated by the **status** value in the [3-D Secure](https://developer.sage.com/api/payments/api/#tag/3-D-Secure) object status column.
+
+- To successfully authenticate the transaction, enter **password** into the password field during the 3-D Secure authentication process.
+- You can enter **E:N:06** into the password field to simulate the scenario where an error occurred during authentication and you will receive the 3-D Secure **status: Error**
+- You can enter **A:D:06** into the password field to simulate the scenario where the cardholder is not enrolled in scheme and you will receive the 3-D Secure **status: AttemptOnly**
+- You can enter **U:N:06** into the password field to simulate the scenario where the 3D Secure authentication is not available and you will receive the 3-D Secure **status: Incomplete**
+
+For more cases and information, please access [here](https://developer.sage.com/api/payments/api/#tag/3-D-Secure)
+
 
 ## How to Configure
 
