@@ -59,6 +59,142 @@ Mageplaza Worldpay extension is fully compatible with [Mageplaza One Step Checko
 
 ![](https://i.imgur.com/Gd38C4g.png)
 
+- You can check the payment by some sample cards as following: 
+
+**Test card numbers**
+
+Only the following credit/debit card numbers may be used for test payments in the test environment. When using test cards, you can specify an expiry date up to seven years in the future. The test cards do not have a card verification code or an issue number.
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Card</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Number</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Mastercard Credit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5555555555554444</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Mastercard Debit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">5454545454545454</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Maestro</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">6759649826438453</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa Credit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4444333322221111, 4911830000000 and 4917610000000000</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa Debit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4462030000000000</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">American Express</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">34343434343434</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Simulate success and error flows**
+
+You can simulate different outcomes when submitting orders by entering the following values as the cardholder name:
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Value</strong></p>
+</td>
+<td>
+<p><strong>Description</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">SUCCESS</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Simulation of a successful payment</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">FAILED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Simulation of an unsuccessful payment</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">ERROR</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Simulation of an error</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa Credit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4444333322221111,4911830000000, 4917610000000000</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Visa Debit</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">4462030000000000</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">American Express</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">34343434343434</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+- For other cases, please access [here](https://beta.developer.worldpay.com/docs/wpop/testing)
+
 ## How to Configure
 
 Login to the **Magento Admin**, choose `Stores > Configuration > Sale > Payment Methods`:
