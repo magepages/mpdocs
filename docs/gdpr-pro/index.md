@@ -11,12 +11,12 @@ In addition, GDPR pro now supports customers to download their account informati
 
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > GDPR``
 
-![](https://i.imgur.com/YGJmKZh.png)
+![](https://i.imgur.com/aN4IQZu.png)
 
 ### I. General 
 Check in **General** to learn the basic configuration of the module
 
-![](https://i.imgur.com/RddUFPe.png)
+![](https://i.imgur.com/heiaCzf.png)
 
 * In the **Enable** field: Choose "Yes" to turn the module on.
 * **Allow Download Customer Information**: Choose **Yes** to allow customers to download their personal data related their account. The supported file is in CSV and Excel XML. There are one extra field shown:
@@ -124,7 +124,7 @@ The information will be hidden in the order when customers remove their account.
 
 ### IV. Email Configuration
 
-![](https://i.imgur.com/YIWsUu9.png)
+![](https://i.imgur.com/9c4GFBQ.png)
 
 * In the **Enable Email Confirmation** field:
   * Choose Yes to send the email confirmation when customers remove the account.
