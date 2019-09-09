@@ -2,7 +2,7 @@
 
 ## Overview
 
-For the convenience of customers when purchasing multiple products with various discount options, Mageplaza integrates the ability to display Magento tier price notifications into the [Better Change Qty module](). Customers can easily choose different options at different prices. With only 1 select option and Add To Cart, customers have added products to the cart conveniently, quickly without entering the number of products corresponding to Mgento's announcement to receive the same discount.
+For the convenience of customers when purchasing multiple products with various discount options, Mageplaza integrates the ability to display Magento tier price notifications into the [Better Change Qty module](). Customers can easily choose different options at different prices. With only one select option and Add To Cart, customers have added products to the cart conveniently, quickly without entering the number of products corresponding to Magento's announcement to receive the same discount.
 
 ## Download & Install
 
@@ -45,7 +45,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 #### General 
 
-![](https://i.imgur.com/LPI8nPV.png)
+![](https://i.imgur.com/OU9Hpr6.png)
 
 - **Enable**: Select `Yes` to activate the module 
 
@@ -55,7 +55,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
   1. *Change Qty Step = Product Qty Increment*: Display step increasing by the number configured in Magento products
   
-  For example: If **Qty Increments = 3** as in Magento product configuration; Step 1 is 1 product, Step 2 is 4 products, Step 3 is 7 products and so on. The difference of product quantity is 3. 
+  For example: If **Qty Increments = 3** as in Magento product configuration; Step 1 is 1 product, Step 2 is 4 products, Step 3 is 7 products and so on. The difference in product quantity is 3. 
   
   ![](https://i.imgur.com/I1JYqpl.png)
   
@@ -84,9 +84,9 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
     - **Custom Step**
       - Enter the number of products for each step
       - You can enter multiple steps with different product numbers, steps must be separated by a commas
-      - For example: **Qty Step Value = 3,5,9**, means that Step 1 is 3 product, Step 2 is 5 prodducts and Step 3 is 9 products
+      - For example: **Qty Step Value = 3,5,9**, means that Step 1 is 3 product, Step 2 is 5 products and Step 3 is 9 products
       
-- **Max Qty Step** (Set the maximum bumber of steps)
+- **Max Qty Step** (Set the maximum number of steps)
 
 ![](https://i.imgur.com/qlXnvOw.png)
 
@@ -121,6 +121,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
       - {{percent}}: Discount percentage
       
   - **Apply for Categories**
+  ![](https://i.imgur.com/0Scrohy.png)
     - Select category to apply Qty step display
     - You can choose to display in multiple categories
     
@@ -136,9 +137,9 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 `Note`: 
 
-- All the products with check box appled to Better Change Qty must satisfied 3 fields: **Apply for Categories, Apply for Product Types, Apply on**
-- For **Configurable products, Grouped products, Bundle products and Gift Card products**, the check box will not be displayed on the **Wish List page**
-- For **Grouped products, Bundle products and Gift Card products**, they will not be displayed as the check box box on the **Product List page**
+- All the products with checkbox applied to Better Change Qty must satisfy 3 fields: **Apply for Categories, Apply for Product Types, Apply on**
+- For **Configurable products, Grouped products, Bundle products and Gift Card products**, the checkbox will not be displayed on the **Wish List page**
+- For **Grouped products, Bundle products and Gift Card products**, they will not be displayed as the checkbox on the **Product List page**
 
 
 
