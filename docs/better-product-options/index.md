@@ -16,7 +16,6 @@ This extension is compatible with [Mass Product Action](https://www.mageplaza.co
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza > Better Product Options > Configuration`
 
-![](https://i.imgur.com/fj30IoU.gif)
 
 ### 1. General Configuration 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Better Product Options > General Configuration`
@@ -113,8 +112,10 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
     - **Store View**: Select "Yes" to set the Tooltips Description for certain storeview. Select "No", it will display Tooltips Description by default.
 
   - **Dependency Tab**:
-  ![](https://i.imgur.com/26iIUko.png)
-    - **Dependency Type**: Select the dependency type for this option. There are two choices: **One of below options is filled** and **All of below options are filled**
+  ![](https://i.imgur.com/ZIeD0jF.png)
+    - **Dependency Type**: Select the dependency type for this option. There are two choices: 
+      - **OR Filter**: Allow showing option if one of the conditions is satisfied
+      - **AND Filter**: Allow showing option if all the conditions are satisfied
     - **Dependency Options**: The display of this option will depend on the **Options, Operation and Values** configured.
     
     
@@ -181,6 +182,53 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 ### 4. Import/Export Template
 #### 4.1. Import
+
+At **Manage Templates** page, click **Import** to upload templates in XML file 
+
+![](https://i.imgur.com/q7PHmk9.png)
+
+In the **Import Option Template** section:
+
+***Step 1: Select File to Import***
+- **File Type**: XML. The extension only supports importing templates via XML files.
+- **Select File to Import**: Select XML file to import template. You can refer to the standard format in the sample file by clicking Download Sample File.
+Note: Check that the size of the input file does not exceed the limit shown in the message of 2M before selecting.
+- **Images File Directory**: If your template contains images (Visual Swatch option or Image Display of the Select options), please enter the path to the folder containing the image files in this field. If left blank, put your image in the directory with the path pub / media / import (if it's not already needed create a new one)
+
+![](https://i.imgur.com/Yalplk6.png)
+
+For example, your import file contains the following image:
+
+![](https://i.imgur.com/o98cCUc.png)
+
+When importing, if you leave the Images File Directory field blank, you must copy the i / m directory containing the images.png file to the pub / media / import directory:
+
+![Imgur](https://i.imgur.com/KG3u1lp.png)
+
+![Imgur](https://i.imgur.com/2N57WjY.png)
+
+
+***Step 2: Check the data from the selected file and import***
+
+After selecting the file to import in Step 1, click Check Data to check the data and the format in the file is suitable for import.
+
+![](https://i.imgur.com/XCB0RhD.png)
+
+If the file does not match, it will display a specific error message, please edit the import file according to the reported error. For example, the error message below is because the image could not be found, please check the pub / media / import directory to see if there are enough folders and images that the template requires.
+
+![](https://i.imgur.com/L2hIsmL.png)
+
+If the file can be used to import, the Import button will appear, please click this button to begin the import template process.
+
+![](https://i.imgur.com/OhFcAJ5.png)
+
+4.2. Export
+You can export all available template options at the Template: Store management page> Manage Product Options Templates
+
+![](https://i.imgur.com/Alhu5PC.png)
+
+The extension supports exporting templates to XML files. This exported XML file can be used for import according to the instructions in section 4.1 above.
+
 #### 4.2. Export
 
 
