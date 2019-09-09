@@ -41,6 +41,467 @@ It also is compatible with **Mageplaza One Step Checkout extension** and **Payme
 
 ![](https://i.imgur.com/3lLXOgk.png)
 
+### Test card numbers
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Card Number</strong></p>
+</td>
+<td>
+<p><strong>Card Type</strong></p>
+</td>
+<td>
+<p><strong>Payment Status</strong></p>
+</td>
+<td>
+<p><strong>Refund Status</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">2222 4053 4324 8877</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">2222 9909 0525 7051</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">2223 0076 4872 6984</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">2223 5771 2001 7656</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5105 1051 0510 5100</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5111 0100 3017 5156</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5185 5408 1000 0019</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5200 8282 8282 8210</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5204 2300 8000 0017</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5204 7400 0990 0014</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5420 9238 7872 4339</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5455 3307 6000 0018</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5506 9004 9000 0436</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5506 9004 9000 0444</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5506 9005 1000 0234</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5506 9208 0924 3667</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5506 9224 0063 4930</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5506 9274 2731 7625</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5553 0422 4198 4105</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5555 5537 5304 8194</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">5555 5555 5555 4444</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">MasterCard</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4012 8888 8888 1881</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">4111 1111 1111 1111</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Visa</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">6011 0009 9013 9424</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Discover</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">6011 1111 1111 1117</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Discover</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3714 496353 98431</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">American Express</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3782 822463 10005</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">American Express</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3056 9309 0259 04</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Diners</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3852 0000 0232 37</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Diners</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3530 1113 3330 0000</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">3566 0020 2036 0505</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">JCB</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">APPROVED</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+**Card Verification Number (CVC)**: 
+- Card Verification Number (CVC) = 123 for Card Types are MasterCard, Visa, Discover. Diners, JBC
+- Card Verification Number (CVC) = 1234 for Card Type is American Express
+
+
 ## How to Configure
 
 ### 1. Configuration
