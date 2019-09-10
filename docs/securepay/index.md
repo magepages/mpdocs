@@ -8,7 +8,7 @@ Mageplaza SecurePay extension is fully compatible with [Mageplaza One Step Check
 
 ## Download and Install
 
-- Download [SecurePay extension](https://www.mageplaza.com/magento-2-securepay/)
+- [Download SecurePay extension](https://www.mageplaza.com/magento-2-securepay/)
 - [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -44,6 +44,7 @@ Mageplaza SecurePay extension is fully compatible with [Mageplaza One Step Check
   - Test Transaction Password: abc123
 
 - You can check the checkout process with the following Cards:
+
 **Test card numbers**
 
 <p>&nbsp;</p>
@@ -225,18 +226,18 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 
 ![Imgur](https://i.imgur.com/hdCypDF.png)
 
-At **SecurePay Payment Method*, click *Configure*:
+At **SecurePay Payment Method**, click **Configure**:
 
 ![Imgur](https://i.imgur.com/I1stSpY.png)
 
 ### 1. Credentials
-Login to the Magento Admin, choose `Stores> Configuration> Sale> Payment Methods`, at SecurePay Payment Method click `Configure > Credentials`:
+Login to the Magento Admin, choose `Stores> Configuration> Sale> Payment Methods`, at **SecurePay Payment Method**, click `Configure > Credentials`:
 
 ![Imgur](https://i.imgur.com/0BixW5y.png)
 
 - **Environment**:
   - Admin can choose **Sandbox environment** to check the payment function of the methods.
-  - When applying for online payment, the admin needs to switch the environment to **Production.
+  - When applying for online payment, the admin needs to switch the environment to **Production**.
 - **Merchant Account ID**:
   - Enter the Merchant Account ID that was got from SecurePay (5 or 7-character merchant ID supplied by SecurePay).
   - If left blank or entered incorrectly, it will not connect to SecurePay.
