@@ -90,13 +90,21 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 - **Disable**:
   - Tick **Disable**, the option will be disabled and not displayed at the frontend/ cart.
   - If not tick **Disable**, the option is used and displayed normally.
-- **Default Value**: Select the default value for this option.
-- **Visual Swatch**: You can choose a color or an image to represent the value in the option. This field only appears when **Option Type = Visual Swatch/Text Swatch**.
+- **Default Value**: Only apply for **Option Type = Select**, used to choose the default value for this option when loading product detail page. Each option has one default value only.  
 - **Title**: Set the title for the values in each option.
-- **Price**: Set a price for each value. There are 2 price types as **Fixed** and **Percent**.
+- **Price**: Set price for each value. There are 2 price types as **Fixed** and **Percent**. This price will be added to the original price when adding product to cart. 
 - **SKU**: Set the SKU for each option/ value of the option.
 - **Qty**: Set the limit number for each value in the option.
 - **Weight**: Set the weight for each value in the option.
+
+![](https://i.imgur.com/BVAnITA.png)
+
+- **Visual Swatch**: You can choose a color or an image to represent the value in the option. This field only applies for **Option Type = Visual Swatch**.
+
+![](https://i.imgur.com/6ZngYAE.png)
+
+- **Text Swatch**: This field only applies for **Option Type = Text Swatch**. You can choose text label to represent the option value under swatch style at frontent. 
+
 - After completing the fields above, click on the icon ![](https://i.imgur.com/vbxk6Wf.png) at the right of each option to open **Popup Configuration**, this popup contains all the information you need to configure for that option.
   - **Visibility Tab**:
   ![](https://i.imgur.com/KYrArun.png)
@@ -127,11 +135,13 @@ From Admin Panel, go to `Stores > Product Options > Manage Product Options Templ
 
 - **Title Tab**: Set title by each Store View for each option. If left blank, it will display the default title of this option.
 - **Image Tab**: This is the place to customize images for each option.
-- **Alt Text**: Enter Alt Text for the image
-- **Update Product Preview Image**: Select "Yes" to update the image of the product when selecting this option. If you dont' want to pdate images, select "No".
-- **Display along with Option Value**: Select the display position of the image associated with Option Value. This field is only displayed when **Option Type = Radio Buttons/ Checkbox**.
-- **Display Tooltip when hover Option**: Select **Yes** to show the tooltip image when hovering over this option. This field only appears when **Option Type = Radio Buttons/ Checkbox/ Visual Swatch/ Text Swatch**.
+  - **Alt Text**: Enter Alt Text for the image
+  - **Update Product Preview Image**: Select "Yes" to update the image of the product when selecting this option. If you dont' want to pdate images, select "No".
+  - **Display along with Option Value**: Select the display position of the image associated with Option Value. This field is only displayed when **Option Type = Radio Buttons/ Checkbox**.
+  - **Display Tooltip when hover Option**: Select **Yes** to show the tooltip image when hovering over this option. This field only appears when **Option Type = Radio Buttons/ Checkbox/ Visual Swatch/ Text Swatch**.
+  
 - **Advanced Pricing**: This tab is for advanced price settings of this sub-option. Here admin can give a special price for the option, and set the applying date as well as set the option price for specific customer group.
+
 - **Option Dependency**: This tab is used to configure the dependency of this sub-option on other options. The display of this Option will depend on the **Options, Operation and Values** configured. It is similar to the **Option Dependency** section of the Father Option.
 
 #### 3.3. Manage Assign Products Tab
