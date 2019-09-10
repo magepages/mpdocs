@@ -7,11 +7,11 @@
 
 Your customers can use all credit cards such as Visa, Mastercard, American Express, JCB, etc. Admin can configure currencies and countries applicable to this payment method at each storeview. Moreover, information about transactions and detailed comments for each action (invoice, refund) with order payment via 2Checkout also be recorded at the **View Order** in the backend.
 
-Mageplaza 2Checkout extension is fully compatible with [Mageplaza One Step Checkout].
+Mageplaza 2Checkout extension is fully compatible with [Mageplaza One Step Checkout]().
 
 ## How to download and install
 
-- [Download Mageplaza 2Checkout]
+- [Download Mageplaza 2Checkout]()
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
