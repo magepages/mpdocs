@@ -16,23 +16,23 @@ Mageplaza SecurePay extension is fully compatible with [Mageplaza One Step Check
 
 - SecurePay: to register SecurePay account, please access [this link](https://auspost.com.au/mypost-business/registration?context=pay), click **Sign up** and fill in the required information below:
 
-![Imgur](https://i.imgur.com/qBnwyKH.png)
+![](https://i.imgur.com/qBnwyKH.png)
 
 - After registration, the system displays thanks and requests for confirmation via registered mail:
 
-![Imgur](https://i.imgur.com/WS7Xy4o.png)
+![](https://i.imgur.com/WS7Xy4o.png)
 
 - Open your registered mail, click **Activate Now**:
 
-![Imgur](https://i.imgur.com/EALMxtj.png)
+![](https://i.imgur.com/EALMxtj.png)
 
 - At the main interface of SecurePay, get the information of **Merchant ID, Publishable Key, Private Key** to fill in **Configuration** (will be guided below):
 
-![Imgur](https://i.imgur.com/G3hPe5L.png)
+![](https://i.imgur.com/G3hPe5L.png)
 
 - Click `Manage > Paypal Settings` to get **Merchant Account ID** and **Transaction Password**:
 
-![Imgur](https://i.imgur.com/Gum7oCI.png)
+![](https://i.imgur.com/Gum7oCI.png)
 
 - SecurePay has a sandbox environment accessible to the public. Please see public testing account details below.
   - Test Merchant Login URL: https://test.login.securepay.com.au/v3/
@@ -224,16 +224,16 @@ Mageplaza SecurePay extension is fully compatible with [Mageplaza One Step Check
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`:
 
-![Imgur](https://i.imgur.com/hdCypDF.png)
+![](https://i.imgur.com/hdCypDF.png)
 
 At **SecurePay Payment Method**, click **Configure**:
 
-![Imgur](https://i.imgur.com/I1stSpY.png)
+![](https://i.imgur.com/I1stSpY.png)
 
 ### 1. Credentials
 Login to the Magento Admin, choose `Stores> Configuration> Sale> Payment Methods`, at **SecurePay Payment Method**, click `Configure > Credentials`:
 
-![Imgur](https://i.imgur.com/0BixW5y.png)
+![](https://i.imgur.com/cu77R3k.png)
 
 - **Environment**:
   - Admin can choose **Sandbox environment** to check the payment function of the methods.
@@ -244,36 +244,26 @@ Login to the Magento Admin, choose `Stores> Configuration> Sale> Payment Methods
 - **Transaction Password**:
   - Enter the Transaction Password that was got from SecurePay.
   - If left blank or entered incorrectly, it will not connect to SecurePay.
-  - The password can be changed via **SecurePay’s Merchant Management** facility.
-- **Merchant ID**:
-  - Enter the Merchant ID received from SecurePay.
-  - If left blank or entered incorrectly, it will not integrate with SecurePay.
-  - Follow this link to obtain credentials.
-  - Using for **SecurePay Paypal Integration**.
-- **Publishable Key**:
-  - Enter the Publishable Key that was received from SecurePay.
-  - If left blank or entered incorrectly, it will not connect to SecurePay.
-- **Private Key**:
-  - Enter the Private Key received from SecurePay.
-  - If left blank or entered incorrectly, it will not connect to SecurePay.
+  - The password can be changed via ** SecurePay's Merchant Management** facility.
+
 
 ### 2. XML Integration
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`, at **SecurePay Payment Method**, click `Configure > XML Integration`
 
-![Imgur](https://i.imgur.com/u6SWFU2.png)
+![](https://i.imgur.com/u6SWFU2.png)
 
 - **Enable**: Select "Yes" to enable the use of payment by **XML Integration**.
 - **Title**: Enter the title of the method. The payment method name will be displayed on the checkout page.
 - **Payment Action**:
-  - **Authorize and Capture**: Payment will be captured as soon as customers place orders are successfully. At that moment, customer's card will pay for the order and invoice will be created.
-  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once Invoice is successfully created, the admin can receive money from Customer's card.
+  - **Authorize and Capture**: Payment will be captured as soon as customers place orders are successful. At that moment, customer' s card will pay for the order and invoice will be created.
+  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once invoice is successfully created, the admin can receive money from customer's card.
 - **New Order Status**: Select status when customer order is successful:
   - **Processing**: Display status with Processing when the order is successful. Admin can change the status in the backend for each order.
   - **Suspected Fraud**: Display the status with Suspected Fraud when the order is successful. Can change the status in the backend for each order. With this status, admin can accept payment or decline payment and then change status to Processing.
 - **Card Types**:
   - Choose 1 or more cards to pay.
-  - Cards will be verified when customer enter card number in checking out. For cards not selected in this section, there will be a noctice of invalid card for customers. Unselected cards will not be displayed on the Checkout page and when ordering the backend.
+  - Cards will be verified when customer enter card number in checking out. For cards not selected in this section, there will be a notice of invalid card for customers. Unselected cards will not be displayed on the Checkout page and when ordering the backend.
 - **Payment from Applicable Countries**:
   - Select **All Allowed Countries** so the card payment method can be applied in all countries.
   - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
@@ -289,26 +279,26 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
   - If choose **Yes**, diagnostic information is stored in log files on the Magento web server.
 - **Sort Order**:
   - Select the display position of this payment method compared to other payment methods
-  - 0 is the largest number. smaller numbers will be preferred to show in the first position.
+  - 0 is the largest number. Smaller numbers will be preferred to show in the first position.
 
 ### 3. Direct Post Integration
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`. at SecurePay Payment Method click `Configure > Direct Post Integration`
 
-![Imgur](https://i.imgur.com/zw8GOU5.png)
+![](https://i.imgur.com/9wciaVP.png)
 
 - **Note**: The method only works on https sites, it cannot work on http.
 - **Enable**: Select "Yes" to enable the use of payment by **Direct Post Integration**.
 - **Title**: Enter the title of the method. The payment method name will be displayed on the checkout page.
 - **Payment Action**:
-  - **Authorize and Capture**: Payment will be captured as soon as customers place orders are successfully. At that moment, customer's card will pay for the order and invoice will be created.
-  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once Invoice is successfully created, the admin can receive money from Customer's card.
+  - **Authorize and Capture**: Payment will be captured as soon as customers place orders are successful. At that moment, customer's card will pay for the order and invoice will be created.
+  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once invoice is successfully created, the admin can receive money from customer's card.
 - **New Order Status**: Select status when customer order is successful:
   - **Processing**: Display status with Processing when the order is successful. Admin can change the status in the backend for each order.
   - **Suspected Fraud**: Display the status with Suspected Fraud when the order is successful. Can change the status in the backend for each order. With this status, admin can accept payment or decline payment and then change status to Processing.
 - **Card Types**:
   - Choose 1 or more cards to pay.
-  - Cards will be verified when customer enter card number in checking out. For cards not selected in this section, there will be a noctice of invalid card for customers. Unselected cards will not be displayed on the Checkout page and when ordering the backend.
+  - Cards will be verified when customer enter card number in checking out. For cards not selected in this section, there will be a notice of invalid card for customers. Unselected cards will not be displayed on the Checkout page and when ordering the backend.
 - **Payment from Applicable Countries**:
   - Select **All Allowed Countries** so the card payment method can be applied in all countries.
   - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
@@ -324,25 +314,36 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
   - If choose **Yes**, diagnostic information is stored in log files on the Magento web server.
 - **Sort Order**:
   - Select the display position of this payment method compared to other payment methods
-  - 0 is the largest number. smaller numbers will be preferred to show in the first position.
+  - 0 is the largest number. Smaller numbers will be preferred to show in the first position.
 
 ### 4. Paypal Integration
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`, at **SecurePay Payment Method**, click `Configure > Paypal Integration`
 
-![Imgur](https://i.imgur.com/Nm6ceLU.png)
+![](https://i.imgur.com/IHo6rwH.png)
 
+- **Merchant ID**:
+  - Enter the Merchant ID received from SecurePay.
+  - If left blank or entered incorrectly, it will not integrate with SecurePay.
+  - Follow this link to obtain credentials.
+  - Using for **SecurePay Paypal Integration**.
+- **Publishable Key**:
+  - Enter the Publishable Key that was received from SecurePay.
+  - If left blank or entered incorrectly, it will not connect to SecurePay.
+- **Private Key**:
+  - Enter the Private Key received from SecurePay.
+  - If left blank or entered incorrectly, it will not connect to SecurePay.
 - **Enable**: Select "Yes" to enable the use of payment by **Paypal Integration**.
 - **Title**: Enter the title of the method. The payment method name will be displayed on the checkout page.
 - **Payment Action**:
-  - **Authorize and Capture**: Payment will be captured as soon as customers place orders are successfully. At that moment, customer's card will pay for the order and invoice will be created.
-  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once Invoice is successfully created, the admin can receive money from Customer's card.
+  - **Authorize and Capture**: Payment will be captured as soon as customers place orders are successful. At that moment, customer's card will pay for the order and invoice will be created.
+  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once invoice is successfully created, the admin can receive money from customer's card.
 - **New Order Status**: Select status when customer order is successful:
   - **Processing**: Display status with Processing when the order is successful. Admin can change the status in the backend for each order.
   - **Suspected Fraud**: Display the status with Suspected Fraud when the order is successful. Can change the status in the backend for each order. With this status, admin can accept payment or decline payment and then change status to Processing.
 - **Card Types**:
   - Choose 1 or more cards to pay.
-  - Cards will be verified when customer enter card number in checking out. For cards not selected in this section, there will be a noctice of invalid card for customers. Unselected cards will not be displayed on the Checkout page and when ordering the backend.
+  - Cards will be verified when customer enter card number in checking out. For cards not selected in this section, there will be a notice of invalid card for customers. Unselected cards will not be displayed on the Checkout page and when ordering the backend.
 - **Payment from Applicable Countries**:
   - Select **All Allowed Countries** so the card payment method can be applied in all countries.
   - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
@@ -358,18 +359,18 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
   - If choose **Yes**, diagnostic information is stored in log files on the Magento web server.
 - **Sort Order**:
   - Select the display position of this payment method compared to other payment methods
-  - 0 is the largest number. smaller numbers will be preferred to show in the first position.
+  - 0 is the largest number. Smaller numbers will be preferred to show in the first position.
 
 ### 5. View Order
 
 #### 5.1. Admin
 
-![Imgur](https://i.imgur.com/S0nWZ2w.png)
+![](https://i.imgur.com/S0nWZ2w.png)
 
 #### 5.2. Frontend
 
-![Imgur](https://i.imgur.com/LZ5Kg7k.png)
+![](https://i.imgur.com/LZ5Kg7k.png)
 
 ### 6. Compatible with One Step Checkout
 
-![Imgur](https://i.imgur.com/NB7Xd5u.png)
+![](https://i.imgur.com/NB7Xd5u.png)
