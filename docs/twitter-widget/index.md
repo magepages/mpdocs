@@ -67,7 +67,7 @@ From **Admin panel**, go to `Stores > Configuration > Mageplaza > Twitter Widget
 - On the Panel Admin, go to `Content> Elements> Widgets`
 - In the upper-right corner of Widgets workplace, click on **Add Widget** button.
 - In the **Section Settings**:
-  - Choose **CMS Static Block** type in the Type box.
+  - Choose **Mageplaza Twitter Widget** type in the Type box.
   - Choose the current theme you are applying in the **Design Theme**.
   - Click **Continue** button.
   
