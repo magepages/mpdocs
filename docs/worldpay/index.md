@@ -295,7 +295,7 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 
 - **Payment from Applicable Countries**:
   - Select the **All Allowed Countries** to apply Card payment methods in all countries
-  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restrictions/) module.
+  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restriction/) module.
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries will be allowed to apply the Card payment method.
 - **Minimum Order Total**:
@@ -360,7 +360,7 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 - **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
 - **Payment from Applicable Countries**:
   - Select the **All Allowed Countries** to apply Card payment methods in all countries
-  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restrictions/) module.
+  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restriction/) module.
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries will be allowed to apply the Card payment method.
 - **Minimum Order Total**:
