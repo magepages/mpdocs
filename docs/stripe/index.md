@@ -2,13 +2,13 @@
 
 ## Overview
 
-**Stripe** is a US payment gateway that allows e-commerce sites to receive payments on their sales website. Stripe has no setup fees, no monthly fees and no hidden costs. Mageplaza Stripe extension will help you integrate this payment gateway with your store. Your customers can use all debit cards, credit cards, or local payment methods like Alipay, Giropay, Bancontact, Przelewy24, etc. This extension also includes authorize, capture and 3D secure. These settings can be easily done by admin at the backend.
+[Stripe](https://www.mageplaza.com/magento-2-stripe/) is a US payment gateway that allows e-commerce sites to receive payments on their sales website. Stripe has no setup fees, no monthly fees and no hidden costs. Mageplaza Stripe extension will help you integrate this payment gateway with your store. Your customers can use all debit cards, credit cards, or local payment methods like Alipay, Giropay, Bancontact, Przelewy24, etc. This extension also includes authorize, capture and 3D secure. These settings can be easily done by admin at the backend.
 
 Mageplaza Stripe extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
 
 ## How to download and install
 
-- Download Mageplaza Stripe
+- [Download Mageplaza Stripe](https://www.mageplaza.com/magento-2-stripe/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
