@@ -1,10 +1,10 @@
 # Better Order Grid
 
-How can admin change or allow showing order information in the most convenient way? With [Mageplaza Better Order Grid extension](https://www.mageplaza.com/magento-2-order-grid/) you can do that with ease. This module allow admins to add columns of customers, shipping, and billing, so you can track and manage all orders at the grid easily. In addition, you can change or create custom grid orders that meet your business requirements using this module.
+How can admin change or allow showing order information in the most convenient way? With [Mageplaza Order Grid extension](https://www.mageplaza.com/magento-2-order-grid/) you can do that with ease. This module allow admins to add columns of customers, shipping, and billing, so you can track and manage all orders at the grid easily. In addition, you can change or create custom grid orders that meet your business requirements using this module.
 
 ## How to download and install
 
-- [Download Mageplaza Better Order Grid](https://www.mageplaza.com/magento-2-order-grid/)
+- [Download Mageplaza Order Grid](https://www.mageplaza.com/magento-2-order-grid/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
