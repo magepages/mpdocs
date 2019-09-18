@@ -1,12 +1,13 @@
 # Custom Order Number
+
 ## Overview
 
 With the ID of Order, Invoice, Shipment or Credit Memo, the default ID of Magento only includes the numbers and the ID of the first order is 000000001. Therefore, with newly established websites, the order quantity is low, which makes customers feel that this store has no the high reliability. This leads to the low number of purchasing quantity of customers at your store. Besides that, to manage the orders of customer that are created on whichever date, month, year of the store, store owners have to view the detail of the orders, this will cause the inconvenience for them.
 
-To resolve this problem, Mageplaza has launched a handy extension, called Magento 2 Custom Order Number.
+To resolve this problem, Mageplaza has launched a handy extension, called [Magento 2 Custom Order Number](https://www.mageplaza.com/magento-2-custom-order-number/).
 
 ```
-*Note*: Magento 2 Custom Order Number can be used with multiple stores. Multiple stores module:
+Note: Magento 2 Custom Order Number can be used with multiple stores. Multiple stores module:
 - This extension is applied to multiple stores.
 - Stores are set the default as the Default Configuration.
 - To change the configuration for each store, need to remove tick at Use Website on the right of each option.
@@ -15,7 +16,7 @@ To resolve this problem, Mageplaza has launched a handy extension, called Magent
 ```
 
 ## Download & Install
-- Mageplaza Custom Order Number
+- [Mageplaza Custom Order Number](https://www.mageplaza.com/magento-2-custom-order-number/)
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
