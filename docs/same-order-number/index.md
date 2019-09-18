@@ -2,11 +2,12 @@
 
 ## Overview
 
-With the ID configuration of the current Magento 2, when you view the ID of the Invoice, Shipment, or Credit Memo, you will not know clearly whether that ID belongs to any order. To improve this problem, Mageplaza developed the Same Order Number extension. This extension allows you to set the ID configuration of Invoice, Shipment, Credit Memo with increment ID similar to Order and especially, it can also be used with Multiple Stores.
+With the ID configuration of the current Magento 2, when you view the ID of the Invoice, Shipment, or Credit Memo, you will not know clearly whether that ID belongs to any order. To improve this problem, Mageplaza developed the [Same Order Number extension](https://www.mageplaza.com/magento-2-same-order-number/). This extension allows you to set the ID configuration of Invoice, Shipment, Credit Memo with increment ID similar to Order and especially, it can also be used with Multiple Stores.
 
 ## How to install
 
-See installation guide [here](https://www.mageplaza.com/install-magento-2-extension/). 
+- [Download Same Order Number extension](https://www.mageplaza.com/magento-2-same-order-number/)
+- See installation guide [here](https://www.mageplaza.com/install-magento-2-extension/). 
 
 ## How to configure
 
