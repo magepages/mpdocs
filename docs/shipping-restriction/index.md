@@ -1,14 +1,14 @@
-# Shipping Restriction
+# Shipping Restrictions
 
 ## Overview
 
-In fact, shop owners often would like to limit the shipping methods based on specific condition such as the storeview, customer group, cart condition, product attributes, time limit or the compatibility with sales rules. Thanks to [Mageplaza Shipping Restriction](https://www.mageplaza.com/magento-2-shipping-restriction/) extension, your store will be able to perform this and take full control of shipping methods and improve sales efficiency.
+In fact, shop owners often would like to limit the shipping methods based on specific condition such as the storeview, customer group, cart condition, product attributes, time limit or the compatibility with sales rules. Thanks to [Mageplaza Shipping Restrictions](https://www.mageplaza.com/magento-2-shipping-restrictions/) extension, your store will be able to perform this and take full control of shipping methods and improve sales efficiency.
 
 The Shipping Restriction module is fully compatible with [Mageplaza's One Checkout Step](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## How to download and install
 
-- [Download Mageplaza Shipping Restriction](https://www.mageplaza.com/magento-2-shipping-restriction/)
+- [Download Mageplaza Shipping Restrictions](https://www.mageplaza.com/magento-2-shipping-restrictions/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
