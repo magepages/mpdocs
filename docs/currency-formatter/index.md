@@ -2,7 +2,7 @@
 
 ## Overview
 
-Currently, Magento 2 does not support currency format as store owner wishes. With **Mageplaza Currency Formatter Extension**, admin can configure the currency format in various ways. This extension supports showing product price as well as order amount in the currency format configured by admin at both frontend and backend. Currency Formatter Extension is totally compatible with **Mageplaza One Step Checkout**.
+Currently, Magento 2 does not support currency format as store owner wishes. With [Mageplaza Currency Formatter Extension](https://www.mageplaza.com/magento-2-currency-formatter/), admin can configure the currency format in various ways. This extension supports showing product price as well as order amount in the currency format configured by admin at both frontend and backend. Currency Formatter Extension is totally compatible with **Mageplaza One Step Checkout**.
 
 Note: **Mageplaza Currency Formatter Extension** can be used with multiple stores. 
 - Stores are set the default as the **Default Configuration**.
@@ -10,6 +10,10 @@ Note: **Mageplaza Currency Formatter Extension** can be used with multiple store
 - Config of the extension in each store will be applied in the store itself.
 - Config in this store doesn't affect the config in the other store.
 
+## How to download and install
+
+- [Download Currency Formatter extension](https://www.mageplaza.com/magento-2-currency-formatter/)
+- [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
 
