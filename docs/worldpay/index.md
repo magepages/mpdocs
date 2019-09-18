@@ -2,13 +2,13 @@
 
 ## Overview
 
-**Worldpay** is America's most reliable payment processing provider. [Mageplaza Worldpay extension]() helps integrate Worldpay to support online payment by card or Paypal, allowing customers to save credit card information at the first purchase to use it for the next payment. Customer can manage saved credit card information and delete card information at any time. In addition, the module also supports direct payment at checkout page (iframe) and support 3D Secure.
+**Worldpay** is America's most reliable payment processing provider. [Mageplaza Worldpay extension](https://www.mageplaza.com/magento-2-worldpay/) helps integrate Worldpay to support online payment by card or Paypal, allowing customers to save credit card information at the first purchase to use it for the next payment. Customer can manage saved credit card information and delete card information at any time. In addition, the module also supports direct payment at checkout page (iframe) and support 3D Secure.
 
-Mageplaza Worldpay extension is fully compatible with [Mageplaza One Step Checkout]().
+Mageplaza Worldpay extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## Download and Install
 
-- [How to dowload Worldpay extension]() 
+- [How to dowload Worldpay extension](https://www.mageplaza.com/magento-2-worldpay/) 
 - [How to install Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/) 
 
 
@@ -295,7 +295,7 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 
 - **Payment from Applicable Countries**:
   - Select the **All Allowed Countries** to apply Card payment methods in all countries
-  - To restrict this payment with more conditions, see [Payment Restrictions]() module.
+  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restrictions/) module.
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries will be allowed to apply the Card payment method.
 - **Minimum Order Total**:
@@ -360,7 +360,7 @@ Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Meth
 - **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
 - **Payment from Applicable Countries**:
   - Select the **All Allowed Countries** to apply Card payment methods in all countries
-  - To restrict this payment with more conditions, see [Payment Restrictions]() module.
+  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restrictions/) module.
   - Select **Specific Countries** to limit certain countries to use this payment method
     - **Payment from Specific Countries**: The selected countries will be allowed to apply the Card payment method.
 - **Minimum Order Total**:
