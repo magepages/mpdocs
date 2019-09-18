@@ -2,12 +2,12 @@
 
 
 ## Overview
-Currently, business doers use e-commerce sites more and more. Therefore, shop owners must cooperate with suppliers to add products to their stores. With Mageplaza Import Export CMS extension, customers can transfer CMS data from this Magento 2 site to another Magento 2 site using the Import/Export function.
+Currently, business doers use e-commerce sites more and more. Therefore, shop owners must cooperate with suppliers to add products to their stores. With [Mageplaza Import Export CMS](https://www.mageplaza.com/magento-2-import-export-cms/) extension, customers can transfer CMS data from this Magento 2 site to another Magento 2 site using the Import/Export function.
 
 
 ## How to download and install
 
-- Download Mageplaza Import Export CMS
+- [Download Mageplaza Import Export CMS](https://www.mageplaza.com/magento-2-import-export-cms/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure
