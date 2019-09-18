@@ -3,9 +3,16 @@
 ## Overview
 Let's picture this scenario: Store owners desire to generate a one-time use coupon for a customer, but it takes at least 5 minutes to make it manually? Or take another look at this case: the coupon codes generated in Magento 2 do not with the current discount program, either they can't import their pre-made coupon codes into Magento 2 system. Time-consuming tasks are coming up more, you have no idea how to give the applied coupon checkout link to customers so that they don't need to ask and enter the coupon every time they come to your store?
 
-All disturbing issues now can be remedied by only one proficient plugin. [Magento 2 Better Coupon](https://www.mageplaza.com/magento-2-better-coupon-extension/) extension, supplied by Mageplaza, is designed to craft many coupons and send them over customers via emails just by one click. And the configurations cannot be easier if you can follow this documentation carefully.
+All disturbing issues now can be remedied by only one proficient plugin. [Magento 2 Better Coupon](https://www.mageplaza.com/magento-2-better-coupon/) extension, supplied by Mageplaza, is designed to craft many coupons and send them over customers via emails just by one click. And the configurations cannot be easier if you can follow this documentation carefully.
+
+## How to download and install
+
+- [Download Mageplaza Better Coupon](https://www.mageplaza.com/magento-2-better-coupon/)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+
 
 ## How to configure 
+
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions: Better Coupon``
 
 ![](https://i.imgur.com/k6iqSnV.png)
