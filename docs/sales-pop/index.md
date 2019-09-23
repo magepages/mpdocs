@@ -84,7 +84,7 @@ Here records information of different types of popup: **Recent Sales, Checkout I
   - Popups that have a smaller number have a higher priority.
 
 
-#### 2.2.2. display
+#### 2.2.2. Display
 ##### Where to Display
 
 ![Imgur](https://i.imgur.com/hmVl4Ch.png)
@@ -95,12 +95,16 @@ Here records information of different types of popup: **Recent Sales, Checkout I
   - **Mobile**: Only show popup in mobile.
 - **Display Position**: Choose to show popup on Desktop or Mobile with 4 positions:
   - **Top Left**: The popup is displayed at the top left of the screen.
+  
   ![Imgur](https://i.imgur.com/9UagwCY.png)
   - **Top Right**: A popup is displayed at the top right of the screen.
+  
   ![Imgur](https://i.imgur.com/nhdgXbb.png)
   - **Bottom Left**: displays a popup with the bottom left.
+  
   ![Imgur](https://i.imgur.com/q2jVSPh.png)
-  - **Bottom Right**: The popup is displayed at the bottom right.
+ - **Bottom Right**: The popup is displayed at the bottom right.
+ 
   ![Imgur](https://i.imgur.com/YoXn9nQ.png)
   
 - **Display On Page**: Select the page that can display popup on:
