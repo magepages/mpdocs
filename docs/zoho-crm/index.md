@@ -2,7 +2,7 @@
 
 ## Overview
 
-Zoho CRM or Customer Relationship Management software is a cloud-based CRM service that helps you store and segment your customer data into different groups throughout the customer's journey. [Mageplaza Zoho CRM extension](https://www.mageplaza.com/magento-2-zoho-crm/) will help you integrate seamlessly with Zoho CRM to connect and synchronize data from Magento including **Customer, Product, Order, Invoice, Catalog Rules** to Zoho CRM with **Accounts, Contacts, Leads, Sales Orders, Invoices, Products, Campaigns** and vice versa. That will help create a smooth flow to maintain customer relationships and organize your business well. Also, data to Zoho CRM can be sent manually or automatically synchronized whenever there is any update. 
+Zoho CRM or Customer Relationship Management software is a cloud-based CRM service that helps you store and segment your customer data into different groups throughout the customer's journey. [Mageplaza Zoho CRM extension](https://www.mageplaza.com/magento-2-zoho-crm/) will help you integrate seamlessly with Zoho CRM to connect and synchronize data from Magento including **Customer, Product, Order, Invoice, Catalog Rules** to Zoho CRM with **Accounts, Contacts, Leads, Sales, Purchase Orders, Invoices, Products, Campaigns** and vice versa. That will help create a smooth flow to maintain customer relationships and organize your business well. Also, data to Zoho CRM can be sent manually or automatically synchronized whenever there is any update. 
 
 
 ## How to download and install
@@ -67,15 +67,17 @@ Login to the Magento Admin, choose `Stores > Settings > Configuration > Zoho CRM
 
 #### 1.2. Queue Schedule
 
-![](https://i.imgur.com/fJPjlgI.png)
+![](https://i.imgur.com/d3ydGUv.png)
 
 - **Delete Queue Log After**:
-   - Enter the number of day in this field. System will delete Queue Log after the selected number of days. Example: You enter 5 days, then after 5 days. Queue Log will be deleted.
+   - Enter number of days into **Delete Queue Log After**. In which, for the queues syschronized having **success** OR **error status for more than 5 times** will be auto deleted after the time configured here. For axample: You enter 6 days in this field meaning that those queues with success and error statuses will be deleted after 6 days. 
   - If empty, Log will no longer be deleted. 
   
+- **Delete Queue Error**: Choose **Yes** to auto delete queue after 5 times syschronized all getting error.
+
 - **Schedule**: Select the time to send data to Zoho Module automatically. Any Magento objects changes will be sent to Zoho Module, otherwise the unchanged data will not be sent to Zoho Module anymore.
 
-- **Number of Object Send per time**:
+- **Number Of Objects Send Per Time**:
   - Enter the number of objects limit each time sending data to Zoho Module. Any pre-added queues will be prioritized to be sent to the  Zoho Module first.
   - If left blank, unlimited objects will be sent each time.
   
@@ -143,10 +145,10 @@ Here records **Queue data** by rules which include information of **Object, Crea
 
 ### 3. Manage Queue
 
-![](https://i.imgur.com/j187URg.png)
+![](https://i.imgur.com/xi0P2az.png)
 
 - This section records the information of Queue including **Object information, Sync Rule, Magento Object, Zoho Module, and so on.**
-- Here admin can **Synchronize All** or **Synchronize with Zoho Modules** such as **Sync Account, Campaign Sync, Sync Contact, Sync Lead, Sync Order, Sync Invoice, Sync Product**. Or it can be **selected separated data** entered into Queue to synchronize to Zoho CRM. All data changes such as **create, update, delete** are included in Queue.
+- Here admin can syschronize all data or select specific data to add to queue and synchronize to Zoho CRM. All data changes such as **create, update, delete** are included in Queue.
 - When you click on **View**, it will display **Popup View Queue** to see all information of each Queue. Select **Delete** to delete Queue and **Resend** to resend Queue.
 
 ![](https://i.imgur.com/NJUQwJw.png)
