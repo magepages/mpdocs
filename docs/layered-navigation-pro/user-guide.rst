@@ -114,9 +114,9 @@ The Rating Filter configuration is available under the **Filter Configuration** 
 .. image:: https://i.imgur.com/BuAwUtK.png
 
 - **Enable SubCategory Slider**: Slelect **Yes** to allow showing subcategories as slider on corresponding categories. 
-- **Display Type**: Choose displaying type for slider 
-  - **Label**: Slider only shows subcategory name included in its category.
-  - **Image and Label**: Slider shows subcategory name and image included in its category.
+*  **Display Type**: Choose displaying type for slider 
+  * **Label**: Slider only shows subcategory name included in its category.
+  *  **Image and Label**: Slider shows subcategory name and image included in its category.
 - **Apply for Category**: Admin choose category to be shown in slider.
 - **Auto Play**: Select **Yes** to allow slider to be auto activated 
 - **Items per Slider**: Enter the number of item subcategory allowing to be shown on each slider.
@@ -156,7 +156,7 @@ Follow `Attribute Information > ProductsPage Navigation Properties`
 
 - **Show Tooltip**: Choose **Yes** to show Tooltip on attribute filter.
 - **Tooltip Thumbnail**: Click **Choose File**, admin choose icon for tooltip. Leaving it blank, icon will be default value. 
-- **Tooltip Content**: Enter the content for tooltip. 
-  - If tooltip is left blank, it will be assigned with Admin value. 
+*  **Tooltip Content**: Enter the content for tooltip. 
+  *  If tooltip is left blank, it will be assigned with Admin value. 
 
 .. image:: https://i.imgur.com/r2gU1Lw.png
