@@ -86,9 +86,10 @@ Here are the details for the settings of each tab.
 
 The Product State Filterfeature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the Product State Filter configuration will be displayed: 
 
-.. image:: https://i.imgur.com/qFiyMCO.jpg
+.. image:: https://i.imgur.com/ZTVvOwz.png
 
 * In the **Group label** field: The name of the group attribute 
+* In the **Position** field: Admin can allow **Product State Filter** to show at different positions such as Top Sidebar, Bottom Sidebar, Below Category Filter.
 * In the **Expand by default** field: Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
 * **Enable New Filter**, **Enable On Sales filter**, **Enable Stock filter**: Choose **Yes** to enable the filter and leave **No** to disable.
 * **New label**, **On Sales label**, **Stock label**: Add the name for each label filter.
@@ -105,8 +106,24 @@ The Rating Filter configuration is available under the **Filter Configuration** 
 * In the **Enable Rating Filter** field: Choose "Yes" to enable and display the group attribute **Rating** on the Layered Navigation and leave "No" to disable this feature. When you choose "Yes", there are 2 more options for the modification
 * In the **Group Label** : Adding the text as the group attribute's name.
 * In the **Expand by default** : Choose "Yes" to automatically expand the group attribute **Rating** when shoppers go to the collection page.
+* In the **Position** field: Admin can allow **Rating Filter** to show at different positions such as Top Sidebar, Bottom Sidebar, Below Category Filter.
 
-3. Filter by decimal attributes 
+3. SubCategory Slider 
+-------------------------------
+
+.. image:: https://i.imgur.com/BuAwUtK.png
+
+- **Enable SubCategory Slider**: Slelect **Yes** to allow showing subcategories as slider on corresponding categories. 
+- **Display Type**: Choose displaying type for slider 
+  - **Label**: Slider only shows subcategory name included in its category.
+  - **Image and Label**: Slider shows subcategory name and image included in its category.
+- **Apply for Category**: Admin choose category to be shown in slider.
+- **Auto Play**: Select **Yes** to allow slider to be auto activated 
+- **Items per Slider**: Enter the number of item subcategory allowing to be shown on each slider.
+
+.. image:: https://i.imgur.com/CcRWcja.png
+
+4. Filter by decimal attributes 
 -------------------------------
 
 Layered Navigation Professional edition also allows store owner can set up and visitor can filter decimal attributes.
@@ -126,3 +143,20 @@ Layered Navigation Professional edition also allows store owner can set up and v
 For example with **Weight** option for which product has weight as 15 lb. In the frontend the search result can be filtered like: 
 
 .. image:: https://imgur.com/mHR1l4E.jpg
+
+5. Show Tooltip
+-------------------------------
+
+New version of Mageplaza Layered Navigation Professional allows store admins to set up tooltip for each attribute. Tooltip only apply for attribute types: Multiple Select, Dropdown, Price, Visual Swatch, Text Swatch.
+
+Follow `Attribute Information > ProductsPage Navigation Properties`
+- In the Use in **ProductsPage Navigation** field choose **Filterable (with results)**
+
+.. image:: https://i.imgur.com/IE4VlxE.png
+
+- **Show Tooltip**: Choose **Yes** to show Tooltip on attribute filter.
+- **Tooltip Thumbnail**: Click **Choose File**, admin choose icon for tooltip. Leaving it blank, icon will be default value. 
+- **Tooltip Content**: Enter the content for tooltip. 
+  - If tooltip is left blank, it will be assigned with Admin value. 
+
+.. image:: https://i.imgur.com/r2gU1Lw.png
