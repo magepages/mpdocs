@@ -150,6 +150,7 @@ For example with **Weight** option for which product has weight as 15 lb. In the
 New version of Mageplaza Layered Navigation Professional allows store admins to set up tooltip for each attribute. Tooltip only apply for attribute types: Multiple Select, Dropdown, Price, Visual Swatch, Text Swatch.
 
 Follow `Attribute Information > ProductsPage Navigation Properties`
+
 - In the Use in **ProductsPage Navigation** field choose **Filterable (with results)**
 
 .. image:: https://i.imgur.com/IE4VlxE.png
