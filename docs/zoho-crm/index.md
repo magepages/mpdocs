@@ -22,26 +22,18 @@ Zoho CRM or Customer Relationship Management software is a cloud-based CRM servi
 - After registering an account, visit [this link](https://accounts.zoho.com/developerconsole) to get your **Zoho API** login information when clicking **Add Client ID**. There provided with **Client Id** information, **Client Secret** you need be able to connect with Zoho CRM.
 ![](https://i.imgur.com/0cFYd9x.png)
 
-- Fill in the information below to **Create Zoho Client ID**. Remember to save **Redirect URIs** you filled in.
+- Fill in the information below to **Create Zoho Client ID**. 
 
 
 ![](https://i.imgur.com/wnzzwfc.png)
 
+- With **Authorized Redirect URIs** of Zoho CRM, you need to get the available value at **Authorized Redirect URIs** field from Mageplaza Zoho CRM extension. 
+
+![](https://i.imgur.com/7l4fIz1.png)
+
 - After click **Create** button, you get the Zoho API including **Client Id, Client Secret**, you need to save this information so you can connect to Zoho CRM.
 
 ![](https://i.imgur.com/H5qMPa6.png)
-
-- To get **Grant token** information, select **Self client**.
-
-![](https://i.imgur.com/08bkFUb.png)
-
-- Enter the group information you want to provide access to data in a **Scope** field. For example, provide permissions for all:  **ZohoCRM.modules.ALL, ZohoCRM.settings.ALL**, only entitled Create: **ZohoCRM.modules.leads.CREATE**. You can refer more [here](https://www.zoho.com/crm/help/developer/api/oauth-overview.html#scopes)
-
-![](https://i.imgur.com/HB3W7mb.png)
-
-- Click **View Code** to get **Grant token**. Save this field's information to connect to Zoho CRM.
-
-![](https://i.imgur.com/naHIYH2.png)
 
 ## How to Configure
 
@@ -49,11 +41,11 @@ Zoho CRM or Customer Relationship Management software is a cloud-based CRM servi
 
 Login to the Magento Admin, choose `Stores > Settings > Configuration > Zoho CRM`.
 
-![](https://i.imgur.com/0X2Otyt.gif)
+![](https://i.imgur.com/n49RH6K.gifv)
 
 #### 1.1. General Configuration
 
-![](https://i.imgur.com/Ik3MC8w.png)
+![](https://i.imgur.com/d11gmFn.png)
 
 - **Enabled**: Select **Yes** to activate the module and use the feature to support data synchronization from the Magento Objects to Zoho CRM.
 - **Client Id**:
@@ -62,24 +54,26 @@ Login to the Magento Admin, choose `Stores > Settings > Configuration > Zoho CRM
 - **Client Secret**:
   - Enter the Client Secret obtained in Zoho CRM.
   - If left blank or filled incorrectly in the Client Secret, it will not synchronize data with Zoho CRM.
-- **Get Access Token**: Admin can get Access Token to check the connection with Zoho CRM by clicking **Get Access Token** button. After that, you will see a successful notification and remind the admin to save configuration to apply change.
+- **Authorized Redirect URIs**: 
+  - Copy value in this field and paste to the similar field in Zoho CRM
+  ![Authorized Redirect URIs](https://i.imgur.com/ciS3Zhj.png)
+  - Admin can get Access Token to check the connection with Zoho CRM by clicking **Get Access Token** button and **Accept**. After that, you will see a successful notification. You should close current tab then return to Zoho CRM to configure the module
 
 
 #### 1.2. Queue Schedule
 
-![](https://i.imgur.com/d3ydGUv.png)
+![](https://i.imgur.com/z7UE7HQ.png)
 
 - **Delete Queue Log After**:
-   - Enter number of days into **Delete Queue Log After**. In which, for the queues syschronized having **success** OR **error status for more than 5 times** will be auto deleted after the time configured here. For axample: You enter 6 days in this field meaning that those queues with success and error statuses will be deleted after 6 days. 
+   - Enter number of days into **Delete Queue Log After**. In which, for the queues syschronized having **success** will be auto deleted after the time configured here. For axample: You enter 6 days in this field meaning that those queues with success status will be deleted after 6 days. 
   - If empty, Log will no longer be deleted. 
-  
-- **Delete Queue Error**: Choose **Yes** to auto delete queue after 5 times syschronized all getting error.
 
 - **Schedule**: Select the time to send data to Zoho Module automatically. Any Magento objects changes will be sent to Zoho Module, otherwise the unchanged data will not be sent to Zoho Module anymore.
 
 - **Number Of Objects Send Per Time**:
-  - Enter the number of objects limit each time sending data to Zoho Module. Any pre-added queues will be prioritized to be sent to the  Zoho Module first.
-  - If left blank, unlimited objects will be sent each time.
+  - Enter the number of objects limit each time sending data to Zoho Module. Any pre-added queues will be prioritized to be sent to the  Zoho Module first. The value is allowed to range from 1 to 1000.
+  - If you leave it blank or zero, schedule is not run.
+
   
 ### 2. Manage Sync Rules
 
@@ -125,16 +119,14 @@ After selecting the object, click **Next** to start filling at **Form create/ ed
 
 Here select the corresponding Magento Fields to send data to Zoho CRM.
 
-![](https://i.imgur.com/n2KRyIq.png)
-
-![](https://i.imgur.com/WZcScil.png)
+![](https://i.imgur.com/ngkviDt.png)
 
 - **Zoho Fields**: Displays the fields managed by Zoho corresponding to the selected Magento Objects. Zoho Fields change depending on the change on selected Magento Object such as Customer, Product, etc.
 
 - **Magento Fields**:
   - Enter the fields of the corresponding Magento object to upload data with the fields of Zoho Module.
   - Leaving this column blank will get the **Default Value** column to apply to Zoho Module.
-  - **Description**: Enter a description for any note of this rule. There is no value when processing data.
+  - **Internal Note**: Enter an internal note for any note of this rule. There is no value when processing data.
   - **Insert Variables**: Select the fields of the Magento object corresponding to the fields of Zoho Module.
 
 ##### 2.2.4. Queue Report
@@ -151,4 +143,4 @@ Here records **Queue data** by rules which include information of **Object, Crea
 - Here admin can syschronize all data or select specific data to add to queue and synchronize to Zoho CRM. All data changes such as **create, update, delete** are included in Queue.
 - When you click on **View**, it will display **Popup View Queue** to see all information of each Queue. Select **Delete** to delete Queue and **Resend** to resend Queue.
 
-![](https://i.imgur.com/NJUQwJw.png)
+![](https://i.imgur.com/tG3kSLc.png)
