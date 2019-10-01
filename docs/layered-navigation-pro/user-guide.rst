@@ -89,7 +89,7 @@ The Product State Filterfeature allows the shoppers to filter the items by the *
 .. image:: https://i.imgur.com/ZTVvOwz.png
 
 * In the **Group label** field: The name of the group attribute 
-* In the **Position** field: Admin can allow **Product State Filter** to show at different positions such as Top Sidebar, Bottom Sidebar, Below Category Filter.
+* In the **Position** field: Admin set the displaying priority for **Product State Filter**. The smaller number entered, the higher priority to show first. 
 * In the **Expand by default** field: Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
 * **Enable New Filter**, **Enable On Sales filter**, **Enable Stock filter**: Choose **Yes** to enable the filter and leave **No** to disable.
 * **New label**, **On Sales label**, **Stock label**: Add the name for each label filter.
@@ -121,7 +121,7 @@ The Rating Filter configuration is available under the **Filter Configuration** 
 - **Auto Play**: Select **Yes** to allow slider to be auto activated 
 - **Items per Slider**: Enter the number of item subcategory allowing to be shown on each slider.
 
-.. image:: https://i.imgur.com/CcRWcja.png
+.. image:: https://i.imgur.com/oXnrwz9.png
 
 4. Filter by decimal attributes 
 -------------------------------
