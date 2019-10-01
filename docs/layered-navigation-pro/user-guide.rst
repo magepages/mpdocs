@@ -86,7 +86,7 @@ Here are the details for the settings of each tab.
 
 The Product State Filterfeature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the Product State Filter configuration will be displayed: 
 
-.. image:: https://i.imgur.com/ZTVvOwz.png
+.. image:: https://i.imgur.com/qRlObXn.png
 
 * In the **Group label** field: The name of the group attribute 
 * In the **Position** field: Admin set the displaying priority for **Product State Filter**. The smaller number entered, the higher priority to show first. 
