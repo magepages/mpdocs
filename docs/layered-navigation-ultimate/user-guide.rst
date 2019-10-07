@@ -131,9 +131,10 @@ Here are the details for the settings of each tab.
 
 The Product State Filterfeature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the Product State Filter configuration will be displayed: 
 
-.. image:: https://i.imgur.com/qFiyMCO.jpg
+.. image:: https://i.imgur.com/qRlObXn.png
 
 * **Group label**: The name of the group attribute 
+* **Position**: Admin set the displaying priority for **Product State Filter**. The smaller number entered, the higher priority to show first. 
 * **Expand by default**: Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
 * **Enable New Filter**, **Enable On Sales filter**, **Enable Stock filter**: Choose **Yes** to enable the filter and leave **No** to disable.
 * **New label**, **On Sales label**, **Stock label**: Add the name for each label filter.
@@ -145,12 +146,13 @@ This feature allows the shoppers can filter the items by the rating follows 5 le
 
 The Rating Filter configuration is available under the **Filter Configuration** tab.
 
-.. image:: https://imgur.com/n1patLV.jpg
+.. image:: https://i.imgur.com/pog5sWu.jpg
 
 * In the **Enable Rating Filter** field: Choose "Yes" to enable and display the group attribute **Rating** on the Layered Navigation and leave "No" to disable this feature. When you choose "Yes", there are 2 more options for the modification:
   
   * In the **Group Label** : Adding the text as the group attribute's name.
   * In the **Expand by default** : Choose "Yes" to automatically expand the group attribute **Rating** when shoppers go to the collection page.
+  * In the **Position** field: Admin can allow **Rating Filter** to show at different positions such as Top Sidebar, Bottom Sidebar, Below Category Filter.
    
 * In the **Show as Slider** field
 
@@ -160,7 +162,22 @@ The Rating Filter configuration is available under the **Filter Configuration** 
   * Choose "No" if you wish to keep the default Horizontal Rating filter.   
 .. image:: https://imgur.com/HwUho1t.jpg 
 
-3. Design Configuration tab
+3. SubCategory Slider 
+-------------------------------
+
+.. image:: https://i.imgur.com/BuAwUtK.png
+
+- **Enable SubCategory Slider**: Slelect **Yes** to allow showing subcategories as slider on corresponding categories. 
+*  **Display Type**: Choose displaying type for slider 
+  * **Label**: Slider only shows subcategory name included in its category.
+  *  **Image and Label**: Slider shows subcategory name and image included in its category.
+- **Apply for Category**: Admin choose category to be shown in slider.
+- **Auto Play**: Select **Yes** to allow slider to be auto activated 
+- **Items per Slider**: Enter the number of item subcategory allowing to be shown on each slider.
+
+.. image:: https://i.imgur.com/oXnrwz9.png
+
+4. Design Configuration 
 ----------------------------
 
 .. image:: https://i.imgur.com/Ma1rtJG.jpg
@@ -193,7 +210,7 @@ The **Slider type** field allows you to choose the type of the Price Slider. The
 
 **Note**: To make the config on **Design Configuration** tab works, please make sure you have set the Display type on the ``Attribute Configuration > Color`` to be ``Slider``.
 
-4. Custom Products Pages
+5. Custom Products Pages
 ------------------------------
 
 By enabling **Custom products page** feature, all of your items will be displayed in only 1 pages with the advanced filtering. That allows the shoppers don't need to find the exact categories page to filter the desired items.
@@ -204,7 +221,7 @@ The **Custom products page** configuration is available under ``Admin Panel > Ma
 
 .. image:: https://i.imgur.com/42MohHC.jpg
 
-4.1 Page Information 
+5.1 Page Information 
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 After choosing/creating a specific Product page, choose **Page Information** scroll down to see some essential information:
@@ -224,7 +241,7 @@ In addtion, you can configure the SEO attribute for the all products page to hav
 * In the **Meta keywords** field: Enter the meta keyword for the custom product page.
 * In the **Meta description** field: Enter the meta descripton for the custom product page. 
 
-4.2 Default Attributes
+5.2 Default Attributes
 ^^^^^^^^^^^^^^^^^^^^^^^
 
 **Default Attributes** allows you set the default attribute for the all products page. That means when the shoppers open the all products page, you can decide which products will be displayed first. 
@@ -233,12 +250,12 @@ In addtion, you can configure the SEO attribute for the all products page to hav
 
 .. image:: https://i.imgur.com/fsv0Qqw.jpg
 
-5. Attribute Configuration 
+6. Attribute Configuration 
 -------------------------------
 
 Go to ``Admin Panel > Stores > Attributes: Product``, then choose an attribute and go to **Layered Navigation Properties** tab.
 
-5.1 Attribute Properties
+6.1 Attribute Properties
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Example of a specific attribution and its configuration in detail
@@ -253,7 +270,7 @@ Example of a specific attribution and its configuration in detail
 * In the **Enable search option** field: Choose to enable/ disable the **Quick Lookup Option** in this attribute group.
 * In the **Expand by default** field: Choose to automatically expand this attribute group or not when the shoppers go to the collection page.
 
-5.2 Filter by decimal attributes
+6.2 Filter by decimal attributes
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Layered Navigation also allows store owner can set up and visitor can filter decimal attributes. 
@@ -274,8 +291,27 @@ For example with the **Weight** option for which product has weight as 15 lb. On
 
 .. image:: https://imgur.com/mHR1l4E.jpg
 
+6.3 Show Tooltip
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-6. Shop By Brand's configuration 
+New version of Mageplaza Layered Navigation Professional allows store admins to set up tooltip for each attribute. Tooltip only apply for attribute types: Multiple Select, Dropdown, Price, Visual Swatch, Text Swatch.
+
+Follow `Attribute Information > ProductsPage Navigation Properties`
+
+- In the Use in **ProductsPage Navigation** field choose **Filterable (with results)**
+
+.. image:: https://i.imgur.com/IE4VlxE.png
+
+- **Show Tooltip**: Choose **Yes** to show Tooltip on attribute filter.
+- **Tooltip Thumbnail**: Click **Choose File**, admin choose icon for tooltip. Leaving it blank, icon will be default value. 
+*  **Tooltip Content**: Enter the content for tooltip. 
+  *  If tooltip is left blank, it will be assigned with Admin value. 
+
+.. image:: https://i.imgur.com/r2gU1Lw.png
+
+
+
+7. Shop By Brand's configuration 
 -------------------------------
 
 `Magento 2 Shop by Brand`_ extension is also one of such great tool. Similar to the navigation, Shop by Brand allows filtering by product attributes, but they are neither color or material or any physical features of the product. The plugin bases on brands (manufacturers) the products are made by.
