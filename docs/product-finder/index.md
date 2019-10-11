@@ -43,7 +43,7 @@ Login to the Magento Admin, choose `Catalog > Product Finder > Configuration`
   - **No**: The "Reset" button is not displayed in the Frontend
   - **At least a filter is selected**: The "Reset" button is displayed in the Frontend when one of the filters is selected
   
-- **Reset Finder Page To**: Select the page to redirect whenever the "Reset" button is clicked
+- **Reset Finder Page To**: Select the page to redirect whenever the "Reset" button is clicked
   - **Home Page**: Clicking on "Reset" will load the Home Page.
   - **Current Page**: When clicking on "Reset" the system will reload the page.
   
