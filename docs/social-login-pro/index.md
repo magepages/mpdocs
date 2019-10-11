@@ -11,6 +11,7 @@
 * [How to configure Twitter API](https://docs.mageplaza.com/social-login-m2/how-to-configure-twitter-api.html)
 * [How to configure Vkontakte API](https://docs.mageplaza.com/social-login-m2/how-to-configure-vkontakte-api.html)
 * [How to configure Yahoo API](https://docs.mageplaza.com/social-login-m2/how-to-configure-yahoo-api.html)
+* [How to configure Pinterest API](https://docs.mageplaza.com/social-login-m2/how-to-configure-pinterest-api.html)
 
 ## Overview
 Social Login Professional is an improved version of Social Login Standard. With the security feature CAPTCHA, this extension protects store owners from spam accounts by ensuring that the register process or form completion is done by a human rather than a robot.
