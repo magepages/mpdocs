@@ -66,9 +66,9 @@ Login to the Magento Admin, choose `Catalog > Product Finder > Configuration`
   - The Comparision tab only show products with the same Finder.
 
 
-### II.Manage Product Finder
+### II. Manage Product Finder
 
-#### 1.Grid
+#### 1. Grid
 
 From the Admin Panel, go to `Catalog > Product Finder > Manage Product Finder`
 
@@ -82,7 +82,7 @@ From the Admin Panel, go to `Catalog > Product Finder > Manage Product Finder`
   - **Edit**: Navigate to the page to edit Product Finder information you created earlier.
 - In addition, admin can filter, change store view, hide/ show columns.
 
-#### 2. Form Add New Product Finder
+#### 2. Form Add New Product Finder
 
 From the Admin Panel, go to `Catalog > Product Finder > Manage Product Finder`, select **Add new/ edit**
 
@@ -127,7 +127,7 @@ Display the list of Attributes and Options that this Finder will implement Filte
 - To edit attributes, admin needs to click on **Setting** button
 - With **Mode = Automatic**: When you click on **Settings**, the popup **Filter Options** will display and the Attributes will be automatically listed. Admin just need to select the filter attribute to add to Finder.
 
-![Imgur](https://i.imgur.com/uqXDnKG.png)
+![Imgur](https://i.imgur.com/gRFFL8u.png)
 
 - With **Mode = Manual**: Admin need to create a name for the Attribute then **Save**. Now at the **saved Attributes** will display **Settings**, admin click on it to create an option for the Attribute.
 
@@ -144,9 +144,9 @@ Display the list of Attributes and Options that this Finder will implement Filte
 ![Imgur](https://i.imgur.com/6dgXwEH.png)
 
 - With **Mode = Manual**
-- Admin needs to add each product manually or import the product from a CSV file
-- Admin can delete 1 or delete all added products.
-- Click the **Export** button when the admin wants the productivity of the added products.
+  - Admin needs to add each product manually or import the product from a CSV file
+  - Admin can delete 1 or delete all added products.
+  - Click the **Export** button when the admin wants the productivity of the added products.
 
 ![Imgur](https://i.imgur.com/0pYAbMV.png)
 
