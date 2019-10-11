@@ -201,25 +201,25 @@ In Social share session, we use Addthis.com to add more than 200 share buttons, 
 
 Click on ``Save Config`` when complete.
 
-II.  Create New Post
+II.  Manage Post
 -----
 
-* Step 1: Complete the post information
-* Step 2: Assign Products to the post
-
-2.1. Complete the post information
+2.1. Create new post
 ^^^^^ 
+
+Step 1: Complete the post information
+"""""
 
 * Login to Magento Admin, follow ``Content > Better Blog: Manage Posts``.
 
-* On the upper-right corner, tap Add New Posts button
+* On the upper-right corner, tap **Add New Posts** button
 * Set Name for the new post
 * To display the new post, choose “Enable” in the **Status** field
-* Enter Short Description if it’s necessary.
-* Use WYSIWYG Mode to insert the post content that allows showing right as on the frontend. If you want to show the content under code, tap Show/Hide Editor button.
-* Choose the Store View where you want to display the post. 
+* Enter **Short Description** if it’s necessary.
+* Use **WYSIWYG Mode** to insert the post content that allows showing right as on the frontend. If you want to show the content under code, tap **Show/Hide Editor** button.
+* Choose the **Store View** where you want to display the post. 
 * Upload image from your browser in the **Image** option.
-* Choose Topic, Tag, Category for the post. Also, you can create a new Topic, Tag, Sub Category in this section.
+* Choose **Topic, Tag, Category** for the post. Also, you can create a new Topic, Tag, Sub Category in this section.
 * Choose **In RSS = Yes** to display the post information in the file rss.xml
 * To allow the readers leave comments on your post, choose “Yes” in the Allow Comment field (Make sure that in the 1.5. Comments, the comment type IS NOT *Disable Completely**)
 * Publish Date: Configure the displaying of the post date 
@@ -244,6 +244,15 @@ II.  Create New Post
 
 
 * Tap ``Save and Continue Edit`` at the header
+
+Step 2: Assign Products to the post
+"""""
+* You can do it when you create a new post in the Products tab, or go to Posts tab
+* In the list of the available posts, mark the checkbox that is next to the products you want to assign
+
+.. image:: https://i.imgur.com/DN9tDVz.gif
+
+* Tap **Save and Continue Edit**, then hit **Save Post** to finish.
 
 2.2. Duplicate Post
 ^^^^^ 
