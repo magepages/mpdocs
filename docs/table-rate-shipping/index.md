@@ -117,7 +117,7 @@ The extension now supports 3 ways to add a rate to the shipping method:
 ![Imgur](https://i.imgur.com/4UGSLjv.png)
   - **General > Name**: Set Name for Shipping Rate
   - **Conditions**: There are 5 main conditions that admin can set for 1 rate: Ship destination, weight of cart, total amount of cart, number of items of cart and shipping group of products in cart.
-    - **Ship destination** is determined by **Countryv**, **State/ Region** (only applies to some countries), **Zip/ Postcode**. In which, **Zip/ Postcode** supports **String** format or **Range** format. To use Range format, admin only need to select the **Zip / Postcode Range** checkbox and fill in the corresponding postcode value.
+    - **Ship destination** is determined by **Country**, **State/ Region** (only applies to some countries), **Zip/ Postcode**. In which, **Zip/ Postcode** supports **String** format or **Range** format. To use Range format, admin only need to select the **Zip / Postcode Range** checkbox and fill in the corresponding postcode value.
     - **Note**: Extension supports 2 types of strings using "%" and "_" characters. "%" is used to replace a string of indefinite length while "_" used to replace a character.
     
     - *For example:*
@@ -129,10 +129,12 @@ The extension now supports 3 ways to add a rate to the shipping method:
       ![Imgur](https://i.imgur.com/Zg2wrCy.png).
     - **Cart weight**: The weight of a cart is determined by the weight of each product in the cart. Conditions by weight are included under the **From** and upper limits **To**. When you do not want to set a limit, you can leave it blank or enter *.
     - For example: For an order weighing less than 10kg to apply the shipping rate, the `Weight From = 10` and `To = Blank/*`
+    
     ![Imgur](https://i.imgur.com/xhA0Ee5.png)
     ![Imgur](https://i.imgur.com/zPhsLCJ.png)
     - **Total amount of cart**: Total amount of cart calculated in **Subtotal excluding Tax**, including lower limit **From** and upper limit on **To**. When you do not want to set a limit, you can leave it blank or enter *.
     - For example, for orders under $ 100 that apply a shipping rate, `Price From = Blank/0/*` and `To = 100` are required.
+    
     ![Imgur](https://i.imgur.com/OP7FZ1E.png)
     ![Imgur](https://i.imgur.com/fMTk7qg.png)
     ![Imgur](https://i.imgur.com/ovh60wR.png)
