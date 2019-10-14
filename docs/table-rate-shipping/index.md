@@ -39,7 +39,7 @@ Go to `Sales > Table Rate Shipping > Configuration`
 
 ![Imgur](https://i.imgur.com/xs8stqa.png)
 
-![Imgur](https://i.imgur.com/Gj9pCZ6.png)
+![Imgur](https://i.imgur.com/GimX8mc.png)
 
 - **Enable**: Select **Yes** to activate the extension 
 - **Carrier Title**: Enter the title that you want to appear for the shipping rate table at checkout. The default title is **Table Rate**.
@@ -51,7 +51,7 @@ Go to `Sales > Table Rate Shipping > Configuration`
 
 ![Imgur](https://i.imgur.com/T5EvKO8.png)
 
-- The extension currently supports three ways of calculating volume values:
+- **Select Weight Attribute**: The extension currently supports three ways of calculating volume values:
   - **Volumetric Weight**: Directly determine the volume value of a product. Selecting this option will displays the **Select Weight Attribute** field, which allows you to select the corresponding attribute of the product containing the volume weight value.
   
   - **Volumetric**: Indirectly determine the volume weight value through the product's volume value. Selecting this option will display two additional fields: **Select Volumetric (V) Attribute** and **Shipping Factor**.
@@ -59,8 +59,8 @@ Go to `Sales > Table Rate Shipping > Configuration`
     - **Shipping Factor**: The ratio to convert from the volume value to the value of volumetric weight.
     
   - **Volume Attribute**: Indirectly determining the value of volumetric weight by measuring the length, width, height of the product. Selecting this option will display four additional fields: **Attribute 1, Attribute 2, Attribute 3** and **Shipping Factor**.
-   - **Attribute 1, Attribute 2, Attribute 3** allows you to select attributes corresponding to 3 measurements of Length, Width, and Height of the product.
-  - **Shipping Factor**: The ratio to convert from the volume value to the value of volumetric weight.
+    - **Attribute 1, Attribute 2, Attribute 3** allows you to select attributes corresponding to 3 measurements of Length, Width, and Height of the product.
+    - **Shipping Factor**: The ratio to convert from the volume value to the value of volumetric weight.
   
 - **Show Method if Not Applicable**: Select **Yes** to still display the table rate shipping method on **View Cart** and **Checkout** page when the order does not meet the conditions for using this shipping rates. At that time, the message in the **Displayed Error Message** field will be displayed to the customer.
 - **Sort Order**: Specify the display position of the shipping methods in the list that satisfy the order, with 0 being the first position.
@@ -113,66 +113,46 @@ The extension now supports 3 ways to add a rate to the shipping method:
 - Add a new rate by importing the csv file 
 - Add a new rate by importing rate from another shipping method
 
-- **New Rate**: At Grid **Shipping Rates**, click **New Rate**, popup and add a new shipping rate will be shown
+- **Type 1: New Rate**: At Grid **Shipping Rates**, click **New Rate**, popup and add a new shipping rate will be shown
 ![Imgur](https://i.imgur.com/4UGSLjv.png)
   - **General > Name**: Set Name for Shipping Rate
   - **Conditions**: There are 5 main conditions that admin can set for 1 rate: Ship destination, weight of cart, total amount of cart, number of items of cart and shipping group of products in cart.
     - **Ship destination** is determined by **Countryv**, **State/ Region** (only applies to some countries), **Zip/ Postcode**. In which, **Zip/ Postcode** supports **String** format or **Range** format. To use Range format, admin only need to select the **Zip / Postcode Range** checkbox and fill in the corresponding postcode value.
     - **Note**: Extension supports 2 types of strings using "%" and "_" characters. "%" is used to replace a string of indefinite length while "_" used to replace a character.
     
-*For example:*
+    - *For example:*
+      - Shipping location is Aberdeen in the UK with Postcode code starting with AB, you need to set **Country = United Kingdom**, uncheck the **Zip/ Postcode Range** checkbox and enter the value of the **Zip/ Postcode = AB%**.
+      ![Imgur](https://i.imgur.com/qQ9vl5d.png)
+      - Shipping location is Aberdeen in the UK with Postcode code starting with AB12, you need to set **Country = United Kingdom**, uncheck the **Zip/ Postcode Range** checkbox and enter the value of the **Zip/ Postcode = AB12 ___**, which is equivalent to all postcodes with 7 characters, starting with AB12, ending with any 3-character cluster, 2 characters are separated by a space " " will satisfy.
+      ![Imgur](https://i.imgur.com/hXXaNlw.png)
+      - Shipping location is Michigan in the US with Zipcode from 48001 to 49971, you need to set **Country = United States**, select the **Zip / Postcode Range** checkbox and enter the **Zip / Postcode From = 48001** and **To = 49971**
+      ![Imgur](https://i.imgur.com/Zg2wrCy.png).
+    - **Cart weight**: The weight of a cart is determined by the weight of each product in the cart. Conditions by weight are included under the **From** and upper limits **To**. When you do not want to set a limit, you can leave it blank or enter *.
+    - For example: For an order weighing less than 10kg to apply the shipping rate, the `Weight From = 10` and `To = Blank/*`
+    ![Imgur](https://i.imgur.com/xhA0Ee5.png)
+    ![Imgur](https://i.imgur.com/zPhsLCJ.png)
+    - **Total amount of cart**: Total amount of cart calculated in **Subtotal excluding Tax**, including lower limit **From** and upper limit on **To**. When you do not want to set a limit, you can leave it blank or enter *.
+    - For example, for orders under $ 100 that apply a shipping rate, `Price From = Blank/0/*` and `To = 100` are required.
+    ![Imgur](https://i.imgur.com/OP7FZ1E.png)
+    ![Imgur](https://i.imgur.com/fMTk7qg.png)
+    ![Imgur](https://i.imgur.com/ovh60wR.png)
+    - **Number of cart items**: including the limit **From** and the limit on **To**. When you do not want to set a limit, you can leave it blank or enter *.
+    - For example: For orders with 3-5 items that apply a shipping rate, `Qty From = 3` and `To = 5` should be set
+    ![Imgur](https://i.imgur.com/ZEVcRoe.png)
+    - **Shipping Group**: Products can be assigned a certain shipping group to classify goods when shipping. For each type of goods can be assigned a certain shipping rate. Instructions for setting up the Shipping Group for the product will be detailed below.
+    ![Imgur](https://i.imgur.com/CaTkmU2.png)
 
-- Shipping location is Aberdeen in the UK with Postcode code starting with AB, you need to set **Country = United Kingdom**, uncheck the **Zip/ Postcode Range** checkbox and enter the value of the **Zip/ Postcode = AB%**.
-
-![Imgur](https://i.imgur.com/qQ9vl5d.png)
-
-- Shipping location is Aberdeen in the UK with Postcode code starting with AB12, you need to set **Country = United Kingdom**, uncheck the **Zip/ Postcode Range** checkbox and enter the value of the **Zip/ Postcode = AB12 ___**, which is equivalent to all postcodes with 7 characters, starting with AB12, ending with any 3-character cluster, 2 characters are separated by a space " " will satisfy.
-
-![Imgur](https://i.imgur.com/hXXaNlw.png)
-
-- Shipping location is Michigan in the US with Zipcode from 48001 to 49971, you need to set **Country = United States**, select the **Zip / Postcode Range** checkbox and enter the **Zip / Postcode From = 48001** and **To = 49971**
-
-![Imgur](https://i.imgur.com/Zg2wrCy.png).
-
-- **Cart weight**: The weight of a cart is determined by the weight of each product in the cart. Conditions by weight are included under the **From** and upper limits **To**. When you do not want to set a limit, you can leave it blank or enter *.
-
-- For example: For an order weighing less than 10kg to apply the shipping rate, the `Weight From = 10` and `To = Blank/*`
-
-![Imgur](https://i.imgur.com/xhA0Ee5.png)
-
-![Imgur](https://i.imgur.com/zPhsLCJ.png)
-
-- **Total amount of cart**: Total amount of cart calculated in **Subtotal excluding Tax**, including lower limit **From** and upper limit on **To**. When you do not want to set a limit, you can leave it blank or enter *.
-
-- For example, for orders under $ 100 that apply a shipping rate, `Price From = Blank/0/*` and `To = 100` are required.
-
-![Imgur](https://i.imgur.com/OP7FZ1E.png)
-
-![Imgur](https://i.imgur.com/fMTk7qg.png)
-
-![Imgur](https://i.imgur.com/ovh60wR.png)
-
-- **Number of cart items**: including the limit **From** and the limit on **To**. When you do not want to set a limit, you can leave it blank or enter *.
-
-- For example: For orders with 3-5 items that apply a shipping rate, `Qty From = 3` and `To = 5` should be set
-
-![Imgur](https://i.imgur.com/ZEVcRoe.png)
-
-- **Shipping Group**: Products can be assigned a certain shipping group to classify goods when shipping. For each type of goods can be assigned a certain shipping rate. Instructions for setting up the Shipping Group for the product will be detailed below.
-
-![Imgur](https://i.imgur.com/CaTkmU2.png)
-
-- **Settings**: Here we will set the rate level to calculate ship fee. There are 4 basic types of rates:
-  - **Product Fixed Rate**: The fixed rate for each product in the cart
-  - **Product Percentage Rate**: The percentage of each product price, based on which the rate is counted
-  - **Weight Unit Fixed Rate**: The fixed rate for each weight unit. Each unit of weight will be calculated according to the weight or volumetric weight of the product, whichever is greater will receive that value.
-  - **Order Fixed Rate**: The fixed rate for the whole order
-- Ship fee will be equal to the sum of the rates corresponding to the cart combined. If you do not want to apply any rate for shipping, just leave that field blank. Leaving all fields blank is equivalent to the freeship for the cart.
-- Also in the **Settings** tab, you can set the estimated shipping date in the **Estimated Delivery Time** field, this value will be displayed in the frontend to notify customers by variable `{{delivery_days}}` in the shipping method name.
-- After filling all the above information as desired, click **Save** to save the shipping rate you have just set.
+  - **Settings**: Here we will set the rate level to calculate ship fee. There are 4 basic types of rates:
+    - **Product Fixed Rate**: The fixed rate for each product in the cart
+    - **Product Percentage Rate**: The percentage of each product price, based on which the rate is counted
+    - **Weight Unit Fixed Rate**: The fixed rate for each weight unit. Each unit of weight will be calculated according to the weight or volumetric weight of the product, whichever is greater will receive that value.
+    - **Order Fixed Rate**: The fixed rate for the whole order
+Ship fee will be equal to the sum of the rates corresponding to the cart combined. If you do not want to apply any rate for shipping, just leave that field blank. Leaving all fields blank is equivalent to the freeship for the cart.
+Also in the **Settings** tab, you can set the estimated shipping date in the **Estimated Delivery Time** field, this value will be displayed in the frontend to notify customers by variable `{{delivery_days}}` in the shipping method name.
+  - After filling all the above information as desired, click **Save** to save the shipping rate you have just set.
 
 
-- **Import Rates**
+- **Type 2: Import Rates**
 
 ![Imgur](https://i.imgur.com/i98lH25.png)
 
@@ -186,7 +166,7 @@ In addition, you can export the rate of any shipping method to import the shippi
 
 ![Imgur](https://i.imgur.com/Ho7QMER.png)
 
-Import From Others
+**Type 3: Import From Others**
 
 ![Imgur](https://i.imgur.com/RtOYy1v.png)
 
