@@ -63,13 +63,19 @@ A one-step checkout will be totally done on one page only by completing informat
 1.6. Order Review and Place Order
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: https://i.imgur.com/6TFdp0s.png
+.. image:: https://i.imgur.com/iDfdvNN.png
 
-* In the **Order Review** section, One Step Checkout allows buyers to easily adjust their item's quantity by using the minus/plus button.
+* In the **Order Review** section, One Step Checkout allows buyers to easily adjust their item's quantity by using the minus/plus button. In addition, it allows editing each item:
+
+.. image:: https://i.imgur.com/ZdgcRcT.png
+
 * Subtotal, shipping fee, tax and grand total are displayed clearly by **One Step Checkout**.
 * **One Step Checkout** enables customers to apply coupon in the **Apply Discount Code** box.
 * The box **Sign up for newsletter** can be selected if customers desire to receive information from the online store via email.
 * Customers may request the purchased product to be wrapped and send a gift message with that product.
+
+.. image:: https://i.imgur.com/STkdBqh.png
+
 * Terms and conditions will be displayed in a pop-up box and can be accepted by clicking on **I agree with terms and conditions**.
 * Eventually, the one step checkout can be finished by a click on the **Place Order** button. The whole process is completed in one page only.
 * Seal block is displayed to make sure this is the official checkout page of the store, not forged. 
@@ -104,12 +110,46 @@ Login to Magento Admin, following our given guide below to complete One Step Che
   * Display Configuration
   * Design Configuration
   
-2.1. Field Management
+2.1. Manage Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-From the Admin Panel, go to ``Stores > One Step Checkout > Manage Fields``. Drag and drop tabs from Available fields to Sorted fields to have them appeared in the checkout page.
+2.1.1. Address Information
+'''''''''''''''''''''''''''''''''''
 
-.. image:: https://i.imgur.com/i6URgSe.gif
+From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, choose **Address Information**. Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page. 
+
+Here, admin can configure **Required** by checking the right corner of each field, changing the frame length by dragging and dropping (length can be dragged: 25%, 50%, 100%), drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page:
+
+.. image:: https://i.imgur.com/VDreW1S.gif
+
+2.1.2. Shipping Method
+'''''''''''''''''''''''''''''''
+
+- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Shipping Method**
+- Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
+- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/?utm_source=configuration&utm_medium=link&utm_campaign=one-step-checkout) to add more custom checkout fields.
+
+.. image:: https://i.imgur.com/VTNfGfS.gif
+
+
+
+2.1.3. Payment Method
+'''''''''''''''''''''''''''''''
+
+- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Payment Method**
+- Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
+- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/?utm_source=configuration&utm_medium=link&utm_campaign=one-step-checkout) to add more custom checkout fields.
+
+.. image:: https://i.imgur.com/iuhXSlT.gif
+
+2.1.4. Order Summary
+'''''''''''''''''''''''''''''''
+
+- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Order Summary**
+- Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
+- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/?utm_source=configuration&utm_medium=link&utm_campaign=one-step-checkout) to add more custom checkout fields.
+
+.. image:: https://i.imgur.com/A8yV19E.gif
 
 
 2.2. Configuration
@@ -296,6 +336,16 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 * In the **Place Order button color** field: Choose the color for the place order button which should be a highlight to attract shoppers the most.
 * In the **Custom CSS** field: You can add the CSS code to custom your own style.
 
+2.2.4 Custom Fields Configuration
+'''''''''''''''''''''''''
+
+- Open the **Custom Fields Configuration** section, and continue with the following:
+
+.. image:: https://i.imgur.com/DghTZ5u.png
+
+- Add 3 default Custom Field with Custom Field 1 and 2 as Text, Custom Field 3 as Date:
+
+.. image:: https://i.imgur.com/raBYXKd.png
 
 2.3. Other configurations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -346,3 +396,13 @@ In general, Magento just displays two basic shipping methods are Flat Rate and T
 ''''''''''''''''''''''''''''''''''''
 
 To add comment into Order Confirmation Email, please refer the `guide here <https://www.mageplaza.com/faqs/how-add-comment-email-order-confirmations.html>`_
+
+III. Compatible Order Attribute
+----------------
+
+.. image:: https://i.imgur.com/yVLN3aU.png
+
+IV. Compatible Customer Attribute
+----------------
+
+.. image:: https://i.imgur.com/Zj9Laje.png
