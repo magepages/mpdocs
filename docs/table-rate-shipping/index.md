@@ -118,7 +118,7 @@ The extension now supports 3 ways to add a rate to the shipping method:
   - **General > Name**: Set Name for Shipping Rate
   - **Conditions**: There are 5 main conditions that admin can set for 1 rate: Ship destination, weight of cart, total amount of cart, number of items of cart and shipping group of products in cart.
     - **Ship destination** is determined by **Country**, **State/ Region** (only applies to some countries), **Zip/ Postcode**. In which, **Zip/ Postcode** supports **String** format or **Range** format. To use Range format, admin only need to select the **Zip / Postcode Range** checkbox and fill in the corresponding postcode value.
-    - **Note**: Extension supports 2 types of strings using "%" and "_" characters. "%" is used to replace a string of indefinite length while "_" used to replace a character.
+    - **Note**: Extension supports 2 types of strings using "%" and "dash" characters. "%" is used to replace a string of indefinite length while "dash" used to replace a character.
     
     - *For example:*
       - Shipping location is Aberdeen in the UK with Postcode code starting with AB, you need to set **Country = United Kingdom**, uncheck the **Zip/ Postcode Range** checkbox and enter the value of the **Zip/ Postcode = AB%**.
