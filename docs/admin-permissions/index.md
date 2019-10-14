@@ -40,14 +40,14 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 ![Imgur](https://i.imgur.com/3MFzClJ.png)
 
-- Tab Admin Permissions only apprears when **Mageplaza Admin Permissions** is turn on. This tab allows:
+- Tab **Admin Permissions** only apprears when **Mageplaza Admin Permissions** is turn on. This tab allows:
   - Set admin permission by **Sale** per Store Views.
   - Set admin permission by specific **Categories**
   - Set admin permission by specific **Products** or product creators (product owner).
   - Set admin permission by specific **Customers**
   - Set admin permission by certain **Product Attributes**
   - Set admin permission by certain **User Roles**
-  - GSet admin permission by **Model/Controller** with Action **New, Load, Save, Delete**.
+  - Set admin permission by **Model/Controller** with Action **New, Load, Save, Delete**.
 
 
 #### 1. Sales
