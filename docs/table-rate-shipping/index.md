@@ -114,7 +114,7 @@ The extension now supports 3 ways to add a rate to the shipping method:
 - Add a new rate by importing rate from another shipping method
 
 - **Type 1: New Rate**: At Grid **Shipping Rates**, click **New Rate**, popup and add a new shipping rate will be shown
-![Imgur](https://i.imgur.com/4UGSLjv.png)
+![Imgur](https://i.imgur.com/OPGZzPs.png)
   - **General > Name**: Set Name for Shipping Rate
   - **Conditions**: There are 5 main conditions that admin can set for 1 rate: Ship destination, weight of cart, total amount of cart, number of items of cart and shipping group of products in cart.
     - **Ship destination** is determined by **Country**, **State/ Region** (only applies to some countries), **Zip/ Postcode**. In which, **Zip/ Postcode** supports **String** format or **Range** format. To use Range format, admin only need to select the **Zip / Postcode Range** checkbox and fill in the corresponding postcode value.
@@ -179,7 +179,7 @@ The extension supports allowing adding the existing rates of one shipping method
 
 **2.2.3.2 Edit rate**
 
-![Imgur](https://i.imgur.com/1qzeHLc.png)
+![Imgur](https://i.imgur.com/N8x5Vhc.png)
 
 To edit a rate, go to the **Shipping Rates** tab, select the **Rate** you want to edit, and click **Action Edit** accordingly. Then, the edit rate popup will display with the same fields when creating a new rate manually, the information of the rate is already loaded on the popup for you to edit.
 
@@ -227,7 +227,7 @@ Go to `Marketing > Cart Price Rule > Add New Rule / Edit Rule`, set information 
 
 #### View Cart page
 
-![Imgur](https://i.imgur.com/DObGBFa.png)
+![Imgur](https://i.imgur.com/oEaL4L8.png)
 
 #### Checkout page
 
