@@ -16,23 +16,23 @@ With the extension, customers can perform the following actions:
 
 ### Click the button to switch View
 
-![Imgur](https://i.imgur.com/sQsyy3Y.png)
+![](https://i.imgur.com/sQsyy3Y.png)
 
 ### Add All To Cart: displays the Add button on the top right
 
-![Imgur](https://i.imgur.com/kNCW2Gg.png)
+![](https://i.imgur.com/kNCW2Gg.png)
 
 ### Add Each Product To Cart: display the Add button in each product
 
-![Imgur](https://i.imgur.com/ICNAcph.png)
+![](https://i.imgur.com/ICNAcph.png)
 
 ### Popup when clicking Select Options
 
-![Imgur](https://i.imgur.com/DwHReYh.png)
+![](https://i.imgur.com/DwHReYh.png)
 
 ### Popup when adding products to the cart
 
-![Imgur](https://i.imgur.com/SGBRdoA.png)
+![](https://i.imgur.com/SGBRdoA.png)
 
 ## How to Configure
 
@@ -40,35 +40,35 @@ With the extension, customers can perform the following actions:
 
 From the Admin Panel, go to `Stores > Configurable > Mageplaza Extensions > Table Category View`
 
-![Imgur](https://i.imgur.com/mGuTQZM.png)
+![](https://i.imgur.com/mGuTQZM.png)
 
 #### 1.1. General
 From the Admin Panel, go to `Stores > Configurable > Mageplaza Extensions > Table Category View`, select **General**
 
-![Imgur](https://i.imgur.com/0L5E6jb.png)
+![](https://i.imgur.com/0L5E6jb.png)
 
 
 - **Enable**: Select "Yes" to enable the module features
 - **Apply for Customer Group**: Select the customer group to which the category will be applied, can select multiple customer groups.
-- **Use Table View As Defaultv: If **Yes**, when loading the Category page will default to using **Table View Mageplaza**.
+- **Use Table View As Default**: If **Yes**, when loading the Category page will default to using **Table View Mageplaza**.
 
 
 #### 1.2. Display
 From the Admin Panel, go to `Stores> Configurable > Mageplaza Extensions > Table Category View`, select **Display**
 
-![Imgur](https://i.imgur.com/R2FYqxv.png)
+![](https://i.imgur.com/R2FYqxv.png)
 
 - **Show Add To Cart Button**:
 
-![Imgur](https://i.imgur.com/w2D8tQf.png)
+![](https://i.imgur.com/w2D8tQf.png)
 
 - **Add All To Cart**: display the **Add** button at the top right of Category, customers can add multiple products at the same time.
 
-![Imgur](https://i.imgur.com/rQRb0mM.png)
+![](https://i.imgur.com/rQRb0mM.png)
 
 - **Add Each Product To Cart**: display the **Add** button on each product on the Category page, only add 1 product to the cart.
 
-![Imgur](https://i.imgur.com/xdenLdT.png)
+![](https://i.imgur.com/xdenLdT.png)
 
 - **Button Text**: enter the name displayed in Frontend, do not enter the default "Add"
 - **Button Text Color**: Select the font color for the button displayed at the Frontend, leaving the display blank according to the system color.
@@ -78,29 +78,29 @@ From the Admin Panel, go to `Stores> Configurable > Mageplaza Extensions > Table
 - **Show Product Review Rating**: Selecting "Yes" displays another **Review Rating** column on the **Category page**.
 - **Show Stock Status**: Selecting "Yes" displays the **Stock Status** column on the **Category page**.
 
-![Imgur](https://i.imgur.com/RuUIFVu.png)
+![](https://i.imgur.com/RuUIFVu.png)
 
 - **Show Configurable Product Grid View**:
   - If you select "No", you will display the configurable product options by default Magento.
   - Compatible with [Mageplaza Configurable Grid View](https://www.mageplaza.com/magento-2-configurable-product-grid-view/)
 - **Enable Popup Options For**: Select the type of product that displays the popup with products with optional options:
 
-![Imgur](https://i.imgur.com/OaLlVgb.png)
+![](https://i.imgur.com/OaLlVgb.png)
 
 ### 2. Compatible with Configurable Product Grid View
 
 After installing the **Configurable Product Grid View** module, for products under the Configurable Product, clicking on the **Select Option** will display a Popup that allows selecting multiple sub-products of the parent product at the same time. To find out the Product Grid View extension see [here](https://www.mageplaza.com/magento-2-configurable-product-grid-view/).
 
-![Imgur](https://i.imgur.com/909G7v1.png)
+![](https://i.imgur.com/909G7v1.png)
 
 ### 3. Compatible with Configurable Preselect
 
 After installing the **Configurable Products Preselect** module, helping display pre-selected choices saves time for customers on the Category page. Learn more about the extension see [here](https://www.mageplaza.com/magento-2-configurable-preselect/).
 
-![Imgur](https://i.imgur.com/InBfg73.png)
+![](https://i.imgur.com/InBfg73.png)
 
 ### 4.Compatible with Layered Navigation
 
 After installing the [Layered Navigation module](https://www.mageplaza.com/magento-2-layered-navigation-extension/), help filter the desired items and buy them quickly. 
 
-![Imgur](https://i.imgur.com/bC58pzC.png)
+![](https://i.imgur.com/bC58pzC.png)
