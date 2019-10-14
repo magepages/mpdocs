@@ -14,12 +14,12 @@ With [Mageplaza Admin Permissions Extension](https://www.mageplaza.com/magento-2
 
 Login to the Admin Magento, choose `Stores > Configuration > Mageplaza > Admin Permissions`
 
-![Imgur](https://i.imgur.com/z3oYaW9.png)
+![](https://i.imgur.com/z3oYaW9.png)
 
 ### I. Configuration
 #### 1.General Configuration
 
-![Imgur](https://i.imgur.com/Zud3vjy.png)
+![](https://i.imgur.com/Zud3vjy.png)
 
 - **Enable**: Select **Yes** to enable the extension
 
@@ -28,17 +28,17 @@ Login to the Admin Magento, choose `Stores > Configuration > Mageplaza > Admin P
 
 To configure User Roles, please login to Admin Magento, go to `System > Permissions > User Roles > Add new role > Role Resources`
 
-![Imgur](https://i.imgur.com/Zh8NrYm.png)
+![](https://i.imgur.com/Zh8NrYm.png)
 
-![Imgur](https://i.imgur.com/UAPy5bA.png)
+![](https://i.imgur.com/UAPy5bA.png)
 
-![Imgur](https://i.imgur.com/XYJLFTw.png)
+![](https://i.imgur.com/XYJLFTw.png)
 
-![Imgur](https://i.imgur.com/ppXbmt3.png)
+![](https://i.imgur.com/ppXbmt3.png)
 
 You can select Actions tại Role Resources such as **Create New, View, Edit, Delete** for permission fields including **Category, Product, Customer, Attributes, Permission**.
 
-![Imgur](https://i.imgur.com/3MFzClJ.png)
+![](https://i.imgur.com/3MFzClJ.png)
 
 - Tab **Admin Permissions** only apprears when **Mageplaza Admin Permissions** is turn on. This tab allows:
   - Set admin permission by **Sale** per Store Views.
@@ -52,7 +52,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 #### 1. Sales
 
-![Imgur](https://i.imgur.com/XGpswhi.png)
+![](https://i.imgur.com/XGpswhi.png)
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of Sale (Order, Invoice, Shipment) by Store View. 
   - Select "No" to disable restriction
@@ -64,7 +64,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 ##### 2.1 Tab Role Resources
 
-![Imgur](https://i.imgur.com/AEcqYT2.png)
+![](https://i.imgur.com/AEcqYT2.png)
 
 
 - At **Role Resources** tab, go to `Catalog > Inventory > Categories > Actions`, select permission actions you want. There are 4 permission actions as followings:
@@ -77,7 +77,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 ##### 2.2 Tab Admin Permissions
 
-![Imgur](https://i.imgur.com/M4cSTMh.png)
+![](https://i.imgur.com/M4cSTMh.png)
 
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific categories
@@ -85,7 +85,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
   - Select **Allow For Specific Stores**: Admin can only view, edit information of sepcific categories selected below. 
   - Choose **Deny For Specific Stores**: Admin can not view, edit information of sepcific categories selected below.
 
-![Imgur](https://i.imgur.com/XqmBbJL.png)
+![](https://i.imgur.com/XqmBbJL.png)
 
 - **Category**: Select the Categories you want to allow/ restrict permissions to view, edit, delete for the admin role. Note:
 - For **Allow For Specific Categories**: If only the **Subcategory** is selected but not the **Root Category**, the **Subcategories** will not be displayed. For example, if you want to set permission of viewing and editing for Category **Gear**, you must select both **Default Category** and **Gea**r, otherwise the **Gear** category will not be displayed and you will not be able to access the edit page.
@@ -96,7 +96,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 ##### 3.1 Tab Role Resources
 
-![Imgur](https://i.imgur.com/VkQXc95.png)
+![](https://i.imgur.com/VkQXc95.png)
 
 
 - At **Role Resources** tab, go to `Catalog > Inventory > Products > Actions`, select permission actions you want. There are 4 permission actions as followings:
@@ -108,30 +108,30 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 ##### 3.2 Tab Admin Permissions
 
-![Imgur](https://i.imgur.com/hhYUMHU.png)
+![](https://i.imgur.com/hhYUMHU.png)
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific products
   - Select "No" to disable restriction
   - Select **Allow For Specific Stores**: Admin can only view, edit information of sepcific products selected below. 
   - Choose **Deny For Specific Stores**: Admin can not view, edit information of sepcific products selected below.
 
-![Imgur](https://i.imgur.com/ZOdTDhE.png)
+![](https://i.imgur.com/ZOdTDhE.png)
 
 - **Apply For**: Set fixed products that admin accounts are permitted/ restricted to view, edit and delete. There are 4 options:
   - **All**: Apply permission roles to all products.
   - **Specific Products**: Only apply permission roles to selected products in the table.
-![Imgur](https://i.imgur.com/0s5OQBI.png)
+![](https://i.imgur.com/0s5OQBI.png)
   - **Products created by this user**: The Admin having permission on the Role Users tab will be allowed/ restricted to view, edit and delete products whose the **Product Owner** field value is their account.
   - **Products created by the same-role users**: Admin accounts authorized on the Role Users tab will be allowed / restricted to view, edit and delete products whose **Product Owner** field value is their account and accounts that are also authorized in the tab **Role Users**.
 
-![Imgur](https://i.imgur.com/oo7Pax4.png)
+![](https://i.imgur.com/oo7Pax4.png)
 
 
 #### 4. Customer
 
 ##### 4.1 Tab Role Resources
 
-![Imgur](https://i.imgur.com/nWI85KP.png)
+![](https://i.imgur.com/nWI85KP.png)
 
 - At **Role Resources** tab, go to `Catalog > Customers > Actions`, select permission actions you want. There are 4 permission actions as followings:
   - **Create New**: Select to allow admin account to create a new **customers**.
@@ -141,7 +141,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 ##### 4.2 Tab Admin Permissions
 
-![Imgur](https://i.imgur.com/26ul0BL.png)
+![](https://i.imgur.com/26ul0BL.png)
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific customers
   - Select "No" to disable restriction
@@ -151,7 +151,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 #### 5. Product Attribute
 
-![Imgur](https://i.imgur.com/iF7bk1C.png)
+![](https://i.imgur.com/iF7bk1C.png)
 
 ##### 5.1 Tab Role Resources
 
@@ -163,7 +163,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
   
 ##### 5.2 Tab Admin Permissions
 
-![Imgur](https://i.imgur.com/Zm1HOQm.png)
+![](https://i.imgur.com/Zm1HOQm.png)
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific attributes
   - Select "No" to disable restriction
@@ -173,7 +173,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
   
 #### 6. User Role
 
-![Imgur](https://i.imgur.com/LRwqAS4.png)
+![](https://i.imgur.com/LRwqAS4.png)
 
 ##### 6.1 Tab Role Resources
 
@@ -187,7 +187,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
   
 ##### 6.2 Tab Admin Permissions
 
-![Imgur](https://i.imgur.com/42zirKW.png)
+![](https://i.imgur.com/42zirKW.png)
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific permissions
   - Select "No" to disable restriction
@@ -196,7 +196,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 #### 7. Time Valid
 
-![Imgur](https://i.imgur.com/p3pIWRf.png)
+![](https://i.imgur.com/p3pIWRf.png)
 
 - **Customize Limit Action** on the **Admin Permissions** tab allows to limit the permission of admin accounts by the **Model/Controller**.
   - Select **Enable = Yes** to apply the access restriction according to **Model/Controller**.
@@ -212,7 +212,7 @@ Php bin / magento mageplaza-adminpermissions: custom-limit: disabled
 
 #### 8. Time Valid
 
-![Imgur](https://i.imgur.com/p3206sb.png)
+![](https://i.imgur.com/p3206sb.png)
 
 
 - Set the activate/inactivate time of the admin account.
