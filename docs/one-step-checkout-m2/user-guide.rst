@@ -127,7 +127,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 
 - From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Shipping Method**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
-- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/?utm_source=configuration&utm_medium=link&utm_campaign=one-step-checkout) to add more custom checkout fields.
+- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/) to add more custom checkout fields.
 
 .. image:: https://i.imgur.com/VTNfGfS.gif
 
@@ -138,7 +138,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 
 - From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Payment Method**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
-- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/?utm_source=configuration&utm_medium=link&utm_campaign=one-step-checkout) to add more custom checkout fields.
+- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/) to add more custom checkout fields.
 
 .. image:: https://i.imgur.com/iuhXSlT.gif
 
@@ -147,7 +147,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 
 - From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Order Summary**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
-- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/?utm_source=configuration&utm_medium=link&utm_campaign=one-step-checkout) to add more custom checkout fields.
+- Please install [Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/) to add more custom checkout fields.
 
 .. image:: https://i.imgur.com/A8yV19E.gif
 
