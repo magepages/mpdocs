@@ -29,7 +29,7 @@ After entering the module's configuration, you will find the General configurati
 #### 1.2. Generate Coupon
 ##### 1.2.1. Generator
 
-![](https://imgur.com/H3uehi2)
+![](https://i.imgur.com/XXGzxII.png)
 
 * In the **Rule** field: 
   * Choose the rule you want to apply for the coupon generator (Rule can be created from ``Marketing > Promotions > Cart Price Rules``)
