@@ -16,15 +16,15 @@ With the extension, customers can perform the following actions:
 
 ### Click the button to switch View
 
-![](https://i.imgur.com/sQsyy3Y.png)
+![](https://i.imgur.com/cowMQuc.png)
 
 ### Add All To Cart: displays the Add button on the top right
 
-![](https://i.imgur.com/kNCW2Gg.png)
+![](https://i.imgur.com/jdriG0W.png)
 
 ### Add Each Product To Cart: display the Add button in each product
 
-![](https://i.imgur.com/ICNAcph.png)
+![](https://i.imgur.com/F4T0jlb.png)
 
 ### Popup when clicking Select Options
 
@@ -40,7 +40,7 @@ With the extension, customers can perform the following actions:
 
 From the Admin Panel, go to `Stores > Configurable > Mageplaza Extensions > Table Category View`
 
-![](https://i.imgur.com/mGuTQZM.png)
+![](https://i.imgur.com/umd7ApZ.png)
 
 #### 1.1. General
 From the Admin Panel, go to `Stores > Configurable > Mageplaza Extensions > Table Category View`, select **General**
@@ -50,8 +50,11 @@ From the Admin Panel, go to `Stores > Configurable > Mageplaza Extensions > Tabl
 
 - **Enable**: Select "Yes" to enable the module features
 - **Apply for Customer Group**: Select the customer group to which the category will be applied, can select multiple customer groups.
-- **Use Table View As Default**: If **Yes**, when loading the Category page will default to using **Table View Mageplaza**.
+- **Use Table View As Default**: If **Yes**, when loading the Category page will default to open **Table View Mageplaza**.
 
+Beside using **Use Table View As Default** at **Configurable** to default show **Mageplaza Table View**, admin can also go to `Catalog > Categories` to set default displaying for each Category page. This configuration will be applied as priority. 
+
+![](https://i.imgur.com/5zXdeSu.png)
 
 #### 1.2. Display
 From the Admin Panel, go to `Stores> Configurable > Mageplaza Extensions > Table Category View`, select **Display**
@@ -64,28 +67,32 @@ From the Admin Panel, go to `Stores> Configurable > Mageplaza Extensions > Table
 
 - **Add All To Cart**: display the **Add** button at the top right of Category, customers can add multiple products at the same time.
 
-![](https://i.imgur.com/rQRb0mM.png)
+![](https://i.imgur.com/bFsrXav.png)
 
 - **Add Each Product To Cart**: display the **Add** button on each product on the Category page, only add 1 product to the cart.
 
-![](https://i.imgur.com/xdenLdT.png)
+![](https://i.imgur.com/MKfPZ4R.png)
 
-- **Button Text**: enter the name displayed in Frontend, do not enter the default "Add"
+- **Button Text**: enter the name displayed in Frontend, do not enter the default "Add to cart"
 - **Button Text Color**: Select the font color for the button displayed at the Frontend, leaving the display blank according to the system color.
 - **Button Background Color**: Select the font color for the button displayed at the Frontend, leaving the display blank according to the system color.
-- **Show Product Image**: Select "Yes" to display the product image on the **Category page** in the **Product Image** column.
-- **Show Product Short Description**: Select "Yes" to display more **Product Description** columns on the **Category page**.
-- **Show Product Review Rating**: Selecting "Yes" displays another **Review Rating** column on the **Category page**.
-- **Show Stock Status**: Selecting "Yes" displays the **Stock Status** column on the **Category page**.
+- **Table Options**:
+  - **Show Product Image**: Select "Yes" to display the product image on the **Category page** in the **Product Image** column.
+  - **Show Product Short Description**: Select "Yes" to display more **Product Description** columns on the **Category page**.
+  - **Show Product Review Rating**: Selecting "Yes" displays another **Review Rating** column on the **Category page**.
+  - **Show Stock Status**: Selecting "Yes" displays the **Stock Status** column on the **Category page**.
 
-![](https://i.imgur.com/RuUIFVu.png)
+- **“No Review” Label**: Set the name for **Review Rating** column at Frontend when product has no review. Default name is **No Review**.
+
+![](https://i.imgur.com/45FzJOJ.png)
 
 - **Show Configurable Product Grid View**:
-  - If you select "No", you will display the configurable product options by default Magento.
-  - Compatible with [Mageplaza Configurable Grid View](https://www.mageplaza.com/magento-2-configurable-product-grid-view/)
+  - Select “Yes” to display grid view with the configurable products.
+  - If the Configurable Product Grid View is not installed, you can download [here](https://www.mageplaza.com/magento-2-configurable-product-grid-view/).
+
 - **Enable Popup Options For**: Select the type of product that displays the popup with products with optional options:
 
-![](https://i.imgur.com/OaLlVgb.png)
+![](https://i.imgur.com/sP2apEl.png)
 
 ### 2. Compatible with Configurable Product Grid View
 
