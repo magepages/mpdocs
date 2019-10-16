@@ -65,11 +65,11 @@ From the Admin Panel, go to `Stores> Configurable > Mageplaza Extensions > Table
 
 ![](https://i.imgur.com/w2D8tQf.png)
 
-- **Add All To Cart**: display the **Add** button at the top right of Category, customers can add multiple products at the same time.
+- **Add All To Cart**: display the **Add to cart** button at the top right of Category, customers can add multiple products at the same time.
 
 ![](https://i.imgur.com/bFsrXav.png)
 
-- **Add Each Product To Cart**: display the **Add** button on each product on the Category page, only add 1 product to the cart.
+- **Add Each Product To Cart**: display the **Add to cart** button on each product on the Category page, only add 1 product to the cart.
 
 ![](https://i.imgur.com/MKfPZ4R.png)
 
