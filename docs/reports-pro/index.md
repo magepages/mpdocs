@@ -22,14 +22,16 @@ Login to the Magento admin panel, choose `Store > Settings > Configuration > Mag
 - In addition to the cards available in the Standard version, the Pro version provides additional mostly used cards, including:
   - **Abandoned Carts**
   - **Stock vs Sold**
-  - **Customer Group**
+  - **Sales by Customer Group**
+  - **Refresh Statistics**
+  
 - The **Report Pro** also allows administrators to view the report details of some cards when clicking on **View Details** of Chart
 
 ![](https://i.imgur.com/6qy9GOX.png)
 
 - Detail Report Pages are displayed in **Mageplaza Report**: 
 
-![](https://i.imgur.com/tNDheJv.png)
+![](https://i.imgur.com/QhzmEgL.png)
 
 
 ### Bestsellers
@@ -54,7 +56,7 @@ In this section, shop owners can view which country has the largest number of or
 
 ![](https://i.imgur.com/CDGjIBO.png)
 
-### Customer Group
+### Sales by Customer Group
 
 Click on the **View Details** in the right corner of the card to view the details of the **Customer Group** field
 
@@ -87,9 +89,39 @@ Click on the **View Details** in the right corner of the card to view the detail
 Abandoned Carts says at what time the number of unpaid carts equates to the cost of the loss is how much. This section also tells store owners which time period has the most shopping cart is not paid the most and then, take measures to resolve them.
 
 
+### Refresh Statistics
 
+Instead of waiting for the statistics to be updated update once per day by cron, the admin can refresh them immediately with **Massaction** in Grid **Refresh Statistics**. Admin can refresh the following 4 grids:
+- Abandoned Carts
+- Bestsellers
+- Sales By Customer
+- Sales By Location
 
+![](https://i.imgur.com/K8zzoUA.png)
 
+Two supported **Massactions** are:
+- **Refresh Lifetime Statistics**: refreshes all data from the beginning until the refresh time of the selected grid
+- **Refresh Statistics for the Last Day**: Refresh the data of the selected grid within the last 24 hours
+
+The admin can use the command line to refresh the statistics
+```
+php bin / magento mp-reports: reindex --type = "lifetime" {id}
+php bin / magento mp-reports: reindex --type = "recent" {id}
+```
+For example:
+
+- Refresh all tables:
+
+```
+php bin / magento mp-reports: reindex --type = "recent"
+```
+
+- Refresh the tables by id:
+
+```
+php bin / magento mp-reports: reindex --type = "recent" 1 2
+
+```
 
 
 
