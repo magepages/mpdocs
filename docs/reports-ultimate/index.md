@@ -35,6 +35,20 @@ Login to the Magento admin panel, choose `Store > Settings > Configuration > Mag
   - Customer By Location
   - Wishlist
   
+- Moreover, Report Ultimate supports refreshing some grids at grid **Refresh Statistic**, including:
+  - Stock vs Sold
+  - Sales By Category
+  - Sales By Payment
+  - Sales By Postal Code
+  - Sales By Weekday
+  - Sales By Hour
+  - Sales By Tax Rate
+  - Sales By Attribute Set
+  - Sales By Coupon Code
+  - Sales By Product Attribute
+
+![](https://i.imgur.com/9KnJVon.png) 
+
 - Multiple Dashboard feature
   - Apply for both Dashboard and Mobile Dashboard
   - The Ultimate version allows admin to create multiple Dashboards. Admin accounts will avoid conflicts when the dashboard has been changed to your liking
