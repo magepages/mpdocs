@@ -116,6 +116,8 @@ For example:
 php bin / magento mp-reports: reindex --type = "recent"
 ```
 
+![](https://i.imgur.com/fBm7OFT.png)
+
 - Refresh the tables by id:
 
 ```
