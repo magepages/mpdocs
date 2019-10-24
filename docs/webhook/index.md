@@ -9,6 +9,8 @@ Webhook is the configuration that allows sending the API request to another serv
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/) 
 - [Avialable On Github](https://github.com/mageplaza/magento-2-webhook)
 
+**Note**: You can see the guide to [integrate Webhook with various third party extensions and apps here](https://www.mageplaza.com/faqs/webhook/). 
+
 ## How to configure
 ### I. Configuration
 
@@ -138,7 +140,7 @@ Please run the below command to install module library:
 `composer require liquid/liquid` 
 
 
-**Note**: You can see the guide to [integrate Webhook with various third party extensions and apps here](https://www.mageplaza.com/faqs/webhook/). 
+
 
 
 
