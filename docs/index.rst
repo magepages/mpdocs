@@ -61,6 +61,7 @@ Welcome to Mageplaza Docs
    catalog-permissions/index
    commweb/index
    configurable-products-preselect/index
+   configurable-product-grid-view/index
    countdown-timer/index
    cron-schedule/index
    currency-formatter/index
@@ -86,6 +87,7 @@ Welcome to Mageplaza Docs
    google-recaptcha/index
    google-analytics-m2/index
    google-maps/index
+   image-optimizer/index
    import-export-categories/index
    import-export-cms/index
    instagram-feed/index
@@ -97,6 +99,7 @@ Welcome to Mageplaza Docs
    moneris/index
    multi-flat-rates/index
    multiple-coupons/index
+   name-your-price/index
    order-archive/index
    order-attributes/index
    order-export/index
@@ -109,6 +112,7 @@ Welcome to Mageplaza Docs
    product-alerts/index
    promo-bar/index
    promo-banner/index
+   quick-cart/index
    quick-view-ajax-cart/index
    quick-order/index
    required-login/index
