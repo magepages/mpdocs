@@ -2,15 +2,15 @@
 
 ## Overview
 
-Normally, if customers want to buy some child products of configurable products, they must constantly add each child product (simple product) to cart separately, which making the purchase process extremely complicated. But with [Mageplaza Configurable Product Grid View](https://www.mageplaza.com/magento-2-configurable-product-grid-view/), it becomes easier than ever. 
+Normally, if customers want to buy some child products of configurable products, they must constantly add each child product (simple product) to cart separately, which making the purchase process extremely complicated. But with Mageplaza Configurable Product Grid View, it becomes easier than ever. 
 
 The module allows adding to cart multiple children products of a configurable product at the same time by displaying all of the available children products in table/grid, with different displaying formats for tablets and mobile. In addition, the module allows admins to turn on/off the Configurable Product Grid by each product.
 
-**Mageplaza Configurable Product Grid View** is fully compatible with [Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/) to help customers save the most time.
+**Mageplaza Configurable Product Grid View** is fully compatible with Mageplaza Quick View to help customers save the most time.
 
 ## How to download and install
 
-- [Download Mageplaza Configurable Product Grid View](https://www.mageplaza.com/magento-2-configurable-product-grid-view/)
+- Download Mageplaza Configurable Product Grid View
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
