@@ -1,11 +1,9 @@
 # Customer Attributes
 ## Overview
 
-[Customer Attributes]() will help you run more focused marketing campaigns and increase sales significantly. Thanks to this module, it helps provide the neccessary information to support the order management process and customer management. Maybe you will need more fields than the fields provided by the system such as adding custom attributes to the *Customer Account Create, Customer Account Edit, Customer Address Registration, Customer Address Edit and Checkout* in the customer's account, this will help you find out your client's personal preferences and location, age, or any additional information. This is a great feature of Mageplaza Customer Attributes extension.
+Customer Attributes will help you run more focused marketing campaigns and increase sales significantly. Thanks to this module, it helps provide the neccessary information to support the order management process and customer management. Maybe you will need more fields than the fields provided by the system such as adding custom attributes to the *Customer Account Create, Customer Account Edit, Customer Address Registration, Customer Address Edit and Checkout* in the customer's account, this will help you find out your client's personal preferences and location, age, or any additional information. This is a great feature of Mageplaza Customer Attributes extension.
 
 ## Download and Install
-
-- [Download on Mageplaza]()
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
@@ -177,7 +175,7 @@ The only difference of the `Customer Address` for the `Customer` function is tha
 ![](https://i.imgur.com/gNJWFY8.png)
 
 - `Show on forms`: Show the forms on your store
-  - If you have installed [Mageplaza One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), it will show the One Step Checkout page that helps you checkout quickly and conveniently with only one page.
+  - If you have installed Mageplaza One Step Checkout extension, it will show the One Step Checkout page that helps you checkout quickly and conveniently with only one page.
   
 From the Admin Panel, go to `Store > One Step Checkout > Manage Fields`, drag Attributes to the `Sorted Fields` column that you want to show on the One Step Checkout.
 
