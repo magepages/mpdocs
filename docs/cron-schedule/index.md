@@ -3,14 +3,14 @@
 
 ## Overview
 
-[Mageplaza Cron Schedule](https://www.mageplaza.com/magento-2-cron-schedule/) assists Magento admin control and report Cron related tasks. Admins can set up, check any Cron Jobs they quickly and easily. And whenever any Cron Job is found that has problems such as Error or Missed, you will always be notified via email.
+Mageplaza Cron Schedule assists Magento admin control and report Cron related tasks. Admins can set up, check any Cron Jobs they quickly and easily. And whenever any Cron Job is found that has problems such as Error or Missed, you will always be notified via email.
 
-You should install [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box. It is fully compatible with the Cron Schedule extension.
+You should install Mageplaza SMTP to avoid your email being sent to the spam box. It is fully compatible with the Cron Schedule extension.
 
 
 ## How to download and install
 
-- [Download Mageplaza Cron Schedule](https://www.mageplaza.com/magento-2-cron-schedule/)
+- Download Mageplaza Cron Schedule
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -65,7 +65,7 @@ From the Admin Panel, go to `System > Cron Schedule > Configuration`, select **G
   
 - **Email Notifications**:
   - Select **Yes** to send a notification to admin when running cron jobs, report only **Missed** and **Error** Crons.
-  - Install [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email sent to spam box.
+  - Install Mageplaza SMTP to avoid email sent to spam box.
 - **Sender**: Select the representative to send the email to notify the customer:
 
 ![](https://i.imgur.com/ZUJdZeO.png)
