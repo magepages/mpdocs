@@ -2,11 +2,11 @@
 
 ## Overview
 
-[Mageplaza Two-Factor Authentication extension](https://www.mageplaza.com/magento-2-two-factor-authentication/) assure more security for online stores' backend. Admin users need to verify two factors when logging in the backend on every device. This extension supports three commonly used authentication authors: Authy, Duo or Google Authenticator. This authentication tool applies only to admin users, not to the Frontend Customer Account
+Mageplaza Two-Factor Authentication extension assure more security for online stores' backend. Admin users need to verify two factors when logging in the backend on every device. This extension supports three commonly used authentication authors: Authy, Duo or Google Authenticator. This authentication tool applies only to admin users, not to the Frontend Customer Account
 
 ## Download & Install
 
-- [Mageplaza Two-Factor Authentication](https://www.mageplaza.com/magento-2-two-factor-authentication/)
+- Mageplaza Two-Factor Authentication
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/) 
 
 ## How to use
