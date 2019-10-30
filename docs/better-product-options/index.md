@@ -2,14 +2,14 @@
 
 ## Overview
 
-Adding custom product options is one of the great ways to make stores more profitable and can serve customers on your store in a better way. With [Mageplaza Better Product Options Extension](https://www.mageplaza.com/magento-2-better-product-options/), you can create more options for any product via Customize Option. This extension allows the admin to easily create Customize Options Template for options such as **Quantity, Advanced Pricing, Weight, Image, Tooltips Description, Depend Option** for products while the current Core Magento only allows setting **Title, Price and SKU** for the product. Also, you can perform **Assign Customize Option** at the template with Product ID/ SKU. 
+Adding custom product options is one of the great ways to make stores more profitable and can serve customers on your store in a better way. With Mageplaza Better Product Options Extension, you can create more options for any product via Customize Option. This extension allows the admin to easily create Customize Options Template for options such as **Quantity, Advanced Pricing, Weight, Image, Tooltips Description, Depend Option** for products while the current Core Magento only allows setting **Title, Price and SKU** for the product. Also, you can perform **Assign Customize Option** at the template with Product ID/ SKU. 
 
-This extension is compatible with [Mass Product Action](https://www.mageplaza.com/magento-2-mass-product-actions/), [Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/) and [Configurable Products Preselect](https://www.mageplaza.com/magento-2-configurable-preselect/).
+This extension is compatible with Mass Product Action, Mageplaza Quick View and Configurable Products Preselect.
 
 
 ## How to download and install
 
-- [Download Mageplaza Better Product Options](https://www.mageplaza.com/magento-2-better-product-options/)
+- Download Mageplaza Better Product Options
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure
