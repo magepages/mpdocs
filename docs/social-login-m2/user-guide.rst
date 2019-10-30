@@ -210,7 +210,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Instagram API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-instagram-api.html>`_.
 
-8.2. Login using Instagram
+9.2. Login using Instagram
 ######################
 
 .. image:: https://i.imgur.com/P5HffnF.png
@@ -231,7 +231,7 @@ Go to `` Store > Settings > Configuration > Mageplaza Extensions > Social Login 
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Vkontakte API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-vkontakte-api.html>`_.
 
-8.2. Login using Vkontakte
+10.2. Login using Vkontakte
 ######################
 
 .. image:: https://i.imgur.com/SWgvRaJ.png
