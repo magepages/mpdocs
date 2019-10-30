@@ -3,11 +3,11 @@
 
 ## Overview
 
-In the e-commerce industry, many businesses want to promote their upcoming products, out of stock or with few instock products, bringing product information closer to customers. With [Mageplaza Pre Order extension](https://www.mageplaza.com/magento-2-pre-order), it will help you support customers so that they can pre-order and back-order with products not yet available at the store, change the label of **Add to cart** button on any product pages that you want. With this tool, it will be more convenient to manage the store and increase consumption and sales significantly. 
+In the e-commerce industry, many businesses want to promote their upcoming products, out of stock or with few instock products, bringing product information closer to customers. With Mageplaza Pre Order extension, it will help you support customers so that they can pre-order and back-order with products not yet available at the store, change the label of **Add to cart** button on any product pages that you want. With this tool, it will be more convenient to manage the store and increase consumption and sales significantly. 
 
 ## Download & Install
 
-- [Download Mageplaza Pre Order](https://www.mageplaza.com/magento-2-pre-order)
+- Download Mageplaza Pre Order
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -101,7 +101,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
   
   ![](https://i.imgur.com/8hwpbnw.png)
 
-- You can install [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) to make the payment steps convenient, fast and compact in 6 steps.
+- You can install Mageplaza One Step Checkout to make the payment steps convenient, fast and compact in 6 steps.
 
 ![](https://i.imgur.com/BNLWhlD.png)
 
@@ -136,7 +136,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 ![](https://i.imgur.com/ro3NfxY.png)
 
 
-- You can display an Order Notice on [PDF invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/) template.  
+- You can display an Order Notice on PDF invoice template.  
 
 ![](https://i.imgur.com/RGMt7x5.png)
 
@@ -171,7 +171,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 ![](https://i.imgur.com/L8o9UeT.png)
 
 - **Add to Cart Button Label**:
-  - Enter the Label button to replace **Add to cart** button when you want to backorder with products that have less quantity in stock than the number customers want to buy. For example: Customers want to buy 5 items but you only have 3 available. Then customers will get these 3 items first and back-order 2 items. When stock is back in store, they will deliver the them or notify customers. You can install the [Product Alerts extension](https://www.mageplaza.com/magento-2-product-alerts/) of Mageplaza to automatically email customers when products are returned to stock or out of stock.
+  - Enter the Label button to replace **Add to cart** button when you want to backorder with products that have less quantity in stock than the number customers want to buy. For example: Customers want to buy 5 items but you only have 3 available. Then customers will get these 3 items first and back-order 2 items. When stock is back in store, they will deliver the them or notify customers. You can install the Product Alerts extension of Mageplaza to automatically email customers when products are returned to stock or out of stock.
   
   - If left blank, **Add to cart** button will be used.
   
@@ -195,7 +195,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
   
   ![](https://i.imgur.com/WWvmTSG.png)
 
-- Compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+- Compatible with One Step Checkout
 
 ![](https://i.imgur.com/tFGNcdw.png)
 
