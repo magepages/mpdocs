@@ -67,9 +67,11 @@ At the Configuration tab, expand **General** section, please do the following:
 * In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
 * **Show Brand Name on Product Listing Page**: Display Product Brand Name at product listing page such as category, Catalog Search
 * **Show Brand Info in Product Page**:
+  
   * **Show Brand Info in Product Page = Not show**: Not show brand information at product page in frontend
   * **Show Brand Info in Product Page = Brand Name**: Allow showing brand information at product page in frontend
   * **Show Brand Info in Product Page = Brand Logo**: Show brand logo at product page in frontend. Show more fields: **Brand Logo Width in Product Page** and **Brand Logo Height in Product Page**.
+  
     * **Brand Logo Width in Product Page**: Set the width for brand logo shown at frontend
     * **Brand Logo Height in Product Page**: Set the height for brand logo shown at frontend
     
