@@ -46,9 +46,9 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
       * Include Social Login buttons in Customer Authentication Popup page
 
   * Choose **None**, popup not show and only show social login buttons at Customer Login page, Create New Account, and Forgot Passwords, Customers Authentication Popup.
-  * **Quick Login**: Enable Quick Login Popup and social login button when Sign In, Create New Account, and Forgot Passwords.
+  * **Quick Login**: Enable Quick Login Popup and social login buttons when Sign In, Create New Account, and Forgot Passwords.
   ![](https://i.imgur.com/cuwvjIR.png)
-  * **Popup Slide**: Bật hiển thị loại Popup Slide và các social login button khi Sign In, Create New Account, and Forgot Passwords.
+  * **Popup Slide**: Enable Popup Slide Popup and social login buttons when Sign In, Create New Account, and Forgot Passwords.
   ![](https://i.imgur.com/4ELVWtl.png)
 
 * **Use Popup Login As Authentication Popup**: Select “Yes” to use popup of Social login as Authentication Popup
