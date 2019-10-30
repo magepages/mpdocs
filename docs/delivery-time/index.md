@@ -1,12 +1,12 @@
 # Delivery Time
 ## Overview
 
-[Delivery Time](https://www.mageplaza.com/magento-2-delivery-time-extension/) is an extension that supports for the checkout and delivery. With many outstanding features as setting the time, date for the delivery, and allowing leaving the comment when delivering, customers can easily setup the desired time which they want to receive the products. Also, thanks to these features, customers can know the day that the store doesn't work and deliver the products. This extension will definitely bring many interesting benefits for store owners.
+Delivery Time is an extension that supports for the checkout and delivery. With many outstanding features as setting the time, date for the delivery, and allowing leaving the comment when delivering, customers can easily setup the desired time which they want to receive the products. Also, thanks to these features, customers can know the day that the store doesn't work and deliver the products. This extension will definitely bring many interesting benefits for store owners.
 
-Moreover, Delivery Time extension is totally compatible with our [One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/). 
+Moreover, Delivery Time extension is totally compatible with our One Step Checkout extension.
 
 ## Download & Install
-- [Mageplaza Delivery Time](https://www.mageplaza.com/magento-2-delivery-time-extension/) 
+- Mageplaza Delivery Time 
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## I. How to use
