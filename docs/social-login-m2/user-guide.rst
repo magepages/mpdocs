@@ -37,7 +37,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 * In the **Popup Links Selector** field: Customize any default Login and Create button to be a popup-open button by filling in class name of elements that cover these buttons.
 * In the **Require More Info** field: 
   * Select **Always Require** for always showing popup of information verification when customers register social account.  
-  * Select **If social account does not provide E-mail** means that only show email verification popup when customers register account via the social networks that do not require real email such as Yahoo, Github, etc. 
+  * Select **If social account does not provide E-mail** means that only show email confirmation popup when customers register account via the social networks that do not require real email such as Yahoo, Github, etc. 
   * Choosing either two options above will show an extra field: 
     * **Information Required**: Admin can choose to ask additional information of customers after they create social account. The information can be Name, Email, Password. This is a required field and you can choose mutiple iptions here. 
 
