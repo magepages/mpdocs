@@ -59,9 +59,9 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
   * Choosing either two options above will show an extra field: 
     * **Information Required**: Admin can choose to ask additional information of customers after they create social account. The information can be Name, Email, Password. This is a required field and you can choose mutiple iptions here. 
 
-.. image:: https://i.imgur.com/wIaEYZ8.png
+![](https://i.imgur.com/wIaEYZ8.png)
 
-* Popup Effect : Admin can select one among popup display effects below
+* Popup Effect: Admin can select one among popup display effects below
 
 ![](https://i.imgur.com/UdCPC1D.png)
 
@@ -79,7 +79,7 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 #### I. Facebook sign in
 ##### 1.1. How to configure Facebook
 
-Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Facebook``.
+Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Facebook`.
 
 ![](https://i.imgur.com/DCfYg9g.png)
 
@@ -113,11 +113,11 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Google  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Google button to login via Google account
   
-  ![Imgur](https://i.imgur.com/OPSnKDM.png)
+  ![](https://i.imgur.com/OPSnKDM.png)
   
-* After connecting with Facebook, admin logout current account at backend and login by Facebook account.
+* After connecting with Google, admin logout current account at backend and login by Google account.
 
-![Imgur](https://i.imgur.com/BD4nl3s.png)
+![](https://i.imgur.com/BD4nl3s.png)
 
 
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
@@ -134,17 +134,17 @@ Google Login dialog will be shown after clicking on Sign in with Google button
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Amazon``.
 
-![Imgur](https://i.imgur.com/jUs3DrB.png)
+![](https://i.imgur.com/jUs3DrB.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Amazon button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Amazon  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Amazon button to login via Amazon account
   
-  ![Imgur](https://i.imgur.com/OPSnKDM.png)
+  ![](https://i.imgur.com/OPSnKDM.png)
   
 * After connecting with Amazon, admin logout current account at backend and login by Amazon account.
 
-![Imgur](https://i.imgur.com/BD4nl3s.png)
+![](https://i.imgur.com/BD4nl3s.png)
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 
 ##### 3.2. Login using Amazon
@@ -158,17 +158,17 @@ Amazon Login dialog will be shown after clicking on Sign in with Amazon button.
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Twitter``.
 
-![Imgur](https://i.imgur.com/mWFtKtq.png)
+![](https://i.imgur.com/mWFtKtq.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Twitter button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Twitter  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Twitter button to login via Twitter account
   
-  ![Imgur](https://i.imgur.com/cpBZ3s1.png)
+  ![](https://i.imgur.com/cpBZ3s1.png)
   
 * After connecting with Twitter, admin logout current account at backend and login by Twitter account.
 
-![Imgur](https://i.imgur.com/vkLOxfN.png)
+![](https://i.imgur.com/vkLOxfN.png)
 
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Twitter API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-twitter-api.html).
@@ -184,17 +184,17 @@ Twitter Login dialog will be shown after clicking on Sign in with Twitter button
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Linkedln``
 
-![Imgur](https://i.imgur.com/rVSgtVD.png)
+![](https://i.imgur.com/rVSgtVD.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with LinkedIn button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via LinkedIn  
   * After turn on this function, social login button is shown at **My Account** in backend, click to LinkedIn button to login via LinkedIn account
   
-  ![Imgur](https://i.imgur.com/Ri0zXqC.png)
+  ![](https://i.imgur.com/Ri0zXqC.png)
   
 * After connecting with LinkedIn, admin logout current account at backend and login by LinkedIn account.
 
-![Imgur](https://i.imgur.com/MEyDbMN.png)
+![](https://i.imgur.com/MEyDbMN.png)
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create LinkedIn API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-linkedin-api.html).
 
@@ -209,17 +209,17 @@ LinkedIn Login dialog will be shown after clicking on Sign in with LinkedIn butt
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Yahoo``.
 
-![Imgur](https://i.imgur.com/zUhCcEC.png)
+![](https://i.imgur.com/zUhCcEC.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Yahoo button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Yahoo  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Yahoo button to login via Yahoo account
   
-  ![Imgur](https://i.imgur.com/3sO6d7o.png)
+  ![](https://i.imgur.com/3sO6d7o.png)
   
 * After connecting with Yahoo, admin logout current account at backend and login by Yahoo account.
 
-![Imgur](https://i.imgur.com/oJo9vkw.png)
+![](https://i.imgur.com/oJo9vkw.png)
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Yahoo API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-yahoo-api.html).
 
@@ -234,17 +234,17 @@ Yahoo Login dialog will be shown after clicking on Sign in with Yahoo button.
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Foursquare``.
 
-![Imgur](https://i.imgur.com/Mq2xO5E.png)
+![](https://i.imgur.com/Mq2xO5E.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Foursquare button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Foursquare  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Foursquare button to login via Foursquare account
   
-  ![Imgur](https://i.imgur.com/B5l9qR1.png)
+  ![](https://i.imgur.com/B5l9qR1.png)
   
 * After connecting with Foursquare, admin logout current account at backend and login by Foursquare account.
 
-![Imgur](https://i.imgur.com/JYNVv2t.png)
+![](https://i.imgur.com/JYNVv2t.png)
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Foursquare API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-foursquare-api.html).
 
@@ -259,17 +259,17 @@ Foursquare Login dialog will be shown after clicking on Sign in with Foursquare 
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Instagram``.
 
-![Imgur](https://i.imgur.com/WkkHspi.png)
+![](https://i.imgur.com/WkkHspi.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Instagram button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Instagram  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Instagram button to login via Instagram account
   
-  ![Imgur](https://i.imgur.com/Z3jR0rc.png)
+  ![](https://i.imgur.com/Z3jR0rc.png)
   
 * After connecting with Instagram, admin logout current account at backend and login by Instagram account.
 
-![Imgur](https://i.imgur.com/0TJVdua.png)
+![](https://i.imgur.com/0TJVdua.png)
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Instagram API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-instagram-api.html).
 
@@ -284,17 +284,17 @@ Instagram Login dialog will be shown after clicking on Sign in with Instagram bu
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Vkontakte``.
 
-![Imgur](https://i.imgur.com/yd49E6Z.png)
+![](https://i.imgur.com/yd49E6Z.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Vkontakte button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Vkontakte  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Vkontakte button to login via Vkontakte account
   
-  ![Imgur](https://i.imgur.com/xu42qeX.png)
+  ![](https://i.imgur.com/xu42qeX.png)
   
 * After connecting with Vkontakte, admin logout current account at backend and login by Vkontakte account.
 
-![Imgur](https://i.imgur.com/YG5Ir6K.png)
+![](https://i.imgur.com/YG5Ir6K.png)
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Vkontakte API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-vkontakte-api.html).
 
@@ -309,17 +309,17 @@ Vkontakte Login dialog will be shown after clicking on Sign in with Vkontakte bu
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Github``.
 
-![Imgur](https://i.imgur.com/JqxxSFR.png)
+![](https://i.imgur.com/JqxxSFR.png)
 
 * In the **Enable** field: Select "Yes" to show Sign in with Github button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Github  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Github button to login via Github account
   
-  ![Imgur](https://i.imgur.com/UDDAFvP.png)
+  ![](https://i.imgur.com/UDDAFvP.png)
   
 * After connecting with Github, admin logout current account at backend and login by Github account.
 
-![Imgur](https://i.imgur.com/nlz6MPL.png)
+![](https://i.imgur.com/nlz6MPL.png)
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Github API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-github-api.html).
 
@@ -335,17 +335,17 @@ Github Login dialog will be shown after clicking on Sign in with Github button.
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Disqus``
 
-![Imgur](https://i.imgur.com/4suAJj1.png)
+![](https://i.imgur.com/4suAJj1.png)
 
 * In the **Enable** field: Choose Yes to display the Signin button with Disqus
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Disqus  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Disqus button to login via Disqus account
   
-  ![Imgur](https://i.imgur.com/KwAJjl7.png)
+  ![](https://i.imgur.com/KwAJjl7.png)
   
 * After connecting with Disqus, admin logout current account at backend and login by Disqus account.
 
-![Imgur](https://i.imgur.com/nlz6MPL.png)
+![](https://i.imgur.com/nlz6MPL.png)
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 #### 11.2 Login using Disqus
@@ -360,17 +360,17 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Mailru`
 
-![Imgur](https://i.imgur.com/bCX1Ugp.png)
+![](https://i.imgur.com/bCX1Ugp.png)
 
 * In the **Enable** field: Choose Yes to enable the login button with Mailru
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Mailru  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Mailru button to login via Mailru account
   
-  ![Imgur](https://i.imgur.com/yxnB2Jf.png)
+  ![](https://i.imgur.com/yxnB2Jf.png)
   
 * After connecting with Mailru, admin logout current account at backend and login by Mailru account.
 
-![Imgur](https://i.imgur.com/43jjbh7.png)
+![](https://i.imgur.com/43jjbh7.png)
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 #### 12.2 Login using Mailru
@@ -385,17 +385,17 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Odnoklassniki`
 
-![Imgur](https://i.imgur.com/NbBAQnJ.png)
+![](https://i.imgur.com/NbBAQnJ.png)
 
 * In the **Enable** field: Choose Yes to enable the login button with Odnoklassniki
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Odnoklassniki  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Odnoklassniki button to login via Odnoklassniki account
   
-  ![Imgur](https://i.imgur.com/NpMAWHv.png)
+  ![](https://i.imgur.com/NpMAWHv.png)
   
 * After connecting with Odnoklassniki, admin logout current account at backend and login by Odnoklassniki account.
 
-![Imgur](https://i.imgur.com/foylcHS.png)
+![](https://i.imgur.com/foylcHS.png)
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 
@@ -411,18 +411,18 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Steam`
 
-![Imgur](https://i.imgur.com/1AIrxL5.png)
+![](https://i.imgur.com/1AIrxL5.png)
 
 
 * In the **Enable** field: Choose Yes to enable the login button with Steam
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Steam  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Steam button to login via Steam account
   
-  ![Imgur](https://i.imgur.com/TPSWNSz.png)
+  ![](https://i.imgur.com/TPSWNSz.png)
   
 * After connecting with Steam, admin logout current account at backend and login by Steam account.
 
-![Imgur](https://i.imgur.com/PB499W1.png)
+![](https://i.imgur.com/PB499W1.png)
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 #### 14.2 Login using Steam
@@ -437,22 +437,22 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Live`
 
-![Imgur](https://i.imgur.com/QSFUywx.png)
+![](https://i.imgur.com/QSFUywx.png)
 
 * In the **Enable** field: Choose Yes to enable the login button with Live
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Live  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Live button to login via Live account
   
-  ![Imgur](https://i.imgur.com/t4i6LXP.png)
+  ![](https://i.imgur.com/t4i6LXP.png)
   
 * After connecting with Live, admin logout current account at backend and login by Live account.
 
-![Imgur](https://i.imgur.com/59H1A6j.png)
+![](https://i.imgur.com/59H1A6j.png)
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 #### 15.2. Login using Live
 
-![Imgur](https://i.imgur.com/laFfkqp.png)
+![](https://i.imgur.com/laFfkqp.png)
 
 The Live login dialog will be displayed after clicking the Login button with Live
 
@@ -460,22 +460,22 @@ The Live login dialog will be displayed after clicking the Login button with Liv
 #### 16.1. How to configure Pinterest
 Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > Pinterest`
 
-![Imgur](https://i.imgur.com/jxLaBUX.png)
+![](https://i.imgur.com/jxLaBUX.png)
 * In the **Enable** field: Choose Yes to enable the login button with Pinterest
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Pinterest  
   * After turn on this function, social login button is shown at **My Account** in backend, click to Pinterest button to login via Pinterest account
   
-  ![Imgur](https://i.imgur.com/Hq4Sd6x.png)
+  ![](https://i.imgur.com/Hq4Sd6x.png)
   
 * After connecting with Pinterest, admin logout current account at backend and login by Pinterest account.
 
-![Imgur](https://i.imgur.com/FEZo6ib.png)
+![](https://i.imgur.com/FEZo6ib.png)
 * In the **Sort Order** field: This field shows the order to display the social login button. The order will be sorted as the following: `number, special characters, uppercase letters, lowercase letters`.
 
 
 #### 16.2. Login using Pinterest
 
-![Imgur](https://i.imgur.com/Zl7zwbN.png)
+![](https://i.imgur.com/Zl7zwbN.png)
 
 The Pinterest login dialog will be displayed after clicking the Login button with Pinterest
 
