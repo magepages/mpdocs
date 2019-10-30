@@ -57,53 +57,29 @@ Go to ``Mageplaza > Shop by Brand > Configuration`` is a bunch of the basic conf
 ^^^^^^^^^^^^^^^
 At the Configuration tab, expand **General** section, please do the following:
 
-.. image:: https://i.imgur.com/25n3uM4.jpg
+.. image:: https://i.imgur.com/p4nPrAZ.png
 
 * **Enable** the module when choosing "Yes" to allow customers shop by brand
 * From the existing list of the product attribute, set **Brand Attribute** to the correct choice. In this guide, *Manufacturer* is the option you have to select
-* Enter **Brand route**, if passing it, the default (brands) is applied
-* Enter **Brand Link title** or leave it as the default (Brands)
-* In **Show Brand Link in** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
-* At **Show brand logos in product page**: choose “Enable” to show brand logo in product page
+* Enter **Brand Route**, if passing it, the default (brands) is applied
+* Enter **Brand Link Title** or leave it as the default (Brands)
+* In **Show Brand Link In** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
 * In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
-
-2.1.2 Sidebar
+* **Show Brand Name on Product Listing Page**: Display Product Brand Name at product listing page such as category, Catalog Search
+* **Show Brand Info in Product Page**:
+  * **Show Brand Info in Product Page = Not show**: Not show brand information at product page in frontend
+  * **Show Brand Info in Product Page = Brand Name**: Allow showing brand information at product page in frontend
+  * **Show Brand Info in Product Page = Brand Logo**: Show brand logo at product page in frontend. Show more fields: **Brand Logo Width in Product Page** and **Brand Logo Height in Product Page**.
+    * **Brand Logo Width in Product Page**: Set the width for brand logo shown at frontend
+    * **Brand Logo Height in Product Page**: Set the height for brand logo shown at frontend
+    
+    
+2.1.2 All Brands Page Settings
 ^^^^^^^^^^^^^^^
 
-2.1.2.1 Feature Brand Settings
-"""""""""""""""
+Expand **All Brands Page Settings** section
 
-.. image:: https://i.imgur.com/6yyNONN.jpg 
-
-* In **Show Feature Brands** option “”Yes”” is the default option.
-* In **Title**, “Feature Brand” is the default name
-* In **Show title** choose “Yes” to show the title you named
-
-2.1.2.2 Brand List Thumbnail
-"""""""""""""""
-
-.. image:: https://i.imgur.com/293EiG0.jpg
-
-* In **Show Brand Thumbnail**: “Yes” is the default option
-* In **Title**, “Feature List” is the default name
-* In **Brand’s quantity limitation** 7 brand names in the list is the default number
-
-2.1.2.3 Category Brand
-"""""""""""""""
-
-.. image:: https://i.imgur.com/ndWpMyj.jpg
-
-* In **Show Category Brand**: “Yes” is the default option to display the block
-* In **Title**, “Brand Category” is the default name
-* In **Category’s quantity limitation** 7 categories in the list is the default number
-* In **Show Brand Category Quantity** “Yes” is the default option
-
-2.1.3 All Brands Page Settings
-^^^^^^^^^^^^^^^
-
-Expand **All Brands Page Settings** section 
-
-.. image:: https://i.imgur.com/tlywGrG.jpg
+.. image:: https://i.imgur.com/ym6Y8gW.png
 
 * In **Brand list name** type your prefered name for the Brand Page title
 * In **Style of Brand List Page** includes options to choose the specific order of the brand list
@@ -113,24 +89,25 @@ Expand **All Brands Page Settings** section
   * Logo only
   * Logo and Label
   * Label only 
-* In **Show Brand Name on Product Listing Page** “Yes” is the default option
+* **Brand Logo Width**: Set logo width
+* **Brand Logo Height**: Set logo height
 * In **Style Color** select relevant color of the Shop by Brand's interface
 * In **Show Brand Description** set up to show the brand’s description or not
 * In **Show Brand Product Quantity** option to enable/disable the number.
 * In **Show Brand Quick View Popup** select “Yes” if you want to have it opened in Popup style
 * Add **Custom Css** for your own style
 
-2.1.3.1 Brand Filter Function
+2.1.2.1 Brand Filter Function
 """""""""""""""
 
-.. image:: https://i.imgur.com/4ZborJy.jpg
+.. image:: https://i.imgur.com/MfqltJj.png
 
 * In **Show Brand Categories Filter**: choose “Yes” to enable Category filter
 * In **Show Brand AlphaBet Filter** “Yes” is the default option
 * In **Brand Alphabet** is where you rule the specific alphabet to be filtered, each of alphabet separated by a commas
 * **Character Set** means encode key for your store’s language
 
-2.1.3.2 Brand Search Setting
+2.1.2.2 Brand Search Setting
 """""""""""""""
 
 .. image:: https://i.imgur.com/4pyvycS.jpg
@@ -140,7 +117,7 @@ Expand **All Brands Page Settings** section
 * In **Number of Search result** 0 will show unlimited drop-down search result
 * In **Show Thumbnail Image** decides to display thumbnail image or not 
 
-2.1.3.3 Feature Brand Settings
+2.1.2.3 Feature Brand Settings
 """""""""""""""
 
 .. image:: https://i.imgur.com/l7ytPEQ.jpg
@@ -159,7 +136,7 @@ Expand **All Brands Page Settings** section
 
 * In **Embedded Code** is where you show feature brand block in any place you want.
 
-2.1.3.4 Brand Related Products
+2.1.2.4 Brand Related Products
 """""""""""""""
 
 .. image:: https://i.imgur.com/hiV5kHq.jpg
@@ -168,15 +145,50 @@ Expand **All Brands Page Settings** section
 * In **Title**, type a name for your brand related products block
 * In **Limit** field, enter your prefer maximum number of products in the block
 
-2.1.4 Brand Information
+
+2.1.3 Brand Information
 ^^^^^^^^^^^^^^^
 Click to expand **Brand Information**
 
-.. image:: https://i.imgur.com/GX7FMHY.png 
+.. image:: https://i.imgur.com/AX3UKVv.png
 
 * In **Default Image** choose a custom stock for Brand. If passing, the product placeholder default image will be used.
 * In **Default Block**, choose an available product block to be displayed 
 * Choose to **Show Brand Image On Brand Page**, **Show Brand Description On Brand Page**, and **Show Brand Static Block On Brand Page** or not.
+
+2.1.4 Sidebar
+^^^^^^^^^^^^^^^
+
+.. image:: https://i.imgur.com/Bg3feAv.png
+
+2.1.4.1 Feature Brand Settings
+"""""""""""""""
+
+.. image:: https://i.imgur.com/6yyNONN.jpg 
+
+* In **Show Feature Brands** option “”Yes”” is the default option.
+* In **Title**, “Feature Brand” is the default name
+* In **Show title** choose “Yes” to show the title you named
+
+2.1.4.2 Brand List Thumbnail
+"""""""""""""""
+
+.. image:: https://i.imgur.com/DyOKrvh.png
+
+* In **Show Brand Thumbnail**: “Yes” is the default option
+* In **Title**, “Feature List” is the default name
+* In **Brand's Qty Limit**: 7 brand names in the list is the default number
+
+2.1.4.3 Category Brand
+"""""""""""""""
+
+.. image:: https://i.imgur.com/nf8ky94.png
+
+* In **Show Category Brand**: “Yes” is the default option to display the block
+* In **Title**, “Brand Category” is the default name
+* In **Category's Qty Limit**: 7 categories in the list is the default number
+* In **Show Brand Category Quantity** “Yes” is the default option
+
 
 2.1.5 SEO 
 ^^^^^^^^^^^^^^^
@@ -249,7 +261,8 @@ Go to ``System > Data Transfer > Import > Import Settings > Entity Type`` field,
 Follow those steps next
   * In **Import Behaviour** fiels, choose *Import Behaviour* as "Add/Update"
   * In **File to Import** field, browse your brand's CSV file in *Select file to Import*
-  * Copy the file contains Brands in the csv file to the pub / media / import section of the site
+  * Copy the file contains Brands in the csv file to the pub / media / import section of the site. (Note: For magento 2.3.3, you need to copy image file of brands and paste at the folder `/var/import/images`)
+
   
 .. image:: https://imgur.com/AIeeY5y.jpg  
 
@@ -288,3 +301,162 @@ On Product Page
 
 .. _Magento 2 Advanced Search: https://www.mageplaza.com/magento-2-search-extension/
 .. _How to Create Product Attribute in Magento 2: https://www.mageplaza.com/kb/how-to-create-product-attribute-magento-2.html
+
+
+2.6. API
+***************
+
+Shop By Brand Extension form Mageplaza does support API which allows users:
+* Get brand list
+* Add/ edit/ delete brand
+* Add products into brand
+* Remove brand assigned for product
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>&nbsp;</td>
+<td>
+<p><strong>Method</strong></p>
+</td>
+<td>
+<p><strong>Endpoint</strong></p>
+</td>
+<td>
+<p><strong>Data Input</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Get Brand list</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpbrand</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Url: http://&lt;magento_host&gt;/rest//V1/mpbrand</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Add new brand</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpbrand/options</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Url:&nbsp;</span></p>
+<p><span style="font-weight: 400;">http://&lt;magento_host&gt;/rest//V1/mpbrand/options</span></p>
+<br />
+<p><span style="font-weight: 400;">Body:&nbsp;</span></p>
+<br />
+<p><span style="font-weight: 400;">{</span></p>
+<p><span style="font-weight: 400;">"option": {</span></p>
+<p><span style="font-weight: 400;">"page_title": "test",</span></p>
+<p><span style="font-weight: 400;">"is_featured": 1,</span></p>
+<p><span style="font-weight: 400;">"label": "Mage123",</span></p>
+<p><span style="font-weight: 400;">"value": "Mage23",</span></p>
+<p><span style="font-weight: 400;">"sort_order": 0,</span></p>
+<p><span style="font-weight: 400;">"is_default": true,</span></p>
+<p><span style="font-weight: 400;">"store_labels": [</span></p>
+<p><span style="font-weight: 400;">{</span></p>
+<p><span style="font-weight: 400;">"store_id": 0,</span></p>
+<p><span style="font-weight: 400;">"label": "Mageplaza"</span></p>
+<p><span style="font-weight: 400;">}</span></p>
+<p><span style="font-weight: 400;">]</span></p>
+<p><span style="font-weight: 400;">}</span></p>
+<p><span style="font-weight: 400;">}</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Update brand info</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">PUT</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpbrand/options/:optionId</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Url: http://&lt;magento_host&gt;/rest//V1/mpbrand/options/:optionId</span></p>
+<p><span style="font-weight: 400;">(Example:&nbsp; http://magento/rest//V1/mpbrand/options/123)</span></p>
+<p><span style="font-weight: 400;">Body:</span></p>
+<br />
+<p><span style="font-weight: 400;">{</span></p>
+<p><span style="font-weight: 400;">"option": {</span></p>
+<p><span style="font-weight: 400;">"page_title": "test",</span></p>
+<p><span style="font-weight: 400;">"is_featured": 1,</span></p>
+<p><span style="font-weight: 400;">"label": "Mage123",</span></p>
+<p><span style="font-weight: 400;">"value": "Mage23",</span></p>
+<p><span style="font-weight: 400;">"sort_order": 0,</span></p>
+<p><span style="font-weight: 400;">"is_default": true,</span></p>
+<p><span style="font-weight: 400;">"store_labels": [</span></p>
+<p><span style="font-weight: 400;">{</span></p>
+<p><span style="font-weight: 400;">"store_id": 0,</span></p>
+<p><span style="font-weight: 400;">"label": "Mageplaza"</span></p>
+<p><span style="font-weight: 400;">}</span></p>
+<p><span style="font-weight: 400;">]</span></p>
+<p><span style="font-weight: 400;">}</span></p>
+<p><span style="font-weight: 400;">}</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Delete brand</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">DELETE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpbrand/options/:optionId</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Url: http://&lt;magento_host&gt;/rest/V1/mpbrand/options/:optionId</span></p>
+<br />
+<p><span style="font-weight: 400;">Example: http://magento/rest/V1/mpbrand/options/123</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Add new products into brand</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">PUT</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpbrand/brand/:optionId/product/:sku</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Url: http://&lt;magento_host&gt;/rest/V1/mpbrand/brand/:optionId/product/:sku</span></p>
+<br />
+<p><span style="font-weight: 400;">Example: http://magento/rest/V1/mpbrand/brand/123/product/24-WB04</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">Remove brand assigned for product</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">DELETE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpbrand/product/:sku</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Url:</span></p>
+<p><span style="font-weight: 400;">http://&lt;magento_host&gt;/rest/V1/mpbrand/product/:sku</span></p>
+<p><span style="font-weight: 400;">Example: http://magento/rest/V1/mpbrand/product/24-WB04</span></p>
+</td>
+</tr>
+</tbody>
+</table>
+
+You can also refer the way to create API [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html)
