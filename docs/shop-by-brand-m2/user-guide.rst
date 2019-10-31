@@ -322,7 +322,7 @@ Shop By Brand Extension form Mageplaza does support API which allows users:
 +-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
 |                                   | Method | Endpoint                                 | Data Input                                                              |
 +-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
-| Get Brand list                    | GET    | /V1/mpbrand                              | Url: http://<magento_host>/rest//V1/mpbrand                             |
+| Get Brand list                    | GET    | /V1/mpbrand                              | Url: http://<magento_host>/rest/V1/mpbrand                             |
 +-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
 | Add new brand                     | POST   | /V1/mpbrand/options                      | Url: http://<magento_host>/rest/V1/mpbrand/options                      |
 |                                   |        |                                          |                                                                         |
@@ -422,4 +422,4 @@ Shop By Brand Extension form Mageplaza does support API which allows users:
 | search brand by name              | GET    | /V1/mpbrand/brand/search/:name           | Url: http://<magento_host>/rest/V1/mpbrand/brand/search/:name           |
 +-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
 
-You can also refer the way to create API here: https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html
+You can also refer the way to create API.. _here: https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html
