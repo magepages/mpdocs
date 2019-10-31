@@ -319,5 +319,107 @@ Shop By Brand Extension form Mageplaza does support API which allows users:
 * Get a list of feature brands
 * Search for brands by name
 
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+|                                   | Method | Endpoint                                 | Data Input                                                              |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Get Brand list                    | GET    | /V1/mpbrand                              | Url: http://<magento_host>/rest//V1/mpbrand                             |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Add new brand                     | POST   | /V1/mpbrand/options                      | Url: http://<magento_host>/rest/V1/mpbrand/options                      |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | Body:                                                                   |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | {                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "option": {                                                             |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "page_title": "test",                                                   |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "is_featured": 1,                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "label": "Mage123",                                                     |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "value": "Mage23",                                                      |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "sort_order": 0,                                                        |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "is_default": true,                                                     |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "store_labels": [                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | {                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "store_id": 0,                                                          |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "label": "Mageplaza"                                                    |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | }                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | ]                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | }                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | }                                                                       |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Update brand info                 | PUT    | /V1/mpbrand/options/:optionId            | Url: http://<magento_host>/rest/V1/mpbrand/options/:optionId            |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | (Example: http://magento/rest/V1/mpbrand/options/123)                   |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | Body:                                                                   |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | {                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "option": {                                                             |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "page_title": "test",                                                   |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "is_featured": 1,                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "label": "Mage123",                                                     |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "value": "Mage23",                                                      |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "sort_order": 0,                                                        |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "is_default": true,                                                     |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "store_labels": [                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | {                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "store_id": 0,                                                          |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | "label": "Mageplaza"                                                    |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | }                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | ]                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | }                                                                       |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | }                                                                       |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Delete brand                      | DELETE | /V1/mpbrand/options/:optionId            | Url: http://<magento_host>/rest/V1/mpbrand/options/:optionId            |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | Example: http://magento/rest/V1/mpbrand/options/123                     |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Add new products into brand       | PUT    | /V1/mpbrand/brand/:optionId/product/:sku | Url: http://<magento_host>/rest/V1/mpbrand/brand/:optionId/product/:sku |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | Example: http://magento/rest/V1/mpbrand/brand/123/product/24-WB04       |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Remove brand assigned for product | DELETE | /V1/mpbrand/product/:sku                 | Url: http://<magento_host>/rest/V1/mpbrand/product/:sku                 |
+|                                   |        |                                          |                                                                         |
+|                                   |        |                                          | Example: http://magento/rest/V1/mpbrand/product/24-WB04                 |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Get list products by brand        | GET    | /V1/mpbrand/brand/:optionId/product      | Url: http://<magento_host>/rest/V1/mpbrand/brand/:optionId/product      |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| Get brand by product sku          | GET    | /V1/mpbrand/brand/product/:sku           | Url: http://<magento_host>/rest/V1/mpbrand/brand/product/:sku           |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| get list feature brand            | GET    | /V1/mpbrand/brand/feature                | Url: http://<magento_host>/rest/V1/mpbrand/brand/feature                |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
+| search brand by name              | GET    | /V1/mpbrand/brand/search/:name           | Url: http://<magento_host>/rest/V1/mpbrand/brand/search/:name           |
++-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
 
 You can also refer the way to create API here: https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html
