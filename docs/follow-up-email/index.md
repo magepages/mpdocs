@@ -197,7 +197,7 @@ In addition, the email displayed on the **Manage Campaigns** page has the follow
 ![Imgur](https://i.imgur.com/t1vko4p.png)
 
 
-### 3.Email Logs
+### 3. Email Logs
 
 From the Admin Panel, go to `Marketing > Follow Up Email > Email Logs`
 
@@ -213,4 +213,4 @@ From **Follow up Email Logs**, admin can capture basic information of emails suc
 - **Action = Delete**: delete emails
 - **Action = View**: see email details
 
-In addition, admin can** filter, change store view, hide/show columns**.
+In addition, admin can **filter, change store view, hide/show columns**.
