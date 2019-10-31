@@ -1,7 +1,7 @@
 # Shipping Rules
 ## Overview
 
-Default Magento only allows fixed shipping fees for item or order, admins can only set rules to free items/orders that can not custom the shipping price. [Mageplaza Shipping Rules module](http://www.mageplaza.com/magento-2-shipping-rules/) provides some solutions for admins to change, add or subtract shipments by the item or order. Or admins can create rules to apply shipping fees for certain days or time frames or apply shipping fees to each store or different customer groups.
+Default Magento only allows fixed shipping fees for item or order, admins can only set rules to free items/orders that can not custom the shipping price. Mageplaza Shipping Rules module provides some solutions for admins to change, add or subtract shipments by the item or order. Or admins can create rules to apply shipping fees for certain days or time frames or apply shipping fees to each store or different customer groups.
 
 ## How to use
 - The rule is applied on the frontend
@@ -165,7 +165,7 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
 
 ![](https://i.imgur.com/aXbKT0Z.png)
 
-### 3. Compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) 
+### 3. Compatible with Mageplaza One Step Checkout 
 
 ![](https://i.imgur.com/QS2AJem.png)
 
