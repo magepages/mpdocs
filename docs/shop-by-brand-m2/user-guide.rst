@@ -314,7 +314,10 @@ Shop By Brand Extension form Mageplaza does support API which allows users:
 * Add/ edit/ delete brand
 * Add products into brand
 * Remove brand assigned for product
-
+* Get the product list of brand 
+* Get the brand's information assigned to the product according to the product's sku
+* Get a list of feature brands
+* Search for brands by name
 
 
 You can also refer the way to create API here: https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html
