@@ -322,7 +322,7 @@ Shop By Brand Extension form Mageplaza does support API which allows users:
 +-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
 |                                   | Method | Endpoint                                 | Data Input                                                              |
 +-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
-| Get Brand list                    | GET    | /V1/mpbrand                              | Url: http://<magento_host>/rest/V1/mpbrand                             |
+| Get Brand list                    | GET    | /V1/mpbrand                              | Url: http://<magento_host>//rest/V1/mpbrand                             |
 +-----------------------------------+--------+------------------------------------------+-------------------------------------------------------------------------+
 | Add new brand                     | POST   | /V1/mpbrand/options                      | Url: http://<magento_host>/rest/V1/mpbrand/options                      |
 |                                   |        |                                          |                                                                         |
