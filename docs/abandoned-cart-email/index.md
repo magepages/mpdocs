@@ -24,7 +24,7 @@ Login to Magento Admin, ``Marketing > Abandoned Cart Email`` to configure it in 
 #### 1.1 General Configuration
 Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` then click on ``General Configuration``
 
-![](https://i.imgur.com/TpAPlK5.png)
+![](https://i.imgur.com/fDb1QNO.png)
 
 * **Enabled**: select “Yes” to enable Mageplaza Abandoned Cart Email extension
 * **Send Email to Subscribers Only**: Select **Yes**, only sending abandoned cart email to registered and subscribed customers. If select **No**, sending email to all abandoned carts of registered customers which satisfy the conditions. 
