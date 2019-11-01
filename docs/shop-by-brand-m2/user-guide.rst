@@ -195,7 +195,7 @@ Click to expand **Brand Information**
 2.1.5 SEO 
 ^^^^^^^^^^^^^^^
 
-.. image:: https://i.imgur.com/jkksPsT.jpg
+.. image:: https://i.imgur.com/0h8CvwN.png
 
 This is a new sweet treatment for marketing purpose, choose “No” if you don’t wish search engines index pagination pages.
 
@@ -319,6 +319,13 @@ Shop By Brand Extension form Mageplaza does support API which allows users:
 * Get a list of feature brands
 * Search for brands by name
 
+Guide to create token, please see `here`_
+.. _here: https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html
 
+After having token, Authorization choose `TYPE = Bearer Token` then fill the token into Token field. 
 
-You can also refer the way to create API here: https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html
+.. image:: https://i.imgur.com/iV3ywbg.png
+
+You can see more of how to get API Request by Shop By Brand Extension `here`_
+.. _here: https://documenter.getpostman.com/view/6685698/SW11Yewq?version=latest
+
