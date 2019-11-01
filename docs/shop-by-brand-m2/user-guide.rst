@@ -326,6 +326,6 @@ After having token, Authorization choose `TYPE = Bearer Token` then fill the tok
 
 .. image:: https://i.imgur.com/iV3ywbg.png
 
-You can see more of how to get API Request by Shop By Brand Extension `here`_
-.. _here: https://documenter.getpostman.com/view/6685698/SW11Yewq?version=latest
+You can see more of how to get API Request by Shop By Brand Extension via this `document`_
+.. _document: https://documenter.getpostman.com/view/6685698/SW11Yewq?version=latest
 
