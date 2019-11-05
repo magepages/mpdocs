@@ -22,7 +22,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
   - **No**: disables auto-flushing cache and keep displaying default Magento's Flush Cache request message.
   ![](https://i.imgur.com/VvKNpRU.png)
 
-- **Enable Quick Reindex***: Select "Yes" to automatically reindex by clicking **Reindex Now**
+- **Enable Quick Reindex**: Select "Yes" to automatically reindex by clicking **Reindex Now**
 
 ![](https://i.imgur.com/N3Lnms7.png)
 
