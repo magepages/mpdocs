@@ -12,20 +12,17 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
 
 ![](https://i.imgur.com/TfdVUDM.png)
 
-- **Enable Quick Flush Cache*:
-- *Yes (Automatic)*: automatically clear cache when admin saves information: product, configuration, etc. at backend. After saving the information configured, always notice that the cache was successfully flushed.
+- **Enable Quick Flush Cache**:
+  - **Yes (Automatic)**: automatically clear cache when admin saves information: product, configuration, etc. at backend. After saving the information configured, always notice that the cache was successfully flushed.
+  ![](https://i.imgur.com/W0cwcbf.png)
 
-![](https://i.imgur.com/W0cwcbf.png)
+  - **Yes (Manual)***: Show a message after saving configuration. Instead of clicking **Cache Management** to move to the **Flush Magento Cache**, now you only need to click **Flush Now** link and wait for a few seconds, the cache will be cleared.
+  ![](https://i.imgur.com/vxoigcQ.png)
 
-- *Yes (Manual)*: Show a message after saving configuration. Instead of clicking **Cache Management** to move to the **Flush Magento Cache**, now you only need to click **Flush Now** link and wait for a few seconds, the cache will be cleared.
+  - **No**: disables auto-flushing cache and keep displaying default Magento's Flush Cache request message.
+  ![](https://i.imgur.com/VvKNpRU.png)
 
-![](https://i.imgur.com/vxoigcQ.png)
-
-- *No*: disables auto-flushing cache and keep displaying default Magento's Flush Cache request message.
-
-![](https://i.imgur.com/VvKNpRU.png)
-
-- *Enable Quick Reindex*: Select "Yes" to automatically reindex by clicking **Reindex Now**
+- **Enable Quick Reindex***: Select "Yes" to automatically reindex by clicking **Reindex Now**
 
 ![](https://i.imgur.com/N3Lnms7.png)
 
