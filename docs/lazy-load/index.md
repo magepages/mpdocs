@@ -26,29 +26,30 @@ In addition, the extension also supports lazy loading by icons or placeholders a
 ![](https://i.imgur.com/x6BuaNK.png)
 
 - **Exclude Page With URL Contains**: Click **Add** button to enter the path of the page that you do not want to apply lady loading. Pages with URLs entered in this field will not apply lady load. Click **Delete** icon to delete the path you have just entered.
-- **Example**:
+- *Example*:
 
 ![](https://i.imgur.com/gc7Er3V.png)
 
 - **Exclude Css Class**: Click **Add** button to enter the class name containing the image that you do not want to apply Lady Load. Click **Delete** icon to delete the class name just entered.
-- **Example**:
+- *Example*:
 
 ![](https://i.imgur.com/uAEyJ7D.png)
 
 `<img class = "downloadable-product" src = "lifelong.jpg">`. Images of the "downloadable-product" class will not apply lazy load.
 
 - **Exclude Text**: Click the **Add** button to enter the title or alt of the Image tag. Images with the tags that contain the text entered do not apply lady load.
-- **Example**:
+- *Example*:
 
 ![](https://i.imgur.com/3cfqi4O.png)
 
 `<img title = "lifelong" src = "download.jpg">` or `<img name = "lifelong" src = "product.jpg">`. When filling in "lifelong", this image will not apply lazy load.
 - **Loading Threshold**: Set the distance from the screen to the product image to process lady load. Products in the threshold range will still load without scrolling.
 - **Loading Type**: Select the lady load processing effect.
-
 ![](https://i.imgur.com/v9SthIM.png)
+
   - **Icon**: Process lazy load with Icon. Show more fields:
-![](https://i.imgur.com/Q851Wsr.png)
+  ![](https://i.imgur.com/Q851Wsr.png)
+  
     - **Upload Icon**: Click the **Choose File** button to select the image you want to display during lady load processing. If left blank, the default icon will be displayed. Click **Delete Image** button to delete the selected image.
     - **NOTE**: Only support files in the format: gif, png, jpg, svg.
     - **Resize Icon Width**: Enter the width of the image displayed when processing lady load. The default value is 64px.
