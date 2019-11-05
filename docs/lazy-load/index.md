@@ -58,11 +58,11 @@ In addition, the extension also supports lazy loading by icons or placeholders a
   - **Placeholder**: Processing the lady load with the placeholder. Show additional **Placeholder Type** field
   ![](https://i.imgur.com/ZmRJM79.png)
 
-  - **Blurred**: Product image is blurred during processing of lady load.
-  ![](https://i.imgur.com/MV5aHpP.gif)
+    - **Blurred**: Product image is blurred during processing of lady load.
+    ![](https://i.imgur.com/MV5aHpP.gif)
 
-  - **Low Resolution**: Product image quality is reduced during lady load processing.
-  ![](https://i.imgur.com/Ighh5wH.gif)
+    - **Low Resolution**: Product image quality is reduced during lady load processing.
+    ![](https://i.imgur.com/Ighh5wH.gif)
 
-  - **Transparent**: Display transparent images during lady load processing.
-  ![](https://i.imgur.com/7QFFTBf.gif)
+    - **Transparent**: Display transparent images during lady load processing.
+    ![](https://i.imgur.com/7QFFTBf.gif)
