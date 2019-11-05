@@ -16,7 +16,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
   - **Yes (Automatic)**: automatically clear cache when admin saves information: product, configuration, etc. at backend. After saving the information configured, always notice that the cache was successfully flushed.
   ![](https://i.imgur.com/W0cwcbf.png)
 
-  - **Yes (Manual)***: Show a message after saving configuration. Instead of clicking **Cache Management** to move to the **Flush Magento Cache**, now you only need to click **Flush Now** link and wait for a few seconds, the cache will be cleared.
+  - **Yes (Manual)**: Show a message after saving configuration. Instead of clicking **Cache Management** to move to the **Flush Magento Cache**, now you only need to click **Flush Now** link and wait for a few seconds, the cache will be cleared.
   ![](https://i.imgur.com/vxoigcQ.png)
 
   - **No**: disables auto-flushing cache and keep displaying default Magento's Flush Cache request message.
