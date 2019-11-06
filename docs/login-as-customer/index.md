@@ -3,12 +3,12 @@
 ## Overview
 
 
-Mageplaza Login as Customer extension allows the admin to log in to the customer's account and automatically save those login transactions. In some cases, when customers have problems at My Account page or at Checkout process, this extension is an effective and quick solution. The store owner will promptly solve the problems, thus saving time for both Magento 2 administrators and customers.
+[Mageplaza Login as Customer extension](https://www.mageplaza.com/magento-2-login-as-customer/) allows the admin to log in to the customer's account and automatically save those login transactions. In some cases, when customers have problems at My Account page or at Checkout process, this extension is an effective and quick solution. The store owner will promptly solve the problems, thus saving time for both Magento 2 administrators and customers.
 
 
 ## Download & Install
 
-- [Mageplaza Login As Customer]()
+- [Mageplaza Login As Customer](https://www.mageplaza.com/magento-2-login-as-customer/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
