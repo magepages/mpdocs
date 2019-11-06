@@ -3,6 +3,11 @@
 
 Magento currently only supports certain shipping methods: Free Shipping, Flat Rate, Table Rate, UPS, Magento Shipping, USPS, FedEx, DHL. If store owners want to add fees for any services in their store like gift wrap, fast shipment within 2 hours, etc, they can not be configured. Developed by Mageplaza, [Extra Fee module](https://www.mageplaza.com/magento-2-extra-fee/) allows shoppers to add whatever fees they want and display them on their Checkout and Shopping Cart pages.
 
+## Download and Install
+
+- [Download the module](https://www.mageplaza.com/magento-2-extra-fee/)
+- [Install Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/)
+
 ## How to configure
 
 From the Admin Panel, go to `Stores > Extra Fee > Configuration`
