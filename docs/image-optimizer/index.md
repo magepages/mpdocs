@@ -4,11 +4,11 @@
 
 Do you want your website' s images to have the best quality with optimal size and still ensure the high loading speed? With Image Optimizer extension of Mageplaza, it is definitely possible. The module supports online stores to manually or auto optimize images after a certain time. Also, it can backup the original image, optimize the size and image quality by folder. And in particular, you can optimize images through the server and use commands to optimize each image or all photos quickly and conveniently.
 
-Mageplaza Image Optimizer extension is fully compatible with Mageplaza Cron Schedule to support automatic scan, backup original photos and optimize images in the most convenient and fast way.
+[Mageplaza Image Optimizer](https://www.mageplaza.com/magento-2-image-optimizer/) extension is fully compatible with Mageplaza Cron Schedule to support automatic scan, backup original photos and optimize images in the most convenient and fast way.
 
 ## How to download and install
 
-- Download Mageplaza Image Optimizer
+- [Download Mageplaza Image Optimizer](https://www.mageplaza.com/magento-2-image-optimizer/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure
