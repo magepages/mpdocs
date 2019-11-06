@@ -1,9 +1,14 @@
 # Store Switcher
 ## Overview
 
-**Store Switcher** will automatically guide international customers to the respective store, providing a language and currency that is appropriate for their country. Also, it brings more convenience for customers when they go shopping on your online store with great experiences. All are integrated into a new extension of Mageplaza. It's [Store Switcher for Magento 2]().
+**Store Switcher** will automatically guide international customers to the respective store, providing a language and currency that is appropriate for their country. Also, it brings more convenience for customers when they go shopping on your online store with great experiences. All are integrated into a new extension of Mageplaza. It's [Store Switcher for Magento 2](https://www.mageplaza.com/magento-2-store-switcher/).
 
 In particular, with the support of Mageplaza's Geo IP extension, it will help you identify your customer's countries and then redirect customers to the relevant store views. This feature of Geo IP will improve the shopping experience of customers when they can purchase at the appropriate store views.
+
+## Download and Install
+
+- [Download Store Switcher extension](https://www.mageplaza.com/magento-2-store-switcher/)
+- [Install Store Switcher extension](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
 
