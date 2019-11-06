@@ -3,14 +3,14 @@
 
 ## Overview
 
-Mageplaza Cron Schedule assists Magento admin control and report Cron related tasks. Admins can set up, check any Cron Jobs they quickly and easily. And whenever any Cron Job is found that has problems such as Error or Missed, you will always be notified via email.
+[Mageplaza Cron Schedule](https://mageplaza.com/magento-2-cron-schedule/) assists Magento admin control and report Cron related tasks. Admins can set up, check any Cron Jobs they quickly and easily. And whenever any Cron Job is found that has problems such as Error or Missed, you will always be notified via email.
 
-You should install Mageplaza SMTP to avoid your email being sent to the spam box. It is fully compatible with the Cron Schedule extension.
+You should install [Mageplaza SMTP](https://mageplaza.com/magento-2-smtp-extension/) to avoid your email being sent to the spam box. It is fully compatible with the Cron Schedule extension.
 
 
 ## How to download and install
 
-- Download Mageplaza Cron Schedule
+- [Download Mageplaza Cron Schedule](https://mageplaza.com/magento-2-cron-schedule/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
