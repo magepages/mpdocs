@@ -5,6 +5,12 @@ In practice, shop owners often want to limit the display of Payment Method based
 
 This extension is totally compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
+## Download and Install
+
+- [Download the Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restriction/)
+- [Install Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/)
+
+
 ## How to configure
 
 ### 1. Configuration
