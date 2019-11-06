@@ -5,6 +5,11 @@ Developed by Mageplaza experts, [Store Locator](https://www.mageplaza.com/magent
 
 Especially, if customers want to be active in getting their orders. Store Pickup function allows them to choose the nearest store and time to pick their purchased items. Moreover, it comes with many powerful functions, we sure that you will be satisfied with the benefits that this module brings. Let's experience it right now!
 
+## Download and Install
+
+- [Download the module](https://www.mageplaza.com/magento-2-store-locator/)
+- [Install Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/)
+
 ## How to use
 
 - Customers can see a list of all the addresses of the store branches
@@ -280,7 +285,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shippin
 
 - **Enable**: Select **Yes** to enable using the Shipping Methods feature with Mageplaza Store Pickup.
 - **Title**:
-  - Enter the title for the **Shipping Methods** type with [Mageplaza Store Pickup]().
+  - Enter the title for the **Shipping Methods** type with [Mageplaza Store Pickup](https://www.mageplaza.com/magento-2-store-pickup/).
   - If left blank, the default is *Select Store to pickup*.
 
 ![](https://i.imgur.com/CbTInj1.png)
