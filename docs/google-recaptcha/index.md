@@ -2,7 +2,7 @@
 
 ## Overview
 
-According to the search from [Economictimes](https://tech.economictimes.indiatimes.com/news/internet/google-is-bringing-its-recaptcha-service-to-android-devices/59098427), today's Artificial Intelligence (AI) technology can solve almost variant of distorted text at 99.8% accuracy. Distorted text, therefore, is no longer a dependable tool to test. To prevent human effort from accessing your online store, **Magento 2 Google Recaptcha extension** has been released by Mageplaza experts.
+According to the search from [Economictimes](https://tech.economictimes.indiatimes.com/news/internet/google-is-bringing-its-recaptcha-service-to-android-devices/59098427), today's Artificial Intelligence (AI) technology can solve almost variant of distorted text at 99.8% accuracy. Distorted text, therefore, is no longer a dependable tool to test. To prevent human effort from accessing your online store, [Magento 2 Google Recaptcha extension](https://www.mageplaza.com/magento-2-google-recaptcha/) has been released by Mageplaza experts.
 
 Google Recaptcha extension is the best solution to protect your e-commerce store from spams and frauds. Also, it is also a useful tool that helps online stores avoid the requirements of the bots. Thanks to this module, interestingly, valid users can be accepted easily.
 
@@ -11,6 +11,7 @@ Besides, Mageplaza Google Recaptcha extension is fully compatible with **Magepla
 
 ## Installation
 
+- [Download the extension here](https://www.mageplaza.com/magento-2-google-recaptcha/)
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure
