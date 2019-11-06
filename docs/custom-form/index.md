@@ -169,7 +169,7 @@ After saving the Form, the **General Tab** will display the **Snippet section**.
 
 See the instruction video here:
 
-(![Form Creator](http://img.youtube.com/vi/T0Rx2R0_Nqc/0.jpg)](http://www.youtube.com/watch?v=T0Rx2R0_Nqc "Form Creator")
+<iframe width="1280" height="654" src="https://www.youtube.com/embed/T0Rx2R0_Nqc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 
 - For each field, admin can edit **Title information, Tooltip, Additional Class, Is Required, Validation Class, Width, Depend Field**.
