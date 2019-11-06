@@ -2,10 +2,15 @@
 
 ## Overview
 
-Commonwealth Bank of Australia is a multinational bank, offering many of Australia's leading financial services. **Mageplaza CommWeb extension** will allow you to allow payment via Commonwealth Bank on the store of Magento 2. With CommWeb, you can make online payments quickly and reliably.
+Commonwealth Bank of Australia is a multinational bank, offering many of Australia's leading financial services. [Mageplaza CommWeb extension](https://www.mageplaza.com/magento-2-commweb/) will allow you to allow payment via Commonwealth Bank on the store of Magento 2. With CommWeb, you can make online payments quickly and reliably.
 
 Mageplaza CommWeb extension allows customers to make payments with MasterCard, Visa, Discover, American Express, Diners, JBC.
-It also is compatible with **Mageplaza One Step Checkout extension** and **Payment Restriction** extension.
+It also is compatible with [Mageplaza One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and [Payment Restriction](https://www.mageplaza.com/magento-2-payment-restrictions/) extension.
+
+## Download and Install
+
+- [Download CommWeb extension](https://www.mageplaza.com/magento-2-commweb/)
+- [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
 
