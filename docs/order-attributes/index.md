@@ -1,8 +1,15 @@
 # Order Attributes
+
 ## Overview
-When shop owners understand more about customers, it's easy to increase sales and handle fast for their stores. Mageplaza Order Attributes extension allows admins to add custom fields to the checkout page. It helps the store owner to easily collect more information and increase customer satisfaction. This module provides a variety of custom fields such as Text Field, Text Area, Date, Yes/No, Dropdown, Single-select With Image, Multiple Select with Image, Single File Attachment, Content. Order Attributes will be managed easily on the grid order. Admins can also restrict them to customers group or store views.
+
+When shop owners understand more about customers, it's easy to increase sales and handle fast for their stores. [Mageplaza Order Attributes extension](https://www.mageplaza.com/magento-2-order-attributes/) allows admins to add custom fields to the checkout page. It helps the store owner to easily collect more information and increase customer satisfaction. This module provides a variety of custom fields such as Text Field, Text Area, Date, Yes/No, Dropdown, Single-select With Image, Multiple Select with Image, Single File Attachment, Content. Order Attributes will be managed easily on the grid order. Admins can also restrict them to customers group or store views.
 
 Order Attributes is also displayed when admins creates the order in the backend.
+
+## Download and Install
+
+- [Download Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-delivery-order-attributes/)
+- [Installation Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
 
@@ -168,9 +175,9 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
   - mIf left blank, the tooltip is not displayed on the Frontend
 
 - **Manage Options**:
-  - Only display with Input Type = Dropdown, Multiple Select, Single-select with Image, Multiple-select with Image
+  - Only display with **Input Type = Dropdown, Multiple Select, Single-select with Image, Multiple-select with Image**
   - Admin can add options for Attribute in each store view for Customer to choose
-  - Image is only displayed with Input Type = Single-select with Image, Multiple-select with Image. Admin can choose color or upload image for option
+  - Image is only displayed with **Input Type = Single-select with Image, Multiple-select with Image**. Admin can choose color or upload image for option
 
 
 ##### 2.2.4. Depend Attributes
