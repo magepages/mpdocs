@@ -1,14 +1,14 @@
-# Nexi 
+# CartaSi/Nexi 
 
 ## Overview
 
-Nexi provides payment services for many areas. Furthermore, this extension supports different payment cards, especially with customers in Italy. [Mageplaza Nexi extension]() will help you integrate this payment gateway with your store. Your customers can use various cart types and also include authorize, capture. These settings are custom admin at the backend.
+Nexi provides payment services for many areas. Furthermore, this extension supports different payment cards, especially with customers in Italy. [Mageplaza Nexi extension](https://www.mageplaza.com/magento-2-cartasi/) will help you integrate this payment gateway with your store. Your customers can use various cart types and also include authorize, capture. These settings are custom admin at the backend.
 
-Mageplaza Nexi extension is fully compatible with [Mageplaza One Step Checkout]()
+Mageplaza Nexi extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
 
 ## How to download and install
 
-- [Download Mageplaza Nexi]()
+- [Download Mageplaza Nexi](https://www.mageplaza.com/magento-2-cartasi/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
