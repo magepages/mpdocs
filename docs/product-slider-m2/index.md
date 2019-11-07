@@ -1,7 +1,7 @@
 # Product Slider 
 ## I. Overview
 
-In the default Magento, the products on your store are listed in bulk without any purpose. This will cause the difficulty in searching the desired products of customers. That's great that Mageplaza has developed Magento 2 Product Slider extension that can improve the order of products on your online store.
+In the default Magento, the products on your store are listed in bulk without any purpose. This will cause the difficulty in searching the desired products of customers. That's great that Mageplaza has developed [Magento 2 Product Slider extension](https://www.mageplaza.com/magento-2-product-slider-extension/) that can improve the order of products on your online store.
 
 Product Slider for Magento 2 enables store owners to create many slider titles like featured products, bestsellers, most reviewed products, or new products, etc. This will be easy to attract visitors when they visit your website. Moreover, it also helps boost sales dramatically.
 
