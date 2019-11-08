@@ -18,6 +18,13 @@ In addition, the extension also supports lazy loading by icons or placeholders a
 
 ## How to configure
 
+Login to the Magento Admin, go to `Stores > Settings > Configuration > Mageplaza Extensions > Lazy Loading`.
+
+
+![](https://i.imgur.com/ENQJs3I.gif)
+
+### General configuration
+
 ![](https://i.imgur.com/0s7h7kA.png)
 
 - **Enable = Yes/No**: To enable/disable the extension feature.
@@ -25,7 +32,7 @@ In addition, the extension also supports lazy loading by icons or placeholders a
 
 ![](https://i.imgur.com/x6BuaNK.png)
 
-- **Exclude Page With URL Contains**: Click **Add** button to enter the path of the page that you do not want to apply lady loading. Pages with URLs entered in this field will not apply lady load. Click **Delete** icon to delete the path you have just entered.
+- **Exclude Pages With URL Including**: Click **Add** button to enter the path of the page that you do not want to apply lady loading. Pages with URLs entered in this field will not apply lady load. Click **Delete** icon to delete the path you have just entered.
 - *Example*:
 
 ![](https://i.imgur.com/gc7Er3V.png)
@@ -55,7 +62,7 @@ In addition, the extension also supports lazy loading by icons or placeholders a
     - **Resize Icon Width**: Enter the width of the image displayed when processing lady load. The default value is 64px.
     - **Resize Icon Height**: Enter the height of the displayed image when processing lady load. The default value is 64px.
     
-  - **Placeholder**: Processing the lady load with the placeholder. Show additional **Placeholder Type** field
+  - **Placeholder**: Processing the lady load with the placeholder. Show additional **Placeholder Type** field with the following options:
   ![](https://i.imgur.com/ZmRJM79.png)
 
     - **Blurred**: Product image is blurred during processing of lady load.
