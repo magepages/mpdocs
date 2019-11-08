@@ -63,8 +63,7 @@ Login to the Magento Admin, go to `Stores > Settings > Configuration > Mageplaza
     - **Resize Icon Height**: Enter the height of the displayed image when processing lady load. The default value is 64px.
     
   - **Placeholder**: Processing the lady load with the placeholder. Show additional **Placeholder Type** field with the following options:
-   
-   ![](https://i.imgur.com/ZmRJM79.png)
+    ![](https://i.imgur.com/ZmRJM79.png)
 
     - **Blurred**: Product image is blurred during processing of lady load.
     ![](https://i.imgur.com/MV5aHpP.gif)
