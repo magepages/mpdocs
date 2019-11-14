@@ -7,19 +7,19 @@
 
 ## How to Use
 
-Free Gift is automatically added if the product customer adds to the cart is qualified for this promotion.
+### Free Gift is automatically added if the product customer adds to the cart is qualified for this promotion.
 
 ![Imgur](https://i.imgur.com/yQf5YO5.png)
 
-Customer can change the desired gift in the Gift list that the admin offer
+### Customer can change the desired gift in the Gift list that the admin offer
 
 ![Imgur](https://i.imgur.com/WE3NDiv.png)
 
-Customer can add gift to cart right at Product Detail Page
+### Customer can add gift to cart right at Product Detail Page
 
 ![Imgur](https://i.imgur.com/HxFDR2B.png)
 
-When a product with free gift promotion is removed from the cart, their free gifts are removed as well
+### When a product with free gift promotion is removed from the cart, their free gifts are removed as well
 
 ## How to Configure
 
