@@ -43,15 +43,15 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 ![Imgur](https://i.imgur.com/BvDuZZt.png)
 
 - **Enable**: Select **Yes** to make the extension active
-- **Gift Layout**: Set how to show gift list in Frontend. There are 3 ways:
+- **Gift List Layout**: Set how to show gift list in Frontend. There are 3 ways:
   - **List**
   ![Imgur](https://i.imgur.com/OhtAeeK.png)
 
   - **Grid**
-  ![Imgur](https://i.imgur.com/sgQdx5C.gifv)
+  ![Imgur](https://i.imgur.com/sgQdx5C.gif)
 
   - **Slider**
-  ![Imgur](https://i.imgur.com/V1kUZW7.gifv)
+  ![Imgur](https://i.imgur.com/V1kUZW7.gif)
 
 - **Show Notice For Gift**:
   - Select **Yes** so that notice is displayed with the gift. Thereby, customer can easily distinguish gift from other products
@@ -73,9 +73,9 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - Click **Yes** to display the add gift button on the **View Cart Page**
   - If **No** is selected, the gift is automatically added following the rule, and the customer cannot change to another Gift
 - **Show At Cart Item**: applies to manual item rules
-- Select **Yes** to display the **add gift** button on the **View Cart Page**, Customer needs to click the button to select the desired Gift
-- If **No**, the **add gift** button is not displayed in View Cart Page. Customers can only add gifts from the **product detail page**
-- In case the gift is not displayed in the **Product Detail Page** nor in the **View Cart Page**, which means that the rule not being applied.
+  - Select **Yes** to display the **add gift** button on the **View Cart Page**, Customer needs to click the button to select the desired Gift
+  - If **No**, the **add gift** button is not displayed in View Cart Page. Customers can only add gifts from the **product detail page**
+  - In case the gift is not displayed in the **Product Detail Page** nor in the **View Cart Page**, which means that the rule not being applied.
 - **Show Gifts At Product Page**: select **Yes** so that the gift list shown on the Product Detail pages meets the condition of the rules
 - **Show Gift List As Popup**:
   - Select **Yes** to have the gift list displayed on the Product Detail page as a popup
