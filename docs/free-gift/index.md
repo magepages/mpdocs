@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Mageplaza Free Gift Extension](https://mageplaza.com/magento-2-free-gifts/) helps store owners set up special promotions by offer free gifts when customers purchase the products on their stores. Admins not only can easily set up conditions for free gifts, they alsp could customize these rules with discount products, customer groups, quantity restrictions, etc. Therefore, customers are interested in shopping in your Magento store.
+[Mageplaza Free Gift Extension](https://mageplaza.com/magento-2-free-gifts/) helps store owners set up special promotions by offering free gifts when customers purchase the products on their stores. Admins not only can easily set up conditions for free gifts, they also could customize these rules with discount products, customer groups, quantity restrictions, etc. Therefore, customers are interested in shopping in your Magento store.
 
 ## Download and Install
 
@@ -54,10 +54,10 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   ![Imgur](https://i.imgur.com/V1kUZW7.gif)
 
 - **Show Notice For Gift**:
-  - Select **Yes** so that notice is displayed with the gift. Thereby, customer can easily distinguish gift from other products
+  - Select **Yes** so that notice is displayed with the gift. Thereby, customers can easily distinguish gift from other products
   - Notice is displayed in minicart and **View Cart Page**
 - **Notice Content**: Enter the notice content
-- **Allow Customers to hide gift notification**: On the **View Cart Page**, there is a general notice for all gifts. Select **Yes** sto allow customer to turn off this notice
+- **Allow Customers to hide gift notification**: On the **View Cart Page**, there is a general notice for all gifts. Select **Yes** to allow customer to turn off this notice
 - **Gift Icon**:
   - Uploaded image will be used as Gift Icon and displayed in Frontend
   - Accept image files in jpg, png, gif, svg, etc.
@@ -88,8 +88,9 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 - **Button label**:
   - The button label will be displayed in Frontend with the **Add Manual** mode
   - The content needs to show Customer that the Product they are buying is given additional gifts
-- **Button Color**: Set the background color of the button add gift
+- **Button Color**: Set the background color of the  add gift button
 - **Text Color**: Set the font color of the text entered by the admin in the Button label field
+
 ### 2. Manage Rule
 
 #### 2.1 Grid
@@ -101,7 +102,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 - In the Actions tab, the admin can perform the following actions:
   - **Delete**: Admin needs to tick the Rule you want to delete, then select **Delete** in the Actions box (upper left of the Grid) to delete. A confirmation box will appear, click **OK** to continue
   - **Change Status**: Admin needs to tick the Rule you want to change the status, then select `Change Status > Active/ Inactive` in the Actions tab (upper left side of the Grid) to change. A confirmation box will appear, select **OK** to confirm the change
-- In the **Action** column, amin click on **Edit to Rule** to edit the information
+- In the **Action** column, admin click on **Edit to Rule** to edit the information
 - In addition, the admin can Filter, Change Store View, Hide/Show the Columns, Export Grid or Edit inline
 
 ![Imgur](https://i.imgur.com/yjknWhY.png)
@@ -120,7 +121,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 - **Active From**: Choose the date to start applying the rule
 - **Active To**: Select the date to finish the rule
 - **Priority**:
-  - For fifferent rules applying to one product, the rule that has the highest priority is applied first
+  - For different rules applying to one product, the rule that has the highest priority is applied first
   - 0 is the highest priority
 
 
@@ -153,7 +154,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - **Discard Subsequent Rules**:
     - Select **Yes** to limit the number of rules applied to the product.
     - Rules with lower priority than this rule or rules with Priority but created later will not be applied
-    - **Discard Subsequent Rule**s are divided into 2 cases applicable to **Cart** or **Item**
+    - **Discard Subsequent Rules** are divided into 2 cases applicable to **Cart** or **Item**
 - *For example*: There are 6 rules in which: rule 4 has a priority of 10; rule 1.5 is 1; rule 2 is 10; rule 3 is 15; rule 6 is 10. If you choose stop at 4 then:
   - Rule 1.5 with a higher priority should be applied
   - Rule 3 is not applied because the priority is lower
@@ -169,7 +170,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 - For each Discount type, admin can set the amount of Discount Amount they want
 - For each Free Gift, the Admin can allow the Free Ship or not
 
-*Popup to add gifts to the gift list*
+**Popup to add gifts to the gift list**
 
 ![Imgur](https://i.imgur.com/le0CmXJ.png)
 
@@ -186,7 +187,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 ![Imgur](https://i.imgur.com/zpY5cAf.png)
 
-***Block****
+***Block***
 
 ![Imgur](https://i.imgur.com/oNHSZpe.png)
 
@@ -198,8 +199,8 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 ***Gift List = Grid***
 
-![Imgur](https://i.imgur.com/O5lOCku.gifv)
+![Imgur](https://i.imgur.com/O5lOCku.gif)
 
 ***Gift List = Slider***
 
-![Imgur](https://i.imgur.com/WsbNfCU.gifv)
+![Imgur](https://i.imgur.com/WsbNfCU.gif)
