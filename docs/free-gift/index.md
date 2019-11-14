@@ -203,4 +203,4 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 ***Gift List = Slider***
 
-![Imgur](https://i.imgur.com/WsbNfCU.gif)
+![Imgur](https://i.imgur.com/Km87iQW.gif)
