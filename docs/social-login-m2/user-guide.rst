@@ -10,14 +10,14 @@ How to configure
 
 From Magento Admin, select ``Store > Settings > Configuration > Mageplaza Extensions > Social Login``.
 
-.. image:: https://i.imgur.com/WXbcMhe.png
+.. image:: https://i.imgur.com/3Z7AZ1f.png
 
 I. General
 ^^^^^^^^^^^^^^^^^^^^^^
 
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login``, choose **General** sections
 
-.. image:: https://i.imgur.com/UX2zNqf.png
+.. image:: https://i.imgur.com/kFbqyOz.png
 
 * In the **Enable** field: Select "Yes" to allow customers sign in quickly via social networking sites they are using.
 * In the **Send Password To Customer** field: Select "Yes" to activate sending notifications to customers to remind them to change their passwords when signing in via social accounts. They can change their passwords via their emails used to register for that social account.
