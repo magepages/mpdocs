@@ -25,7 +25,9 @@ Social Login Pro is fully compatible with [Report](https://www.mageplaza.com/mag
 
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login``, choose **General** sections
 
-![](https://i.imgur.com/Ud8kIOp.png)
+![](https://i.imgur.com/Lc77riw.png)
+
+![](https://i.imgur.com/3UEdlmw.png)
 
 * In the **Enable** field: Select "Yes" to allow customers sign in quickly via social networking sites they are using.
 * In the **Send Password To Customer** field: Select "Yes" to activate sending notifications to customers to remind them to change their passwords when signing in via social accounts. They can change their passwords via their emails used to register for that social account.
@@ -479,4 +481,24 @@ Go to `Store > Settings > Configuration > Mageplaza Extensions > Social Login > 
 
 The Pinterest login dialog will be displayed after clicking the Login button with Pinterest
 
+### XVII. Compatible with Mageplaza extension
+
+#### 17.1. Compatible with Two-Factor Authentication
+
+Mageplaza's Social Login extension is fully compatible with [Two-Factor Authentication](https://www.mageplaza.com/magento-2-two-factor-authentication/) to ensure security for stores backend when logging in via social accounts. This extension supports three commonly used authentication authors: Authy, Duo or Google Authenticator. To learn how to configure for Two-Factor Authentication, refer the [guide here](https://docs.mageplaza.com/two-factor-authentication/index.html).
+
+![](https://i.imgur.com/N8p6Zzv.png)
+
+#### 17.2. Compatible with Report
+
+Mageplaza's Social Login extension is fully compatible with the [Report extension](https://www.mageplaza.com/magento-2-reports-extension/) to provide statistics of each social account including information: User, Order, Amount, so on via Social login chart.
+
+![](https://i.imgur.com/2hMuoAu.png)
+
+
+#### 17.3. Compatible with Google Recaptcha.
+
+Mageplaza's Social Login extension is fully compatible with [Google Recaptcha](https://www.mageplaza.com/magento-2-google-recaptcha/) which helps process authentication when customers login, register an account, etc on your site to avoid spam or phishing.
+
+![](https://i.imgur.com/Mkp8OuZ.png)
 
