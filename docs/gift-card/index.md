@@ -69,22 +69,22 @@ Follow the path ``Mageplaza > Gift Card: Configuration > General Configuration``
 ##### 1.1.2. Gift Code Hidden Configuration
 Expand the ``General Configuration > Gift Code Hidden Configuration``
 
-![](https://i.imgur.com/dmZlvND.png)
+![](https://i.imgur.com/lVdsGey.png)
 
 * This is an additional module of **General Configuration**
 * In the **Enable** field
   * Choose “Yes” to apply the **Hidden Configuration**
   * A part of the gift code will be hidden when being displayed on the frontend
 **Hidden Code Configuration** will be applied in the **Saved List**, **View Cart Page** and **Checkout Page** of customers, when the admin clicks **Apply Code** along with **Code** in the email informing the sender (when the customer buys Gift Card Product for others)
-* In the **Hidden character** field
-  * This is the hidden symbol covering characters in the Gift Code
-  * If you leave it blank, the default symbol will be “X”
 * In the **Prefix chars** field
   * You are able to set the number of prefix characters in the Gift Code
   * If you leave it blank, nothing will be displayed.
 * In the **Suffix chars** field
   * You are able to set the number of suffix characters in the Gift Code
   * If you leave it blank, nothing will be displayed
+* In the **Hidden character** field
+  * This is the hidden symbol covering characters in the Gift Code
+  * If you leave it blank, the default symbol will be “X”
   
 *An example of a Saved Gift Card List. When customers click on the Hidden Code, the entire code will be displayed*
 ![](https://i.imgur.com/lJcVsYE.png)
@@ -103,9 +103,10 @@ Expand the ``General Configuration > Gift Code Hidden Configuration``
 ##### 1.2.1. General
 This is where you can set up fews of basic configuration for Gift Card Product ``Mageplaza > Gift Card: Configuration > Gift Card Product Configuration``
 
-![](https://i.imgur.com/EtzbRSG.png)
+![](https://i.imgur.com/xrSWg8q.png)
 
 * In the **Gift Card Lifetime** field: It’s the place to set the expiration date of a gift card purchased by a customer. 
+* In the **Tooltip Upload Image**: Set the tool tip content shown at upload image for Gift Card product. Leave this field blank to disable this function.
 * In the **Enable Delivery Time** field 
   * Select “Yes” to display **Delivery Date** on the frontend Gift card Product page. This also allows the customer to choose the gift card delivery date as they wish.
   * When you select “Yes”, **Customer Can Select Timezone** section is displayed.
@@ -137,7 +138,9 @@ It’s an add-on part of Gift Card Product Configuration
 ##### 1.3.1. General
 Follow the path ``Mageplaza > Gift Card: Configuration > Gift Card/Credit Checkout Configuration``
 
-![](https://i.imgur.com/JuoxURL.png)
+![](https://i.imgur.com/8wtmUhr.png)
+
+* In the **Show As Product Image**: Choose **Yes**, image uplodaed for gift card product will be shown on View Cart Page and Checkout Page instead of default image.  
 
 * In the **Use Coupon Box To Apply Gift Card** field
   * Select “Yes” to apply Gift Code with Magento's default Coupon Box. So that:
@@ -165,7 +168,7 @@ This is a supplementary part of **Gift Card Product Configuration** section
 ![](https://i.imgur.com/90cJKcl.png)
 
 * In the **Can Use For Shipping Amount** field: Select “Yes” to apply a gift Card and gift credit for the shipping fee. If both gift card and gift credit are having sufficient value and the customer doesn’t purchase Gift Card Product, the order can be considered as a free one.
-* In the **Allow Refund Gift Card** field: Select “Yes” to be able to refund the amount of a gift card or gift credit to customer's balance.
+* In the **Allow Refund Gift Card** field: Select “Yes” to be able to refund the amount of a gift card to customer's gift code balance.
 
 #### 1.4. Gift Card Template Configuration
 Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration`` to modify general modules changing template for gift certificates
@@ -368,7 +371,7 @@ After accessing the Manage Gift Code(s) page, admins can select ``Create New Gif
 
 ##### 3.2.1 Gift Code Information
 
-![](https://i.imgur.com/RGh89Jd.png)
+![](https://i.imgur.com/8EIhvhv.png)
 
 * In the **Code Pattern** field
   * Will be taken from the **General Configuration**. Admins can change Code Pattern flexibly.
@@ -390,12 +393,17 @@ After accessing the Manage Gift Code(s) page, admins can select ``Create New Gif
 * In the **Created At** section: Only visible when gift code was created. It includes date and time creating.
 * In the **Created From** field: This entry is only visible to gift codes created from the Order that contains the Gift Card Product, including the Order ID and the name of the Gift Card Product.
 
-##### 3.2.2 Delivery Information
+##### 3.2.3 Gift Code Condition
+Set up the cart condition to be able to apply new Gift Code created/edited
+
+![](https://i.imgur.com/ibTKSli.png)
+
+Delivery Information
 Modules in **Delivery Information** are automatically filled in if the gift code is created from an order that contains a Gift Card Product that the customer has filled out when making a purchase. However, you can also correct this information before sending a gift card to recipients.
 
 Follow these steps if you want to create a new gift code.
 
-###### 3.2.2.1 Sending Information
+###### 3.2.3.1 Sending Information
 
 ![](https://i.imgur.com/ULZ2rPf.png)
 
@@ -411,7 +419,7 @@ Follow these steps if you want to create a new gift code.
   * This will be visible if the **Message** is enabled for selected template  
   * If **Message** is included, the sender's message will be displayed on the Gift Card
 
-###### 3.2.2.2 Delivery Methods
+###### 3.2.3.2 Delivery Methods
 Includes 4 types of Delivery Method: Email, Text Message, Print At Home and Post Office.
 
 * **Email**: When you select this method, the gift card will be sent to the recipient by email. Admins need to fill in all the details so that the system can send the emails correctly (according to Email Configuration)
@@ -429,7 +437,7 @@ Includes 4 types of Delivery Method: Email, Text Message, Print At Home and Post
 * **Post Office**: you need to fill precise information to avoid losing gift cards in the way.
 ![](https://i.imgur.com/LbJlQHk.png)
 
-##### 3.2.3. History
+##### 3.2.4. History
 This module is only visible when the gift code has been created (i.e the gift code has been saved). It points out when the code was executed, what actions were done, how much of the remaining balance is, how the amount was changed, if the gift code is still valid
 
 ![](https://i.imgur.com/sLMrShC.png)
@@ -454,29 +462,57 @@ The general path to manage all modules is ``Mageplaza > Gift Card: Manage Gift C
 #### 4.2. Create/Edit a Gift Code Pool
 ##### 4.2.1. Gift Code Information
 
+###### 4.2.1.1 Pool Information
+
 ![](https://i.imgur.com/omkuBd8.png)
 
 * In the **Name** field: A friendly note that you need to name the gift code pool to distinguish easily from other pools.
 * In the **Status** field: Choose “Active” to enable the pool .
 * In the **Can Inherit** field: Select “Yes” so that created gift codes will also be changed according to the new alternative of the Pool (except for the Status Attribute)
 
-###### 4.2.2. Gift Card Information
+###### 4.2.1.2 Gift Card Information
+
 ![](https://i.imgur.com/POUIwe4.png)
 
 * Includes the basic information of the gift card, you just need to fill in this information similarly to when creating a gift code.
 * After saving, the created gift card will then have the same information with each others (except the gift card code)
 
+
+##### 4.2.2. Gift Code Condition
+
+* Set up the condition for applying the new Gift Code Pool created/edited
+* If the field **Can Inherit = Yes**, all Gift Code in Gift Code Pool will auto amatch the Pool conditions.
+
+![](https://i.imgur.com/qa0MzdY.png)
+
+
 ###### 4.2.3. Generate Gift Cards
+
 ![](https://i.imgur.com/takLd1O.png)
 
-```
-This module is only visible when Pool is created, which provides information about the Code, Balance, Status and Date created by the gift card.
-```
 
-* In the **Code Pattern**: Admins can change the code pattern of the pool. The created gift card will have the same gift code form.
-* In the **Gift Card Qty**: Admins simply enter the number of gift card you want to create and click ``Generate`` to get code quickly
+* This module is only visible when Pool is created, which provides information about the Code, Balance, Status and Date created by the gift card.
+
+* **Generate Type**: Select forms to create Gift Code for the Pool. Extension currently supports 3 ways to create:
+
+![](https://i.imgur.com/robKmuv.png)
+
+* **Generate Type = Auto Generate**: Generates code automatically according to the installed Pattern. When this method is selected, two fields of **Code Pattern** and **Gift Card Qty** will be displayed.
+* **Code Pattern**: Admin can change the Code Pattern of the Pool. Gift Cards created will have the same Gift Code form
+* **Gift Card Qty**: Admin just enter the Gift Card number you want to create and click Generate to generate Code quickly
+
+![](https://i.imgur.com/EkGSxk2.png)
+
+* **Generate Type = Import**: Generate code by importing csv file. Admin creates a csv file with the format shown below, select the file and click **Import** to enter the gift code for the pool.
+
+![](https://i.imgur.com/HZOOfit.png)
+
+![](https://i.imgur.com/kBBoX1u.png)
+
+* **Generate Type = Manual**: Create manual code by manually entering the gift code of the pool. Each line in the Gift Code field (s) will be considered a gift code.
 
 ### V. Gift Card History
+
 ![](https://i.imgur.com/rxGHfEU.png)
 
 * Gift Card History shows the history log of all Gift Cards, including ID, Code, Action, Balance, Amount Change, Status, Detail and Created Date.
@@ -484,6 +520,7 @@ This module is only visible when Pool is created, which provides information abo
 * Moreover, admins can Filter, Change Store View or add/remove column(s)
 
 ### VI. How to create a Gift Card Product
+
 To create a new Gift Card Product, follow this link when you’re in store’s backend ``Product > Catalog > Add New Product > Gift Card Product``
 
 ![](https://i.imgur.com/ATrsXZb.gif)
@@ -509,6 +546,9 @@ After filling in all required information of a Gift Card Product such as Name, S
 * **Can Redeem**: Choose “Yes” to allow the created gift card from a gift card product can be redeem (when in ``Settings > Configuration``, the gift card can be redeem)
 * **Expire After Day**: you can set the duration of the created gift card when purchasing a gift card product
 * **Template**: Templates are automatically added to this section. The selected template will be displayed in the frontend.
+* In addition, the admin can set the condition that applies to the Gift Code created from the Gift Card product that Customer purchased at the Gift Code Condition tab.
+
+![](https://i.imgur.com/04UJaqw.png)
 
 *Example for a gift card which is created when purchasing a gift card product*
 ![](https://i.imgur.com/TXF2MFK.png)
