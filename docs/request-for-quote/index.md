@@ -134,7 +134,7 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 ![Imgur](https://i.imgur.com/iNWYS7A.png)
 
 - **Enable Expiration Reminder Emails**: Choose **Yes** to send email reminders to customers. Admin chooses **Expiration Reminder Template**.
-- **Enable Emails When Expiration**: Select **Yes** to send customers an email to notify the end of quote. Admin select ****Expiration Notice Template**.
+- **Enable Emails When Expiration**: Select **Yes** to send customers an email to notify the end of quote. Admin select **Expiration Notice Template**.
 
 ##### 3.3. Admin Notification Email
 
@@ -259,6 +259,6 @@ Click **Cancel** to cancel the action.
 
 ### IV. Compatible with Quick Order extension
 
-The "Add To Quote" button is displayed on the **Quick Order** page when you use the Quick Order and Request For Quote extensions together. This support helps customers' operations more quickly.
+The **Add To Quote** button is displayed on the **Quick Order** page when you use the Quick Order and Request For Quote extensions together. This support helps customers' operations more quickly.
 
 ![Imgur](https://i.imgur.com/CgUR0Oo.png)
