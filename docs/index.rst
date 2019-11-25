@@ -43,6 +43,7 @@ Welcome to Mageplaza Docs
    reports-ultimate/index
    product-feed/index
    abandoned-cart-email/index
+   admin-permissions/index
    age-verification/index
    banner-slider/index
    backend-reindex/index
@@ -53,6 +54,7 @@ Welcome to Mageplaza Docs
    better-maintenance/index
    better-order-grid/index
    better-product-reviews/index
+   better-product-options/index
    better-sorting/index
    better-wishlist/index
    blog-m2/index
@@ -66,6 +68,7 @@ Welcome to Mageplaza Docs
    cron-schedule/index
    currency-formatter/index
    custom-order-number/index
+   custom-form/index
    customer-approval/index
    customer-attributes/index
    custom-stock-status/index
@@ -74,6 +77,7 @@ Welcome to Mageplaza Docs
    delete-order-m2/index
    delivery-time/index
    email-attachments/index
+   edit-order/index
    extra-fee/index
    facebook-plugin/index
    faq/index
@@ -110,6 +114,7 @@ Welcome to Mageplaza Docs
    product-labels/index
    product-slider-m2/index
    product-alerts/index
+   product-finder/index
    promo-bar/index
    promo-banner/index
    quick-cart/index
@@ -120,8 +125,10 @@ Welcome to Mageplaza Docs
    rma/index
    sagepay/index
    save-cart-and-buy-later/index
+   sales-pop/index
    search/index
    security/index
+   securepay/index
    security-pro/index
    same-order-number/index
    share-cart/index
@@ -136,6 +143,8 @@ Welcome to Mageplaza Docs
    store-switcher/index
    store-credit/index
    stripe/index
+   table-rate-shipping/index
+   table-category-view/index
    thank-you-page/index
    twitter-widget/index
    who-bought-this-also-bought/index
