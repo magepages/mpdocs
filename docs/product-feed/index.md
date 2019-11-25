@@ -161,7 +161,7 @@ php bin/magento mp-productfeed:generate 1 3 4
 
 - Question: How to solve the issue of **Product URL does not show correctly**?
 
-- Answer: Find the solution [here](https://www.mageplaza.com/kb/product-url-does-not-show-correctly.html). 
+- Answer: Find the solution [here](https://www.mageplaza.com/faqs/product-url-does-not-show-correctly.html). 
 
 
 ## Must-have extensions for your Magento stores
