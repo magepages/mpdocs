@@ -10,47 +10,47 @@ Westpac is Australia's most trusted payment processing provider. [Mageplaza West
 
 - **Westpac**: to register for a Westpac account, access [this link](https://www.payway.com.au/sandbox) and filling in the required information below:
 
-![Imgur](https://i.imgur.com/kC6PPeM.png)
+![](https://i.imgur.com/kC6PPeM.png)
 
 - After registration, the system will send login name and password to the email you registered:
 
-![Imgur](https://i.imgur.com/9hiuRWF.png)
+![](https://i.imgur.com/9hiuRWF.png)
 
 - Open your registered mail and get your login name and password.
 
-![Imgur](https://i.imgur.com/9hiuRWF.png)
+![](https://i.imgur.com/9hiuRWF.png)
 
 - After Sign in, the system will ask you to change the password
 
-![Imgur](https://i.imgur.com/igGC0ct.png)
+![](https://i.imgur.com/igGC0ct.png)
 
 Finally, the system will ask you to answer 2 security questions to finish logging in.
 
-![Imgur](https://i.imgur.com/i8Z8JI6.png)
+![](https://i.imgur.com/i8Z8JI6.png)
 
 ### 2. How to get REST API Publishable Key, REST API Secret Key and Merchant ID
 
 - At the Westpac interface, click `REST API > REST API Keys`.
 
-![Imgur](https://i.imgur.com/niw7Gu6.png)
+![](https://i.imgur.com/niw7Gu6.png)
 
 - Click **View** to get the **REST API Publishable Key** and the **REST API Secret Key** to fill in **Configuration** (will be guided below)
 
-![Imgur](https://i.imgur.com/Mk11jYS.png)
+![](https://i.imgur.com/Mk11jYS.png)
 
 - At the interface of Westpac, continue to click `Administration> Merchants` then get **Merchant ID** to fill in **Configuration** (will be instructed below)
 
-![Imgur](https://i.imgur.com/mYgHgui.png)
+![](https://i.imgur.com/mYgHgui.png)
 
 ### 3. How to get Biller Code, Security Username, Security Password, Encryption Key
 
 - At the Westpac interface, click `Setup Net > Hosted Payment Page`, then select **Bill Payments/Shopping Cart** and **Next**
 
-![Imgur](https://i.imgur.com/XwjPTHX.png)
+![](https://i.imgur.com/XwjPTHX.png)
 
 - You continue clicking **Next** and follow the system requirements, then the system will send information of **Biller Code, Security Username, Security Password, Encryption Key**
 
-![Imgur](https://i.imgur.com/CU6Q5KJ.png)
+![](https://i.imgur.com/CU6Q5KJ.png)
 
 - Continue selecting **Next** to end the action.
 
@@ -58,11 +58,11 @@ Finally, the system will ask you to answer 2 security questions to finish loggin
 
 - At the interface of Westpac, click `Setup API > Security`, the system displays the security information including username and password.
 
-![Imgur](https://i.imgur.com/KrPlzdh.png)
+![](https://i.imgur.com/KrPlzdh.png)
 
 - Continue clicking `Setup API > Certificate`, at **Choose your API Technology** select **PHP** and download the file to fill in the Configuration section.
 
-![Imgur](https://i.imgur.com/Kxk20KY.png)
+![](https://i.imgur.com/Kxk20KY.png)
 
 ### 5. Page Checkout
 
@@ -70,15 +70,15 @@ Finally, the system will ask you to answer 2 security questions to finish loggin
 
 - **PayWay Trust Frame**
 
-![Imgur](https://i.imgur.com/wuWnG8Y.png)
+![](https://i.imgur.com/wuWnG8Y.png)
 
 - **PayWay Net Hosted Page**
 
-![Imgur](https://i.imgur.com/4GVDGen.gifv)
+![](https://i.imgur.com/4GVDGen.gif)
 
 - **PayWay Classic Credit Card API**
 
-![Imgur](https://i.imgur.com/CincXY0.png)
+![](https://i.imgur.com/CincXY0.png)
 
 - You can check the checkout process with the following Cards:
 
@@ -180,15 +180,15 @@ Use the following credit card numbers with your test facility. The cardholder na
 
 Login to the Magento Admin, choose `Stores > Configuration > Sales > Payment Methods`
 
-![Imgur](https://i.imgur.com/3FTji8M.png)
+![](https://i.imgur.com/3FTji8M.png)
 
 At **Westpac PayWay Payment Method**, click **Configure**
 
-![Imgur](https://i.imgur.com/3dcyy9x.png)
+![](https://i.imgur.com/3dcyy9x.png)
 
 ### 1. Credentials
 
-![Imgur](https://i.imgur.com/m1ApROT.png)
+![](https://i.imgur.com/m1ApROT.png)
 
 - **Merchant ID**:
   - Copy and paste **Merchant ID** got before to this field.
@@ -202,7 +202,7 @@ At **Westpac PayWay Payment Method**, click **Configure**
 
 ### 2. Westpac PayWay Net Trusted Frame
 
-![Imgur](https://i.imgur.com/hb4Z7W0.png)
+![](https://i.imgur.com/hb4Z7W0.png)
 
 - **Enable**: Select **Yes** to enable **PayWay Net Trusted Frame** payment features.
 - **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
@@ -235,13 +235,13 @@ At **Westpac PayWay Payment Method**, click **Configure**
 
 ### 3. Westpac PayWay Net Hosted Page
 
-![Imgur](https://i.imgur.com/BxJjvaR.png)
+![](https://i.imgur.com/BxJjvaR.png)
 
 - **Enable**: Select **Yes** to enable **PayWay Net Hosted Page**.
-- **Biller Code**: Copy the **Biller Code** got before in to this field. If left blank or filled in incorrectly will not be connected to these payment methods.
-- **Security Username**: Copy **Security Username** got before in to this field. If left blank or filled in incorrectly will not be connected to these payment methods.
-- **Security Password**: Copy **Security Password** got before in to this field. If left blank or filled in incorrectly will not be connected to these payment methods.
-- **Encryption Key**: Copy the **Encryption Key** got before in to this field. If left blank or filled in incorrectly will not be connected to these payment methods.
+- **Biller Code**: Copy the **Biller Code** got before into this field. If left blank or filled in incorrectly will not be connected to these payment methods.
+- **Security Username**: Copy **Security Username** got before into this field. If left blank or filled in incorrectly will not be connected to these payment methods.
+- **Security Password**: Copy **Security Password** got before into this field. If left blank or filled in incorrectly will not be connected to these payment methods.
+- **Encryption Key**: Copy the **Encryption Key** got before into this field. If left blank or filled in incorrectly will not be connected to these payment methods.
 - **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
 - **Payment Action**:
   - **Authorize and Capture**: Payment will be captured as soon as customer place orders successfully. At that moment, customer's card will always pay for the order and invoice will be created.
@@ -273,7 +273,7 @@ At **Westpac PayWay Payment Method**, click **Configure**
 
 ### 4. Westpac PayWay Classic Credit Card API
 
-![Imgur](https://i.imgur.com/F9jsskI.png)
+![](https://i.imgur.com/F9jsskI.png)
 
 - **Enable**: Select **Yes** to enable **PayWay Classic Credit Card API**.
 - **API Security Username**: Copy **API Security Username** got before into this field. If left blank or filled in incorrectly will not be connected to these payment methods.
@@ -311,17 +311,17 @@ At **Westpac PayWay Payment Method**, click **Configure**
 
 This section records **Credit Card information (Westpac)** that customers have ordered and paid.
 
-![Imgur](https://i.imgur.com/FLKcmMD.png)
+![](https://i.imgur.com/FLKcmMD.png)
 
 ### 6. Customer View Order
 
 This section stores card information that customers have ordered.
 
-![Imgur](https://i.imgur.com/MIyFrmI.png)
+![](https://i.imgur.com/MIyFrmI.png)
 
 ### 7. Compatible with One Step Checkout
 
-![Imgur](https://i.imgur.com/ETAyJ3J.png)
+![](https://i.imgur.com/ETAyJ3J.png)
 
 ### 8. Instructions for installing the library
 
