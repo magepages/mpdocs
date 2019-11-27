@@ -36,7 +36,7 @@ From the Admin Panel, go to `Sales > Shipping Rules > Configuration`
 ##### Step 1: Enter the full General information
 
 - **Name**: Enter the name of the rule
-- **Decription**: Enter a description for the rule
+- **Description**: Enter a description for the rule
 - **Status**: Select "Enable" to apply the rule
 - **Select Shipping Methods**
   - Select the delivery method
