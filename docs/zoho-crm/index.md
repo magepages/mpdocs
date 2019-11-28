@@ -2,7 +2,7 @@
 
 ## Overview
 
-Zoho CRM or Customer Relationship Management software is a cloud-based CRM service that helps you store and segment your customer data into different groups throughout the customer's journey. [Mageplaza Zoho CRM extension](https://www.mageplaza.com/magento-2-zoho-crm/) will help you integrate seamlessly with Zoho CRM to connect and synchronize data from Magento including **Customer, Product, Order, Invoice, Catalog Rules** to Zoho CRM with **Accounts, Contacts, Leads, Sales, Purchase Orders, Invoices, Products, Campaigns** and vice versa. That will help create a smooth flow to maintain customer relationships and organize your business well. Also, data to Zoho CRM can be sent manually or automatically synchronized whenever there is any update. 
+Zoho CRM or Customer Relationship Management software is a cloud-based CRM service that helps you store and segment your customer data into different groups throughout the customer's journey. [Mageplaza Zoho CRM extension](https://www.mageplaza.com/magento-2-zoho-crm/) will help you integrate seamlessly with Zoho CRM to connect and synchronize single or bulk data from Magento including **Customer, Product, Order, Invoice, Catalog Rules** to Zoho CRM with **Accounts, Contacts, Leads, Sales, Purchase Orders, Invoices, Products, Campaigns** and vice versa. That will help create a smooth flow to maintain customer relationships and organize your business well. Also, data to Zoho CRM can be sent manually or automatically synchronized whenever there is any update. 
 
 
 ## How to download and install
@@ -74,7 +74,11 @@ Login to the Magento Admin, choose `Stores > Settings > Configuration > Zoho CRM
   - Enter the number of objects limit each time sending data to Zoho Module. Any pre-added queues will be prioritized to be sent to the  Zoho Module first. The value is allowed to range from 1 to 1000.
   - If you leave it blank or zero, schedule is not run.
 
-  
+#### 1.3 Developer
+
+![](https://i.imgur.com/elET32w.png)
+
+
 ### 2. Manage Sync Rules
 
 Login to the Magento Admin, choose `Stores > Zoho CRM > Synchronization Rules`.
