@@ -81,7 +81,7 @@ At the Barclaycard interface, click `Configuration > Technical information > Glo
 
 #### Barclaycard ePDQ e-Commerce
 
-![Imgur](https://i.imgur.com/Kau6XAR.gifv)
+![Imgur](https://i.imgur.com/Kau6XAR.gif)
 
 #### Barclaycard ePDQ DirectLink
 
@@ -291,28 +291,63 @@ At Barcylaycard click `Configure > Credentials`:
 
 ![Imgur](https://i.imgur.com/fe0NEPE.png)
 
-Environment:
-Admin can choose Sandbox environment to check the payment features of the methods.
-When applying for online payment, the admin needs to switch the environment to Production.
-PSPID:
-Copy the above PSPID here.
-If left blank or entered incorrectly, the payment method will not be connected.
-Hash Algorithm: Depends on your choice in the Configuration Barclaycard above
-User ID:
-Copy the User ID above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-e-Commerce SHA-in pass Phrase:
-Copy the e-Commerce SHA-in pass Phrase above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-e-Commerce SHA-out pass Phrase:
-Copy the e-Commerce SHA-out pass Phrase above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-User ID API:
-Copy the API User ID above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-API User Password:
-Copy API User Password above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-DirectLink SHA-in pass Phrase:
-Copy the DirectLink SHA-in pass Phrase above here.
-If left blank or entered incorrectly, the payment method will not be connected.
+- **Environment**:
+  - Admin can choose **Sandbox** environment to check the payment features of the methods.
+  - When applying for online payment, the admin needs to switch the environment to **Production**.
+- **PSPID**:
+  - Copy the above PSPID and paste it here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **Hash Algorithm**: Depends on your choice in the **Configuration Barclaycard** above
+- **User ID**:
+  - Copy the User ID above and paste it here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **e-Commerce SHA-in pass Phrase**:
+  - Copy the e-Commerce SHA-in pass Phrase got above into this field.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **e-Commerce SHA-out pass Phrase**:
+  - Copy the e-Commerce SHA-out pass Phrase got above into this field.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **User ID API**:
+  - Copy the API User ID above and paste it here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **API User Password**:
+  - Copy API User Password above and paste it here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **DirectLink SHA-in pass Phrase**:
+  - Copy the DirectLink SHA-in pass Phrase above and paste it here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+  
+### 2. Barclaycard ePDQ e-Commerce
+
+![Imgur](https://i.imgur.com/KUmf2dC.gif)
+
+- Enable: Select "Yes" to enable using Barclaycard ePDQ e-Commerce payment feature.
+- Language Code: Select the option to change the language of the payment page that I redirect to.
+- Title: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
+- Payment Action:
+  - Authorize and Capture: Payment will be Capture as soon as Customer Place orders are successful. At that moment, Customer's card will always pay for the order and Invoice will be created.
+- Authorize: Payment will only be Capture when admin creates Invoice for Customer order. Once Invoice is successfully created, the admin can receive money from Customer's card.
+- New Order Status: Select status when customer order is successful:
+- Processing: Display status with Processing when the order is successful. Can change the status in the backend for each order.
+- Suspected Fraud: Display the status with Suspected Fraud when the order is successful. Can change the status in the backend for each order. With this status, admin can accept payment or decline payment and then change status to Processing.
+- Card Types:
+- Choose 1 or more cards to pay.
+- Cards will be verified when Customer completes card number when checking out. For cards not selected in this section, there will be invalid notice for customers. If the card is not selected, it will not appear in the Checkout page.
+- Accepted Currencies: Choose Accepted currency to satisfy the Store's Currency to allow the payment method to be displayed.
+- Payment from Applicable Countries:
+- Select All Allowed Countries so the card payment method can be applied in all countries.
+- To restrict this payment with more conditions, see Payment Restrictions module.
+- Select Specific Countries to limit certain countries to be able to use this payment method
+- Payment from Specific Countries: The selected countries will be displayed with the payment method by Card
+- Show Logo: Click Choose File to download the image displayed for the payment method on the Checkout page.
+- Minimum Order Total:
+- Enter the minimum order amount to display and apply for payments using Barclaycard ePDQ e-Commerce.
+- If the order amount is less than the school's information, payment methods will not be displayed.
+- Maximum Order Total:
+- Enter the maximum amount of Order to display and apply payment by Barclaycard ePDQ e-Commerce.
+- If the order amount is greater than the school's information, the payment method will not be displayed.
+- Debug Mode:
+- If Yes, diagnostic information is stored in log files on the Magento web server.
+- Sort Order:
+- Specify the display position of this payment method compared to other payment methods
+- 0 is the largest number. Smaller numbers will be preferred to show in the first position.
