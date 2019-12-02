@@ -213,7 +213,7 @@ At **Westpac PayWay Payment Method**, click **Configure**
   - **Processing**: Display status with **Processing** when the order is successful. Can change the status in the backend for each order.
   - **Suspected Fraud**: Display the status with **Suspected Fraud** when the order is successful. Can change the status in the backend for each order. With this status, admin can accept payment or decline payment and then change status to **Processing**.
 - **Card Types**:
-  - Choose 1 or more cards to pay.
+  - Choose 1 or more cards to be used with this payment method.
   - Cards will be verified when customer completes card number when checking out. For cards not selected in this section, there will be invalid notice shown for customers. For cards that are not selected, they will not appear in Checkout page.
 - **Show Logo**: Click **Choose File** to download the image displayed for the payment method on the Checkout page.
 - **Payment from Applicable Countries**:
