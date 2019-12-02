@@ -2,6 +2,7 @@
 
 ## Overview
 
+Barclays is the UK's most trusted multinational banking and financial services company headquartered in London. [Mageplaza Barclaycard extension](https://mageplaza.com/magento-2-barclaycard/) will help you use Barclays to support online payment by card. Your customers can pay by Visa, Mastercard, Maestro, Amex Credit by default and can pay with Diners Club and JCB after being activated by Barclays. Mageplaza Barclaycard extension is fully compatible with [Mageplaza One Step Checkout](https://mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## How to use
 
@@ -9,23 +10,23 @@
 
 - **Barclaycard**: to register for a Barclaycard account, access the [this link](https://mdepayments.epdq.co.uk/Ncol/Test/BackOffice/accountcreation/create?ISP=epdq&acountry=gb), complete the required information below:
 
-![Imgur](https://i.imgur.com/LtgGx2c.png)
+![](https://i.imgur.com/LtgGx2c.png)
 
 - After registration, the system will send password information via email that you have registered.
 
-![Imgur](https://i.imgur.com/2EwB8AL.png)
+![](https://i.imgur.com/2EwB8AL.png)
 
 - Open your registration email and get the login password information
 
-![Imgur](https://i.imgur.com/cRzXs6p.png)
+![](https://i.imgur.com/cRzXs6p.png)
 
 - Access the [this link](https://mdepayments.epdq.co.uk/Ncol/Test/Backoffice/login) to Login
 
-![Imgur](https://i.imgur.com/Cy9mW7W.png)
+![](https://i.imgur.com/Cy9mW7W.png)
 
 - Barclaycard's interface after successful login
 
-![Imgur](https://i.imgur.com/AFHt7th.png)
+![](https://i.imgur.com/AFHt7th.png)
 
 ### 2. Hash algorithm
 
@@ -33,9 +34,9 @@ Hash algorithm needs to be same with Hash algorithm in barclay.
 
 At the Barclaycard interface, click `Configuration > Technical information > Global security parameters`.
 
-![Imgur](https://i.imgur.com/wr2kOqk.png)
+![](https://i.imgur.com/wr2kOqk.png)
 
-![Imgur](https://i.imgur.com/vXfFTBa.png)
+![](https://i.imgur.com/vXfFTBa.png)
 
 ### 3. Instructions for getting User ID, e-Commerce SHA-in pass phrase, e-Commerce SHA-out pass phrase
 
@@ -43,15 +44,15 @@ At the Barclaycard interface, click `Configuration > Technical information > Glo
 
 - To get the **e-Commerce SHA-in pass phrase**, at the Barclaycard interface, click `Configuration > Technical Information > Data and origin verification`.
 
-![Imgur](https://i.imgur.com/zHFo9Yd.png)
+![](https://i.imgur.com/zHFo9Yd.png)
 
 - To get the **e-Commerce SHA-out pass phrase key**, at the Barclaycard interface, click `Configuration > Technical Information > Transaction feedback`. You go to **Security for request parameters** to get the key.
 
-![Imgur](https://i.imgur.com/xK0ov1Z.png)
+![](https://i.imgur.com/xK0ov1Z.png)
 
 - Click `Configuration > Technical Information > Transaction feedback`, at **HTTP redirection** in the browser. Select the checkbox below to get feedback parameters of the transaction on the URL when redirecting.
 
-![Imgur](https://i.imgur.com/KzKvyap.png)
+![](https://i.imgur.com/KzKvyap.png)
 
 ### 4. Instructions for getting API User ID, API User Password, DirectLink SHA-in pass phrase, 3D Secure
 
@@ -61,19 +62,19 @@ At the Barclaycard interface, click `Configuration > Technical information > Glo
 
 - In Create user form, after filling out your information, click **Related FAQ** then click **Create** button.
 
-![Imgur](https://i.imgur.com/G0y7VOG.png)
+![](https://i.imgur.com/G0y7VOG.png)
 
 - To get the **DirectLink SHA-in pass phrase**, at the Barclaycard interface, click `Configuration > Technical Information > Data and origin verification`.
 
-![Imgur](https://i.imgur.com/sI2dtAb.png)
+![](https://i.imgur.com/sI2dtAb.png)
 
 - To display authentication with 3D Secure, at the Barclaycard interface, click `Advanced > Fraud detection`
 
-![Imgur](https://i.imgur.com/S3bD5s9.png)
+![](https://i.imgur.com/S3bD5s9.png)
 
 - Click on **Edit** at Credit Card to configure 3D Secure for the card. After configuration is complete, click **Submit**
 
-![Imgur](https://i.imgur.com/AZbyMJc.png)
+![](https://i.imgur.com/AZbyMJc.png)
 
 ### 5. Checkout page
 
@@ -81,11 +82,11 @@ At the Barclaycard interface, click `Configuration > Technical information > Glo
 
 #### Barclaycard ePDQ e-Commerce
 
-![Imgur](https://i.imgur.com/Kau6XAR.gif)
+![](https://i.imgur.com/Kau6XAR.gif)
 
 #### Barclaycard ePDQ DirectLink
 
-![Imgur](https://i.imgur.com/cfLOAt2.png)
+![](https://i.imgur.com/cfLOAt2.png)
 
 - You can check the checkout process with the following Cards:
 
@@ -279,17 +280,17 @@ To find out more cases, please visit [here](https://support.epdq.co.uk/en)
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`
 
-![Imgur](https://i.imgur.com/GRtIIDX.png)
+![](https://i.imgur.com/GRtIIDX.png)
 
 At **Barclaycard Payment Method**, click **Configure**
 
-![Imgur](https://i.imgur.com/gZ5w97w.png)
+![](https://i.imgur.com/gZ5w97w.png)
 
 ### 1.Credentials
 
 At Barcylaycard click `Configure > Credentials`:
 
-![Imgur](https://i.imgur.com/fe0NEPE.png)
+![](https://i.imgur.com/fe0NEPE.png)
 
 - **Environment**:
   - Admin can choose **Sandbox** environment to check the payment features of the methods.
@@ -319,35 +320,121 @@ At Barcylaycard click `Configure > Credentials`:
   
 ### 2. Barclaycard ePDQ e-Commerce
 
-![Imgur](https://i.imgur.com/KUmf2dC.gif)
+![](https://i.imgur.com/KUmf2dC.gif)
 
-- Enable: Select "Yes" to enable using Barclaycard ePDQ e-Commerce payment feature.
-- Language Code: Select the option to change the language of the payment page that I redirect to.
-- Title: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
-- Payment Action:
-  - Authorize and Capture: Payment will be Capture as soon as Customer Place orders are successful. At that moment, Customer's card will always pay for the order and Invoice will be created.
-- Authorize: Payment will only be Capture when admin creates Invoice for Customer order. Once Invoice is successfully created, the admin can receive money from Customer's card.
-- New Order Status: Select status when customer order is successful:
-- Processing: Display status with Processing when the order is successful. Can change the status in the backend for each order.
-- Suspected Fraud: Display the status with Suspected Fraud when the order is successful. Can change the status in the backend for each order. With this status, admin can accept payment or decline payment and then change status to Processing.
-- Card Types:
-- Choose 1 or more cards to pay.
-- Cards will be verified when Customer completes card number when checking out. For cards not selected in this section, there will be invalid notice for customers. If the card is not selected, it will not appear in the Checkout page.
-- Accepted Currencies: Choose Accepted currency to satisfy the Store's Currency to allow the payment method to be displayed.
-- Payment from Applicable Countries:
-- Select All Allowed Countries so the card payment method can be applied in all countries.
-- To restrict this payment with more conditions, see Payment Restrictions module.
-- Select Specific Countries to limit certain countries to be able to use this payment method
-- Payment from Specific Countries: The selected countries will be displayed with the payment method by Card
-- Show Logo: Click Choose File to download the image displayed for the payment method on the Checkout page.
-- Minimum Order Total:
-- Enter the minimum order amount to display and apply for payments using Barclaycard ePDQ e-Commerce.
-- If the order amount is less than the school's information, payment methods will not be displayed.
-- Maximum Order Total:
-- Enter the maximum amount of Order to display and apply payment by Barclaycard ePDQ e-Commerce.
-- If the order amount is greater than the school's information, the payment method will not be displayed.
-- Debug Mode:
-- If Yes, diagnostic information is stored in log files on the Magento web server.
-- Sort Order:
-- Specify the display position of this payment method compared to other payment methods
-- 0 is the largest number. Smaller numbers will be preferred to show in the first position.
+- **Enable**: Select **Yes** to using the **Barclaycard ePDQ e-Commerce** payment feature.
+- **Language Code**: Select the language of the Barclaycard payment page that is redirected to after customer place order at store checkout page.
+- **Title**: Set the title for this payment method at checkout page.
+
+- **Payment Action**:
+  - **Authorize and Capture**: Payment will be captured as soon as customer place orders successfully. At that moment, customer's card will always pay for the order and invoice will be created.
+  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once invoice is successfully created, the admin can receive money from customer's card.
+
+- **New Order Status**: Select status when customer orders successfully:
+  - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
+  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to **Processing**.
+  
+- **Card Types**:
+  - Choose 1 or more cards to be used with this payment method.
+  - Cards will be verified when customer completes card number when checking out. For cards not selected in this section, there will be invalid notice shown for customers. For cards that are not selected, they will not appear in Checkout page.
+
+- **Accepted Currencies**: Admin can choose which currencies on the website are allowed to use this payment method
+
+- **Payment from Applicable Countries**:
+  - Select **All Allowed Countries** so the card payment method can be applied in all countries.
+  - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
+  - Select **Specific Countries** to limit certain countries to be able to use this payment method
+    - Payment from **Specific Countries**: The selected countries will be displayed with the payment method by Card.
+    
+- **Show Logo**: Click **Choose File** to download the logo for the payment method on the Checkout page.
+
+- **Minimum Order Total**:
+  - Enter the minimum order amount to display and apply for **Barclaycard ePDQ e-Commerce** payments.
+  - If the order amount is less than the value in this field, payment methods will not be shown.
+  
+- **Maximum Order Total**:
+  - Enter the maximum amount of order to display and apply for **Barclaycard ePDQ e-Commerce** payments.
+  - If the order amount is greater than the value in this field, the payment method will not be shown.
+
+- **Debug Mode**:
+  - If **Yes**, diagnostic information is stored in log files on the Magento web server.
+  
+- **Sort Order**:
+  - Specify the display position of this payment method compared to other payment methods
+  - 0 is the highest priority. Smaller numbers will be preferred to show first.
+
+### 3. Barclaycard ePDQ DirectLink
+
+
+![](https://i.imgur.com/YRU8coL.gif)
+
+- **Enable**: Select **Yes** to using the **Barclaycard ePDQ e-Commerce** payment feature.
+
+- **Title**: Set the title for this payment method at checkout page.
+
+- **Payment Action**:
+  - **Authorize and Capture**: Payment will be captured as soon as customer place orders successfully. At that moment, customer's card will always pay for the order and invoice will be created.
+  - **Authorize**: Payment will only be captured when admin creates invoice for customer order. Once invoice is successfully created, the admin can receive money from customer's card.
+
+- **New Order Status**: Select status when customer orders successfully:
+  - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
+  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to **Processing**.
+  
+- **Card Types**:
+  - Choose 1 or more cards to be used with this payment method.
+  - Cards will be verified when customer completes card number when checking out. For cards not selected in this section, there will be invalid notice shown for customers. For cards that are not selected, they will not appear in Checkout page.
+  
+- **3D Secure**: Select **Yes** to apply 3D Secure for card verification each time customers checkout. 
+
+![](https://i.imgur.com/i8JgT7u.png)
+
+- **Enable Admin Order (MOTO)**: Select **Yes** to allow admin to create order at backend
+
+- **Accepted Currencies**: Admin can choose which currencies on the website are allowed to use this payment method
+
+- **Payment from Applicable Countries**:
+  - Select **All Allowed Countries** so the card payment method can be applied in all countries.
+  - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
+  - Select **Specific Countries** to limit certain countries to be able to use this payment method
+    - Payment from **Specific Countries**: The selected countries will be displayed with the payment method by Card.
+    
+- **Show Logo**: Click **Choose File** to download the logo for the payment method on the Checkout page.
+
+- **Minimum Order Total**:
+  - Enter the minimum order amount to display and apply **Barclaycard ePDQ DirectLink** payments.
+  - If the order amount is less than the value in this field, payment methods will not be shown.
+  
+- **Maximum Order Total**:
+  - Enter the maximum amount of order to display and apply **Barclaycard ePDQ DirectLink** payments.
+  - If the order amount is greater than the value in this field, the payment method will not be shown.
+
+- **Debug Mode**:
+  - If **Yes**, diagnostic information is stored in log files on the Magento web server.
+  
+- **Sort Order**:
+  - Specify the display position of this payment method compared to other payment methods
+  - 0 is the highest priority. Smaller numbers will be preferred to show first.
+
+### 4. Admin Order
+
+#### 4.1. Admin Order
+
+Admin can crrate order using **Barclaycard ePDQ DirectLink** payment method
+
+![](https://i.imgur.com/DeWSTEx.png)
+
+#### 4.2. Admin View Order
+
+This section at backend records the **Credit Card information (Barclaycard)** that customers have ordered and paid:
+
+![](https://i.imgur.com/WVKtWAE.png)
+
+### 5. Customer View Order
+
+This section at fontend saves card information that customers have ordered:
+
+![](https://i.imgur.com/qPrdF5a.png)
+
+### 6. Compatible with One Step Checkout
+
+![](https://i.imgur.com/ubAWH45.png)
