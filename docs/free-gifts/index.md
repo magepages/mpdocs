@@ -14,15 +14,15 @@
 
 ### Free Gift is auto-added if the product customer adds to the cart is qualified for conditions.
 
-![Imgur](https://i.imgur.com/yQf5YO5.png)
+![](https://i.imgur.com/yQf5YO5.png)
 
 ### Customer can change the desired gift in the Gift list that the admin offer
 
-![Imgur](https://i.imgur.com/WE3NDiv.png)
+[](https://i.imgur.com/xP5N9JJ.gifv)
 
 ### Customer can add gift to cart right at Product Detail Page
 
-![Imgur](https://i.imgur.com/HxFDR2B.png)
+![](https://i.imgur.com/HxFDR2B.png)
 
 ### When a product with free gift promotion is removed from the cart, their free gifts are removed as well
 
@@ -30,28 +30,28 @@
 
 From the Admin panel, go to `Marketing > Free Gifts`
 
-![Imgur](https://i.imgur.com/0PncUVj.png)
+![](https://i.imgur.com/0PncUVj.png)
 
 ### 1. Configuration
 
 From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
-![Imgur](https://i.imgur.com/dcYnvf8.png)
+![](https://i.imgur.com/dcYnvf8.png)
 
 #### 1.1 General Configuration
 
-![Imgur](https://i.imgur.com/BvDuZZt.png)
+![](https://i.imgur.com/ympVCsT.png)
 
 - **Enable**: Select **Yes** to make the extension active
 - **Gift List Layout**: Set how to show gift list in Frontend. There are 3 ways:
   - **List**
-  ![Imgur](https://i.imgur.com/OhtAeeK.png)
+  ![](https://i.imgur.com/OhtAeeK.png)
 
   - **Grid**
-  ![Imgur](https://i.imgur.com/sgQdx5C.gif)
+  ![](https://i.imgur.com/sgQdx5C.gif)
 
   - **Slider**
-  ![Imgur](https://i.imgur.com/V1kUZW7.gif)
+  ![](https://i.imgur.com/V1kUZW7.gif)
 
 - **Show Notice For Gift**:
   - Select **Yes** so that notice is displayed with the gift. Thereby, customers can easily distinguish gift from other products
@@ -67,7 +67,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   
 #### 1.2 Button Display
 
-![Imgur](https://i.imgur.com/wg8ftHu.png)
+![](https://i.imgur.com/ssUoucB.png)
 
 - **Show At Cart Page**: applies to auto cart rules
   - Click **Yes** to display the add gift button on the **View Cart Page**
@@ -83,7 +83,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   
 #### 1.3 Button Design
 
-![Imgur](https://i.imgur.com/zR1MXRo.png)
+![](https://i.imgur.com/zR1MXRo.png)
 
 - **Button label**:
   - The button label will be displayed in Frontend with the **Add Manual** mode
@@ -95,7 +95,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 #### 2.1 Grid
 
-![Imgur](https://i.imgur.com/iayppAU.png)
+![](https://i.imgur.com/iayppAU.png)
 
 - All the created rules are shown on this grid
 - From the grid, admin can capture the basic information of the rule such as ID, Name, Status, Apply For, State, Website, Customer Group, Priority and Action can be performed with the Rule.
@@ -105,7 +105,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 - In the **Action** column, admin click on **Edit to Rule** to edit the information
 - In addition, the admin can Filter, Change Store View, Hide/Show the Columns, Export Grid or Edit inline
 
-![Imgur](https://i.imgur.com/yjknWhY.png)
+![](https://i.imgur.com/yjknWhY.png)
 
 #### 2.2 Add New/ Edit Form
 
@@ -129,11 +129,11 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 - **Condition for Cart**
 
-![Imgur](https://i.imgur.com/2yEoLve.png)
+![](https://i.imgur.com/2yEoLve.png)
 
 - **Condition for Item (Product)**
 
-![Imgur](https://i.imgur.com/PQBpB6l.png)
+![](https://i.imgur.com/PQBpB6l.png)
 
 
 - Here you select the conditions for the rule. Only apply rules for products that satisfy the selected condition
@@ -142,7 +142,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 ##### 2.2.3 Action
 
-![Imgur](https://i.imgur.com/04muLKs.png)
+![](https://i.imgur.com/FIoXCC1.png)
 
 - **Action**:
   - Type: Choose how to add a Gift to Cart:
@@ -152,7 +152,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - **Show notice for Gift**: Select **Yes** to notify customer when they add gift to the cart
   - **Notice**: The message notice that `Customer has successfully added free gift`
   - **Discard Subsequent Rules**:
-    - Select **Yes** to limit the number of rules applied to the product.
+    - Select **Yes** to limit the number of gift rules applied to the product or cart.
     - Rules with lower priority than this rule or rules with Priority but created later will not be applied
     - **Discard Subsequent Rules** are divided into 2 cases applicable to **Cart** or **Item**
 - *For example*: There are 6 rules in which: rule 4 has a priority of 10; rule 1.5 is 1; rule 2 is 10; rule 3 is 15; rule 6 is 10. If you choose stop at 4 then:
@@ -160,47 +160,48 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - Rule 3 is not applied because the priority is lower
   - Rule 2 is applied because of the same priority but created earlier
   - 6 is not applied because it has the same priority but creates it later
-- Gift List:
-  - Contains basic information of Gift including: Product ID, Name, SKU, Qty, Original Price, Discount Type, Gift Price, Free shipping and - Action
-  - Admin click **Add** to add Free Gift or click **Delete** to delete Free Gift
-  - There are 3 types of Discount that admin can choose for Free Gift:
+- **Gift List**:
+  - Contains basic information of Gift including: Product ID, Name, SKU, Qty, Original Price, Discount Type, Gift Price, Free shipping and Action
+  - Admin click **Add Gift** to add Free Gift or use **Mass Action Delete** to delete Free Gift
+  - To edit gift price, admin need to click **Action Edit**. There are 3 types of Discount that admin can choose for Free Gift:
     - **Free**: Gift is completely free
     - **Percent**: Gift is sold at X % of the original price (0 <= X <= 100)
     - **Fixed**: Gift sold for $ X (0 <= X <= Original Price)
+    ![](https://i.imgur.com/2I0LAlu.png)
+    
 - For each Discount type, admin can set the amount of Discount Amount they want
 - For each Free Gift, the Admin can allow the Free Ship or not
+![](https://i.imgur.com/nCepdoc.png)
 
-**Popup to add gifts to the gift list**
-
-![Imgur](https://i.imgur.com/le0CmXJ.png)
+<p style="text-align:center;">Popup to add gifts to the gift list</p>
 
 
 ### 3. Frontend
 
 #### 3.1 View Cart Page
 
-![Imgur](https://i.imgur.com/MViQy3X.png)
+![](https://i.imgur.com/MViQy3X.png)
 
 #### 3.2 Product Detail Page
 
 ***Popup***
 
-![Imgur](https://i.imgur.com/zpY5cAf.png)
+![](https://i.imgur.com/zpY5cAf.png)
 
 ***Block***
 
-![Imgur](https://i.imgur.com/oNHSZpe.png)
+![](https://i.imgur.com/oNHSZpe.png)
 
 #### 3.3 Gift Layout
 
 ***Gift List = List***
 
-![Imgur](https://i.imgur.com/U9JwEpb.png)
+![](https://i.imgur.com/U9JwEpb.png)
 
 ***Gift List = Grid***
 
-![Imgur](https://i.imgur.com/O5lOCku.gif)
+![](https://i.imgur.com/O5lOCku.gif)
 
 ***Gift List = Slider***
 
-![Imgur](https://i.imgur.com/Km87iQW.gif)
+![](https://i.imgur.com/Km87iQW.gif)
