@@ -75,6 +75,15 @@ When a product is chosen, the item will be used to relate to other orders with t
   ![](https://i.imgur.com/FheGCYz.png)
 
   - **Manually**: Admin can adjust the location of **Who Bought This Item Also Bought** by using widgets
+* In **Layout**: 
+  * **Product Slider**: Suggested products will be displayed in one line only, and all items will slip to the left in a period of time.
+  * **Multiple Lines**: Suggested products will be displayed in a grid, with 5 items per line.
+  
+* In **Show List**: Allow multiple selections
+  * **Price**: Allows displaying price under a product image
+  * **Add to Cart**: Allows customers to add an item to their carts without showing the details
+  * **Review**: Allows showing the product’s rating and leading customers to the Review section of the product when the Review button is clicked.
+  * **Add to Wish List & Add to Compare**: Displays the **Add to Wish List** and **Add to Compare** buttons. When these buttons are clicked, the item will show up in the **Wish Lis**t and **Comparison List**
   
 - **Number of products displayed**:
   - This is the field to limit the number of products displayed on the product page at frontend
