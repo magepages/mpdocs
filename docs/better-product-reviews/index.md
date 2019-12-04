@@ -209,3 +209,10 @@ Customer reviews are listed according to **Report Review Status** which has been
 Product reviews are listed according to **Report Review Status** installed at Configuration. With each status selected, the report will be different
 
 ![](https://i.imgur.com/cYI9sVs.png)
+
+### API
+
+**Mageplaza's Better Product Review** extension supports the use of the **Rest API** to view a detailed list reviews that customers have left for your products and through the Rest API can create reviews or update customer reviews for the product.
+
+- Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE29gRM?version=latest).
+- Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
