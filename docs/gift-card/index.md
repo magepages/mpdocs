@@ -680,8 +680,9 @@ Clicking the ``Import`` button is the final steps!
 - You should run the command: "bin/magento giftcard:uninstall" before you uninstall this extension so that your website doesn't face the error.
 
 
+### X. API Document
 
-
+**Mageplaza Gift Card Extension** supports retrieving and pushing data onto the website using the **REST API**. Please check [this document](https://documenter.getpostman.com/view/6425904/SW7gSPUb) for more details of supported APIs
 
 
 
