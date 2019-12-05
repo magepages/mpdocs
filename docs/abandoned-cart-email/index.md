@@ -6,7 +6,6 @@ Cart abandonment is an action that consumers leave the website after adding a pr
 
 [Magento 2 Abandoned Cart Email](https://www.mageplaza.com/magento-2-abandoned-cart-email/) extension will help you solve this problem. This extension assists  you to determine which cart is having forgotten products, from those initial crumbs to send reminders, or be possible to send discounts to help shoppers easily recover their shopping cart and complete the checkout, which will absolutely skyrocket the value of orders, sales, profits for the store 
 
-test push
 
 **Note**: 
 * Mageplaza Abandoned Cart Email is totally compatible with Mageplaza SMTP extension
