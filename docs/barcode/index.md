@@ -2,11 +2,11 @@
 
 ## Overview
 
-With [Mageplaza Barcode Extension](https://www.mageplaza.com/magento-2-barcode/), admin can easily create barcode to manage products in store easily. This extension supports automatically generating barcode with 18 different barcode encryption types. Admin can also design barcode labels, preview before printing and print multiple barcodes for many products at the same time.
+With Mageplaza Barcode Extension, admin can easily create barcode to manage products in store easily. This extension supports automatically generating barcode with 18 different barcode encryption types. Admin can also design barcode labels, preview before printing and print multiple barcodes for many products at the same time.
 
 ## How to download and install
 
-- [Download Mageplaza Barcode](https://www.mageplaza.com/magento-2-barcode/)
+- Download Mageplaza Barcode
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
