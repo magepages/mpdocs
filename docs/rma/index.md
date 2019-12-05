@@ -2,11 +2,11 @@
 
 ## Overview
 
-Are you looking for a solution to help customers return products and the store owner make rules about product returns or exchanges with ease? You can find the answer with [Mageplaza RMA extension](https://www.mageplaza.com/magento-2-rma/). Customers can request a return or exchange of one or all products in their order placed earlier. At the same time, they are also allowed to reject, manage and view requests sent to admins. On the admin side, admins can manage and approve(or refuse) to process customer requests. Admin and customers talk to each other via email which is made with available templates. This extension will help you better handle your products and bring greater customer experience. 
+Are you looking for a solution to help customers return products and the store owner make rules about product returns or exchanges with ease? You can find the answer with [Mageplaza RMA extension](). Customers can request a return or exchange of one or all products in their order placed earlier. At the same time, they are also allowed to reject, manage and view requests sent to admins. On the admin side, admins can manage and approve(or refuse) to process customer requests. Admin and customers talk to each other via email which is made with available templates. This extension will help you better handle your products and bring greater customer experience. 
 
 ## How to download and install
 
-- [Download Mageplaza RMA](https://www.mageplaza.com/magento-2-rma/)
+- [Download Mageplaza RMA]()
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 **Table of Contents**
@@ -70,7 +70,7 @@ Admin selects the ID increment type for RMA
 - **Allow RMA for Each Item of An Order**: Select **Yes** to create RMA for each item in the order.
 - **Allow Uploading Attachments**: Select **Yes** to allow attachments for RMA request.
 - **Allow Files Format**: Show the file format allowed 
-- **Google Recaptcha**: choose **Yes** to allow request compatible with [Google Recaptcha extension](https://www.mageplaza.com/magento-2-google-recaptcha/)
+- **Google Recaptcha**: choose **Yes** to allow request compatible with [Google Recaptcha extension]()
 - **Default Request Status**: Select the default status when customer has just submitted the request.
 - **Customer can Cancel Request in Status**: Select status in which allow customer to cancel the request.
 - **Admin reply under Name**: Admin chooses the presenting name when replying.
@@ -98,7 +98,7 @@ Admin selects the ID increment type for RMA
 
 ![](https://i.imgur.com/24Ktq7x.png)
 
-- **Select Enable = Yes**: Allow sending mail. RMA is compatible with [SMTP extension](https://www.mageplaza.com/magento-2-smtp/)
+- **Select Enable = Yes**: Allow sending mail. RMA is compatible with [SMTP extension]()
 - **Sender**: Select the representative to send mail.
 
 ![](https://i.imgur.com/HO0RMVE.png)
