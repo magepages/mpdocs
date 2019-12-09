@@ -10,14 +10,21 @@ Mageplaza Product Grid is fully compatible with [Mageplaza Product Attachment ex
 ### I. Configuration
 #### 1. General
 
+![](https://i.imgur.com/9srHA3j.png)
+
+![](https://i.imgur.com/Ll9XsSJ.png)
+
 From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Extensions > Product Grid`, select **General**:
 
 - **Enable**: Select **Yes** to enable the module.
 - **Edit In Line Mode**:
   - **Multiple Cells**: Edit various cells of different products at the same time, click **Save Edits** after finishing.
-
+  
+  ![](https://i.imgur.com/Lsf4Ygt.png)
   - **Single Cells**: Edit one cell each time. Edited cell will be saved when you click outside that cell.
-  - **Multiple Rows**: Show all editable cells of a/ multiple products. Click **Apply** when you have edited **All in Column**, click **Save Edits** when you have changed the information of columns. Click **Cancel** to remove the changes. 
+  - **Multiple Rows**: Show all editable cells of a/ multiple products. Click **Apply** when you have edited **All in Column**, click **Save Edits** when you have changed the information of columns. Click **Cancel** to remove the changes.
+  
+  ![](https://i.imgur.com/6mXdno9.png)
 
 - **Change Columns Header**: Select **Yes** to allow editing column header at column tab.
 - **Default Qty**: Enter the maximum qty of **Related/ Cross-sell/ Up-sell** products and **Recent Order** to show on grid, default qty = 3, qty limit from 0 to 10 records. 
@@ -26,6 +33,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Extensions > Product Grid`, select **Qty Sold**:
 
+![](https://i.imgur.com/q3l3k0Z.png)
 
 - **‘Qty Sold’ Date From**: Select the start date to calculate the quantity of products sold.
 - **‘Qty Sold’ Date To**: Select the end date to calculate the number of products sold.
@@ -37,13 +45,19 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to `Catalog > Products`:
 
+![](https://i.imgur.com/qO0xbBA.png)
+
 #### 1. Columns
 
 Admin can select specfic columns from the Product menu to hide/ show columns on the product grid.
 
+![](https://i.imgur.com/0qYfZun.png)
+
 In the Columns menu, there are 4 order attributes tabs:
 
 ##### 1.1 Default Group
+
+![](https://i.imgur.com/nxxP6Rl.gifv)
 
 - Admin can choose certain columns to be shown/hide at Product Grid
 - Admin can also choose which columns can be edited and filtered by clicking to corresponding column titles. 
@@ -52,9 +66,15 @@ In the Columns menu, there are 4 order attributes tabs:
 - **Cancel**: Cancel the action.
 - **Change Thumbnail**:
 
+![](https://i.imgur.com/yZRqkLo.png)
+
 - **Change Qty**: Admin can fill in fixed numbers or using +/- signs
 
+![](https://i.imgur.com/TEjdL0Y.png)
+
 ##### 1.2 Attribute Group
+
+![](https://i.imgur.com/1OwE9QY.gifv)
 
 - Admin can choose certain columns to be shown/hide at Product Grid
 - Admin can also choose which columns can be edited and filtered by clicking to corresponding column titles. 
@@ -67,6 +87,8 @@ In the Columns menu, there are 4 order attributes tabs:
 
 ##### 1.3 Extra Group
 
+![](https://i.imgur.com/dP2Hhcj.gifv)
+
 - Admin can choose certain columns to be shown/hide at Product Grid
 - Admin can also choose which columns can be edited and filtered by clicking to corresponding column titles. 
 - At **Column Header**, admin can changes column names and clicks **Save**.
@@ -75,14 +97,20 @@ In the Columns menu, there are 4 order attributes tabs:
 
 ##### 1.4 Product Info Group
 
+![](https://i.imgur.com/JFIU7T3.gifv)
+
 - Admin ticks to the checkboxes to allow showing corresponding columns at the grid. Display columns information in Related Products, Up-sell Products, Cross-sell Products.
 
-- At Column Header, admin changes column names and clicks Save.
- -Cancel: Cancel the action.
+![](https://i.imgur.com/8VNsArd.png)
+
+- At **Column Header**, admin changes column names and clicks **Save**.
+- **Cancel**: Cancel the action.
 
 #### 2. Default View
 
 With this extension, admin can create multiple order forms and switch between them to quickly access information related to different orders.
+
+![](https://i.imgur.com/LmwTBS7.png)
 
 To create a new view, admin enters the Order menu area, click Default View, and click Save View As. Then, enter a name for the template and click the arrow icon. To delete a template, admin selects the form and clicks the trash can icon.
 
@@ -90,9 +118,14 @@ To create a new view, admin enters the Order menu area, click Default View, and 
 
 The selected order attributes are shown in Filter as well. Admin can sort the specific order by those attributes.
 
+![](https://i.imgur.com/tVquWq7.png)
+
 Admin insert the data to sort the specific order information and click Apply Filters.
 
-4. Export
-From the Admin Panel, go to System> Data Transfer> Export
+#### 4. Export
 
-Check if the downloaded file has any product changes.
+From the Admin Panel, go to `System > Data Transfer > Export`
+
+![](https://i.imgur.com/Dtz2vO3.png)
+
+Check if the downloaded files has any product changes.
