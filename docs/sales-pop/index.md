@@ -209,7 +209,7 @@ After Click **Add A/B Testing** to create a **Child popup** and then will displa
 - When both popup types are enabled, they will work and run alternately.
 - Selecting **Parent** will display **A/B Testing Report** as Pie-chart to compare Percentage of View, Click, Close amount between Parent and Child popup. Also, add **Parent Statistics**, **Child Statistics** fields to make reports of View, Click, Close. The statistics of the pie chart will be completely based on the information of Parent Statistics, Child Statistics.
 
-![Imgur](https://i.imgur.com/TB0O8Rm.gif)
+![Imgur](https://i.imgur.com/iYDd9Qn.gif)
 
 ### 3. Compatible Quick View
 
