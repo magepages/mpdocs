@@ -10,11 +10,14 @@ Mageplaza Product Grid is fully compatible with [Mageplaza Product Attachment ex
 ### I. Configuration
 #### 1. General
 
+From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Extensions > Product Grid`, select **General**
+
+
 ![](https://i.imgur.com/9srHA3j.png)
 
 ![](https://i.imgur.com/Ll9XsSJ.png)
 
-From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Extensions > Product Grid`, select **General**:
+
 
 - **Enable**: Select **Yes** to enable the module.
 - **Edit In Line Mode**:
