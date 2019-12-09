@@ -11,8 +11,10 @@ Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](ht
 - Sales Pop extension supports display on Desktop and Mobile with **4 positions**:
   - **Top Left**: displays a popup at the top left of the page.
     - **Desktop**
+    
     ![Imgur](https://i.imgur.com/AaHmiLe.png)
     - **Mobile**
+    
     ![Imgur](https://imgur.com/0U0y62g.png)
    - **Top Right**: A popup is displayed with the top right of the page.
    ![Imgur](https://imgur.com/5PdIuDL.png)
