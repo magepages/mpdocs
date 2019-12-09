@@ -115,7 +115,7 @@ With this extension, admin can create multiple order forms and switch between th
 
 ![](https://i.imgur.com/LmwTBS7.png)
 
-To create a new view, admin enters the Order menu area, click Default View, and click Save View As. Then, enter a name for the template and click the arrow icon. To delete a template, admin selects the form and clicks the trash can icon.
+To create a new view, admin enters the Order menu area, click **Default View**, and click **Save View As**. Then, enter a name for the template and click the arrow icon. To delete a template, admin selects the form and clicks the trash can icon.
 
 #### 3. Filters
 
@@ -123,7 +123,7 @@ The selected order attributes are shown in Filter as well. Admin can sort the sp
 
 ![](https://i.imgur.com/tVquWq7.png)
 
-Admin insert the data to sort the specific order information and click Apply Filters.
+Admin insert the data to sort the specific order information and click **Apply Filters**.
 
 #### 4. Export
 
