@@ -11,9 +11,9 @@ Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](ht
 - Sales Pop extension supports display on Desktop and Mobile with **4 positions**:
   - **Top Left**: displays a popup at the top left of the page.
     - **Desktop**
-    ![Imgur](https://i.imgur.com/ScJ1HZ0.png)
+    ![Imgur](https://i.imgur.com/AaHmiLe.png)
     - **Mobile**
-    ![Imgur](https://imgur.com/0U0y62g)
+    ![Imgur](https://imgur.com/0U0y62g.png)
    - **Top Right**: A popup is displayed with the top right of the page.
    ![Imgur](https://imgur.com/5PdIuDL.png)
   - **Bottom Left**: displays the popup at the bottom left position of the page.
@@ -207,7 +207,7 @@ After Click **Add A/B Testing** to create a **Child popup** and then will displa
 - When both popup types are enabled, they will work and run alternately.
 - Selecting **Parent** will display **A/B Testing Report** as Pie-chart to compare Percentage of View, Click, Close amount between Parent and Child popup. Also, add **Parent Statistics**, **Child Statistics** fields to make reports of View, Click, Close. The statistics of the pie chart will be completely based on the information of Parent Statistics, Child Statistics.
 
-![Imgur](https://i.imgur.com/AhbGNFc.gif)
+![Imgur](https://i.imgur.com/TB0O8Rm.gif)
 
 ### 3. Compatible Quick View
 
