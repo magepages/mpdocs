@@ -4,6 +4,8 @@
 
 [Mageplaza's Sales Pop Extension](https://www.mageplaza.com/magento-2-sales-pop/) allows Magento 2 websites to automatically show the message relating to current purchase by orther customers, updating the shopping trends of people via Popup. This module support displaying 3 types of Popup: Recent Sales, Checkout Total, Up-sell Product on pages: Home Page, Category, Product, View Cart, Checkout, so on. Popup can be displayed on both Desktop and Mobile at 4 different positions.
 
+And especially, admin can create Fake Order with Sales Pop in order to increase the number of orders with the product. This is an effective tip to save advertising costs and attract more customers to buy your items. Admin can easily configure the above features in the backend.
+
 Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/), [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), which supports viewing the full product details through the popup displayed on the screen and checkout more conveniently.
 
 ## How to use
@@ -11,13 +13,11 @@ Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](ht
 - Sales Pop extension supports display on Desktop and Mobile with **4 positions**:
   - **Top Left**: displays a popup at the top left of the page.
     - **Desktop**
-    
-    ![Imgur](https://i.imgur.com/AaHmiLe.png)
+    ![](https://i.imgur.com/DLyVe1n.png)
     - **Mobile**
-    
-    ![Imgur](https://imgur.com/0U0y62g.png)
+    ![](https://i.imgur.com/BLcXLQn.png)
    - **Top Right**: A popup is displayed with the top right of the page.
-   ![Imgur](https://imgur.com/5PdIuDL.png)
+   ![](https://i.imgur.com/uqLKYgZ.png)
   - **Bottom Left**: displays the popup at the bottom left position of the page.
   ![](https://i.imgur.com/jhD3HOw.png)
   - **Bottom Right**: displays the popup at the bottom right of the page.
@@ -40,23 +40,15 @@ Login to the Magento Admin, choose `Marketing > Sales Pop > Configuration`.
 
 #### 1.1. General
 
-![Imgur](https://imgur.com/fhz9kkC.png)
+![](https://i.imgur.com/eQt4qHR.png)
 
 - **Enable**: Select **Yes** to enable the module feature.
 - **Show Close Button**:
-  - If you select **Yes**, a **Close** button will be displayed when hover to popup so customers can turn off popup. After clicking **Close**, the popup will not appear again and only display again when reloading the page.
+  - If you select **Yes**, a **Close** button will be displayed so customers can turn off popup. After clicking **Close**, the popup will not appear again and only display again when reloading the page.
   ![](https://i.imgur.com/1VyzOae.png)
-  - Selecting **No**, popup does not have a **Close** button when hover to popup. This popup only can be turned off when the popup timeout configured at **Popup Display Time** is over. 
-  
-- **Show Image Top**: If you select **Yes** will display the image on the top of the popup and this extra field is shown:
-  - **Upload image**: Click**Choose File** button to upload the image and it will be displayed at the top of the popup page.
-  ![Imgur](https://imgur.com/KFz1nXb.png)
- 
+  - Selecting **No**, popup does not have a **Close** button. This popup only can be turned off when the popup timeout configured at **Popup Display Time** is over. 
 - **Popup Display Time**: Select the time to display popup. After the timeout, popup will automatically be turned off. Time is counted when displaying the final product according to the setting in the **Number of Recent Order** field
 - **Break Time**: Select the time period in which a popup can be auto turned off then turned on again. Note: if you click **Close** button to turn off the popup, it will not show the popup again and only display it again when reloading the page.
-
-- **Note**: When hovering the mouse over the popup, it will stop the popup at that time. After dragging the mouse out, the time runs from the beginning until the end.
-
 - **Popup Animation Effect**: Select an effect to display a popup. Including the following options:
   - **Fade Out**:
   ![](https://i.imgur.com/4YQiyMX.gif)
@@ -76,7 +68,7 @@ Login to the Magento Admin, choose `Marketing > Sales Pop > Manage Popups`.
 
 Here records information of different types of popup: **Recent Sales, Checkout Information, Up-sell Product** of **Parent popup** including information of fields: Name, Status, Customer Groups, Store View, Popup type, Position, Priority, Total Views.
 
-![Imgur](https://imgur.com/7sZuxux.png)
+![](https://i.imgur.com/4D0sxyJ.png)
 
 #### 2.2. Create new sales popup
 ##### 2.2.1. General
@@ -101,16 +93,13 @@ Here records information of different types of popup: **Recent Sales, Checkout I
   - **Desktop and Mobile**: displays popup on both mobile phones and computers.
   - **Desktop**: only displays popup on desktop, not on mobile.
   - **Mobile**: Only show popup in mobile.
-  
-- **Note**: The admincan configure multiple popups to be displayed on the same page. If there are multiple popups displayed at the same location, they will be shown alternatively depending on the time admin set for each popup.
-
 - **Display Position**: Choose to show popup on Desktop or Mobile with 4 positions:
   - **Top Left**: The popup is displayed at the top left of the screen.
   
-  ![Imgur](https://imgur.com/9rUnsoi.png)
+  ![](https://i.imgur.com/9UagwCY.png)
   - **Top Right**: A popup is displayed at the top right of the screen.
   
-  ![Imgur](https://imgur.com/h9zu6Lw.png)
+  ![](https://i.imgur.com/nhdgXbb.png)
   - **Bottom Left**: displays a popup with the bottom left.
   
   ![](https://i.imgur.com/q2jVSPh.png)
@@ -194,7 +183,7 @@ After Save or Save and Continue edit or edit popup will display **Statistics** o
 
 ##### General Report
 
-![Imgur](https://imgur.com/xhqGVHl.png)
+![](https://i.imgur.com/tKd6g8A.png)
 
 **Total Statistics**: This section records all the number of View(s), Click(s), Close(s) including Parent Statistics and Child Statistics.
 
@@ -202,25 +191,17 @@ After Save or Save and Continue edit or edit popup will display **Statistics** o
 
 After Click **Add A/B Testing** to create a **Child popup** and then will display more **A/B Testing Report tab** in **Parent popup** to report chart by View(s), Click(s), Close(s) of Parent popup and Child popup.
 
-![Imgur](https://imgur.com/FQJDwzd.png)
+![](https://i.imgur.com/jZYTsao.png)
 
 - Click **Add A/B Testing** to create a new popup called **Child popup** with information fields available from parent popup. You can then change the child popup information such as the content, location, images, etc., from the entered values. Click **Save** or **Save and Continue edit** to save the newly created popup.
 - **Child popup** information will depend on the **Parent popup** like Status, Display On Page, Customer Groups, Store Views, Priority, etc. For example, if the Parent popup is off, the child popup will also be turned off in the Frontend.
 - When both popup types are enabled, they will work and run alternately.
 - Selecting **Parent** will display **A/B Testing Report** as Pie-chart to compare Percentage of View, Click, Close amount between Parent and Child popup. Also, add **Parent Statistics**, **Child Statistics** fields to make reports of View, Click, Close. The statistics of the pie chart will be completely based on the information of Parent Statistics, Child Statistics.
 
-![Imgur](https://i.imgur.com/iYDd9Qn.gif)
+![](https://i.imgur.com/gK0t5Dm.gif)
 
 ### 3. Compatible Quick View
 
 Sales Pop is fully compatible with the [Mageplaza Quick View extension](https://www.mageplaza.com/magento-2-quick-view/) that will support viewing the full product details via the popup when clicking on the image of the product at popup.
 
 ![](https://i.imgur.com/K7zqF0u.gif)
-
-
-### 4. API
-
-Mageplaza's Sales Pop extension supports the use of the **Rest API** to view a detailed list of all popup that the admin has created.
-
-- Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE2A1Dd?version=latest).
-- Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
