@@ -60,7 +60,7 @@ In the Columns menu, there are 4 order attributes tabs:
 
 ##### 1.1 Default Group
 
-![](https://i.imgur.com/nxxP6Rl.gifv)
+![](https://i.imgur.com/nxxP6Rl.gif)
 
 - Admin can choose certain columns to be shown/hide at Product Grid
 - Admin can also choose which columns can be edited and filtered by clicking to corresponding column titles. 
@@ -77,7 +77,7 @@ In the Columns menu, there are 4 order attributes tabs:
 
 ##### 1.2 Attribute Group
 
-![](https://i.imgur.com/1OwE9QY.gifv)
+![](https://i.imgur.com/1OwE9QY.gif)
 
 - Admin can choose certain columns to be shown/hide at Product Grid
 - Admin can also choose which columns can be edited and filtered by clicking to corresponding column titles. 
@@ -90,7 +90,7 @@ In the Columns menu, there are 4 order attributes tabs:
 
 ##### 1.3 Extra Group
 
-![](https://i.imgur.com/dP2Hhcj.gifv)
+![](https://i.imgur.com/dP2Hhcj.gif)
 
 - Admin can choose certain columns to be shown/hide at Product Grid
 - Admin can also choose which columns can be edited and filtered by clicking to corresponding column titles. 
@@ -100,11 +100,11 @@ In the Columns menu, there are 4 order attributes tabs:
 
 ##### 1.4 Product Info Group
 
-![](https://i.imgur.com/JFIU7T3.gifv)
+![](https://i.imgur.com/JFIU7T3.gif)
 
 - Admin ticks to the checkboxes to allow showing corresponding columns at the grid. Display columns information in Related Products, Up-sell Products, Cross-sell Products.
 
-![](https://i.imgur.com/8VNsArd.png)
+![](https://i.imgur.com/A01MSDM.png)
 
 - At **Column Header**, admin changes column names and clicks **Save**.
 - **Cancel**: Cancel the action.
