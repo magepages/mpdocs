@@ -11,11 +11,11 @@ Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](ht
 - Sales Pop extension supports display on Desktop and Mobile with **4 positions**:
   - **Top Left**: displays a popup at the top left of the page.
     - **Desktop**
-    ![](https://imgur.com/ABiHblf.png)
+    ![Imgur](https://i.imgur.com/ScJ1HZ0.png)
     - **Mobile**
     ![Imgur](https://imgur.com/0U0y62g)
    - **Top Right**: A popup is displayed with the top right of the page.
-   ![Imgur](https://imgur.com/5PdIuDL)
+   ![Imgur](https://imgur.com/5PdIuDL.png)
   - **Bottom Left**: displays the popup at the bottom left position of the page.
   ![](https://i.imgur.com/jhD3HOw.png)
   - **Bottom Right**: displays the popup at the bottom right of the page.
@@ -38,7 +38,7 @@ Login to the Magento Admin, choose `Marketing > Sales Pop > Configuration`.
 
 #### 1.1. General
 
-![Imgur](https://imgur.com/fhz9kkC)
+![Imgur](https://imgur.com/fhz9kkC.png)
 
 - **Enable**: Select **Yes** to enable the module feature.
 - **Show Close Button**:
@@ -48,7 +48,7 @@ Login to the Magento Admin, choose `Marketing > Sales Pop > Configuration`.
   
 - **Show Image Top**: If you select **Yes** will display the image on the top of the popup and this extra field is shown:
   - **Upload image**: Click**Choose File** button to upload the image and it will be displayed at the top of the popup page.
-  ![Imgur](https://imgur.com/KFz1nXb)
+  ![Imgur](https://imgur.com/KFz1nXb.png)
  
 - **Popup Display Time**: Select the time to display popup. After the timeout, popup will automatically be turned off. Time is counted when displaying the final product according to the setting in the **Number of Recent Order** field
 - **Break Time**: Select the time period in which a popup can be auto turned off then turned on again. Note: if you click **Close** button to turn off the popup, it will not show the popup again and only display it again when reloading the page.
@@ -74,7 +74,7 @@ Login to the Magento Admin, choose `Marketing > Sales Pop > Manage Popups`.
 
 Here records information of different types of popup: **Recent Sales, Checkout Information, Up-sell Product** of **Parent popup** including information of fields: Name, Status, Customer Groups, Store View, Popup type, Position, Priority, Total Views.
 
-![Imgur](https://imgur.com/7sZuxux)
+![Imgur](https://imgur.com/7sZuxux.png)
 
 #### 2.2. Create new sales popup
 ##### 2.2.1. General
@@ -105,10 +105,10 @@ Here records information of different types of popup: **Recent Sales, Checkout I
 - **Display Position**: Choose to show popup on Desktop or Mobile with 4 positions:
   - **Top Left**: The popup is displayed at the top left of the screen.
   
-  ![Imgur](https://imgur.com/9rUnsoi)
+  ![Imgur](https://imgur.com/9rUnsoi.png)
   - **Top Right**: A popup is displayed at the top right of the screen.
   
-  ![Imgur](https://imgur.com/h9zu6Lw)
+  ![Imgur](https://imgur.com/h9zu6Lw.png)
   - **Bottom Left**: displays a popup with the bottom left.
   
   ![](https://i.imgur.com/q2jVSPh.png)
@@ -192,7 +192,7 @@ After Save or Save and Continue edit or edit popup will display **Statistics** o
 
 ##### General Report
 
-![Imgur](https://imgur.com/xhqGVHl)
+![Imgur](https://imgur.com/xhqGVHl.png)
 
 **Total Statistics**: This section records all the number of View(s), Click(s), Close(s) including Parent Statistics and Child Statistics.
 
@@ -200,14 +200,14 @@ After Save or Save and Continue edit or edit popup will display **Statistics** o
 
 After Click **Add A/B Testing** to create a **Child popup** and then will display more **A/B Testing Report tab** in **Parent popup** to report chart by View(s), Click(s), Close(s) of Parent popup and Child popup.
 
-![Imgur](https://imgur.com/FQJDwzd)
+![Imgur](https://imgur.com/FQJDwzd.png)
 
 - Click **Add A/B Testing** to create a new popup called **Child popup** with information fields available from parent popup. You can then change the child popup information such as the content, location, images, etc., from the entered values. Click **Save** or **Save and Continue edit** to save the newly created popup.
 - **Child popup** information will depend on the **Parent popup** like Status, Display On Page, Customer Groups, Store Views, Priority, etc. For example, if the Parent popup is off, the child popup will also be turned off in the Frontend.
 - When both popup types are enabled, they will work and run alternately.
 - Selecting **Parent** will display **A/B Testing Report** as Pie-chart to compare Percentage of View, Click, Close amount between Parent and Child popup. Also, add **Parent Statistics**, **Child Statistics** fields to make reports of View, Click, Close. The statistics of the pie chart will be completely based on the information of Parent Statistics, Child Statistics.
 
-![Imgur](https://imgur.com/AhbGNFc)
+![Imgur](https://i.imgur.com/AhbGNFc.gif)
 
 ### 3. Compatible Quick View
 
