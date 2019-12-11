@@ -226,7 +226,7 @@ Go to **Magento Admin > System > Tools > Index Management**
 ![](https://i.imgur.com/XC6ebkk.png)
 
 - In the **Layout Updates** section, click on **Layout Update** to set the layout.
-  - Choose the [category]https://www.mageplaza.com/kb/how-to-create-a-new-category-in-magento-2.html(), [product](https://www.mageplaza.com/kb/how-create-simple-product-magento-2.html), or [page](https://www.mageplaza.com/kb/how-to-add-a-new-cms-page-magento-2.html) where shows the block in the **Display on** field.
+  - Choose the [category](https://www.mageplaza.com/kb/how-to-create-a-new-category-in-magento-2.html), [product](https://www.mageplaza.com/kb/how-create-simple-product-magento-2.html), or [page](https://www.mageplaza.com/kb/how-to-add-a-new-cms-page-magento-2.html) where shows the block in the **Display on** field.
   - If set to a specific page, you need to choose **Page** you want to the block to display and set **Container** that is the position of the page the block appears.
 
 ### Step 3: Configure Widget Options to display Who bought this item also bought block
@@ -243,7 +243,7 @@ Go to **Magento Admin > System > Tools > Index Management**
 
 ### 4. API
 
-**Who Bought Also Boughtv extension of Mageplaza supports using **REST API** to get a list of also bought products
+**Who Bought Also Bought** extension of Mageplaza supports using **REST API** to get a list of also bought products
 
 - More details see [here](https://documenter.getpostman.com/view/6685698/SW7eykoq?version=latest)
 - Instructions for creating tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html)
