@@ -60,8 +60,6 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 
 
 
-
-
 #### Register 2FA:
 
 ![](https://i.imgur.com/pXtezSd.png)
@@ -71,8 +69,6 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 - After registering, from the next login, admins need to get the code from the app to verify so that they can access the dashboard
 - The confirmation code created by the app after being replaced 30s still works for verification
 - When **Force using 2FA** is enabled, the admin user cannot disable 2FA here
-
-
 
 
 
@@ -88,5 +84,18 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 
 
 
+### 3. Disable login with 2FA by command
 
+In case you cannot get the confirmation code to log in with 2FA, you can use the following command to disable this feature with your account.
+
+```
+php bin/magento mageplaza/2fa:reset{{admin_username}}
+```
+
+For example, if your admin account has an admin username, then you need to run the command:
+`php bin/magento mageplaza/2fa:reset admin`
+
+![](https://imgur.com/pwd2o4o)
+
+After running this command, the 2FA feature will be disabled. If you want to re-enable the feature, you can go to **Account Settings** to reinstall it according to the instructions in section 2.
 
