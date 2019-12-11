@@ -219,23 +219,21 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - The default title is *Thank you for signing up!*
   
 - **Page Sub-title**:
-  -   - Enter the title for Thank You Page
+  - Enter the title for Thank You Page
   - The default title is *Welcome you to our exclusive newsletters with every updates*
       
 - **Page Description**:
-      - Enter the information that needs to display on Thank You Page
-      - The default detailed description is:
-      *You would be the first to reach our latest arrivals, news, events, various special promotions, giveaways and more.* 
-      *Stay tuned and keep updated. All the best!*
-      - HTML is supported
+  - Enter the information that needs to display on Thank You Page
+  - The default detailed description is: *You would be the first to reach our latest arrivals, news, events, various special promotions, giveaways and more. Stay tuned and keep updated. All the best!*
+  - HTML is supported
     
 - **Enable Block(s)**:
-      - Choose the block that displays on Thank You Page as *OCoupon, Social Sharing*
-      - Multiple blocks can be displayed at the same time.
+  - Choose the block that displays on Thank You Page as *OCoupon, Social Sharing*
+  - Multiple blocks can be displayed at the same time.
       
 - **Static Block**: 
-    - Choose Static Block that will display on the Thank You Page
-    - `Static Block = No display`: Not allow displaying any block oon Thank You Page
+  - Choose Static Block that will display on the Thank You Page
+  - `Static Block = No display`: Not allow displaying any block oon Thank You Page
 
 - **Mageplaza Product Slider**:
   - Choose the block of Product Slider extension displaying on Thank You Page
@@ -279,8 +277,8 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - For example: choose `Select Category = Category 1` of FAQ, then FAQ will be displayed at Category 1.
   
 - **Limit**:
-   - Enter the number of FAQ that will display
-   - The default number of display is 5
+  - Enter the number of FAQ that will display
+  - The default number of display is 5
 
 
 ### 4. The guide to install the library
