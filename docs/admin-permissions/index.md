@@ -230,7 +230,7 @@ Php bin / magento mageplaza-adminpermissions: custom-limit: disabled
 To uninstall **Mageplaza Admin Permissions Extension**, first run the following command:
 
 ```
-php bin / magento mageplaza-adminpermissions: uninstall
+php bin/magento mageplaza-adminpermissions:uninstall
 ```
 You then continue to uninstall the extension by following the usual steps.
   
