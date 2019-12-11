@@ -43,6 +43,8 @@ Go to `Stores > Settings > Configuration > Mageplaza Extension > Who Bought This
 
 Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, select **Display on Product Page**.
 
+![](https://i.imgur.com/we9Upz8.png)
+
 When a product is chosen, the item will be used to relate to other orders with the same status selected in Process Order with Status. The products appearing in those orders will be displayed in the Product Page.
 
 * In **Enable** field: Select "Yes" to enable and No to disable module in the Product Page.
@@ -96,6 +98,8 @@ Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, expand *
 
 When a category is chosen, all the products in the current category will be used to relate to other orders with the same status selected in Process Order with Status. The products appearing in those orders will be displayed in the Category Page.
 
+![](https://i.imgur.com/FJwNJeZ.png)
+
 
 * In **Enable** field: Select "Yes" to enable and No to disable module in the Category Page.
 * In **Title of Block** field
@@ -137,7 +141,7 @@ Go to `Admin Panel > Who Bought This Item Also Bought > Configuration`, select *
 
 After adding to cart, customers go to View and Edit Cart. In this page, all the products in their cart will be used to relate to other orders with the same status selected in Process Order with Status. The products appearing in those orders will be displayed in the Cart Page.
 
-![](https://i.imgur.com/BXU3Lbs.png)
+![](https://i.imgur.com/8RLHcnV.png)
 
 * In **Enable** field: Select "Yes" to enable and No to disable module in the Cart Page.
 * In **Title of Block** field: 
@@ -187,13 +191,83 @@ Go to **Magento Admin > System > Tools > Index Management**
 
 - **Update on Save**: tick the **Who Bought This Item Also Bought** checkbox > **Action = Update on Save**
   - **Also Bought Logs** data is updated when **Save**
-  - To update all data of **Also Bought** you can use the command line
+  - To update all data of **Also Bought** you can use the command line: `php bin/magento alsobought:reindex-all`
+  
 - **Update by Schedule**: Tick the **Who Bought This Item Also Bought** checkbox > **Action = Update by Schedule**
   - **Also Bought Logs** data is updated by schedule
-  - To update all data of Also Bought you can use the command line: `php bin / magento alsobought: reindex-all`
+  - To update all data of Also Bought you can use the command line: `php bin/magento alsobought:reindex-all`
+  
+## 3. Widget
 
-### API
+- Step 1: Select the Type
+- Step 2: Complete the Storefront Properties section
+- Step 3: Configure Widget Options to display Who bought this item also bought block
+
+### Step 1: Select the Type
+
+- On the Panel Admin, `Content > Elements > Widgets`
+- In the upper-right corner of **Widgets** workplace, click on **Add Widget** button.
+- In the Settings section:
+  - Choose **Mageplaza Also Bought** type in the **Type** box.
+  - Choose the current theme you are applying in the **Design Theme**.
+  - Click **Continue** button.
+
+![](https://i.imgur.com/QJznAgd.png)
+
+### Step 2: Complete the Storefront Properties section
+
+![](https://i.imgur.com/qXbXVOn.png)
+
+- In the **Storefront Properties** section,
+  - Enter **Widget Title** for the internal reference.
+  - Assign the block to all store views in the **Assign to Store View** field or to any store view you want to apply the block.
+  - Set the **Sort Order** if many blocks are placed at the same container. The block is at the top if the inserted value is zero.
+
+![](https://i.imgur.com/XC6ebkk.png)
+
+- In the **Layout Updates** section, click on **Layout Update** to set the layout.
+  - Choose the [category]https://www.mageplaza.com/kb/how-to-create-a-new-category-in-magento-2.html(), [product](https://www.mageplaza.com/kb/how-create-simple-product-magento-2.html), or [page](https://www.mageplaza.com/kb/how-to-add-a-new-cms-page-magento-2.html) where shows the block in the **Display on** field.
+  - If set to a specific page, you need to choose **Page** you want to the block to display and set **Container** that is the position of the page the block appears.
+
+### Step 3: Configure Widget Options to display Who bought this item also bought block
+
+![](https://i.imgur.com/dcHmUv1.png)
+
+- **Title of block**: Enter the name of the block
+- **Layout**: Select the product display type in the block. There are 2 types of display: **Product Slider** and **Multiple Lines**
+- **Show List**: you can select multiple options
+  - **Price**: allows to display the price of the Product
+  - **Add to Cart**: allows the customer to select the **Product into Cart** without viewing Product details
+  - **Review**: displays the **Product Rating** and allows the customer to move to the **Product Review** section when clicking **Review**
+  - **Add to Wish List & Add to Compare**: displays the icons of **Add to Wish List** and **Add to Compare**. When clicking on the icon, allowing customer to add products to WishList (need to log in) and add Products to comparison list to compare
+
+### 4. API
 
 **Who Bought Also Boughtv extension of Mageplaza supports using **REST API** to get a list of also bought products
+
 - More details see [here](https://documenter.getpostman.com/view/6685698/SW7eykoq?version=latest)
 - Instructions for creating tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html)
+
+### 5.GraphQL
+
+#### 5.1. How to install
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-who-bought-this-item-also-bought-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+#### 5.2. How to use
+
+- To perform GraphQL queries, you need to install the ChromeiQL extension for the Chrome browser
+- To perform GraphQL queries in Magento, you need to do the following requirements:
+  - Use Magento 2.3.x. Returns site to developer mode
+  - Install the ChromeiQL extension for Chrome browser (currently does not support other browsers)
+  - Set GraphQL endpoint as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+  - Perform a query in the left pane then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
+  - To see the queries that extension **Who bought this item also bought GraphQL** of Mageplaza, you can look in `Docs > Query > mpalsobought` in the right corner
+
+![](https://i.imgur.com/csZlYRT.png)
