@@ -197,13 +197,13 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Customer Approval
 ```
 php bin/magento customer:approve "email customer"
 ```
-- Example: `php bin/magento customer:approve email"mageplaza@gmail.com"`
+- Example: `php bin/magento customer:approveemail"mageplaza@gmail.com"`
 
 
 - **Not Approve**:
 
 ```
-php bin/magento customer:notapprove"email customer"
+php bin/magento customer:notapprove"emailcustomer"
 ```
 
 - Example: ` php bin/magento customer:notapprove"mageplaza@gmail.com"`
@@ -214,7 +214,7 @@ php bin/magento customer:notapprove"email customer"
 When installing, you should run the following command to update customer grid:
 
 ```
-  php bin / magento indexer: reindex customer_grid
+  php bin/magento indexer:reindex customer_grid
   ```
   
 When you want to remove the extension, you should go to the database to delete. Access to `eav_attribute` table, in the `attribute_code` column, you find and delete the `is_approved` attribute
