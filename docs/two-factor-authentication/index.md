@@ -95,7 +95,7 @@ php bin/magento mageplaza/2fa:reset{{admin_username}}
 For example, if your admin account has an admin username, then you need to run the command:
 `php bin/magento mageplaza/2fa:reset admin`
 
-![](https://imgur.com/pwd2o4o)
+![](https://imgur.com/pwd2o4o.png)
 
 After running this command, the 2FA feature will be disabled. If you want to re-enable the feature, you can go to **Account Settings** to reinstall it according to the instructions in section 2.
 
