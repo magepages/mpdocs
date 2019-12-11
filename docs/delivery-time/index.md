@@ -35,12 +35,13 @@ Login to Magento Admin, go to **Stores > Settings > Configuration > Mageplaza Ex
 ## III. GraphQl
 
 ### 3.1 How to install
+
 Run the following command in Magento 2 root folder:
 
 ```
-composer requires mageplaza / module-delivery-time-graphql
-php bin / magento setup: upgrade
-php bin / magento setup: static-content: deploy
+composer require mageplaza/module-delivery-time-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
 ```
 
 ### 3.2 How to use
