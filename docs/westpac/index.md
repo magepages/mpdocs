@@ -9,6 +9,8 @@ Westpac is Australia's most trusted payment processing provider. [Mageplaza West
 ### 1. Guides on Account registration 
 
 - **Westpac**: to register for a Westpac account, access [this link](https://www.payway.com.au/sandbox) and filling in the required information below:
+  - **Note**: At **PCI-DSS**, please select `My system meets PCI-DSS compliance for storing credit card numbers` to be able to use **Westpac PayWay Classic Credit Card API**.
+
 
 ![](https://i.imgur.com/kC6PPeM.png)
 
@@ -323,8 +325,4 @@ This section stores card information that customers have ordered.
 
 ![](https://i.imgur.com/ETAyJ3J.png)
 
-### 8. Instructions for installing the library
 
-- **Create directory**: `lib/ internal/ Mageplaza`
-- Visit the link to download Westpac PayWay's library [here](https://gitlab.com/users/sign_in)
-- Extract module-worldpay-library into `lib/ internal/ Mageplaza` and rename the file name you just extracted as: **Westpac**.
