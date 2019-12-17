@@ -280,11 +280,11 @@ To find out more cases, please visit [here](https://support.epdq.co.uk/en)
 
 Login to the Magento Admin, choose `Stores > Configuration > Sale > Payment Methods`
 
-![](https://i.imgur.com/GRtIIDX.png)
+![](https://i.imgur.com/deF8LBv.png)
 
 At **Barclaycard Payment Method**, click **Configure**
 
-![](https://i.imgur.com/gZ5w97w.png)
+![](https://i.imgur.com/5huh9Wt.png)
 
 ### 1.Credentials
 
