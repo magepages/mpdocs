@@ -95,6 +95,7 @@ Welcome to Mageplaza Docs
    import-export-categories/index
    import-export-cms/index
    instagram-feed/index
+   lazy-loading/index
    login-as-customer/index
    mass-order-actions/index
    mass-product-actions/index
@@ -118,6 +119,7 @@ Welcome to Mageplaza Docs
    promo-bar/index
    promo-banner/index
    quick-cart/index
+   quick-flush-cache/index
    quick-view-ajax-cart/index
    quick-order/index
    required-login/index
@@ -134,6 +136,7 @@ Welcome to Mageplaza Docs
    share-cart/index
    search-m2/index
    shop-by-brand-m2/index
+   shipping-cost/index
    shipping-rules/index
    shipping-restriction/index
    size-chart/index
@@ -151,6 +154,7 @@ Welcome to Mageplaza Docs
    who-viewed-this-also-viewed/index
    webhook/index
    worldpay/index
+   zoho-crm/index
    2checkout/index
  
    
