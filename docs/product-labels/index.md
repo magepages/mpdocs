@@ -7,7 +7,7 @@
 - [Download Mageplaza Product Labels extension](https://www.mageplaza.com/magento-2-product-labels/)
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
-## How to install
+## I. How to install
 
 ### Install via composer (Recommend)
 
@@ -19,7 +19,7 @@ php bin/magento setup:static-content:deploy
 ```
 
 
-## How to configure
+## II. How to configure
 
 From the Admin Panel, go to `Content > Product Labels > Configuration`
 
@@ -115,7 +115,7 @@ Design the labels and images for the product on the `Product Listing` (the label
     
 ![](https://i.imgur.com/184QCG2.gif)     
     
-### Frontend
+## III. Frontend
 #### Display on the Product Listing
 
 ![](https://i.imgur.com/1QmoqfC.png)
@@ -125,14 +125,14 @@ Design the labels and images for the product on the `Product Listing` (the label
 ![](https://i.imgur.com/gEOG0Tz.png)
 
 
-### API
+## IV. API
 
 **Product Labels** extension of Mageplaza supports the use of the **Rest API** to view a detailed list of all labels that the admin has created.
 
 - Details can be viewed [here](https://documenter.getpostman.com/view/6204567/SW7gUkTX?version=latest).
 - Instructions for creating **Integration tokens** are [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
-### GraphQl
+## V. GraphQl
 
 Run the following command in Magento 2 root folder:
 
