@@ -98,7 +98,7 @@ Choosing **Custom** will show more fields:
 It is possible to run the following command to optimize images quickly, conveniently and the number of images after each optimize will be based on the value of the Limit Number of Images field in the Configuration section:
 
 ```
-php bin/ magento mpimageoptimizer: optimize
+php bin/magento mpimageoptimizer:optimize
 ```
 
 Also, please run the following command to scan images following the confiruration at the field **Scan Directory**:
