@@ -262,12 +262,11 @@ php bin/magento setup:static-content:deploy
 
 #### 5.2. How to use
 
-- To perform GraphQL queries, you need to install the ChromeiQL extension for the Chrome browser
 - To perform GraphQL queries in Magento, you need to do the following requirements:
-  - Use Magento 2.3.x. Returns site to developer mode
-  - Install the ChromeiQL extension for Chrome browser (currently does not support other browsers)
+  - Use Magento 2.3.x. Return your site to developer mode
+  - Install the [ChromeiQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij) extension for Chrome browser (currently does not support other browsers)
   - Set GraphQL endpoint as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-  - Perform a query in the left pane then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
-  - To see the queries that extension **Who bought this item also bought GraphQL** of Mageplaza, you can look in `Docs > Query > mpalsobought` in the right corner
+  - Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
+  - To see the supported queries for **Who bought this item also bought GraphQL** of Mageplaza, you can look in `Docs > Query > mpalsobought` in the right corner
 
 ![](https://i.imgur.com/csZlYRT.png)
