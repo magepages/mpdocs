@@ -149,7 +149,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 
 ### 3. Edit Product
   
-- Login to the **Magento Admin**, choose `Catalog> Products`, select **new/edit** with a restricted Products you want
+- Login to the **Magento Admin**, choose `Catalog S> Products`, select **new/edit** with a restricted Products you want
 - **This section applies the configuration when choose new/edit for each Product.** 
 - **Note**: If the Restrict Products in the Configuration section and for each Product here are different, priorities will be given to each Product first.
 
@@ -191,7 +191,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   
   ### 4. Edit Pages/Block
 
-- Login to the **Magento Admin**, choose `Catalog> Pages/Blocks`, select **new/edit** with a Restrict Static Page/Restrict Static Block you want.
+- Login to the **Magento Admin**, choose `Catalog > Pages/Blocks`, select **new/edit** with a Restrict Static Page/Restrict Static Block you want.
 - **This section applies the configuration when choose new/edit for each Page/Block.** 
 - **Note**: If the **Restrict Static Page/Restrict Static Block** in the Configuration section and for **each Page/Block** here are different, priorities will be given to each Page/Block first.
 
@@ -240,7 +240,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   
 ## Notation
 
-- When you want to remove the extension, you should use composer to run the command: `bin / magento module: uninstall Mageplaza_ CatalogPermissions`
+- When you want to remove the extension, you should use composer to run the command: `bin/magento module:uninstall Mageplaza_ CatalogPermissions`
 - If you delete the extension manually, you need to delete `mpcp_isactive, mpcp_customergroup, mpcp_redirectto, mpcp_usecf_redirectto, mpcp_hideaction, mpcp_usecf_hideaction, mpcp_startdate, mpcp_enddate` attribute in the database.
   - Access the database to delete: Access to `eav_attribute` table. In the `attribute_code` column, find and delete the `mpcp_isactive, mpcp_customergroup, mpcp_redirectto attribute, mpcp_usecf_redirectto, mpcp_hideaction, mpcp_usecf_hideaction, mpcp_startdate, mpcp_enddate`.
   

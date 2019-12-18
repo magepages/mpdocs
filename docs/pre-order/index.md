@@ -239,7 +239,7 @@ Login to the **Magento Admin**, choose `Catalog > Product > Edit Product > Advan
 
 ## Notation
 
-- When you want to remove the extension, you should use composer to run the command: `bin / magento module: uninstall Mageplaza_PreOrder`
+- When you want to remove the extension, you should use composer to run the command: `bin/magento module:uninstall Mageplaza_PreOrder`
 - If you want to delete the extension, you need to delete more `mppo_add_to_cart_label`, `mppo_stock_status_label` and `mppo_delivery_date` attribute in the database
 - Into the database to delete: Access to eav_attribute table. In the attribute_code column, you find and delete the attribute `mppo_add_to_cart_label`, `mppo_stock_status_label` and `mppo_delivery_date`
 

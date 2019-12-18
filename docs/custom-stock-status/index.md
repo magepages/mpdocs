@@ -194,7 +194,7 @@ You can edit products for multiple products at the same time to save time. Go to
 
 ### 5. Attention
 
-- When you want to remove the extension, you should use composer to run the command: `bin / magento module: uninstall Mageplaza_StockStatus`
+- When you want to remove the extension, you should use composer to run the command: `bin/magento module:uninstall Mageplaza_StockStatus`
 
 - If you delete the extension manually, you need to delete more the `mp_dynamic_groups` and `mp_stock_status` attributes in the database or in the backend.
 

@@ -207,7 +207,7 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
   - Note: You should carefully check the class you want to limit before saving the **User Role**. In case you mistakenly restrict the class and you cannot access the admin page or you want to remove the class restriction but cannot access the User Role page that you saved earlier, you can run the following command to disable the feature **Customize Limit Action**:
   
 ```
-Php bin / magento mageplaza-adminpermissions: custom-limit: disabled
+php bin/magento mageplaza-adminpermissions:custom-limit:disabled
 ```
 
 #### 8. Time Valid

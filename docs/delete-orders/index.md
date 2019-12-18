@@ -62,7 +62,7 @@ An Order can only be deleted automatically by schedule when and only if it satis
 
 - Besides delete orders automatically, Admin can also click the "Run Manually" button to delete specific orders that meet all conditions 
 
-- **Note**: Admin can also delete orders by using the command line `php bin / magento order: delete order_id`. For example Admin wants to delete the order with **ID = 15**, admin on the command line running the command `php bin / magento order: delete 15`.
+- **Note**: Admin can also delete orders by using the command line `php bin/magento order:delete order_id`. For example Admin wants to delete the order with **ID = 15**, admin on the command line running the command `php bin/magento order:delete 15`.
 
 
 #### 3. Email Notification

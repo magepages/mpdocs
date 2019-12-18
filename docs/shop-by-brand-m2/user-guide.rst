@@ -263,7 +263,7 @@ Go to ``System > Data Transfer > Import > Import Settings > Entity Type`` field,
 Follow those steps next
   * In **Import Behaviour** fiels, choose *Import Behaviour* as "Add/Update"
   * In **File to Import** field, browse your brand's CSV file in *Select file to Import*
-  * Copy the file contains Brands in the csv file to the pub / media / import section of the site. (Note: For magento 2.3.3, you need to copy image file of brands and paste at the folder `/var/import/images`)
+  * Copy the file contains Brands in the csv file to the pub/media/import section of the site. (Note: For magento 2.3.3, you need to copy image file of brands and paste at the folder `/var/import/images`)
 
   
 .. image:: https://imgur.com/AIeeY5y.jpg  

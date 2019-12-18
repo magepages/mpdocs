@@ -96,8 +96,8 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
 Admins can use the following command to archive or unarchive any order that they want: 
 
 ```
-php bin / magento order: archive order_id
-php bin / magento order: unarchive order_id
+php bin/magento order:archive order_id
+php bin/magento order:unarchive order_id
 ```
 
 ![](https://i.imgur.com/hcxnXa0.png)
