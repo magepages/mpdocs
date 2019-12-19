@@ -273,7 +273,7 @@ Hello Admin
 There is something wrong with the sitemap generation. Please check and try again.
 ```
 
-### II. Admin add new/edit customer
+### II. Admin register for customers to recieve SMS notification
 
 Admin can help customers to register to receive notifications by entering customer phone number at backend. 
 
