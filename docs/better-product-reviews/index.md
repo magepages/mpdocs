@@ -210,9 +210,33 @@ Product reviews are listed according to **Report Review Status** installed at Co
 
 ![](https://i.imgur.com/cYI9sVs.png)
 
-### API
+### 4. API
 
 **Mageplaza's Better Product Review** extension supports the use of the **Rest API** to view a detailed list reviews that customers have left for your products and through the Rest API can create reviews or update customer reviews for the product.
 
 - Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE29gRM?version=latest).
 - Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 5. GraphGl
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-better-product-reviews-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+To start working with **Better Product Reviews GraphQl** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
+- To see the supported queries for **Better Product Reviews GraphQl** of Mageplaza, you can look in `Docs > Query > mpBprGetReview` in the right corner
+
+![](https://i.imgur.com/cygqEwo.png)
+
+- In addition, you can create reviews from products and to see if mutations are supported to create reviews from **Mageplaza's Better Product Reviews GraphQl**, you can look at the top right corner of `Docs > Mutation > Create a new Review`.
+
+![](https://i.imgur.com/zgmHrt1.png)
