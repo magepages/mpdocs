@@ -13,17 +13,17 @@ Moreover, this extension allows sending SMS notifications by integrating a 3rd p
 
 ![](https://i.imgur.com/9wFJ11s.png)
 
-- Customer enters OTP to verify phone number upon request
-
-  - For customers who had an account already
+- **Customer enters OTP to verify phone number upon request**
+  - **For customers who had an account already**
+  
   ![](https://i.imgur.com/BRsm97j.png)
-
-  - For customers registering an account
+  - **For customers registering an account**
+  
   ![](https://i.imgur.com/zNAPHtN.png)
 
 ### 2. Customer enters the phone number at Billing/Shipping to receive SMS of Order notification
 
-![](https://i.imgur.com/SM9VD6k.png)
+![](https://i.imgur.com/vkL0Lr4.png)
 
 Customer click the checkbox to receive order notification via SMS
 
