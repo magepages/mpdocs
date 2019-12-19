@@ -41,7 +41,7 @@ Zoho CRM or Customer Relationship Management software is a cloud-based CRM servi
 
 Login to the Magento Admin, choose `Stores > Settings > Configuration > Zoho CRM`.
 
-![](https://i.imgur.com/n49RH6K.gifv)
+![](https://i.imgur.com/n49RH6K.gif)
 
 #### 1.1. General Configuration
 
