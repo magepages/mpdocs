@@ -117,7 +117,7 @@ After selecting the object, click **Next** to start filling at **Form create/ ed
 - **Name**:
   - Enter the name of Sync rules
   - This is a required field
-- **Status**: Select **Active** to rule active and synchronize data to Zoho Module.
+- **Status**: Select **Active** to enable the rules to work and synchronize data to Zoho Module.
 - Data of **Magento Object, Zoho Module, Website** are taken according to the object data above before creating sync rules and can only be changed when admin changes object information before creating.
 
 ##### 2.2.2. Conditions
@@ -139,8 +139,8 @@ Here select the corresponding Magento Fields to send data to Zoho CRM.
 - **Magento Fields**:
   - Enter the fields of the corresponding Magento object to upload data with the fields of Zoho Module.
   - Leaving this column blank will get the **Default Value** column to apply to Zoho Module.
-  - **Internal Note**: Enter an internal note for any note of this rule. There is no value when processing data.
-  - **Insert Variables**: Select the fields of the Magento object corresponding to the fields of Zoho Module.
+- **Internal Note**: Enter an internal note for any note of this rule. This is for admin use only, not for data synchronization. 
+- **Insert Variables**: Select the fields of the Magento object corresponding to the fields of Zoho Module.
 
 ##### 2.2.4. Queue Report
 
@@ -154,7 +154,7 @@ Here records **Queue data** by rules which include information of **Object, Crea
 
 ![](https://i.imgur.com/xi0P2az.png)
 
-- This section records the information of Queue including **Object information, Sync Rule, Magento Object, Zoho Module, and so on.**
+- This section records the information of Queue including **Object, Sync Rule, Magento Object, Zoho Module, and so on.**
 - Here admin can synchronize all data or select specific data to add to queue and synchronize to Zoho CRM. All data changes such as **create, update, delete** are included in Queue.
 - When you click on **View**, it will display **Popup View Queue** to see all information of each Queue. Select **Delete** to delete Queue and **Resend** to resend Queue.
 
