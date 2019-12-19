@@ -11,18 +11,23 @@ Moreover, this extension allows sending SMS notifications by integrating a 3rd p
 
 ### 1. Customer registers to receive incoming notifications by SMS
 
+![](https://i.imgur.com/9wFJ11s.png)
+
 - Customer enters OTP to verify phone number upon request
 
   - For customers who had an account already
+  ![](https://i.imgur.com/BRsm97j.png)
 
   - For customers registering an account
-
+  ![](https://i.imgur.com/zNAPHtN.png)
 
 ### 2. Customer enters the phone number at Billing/Shipping to receive SMS of Order notification
 
+![](https://i.imgur.com/SM9VD6k.png)
+
 Customer click the checkbox to receive order notification via SMS
 
-
+![](https://i.imgur.com/bydBW1P.png)
 
 ## How to Configure
 
@@ -30,14 +35,18 @@ Customer click the checkbox to receive order notification via SMS
 
 Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notification`.
 
+![](https://i.imgur.com/k1V7X4n.png)
+
 
 #### 1.General
+
+![](https://i.imgur.com/1tOBswu.png)
 
 - Select **Enable = Yes** to enable the module.
 - Select **Verify Phone Number = Yes**: Customers will be verified phone number via OTP code.
 - **Phone Codes**: Allows displaying the country prefix number.
-
-- ****OTP Format**: Admin chooses the format for the OTP code. This field will only display when **Verify Phone Number = Yes**
+![](https://i.imgur.com/M1DT2hj.png)
+- **OTP Format**: Admin chooses the format for the OTP code. This field will only display when **Verify Phone Number = Yes**
   - **Alphanumberic**: The OTP code segment will contain both letters and numbers.
   - **Alphabetical**: OTP code segment will contain only words.
   - **Number**: The OTP code segment will only contain each number.
@@ -49,7 +58,7 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 
 - **Sender Phone Number**: Enter the sender's phone number provided from Twilio. (Only used when **SMS Service Provider = Twilio**)
 
-- **SMS Delivery**: Choose a 3rd party to integrate SMS gateway ([Twilio](https://www.twilio.com/console), Amazon SNS)
+- **SMS Delivery**: Choose a 3rd party to integrate SMS gateway ([Twilio](https://www.twilio.com/console), [Amazon SNS](https://aws.amazon.com/))
   - **Twilio Account SID**: Admin enter Account SID to be integrated SMS   gateway. If left blank, Twilio will not be applied.
   - **Twilio Account Token**: Admin enter Account Token to be integrated   SMS gateway. If left blank, Twilio will not be applied.
   - **Access Key ID**: Admin enter Access Key ID to be integrated SMS   gateway. If left blank, Amazon SNS will not apply.
@@ -59,6 +68,8 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 - **Send Test SMS**: Click the button to check if SMS has been sent.
 
 #### 2.Customer Notification
+
+![](https://i.imgur.com/dNsSuEO.gif)
 
 - **Enable SMS For**: Admin selects the options to allow sending SMS to the customer.
 - **Sign Up Confirmation**: Enter content for SMS sent to customer when the system sends registration confirmation to customer.
@@ -171,15 +182,19 @@ Product {{product_name}} has just been taken to stock. Visit {store_name}} and t
 
 #### 3. Admin Notification
 
+![](https://i.imgur.com/dNsSuEO.gif)
+
 - **Enable SMS For**: Admin selects the options to allow sending SMS notifications to the admin.
 - **Sending Frequency**: Admin selects the frequency of sending SMS notifications to the admin.
+
+![](https://i.imgur.com/ui2wjvP.png)
 
 - **Total New Accounts**: Enter content for SMS sent to the admin statistics the number of new accounts created.
   - For example:
 
 ```
 Hello Admin
-Today / This week / This month, your store has a total of {{number_new_customer}} new customers registering accounts.
+Today/This week/This month, your store has a total of {{number_new_customer}} new customers registering accounts.
 Congratulations!
 ```
 
@@ -188,7 +203,7 @@ Congratulations!
 
 ```
 Hello Admin
-Today / This week / This month, your store has a total of {{number_new_order}} new orders placed.
+Today/This week/This month, your store has a total of {{number_new_order}} new orders placed.
 Congratulations!
 ```
 
@@ -197,7 +212,7 @@ Congratulations!
 
 ```
 Hello Admin
-Today / This week / This month, your store has a total of {{number_new_invoice}} invoices created.
+Today/This week/This month, your store has a total of {{number_new_invoice}} invoices created.
 ```
 
 
@@ -206,7 +221,7 @@ Today / This week / This month, your store has a total of {{number_new_invoice}}
 
 ```
 Hello Admin
-Today / This week / This month, your store has a total of {{number_new_shipment}} shipment processed.
+Today/This week/This month, your store has a total of {{number_new_shipment}} shipment processed.
 ```
 
 
@@ -215,7 +230,7 @@ Today / This week / This month, your store has a total of {{number_new_shipment}
 
 ```
 Hello Admin
-Today / This week / This month, your store has a total of {{number_new_memo}} memos generated.
+Today/This week/This month, your store has a total of {{number_new_memo}} memos generated.
 ```
 
 
@@ -224,7 +239,7 @@ Today / This week / This month, your store has a total of {{number_new_memo}} me
 
 ```
 Hello Admin
-Today / This week / This month, your store has received {{number_new_contact}} new inquiries.
+Today/This week/This month, your store has received {{number_new_contact}} new inquiries.
 Check your email to update and respond soon!
 ```
 
@@ -256,8 +271,10 @@ There is something wrong with the sitemap generation. Please check and try again
 
 ### II. Admin add new/edit customer
 
-Admin can help customers to enter customer phone number and register to receive notifications.
+Admin can help customers to register to receive notifications by entering customer phone number at backend. 
 
-
+![](https://i.imgur.com/mCX3dTW.png)
 
 ### III. Compatible with One Step Checkout
+
+![](https://i.imgur.com/5pLVWAu.png)
