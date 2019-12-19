@@ -6,6 +6,10 @@ In addition, we also support SMS Notification compatible with [One Step Checkout
 
 Moreover, this extension allows sending SMS notifications by integrating a 3rd party SMS gateway such as **Twilio, Amazon SNS.**
 
+## Download and Install
+
+- [Download Mageplaza SMS Notification](https://www.mageplaza.com/magento-2-sms-notification/)
+- [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
 
@@ -25,20 +29,20 @@ Moreover, this extension allows sending SMS notifications by integrating a 3rd p
 
 ![](https://i.imgur.com/vkL0Lr4.png)
 
-Customer click the checkbox to receive order notification via SMS
+**Customer click the checkbox to receive order notification via SMS**
 
 ![](https://i.imgur.com/bydBW1P.png)
 
 ## How to Configure
 
-### I.Configuration
+### I. Configuration
 
 Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notification`.
 
 ![](https://i.imgur.com/k1V7X4n.png)
 
 
-#### 1.General
+#### 1. General
 
 ![](https://i.imgur.com/1tOBswu.png)
 
@@ -67,7 +71,7 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 - **Recipient Phone Number**: Enter the phone number of the recipient to notify the admin and this is also the phone number for you **Send Test** SMS.
 - **Send Test SMS**: Click the button to check if SMS has been sent.
 
-#### 2.Customer Notification
+#### 2. Customer Notification
 
 ![](https://i.imgur.com/dNsSuEO.gif)
 
