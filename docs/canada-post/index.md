@@ -129,6 +129,7 @@ If the **Base Currency** field is different from the **Canadian Dollar**, then y
 
 Login to the Magento Admin, choose `Stores > Configuration > Sales > Shipping Methods > Canada Post by Mageplaza`
 
+![](https://i.imgur.com/XcZp4uT.png)
 
 - **Enable**: Select **Yes** to make the extension active
 - **Carrier Title**: Enter the **Carrier Title** you want to display in the frontend checkout. The default is **Canada Post**
