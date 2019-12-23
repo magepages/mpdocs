@@ -9,15 +9,15 @@ This extension is fully compatible with [Mageplaza One Step Checkout](https://ww
 
 ## How to use
 
-Displays the Canada Post shipping method at frontend with expected delivery time when customer create orders
+### Displays the Canada Post shipping method at frontend with expected delivery time when customer create orders
 
 ![](https://i.imgur.com/UeOkf96.png)
 
-Admin can create orders using the Canada Post shipping methods
+### Admin can create orders using the Canada Post shipping methods
 
 ![](https://i.imgur.com/wvvFv1d.png)
 
-Create and print Shipping Labels for Orders
+### Create and print Shipping Labels for Orders
 
 ![](https://i.imgur.com/7G63dS4.png)
 
@@ -29,70 +29,70 @@ Create and print Shipping Labels for Orders
 
 #### Create Canada Post Account
 
-If you already have a Canada Post account, you can skip this guide.
+- If you already have a **Canada Post** account, you can skip this guide.
 
-Visit [Canada Post homepage](https://www.canadapost.ca/cpc/en/home.page), click **Sign In**
+- Visit [Canada Post homepage](https://www.canadapost.ca/cpc/en/home.page), click **Sign In**
 
 ![](https://i.imgur.com/Scvh0hc.png)
 
-When the Popup **Sign In** is displayed, click **Register now**
+- When the Popup **Sign In** is displayed, click **Register now**
 
 ![](https://i.imgur.com/kNLbm8v.png)
 
-Click **Create business profile**
+- Click **Create business profile**
 
 ![](https://i.imgur.com/tNPPqxG.png)
 
-Fill in the information in the **Profile Information** section and select **Continue**
+- Fill in the information in the **Profile Information** section and select **Continue**
 
 ![](https://i.imgur.com/LjR4pTE.png)
 
 ![](https://i.imgur.com/tSpg8WD.png)
 
 
-Select **Profile Type** as **Small Business** and then click **Select and Continue** button. If you would like to register the **Profile Type** as **Enterprise**, please contact the Canadian Post support team for more details.
+- Select **Profile Type** as **Small Business** and then click **Select and Continue** button. If you would like to register the **Profile Type** as **Enterprise**, please contact the Canadian Post support team for more details.
 
 ![](https://i.imgur.com/nD958hb.png)
 
-Fill in the **Contact information**, select **Continue**
+- Fill in the **Contact information**, select **Continue**
 
 ![](https://i.imgur.com/L0VLChB.png)
 
 ![](https://i.imgur.com/UYGfMzs.png)
 
-You will be redirected to the section providing more information "Tell us about your business". You can fill in the information or click **Ask me later** to update later.
+- You will be redirected to the section providing more information "Tell us about your business". You can fill in the information or click **Ask me later** to update later.
 
 ![](https://i.imgur.com/Wf5796Y.png)
 
-Finally you will be moved to the **Confirmation** section. You have finished creating your account. Here you will be provided with **Customer Number** information that will be used to connect to the API later.
+- Finally you will be moved to the **Confirmation** section. You have finished creating your account. Here you will be provided with **Customer Number** information that will be used to connect to the API later.
 
 ![](https://i.imgur.com/tVj7pvN.png)
 
 #### Instructions for obtaining the API Key
 
-To get API Key you need to log in to your **Dashboard** page. In case you created a new account, you can access this page by clicking **Continue** in the **Confirmation** section when creating the account. Or if you already have an account, simply visit the Canada Post homepage, select **Sign In** and log in with your registered account.
+- To get API Key you need to log in to your **Dashboard** page. In case you created a new account, you can access this page by clicking **Continue** in the **Confirmation** section when creating the account. Or if you already have an account, simply visit the Canada Post homepage, select **Sign In** and log in with your registered account.
 
-After successful login, on Dashboard, select `Business > E-commerce > Integrate with our APIs`
+- After successful login, on Dashboard, select `Business > E-commerce > Integrate with our APIs`
 
 ![](https://i.imgur.com/F4aRqWI.png)
 
-Then continue to select **Go to Developer Program** on the next page
+- Then continue to select **Go to Developer Program** on the next page
 
 ![](https://i.imgur.com/RoqnqmK.png)
 
-Click **Join NOW**
+- Click **Join NOW**
 
 ![](https://i.imgur.com/wkpFLe0.png)
 
-Click **Join NOW** again.
+- Click **Join NOW** again.
 
 ![](https://i.imgur.com/plcGXbt.png)
 
-After reading the **Agreement**, click **AGREE AND CONTINUE**
+- After reading the **Agreement**, click **AGREE AND CONTINUE**
 
 ![](https://i.imgur.com/tSOxbTi.png)
 
-After joining the program successfully, you will see the Developer Program home page, where you will get the **Customer Number** and **API Key** of Development and Production corresponding to **Sandbox** and **Production** environments at Configuration in Part III.
+- After joining the program successfully, you will see the Developer Program home page, where you will get the **Customer Number** and **API Key** of Development and Production corresponding to **Sandbox** and **Production** environments at Configuration in Part III.
 
 ![](https://i.imgur.com/pUU9336.png)
 
