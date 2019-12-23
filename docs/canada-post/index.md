@@ -11,17 +11,17 @@ This extension is fully compatible with [Mageplaza One Step Checkout](https://ww
 
 Displays the Canada Post shipping method at frontend with expected delivery time when customer create orders
 
-![Imgur](https://i.imgur.com/UeOkf96.png)
+![](https://i.imgur.com/UeOkf96.png)
 
 Admin can create orders using the Canada Post shipping methods
 
-![Imgur](https://i.imgur.com/wvvFv1d.png)
+![](https://i.imgur.com/wvvFv1d.png)
 
 Create and print Shipping Labels for Orders
 
-![Imgur](https://i.imgur.com/7G63dS4.png)
+![](https://i.imgur.com/7G63dS4.png)
 
-![Imgur](https://i.imgur.com/Ep4MGSu.png)
+![](https://i.imgur.com/Ep4MGSu.png)
 
 ## How to configure
 
@@ -33,40 +33,40 @@ If you already have a Canada Post account, you can skip this guide.
 
 Visit [Canada Post homepage](https://www.canadapost.ca/cpc/en/home.page), click **Sign In**
 
-![Imgur](https://i.imgur.com/Scvh0hc.png)
+![](https://i.imgur.com/Scvh0hc.png)
 
 When the Popup **Sign In** is displayed, click **Register now**
 
-![Imgur](https://i.imgur.com/kNLbm8v.png)
+![](https://i.imgur.com/kNLbm8v.png)
 
 Click **Create business profile**
 
-![Imgur](https://i.imgur.com/tNPPqxG.png)
+![](https://i.imgur.com/tNPPqxG.png)
 
 Fill in the information in the **Profile Information** section and select **Continue**
 
-![Imgur](https://i.imgur.com/LjR4pTE.png)
+![](https://i.imgur.com/LjR4pTE.png)
 
-![Imgur](https://i.imgur.com/tSpg8WD.png)
+![](https://i.imgur.com/tSpg8WD.png)
 
 
 Select **Profile Type** as **Small Business** and then click **Select and Continue** button. If you would like to register the **Profile Type** as **Enterprise**, please contact the Canadian Post support team for more details.
 
-![Imgur](https://i.imgur.com/nD958hb.png)
+![](https://i.imgur.com/nD958hb.png)
 
 Fill in the **Contact information**, select **Continue**
 
-![Imgur](https://i.imgur.com/L0VLChB.png)
+![](https://i.imgur.com/L0VLChB.png)
 
-![Imgur](https://i.imgur.com/UYGfMzs.png)
+![](https://i.imgur.com/UYGfMzs.png)
 
 You will be redirected to the section providing more information "Tell us about your business". You can fill in the information or click **Ask me later** to update later.
 
-![Imgur](https://i.imgur.com/Wf5796Y.png)
+![](https://i.imgur.com/Wf5796Y.png)
 
 Finally you will be moved to the **Confirmation** section. You have finished creating your account. Here you will be provided with **Customer Number** information that will be used to connect to the API later.
 
-![Imgur](https://i.imgur.com/tVj7pvN.png)
+![](https://i.imgur.com/tVj7pvN.png)
 
 #### Instructions for obtaining the API Key
 
@@ -74,27 +74,27 @@ To get API Key you need to log in to your **Dashboard** page. In case you create
 
 After successful login, on Dashboard, select `Business > E-commerce > Integrate with our APIs`
 
-![Imgur](https://i.imgur.com/F4aRqWI.png)
+![](https://i.imgur.com/F4aRqWI.png)
 
 Then continue to select **Go to Developer Program** on the next page
 
-![Imgur](https://i.imgur.com/RoqnqmK.png)
+![](https://i.imgur.com/RoqnqmK.png)
 
 Click **Join NOW**
 
-![Imgur](https://i.imgur.com/wkpFLe0.png)
+![](https://i.imgur.com/wkpFLe0.png)
 
 Click **Join NOW** again.
 
-![Imgur](https://i.imgur.com/plcGXbt.png)
+![](https://i.imgur.com/plcGXbt.png)
 
 After reading the **Agreement**, click **AGREE AND CONTINUE**
 
-![Imgur](https://i.imgur.com/tSOxbTi.png)
+![](https://i.imgur.com/tSOxbTi.png)
 
 After joining the program successfully, you will see the Developer Program home page, where you will get the **Customer Number** and **API Key** of Development and Production corresponding to **Sandbox** and **Production** environments at Configuration in Part III.
 
-![Imgur](https://i.imgur.com/pUU9336.png)
+![](https://i.imgur.com/pUU9336.png)
 
 
 ### II. Required Configuration
@@ -106,7 +106,7 @@ In order to use the Canada Post shipping methods on the website, the admin needs
 - Login to the Magento Admin, choose `Stores > Configuration > General > Store Information`.
 - It is required to fill in the **Store Name** and **Store Phone Number** fields, other fields are not required.
 
-![Imgur](https://i.imgur.com/1a6AvQ2.png)
+![](https://i.imgur.com/1a6AvQ2.png)
 
 #### 2. Setup Origin
 
@@ -119,82 +119,115 @@ In order to use the Canada Post shipping methods on the website, the admin needs
 - Login to the Magento Admin, choose `Stores > Configuration > General > Currency Setup > Currency Options`
 - Choose **Canadian Dollar** at **Allowed Currencies** field
 
-![Imgur](https://i.imgur.com/AmkpdON.png)
+![](https://i.imgur.com/AmkpdON.png)
 
 If the **Base Currency** field is different from the **Canadian Dollar**, then you must set the exchange rate between **Base Currency** and **Canadian Dollar**. To do that, login to the Magento Admin, choose `Stores > Currency > Currency Rates`, enter the exchange rate in the **CAD** column
 
-![Imgur](https://i.imgur.com/3MOavCf.png)
+![](https://i.imgur.com/3MOavCf.png)
 
 ### III. General Configuration
 
 Login to the Magento Admin, choose `Stores > Configuration > Sales > Shipping Methods > Canada Post by Mageplaza`
 
 
-**Enable**: Select **Yes** to make the extension active
-**Carrier Title**: Enter the **Carrier Title** you want to display in the frontend at checkout. The default is **Canada Post**
-**Environment**: Select the corresponding environment you want to apply on the store. The **sandbox environment** is a copy of the **production** and includes valid test data and feedback so you can check if the extension is working properly on your site before going live (switch to the Production environment).
-**API Username**: Enter the API Username corresponding to the Environment selected above. How to obtain API Username please see the instructions in Part I.
-**API Password**: Enter the API Password corresponding to the Environment selected above. How to get API Password please see instructions in Part I.
-**Customer Number**: Enter your Customer Number value. How to create an account and get a Customer Number please see the instructions in Part I
-**Agreement Type**: Select **Contract** if you have a **Commercial (Enterprise)** account. Learn more about Contract for Commercial here.
-**Contract ID**: Depends on **Agreement Type = Contract**. Enter the **Contract ID** value corresponding to your **Canadian Post Commercial (Enterprise)** account here.
+- **Enable**: Select **Yes** to make the extension active
+- **Carrier Title**: Enter the **Carrier Title** you want to display in the frontend checkout. The default is **Canada Post**
+- **Environment**: Select the corresponding environment you want to apply on the store. The **sandbox environment** is a copy of the **Production** and includes valid test data and feedback so you can check if the extension is working properly on your site before going live (switch to the Production environment).
+- **API Username**: Enter the **API Username** corresponding to the environment selected above. How to obtain API Username, please see the instructions in Part I.
+- **API Password**: Enter the **API Password** corresponding to the environment selected above. How to get API Password please see instructions in Part I.
+- **Customer Number**: Enter your **Customer Number** value. How to create an account and get a Customer Number please see the instructions in Part I
+- **Agreement Type**: Select **Contract** if you have a **Commercial (Enterprise)** account. Learn more about [Contract for Commercial here](https://www.canadapost.ca/tools/pg/manual/PGsetup-e.asp).
+- **Contract ID**: Depends on **Agreement Type = Contract**. Enter the **Contract ID** value corresponding to your **Canadian Post Commercial (Enterprise)** account here.
 **Language**: Set the display language for the shipping method title and error messages in the frontend. Supports 2 types of languages: **English** and **French**
 
-**Display Estimated Delivery Time**: Displays the estimated delivery date for the Canada Post shipment options.
-**Delivery Time Offset**: The amount of time calculated in days is added to the estimated delivery time.
-**Allowed Shipping Methods**: Choose the shipping methods allowed for the store. Only ship methods selected in this field and satisfying each shipping address will be displayed in the frontend.
-**Enable Free Shipping**: Select **Yes** to install Free Shipping with Canada Post for the countries.
+![](https://i.imgur.com/DKvAs08.png)
+
+- **Display Estimated Delivery Time**: Displays the estimated delivery date for the Canada Post shipment options.
+- **Delivery Time Offset**: The amount of time calculated in days added/subtracted from the estimated delivery time. Admin can adjust the estimated delivery time range using this field. 
+- **Allowed Shipping Methods**: Choose the shipping methods allowed for the store. Only shipping methods selected in this field and satisfying each shipping address will be displayed in the frontend.
+- **Enable Free Shipping**: Select **Yes** to install **Free Shipping** with Canada Post for the countries.
+
+![](https://i.imgur.com/DKvAs08.png)
+
+![](https://i.imgur.com/H8rDAME.png)
+
+- **Minimum Order Amount**: Depends on **Enable Free Shipping = Yes**. Enter the lowest value of orders allowed to apply Free Shipping.
+- **Free Method For Canada**: Depend on **Enable Free Shipping = Yes**. Choose the shipping method applied Free Shipping in Canada.
+- **Free Method For US**: Depend on **Enable Free Shipping = Yes**. Choose the shipping method applied Free Shipping in the US.
+- **Free Method For International**: Depend on **Enable Free Shipping = Yes**. Choose shipping methods that apply Free Shipping in other countries where Canada Post supports shipping.
+
+![](https://i.imgur.com/eRzuz4s.png)
+
+- **Quote Type**: Select the **Quote Type** that corresponds to your account's **Profile Type**. Select **Commercial**** if you have a **Commercial (Enterprise)** account.
+- **Print Output Format**: Select the print format for shipping label. Supports 2 types of formats are **8.5x11** and **4x6**.
+- **Reason For Export**: Enter the code presenting the **Reason For Export** listed on the shipping label.
+- **Other Reason**: Dependend on **Reason For Export = Other**. Enter a value for the **Reason For Export** section displayed on the shipping label. Minimum of 4 characters, maximum of 44 characters.
+- **Max Package Weight**: Unit in kg(s). Fill the maximum weight for 1 item in the cart. Use this weight to divide the shopping cart into different packages. The maximum value to be filled is 30 (- kgs).
+- **Calculate Handling Fee**: Choose how to calculate Handling Fee: **Fixed value** or **Percentage**.
+- **Handling Applied**: Select the object to be applied to calculate **Handling Fee**: either by order or by order package. The package number of the order will be calculated based on the **Max - Package Weight** and the weight of the products in the Cart.
+- **Handling Fee**: Enter the value of **Handling Fee**. If left blank or fill in 0 means do not apply Handling Fee. For example, if `Calculate Handling Fee = Percentage`, `Handling Applied = Per Package` and `Handling Fee = 10`, the order has 2 packages, the `Handling Fee of order = Shipping Fee * 10% * 2`
+
+![](https://i.imgur.com/kDxFRat.png)
 
 
-**Minimum Order Amount**: Depends on **Enable Free Shipping = Yes**. Fill in the minimum condition value of the Order to be allowed to apply Free Shipping.
-**Free Method For Canada**: Depend on Enable Free Shipping = Yes. Choose the shipping method applied Free Shipping in Canada.
-**Free Method For US**: Depend on **Enable Free Shipping = Yes**. Choose the shipping method applied Free Shipping in the US.
-**Free Method For International**: Depend on **Enable Free Shipping = Yes**. Choose shipping methods that apply Free Shipping in other countries where Canada Post supports shipping.
-
-**Quote Type**: Select the **Quote Type** that corresponds to your account's Profile Type. Select **Commercial**** if you have a Commercial (Enterprise) account.
-**Print Output Format**: Select the shipping label print format. Supports 2 types of formats are **8.5x11** and **4x6**.
-**Reason For Export**: The **Reason For Export** option is listed on the shipping label.
-**Other Reason**: Dependency **Reason For Export = Other**. Enter a value for the **Reason For Export** section displayed on the shipping label. Minimum of 4 characters, maximum of 44 characters.
-**Max Package Weight**: Unit kg(s). Fill the maximum weight for 1 item in the cart. Use this weight to divide the shopping cart into packages. The maximum value to be filled is 30 (kgs).
-**Calculate Handling Fee**: Choose how to calculate Handling Fee: **Fixed value** or **flexible value Percentage**.
-**Handling Applied**: Select the object to be applied to calculate Handling Fee: either by order or by order package. The package number of the order will be calculated based on the Max Package Weight and the weight of the products in the Cart.
-**Handling Fee**: Enter the value of Handling Fee. If left blank or fill in 0 equivalent does not apply Handling Fee. For example, if Calculate Handling Fee = Percentage, Handling Applied = Per Package and Handling Fee = 10, the order has 2 packages, the Handling Fee of order = Shipping Fee * 10% * 2
-
-
-**Ship to Applicable Countries**: Set the country that you want to apply to ship in the table rate. There are 2 options:
-**All Allowed Countries**: Customers in any country can also apply for Canada Post shipping.
-**Specific Countries**: Visitors in certain countries are eligible for Canadian Post shipping. When selecting this option, the "Ship to **Specific Countries** field will appear for you to select certain desired countries.
-**Show Method if Not Applicable**: Choose **Yes** to still display the table rate shipping method on the **View Cart** and **Checkout** page when the order does not meet the conditions for using this ship form. At that time, the message in the **Displayed Error Message** field will be displayed to the customer.
-**Show Method only for Admin**: Select **Yes** to only show Canada Post shipping when creating orders at admin, customers who order at the frontend will not see Canada Post's shipping option.
-**Debug**
-**Sort Order**: Locates the display of the ship method in the list of ship methods that satisfy the order, with 0 being the first position.
+- **Ship to Applicable Countries**: Set the country that you want to apply to ship in the table rate. There are 2 options:
+  - **All Allowed Countries**: Customers in any country can also apply for Canada Post shipping.
+  - **Specific Countries**: Customers in certain countries are eligible for Canadian Post shipping. When selecting this option, the **Ship to Specific Countries** field will appear for you to select desired countries.
+- **Show Method if Not Applicable**: Choose **Yes** to still display the table rate shipping method on the **View Cart** and **Checkout** page when the order does not meet the conditions for using this ship form. At that time, the message in the **Displayed Error Message** field will be displayed to the customer.
+- **Show Method only for Admin**: Select **Yes** to only show Canada Post shipping when creating orders at admin, customers who order at the frontend will not see Canada Post's shipping option.
+- **Debug**: If Yes, diagnostic information is stored in log files on the Magento web server. So that, admin can check the shipment results via Canada Post. 
+- **Sort Order**: Specify the position of the Canada Post shipping method in the list of ship methods that satisfy the order, with 0 being the first position.
 
 ### IV. Create Shipping Label
-On order with Shipping Method as Canada Post, select Ship to create Shipment
 
+On order with Shipping Method as Canada Post, select **Ship** to create Shipment
 
-On the Shipment creation page, select Create Shipping Label and choose Submit Shipment
+![](https://i.imgur.com/jqxSc0R.png)
 
+On the Create Shipment page, select **Create Shipping Label** and choose **Submit Shipment**
 
-The Create Packages popup appears, select Product to add to the package and fill in information related to the package and Save package
+![](https://i.imgur.com/Y7MnblJ.png)
 
-The shipping label will automatically be saved when the package is successfully created. You can view shipment details of the order to print Shipping label. The printed shipping label format will be accepted by default as per config.
+The **Create Packages** popup appears, select **Product** to add to the package and fill in information related to the package and **Save** package. 
 
+![](https://i.imgur.com/pPaKBC6.png)
 
-If you did not create a shipping label when creating a new shipment, you can go to the shipment details page of the order, click Create Shipping Label ... to create a shipping label for the order. Then you just need to create the same package as above, the shipping label will be created when the package is successfully created
+The shipping label will automatically be saved when the package is successfully created. You can view shipment details of the order to print Shipping label. The shipping label format will be printed following the configuration section.
 
-In addition, you can track deliveries on the Canada Post system with your package number. You only need to click on the Number corresponding to Carrier Canada Post to track the shipment.
+![](https://i.imgur.com/qpcqXGP.png)
 
+![](https://i.imgur.com/0ubywcH.png)
 
-Frontend
-Displayed on the View Cart page with Language English
+If you did not create a shipping label when creating a new shipment, you can go to the shipment details page of the order, click **Create Shipping Label** to create a shipping label for the order. Then you just need to create the same package as above, the shipping label will be created when the package is successfully created. 
 
-Displayed on the View Cart page with Language French
+![](https://i.imgur.com/i9QcUQg.png)
 
-Shown at the Checkout page
+In addition, you can track deliveries on the Canada Post system with your package number. You only need to click on the **Number** corresponding to **Carrier Canada Post** to track the shipment.
 
-Shown on the One Step Checkout page
+![](https://i.imgur.com/n0lTgGO.png)
 
-Displayed at the Checkout with Multiple Addresses page
+## Frontend
 
-Display compatible with Mageplaza Shipping Cost extension
+### Displayed on the View Cart page with English Language
+
+![](https://i.imgur.com/RhENN8n.png)
+
+### Displayed on the View Cart page with French Language
+
+![](https://i.imgur.com/nRJqZFn.png)
+
+### Shown at the Default Checkout page
+
+![](https://i.imgur.com/sJKTcNz.png)
+
+### Shown on the One Step Checkout page
+
+![](https://i.imgur.com/merrN0l.png)
+
+### Displayed at the Checkout with Multiple Addresses page
+
+![](https://i.imgur.com/HYORDHN.png)
+
+### Display compatible with Mageplaza Shipping Cost extension
+
+![](https://i.imgur.com/CZCfFki.png)
