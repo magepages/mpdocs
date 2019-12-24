@@ -90,49 +90,79 @@ Login to the Magento Admin, choose `Stores > Configuration > Sales > Payment Met
 
 At WePay Payment Method, click **Configure**:
 
+![Imgur](https://i.imgur.com/60faVv2.png)
+
 ### 1. Credentials
 
-**Environment**:
-Admin can choose Sandbox environment to check the payment features of the methods.
-When applying for online payment, the admin needs to switch the environment to Production.
-Account ID:
-Copy Account ID above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-Client ID:
-Copy the Client ID above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-Client Secret:
-Copy Client Secret above here.
-If left blank or entered incorrectly, the payment method will not be connected.
-Access Token:
-Copy the Access Token above here.
-If left blank or entered incorrectly, the payment method will not be connected.
+![Imgur](https://i.imgur.com/wnCnNXs.png)
+
+- **Environment**:
+  - Admin can choose Sandbox environment to check the payment features of the methods.
+  - When applying for online payment, the admin needs to switch the environment to Production.
+- **Account ID**:
+  - Copy **Account ID** got from WePay and paste here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **Client ID**:
+  - Copy the **Client ID** got from WePay and paste here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **Client Secret**:
+  - Copy **Client Secret** got from WePay and paste here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
+- **Access Token**:
+  - Copy the **Access Token** got from WePay and paste here.
+  - If left blank or entered incorrectly, the payment method will not be connected.
 
 ### 2. General
-Login to the Magento Admin, choose Stores> Configuration> Sale> Payment Methods> At WePay Payment Method click Configure> General
 
-Enable: Select "Yes" to turn on the use of payment by WePay.
-Title: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
-Checkout Integration Method: Choose the display type of payment by WePay Cards:
+Login to the Magento Admin, choose `Stores > Configuration > Sales > Payment Methods > WePay Payment Method > Configure > General`
 
-Magento Default: Displays the payment method of WePay Cards on the default checkout page of magento.
-Redirect Checkout: Redirect payment to the WePay payment page. Display the Enable Bank Payment field.
-Enable Bank Payment = Yes, Wepay will display 2 forms of payment:
-Pay with Credit Card:
+![Imgur](https://i.imgur.com/btDkbTl.png)
 
-Pay with Bank Account:
-
+- **Enable**: Select **Yes** to turn on WePay payment.
+- **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
+- **Checkout Integration Method**: Choose the display type of payment by WePay Cards:
+![Imgur](https://i.imgur.com/UKthTk9.png)
+- **Magento Default**: Displays the payment method of WePay Cards on the default checkout page of magento.
+- **Redirect Checkout**: Redirect payment to the WePay payment page. Display the **Enable Bank Payment** field.
+- **Enable Bank Payment = Yes**, Wepay will display 2 forms of payment:
+  - **Pay with Credit Card**:
+  
+  ![Imgur](https://i.imgur.com/WuGvij0.png)
+  - **Pay with Bank Account**:
+  
+  ![Imgur](https://i.imgur.com/e6SkNop.png)
+  
 After filling all information -> Click Next -> enter email -> Confirm to complete the payment:
 
-Enable Bank Payment = No, only pay by Credit Card:
+![Imgur](https://i.imgur.com/ctkhTlx.png)
 
-Iframe Checkout: Displays the payment method of Wepay Cards on the inline checkout page. Display the Enable Bank Payment field.
-Enable Bank Payment = Yes, show automatic payment link:
+**Enable Bank Payment = No**, only pay by Credit Card:
 
-Enable Bank Payment = No:
+![Imgur](https://i.imgur.com/bDLiEPn.png)
+
+- **Iframe Checkout**: Displays the payment method of Wepay Cards on the inline checkout page. Display the **Enable Bank Payment** field.
+
+- **Enable Bank Payment = Yes**, show automatic payment link:
+![Imgur](https://i.imgur.com/0bUM7FC.png)
+- **Enable Bank Payment = No**:
+![Imgur](https://i.imgur.com/1XUXxfq.png)
 
 After filling all information -> Click Next -> enter email -> Confirm to complete the payment:
+![Imgur](https://i.imgur.com/sbXzBav.png)
+- **Payment Action**:
+  - **Authorize and Capture**: Payment will be captured immediately after the order is placed successfully. At that moment, the customer's card will be applied for the order and the **Invoice** will be created.
+  
+  - **Authorize**: Payment will only be captured when admin creates an **Invoice** for customer' s order. When the **Invoice** is successfully created, admin can receive money from customer' s card.
+  
+- **New Order Status**: Select status when customer order succeeds:
+  - **Processing**: Display status with **Processing** when order is successful. You can change the status in the backend with each order.
+  - **Suspected Fraud**: Displays status with **Suspected Fraud** when order is successful. You can change the status in the backend with each order. With this status admin can accept payment or reject payment and then transfer status to **Processing**.
+  
+- **Vault Enabled**: Select **Yes** to display previously saved cards.
 
-Payment Action:
- Authorize and Capture: Payment will be Capture as soon as Customer Pla
+- **Vault Title**: Enter the title of the method. The name of the payment method will be replaced displayed on **Order Information**:
 
+![Imgur](https://i.imgur.com/1AJIa3V.png)
+
+
+![Imgur](https://i.imgur.com/GhLfmAt.png)
