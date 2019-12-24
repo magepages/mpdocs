@@ -164,5 +164,30 @@ After filling all information -> Click Next -> enter email -> Confirm to complet
 
 ![Imgur](https://i.imgur.com/1AJIa3V.png)
 
+- **Fee Payer**: Select who is charged for service fee
 
 ![Imgur](https://i.imgur.com/GhLfmAt.png)
+
+
+
+
+
+
+
+
+- **Payment from Applicable Countries**:
+  - Select the **All Allowed Countries** to apply Card payment methods in all countries
+  - To restrict this payment with more conditions, see [Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restriction/) module.
+  - Select **Specific Countries** to limit certain countries to use this payment method
+    - **Payment from Specific Countries**: The selected countries will be allowed to apply the Card payment method.
+- **Minimum Order Total**:
+  - Enter the minimum amount of order which allow applying specific payment by Worldpay Cards.
+  - If the order amount is smaller than the value in this field, the payment method will not be displayed.
+- **Maximum Order Total**:
+  - Enter the maximum amount of order which allow applying specific payment by Worldpay Cards.
+  - If the order amount is greater than the value in this field, the payment method will not be displayed.
+- **Debug Mode**:
+  - If select **Yes**, diagnostic information is stored in log files on the Magento web server.
+- **Sort Order**:
+  - Choose the display position of this payment method compared to other payment methods
+  - 0 is the largest number. The smaller the number, the more priority will be displayed in the first position.
