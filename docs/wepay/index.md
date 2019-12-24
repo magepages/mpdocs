@@ -1,4 +1,4 @@
-# Wepay
+# WePay
 
 ## Overview
 
@@ -38,10 +38,10 @@ Choose the best option describe you to use WePay and fill in the information bel
   - **Magento Default**:
   
   ![](https://i.imgur.com/4N7HY4h.png)
-  - **Redirect Checkout:
+  - **Redirect Checkout**:
   
   ![](https://i.imgur.com/Zxc3Auy.png)
-  - **Iframe Checkout:
+  - **Iframe Checkout**:
   
   ![](https://i.imgur.com/a1XnFfD.png)
 
