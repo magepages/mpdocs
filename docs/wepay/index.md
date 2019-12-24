@@ -12,46 +12,46 @@ Mageplaza WePay extension is fully compatible with [Mageplaza One Step Checkout]
 
 - To register for a WePay account, access [this link](https://stage.wepay.com/register) and fill in the required information below, then click **Sign Up**:
 
-![Imgur](https://i.imgur.com/ul4qLKX.png)
+![](https://i.imgur.com/ul4qLKX.png)
 
 Choose the best option describe you to use WePay and fill in the information below, then click **Next**:
 
-![Imgur](https://i.imgur.com/mbvyz92.png)
+![](https://i.imgur.com/mbvyz92.png)
 
 - Next, fill out the application information in the form below, click **Next**:
 
-![Imgur](https://i.imgur.com/sflfAtG.png)
+![](https://i.imgur.com/sflfAtG.png)
 
 - After clicking **Next**, the screen displays **API Keys**. For full support, you need to **Tokenize credit cards** by visiting the **API Key** page, please click **Apply Now**:
 
-![Imgur](https://i.imgur.com/rrEIinL.png)
+![](https://i.imgur.com/rrEIinL.png)
 
 - Select the **Payment Card Industry Data Security Standards** to **Access To Credit Card Tokenization API**, then click **Submit**:
 
-![Imgur](https://i.imgur.com/CWI1GMD.png)
+![](https://i.imgur.com/CWI1GMD.png)
 
 - Finally, here you can get the **Account ID, Client ID, Client Secret, Access Token** to fill in **Configuration** (will be guided below):
 
-![Imgur](https://i.imgur.com/xcZyINi.png)
+![](https://i.imgur.com/xcZyINi.png)
 
 - **Checkout Integration Method**: displays 3 integration types with payment via WePay:
   - **Magento Default**:
   
-  ![Imgur](https://i.imgur.com/4N7HY4h.png)
+  ![](https://i.imgur.com/4N7HY4h.png)
   - **Redirect Checkout:
   
-  ![Imgur](https://i.imgur.com/Zxc3Auy.png)
+  ![](https://i.imgur.com/Zxc3Auy.png)
   - **Iframe Checkout:
   
-  ![Imgur](https://i.imgur.com/a1XnFfD.png)
+  ![](https://i.imgur.com/a1XnFfD.png)
 
 - Displaying Payment Method in Create Backend Order:
 
-![Imgur](https://i.imgur.com/jbrBgWO.png)
+![](https://i.imgur.com/jbrBgWO.png)
 
 - **Stored Payment Methods**: Here save credit card information that customers have paid before in there account. If you do not want to save the old or no longer used credit cards, customers can delete them.
 
-![Imgur](https://i.imgur.com/uTJieBY.png)
+![](https://i.imgur.com/uTJieBY.png)
 
 - You can test the payment process with the following Cards:
 
@@ -90,11 +90,11 @@ Login to the Magento Admin, choose `Stores > Configuration > Sales > Payment Met
 
 At WePay Payment Method, click **Configure**:
 
-![Imgur](https://i.imgur.com/60faVv2.png)
+![](https://i.imgur.com/60faVv2.png)
 
 ### 1. Credentials
 
-![Imgur](https://i.imgur.com/wnCnNXs.png)
+![](https://i.imgur.com/wnCnNXs.png)
 
 - **Environment**:
   - Admin can choose Sandbox environment to check the payment features of the methods.
@@ -116,39 +116,39 @@ At WePay Payment Method, click **Configure**:
 
 Login to the Magento Admin, choose `Stores > Configuration > Sales > Payment Methods > WePay Payment Method > Configure > General`
 
-![Imgur](https://i.imgur.com/btDkbTl.png)
+![](https://i.imgur.com/btDkbTl.png)
 
 - **Enable**: Select **Yes** to turn on WePay payment.
 - **Title**: Enter the title of the method. The name of the payment method will be replaced displayed on the checkout page.
 - **Checkout Integration Method**: Choose the display type of payment by WePay Cards:
-![Imgur](https://i.imgur.com/UKthTk9.png)
+![](https://i.imgur.com/UKthTk9.png)
 - **Magento Default**: Displays the payment method of WePay Cards on the default checkout page of magento.
 - **Redirect Checkout**: Redirect payment to the WePay payment page. Display the **Enable Bank Payment** field.
 - **Enable Bank Payment = Yes**, Wepay will display 2 forms of payment:
   - **Pay with Credit Card**:
   
-  ![Imgur](https://i.imgur.com/WuGvij0.png)
+  ![](https://i.imgur.com/WuGvij0.png)
   - **Pay with Bank Account**:
   
-  ![Imgur](https://i.imgur.com/e6SkNop.png)
+  ![](https://i.imgur.com/e6SkNop.png)
   
 After filling all information -> Click Next -> enter email -> Confirm to complete the payment:
 
-![Imgur](https://i.imgur.com/ctkhTlx.png)
+![](https://i.imgur.com/ctkhTlx.png)
 
 **Enable Bank Payment = No**, only pay by Credit Card:
 
-![Imgur](https://i.imgur.com/bDLiEPn.png)
+![](https://i.imgur.com/bDLiEPn.png)
 
 - **Iframe Checkout**: Displays the payment method of Wepay Cards on the inline checkout page. Display the **Enable Bank Payment** field.
 
 - **Enable Bank Payment = Yes**, show automatic payment link:
-![Imgur](https://i.imgur.com/0bUM7FC.png)
+![](https://i.imgur.com/0bUM7FC.png)
 - **Enable Bank Payment = No**:
-![Imgur](https://i.imgur.com/1XUXxfq.png)
+![](https://i.imgur.com/1XUXxfq.png)
 
 After filling all information -> Click Next -> enter email -> Confirm to complete the payment:
-![Imgur](https://i.imgur.com/sbXzBav.png)
+![](https://i.imgur.com/sbXzBav.png)
 - **Payment Action**:
   - **Authorize and Capture**: Payment will be captured immediately after the order is placed successfully. At that moment, the customer's card will be applied for the order and the **Invoice** will be created.
   
@@ -162,18 +162,18 @@ After filling all information -> Click Next -> enter email -> Confirm to complet
 
 - **Vault Title**: Enter the title of the method. The name of the payment method will be replaced displayed on **Order Information**:
 
-![Imgur](https://i.imgur.com/1AJIa3V.png)
+![](https://i.imgur.com/1AJIa3V.png)
 
 - **Fee Payer**: Select who is charged for service fee
 
-![Imgur](https://i.imgur.com/GhLfmAt.png)
+![](https://i.imgur.com/GhLfmAt.png)
 
-
-
-
-
-
-
+- **Merchant pays all fees**: Merchants pay both processing and setting fees
+- **Customers pay all fees**: Customers pay both processing and setting fees
+- **Merchant pays setting fee, Wepay is charged for service fee**: Merchants pay setting fee, Wepay pays processing fee
+- **Customers pays setting fee, Wepay is charged for service fee**: Customers pay setting fee, Wepay pays processing fee
+- Formola to claculate processing fee: `(Order Total + Setting fee) * 2.9% + 0.3`
+- **Setting Fee Amount**: Enter the setting fee amount that you want to apply. 
 
 - **Payment from Applicable Countries**:
   - Select the **All Allowed Countries** to apply Card payment methods in all countries
@@ -191,3 +191,48 @@ After filling all information -> Click Next -> enter email -> Confirm to complet
 - **Sort Order**:
   - Choose the display position of this payment method compared to other payment methods
   - 0 is the largest number. The smaller the number, the more priority will be displayed in the first position.
+  
+  
+### 3. Admin order
+
+#### 3.1. Create New Order
+
+![](https://i.imgur.com/2POPc6G.png)
+
+#### 3.2. View Order
+
+![](https://i.imgur.com/XfxBBKA.png)
+
+### 4. Order Frontend
+
+This section stores card information that customers have ordered:
+
+![](https://i.imgur.com/QZPG52b.png)
+
+### 5. Compatible
+
+#### 5.1. Compatible with One Step Checkout
+
+![](https://i.imgur.com/wpNWTrF.png)
+
+#### 5.2. Compatible with Instant Purchase
+
+In this part, customers can use **Instant Purchase** to make orders conveniently and quickly.
+
+![](https://i.imgur.com/lnzPepa.png)
+
+After clicking **Instant Purchase** displays the popup, click **OK** to confirm the order:
+
+![](https://i.imgur.com/qpPUsFh.png)
+
+### 6. Refund Order
+
+Here admin can Refund Online/Offline all orders or each order.
+
+![](https://i.imgur.com/VVpyyWt.png)
+
+### 7. WePay Extra Fee
+
+When paying through WePay, customer will have to pay an Extra Fee and this WePay Extra Fee information is displayed in the view order page when customer order is completed.
+
+![](https://i.imgur.com/XulcwQk.png)
