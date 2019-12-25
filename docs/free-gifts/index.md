@@ -176,13 +176,19 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 <p style="text-align:center;">Popup to add gifts to the gift list</p>
 
 
-### 3. Frontend
+### 3. API
 
-#### 3.1 View Cart Page
+- Free Gifts extension from Mageplaza support using Rest API to view and check all carts and items in carts of customers and even guest. 
+- For more details, please see [here](https://documenter.getpostman.com/view/6204567/SWLZeprQ?version=latest)
+
+
+### 4. Frontend
+
+#### 4.1 View Cart Page
 
 ![](https://i.imgur.com/MViQy3X.png)
 
-#### 3.2 Product Detail Page
+#### 4.2 Product Detail Page
 
 ***Popup***
 
@@ -192,7 +198,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 ![](https://i.imgur.com/oNHSZpe.png)
 
-#### 3.3 Gift Layout
+#### 4.3 Gift Layout
 
 ***Gift List = List***
 
