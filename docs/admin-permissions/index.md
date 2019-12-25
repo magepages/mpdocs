@@ -145,8 +145,8 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific customers
   - Select "No" to disable restriction
-  - Select **Allow For Specific Stores**: Admin can only view, edit information of sepcific customers selected below. 
-  - Choose **Deny For Specific Stores**: Admin can not view, edit information of sepcific customers selected below.
+  - Select **Allow For Specific Customers**: Admin can only view, edit information of sepcific customers selected below. 
+  - Choose **Deny For Specific Customers**: Admin can not view, edit information of sepcific customers selected below.
 
 
 #### 5. Product Attribute
@@ -167,8 +167,8 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific attributes
   - Select "No" to disable restriction
-  - Select **Allow For Specific Stores**: Admin can only view, edit information of sepcific attributes selected below. 
-  - Choose **Deny For Specific Stores**: Admin can not view, edit information of sepcific attributes selected below.
+  - Select **Allow For Specific Product Attributes**: Admin can only view, edit information of sepcific attributes selected below. 
+  - Choose **Deny For Specific Product Attributes**: Admin can not view, edit information of sepcific attributes selected below.
   
   
 #### 6. User Role
@@ -191,8 +191,8 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific permissions
   - Select "No" to disable restriction
-  - Select **Allow For Specific Stores**: Admin can only view, edit information of sepcific permissions selected below. 
-  - Choose **Deny For Specific Stores**: Admin can not view, edit information of sepcific permissions selected below.
+  - Select **Allow For Specific User Roles**: Admin can only view, edit information of sepcific permissions selected below. 
+  - Choose **Deny For Specific User Roles**: Admin can not view, edit information of sepcific permissions selected below.
 
 #### 7. Time Valid
 
