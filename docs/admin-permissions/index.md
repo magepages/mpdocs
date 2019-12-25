@@ -112,8 +112,8 @@ You can select Actions tại Role Resources such as **Create New, View, Edit, De
 
 - **Enable Restriction**: Allow/Disallow restriction for viewing or editing information of specific products
   - Select "No" to disable restriction
-  - Select **Allow For Specific Stores**: Admin can only view, edit information of sepcific products selected below. 
-  - Choose **Deny For Specific Stores**: Admin can not view, edit information of sepcific products selected below.
+  - Select **Allow For Specific Products**: Admin can only view, edit information of specific products selected below. 
+  - Choose **Deny For Specific Products**: Admin can not view, edit information of specific products selected below.
 
 ![](https://i.imgur.com/ZOdTDhE.png)
 
