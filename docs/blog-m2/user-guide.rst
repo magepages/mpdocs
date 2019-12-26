@@ -35,12 +35,12 @@ I.  Configuration
 
 Login to Magento Admin, ``Content > Better Blog: Configuration``. Open **General** section
 
-.. image:: https://i.imgur.com/WOV7v2S.png
+.. image:: https://i.imgur.com/AjqUTsj.png
 
 * In the **Enable** field: Choose “Yes” to turn the extension on.
 * In the **Blog Name** field: Set name for the new blog
 * In the **Route Name** field: Enter the route name which appears on the URL. If you leave it blank, the default Route name is ``blog``. E.x ``https://domain.com/blog``. You can change to `news`, `docs`.
-* In the **Url Suffix**: Enter the Url Suffix. There won’t be no suffix if you leave it blank.
+* In the **URL Suffix**: Enter the Url Suffix. There won’t be no suffix if you leave it blank.
 * In the **Show Blog Link in Top Menu** field: Choose “Yes” if you want to show blog links in the top of the menu.
 * In the **Show Blog in Footer Links** field: To make the blog link visible on footer links on your site, set "Yes".
 * In the **Display Author** field: Select “Yes” to display name of post’s author on the frontend.
@@ -61,7 +61,11 @@ Login to Magento Admin, ``Content > Better Blog: Configuration``. Open **General
   * You’re able to limit the related posts in this section.
   * If you leave it blank, all the related posts will display on Post View page.
 
-* In the **Display Mode** field: You can configure to display posts in **Grid View** or **List View**.
+* In the **Display Related Posts Mode**: Set the Related Post at view post page shown in grid or slider. 
+
+.. image:: https://i.imgur.com/Vj76Rtg.png
+
+* In the **Display Blogs Mode** field: You can configure to display posts at post listing page under **Grid View** or **List View**.
 * In the **Blogs per Page Allowed Values** field: The number of post per page will be set in this field.
 
 .. image:: https://i.imgur.com/v4Vbgoh.png
@@ -69,6 +73,13 @@ Login to Magento Admin, ``Content > Better Blog: Configuration``. Open **General
 .. image:: https://i.imgur.com/1jaTap9.png
 
 * In the **Choose Blog’s Color** field: Pick up a color for your blog’s text.
+
+* **Allows customers to register as an author**: Select **Yes** to allow customers to register as an author for the store blog
+* **Automatically approve requests**: Select **Yes** to allow auto-approving request of customer author's registration.
+* **Automatically approve customer's posts**: Select **Yes** to allow auto-approving customer posts when creating new posts outside the frontend
+* **Limit of Posts History**: Maximum number of history records in the **Edit History** of posts section at the backend. Once the number of history records has reached maximum, the oldest one will be auto-deleted if creating new ones. The default is 5. 
+* **Allow Voting for Helpfulness**: Select **Yes** to allow Like/Dislike below each post
+* **Restrict Rating for**: Select the customer group that is allowed to vote (Like/Dislike). You can select multiple groups.
 
 1.2. Related Products Content 
 ^^^^^
@@ -85,14 +96,16 @@ Product Detail Page contain posts can be added to Related Products to display in
 * In the **Enable Related Post** field: Choose “Yes” to show related posts on Product Detail Page.
 * In the **Limit of Related Post** field: Enter the number of related posts can display. If you leave it blank, the default number is 1 post.
 
-.. image:: https://i.imgur.com/d2M3n70.png
+.. image:: https://i.imgur.com/rf3bzoO.png
 
 1.2.2. Post View Page
 """""
 
-.. image:: https://i.imgur.com/ngwFt7z.png
+.. image:: https://i.imgur.com/1hAe8ea.png
 
 * In the **Enable Related Product** field: Choose “Yes” to show related products on Post View Page.
+
+* In the **Display Related Products Mode**: Set the Related Post at product page shown in grid or slider. 
 * In the **Limit of Related Products** field: Enter the number of related products can display. If you leave it blank, the default number is 12.
 * In the **Title of Related Products** field: Name the title of the block which contains related products. If you leave it blank, the default name is “Related Products”
 
@@ -170,14 +183,14 @@ Open **SEO** section, there will be 2 additional sub section in this part.
 1.6.1. SEO
 """""
 
-.. image:: https://i.imgur.com/tQBi2Fh.png
-
 You can configure the meta that is useful for your better SEO
  
 * **Meta Title**: Set Meta title for posts list page (Blog Page)
 * **Meta Description**: Set Meta description for posts list page
 * **Meta Keyword**: Set Meta keywords for posts list page
 * **Meta Robots**: Set Meta Robots for posts list page
+
+.. image:: https://i.imgur.com/MbjbcZc.png
 
 1.6.2. Article Snippet
 """""
@@ -213,7 +226,11 @@ Step 1: Complete the post information
 * Login to Magento Admin, follow ``Content > Better Blog: Manage Posts``.
 
 * On the upper-right corner, tap **Add New Posts** button
+
+.. image:: https://i.imgur.com/1PHQhuq.gif
+
 * Set Name for the new post
+* Select author for the post. This is a required field. 
 * To display the new post, choose “Enable” in the **Status** field
 * Enter **Short Description** if it’s necessary.
 * Use **WYSIWYG Mode** to insert the post content that allows showing right as on the frontend. If you want to show the content under code, tap **Show/Hide Editor** button.
@@ -240,8 +257,6 @@ Step 1: Complete the post information
   * 2 columns with right bar
   * 3 columns
 
-.. image:: https://i.imgur.com/tjahsZA.gif
-
 
 * Tap ``Save and Continue Edit`` at the header
 
@@ -250,9 +265,23 @@ Step 2: Assign Products to the post
 * You can do it when you create a new post in the Products tab, or go to Posts tab
 * In the list of the available posts, mark the checkbox that is next to the products you want to assign
 
-.. image:: https://i.imgur.com/DN9tDVz.gif
+.. image:: https://i.imgur.com/NRDn2bG.gif
 
 * Tap **Save and Continue Edit**, then hit **Save Post** to finish.
+
+* **Edit History Tab**: When performing **Edit Post** then **Save as Draft/Save & add History**, the data for that edit will be saved as a record on the Edit History tab.
+* **Save as Draft**: Post data will be saved as a draft on the **Edit History** tab
+* **Save & add History**: the post's data is saved, the post is displayed in the frontend according to the saved data.
+
+.. image:: https://i.imgur.com/BI4paUK.png
+
+* **Grid Edit History**: includes information: Name, Short Description, Store View, Categories, Topics, Tags, Modified by, Modified At and some Action such as Edit, Preview, Restore, Delete
+
+.. image:: https://i.imgur.com/9iwMPSV.png
+
+* **Action = Edit**: You can edit information for each post
+
+
 
 2.2. Duplicate Post
 ^^^^^ 
@@ -311,7 +340,7 @@ IV.  Create New Topic
 * If necessary, you can assign the new topic to a specific post.
 * Click on ``Save Topic`` when complete.
 
-V.  Category
+V. Category
 -----
 
 5.1. Create new category
@@ -347,18 +376,34 @@ V.  Category
 
 * A new category is created. You can modify it's information. 
 
-VI. Author Information
+VI. Manage Authors
 -----
 
-* Login to Magento Admin, ``Content > Better Blog: Author Information``
+* Login to Magento Admin, ``Content > Better Blog > Manage Authors``
 
-.. image:: https://i.imgur.com/Im8OmSX.gif
+.. image:: https://i.imgur.com/jAaWPFs.png
 
-* Display Name: This name will be displayed on the frontend
-* Enter Short Description if you need
-* Upload image from your browser in the **Avatar** option.
-* Enter the URL Key that the visitor can access the list post of author
-* Enter Facebook link and Twitter if you want
+6.1. Create New Author
+^^^^^ 
+
+* Login to Magento Admin, `Content > Better Blog > Manage Authors > click the Create New Author button`
+* **Author Info Tab**:
+
+.. image:: https://i.imgur.com/6YVoO1n.png
+  - **Customer**: Select customer as author
+  - **Display Name**: This name will be displayed on frontend. This is a required field
+  - **Status**: Author's status, there are 3 author's status: Pending, Approved and Disapproved
+
+.. image:: https://i.imgur.com/9D2Nnyo.png
+  * Enter **Short Description** if you need to
+  * Upload image from your browser in the **Avatar** option.
+  * Enter the **URL Key** that the visitor can access the list post of author
+  * **Full URL**: after saving here will display the full URL link to access the list of author posts
+  * Enter Facebook link and Twitter if you want
+
+* **Post tab**: grid of author posts
+.. image:: https://i.imgur.com/aBsHH7j.png
+  
 
 VII. Manage Comments
 -----
@@ -368,7 +413,7 @@ VII. Manage Comments
 * After the customer comments a post, the comment will be sent to the admin with the status ``Pending``.
 * The comment is displayed if the admin switches the comment status into ``Approve``, and in vice versa result if **Status** is ``Spam`` or ``Pending``.
 
-.. image:: https://i.imgur.com/Eb3Bjko.gif
+.. image:: https://i.imgur.com/gwLzxkL.png
 
 * when editing a comment, admin need to note as the following:
 
@@ -459,10 +504,88 @@ In Magento 2 Better Blog extension, you can add a widget in which shows Related 
 .. image:: https://i.imgur.com/3hBpgXl.png
 
 
+X. API
+-----
+
+- Mageplaza's Blog Extension supports the use of REST APIs for Post, Categories, Tags, Topic, Author, Comment, Likes
+- Details see [here](https://documenter.getpostman.com/view/6685698/SW7dX7T8?version=latest)
+- Instructions for creating tokens see [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html)
 
 
+XI. GraphQL
+-----
 
+11.1. How to install
+^^^^^ 
 
+Run the following command in Magento 2 root folder:
 
+```
+composer require mageplaza/module-blog-graphql
+php bin/magento setup:upgrade
+php bin/magento setup: static-content:deploy
+```
+
+11.2. How to use
+^^^^^ 
+
+- To perform GraphQL queries, you need to install the [ChromeiQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij) extension for the Chrome browser
+- To perform GraphQL queries in Magento, the following requirements are required:
+- Use Magento 2.3.x. Return your site to developer mode
+- Install the ChromeiQL extension for Chrome browser (currently does not support other browsers)
+- Set GraphQL endpoint as http://<magento2-3-server>/graphql in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- Perform a query in the left pane, click the **Run** button or **Ctrl + Enter** to see the result in the right cell
+- To view the queries that the **Mageplaza Blog GraphQL** extension supports, you can look in `Docs > Query` in the right corner
+
+.. image:: https://i.imgur.com/gJ3Dx0f.png
+
+XII. Author in Frontend
+-----
+
+12.1. Sign up for author
+^^^^^ 
+
+**Method 1: Sign up for an author when Create New Customer Account**
+
+Tick **Sign up to be an Author**, then click **Save**
+
+.. image:: https://i.imgur.com/XtUEaAd.png
+
+Go to `My account > My Better Blog` to view registered author information, which can change your author information
+
+.. image:: https://i.imgur.com/mmwVKMt.png
+
+**Method 2: Sign up for an author when you have a customer account**
+
+- Go to `My account > My Better Blog`, here you will see the **Signup Author**, complete the fields in the registration form then click **Submit** button to complete the registration
+
+.. image:: https://i.imgur.com/eV4Uc22.png
+
+* **Display Name**: the author's name is displayed in the frontend, this is a required field
+* **Short Description**: short description for author
+* **Avatar**: choose a picture to represent the author
+* **URL Key**: Enter the URL Key that the visitor can access the list post of author
+* **Full URL**: This will display the full URL link to access the list of author posts
+* Enter Facebook Link and Twitter Link if you want
+
+12.2. Create New Post
+^^^^^ 
+Go to `My account > My Better Blog > Post List > click Add New Post button`
+
+.. image:: https://i.imgur.com/BVSIjpP.png
+
+* **Post Name**: The name of the post, this is a required field
+* **Short Description**: short description for the post
+* **Post Content**: post content
+* **Image**: Insert image for post
+* **Select Category**: select category for post, can select multiple categories
+* **Select Topic**: select the topic assigned to the post, can select multiple topics
+* **Select Tag**: select the tag assigned to the post, can select multiple tags
+* **Allow Comment**: Choose "Yes" to allow comments for the post
+* **Publish Date**: Select the date for publishing the post
+
+After creating the post, the author can **Duplicate/ Edit/ Delete** post
+
+.. image:: https://i.imgur.com/1MsqxXm.png
 
 
