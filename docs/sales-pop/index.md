@@ -224,3 +224,25 @@ Mageplaza's Sales Pop extension supports the use of the **Rest API** to view a d
 
 - Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE2A1Dd?version=latest).
 - Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 5. Graphql
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-sales-pop-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+``` 
+To start working with Sales Pop GraphQl in Magento the following requirements are required:
+
+- Use Magento 2.3.x. Returns site to developer mode
+- Install chrome extension (currently does not support other browsers)
+- Set GraphQL endpoint as http://<magento2-3-server>/graphql in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- Mageplaza-supported queries are fully written in the **Description** section of `Query.SalesPop.items`
+- To get the popup information by id, enter the id of the necessary popup in the array ids []
+
+![](https://i.imgur.com/DVq9oky.png)
+
+- To get the information of all popups quickly, leave the ids[ array empty. 
+
+![](https://i.imgur.com/33cnSY6.png)
