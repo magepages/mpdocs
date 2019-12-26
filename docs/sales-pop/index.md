@@ -235,7 +235,7 @@ php bin/magento setup:static-content:deploy
 ``` 
 To start working with Sales Pop GraphQl in Magento the following requirements are required:
 
-- Use Magento 2.3.x. Retur your site to developer mode.
+- Use Magento 2.3.x. Reture your site to developer mode.
 - Install chrome extension (currently does not support other browsers)
 - Set GraphQL endpoint as http://<magento2-3-server>/graphql in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
 - Mageplaza-supported queries are fully written in the **Description** section of `Query.SalesPop.items`
