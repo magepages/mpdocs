@@ -508,9 +508,8 @@ X. API
 -----
 
 - Mageplaza's Blog Extension supports the use of REST APIs for Post, Categories, Tags, Topic, Author, Comment, Likes
-- Details see [here](https://documenter.getpostman.com/view/6685698/SW7dX7T8?version=latest)
-- Instructions for creating tokens see [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html)
-
+- Details see `more here <https://documenter.getpostman.com/view/6685698/SW7dX7T8?version=latest>`_
+- Instructions for creating tokens see `here <https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html>`_
 
 XI. GraphQL
 -----
@@ -520,16 +519,18 @@ XI. GraphQL
 
 Run the following command in Magento 2 root folder:
 
-```
-composer require mageplaza/module-blog-graphql
-php bin/magento setup:upgrade
-php bin/magento setup: static-content:deploy
-```
+
+**composer require mageplaza/module-blog-graphql**
+
+**php bin/magento setup:upgrade**
+
+**php bin/magento setup: static-content:deploy**
+
 
 11.2. How to use
 ^^^^^ 
 
-- To perform GraphQL queries, you need to install the [ChromeiQL](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij) extension for the Chrome browser
+- To perform GraphQL queries, you need to install the ChromeiQL extension for the Chrome browser
 - To perform GraphQL queries in Magento, the following requirements are required:
 - Use Magento 2.3.x. Return your site to developer mode
 - Install the ChromeiQL extension for Chrome browser (currently does not support other browsers)
