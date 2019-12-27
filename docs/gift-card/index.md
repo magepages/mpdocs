@@ -689,6 +689,25 @@ Clicking the ``Import`` button is the final steps!
 
 Mageplaza Gift Card Extension supports getting and pushing data on the website with GraphQl.
 
+#### 11.1. 
+
+To install, run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-gift-card-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+#### 11.2 
+
+To start working with **Gift Card GraphQl** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
+
 The module currently supports the following 6 types of queries and 10 types of mutations:
 
 - Query **mpGiftCode**: Support lookup Gift Code information by Gift Code ID.
