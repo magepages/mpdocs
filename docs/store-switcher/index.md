@@ -58,7 +58,7 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 
 ##### 2.2.2. Conditions
 
-![](https://i.imgur.com/OMGi413.gif)
+![](https://i.imgur.com/CphvWL6.png)
 
 
 - **Countries**: Select the country to apply the rule. Multiple countries can be selected at the same time.
@@ -73,6 +73,8 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
   - `Home pages only`: Show only rules at Home page.
 
 - **Exclude IPs**: Enter the IP address in the `Exclude IPs` field. The IP address that you entered will not apply the rule to that IP address.
+
+- **Search engines to ignore**: Enter the browser type and user agents to ignore and not apply rules to that browser. It is possible to enter multiple browsers at the same time and separated by (,).
 
 ##### 2.2.3. Actions
 
