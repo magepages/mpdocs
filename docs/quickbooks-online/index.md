@@ -67,15 +67,15 @@ Login to the Magento Admin, choose `Stores > Settings > Configuration > Quickboo
 
 ![](https://i.imgur.com/DmSMIxh.png)
 
-#### 1.2. Queue Schedule
+#### 1.2. Queue Log/Sync Schedule
 
-![](https://i.imgur.com/rWVQ914.png)
+![](https://i.imgur.com/zXf8gJs.png)
 
 - **Delete Queue Log After**:
    - Enter the number of days into **Delete Queue Log After**. In which, for the queues synchronized having **success** will be auto-deleted after the time configured here. For example: You enter 6 days in this field, meaning that those queues with success status will be deleted after 6 days. 
   - If empty, Log will no longer be deleted. 
 
-- **Schedule**: Select the time to send data to Quickbooks Online automatically. Any Magento objects changes will be sent to Quickbooks Online; otherwise, the unchanged data will not be sent to Quickbooks Online anymore.
+- **Sync schedule**: Select the time to send data to Quickbooks Online automatically. Any Magento objects changes will be sent to Quickbooks Online; otherwise, the unchanged data will not be sent to Quickbooks Online anymore.
 
 - **Number Of Objects Send Per Time**:
   - Enter the number of objects limit each time sending data to Quickbooks Online. Any pre-added queues will be prioritized to be sent to the  Quickbooks Online first. The value is allowed to range from 1 to 1000.
@@ -180,7 +180,7 @@ The **Payment Method List** tab only appears when creating rules with the Paymen
 
 Here admin can synchronize multiple data or individual data by event: product, order, invoice, credit memo, customer (not include Tax and Payment method). These data will be sent to **Manage Queue** to be synchronized. This feature will help admin synchronize selected data by each product, customer, etc., more quickly and conveniently.
 
-![](https://i.imgur.com/Ub3AuA2.png)
+![](https://i.imgur.com/NlGpwaA.png)
 
 #### 4.2. Edit
 
