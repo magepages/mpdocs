@@ -534,8 +534,9 @@ To perform GraphQL queries in Magento, the following requirements are required:
 
 - Install the ChromeiQL extension for the Chrome browser (currently does not support other browsers)
 - Use Magento 2.3.x. Return your site to developer mode
-- Set GraphQL endpoint as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. 
+- Set GraphQL endpoint as ``http://<magento2-3-server>/graphql`` in url box, click **Set endpoint**. 
 (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
 - Perform a query in the left pane, click the **Run** button or **Ctrl + Enter** to see the result in the right cell
 - To view the queries that the **Mageplaza Blog GraphQL** extension supports, you can look in `Docs > Query` in the right corner
 
