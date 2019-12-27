@@ -45,8 +45,21 @@ ABN AMRO is the most trusted payment service provider in the Netherlands. [Magep
 
 ### 3. Checkout Page
 
-![](https://i.imgur.com/nSrzC3c.png)
+- With Sandbox mode, at checkout page, please click **Get Token** to select Account Number
 
+![Imgur](https://i.imgur.com/De23COA.png)
+
+- In **User Consent Page**, seleect one **Account Number** then click **Submit** to get the token
+
+![Imgur](https://i.imgur.com/lYZ5ZTB.png)
+
+- A new page shown, you need to copy the token code at the end of the URL to fill in checkout page. (see the image below, the token number is on the red line) 
+
+![Imgur](https://i.imgur.com/dFfYRqi.png)
+
+- Now paste the code to **Consent Token** at checkout page, click **Place Order** to complete payment. 
+
+![Imgur](https://i.imgur.com/PwslRnh.png)
 
 ## How to Configure
 
@@ -62,7 +75,7 @@ At ABN AMRO Payment Method, click **Configure**
 #### 1.1. Environment = Sandbox
 Admin can choose Sandbox environment to test the functions of the ABN AMRO module. 
 
-![](https://i.imgur.com/pOmzwU1.png)
+![](https://i.imgur.com/vkg6S9G.png)
 
 - **Client ID**: With Sandbox, Client ID is entered by the system and admin cannot change it.
 - **Sandbox API Key**:
@@ -73,25 +86,28 @@ Admin can choose Sandbox environment to test the functions of the ABN AMRO modul
 - **Payment Scope**: Admin select payment area. 
   - With **SEPA**: Store must use the currency of EURO to checkout.
   - With **Cross Border**: Allows using all currencies to checkout.
-- **Redirect URL**: With Sandbox, Redirect URI is auto-ntered by system and admin cannot change it. 
+- **Redirect URI**: With Sandbox, Redirect URI is auto-ntered by system and admin cannot change it. 
+- **Consent Token**: Admins click to **Obtain Token** so the token will be auto-filled in the box. Then you should click to **Check Credentials** right after to verify if your all credentials are valid. 
+
+
 
 #### 1.2. Environment = Production
 
 When applying for online payment, the admin needs to switch the environment to Production.
 
-![](https://i.imgur.com/KjeAmSS.png)
+![](https://i.imgur.com/k2TxYcS.png)
 
 - **Client ID**: Admin needs to contact ABN AMRO provider to get merchant Client ID.
 - **Public Certificate File**: Admin must upload the PSD2 certificate file. See more details about PSD2 [here](https://medium.com/abn-amro-developer/psd2-we-are-live-b12aac19689a).
 - **Private Key File**: Admin must upload the PSD2 private key file. See more details about PSD2 [here](https://medium.com/abn-amro-developer/psd2-we-are-live-b12aac19689a).
 - **Production API Key**: Admin enter API key provided by ABN AMRO bank. 
-- **Consent Token**: Click **Obtain Token** beside this box to fill in. 
 - **Production Merchant Account**: Admin enter his account from the ABN AMRO hosted bank.
 - **Payment Scope**: Admin select payment area. 
   - With **SEPA**: Store must use the currency of EURO to checkout.
   - With **Cross Border**: Allows using all currencies to checkout.
 - **Exchange Fee Bearer**: Admin chooses who is charged for exchange fee. 
-- **Redirect URL**: Admin enter the stores' URL to be redirected to after customers choosing their cards at ABN AMRO website. Customers can get the consent token from this URL. 
+- **Redirect URI**: Admin enter the stores' URL to be redirected to after customers choosing their cards at ABN AMRO website. Customers can get the consent token from this URL. 
+- **Consent Token**: Admins click to **Obtain Token** so the token will be auto-filled in the box. Then you should click to **Check Credentials** right after to verify if your all credentials are valid. 
 
 ### 2. General
 
