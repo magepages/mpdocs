@@ -27,7 +27,7 @@ How to know the increase in traffic of a website every week? What is the convers
 
 ![](https://i.imgur.com/h9h63QO.png)
 
-- Get **Container ID** to install Magento
+- Get **Container ID** to install in your Magento store. 
 
 ![](https://i.imgur.com/UZ8Ww9Y.png)
 
