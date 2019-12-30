@@ -118,11 +118,14 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 #### 1.2. Google Tag Manager
 
-![](https://i.imgur.com/y9bctim.png)
+![](https://i.imgur.com/UTTdAy8.png)
 
 - **Enable**: Selecting **Yes** to enable the use of the **Google Tag Manager** feature is to update and control all tags for the site.
-- **Container ID**:
-  - Enter Google Tag Manager's Container ID into the Container ID field to update some information of event such as in category page, product page, when adding to cart, remove fromcart, order success, search, checkout default or checkout page of [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extensions which help shorten checkout process to only 6 steps within a page. 
+- **ID Variable Base On**: Select the variable of the product ID to be replaced displayed:
+  - **ID**: Display the ID value of the product according to the product ID.
+  - **SKU**: Display the ID value of the product according to the product SKU.
+- **Google Tag  ID**:
+  - Enter Google Tag Manager's ID into the **Google Tag ID** field to update some information of event such as in category page, product page, when adding to cart, remove fromcart, order success, search, checkout default or checkout page of [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extensions which help shorten checkout process to only 6 steps within a page. 
 
 ![](https://i.imgur.com/jZWHfnP.png)
 
@@ -135,10 +138,12 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 #### 1.3. Google Analytics eCommerce
 
-![](https://i.imgur.com/BE5doxF.png)
+![](https://i.imgur.com/gwPGZVb.png)
 
 - **Enable**: Select **Yes** to enable the use of the Google Analytics function for the website to analyze the report.
-
+- **ID Variable Base On**: Select the variable of the product ID to be replaced displayed:
+  - **ID**: Display the ID value of the product according to the product ID.
+  - **SKU**: Display the ID value of the product according to the product SKU.
 - **GA Tracking ID**:
   - Enter Tracking ID of Google Analytics into GA Tracking ID field.
   - If you leave it blank or enter a wrong tracking ID, it will not be able to track the information.
@@ -173,9 +178,12 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 ####  1.4. Facebook Pixel
 
-![](https://i.imgur.com/v44MC2K.png)
+![](https://i.imgur.com/t9WZ6hE.png)
 
 - **Enable**: Select **Yes** to enable the use of Facebook Pixel features.
+- **ID Variable Base On**: Select the variable of the product ID to be replaced displayed:
+  - **ID**: Display the ID value of the product according to the product ID.
+  - **SKU**: Display the ID value of the product according to the product SKU.
 - **Facebook Pixel ID**:
   - Enter **Facebook Pixel ID** in the Facebook Pixel ID field to report and update website information such as in product page, category, checkout page, cart page, one step checkout page ( [compatible with Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)), remove from cart,...You should installl **Facebook pixel helper** into your browse to view information. 
   
