@@ -47,7 +47,7 @@ ABN AMRO is the most trusted payment service provider in the Netherlands. [Magep
 
 - With Sandbox mode, at checkout page, please click **Get Token** to select Account Number
 
-![Imgur](https://i.imgur.com/De23COA.png)
+![Imgur](https://i.imgur.com/h5JyO3p.png)
 
 - In **User Consent Page**, seleect one **Account Number** then click **Submit** to get the token
 
@@ -75,7 +75,7 @@ At ABN AMRO Payment Method, click **Configure**
 #### 1.1. Environment = Sandbox
 Admin can choose Sandbox environment to test the functions of the ABN AMRO module. 
 
-![](https://i.imgur.com/vkg6S9G.png)
+![](https://i.imgur.com/NMjErCj.png)
 
 - **Client ID**: With Sandbox, Client ID is entered by the system and admin cannot change it.
 - **Sandbox API Key**:
@@ -95,7 +95,7 @@ Admin can choose Sandbox environment to test the functions of the ABN AMRO modul
 
 When applying for online payment, the admin needs to switch the environment to Production.
 
-![](https://i.imgur.com/k2TxYcS.png)
+![](https://i.imgur.com/PthbsF1.png)
 
 - **Client ID**: Admin needs to contact ABN AMRO provider to get merchant Client ID.
 - **Public Certificate File**: Admin must upload the PSD2 certificate file. See more details about PSD2 [here](https://medium.com/abn-amro-developer/psd2-we-are-live-b12aac19689a).
@@ -165,4 +165,4 @@ When applying for online payment, the admin needs to switch the environment to P
 
 ### 6. Compatible with One Step Checkout
 
-![](https://i.imgur.com/ICeDMiV.png)
+![](https://i.imgur.com/saWseuY.png)
