@@ -30,12 +30,14 @@ After logging to Magento Admin, navigate to ``Stores > Settings > Configuration 
 
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extension > Frequently Bought Together``, choose ``General Configuration`` sections
 
-![](https://i.imgur.com/O69ziZX.png)
+![](https://i.imgur.com/2VCaJMl.png)
 
 - In the **Enable Frequently Bought Together** field: choose "Yes" to enable extension. Here some rough sketch how this module works.
   - The Frequently Bought Together list is under the Product image and on the Product Description tab.
   - There will be a horizontal line separating the list from the Product image.
   - Products included in the Frequently purchased together list are from the Related Products in the Backend.
+  
+- **Method of Choosing Product**: Select the products to be displayed in the **Frequently Bought Together** block. The extension now supports displaying two types of products: **Related Product** and **Frequently Bought Together** Product. The configuration of these two types of products is guided below.
 
 - In the **Block name** field
   - Name the Frequently Bought Together block displaying in Product page.
@@ -57,6 +59,8 @@ From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Exte
 - In the **Separator Image** is the minor plus button among products
   - Valid file should be *jpg, *png and *gif
   - If you like our plus image as default, it’s ok to leave it blank.
+  
+- **Use Popup to Select Product Options**: Select **Yes** to display popup selecting the option for the product when clicking **Add To Cart**.
   
 ## How to add Related Products
 
@@ -86,8 +90,63 @@ Follow this instruction to know how to add your custom combination related produ
 
 And now you can back to the live site to check the completed result.
 
+## How to Add Frequently Bought Together Product
+
+### Step 1: Open the Product details page in Admin
+
+- Select `Products > Inventory > Catalog > Edit 1 Product`
+
+![](https://i.imgur.com/eeGw2ZQ.png)
+
+### Step 2: Add Related Product
+
+- Under **Related Products, Up-Sells, Cross-Sells and Frequently Bought Together** on **Edit Product** page, select **Add Frequently Bought Together Products**. Note: You must **Enable** the extension to see the **Frequently Bought Together Product** section.
+
+![](https://i.imgur.com/DnZjwaI.png)
+
+- On the **Add Frequently Bought Together Products** page, tick the **Products** you want to add
 
 
+![](https://i.imgur.com/kVfRPck.png)
+
+- Select **Add Selected Products**
+
+![](https://i.imgur.com/B73CxC4.png)
+
+- Save the Product changes: Click **Save Config**
+
+
+![](https://i.imgur.com/fGlrKGK.png)
+
+
+## REST API Document
+
+This extension supports retrieving and uploading data to the website using the REST API. Please check [this link](https://documenter.getpostman.com/view/6685698/SWLb88sB?version=latest) for more details. 
+
+
+## GraphQl Document
+
+This extension aslo supports getting and uploading data to the website using GraphQl. 
+
+To use GraphQl, first run the following commands in the root Magento 2 directory:
+
+```
+composer require mageplaza/module-frequently-bought-together-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+To start working with **Frequently Bought Together GraphQl** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install chrome extension (currently does not support other browsers)
+- Set GraphQL endpoint as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
+The module currently supports queries to retrieve a list of Frequently Bought Together products under certain conditional fields related to the product.
+
+- For example: List of Frequently Bought Together products of products with SKU is 24-MB04
+
+![](https://i.imgur.com/0V0cwtV.png)
 
 
 
