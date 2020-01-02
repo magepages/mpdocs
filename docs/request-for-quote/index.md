@@ -27,11 +27,11 @@ Customer can add products to Quote Cart at locations below:
 
 - **Categories Page**
 
-![Imgur](https://i.imgur.com/8PVMwOi.png)
+![Imgur](https://i.imgur.com/7VmZ7Hy.png)
 
 - **Product Detail Page**
 
-![Imgur](https://i.imgur.com/ciO3AMp.png)
+![Imgur](https://i.imgur.com/CPhuo05.png)
 
 - **Shopping Cart Page**
 
@@ -79,6 +79,17 @@ The system automatically redirects to **My Quote Cart** page. Here, display info
 
 ![Imgur](https://i.imgur.com/kPQUROv.png)
 
+### 3. Customer add quote to cart
+
+- Customer adds the quote to the cart when the quote is approved. This quote has already added to cart in this order. Each quote is added to cart once per order.
+- In order for customers to easily distinguish the product in quote from other products, the extension supports displaying Quote Label item in each product belonging to quote.
+
+![Imgur](https://i.imgur.com/OupEeZM.png)
+
+- Customer view order
+
+![Imgur](https://i.imgur.com/2aLRiNu.png)
+
 
 ## How to Configure
 ### I. Configuration
@@ -123,27 +134,27 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 
 ![Imgur](https://i.imgur.com/iEwh8ZG.png)
 
-- **Enable Emails After Quotes Submitted**: Select **Yes** to send mail to customers when the quote has been successfully submitted. Admin choose one of the **Submission Notice Template**.
-- **Enable Emails After Quotes Approved**: Select **Yes** to allow sending mail to customer when quote has been approved. Admin select **Approval Notice Template**.
-- **Enable Emails After Quotes Edited**: Choose **Yes** to send mail to customers when the quote has been edited by admin. Admin chooses **Editing Notice Template**.
-- **Enable Emails After Quotes Disapproved**: Select **Yes** to allow sending mail to customer when the quote has been rejected by admin. Admin select **Disapproval Notice Template**.
-- **Enable Admin Create Quote Email**: Select **Yes** to allow sending mail to the customer when the quote has been admin created. Admin select **Create Notice Template**.
+- **Enable Emails After Quotes Submitted**: Select **Yes** to send mail to customers when the quote has been successfully submitted. Admin chooses submission email template at **Submission Notice Template**.
+- **Enable Emails After Quotes Approved**: Select **Yes** to allow sending mail to customer when quote has been approved. Admin chooses approve email template at **Approval Notice Template**.
+- **Enable Emails After Quotes Edited**: Choose **Yes** to send mail to customers when the quote has been edited by admin. Admin chooses edit email template at **Editing Notice Template**.
+- **Enable Emails After Quotes Disapproved**: Select **Yes** to allow sending mail to customer when the quote has been rejected by admin. Admin chooses disapproval email template at **Disapproval Notice Template**.
+- **Enable Admin Create Quote Email**: Select **Yes** to allow sending mail to the customer when the quote has been admin created. Admin chooses create quote email template at **Create Notice Template**.
 
 ##### 3.2. Quote Reminder & Expiration Notice Emails To Requesters
 
 ![Imgur](https://i.imgur.com/iNWYS7A.png)
 
-- **Enable Expiration Reminder Emails**: Choose **Yes** to send email reminders to customers. Admin chooses **Expiration Reminder Template**.
-- **Enable Emails When Expiration**: Select **Yes** to send customers an email to notify the end of quote. Admin select **Expiration Notice Template**.
+- **Enable Expiration Reminder Emails**: Choose **Yes** to send email reminders to customers. Admin chooses reminder email template at **Expiration Reminder Template**.
+- **Enable Emails When Expiration**: Select **Yes** to send customers an email to notify the end of quote. Admin chooses expire email template at **Expiration Notice Template**.
 
 ##### 3.3. Admin Notification Email
 
 ![Imgur](https://i.imgur.com/SMGGhlL.png)
 
 - **Admin Email(s)**: Enter admin's email to receive notifications. The email is separated by commas.
-- **Report Email To Admin**: Admin chooses the time to send statistics of the number of quotes created to the admin. Admin select **Report Email Template**.
-- **Enable Customer Edited Quote Email**: Select **Yes** to send an admin notification email when the quote has been edited by customer. Admin chooses **Customer Edited Quote Email Template**.
-- **Enable Customer Canceled/ Deleted Quote Email**: Choose **Yes** to send admin notification emails when the quote is canceled/deleted by customer. Admin chooses **Customer Canceled Quote Email** and **Customer Deleted Quote Email**.
+- **Report Email To Admin**: Admin chooses the time to send statistics of the number of quotes created to the admin. Admin select the report email template at **Report Email Template**.
+- **Enable Customer Edited Quote Email**: Select **Yes** to send an admin notification email when the quote has been edited by customer. Admin chooses edit email template at **Customer Edited Quote Email Template**.
+- **Enable Customer Canceled/ Deleted Quote Email**: Choose **Yes** to send admin notification emails when the quote is canceled/deleted by customer. Admin chooses cancel/delete email template at **Customer Canceled Quote Email** and **Customer Deleted Quote Email**.
 
 
 ### II. Manage Request For Quote
@@ -165,7 +176,7 @@ The admin support module creates a new Request Quote for existing and existing C
 ##### Step 1: At ***Manage Quote Request Grid***, admin click the ***Create New Quote*** button.
 
 - Customer grid displays, admin select an account to create quote for that account.
-- You can click **Back** to cancel the action.
+- You can click **Back** to return to the grid **Manage Quote Requests**
 
 ![Imgur](https://i.imgur.com/uhGDqx7.png)
 
