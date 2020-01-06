@@ -19,23 +19,23 @@ Mageplaza Special Promotions is fully compatible with [Banner Slider](https://ww
 
 - **Display Discount Detail**: display discount information for each rule and details in collapsible form.
 
-![Imgur](https://i.imgur.com/qSzHoBw.png)
+![](https://i.imgur.com/qSzHoBw.png)
 
 ## How to Configure
 ### 1. Configuration
 
 Login to the Admin Magento, choose `Stores > Settings > Configuration > Mageplaza > Special Promotion`.
 
-![Imgur](https://i.imgur.com/ijw5Syn.png)
+![](https://i.imgur.com/ijw5Syn.png)
 
 #### 1.1. General
 
-![Imgur](https://i.imgur.com/OzSa10L.png)
+![](https://i.imgur.com/OzSa10L.png)
 
 - **Enable**: Select **yes** to activate the module features
 - **Display Discount Details**: If choose **Yes**, discount will be divided by rules and display details in collapsible form.
 
-![Imgur](https://i.imgur.com/GswpdmB.png)
+![](https://i.imgur.com/GswpdmB.png)
 
 - **Max. Discount Base**: Apply maximum discount for all products in cart for all rules with:
   - **No**: there will be no discount for the entire cart.
@@ -51,20 +51,22 @@ Login to the Admin Magento, choose `Stores > Settings > Configuration > Mageplaz
 
 #### 1.2. Cart Hint Message (coming soon)
 
-![Imgur](https://i.imgur.com/Y0QPedr.png)
+![](https://i.imgur.com/Y0QPedr.png)
 
 - **Enable**: Select **Yes** to display **Cart Hint Message** to notify customers about the discount program.
 - **Upsell Cart Hint**: If you select **Yes**, it will display a suggestion message in the shopping cart for discount programs if customer add to cart with the product or the amount is in the discount program but not yet eligible for a discount. For example: Buy 2 more bag to get 20% discount for whole order.
 
-![Imgur](https://i.imgur.com/p3ag4ga.png)
+![](https://i.imgur.com/p3ag4ga.png)
 
 - **Display cart hints on coupon invalid**: Select **Yes** to enable displaying of message suggesting cart when coupon is invalid.
 
 #### 1.3. Developer
 
+![](https://i.imgur.com/fjK7GXe.png)
+
 - **Developer Mode**: select **Yes** to enable **Developer Mode**. When it is enabled, you can see discounts applied to specific products in your shopping cart via Developer Mode. If you leave this blanl, all the promotions programs will be accessable for every IP Address. 
 
-![Imgur](https://i.imgur.com/ycXOTbw.png)
+![](https://i.imgur.com/ycXOTbw.png)
 
 - **White List IP(s)**: Enter the IP address which can see Developer Mode. It is possible to enter multiple IP addresses at the same time and they must be separated by a comma (,). For example: 192.168.1.20,192.168.2. *
 
@@ -74,7 +76,7 @@ Login to the Magento Admin, choose `Marketing > Promotions > Cart Price Rules`.
 
 #### 2.1. Grid
 
-![Imgur](https://i.imgur.com/CrPBI9e.png)
+![](https://i.imgur.com/CrPBI9e.png)
 
 - Besides Magento available fields, there are also other information such as **Discount Type, Discount Amount, Item Action** so that admin can know the details of each rule and filter information easily.
 - Admin can also perform some actions: **Delete rules**, **Change Status** with **Activate/ Inactivate** for each rule or all rules.
@@ -85,9 +87,9 @@ Login to the Magento Admin, choose `Marketing > Promotions > Cart Price Rules`.
 #### 2.2.1. Rule Information
 Enter and select all rule information such as Rule Name, Coupon, Coupon Code, etc. to start creating promotions.
 
-![Imgur](https://i.imgur.com/kxZk1LE.png)
+![](https://i.imgur.com/kxZk1LE.png)
 
-![Imgur](https://i.imgur.com/PsUhgIv.png)
+![](https://i.imgur.com/PsUhgIv.png)
 
 #### 2.2.2. Conditions
 
@@ -95,19 +97,19 @@ Beside the existing conditions of Magento, we also add a number of conditions to
 
 Click (+) to select conditions for rules with **Orders subselection**.
 
-![Imgur](https://i.imgur.com/qZlNprv.png)
+![](https://i.imgur.com/qZlNprv.png)
 
 - Choose different conditions here. Example: "If **total paid amount equals or greater than $50** for a subselection of orders matching ALL of these conditions (leave blank for all orders)". If only the condition is selected here - without the extra conditions, it will apply to all orders.
 
-![Imgur](https://i.imgur.com/K2hao6W.png)
+![](https://i.imgur.com/K2hao6W.png)
 
 - Admin can choose to add extra conditions to attract your customers. Example: "If **total paid amount equals or greater than $50** for a subselection of orders matching ALL of these conditions (leave blank for all orders) and **Order Status** contains **Complete**". If customer order satisfies the selected conditions, discount will apply.
 
-![Imgur](https://i.imgur.com/x5R2A7K.png)
+![](https://i.imgur.com/x5R2A7K.png)
 
 #### 2.2.3. Actions
 
-![Imgur](https://i.imgur.com/4wEcmM7.png)
+![](https://i.imgur.com/4wEcmM7.png)
 
 - **Apply**: Select **Discount Type** for promotion rules.
   - **Percent of product price discount**: Discount by a percentage from the original price. Discount applies to each eligible item in the cart. Example: **Discount Amount** is 10. So if any product meets the conditions, it will get a 10% discount from the original price.
@@ -139,7 +141,7 @@ Click (+) to select conditions for rules with **Orders subselection**.
   - **For matching items only**
   - **For shipment with matching items**
   
-![Imgur](https://i.imgur.com/GViSGq4.png)
+![](https://i.imgur.com/GViSGq4.png)
 
 - **Addition Item Action**: Choose additional conditions to apply product discounts:
 - **Cheapest item**: apply discount for the product with the lowest price in cart. Show an extra field:
