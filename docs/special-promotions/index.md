@@ -101,7 +101,7 @@ Click (+) to select conditions for rules with **Orders subselection**.
 
 - Choose different conditions here. Example: "If **total paid amount equals or greater than $50** for a subselection of orders matching ALL of these conditions (leave blank for all orders)". If only the condition is selected here - without the extra conditions, it will apply to all orders.
 
-![](https://i.imgur.com/K2hao6W.png)
+![](https://i.imgur.com/FLHrY09.png)
 
 - Admin can choose to add extra conditions to attract your customers. Example: "If **total paid amount equals or greater than $50** for a subselection of orders matching ALL of these conditions (leave blank for all orders) and **Order Status** contains **Complete**". If customer order satisfies the selected conditions, discount will apply.
 
