@@ -848,8 +848,385 @@ From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity 
 - Moreover, it can be customized to return only the selected fields (Order, Reward accounts, Transactions, Invitations)
 - You can check out some of the syntax we have supported as the follwings:
 
-
-![](https://i.imgur.com/fMca1hk.png)
+<p>&nbsp;</p>
+<table style="width: 1006px;">
+<tbody>
+<tr>
+<td style="width: 123px;">
+<p><strong>Name</strong></p>
+</td>
+<td style="width: 95px;">
+<p><strong>Method</strong></p>
+</td>
+<td style="width: 266px;">
+<p><strong>REST APIs</strong></p>
+</td>
+<td style="width: 356px;">
+<p><strong>Details</strong></p>
+</td>
+<td style="width: 140px;">
+<p><strong>Data required</strong></p>
+</td>
+</tr>
+<tr>
+<td style="width: 123px;" rowspan="6">
+<p><strong>Orders</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/orders/:id</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Add reward data to order by id (order and items)</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/orders</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Add reward data to orders (order and items)</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/invoices/</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Add reward data to invoices (invoice and items)</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/invoices/:id</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Add reward data to invoice by id (invoice and items)</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/creditmemos</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Add reward data to creditmemo (creditmemo and items)</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/creditmemo/:id</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Add reward data to creditmemo by id (creditmemo and items)</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 123px;" rowspan="6">
+<p><strong>Reward Accounts</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/accounts/:id</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get reward account by id</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/accounts/email</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get reward account by email</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/accounts</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get reward accounts</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/accounts/count</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get total reward accounts</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">DELETE</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/accounts/:id</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Delete reward account by id</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/accounts/create</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Create new reward account</span></p>
+</td>
+<td style="width: 140px;">
+<p><span style="font-weight: 400;">customer_id</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 123px;" rowspan="7">
+<p><strong>Transactions</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/transactions</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get all transaction</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/transactions/:id/expire</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Expire transaction by id</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/transactions/:id/cancel</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Cancel transaction by id</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/transactions/order/:id</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get transactions by order id</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/transactions/account/:id</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get trasactions by reward account id</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/transactions/count</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get total transactions</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/transactions/create</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Create transaction</span></p>
+</td>
+<td style="width: 140px;">
+<p><span style="font-weight: 400;">customer_id,point_amount</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 123px;" rowspan="4">
+<p><strong>Invitations</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/invitations</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get all invitations</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/invitations/referral/email</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get invitations by referral email</span></p>
+</td>
+<td style="width: 140px;">
+<p><span style="font-weight: 400;">email</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/invitations/invited/email</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get invitations by invited email</span></p>
+</td>
+<td style="width: 140px;">
+<p><span style="font-weight: 400;">email</span></p>
+</td>
+</tr>
+<tr>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/invitations/count</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get total invitations</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 123px;">
+<p><strong>Rates&nbsp;</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/rates</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get rates</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 123px;">
+<p><strong>Catalog Rules</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/catalog-rules</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get catalog rules</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 123px;">
+<p><strong> Shopping Cart Earning Rules</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/shopping-cart-earning-rules</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get shopping cart earning rules</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+<tr>
+<td style="width: 123px;">
+<p><strong>Shopping Cart Spending Rules</strong></p>
+</td>
+<td style="width: 95px;">
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td style="width: 266px;">
+<p><span style="font-weight: 400;">/V1/mpReward/shopping-cart-spending-rules</span></p>
+</td>
+<td style="width: 356px;">
+<p><span style="font-weight: 400;">Get shopping cart spending rules</span></p>
+</td>
+<td style="width: 140px;">&nbsp;</td>
+</tr>
+</tbody>
+</table>
+<p>&nbsp;</p>
 
 - See how to create an API [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#web-api-access) and how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#integration-tokens).
 
