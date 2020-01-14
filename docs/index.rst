@@ -128,7 +128,6 @@ Welcome to Mageplaza Docs
    sagepay/index
    save-cart-and-buy-later/index
    sales-pop/index
-   search/index
    security/index
    securepay/index
    security-pro/index
