@@ -82,7 +82,7 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
 
 * **Blacklist**: Enter the email patern for this field, meaning that emails with the same pattern as the patern here will not receive any mail from the system.
   * Regex is written between two right slashes /../. Basic regex:
-    * [0-9]: digits from 0 to 9
+    * `[0-9]`: digits from 0 to 9
     * `[a-z]`: lowercase letters from a to z
     * `[A-Z]`: uppercase letters from A to Z
     * `abc`: from a,b.c
