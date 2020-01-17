@@ -80,7 +80,7 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
   * No: Sent emails won’t be archived.
 * **Clean Email Log Every**: This field limits the storage time for the email you sent. After that limited number of days, Email will be auto-deleted. If you do not want to delete the emails, leave the field blank.
 
-* **Blacklist**: Enter the email patern for this field, meaning that emails with the same pattern as the patern here will not receive any mail from the system.
+* **Blacklist**: Enter the regex for email patern in this field, meaning that emails with the same pattern as the patern here will not receive any mail from the system.
   * Regex is written between two right slashes /../. Basic regex:
     * `[0-9]`: digits from 0 to 9
     * `[a-z]`: lowercase letters from a to z
@@ -112,7 +112,7 @@ For example, the pattern of an email is: `/^[0-9][a-z0-9\$\%\&]+@[a-z]+\.[a-z]{2
 * `[a-z0-9\$\%\&]` : the rest of the email may contain multiple digits, letters, characters $, %, &
 * `@` : ending email address with the @ character
 * `[a-z]+` : domain names include lowercase characters
-* `\.[az]{2,}$` : End with top-level domain: begins with dot, followed by only lowercase characters, and requires at least 2 characters, `$` sign indicates end of string. 
+* `\.[a-z]{2,}$` : End with top-level domain: begins with dot, followed by only lowercase characters, and requires at least 2 characters, `$` sign indicates end of string. 
 
 
 #### 2.2.2 SMTP Configuration Options
