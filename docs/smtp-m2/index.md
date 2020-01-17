@@ -80,8 +80,43 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
   * No: Sent emails won’t be archived.
 * **Clean Email Log Every**: This field limits the storage time for the email you sent. After that limited number of days, Email will be auto-deleted. If you do not want to delete the emails, leave the field blank.
 
+* **Blacklist**: Enter the email patern for this field, meaning that emails with the same pattern as the patern here will not receive any mail from the system.
+  * Regex is written between two right slashes /../. Basic regex:
+    * [0-9]: digits from 0 to 9
+    * `[a-z]`: lowercase letters from a to z
+    * `[A-Z]`: uppercase letters from A to Z
+    * `abc`: from a,b.c
+    * `123`: number 1,2,3
+    * `\d`: any number from 0 to 9
+    * `\w`: a letter
+    * `\s`: white space (space, tab, new line, ...)
+    * `\D`: non-numeric character
+    * `\W`: non-letter characters
+    * `\S`: character not white space
+    * `.` : any character except the new line. For example:. {3} will correspond to any string with 3 characters
+    * `+` : indecates the element appears >= 1 time
+    * `*` : indicates that the element appears >= 0 times (may not appear)
+    * `?` : indicates the element appears 0 or 1 time
+    * `^` : represents the first element of the string. For example: `^a` corresponds to the letter "a" in the string "abc"
+    * `$` : matches the last character of the string. For example, `c$` matches the character "c" in the string "abc"
+    * `?` : matches 0 or 1 times the character preceding it. For example: `a?` will be able to match "abc" or "bc" in the target string "abcdbc"
+    * `a|b` : corresponds to a or b.
+    * `{x}` : corresponds to x times. For example: `{3}` corresponds to 3 characters
+    * `{x,}` : at least x times. For example, `{2,}` corresponds to at least 2 characters
+    * `{x,y}` : from x to y times. For example, `{2,6}` corresponds to 2 to 6 characters
+    * To use special characters, use the "\" before that character. For example: `/\.\+\*/` corresponds to. `+*`
+
+For example, the pattern of an email is: `/^[0-9][a-z0-9\$\%\&]+@[a-z]+\.[a-z]{2,}$/`
+
+* `^[0-9]` : start with a number between 0 and 9
+* `[a-z0-9\$\%\&]` : the rest of the email may contain multiple digits, letters, characters $, %, &
+* `@` : ending email address with the @ character
+* `[a-z]+` : domain names include lowercase characters
+* `\.[az]{2,}$` : End with top-level domain: begins with dot, followed by only lowercase characters, and requires at least 2 characters, `$` sign indicates end of string. 
+
 
 #### 2.2.2 SMTP Configuration Options
+
 Still from the same structure with [SMTP](https://github.com/mageplaza/magento-2-smtp) General Configuration, go to `Stores > Settings > Configuration > Mageplaza > SMTP`, then choose **SMTP Configuration Options** sections.
 
 ![](https://i.imgur.com/uM3osyl.png)
