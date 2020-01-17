@@ -85,15 +85,15 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
     * `[0-9]`: digits from 0 to 9
     * `[a-z]`: lowercase letters from a to z
     * `[A-Z]`: uppercase letters from A to Z
-    * `abc`: from a,b.c
-    * `123`: number 1,2,3
+    * `abc`: letter. For example: `/abc/` correspond to "abc" string in the defaut pattern string “abcdefgh”
+    * `123`: number. For example: `/123/` correspond to "123" string in the defaut pattern string “abc123”
     * `\d`: any number from 0 to 9
     * `\w`: a letter
     * `\s`: white space (space, tab, new line, ...)
     * `\D`: non-numeric character
     * `\W`: non-letter characters
     * `\S`: character not white space
-    * `.` : any character except the new line. For example:. {3} will correspond to any string with 3 characters
+    * `.` : any character except the new line. For example: `.{3}` will correspond to any string with 3 characters
     * `+` : indecates the element appears >= 1 time
     * `*` : indicates that the element appears >= 0 times (may not appear)
     * `?` : indicates the element appears 0 or 1 time
@@ -104,7 +104,7 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
     * `{x}` : corresponds to x times. For example: `{3}` corresponds to 3 characters
     * `{x,}` : at least x times. For example, `{2,}` corresponds to at least 2 characters
     * `{x,y}` : from x to y times. For example, `{2,6}` corresponds to 2 to 6 characters
-    * To use special characters, use the "\" before that character. For example: `/\.\+\*/` corresponds to. `.+*`
+    * To use special characters, use the `\` before that character. For example: `/\.\+\*/` corresponds to. `.+*`
 
 For example, the pattern of an email is: `/^[0-9][a-z0-9\$\%\&]+@[a-z]+\.[a-z]{2,}$/`
 
