@@ -387,21 +387,22 @@ VI. Manage Authors
 ^^^^^ 
 
 * Login to Magento Admin, `Content > Better Blog > Manage Authors > click the Create New Author button`
+
 * **Author Info Tab**:
 
 .. image:: https://i.imgur.com/6YVoO1n.png
 
-  - **Customer**: Select customer as author
-  - **Display Name**: This name will be displayed on frontend. This is a required field
-  - **Status**: Author's status, there are 3 author's status: Pending, Approved and Disapproved
+* **Customer**: Select customer as author
+* **Display Name**: This name will be displayed on frontend. This is a required field
+* **Status**: Author's status, there are 3 author's status: Pending, Approved and Disapproved
 
 .. image:: https://i.imgur.com/9D2Nnyo.png
 
-  * Enter **Short Description** if you need to
-  * Upload image from your browser in the **Avatar** option.
-  * Enter the **URL Key** that the visitor can access the list post of author
-  * **Full URL**: after saving here will display the full URL link to access the list of author posts
-  * Enter Facebook link and Twitter if you want
+* Enter **Short Description** if you need to
+* Upload image from your browser in the **Avatar** option.
+* Enter the **URL Key** that the visitor can access the list post of author
+* **Full URL**: after saving here will display the full URL link to access the list of author posts
+* Enter Facebook link and Twitter if you want
 
 * **Post tab**: grid of author posts
 
