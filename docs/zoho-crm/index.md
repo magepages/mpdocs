@@ -97,7 +97,7 @@ Login to the Magento Admin, choose `Stores > Zoho CRM > Synchronization Rules`.
 
 **Note**: When installing Mageplaza **Zoho CRM** and creating the **Synchronization Rules**, click **Add Data to Queue** to put the previous data into Queue and synchronize data to Zoho CRM.
 
-Mageplaza's Zoho CRM extension is fully compatible with the [Report extension](https://www.mageplaza.com/magento-2-reports-extension/), which provide reports on queue synchronized quickly and conveniently at three columns: **Total Object, Total Pending, Total Request**.
+Mageplaza's Zoho CRM extension is fully compatible with the [Report extension](https://www.mageplaza.com/magento-2-reports-extension/), which provide reports on queue synchronized quickly and conveniently at three columns: **Total Object, Total Pending, Total Request (include success and error statuses)**.
 
 #### 2.2. Create Sync Rule
 
