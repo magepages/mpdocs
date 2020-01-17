@@ -92,7 +92,7 @@ Login to the Magento Admin, choose `Stores > Quickbooks Online > Synchronization
 
 ![](https://i.imgur.com/1FDwQNA.png)
 
-Here, the Sync Rules information includes the **Name, Magento Object, Quickbooks Module, Website, Total Objects, etc.**
+Here, the Sync Rules information includes the **Name, Magento Object, Quickbooks Module, Website, Total Objects, Total Request (include error and success statuses), Total Pending, etc.**
 
 - Click **Add new** button to create a new rule. After creating rules, you can choose **Edit** to edit rules. Also admin can **delete rules, change status (Enable/Disable), filter, and so on.**
 - Select **Add Data to Queue** if you want to add more data to Queue. Or with **Mass Actions**, admin can synchronize one or more rules at the same time when clicking **Add To Queue**.
