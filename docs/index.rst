@@ -43,11 +43,13 @@ Welcome to Mageplaza Docs
    reports-ultimate/index
    product-feed/index
    abandoned-cart-email/index
+   abn-amro/index
    admin-permissions/index
    age-verification/index
    banner-slider/index
    backend-reindex/index
    barcode/index
+   barclaycard/index
    better-coupon/index
    better-popup/index
    better-change-qty/index
@@ -58,6 +60,7 @@ Welcome to Mageplaza Docs
    better-sorting/index
    better-wishlist/index
    blog-m2/index
+   canada-post/index
    cartasi/index
    call-for-price/index
    catalog-permissions/index
@@ -81,6 +84,9 @@ Welcome to Mageplaza Docs
    extra-fee/index
    facebook-plugin/index
    faq/index
+   follow-up-email/index
+   freshsales/index
+   free-gifts/index
    free-shipping-bar/index
    frequently-bought-together/index
    gdpr/index
@@ -116,12 +122,15 @@ Welcome to Mageplaza Docs
    product-slider-m2/index
    product-alerts/index
    product-finder/index
+   product-grid/index
    promo-bar/index
    promo-banner/index
+   quickbooks-online/index
    quick-cart/index
    quick-flush-cache/index
    quick-view-ajax-cart/index
    quick-order/index
+   request-for-quote/index
    required-login/index
    review-reminder/index
    rma/index
@@ -139,6 +148,7 @@ Welcome to Mageplaza Docs
    shipping-rules/index
    shipping-restriction/index
    size-chart/index
+   sms-notification/index
    social-share/index
    special-promotions/index
    store-locator/index
@@ -149,6 +159,8 @@ Welcome to Mageplaza Docs
    table-category-view/index
    thank-you-page/index
    twitter-widget/index
+   westpac/index
+   wepay/index
    who-bought-this-also-bought/index
    who-viewed-this-also-viewed/index
    webhook/index
