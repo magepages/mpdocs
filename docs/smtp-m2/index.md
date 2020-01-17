@@ -104,7 +104,7 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
     * `{x}` : corresponds to x times. For example: `{3}` corresponds to 3 characters
     * `{x,}` : at least x times. For example, `{2,}` corresponds to at least 2 characters
     * `{x,y}` : from x to y times. For example, `{2,6}` corresponds to 2 to 6 characters
-    * To use special characters, use the "\" before that character. For example: `/\.\+\*/` corresponds to. `+*`
+    * To use special characters, use the "\" before that character. For example: `/\.\+\*/` corresponds to. `.+*`
 
 For example, the pattern of an email is: `/^[0-9][a-z0-9\$\%\&]+@[a-z]+\.[a-z]{2,}$/`
 
