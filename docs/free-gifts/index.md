@@ -178,7 +178,8 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 ### 3. API
 
-- Free Gifts extension from Mageplaza support using Rest API to view and check all carts and items in carts of customers and even guest. 
+- Free Gifts extension from Mageplaza support using Rest API to view and check all carts and items in carts of customers and even guest. Also, admin and customers can view Free Gift Items list, add/delete Free Gift Item to/from Cart.  
+
 - For more details, please see [here](https://documenter.getpostman.com/view/6204567/SWLZeprQ?version=latest)
 
 
