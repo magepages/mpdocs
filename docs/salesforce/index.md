@@ -93,7 +93,7 @@ Login to the Magento Admin, choose `Stores > Salesforce > Configuration`.
 
 ### 2. Manage Sync Rules
 
-Login to the Magento Admin, choose Stores> Salesforce> Synchronization Rules
+Login to the Magento Admin, choose `Stores > Salesforce > Synchronization Rules`
  
 #### 2.1. Grid
 
@@ -150,7 +150,7 @@ Login to the Magento Admin, choose Stores> Salesforce> Synchronization Rules
 
 ##### 2.2.4. Queue Report
 
-- Here record the Queue information with each rule including the following information: **Object, Created Date, Status, Updated Date, etc**. Statistical information with **otal Pending, Total Success, Total Request (total Queue includes success and error )**. After **Save and Continue Edit/Save** will display the **Queue Report** tab.
+- Here record the Queue information with each rule including the following information: **Object, Created Date, Status, Updated Date, etc**. Statistical information with **Total Pending, Total Success, Total Request (total Queue includes success and error )**. After **Save and Continue Edit/Save** will display the **Queue Report** tab.
 - **Note**: With **Created Date** is the time data is entered into the Queue. **Updated Date** is the time when the queue is synchronized to Salesforce .
 
 ![](https://i.imgur.com/EZmckUF.png)
