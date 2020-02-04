@@ -89,7 +89,7 @@ Login to the Magento Admin, choose `Stores > Settings > Configuration > Synchron
   - Enter the name that is applied to the Sync rules
   - This is a Required field.
 - **Status**: Select **Active** to make the rules active and synchronize the data on the Freshsales Object.
-- **Magento Object, Freshsales Object, Website** data are retrieved according to the above object information before creating sync rules and the information is only changed when the admin changes the - object information before creating.
+- **Magento Object, Freshsales Object, Website** data are retrieved according to the above object information before creating sync rules and the information is only changed when the admin changes the object information before creating.
 - **Priority**: If several rules meet the condition, the one with the highest priority will be applied. Smaller number means higher priority
 
 
@@ -107,8 +107,9 @@ Login to the Magento Admin, choose `Stores > Settings > Configuration > Synchron
 ![](https://i.imgur.com/W9UT2Zs.png)
 
 - **Freshsales Fields**: Displays fields managed by Freshsales for this object according to the selected Magento Object. Fields of Freshsales Field vary depending on the selected Magento Object such as Customer, Order.
-- Enter the fields of the corresponding magento object to push the data corresponding to the fields of the Freshsales object.
-- Leaving this column blank will take the **Default Value** field value to be applied to the Freshsales object.
+- **Magento Fields**
+  - Enter the fields of the corresponding magento object to push the data corresponding to the fields of the Freshsales object.
+  - Leaving this column blank will take the **Default Value** field value to be applied to the Freshsales object.
 - **Internal Note**: Enter a description in the **Internal Note** field. This section is only for admin note information with this rule.
 - **Insert Variables**: Select the fields of the Magento object that correspond to the fields of the Freshsales object.
 
