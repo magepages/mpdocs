@@ -196,3 +196,9 @@ From the Admin Panel, select `Marketing > Abandoned Cart Email > Cart Board`
   - **Abandoned Cart**: in contrast to the **Real-time cart** column, cart will be here if the abandoned cart time is greater than the time to install **How to measure Abandoned Cart** field in Configuration, and this column only displays cart without email.
   - **Recoverable**: Just like the Abandoned Cart column but it just shows the cart with email address.
   - **Converted**: Show the ordered cart.
+  
+### 7. API
+- Abandoned Cart Email extension by Mageplaza supports using rest API to recover shopping cart. You can see [more details here](https://testermageplaza.postman.co/collections/5977924-f5ea81bb-3771-448f-8b0b-35b631774fc6?version=latest&workspace=b39041e8-7b12-4360-802b-e4f4fa40b8a1).
+- Get instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+
