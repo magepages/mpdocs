@@ -72,7 +72,7 @@ Below is the content of an email after you click on the **View** button
 
 Be sure you’re at Admin Panel, for general configuration `Stores > Settings > Configuration > Mageplaza > SMTP`. Choose **General Configuration** sections.
 
-![](https://i.imgur.com/Hm7Wofm.png)
+![](https://i.imgur.com/AOiIER7.png)
 
 * In the **Enable Mageplaza SMTP** field, select “Yes” to enable Mageplaza SMTP extension.
 * **Log Email** provides two modes:
