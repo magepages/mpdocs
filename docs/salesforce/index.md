@@ -175,7 +175,7 @@ Here admin can synchronize multiple data or each data information by event: prod
 
 #### 4.2. Edit
 
-- With the data available before, admin can **Add To Salesforce Queue** with As Account, As Lead, As Contact, Order** to put data into **Manage Queue** and synchronize data.
+- With the data available before, admin can **Add To Salesforce Queue** with As Account, As Lead, As Contact, Order to put data into **Manage Queue** and synchronize data.
 - Will display more Salesforce tab when editing into customer account data, order. This grid shows statistics and displays a list of queues with each data information, including information: Status, Salesforce Module, Event, Created Date, Updated Date, etc. Also, the admin can filter, search at those columns.
 
 ![](https://i.imgur.com/WgNsA1m.png)
