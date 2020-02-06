@@ -1163,13 +1163,13 @@ From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity 
 <p><span style="font-weight: 400;">GET</span></p>
 <p><span style="font-weight: 400;">GET</span></p>
 <p><span style="font-weight: 400;">GET</span></p>
-<p><span style="font-weight: 400;">GET</span></p>
+<p><span style="font-weight: 400;">POST</span></p>
 </td>
 <td>
 <p><span style="font-weight: 400;">/V1/mpReward/invitations/count</span></p>
 <p><span style="font-weight: 400;">/V1/mpReward/mine/invitations</span></p>
-<p><span style="font-weight: 400;">/V1/mpReward/invitation/refer/:code</span></p>
-<p><span style="font-weight: 400;">/V1/mpReward/invitation/mine/code</span></p>
+<p><span style="font-weight: 400;">/V1/mpReward/invitation/mine/code&nbsp;</span></p>
+<p><span style="font-weight: 400;">/V1/mpReward/invitation/refer&nbsp;</span></p>
 </td>
 <td>
 <p><span style="font-weight: 400;">Get total invitations</span></p>
@@ -1177,7 +1177,9 @@ From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity 
 <p><span style="font-weight: 400;">GET Refer Code</span></p>
 <p><span style="font-weight: 400;">GET Refer By Code</span></p>
 </td>
-<td><br /><br /><br /><br /></td>
+<td><br /><br /><br />
+<p><span style="font-weight: 400;">code</span></p>
+</td>
 </tr>
 <tr>
 <td>
