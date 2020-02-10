@@ -234,7 +234,7 @@ php bin/magento setup:static-content:deploy
   ![](https://imgur.com/z84Dsu4.png)
   - Query `mpFreeGiftsByQuoteItem`: Help to get the free gift by quote item Id
   
-  ![](https://imgur.com/undefined.png)
+  ![](https://imgur.com/1UaIjPY.png)
   - Mutation `mpFreeGiftsAddByGiftId`: Help to add free gift by gift Id
   
   ![](https://imgur.com/eoshg4U.png)
