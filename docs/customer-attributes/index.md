@@ -24,7 +24,7 @@ From the Admin Panel, go to `Customers > Attribute`
 
 ##### Step 1: Enter full informaiton about Customer Attributes into Properties
 
-From the Admin Panel, go to `Customers > Attribute > Customer, chọn Add New Attribute`
+From the Admin Panel, go to `Customers > Attribute > Customer, select `Add New Attribute`
 
 ![](https://i.imgur.com/Hy3ce1X.gif)
 
