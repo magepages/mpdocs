@@ -124,11 +124,11 @@ And now you can back to the live site to check the completed result.
 This extension supports retrieving and uploading data to the website using the REST API. Please check [this link](https://documenter.getpostman.com/view/6685698/SWLb88sB?version=latest) for more details. 
 
 
-## GraphQl Document
+## GraphQL Document
 
-This extension aslo supports getting and uploading data to the website using GraphQl. 
+This extension aslo supports getting and uploading data to the website using GraphQL. 
 
-To use GraphQl, first run the following commands in the root Magento 2 directory:
+To use GraphQL, first run the following commands in the root Magento 2 directory:
 
 ```
 composer require mageplaza/module-frequently-bought-together-graphql
@@ -136,7 +136,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-To start working with **Frequently Bought Together GraphQl** in Magento, you need to:
+To start working with **Frequently Bought Together GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
 - Install chrome extension (currently does not support other browsers)

@@ -685,9 +685,9 @@ Clicking the ``Import`` button is the final steps!
 **Mageplaza Gift Card Extension** supports retrieving and pushing data onto the website using the **REST API**. Please check [this document](https://documenter.getpostman.com/view/6425904/SW7gSPUb) for more details of supported APIs
 
 
-### XI. GraphQl Document
+### XI. GraphQL Document
 
-Mageplaza Gift Card Extension supports getting and pushing data on the website with GraphQl.
+Mageplaza Gift Card Extension supports getting and pushing data on the website with GraphQL.
 
 #### 11.1. 
 
@@ -701,7 +701,7 @@ php bin/magento setup:static-content:deploy
 
 #### 11.2 
 
-To start working with **Gift Card GraphQl** in Magento, you need to:
+To start working with **Gift Card GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
 - Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)

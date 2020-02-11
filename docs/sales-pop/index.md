@@ -233,7 +233,7 @@ composer require mageplaza/module-sales-pop-graphql
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ``` 
-To start working with Sales Pop GraphQl in Magento, please do the following requirements:
+To start working with Sales Pop GraphQL in Magento, please do the following requirements:
 
 - Use Magento 2.3.x. Reture your site to developer mode.
 - Install chrome extension (currently does not support other browsers)

@@ -132,7 +132,7 @@ Design the labels and images for the product on the `Product Listing` (the label
 - Details can be viewed [here](https://documenter.getpostman.com/view/6204567/SW7gUkTX?version=latest).
 - Instructions for creating **Integration tokens** are [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
-## V. GraphQl
+## V. GraphQL
 
 Run the following command in Magento 2 root folder:
 
@@ -142,7 +142,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-To start working with Product Labels GraphQl in Magento, you need the following:
+To start working with Product Labels GraphQL in Magento, you need the following:
 
 - Use Magento 2.3.x. Return your site to developer mode
 - Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)

@@ -214,7 +214,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 ![](https://i.imgur.com/Km87iQW.gif)
 
 
-### 5. GraphQl
+### 5. GraphQL
 
 Run the following command in Magento 2 root folder:
 
