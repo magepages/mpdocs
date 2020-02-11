@@ -217,7 +217,7 @@ Product reviews are listed according to **Report Review Status** installed at Co
 - Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE29gRM?version=latest).
 - Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
-### 5. GraphGl
+### 5. GraphQL
 
 Run the following command in Magento 2 root folder:
 
