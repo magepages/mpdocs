@@ -15,7 +15,7 @@ Salesforce is CRM (customer relationship management) software. It offers busines
 
 ### Register Salesforce account:
 
-- To register a Salesforce account, visit the [this link](https://login.salesforce.com/).
+- To register a Salesforce account, visit [this link](https://login.salesforce.com/).
 
 ![](https://imgur.com/2xz323G.png)
 
@@ -31,6 +31,8 @@ After registering an account, visit [this link](https://ap16.lightning.force.com
 ![](https://imgur.com/WnVBOlk.png)
 
 ![](https://imgur.com/s79ScM0.png)
+
+### Get Standard Price Book ID
 
 - Select **Price Books**, click **New** button and enter all information to create **Standard Price Book ID**. After entering the correct value of the field and connecting with Salesforce, when synchronizing the product will display the product price on products and orders of Salesforce.
 
