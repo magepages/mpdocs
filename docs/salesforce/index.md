@@ -24,7 +24,9 @@ After registering an account, visit [this link](https://ap16.lightning.force.com
 
 ![](https://imgur.com/tjZ254i.png)
 
-![](https://imgur.com/QArnEDy.png)
+![](https://i.imgur.com/a64fGko.png)
+
+![](https://i.imgur.com/TbIXMQ7.png)
 
 - After creating App Manager successfully, select **View** to see **Consumer Key, Consumer Secret, and Security Token** information. You need to save this information to be able to connect with Salesforce. For the **Callback URL** field, copy and paste the information of the **Callback URL** field in Salesforce. Note: Wait about 2-10 minutes so that the changed values will be connected to each other.
 
@@ -34,9 +36,9 @@ After registering an account, visit [this link](https://ap16.lightning.force.com
 
 ### Get Standard Price Book ID
 
-- Select **Price Books**, click **New** button and enter all information to create **Standard Price Book ID**. After entering the correct value of the field and connecting with Salesforce, when synchronizing the product will display the product price on products and orders of Salesforce.
+- At **Price Books**, click **All Price Books** and slelect **Standard Price Book** to get the **Standard Price Book ID**. Ater that, you can connect to Salesforce, when synchronizing data will show product prices on each product and its order at Salesforce. 
 
-![](https://imgur.com/bqzuAKE.png)
+![](https://i.imgur.com/KyInBRX.png)
 
 ![](https://imgur.com/TfGHgom.png)
 
