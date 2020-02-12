@@ -865,7 +865,7 @@ In this field, admin can view the sales and the commission of related Affiliate 
 
 * You can see some syntaxes that we list below:
 
-.. image:: https://i.imgur.com/VPQbdUy.png
+.. image:: https://i.imgur.com/pw9HPee.png
 
 .. image:: https://i.imgur.com/zac0KJ9.png
 
