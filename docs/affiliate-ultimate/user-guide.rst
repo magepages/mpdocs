@@ -863,7 +863,539 @@ In this field, admin can view the sales and the commission of related Affiliate 
 
 * Moreover, it can be customized to return only the selected fields (transaction, campaign, withdraw,  account affiliate, change status of account affiliate, campaign)
 
-* You can see some syntaxes that we list [here]. Also, please refer the guide on how to create API [here] and creating token-based authentication [here]. 
+* You can see some syntaxes that we list below:
+
+<p>&nbsp;</p>
+<table>
+<tbody>
+<tr>
+<td>
+<p><strong>Name</strong></p>
+</td>
+<td>
+<p><strong>Method</strong></p>
+</td>
+<td>
+<p><strong>REST APIs</strong></p>
+</td>
+<td>
+<p><strong>Details</strong></p>
+</td>
+<td>
+<p><strong>Data required</strong></p>
+</td>
+<td>
+<p><strong>Data Input</strong></p>
+</td>
+</tr>
+<tr>
+<td rowspan="6">
+<p><strong>Orders</strong></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/orders/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Add affiliate data to order by id (order and items)</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/orders</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Add affiliate data to orders (order and items)</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/orders/?searchCriteria=entity_id"><span style="font-weight: 400;">http://&lt;magento_host&gt;</span></a></p>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/orders/?searchCriteria=entity_id"><span style="font-weight: 400;">/rest/V1/orders/?searchCriteria=entity_id</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/invoices/</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Add affiliate data to invoices (invoice and items)</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/invoices/?searchCriteria=entity_id"><span style="font-weight: 400;">http://&lt;magento_host&gt;</span></a></p>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/invoices/?searchCriteria=entity_id"><span style="font-weight: 400;">/rest/V1/invoices/?searchCriteria=entity_id</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/invoices/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Add affiliate data to invoice by id (invoice and items)</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/creditmemos</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Add affiliate data to creditmemo (creditmemo and items)</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/creditmemos/?searchCriteria=entity_id"><span style="font-weight: 400;">http://&lt;magento_host&gt;</span></a></p>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/creditmemos/?searchCriteria=entity_id"><span style="font-weight: 400;">/rest/V1/creditmemos/?searchCriteria=entity_id</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/creditmemo/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Add affiliate data to creditmemo by id (creditmemo and items)</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td rowspan="11">
+<p><strong>Affiliate Accounts</strong></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get affiliate account by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get affiliate account by email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">{"email":"roni_cost@example.com"}</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get affiliate accounts</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/accounts/?searchCriteria=entity_id"><span style="font-weight: 400;">http://</span><span style="font-weight: 400;">&lt;magento_host&gt;</span></a></p>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/accounts/?searchCriteria=entity_id"><span style="font-weight: 400;">/rest/V1/accounts/?searchCriteria=entity_id</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/count</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get total affiliate accounts</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">DELETE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Delete affiliate account by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/:id/status/:value</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Change status of affiliate</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/create</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Create new affiliate</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">customer_id, group_id, status</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">{"data":{"customer_id":1,"group_id":1,"status":1}}</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/:id/campaigns</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get all campaign by affiliate id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/email/campaigns</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get all campaign by affiliate email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">{"email":"roni_cost@example.com"}</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/child/email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get childrens of affiliate by affiliate email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">email</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">{"email":"roni_cost@example.com"}</span></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/accounts/:id/child</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get childrens of affiliate by affiliate id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td rowspan="7">
+<p><strong>Transactions</strong></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/transactions</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get all transaction</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/mpAffiliateTransactions/?searchCriteria=entity_id"><span style="font-weight: 400;">http://&lt;magento_host&gt;</span></a></p>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/mpAffiliateTransactions/?searchCriteria=entity_id"><span style="font-weight: 400;">/rest/V1/mpAffiliateTransactions/?searchCriteria=entity_id</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/transactions/:id/complete/</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Complete transaction by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/transactions/:id/cancel/</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Cancel transaction by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/transactions/:id/order/</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get transactions by order id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/transactions/:id/account/</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get trasactions by affiliate id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/transactions/count</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get total transactions</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/transactions/create</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Create transaction</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">account_id, amount</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">{"data":{"account_id":1,"amount":100}}</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="6">
+<p><strong>Withdraws</strong></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/withdraws</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get all withdraws</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/mpAffiliate/withdraws/?searchCriteria=entity_id"><span style="font-weight: 400;">http://&lt;magento_host&gt;</span></a></p>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/mpAffiliate/withdraws/?searchCriteria=entity_id"><span style="font-weight: 400;">/rest/V1/mpAffiliate/withdraws/?searchCriteria=entity_id</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/withdraws/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get withdraw by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/withdraws/:affiliateId/affiliate</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get withdraw by affiliate Id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/withdraws/:id/approve</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Approve withdraw by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/withdraws/:id/cancel/</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Cancel withdraw by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">POST</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/withdraws/create</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Create withdraw</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">account_id, amount, payment_method</span></p>
+<br />
+<p><span style="font-weight: 400;">Paypal method required paypal_email field</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">{"data":{"account_id":1,"amount":100,"payment_method":"paypal","paypal_email":"roni_cost@example.com"}}</span></p>
+</td>
+</tr>
+<tr>
+<td rowspan="4">
+<p><strong>Campaigns</strong></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/campaigns</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get all campaign</span></p>
+</td>
+<td>&nbsp;</td>
+<td>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/mpAffiliate/campaigns/?searchCriteria=entity_id"><span style="font-weight: 400;">http://&lt;magento_host&gt;</span></a></p>
+<p><a href="http://192.168.1.100/lan/ce225a/rest/V1/mpAffiliate/campaigns/?searchCriteria=entity_id"><span style="font-weight: 400;">/rest/V1/mpAffiliate/campaigns/?searchCriteria=entity_id</span></a></p>
+</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/campaigns/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Get campaign by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">DELETE</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/campaigns/:id</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Delete campaign by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+<tr>
+<td>
+<p><span style="font-weight: 400;">GET</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">/V1/mpAffiliate/campaigns/:id/status/:value</span></p>
+</td>
+<td>
+<p><span style="font-weight: 400;">Change status by id</span></p>
+</td>
+<td>&nbsp;</td>
+<td>&nbsp;</td>
+</tr>
+</tbody>
+</table>
+
+* Also, please refer the guide on how to create API [here](https://devdocs.magento.com/guides/v2.3/get-started/rest_front.html) and creating token-based authentication [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html). 
 
 
 11. Import/Export
