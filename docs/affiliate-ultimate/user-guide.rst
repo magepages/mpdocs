@@ -869,7 +869,7 @@ In this field, admin can view the sales and the commission of related Affiliate 
 
 .. image:: https://i.imgur.com/zac0KJ9.png
 
-* Also, please refer the guide on how to create API `https://devdocs.magento.com/guides/v2.3/get-started/rest_front.html <here>`_ and creating token-based authentication [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html). 
+* Also, please refer the guide on how to create API `right here <https://devdocs.magento.com/guides/v2.3/get-started/rest_front.html>`_ and creating token-based authentication `here <https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html>`_ 
 
 
 11. Import/Export
