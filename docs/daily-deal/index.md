@@ -120,7 +120,6 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
   * **Round up**: Round up the value on label
   * **Round down**: Round down the value on label
 * **Show On**:
-
 ![](https://i.imgur.com/UfEp2lE.png)
 
   * Only show this item when **Show Discount label = Above Product Image**
