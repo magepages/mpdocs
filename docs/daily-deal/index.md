@@ -89,16 +89,21 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
 
 ##### 2.1.1. Countdown Timer
 
-![](https://i.imgur.com/ZhIkQCB.png)
+![](https://i.imgur.com/8aTukVL.png)
 
 * **Show countdown timer**: Select Yes so that the countdown timer can be displayed on the Product Detail Page
+* **Clock Style**: Select clock type shown at frontend. There are 5 types:
+
+![Imgur](https://i.imgur.com/p5pnBDy.png)
+
 * **Outer background color**: Change the background color of the Countdown timer
 * **Inner background color**: Change the background color of the Countdown timer
+* **Number Clock**: Change number color of the Countdown timer
 * **Text color**: Change the texy color of the countdown timer
 
 ##### 2.1.2. Discount Label
 
-![](https://i.imgur.com/YE4HSIw.png)
+![](https://i.imgur.com/0YAkoHu.png)
 
 * **Show Discount Label**: Discount label can be displayed on the Category Page and the Product Detail Page. There are 3 options to choose:
 
@@ -109,6 +114,12 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
   * **Above Product Image**: Discount Label is displayed in the image area
   
 * **Label**: Display the discount label on the frontend
+* **Round percentage**: 
+![Imgur](https://i.imgur.com/UidsBYC.png)
+
+  * **No**: Do not make round the value on label
+  * **Round up**: Round up the value on label
+  * **Round down**: Round down the value on label
 * **Show On**:
 
 ![](https://i.imgur.com/UfEp2lE.png)
