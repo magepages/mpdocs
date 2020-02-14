@@ -165,7 +165,7 @@ To start working with **Size Chart GraphQL** in Magento, you need to:
 
 ![](https://i.imgur.com/br9go6o.png)
 
-- Also, you can add more sizechart info into product query by Mageplaza Size Chart extension. You can see the right corner and go to `Doc > Query > product`.
+- Also, you can add more sizechart info into product query by Mageplaza Size Chart extension. You can look at the right corner and go to `Doc > Query > product`.
 
 ![](https://i.imgur.com/LUE5YsU.png)
 
