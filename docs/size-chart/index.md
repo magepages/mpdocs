@@ -184,10 +184,6 @@ To start working with **Size Chart GraphQL** in Magento, you need to:
   
   ![](https://i.imgur.com/YtZOx04.png)
   
-## 5. API
-Mageplaza's Size Chart extension supports the use of the Rest API to add data size charts to individual products or all products and through the Rest API can retrieve, create and delete rule information.
-Details can be viewed here.
-Instructions for creating Integration tokens here.
 
 
 ## Must-have extensions for your Magento stores
