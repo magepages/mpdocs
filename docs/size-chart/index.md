@@ -138,6 +138,15 @@ In case the option `Inherit from Category/Rule` is set for both categories Jacke
 
 * If you select **Size Chart = Inherit from Rule**, the selected products (Inherit from Rule in the Edit Product) in the Category will be applied the rule with the satisfied condition and the highest (smallest) Priority.
 
+### 5. API
+
+Mageplaza's Size Chart extension supports the use of the Rest API to add data size charts to individual products or all products and through the Rest API can retrieve, create and delete rule information.
+- Details can be viewed [here](https://documenter.getpostman.com/view/8329425/SWTG6vmN?version=latest).
+- Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 6. GraphQL
+
+
 ## Frontend
 
 * Size Chart extension is displayed in the frontend with 3 positions:
@@ -153,8 +162,10 @@ In case the option `Inherit from Category/Rule` is set for both categories Jacke
   
   ![](https://i.imgur.com/YtZOx04.png)
   
-
-
+## 5. API
+Mageplaza's Size Chart extension supports the use of the Rest API to add data size charts to individual products or all products and through the Rest API can retrieve, create and delete rule information.
+Details can be viewed here.
+Instructions for creating Integration tokens here.
 
 
 ## Must-have extensions for your Magento stores
