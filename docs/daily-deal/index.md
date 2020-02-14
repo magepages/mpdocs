@@ -106,7 +106,6 @@ From the Admin Panel, go to **Mageplaza > Daily Deal**
 ![](https://i.imgur.com/0YAkoHu.png)
 
 * **Show Discount Label**: Discount label can be displayed on the Category Page and the Product Detail Page. There are 3 options to choose:
-
 ![](https://i.imgur.com/nVP72lM.png)
 
   * **No**: Discount Label is not displayed on the Frontend
