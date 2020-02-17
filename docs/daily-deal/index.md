@@ -235,6 +235,23 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
 * Change the way to display the deal in the block. Admins can change to the `grid` or `slider`. If removing `display` in the command, the default will display according to the slider
 * Change the title of the block. If removing `title` in the command, the default will display as `DAILY DEAL PRODUCTS`
 
+#### 2.5 Automatic Create Deal
+
+![](https://i.imgur.com/RgkOF6i.png)
+
+- **Schedule For**: Set up the schedule in which deals are created automatically.
+  - **Disable**: Disable auto-running deals by schedule
+  - **Daily**: Auto-creating product deals daily
+  - **Weekly**: Auto-creating product deals weekly
+  - **Monthly**: Auto-creating product deals monthly
+- **Start Time**: Date to start running deal
+- **Apply for Category**: Select category on which to create deals 
+- **Special Price (Percent)**: Discount price (by percentage)
+- **Number Product Created**: Number of products generated per cron run.
+- **Qty**: Number of discount products
+- **Day(s)**: Number of days applied deals
+- **Run Manually**: Click this button to create and run deals manually
+
 ### 3. Frontend
 #### 3.1. Category Page
 
@@ -271,4 +288,35 @@ For example: Displaying the Daily Deal on the `About Us` page by using the Snipp
 * **Step 3**: Save and check on the frontend
 
 ![](https://i.imgur.com/RABN80d.png)
+
+### 4. API
+
+Mageplaza's Daily Deal extension supports the use of the **Rest API** to add discount label and countdown timer data to individual products or all products. Also,  through the Rest API, you can retrieve, create and delete rule information.
+
+- Details can be viewed [here](https://documenter.getpostman.com/view/5187684/SzKPV1se?version=latest).
+- Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 6. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-daily-deal-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+To start working with **Daily Deal GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
+- To see the supported queries for **Daily Deal GraphQL** of Mageplaza, you can look in `Docs > Query > MpDailyDeals` in the right corner
+
+![](https://i.imgur.com/rjNCvSi.png)
+
+- Also, you can add discount label and countdown timer data into product query by Mageplaza Daiy Deal extension. You can look at the right corner and go to `Doc > Query > product`.
+
+![](https://i.imgur.com/77Bzd7l.png)
 
