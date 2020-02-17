@@ -80,7 +80,7 @@ Be sure you’re at Admin Panel, for general configuration `Stores > Settings > 
   * No: Sent emails won’t be archived.
 * **Clean Email Log Every**: This field limits the storage time for the email you sent. After that limited number of days, Email will be auto-deleted. If you do not want to delete the emails, leave the field blank.
 
-* **Blacklist**: Enter the regex for email patern in this field, meaning that emails with the same pattern as the patern here will not receive any mail from the system.
+* **Blacklist**: Enter the regular expression (regex) for email patern in this field, meaning that emails with the same pattern as the patern here will not receive any mail from the system.
   * Regex is written between two right slashes /../. Basic regex:
     * `[0-9]`: digits from 0 to 9
     * `[a-z]`: lowercase letters from a to z
