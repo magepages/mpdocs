@@ -245,7 +245,7 @@ Similar to the setting of the Random Deal, but the Upcoming Deal Deal displays t
   - **Weekly**: Auto-creating product deals weekly
   - **Monthly**: Auto-creating product deals monthly
 - **Start Time**: Date to start running deal
-- **Apply for Category**: Select category on which to create deals 
+- **Apply for Categories**: Select category on which to create deals 
 - **Special Price (Percent)**: Discount price (by percentage)
 - **Number Product Created**: Number of products generated per cron run.
 - **Qty**: Number of discount products
@@ -296,7 +296,7 @@ Mageplaza's Daily Deal extension supports the use of the **Rest API** to add dis
 - Details can be viewed [here](https://documenter.getpostman.com/view/5187684/SzKPV1se?version=latest).
 - Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
-### 6. GraphQL
+### 5. GraphQL
 
 Run the following command in Magento 2 root folder:
 
