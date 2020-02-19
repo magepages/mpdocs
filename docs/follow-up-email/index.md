@@ -165,6 +165,16 @@ From the Admin Panel, go to `Marketing > Follow Up Email > Manage Campaigns > Ad
   - Select an email template > Click **Load** displays the fields of **Subject, Content, and Customer CSS**
 - **Subject**: add simple text to use as the Subject of emails sent with the template you create. This field may contain system variables.
 - **Content**: customize sample content.
+  - Click **Insert Variable** to add a variable to the content. In addition to the basic variable, **Follow Up Email** has 7 more variables:
+    - **Customer Name**: displays the customer name.
+    - **Customer Email**: displays the email of customer.
+    - **Coupon Code**: displays the coupon code.
+    - **Unsubscriber URL**: Show a link on follow up email so customer can click on it to unsubscribe your email.
+    - **Restore Cart Url**: for Abandoned Cart only, the link redirect to the cart that haven't been checked out.
+    - **Quote All Items List**: for Abandoned Cart only, list of products in cart haven't been checked out.
+    - **Quote All Visible Items List**: for Abandoned Cart only, showing a list of related products.
+    
+    ![](https://imgur.com/QzarP6g.png)
   - `couponCode` fill in the form below:
 
   ![Imgur](https://i.imgur.com/sxu6bNV.png)
