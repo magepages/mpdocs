@@ -318,5 +318,5 @@ To start working with **Daily Deal GraphQL** in Magento, you need to:
 
 - Also, you can add discount label and countdown timer data into product query by Mageplaza Daily Deal extension. You can look at the right corner and go to `Doc > Query > product`.
 
-![](https://i.imgur.com/77Bzd7l.png)
+![](https://i.imgur.com/M6vrkHl.png)
 
