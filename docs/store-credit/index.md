@@ -136,7 +136,30 @@ From the Admin Panel, go to `Marketing > Store Credit > Credit Transactions > Cr
 
 ![](https://i.imgur.com/s5AlSi0.png)
 
+### 6. Rest Api
 
+Mageplaza's Store Credit Extension supports users to use **rest API** to make some requests such as getting customer information with store credit, get transaction, product, order, invoice, creditmemo data. Customers can also use store credit and admin can create transactions through rest API. 
+
+- You can view the Rest Api request we support [here](https://documenter.getpostman.com/view/6685698/SzKQzM9z?version=latest).
+- See how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html#integration-tokens).
+
+### 7. GraphQL
+
+#### 7.1. How to install
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-store-credit-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+#### 7.2. How to use
+
+- Mageplaza's Store Credit Extension supports getting customer information and transactions, retrieving product information and using credits through GraphQL.
+- Note: To perform GraphQL queries in Magento you need to use Magento 2.3.x and return the site to developer mode.
+- Refer to the GraphQl requests we support [here](https://documenter.getpostman.com/view/6685698/SzKVRdWF?version=latest).
 
 
 
