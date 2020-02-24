@@ -177,3 +177,27 @@ From **Admin panel**, go to `Marketing > Gift Wrap > Manage History`
 
 - Here is the storage of the Gift Wrap products and messages that customers has ordered. 
 - Admin can Filter, Change Store View, Hide/Show Columns or download information table in csv and xml file.
+
+### 5. API
+
+Mageplaza's Gift Wrap extension supports the use of the **Rest API** to add Gift Wrap data then allow the creation, classification of gift packages. Also, through the Rest API, Magento stores can view, delete and manage gift wrap order information.
+- Details can be viewed [here](https://documenter.getpostman.com/view/5187684/SzKSTKv8?version=latest).
+- Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 6. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-gift-wrap-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+To start working with **Gift Wrap GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
+- You can see more details [here](https://documenter.getpostman.com/view/5187684/SzKTuyMH?version=latest).
