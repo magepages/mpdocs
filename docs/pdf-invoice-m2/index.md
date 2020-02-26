@@ -454,3 +454,10 @@ When you create Invoice, Shipment or Credit Memo, if you check the “Email Copy
 ```
 Similar to the Order section, Invoice, Shipment or Credit Memo PDF files will be attached to the sent mail, or when customer click Print button, the PDF file will be downloaded automatically. With the virtual product’s Order, in the PDF Order, PDF Invoice, PDF Credit Memo, there won’t be included Shipping To, Shipping Information or Shipment Method section.
 ```
+
+### 4. API
+
+Mageplaza's PDF Invoice extension supports the use of the **Rest API** to view details of the PDf file via order, invoice, shipment, credit memo, etc. created by the admin and customer.
+
+- Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SzKQzgQm?version=latest).
+- Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
