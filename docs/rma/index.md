@@ -147,15 +147,6 @@ Admin can create request at backend.
 
 - At **RMA Information**, you can click to checkbox at select column to create new RMA request for the corresponding product.
 
-- **Customer Email**: Customer's email will be automatically displayed when the admin selects the order.
-- **Store View**: When Admin select order, this field will automatically display storeview which order is created there.
-- **RMA Information**:
-- In the **Select column**, click the checkbox in which admin wants to RMA request that product.
-- **Quantity Returned**: Admin changes the number of products.
-- **Note**: The number of products changed must not be larger than the number of products ordered initially.
-- At the columns **Reason, Solution, Other Information**: Admin selects the reason, resolution and other information for the RMA request product that has been set up from Manage RMA Rule.
-- Admin click **Save** or **Save and Continue Edit** to save the RMA Request.
-
 ### 2.2. Edit Request
 
 To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **Save and Continue Edit** when **creating RMA Request**.
