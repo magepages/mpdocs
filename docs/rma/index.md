@@ -143,7 +143,7 @@ Admin can create request at backend.
 
 - **Load**: After choosing order and filling the order Increment ID, please click the button **Load** to allow showing order information
 
-![](https://i.imgur.com/ghsgivy.png)
+![](https://i.imgur.com/PvmkIoq.png)
 
 - At **RMA Information**, you can click to checkbox at select column to create new RMA request for the corresponding product.
 
@@ -160,7 +160,7 @@ Admin can create request at backend.
 
 To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **Save and Continue Edit** when **creating RMA Request**.
 
-![](https://i.imgur.com/tk9wOEZ.png)
+![](https://i.imgur.com/AN1CiOP.png)
    
 - Here, RMA Request displays additional **Return Shipping Label** and **Conversation**.
 - **Return Shipping Label**: Admin select shipping label for return request.
@@ -278,7 +278,7 @@ Admin chooses conditions to apply the RMA rule based on Product Attribute.
 
 ## V. Manage Shipping Label
 
-![](https://i.imgur.com/F5rZjMj.png)
+![](https://i.imgur.com/bcJA5DP.png)
 
 - This is where all the created labels are saved.
 - At the form grid, Admin can understand all the basic information of shipping labels such as: ID, Label, Status, Store View, Return Shipping Address, Created Date, Update Date, Action.
@@ -381,3 +381,10 @@ At **Find Order By**, in addition to entering Email, customers can enter and ent
 - **Admin message template sent to customers when their RMA status has been updated**
 
 ![](https://i.imgur.com/PWLwmOC.png)
+
+## VIII. API
+
+Mageplaza's RMA extension supports the use of the **Rest API** to view detailed list of information; create and delete rules, status, requests, shipping labels, and all info that admins and customers have created.
+
+- Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SzKWvHg4?version=latest).
+- Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
