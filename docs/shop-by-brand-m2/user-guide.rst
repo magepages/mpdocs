@@ -330,3 +330,27 @@ After having token, Authorization choose `TYPE = Bearer Token` then fill the tok
 You can see more of how to get API Request by Shop By Brand Extension via this `document`_
 
 .. _document: https://documenter.getpostman.com/view/6685698/SW11Yewq?version=latest
+
+2.7. GraphQL
+***************
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-shop-by-brand-graphql
+
+php bin/magento setup:upgrade
+
+php bin/magento setup:static-content:deploy
+```
+
+To start working with **Shop By Brand GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install chrome extension (currently does not support other browsers)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
+- To see the supported queries for **Size Chart GraphQL** of Mageplaza, you can look in `Docs > Query > mpSizeChart` in the right corner
+- More deyails can be viewed `here.`_
+
+.. _here.: https://documenter.getpostman.com/view/5187684/SzKVRyHv?version=latest
