@@ -175,7 +175,9 @@ Login to the Magento Admin, choose `Stores > Salesforce > Synchronization Rules`
 
 Here admin can synchronize multiple data or each data information by event: product, order, catalog price rule. For customer data such as **Account, Lead, Contact** and Order including order and Opportunity, these data will be put into the **Manage Synchronization Queues** to synchronize data. This feature will help admin perform synchronized data selection according to each customer data, each product more quickly and conveniently.
 
-![](https://i.imgur.com/VUwf5S8.png)
+To remove Salesforce id from Magento objects, you can select **Clear Salesforce Account IDs**, **Clear Salesforce Lead IDs**. This will help to avoid sync errors when having salesforce ids coinsidence and some other errors.
+
+![](https://i.imgur.com/brcloLT.png)
 
 #### 4.2. Edit
 
