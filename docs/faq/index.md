@@ -449,8 +449,30 @@ Login to the Magento Admin, choose **Content > FAQs**
     
     ![](https://i.imgur.com/7UKoFiW.png)
     
+### 5. Rest Api
 
+Mageplaza's FAQ extension supports users to use the **rest API** to make some requests, such as getting article/category information, creating new categories/article/questions or deleting categories/articles.
+- You can view the Rest Api request we support [here](https://documenter.getpostman.com/view/6685698/SzKSSyuQ?version=latest).
+- See how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html#integration-tokens).
 
+### 6. GraphQL
+
+#### 6.1 How to install
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-faqs-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+#### 6.2 How to use
+
+Mageplaza's FAQ extension supports getting categories, articles and creating questions through GraphQL. To start working with **FAQs GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+- Refer the GraphQL requests we supports [here](https://documenter.getpostman.com/view/6685698/SzKSTKY6?version=latest).
 
 
 
