@@ -1,5 +1,5 @@
 
-After the success of Professional Affiliate extension, Mageplaza continues to introduce the Ultimate version which provides further impressive features such as integrating with Report standard and Professional, Import/Export, API, sending coupons to friends, etc.
+After the success of Professional Affiliate extension, Mageplaza continues to introduce the Ultimate version which provides further impressive features such as integrating with Report standard and Professional, Import/Export, API, sending refer code to friends, etc.
 
 
 Mageplaza Affiliate User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
