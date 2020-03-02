@@ -59,12 +59,8 @@ Log in to your backend, then go to ``Marketing > Reward Points`` and follow the 
 * Spending 
 * Transactions
 
-![](https://i.imgur.com/eNkN87B.png)
+![](https://i.imgur.com/6OpWD2i.png)
 
-- Earning rate and Spending Rate are stored in the same table inside the database. Therefore, the admin will probably see a slight difference in IDs of rates.
-
-
-![](https://i.imgur.com/q1QmqDU.png)
 
 ### I. Earning 
 #### 1.1. Earning Rate
@@ -76,7 +72,6 @@ This is the place where admins can store Earning Rates created.
 ![](https://i.imgur.com/I5wjuX0.png)
 
 * From the grid view, admins can acknowledge some fundamental information of **Earning Rate** such as **ID**, **Website**, **Customer Group**, **Money Spent**, **Earning Point** and **Priority**. Also, admins are able to:
-  * **Delete**: Tick the checkbox of the earning rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
   * To edit an earning rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
 
@@ -363,7 +358,6 @@ This is the place where admins can store Spending Rates created.
 ![](https://i.imgur.com/Di3Iwom.png)
 
 * From the grid view, admins can acknowledge some fundamental information of an spending rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
-  * **Delete**: Tick the checkbox of the spending rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
   * To edit an spending rate, choose “Edit” in the **Action** column.
 * Admins can filter, hide or display **Column** or export rates.
 
@@ -1319,3 +1313,23 @@ Customers can check the Reward Point information in this section after logging i
 * **View Cart Page (Shopping Cart)**: Displays Apply Reward Point on the checkout page, and also displays the Earning Point, Spending Point and Reward Point.
 
 ![](https://i.imgur.com/7wlXyks.png)
+
+
+### XII. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-reward-points-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+
+To start working with **Size Chart GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- The queries and mutations that Mageplaza support helps to see details of Transaction, Invitation, etc. through customer query, view Spending Point information, create Invite Email, and so on. More details can be found [here](https://documenter.getpostman.com/view/5977924/SzKSSzWe?version=latest).
+
