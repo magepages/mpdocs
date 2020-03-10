@@ -180,7 +180,7 @@ If you have installed Mageplaza Reports Standard extension on your site, in the 
 
 When You click on the View Details link in the Call for Requests card, Requests page will show all information of the request sent to the website.
 
-### 3. API
+### API
 
 Mageplaza's Call For Price extension allows using the **Rest API** to view the rule information, create and delete rules, view the list of price requesters and support to create customer requests.
 
@@ -188,7 +188,7 @@ Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzR
 
 Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
-### 4. GraphQL
+### GraphQL
 
 Run the following command in Magento 2 root folder:
 
