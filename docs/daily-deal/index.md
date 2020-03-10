@@ -71,11 +71,7 @@ Login to the Magento Admin, choose **Marketing > Daily Deal**
 * **To Date**: Set the end date using the deal
 
 ``Note``:
-
-* The extension does not apply for **Bundle Product**
-* Since the Configurable Product and Group Product are made up from **Simple Product** Components, so to set up the Deal for the **Configurable Product or Group Product**, you need to install for each product component. Details [here]()
-* The deal of the **Configurable Product** displayed on Category Page is the highest deal in the products component. When choosing options color/siz/format, the deal will change itself according to the selected option.
-* Group Product's deal is not displayed on Category Page, it only displays Deal Price at Product Detail Page.
+*With Configurable & Group product, Daily Deal only supports the simple children products.*
 
 ### 2. Configuration
 #### 2.1. General
