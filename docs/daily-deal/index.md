@@ -72,6 +72,7 @@ Login to the Magento Admin, choose **Marketing > Daily Deal**
 
 ``Note``:
 *With Configurable & Group product, Daily Deal only supports the simple children products.*
+*Virtual Product, Downloadable Product are supported (in case price and qty are available)* 
 
 ### 2. Configuration
 #### 2.1. General
