@@ -180,6 +180,32 @@ If you have installed Mageplaza Reports Standard extension on your site, in the 
 
 When You click on the View Details link in the Call for Requests card, Requests page will show all information of the request sent to the website.
 
+### 3. API
+
+Mageplaza's Call For Price extension allows using the **Rest API** to view the rule information, create and delete rules, view the list of price requesters and support to create customer requests.
+
+Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRxWqD4?version=latest).
+
+Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 4. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza / module-call-for-price-graphql
+php bin / magento setup: upgrade
+php bin / magento setup: static-content: deploy
+```
+To start working with **Call For Price GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
+- The mutation Mageplaza supports is creating customer requests,etc. Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRxXrG9?version=latest).
 
   
   
