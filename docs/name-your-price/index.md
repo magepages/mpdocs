@@ -45,25 +45,26 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 - **Enable**: Select **Yes** to enable the extension
 - **Customer Group**: Only selected customer groups can send requests to the store admins
 - **Apply for**: Products that meet the conditions here will display the **Price Bargain** button for the Customers to send the request to the store owner.
-- **Minimum price type**: set the lowest price calculation type that Customer can give to admin, includes:
+- **Bargain Price Type**: set the lowest price calculation type that Customer can give to admin, includes:
   - **Fixed Price**: The lowest price is a fixed price admin set. All bargain products chosen will be applied to this fixed lowest price. 
-  - **Percent Price**: The lowest price is taken as the percentage of the original price of each Product. All products that are applied may have different lowest prices. 
-- **Minimum Price Value**: Set the value of the lowest bargain price
+  - **Percentage of Original Price**: The lowest price is taken as the percentage of the original price of each Product. All products that are applied may have different lowest prices. 
+- **Min Bargain Value**: Set the value of the lowest bargain price
   - **Fixed Price**: The value filled in this field will be the lowest bargain price for all products. The price unit bases on the **Default Display Currency** of your site
-  - **Percent**: Fill in the % value. The lowest price is equal to the original price multiply with the % value entered in this section then divided by 100.
-- **Apply for Tax**: The price that customer offers is not yet included Tax. Select **Yes** to apply Tax for this price.
+  - **Percentage of Original Price**: Fill in the % value. The lowest price is equal to the original price multiply with the % value entered in this section then divided by 100.
+- **Apply for Tax**: If **Yes**, the approved bargain products can be applied with current discounts(from cart price rules, coupon codes, affiliate policies)
 - **Allow Using Discounts**: Select **Yes** to allow discounts to be available for the order containing admin approved bargain products
-- **Limit using Time**:
+- **Bargain Usage Time**:
   - Calculated in days
   - During this time, customers will be able to purchase products at the price they requested (as long as the admin has approved request).
-- **Bargain by Qty**:
+  - If empty or 0, there is no time limitation.
+- **Commit Minimum Quantity**:
   - Select **Yes** to display the **Qty Step** field when customers request the bargain price
   - Customer is required to buy x items in one cart
   
   
 #### 1.2 Bargain Form
 
-![](https://i.imgur.com/64JbHym.png)
+![](https://i.imgur.com/brXTdL2.png)
 
   - **Use Popup**: Select **Yes** to use a popup to display the form request
   - **Additional Fields**: The selected fields will be displayed on the front-end, not required to fill in these fields.
@@ -78,7 +79,7 @@ From the **Admin panel**, go to `Marketing > Name Your Price`
 
 - **Sender**:
   - Select Email Representative sent to customers.
-  - 1 of 5 default Magento representative emails are: Sales, Customer Service, General Contact, Custom 1, Custom 2
+  - 1 of 5 default Magento representative emails are: Sales Representative, Customer Support , General Contact, Custom Email 1, Custom Email 2
   - To edit **Nickname** and **Email**, admin can refer [here](https://www.mageplaza.com/kb/how-change-store-email-addresses-magento-2.html)
   
 - **Admin Email**:
