@@ -76,3 +76,30 @@ After the configuration is completed, you will get the result displayed as the f
 - Keep customers return: [Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/)
 - Let your customer [become raving fans](https://www.mageplaza.com/magento-2-affiliate-extension/)
 - Optimize your stores: [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [Custom Order Number](https://www.mageplaza.com/magento-2-custom-order-number/), [Stop return items issue](https://www.mageplaza.com/magento-2-size-chart/)
+
+#### 3. Rest API
+
+Mageplaza's Report extension supports using the **Rest API** to share your shopping cart with everyone, via the Rest API to download and view order information.
+
+Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzS1V9Fd?version=latest).
+
+Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+#### 4. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza / module-report-graphql
+php bin / magento setup: upgrade
+php bin / magento setup: static-content: deploy
+```
+To start working with **Report GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
+View the supported queries [here](https://documenter.getpostman.com/view/10589000/SzS1V9Fg?version=latest)
