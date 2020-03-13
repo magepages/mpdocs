@@ -125,7 +125,32 @@ In this section, the store owner can see details of which products are favored b
 
 ![](https://i.imgur.com/gSeySF1.png)
 
+## Rest API
 
+Mageplaza's Report Ultimate extension supports using the **Rest API** to view the card information displayed in the dashboard as well as detailed statistics of the tables.
+
+Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzS1V9Ff?version=latest).
+
+Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+## GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza / module-report-graphql
+php bin / magento setup: upgrade
+php bin / magento setup: static-content: deploy
+```
+To start working with **Report GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
+View the supported queries [here](https://documenter.getpostman.com/view/10589000/SzS1V9Fi?version=latest)
 
 
 
