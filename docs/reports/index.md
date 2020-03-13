@@ -79,7 +79,7 @@ After the configuration is completed, you will get the result displayed as the f
 
 #### 3. Rest API
 
-Mageplaza's Report extension supports using the **Rest API** to share your shopping cart with everyone, via the Rest API to download and view order information.
+Mageplaza's Report extension supports using the **Rest API** to view the card information displayed in the dashboard as well as detailed statistics of the tables.
 
 Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzS1V9Fd?version=latest).
 
