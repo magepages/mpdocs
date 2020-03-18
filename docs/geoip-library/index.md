@@ -17,7 +17,6 @@ From the Admin Panel, go to `Stores > Store Switcher > Configuration > Mageplaza
 - Fill license key description> Select Yes> Select information below> Click Confirm
 ![](https://i.imgur.com/AgGPC2Q.png)
 
-- Copy the License key and fill in the Token field of the extension
-[](https://i.imgur.com/XlwFcGi.png)
+- Copy the License key and fill in the Token field of the extension![](https://i.imgur.com/XlwFcGi.png)
 
 - **Download Library**: Click on `Download Library` button to download the library of Geo IP. Please download library before enabling it.
