@@ -91,7 +91,7 @@ Welcome to Mageplaza Docs
    frequently-bought-together/index
    gdpr/index
    gdpr-pro/index
-   geoip/index
+   geoip-library/index
    gift-wrap/index
    google-tag-manager/index
    google-recaptcha/index
