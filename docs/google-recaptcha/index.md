@@ -182,6 +182,15 @@ Or you also disable the configuration by the command below:
 
 ![](https://i.imgur.com/rQRCtCF.png)
 
+#### Command line
+Run the following command to enable or disable google recaptcha display in the backend:
+
+`php bin/magento mpgooglerecaptcha:backend:enable`
+
+`php bin/magento mpgooglerecaptcha:backend:disable`
+            
+
+        
 
 
 
