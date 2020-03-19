@@ -234,4 +234,33 @@ In this part, Members' information of Membership will be recorded here including
 
 ![](https://i.imgur.com/fvDVDHk.png)
 
+### 5. API
+
+Mageplaza's Membership extension supports the use of the **Rest API** to add size charts' data to  get information of Membership, Member, Transaction, Membership products, Membership Page, Upgrade Page and add membership products to cart, get cart information, etc.
+
+- Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzS4RSnr?version=latest).
+- Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 6. GraphQL
+**How to install**
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-size-chart-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+**How to use**
+
+Mageplaza's Membership GraphQL supports getting Membership Page information, Upgrade Page, Membership products, membership and transaction information of customers, adding membership products to cart, getting cart information
+
+To start working with **Membership GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
+- Refer to the GraphQL requests we support [here](https://documenter.getpostman.com/view/10589000/SzS4RSwd?version=latest)
+
 
