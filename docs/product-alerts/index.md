@@ -357,3 +357,30 @@ At **My product alert**, customers can view their subscribed products of out-of-
 
 ![](https://i.imgur.com/8Wb93D4.png)
 
+## API
+
+Mageplaza's Product Alerts extension allows using the **Rest API** to view information about subcribers and requested products. In addition, the extension also supports direct subscriptions through API requests.
+
+Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRuXBU4?version=latest).
+
+Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+## GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza / module-product-alerts-graphql
+php bin / magento setup: upgrade
+php bin / magento setup: static-content: deploy
+```
+To start working with **Product Alerts GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+
+- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
+
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+
+- The queries Mageplaza supports can be viewed [here](https://documenter.getpostman.com/view/10589000/SzS4RT6V?version=latest).
+
