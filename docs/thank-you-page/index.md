@@ -281,9 +281,9 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - The default number of display is 5
 
 
-### 4. The guide to install the library
+### 3. The guide to install the library
 
-#### 4.1. Install via composer
+#### Install via composer
 - Run the following command to install the library:
 
 ```
@@ -291,6 +291,32 @@ composer require liquid/liquid
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
+### 4. API
+
+Mageplaza's Thank You Page extension supports the use of the **Rest API** to get information about rules, create rules, delete rules, and the admin can also get information when Subcribe Newsletter Success and Order Success.
+
+- Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRuWrHn?version=latest).
+- Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html#integration-tokens).
+
+### 6. GraphQL
+**How to install**
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-thank-you-page-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+**How to use**
+
+Mageplaza's Membership GraphQL supports to get the rule's template when making subscribe newsletter and order through GraphQL
+
+To start working with **Membership GraphQL** in Magento, you need to:
+
+- Use Magento 2.3.x. Return your site to developer mode
+
+- Refer to the GraphQL requests we support [here](https://documenter.getpostman.com/view/10589000/SzRuWrN4?version=latest)
 
 
 
