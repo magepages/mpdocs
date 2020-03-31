@@ -247,7 +247,7 @@ Mageplaza's Membership extension supports the use of the **Rest API** to add siz
 Run the following command in Magento 2 root folder:
 
 ```
-composer require mageplaza/module-size-chart-graphql
+composer require mageplaza/module-membership-graphql
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
