@@ -63,9 +63,7 @@ Login to the **Magento Admin**, choose `Content> Pages> Import`.
 
 ![](https://i.imgur.com/f8OYJ6x.png)
 
-If the input data includes the path to the product image, the image files must be uploaded to the appropriate location. The default location on the Magento server is **pub / media /**.
-
-![](https://i.imgur.com/wW2gYP5.png)
+If the input data includes the path to the product image, the image files must be uploaded to the appropriate location. Read more at **Step 3**
 
 ##### Step 2: Configure Import Behavior
 
@@ -97,7 +95,9 @@ If the input data includes the path to the product image, the image files must b
 - In the **Select File to Import** section, click "Choose File" to select your page input file.
   - **Note**: If you select `File Type = CSV (or XML)`, your input file must be a CSV (or XML) file correctly.
 - If the input contains a path to the product image, in the **Images File Directory** field, please enter the path to the image uploaded to the server. For example: var/ export, var/ import, ...
-  - **Note**: The path that Mageplaza supports leading images to the server is: pub/ media
+  - **Note**: Create an image folder in the **pub/media** directory to save all images in the import file, and then copy the path to **Images File Directory**.
+
+![](https://i.imgur.com/FvRmiei.png)
 
 ##### Step 4: Check data and finish data entry
 
@@ -155,9 +155,7 @@ Login to the **Magento Admin**, choose `Content> Blocks> Import`.
 
 ![](https://i.imgur.com/HgeoI7V.png)
 
-If the input data includes the path to the product image, the image files must be uploaded to the appropriate location. The default location on the Magento server is **pub / media /**.
-
-![](https://i.imgur.com/lbPtm8w.png)
+If the input data includes the path to the product image, the image files must be uploaded to the appropriate location. Read more at **Step 3**
 
 ##### Step 2: Configure Import Behavior
 
@@ -189,7 +187,9 @@ If the input data includes the path to the product image, the image files must b
 - In the **Select File to Import** section, click "Choose File" to select your block input file.
   - **Note**: If you select `File Type = CSV (or XML)`, your input file must be a CSV (or XML) file correctly.
 - If the input contains a path to the product image, in the **Images File Directory** field, please enter the path to the image uploaded to the server. For example: var/ export, var/ import, ...
-  - **Note**: The path that Mageplaza supports leading images to the server is: pub/ media
+  - **Note**: Create an image folder in the **pub/media** directory to save all images in the import file, and then copy the path to **Images File Directory**.
+
+![](https://i.imgur.com/FvRmiei.png)
 
 ##### Step 4: Check data and finish data entry
 
