@@ -58,9 +58,9 @@ A New Related Block Rule form will be appeared.
 
 ![](https://i.imgur.com/8HRUsEw.png)
 
-  * **Rule Name** field is where you name the rule. The rule name will be displayed on the Grid in Manage Rules Page and visible only with admins. This is a required field so there will be an error message if you leave it blank.
+  * **Rule Name**: This is where you name the rule. The rule name will be displayed on the Grid in Manage Rules Page and visible only with admins. This is a required field so there will be an error message if you leave it blank.
   
-  * **Where to Display**  is where you specify the block where the Product Page is located
+  * **Where to Display**: This is where you specify the block where the Product Page is located
   
   
     * **Replace Related Products**: The new block will replace  the Magento's default Related Product Block
