@@ -60,7 +60,7 @@ You need to delete the generated file and run the following command to install:
 
 Mageplaza's Share Cart extension supports using the **Rest API** to share your shopping cart with everyone, via the Rest API to download and view order information.
 
-Details can be viewed [here](https://documenter.getpostman.com/view/5187684/SzKYPH3d?version=latest#3f1d1629-6d65-4496-acb8-56d6339cb9c9).
+Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRxXrGA?version=latest).
 
 Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
@@ -72,17 +72,16 @@ Run the following command in Magento 2 root folder:
 composer require mageplaza / module-share-cart-graphql
 php bin / magento setup: upgrade
 php bin / magento setup: static-content: deploy
+
 ```
+
+Mageplaza's Share Cart extension supports store admins to get share cart information via GraphQL
+
 To start working with **Share Cart GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
 
-- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
-
-- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-
-Do the query in the left pane, then click the **Run** button or **Ctrl + Enter** to see the results in the right pane
-View the details [here](https://documenter.getpostman.com/view/5187684/SzKZtwMU?version=latest)
+- Supported request GraphQl can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzRxXrGB?version=latest' target='_blank' rel='nofollow'>here</a>
   
   
   
