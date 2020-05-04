@@ -218,3 +218,25 @@ You can install some Mageplaza extensions. They are fully compatible with Custom
 - [Who Viewed This Also Viewed](https://www.mageplaza.com/magento-2-who-viewed-this-also-viewed/): Customers are more likely to make a purchase decision when they see a product that other customers have seen. By smart algorithms, the most viewed products will be automatically updated and proposed to customers.
   
 ![](https://i.imgur.com/L67ztPy.gif)
+
+### 7. API
+**Mageplaza Custom Stock Status** uses **Rest API** to add product stock status data, display lable, and image. Besides, thanks to **Rest API**, store admins are able to view and manage product data easily.
+
+View more details <a href='https://documenter.getpostman.com/view/10589000/SzfCVSAQ?version=latest' target='_blank' rel='nofollow'>here</a>
+
+The instruction to generate Integration tokens can be viewed <a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html' target='_blank' rel='nofollow'>here</a>
+
+### 8. GrapQL
+Run the following command in Magento 2 root folder:
+```
+composer require mageplaza/module-stock-status-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+
+```
+
+**Custom Stock Status by Mageplaza** supports admins to get the information of rules via GraphQL.
+
+Follow steps below to start working with **Custom Stock Status GraphQLl** in Magento:
+- Use Magento 2.3.x. Return your site to developer mode
+- View the supported queries <a href='https://documenter.getpostman.com/view/10589000/SzfDvjfh?version=latest' target='_blank' rel='nofollow'>here</a>
