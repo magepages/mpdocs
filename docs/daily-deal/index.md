@@ -291,7 +291,7 @@ For example: Displaying the Daily Deal on the `About Us` page by using the Snipp
 
 Mageplaza's Daily Deal extension supports the use of the **Rest API** to add discount label and countdown timer data to individual products or all products. Also,  through the Rest API, you can retrieve, create and delete rule information.
 
-- Details can be viewed [here](https://documenter.getpostman.com/view/5187684/SzKPV1se?version=latest).
+- Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRxXr7J?version=latest).
 - Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
 ### 5. GraphQL
@@ -304,17 +304,10 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
+Mageplaza's Daily Deal supports admins to get the information of rules via GrapQL
+
 To start working with **Daily Deal GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
-- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
-- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-- Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
-- To see the supported queries for **Daily Deal GraphQL** of Mageplaza, you can look in `Docs > Query > MpDailyDeals` in the right corner
-
-![](https://i.imgur.com/rjNCvSi.png)
-
-- Also, you can add discount label and countdown timer data into product query by Mageplaza Daily Deal extension. You can look at the right corner and go to `Doc > Query > product`.
-
-![](https://i.imgur.com/M6vrkHl.png)
+- View supported request GraphQl <a href='https://documenter.getpostman.com/view/10589000/SzRxXrBj?version=latest' target='_blank' rel='nofollow'>here</a>
 
