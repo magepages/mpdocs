@@ -2,13 +2,13 @@
 
 ## Overview
 
-Usually, if you want to check the cart details right into view cart or check out, it will be inconvenient and quite time-consuming. But with Mageplaza, it is solved easily and quickly thanks to Quick Cart extension. The module has a modern minicart design, combined with a shopping cart detailing feature that helps customers save shopping time, without having to access the view cart page directly. The module also allows to customize the number of products, options to configure the background color, title, customize CSS in minicart. In addition, you can set effects for minicart.
+Usually, if you want to check the cart details right into view cart or check out, it will be inconvenient and quite time-consuming. But with Mageplaza, it is solved easily and quickly thanks to [Quick Cart extension](https://www.mageplaza.com/magento-2-quick-cart/). The module has a modern minicart design, combined with a shopping cart detailing feature that helps customers save shopping time, without having to access the view cart page directly. The module also allows to customize the number of products, options to configure the background color, title, customize CSS in minicart. In addition, you can set effects for minicart.
 
-Mageplaza Quick Cart is fully compatible with Mageplaza Reward Points and Mageplaza Gift Card helping customers have a better overview and save more time to purchase items quickly.
+[Mageplaza Quick Cart](https://www.mageplaza.com/magento-2-quick-cart/) is fully compatible with [Mageplaza Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/) and Mageplaza Gift Card(https://www.mageplaza.com/magento-2-gift-card-extension/) helping customers have a better overview and save more time to purchase items quickly.
 
 ## How to download and install
 
-- Download Mageplaza Quick Cart
+- [Download Mageplaza Quick Cart](https://www.mageplaza.com/magento-2-quick-cart/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
