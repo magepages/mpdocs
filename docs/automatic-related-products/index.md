@@ -148,7 +148,7 @@ A New Related Block Rule form will be appeared.
 *  **Do not Display Product in**: Remove products which have been added to cart or in the Wishlist from ARP block.
 
 #### c. Product to meet Condition
-* Setting:
+* **Setting**:
   * Choose products to be displayed in ARP block. Only product pages which match the setup conditions, the new rule will be displayed
   * You can add, remove conditions by clicking on + or x
   * You can change the true/false of the condition by clicking the bold text
