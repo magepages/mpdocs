@@ -81,7 +81,7 @@ To start working with **Share Cart GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
 
-- Supported request GraphQl can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzRxXrGB?version=latest' target='_blank' rel='nofollow'>here</a>
+- Supported GraphQl requests can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzRxXrGB?version=latest' target='_blank' rel='nofollow'>here</a>
   
   
   
