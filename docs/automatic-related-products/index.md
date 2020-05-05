@@ -285,8 +285,6 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
   
     * Method 1: Choose `Insert Widget > Widget Type = ARP Product List > Rule Name >  Insert Widget`
 
-![](https://i.imgur.com/d44RVKV.gif)
-
     * Method 2: Click to Show/Hide Editor and then paste the following code directly to the content. You can change the `rule_id` to the Rule ID  that you want to insert.
     
 **{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}**
