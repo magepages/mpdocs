@@ -258,7 +258,9 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 * Step 1: Choose type
   * Choose `Content > Elements > Widgets > Add Widget`
   * In the Setting field, choose **Type = ARP Product List** and  select any Design Theme
+  
 ![](https://i.imgur.com/lojcKMQ.png)
+
   * Click to **Continue** button
 
 * Step 2: Install Widget
@@ -270,6 +272,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 ![](https://i.imgur.com/SF8eglZ.png)
 
   * In the `Widget Option`, select your wanted `Rule Name`.
+  
   * Click to `Save` to finish creating Widget
 
 * Step 3 Check Frontend
@@ -286,7 +289,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 
     * Method 2: Click to Show/Hide Editor and then paste the following code directly to the content. You can change the `rule_id` to the Rule ID  that you want to insert.
     
-`{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}`
+**{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}**
 
 ![](https://i.imgur.com/owE4pgH.png)
 
@@ -302,7 +305,6 @@ Following this method, you can place the code wherever you want, provided that y
 $objectManager = \Magento\Framework\App\ObjectManager::getInstance(); 
 $productList= $objectManager->create("Mageplaza\AutoRelated\Block\Widget\ProductList")->setRuleId(1)->toHtml(); 
 echo $productList;
-
 ```
 
 
