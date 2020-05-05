@@ -233,10 +233,102 @@ You can select the same conditions as the Product Page. Furthermore, you can set
 
 #### c. Products to Show
 * Action Page of Shopping Cart Page Rule doesn't have *Add Product* as in Product Page Rule.
-* For the rest, it's similar to Action section of Product Page. lick [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
+* For the rest, it's similar to Action section of Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
 
 #### d. A/B Testing
 Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
+
+### 5. Manage Rules on One Page Checkout
+One Page Checkout ARP is compatible with [Mageplaza One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).  Admins need to install One Step Checkout module to get ARP displayed in the frontend.
+
+The way to set up this rule is quite similar to other rules.
+
+### 6. Exclude Automatic Related Extension in a specific Product Detail
+- Choose  `Catalog > Products > Edit Product` that admins do not want to Automatic Related Product extension applying on
+- Choose **Related Products, Up-Sells, and Cross-Sells** 
+- Enable Manually Setup Auto Related Products
+- Save Products
+
+This function makes **Automatic Related Products** inactive on a certain product. The way that **Related Products** displayed in the frontend will be based on the Related Products themselves with the Core design.
+
+### 7. How to set the Where to display = (Manually)
+First of all, admins need to set Rule which has Where to Display= Manually and return store view to All Store View before starting to custom Automatic Related Products block. If not, both Widget and Rule will appear on the frontend.
+
+#### a. Create Widget
+* Step 1: Choose type
+  * Choose `Content > Elements > Widgets > Add Widget`
+  * In the Setting field, choose **Type = ARP Product List** and  select any Design Theme
+![](https://i.imgur.com/lojcKMQ.png)
+  * Click to **Continue** button
+
+* Step 2: Install Widget
+  *  In the Storefront Properties
+    * Enter `Widget Name` and `Store View` to be displayed
+    * In the `Layout Update` field, choose Page to show the widget on `Display on`. In the next step, select where the Widget will appear in `Page` from `Container` section
+    * Choose `Display on = Category` to custom `Category Rule` and  `Display on = Product` to custom `Product Rule`. If you do not choose any of them, `Rule` will not show.
+
+![](https://i.imgur.com/SF8eglZ.png)
+  * In the `Widget Option`, select your wanted `Rule Name`.
+  * Click to `Save` to finish creating Widget
+  
+* Step 3 Check Frontend
+
+#### b. Insert ARP into CMS Static Block
+
+* Step 1: Insert ARP into CMC Static Block
+  * Choose `Content > Elements > Blocks > Edit/Add New CMS Static Block` that you want to insert ARP
+  *  In the CMS Statics Block Content, there are two ways to insert ARP
+    * Method 1: Choose `Insert Widget > Widget Type = ARP Product List > Rule Name >  Insert Widget`
+
+![](https://i.imgur.com/d44RVKV.gif)
+
+    * Method 2: Click to `Show/Hide Editor` and then paste the following code directly to the content. You can change the `rule_id` to the Rule ID  that you want to insert.
+    
+`{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}`
+
+![](https://i.imgur.com/owE4pgH.png)
+
+  * Click to `Save` to keep all the changes
+  
+* Step 2: Check Frontend
+
+#### c. Insert the code to file .phtml
+Following this method, you can place the code wherever you want, provided that you have already known the position of file .phtml
+
+`$objectManager = \Magento\Framework\App\ObjectManager::getInstance(); 
+$productList= $objectManager->create("Mageplaza\AutoRelated\Block\Widget\ProductList")->setRuleId(1)->toHtml(); 
+echo $productList;`
+
+
+
+### 8. API
+
+**Automatic Related Product extension by Mageplaza** supports the use of Rest API to add data size chart to each individual product or all products. Also, by **Rest APT**, you can get, create or delete the rule’s information
+
+Details can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzfCVSAN?version=latest' target='_blank' rel='nofollow'>here</a>
+
+<a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html' target='_blank' rel='nofollow'>Here</a> is the instruction to generate Integration tokens 
+
+### 9. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-auto-related-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+
+```
+
+**Mageplaza’s Size Chart** allows admins to get the rule’s information through **GraphQL**.
+
+To start working with Automatic Related Product GraphQL in Magento, you need to:
+
+- Use Magento 2.3.x, Return your site to developer mode
+- Supported request GraphQL can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzfCVSAP?version=latest' target='_blank' rel='nofollow'>here</a>
+
+
+
 
 
 
