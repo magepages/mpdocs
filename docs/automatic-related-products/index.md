@@ -244,7 +244,7 @@ One Page Checkout ARP is compatible with [Mageplaza One Step Checkout extension]
 The way to set up this rule is quite similar to other rules.
 
 ### 6. Exclude Automatic Related Extension in a specific Product Detail
-- Choose  `Catalog > Products > Edit Product` that admins do not want to Automatic Related Product extension applying on
+- Choose  `Catalog > Products > Edit Product` that admins do not want to Automatic Related Product extension applies on
 - Choose **Related Products, Up-Sells, and Cross-Sells** 
 - Enable Manually Setup Auto Related Products
 - Save Products
@@ -336,7 +336,7 @@ php bin/magento setup:static-content:deploy
 To start working with Automatic Related Product GraphQL in Magento, you need to:
 
 - Use Magento 2.3.x, Return your site to developer mode
-- Supported request GraphQL can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzfCVSAP?version=latest' target='_blank' rel='nofollow'>here</a>
+- Refer to our supported GraphQL requests <a href='https://documenter.getpostman.com/view/10589000/SzfCVSAP?version=latest' target='_blank' rel='nofollow'>here</a>
 
 
 
