@@ -278,7 +278,8 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 
 * Step 1: Insert ARP into CMC Static Block
   * Choose `Content > Elements > Blocks > Edit/Add New CMS Static Block` that you want to insert ARP
-  *  In the CMS Statics Block Content, there are two ways to insert ARP
+  * In the CMS Statics Block Content, there are two ways to insert ARP
+  
     * Method 1: Choose `Insert Widget > Widget Type = ARP Product List > Rule Name >  Insert Widget`
 
 ![](https://i.imgur.com/d44RVKV.gif)
@@ -290,6 +291,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 ![](https://i.imgur.com/owE4pgH.png)
 
   * Click to `Save` to keep all the changes
+  
   
 * Step 2: Check Frontend  
 
