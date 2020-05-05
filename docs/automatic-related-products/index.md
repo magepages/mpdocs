@@ -270,7 +270,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 ![](https://i.imgur.com/SF8eglZ.png)
   * In the `Widget Option`, select your wanted `Rule Name`.
   * Click to `Save` to finish creating Widget
-  
+
 * Step 3 Check Frontend
 
 #### b. Insert ARP into CMS Static Block
