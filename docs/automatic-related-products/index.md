@@ -249,7 +249,7 @@ The way to set up this rule is quite similar to other rules.
 - Enable Manually Setup Auto Related Products
 - Save Products
 
-This function makes **Automatic Related Products** inactive on a certain product. The way that **Related Products** displayed in the frontend will be based on the Related Products themselves with the Core design.
+This function makes **Automatic Related Products** inactive on a certain product. The way that **Related Products** displays in the frontend will be based on the Related Products themselves with the Core design.
 
 ### 7. How to set the Where to display = (Manually)
 First of all, admins need to set Rule which has Where to Display= Manually and return store view to All Store View before starting to custom Automatic Related Products block. If not, both Widget and Rule will appear on the frontend.
@@ -270,7 +270,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 ![](https://i.imgur.com/SF8eglZ.png)
   * In the `Widget Option`, select your wanted `Rule Name`.
   * Click to `Save` to finish creating Widget
-
+  
 * Step 3 Check Frontend
 
 #### b. Insert ARP into CMS Static Block
