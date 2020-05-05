@@ -262,16 +262,16 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
   * Click to **Continue** button
 
 * Step 2: Install Widget
-  *  In the Storefront Properties
+  * In the Storefront Properties
     * Enter `Widget Name` and `Store View` to be displayed
     * In the `Layout Update` field, choose Page to show the widget on `Display on`. In the next step, select where the Widget will appear in `Page` from `Container` section
     * Choose `Display on = Category` to custom `Category Rule` and  `Display on = Product` to custom `Product Rule`. If you do not choose any of them, `Rule` will not show.
 
 ![](https://i.imgur.com/SF8eglZ.png)
+
   * In the `Widget Option`, select your wanted `Rule Name`.
   * Click to `Save` to finish creating Widget
-  
-  
+
 * Step 3 Check Frontend
 
 #### b. Insert ARP into CMS Static Block
