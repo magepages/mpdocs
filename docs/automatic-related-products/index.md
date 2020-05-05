@@ -258,18 +258,13 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 * Step 1: Choose type
   * Choose `Content > Elements > Widgets > Add Widget`
   * In the Setting field, choose **Type = ARP Product List** and  select any Design Theme
-  
-![](https://i.imgur.com/lojcKMQ.png)
-
   * Click to **Continue** button
-
+  
 * Step 2: Install Widget
   * In the Storefront Properties
     * Enter `Widget Name` and `Store View` to be displayed
     * In the `Layout Update` field, choose Page to show the widget on `Display on`. In the next step, select where the Widget will appear in `Page` from `Container` section
     * Choose `Display on = Category` to custom `Category Rule` and  `Display on = Product` to custom `Product Rule`. If you do not choose any of them, `Rule` will not show.
-
-![](https://i.imgur.com/SF8eglZ.png)
 
   * In the `Widget Option`, select your wanted `Rule Name`.
   
@@ -289,10 +284,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
     
 **{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}**
 
-![](https://i.imgur.com/owE4pgH.png)
-
   * Click to `Save` to keep all the changes
-  
   
 * Step 2: Check Frontend  
 
