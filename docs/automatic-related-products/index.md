@@ -271,6 +271,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
   * In the `Widget Option`, select your wanted `Rule Name`.
   * Click to `Save` to finish creating Widget
   
+  
 * Step 3 Check Frontend
 
 #### b. Insert ARP into CMS Static Block
@@ -282,7 +283,7 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 
 ![](https://i.imgur.com/d44RVKV.gif)
 
-    * Method 2: Click to `Show/Hide Editor` and then paste the following code directly to the content. You can change the `rule_id` to the Rule ID  that you want to insert.
+    * Method 2: Click to Show/Hide Editor and then paste the following code directly to the content. You can change the `rule_id` to the Rule ID  that you want to insert.
     
 `{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}`
 
@@ -290,15 +291,17 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 
   * Click to `Save` to keep all the changes
   
-* Step 2: Check Frontend
+* Step 2: Check Frontend  
 
 #### c. Insert the code to file .phtml
 Following this method, you can place the code wherever you want, provided that you have already known the position of file .phtml
 
-`$objectManager = \Magento\Framework\App\ObjectManager::getInstance(); 
+```
+$objectManager = \Magento\Framework\App\ObjectManager::getInstance(); 
 $productList= $objectManager->create("Mageplaza\AutoRelated\Block\Widget\ProductList")->setRuleId(1)->toHtml(); 
-echo $productList;`
+echo $productList;
 
+```
 
 
 ### 8. API
