@@ -159,7 +159,7 @@ Mageplaza's Size Chart extension allows admins to get rule's information throuhg
 To start working with **Size Chart GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
-- Supprted request GrapQl can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzRxXr2t?version=latest' target='_blank' rel='nofollow'>here</a>
+- Supprted GrapQL requests can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzRxXr2t?version=latest' target='_blank' rel='nofollow'>here</a>
 
 ## Frontend
 
