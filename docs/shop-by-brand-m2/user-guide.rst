@@ -349,4 +349,4 @@ Mageplaza's Shop By Brand extension supports store admins to get rule's informat
 To start working with **Shop By Brand GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
-- Supported request GraphQl can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzRxXr2y?version=latest' target='_blank' rel='nofollow'>here</a>
+- Supported GraphQl requests can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzRxXr2y?version=latest' target='_blank' rel='nofollow'>here</a>
