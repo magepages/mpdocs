@@ -258,6 +258,9 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
 * Step 1: Choose type
   * Choose `Content > Elements > Widgets > Add Widget`
   * In the Setting field, choose **Type = ARP Product List** and  select any Design Theme
+
+  ![](https://i.imgur.com/lojcKMQ.png)
+
   * Click to **Continue** button
   
 * Step 2: Install Widget
@@ -265,8 +268,13 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
     * Enter `Widget Name` and `Store View` to be displayed
     * In the `Layout Update` field, choose Page to show the widget on `Display on`. In the next step, select where the Widget will appear in `Page` from `Container` section
     * Choose `Display on = Category` to custom `Category Rule` and  `Display on = Product` to custom `Product Rule`. If you do not choose any of them, `Rule` will not show.
+    
+    ![](https://i.imgur.com/SF8eglZ.png)
 
   * In the `Widget Option`, select your wanted `Rule Name`.
+  
+  ![](https://i.imgur.com/RdRZByS.png)
+  ![](https://i.imgur.com/PpQVWBP.png)
   
   * Click to `Save` to finish creating Widget
 
@@ -279,8 +287,13 @@ First of all, admins need to set Rule which has Where to Display= Manually and r
   * In the CMS Statics Block Content, there are two ways to insert ARP
   
     * Method 1: Choose `Insert Widget > Widget Type = ARP Product List > Rule Name >  Insert Widget`
+    ![](https://i.imgur.com/d44RVKV.gifv)
 
-    * Method 2: Click to Show/Hide Editor and then paste the following code directly to the content. You can change the `rule_id` to the Rule ID  that you want to insert. `{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}`
+    * Method 2: Click to Show/Hide Editor and then paste the following code directly to the content. You can change the `rule_id` to the Rule ID  that you want to insert. 
+
+    ``{{block class="Mageplaza\AutoRelated\Block\Widget\ProductList" rule_id="1"}}``
+
+    ![](https://i.imgur.com/owE4pgH.png)
 
   * Click to `Save` to keep all the changes
   
