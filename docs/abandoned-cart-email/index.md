@@ -98,10 +98,9 @@ Ex: Select **Default Date Range= 30 days** then at Cart Board page, the Cart wil
 
 
 ### 2. Overall Reports
+Go to ``Marketing > Abandoned Cart Email > Overall Report``
 
 #### 2.1 Reports
-
-Go to ``Marketing > Abandoned Cart Email > Overall Report``. 
 
 ![](https://i.imgur.com/3sqQXYX.png)
 
@@ -120,7 +119,6 @@ There are two Report Time modes:
 
 This is the place archiving abandoned cart emails which have been sent, including their ID, Subject, Receiver, Coupon, Sequent Number, Sent, Status (Sent/ Error) and Action (Preview/ Delete, Send Again)
 
-From the **Admin panel**, follow ``Marketing > Abandoned Cart Email > Logs``
 ![](https://i.imgur.com/zmKitE3.png)
 
 * **Action = Preview**: a pop-up window showing the email which has been sent will appear
