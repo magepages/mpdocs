@@ -21,9 +21,10 @@ Login to Magento Admin, go to `Stores > Configuration >  Mageplaza Extensions > 
 #### 1.1 General Configuration
 A bunch of fundamental configuration will assist you in modifying reminder email chains which can be accomplished just a few click. Follow this path ``Go to Admin Panel > Stores > Configuration >  Mageplaza Extensions > Review Reminder > Configuration`` then expand the **General Configuration**
 
-![](https://i.imgur.com/HYXEpBO.png)
+![](https://i.imgur.com/s9cJktO.png)
 
 * In **Enable** field: select “Yes” to enable Mageplaza Review Reminder extension
+* In **Only Send Emails to Subcribers** field: select “Yes” to only send  reminder emails to customers who have subcribed newsletter.
 * In **Email** modules
   * Click the ``Add`` button to add a reminder email
   * Click the trash can icon to delete a email
