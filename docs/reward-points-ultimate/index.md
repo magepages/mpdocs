@@ -535,7 +535,7 @@ This section allows admins to choose the conditions for the carts. Only carts th
     - `Give fixed X points to Referer`: Regardless of how much the refer link user order, the referer still receives a fixed amount X point.
     - `Give X points for every Y amount of Price`: The number of points that referers can receive depends on the total order ordered by the referrer.
 
-``Note``: Each customer uses one the refer link only.
+``Note``: Each customer uses one the refer link only. Referral get reward points for referee's first order only.
 
 #### 3.2. Invitation History
 
