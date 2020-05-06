@@ -52,33 +52,21 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 #### 1.1. General 
 
 
-![](https://i.imgur.com/I9ZA7aE.png)
+![](https://i.imgur.com/WPZfpxn.png)
 
 - **Enable**: Select `Yes` to enable the module
-- **Client ID**: Insert the App ID
-- **Client Secret**: Insert the App Secret
-- You can see the instruction for creating Instagram API [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-instagram-api.html)
+- **User Token**: Enter Instagram Access Token
+- You can see the instruction for creating Instagram Access Token [here](https://docs.google.com/document/d/1HZ0K7hNcVq2zK-G1xdLj1He_xTYg_9r7HM--HRh8hGk/edit#)
 
 #### 1.2. Display
 
-![](https://i.imgur.com/ZB67Y2X.png)
+![](https://i.imgur.com/G82nXaH.png)
 
 
 - **Total number of photos**
   - Select the number of images to be shown on your site
-  - The maximum image number is 20
+  - The maximum image number is 25
   
-- **Sort by**
-
-![](https://i.imgur.com/yzqN72i.png)
-
-- **Sort by = Most recent**: Show the most recent products
-- **Sort by = Most liked**: Show the most liked products
-- **Sort by = Most commented**: Show the most commented products
-- **Sort by = Random**: Show random products
-
-`Note`: The images will always be selected as most recent products before examining this Short-by configuration setting. 
-
 - **Layout**
 
 ![](https://i.imgur.com/cxTACKL.png)
@@ -90,15 +78,9 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
       - Select the image number shown on a row
       - The default number is 2 
   - *Layout = Optimized image*: Display the optimized product images
+  
+- **Show Caption**: Select `Yes` to show caption when hovering image 
 
-- **Image resolutions**
-
-![](https://i.imgur.com/1bmDFp6.png)
-
-  - *Image resolutions = Standard*: Display images with standard resolution
-  - *Image resolutions = Low*: Display images with low resolution
-  - *Image resolutions = Thumbnail*: Display images with thumbnail
-- **Show number of Likes/ Comments**: Select `Yes` to allow displaying like and comment numbers on products
 - **Show pop-up**: Select `Yes` to allow displaying popup as clicking to images
 
 ### 2. Widget
