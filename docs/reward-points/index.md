@@ -35,7 +35,7 @@ Customers can earn reward point(s) and use them perfectly in these following pag
 * However, Earning Point(s) can’t be shown on this page if admins disable the field [**Display Earning Points on Shopping Cart**](https://docs.mageplaza.com/reward-points/index.html#display-configuration) in the backend.
 * Notice: Earning Point(s) can be different depend on **Customer Group** and **Earning Rate** which are configured in the backend.
 
-![](https://i.imgur.com/ZWlo0qF.png)
+![](https://i.imgur.com/vh05Yl5.png)
 
 ### II. For admins (store owners)
 * Admins are able to create and manage **Earning Rate**, **Spending Rate** and **Transaction** as well as to configure the Reward Points extension generally in the backend.
