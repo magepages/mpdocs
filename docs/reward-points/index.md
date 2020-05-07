@@ -64,7 +64,7 @@ Go to ``Marketing > Reward Points: Earning Rate``
 #### 1.1. General Management.
 This is the place where admins can store Earning Rates created.
 
-![](https://i.imgur.com/i9p2zXz.png)
+![](https://i.imgur.com/EsSmVbs.png)
 
 * From the grid view, admins can acknowledge some fundamental information of Earning Rate such as **Website**, **Customer Group(s)**, **Money Spent**, **Earning Point(s)** and **Priority**. Also, admins are able to **Edit Rate**:
   * To edit an earning rate, choose “Edit” in the **Action** column.
@@ -75,7 +75,7 @@ This is the place where admins can store Earning Rates created.
 #### 1.2. Add/Edit New Earning Rate
 After entering the Earning Rate section, click on ``Add New Rate`` to create a new earning rate. Then, click ``Save and Continue Edit``, the page will automatically switch to the **Edit Rate** page.
 
-![](https://i.imgur.com/vv0cJwS.png)
+![](https://i.imgur.com/hO5R1FH.png)
 
 * In the **Website** field: Choose website(s) you want to apply the earning rate.
 * In the **Customer Group(s)** field:
@@ -95,7 +95,7 @@ Follow the way ``Marketing > Reward Points: Spending Rate``
 #### 2.1. General Management.
 This is the place where admins can store Spending Rates created.
 
-![](https://i.imgur.com/Bk26NiQ.png)
+![](https://i.imgur.com/1c6lGgO.png)
 
 * From the grid view, admins can acknowledge some fundamental information of an spending rate such as **Website**, **Customer Group(s)**, **Spending Point(s)**, **Discount Received** and **Priority**. Also, admins can edit rate:
   * To edit an spending rate, choose “Edit” in the **Action** column.
@@ -105,7 +105,7 @@ This is the place where admins can store Spending Rates created.
 #### 2.2. Add/Edit New Spending Rate.
 After entering the Spending Rate interface, select ``Add New Rate`` to create a new spending rate. Then, click ``Save and Continue Edit``, the page will automatically switch to the **Edit Rate** page.
 
-![](https://i.imgur.com/Owplqh6.png)
+![](https://i.imgur.com/ljLCWIi.png)
 
 * In the **Website** field: Choose website(s) you want to apply the spending rate.
 * In **Customer Group(s)** field
@@ -360,7 +360,7 @@ Customers can check the Reward Point information in this section after logging i
 
 * **View Cart Page (Shopping Cart)**: Displays Apply Reward Point on the checkout page, and also displays the Earning Point, Spending Point and Reward Point.
 
-![](https://i.imgur.com/7wlXyks.png)
+![](https://i.imgur.com/PvScIoD.png)
 
 
 
