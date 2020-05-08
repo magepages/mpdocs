@@ -310,7 +310,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   - Get Extra Fee informaiton at Shipping Method
   
 ```
-{if creditmemo.getHasShippingExtraFee()}}
+{{if creditmemo.getHasShippingExtraFee()}}
 				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$creditmemo}}
 			 {{/if}}
 ```
