@@ -84,7 +84,7 @@ After entering the Earning Rate section, click on ``Add New Rate`` to create a n
   * Define the conversion rate from X (currency) to Y (point)
   * Admins can fill out the appropriate rate in here. However, decimal numbers are not approved. If admins enter a decimal number, they will be rounded following the rule ``>= 0.5 to 1``, or  ``< 0.5 to 0``.
 * In the **Priority** field: 
-  * Indicates the priority of this earning rate compared to other earning rates.
+  * Indicates the priority of this spending rate compared to other spending rates.
   * 0 indicates the highest priority. The higher number, the lower priority.
   * If there’re many earning rates which have similar priorities, rules will apply on the rate which has a smaller ID first.
 
