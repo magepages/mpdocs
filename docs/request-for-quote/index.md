@@ -27,24 +27,24 @@ Customer can add products to Quote Cart at locations below:
 
 - **Categories Page**
 
-![Imgur](https://i.imgur.com/7VmZ7Hy.png)
+![](https://i.imgur.com/7VmZ7Hy.png)
 
 - **Product Detail Page**
 
-![Imgur](https://i.imgur.com/CPhuo05.png)
+![](https://i.imgur.com/CPhuo05.png)
 
 - **Shopping Cart Page**
 
 - *Note: Customer can add all products in the cart to the quote by clicking on the **Add All To Quote** button.*
 
-![Imgur](https://i.imgur.com/TRwX8Rr.png)
+![](https://i.imgur.com/TRwX8Rr.png)
 
 
 #### Step 2: Submit Quote Cart
 
 After adding product(s) to the Quote Cart, customer click the **mini Quote Cart icon** (next to the Shopping Cart icon) and then click **View Quote Cart**.
 
-![Imgur](https://i.imgur.com/VUbtJwT.png)
+![](https://i.imgur.com/VUbtJwT.png)
 
 
 The system automatically redirects to **My Quote Cart** page. Here, display information of the product that has been added to quote.
@@ -59,7 +59,7 @@ The system automatically redirects to **My Quote Cart** page. Here, display info
 - Click **Submit Quote Cart** to complete the Request creation.
 - Requests created by customer are all displayed in **Pending** status
 
-![Imgur](https://i.imgur.com/cwfE3Cn.png).
+![](https://i.imgur.com/cwfE3Cn.png).
 
 
 ### 2. My Quotes
@@ -72,37 +72,37 @@ The system automatically redirects to **My Quote Cart** page. Here, display info
   - **Cancel**: Cancel the request for quote.
   - **Delete**: Delete the quote.
 
-![Imgur](https://i.imgur.com/mMW5BeD.png)
+![](https://i.imgur.com/mMW5BeD.png)
 
 - In **View Quote**, customer can only edit the quote when the quote has **Status = Pending**.
   - In addition, customers can **Delete, Cancel, Add to Cart, Print Quote** and **send a message** to the admin at **Conversation**.
 
-![Imgur](https://i.imgur.com/kPQUROv.png)
+![](https://i.imgur.com/kPQUROv.png)
 
 ### 3. Customer add quote to cart
 
 - Customer adds the quote to the cart when the quote is approved. This quote has already added to cart in this order. Each quote is added to cart once per order.
 - In order for customers to easily distinguish the product in quote from other products, the extension supports displaying Quote Label item in each product belonging to quote.
 
-![Imgur](https://i.imgur.com/OupEeZM.png)
+![](https://i.imgur.com/OupEeZM.png)
 
 - Customer view order
 
-![Imgur](https://i.imgur.com/2aLRiNu.png)
+![](https://i.imgur.com/2aLRiNu.png)
 
 
 ## How to Configure
 ### I. Configuration
 
-Login to the Magento Admin, go to `Sales > Request For Quote > Configuration`.
+Login to the Magento Admin, go to `Marketing > Request For Quote > Configuration`.
 
-![Imgur](https://i.imgur.com/fXVzbuf.png)
+![](https://i.imgur.com/fXVzbuf.png)
 
 Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to configure the module.
 
 #### 1. General
 
-![Imgur](https://i.imgur.com/yUP2so3.png)
+![](https://i.imgur.com/yUP2so3.png)
 
 - Select **Enable = Yes**: The Request For Quote module is enabled.
 - Quote Request Icon: Admin click **Choose File** to select the image for the icon. If left blank, the icon will be the module's default icon.
@@ -118,7 +118,7 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 
 #### 2. Expiration Setting
 
-![Imgur](https://i.imgur.com/oLpSjpa.png)
+![](https://i.imgur.com/oLpSjpa.png)
 
 - **Quote Expired After**: Admin enter the number of expiration dates for the quote. Leaving the request blank mean that no expiration limited.
   - *Note: When quote expires, the system will automatically send notification email to customer.*
@@ -126,13 +126,13 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 
 #### 3. Email Setting
 
-![Imgur](https://i.imgur.com/yOFc8Nm.png)
+![](https://i.imgur.com/yOFc8Nm.png)
 
 - **Sender**: Admin selects the email sender to the customer.
 
 ##### 3.1. Quote Confirmation & Update Emails To Requesters
 
-![Imgur](https://i.imgur.com/iEwh8ZG.png)
+![](https://i.imgur.com/iEwh8ZG.png)
 
 - **Enable Emails After Quotes Submitted**: Select **Yes** to send mail to customers when the quote has been successfully submitted. Admin chooses submission email template at **Submission Notice Template**.
 - **Enable Emails After Quotes Approved**: Select **Yes** to allow sending mail to customer when quote has been approved. Admin chooses approve email template at **Approval Notice Template**.
@@ -142,14 +142,14 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 
 ##### 3.2. Quote Reminder & Expiration Notice Emails To Requesters
 
-![Imgur](https://i.imgur.com/iNWYS7A.png)
+![](https://i.imgur.com/iNWYS7A.png)
 
 - **Enable Expiration Reminder Emails**: Choose **Yes** to send email reminders to customers. Admin chooses reminder email template at **Expiration Reminder Template**.
 - **Enable Emails When Expiration**: Select **Yes** to send customers an email to notify the end of quote. Admin chooses expire email template at **Expiration Notice Template**.
 
 ##### 3.3. Admin Notification Email
 
-![Imgur](https://i.imgur.com/SMGGhlL.png)
+![](https://i.imgur.com/SMGGhlL.png)
 
 - **Admin Email(s)**: Enter admin's email to receive notifications. The email is separated by commas.
 - **Report Email To Admin**: Admin chooses the time to send statistics of the number of quotes created to the admin. Admin select the report email template at **Report Email Template**.
@@ -159,7 +159,7 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 
 ### II. Manage Request For Quote
 
-![Imgur](https://i.imgur.com/3hRRqZM.png)
+![](https://i.imgur.com/3hRRqZM.png)
 
 - This is where all the Request For Quote is saved.
 - On the form grid, Admin can view all the basic information of Request For Quote such as **ID, Status, Customer, Customer Groups, Store View, Quote Total, Expired Date, Action**.
@@ -178,17 +178,17 @@ The admin support module creates a new Request Quote for existing and existing C
 - Customer grid displays, admin select an account to create quote for that account.
 - You can click **Back** to return to the grid **Manage Quote Requests**
 
-![Imgur](https://i.imgur.com/uhGDqx7.png)
+![](https://i.imgur.com/uhGDqx7.png)
 
 ##### Step 2: Admin select ***Store***, Quote created will be applied to that store.
 
 Click **Cancel** to cancel the action.
 
-![Imgur](https://i.imgur.com/tWWS090.png)
+![](https://i.imgur.com/tWWS090.png)
 
 ##### Step 3: Admin creates quote.
 
-![Imgur](https://i.imgur.com/AmDAxk9.png)
+![](https://i.imgur.com/AmDAxk9.png)
 
 - Click the **Add Product** button to select a product to apply to the quote. Then, select **Add Selected Product(s) to Quote** to display the selected products on the **Quote Item**.
 - Click **Update items and Quantities** after editing Price and Qty.
@@ -201,7 +201,7 @@ Click **Cancel** to cancel the action.
 
 #### 2. Edit Request Quote
 
-![Imgur](https://i.imgur.com/C20f8GA.png)
+![](https://i.imgur.com/C20f8GA.png)
 
 - **Quote Information**: Displays information of quote such as **Created Date, Status, Expired Date, Create From, Place From IP**.
   - Expired Date is only displayed when the quote is in **Approve, Reject, and Expired** states. Admin can change the quote's expired date
@@ -224,52 +224,52 @@ Click **Cancel** to cancel the action.
 
 ##### 1.1. Emails After Customer Submitted Quote
 
-![Imgur](https://i.imgur.com/ve4hopW.png)
+![](https://i.imgur.com/ve4hopW.png)
 
 ##### 1.2. Emails After Admin Submitted Quote
 
-![Imgur](https://i.imgur.com/Kfzm1Cg.png)
+![](https://i.imgur.com/Kfzm1Cg.png)
 
 ##### 1.3. Emails After Quotes Approved
 
-![Imgur](https://i.imgur.com/3JIVRew.png)
+![](https://i.imgur.com/3JIVRew.png)
 
 ##### 1.4. Emails After Quotes Rejected
 
-![Imgur](https://i.imgur.com/nWbgnP0.png)
+![](https://i.imgur.com/nWbgnP0.png)
 
 ##### 1.5. Emails After Admin Edited Quote
 
-![Imgur](https://i.imgur.com/rfsdebj.png)
+![](https://i.imgur.com/rfsdebj.png)
 
 ##### 1.6. Quote Reminder Email
 
-![Imgur](https://i.imgur.com/3ZCPxE4.png)
+![](https://i.imgur.com/3ZCPxE4.png)
 
 ##### 1.7. Quote Expiration Email
 
-![Imgur](https://i.imgur.com/VKadNqd.png)
+![](https://i.imgur.com/VKadNqd.png)
 
 #### 2. For Admin
 
 ##### 2.1. Customer Edited Quote Email
 
-![Imgur](https://i.imgur.com/JJA84g0.png)
+![](https://i.imgur.com/JJA84g0.png)
 
 ##### 2.2. Customer Canceled Quote Email
 
-![Imgur](https://i.imgur.com/gEB0gEo.png)
+![](https://i.imgur.com/gEB0gEo.png)
 
 ##### 2.3. Customer Deleted Quote Email
 
-![Imgur](https://i.imgur.com/wIj4Q3t.png)
+![](https://i.imgur.com/wIj4Q3t.png)
 
 ##### 2.4. Quote Report Email
 
-![Imgur](https://i.imgur.com/Z3aTXAC.png)
+![](https://i.imgur.com/Z3aTXAC.png)
 
 ### IV. Compatible with Quick Order extension
 
 The **Add To Quote** button is displayed on the **Quick Order** page when you use the Quick Order and Request For Quote extensions together. This support helps customers' operations more quickly.
 
-![Imgur](https://i.imgur.com/CgUR0Oo.png)
+![](https://i.imgur.com/CgUR0Oo.png)
