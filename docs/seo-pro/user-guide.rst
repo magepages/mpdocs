@@ -86,6 +86,8 @@ In the **Verification** field, you need to enter the verification code to confir
 1.7. HTML Sitemap
 -----
 
+To use this function, you need to install [Mageplaza Sitemap extension](https://www.mageplaza.com/magento-2-google-sitemap/)
+
 This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap, while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
 
 .. image:: https://i.imgur.com/cmRrPR9.jpg
