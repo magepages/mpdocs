@@ -56,7 +56,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 - **Enable**: Select `Yes` to enable the module
 - **User Token**: Enter Instagram Access Token
-- You can see the instruction for creating Instagram Access Token [here](https://docs.google.com/document/d/1HZ0K7hNcVq2zK-G1xdLj1He_xTYg_9r7HM--HRh8hGk/edit#)
+- You can see the instruction for creating Instagram Access Token [here](https://docs.mageplaza.com/instagram-feed/2020-05-11-how-to-get-instagram-feed-access-token.html)
 
 #### 1.2. Display
 
