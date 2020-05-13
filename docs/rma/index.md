@@ -224,7 +224,7 @@ To edit RMA Request, admin select **Edit** at **Manage RMA Request** or click **
 - **Default Comment**:
   - **Default Comment for All Store Views**: Set a default comment for all stores.
   - *Note: This is a required field. The system will display an error message if left blank.*
-- **Store View Specific Comment**: Set a comment for each store view. If this field is blank, it will automatically be taken as Default Comment.
+- **Store View Specific Comment**: Set a comment and show it for each store view when there is a change in the request status. If this field is blank, it will automatically be taken as Default Comment.
 
 
 ## IV. Manage RMA Rule
@@ -377,7 +377,7 @@ At **Find Order By**, in addition to entering Email, customers can enter and ent
 
 Mageplaza's RMA extension supports the use of the **Rest API** to view detailed list of information; create and delete rules, status, requests, shipping labels, and all info that admins and customers have created.
 
-- Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SzKWvHg4?version=latest).
+- Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzS2y8cT?version=latest).
 - Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
 ## IX. GraphQL
@@ -393,6 +393,5 @@ php bin/magento setup:static-content:deploy
 To start working with **RMA GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
-- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
 - Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-- The queries and mutations that Mageplaza support can be used to view the details that customers have requested, create requests, request cancel by customers, ect. Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SzKZqvQE?version=latest#c0b8d573-3278-48e9-9644-5f711e5d033c).
+- The queries and mutations that Mageplaza support can be used to view the details that customers have requested, create requests, request cancel by customers, ect. Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRyzVYU?version=latest).
