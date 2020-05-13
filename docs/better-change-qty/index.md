@@ -90,7 +90,7 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 ![](https://i.imgur.com/qlXnvOw.png)
 
-  - **Max Qty Step = Stock Quantity**: Display the product number of each step until the product is out of stock. For example: **Quantity = 20** (as in product configuration), **Custom Step = 5,15,19,21** then it will so only thre steps which is 5,15,19
+  - **Max Qty Step = Stock Quantity**: Display the product number of each step until the product is out of stock. For example: **Quantity = 20** (as in product configuration), **Custom Step = 5,15,19,21** then it will so only three steps which are 5,15,19
   
 
   - **Max Qty Step = Fixed Value**: Displays the maximum number of products for each time adding product to the cart.
