@@ -105,8 +105,8 @@ Two supported **Massactions** are:
 
 The admin can use the command line to refresh the statistics
 ```
-php bin/magento mp-reports:reindex --type = "lifetime" {id}
-php bin/magento mp-reports:reindex --type = "recent" {id}
+php bin/magento mp-reports:reindex --type ="lifetime" {id}
+php bin/magento mp-reports:reindex --type ="recent" {id}
 ```
 For example:
 
@@ -121,7 +121,7 @@ php bin/magento mp-reports:reindex --type ="recent"
 - Refresh the tables by id:
 
 ```
-php bin/magento mp-reports:reindex --type = "recent" 1 2
+php bin/magento mp-reports:reindex --type ="recent" 1 2
 
 ```
 
