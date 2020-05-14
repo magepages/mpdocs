@@ -113,7 +113,7 @@ For example:
 - Refresh all tables:
 
 ```
-php bin/magento mp-reports:reindex --type = "recent"
+php bin/magento mp-reports:reindex --type ="recent"
 ```
 
 ![](https://i.imgur.com/fBm7OFT.png)
