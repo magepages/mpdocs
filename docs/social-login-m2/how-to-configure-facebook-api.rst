@@ -15,9 +15,9 @@ First go to: https://developers.facebook.com/
 Step 2
 ---------
 
-Select Add a New App from the Apps menu at the top
+Login Facebook by click on **Login** or create a new Facebook account. After that, click on **My App** from the Apps menu at the top
 
-.. image:: https://i.imgur.com/dGlMBxZ.png
+.. image:: https://i.imgur.com/opvp7Ll.png
 
 Step 3
 --------
