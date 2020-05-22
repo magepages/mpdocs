@@ -83,8 +83,8 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ![](https://i.imgur.com/nLUAHQU.png)
 
-- `Media Image`: Customers can upload the image file (only include the image file, not docs file or PDF files, etc) that they want
-- `Single File Attachment`: Customers can upload the attachment that they want
+- `Media Image`: Customers can upload the image file (only include the image file, not docs file or PDF files, etc) that they want. Besides, it is possible to limit file upload size in **Maximum File Size** and file upload format in **Allow File Formats**
+- `Single File Attachment`: Customers can upload the attachment that they want. Besides, they can limit file upload size as well as file upload format by respectively filling in it in **Maximum File Size** field and **Allow File Formats** field.
 - `Content`: Customers can insert the image and enter the text as well as edit them with ease.
 
 ![](https://i.imgur.com/PsGFja6.png)
@@ -188,6 +188,31 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 - Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
 - In addition, Attribute can also depend on one or more shipping methods
 - When the Attribute has been added to another Attribute, just depend on the Shipping method, make sure the 2 dependents are selected so that the attribute is displayed.
+
+
+### 3. API
+Mageplaza Order Attribute supports the use of API to get order attribute information, order information, fullfil attributes in order, upload file for order attributes which allows file to be uploaded.
+
+View supported request <a href='https://documenter.getpostman.com/view/10589000/Szf5399x' target='_blank' rel='nofollow'>here</a>
+
+See how can you create token-based authentication <a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html#integration-tokens' target='_blank' rel='nofollow'>here</a>
+
+### 4. GraphQL
+#### 4.1. How to install
+Run the following command in Magento 2 root folder:
+```
+composer require mageplaza/module-order-attributes-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+
+```
+
+#### 4.2. How to use
+Order Attribute GraphQL by Mageplaza allows you to get order attribute information, save ordr attribute when customers order via GrapQL
+
+**Note**: To start using GraphQL, you need to return your site to developer mode and uee Magento 2.3.x
+
+Check supported GraphQL request <a href='https://documenter.getpostman.com/view/10589000/Szf539EJ' target='_blank' rel='nofollow'>here</a>
 
 ## Frontend
 ### 1. Checkout page Magento
