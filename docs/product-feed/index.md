@@ -153,7 +153,7 @@ php bin/magento mp-productfeed:generate 1 3 4
 
 
 ``Note``:
-* After installing the extension, you need to download Liquid by running the command `bin/magento composer require liquid/liquid`or need to install the library
+* After installing the extension, you need to download Liquid by running the command `composer require liquid/liquid` or need to install the library
 * When the extension is enabled, Manage Feed and Logs will be displayed
 
 
