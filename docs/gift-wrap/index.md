@@ -199,4 +199,4 @@ With Gift Wrap extension developed by Mageplaza, admins can get Gift Wrap inform
 To start working with **Gift Wrap GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
-- View supported request GraphQL <a href='https://documenter.getpostman.com/view/10589000/SzRxXrBp?version=latest' target='_blank' rel='nofollow'>here</a>
+- View supported request GraphQL <a href='https://documenter.getpostman.com/view/5187684/SzKTuyMH?version=latest' target='_blank' rel='nofollow'>here</a>
