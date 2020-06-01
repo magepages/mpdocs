@@ -88,7 +88,7 @@ A one-step checkout will be totally done on one page only by completing informat
 * Customers can also quickly add Coupon when inserting information to the URL
 * Adding Product: For example, adding 2 products whose SKU is MH01 and 3 products whose SKU is WSH12-28-Red to OSC at store with website: www.example.com
 
-`www.example.com/onestepcheckout/?sku [MH01] = 2 & sku [MN23] = 3`
+`www.example.com/onestepcheckout/?sku[MH01]=2&sku[WSH12-28-Red]=3`
 
 - Add Coupon: For example, add a coupon with the code `COUPON123` to the OSC at the store with a website: www.example.com
 
