@@ -84,9 +84,9 @@ A one-step checkout will be totally done on one page only by completing informat
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 * Customer can quickly add a certain number of Products by SKU by adding some information at the URL
-* Supported Product Types include: Simple Product, Configurable Product, Downloadable Product
+* Supported Product Types include: Simple Product,  Child Configurable Product, Downloadable Product
 * Customers can also quickly add Coupon when inserting information to the URL
-* Adding Product: For example, adding 2 products with SKU is MH01 and MN23 to OSC at store with website: www.example.com
+* Adding Product: For example, adding 2 products with SKU is MH01 and 3 products with SKU is WSH12-28-Red to OSC at store with website: www.example.com
 
 `www.example.com/onestepcheckout/?sku [MH01] = 2 & sku [MN23] = 3`
 
