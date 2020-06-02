@@ -349,7 +349,7 @@ php bin/magento setup:static-content:deploy
 To start working with Store Locator GraphQL in Magento, you need to:
 - Use Magento 2.3.x. Return your site to developer mode
 - Set GraphQL endpoint http://<magento2-3-server>/graphql in URL section, click on Set endpoint. For example, http://develop.mageplaza.com/graphq 
-- Mageplaza support query and mutation to view the information by locations data by store, configuration by store, pickup config, etc. That can be seen from <a href='https://documenter.getpostman.com/view/10589000/SztEZmt8?version=latest#6c1f4cf8-b741-45c1-9b99-5cc684b1f737' target='_blank' rel='nofollow'>here</a>
+- Mageplaza supports query and mutation to view the information by locations data by store, configuration by store, pickup config, etc. That can be seen from <a href='https://documenter.getpostman.com/view/10589000/SztEZmt8?version=latest#6c1f4cf8-b741-45c1-9b99-5cc684b1f737' target='_blank' rel='nofollow'>here</a>
 
 ## Notation
 
