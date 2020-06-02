@@ -331,7 +331,7 @@ This section records the store locator's address information, after ordering for
 
 Store Locator developed by Mageplaza supports the use of Rest API to view the information of locations data by store, configuration by store, get map config by style, location information by quote,etc.
 
-More detials can be seen from <a href='https://documenter.getpostman.com/view/10589000/SztD5nDd?version=latest' target='_blank' rel='nofollow'>here</a>
+More details can be seen from <a href='https://documenter.getpostman.com/view/10589000/SztD5nDd?version=latest' target='_blank' rel='nofollow'>here</a>
 
 Get instruction on creating Integration tokens from <a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html' target='_blank' rel='nofollow'>here</a>
 
