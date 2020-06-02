@@ -327,6 +327,29 @@ This section records the store locator's address information, after ordering for
 
 ![](https://i.imgur.com/gNEm5l5.png)
 
+## API
+
+Store Locator developed by Mageplaza supports the use of Rest API to view the information of locations data by store, configuration by store, get map config by style, location information by quote,etc.
+
+More detials can be seen from <a href='https://documenter.getpostman.com/view/10589000/SztD5nDd?version=latest' target='_blank' rel='nofollow'>here</a>
+
+Get instruction on creating Integration tokens from <a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html' target='_blank' rel='nofollow'>here</a>
+
+## GraphQL
+
+Run the following command in Magento 2 root folder
+
+```
+composer require mageplaza/module-store-locator-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+
+```
+
+To start working with Store Locator GraphQL in Magento, you need to:
+- Use Magento 2.3.x. Return your site to developer mode
+- Set GraphQL endpoint http://<magento2-3-server>/graphql in URL section, click on Set endpoint. For example, http://develop.mageplaza.com/graphq 
+- Mageplaza support query and mutation to view the information by locations data by store, configuration by store, pickup config, etc. That can be seen from <a href='https://documenter.getpostman.com/view/10589000/SztEZmt8?version=latest#6c1f4cf8-b741-45c1-9b99-5cc684b1f737' target='_blank' rel='nofollow'>here</a>
 
 ## Notation
 
