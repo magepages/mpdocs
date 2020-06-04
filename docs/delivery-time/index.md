@@ -50,6 +50,5 @@ To start working with GraphQL in Magento, you need the following:
 - Use Magento 2.3.x. Returns site to developer mode
 - Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
 - Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-- Mageplaza-supported queries are fully written in the **Description** section of `Query.deliveryTime.DeliveryInfomation`
+- View  Mageplaza supported query <a href='https://documenter.getpostman.com/view/10589000/SzYXWeR9?version=latest' target='_blank' rel='nofollow'>here</a>
 
-![](https://i.imgur.com/8OW0Y2G.png)
