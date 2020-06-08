@@ -219,7 +219,7 @@ bin/magento cache:flush
 ```
 * When admin users want to access backend in the period of Away Mode suddenly, follow two command lines to turn Away Mode off.
 ```
-bin/magento security:reset away mode
+bin/magento security:reset awaymode
 bin/magento cache:flush
 ```
 
