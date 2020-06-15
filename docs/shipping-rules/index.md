@@ -20,12 +20,13 @@ From the Admin Panel, go to `Sales > Shipping Rules > Configuration`
 
 ### 1. Configuration
 
-![](https://i.imgur.com/WCcgXpJ.png)
+![](https://i.imgur.com/toILGvw.png)
 
 #### General
 
 - **Enable**: Choose Yes to use the features of this module
 - **Apply for Backend Order**: Choose Yes to apply the rule when admins create a new order
+- **Apply Multi rules in a shipping method**: Choose Yes to apply multiple rules for shipping method
 
 ### 2. Manage Rules
 #### How to add a new rules
@@ -71,7 +72,9 @@ Viet Nam is in GMT +7. America is in GMT -5. Time From is 17:00 PM, then 17:00 P
   - The smaller the number, the higher the priority
   - For rules with equal priority, the priority will be based on what rules are created first.
 
-![](https://i.imgur.com/LvWuyfE.png)
+- **Discard Subsequent Rules**: Choose **Yes** to discard the application of rules with lower priority. For example, the priority of the first rule = 1 while that of the second rule = 2. If in the first rule Discard Subsequent Rules = Yes, only the first one will be applied.
+
+![](https://i.imgur.com/jaqaaY8.gif)
 
 ##### Step 2: Set the conditions to apply the rule in the Conditions section
 
