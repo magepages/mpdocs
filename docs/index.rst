@@ -117,6 +117,7 @@ Welcome to Mageplaza Docs
    order-history/index
    order-labels/index
    payment-restriction/index
+   payment-suite/index
    product-attachments/index
    product-labels/index
    product-slider-m2/index
