@@ -68,36 +68,7 @@ Please see details guide [here](https://www.mageplaza.com/kb/how-create-coupon-c
 ## API
 Multiple Coupon extension supports API integration with Rest API commands of Magento. By using the available command structures to check the order information, invoice, credit memo, admins can quickly capture the details of an order. See the details about Rest API Magento [here](https://devdocs.magento.com/guides/v2.3/rest/tutorials/orders/order-intro.html)
 
-### Instructions for using Postman to check API
+View the supported API from [here](https://documenter.getpostman.com/view/10589000/SzYXVeMR?version=latest)
 
-#### Step 1: Get Access Token
-- Log in to **Postman**, in the **Headers** section select `Key = Content-Type`, `Value = application/json`
-- At **Body** tab, insert `{"username": "demo", "password": "demo123"}` with `demo/demo123`are `username/password` to login to your backend  
-- Use the **POST** method and send the following command:
-
-http://example.com/rest/default/V1/integration/admin/token
-
-![](https://i.imgur.com/FP9x7jg.png)
-
-- **Access Key** will be displayed in the **Body** section
-
-
-#### Step 2: Use the REST API commands of Magento
-
-- Open a new tab, at the Header sections, enter 2 Keys:
-  - **Authorization**: bearer access_token
-  - **Content-Type**: application/json
-  
-  ![](https://i.imgur.com/9vtG53C.png)
-  
-- **Send REST API commands**:
-
-![](https://i.imgur.com/lxAFg9w.png)
-
-- Here are the **results** after sending commands:
-
-![](https://i.imgur.com/a5HxPkW.png)
-
-![](https://i.imgur.com/Ln6YjDW.png)
-
+The instruction for creating Integration tokens can be seen from [here](https://devdocs.magento.com/guides/v2.3/rest/tutorials/orders/order-admin-token.html)
 
