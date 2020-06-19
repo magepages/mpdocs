@@ -32,6 +32,37 @@ Login to Magento Admin, go to **Stores > Settings > Configuration > Mageplaza Ex
 * **Date Off**: Choose any date that admins don't want to deliver.
 * **Delivery Time**: Set the time frame to delivery during the day.
 
+
+### The instruction to attach Delivery Time information to Email Order
+
+To add Delivery Time information to order confirmation email, please follow these steps:
+
+**1. Create Email template**
+
+- Access `Marketing > Communications > Email Template`. choose `Add New Template` (or edit template if you want)
+- Load Template from New Order email
+
+![](https://i.imgur.com/n1mafOC.png)
+
+- Insert the codes to get Delivery Time to any position in the Template
+  - Get deliverery date: `{{var order.deliveryDate}}`
+  - Get delivery time: `{{var order.deliveryTime}}`
+  - Get house security code: `{{var order.houseSecurityCode}}`
+  - delivery comment: `{{var order.deliveryComment}}`
+
+**2. Apply email template**
+
+- Access `Stores > Settings > Configuration`, choose `Sales > Sales Emails`
+- In **New Order Confirmation Template**, choose Email Template that has just been created
+
+![](https://i.imgur.com/m54pcqr.png)
+
+**3. Check**
+
+- Plave an order in the frontend
+- Check email sent to customers
+
+![](https://i.imgur.com/NTQvSSQ.png)
 ## III. GraphQL
 
 ### 3.1 How to install
