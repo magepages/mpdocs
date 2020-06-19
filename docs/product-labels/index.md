@@ -129,7 +129,7 @@ Design the labels and images for the product on the `Product Listing` (the label
 
 **Product Labels** extension of Mageplaza supports the use of the **Rest API** to view a detailed list of all labels that the admin has created.
 
-- Details can be viewed [here](https://documenter.getpostman.com/view/6204567/SW7gUkTX?version=latest).
+- Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzYXWeLf?version=latest).
 - Instructions for creating **Integration tokens** are [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
 ## V. GraphQL
@@ -147,23 +147,8 @@ To start working with Product Labels GraphQL in Magento, you need the following:
 - Use Magento 2.3.x. Return your site to developer mode
 - Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
 - Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-- Mageplaza-supported queries are fully written in the **Description** section of `Query.LabelRules`
 
-![](https://i.imgur.com/rjCYdtu.png)
-
-- In addition, the label information is also displayed when using Graphql to retrieve the information of the Product according to Magento. Supported queries are fully written at `Product.ProductInterface.mp_label_data.LabelRules`
-
-
-![](https://i.imgur.com/EfVzRxD.png)
-
-
-
-
-
-
-
-
-
+View Mageplaza-supported queries [here](https://documenter.getpostman.com/view/10589000/SzYXVygT?version=latest)
 
 
 
