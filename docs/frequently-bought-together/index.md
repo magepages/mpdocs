@@ -121,8 +121,10 @@ And now you can back to the live site to check the completed result.
 
 ## REST API Document
 
-This extension supports retrieving and uploading data to the website using the REST API. Please check [this link](https://documenter.getpostman.com/view/6685698/SWLb88sB?version=latest) for more details. 
+This extension supports retrieving and uploading data to the website using the REST API. Please check [this link](
+https://documenter.getpostman.com/view/10589000/SzYXWeGM?version=latest) for more details. 
 
+The instruction for creating Integration tokens can be seen from [here](https://devdocs.magento.com/guides/v2.3/rest/tutorials/orders/order-admin-token.html)
 
 ## GraphQL Document
 
@@ -144,9 +146,7 @@ To start working with **Frequently Bought Together GraphQL** in Magento, you nee
 
 The module currently supports queries to retrieve a list of Frequently Bought Together products under certain conditional fields related to the product.
 
-- For example: List of Frequently Bought Together products of products with SKU is 24-MB04
-
-![](https://i.imgur.com/0V0cwtV.png)
+The details can be seen from [here](https://documenter.getpostman.com/view/10589000/SzYXVyE3?version=latest)
 
 
 
