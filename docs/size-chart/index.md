@@ -143,7 +143,7 @@ In case the option `Inherit from Category/Rule` is set for both categories Jacke
 Mageplaza's Size Chart extension supports the use of the **Rest API** to add size charts' data to individual products or all products. Also,  through the Rest API, you can retrieve, create and delete rule information.
 
 - Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRxXqxc?version=latest).
-- Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+- Instructions for [creating Integration tokens here](https://documenter.getpostman.com/view/10589000/SzRxXqxc?version=latest).
 
 ### 6. GraphQL
 
