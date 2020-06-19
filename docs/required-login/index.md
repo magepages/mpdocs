@@ -66,8 +66,8 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Required Login`
   - This is a required field. If the URL is wrong, there will be a notification: `Please enter a valid URL. Protocol is required (http://, https:// or ftp://).`
 
 - **Apply Redirect for**: 
-  - **Only require login**: Only apply redirecting for the first time login of selected page. The second time login, customers will not be redirected to another site. 
-  - **All login on site**: Apply redirecting for the selected page whenever customer login
+  - **Only require login**: Only apply redirecting for the website which is restricted and required to login
+  - **All login on site**: Apply redirecting for all of the pages when customer login to their account. This also apply to the page that does not have login requirment such as Sing In.
 
 
 
