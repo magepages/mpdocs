@@ -323,9 +323,6 @@ Guide to create token, please see `here`_
 
 .. _here: https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html
 
-After having token, Authorization choose `TYPE = Bearer Token` then fill the token into Token field. 
-
-.. image:: https://i.imgur.com/iV3ywbg.png
 
 You can see more of how to get API Request by Shop By Brand Extension via this `document`_
 
@@ -350,6 +347,6 @@ Mageplaza's Shop By Brand extension supports store admins to get rule's informat
 To start working with **Shop By Brand GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
-- Supported GraphQl requests can be viewed `here`_
+- Supported GraphQl requests can be viewed  `here`_
 
-.. _here: https://documenter.getpostman.com/view/10589000/SzRxXr2y?version=latest
+.. here : https://documenter.getpostman.com/view/10589000/SzRxXr2y?version=latest
