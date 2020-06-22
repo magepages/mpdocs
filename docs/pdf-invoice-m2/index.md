@@ -459,5 +459,5 @@ Similar to the Order section, Invoice, Shipment or Credit Memo PDF files will be
 
 Mageplaza's PDF Invoice extension supports the use of the **Rest API** to view details of the PDf file via order, invoice, shipment, credit memo, etc. created by the admin and customer.
 
-- Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SzKQzgQm?version=latest).
+- Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRyzVEp?version=latest).
 - Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
