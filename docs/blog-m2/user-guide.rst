@@ -204,8 +204,6 @@ You can configure the meta that is useful for your better SEO
 1.7. Social Sharing
 ^^^^^
 
-.. image:: https://i.imgur.com/M2168rJ.png
-
 Open the **Social** section:
 * In the **Enable** field: Enable social buttons on the blog page
 * In the **PubId** field, insert ID for Share buttons that get from `https://addthis.com <https://www.addthis.com/>`_.
@@ -512,7 +510,7 @@ X. API
 -----
 
 - Mageplaza's Blog Extension supports the use of REST APIs for Post, Categories, Tags, Topic, Author, Comment, Likes
-- Details see `more here <https://documenter.getpostman.com/view/6685698/SW7dX7T8?version=latest>`_
+- Details see `more here <https://documenter.getpostman.com/view/10589000/SzRxXqt3?version=latest>`_
 - Instructions for creating tokens see `here <https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html>`_
 
 XI. GraphQL
@@ -545,6 +543,8 @@ To perform GraphQL queries in Magento, the following requirements are required:
 - To view the queries that the **Mageplaza Blog GraphQL** extension supports, you can look in `Docs > Query` in the right corner
 
 .. image:: https://i.imgur.com/gJ3Dx0f.png
+
+- See Mageplaza supported GraphQL requests  `here <cumenter.getpostman.com/view/10589000/SzS1T8pe?version=latest>`_
 
 XII. Author in Frontend
 -----
