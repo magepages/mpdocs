@@ -180,7 +180,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 - Free Gifts extension from Mageplaza support using Rest API to view and check all carts and items in carts of customers and even guest. Also, admin and customers can view Free Gift Items list, add/delete Free Gift Item to/from Cart.  
 
-- For more details, please see [here](https://documenter.getpostman.com/view/6204567/SWLZeprQ?version=latest)
+- For more details, please see [here](https://documenter.getpostman.com/view/10589000/SzRyzpwv?version=latest)
 
 
 ### 4. Frontend
@@ -225,19 +225,7 @@ php bin/magento setup:static-content:deploy
 ```
 
 - Use Magento 2.3.x. Return your site to developer mode
-- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
 - Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
 - Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
-- Currently, Mageplaza Free Gifts extension support the following queries and mutations:
-  - Query `mpFreeGiftsByProductSku`: Help to get the free gift by product SKU
+- Currently, Mageplaza Free Gifts extension support the following queries and mutations: Gift By Product SKU, get Gifts By Quote Item, Add Gift By ID, Delete Gift By Quote Item ID,etc. View more details [here](cumenter.getpostman.com/view/10589000/SzRyzpwr?version=latest)
   
-  ![](https://imgur.com/z84Dsu4.png)
-  - Query `mpFreeGiftsByQuoteItem`: Help to get the free gift by quote item Id
-  
-  ![](https://imgur.com/1UaIjPY.png)
-  - Mutation `mpFreeGiftsAddByGiftId`: Help to add free gift by gift Id
-  
-  ![](https://imgur.com/eoshg4U.png)
-  - Mutations `mpFreeGiftsDeleteByQuoteItem`: Help to add free gift by quote item Id
-  
-  ![](https://imgur.com/MnJUP2v.png)
