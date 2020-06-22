@@ -245,7 +245,7 @@ Go to **Magento Admin > System > Tools > Index Management**
 
 **Who Bought Also Bought** extension of Mageplaza supports using **REST API** to get a list of also bought products
 
-- More details see [here](https://documenter.getpostman.com/view/6685698/SW7eykoq?version=latest)
+- More details see [here](https://documenter.getpostman.com/view/10589000/SzRxXrBi?version=latest)
 - Instructions for creating tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html)
 
 ### 5.GraphQL
@@ -270,3 +270,5 @@ php bin/magento setup:static-content:deploy
   - To see the supported queries for **Who bought this item also bought GraphQL** of Mageplaza, you can look in `Docs > Query > mpalsobought` in the right corner
 
 ![](https://i.imgur.com/csZlYRT.png)
+
+- View Mageplaza supported GraphQl request [here](https://documenter.getpostman.com/view/10589000/SzRxXrBo?version=latest)
