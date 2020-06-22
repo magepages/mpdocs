@@ -196,7 +196,7 @@ From the Admin Panel, select `Marketing > Abandoned Cart Email > Cart Board`
   - **Converted**: Show the ordered cart.
   
 ### 7. API
-- Abandoned Cart Email extension by Mageplaza supports using rest API to recover shopping cart. You can see [more details here](https://documenter.getpostman.com/view/5977924/SWTEcvx1?version=latest).
+- Abandoned Cart Email extension by Mageplaza supports using rest API to recover shopping cart. You can see [more details here](https://documenter.getpostman.com/view/10589000/SzRyzVYP?version=latest).
 - Get instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
 
