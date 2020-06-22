@@ -1240,7 +1240,7 @@ From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity 
 
 - Refer [more rest APIs](https://documenter.getpostman.com/view/5977924/SWLbBAah?version=latest) here.
 
-- See how to create an API [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#web-api-access) and how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#integration-tokens).
+- See how to create an API [here](https://documenter.getpostman.com/view/10589000/SzRyzpwz?version=latest) and how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#integration-tokens).
 
 
 ### XI. Customer Frontend.
@@ -1331,5 +1331,5 @@ To start working with **Reward Points GraphQL** in Magento, you need to:
 - Use Magento 2.3.x. Return your site to developer mode
 - Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
 - Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-- The queries and mutations that Mageplaza support helps to see details of Transaction, Invitation, etc. through customer query, view Spending Point information, create Invite Email, and so on. More details can be found [here](https://documenter.getpostman.com/view/5977924/SzKSSzWe?version=latest).
+- The queries and mutations that Mageplaza support helps to see details of Transaction, Invitation, etc. through customer query, view Spending Point information, create Invite Email, and so on. More details can be found [here](https://documenter.getpostman.com/view/10589000/SzRyzpww?version=latest).
 
