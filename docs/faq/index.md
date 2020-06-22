@@ -70,7 +70,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * **Edit**: To edit a rule, admins need to choose `Edit` in the Action box (the last column on the right of the Grid)
     * **Instant Edit**: Admins can edit some fields of the Rule in the Grid by clicking the mouse to the field you want to edit. The Grid will change as the following:
     
-![](https://i.imgur.com/egCeiPP.png)
+![](https://i.imgur.com/0RQtga2.png)
 
 * Also, admins can filter, change Store View, hide/represent the columns or export Grid.
 
@@ -407,10 +407,8 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 * **Send an email to a customer when an answer is added**: Choose Yes to email the notification to customers when the answers are public and sent to the registered customers to receive the email
 * **Sender**: Allow choosing one in five senders that Magento offers: General Contact, Sales Representative, Customer Support, Custom Email 1, and Custom Email 2
-* **Template**:
-    * The extension is installed an available template to send to customers
-    * To change the FAQ Email Template, admins can create a new email template at the `Marketing > Email Template`
-    * Refer the guide to create a new email template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+* **Template**: The extension is installed an available template to send to customers
+  
     
 ##### 3.5.2. Email to Admin
 
@@ -418,10 +416,8 @@ Login to the Magento Admin, choose **Content > FAQs**
 
 * **Send an email to admins when a question is created**: Choose Yes to email the notification for admin when a question is submitted by customers.
 * **Send To**: Fill in the email that you want to get the notification when a question is submitted
-* **Template**:
-    * The extension is installed an available template to send to customers
-    * To change the FAQ Email Template, admins can create a new email template at the `Marketing > Email Template`
-    * Refer the guide to create a new email template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+* **Template**: The extension is installed an available template to send to customers
+    
 
 
 ### 4. Widget
@@ -449,10 +445,10 @@ Login to the Magento Admin, choose **Content > FAQs**
     
     ![](https://i.imgur.com/7UKoFiW.png)
     
-### 5. Rest Api
+### 5. API
 
-Mageplaza's FAQ extension supports users to use the **rest API** to make some requests, such as getting article/category information, creating new categories/article/questions or deleting categories/articles.
-- You can view the Rest Api request we support [here](https://documenter.getpostman.com/view/6685698/SzKSSyuQ?version=latest).
+Mageplaza's FAQ extension supports users to use the **API** to make some requests, such as getting article/category information, creating new categories/article/questions or deleting categories/articles.
+- You can view API requests we support [here](https://documenter.getpostman.com/view/10589000/SzRxXqod?version=latest).
 - See how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html#integration-tokens).
 
 ### 6. GraphQL
@@ -472,7 +468,7 @@ Mageplaza's FAQ extension supports getting categories, articles and creating que
 
 - Use Magento 2.3.x. Return your site to developer mode
 - Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
-- Refer the GraphQL requests we supports [here](https://documenter.getpostman.com/view/6685698/SzKSTKY6?version=latest).
+- Refer the GraphQL requests we supports [here](https://documenter.getpostman.com/view/10589000/SzRxXqof?version=latest).
 
 
 
