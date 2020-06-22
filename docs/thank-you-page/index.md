@@ -18,12 +18,12 @@ We also support the Newsletter Success page with similar features.
 ## How to configure
 From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
 
-![](https://i.imgur.com/yIfVzq3.png)
+![](https://i.imgur.com/FG93pDi.png)
 
 
 ### 1. Configuration
 
-![](https://i.imgur.com/XzEOZLM.png)
+![](https://i.imgur.com/lFspNmL.png)
 
 #### 1.1 General Configuration
 
@@ -34,10 +34,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
   
 #### 1.2 Order Success Page
 
-- **Enable**: Select `Yes` to show Thank You Page after customer placed orders 
-- **Route**
-  - Add the route for Thank You Page
-  - If you leave this field blank, the default route applied is: *mpthankyoupage* 
+**Enable**: Select `Yes` to show Thank You Page after customer placed orders 
 
 #### 1.3 Newsletter Success Page
 
@@ -160,7 +157,18 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
    
 #### Product Slider Block
 
-![](https://i.imgur.com/JzZjNGf.png)
+![](https://i.imgur.com/5V4BaLG.png)
+
+- **Enable** : Choose **Yes** to display Product Slider Block on Thank You Page
+- **Title**: 
+  - Enter a tilte for Product Slider Block
+  - The default title is `You may also like`
+- Limit the number of products
+  - Enter the number of product to dispaly
+  - The default number is 10
+- Display Information
+  - Select the information to display in the Product Slider Block. That can be **Add To Cart button**, **Add To Compare button**, **Add To Wishlist button**, **Review information section**,etc.
+  - You can choose to display multiple information
 
 
 #### Mageplaza FAQ block
