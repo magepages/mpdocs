@@ -2,6 +2,9 @@
 Google Tag Manager
 ==========
 
+Google Tag Manager User Guide now moved to https://docs.mageplaza.com/google-tag-manager/index.html
+-------------------
+
 Google Tag Manager is a free Google service to update and control all tags for your site quickly, so Magento extension supports to integrate it into Magento stores helping you improve your load site’s speed. Moreover, it is necessary for you to have good experience about coding because codes there are no requests for that but copying and pasting the available Google Tag code onto every your pages of the website.
 
 Set up in Google
