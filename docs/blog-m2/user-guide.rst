@@ -544,7 +544,7 @@ To perform GraphQL queries in Magento, the following requirements are required:
 
 .. image:: https://i.imgur.com/gJ3Dx0f.png
 
-- See Mageplaza supported GraphQL requests  `here <cumenter.getpostman.com/view/10589000/SzS1T8pe?version=latest>`_
+- See Mageplaza supported GraphQL requests  `here <https://documenter.getpostman.com/view/10589000/SzS1T8pe?version=latest>`_
 
 XII. Author in Frontend
 -----
