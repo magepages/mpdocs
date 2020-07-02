@@ -105,7 +105,7 @@ Product Detail Page contain posts can be added to Related Products to display in
 
 * In the **Enable Related Product** field: Choose “Yes” to show related products on Post View Page.
 
-* In the **Display Related Products Mode**: Set the Related Post at product page shown in grid or slider. 
+* In the **Display Related Products Mode**: Set the Related Post at Post View Page shown in grid or slider. 
 * In the **Limit of Related Products** field: Enter the number of related products can display. If you leave it blank, the default number is 12.
 * In the **Title of Related Products** field: Name the title of the block which contains related products. If you leave it blank, the default name is “Related Products”
 
