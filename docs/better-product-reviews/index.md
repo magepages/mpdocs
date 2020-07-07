@@ -124,14 +124,14 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
 - **Enable**: Select `Yes` to display the **Term and Condition** feature in the Review form
 - **Link Title**:
   - Enter a title for the Terms and Conditions section
-  - If you use the "%anchor%" variable in this field, the text entered at the **Anchor Text** field will be followed by the Title field's text.
+  - If you use the {{anchor}} variable in this field, the text entered at the **Anchor Text** field will be followed by the Title field's text.
 - **Anchor Text**
   - Enter the content displayed for this field
   - Content in this field will be paired with the **Title** field
 - **Anchor URL**:
   - Enter the URL where the store owner wants to redirect the user until clicking on the filled content at the **Anchor** field
   - If you leave this field blank then the field, the **Anchor Text field** will not have a link to click and is a regular text
-  - For example, in **Title field**: `I agree with the %anchor% of Services`, the **Anchor field** is filled with `Terms and Conditions` and the URL is filled with `https://domain.com/tos.html`, the results displayed outside the frontend will be:
+  - For example, in **Title field**: `I agree with the {{anchor}} of Services`, the **Anchor field** is filled with `Terms and Conditions` and the URL is filled with `https://domain.com/tos.html`, the results displayed outside the frontend will be:
   
 `I agree with the <a href="https://domain.com/tos.html"> Terms and Conditions </a> of Services`
 
