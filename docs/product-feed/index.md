@@ -99,7 +99,7 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 
 ##### Step 5: Enter the Category Map for products. Admins can choose and classific according to the availabe suggestions. For the categories with the same level, it will get the classification type of the top-level category.
 
-![](https://i.imgur.com/LH6uzeK.gif)
+![](https://i.imgur.com/PHwQmfF.gif)
 
 ##### Step 6: Setup the method to send the exported file
       
