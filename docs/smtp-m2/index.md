@@ -139,6 +139,18 @@ Still from the same structure with [SMTP](https://github.com/mageplaza/magento-2
 * In the **Username** field: This field allows you to fill in the Account name according to SMTP Provider format that you have selected.
 * In the **Password** field: This field enables you to fill the *Password of Username* that you have filled. After saving, Password will be encrypted into ******
 
+**Note**: 
+- When using Email to fill into Username and Password, the email has to be varified by 2-Step Verification, to do this, [click here.](https://myaccount.google.com/security?rapt=AEjHL4OumFM_5U-xFWKZPnTNhamVCHYLwj5GcbPfLJKyffMbPN42dbdRlpktlDL2MD8uSq_tdGTBqwqYXzVei_GhnAJTA7ewaQ)  
+- After clicking on the link, go to **Security** and choose 2-Step Varification
+ 
+ ![](https://i.imgur.com/wqXtNjK.png)
+- Click **Turn on** to complete this step
+
+![](https://i.imgur.com/2kLzTS1.png)
+- Next, you have to crease Passwords to sign-in Google accounts from app that do not support 2-Step Varification. So, Choose the apps and click on **Generate**
+
+![](https://i.imgur.com/TG7ZIee.png)
+
 * In the **Return-path email** field: Leave it empty if you want to ignore this.
 * In the **Send Test Email**: This is a field for you to test the operation of the extension.
   * Send From: Admins can choose one of the five Email Sender of Magento.
@@ -160,8 +172,6 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza > SMT
 * **Developer Mode**:
   * Yes: Magento will not deliver any email to the receiver
   * No: Magento will deliver email to the receiver
-
-
 
 
 ## Must-have extensions for your Magento stores
