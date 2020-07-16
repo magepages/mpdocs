@@ -22,6 +22,7 @@ Welcome to Mageplaza Docs
    layered-navigation-m2/index
    layered-navigation-pro/index
    layered-navigation-ultimate/index
+   loyalty-program/index
    ajax-layered-navigation/index
    reward-points/index
    reward-points-pro/index
