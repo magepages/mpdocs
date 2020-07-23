@@ -153,6 +153,7 @@ Welcome to Mageplaza Docs
    sms-notification/index
    social-share/index
    special-promotions/index
+   starter-pack/index
    store-locator/index
    store-switcher/index
    store-credit/index
