@@ -7,7 +7,7 @@ Backend Reindex by Mageplaza allows store admins to update individual or all ind
 ## How to download and install
 
 - Download Mageplaza Backend Reindex
-- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
+- How to Install
 
 
 ## How to Configuration 
