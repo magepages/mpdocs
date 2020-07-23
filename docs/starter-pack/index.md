@@ -1,4 +1,4 @@
-# Payment Suite
+# Starter Pack
 
 ## Overview
 [Mageplaza Starter Pack](https://www.mageplaza.com/magento-2-starter-pack/) is must-have a solution for all New Magento 2 stores. By providing the most basic important features for all new Magento 2 new merchants, Starter Pack enable your store to: 
