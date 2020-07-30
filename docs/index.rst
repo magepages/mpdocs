@@ -147,6 +147,7 @@ Welcome to Mageplaza Docs
    search-m2/index
    shop-by-brand-m2/index
    shipping-cost/index
+   shipping-pro/index
    shipping-rules/index
    shipping-restriction/index
    size-chart/index
