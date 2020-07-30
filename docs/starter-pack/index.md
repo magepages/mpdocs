@@ -1,7 +1,7 @@
 # Starter Pack
 
 ## Overview
-[Mageplaza Starter Pack](https://www.mageplaza.com/magento-2-starter-pack/) is must-have a solution for all New Magento 2 stores. By providing the most basic important features for all new Magento 2 new merchants, Starter Pack enable your store to: 
+[Mageplaza Starter Pack](https://www.mageplaza.com/magento-2-starter-pack/) is a must-have solution for all New Magento 2 stores. By providing the most basic important features, Starter Pack enable your store to: 
 - Rank at the high position on Google Search Engine Result Pages 
 - Allow customers to quickly find products without whole-page loading through layered navigation 
 - Help buyers to seamlessly add to cart then checkout successfully without any hesitation
