@@ -5,7 +5,6 @@ Webhook is the configuration that allows sending the API request to another serv
 
 ## Download & Install
 
-- [Mageplaza Webhook](https://www.mageplaza.com/magento-2-webhook/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/) 
 - [Avialable On Github](https://github.com/mageplaza/magento-2-webhook)
 
