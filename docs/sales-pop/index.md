@@ -2,9 +2,9 @@
 
 ## Overview
 
-[Mageplaza's Sales Pop Extension](https://www.mageplaza.com/magento-2-sales-pop/) allows Magento 2 websites to automatically show the message relating to current purchase by orther customers, updating the shopping trends of people via Popup. This module support displaying 3 types of Popup: Recent Sales, Checkout Total, Up-sell Product on pages: Home Page, Category, Product, View Cart, Checkout, so on. Popup can be displayed on both Desktop and Mobile at 4 different positions.
+Mageplaza's Sales Pop Extension allows Magento 2 websites to automatically show the message relating to current purchase by orther customers, updating the shopping trends of people via Popup. This module support displaying 3 types of Popup: Recent Sales, Checkout Total, Up-sell Product on pages: Home Page, Category, Product, View Cart, Checkout, so on. Popup can be displayed on both Desktop and Mobile at 4 different positions.
 
-Mageplaza Sales Pop extension is fully compatible with [Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/), [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), which supports viewing the full product details through the popup displayed on the screen and checkout more conveniently.
+Mageplaza Sales Pop extension is fully compatible with Mageplaza Quick View, One Step Checkout, which supports viewing the full product details through the popup displayed on the screen and checkout more conveniently.
 
 ## How to use
 
@@ -124,7 +124,7 @@ Here records information of different types of popup: **Recent Sales, Checkout I
     - **Select Page(s)**: Select the page to display the popup. You can select one or more pages in the Select Page field (s) to display a popup. Select Not Select if you do not want to display popups with certain pages in this field.
       - **Shopping Cart Page**: The Shopping Cart page will display a popup.
       - **Checkout Page**: show popup at checkout page.
-      - The extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), which helps customers pay quickly and conveniently in one page with all six steps. Display the popup at the checkout page of One Step Checkout:
+      - The extension is fully compatible with Mageplaza One Step Checkout, which helps customers pay quickly and conveniently in one page with all six steps. Display the popup at the checkout page of One Step Checkout:
       
 ![](https://i.imgur.com/EivcL5f.png)
 
@@ -213,7 +213,7 @@ After Click **Add A/B Testing** to create a **Child popup** and then will displa
 
 ### 3. Compatible Quick View
 
-Sales Pop is fully compatible with the [Mageplaza Quick View extension](https://www.mageplaza.com/magento-2-quick-view/) that will support viewing the full product details via the popup when clicking on the image of the product at popup.
+Sales Pop is fully compatible with the Mageplaza Quick View extension that will support viewing the full product details via the popup when clicking on the image of the product at popup.
 
 ![](https://i.imgur.com/K7zqF0u.gif)
 
