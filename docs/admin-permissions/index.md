@@ -2,11 +2,11 @@
 
 ## Overview
 
-With [Mageplaza Admin Permissions Extension](https://www.mageplaza.com/magento-2-admin-permissions/), you can easily set specific permissions for each admin. The admin users can be authorized to view order list, invoice or shipment by each store. Moreover, they can be allowed to added, view, edit, delete categories, product, customer, product attribute and user role. It is also possible to authorize logging in or not to log in according to the time frames of the day and day of the week.
+With Mageplaza Admin Permissions Extension, you can easily set specific permissions for each admin. The admin users can be authorized to view order list, invoice or shipment by each store. Moreover, they can be allowed to added, view, edit, delete categories, product, customer, product attribute and user role. It is also possible to authorize logging in or not to log in according to the time frames of the day and day of the week.
 
 ## How to download and install
 
-- [Download Mageplaza Admin Permissions](https://www.mageplaza.com/magento-2-admin-permissions/)
+- Download Mageplaza Admin Permissions
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
