@@ -2,9 +2,9 @@
 
 ## Overview
 
-[Mageplaza Table Rate Shipping](https://www.mageplaza.com/magento-2-table-rate-shipping/) supports merchants to create an unlimited number of flexible shipping methods with their own shipping rates. Magento 2 admin can use a combination of conditions: destination, cart weight, subtotal cart, quantity cart and shipping group of products to calculate shipping accurately. These methods and rates are displayed flexibly at the frontend, making shopping and shipping options of customers more convenient, helping merchants to bring the best services to customers.
+Mageplaza Table Rate Shippin, supports merchants to create an unlimited number of flexible shipping methods with their own shipping rates. Magento 2 admin can use a combination of conditions: destination, cart weight, subtotal cart, quantity cart and shipping group of products to calculate shipping accurately. These methods and rates are displayed flexibly at the frontend, making shopping and shipping options of customers more convenient, helping merchants to bring the best services to customers.
 
-The extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Mageplaza Shipping Rules](https://www.mageplaza.com/magento-2-shipping-rules/) and [Mageplaza Shipping Restrictions](https://www.mageplaza.com/magento-2-shipping-restrictions/)
+The extension is fully compatible with Mageplaza One Step Checkout, Mageplaza Shipping Rules and Mageplaza Shipping Restrictions.
 
 ## How to Use
 
