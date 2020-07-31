@@ -2,13 +2,12 @@
 
 ## Overview
 
-SecurePay is an online payment specialist and an Australian Post business that provides e-commerce payment solutions for businesses worldwide. Among many online payment solutions, Mageplaza does offer SecurePay - a complete online payment solution that will help users pay online by card or Paypal easily and securely. [SecurePay extension](https://www.mageplaza.com/magento-2-securepay/) offers customers more payment options such as Visa, MasterCard, American Express, Diners Club, JCB, Bankcard and PayPal. It also allows them to make online purchases instantly, which can help businesses convert more sales.
+SecurePay is an online payment specialist and an Australian Post business that provides e-commerce payment solutions for businesses worldwide. Among many online payment solutions, Mageplaza does offer SecurePay - a complete online payment solution that will help users pay online by card or Paypal easily and securely. SecurePay extension offers customers more payment options such as Visa, MasterCard, American Express, Diners Club, JCB, Bankcard and PayPal. It also allows them to make online purchases instantly, which can help businesses convert more sales.
 
-Mageplaza SecurePay extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+Mageplaza SecurePay extension is fully compatible with Mageplaza One Step Checkout
 
 ## Download and Install
 
-- [Download SecurePay extension](https://www.mageplaza.com/magento-2-securepay/)
 - [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 
