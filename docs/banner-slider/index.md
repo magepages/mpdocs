@@ -1,7 +1,7 @@
 # Banner Slider
 ## Overview
 
-**Magento 2 Banner Slider** is a powerful marketing tool that helps you create banner sliders with nice effects. Thanks to [Mageplaza Banner Slider](), you can customize the banners and sliders as you expect. Admins can easily choose the right place to display your desired banner, which can attract more eye-catching customers and encourage them to view banners as well as get the information you want to share.
+**Magento 2 Banner Slider** is a powerful marketing tool that helps you create banner sliders with nice effects. Thanks to Mageplaza Banner Slider, you can customize the banners and sliders as you expect. Admins can easily choose the right place to display your desired banner, which can attract more eye-catching customers and encourage them to view banners as well as get the information you want to share.
 
 Magento 2 Banner Slider Extension supports you to create carousel image slider, image scroll and LightBox video. Also, this extension also supports images. It's completely responsive on iPhone, iPad, Android, Firefox, Chrome, Safari, Opera and Internet Explorer.
 
