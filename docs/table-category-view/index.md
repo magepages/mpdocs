@@ -2,12 +2,12 @@
 
 ## Overview
 
-In order to shorten the shopping time and drive more conversions for Magento 2 stores, Mageplaza develops the [Table Category View extension](https://www.mageplaza.com/magento-2-table-category-view/). The module supports a new way of displaying a category page in a more detailed table compared to Magento 2. The table shows more fields: SKU, Short Description, Stock Status, Stock Alert, Qty. In addition, **Mageplaza Table Category View** also allows customers to add multiple products at the same time from the category page.
+In order to shorten the shopping time and drive more conversions for Magento 2 stores, Mageplaza develops the Table Category View extension. The module supports a new way of displaying a category page in a more detailed table compared to Magento 2. The table shows more fields: SKU, Short Description, Stock Status, Stock Alert, Qty. In addition, **Mageplaza Table Category View** also allows customers to add multiple products at the same time from the category page.
 
-Mageplaza Table Category View is fully compatible with [Configurable Product Grid View](https://www.mageplaza.com/magento-2-configurable-product-grid-view/), [Configurable Preselect](https://www.mageplaza.com/magento-2-configurable-preselect/), [Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/).
+Mageplaza Table Category View is fully compatible with Configurable Product Grid View, Configurable Preselect, Layered Navigation.
 
 ## Donwload and Install Guide
-- How to download [Table Category View extension](https://www.mageplaza.com/magento-2-table-category-view/)
+
 - How to [install Magento 2 extensions](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
