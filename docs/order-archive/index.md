@@ -2,13 +2,12 @@
 
 ## Overview
 
-Every day in online stores, there are many orders placed and processed, Magento's default Order Management Grid quickly becomes cluttered and difficult to control. Therefore, Admin must spend a long time to manage orders in his store. [Mageplaza Order Archive](https://www.mageplaza.com/magento-2-order-archive/) extension makes it possible for the admin to- manually or automatically- transfer orders in different states to the order storage (Order Archive), making order management easy and convenient. Admin will receive an email notification whenever the order is archived according to schedule. The order has been stored or not displayed in the Customer's Account, depending on the settings by admin. Furthermore, admins can also use the API to manage archived orders.
+Every day in online stores, there are many orders placed and processed, Magento's default Order Management Grid quickly becomes cluttered and difficult to control. Therefore, Admin must spend a long time to manage orders in his store. Mageplaza Order Archive extension makes it possible for the admin to- manually or automatically- transfer orders in different states to the order storage (Order Archive), making order management easy and convenient. Admin will receive an email notification whenever the order is archived according to schedule. The order has been stored or not displayed in the Customer's Account, depending on the settings by admin. Furthermore, admins can also use the API to manage archived orders.
 
-In addition, this extension is fully compatible with the [Mageplaza Delete Order](https://www.mageplaza.com/magento-2-delete-order/) extension, admins can delete the order even after it has been archived.
+In addition, this extension is fully compatible with the Mageplaza Delete Order extension, admins can delete the order even after it has been archived.
 
 ## How to download and install
 
-- [Download Mageplaza Order Archive](https://www.mageplaza.com/magento-2-order-archive/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
