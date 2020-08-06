@@ -14,6 +14,6 @@
 
 ## How to use 
 This solution contains 3 extensions. Please click on each link to see the User Guide of each extension:
-  - [Mageplaza Gift Cards - User Guide](https://docs.mageplaza.com/gift-card/index.html/)
+  - [Mageplaza Gift Cards - User Guide](https://docs.mageplaza.com/gift-card/index.html)
   - [Mageplaza One Step Checkout Ultimate - User Guide](https://docs.mageplaza.com/one-step-checkout-m2/index.html)
   - [Mageplaza Product Alerts - User Guide](https://docs.mageplaza.com/product-alerts/index.html)
