@@ -9,7 +9,7 @@
 - Boost sales and reduce abandonment cart rate ultimately
 
 ## Download & Install
-- [Download Mageplaza Shipping Pro](https://www.mageplaza.com/magento-2-selling-more/) 
+- [Download Mageplaza Selling More](https://www.mageplaza.com/magento-2-selling-more/) 
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use 
