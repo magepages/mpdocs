@@ -65,6 +65,7 @@ Welcome to Mageplaza Docs
    cartasi/index
    call-for-price/index
    catalog-permissions/index
+   checkout-flow-pro/index
    commweb/index
    configurable-products-preselect/index
    configurable-product-grid-view/index
