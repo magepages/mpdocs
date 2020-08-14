@@ -112,6 +112,7 @@ Welcome to Mageplaza Docs
    moneris/index
    multi-flat-rates/index
    multiple-coupons/index
+   multichannel-selling/index
    name-your-price/index
    order-archive/index
    order-attributes/index
@@ -144,6 +145,7 @@ Welcome to Mageplaza Docs
    securepay/index
    security-pro/index
    same-order-number/index
+   selling-more/index
    share-cart/index
    search-m2/index
    shop-by-brand-m2/index
