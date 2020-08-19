@@ -1,55 +1,116 @@
+# Delete Orders
 
-You need to know that Magento has the complex structure, and you implement any action which can also affect on the entire of system. Because of that, the deleting order directly in Magento database is very dangerous for your work. However, `Magento 2 Delete Order`_ extension is a safe solution when it is integrated into your store, and then you can remove order or test order easily as need by single or mass delete order.
 
-Enable Delete Order extension
----------------------------------
+## Overview
 
-Login to **Magento Admin > Delete Order > Settings**
+Every day there are many orders placed and processed. The management at the **Order Grid** in the Magento database are very risky and time-consuming for admins' work since they have to delete order one by one. The [Mageplaza Delete Order extension](https://www.mageplaza.com/magento-2-delete-orders/) makes it more convenient for the admin - either manually or automatically - to help them delete orders easily with a single or bulk delete command. Also, admin will receive an email notification when Order is Delete by schedule.
 
-.. image:: https://lh6.googleusercontent.com/p2rRLMCmrHHU1SVJWRadcb7bwVZz1nuDWL_CjwfDZ99uijYlU_sp4S2siNdjNwbYAU-CSNFT-Rr6fKfB87UtFWP0HpTEnHwJleLUJ90DwFZ9o5nS64f2OUUO1BO8_Gwfo_FjinDo
 
-Choose **Yes** to apply all features for your store.
+## How to download and install
 
-How to delete single order
------------------------------
+- [Download Mageplaza Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/)
+- [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
-* Login to **Magento Admin > Sales > Orders**
 
-.. image:: https://lh4.googleusercontent.com/aJMqeCIXw01Dywp3ctfq9RHEG1UzKitdSMBGDvKtkqhajuVB8MPC0VAFWqHfsfJ0b0vvekRBG5fna9fyiCqVUM5gIHQkwRYVdhv-RpRHL5KaUjGYcbOndD_wABCnQDGMW2mWWAdc
+## How to Configure
 
-* Select an order for deleting
+### I.Configuration
 
-.. image:: https://lh6.googleusercontent.com/oK58Nq4V5Q6m7dqMpBCEBZsoP4v0dlHxd2nlcSixCDvfv3UDP4qoFEFkkkuw5iiP9p3tVbZuMbSWx_6MwbKcbDC2uukfjjtvSgunAVAfkjWRO9uDZ1OkQH84jSGoOucr8zV3Mdu9
+From the **Admin panel**, go to `Stores > Configuration > Mageplaza > Delete Orders`.
 
-* Choose **Delete** item
+![](https://i.imgur.com/dFJpzZb.png)
 
-.. image:: https://lh6.googleusercontent.com/ex7o_MJ4ZanCpoTMe_Lao3nC6lDPFf_TeMzjkqtbf_MFRjbhlG8FXpaEGXeg_IAFkvrZ0rV3KqX5BXNxRGX411ZPGb4Hb8i5ON5p4X9nOGnqPcRQphifRUc8Gk_A40HnMcFpEmJr
+#### 1.General
 
-How to delete mass orders
----------------------------
+![](https://i.imgur.com/MvgjaEa.png)
 
-* Login to **Magento Admin > Sales > Orders**
+Select **Enable = Yes** to enable the module.
 
-* Select orders you want to remove
+#### 2. Automatic Delete Configuration
 
-.. image:: https://lh3.googleusercontent.com/W2IX9mxieYADnusM7NBJI48kOkNr8Q0UDJn_7gibFxdQznmx11RHaGTrQSu8Erb9YT8o8IUR-E816J3tdWoPtCe-IdR2WEM5tY_NdUbu_lF-ri3zXUkrlmyg9v-QwGQQxOY6S4WW
+![](https://i.imgur.com/1r50764.png)
 
-* Choose **Delete** item
+![](https://i.imgur.com/wsWjXc4.png)
 
-.. image:: https://lh6.googleusercontent.com/dEKPB6-CHXvvLUcguWL1dld_AvpI0aQvC0Fq_i2VI6xjxDwUD8m1LwCa6sanLCa7aUwprcVdNsTMBP_ZwakyDseBVI7zc5w4xNQcyyrOad45gRKhKoZZKX5LFIHcIrvF2YNRQ58v
+An Order can only be deleted automatically by schedule when and only if it satisfies all the conditions of Purchase Date, Order Status, Customer Group, Store View, Shipping Country, and Order Total.
 
-How to delete all orders
----------------------------
+- **Schedule For**:
+  - Set the schedule for delete order daily, weekly or monthly.
+  - With Daily, the schedule runs automatically by date.
+  - With Weekly, the schedule runs automatically on every Monday.
+  - With Monthly, the schedule runs automatically on the 1st of the month.
+  
+- **Start Time**:
+  - Set the starting time to delete order 
+  - By that time of day, the schedule will be run automatically.
+  
+- **Excluded Period**:
+  - Enter the period to apply to delete order before it. 
+  - For example, **Period = 10**, today is **December 31st, 2018**, all orders created before **December 21st, 2018** will be deleted (if they meet the conditions below).
+  
+- **Order Status**: Select order status to be applied Delete order. 
+  
+- **Customer Group(s)**: Choose the customer groups whose orders will be deleted auto by schedule
 
-* Login to **Magento Admin > Sales > Orders**
+- **Store View(s)**: Select Store view where Order is purchased to apply for Delete Orders
 
-* Select orders manually or click on **Select all** checkbox and then all orders are auto-selected
+- **Shipping Countries**:
+  - **All Countries**: Check all Orders.
+  - **Specific Country**: Check for orders with **Shipping Address** at Country selected.
+  
+- **Order Total less than**: Limit the order's Maximum Value to apply to delete order. 
 
-.. image:: https://lh4.googleusercontent.com/r4sVIw6BJkL4KQ1HUMc0ThcjFpeqLheAPiTZMt05ZrrL4YrldfYnbukrKA_WY0oXQJDxVZ2aBqUgEpiPlcuRev-G4RNcnD1m1G--qaLxb06HQAyj3PJD8Kj9dVkXOvH5LTsqstFJ
+- Besides delete orders automatically, Admin can also click the "Run Manually" button to delete specific orders that meet all conditions 
 
-* Choose **Delete** item
+- **Note**: Admin can also delete orders by using the command line `php bin/magento order:delete order_id`. For example Admin wants to delete the order with **ID = 15**, admin on the command line running the command `php bin/magento order:delete 15`.
 
-.. image:: https://lh5.googleusercontent.com/RYfjVWI2GYgDdw9nzslh0LYD335lvoWzhUQmDuO8fVkA0u1UAu0wxmtLXrJVSVLQH5knaQ7PhRxgtMUERFD8zajLDyoo0HayqAKjQ-toFEfiJDAuoNkXgvDPwZBJjO1G4jmXFksl
 
-.. _Magento 2 Delete Order: https://www.mageplaza.com/magento-2-delete-orders/
+#### 3. Email Notification
 
+![](https://i.imgur.com/1b3EGcY.png)
+
+- **Enable**: Select **yes** to enable email sending to Admin every time an Order is deleted (including manual or auto-deletion).
+
+- **Sender**: There are 5 default types of Magento Sender for Admin to choose: **General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2**.
+
+- **Email Template**:
+  - Choose the default email template to send email notification of delete order to admins
+  - To change Email Template, Admin can create another Email Template in `Marketing > Email Template`.
+  - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html).
+  
+- **Send To**:
+  - Insert the email who receive notification when Order is Delete.
+  - Each email =must be separated by commas (,).
+
+
+### II. Grid
+
+From **Admin panel**, go to `Sales > Orders`.
+
+![](https://i.imgur.com/e3SrAHU.png)
+
+- Admin can delete orders created by clicking on the order ID
+- In case Admin wants to delete all order, click **Select All**, the system will select all created orders.
+
+![](https://i.imgur.com/kg4ikwL.png)
+
+- After Select order, admin click `Action > Delete` to delete order.
+
+![](https://i.imgur.com/1NSnKah.png)
+
+- Also, Admin can delete order by clicking to **View** of the order.
+
+![](https://i.imgur.com/iuFrIGv.png)
+
+- Then click **Delete**.
+
+![](https://i.imgur.com/p7N4glD.png)
+
+- The system will show a popup, click **OK** to delete order
+
+![](https://i.imgur.com/SNDHFwT.png)
+
+
+### III. Email
+
+![](https://i.imgur.com/hjBYzVr.png)
