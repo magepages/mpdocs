@@ -79,7 +79,6 @@ Welcome to Mageplaza Docs
    custom-stock-status/index
    daily-deal/index
    delete-orders/index
-   delete-order-m2/index
    delivery-time/index
    email-attachments/index
    edit-order/index
