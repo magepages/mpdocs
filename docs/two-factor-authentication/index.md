@@ -89,11 +89,11 @@ Admins need to go to **Account Setting** to set **QR/Pin code**
 In case you cannot get the confirmation code to log in with 2FA, you can use the following command to disable this feature with your account.
 
 ```
-php bin/magento mageplaza/2fa:reset{{admin_username}}
+php bin/magento mageplaza-2fa:reset{{admin_username}}
 ```
 
 For example, if your admin account has an admin username, then you need to run the command:
-`php bin/magento mageplaza/2fa:reset admin`
+`php bin/magento mageplaza-2fa:reset admin`
 
 ![](https://imgur.com/pwd2o4o.png)
 
