@@ -174,6 +174,14 @@ From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Exten
 
 * **Enable**: Choose Yes to allow this module to work well.
 
+### 3. API
+
+Free Shipping Bar extension supports using Rest API to modify the free shipping bar information. Admins can create, adjust, view, delete and manage extension' information. 
+
+[View details here](https://documenter.getpostman.com/view/10589000/TVCY7CNb#887674fb-7cdd-46d5-87b3-f5aed3bd67ce)
+
+<a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html' target='_blank' rel='nofollow'>Creating Integration tokens guidlines</a>
+
 
 
 
