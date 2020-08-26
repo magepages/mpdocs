@@ -133,17 +133,6 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
 - **Total number of photos**
   - Select the image number displayed on frontend
   - The maximum number is 20
-- **Sort by**
-
-![](https://i.imgur.com/J6tZ66f.png)
-
-- **Sort by = Most recent**: Show the most recent products
-- **Sort by = Most liked**: Show the most liked products
-- **Sort by = Most commented**: Show the most commented products
-- **Sort by = Random**: Show random products
-
-`Note`: The images will always be selected as most recent products before examining this Short-by configuration setting. 
-
 - **Layout**
 
 ![](https://i.imgur.com/cxTACKL.png)
@@ -156,13 +145,6 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
       - The default number is 2 
   - *Layout = Optimized image*: Display the optimized product images
 
-- **Image resolutions**
-
-![](https://i.imgur.com/1bmDFp6.png)
-
-  - *Image resolutions = Standard*: Display images with standard resolution
-  - *Image resolutions = Low*: Display images with low resolution
-  - *Image resolutions = Thumbnail*: Display images with thumbnail
 - **Show number of Likes/ Comments**: Select `Yes` to allow displaying like and comment numbers on products
 - **Show pop-up**: Select `Yes` to allow displaying popup as clicking to images
 
