@@ -8,6 +8,11 @@
 
 - [Mageplaza Two-Factor Authentication](https://www.mageplaza.com/magento-2-two-factor-authentication/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/) 
+- **Note: With Magento versions under 2.4.0, you also need to install bacon-qr-code library via composer**
+
+```
+composer require bacon/bacon-qr-code
+```
 
 ## How to use
 
