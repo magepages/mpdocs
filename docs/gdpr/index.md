@@ -5,6 +5,8 @@ GDPR principle was created to protect customer data. In a nutshell, GDPR establi
 
 In order to capture the EU data protection standards, Mageplaza has released a new extension for this standard. That's the GDPR module. Magento 2 GDPR module will assist you deleting customer data permanently, to ensure your GDPR regulation compliance.
 
+Note: **[Update GDPR to the higher version here](https://www.mageplaza.com/faqs/can-i-upgrade-my-standard-edition-to-higher-package.html)**
+
 ## How to Configure
 From the Admin Panel, go to ``Store > Settings > Configuration > Mageplaza Extensions > GDPR``
 
