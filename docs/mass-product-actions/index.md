@@ -43,21 +43,21 @@ Click **Actions**, there, actions will be displayed according to **Enable Mass A
 
 #### 2.1. Change Attribute Set
 
-- Admin can **Change Attribute Set** for one or multiple orders by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can **Change Attribute Set** for one or multiple products by clicking on ticket box of each **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto-select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
 
 ![](https://i.imgur.com/DRF4rRj.png)
 
 ![](https://i.imgur.com/a80EfpM.png)
 
-After selecting the order, Admin click **Action** and select **Change Attribute Set**. The system will display a popup for admin to change product attributes.
+After selecting the product, Admin click **Action** and select **Change Attribute Set**. The system will display a popup for admin to change product attributes.
 
 #### 2.2 Quick Attributes Update
 
-- Admin can perform **Quick Attributes Update** for one or multiple orders by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Quick Attributes Update** for one or multiple products by clicking on the ticket box of each **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto-select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
 
 ![](https://i.imgur.com/QZvlwYd.png)
 
@@ -67,11 +67,11 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
 
 #### 2.3. Update Category
 
-- Admin can perform **Update Category** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Category** for one or multiple product by clicking on **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto-select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
 
-- After selecting the order, Admin click **Action** and select **Update Category**. The system will display a popup for admin to perform the action
+- After selecting the product, Admin click **Action** and select **Update Category**. The system will display a popup for admin to perform the action
 
 ![](https://i.imgur.com/iCFafpJ.png)
 
@@ -86,13 +86,13 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
   
   #### 2.4. Update Cross-sell Products
 
-- Admin can perform **Update Cross-sell Products** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Cross-sell Products** for one or multiple product by clicking on the ticket box of each **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
   
   ![](https://i.imgur.com/DTYWz7E.png)
 
-- After selecting the order, Admin click **Action** and select **Update Cross-sell Products**. The system will display a popup for admin to perform the action
+- After selecting the product, Admin click **Action** and select **Update Cross-sell Products**. The system will display a popup for admin to perform the action
 
 ![](https://i.imgur.com/lifi5Ho.png)
 
@@ -120,13 +120,13 @@ Admin can choose one or more products by clicking on the desired product and cli
 
 #### 2.5. Copy Custom Options
 
-- Admin can perform **Copy Custom Options** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto-select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Copy Custom Options** for one or multiple product by clicking on the ticket box off each **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto-select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
   
   ![](https://i.imgur.com/Q9gTNy0.png)
 
-After selecting the order, Admin click **Action** and select **Copy Custom Options**. The system will display popup for admin to perform the action
+After selecting the product, Admin click **Action** and select **Copy Custom Options**. The system will display popup for admin to perform the action
 
 ![](https://i.imgur.com/tfqYA87.png)
 
@@ -135,13 +135,13 @@ Admin can choose one or more products by clicking on the desired product and cli
 
 #### 2.6. Update Images
 
-- Admin can perform **Update Images** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Images** for one or multiple product by clicking on the ticket box of each **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
 
 ![](https://i.imgur.com/enRsaiZ.png)
 
-After selecting the order, Admin click **Action** and select **Update Images**. The system will display popup for admin to perform the action. Admin changes the product image by clicking **Remove all images of selected products/Copy image(s) from other product(s).
+After selecting the product, Admin click **Action** and select **Update Images**. The system will display popup for admin to perform the action. Admin changes the product image by clicking **Remove all images of selected products/Copy image(s) from other product(s).
 
 ![](https://i.imgur.com/GWfIKOD.png)
 
@@ -154,13 +154,13 @@ Admin can choose one or more products by clicking on the desired product and cli
 
 #### 2.7. Update Inventory
 
-- Admin can perform **Update Inventory** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Inventory** for one or multiple product by clicking on **product ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
   
   ![](https://i.imgur.com/Q9gTNy0.png)
 
-After selecting the order, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
+After selecting the product, Admin click **Action** and select **Update Inventory**. The system will display popup for admin to perform the action
 
 ![](https://i.imgur.com/BbVQDlD.png)
 
@@ -195,13 +195,13 @@ After selecting the order, Admin click **Action** and select **Update Inventory*
 
 #### 2.8. Update Price
 
-- Admin can perform **Update Price** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Price** for one or multiple product by clicking on **product ID**
+- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created productss.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
   
   ![](https://i.imgur.com/Q9gTNy0.png)
 
-After selecting the order, Admin click **Action** and select **Update Price**. The system will display popup for admin to perform the action
+After selecting the product, Admin click **Action** and select **Update Price**. The system will display popup for admin to perform the action
 
 ![](https://i.imgur.com/0OGkSYa.png)
   
@@ -269,13 +269,13 @@ After selecting the order, Admin click **Action** and select **Update Price**. T
 
 #### 2.9. Update Related Products
 
-- Admin can perform **Update Related Products** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Related Products** for one or multiple product by clicking on **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
 
 ![](https://i.imgur.com/m6rKuvN.png)
 
-After selecting the order, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
+After selecting the product, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
 
 ![](https://i.imgur.com/RK7wqDz.png)
 
@@ -303,14 +303,14 @@ Admin can choose one or more products by clicking on the desired product and cli
 
 #### 2.10. Update Up-sell Products
 
-- Admin can perform **Update Up-sell Products** for one or multiple order by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Up-sell Products** for one or multiple product by clicking on **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
 
 ![](https://i.imgur.com/m6rKuvN.png)
 
 
-After selecting the order, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
+After selecting the product, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
 
 ![](https://i.imgur.com/grcvlY4.png)
 
@@ -336,13 +336,13 @@ Admin can choose one or more products by clicking on the desired product and cli
   
 #### 2.11. Update Website
 
-- Admin can perform **Update Website** for one or multiple websites by clicking on **order ID**
-- In case Admin wants to do mass action for all order, click **Select All**, the system will auto select all created orders.
-  - Click **Select All on This Page**, the system will select all orders displayed on the grid.
+- Admin can perform **Update Website** for one or multiple websites by clicking on **product ID**
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
   
 ![](https://i.imgur.com/kkVm4OB.png)
 
-After selecting the order, Admin click **Action** and select **Update Websites**. The system will display popup for admin to choose actions to update websites
+After selecting the product, Admin click **Action** and select **Update Websites**. The system will display popup for admin to choose actions to update websites
 
 ![](https://i.imgur.com/tIbtS8A.png)
 
