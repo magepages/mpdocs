@@ -155,5 +155,10 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 
 ![](https://i.imgur.com/xABHYpB.png)
 
+### 2. Rest API 
+
+Mageplaza Age Verification supports Rest API to get data of Age Varification. You can view and manage information of the extension. View details [here](https://documenter.getpostman.com/view/10589000/TVK76LAL) 
+
+View Guidlines to create Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html). 
 
 
