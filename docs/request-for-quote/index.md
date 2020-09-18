@@ -94,7 +94,7 @@ The system automatically redirects to **My Quote Cart** page. Here, display info
 ## How to Configure
 ### I. Configuration
 
-Login to the Magento Admin, go to `Marketing > Request For Quote > Configuration`.
+Login to the Magento Admin, go to `Marketing > Quote Request List > Configuration`.
 
 ![](https://i.imgur.com/fXVzbuf.png)
 
@@ -110,19 +110,19 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 - Select **All Categories**: Request for quote will be applied to all products in all categories.
 - Select **Specific Categories**: The module automatically displays the **Select Categories** field. Admin selects the categories so that the products in that category are applied Request for quote.
 - **Enable For Customer Group**: Admin selects a group of customers that can request for quote.
-- **Allow Guest Request**: Select **Yes** to allow customers who do not have an account to make a request. When the customer clicks on the **Add To Quote** button, the system will ask the customer to loggin.
-- **Allow File Attachment**: Choose **Yes** to allow customers to upload the file for the request.
-- **Allow File Types**: Admin enters file formats for the file to be uploaded in the message area.
-- **Add to cart Redirect Page**: Admin selects the redirected page when clicking **Add to cart** to the **My Quote Cart** page.
+- **Display For Guest**: Select **Yes** to allow customers who do not have an account to make a request. When the customer clicks on the **Add To Quote** button, the system will ask the customer to loggin.
+- **Allow Requesters To Attach Files**: Choose **Yes** to allow customers to upload the file for the request.
+  - **Allow File Types**: Admin enters file formats for the file to be uploaded in the message area. This field only shows up when **Allow Requesters To Attach Files** = Yes
+  - Add-to-cart Redirect Page**: Admin selects the redirected page when clicking **Add to cart** to the **My Quote Cart** page.
 
 
 #### 2. Expiration Setting
 
-![](https://i.imgur.com/oLpSjpa.png)
+![](https://i.imgur.com/BtdDcIy.png)
 
-- **Quote Expired After**: Admin enter the number of expiration dates for the quote. Leaving the request blank mean that no expiration limited.
+- **Approved Quotes Expire After**: Admin enter the number of expiration dates for the quote. Leaving the request blank mean that no expiration limited.
   - *Note: When quote expires, the system will automatically send notification email to customer.*
-- **Quote Reminder Send Before**: Admin enter the number of days to send a reminder email before the quote expires.
+- **Quote RemindersSend Before**: Admin enter the number of days to send a reminder email before the quote expires.
 
 #### 3. Email Setting
 
@@ -273,3 +273,15 @@ Click **Cancel** to cancel the action.
 The **Add To Quote** button is displayed on the **Quick Order** page when you use the Quick Order and Request For Quote extensions together. This support helps customers' operations more quickly.
 
 ![](https://i.imgur.com/CgUR0Oo.png)
+
+### III. Rest API
+
+Mageplaza Request For Quote extension allows customers to use Rest APi to practise requests realted to Quote such as adding products to quote, deleting items in the quote, updateting quote, canceling/deleting quotes that have been summited, uploading files, creating reply for conversations, getting quote/conversation information. Moreover, when you using both Quick Order extension and Request for Quote extension, you can add items form the quote to Quick Order. 
+
+See details request Rest API supported by Mageplaza [here](https://documenter.getpostman.com/view/10589000/T17Na4ek?version=latest).  
+
+View Rest API Guidelines for Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). 
+
+See guidelines to create tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
+
+
