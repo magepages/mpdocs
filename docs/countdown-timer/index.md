@@ -214,3 +214,19 @@ From the **Admin Panel**, go to `Content > Elements > Widget`, select **Add new 
 ![](https://i.imgur.com/zQlFV5j.png)
 
 #### Step 6: Save widget and check the store frontend
+
+### 5. Rest API 
+
+Mageplaza Coutdown Timer extension supports Rest API to add data to Countdown Timer. This enables store owers to create, edit, view, delete, manage information of the extension. 
+Chi tiết có thể xem tại đây.
+
+View guildlines to create tokens [here.](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html) 
+
+Note: Get Products Guest vs Get Products Mine 
+- The field Date will be plused 1 day in comparison with the date in admin setting
+For example: **To date** in admin is 2020/09/30 23:59:59; API is 00:00:00. So this equals that the due date is 01/10/2020 
+
+- There are 2 keys: type và id, in which, type has value = 0 and 1. This means Display On = Category and Product Page. 
+
+For example:  type= 1, id= 14 (product id). Countdown Timer of that product is displayed. 
+
