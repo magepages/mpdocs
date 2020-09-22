@@ -71,7 +71,17 @@ From the **Admin panel**, go to `Store > Configuration > Mageplaza Extensions > 
 
 At **Products Grid**, admin can set Tier Price for **multiple products** at the same time by selecting the desired product, then selecting **mass action Update Attributes**, on the **Tier Price** tab. At this tab will display the same Tier Price setting as when creating Tier Price for each product above.
 
-### 3. Frontend
+### 3. Rest API
+
+Mageplaza Better Tier Price extension allows customers to use Rest APi to get information of the extension in product. 
+
+See details request Rest API supported by Mageplaza [here](https://documenter.getpostman.com/view/10589000/T1LFpApq?version=latest).  
+
+View Rest API Guidelines for Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html).
+
+View Rest API Guidelines for Magento 2 [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
+
+### 4. Frontend
 
 ![](https://i.imgur.com/U8FdCSf.png)
 
