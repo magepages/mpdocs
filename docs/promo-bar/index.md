@@ -227,10 +227,6 @@ Save and check at the frontend.
 
 IV. REST API
 
-Promo Bar extension của Mageplaza hỗ trợ sử dụng Rest API để thêm data Free Shipping bar cho phép tạo, chỉnh sửa và thông qua Rest API có thể xem, xóa và quản lý thông tin của extension.
-Chi tiết có thể xem tại đây.
-Hướng dẫn tạo Integration tokens tại đây.
-
 Mageplaza Promo Bar supports users in using REST API to add data to Free Shipping Bar. You can add/edit/view/delete the information of the extension. 
 
 View more details [here](https://documenter.getpostman.com/view/10589000/TVKEXxWj).
