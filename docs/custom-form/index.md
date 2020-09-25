@@ -145,10 +145,13 @@ After saving the Form, the **General Tab** will display the **Snippet section**.
 ##### 2.2.3 Email Notification
 
 - **Admin Notification**:
-  - Include email settings such as **Admin Notification** in Configuration
+  - Include email settings such as **Admin Notification** in Configuration. There is one additional "Send Time" to set the sending time for admin notification emails.
+  - Send Time has 2 option: Daily and Immediately. 
+  - **Daily**: send daily emails
+  - **Immediaetly**: send emails right after customers submit the form
   - Admin can use the default settings in Configuration or change depending on the form
   
-  ![](https://i.imgur.com/TtcihOA.png)
+  ![](https://i.imgur.com/YbkAHTU.png)
 
 - **Auto-responder**
   - Include email settings such as Auto-responder in Configuration
@@ -165,7 +168,7 @@ After saving the Form, the **General Tab** will display the **Snippet section**.
 - Admin can **Load Template** and **Preview** immediately
 - A form can have multiple pages, each page can have multiple groups, each group can contain multiple fields
 - Admin can **Add New** or **Duplicate** any field/ group/ page
-- We offer more than 10 types of fields: **Text, Text Area, Dropdown, Checkbox, Radio, Date Time, Grid, Upload File, Agreement, Rating Star, Google Map**
+- We offer more than 12 types of fields: **Text, Text Area, Dropdown, Checkbox, Radio, Date Time, Grid, Upload File, Policy Checkbox, Star Rating , Google Map, HTML**
 
 See the instruction video here:
 
@@ -184,8 +187,10 @@ See the instruction video here:
   - Field Type is **Date Time**. Admin can change Type to Date only, Time only or both Date Time
   - **Grid includes 2 types**: **Grid Checkbox** (Each row is selected in multiple column options) or **Grid Radio** (Each row is only selected in 1 column option)
   - **Upload File**: Set maximum capacity and upload file type
-  - **Agreement**: Including 2 types: **Redirect to url** or **Popup**
+  - **Policy Checkbox**: Including 2 types: **Redirect to url** or **Popup**
   - **Rating Star**: Set the maximum number of stars and the default stars number
+  - **HTML**: enter the HTML codes presenting the content should be shown in the form. With the field *HTML*, when submitting form, it will not be shown in the Response but the content in the form
+    - For example: when creating the form, you enter the code `Mageplaza`, then in the form, the text "Mageplaza" will be shown 
 - After installing all the fields, admin can click **Preview** to see how the Form is displayed in Frontend
   
 ##### 2.2.5. Responses Summary
