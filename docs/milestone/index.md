@@ -184,8 +184,10 @@ From the Admin Panel, go to `Customers > Milestone > Manage Logs`
 Mageplaza Milestone Extension supports usigng REST API to perform some requests related to extension: get rule information, create/update/delete rule, customers can view their customer groups. 
 
 View details of requests suppoerted by Mageplaza Milestone Extension [here](https://documenter.getpostman.com/view/10589000/T1LJm8wp?version=latest) 
-View Magento 2 REST API Guildlines [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html)
-View REST API Guidlines to create tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html)
+
+View Magento 2 REST API Guidelines [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html).
+
+View REST API Guidelines to create tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
 
 
 
