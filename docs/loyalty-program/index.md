@@ -189,3 +189,12 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Manage Customer`
 - Here showing customer information in their Loyalty Program
 - From **Manage Customer**, admin can have basic customer information such as: ID, Customers Name, Email, Customer Group, Loyalty Program, Expired Date, Action.
 - In addition, admin can filter, change the storeview, show/hide the column. 
+
+### 3. REST API 
+
+Mageplaza Loyalty Program support users in using REST API to perform actions related to Loyalty Program: using admin access to get information of Loyalty Program, add/edit/delete Loyalty Program, add customer to Loyalty Program , using customer access to get information of Customer's Loyalty Program Dashboard &Change Email Notify 
+
+View details of requests supported by Mageplaza Loyalty Program [here](https://documenter.getpostman.com/view/10589000/T1DmEepF?version=latest)
+
+View REST API Guidelines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View guidelines to create tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html). 
+
