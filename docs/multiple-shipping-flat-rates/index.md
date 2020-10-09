@@ -4,7 +4,7 @@
 
 **Multiple Shipping Flat Rates extension** gives your store more choices about the shipping method. Thanks to this module, you can apply different delivery rates to different countries. It not only helps increase the conversion rate but also boost your sale significantly.
 
-*Note*: Magento 2 Custom Order Number can be used with multiple stores. Multiple stores module:
+*Note*: Magento 2 Multiple Shipping Flat Rates can be used with multiple stores. Multiple stores module:
 - This extension is applied to multiple stores.
 - Stores are set the default as the Default Configuration.
 - To change the configuration for each store, need to remove tick at Use Website on the right of each option.
