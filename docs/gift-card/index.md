@@ -682,7 +682,7 @@ Clicking the ``Import`` button is the final steps!
 
 ### X. API Document
 
-**Mageplaza Gift Card Extension** supports retrieving and pushing data onto the website using the **REST API**. Please check [this document](https://documenter.getpostman.com/view/6425904/SW7gSPUb) for more details of supported APIs
+**Mageplaza Gift Card Extension** supports retrieving and pushing data onto the website using the **REST API**. Please check [this document](https://documenter.getpostman.com/view/10589000/SzYXWeVY?version=latest) for more details of supported APIs
 
 
 ### XI. GraphQL Document
