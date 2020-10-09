@@ -200,9 +200,10 @@ From the Admin Panel, go to `Store > One Step Checkout > Manage Fields`, drag At
   
   ![](https://i.imgur.com/UL64zJv.png)
 
+### 3. REST API
 
+Mageplaza's Customer Attributes support the user to perform actions against attributes through the REST API: admin authority can obtain information about the customer attributes and customer address attributes, customer and guest permissions can upload file for Media Image attribute and Single File Attachment while checking out order.
 
-
-
-
+- Find the details of the request that Customer Attributes of Mageplaza supports [here](https://documenter.getpostman.com/view/10589000/T1DqgH2g?version=latest)
+- See the Magento 2 REST API tutorial [here.](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html) See the token generation instructions [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html)
 
