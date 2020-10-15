@@ -402,7 +402,8 @@ This section saves the card information that the customer has ordered:
 
 ### 8. How to install Worldpay library
 
-- Create folder: `lib/internal/Mageplaza`
-- Access [this link](https://gitlab.com/users/sign_in) to download Worldpay library
-- Extract **module-worldpay-library** into `lib/internal/Mageplaza` and rename the extracted file to for example: Worldpay.
+You need to run this command to install Worldpay library: 
 
+`
+composer require worldpay/worldpay-lib-php
+`
