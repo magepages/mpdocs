@@ -29,12 +29,8 @@ The Instagram Feed supports displaying your Instagram photos on the homepage, pr
 
 ![](https://i.imgur.com/LxPEF9f.png)
 
-### 4. Show Likes/Comments
 
-
-![](https://i.imgur.com/ZYSYcwr.png)
-
-### 5. Show Popup when licking to the images
+### 4. Show Popup when licking to the images
 
 ![](https://i.imgur.com/7UB5bj5.png)
 
@@ -145,6 +141,5 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
       - The default number is 2 
   - *Layout = Optimized image*: Display the optimized product images
 
-- **Show number of Likes/ Comments**: Select `Yes` to allow displaying like and comment numbers on products
 - **Show pop-up**: Select `Yes` to allow displaying popup as clicking to images
 
