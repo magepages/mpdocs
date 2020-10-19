@@ -282,3 +282,12 @@ Admin can help customers to register to receive notifications by entering custom
 ### III. Compatible with One Step Checkout
 
 ![](https://i.imgur.com/5pLVWAu.png)
+
+### IV. REST API 
+
+Mageplaza SMS Notification supports using REST API to perform some requests: Register Notification, Check Verify, Send OTP, Verify Telephone
+
+View requests supported Mageplaza SMS Notification [here](https://documenter.getpostman.com/view/10589000/T1LPCRuN?version=latest). 
+
+View REST API guidellines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View create token guidelines [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html). 
+
