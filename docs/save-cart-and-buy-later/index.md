@@ -49,6 +49,14 @@ From the Admin Panel, go to `Customers > All Customers > Edit Customers > Buy La
   
 ![](https://i.imgur.com/sAkOGnF.png)
 
+### 3. REST API
+
+Mageplaza Save Cart And Buy Later supports using REST API to perform requests such as admin can get information of configuration of Save Cart And Buy Later; customers can use requests related to Save Cart and Save Product sections. 
+
+View requests supports by Mageplaza Save Cart And Buy Later [here](https://documenter.getpostman.com/view/10589000/T1DiEfN8?version=latest)
+
+View REST API guidelines of Magento 2 [here.](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View create tokens guidelines [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
+
 ## Frontend
 
 ### 1. Link to Dashboard
@@ -108,3 +116,6 @@ When clicking **Save**, you will be redirected to the **Buy Later Notes** page a
   - **Action Copy Link**: Customers can copy the link and share this Saved Product to another person.
   - **Action Restore**: Customers will transfer Items in the Saved Products to the current Shopping Cart.
   - **Action Delete**: Customers can delete this Saved Product.
+  
+
+
