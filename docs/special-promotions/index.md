@@ -166,3 +166,11 @@ Please look at the below table, we will guide you to set up some typical rules b
 
 ![](https://i.imgur.com/xWHPJH8.png)
 
+### 4. REST API
+
+Mageplaza Special Promotions supports using REST API to show information of discount promotions and details about the discount in cart. 
+
+View REST API requests supported by Mageplaza Special Promotions [here](https://documenter.getpostman.com/view/10589000/TVCiTmeZ). 
+
+View REST API guidelines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View create token guildlines [here.](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).  
+
