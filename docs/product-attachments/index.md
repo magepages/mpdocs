@@ -197,20 +197,10 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * After importing, Product Attachment files are stored in `Manage General File`
 * To know more Magento's import, please visit [here](https://www.mageplaza.com/kb/how-to-import-products-magento-2.html)
 
+### 6. REST API
 
+Mageplaza Product Attachments supports using REST API to perform some requests: get information of product's attachment, allow customers or guests to download product's attachment.
 
+View requests supported by Mageplaza [here](https://documenter.getpostman.com/view/10589000/T17Na4t5?version=latest).
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+View REST API guidelines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View create token guidelines [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
