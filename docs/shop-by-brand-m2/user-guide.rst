@@ -318,6 +318,7 @@ Shop By Brand Extension form Mageplaza does support API which allows users:
 * Get the brand's information assigned to the product according to the product's sku
 * Get a list of feature brands
 * Search for brands by name
+- Get brand configuration
 
 Guide to create token, please see `here`_
 
@@ -347,6 +348,4 @@ Mageplaza's Shop By Brand extension supports store admins to get rule's informat
 To start working with **Shop By Brand GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
-- Supported GraphQl requests can be viewed  `here`_
-
-.. here : https://documenter.getpostman.com/view/10589000/SzRxXr2y?version=latest
+- Supported GraphQl requests can be viewed at this link: https://documenter.getpostman.com/view/10589000/SzRxXr2x?version=latest
