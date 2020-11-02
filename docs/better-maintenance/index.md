@@ -226,3 +226,17 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 - **Meta Description**: Enter Meta Description for Coming Soon Page. This will support better SEO
 - **Meta Keywords**: Enter Meta Keyword for Coming Soon Page. This will support better SEO
 - **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview** page has the same content as Frontend. If the admin uploads files, need to save the configuration before previewing.
+
+### 5. API
+Mageplaza’s Better Maintenance extension supports the use of the Rest API to view a list of configuration details.
+View details can be [here](https://documenter.getpostman.com/view/10589000/TVYJ7Hep).
+View guidelines for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 6. GraphQL
+To start working with Sales Pop GraphQL in Magento, please do the following requirements:
+- Use Magento 2.3.x. Return your site to developer mode: php bin/magento deploy:mode:set developer.
+- Set GraphQL endpoint as http://<magento2-3-server>/graphql in url box.
+- Create Integration Token
+
+Details can be viewed [here](https://documenter.getpostman.com/view/10589000/TVYJ7Heq)
+
