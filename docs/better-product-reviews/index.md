@@ -240,3 +240,5 @@ To start working with **Better Product Reviews GraphQL** in Magento, you need to
 - In addition, you can create reviews from products and to see if mutations are supported to create reviews from **Mageplaza's Better Product Reviews GraphQL**, you can look at the top right corner of `Docs > Mutation > Create a new Review`.
 
 ![](https://i.imgur.com/zgmHrt1.png)
+
+You can view details [here](https://documenter.getpostman.com/view/10589000/TVYGcdFp). 
