@@ -74,8 +74,6 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
   
   ![](https://i.imgur.com/9erBAwa.png)
 
-- **Note**: If you do not want to display Stock Status Label on any page you can select Please Select. You can choose to display on one or multiple pages.
-
 - **Admin Order Page**: displays the message Stock Status Label in the backend with the pre-order products
 
 ![](https://i.imgur.com/rehRy8e.png)
@@ -104,8 +102,6 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 - You can install Mageplaza One Step Checkout to make the payment steps convenient, fast and compact in 6 steps.
 
 ![](https://i.imgur.com/BNLWhlD.png)
-
-- **Note**: If you do not want to display the Checkout Notice on any page you can select Please Select. You can choose to display on one or multiple pages.
 
 - **Checkout Notice**:
   - Add **Checkout Notice** to display notifications for pre-order products when customers checkout.
@@ -199,7 +195,6 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 
 ![](https://i.imgur.com/tFGNcdw.png)
 
-- **Note**: If you do not want to display **Stock Status Label** on any page you can select **Please Select**. You can choose to display on one or multiple pages.
 - **Cart Item Notification**:
   - Entering **Cart Item Notification** will be displayed on the shopping cart page. Example: Sorry, we do not have as many {{name}} as you requested, so we will back the quantity to {{qty}} items.
   - If empty, **Magento Backorder notification** will be shown. Available variables:
@@ -244,3 +239,34 @@ Login to the **Magento Admin**, choose `Catalog > Product > Edit Product > Advan
 - Into the database to delete: Access to eav_attribute table. In the attribute_code column, you find and delete the attribute `mppo_add_to_cart_label`, `mppo_stock_status_label` and `mppo_delivery_date`
 
 ![](https://i.imgur.com/vfY0S2u.png)
+
+### 3. REST API
+Mageplaza Pre Order Extension support using REST API to perform endpoints api which get information related to products, cart, orders available in Mageplaza Pre Order extension.  
+View detailed endpoints supported by Mageplaza Pre Order Extension [here](https://documenter.getpostman.com/view/10589000/TVYDfLBx).
+
+View REST API guidelines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View guidelines to create token [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
+
+### 4. GraphQL
+
+#### 4.1. How to install
+
+Run the following command in Magento 2 root folder:
+
+`composer require mageplaza/module-pre-order-graphql`
+
+`php bin/magento setup:upgrade`
+
+`php bin/magento setup:static-content:deploy`
+
+Note: Magento 2 Pre Order GraphQL requires installing Mageplaza Pre Order in your Magento installation.
+
+#### 4.2. How to use
+
+To perform GraphQL queries in Magento, please do the following requirements:
+
+- Use Magento 2.3.x or higher. Set your site to developer mode.
+
+- Set GraphQL endpoint as http://<magento2-server>/graphql in url box, click Set endpoint. (e.g. http://dev.site.com/graphql)
+
+- View details of queries supported by  Mageplaza Pre Order GraphQL extension [here](https://documenter.getpostman.com/view/10589000/TVYKZwEg)
+
