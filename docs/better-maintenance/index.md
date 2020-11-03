@@ -233,7 +233,7 @@ View details can be [here](https://documenter.getpostman.com/view/10589000/TVYJ7
 View guidelines for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
 ### 6. GraphQL
-To start working with Sales Pop GraphQL in Magento, please do the following requirements:
+To start working with Better Maintenance GraphQL in Magento, please do the following requirements:
 - Use Magento 2.3.x. Return your site to developer mode: php bin/magento deploy:mode:set developer.
 - Set GraphQL endpoint as http://<magento2-3-server>/graphql in url box.
 - Create Integration Token
