@@ -2,7 +2,7 @@
 
 ## Overview
 
-Westpac is Australia's most trusted payment processing provider. [Mageplaza Westpac PayWay](https://www.mageplaza.com/magento-2-westpac/) extension will help you use Westpac to support online payment by card. Your customers can pay with Visa and Mastercard by default and can pay with American Express, Diners Club and JCB after being activated by Westpac. Mageplaza Westpac PayWay extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+Westpac is Australia's most trusted payment processing provider. [Mageplaza Westpac PayWay](https://www.mageplaza.com/magento-2-westpac-payway/) extension will help you use Westpac to support online payment by card. Your customers can pay with Visa and Mastercard by default and can pay with American Express, Diners Club and JCB after being activated by Westpac. Mageplaza Westpac PayWay extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## How to use
 
