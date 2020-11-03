@@ -121,7 +121,28 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
 * **Heading Text Color**: This field specifies the text color of the Heading Text.
 * **Heading Background Button**: This field specifies the color of buttons in the frontend.
 
+### Rest API
+Mageplaza Quick Order extension support the use of REST API to view information of products in quick order. Besides, extension supports adding and deleting products to/from quic order directly via API requests. 
 
+View details [here](https://documenter.getpostman.com/view/10589000/TVYDezUh)
+
+View guidelines to create Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### GraphQL
+
+Run the following command in Magento 2 root folder:
+
+`composer require mageplaza/module-quick-order-graphql`
+
+`php bin/magento setup:upgrade`
+
+`php bin/magento setup:static-content:deploy`
+
+To start working with Report Pro GrahpQL in Magento, you need to follow these requests: 
+- Use 2.3.x. Take the site back to **Developer mode**
+- Place GraphQL endpoint as http://<magento2-3-server>/graphql on URL field, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql)
+
+View details of queries supported by Mageplaza Quick Order [here](https://documenter.getpostman.com/view/10589000/TVYDfKW9)
   
 
 
