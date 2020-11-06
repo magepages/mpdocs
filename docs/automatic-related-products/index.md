@@ -331,7 +331,7 @@ php bin/magento setup:static-content:deploy
 
 ```
 
-**Mageplaza’s Size Chart** allows admins to get the rule’s information through **GraphQL**.
+**Mageplaza’s Automatic Related Products** allows admins to get the rule’s information through **GraphQL**.
 
 To start working with Automatic Related Product GraphQL in Magento, you need to:
 
