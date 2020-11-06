@@ -227,5 +227,5 @@ php bin/magento setup:static-content:deploy
 - Use Magento 2.3.x. Return your site to developer mode
 - Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
 - Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
-- Currently, Mageplaza Free Gifts extension support the following queries and mutations: Gift By Product SKU, get Gifts By Quote Item, Add Gift By ID, Delete Gift By Quote Item ID,etc. View more details [here](cumenter.getpostman.com/view/10589000/SzRyzpwr?version=latest)
+- Currently, Mageplaza Free Gifts extension support the following queries and mutations: Gift By Product SKU, get Gifts By Quote Item, Add Gift By ID, Delete Gift By Quote Item ID,etc. View more details [here](https://documenter.getpostman.com/view/10589000/SzRyzpwr?version=latest)
   
