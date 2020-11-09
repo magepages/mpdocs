@@ -314,7 +314,7 @@ echo $productList;
 
 ### 8. API
 
-**Automatic Related Product extension by Mageplaza** supports the use of Rest API to add data size chart to each individual product or all products. Also, by **Rest APT**, you can get, create or delete the rule’s information
+**Automatic Related Product extension by Mageplaza** supports the use of Rest API to get information of rules, update statistics of rules (CTR, impressions, clicks) and keep track of activities of module. 
 
 Details can be viewed <a href='https://documenter.getpostman.com/view/10589000/SzfCVSAN?version=latest' target='_blank' rel='nofollow'>here</a>
 
