@@ -383,7 +383,7 @@ There is something wrong with the sitemap generation. Please check and try again
 
 Admin can help customers to register to receive notifications by entering customer phone number at backend. 
 
-![](https://i.imgur.com/mCX3dTW.png)
+![](https://i.imgur.com/IHLW3PX.png)
 
 ### IV. REST API 
 
