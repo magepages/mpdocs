@@ -33,14 +33,14 @@ Refer Friend Page
 
 Affiliate module by Mageplaza allows affiliate refer friends via referral url, code and email. 
 
-.. image:: https://i.imgur.com/B4VRIzq.png
+.. image:: https://i.imgur.com/Ek3ovNz.png
 
 Just insert friends' email addresses together with message to send invitation instantly on **Refer Friend page**.
 
 My Withdrawal Page
 ````````````````````
 
-.. image:: https://i.imgur.com/O4RnMKe.png
+.. image:: https://i.imgur.com/Df5RpcR.png
 
 Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in progress.
 
@@ -56,13 +56,13 @@ How to Configure
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Affiliate > Configuration`
 
-.. image:: https://i.imgur.com/0uQYsSN.png
+.. image:: https://i.imgur.com/yfRslc7.png
 
 
 1. Configuration
 ``````````````````````````````
 
-.. image:: https://i.imgur.com/Ockt6Oa.png
+.. image:: https://i.imgur.com/DinGzpp.png
 
 1.1. General 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -76,6 +76,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * If skip it, the default (365) is used, that means Lifetime Commissions can be active.
   
 * **Allow overriding cookies**: Choose **Yes** to override Affiliate code when a customer is referred by many Affiliates. 
+
+* **Allow using Afiliate Code as Coupon:** Select **Yes** to allow using Affiliate code for discount. This usgae is available in Shopping Cart Page and Checkout Page
 
 * **Show Affiliate link on**: Choose the display position of the Affiliate link
 
@@ -144,10 +146,12 @@ For example: refer code is 123, Custom parameter is abc
 1.2. Account Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/HjU8a3e.png
+.. image:: https://i.imgur.com/vNTXg3O.png
 
 1.2.1. Affiliate Sign up
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/zXsEaeU.png
 
 * **Default Affiliate Group**
 
@@ -161,6 +165,8 @@ For example: refer code is 123, Custom parameter is abc
 
 1.2.2.Terms and Conditions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/VBCsDTM.png
 
 * **Enable Terms and Conditions**: Choose Yes to display Terms and Conditions in the Sign Up section which is outside the frontend
 
@@ -179,6 +185,8 @@ For example: refer code is 123, Custom parameter is abc
 1.2.3. Account Balance
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/xuTckKG.png
+
 * **Maximum of Affiliate Balance**
 
   * Enter the Maximum of Affiliate Balance
@@ -192,7 +200,7 @@ For example: refer code is 123, Custom parameter is abc
 1.3. Commission Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/VHPXbyX.png
+.. image:: https://i.imgur.com/qdMOWLI.png
 
 * **Earn commission from tax**: Choose Yes to earn commission from tax
 
@@ -220,16 +228,30 @@ For example: refer code is 123, Custom parameter is abc
   * Choose **Yes** to allow deducting the commission from the balance of the  branch when the order is refunded or canceled
   
   * The default allows deducting
-  
-  
-1.4. Withdrawal Configuration
+
+1.4 Discount Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/1poa1lR.png
+.. image:: https://i.imgur.com/6qNXie4.png
+
+* **Apply Discount for Tax:** Choose **Yes** to allow applying discount for Tax
+* **Apply Discount for Shipping Fee:** Choose **Yes** to allow applying discount for Shipping Fee
+* **Limit Discount For Order:**
+  * **Limit Discount For Order = No:** No limit discount for order 
+  * **Limit Discount For Order = Fixed Amount:** Limit discount for order with a fixed amount
+  * **Limit Discount For Order = Percentage of Order Total:** Limit discount amount according to a fix percentage of the total order amount
+* **Limit Value:** is displayed when the Discount Limit field for Orders is a Fixed Amount or Percent of Total Orders  
+  * Enter a limit value for the discount
+
+  
+1.5 Withdrawal Configuration
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/GAYK2yo.png
 
 * **Allow withdrawal request**: Select **Yes** to display the withdrawal request outside the frontend
 
-* **Payment Method**
+* **Withdraw Methods**
 
   * There are three withdraw methods which are Offline payment, Bank Transfer and Paypal payment
   
@@ -255,10 +277,10 @@ For example: refer code is 123, Custom parameter is abc
   
   * The withdraw fee will be included in here
 
-1.5. Email Configuration
+1.6 Email Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/1DsCf51.png
+.. image:: https://i.imgur.com/707TiDC.png
 
 * **Email Sender**
 
@@ -266,8 +288,10 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default email sender is: General Contact 
 
-1.5.1. Account Email
+1.6.1. Account Email
 ~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/agQk3nY.png
 
 * **Send Welcome Email**: Choose **Yes** to send the email when an  account registered as an Affiliate account
 
@@ -283,8 +307,10 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default content of the template is Welcome Email After Account Approved (Default)
   
-1.5.2. Transaction Email` section
+1.6.2. Transaction Email` section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/41mGbNl.png
 
 * **Send Transaction Email**: Select **Yes**  to send a notification email whenever there is a transaction
 
@@ -294,8 +320,10 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default content of the template is Update Balance Email (Default)
 
-1.5.3. Withdrawal Email
+1.6.3. Withdrawal Email
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/21Y0deY.png
 
 * **Send Withdrawal Email**: Select **Yes** to send a notification email when you withdraw money
 
@@ -305,10 +333,10 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default content of the template is Withdraw Complete Email (Default)
 
-1.6. Refer Friends Configuration
+1.7. Refer Friends Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/Msmg2xS.png
+.. image:: https://i.imgur.com/G7OBWDv.png
 
 * **Enable Refer Friends Feature**: Choose **Yes** to activate the introduce to friends function
 
@@ -349,10 +377,10 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default key used is **a473483c2e256bd812bdc9a0bac867ecf1999a54**
 
-1.6.1. Sending Email Content
+1.7.1. Sharing Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/gWSLuL6.png
+.. image:: https://i.imgur.com/77PPzTk.png
 
 * **Default Subject Email**
 
@@ -439,11 +467,15 @@ For example: refer code is 123, Custom parameter is abc
 
 With Affiliate Standard, the system creates a Campaign by default, you can edit this campaign's information to match your store development strategy.
 
-.. image:: https://i.imgur.com/z6thKwa.png
+.. image:: https://i.imgur.com/We0xq7A.png
+
+*To create multiple Campaigns for your store, you can update your version to [Affiliate Pro](https://www.mageplaza.com/magento-2-affiliate-extension/#)
 
 * **Edit Campaigns**
 
   * **Step 1: Fill in the Campaign Information** 
+  
+  .. image:: https://i.imgur.com/We0xq7A.png
   
   * **Step 2: Choose the conditions for applying the campaign**
   
@@ -454,7 +486,7 @@ With Affiliate Standard, the system creates a Campaign by default, you can edit 
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/uZEBybr.png
+.. image:: https://i.imgur.com/4MGXyi4.png
 
 * **Name** 
   * Name your campaign
@@ -475,6 +507,12 @@ Step 1: Fill in the Campaign Information
   * Choose the group you want to conduct the campaign
     
   * This is another required field
+  
+* **Referred Customer Groups:** 
+
+  * Choose referred customer group that can use the campaign 
+  * This field is required 
+
     
 * **Display**
   
@@ -505,7 +543,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/4LIRPke.png
+.. image:: https://i.imgur.com/RkicJuZ.png
 
 * **Apply**
 
@@ -515,11 +553,9 @@ Step 3: Set up the Discount
   
 * **Discount Amount**: Insert the amount or the percentage of discount for purchasing
 
-* **Apply to Shipping Amount**: Choose **Yes** to apply discount for shipping
-
-* **Apply Discount On Tax**: Choose **Yes** to apply discount for taxable payment 
-
 * **Discount Description**: Insert the description for your discount policy
+
+*  **Discard Subsequent Rules:**: No perform discount rules of the campaign that have lower priorities when applying the campaign (the standard version can use only 1 campaign)
 
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -622,7 +658,7 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 * On the grid, find the Affiliate account needed to assign and open the **Edit** mode
 
-* Choose the Affiliate group to assign. By the default, **Genera** is chosen
+* Choose the Affiliate group to assign. By the default, **General** is chosen
 
 .. image:: https://cdn.mageplaza.com/docs/aff-assign-to-affiliate-group.gif
 
@@ -661,7 +697,7 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 .. image:: https://i.imgur.com/v0aXJNY.png
 
-7.2 Notification emails for Affiliate account aproval
+7.2 Notification emails for Affiliate account approval
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/BuHof4t.png
