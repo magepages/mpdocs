@@ -33,7 +33,7 @@ Refer Friend Page
 
 Affiliate module by Mageplaza allows affiliate refer friends via referral url, code and email. 
 
-.. image:: https://i.imgur.com/HhAoIdc.png
+.. image:: https://i.imgur.com/MZ7zmah.png
 
 Just insert friends' email addresses together with message to send invitation instantly on **Refer Friend page**.
 
@@ -73,7 +73,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1. Configuration
 ``````````````````````````````
 
-.. image:: https://i.imgur.com/iGBmuOr.png
+.. image:: https://i.imgur.com/ypSoHoa.png
 
 1.1. General 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -109,7 +109,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.1.1. Default Page
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/QqvpyBq.png
+.. image:: https://i.imgur.com/hzmuTkM.png
 
 * **Affiliate homepage content**
 
@@ -204,7 +204,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.3. Commission Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/UHgtUsX.png
+.. image:: https://i.imgur.com/Ox8dAeV.png
 
 * **Earn commission from tax**: Choose Yes to earn commission from tax
 
@@ -237,7 +237,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.4. Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/9utFjNm.png
+.. image:: https://i.imgur.com/19KdEPC.png
 
 * **Allow withdrawal request**: Select **Yes** to display the withdrawal request outside the frontend
 
@@ -532,7 +532,7 @@ Step 3: Set up the Discount
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/CcF0v23.png
+.. image:: https://i.imgur.com/HHXJ68z.png
 
 * There are two commision types:
 
@@ -781,7 +781,6 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 .. image:: https://i.imgur.com/JF485Db.png
 
-* **Account** 
 
   * Click to this field to show the affiliate account and then you can choose the account to add transaction in
   
