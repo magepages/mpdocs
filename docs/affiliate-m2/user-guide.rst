@@ -185,7 +185,7 @@ For example: refer code is 123, Custom parameter is abc
 1.2.3. Account Balance
 ~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/xuTckKG.png
+.. image:: https://i.imgur.com/ao90C4s.png
 
 * **Maximum of Affiliate Balance**
 
@@ -228,36 +228,21 @@ For example: refer code is 123, Custom parameter is abc
   * Choose **Yes** to allow deducting the commission from the balance of the  branch when the order is refunded or canceled
   
   * The default allows deducting
-
-1.4 Discount Configuration
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-.. image:: https://i.imgur.com/6qNXie4.png
-
-* **Apply Discount for Tax:** Choose **Yes** to allow applying discount for Tax
-* **Apply Discount for Shipping Fee:** Choose **Yes** to allow applying discount for Shipping Fee
-* **Limit Discount For Order:**
-  * **Limit Discount For Order = No:** No limit discount for order 
-  * **Limit Discount For Order = Fixed Amount:** Limit discount for order with a fixed amount
-  * **Limit Discount For Order = Percentage of Order Total:** Limit discount amount according to a fix percentage of the total order amount
-* **Limit Value:** is displayed when the Discount Limit field for Orders is a Fixed Amount or Percent of Total Orders  
-  * Enter a limit value for the discount
-
   
-1.5 Withdrawal Configuration
+1.4 Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/GAYK2yo.png
+.. image:: https://i.imgur.com/9ea8VtH.png
 
 * **Allow withdrawal request**: Select **Yes** to display the withdrawal request outside the frontend
 
-* **Withdraw Methods**
+* **Payment Methods**
 
   * There are three withdraw methods which are Offline payment, Bank Transfer and Paypal payment
   
   * Enter the withdrawal fee for each form of withdrawal. You can enter the charge as a specific amount or a percentage of the total amount withdrawn
  
-  * To allow displaying a withdraw's form outside the frontend, select **Active = Yes** corresponding to that form
+  * To allow displaying a withdraw’s form outside the frontend, select Active = Yes corresponding to that form
   
 * **The minimum balance in affiliate account for requesting withdrawal** 
 
@@ -277,7 +262,7 @@ For example: refer code is 123, Custom parameter is abc
   
   * The withdraw fee will be included in here
 
-1.6 Email Configuration
+1.5 Email Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/707TiDC.png
@@ -288,7 +273,7 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default email sender is: General Contact 
 
-1.6.1. Account Email
+1.5.1. Account Email
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/agQk3nY.png
@@ -336,7 +321,7 @@ For example: refer code is 123, Custom parameter is abc
 1.7. Refer Friends Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/G7OBWDv.png
+.. image:: https://i.imgur.com/uNkYjwl.png
 
 * **Enable Refer Friends Feature**: Choose **Yes** to activate the introduce to friends function
 
@@ -377,7 +362,7 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default key used is **a473483c2e256bd812bdc9a0bac867ecf1999a54**
 
-1.7.1. Sharing Content
+1.6.1. Sending Email Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/77PPzTk.png
@@ -475,7 +460,7 @@ With Affiliate Standard, the system creates a Campaign by default, you can edit 
 
   * **Step 1: Fill in the Campaign Information** 
   
-  .. image:: https://i.imgur.com/We0xq7A.png
+  .. image:: https://i.imgur.com/loqAD3l.png
   
   * **Step 2: Choose the conditions for applying the campaign**
   
@@ -543,7 +528,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/RkicJuZ.png
+.. image:: https://i.imgur.com/LOkF48R.png
 
 * **Apply**
 
@@ -665,7 +650,7 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 6.2. Add New Transaction
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/JF485Db.png
+.. image:: https://i.imgur.com/zm3y5a0.png
 
 * **Account** 
 
