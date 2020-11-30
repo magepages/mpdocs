@@ -33,14 +33,14 @@ Refer Friend Page
 
 Affiliate module by Mageplaza allows affiliate refer friends via referral url, code and email. 
 
-.. image:: https://i.imgur.com/tGXGZ9h.png
+.. image:: https://i.imgur.com/Ek3ovNz.png
 
 Just insert friends' email addresses together with message to send invitation instantly on **Refer Friend page**.
 
 My Withdrawal Page
 ````````````````````
 
-.. image:: https://i.imgur.com/Df5RpcR.png
+.. image:: https://i.imgur.com/87CVkxZ.png
 
 Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in progress.
 
@@ -153,7 +153,7 @@ For example: refer code is 123, Custom parameter is abc
 1.2.1. Affiliate Sign up
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/zXsEaeU.png
+.. image:: https://i.imgur.com/acGQ87U.png
 
 * **Default Affiliate Group**
 
@@ -234,7 +234,7 @@ For example: refer code is 123, Custom parameter is abc
 1.4 Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/9ea8VtH.png
+.. image:: https://i.imgur.com/7nPlsxL.png
 
 * **Allow withdrawal request**: Select **Yes** to display the withdrawal request outside the frontend
 
@@ -297,7 +297,7 @@ For example: refer code is 123, Custom parameter is abc
 1.6.2. Transaction Email` section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/41mGbNl.png
+.. image:: https://i.imgur.com/nOw54YA.png
 
 * **Send Transaction Email**: Select **Yes**  to send a notification email whenever there is a transaction
 
@@ -310,7 +310,7 @@ For example: refer code is 123, Custom parameter is abc
 1.6.3. Withdrawal Email
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/21Y0deY.png
+.. image:: https://i.imgur.com/kmVzM09.png
 
 * **Send Withdrawal Email**: Select **Yes** to send a notification email when you withdraw money
 
@@ -461,9 +461,7 @@ With Affiliate Standard, the system creates a Campaign by default, you can edit 
 * **Edit Campaigns**
 
   * **Step 1: Fill in the Campaign Information** 
-  
-  .. image:: https://i.imgur.com/loqAD3l.png
-  
+
   * **Step 2: Choose the conditions for applying the campaign**
   
   * **Step 3: Set up Discount**
@@ -530,7 +528,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/LOkF48R.png
+.. image:: https://i.imgur.com/WI0v00S.png
 
 * **Apply**
 
