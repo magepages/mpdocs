@@ -83,7 +83,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
   * `Show Affiliate link on = Footer Link`: Display the Affiliate link in the bottom of the page
   
-  * `Show Affiliate link on = Top Link`: Display the Affiliate link in the top of the page along with the link **My Account**
+  * `Show Affiliate link on = Top Link`: Display the Affiliate link in the top of the page along with the link 
+  
+* **My Account**
 
   * You can choose to display in both positions
   
