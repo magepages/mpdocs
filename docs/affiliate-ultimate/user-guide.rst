@@ -32,7 +32,7 @@ Refer Friend Page
 
 Affiliate module by Mageplaza allows affiliate refer friends via referral url, code and email. 
 
-.. image:: https://i.imgur.com/iev4cun.png
+.. image:: https://i.imgur.com/AfvQnKT.png
 
 Just insert friends' email addresses together with message to send invitation instantly on **Refer Friend page**.
 
@@ -72,7 +72,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1. Configuration
 ``````````````````````````````
 
-.. image:: https://i.imgur.com/Ockt6Oa.png
+.. image:: https://i.imgur.com/DdsW4Jb.png
 
 1.1. General 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,6 +86,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * If skip it, the default (365) is used, that means Lifetime Commissions can be active.
   
 * **Allow overriding cookies**: Choose **Yes** to override Affiliate code when a customer is referred by many Affiliates. 
+
+* **Allow using Affiliate Code as Coupon**: Select Yes to allow using Affiliate code for discount. This usgae is available in Shopping Cart Page and Checkout Page
 
 * **Show Affiliate link on**: Choose the display position of the Affiliate link
 
@@ -108,6 +110,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.1.1. Default Page
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/YnS7MIK.png
+
 * **Affiliate homepage content**
 
   * Select CMS Block for Affiliate homepage content
@@ -116,6 +120,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 1.1.2. Affiliate URL
 ~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/tgtpEey.png
 
 * **URL Style**: Choose the type to display URL
 
@@ -147,8 +153,12 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.2. Account Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/JSvFq1o.png
+
 1.2.1. Affiliate Sign up
 ~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/RiE2H61.png
 
 * **Default Affiliate Group**
 
@@ -162,6 +172,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 1.2.2.Terms and Conditions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/QqiXJyC.png
 
 * **Enable Terms and Conditions**: Choose Yes to display Terms and Conditions in the Sign Up section which is outside the frontend
 
@@ -180,6 +192,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.2.3. Account Balance
 ~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/Rz79hY9.png
+
 * **Maximum of Affiliate Balance**
 
   * Enter the Maximum of Affiliate Balance
@@ -192,6 +206,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 1.3. Commission Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/N8P7PIJ.png
 
 * **Earn commission from tax**: Choose Yes to earn commission from tax
 
@@ -224,6 +240,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.4. Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/szOHroB.png
+
 * **Allow withdrawal request**: Select **Yes** to display the withdrawal request outside the frontend
 
 * **Payment Method**
@@ -255,6 +273,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.5. Email Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/URmq1XH.png
+
 * **Email Sender**
 
   * Select the email sender
@@ -263,6 +283,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 1.5.1. Account Email
 ~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/PIGz38i.png
 
 * **Send Welcome Email**: Choose **Yes** to send the email when an  account registered as an Affiliate account
 
@@ -281,6 +303,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.5.2. Transaction Email` section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/CzEMkwj.png
+
 * **Send Transaction Email**: Select **Yes**  to send a notification email whenever there is a transaction
 
 * **Update Balance Email**
@@ -292,6 +316,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.5.3. Withdrawal Email
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/nmhJwAH.png
+
 * **Send Withdrawal Email**: Select **Yes** to send a notification email when you withdraw money
 
 * **Withdrawal Complete Email**
@@ -302,6 +328,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 1.6. Refer Friends Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/s0fQaP9.png
 
 * **Enable Refer Friends Feature**: Choose **Yes** to activate the introduce to friends function
 
@@ -323,6 +351,15 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * If empty, default Public AddThis ID **ra-56e141d56e895f5c** will be used
   
+* **AddThis.com Classname**: allows to display the social share button in the Referral Via Social Networks outside the frontend. Enter the class name AddThis. You can go to your AddThis.com account, then click Get the code in the upper right corner, then scroll down to the Setup Inline Tools section, you will see the screenshot as below:
+
+.. image:: https://i.imgur.com/XY6xIdH.png
+
+  * If this field is left blank, the system will use the default value addthis_sharing_toolbox
+  * Display the social button share at Referral Via Social Networks outside the frontend:
+
+.. image:: https://i.imgur.com/pE3cjdp.png
+
 * **Use Cloudsponge to retrieve email contacts**: Select **Yes** to allow access contacts from customer's account such as Gmail, Yahoo, Live, AOL, Outlook, etc.
 
 * **Cloudsponge Key**
@@ -333,6 +370,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 1.6.1. Sending Email Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/ATjpXrQ.png
 
 * **Default Subject Email**
 
@@ -381,13 +420,11 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 
 * **Status**
 
-.. image:: https://i.imgur.com/dGspIbc.png
-
-  * *Status = Active*: The Affiliate account which is just created can start working now
+  * Status = Active: The Affiliate account which is just created can start working now
   
-  * *Status = Inactive*: The Affiliate account which is just created can't start working yet
+  * Status = Inactive: The Affiliate account which is just created can't start working yet
   
-  * *Status = Need Approved*: The Affiliate account which is just created needs to be approved by admin
+  * Status = Need Approved: The Affiliate account which is just created needs to be approved by admin
   
 * **Email Notification**: Choose **Yes** to receive notification emails when there is a change in your Affiliate account balance
 
@@ -484,7 +521,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/4LIRPke.png
+Step 4: Set up the Commission
 
 * **Apply**
 
@@ -503,7 +540,7 @@ Step 3: Set up the Discount
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/v1XYDwa.png
+.. image:: https://i.imgur.com/fK5MCkt.png
 
 * There are two commision types:
 
@@ -512,6 +549,10 @@ Step 4: Set up the Commission
   * **Fixed amount**: Commission is a fixed amount
   
 * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
+
+* Action = Delete: click Delete button in each Tier to delete it
+
+* Add button: Click Add button to create new Tier
 
 4.2 Add New Campaigns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -792,7 +833,7 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 .. image:: https://i.imgur.com/IpPg0ZN.png
 
 
-8.3 Notification emails for changing the Afiliate account balance
+8.3 Notification emails for changing the Affiliate account balance
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/c0iqHoi.png
@@ -869,7 +910,7 @@ In this field, admin can view the sales and the commission of related Affiliate 
 
 .. image:: https://i.imgur.com/zac0KJ9.png
 
-* Also, please refer the guide on how to create API `right here <https://devdocs.magento.com/guides/v2.3/get-started/rest_front.html>`_ and creating token-based authentication `here <https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html>`_ 
+* You can see some syntaxes that we list `here <https://documenter.getpostman.com/view/10589000/TVRpzjwy>`_ . Also, please refer the guide on how to create API `right here <https://devdocs.magento.com/guides/v2.3/get-started/rest_front.html>`_ and creating token-based authentication `here <https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html>`_.
 
 
 11. Import/Export
