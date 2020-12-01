@@ -86,7 +86,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * If skip it, the default (365) is used, that means Lifetime Commissions can be active.
   
-* **Allow overriding cookies**: Choose **Yes** to override Affiliate code when a customer is referred by many Affiliates. 
+* **Allow overriding cookies**: Choose **Yes** to override Affiliate code when a customer is referred by many Affiliates.
+
+* **Allow using Affiliate Code as Coupon**: Select Yes to allow using Affiliate code for discount. This usgae is available in Shopping Cart Page and Checkout Page
 
 * **Show Affiliate link on**: Choose the display position of the Affiliate link
 
