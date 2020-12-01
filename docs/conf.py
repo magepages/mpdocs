@@ -58,8 +58,8 @@ source_parsers = {
 master_doc = 'index'
 
 # General information about the project.
-project = u'Magento 2 Extension by Mageplaza'
-copyright = u'2017, Mageplaza '
+project = u'User Guide - Mageplaza'
+copyright = u' Mageplaza '
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
