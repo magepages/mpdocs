@@ -225,7 +225,7 @@ Save and check at the frontend.
 
 ![](https://i.imgur.com/WZvPNPL.png)
 
-IV. REST API
+## IV. REST API
 
 Mageplaza Promo Bar supports users in using REST API to add data to Free Shipping Bar. You can add/edit/view/delete the information of the extension. 
 
@@ -233,7 +233,7 @@ View more details [here](https://documenter.getpostman.com/view/10589000/TVKEXxW
 
 View guidelines to create Integration Tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html)
 
-V. GraphQL
+## V. GraphQL
 
 Run the following command in Magento 2 root folder:
 
@@ -250,4 +250,4 @@ To start working with Promo Bar GraphQL in Magento, you need to:
 
 - Use Magento 2.3.x or higher. Set your site to developer mode.
 - Set GraphQL endpoint as http://<magento2-server>/graphql in url box, click Set endpoint. (e.g. http://dev.site.com/graphql)
-- The queries and mutations that Mageplaza support can be used to view the details here.
+- The queries and mutations that Mageplaza support can be used to view the details [here.](https://documenter.getpostman.com/view/10589000/TVepA8tv)
