@@ -13,7 +13,7 @@ Furthermore, Gift Card extension allows store owners can send to their customer 
 ### I. For customers
 Customers are able to manage their gift cards at:
 
-![](https://i.imgur.com/n99dHjm.png)
+![](https://i.imgur.com/k3ARvkL.png)
 
 * ``Account > My Gift Card``
   * Ability to  **Check**, **Add to list** and **Redeem** gift cards
@@ -23,11 +23,11 @@ Customers are able to manage their gift cards at:
   * Click here for more information
 * In **View Cart Page**: Customers can use available Gift Cards, Gift Cards in the Saved List or Gift Credit as a discount on the order total.
 
-![](https://i.imgur.com/deIqPNE.png)
+![](https://i.imgur.com/W7UiLdH.png)
 
 * In **Checkout Page**: Similar to the View Cart, if the customer wants to change the Gift Card or Gift Credit, they can also edit in the last step.
 
-![](https://i.imgur.com/RYru3IN.png)
+![](https://i.imgur.com/9AJPfKN.png)
 
 ### II. For admins
 * Admins can use **Gift Card** or **Gift Credit** when they create a new order
@@ -56,10 +56,11 @@ At ``Mageplaza > Gift Card: Configuration`` to have an overview look in the exte
 ##### 1.1.1. General 
 Follow the path ``Mageplaza > Gift Card: Configuration > General Configuration``
 
-![](https://i.imgur.com/NaT65QQ.png)
+![](https://i.imgur.com/ae7ghpI.png)
 
 * In the **Module Enable** field: choose “Yes” to turn the module on.
 * In the **Gift Code Pattern** field: Is the common pattern of generated codes. When creating a Gift Code or a Gift Code Pool, admins can change this template as their desire.
+* In the **Allowed maximum times to enter the gift code incorrectly** field: Enter the maximum number of times that the wrong code is allowed. If left blank or filled in 0, customers will be allowed to enter the wrong code with unlimmited times. The lock time is 5 minutes, after 5 minutes, the customer can continue to enter the new code. 
 * In the **Enable Gift Card Credit** field: Select “Yes” so the customer can use their Gift Card. Then **Gift Card Can Be Redeem** section will be displayed.
 * In the **Gift Card Can Be Redeem** field: 
   * Only visible when admin set Enable Gift Card Credit = Yes.
@@ -69,7 +70,7 @@ Follow the path ``Mageplaza > Gift Card: Configuration > General Configuration``
 ##### 1.1.2. Gift Code Hidden Configuration
 Expand the ``General Configuration > Gift Code Hidden Configuration``
 
-![](https://i.imgur.com/lVdsGey.png)
+![](https://i.imgur.com/bqjR2TK.png)
 
 * This is an additional module of **General Configuration**
 * In the **Enable** field
@@ -84,34 +85,33 @@ Expand the ``General Configuration > Gift Code Hidden Configuration``
   * If you leave it blank, nothing will be displayed
 * In the **Hidden character** field
   * This is the hidden symbol covering characters in the Gift Code
-  * If you leave it blank, the default symbol will be “X”
+  * If you leave it blank, the default symbol will be “*”
   
 *An example of a Saved Gift Card List. When customers click on the Hidden Code, the entire code will be displayed*
-![](https://i.imgur.com/lJcVsYE.png)
+![](https://i.imgur.com/UAKCx5c.png)
 
 *View Cart Page*
-![](https://i.imgur.com/NS0nvyd.png)
+![](https://i.imgur.com/HGtTvRZ.png)
 
 *Checkout page*
-![](https://i.imgur.com/wypNblj.png)
+![](https://i.imgur.com/gjWD1F2.png)
 
 *The email sent to senders*
-![](https://i.imgur.com/agY8q2F.png)
+![](https://i.imgur.com/Xurxglz.png)
 
 #### 1.2. Gift Card Product configuration
 
 ##### 1.2.1. General
 This is where you can set up fews of basic configuration for Gift Card Product ``Mageplaza > Gift Card: Configuration > Gift Card Product Configuration``
 
-![](https://i.imgur.com/xrSWg8q.png)
+![](https://i.imgur.com/DHhTJhX.png)
 
 * In the **Gift Card Lifetime** field: It’s the place to set the expiration date of a gift card purchased by a customer. 
-* In the **Tooltip Upload Image**: Set the tool tip content shown at upload image for Gift Card product. Leave this field blank to disable this function.
 * In the **Enable Delivery Time** field 
   * Select “Yes” to display **Delivery Date** on the frontend Gift card Product page. This also allows the customer to choose the gift card delivery date as they wish.
   * When you select “Yes”, **Customer Can Select Timezone** section is displayed.
   
-![](https://i.imgur.com/HYEVTZ0.png)
+![](https://i.imgur.com/j1BcLpe.png)
 
 * In the **Customer Can Select Timezone** field
   * Will be displayed when admin selects “Yes” in **Enable Delivery Date**
@@ -173,7 +173,7 @@ This is a supplementary part of **Gift Card Product Configuration** section
 #### 1.4. Gift Card Template Configuration
 Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration`` to modify general modules changing template for gift certificates
 
-![](https://i.imgur.com/sYDT1td.png)
+![](https://i.imgur.com/g5vRj3E.png)
 
 * In the **Logo** field: Choose your own store’s logo. If a logo is already included in the Template, then it will be applied on customer’s gift card.
 * In the **Maximum message character** field 
@@ -182,6 +182,9 @@ Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration
 * In the **Default note** field 
   * Default note can be used to display on gift cards (in case **Note** is enabled)
   * When admin creates Template in **Manage Templates**, this can also change **Default Note**.
+* In **Maximum Image Upload File Size**: fill in the file size that is allowed to be uploaded to the Gift Card Product page in the frontend  
+
+![](https://i.imgur.com/NwcobQo.png)
 
 #### 1.5. Email Configuration
 
@@ -285,7 +288,7 @@ Go to ``Mageplaza > Gift Card: Manage Templates``
 
 #### 2.1. General Management
 
-![](https://i.imgur.com/jonNULh.png)
+![](https://i.imgur.com/WF5SkId.png)
 
 * This is the core panel archiving all Gift Card Templates
 * From Grid, admin can capture the basic information of the template such as ID, Name, Status, Thumbnail, Created Date and can perform some below actions
@@ -299,7 +302,7 @@ After entering the Manage Template page, you can select the red``Create New Temp
 
 ##### 2.2.1. Template Information
 
-![](https://i.imgur.com/5qWTuu3.png)
+![](https://i.imgur.com/IwPlzbG.png)
 
 * In the **Template Name** field
   * Admin is able to name the template. When a gift card product selects this template and its status is Active, **Template Name** will be displayed on the Gift Card Product Page frontend
@@ -323,13 +326,13 @@ After entering the Manage Template page, you can select the red``Create New Temp
 Includes two actions:
 * **Load From Exist Template**: Admins can load existing templates to edit quickly by selecting a template in the list box, then select **Load Template**, the design of the selected template will be displayed in the Design Template section.
 
-![](https://i.imgur.com/JHLUs1w.gif)
+![](https://i.imgur.com/YKwUSmK.png)
 
 * **Design template**:
   * Admins can design the Gift Card template on this interface easily and quickly by dragging left items and dropping them in the empty box on the right.
   * Admins can also change some CSS in the **Custom** section of each option
   
-![](https://i.imgur.com/RvkNSOy.gif)
+![](https://i.imgur.com/BqdPkQv.gif)
   
 ##### 2.2.3. Image
 * Admins will select some images as default images of gift cards by uploading or dragging images directly into the **Upload Image** box.
@@ -342,7 +345,7 @@ By visiting ``Mageplaza > Gift Card: Manage Gift Code``
 
 #### 3.1. General Management
 
-![](https://i.imgur.com/yTyEF34.png)
+![](https://i.imgur.com/l08hd2o.png)
 
 * This is the interface which archives all created gift codes.
 * From this grid, admins can collect such fundamental information of a gift code like:
@@ -564,7 +567,8 @@ After filling in all required information of a Gift Card Product such as Name, S
 ### VIII. Frontend
 
 #### 8.1. Account > Gift Card
-![](https://i.imgur.com/n99dHjm.png)
+
+![](https://i.imgur.com/jTrJeKF.png)
 
 * **My Current Balance** indicates the Balance Gift Card Credit of a customer. Balance of Customer is in sync with the balance in ``Admin/Customer``
 * In **Check/Redeem Gift Card**
@@ -575,6 +579,9 @@ After filling in all required information of a Gift Card Product such as Name, S
   * This is the module stores all gift cards that the customer stored, also gives the basic information of a gift card such as Code,   * Balance, Status, Expired Date and some other actions.
   * The code can be hidden when admins apply the **Hidden Code Config**. To see a Code, customers need to click ``Code``
   * **View**: When a customer click ``View``, a popup that shows the current status of the Gift Card will be displayed
+  
+  ![](https://i.imgur.com/pVl4lWs.png)
+  
   * **Print**: This button is only displayed when the gift card has ``Type = Print at home``. When the customer clicks this button, they will receive a PDF containing a printed gift card.
   * **Redeem**: Only visible when ``Admin > Configuration > Can Redeem = Yes``. Customers can click this button to quickly transfer the Balance of Gift Card to their Balance of Gift Card Credit.
   * **Remove**: Customers click this button to remove a gift card from the Save List
@@ -705,79 +712,10 @@ To start working with **Gift Card GraphQL** in Magento, you need to:
 
 - Use Magento 2.3.x. Return your site to developer mode
 - Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
-- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql). View detailed queiries supported [here](https://documenter.getpostman.com/view/10589000/TVK5bgJK#44580a6d-fdf4-4e4c-80ae-5245609dee7c)
 
 
-The module currently supports the following 6 types of queries and 10 types of mutations:
 
-- Query **mpGiftCode**: Support lookup Gift Code information by Gift Code ID.
-
-![](https://i.imgur.com/WTytIzV.png)
-
-- Query **mpGiftCodeList**: Support to look up Gift Code information according to certain conditions fields.
-
-![](https://i.imgur.com/pmDfbAP.png)
-![](https://i.imgur.com/oK0QOX6.png)
-
-- Query **mpGiftPool**: Support searching for Gift Pool information by Gift Pool ID.
-
-![](https://i.imgur.com/FXjSGQ4.png)
-
-- Query **mpGiftPoolList**: Support searching for Gift Pool information according to certain conditional fields.
-
-![](https://i.imgur.com/JMklFlG.png)
-
-- Query **mpGiftTemplate**: Support for looking up Template information by Gift Template ID.
-
-![](https://i.imgur.com/DZYohl6.png)
-
-- Query **mpGiftTemplateList**: Support searching for Gift Pool information according to certain conditional fields.
-
-![](https://i.imgur.com/lYi1aXt.png)
-
-- Mutation **mpGiftCodeSave**: Create/edit Gift Code. To edit an existing Gift Code, just input the value for the `giftcard_id` field corresponding to the gift code you want to edit.
-
-![](https://i.imgur.com/4TLFN9C.png)
-
-- Mutation **mpGiftCodeDelete**: Delete the Gift Code according to the corresponding Gift Code ID.
-
-![](https://i.imgur.com/gn30Wy9.png)
-
-- Mutation **mpGiftPoolSave**: Create new/edit Gift Pool. To edit an existing Gift Pool, just enter the value for the `pool_id` field corresponding to the gift pool you want to edit.
-
-![](https://i.imgur.com/CyOsMCo.png)
-
-- Mutation **mpGiftPoolDelete**: Delete Gift Pool by Gift Pool ID.
-
-![](https://i.imgur.com/LsOTYEA.png)
-
-- Mutation **mpGiftPoolGenerate**: Generate Gift Code for Gift Pool with corresponding ID.
-
-![](https://i.imgur.com/V7da98h.png)
-
-- Mutation **mpGiftTemplateSave**: Create/edit Gift Template. To edit an existing Gift Template, just input the value for the `template_id` field corresponding to the template you want to edit.
-
-![](https://i.imgur.com/rI1d53X.png)
-
-- Mutation **mpGiftTemplateDelete**: Delete Gift Template according to Gift Template ID.
-
-![](https://i.imgur.com/lDCqvJL.png)
-
-- Mutation **mpGiftCardRedeem**: Redeem Gift Code for customer with corresponding customerId.
-
-![](https://i.imgur.com/giqmWDT.png)
-
-- Mutation **mpGiftCardSetCode**: Apply Gift Code to cart according to the corresponding cartId.
-
-![](https://i.imgur.com/Hd3PSaW.png)
-
-- Mutation **mpGiftCardRemoveCode**: Cancel Gift Code is being applied to the cart according to the corresponding cartId.
-
-![](https://i.imgur.com/ig0rnKr.png)
-
-- Mutation **mpGiftCardSetCredit**: Apply Gift Credit to cart according to cartId and corresponding amount.
-
-![](https://i.imgur.com/Aqesczf.png)
 
 
 
