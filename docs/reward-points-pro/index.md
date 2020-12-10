@@ -260,7 +260,7 @@ Follow the way ``Marketing > Reward Points: Spending Rate``
 ##### 2.1.1. General Management.
 This is the place where admins can store Spending Rates created.
 
-![](https://i.imgur.com/1c6lGgO.png)
+![](https://i.imgur.com/t26Fm4P.png)
 
 * From the grid view, admins can acknowledge some fundamental information of an spending rate such as **ID**, **Website**, **Customer Group**, **Spending Point**, **Discount Received** and **Priority**. Also, admins can:
   * **Delete**: Tick the checkbox of the spending rate they want to delete, then choose “Delete” in the ``Action`` box (at the left of the grid). Choose “OK” in the confirmation message.
@@ -279,6 +279,7 @@ After entering the Spending Rate interface, select ``Add New Rate`` to create a 
 * In **Spending Rate** field 
   * Indicates the conversion rate from X (point) to Y (currency)
   * Admins can fill out an appropriate rate in here. However, decimal numbers are not approved. If admins enter a decimal number, they will be rounded following the rule ``>= 0.5 to 1``, or  ``< 0.5 to 0``.
+* In **Min Point**: set the minimum number of points that can be spent when order
 * In **Priority** field 
   * Indicates the priority of this earning rate compared to other earning rates.
   * 0 indicates the highest priority. The higher number, the lower priority.
@@ -403,7 +404,7 @@ Follow in the backend ``Store > Settings > Configuration``. At the left panel, c
 #### 4.1. General Configuration.
 This general configurations can apply for the whole module.
 
-![](https://i.imgur.com/HyWAogp.png)
+![](https://i.imgur.com/kLmpyPT.png)
 
 * In the **Enable** field: Choose “Yes” to active the Reward Point extension from Mageplaza. 
 * In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displayed on the frontend at the [My Account > Reward Point](https://docs.mageplaza.com/reward-points/index.html#my-account-my-points-reward) section.
@@ -435,6 +436,18 @@ This general configurations can apply for the whole module.
   
   * Admins can add point(s) to an account balance with no awareness of this value.
   * If the field is left blank or 0, there will be no restriction for the maximum points
+  
+* In the **Highlight Point on Storefront**: 
+
+![](https://i.imgur.com/PCcY5VI.png)
+
+- Show in Cart: Choose Yes Yes to enable highlight poitn in Shopping Cart page > summary cart
+- Show on Checkout Page: Choose Yes Yes to enable highlight poitn in Checkout page
+- Show on Product Pages:  Choose Yes Yes to enable highlight poitn in Product Detail page
+- Show on Categories Pages:  Choose Yes Yes to enable highlight poitn in Category page
+- Show highlight for Guests:  Choose Yes Yes to enable highlight poitn in for non-login customers 
+- Text Color: Choose color for highlight point 
+
 
 #### 4.2. Earning Configuration.
 
@@ -463,16 +476,21 @@ This displays general configurations regarding earning point(s)
   * If this field is blank, point(s) will be used indefinitely.
 
 #### 4.3. Spending Configuration.
-![](https://i.imgur.com/g5qAyke.png)
+
+![](https://i.imgur.com/brMEXQ7.png)
 
 * In the **Discount Label** field: Discount Label displayed on the frontend will change according to the content of this section.
 * In the **Minimum spending points per order** field
   * Set the minimum number of point(s) that customers must have in their balances as a condition to spend points on discounting orders.
   * If the number of point(s) in the customer's balance is less than the minimum spending point, the Reward Points slider will not appear on the View Page or Checkout Page.
   * If you leave it blank or 0, the default minimum point is 0.
+* In **Type Maximum Spending Points per Order**: Select how to set the maximum number of points allowed per order:
+  * Type Maximum Spending Points per Order = Fixed: the maximum number of points used for each order with a fixed value set in **Maximum spending points per order** field
+  * Type Maximum Spending Points per Order = Percent: the maximum number of points used for each order is set as a percentage of the *total shopping cart value*, set the maximum value in **Maximum spending points per order** field
 * In the **Maximum spending points per order** field:
   * Set the maximum number of point(s) that customers can use on an order.
   * If you leave it blank or 0, the maximum number of point(s) customers can spend is unlimited (it can be the maximum number of points they own or the maximum number of points which can be converted by SubTotal of Cart).
+* In the **Points Spending From Tax:** Choose “Yes” to enable customers to spend points to get discouted tax fee 
 * In the **Spending Points on Shipping**: Select “Yes” to allow customers to use their point(s) to reduce the shipping cost.
 * In the **Restore spent points after order refunding** field: When customers place an order, they can apply a certain amount of their reward point(s). Admins select “Yes” in this section to return point(s) to customers if their orders are refunded.
 * In the **Use Max Point By Default** field: Select “Yes” to set the customer's spending point(s) to the maximum number that they can use.
@@ -529,17 +547,30 @@ Admins can manage **Reward Points Balance**, **Transactions** and **Notification
 
 The information about **Balance**, **Notification** and **Transaction** in the backend will be synchronized with the customer's frontend at ``My Account > My Points & Reward``.
 
-### VI. Customer Frontend.
+### VI. Refund Spent Point
 
-#### 6.1. My Account/My Points & Reward.
+With orders that can be applied reward points to get discount, when they are refunded, the points used before will be can be refunded by store admin
+
+![](https://i.imgur.com/v08XPPa.png)
+
+Click on the checkbox **Refund Order to Points** to refund points, the field **Reward Point Refunded** will be displayed 
+
+* **Reward Point Refund**: fill in the points refunded, this value must be smaller than the Spent Points was used before for the order
+
+### VII. Customer Frontend.
+
+#### 7.1. My Account/My Points & Reward.
+##### 7.1.1. Reward Dashboard
 Customers can check the Reward Point information in this section after logging in:
+* **Available Balance**: Show current points of customer. This value equals **Current Balance** in the backend
+* **Total Earned**: Show points that customer get from orders. This value quals **Total Earning Points** in the backend
+* **Total Spent**: Show points used by customer. This value equals **Total Spending Points** in the backend
 * **Reward Information** indicates
-  * The total reward point(s) that customer has.
   * Earning Rate and Spending Rate that customer is entitled (according to his **Customer Group** and **Website** set in the backend).
   * The maximum number of points that the customer's balance can receive from orders.
   * The maximum number of days that point(s) can be used since that customer receives point(s).
-* At **Transaction History**: Customer can know the transaction history in details
-  * Made transaction(s) and its comments.
+* At **Recent Transaction**: Customer can know the transaction history in details
+  * Reason of transaction
   * Number of point(s) changed
   * Date and time of the transaction
   * Expiration Dates of point(s)
@@ -547,9 +578,14 @@ Customers can check the Reward Point information in this section after logging i
 * They can also sign up to receive updates when their balance changes or point(s) is about to expired.
 * All information here is synchronized in the backend ``Customer > Reward Points``
 
-![](https://i.imgur.com/70QxdpB.png)
+![](https://i.imgur.com/feUWcxg.png)
 
-#### 6.2. Checkout Page
+##### 7.1.2 
+On the **Transaction** tab, all the rewarded transaction of customers are shown
+
+![](https://i.imgur.com/WvVr9lN.png)
+
+#### 7.2. Checkout Page
 * Customers can use the slider or text box to select the amount of reward point(s) they want to spend.
 * Used reward point(s) can be limited to a range.
   * Customers are only allowed to use their point(s) within this range.
@@ -564,7 +600,7 @@ Customers can check the Reward Point information in this section after logging i
 
 ![](https://i.imgur.com/jYxvQV7.png)
 
-#### 6.3. Other additional frontends.
+#### 7.3. Other additional frontends.
 * **Top link**: Displays the point(s) that customer has.
 
 ![](https://i.imgur.com/IDryq1q.png)
@@ -576,4 +612,35 @@ Customers can check the Reward Point information in this section after logging i
 * **View Cart Page (Shopping Cart)**: Displays Apply Reward Point on the checkout page, and also displays the Earning Point, Spending Point and Reward Point.
 
 ![](https://i.imgur.com/PvScIoD.png)
+
+### VIII. REST API
+
+Mageplaza Reward Points Standard supports using REST API to make requests related to Transaction, Customer's Reward account, Reward rate, get config reward information. Customer can use reward points for order via Rest API.
+
+View details of endpoints of Mageplaza Reward Points Professional [here](https://documenter.getpostman.com/view/10589000/TVYDeeYK).
+
+View REST API guidelines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). Guidelines to create tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
+
+### XI. GraphQL 
+
+#### 9.1. How to install
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-reward-points-graphql
+
+php bin/magento setup:upgrade
+
+php bin/magento setup:static-content:deploy
+```
+**Note:** Magento 2 Reward Points GraphQL requires installing Mageplaza Reward Points in your Magento installation.
+
+#### 9.2. How to use 
+
+To perform GraphQL queries in Magento, please do the following requirements: 
+
+- Use Magento 2.3.x or higher. Set your site to [developer mode](https://www.mageplaza.com/devdocs/enable-disable-developer-mode-magento-2.html)
+- Set GraphQL endpoint as http://<magento2-server>/graphql in url box (e.g. http://dev.site.com/graphql)
+- View details of queries supported by Mageplaza Reward Points GraphQL extension [here](https://documenter.getpostman.com/view/10589000/TVRhaUSP)
 
