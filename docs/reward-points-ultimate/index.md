@@ -43,7 +43,6 @@ Cusomters can perform some following actions to earn the points:
 - Add the birthday
 - Like the page by Facebook account
 - Share the page by Twitter account
-- Share the page by Google+ account
 - Share the purchase by Facebook or Twitter account
 - Refer to the friends
 
@@ -59,8 +58,7 @@ Log in to your backend, then go to ``Marketing > Reward Points`` and follow the 
 * Spending 
 * Transactions
 
-![](https://i.imgur.com/6OpWD2i.png)
-
+![](https://i.imgur.com/yH2ygwN.gif)
 
 ### I. Earning 
 #### 1.1. Earning Rate
@@ -78,7 +76,7 @@ This is the place where admins can store Earning Rates created.
 ##### 1.1.2. Add/Edit New Earning Rate
 After entering the Earning Rate section, click on ``Add New Rate`` to create a new earning rate. Then, click ``Save and Continue Edit``, the page will automatically switch to the **Edit Rate** page.
 
-![](https://i.imgur.com/hO5R1FH.png)
+![](https://i.imgur.com/JcBWN0r.png)
 
 * In the **Website** field: Choose website(s) you want to apply the earning rate.
 * In the **Customer Group(s)** field:
@@ -306,7 +304,7 @@ Rule Information shows the basic information of the rule. These information will
 
 ###### 1.4.2.2. Conditions
 
-![](https://i.imgur.com/T8adFTR.png)
+![](https://i.imgur.com/uZMgL0R.png)
 
 - After customers perform the action set here, they will receive a certain amount of points that admins set in the `Action` section
 - The actions/events that can be plus points including:
@@ -329,13 +327,13 @@ Rule Information shows the basic information of the rule. These information will
   
   ![](https://i.imgur.com/pM0mBvh.png)
   
-  - `+1’ a page with Google+`: Similar to `Like a page with Facebook`, but this action is to share the page on Google+
-  
-  ![](https://i.imgur.com/OgXjs3s.png)
-  
   - `Share a purchase on Facebook`: When customers place order completely, customers can share the products including in the order on Facebook or Twitter to get the points. For the Facebook, admins need to App Id so that the rule can work well
   
   ![](https://i.imgur.com/zYRPJ6q.png)
+ 
+- `Get X Points after Y days of Inactivity`: After a certain days of being Inactive, customer will receive points
+
+ ![](https://i.imgur.com/TAG58xY.png)
 
 ###### 1.4.2.3. Actions
 
@@ -364,7 +362,7 @@ This is the place where admins can store Spending Rates created.
 ##### 2.1.2 Add/Edit New Spending Rate.
 After entering the Spending Rate interface, select ``Add New Rate`` to create a new spending rate. Then, click ``Save and Continue Edit``, the page will automatically switch to the **Edit Rate** page.
 
-![](https://i.imgur.com/ljLCWIi.png)
+![](https://i.imgur.com/5nEg6pd.png)
 
 * In the **Website** field: Choose website(s) you want to apply the spending rate.
 * In **Customer Group(s)** field
@@ -373,6 +371,7 @@ After entering the Spending Rate interface, select ``Add New Rate`` to create a 
 * In **Spending Rate** field 
   * Indicates the conversion rate from X (point) to Y (currency)
   * Admins can fill out an appropriate rate in here. However, decimal numbers are not approved. If admins enter a decimal number, they will be rounded following the rule ``>= 0.5 to 1``, or  ``< 0.5 to 0``.
+* In **Min Point** field: set the minimum point can be spent when order 
 * In **Priority** field 
   * Indicates the priority of this spending rate compared to other spending rates.
   * 0 indicates the highest priority. The higher number, the lower priority.
@@ -585,7 +584,50 @@ Admins can review or expire a transaction in the **View Transaction** page.
 
 ![](https://i.imgur.com/keL0D6s.png)
 
-### V. Report
+### V. Milestones
+
+Go to Marketing > Reward Points > Milestone 
+
+#### 5.1 Grid 
+
+![](https://i.imgur.com/ltKfyG0.png)
+
+- In Milestone grid, you will see Milestone Tier information such as ID, Name, Status, Customer Group (s), Website, Number of Customer. Also on the grid, you can use the mass action to change the status or delete the tier you have created
+
+- Click **Add Milestone Tier** to add a new Tier
+
+#### 5.2 Add Milestone Tier
+
+##### 5.2.1 General Tab
+
+![](https://i.imgur.com/PhMwbGm.png)
+
+- Tier Name: fill in the name for milestone tier
+- Status: set up status for tier. There 2 statuses: Enable and Disable
+- Image: click on Choose File button to select image logo for tier
+- Customer Group(s): select Customer Groups that can use tier program. You can select multiple groups
+- Website: select website to apply tier. You can select multiple websites 
+- Min Points Value: set the minimum point customer must reach to join Milestone Tier Program
+- Number of Orders: the number of orders that customer must buy to join the Milestone Tier
+- Description: fill in the description for Milestone Tier
+
+##### 5.2.2 Benefit Tab
+
+![](https://i.imgur.com/w0HIbEq.png)
+
+- **Increase Earning Points:** the percentage increase in points applicable to Earn Rate, Catalog Rules, and Shopping Cart Rules when the customer joins the milestone. For example, a customer's order has a total of $50, with a earning rate of 1 $ for every $ 1 and Increase Earning Points is 10, the number of points the customer will receive will be 50 + 50 * 10% = 55 points
+- **Fixed Points:** the number of points will be added when the milestone customer implements the Behavior Rules. For example: Fixed Points is 1, with the setting at Behavior Rule is Write a Review, the normal customer receives 4 points, the customer of Milestone will receive 4 + 1 = 5 points when writing the review for a product.
+- **Decrease Spending Points:** the percentage of spending points reduced if customer belongs to Milestone. 
+
+  - For example: the Spending Rate is $1 per 10 points, the Decrease Spending Points is 20. A customer belongs to Milestone, the spent point will be reduced 10 * 20% = 2, that is, customer using 10-2 = 8 points will get a $1 discount  
+  
+##### 5.2.3 Customer Tab
+
+![](https://i.imgur.com/D9WcQdd.png)
+
+This grid shows all Milestone Customers. It contains customer information such as ID, First Name, Last Name, Email, Group, Gender. Besides, you can search for information in the grid.  
+
+### VI. Report
 
 Go to `Reports > Reward Points Reports`
 
@@ -605,48 +647,59 @@ Go to `Reports > Reward Points Reports`
 
 ![](https://i.imgur.com/ij9K1e4.png)
 
-### VI. Configuration
+### VII. Configuration
 Follow in the backend ``Store > Settings > Configuration``. At the left panel, choose ``Mageplaza > Rewward Points``
 
-#### 6.1. General Configuration.
+#### 7.1. General Configuration.
 This general configurations can apply for the whole module.
 
-![](https://i.imgur.com/HyWAogp.png)
+![](https://i.imgur.com/dFdTHIt.png)
 
 * In the **Enable** field: Choose “Yes” to active the Reward Point extension from Mageplaza. 
 * In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displayed on the frontend at the [My Account > Reward Point](https://docs.mageplaza.com/reward-points/index.html#my-account-my-points-reward) section.
 * In the **Point Label** field:
-  
+  
   * This label will be displayed on the frontend.
   * If you leave it blank, there will be an error message.
 * In the **Plural Point Label** field:
-  
+  
   * If the balance is greater than 1, this label will be displayed on the frontend.
   * If you leave it blank, there will be an error message.
 * In the **Display Point Label** field:
   * Select **After Amount** to display the point label after number (ex: 5 points).
   * Select **Before Amount** to display the number label before number (ex: points 5).  
 * In the **Zero Point Label** field:
-  
+  
   * Enter the label when the customer's account balance is equal to 0. 
   * If you leave it blank, there will be an error message.
 * In the **Show Point Icon** field: Choose “Yes” to display the point icon on the frontend.
 * In the **Reward Point Icon** field:
   * The upload image will be used as the point icon and be shown on the frontend.
   * **JPG**, **PNG** or **GIF** files are accepted. There will be an error message if the input file is invalid.
-  
+  
   * If you leave it blank, the default icon will be used ![](https://i.imgur.com/N9oyiwy.png).
 * In the **Maximum Available Point Balance** field
   * Set the maximum number of point(s) that the customer can accumulate by purchasing.
-  
+  
   * If customer's account balance reaches to this number, there will be no more points awarded to the balance, and reward point(s) indicators will not be shown on the frontend.
-  
+  
   * Admins can add point(s) to an account balance with no awareness of this value.
   * If the field is left blank or 0, there will be no restriction for the maximum points
 
-#### 6.2. Earning Configuration.
+- In the **Highlight Point on Storefront**: 
 
-##### 4.2.1. General
+![](https://i.imgur.com/PCcY5VI.png)
+
+  - Show in Cart: Choose Yes Yes to enable highlight poitn in Shopping Cart page > summary cart
+  - Show on Checkout Page: Choose Yes Yes to enable highlight poitn in Checkout page
+  - Show on Product Pages:  Choose Yes Yes to enable highlight poitn in Product Detail page
+  - Show on Categories Pages:  Choose Yes Yes to enable highlight poitn in Category page
+  - Show highlight for Guests:  Choose Yes Yes to enable highlight poitn in for non-login customers 
+  - Text Color: Choose color for highlight point 
+  
+#### 7.2. Earning Configuration.
+
+##### 7.2.1. General
 This displays general configurations regarding earning point(s)
 
 ![](https://i.imgur.com/kwE0PV9.png)
@@ -659,7 +712,7 @@ This displays general configurations regarding earning point(s)
 * In the **Earn points from shipping fee**: Select “Yes” to allow Shipping Fee to be converted to point(s).
 * In the **Point Refund** field: When the customer places an order, they will receive a certain amount of earning points. The shop owner selects “Yes” in this section to retrieve the points when customer refunds the order.
 
-##### 6.2.2. Sales Earning Process.
+##### 7.2.2. Sales Earning Process.
 
 ![](https://i.imgur.com/xOi55oV.png)
 
@@ -670,14 +723,17 @@ This displays general configurations regarding earning point(s)
   * The number entered here is expiration day of point(s), it starts to count from the day point(s) is (are) added.
   * If this field is blank, point(s) will be used indefinitely.
 
-#### 6.3. Spending Configuration.
-![](https://i.imgur.com/g5qAyke.png)
+#### 7.3. Spending Configuration.
+![](https://i.imgur.com/5nOPqaq.png)
 
 * In the **Discount Label** field: Discount Label displayed on the frontend will change according to the content of this section.
 * In the **Minimum spending points per order** field
   * Set the minimum number of point(s) that customers must have in their balances as a condition to spend points on discounting orders.
   * If the number of point(s) in the customer's balance is less than the minimum spending point, the Reward Points slider will not appear on the View Page or Checkout Page.
   * If you leave it blank or 0, the default minimum point is 0.
+- In **Type Maximum Spending Points per Order**: Select how to set the maximum number of points allowed per order:
+  - Type Maximum Spending Points per Order = Fixed: the maximum number of points used for each order with a fixed value set in **Maximum spending points per order** field
+  - Type Maximum Spending Points per Order = Percent: the maximum number of points used for each order is set as a percentage of the *total shopping cart value*, set the maximum value in **Maximum spending points per order** field
 * In the **Maximum spending points per order** field:
   * Set the maximum number of point(s) that customers can use on an order.
   * If you leave it blank or 0, the maximum number of point(s) customers can spend is unlimited (it can be the maximum number of points they own or the maximum number of points which can be converted by SubTotal of Cart).
@@ -685,7 +741,7 @@ This displays general configurations regarding earning point(s)
 * In the **Restore spent points after order refunding** field: When customers place an order, they can apply a certain amount of their reward point(s). Admins select “Yes” in this section to return point(s) to customers if their orders are refunded.
 * In the **Use Max Point By Default** field: Select “Yes” to set the customer's spending point(s) to the maximum number that they can use.
 
-#### 6.4. Display Configuration.
+#### 7.4. Display Configuration.
 
 ![](https://i.imgur.com/2Q9dDQc.png)
 
@@ -705,7 +761,7 @@ This displays general configurations regarding earning point(s)
 
 ![](https://i.imgur.com/AJ15ok4.png)
 
-#### 6.5. Email Configuration.
+#### 7.5. Email Configuration.
 
 ![](https://i.imgur.com/3MnOprZ.png)
 
@@ -724,8 +780,8 @@ This displays general configurations regarding earning point(s)
   * Set how many day(s) before the expiration date the email can be sent.
   * If you leave the field blank or 0, reminder email will not be sent.
 
-#### 6.6. Social behavior
-##### 6.6.1. Like via Facebook
+#### 7.6. Social behavior
+##### 7.6.1. Like via Facebook
 
 ![](https://i.imgur.com/yvZMHt1.png)
 
@@ -733,21 +789,14 @@ This displays general configurations regarding earning point(s)
 - `Show Facebook like count on frontend`: Select yes to display the total number of Facebook like that the page is received
 - `Page to display`: Select the pages where the admins want the Facebook like button to be displayed
 
-##### 6.6.2. Tweet Via Twitter
+##### 7.6.2. Tweet Via Twitter
 ![](https://i.imgur.com/9YafrEm.png)
 
 - `Show Twitter tweet button on frontend`: Choose Yes to show the Tweet button of Twitter on the frontend
 - `Page to display`: Choose the pages that admins want the Tweet button to be displayed
 
-##### 6.6.3. 1+ Via Google+
-
-![](https://i.imgur.com/UfBEkZA.png)
-
-- `Show Google+ button on frontend`: Choose Yes to show the Google+ button on the frontend
-- `Page to display`: Choose the pages that admins want the Google+ to be displayed
-
-#### 6.7. Customer referrals
-##### 6.7.1. General
+#### 7.7. Customer referrals
+##### 7.7.1. General
 
 ![](https://i.imgur.com/P8WKQqw.png)
 
@@ -760,7 +809,7 @@ This displays general configurations regarding earning point(s)
   - When customers is referred, click on the refer link, it will be shipped to the page that has the URL filled in here
   - If you leave this field blank, the default is homepage
   
-##### 6.7.2. Url Key
+##### 7.7.2. Url Key
 
 ![](https://i.imgur.com/hvNXsWj.png)
 
@@ -772,22 +821,58 @@ This displays general configurations regarding earning point(s)
 - `Prefix`:
   - Choose the prefix for the refer code
   - Default = `code`
+  
+#### 7.8 Milestones
 
+![](https://i.imgur.com/hvNXsWj.png)
 
-### VII. Manage Reward Point of Customer
+- Enable Milestone: Select Yes to enable the Milestone function
+- Earn Point Source: Select a source for calculating points for Milestone, you can choose many options. For example, choose **Admin added** and **Purchase**, the number of points to calculate for milestone will only get the points earned when admin adds points or and the customer purchases to receive points.
+- Earning Period: Enter the number of days to calculate earning points for Milestone. Example: Entering Earning Period = 10, the number of points to calculate for milestone will be caculated from activities of previous 10 days from the present time.
+- Email Notification: Select Yes so customers can receive email notifications each time they join a certain milestone
+- Progress Bar type: Choose how the tier is displayed in the frontend. 
+There are 2 ways to display: Basic and Advanced
+  - Basic
 
-![](https://i.imgur.com/qX4hUPG.png)
+![](https://i.imgur.com/ApHBvHD.png)
+
+  - Advanced
+  
+![](https://i.imgur.com/cg494tY.png)
+
+- Milestone Tier progress background color: select the color background for the Milestones Progress Bar
+- Milestone Tier progress color: select the color for the progress on the bar
+
+### VIII. Manage Reward Point in Admin Customer
+
+![](https://i.imgur.com/wWduDd4.png)
+
+![](https://i.imgur.com/wWt2Sv4.png)
 
 Admins can manage **Reward Points Balance**, **Transactions** and **Notification** of customers by going to ``Customer > Edit Customer > Reward Points``.
 
-* In the **Reward Points Balance** field: Indicates the total reward point(s) the customer has.
-* In the **Update Point Update Balance** field: Allows admins to change the balance by filling in **Update Point** and set its expiration date. Admins can also enter the reason for the change in the **Comment** field
-* In the **Reward Points Notification** field: Admins can register or cancel the subscribe on behalf of the customer when their balance is updated or point(s) is about to expire.
-* In the **Reward Points History** grid: Displays information about all executed transactions: ID, Store View, Point, Point Spend, Date, Date Expired, Comment.
+* In the **Reward Acount Enable** field: tick on the checkbox to activate Reward Account for customer 
+* In the **Milestones** field: Show information of the current Milestones Tier of customer and the number of points needed to reach the next-level tier 
+* **Balance Information** tab lets admin know: 
+  - Current Balance: the total number of Reward Points that customer has.
+  - Total Earning Points: The total number of Reward Points that customer can order.
+  - Total Spending Points: The total number of Reward Points that the customer has used. 
+  * **Update Balance** tab: Allow Admin to change the **Balance** by filling in **Update Point** and setting the usage time of that amount of Points. Admin can also enter the reason for the change in the **Comment** field. 
+- **Email Notification** tab: Allow Admin to change the customer who register or turn off notification emails when Balance is updated or Point is about to expire.
+- **Transactions** tab: Displays information related to Reward Points of Customer including ID, Title, Action, Amount, Status, Store View, Created On, Expire On.
+- Information about Milestones, Balance, Notification and Transaction in Admin will sync with the My Account / My Points & Reward in the frondend
 
-The information about **Balance**, **Notification** and **Transaction** in the backend will be synchronized with the customer's frontend at ``My Account > My Points & Reward``.
+### XI. Refund Spent Points
 
-### VIII. Add the price based on points for products
+For orders that can be discouted by Reward Points, when refunding, the point can be returned by admin.
+
+![](https://i.imgur.com/ZVjQexK.png)
+
+Tick on the **Refund Order to Points** checkbox to refund points. The **Reward Point Refund** field will be displayed
+
+- Reward Point Refund: Enter the number of points refunded, this value must be less than the Spent Points used for the order
+
+### X. Add the price based on points for products
 
 Go to `Catalog > Products`, admins can see that in the Grid, Reward Points column represent the price by the point of the Product
 
@@ -798,10 +883,10 @@ To set the price by Point for Product, admins need to Edit Product and enter the
 ![](https://i.imgur.com/o8JHF3A.png)
 
 
-### IX. Import 
+### XI. Import 
 To assist customers in backing up Reward Point data when switching systems, we have added the Import feature of Account and Transaction Reward.
 
-#### 9.1. Import Reward Account`
+#### 11.1. Import Reward Account`
 From the **Admin Panel**, go to `Sytem> Data Tranfer> Import`, select *Entity Type = Mageplaza Reward Account*
 
 ![](https://i.imgur.com/GtMcV93.png)
@@ -819,7 +904,7 @@ From the **Admin Panel**, go to `Sytem> Data Tranfer> Import`, select *Entity Ty
 - **Step 4**: Check Data and import data
 
 
-#### 9.2 Import Reward Transaction 
+#### 11.2 Import Reward Transaction 
 
 From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity Type = Mageplaza Reward Transaction*
 
@@ -836,416 +921,9 @@ From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity 
 
 - **Step 4**: Check Data and import data
 
-### X. API
+### XII. Customer Frontend.
 
-- Reward Point Ultimate supports API function. The API allows users to get a list with all their offers in the selected format (JSON) with the payout showcased in the selected currency. The list can be filtered by status (pending, approved, or cancel), order, account affiliate, transaction, withdraw and campaign; add new account affiliate, withdraw; delete account affiliate, campaign.
-- Moreover, it can be customized to return only the selected fields (Order, Reward accounts, Transactions, Invitations)
-- You can check out some of the syntax we have supported as the follwings:
-
-<p>&nbsp;</p>
-<table>
-<tbody>
-<tr>
-<td>
-<p><strong>Name</strong></p>
-</td>
-<td>
-<p><strong>Method</strong></p>
-</td>
-<td>
-<p><strong>REST APIs</strong></p>
-</td>
-<td>
-<p><strong>Details</strong></p>
-</td>
-<td>
-<p><strong>Data required</strong></p>
-</td>
-</tr>
-<tr>
-<td rowspan="6">
-<p><strong>Orders</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/orders/:id</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Add reward data to order by id (order and items)</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/orders</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Add reward data to orders (order and items)</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/invoices/</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Add reward data to invoices (invoice and items)</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/invoices/:id</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Add reward data to invoice by id (invoice and items)</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/creditmemos</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Add reward data to creditmemo (creditmemo and items)</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/creditmemo/:id</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Add reward data to creditmemo by id (creditmemo and items)</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td rowspan="6">
-<p><strong>Reward Accounts</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/accounts/:id</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get reward account by id</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">POST</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/accounts/email</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get reward account by email</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/accounts</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get reward accounts</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/accounts/count</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get total reward accounts</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">DELETE</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/accounts/:id</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Delete reward account by id</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">POST</span></p>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/accounts/create</span></p>
-<p><span style="font-weight: 400;">/V1/mpReward/mine/account</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Create new reward account</span></p>
-<p><span style="font-weight: 400;">GET Account by Customer ID</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">customer_id</span></p>
-</td>
-</tr>
-<tr>
-<td rowspan="7">
-<p><strong>Transactions</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/transactions</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get all transaction</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/transactions/:id/expire</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Expire transaction by id</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/transactions/:id/cancel</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Cancel transaction by id</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/transactions/order/:id</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get transactions by order id</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/transactions/account/:id</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get transactions by reward account id</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/transactions/count</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get total transactions</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">POST</span></p>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/transactions/create</span></p>
-<p><span style="font-weight: 400;">/V1/mpReward/mine/transactions</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Create transaction</span></p>
-<p><span style="font-weight: 400;">GET Transaction by Customer ID</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">customer_id,point_amount</span></p>
-</td>
-</tr>
-<tr>
-<td rowspan="4">
-<p><strong>Invitations</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/invitations</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get all invitations</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">POST</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/invitations/referral/email</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get invitations by referral email</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">email</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">POST</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/invitations/invited/email</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get invitations by invited email</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">email</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-<p><span style="font-weight: 400;">GET</span></p>
-<p><span style="font-weight: 400;">GET</span></p>
-<p><span style="font-weight: 400;">POST</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/invitations/count</span></p>
-<p><span style="font-weight: 400;">/V1/mpReward/mine/invitations</span></p>
-<p><span style="font-weight: 400;">/V1/mpReward/invitation/mine/code&nbsp;</span></p>
-<p><span style="font-weight: 400;">/V1/mpReward/invitation/refer&nbsp;</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get total invitations</span></p>
-<p><span style="font-weight: 400;">GET Referral by Customer ID</span></p>
-<p><span style="font-weight: 400;">GET Refer Code</span></p>
-<p><span style="font-weight: 400;">GET Refer By Code</span></p>
-</td>
-<td><br /><br /><br />
-<p><span style="font-weight: 400;">code</span></p>
-</td>
-</tr>
-<tr>
-<td>
-<p><strong>Rates&nbsp;</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/rates</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get rates</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><strong>Catalog Rules</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/catalog-rules</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get catalog rules</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><strong> Shopping Cart Earning Rules</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/shopping-cart-earning-rules</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get shopping cart earning rules</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-<tr>
-<td>
-<p><strong>Shopping Cart Spending Rules</strong></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">GET</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">/V1/mpReward/shopping-cart-spending-rules</span></p>
-</td>
-<td>
-<p><span style="font-weight: 400;">Get shopping cart spending rules</span></p>
-</td>
-<td>&nbsp;</td>
-</tr>
-</tbody>
-</table>
-
-- Refer [more rest APIs](https://documenter.getpostman.com/view/5977924/SWLbBAah?version=latest) here.
-
-- See how to create an API [here](https://documenter.getpostman.com/view/10589000/SzRyzpwz?version=latest) and how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.0/get-started/authentication/gs-authentication-token.html#integration-tokens).
-
-
-### XI. Customer Frontend.
-
-#### 11.1. Create New Account
+#### 12.1. Create New Account
 
 ![](https://i.imgur.com/V8STFbs.png)
 
@@ -1253,31 +931,37 @@ From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity 
 - Customers can get refer code information or the email of refereers, they can completely fill in the Refer Email Or Code, then `Create an Account` and place order and get point/discount.
 - For customers who have an account, they need to have the correct link to access, login and use the refer code
 
-#### 11.2. My Account > My Points & Reward
-##### 11.2.1. Reward Dashboard
+#### 12.2. My Account > My Points & Reward
+##### 12.2.1. Reward Dashboard
 
 Customers can check the Reward Point information in this section after logging in:
 
+- Available Balance: the curent available points of customer, equivalent to **Current Balance** in the backend.
+- Total Earned: the number of points that added when place an order, equivalent to **Total Earning Points** in the backend.
+- Total Spent: the number of points that customer has used, equivalent to **Total Spending Points** check in the backend.
+- My Milestones: the customer's current Milestone information and the number of points needed to earn to achieve the next tier levels.
 * **Reward Information** indicates
-  * The total reward point(s) that customer has.
   * Earning Rate and Spending Rate that customer is entitled (according to his **Customer Group** and **Website** set in the backend).
   * The maximum number of points that the customer's balance can receive from orders.
   * The maximum number of days that point(s) can be used since that customer receives point(s).
+- Recent Transactions: Customer knows the detailed history of transactions that have occurred, including the following information:
+  - The reason the transaction happened.
+  - Number of points change.
+  - The date and time of the transaction.
+  - Point expiration date.
+  - Transaction status.
+- They can also sign up to receive notifications when Balance changes or when Points are about to expire.
+- All information here is synchronized in the backend **Customer / Reward Points.**
+
+![](https://i.imgur.com/i4G8njd.png)
   
-##### 11.2.3. Transactions
+##### 12.2.2. Transactions
 
-* At **Transaction History**: Customer can know the transaction history in details
-  * Made transaction(s) and its comments.
-  * Number of point(s) changed
-  * Date and time of the transaction
-  * Expiration Dates of point(s)
-  * Transaction status
-* They can also sign up to receive updates when their balance changes or point(s) is about to expired.
-* All information here is synchronized in the backend ``Customer > Reward Points``
+At **Transaction History**: Customer can know the transaction history in details
 
-![](https://i.imgur.com/70QxdpB.png)
+![](https://i.imgur.com/3el7tWs.png)
 
-##### 11.2.4. My Referral
+##### 12.2.3. My Referral
 
 ![](https://i.imgur.com/vblrX6z.png)
 
@@ -1286,7 +970,16 @@ Customers can check the Reward Point information in this section after logging i
 - Your Invitee saves the information about the referral action that they did when the referrer performed a successful place order
 - When the order is completed, Customers will receive a point equal to the amount of points `You Earn`
 
-#### 11.3. Checkout Page
+##### 12.2.4. My Milestones
+
+![](https://i.imgur.com/tU3wRzI.png)
+
+- Customer Milestone details including:
+  - The Milestone progress bar, showing the tiers that the customer can reach
+  - The customer's current milestone Tier and the number of points needed to reach the next tier level
+  - Information of transactions where points are earned from those transactions 
+
+#### 12.3. Checkout Page
 * Customers can use the slider or text box to select the amount of reward point(s) they want to spend.
 * Used reward point(s) can be limited to a range.
   * Customers are only allowed to use their point(s) within this range.
@@ -1301,7 +994,7 @@ Customers can check the Reward Point information in this section after logging i
 
 ![](https://i.imgur.com/jYxvQV7.png)
 
-#### 11.4. Other additional frontends.
+#### 12.4. Other additional frontends.
 * **Top link**: Displays the point(s) that customer has.
 
 ![](https://i.imgur.com/IDryq1q.png)
@@ -1314,8 +1007,17 @@ Customers can check the Reward Point information in this section after logging i
 
 ![](https://i.imgur.com/vh05Yl5.png)
 
+### XIII. REST API
 
-### XII. GraphQL
+- Mageplaza Reward Points Ultimate supports the use of REST API to perform requests related to Invitations, Referral Rules, Behavior Rules.
+- Details of the Mageplaza Reward Points Ultimate endpoints can be found [here](https://documenter.getpostman.com/view/10589000/TVYDeemd)
+- Mageplaza Reward Points Ultimate fully supports endpoints of [Mageplaza Reward Points Standard](https://docs.mageplaza.com/reward-points/index.html#viii-rest-api) and [Mageplaza Reward Points Pro](https://docs.mageplaza.com/reward-points-pro/index.html#viii-rest-api).
+- See the Magento 2 REST API tutorial [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). See the token generation instructions [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
+
+
+### XIV. GraphQL
+
+#### 15.1. How to install
 
 Run the following command in Magento 2 root folder:
 
@@ -1325,11 +1027,10 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
+#### 15.2. How to use
 
 To start working with **Reward Points GraphQL** in Magento, you need to:
 
-- Use Magento 2.3.x. Return your site to developer mode
-- Install [chrome extension](https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en) (currently does not support other browsers)
-- Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-- The queries and mutations that Mageplaza support helps to see details of Transaction, Invitation, etc. through customer query, view Spending Point information, create Invite Email, and so on. More details can be found [here](https://documenter.getpostman.com/view/10589000/SzRyzpww?version=latest).
-
+- Use Magento 2.3.x. or higher. Return your site to [developer mode](https://www.mageplaza.com/devdocs/enable-disable-developer-mode-magento-2.html)
+- Set GraphpQL endpoints as http://<magento2-server>/graphql in url box (e.g. http://dev.site.com/graphql)
+- The queries and mutations that Mageplaza support helps to see details of Transaction, Invitation, etc. through customer query, view Spending Point information, create Invite Email, and so on. More details can be found [here](https://documenter.getpostman.com/view/10589000/TVRhaUSP).
