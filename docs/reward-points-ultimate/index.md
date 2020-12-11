@@ -690,12 +690,12 @@ This general configurations can apply for the whole module.
 
 ![](https://i.imgur.com/PCcY5VI.png)
 
-  - Show in Cart: Choose Yes Yes to enable highlight poitn in Shopping Cart page > summary cart
-  - Show on Checkout Page: Choose Yes Yes to enable highlight poitn in Checkout page
-  - Show on Product Pages:  Choose Yes Yes to enable highlight poitn in Product Detail page
-  - Show on Categories Pages:  Choose Yes Yes to enable highlight poitn in Category page
-  - Show highlight for Guests:  Choose Yes Yes to enable highlight poitn in for non-login customers 
-  - Text Color: Choose color for highlight point 
+  - **Show in Cart**: Choose Yes to enable highlight poitn in Shopping Cart page > summary cart
+  - **Show on Checkout Page**: Choose Yes to enable highlight poitn in Checkout page
+  - **Show on Product Pages**:  Choose Yes to enable highlight poitn in Product Detail page
+  - **Show on Categories Pages**:  Choose Yes to enable highlight poitn in Category page
+  - **Show highlight for Guests**:  Choose Yes to enable highlight poitn in for non-login customers 
+  - **Text Color**: Choose color for highlight point 
   
 #### 7.2. Earning Configuration.
 
@@ -840,8 +840,8 @@ There are 2 ways to display: Basic and Advanced
   
 ![](https://i.imgur.com/cg494tY.png)
 
-- Milestone Tier progress background color: select the color background for the Milestones Progress Bar
-- Milestone Tier progress color: select the color for the progress on the bar
+- **Milestone Tier progress background color**: select the color background for the Milestones Progress Bar
+- **Milestone Tier progress color**: select the color for the progress on the bar
 
 ### VIII. Manage Reward Point in Admin Customer
 
@@ -936,15 +936,15 @@ From the **Admin Panel**, go to `Sytem > Data Tranfer > Import`, choose *Entity 
 
 Customers can check the Reward Point information in this section after logging in:
 
-- Available Balance: the curent available points of customer, equivalent to **Current Balance** in the backend.
-- Total Earned: the number of points that added when place an order, equivalent to **Total Earning Points** in the backend.
-- Total Spent: the number of points that customer has used, equivalent to **Total Spending Points** check in the backend.
-- My Milestones: the customer's current Milestone information and the number of points needed to earn to achieve the next tier levels.
+- **Available Balance**: the curent available points of customer, equivalent to **Current Balance** in the backend.
+- **Total Earned**: the number of points that added when place an order, equivalent to **Total Earning Points** in the backend.
+- **Total Spent**: the number of points that customer has used, equivalent to **Total Spending Points** check in the backend.
+- **My Milestones**: the customer's current Milestone information and the number of points needed to earn to achieve the next tier levels.
 * **Reward Information** indicates
   * Earning Rate and Spending Rate that customer is entitled (according to his **Customer Group** and **Website** set in the backend).
   * The maximum number of points that the customer's balance can receive from orders.
   * The maximum number of days that point(s) can be used since that customer receives point(s).
-- Recent Transactions: Customer knows the detailed history of transactions that have occurred, including the following information:
+- **Recent Transactions**: Customer knows the detailed history of transactions that have occurred, including the following information:
   - The reason the transaction happened.
   - Number of points change.
   - The date and time of the transaction.
