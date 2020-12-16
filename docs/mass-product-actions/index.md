@@ -90,7 +90,7 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
 - In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
   - Click **Select All on This Page**, the system will select all products displayed on the grid.
   
-  ![](https://i.imgur.com/DTYWz7E.png)
+  ![](https://i.imgur.com/Nq4yCwe.png)
 
 - After selecting the product, Admin click **Action** and select **Update Cross-sell Products**. The system will display a popup for admin to perform the action
 
@@ -352,8 +352,6 @@ Admin changes the display position of the product on the website by clicking **R
 - **Remove Product From Websites**: Admin select the website on which products are not displayed
 - **Add Product To Websites**: Admin select the website on which allowing the product to display 
   - **Note**: In the case admin select both **Remove and Add Product From Websites**, the system will perform **Remove** first and then perform **Add Product From Websites**.
-
-
 
 ### III. Backend
 
