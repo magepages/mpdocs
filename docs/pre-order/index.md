@@ -123,9 +123,9 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 
 
 ```
-{{depend order.getIsMpPreOrder ()}}
-     <p> Order Notice: <b> {{var order.getMpPreOrderNotice ()}} </b> </p>
-{{/ depend}}
+{{depend order.getIsMpPreOrder()}}
+     <p> Order Notice: <b> {{var order.getMpPreOrderNotice()}} </b> </p>
+{{/depend}}
 ```
 
 
