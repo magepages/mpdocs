@@ -94,30 +94,6 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
 
 - After selecting the product, Admin click **Action** and select **Update Cross-sell Products**. The system will display a popup for admin to perform the action
 
-![](https://i.imgur.com/lifi5Ho.png)
-
-
-Configuration to **display or delete Cross-sell products**.
-
-- **Direction**:
-
-  ![](https://i.imgur.com/HoUzwgR.png)
-
-  - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
-  - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
-
-- **Remove Cross-sell Product(s)**: Admin selects the product to remove it from Cross-sell Products.
-- **Add Cross-sell Product(s)**: Admin selects the product to display the product at Cross-sell Products.
-- **Copy from Product(s)**: Admin selects the product to copy its Cross-sell products.
-
-Admin selects the product by clicking **Select**. The system will display product grid for selecting 
-
-![](https://i.imgur.com/vPJO9Sh.png)
-
-Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
-
-![](https://i.imgur.com/6yk6neO.png)
-
 #### 2.5. Copy Custom Options
 
 - Admin can perform **Copy Custom Options** for one or multiple product by clicking on the ticket box off each **product ID**
@@ -346,12 +322,12 @@ After selecting the product, Admin click **Action** and select **Update Websites
 
 ![](https://i.imgur.com/tIbtS8A.png)
 
-
 Admin changes the display position of the product on the website by clicking **Remove Product From Websites/Add Product To Websites**.
 
 - **Remove Product From Websites**: Admin select the website on which products are not displayed
 - **Add Product To Websites**: Admin select the website on which allowing the product to display 
-  - **Note**: In the case admin select both **Remove and Add Product From Websites**, the system will perform **Remove** first and then perform **Add Product From Websites**.
+
+**Note**: In the case admin select both **Remove and Add Product From Websites**, the system will perform **Remove** first and then perform **Add Product From Websites**
 
 ### III. Backend
 
