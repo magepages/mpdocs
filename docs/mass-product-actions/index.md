@@ -84,7 +84,7 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
   - **Parent Category**: Set the location for Category. The system will report an error if this field is left blank.
   - Click **Create Category** to complete creating the category.
   
-  #### 2.4. Update Cross-sell Products
+#### 2.4. Update Cross-sell Products
 
 - Admin can perform **Update Cross-sell Products** for one or multiple product by clicking on the ticket box of each **product ID**
 - In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
@@ -93,6 +93,30 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
   ![](https://i.imgur.com/Nq4yCwe.png)
 
 - After selecting the product, Admin click **Action** and select **Update Cross-sell Products**. The system will display a popup for admin to perform the action
+
+![](https://i.imgur.com/lifi5Ho.png)
+
+
+Configuration to **display or delete Cross-sell products**.
+
+- **Direction**:
+
+  ![](https://i.imgur.com/HoUzwgR.png)
+
+  - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
+  - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
+
+- **Remove Cross-sell Product(s)**: Admin selects the product to remove it from Cross-sell Products.
+- **Add Cross-sell Product(s)**: Admin selects the product to display the product at Cross-sell Products.
+- **Copy from Product(s)**: Admin selects the product to copy its Cross-sell products.
+
+Admin selects the product by clicking **Select**. The system will display product grid for selecting 
+
+![](https://i.imgur.com/vPJO9Sh.png)
+
+Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
+
+![](https://i.imgur.com/6yk6neO.png)
 
 #### 2.5. Copy Custom Options
 
