@@ -57,6 +57,27 @@ View requests supports by Mageplaza Save Cart And Buy Later [here](https://docum
 
 View REST API guidelines of Magento 2 [here.](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View create tokens guidelines [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
 
+### 4. GraphQL
+
+#### 4. 1 How to install 
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-save-cart-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+Note: Magento 2 Save Cart GraphQL requires installing [Mageplaza Save Cart](https://www.mageplaza.com/magento-2-save-cart/) in your Magento installation. 
+
+#### 4.2. How to use
+
+To perform GraphQL queries in Magento, please do the following requirements:
+- Use Magento 2.3.x or higher. Set your site to developer mode
+- Set GraphQL endpoint as `http://<magento2-server>/graphql` in url box, click Set endpoint. (e.g. http://dev.site.com/graphql)
+- To view the queries that the Mageplaza Save Cart GraphQL extension supports, click [here](https://documenter.getpostman.com/view/10589000/TVsuC7mq)
+
 ## Frontend
 
 ### 1. Link to Dashboard
