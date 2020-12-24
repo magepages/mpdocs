@@ -198,3 +198,27 @@ View details of requests supported by Mageplaza Loyalty Program [here](https://d
 
 View REST API Guidelines of Magento 2 [here](https://devdocs.magento.com/guides/v2.4/rest/bk-rest.html). View guidelines to create tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html). 
 
+### 4. GraphQl
+
+#### 1. How to install
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-loyalty-program-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+ 
+Note: Magento 2 Loyalty Program GraphQL requires installing Mageplaza Loyalty Program in your Magento installation.
+
+#### 2. How to use
+
+To perform GraphQL queries in Magento, please do the following requirements:
+
+- Use Magento 2.3.x or higher. Set your site to developer mode.
+- Set GraphQL endpoint as `http://<magento2-server>/graphql` in url box, click Set endpoint. (e.g. http://dev.site.com/graphql)
+- Mageplaza Loyalty Program GraphQL supports customers to get Loyalty Dashboard information and change email notify
+- To view the queries that the Mageplaza Loyalty Program GraphQL extension supports, click [here](https://documenter.getpostman.com/view/10589000/TVsrEoVD)
+
+
