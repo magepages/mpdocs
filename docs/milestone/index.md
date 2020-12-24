@@ -189,6 +189,27 @@ View Magento 2 REST API Guidelines [here](https://devdocs.magento.com/guides/v2.
 
 View REST API Guidelines to create tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
 
+### 5. GraphQL 
+
+#### 5.1. How to install
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-milestone-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+Note: Magento 2 Milestone GraphQL requires installing [Mageplaza Milestone](https://www.mageplaza.com/magento-2-milestone/) in your Magento installation.
+
+#### 2. How to use
+
+To perform GraphQL queries in Magento, please do the following requirements:
+
+- Use Magento 2.3.x or higher. Set your site to [developer mode.](https://www.mageplaza.com/devdocs/enable-disable-developer-mode-magento-2.html)
+- Set GraphQL endpoint as `http://<magento2-server>/graphql` in url box, click Set endpoint. (e.g. http://dev.site.com/graphql)
+- To view the queries that the Mageplaza Milestone GraphQL extension supports, click [here.](https://documenter.getpostman.com/view/10589000/TVmTaZia) 
+
 
 
 
