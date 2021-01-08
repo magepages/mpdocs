@@ -52,7 +52,7 @@ Login to the Admin Magento, choose `Stores > Settings > Configuration > Mageplaz
 
 **Example**: For each rule **Maximum Discount Type = Fixed amount** and **Maximum Discount Amount** is $ 10. But at **Configuration* of this module, **Maximum Discount for the Whole Cart** is also selected as **Fixed amount** and **Maximum Discount Amount** with only $ 5. So when customers order, the maximum discount for the entire cart is only $5.
 
-### 1.2. Popup and coupon
+#### 1.2. Popup and coupon
 
 ![](https://i.imgur.com/tU5byR8.png)
 
@@ -71,7 +71,7 @@ Login to the Admin Magento, choose `Stores > Settings > Configuration > Mageplaz
 
 - **Display cart hints on coupon invalid**: Select **Yes** to enable displaying of message suggesting cart when coupon is invalid.
 
-### 1.4. Skip Special Discount/Tier Price
+#### 1.4. Skip Special Discount/Tier Price
 
 ![](https://i.imgur.com/PcxbuFI.png)
 
