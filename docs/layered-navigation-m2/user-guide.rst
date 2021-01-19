@@ -65,13 +65,17 @@ For example: Select Price in the Jacket category, on the front end, Price will n
 Note: To apply the filter attributes, you have to turn Anchor to Yes. See guide [here](https://docs.google.com/document/d/1ukn2zCIFkJGnsJI8gRq7BtGMcLPy-yJAvMiS86ksLls/edit).   
 
 5. Render Categories Tree
+^^^^^^^^^^^^^^^
 
 From the **Admin Panel**, go to **Stores > Attributes > Product, choose category_ids > Display Properties**
 
 **Render Category Tree** allows showing category filter tree
 
 - **No**: does not show Category filter tree
-- **Full Category Tree**:  show full of Category filter tree
+
+.. image:: https://i.imgur.com/Z0xq7gz.png
+
+- **Full Category Tree**: shows full of Category filter tree
 - **Custom Category Tree**: allows users Category filter tree
 
 .. image:: https://i.imgur.com/Z0xq7gz.png
@@ -85,19 +89,20 @@ From the **Admin Panel**, go to **Stores > Attributes > Product, choose category
 
 - **Category Tree Depth**: Category Tree is shown with the number of selected layers 
 - **Categories Level**:
-  - **Root category**: Category Tree is shown from the root category
 
-.. image:: https://i.imgur.com/e0PNDk0.png 
+- **Root category**: Category Tree is shown from the root category
+  
+.. image:: https://i.imgur.com/e0PNDk0.png
 
-  - **Current Category**: Category Tree is shown from the current category
+- **Current Category**: Category Tree is shown from the current category
   
 .. image:: https://i.imgur.com/tiQ2jvn.png   
   
-  - **Current Category Childrens**: Category Tree is shown from the current category children 
+- **Current Category Childrens**: Category Tree is shown from the current category children 
   
 .. image:: https://i.imgur.com/4fL4LIw.png
 
-  - **Expand Subcategories**: If you choose **Click**, filter is shown when the user clock to expan. If you choose **Auto**, filter is automatically fully shown. 
+- **Expand Subcategories**: If you choose **Click**, filter is shown when the user clock to expan. If you choose **Auto**, filter is automatically fully shown. 
   
 .. image:: https://i.imgur.com/s1HuKx1.png
 
