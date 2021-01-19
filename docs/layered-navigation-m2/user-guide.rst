@@ -48,4 +48,57 @@ Price Slider allows sliding flexibly the bar to define price range instead of en
 **Shop by** section will list all filter activities for the displayed results.
 
   .. image:: https://cdn.mageplaza.com/docs/ln-shop-by.png
+  
+4. Hide Filter Attributes by Category
+^^^^^^^^^^^^^^^
 
+From the **Admin Panel**, go to ``Catalog > Categories`` 
+
+**Hide Filter Attributes on Layered Navigation**: allow hiding attributes selected in the filer of the category
+
+.. image:: https://i.imgur.com/mDFLo9I.png
+
+For example: Select Price in the Jacket category, on the front end, Price will not appear in the filter part
+
+.. image:: https://i.imgur.com/KhgJAwY.png
+
+Note: To apply the filter attributes, you have to turn Anchor to Yes. See guide [here](https://docs.google.com/document/d/1ukn2zCIFkJGnsJI8gRq7BtGMcLPy-yJAvMiS86ksLls/edit).   
+
+5. Render Categories Tree
+
+From the **Admin Panel**, go to **Stores > Attributes > Product, choose category_ids > Display Properties**
+
+**Render Category Tree** allows showing category filter tree
+
+- **No**: does not show Category filter tree
+- **Full Category Tree**:  show full of Category filter tree
+- **Custom Category Tree**: allows users Category filter tree
+
+.. image:: https://i.imgur.com/Z0xq7gz.png
+
+- **Expand Subcategories > Click**: Filter is only shown when users click to expand
+- **Expand Subcategories > Auto**: Fitler is automatically fully shown
+
+.. image:: https://i.imgur.com/OS1w1Zt.png
+
+.. image:: https://i.imgur.com/vEVXuHZ.png
+
+- **Category Tree Depth**: Category Tree is shown with the number of selected layers 
+- **Categories Level**:
+  - **Root category**: Category Tree is shown from the root category
+
+.. image:: https://i.imgur.com/e0PNDk0.png 
+
+  - **Current Category**: Category Tree is shown from the current category
+  
+.. image:: https://i.imgur.com/tiQ2jvn.png   
+  
+  - **Current Category Childrens**: Category Tree is shown from the current category children 
+  
+.. image:: https://i.imgur.com/4fL4LIw.png
+
+  - **Expand Subcategories**: If you choose **Click**, filter is shown when the user clock to expan. If you choose **Auto**, filter is automatically fully shown. 
+  
+.. image:: https://i.imgur.com/s1HuKx1.png
+
+  
