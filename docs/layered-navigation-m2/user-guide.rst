@@ -73,7 +73,7 @@ From the **Admin Panel**, go to **Stores > Attributes > Product, choose category
 
 - **No**: does not show Category filter tree
 
-.. image:: https://i.imgur.com/Z0xq7gz.png
+.. image:: https://i.imgur.com/Lfm9FSJ.png
 
 - **Full Category Tree**: shows full of Category filter tree
 - **Custom Category Tree**: allows users Category filter tree
