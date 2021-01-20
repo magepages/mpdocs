@@ -289,7 +289,7 @@ For example: Displaying the Daily Deal on the `About Us` page by using the Snipp
 
 ### 4. API
 
-Mageplaza's Daily Deal extension supports the use of the **Rest API** to add discount label and countdown timer data to individual products or all products. Also,  through the Rest API, you can retrieve, create and delete rule information.
+Mageplaza's Daily Deal extension supports the use of the **Rest API** to add discount label and countdown timer data to individual products or all products, get deal by product SKU. Also,  through the Rest API, you can retrieve, create and delete rule information.
 
 - Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRxXr7J?version=latest).
 - Instructions for [creating Integration tokens here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
