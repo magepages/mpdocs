@@ -57,19 +57,41 @@ Go to ``Mageplaza > Shop by Brand > Configuration`` is a bunch of the basic conf
 ^^^^^^^^^^^^^^^
 At the Configuration tab, expand **General** section, please do the following:
 
-.. image:: https://i.imgur.com/p4nPrAZ.png
+.. image:: https://i.imgur.com/k83fxni.png
 
 * **Enable** the module when choosing "Yes" to allow customers shop by brand
 * From the existing list of the product attribute, set **Brand Attribute** to the correct choice. In this guide, *Manufacturer* is the option you have to select
 * Enter **Brand Route**, if passing it, the default (brands) is applied
 * Enter **Brand Link Title** or leave it as the default (Brands)
 * In **Show Brand Link In** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
+* In **Show Brands in Category Menu**: 
+  
+  * **No**: Brands are not shown 
+  * **Drop-down type**
+  
+.. image:: https://i.imgur.com/R83R0B8.png
+
+  * **Grid type**
+  
+.. image:: https://i.imgur.com/mKEPB2f.png
+
+* In **What to show**" select elements to display
+
+.. image:: https://i.imgur.com/y7y7guM.png
+
+  * **What to show = Logo Only**: Brands are shown with logos only
+  * **What to show = Label Only**: Brands are shown with lables only
+  * **What to show = Logo and Label**: Brands are shown with logos and lables
+
+* In **Maximum brands to show**: fill in the number of brands to show in the menu
+* In **Show brands without products on menu**: Choose **Yes** to show brands having no products and **No** to not show them
 * In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
 * **Show Brand Name on Product Listing Page**: Display Product Brand Name at product listing page such as category, Catalog Search
 * **Show Brand Info in Product Page**:
   
   * **Show Brand Info in Product Page = Not show**: Not show brand information at product page in frontend
   * **Show Brand Info in Product Page = Brand Name**: Allow showing brand information at product page in frontend
+  * **Show Brand Info in Product Page = Brand Description**: Allow showing brand description at product page in frontend
   * **Show Brand Info in Product Page = Brand Logo**: Show brand logo at product page in frontend. Show more fields: **Brand Logo Width in Product Page** and **Brand Logo Height in Product Page**.
   
     * **Brand Logo Width in Product Page**: Set the width for brand logo shown at frontend
@@ -81,7 +103,7 @@ At the Configuration tab, expand **General** section, please do the following:
 
 Expand **All Brands Page Settings** section
 
-.. image:: https://i.imgur.com/ym6Y8gW.png
+.. image:: https://i.imgur.com/rBVSiTT.png
 
 * In **Brand list name** type your prefered name for the Brand Page title
 * In **Style of Brand List Page** includes options to choose the specific order of the brand list
@@ -94,6 +116,8 @@ Expand **All Brands Page Settings** section
 * **Brand Logo Width**: Set logo width
 * **Brand Logo Height**: Set logo height
 * In **Style Color** select relevant color of the Shop by Brand's interface
+* In **Show Brand Short Description** set up to show the brand’s description or not
+* In **Show brands without products**: Choose **Yes** to show brands having no products or **No** to not show them
 * In **Show Brand Description** set up to show the brand’s description or not
 * In **Show Brand Product Quantity** option to enable/disable the number.
 * In **Show Brand Quick View Popup** select “Yes” if you want to have it opened in Popup style
