@@ -139,7 +139,7 @@ Welcome to Mageplaza Docs
    rma/index
    sagepay/index
    save-cart-and-buy-later/index
-   sales-pop/index
+   recent-sales-notification/index
    security/index
    securepay/index
    security-pro/index
