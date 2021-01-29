@@ -66,22 +66,22 @@ At the Configuration tab, expand **General** section, please do the following:
 * In **Show Brand Link In** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
 * In **Show Brands in Category Menu**: 
   
-  * **No**: Brands are not shown 
-  * **Drop-down type**
+* **No**: Brands are not shown 
+* **Drop-down type**
   
 .. image:: https://i.imgur.com/R83R0B8.png
 
-  * **Grid type**
+* **Grid type**
   
 .. image:: https://i.imgur.com/mKEPB2f.png
 
-* In **What to show**" select elements to display
+* In **What to show** select elements to display
 
 .. image:: https://i.imgur.com/y7y7guM.png
 
-  * **What to show = Logo Only**: Brands are shown with logos only
-  * **What to show = Label Only**: Brands are shown with lables only
-  * **What to show = Logo and Label**: Brands are shown with logos and lables
+* **What to show = Logo Only**: Brands are shown with logos only
+* **What to show = Label Only**: Brands are shown with lables only
+* **What to show = Logo and Label**: Brands are shown with logos and lables
 
 * In **Maximum brands to show**: fill in the number of brands to show in the menu
 * In **Show brands without products on menu**: Choose **Yes** to show brands having no products and **No** to not show them
