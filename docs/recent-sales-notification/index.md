@@ -1,10 +1,10 @@
-# Sales Pop
+# Recent Sales Notification
 
 ## Overview
 
-Mageplaza's Sales Pop Extension allows Magento 2 websites to automatically show the message relating to current purchase by orther customers, updating the shopping trends of people via Popup. This module support displaying 3 types of Popup: Recent Sales, Checkout Total, Up-sell Product on pages: Home Page, Category, Product, View Cart, Checkout, so on. Popup can be displayed on both Desktop and Mobile at 4 different positions.
+Mageplaza's Recent Sales Notification Extension allows Magento 2 websites to automatically show the message relating to current purchase by orther customers, updating the shopping trends of people via Popup. This module support displaying 3 types of Popup: Recent Sales, Checkout Total, Up-sell Product on pages: Home Page, Category, Product, View Cart, Checkout, so on. Popup can be displayed on both Desktop and Mobile at 4 different positions.
 
-Mageplaza Sales Pop extension is fully compatible with Mageplaza Quick View, One Step Checkout, which supports viewing the full product details through the popup displayed on the screen and checkout more conveniently.
+Mageplaza Recent Sales Notification extension is fully compatible with Mageplaza Quick View, One Step Checkout, which supports viewing the full product details through the popup displayed on the screen and checkout more conveniently.
 
 ## How to use
 
@@ -34,7 +34,7 @@ Mageplaza Sales Pop extension is fully compatible with Mageplaza Quick View, One
 ## How to configure
 ### 1. Configuration
 
-Login to the Magento Admin, choose `Marketing > Sales Pop > Configuration`.
+Login to the Magento Admin, choose `Marketing > Recent Sales Notification > Configuration`.
 
 ![](https://i.imgur.com/bBMTWw5.png)
 
@@ -69,7 +69,7 @@ Login to the Magento Admin, choose `Marketing > Sales Pop > Configuration`.
 
 ### 2. Manage Popups
 
-Login to the Magento Admin, choose `Marketing > Sales Pop > Manage Popups`.
+Login to the Magento Admin, choose `Marketing > Recent Sales Notification > Manage Popups`.
 
 
 #### 2.1. Grid
@@ -213,14 +213,14 @@ After Click **Add A/B Testing** to create a **Child popup** and then will displa
 
 ### 3. Compatible Quick View
 
-Sales Pop is fully compatible with the Mageplaza Quick View extension that will support viewing the full product details via the popup when clicking on the image of the product at popup.
+Recent Sales Notification is fully compatible with the Mageplaza Quick View extension that will support viewing the full product details via the popup when clicking on the image of the product at popup.
 
 ![](https://i.imgur.com/K7zqF0u.gif)
 
 
 ### 4. API
 
-Mageplaza's Sales Pop extension supports the use of the **Rest API** to view a detailed list of all popup that the admin has created.
+Mageplaza's Recent Sales Notification extension supports the use of the **Rest API** to view a detailed list of all popup that the admin has created.
 
 - Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE2A1Dd?version=latest).
 - Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
@@ -233,7 +233,7 @@ composer require mageplaza/module-sales-pop-graphql
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ``` 
-To start working with Sales Pop GraphQL in Magento, please do the following requirements:
+To start working with Recent Sales Notification GraphQL in Magento, please do the following requirements:
 
 - Use Magento 2.3.x. Reture your site to developer mode.
 - Install chrome extension (currently does not support other browsers)
