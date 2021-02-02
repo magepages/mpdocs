@@ -824,7 +824,7 @@ This displays general configurations regarding earning point(s)
   
 #### 7.8 Milestones
 
-![](https://i.imgur.com/hvNXsWj.png)
+![](https://i.imgur.com/DLV4SRC.png)
 
 - Enable Milestone: Select Yes to enable the Milestone function
 - Earn Point Source: Select a source for calculating points for Milestone, you can choose many options. For example, choose **Admin added** and **Purchase**, the number of points to calculate for milestone will only get the points earned when admin adds points or and the customer purchases to receive points.
