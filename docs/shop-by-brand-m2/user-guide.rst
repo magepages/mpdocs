@@ -69,11 +69,11 @@ At the Configuration tab, expand **General** section, please do the following:
 * **No**: Brands are not shown 
 * **Drop-down type**
   
-.. image:: https://i.imgur.com/R83R0B8.png
+.. image:: https://i.imgur.com/29Jdeet.png 
 
 * **Grid type**
   
-.. image:: https://i.imgur.com/mKEPB2f.png
+.. image:: https://i.imgur.com/QjlZKMj.png
 
 * In **What to show** select elements to display
 
@@ -84,6 +84,10 @@ At the Configuration tab, expand **General** section, please do the following:
 * **What to show = Logo and Label**: Brands are shown with logos and lables
 
 * In **Maximum brands to show**: fill in the number of brands to show in the menu
+* In **Brand Menu Gird Layout**: Select the number of columns to show on the menu
+
+.. image:: https://i.imgur.com/9j3azeg.png
+
 * In **Show brands without products on menu**: Choose **Yes** to show brands having no products and **No** to not show them
 * In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
 * **Show Brand Name on Product Listing Page**: Display Product Brand Name at product listing page such as category, Catalog Search
