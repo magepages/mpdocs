@@ -70,14 +70,12 @@ Login to the **Magento Admin**, choose `Content > Blocks`
 
 ##### 2.2. Activate Setting
 
-![](https://i.imgur.com/WqMzp0j.png)
+![](https://i.imgur.com/eAJUkak.png)
 
-- **From Date**: Select the start date of the block display.
-- **To Date**: Select the end date of the block display.
+- **From Date**: Select the start date & time of the block display.
+- **To Date**: Select the end date & time of the block display.
 - **Select Day(s)**: Select the day of the week to display the block.
 - **Active by Time**: Select **Yes** to display the time setting for the block.
-- **From Time**: Select the time to start displaying the block.
-- **To Time**: Select the time to end the block display.
 - In addition, Admin can perform:
   - **Save**: Save block
   - **Save & Duplicate**: Admin saves the block and at the same time creates more blocks like that with increasing Identifier.
