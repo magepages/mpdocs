@@ -36,7 +36,7 @@ Once the request is approved, users can take multiple actions with the company
 
 ## How to configure 
 
-### Configuration 
+### 1. Configuration 
 
 #### 1.1 General Configuration
 
@@ -275,7 +275,7 @@ Manage all company roles
 
     - Click on Remove button to finish deleting the role
 
-## 5. Email 
+### 5. Email 
 - Email for the store admin when there is a new company creation request 
 
 ![](https://i.imgur.com/pGonbea.png) 
@@ -320,9 +320,9 @@ Manage all company roles
 
 ![](https://i.imgur.com/lhwCedm.png)
 
-## 6. How to add Company Name to sales emails?
+### 6. How to add Company Name to sales emails?
 
-### 6.1 Create an email template 
+#### 6.1 Create an email template 
 - Go to Marketing > Communications > Email Template > Add New Template or  Edit Template 
 - Load the Email Template which you want to add the company name to
 
@@ -334,19 +334,45 @@ For example: If you want to add the company name to Order Confirmation emails, j
 
 ![](https://i.imgur.com/IAU08oB.png)
 
-### 6.2. Apply new email templates 
+#### 6.2. Apply new email templates 
 
 Go to Stores > Settings > Configuration > Sales > Sales Emails
 - On tabs Order/ Invoice/ Shipment/ Credit Memo, select the corresponding “just-created” Email Templates 
 
 ![](https://i.imgur.com/XZBWrE4.png)
 
-### 6.3 Check the display of the company name
+#### 6.3 Check the display of the company name
 
 - Place a test order on the frontend
 - Check the automatic email sent to the customer
 
 ![](https://i.imgur.com/XC6LoXu.png)
+
+### 7. REST API
+
+Mageplaza Company Account extension supports the use of API Rest to view company information. The extension also supports adding, modifying and deleting user roles, user companies directly through API request.
+
+Details can be found [here](https://documenter.getpostman.com/view/10589000/Tz5ncyZC#c58a2ad3-a5be-4a18-ac0e-ab1353e1faf0).
+
+Instructions for creating integrated tokens are [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
+
+### 8. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-company-accounts-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+To start working with Company Account GraphQL in Magento need the following requirements:
+
+- Use Magento 2.3.x. 
+- Return the site to developer mode
+- Set the GraphQL endpoint to `http://<magento2-3-server>/graphql` in the URL box, click **Set endpoint**. (for example: http://develop.mageplaza.com/graphql)
+- Details of the supported queries can be found [here](https://documenter.getpostman.com/view/10589000/Tz5ncyZE#3b8a65ab-511b-45dd-99e3-2df4b09fb947).
+
 
 
 
