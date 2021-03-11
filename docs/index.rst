@@ -67,6 +67,7 @@ Welcome to Mageplaza Docs
    catalog-permissions/index
    checkout-flow-pro/index
    commweb/index
+   company-accounts/index
    configurable-products-preselect/index
    configurable-product-grid-view/index
    countdown-timer/index
