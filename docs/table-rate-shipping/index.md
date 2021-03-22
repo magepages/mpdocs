@@ -132,6 +132,9 @@ The extension now supports 3 ways to add a rate to the shipping method:
     
     ![](https://i.imgur.com/xhA0Ee5.png)
     ![](https://i.imgur.com/zPhsLCJ.png)
+    
+    **Note**: For each cart, if the product has volumetric weight (according to the setting method calculated in section 1. Config), the weight will vary between the weight (to be set in each product) and the volumetric weight. The one with the higher value will be taken to compare with the value set in this field.
+    
     - **Total amount of cart**: Total amount of cart calculated in **Subtotal excluding Tax**, including lower limit **From** and upper limit on **To**. When you do not want to set a limit, you can leave it blank or enter *.
     - For example, for orders under $ 100 that apply a shipping rate, `Price From = Blank/0/*` and `To = 100` are required.
     
