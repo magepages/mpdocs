@@ -24,13 +24,14 @@ Follow our given guide below to complete Automatic Related Products configuratio
 * Manage Rules
   * Manage Rules on Product Page
   * Manage Rules on Category Page
-  * Manage Rules on Shopping Page
+  * Shopping Cart Page
+  * One Page checkout
   
 ### 1. Configuration
 
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extensions > Automatic Related Products``
 
-![](https://i.imgur.com/06O8Vat.png)
+![](https://i.imgur.com/E5wOHV4.png)
 
 * **Enable Automatic Related Products**: Choose **Yes** to enable  Automatic Related Products extension
 
@@ -104,7 +105,9 @@ A New Related Block Rule form will be appeared.
   
 #### b. Product To Show
 
-![](https://i.imgur.com/127pAhj.png)
+![](https://i.imgur.com/Eg7ofxY.png)
+
+![](https://i.imgur.com/5yzq0n4.png)
 
 * **Block name**: Enter the block's name. It's only visible in the frontend
  
