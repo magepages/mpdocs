@@ -363,13 +363,11 @@ You can see more of how to get API Request by Shop By Brand Extension via this `
 
 Run the following command in Magento 2 root folder:
 
-```
-composer require mageplaza/module-shop-by-brand-graphql
+``composer require mageplaza/module-shop-by-brand-graphql``
 
-php bin/magento setup:upgrade
+``php bin/magento setup:upgrade``
 
-php bin/magento setup:static-content:deploy
-```
+``php bin/magento setup:static-content:deploy``
 
 Mageplaza's Shop By Brand extension supports store admins to get rule's information via GraphQL.
 
