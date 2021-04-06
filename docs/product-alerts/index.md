@@ -2,11 +2,11 @@
 
 ## Overview
 
-These days, your customers may too busy to drop in your stores but they still want to update their interested products. Thanks to [Mageplaza Product Alerts extension](https://www.mageplaza.com/magento-2-product-alerts/), your customers can subscribe to get notification for out-of-stock products or price change. The notification emails of restock items or better prices will be sent to related customers. By this extension, online stores save a lot of time and effort for advertising since they can keep in touch with their potential customers, hence helps boost sales and profit significantly.
+These days, your customers may too busy to drop in your stores but they still want to update their interested products. Thanks to Mageplaza Product Alerts extension, your customers can subscribe to get notification for out-of-stock products or price change. The notification emails of restock items or better prices will be sent to related customers. By this extension, online stores save a lot of time and effort for advertising since they can keep in touch with their potential customers, hence helps boost sales and profit significantly.
 
 ## Download & Install
 
-- [Mageplaza Product Alerts](https://www.mageplaza.com/magento-2-product-alerts/)
+- Mageplaza Product Alerts
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -49,7 +49,7 @@ For example:
 
 
 - **Enable**: 
-  - Choose `Yes` to allow notification email of price change of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
+  - Choose `Yes` to allow notification email of price change of subscribed products. Install SMTP to avoid email to spam box.
 
   - When admins enable Price change alert, the link `Notify me when the price drops` appears in each product page
   
@@ -103,7 +103,7 @@ For example:
 
 - **Enable**: 
 
-  - Choose `Yes` to allow notification emails of restock of subscribed products. Install [SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email to spam box.
+  - Choose `Yes` to allow notification emails of restock of subscribed products. Install SMTP to avoid email to spam box.
 
   - When admin enable Out of stock alert, the link `Notify me when this product is in stock` appears in each product page
   
@@ -323,7 +323,7 @@ This part records the subscribers' information ( both for out-of-stock products 
 
 ### VI. Compatible with Reports extension 
 
-Products Alert extension is fully compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/). This allows admin to generate Reports of **Recent request stock available, Recent request price change, Most request price change and Most request stock available**. Click to **View Details** will redirect to **Grid** or **Most Requested Product** 
+Products Alert extension is fully compatible with Mageplaza Reports extension. This allows admin to generate Reports of **Recent request stock available, Recent request price change, Most request price change and Most request stock available**. Click to **View Details** will redirect to **Grid** or **Most Requested Product** 
 
 ![](https://i.imgur.com/mjzaYvG.png)
 
