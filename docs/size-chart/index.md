@@ -2,13 +2,13 @@
 
 ## Overview
 
-There is an obvious fact that every brand, every region has a different size regulation. Thanks to [Mageplaza Size Chart Extension](https://www.mageplaza.com/magento-2-size-chart/), it makes it easy for administrators to display the size chart for each product on the frontend. From there, customers can quickly determine the size to suit themselves, avoid the case of product return.
+There is an obvious fact that every brand, every region has a different size regulation. Thanks to Mageplaza Size Chart Extension, it makes it easy for administrators to display the size chart for each product on the frontend. From there, customers can quickly determine the size to suit themselves, avoid the case of product return.
 
 **Size Chart** will be displayed as a popup or inline or in the Product tab according to the choice of the Admin. With intuitive HTML customization, admins can edit charts become user-friendly, boosting sale revenues effectively.
 
 ## Download & Install
 
-- [Mageplaza Size Chart](https://www.mageplaza.com/magento-2-size-chart/)
+- Mageplaza Size Chart
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure
@@ -180,10 +180,10 @@ To start working with **Size Chart GraphQL** in Magento, you need to:
 
 ## Must-have extensions for your Magento stores
 
-- Increase website traffic: [SEO](https://www.mageplaza.com/magento-2-seo-extension/)
-- [Build leads](https://www.mageplaza.com/magento-2-better-popup/)
-- Increase conversion rates: [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/)
-- We believe that you can sell more: [Gift Cards](https://www.mageplaza.com/magento-2-gift-card-extension/), [Auto Related Products](https://www.mageplaza.com/magento-2-automatic-related-products/), [Frequently Bought Together](https://www.mageplaza.com/magento-2-frequently-bought-together/), [Free shipping bar](https://www.mageplaza.com/magento-2-free-shipping-bar/), [Daily Deal](https://www.mageplaza.com/magento-2-daily-deal-extension/) , [Product Feed](https://www.mageplaza.com/magento-2-product-feed-extension/)
-- Keep customers return: [Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/)
-- Let your customer [become raving fans](https://www.mageplaza.com/magento-2-affiliate-extension/)
-- Optimize your stores: [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [Custom Order Number](https://www.mageplaza.com/magento-2-custom-order-number/), [Stop return items issue](https://www.mageplaza.com/magento-2-size-chart/)
+- Increase website traffic: SEO
+- Build leads
+- Increase conversion rates: One Step Checkout
+- We believe that you can sell more: Gift Cards, Auto Related Products, Frequently Bought Together, Free shipping bar, Daily Deal, Product Feed
+- Keep customers return: Reward Points
+- Let your customer become raving fans
+- Optimize your stores: PDF Invoice, Custom Order Number, Stop return items issue
