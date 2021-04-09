@@ -77,7 +77,7 @@ The system automatically redirects to **My Quote Cart** page. Here, display info
 - In **View Quote**, customer can only edit the quote when the quote has **Status = Pending**.
   - In addition, customers can **Delete, Cancel, Add to Cart, Print Quote** and **send a message** to the admin at **Conversation**.
 
-![](https://i.imgur.com/kPQUROv.png)
+![](https://i.imgur.com/8Edh52S.png)
 
 ### 3. Customer add quote to cart
 
@@ -88,7 +88,7 @@ The system automatically redirects to **My Quote Cart** page. Here, display info
 
 - Customer view order
 
-![](https://i.imgur.com/2aLRiNu.png)
+![](https://i.imgur.com/ErsPamR.png)
 
 
 ## How to Configure
@@ -102,7 +102,7 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 
 #### 1. General
 
-![](https://i.imgur.com/yUP2so3.png)
+![](https://i.imgur.com/mua5DVz.png)
 
 - Select **Enable = Yes**: The Request For Quote module is enabled.
 - Quote Request Icon: Admin click **Choose File** to select the image for the icon. If left blank, the icon will be the module's default icon.
@@ -114,11 +114,12 @@ Admin can also go to `Stores> Configuration > Mageplaza > Request For Quote` to 
 - **Allow Requesters To Attach Files**: Choose **Yes** to allow customers to upload the file for the request.
   - **Allow File Types**: Admin enters file formats for the file to be uploaded in the message area. This field only shows up when **Allow Requesters To Attach Files** = Yes
   - Add-to-cart Redirect Page**: Admin selects the redirected page when clicking **Add to cart** to the **My Quote Cart** page.
-
+- Auto-approve Quotes: If select **Yes**, quote will be approved automatically with a discount smaller than the fixed amount (%)
+- Once Percentage Discount is No More Than: The percentage discount (%) is applied for the whole quote excluding tax (only shown when Auto-approve is set as Yes)
 
 #### 2. Expiration Setting
 
-![](https://i.imgur.com/BtdDcIy.png)
+![](https://i.imgur.com/zE8RM8E.png)
 
 - **Approved Quotes Expire After**: Admin enter the number of expiration dates for the quote. Leaving the request blank mean that no expiration limited.
   - *Note: When quote expires, the system will automatically send notification email to customer.*
@@ -201,7 +202,7 @@ Click **Cancel** to cancel the action.
 
 #### 2. Edit Request Quote
 
-![](https://i.imgur.com/C20f8GA.png)
+![](https://i.imgur.com/2s0LSSg.png)
 
 - **Quote Information**: Displays information of quote such as **Created Date, Status, Expired Date, Create From, Place From IP**.
   - Expired Date is only displayed when the quote is in **Approve, Reject, and Expired** states. Admin can change the quote's expired date
@@ -215,6 +216,7 @@ Click **Cancel** to cancel the action.
   - Click the **Send email to Customer** checkbox: The message is emailed to the customer.
   - Click the **Visible on Frontend** checkbox: The message is sent via the frontend.
   - Click the trash icon to delete the message.
+- **Additional**: Select the additional **Discount/ Surcharge** for quote 
 *Note: After editing the quote, the admin should **Save/ Save and Continue Edit** before Approve or Reject.*
 
 
