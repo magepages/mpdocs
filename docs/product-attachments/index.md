@@ -101,7 +101,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 ##### 2.2.1. General
 
-![](https://i.imgur.com/XOhLofu.png)
+![](https://i.imgur.com/PClHNYF.png)
 
 * **File Label**:
   * Set the file label to display on the Frontend
@@ -112,7 +112,13 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
   * This name will display on the Frontend when customers click on the attached files to view/download.
   * Not support hieroglyphs such as Chinese, Japanese, Korean, Russian, etc
   * If leaving this field blank, take the name of the uploaded file.
-  
+
+* **File Type**:
+  * Link other: show **File Link** field with the links 
+  * File in Store: show **File** field with uploaded files 
+
+* **File link**: The links are attached with the protocols httl://, https:// or ftp://
+
 * **File**:
   * Upload the file from your PC
   * We support you some following file formats:
