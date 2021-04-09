@@ -111,10 +111,21 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 #### 1.1. General
 
-![](https://i.imgur.com/qbiM64M.png)
+![](https://i.imgur.com/SrN78jC.png)
 
 - **Enable**: Select **Yes** to enable the module's feature.
+- **Deduct Tax From Transaction**: Select **Yes** to deduct tax from Gran Total 
+- **Enable Brand**: Selct **Yes** to turn on the configuration, take the value according to the brand
+- **Brand Attribute**: There are four attributes - Manufacturer, Color, Size, Format. Brand will be set accoding to the selected Attribute 
 
+![](https://i.imgur.com/BMewGWZ.png)
+
+- **Enable Variant:** Select **Yes** to show the **Variant** field 
+
+![](https://i.imgur.com/1CDJWbz.png)
+
+- **Deduct Shipping From Transaction:** Select **Yes** to deduct **Shipping** from transaction 
+- **Ignore Orders with value 0:** Select **Yes** to exclude orders with the  value of 0 
 
 #### 1.2. Google Tag Manager
 
@@ -134,7 +145,11 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 **Note**: To turn on Google Tag Manager, you need to create **Trigger** then **Tag** and click **Preview** or **Submit** in case GTM is disable. 
 
 ![](https://i.imgur.com/i63KNQy.gif)
+ 
+- **Google Analytics 4**
+  - Select **Yes** to add items of Google Analytics 4 to Google Tag Manager
 
+![](https://i.imgur.com/bAhtVpZ.png)
 
 #### 1.3. Google Analytics eCommerce
 
