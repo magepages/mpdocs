@@ -35,7 +35,7 @@ Login to the Magento admin panel, choose `Store > Settings > Configuration > Mag
 * In the **Enable Compare** field: select `Yes` to display the comparison.
 
 #### 2. Mobile Dashboard
-This function allow mobiles access to admin Dashboard by Access Key. In Mobilde Dashboard, there is no Magento menu, header, footer,...minimal the content to enhance the loading speed. Also, at Mobile Dashboard, admin can adjust the date like in Destop. 
+This function allow mobiles access to admin Dashboard by Access Key. In Mobile Dashboard, there is no Magento menu, header, footer,...minimal the content to enhance the loading speed. Also, at Mobile Dashboard, admin can adjust the date like in Desktop. 
 
 
 ##### Display outside the dashboard
@@ -49,7 +49,7 @@ After the configuration is completed, you will get the result displayed as the f
 
 ![](https://i.imgur.com/7BzRy6v.png)
 
-- The charts displeyed at Moblie Dashboard include: 
+- The charts displayed at Mobile Dashboard include: 
   - Default report at Dashboard such as Lifetime Sales, Average Order, Last Orders, Last Search Terms, Top Search Terms, BestSellers, Most View Products, New Customer, Customers, Tax, Shipping. 
   - Moreover, Mageplaza provides additional mostly use reports:
     - Orders
