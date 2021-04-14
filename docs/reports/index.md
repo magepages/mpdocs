@@ -35,7 +35,7 @@ Login to the Magento admin panel, choose `Store > Settings > Configuration > Mag
 * In the **Enable Compare** field: select `Yes` to display the comparison.
 
 #### 2. Mobile Dashboard
-Thí function allow mobiles access to admin Dashboard by Access Key. In Mobilde Dashboard, there is no Magento menu, header, footer,...minimal the content to enhance the loading speed. Also, at Mobile Dashboard, admin can adjust the date like in Destop. 
+This function allow mobiles access to admin Dashboard by Access Key. In Mobilde Dashboard, there is no Magento menu, header, footer,...minimal the content to enhance the loading speed. Also, at Mobile Dashboard, admin can adjust the date like in Destop. 
 
 
 ##### Display outside the dashboard
