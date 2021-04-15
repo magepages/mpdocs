@@ -4,7 +4,7 @@
 
 Gift card, also known as gift certificate or gift voucher, is a prepaid stored-value money card usually used in depositing money on a store online’s account of customers. Gift cards are issued as an alternative to cash or credit cards to purchase products within a particular store. The amount of deposited money in the gift card is granted indefinitely and they can not transfer from one account to another or purchase another gift card. 
 
-[Magento 2 Gift Card extension](https://www.mageplaza.com/magento-2-gift-card-extension/) is a useful extension for online stores. The extension offers magnificent features that allow admins to create unlimited virtual/physical gift cards with a full control over templates; the price of the gift card and the value of purchases; gift codes and discounts; conditions of use; expiration and display locations. Moreover, it's really flexible for gift card users to create their own card templates, track and manage their sent gift certificates. In addition, buyers can take advantage of the basic and advanced features of gift cards.
+Magento 2 Gift Card extension is a useful extension for online stores. The extension offers magnificent features that allow admins to create unlimited virtual/physical gift cards with a full control over templates; the price of the gift card and the value of purchases; gift codes and discounts; conditions of use; expiration and display locations. Moreover, it's really flexible for gift card users to create their own card templates, track and manage their sent gift certificates. In addition, buyers can take advantage of the basic and advanced features of gift cards.
 
 Furthermore, Gift Card extension allows store owners can send to their customer via emails, SMS or Post Office.
 
