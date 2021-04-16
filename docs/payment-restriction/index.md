@@ -1,13 +1,13 @@
 # Payment Restriction
 ## Overview
 
-In practice, shop owners often want to limit the display of Payment Method based on multiple criteria such as Customer group, Cart condition, product attribute, time limit, or the compatibility with sales rule. Thanks to [Mageplaza Payment Restriction extension](https://www.mageplaza.com/magento-2-payment-restriction/), you will be able to achieve this and fully control the use of in-store payment methods and improve efficiency.
+In practice, shop owners often want to limit the display of Payment Method based on multiple criteria such as Customer group, Cart condition, product attribute, time limit, or the compatibility with sales rule. Thanks to Mageplaza Payment Restriction extension, you will be able to achieve this and fully control the use of in-store payment methods and improve efficiency.
 
-This extension is totally compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+This extension is totally compatible with Mageplaza One Step Checkout.
 
 ## Download and Install
 
-- [Download the Payment Restrictions](https://www.mageplaza.com/magento-2-payment-restriction/)
+- Download Payment Restrictions
 - [Install Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/)
 
 
