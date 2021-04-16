@@ -1,7 +1,7 @@
 # Order Export
 ## Overview
 
-[Mageplaza Order Export extension](https://www.mageplaza.com/magento-2-order-export/) can make the export process automatically with the information as orders invoices, credit memos, shipments based on Cron scheduler. It allows you to export profiles to file formats such as CSV, XML, Excel XML, TXT, TSV, and Json. Available additional Magento 2 objects for export include: Order, Invoice, Credit Memo, and Shipment. Profile after you generate will be sent to the server by FPT/sFPT or sent to any email that admins want. Besides that, this helps you to save more time and money to quickly export the profiles. This extension promises to be the best exporting solution for Magento shop owners. Mageplaza Order Export is definitely a must-have tool of your Magento store.
+Mageplaza Order Export extension can make the export process automatically with the information as orders invoices, credit memos, shipments based on Cron scheduler. It allows you to export profiles to file formats such as CSV, XML, Excel XML, TXT, TSV, and Json. Available additional Magento 2 objects for export include: Order, Invoice, Credit Memo, and Shipment. Profile after you generate will be sent to the server by FPT/sFPT or sent to any email that admins want. Besides that, this helps you to save more time and money to quickly export the profiles. This extension promises to be the best exporting solution for Magento shop owners. Mageplaza Order Export is definitely a must-have tool of your Magento store.
 
 ## How to configure
 
