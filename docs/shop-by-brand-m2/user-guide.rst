@@ -51,7 +51,9 @@ II. How to configure
 2.1 Configuration
 ***************
 
-Go to ``Mageplaza > Shop by Brand > Configuration`` is a bunch of the basic configuration you need to set up firstly.
+Go to ``Content > Shop by Brand > Configuration`` is a bunch of the basic configuration you need to set up firstly.
+
+.. image:: https://i.imgur.com/Ftbfl7l.png
 
 2.1.1 General
 ^^^^^^^^^^^^^^^
@@ -231,22 +233,26 @@ This is a new sweet treatment for marketing purpose, choose “No” if you don�
 ***************
 This is a separated module to manage Categories on filter searching. Also you can customized some crucial meta data tags like Meta Title, Meta Description, Meta Keywords or Meta Robot
 
+Go to ``Content > Shop by Brand > Categories``
+
+.. image:: https://i.imgur.com/arOPrFm.png
+
 To create brand new category, click ``New Category`` red button.
 
-.. image:: https://i.imgur.com/gDn5bwv.gif
+.. image:: https://i.imgur.com/mvkmxn0.gif
 
 To massively set brands into a specific category:
 
-* Follow ``Mageplaza > Shop By Brand: Categories``
+* Follow ``Content > Shop By Brand: Categories``
 * Select the category you want to apply changes navigate, click ``Edit``
-* Choose ``Brand`` at the left sidebar, a multi-select available brand list will show up.
+* Choose ``Brands`` at the left sidebar, a multi-select available brand list will show up.
 * Click ``Save Category``
 
-.. image:: https://i.imgur.com/JE8Ubrh.gif
+.. image:: https://i.imgur.com/6A5LEWQ.gif
 
 2.3 Manage Brands
 ***************
-This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Mageplaza > Shop By Brand: Manage Brands``
+This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Content > Shop By Brand > Manage Brands``
 
 To generate a new brand, follow these steps
 
@@ -277,7 +283,7 @@ To generate a new brand, follow these steps
 ***************
 Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
-.. image:: https://cdn.mageplaza.com/media/general/4jua9kb.gif
+.. image:: https://i.imgur.com/Q6VkOUk.gif
 
 Go to ``System > Data Transfer > Import > Import Settings > Entity Type`` field, choose "Mageplaza Shopbybrand" to expand *Import Behavior* and *File to Import* fields.
 
