@@ -1,7 +1,7 @@
 # Reward Points
 
 ## Overview
-In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, [Mageplaza Reward points](https://www.mageplaza.com/magento-2-reward-points-extension/) extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
+In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, Mageplaza Reward points extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
 
 Magento 2 Reward Points extension will allow earning unlimited reward points as well as using them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
 
@@ -13,7 +13,7 @@ The Product's Earning Point may vary according to a specific Customer Group and 
 ## Download & Install
 
 You can download from the following resouces:
-* [Mageplaza](https://www.mageplaza.com/magento-2-reward-points-extension/)
+* Mageplaza
 * [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-reward-points.html)
 * [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
