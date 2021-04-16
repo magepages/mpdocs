@@ -3,11 +3,11 @@
 
 ## Overview
 
-In order to improve consumption of products, especially during important holidays and customers' special days, Mageplaza developed [Gift Wrap extension](https://www.mageplaza.com/magento-2-gift-wrap/). Gift Wrap allows to create/ delete/ edit/ classify attractive gift packages to serve customers. Admins can view and manage order information with gift packages. And of course, customers can freely choose suitable gift packages. In addition, customers can add cards with messages to the recipient. The Gift Wrap plugin is fully compatible with [Mageplaza's One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+In order to improve consumption of products, especially during important holidays and customers' special days, Mageplaza developed Gift Wrap extension. Gift Wrap allows to create/ delete/ edit/ classify attractive gift packages to serve customers. Admins can view and manage order information with gift packages. And of course, customers can freely choose suitable gift packages. In addition, customers can add cards with messages to the recipient. The Gift Wrap plugin is fully compatible with [Mageplaza's One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## How to download and install
 
-- [Download Mageplaza Gift Wrap](https://www.mageplaza.com/magento-2-gift-wrap/)
+- Download Mageplaza Gift Wrap
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
