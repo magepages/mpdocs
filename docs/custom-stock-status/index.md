@@ -3,11 +3,11 @@
 ## Overview
 
 
-Custom Stock Status will help admin install additional stock statuses for the products. Information about the product's stock status is displayed at the frontend more accurately and clearly, giving customers better shopping experience and increasing the ability to buy from them. In particular, admins can custom stock status automatically or manually with image and text to quickly attract customers' attention with appealing status. That's the feature of [Mageplaza Custom Stock Status](https://www.mageplaza.com/magento-2-custom-stock-status/) extension.
+Custom Stock Status will help admin install additional stock statuses for the products. Information about the product's stock status is displayed at the frontend more accurately and clearly, giving customers better shopping experience and increasing the ability to buy from them. In particular, admins can custom stock status automatically or manually with image and text to quickly attract customers' attention with appealing status. That's the feature of Mageplaza Custom Stock Status extension.
 
 ## How to download and install 
 
-- [Download Mageplaza Custom Stock Status](https://www.mageplaza.com/magento-2-custom-stock-status/)
+- Download Mageplaza Custom Stock Status
 - [Install Custom Stock Status](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
@@ -213,9 +213,9 @@ Go to the database to delete: Access to `eav_attribute` table. In the `attribute
 
 You can install some Mageplaza extensions. They are fully compatible with Custom Stock Status and :
 
-- [Product Slider](https://www.mageplaza.com/magento-2-product-slider-extension/): allows you to easily create many sliders such as featured products, bestselling products, new products, etc. If you install Product Slider, products that apply **Custom Stock Status** on sliders with image or text or both.
-- [Automatic Related Products](https://www.mageplaza.com/magento-2-automatic-related-products/): with this extension you can design for related products displayed on slider and also show image and text of **Custom Stock Status** on that slider.
-- [Who Viewed This Also Viewed](https://www.mageplaza.com/magento-2-who-viewed-this-also-viewed/): Customers are more likely to make a purchase decision when they see a product that other customers have seen. By smart algorithms, the most viewed products will be automatically updated and proposed to customers.
+- Product Slider: allows you to easily create many sliders such as featured products, bestselling products, new products, etc. If you install Product Slider, products that apply **Custom Stock Status** on sliders with image or text or both.
+- Automatic Related Products: with this extension you can design for related products displayed on slider and also show image and text of **Custom Stock Status** on that slider.
+- Who Viewed This Also Viewed: Customers are more likely to make a purchase decision when they see a product that other customers have seen. By smart algorithms, the most viewed products will be automatically updated and proposed to customers.
   
 ![](https://i.imgur.com/L67ztPy.gif)
 
