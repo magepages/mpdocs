@@ -248,7 +248,7 @@ To massively set brands into a specific category:
 * Choose ``Brands`` at the left sidebar, a multi-select available brand list will show up.
 * Click ``Save Category``
 
-.. image:: https://i.imgur.com/6A5LEWQ.gif
+.. image:: https://i.imgur.com/kyRO5Si.gif
 
 2.3 Manage Brands
 ***************
