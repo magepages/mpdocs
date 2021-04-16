@@ -51,7 +51,7 @@ II. How to configure
 2.1 Configuration
 ***************
 
-Go to ``Content > Shop by Brand > Configuration`` is a bunch of the basic configuration you need to set up firstly.
+Go to ``Catalog > Shop by Brand > Configuration`` is a bunch of the basic configuration you need to set up firstly.
 
 .. image:: https://i.imgur.com/Ftbfl7l.png
 
@@ -233,7 +233,7 @@ This is a new sweet treatment for marketing purpose, choose “No” if you don�
 ***************
 This is a separated module to manage Categories on filter searching. Also you can customized some crucial meta data tags like Meta Title, Meta Description, Meta Keywords or Meta Robot
 
-Go to ``Content > Shop by Brand > Categories``
+Go to ``Catalog > Shop by Brand > Categories``
 
 .. image:: https://i.imgur.com/arOPrFm.png
 
@@ -243,7 +243,7 @@ To create brand new category, click ``New Category`` red button.
 
 To massively set brands into a specific category:
 
-* Follow ``Content > Shop By Brand: Categories``
+* Follow ``Catalog > Shop By Brand: Categories``
 * Select the category you want to apply changes navigate, click ``Edit``
 * Choose ``Brands`` at the left sidebar, a multi-select available brand list will show up.
 * Click ``Save Category``
@@ -252,7 +252,7 @@ To massively set brands into a specific category:
 
 2.3 Manage Brands
 ***************
-This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Content > Shop By Brand > Manage Brands``
+This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Catalog > Shop By Brand > Manage Brands``
 
 To generate a new brand, follow these steps
 
