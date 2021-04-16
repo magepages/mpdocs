@@ -1,7 +1,7 @@
 # Thank You Page
 ## Overview
 
-With the help of [Mageplaza Thank You Page](), you can impress your customers with ease. They can completely check their orders including various information such as order number and status, order date, shipping address, payment method, and so on. This will help the customers know that they have successfully placed orders. Also, it helps customers feel your respect and concern. Moreover, you can insert useful information into the Thank You Page such as coupon, product slider, FAQ, and social sharing buttons that allow customers to share with their friends. This gives customers many interesting benefits during the payment process. It is a great way to bring satisfaction to grumpy customers. More interestingly, this is a way to promote your brand in the memory of the customer.
+With the help of Mageplaza Thank You Page, you can impress your customers with ease. They can completely check their orders including various information such as order number and status, order date, shipping address, payment method, and so on. This will help the customers know that they have successfully placed orders. Also, it helps customers feel your respect and concern. Moreover, you can insert useful information into the Thank You Page such as coupon, product slider, FAQ, and social sharing buttons that allow customers to share with their friends. This gives customers many interesting benefits during the payment process. It is a great way to bring satisfaction to grumpy customers. More interestingly, this is a way to promote your brand in the memory of the customer.
 
 We also support the Newsletter Success page with similar features.
 
