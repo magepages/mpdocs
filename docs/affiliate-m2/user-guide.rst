@@ -573,15 +573,17 @@ Step 3: Set up the Discount
 
 * **Apply**
 
-  * *Apply = Percent of cart total*: Apply discount for the percentage of cart total
+  * **Apply = Percent of cart total**: Apply discount for the percentage of cart total
   
-  * *Apply = Fixed amount discount for the whole cart*: Apply a fixed discount for purchasing
-  
+  * **Apply = Fixed amount discount for whole cart**: Apply a fixed discount for purchasing
+
 * **Discount Amount**: Insert the amount or the percentage of discount for purchasing
 
-* **Discount Description**: Insert the description for your discount policy
+* **Apply to Shipping Amount**: Choose Yes to apply discount for shipping
 
-*  **Discard Subsequent Rules:**: No perform discount rules of the campaign that have lower priorities when applying the campaign (the standard version can use only 1 campaign)
+* **Apply Discount On Tax**: Choose Yes to apply discount for taxable payment
+
+* **Discount Description**: Insert the description for your discount policy
 
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
