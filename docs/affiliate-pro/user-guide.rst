@@ -621,15 +621,15 @@ Step 5: Set up the Coupon Code
 4.2 Add New Campaigns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-  * **Step 1: Fill in the Campaign Information** 
+* **Step 1: Fill in the Campaign Information** 
   
-  * **Step 2: Choose the conditions for applying the campaign**
+* **Step 2: Choose the conditions for applying the campaign**
   
-  * **Step 3: Set up Discount**
+* **Step 3: Set up Discount**
   
-  * **Step 4: Set up Commission**
+* **Step 4: Set up Commission**
   
-  * **Step 5: Set up Coupon Code**
+* **Step 5: Set up Coupon Code**
     
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
