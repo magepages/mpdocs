@@ -25,7 +25,9 @@ My Credit Page
 
 Each affiliate can manage every credit information such as available balance, holding balance, total earned, and total paid and all transactions related to the account are listed in detail.
 
-.. image:: https://i.imgur.com/UdQrBST.png
+Customer can track the fluctuation of the balance added to his affiliate account through the chart statistic over the months.
+
+.. image:: https://i.imgur.com/r6oJPdH.png
 
 Refer Friend Page
 ````````````````````
@@ -49,7 +51,7 @@ Click **Get banner link** to obtain the link and refer it to friends to get purc
 My Withdrawal Page
 ````````````````````
 
-.. image:: https://i.imgur.com/I83UxTI.png
+.. image:: https://i.imgur.com/87CVkxZ.png
 
 
 Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in the progress.
@@ -280,11 +282,33 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Select the email sender
   
   * The default email sender is: General Contact 
+  
+1.5.1 Admin Email
 
-1.5.1. Account Email
+.. image:: https://i.imgur.com/QRXlY8a.png
+
+* **Send Emails To**: Enter the email address so that admin can receive notifications. You can fill in multiple emails, separate them by commas ","
+
+* **New Affiliate Sign Up**: Select **Yes** to let admin receive notification emails when  a customer signs up for affiliate program. This will show the **Sign up Template** field
+
+* **Sign Up Template**: 
+
+  * Choose email template for email sent when a customer sign up for affiliate program 
+  
+  * The default content of the template is Sign Up Template (Default)
+  
+* **New Withdraw Request**: Select **Yes** to let admin receive  notification email when a customer requests withdraw. This will show the **Withdraw Request Template** field.
+
+* **Withdraw Request Template**: 
+
+  * Choose email template for email sent when a customer request withdraw 
+  
+  * The default content of the template is Withdraw Request Template (Default)
+
+1.5.2. Account Email
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/PIGz38i.png
+.. image:: https://i.imgur.com/ND1W01g.png
 
 * **Send Welcome Email**: Choose **Yes** to send the email when an  account registered as an Affiliate account
 
@@ -300,10 +324,33 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * The default content of the template is Welcome Email After Account Approved (Default)
   
-1.5.2. Transaction Email` section
+* **Account Rejection**: Select **Yes** to send email to the customer whose request register for affiliate account is rejected. This shows the **Account Rejection Template** field
+
+* **Account Rejection Template**: 
+
+  * Choose email template for email sent when the request to register for affiliate account is rejected
+ 
+  * The default content of the template is Account Rejection Template (Default)
+
+* **Account Change Status**: Select **Yes** to email the customer when the status of the affiliate account changes. This shows the **Account Change Status Template** field
+
+* **Account Change Status Template**:
+
+  * Select email template for email sent when the status of affiliate account changes 
+  
+  * The default content of the template is Account Change Status Template (Default)
+  
+* **Withdraw Cancel Email**: Select **Yes** to email customer when the customer's withdraw request is canceled. This shows the **Withdraw Cancel Template** field
+
+* **Withdraw Cancel Template**:
+
+  * Select email template for email sent to customer when request to withdraw is rejected 
+  * The default content of the template is Withdraw Cancel Template (Default)
+  
+1.5.3. Transaction Email` section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/CzEMkwj.png
+.. image:: https://i.imgur.com/bcRyA4G.png
 
 * **Send Transaction Email**: Select **Yes**  to send a notification email whenever there is a transaction
 
@@ -313,10 +360,10 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * The default content of the template is Update Balance Email (Default)
 
-1.5.3. Withdrawal Email
+1.5.4. Withdrawal Email
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/nmhJwAH.png
+.. image:: https://i.imgur.com/OrxFqXW.png
 
 * **Send Withdrawal Email**: Select **Yes** to send a notification email when you withdraw money
 
