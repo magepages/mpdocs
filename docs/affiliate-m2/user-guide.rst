@@ -599,12 +599,20 @@ In this section, allowing to configure the Tier 1 as follow:
 * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
 
 Step 5: Set up the Coupon Code
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/Okjwtjv.png
 
 * **Code Length**: enter the length for the coupon code. Otherwise, it will default to 0.
+
 * **Code Format**: Choose a format for coupon code. There are 3 formats as follows:
+
   * **Alphanumeric**: coupon code will include both alphanumeric characters
+  
   * **Alphabetical**: coupon code will contain alphanumeric characters
+  
   * **Numeric**: the coupon code will contain numeric characters
+  
 * **Coupon Code**: You can enter an arbitrary value as a coupon code or click the **Generate** button below to automatically generate the format coupon code as set in the **Code Length** and **Code Format** fields.
 
 **Affiliate program is displayed in the frontend**:
@@ -612,8 +620,11 @@ Step 5: Set up the Coupon Code
 .. image:: https://i.imgur.com/iemeoSV.png
 
 * Coupon codes for each Affiliate account can be used to receive discounts per Campaign.
+
 * Coupon code includes 2 parts:
+
   * The prefix part is Refer Code of the affiliate account, which can be changed arbitrarily in the **Coupon prefix** field
+  
   * The suffix is the coupon code generated in the **Coupon Code** tab in each Campaign.
 
 5. Withdraws
@@ -780,10 +791,5 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/yI8tnQE.png
-
-
-
-
-
 
 
