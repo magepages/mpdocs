@@ -50,7 +50,7 @@ Click **Get banner link** to obtain the link and refer it to friends to get purc
 My Withdrawal Page
 ````````````````````
 
-.. image:: https://i.imgur.com/I83UxTI.png
+.. image:: https://i.imgur.com/R714lxJ.png
 
 
 Mageplaza Affiliate supports offline payment and Paypal payment for the withdrawal. Each created withdrawal will be saved and managed in Withdraw History. Let follow its status to know where the request is in the progress.
@@ -272,15 +272,37 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.5. Email Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/gLEJqMq.png
+.. image:: https://i.imgur.com/QRXlY8a.png
 
 * **Email Sender**
 
   * Select the email sender
   
   * The default email sender is: General Contact 
+  
+1.5.1 Admin Email
 
-1.5.1. Account Email
+.. image:: https://i.imgur.com/QRXlY8a.png
+
+* **Send Emails To**: Enter the email address so that admin can receive notifications. You can fill in multiple emails, separate them by commas ","
+
+* **New Affiliate Sign Up**: Select **Yes** to let admin receive notification emails when  a customer signs up for affiliate program. This will show the **Sign up Template** field
+
+* **Sign Up Template**: 
+
+  * Choose email template for email sent when a customer sign up for affiliate program 
+  
+  * The default content of the template is Sign Up Template (Default)
+  
+* **New Withdraw Request**: Select **Yes** to let admin receive  notification email when a customer requests withdraw. This will show the **Withdraw Request Template** field.
+
+* **Withdraw Request Template**: 
+
+  * Choose email template for email sent when a customer request withdraw 
+  
+  * The default content of the template is Withdraw Request Template (Default)
+
+1.5.2. Account Email
 ~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/VfuCuT7.png
@@ -298,11 +320,34 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Choose the email template sending when the registered account is approved to be an Affiliate account by the store owner
   
   * The default content of the template is Welcome Email After Account Approved (Default)
+
+* **Account Rejection**: Select **Yes** to send email to the customer whose request register for affiliate account is rejected. This shows the **Account Rejection Template** field
+
+* **Account Rejection Template**: 
+
+  * Choose email template for email sent when the request to register for affiliate account is rejected
+ 
+  * The default content of the template is Account Rejection Template (Default)
+
+* **Account Change Status**: Select **Yes** to email the customer when the status of the affiliate account changes. This shows the **Account Change Status Template** field
+
+* **Account Change Status Template**:
+
+  * Select email template for email sent when the status of affiliate account changes 
   
-1.5.2. Transaction Email` section
+  * The default content of the template is Account Change Status Template (Default)
+  
+* **Withdraw Cancel Email**: Select **Yes** to email customer when the customer's withdraw request is canceled. This shows the **Withdraw Cancel Template** field
+
+* **Withdraw Cancel Template**:
+
+  * Select email template for email sent to customer when request to withdraw is rejected 
+  * The default content of the template is Withdraw Cancel Template (Default)
+  
+1.5.3. Transaction Email` section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/DsKC6PJ.png
+.. image:: https://i.imgur.com/bcRyA4G.png
 
 * **Send Transaction Email**: Select **Yes**  to send a notification email whenever there is a transaction
 
@@ -312,10 +357,10 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * The default content of the template is Update Balance Email (Default)
 
-1.5.3. Withdrawal Email
+1.5.4. Withdrawal Email
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/NwCirhY.png
+.. image:: https://i.imgur.com/OrxFqXW.png
 
 * **Send Withdrawal Email**: Select **Yes** to send a notification email when you withdraw money
 
@@ -371,7 +416,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.6.1. Sending Email Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/KgNFZi3.png
+.. image:: https://i.imgur.com/DkHBcb5.png
 
 * **Default Subject Email**
 
@@ -384,12 +429,6 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Enter the content for the sending email
   
   * The default content is **I've been shopping at {{store_name}} and feel really happy. They provide good service and reasonable prices.**
-  
-* **Default Message Shared via Social**
-
-  * Enter content for sending messages when sharing through social networks
-  
-  * The default content is **I've been shopping at {{store_name}} and feel really happy. Check it out: {{refer_url}}.**
 
 2. Manage Accounts
 `````````````````````````````
@@ -458,11 +497,13 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * **Step 4: Set up Commission**
   
+  * **Step 5: Set up Coupon Code**
+  
   
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/uZEBybr.png
+.. image:: https://i.imgur.com/FKItZl7.png
 
 * **Name** 
 
@@ -506,7 +547,7 @@ Step 1: Fill in the Campaign Information
 Step 2: Choose the conditions for applying the campaign
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  
-.. image:: https://i.imgur.com/LFy1DPq.png
+.. image:: https://i.imgur.com/YXQR86f.png
   
 * You can choose the products for a specific campaign by set the rules for those products
 
@@ -515,7 +556,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/4LIRPke.png
+.. image:: https://i.imgur.com/LPzxS7N.png
 
 * **Apply**
 
@@ -534,7 +575,7 @@ Step 3: Set up the Discount
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/HHXJ68z.png
+.. image:: https://i.imgur.com/yvWOYui.png
 
 * There are two commision types:
 
@@ -548,6 +589,35 @@ Step 4: Set up the Commission
 
 * **Add button:** Click Add button to create new Tier
 
+Step 5: Set up the Coupon Code
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/Okjwtjv.png
+
+* **Code Length**: enter the length for the coupon code. Otherwise, it will default to 0.
+
+* **Code Format**: Choose a format for coupon code. There are 3 formats as follows:
+
+  * **Alphanumeric**: coupon code will include both alphanumeric characters
+  
+  * **Alphabetical**: coupon code will contain alphanumeric characters
+  
+  * **Numeric**: the coupon code will contain numeric characters
+  
+* **Coupon Code**: You can enter an arbitrary value as a coupon code or click the **Generate** button below to automatically generate the format coupon code as set in the **Code Length** and **Code Format** fields.
+
+**Affiliate program is displayed in the frontend**:
+
+.. image:: https://i.imgur.com/iemeoSV.png
+
+* Coupon codes for each Affiliate account can be used to receive discounts per Campaign.
+
+* Coupon code includes 2 parts:
+
+  * The prefix part is Refer Code of the affiliate account, which can be changed arbitrarily in the **Coupon prefix** field
+  
+  * The suffix is the coupon code generated in the **Coupon Code** tab in each Campaign.
+
 4.2 Add New Campaigns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -559,10 +629,12 @@ Step 4: Set up the Commission
   
   * **Step 4: Set up Commission**
   
+  * **Step 5: Set up Coupon Code**
+    
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
   
-.. image:: https://i.imgur.com/XHNV2u7.png
+.. image:: https://i.imgur.com/BhQcHaz.png
 
 * **Name** 
   * Name your campaign
@@ -604,7 +676,7 @@ Step 1: Fill in the Campaign Information
 Step 2: Choose the conditions for applying the campaign
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  
-.. image:: https://i.imgur.com/Pa4HJIP.png
+.. image:: https://i.imgur.com/e0ZdnQe.png
   
 * You can choose the products for a specific campaign by set the rules for those products
 
@@ -613,7 +685,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/quh5Pdk.png
+.. image:: https://i.imgur.com/CWUjuWc.png
 
 * **Apply**
 
@@ -632,7 +704,7 @@ Step 3: Set up the Discount
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/ssRkpwe.png
+.. image:: https://i.imgur.com/bocNnKr.png
 
 * There are two commision types:
 
@@ -647,6 +719,35 @@ Step 4: Set up the Commission
 * Admin can also create various campaigns
 
 * For example: Campaign 1 has two tiers, the discount is 10%; campaign 2 has 2 tiers as well with 5% discount. A is Affiliate referring link to B as another Affiliate. When C buy the products using the link that B refer to, C will get the discount of 15% (10% + 5%). In this case, B will get the commision equal to the sum of tier 1 of campaign 1 and tier 1 of campaign 2. Whereas, A will get the commision of both tier 2 in the campagin 1 and campaign 2. 
+
+Step 5: Set up Coupon Code
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/KRM55fR.png
+
+* **Code Length**: enter the length for the coupon code. Otherwise, it will default to 0.
+
+* **Code Format**: Choose a format for coupon code. There are 3 formats as follows:
+
+  * **Alphanumeric**: coupon code will include both alphanumeric characters
+  
+  * **Alphabetical**: coupon code will contain alphanumeric characters
+  
+  * **Numeric**: the coupon code will contain numeric characters
+  
+* **Coupon Code**: You can enter an arbitrary value as a coupon code or click the **Generate** button below to automatically generate the format coupon code as set in the **Code Length** and **Code Format** fields.
+
+**Affiliate program is displayed in the frontend**:
+
+.. image:: https://i.imgur.com/iemeoSV.png
+
+* Coupon codes for each Affiliate account can be used to receive discounts per Campaign.
+
+* Coupon code includes 2 parts:
+
+  * The prefix part is Refer Code of the affiliate account, which can be changed arbitrarily in the **Coupon prefix** field
+  
+  * The suffix is the coupon code generated in the **Coupon Code** tab in each Campaign.
 
 5. Banners
 `````````````````````````````
@@ -825,13 +926,28 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 .. image:: https://i.imgur.com/1kYBnel.png
 
+8.5 Notification emails for admin when there is a request to create Affiliate account 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/HVkdhFG.png
 
+8.6 Notification emails for admin when there is a request to withdraw 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/YzxRMfh.png
 
+8.7 Notification emails for customer when an account creation request is rejected 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/eEL6Gx6.png
 
+8.8 Notification emails for customer when status of Affiliate account changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/jTevDKM.png
 
+8.9 Notification emails for customer when withdrawal request is rejected
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/yI8tnQE.png
 
