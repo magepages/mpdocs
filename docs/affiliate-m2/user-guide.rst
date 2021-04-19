@@ -267,7 +267,7 @@ For example: refer code is 123, Custom parameter is abc
 1.5 Email Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/707TiDC.png
+.. image:: https://i.imgur.com/QRXlY8a.png
 
 * **Email Sender**
 
@@ -275,10 +275,32 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default email sender is: General Contact 
 
-1.5.1. Account Email
+1.5.1 Admin Email
+
+.. image:: https://i.imgur.com/QRXlY8a.png
+
+* **Send Emails To**: Enter the email address so that admin can receive notifications. You can fill in multiple emails, separate them by commas ","
+
+* **New Affiliate Sign Up**: Select **Yes** to let admin receive notification emails when  a customer signs up for affiliate program. This will show the **Sign up Template** field
+
+* **Sign Up Template**: 
+
+  * Choose email template for email sent when a customer sign up for affiliate program 
+  
+  * The default content of the template is Sign Up Template (Default)
+  
+* **New Withdraw Request**: Select **Yes** to let admin receive  notification email when a customer requests withdraw. This will show the **Withdraw Request Template** field.
+
+* **Withdraw Request Template**: 
+
+  * Choose email template for email sent when a customer request withdraw 
+  
+  * The default content of the template is Withdraw Request Template (Default)
+
+1.5.2. Account Email
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/agQk3nY.png
+.. image:: https://i.imgur.com/ND1W01g.png
 
 * **Send Welcome Email**: Choose **Yes** to send the email when an  account registered as an Affiliate account
 
@@ -294,6 +316,29 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default content of the template is Welcome Email After Account Approved (Default)
   
+* **Account Rejection**: Select **Yes** to send email to the customer whose request register for affiliate account is rejected. This shows the **Account Rejection Template** field
+
+* **Account Rejection Template**: 
+
+  * Choose email template for email sent when the request to register for affiliate account is rejected
+ 
+ * The default content of the template is Account Rejection Template (Default)
+
+* **Account Change Status**: Select **Yes** to email the customer when the status of the affiliate account changes. This shows the **Account Change Status Template** field
+
+* **Account Change Status Template**:
+
+  * Select email template for email sent when the status of affiliate account changes 
+  
+  * The default content of the template is Account Change Status Template (Default)
+  
+* **Withdraw Cancel Email**: Select **Yes** to email customer when the customer's withdraw request is canceled. This shows the **Withdraw Cancel Template** field
+
+* **Withdraw Cancel Template**:
+
+  * Select email template for email sent to customer when request to withdraw is rejected 
+  * The default content of the template is Withdraw Cancel Template (Default)
+
 1.6.2. Transaction Email` section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
