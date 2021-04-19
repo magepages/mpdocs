@@ -431,12 +431,6 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Enter the content for the sending email
   
   * The default content is **I've been shopping at {{store_name}} and feel really happy. They provide good service and reasonable prices.**
-  
-* **Default Message Shared via Social**
-
-  * Enter content for sending messages when sharing through social networks
-  
-  * The default content is **I've been shopping at {{store_name}} and feel really happy. Check it out: {{refer_url}}.**
 
 2. Manage Accounts
 `````````````````````````````
@@ -511,11 +505,13 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * **Step 4: Set up Commission**
   
+  * **Step 5: Set up Coupon Code**
+  
   
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/uZEBybr.png
+.. image:: https://i.imgur.com/FKItZl7.png
 
 * **Name** 
 
@@ -559,7 +555,7 @@ Step 1: Fill in the Campaign Information
 Step 2: Choose the conditions for applying the campaign
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  
-.. image:: https://i.imgur.com/LFy1DPq.png
+.. image:: https://i.imgur.com/YXQR86f.png
   
 * You can choose the products for a specific campaign by setting the rules for those products
 
@@ -568,7 +564,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Step 4: Set up the Commission
+.. image:: https://i.imgur.com/LPzxS7N.png
 
 * **Apply**
 
@@ -587,7 +583,7 @@ Step 4: Set up the Commission
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/fK5MCkt.png
+.. image:: https://i.imgur.com/yvWOYui.png
 
 * There are two commision types:
 
@@ -601,6 +597,35 @@ Step 4: Set up the Commission
 
 * Add button: Click Add button to create new Tier
 
+Step 5: Set up the Coupon Code
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/Okjwtjv.png
+
+* **Code Length**: enter the length for the coupon code. Otherwise, it will default to 0.
+
+* **Code Format**: Choose a format for coupon code. There are 3 formats as follows:
+
+  * **Alphanumeric**: coupon code will include both alphanumeric characters
+  
+  * **Alphabetical**: coupon code will contain alphanumeric characters
+  
+  * **Numeric**: the coupon code will contain numeric characters
+  
+* **Coupon Code**: You can enter an arbitrary value as a coupon code or click the **Generate** button below to automatically generate the format coupon code as set in the **Code Length** and **Code Format** fields.
+
+**Affiliate program is displayed in the frontend**:
+
+.. image:: https://i.imgur.com/iemeoSV.png
+
+* Coupon codes for each Affiliate account can be used to receive discounts per Campaign.
+
+* Coupon code includes 2 parts:
+
+  * The prefix part is Refer Code of the affiliate account, which can be changed arbitrarily in the **Coupon prefix** field
+  
+  * The suffix is the coupon code generated in the **Coupon Code** tab in each Campaign.
+
 4.2 Add New Campaigns
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -612,10 +637,12 @@ Step 4: Set up the Commission
   
   * **Step 4: Set up Commission**
   
+  * **Step 5: Set up Coupon Code**
+  
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
   
-.. image:: https://i.imgur.com/XHNV2u7.png
+.. image:: https://i.imgur.com/BhQcHaz.png
 
 * **Name** 
 
@@ -659,7 +686,7 @@ Step 1: Fill in the Campaign Information
 Step 2: Choose the conditions for applying the campaign
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  
-.. image:: https://i.imgur.com/Pa4HJIP.png
+.. image:: https://i.imgur.com/e0ZdnQe.png
   
 * You can choose the products for a specific campaign by set the rules for those products
 
@@ -668,7 +695,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/quh5Pdk.png
+.. image:: https://i.imgur.com/CWUjuWc.png
 
 * **Apply**
 
@@ -687,7 +714,7 @@ Step 3: Set up the Discount
 Step 4: Set up the Commission
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/ssRkpwe.png
+.. image:: https://i.imgur.com/bocNnKr.png
 
 * There are two commision types:
 
@@ -702,6 +729,35 @@ Step 4: Set up the Commission
 * Admin can also create various campaigns
 
 * For example: Campaign 1 has two tiers, the discount is 10%; campaign 2 has 2 tiers as well with 5% discount. A is Affiliate referring link to B as another Affiliate. When C buy the products using the link that B refers to, C will get the discount of 15% (10% + 5%). In this case, B will get the commision equal to the sum of tier 1 of campaign 1 and tier 1 of campaign 2. Whereas, A will get the commision of both tier 2 in the campaign 1 and campaign 2. 
+
+Step 5: Set up Coupon Code
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/KRM55fR.png
+
+* **Code Length**: enter the length for the coupon code. Otherwise, it will default to 0.
+
+* **Code Format**: Choose a format for coupon code. There are 3 formats as follows:
+
+  * **Alphanumeric**: coupon code will include both alphanumeric characters
+  
+  * **Alphabetical**: coupon code will contain alphanumeric characters
+  
+  * **Numeric**: the coupon code will contain numeric characters
+  
+* **Coupon Code**: You can enter an arbitrary value as a coupon code or click the **Generate** button below to automatically generate the format coupon code as set in the **Code Length** and **Code Format** fields.
+
+**Affiliate program is displayed in the frontend**:
+
+.. image:: https://i.imgur.com/iemeoSV.png
+
+* Coupon codes for each Affiliate account can be used to receive discounts per Campaign.
+
+* Coupon code includes 2 parts:
+
+  * The prefix part is Refer Code of the affiliate account, which can be changed arbitrarily in the **Coupon prefix** field
+  
+  * The suffix is the coupon code generated in the **Coupon Code** tab in each campaign.
 
 5. Banners
 `````````````````````````````
@@ -891,7 +947,30 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 .. image:: https://i.imgur.com/1kYBnel.png
 
+8.5 Notification emails for admin when there is a request to create Affiliate account 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/HVkdhFG.png
+
+8.6 Notification emails for admin when there is a request to withdraw 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/YzxRMfh.png
+
+8.7 Notification emails for customer when an account creation request is rejected 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/eEL6Gx6.png
+
+8.8 Notification emails for customer when status of Affiliate account changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/jTevDKM.png
+
+8.9 Notification emails for customer when withdrawal request is rejected
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/yI8tnQE.png
 
 9. Reports
 `````````````````````````````
