@@ -322,7 +322,7 @@ For example: refer code is 123, Custom parameter is abc
 
   * Choose email template for email sent when the request to register for affiliate account is rejected
  
- * The default content of the template is Account Rejection Template (Default)
+  * The default content of the template is Account Rejection Template (Default)
 
 * **Account Change Status**: Select **Yes** to email the customer when the status of the affiliate account changes. This shows the **Account Change Status Template** field
 
@@ -339,10 +339,10 @@ For example: refer code is 123, Custom parameter is abc
   * Select email template for email sent to customer when request to withdraw is rejected 
   * The default content of the template is Withdraw Cancel Template (Default)
 
-1.6.2. Transaction Email` section
+1.5.3. Transaction Email` section
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/nOw54YA.png
+.. image:: https://i.imgur.com/bcRyA4G.png
 
 * **Send Transaction Email**: Select **Yes**  to send a notification email whenever there is a transaction
 
@@ -352,10 +352,10 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default content of the template is Update Balance Email (Default)
 
-1.6.3. Withdrawal Email
+1.5.4. Withdrawal Email
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/kmVzM09.png
+.. image:: https://i.imgur.com/OrxFqXW.png
 
 * **Send Withdrawal Email**: Select **Yes** to send a notification email when you withdraw money
 
@@ -365,7 +365,7 @@ For example: refer code is 123, Custom parameter is abc
   
   * The default content of the template is Withdraw Complete Email (Default)
 
-1.7. Refer Friends Configuration
+1.6. Refer Friends Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/uNkYjwl.png
@@ -412,7 +412,7 @@ For example: refer code is 123, Custom parameter is abc
 1.6.1. Sending Email Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/77PPzTk.png
+.. image:: https://i.imgur.com/DkHBcb5.png
 
 * **Default Subject Email**
 
@@ -425,12 +425,6 @@ For example: refer code is 123, Custom parameter is abc
   * Enter the content for the sending email
   
   * The default content is **I've been shopping at {{store_name}} and feel really happy. They provide good service and reasonable prices.**
-  
-* **Default Message Shared via Social**
-
-  * Enter content for sending messages when sharing through social networks
-  
-  * The default content is **I've been shopping at {{store_name}} and feel really happy. Check it out: {{refer_url}}.**
 
 2. Manage Accounts
 `````````````````````````````
@@ -513,10 +507,12 @@ With Affiliate Standard, the system creates a Campaign by default, you can edit 
   
   * **Step 4: Set up Commission**
   
+  * **Step 5: Set up Coupon Code**
+  
 Step 1: Fill in the Campaign Information
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/4MGXyi4.png
+.. image:: https://i.imgur.com/FKItZl7.png
 
 * **Name** 
   * Name your campaign
@@ -564,7 +560,7 @@ Step 1: Fill in the Campaign Information
 Step 2: Choose the conditions for applying the campaign
 ~~~~~~~~~~~~~~~~~~~~~~~~~
  
-.. image:: https://i.imgur.com/LFy1DPq.png
+.. image:: https://i.imgur.com/YXQR86f.png
   
 * You can choose the products for a specific campaign by setting the rules for those products
 
@@ -573,7 +569,7 @@ Step 2: Choose the conditions for applying the campaign
 Step 3: Set up the Discount 
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/WI0v00S.png
+.. image:: https://i.imgur.com/LPzxS7N.png
 
 * **Apply**
 
@@ -592,7 +588,7 @@ Step 4: Set up the Commission
 
 In this section, allowing to configure the Tier 1 as follow:
 
-.. image:: https://i.imgur.com/v1XYDwa.png
+.. image:: https://i.imgur.com/AaP2ZAm.png
 
 * There are two commision types:
 
@@ -601,6 +597,24 @@ In this section, allowing to configure the Tier 1 as follow:
   * **Fixed amount**: Commission is a fixed amount
   
 * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
+
+Step 5: Set up the Coupon Code
+
+* **Code Length**: enter the length for the coupon code. Otherwise, it will default to 0.
+* **Code Format**: Choose a format for coupon code. There are 3 formats as follows:
+  * **Alphanumeric**: coupon code will include both alphanumeric characters
+  * **Alphabetical**: coupon code will contain alphanumeric characters
+  * **Numeric**: the coupon code will contain numeric characters
+* **Coupon Code**: You can enter an arbitrary value as a coupon code or click the **Generate** button below to automatically generate the format coupon code as set in the **Code Length** and **Code Format** fields.
+
+**Affiliate program is displayed in the frontend**:
+
+.. image:: https://i.imgur.com/iemeoSV.png
+
+* Coupon codes for each Affiliate account can be used to receive discounts per Campaign.
+* Coupon code includes 2 parts:
+  * The prefix part is Refer Code of the affiliate account, which can be changed arbitrarily in the **Coupon prefix** field
+  * The suffix is the coupon code generated in the **Coupon Code** tab in each Campaign.
 
 5. Withdraws
 `````````````````````````````
@@ -742,9 +756,30 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 .. image:: https://i.imgur.com/1kYBnel.png
 
+7.5 Notification emails for admin when there is a request to create Affiliate account 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/HVkdhFG.png
 
+7.6 Notification emails for admin when there is a request to withdraw 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/YzxRMfh.png
+
+7.7 Notification emails for customer when an account creation request is rejected 
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/eEL6Gx6.png
+
+7.8 Notification emails for customer when status of Affiliate account changes
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/jTevDKM.png
+
+7.9 Notification emails for customer when withdrawal request is rejected
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. image:: https://i.imgur.com/yI8tnQE.png
 
 
 
