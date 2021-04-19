@@ -305,7 +305,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.5.2. Account Email
 ~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/VfuCuT7.png
+.. image:: https://i.imgur.com/poxFuTH.png
 
 * **Send Welcome Email**: Choose **Yes** to send the email when an  account registered as an Affiliate account
 
