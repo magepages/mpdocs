@@ -493,7 +493,7 @@ For example: refer code is 123, Custom parameter is abc
 
 With Affiliate Standard, the system creates a Campaign by default, you can edit this campaign's information to match your store development strategy.
 
-.. image:: https://i.imgur.com/We0xq7A.png
+.. image:: https://i.imgur.com/CydTMqy.png
 
 *To create multiple Campaigns for your store, you can update your version to [Affiliate Pro](https://www.mageplaza.com/magento-2-affiliate-extension/#)
 
