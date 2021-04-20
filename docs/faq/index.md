@@ -3,11 +3,11 @@
 
 If you are looking for an extension that allows customers easily to find the inquiries, ask and answer the question about their confusing, it's high time to choose **FAQ extension**. 
 
-Developed by Mageplaza for Magento 2 stores, [FAQ extension](https://www.mageplaza.com/magento-2-faq-extension/) offers an SEO-friendly FAQ page, which helps visitors look for the answer with ease instead of sending the email to the freshdesk page. Therefore, you can save much time for customers; this also makes them satisfied with your service, and of course, they will come back to your online store in the next purchase.
+Developed by Mageplaza for Magento 2 stores, FAQ extension offers an SEO-friendly FAQ page, which helps visitors look for the answer with ease instead of sending the email to the freshdesk page. Therefore, you can save much time for customers; this also makes them satisfied with your service, and of course, they will come back to your online store in the next purchase.
 
 ## Download & Install
 
-- [Mageplaza FAQ](https://www.mageplaza.com/magento-2-faq-extension/)
+- Mageplaza FAQ
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use

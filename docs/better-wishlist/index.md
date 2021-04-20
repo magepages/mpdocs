@@ -2,12 +2,12 @@
 
 ## Overview
 
-Customers tend to save their favorite products into Wishlist to review and buy later. However, it is difficult to manage your favorite products when they are focused on one wish list and cannot be categorized, thereby making customer experience worse. [Mageplaza Better Wishlist](https://www.mageplaza.com/magento-2-better-wishlist/) will solve this problem. This module will help customers easily create and update various WishList in accordance with different purchase needs. Thanks to this extension, customers can apply a range of actions to their wishlists such as delete/ move/ share them. Moreover, the module reports the most concerned and most recently added products in Wishlists, which helps help stores improve sales and increase loyal customers quickly by capturing the needs and shopping trends of them.
+Customers tend to save their favorite products into Wishlist to review and buy later. However, it is difficult to manage your favorite products when they are focused on one wish list and cannot be categorized, thereby making customer experience worse. Mageplaza Better Wishlist will solve this problem. This module will help customers easily create and update various WishList in accordance with different purchase needs. Thanks to this extension, customers can apply a range of actions to their wishlists such as delete/ move/ share them. Moreover, the module reports the most concerned and most recently added products in Wishlists, which helps help stores improve sales and increase loyal customers quickly by capturing the needs and shopping trends of them.
 
 
 ## How to download and install
 
-- [Download Mageplaza Better Wishlist](https://www.mageplaza.com/magento-2-better-wishlist/)
+- Download Mageplaza Better Wishlist
 - [How to Install Better Wishlish](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -20,14 +20,14 @@ Customers tend to save their favorite products into Wishlist to review and buy l
 
 ![](https://i.imgur.com/qlz28xE.png)
 
-- Add one product to different Wish Lists ([Quick View](https://www.mageplaza.com/magento-2-quick-view/) compatible)
+- Add one product to different Wish Lists (Quick View compatible)
 
 ![](https://i.imgur.com/B6zANUh.gif)
 
 
 ### 2. Admin
 - Admin can view and edit the Wish List of each customer
-- Have statistics of products quantiy added to Wish List (compatible with [Mageplaza Reports](https://www.mageplaza.com/magento-2-reports-extension/))
+- Have statistics of products quantiy added to Wish List (compatible with Mageplaza Reports)
 
 
 ## How to Configure

@@ -2,12 +2,12 @@
 
 ## Overview
 
-How can your loyal and wholesales customers can make a bagain on your stores if they buy product in large quantity? With [Mageplaza  Request For Quote](https://www.mageplaza.com/magento-2-request-for-quote/), customers and admin can create quote prices for a request. A chat channel established, helping admin and customer to discuss with each other. Besides, button request for quote displayed on the category page, product detail page, view cart page helps customer make a quote easily at anywhere. Moreover, the extension also notifies customers when the request is about to expire and has expired already so that customers can track their quote again. 
+How can your loyal and wholesales customers can make a bagain on your stores if they buy product in large quantity? With Mageplaza Request For Quote, customers and admin can create quote prices for a request. A chat channel established, helping admin and customer to discuss with each other. Besides, button request for quote displayed on the category page, product detail page, view cart page helps customer make a quote easily at anywhere. Moreover, the extension also notifies customers when the request is about to expire and has expired already so that customers can track their quote again. 
 
-In addition, we also support Request For Quote compatible with [Quick Order extension](https://www.mageplaza.com/magento-2-quick-order/), [SMTP](https://www.mageplaza.com/magento-2-smtp/). This extension helps you quickly handle customer requests and take care of your customers better.
+In addition, we also support Request For Quote compatible with Quick Order extension, SMTP. This extension helps you quickly handle customer requests and take care of your customers better.
 
 ## Download and Install
-- [Download Request For Quote](https://www.mageplaza.com/magento-2-request-for-quote/)
+- Download Request For Quote
 - [Install Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/)
 
 

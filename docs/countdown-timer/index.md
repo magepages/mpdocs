@@ -3,11 +3,11 @@
 ## Overview
 
 
-In order to increase the accessibility of customers and demand for products, Mageplaza developed the [Countdown Timer extension](https://www.mageplaza.com/magento-2-countdown-timer/). This module allows admin to add countdown timer displayed on the website for new products or promotional products. There are 2 types of countdown timer which are before the promotion sale and while running the promotion sale. In addition, there are 5 countdown timer templates available for admin to easily select and edit in accordance with the website design.
+In order to increase the accessibility of customers and demand for products, Mageplaza developed the Countdown Timer extension. This module allows admin to add countdown timer displayed on the website for new products or promotional products. There are 2 types of countdown timer which are before the promotion sale and while running the promotion sale. In addition, there are 5 countdown timer templates available for admin to easily select and edit in accordance with the website design.
 
 ## How to download and install
 
-- [Download Mageplaza Countdown Timer](https://www.mageplaza.com/magento-2-countdown-timer/)
+- Download Mageplaza Countdown Timer
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

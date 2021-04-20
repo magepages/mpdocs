@@ -4,7 +4,7 @@
 
 Freshsales is a famous product of Freshdesk, designed to meet all communication management needs of businesses. Free to use program of Freshsales is very useful for small and medium businesses, the useer-friendly design, eye-catching interface is the advantage of the software. 
 
-[Mageplaza Freshsales extension](https://mageplaza.com/magento-2-freshsales/) will help you fully integrate with Freshsales CRM to connect and synchronize many or each data information from Magento (Customer data, Order data) to Freshsales CRM (Accounts, Contacts, Leads, Deals). That will help create a smooth flow to maintain customer relationships and well organize your business. In the process of sending data to the Freshsales, admin can choose to sync manually or automatically the data. 
+Mageplaza Freshsales extension will help you fully integrate with Freshsales CRM to connect and synchronize many or each data information from Magento (Customer data, Order data) to Freshsales CRM (Accounts, Contacts, Leads, Deals). That will help create a smooth flow to maintain customer relationships and well organize your business. In the process of sending data to the Freshsales, admin can choose to sync manually or automatically the data. 
 
 ## How to use
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-Barclays is the UK's most trusted multinational banking and financial services company headquartered in London. [Mageplaza Barclaycard extension](https://mageplaza.com/magento-2-barclaycard/) will help you use Barclays to support online payment by card. Your customers can pay by Visa, Mastercard, Maestro, Amex Credit by default and can pay with Diners Club and JCB after being activated by Barclays. Mageplaza Barclaycard extension is fully compatible with [Mageplaza One Step Checkout](https://mageplaza.com/magento-2-one-step-checkout-extension/).
+Barclays is the UK's most trusted multinational banking and financial services company headquartered in London. Mageplaza Barclaycard extension will help you use Barclays to support online payment by card. Your customers can pay by Visa, Mastercard, Maestro, Amex Credit by default and can pay with Diners Club and JCB after being activated by Barclays. Mageplaza Barclaycard extension is fully compatible with [Mageplaza One Step Checkout](https://mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## How to use
 

@@ -2,7 +2,7 @@
 
 ## Overview
 
-How to know the increase in traffic of a website every week? What is the conversion rate of turning visitors to customers this month? [Mageplaza Google Tag Manager](https://www.mageplaza.com/magento-2-google-analytics/) extension will help online store track and report these data. The module is integrated with Google Analytics, Google Tag Manager, Facebook and Google Adwords to provide statistics about Shopping Behavior, Checkout Behavior, Product Performance that allow you to track website traffic and conversion rates with a few clicks.
+How to know the increase in traffic of a website every week? What is the conversion rate of turning visitors to customers this month? Mageplaza Google Tag Manager extension will help online store track and report these data. The module is integrated with Google Analytics, Google Tag Manager, Facebook and Google Adwords to provide statistics about Shopping Behavior, Checkout Behavior, Product Performance that allow you to track website traffic and conversion rates with a few clicks.
 
 ## How to download and install
 

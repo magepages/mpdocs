@@ -2,7 +2,7 @@
 
 ## Overview
 
-With the [Follow Up Email extension of Mageplaza](https://www.mageplaza.com/magento-2-follow-up-email/), admin can create and customize unlimited email templates with campaigns in 5 main events: order, customer, abandoned cart, wishlist, date. Admin can also completely set up unlimited email series of events, statistic for each email, event, each campaign and collect all campaigns statistics. 
+With the Follow Up Email extension of Mageplaza, admin can create and customize unlimited email templates with campaigns in 5 main events: order, customer, abandoned cart, wishlist, date. Admin can also completely set up unlimited email series of events, statistic for each email, event, each campaign and collect all campaigns statistics. 
 
 In addition, the module supports A/B testing and their statistics. In particular, Mageplaza Follow Up Email extension allows to add coupon code and add product to email.
 
@@ -37,7 +37,7 @@ From the Admin Panel, go to `Marketing > Follow Up Email > Configuration`
 
 - **Enable**:
   - Select "Yes" to allow customers to send notification emails.
-  - Install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid email sent to spam box.
+  - Install Mageplaza_SMTP to avoid email sent to spam box.
 - **Define Cart As Abandoned If After**:
   - Set time to identify Abandoned Cart.
   - Time is in minutes. The default is 1d1h1m.

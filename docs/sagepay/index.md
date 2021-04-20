@@ -2,15 +2,15 @@
 
 ## Overview
 
-Sage Pay is the leading payment service provider (PSP) in Europe. [Mageplaza Sage Pay extension](https://www.mageplaza.com/magento-2-sage-pay/) will help you integrate this payment gateway with your store. Sage Pay supports online payment via card and customers can save credit card information at the first payment to save time at the next purchase. Also, customers can manage saved credit card information and delete card information at any time. In particular, the admin will be able to create backend order with Sage Pay.
+Sage Pay is the leading payment service provider (PSP) in Europe. Mageplaza Sage Pay extension will help you integrate this payment gateway with your store. Sage Pay supports online payment via card and customers can save credit card information at the first payment to save time at the next purchase. Also, customers can manage saved credit card information and delete card information at any time. In particular, the admin will be able to create backend order with Sage Pay.
 
 Your customers can use all debit cards, credit cards, Visa, etc. And also be protected by authorizes, capture and 3D secure as well as AVS/CV2. Stores can choose to redirect customers to Sage Pay Payment page or process all the purchase right on your checkout page. 
 
-**Mageplaza Sage Pay** is fully compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), Magento Instant Purchase and [Reports](https://www.mageplaza.com/magento-2-reports-extension/) which helps customers to order, make reports on the sales quickly and conveniently.
+**Mageplaza Sage Pay** is fully compatible with our One Step Checkout, Magento Instant Purchase and Reports which helps customers to order, make reports on the sales quickly and conveniently.
 
 ## How to download and install
 
-- [Download Mageplaza Sage Pay](https://www.mageplaza.com/magento-2-sage-pay/)
+- Download Mageplaza Sage Pay
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 **Table of Contents**
@@ -590,7 +590,7 @@ This section records the customer or admin orders information and the customers'
 
 ![](https://i.imgur.com/I4wZXAN.png)
 
-- Compatible with [Mageplaza Reports extension](https://www.mageplaza.com/magento-2-reports-extension/): Support additional Reports of **Order Status** and **Transaction Status** in the filterable time.
+- Compatible with Mageplaza Reports extension: Support additional Reports of **Order Status** and **Transaction Status** in the filterable time.
 
 ![](https://i.imgur.com/fOf00Sy.png)
 
@@ -622,7 +622,7 @@ Note: **Instant Purchase** only shows when you have saved the payment cards. Als
 
 ![](https://i.imgur.com/bGIYFQ1.png)
 
-Compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+Compatible with One Step Checkout
 
 ![](https://i.imgur.com/KbRNnQD.png)
 

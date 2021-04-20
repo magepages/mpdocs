@@ -1,11 +1,11 @@
 # Twitter Widget 
 
 ## Overview
-Twitter is a popular social networking for people and stores who all need to advertise there. Therefore, Mageplaza builds a new module called [Twitter Widget](https://www.mageplaza.com/magento-2-twitter-widget). It allows owners to easily insert Twitter Timeline widgets. This makes stores more accessible to customers, less expensive and highly efficient. Not only that, the owner can manage tweets on any page you want.
+Twitter is a popular social networking for people and stores who all need to advertise there. Therefore, Mageplaza builds a new module called Twitter Widget. It allows owners to easily insert Twitter Timeline widgets. This makes stores more accessible to customers, less expensive and highly efficient. Not only that, the owner can manage tweets on any page you want.
 Twitter Widget supports displaying your Instagram images on the home page, product page or on any CMS page. Besides, it supports displaying your Twitter images on the home page, product page or on any CMS page. You can also configure the maximum number of tweets displayed and display the Twitter Block Follow at header button.
 
 ## Download and Install
-- [Download Mageplaza Twitter Widget](https://www.mageplaza.com/magento-2-twitter-widget)
+- Download Mageplaza Twitter Widget
 - [Installation Guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use

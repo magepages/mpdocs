@@ -4,14 +4,14 @@
 
 Currently, Magento 2 only allows editing **Customer Information** and **Address Information** at the view order page. If you want to edit other information, you must go to the separated **Edit Order** page, then the old order will automatically be canceled and the new order will be created. Also, admin can only edit other information (besides Customer and Address Information) when Order is Pending.
 
-With [Mageplaza Edit Order](https://www.mageplaza.com/magento-2-edit-order/), the editing becomes easier than ever. This extension allows admin to edit information right at the order view page via slide popup without having to switch to another link. Quick Edit action is integrated to be able to edit all order information at the same time. In addition, this module automatically recalculates shipping fee if the order information changes and returns the item to stock if changing the item in the order.
+With Mageplaza Edit Order, the editing becomes easier than ever. This extension allows admin to edit information right at the order view page via slide popup without having to switch to another link. Quick Edit action is integrated to be able to edit all order information at the same time. In addition, this module automatically recalculates shipping fee if the order information changes and returns the item to stock if changing the item in the order.
 
-Mageplaza Edit Order is fully compatible with [Customer Order Number](https://www.mageplaza.com/magento-2-custom-order-number/), [Multiple Shipping Flat Rate](https://www.mageplaza.com/magento-2-multi-flat-rates-shipping/), [Shipping Restriction](https://www.mageplaza.com/magento-2-shipping-restrictions/), [Payment Restriction](https://www.mageplaza.com/magento-2-payment-restrictions/).
+Mageplaza Edit Order is fully compatible with Customer Order Number, Multiple Shipping Flat Rate, Shipping Restriction, Payment Restriction.
 
 
 ## How to download and install
 
-- [Download Mageplaza Edit Order](https://www.mageplaza.com/magento-2-edit-order/)
+- Download Mageplaza Edit Order
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -193,7 +193,7 @@ Order numbers will include both letters and numbers. It will be beneficial for t
 
 #### 4.2. Compatible with Multiple Shipping Flat Rate
 
-In addition to the Magento Shipping Method, when installing the module [Multiple Shipping Flat Rate](https://www.mageplaza.com/magento-2-multi-flat-rates-shipping/), you can create more Shipping Methods to help admin and customers have more options.
+In addition to the Magento Shipping Method, when installing the module Multiple Shipping Flat Rate, you can create more Shipping Methods to help admin and customers have more options.
 
 ![](https://i.imgur.com/RRkX34Z.png)
 

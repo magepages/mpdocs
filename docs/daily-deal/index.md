@@ -1,10 +1,10 @@
 # Daily Deal
 ## Overview
 
-Using discounts for items at certain times is a smart way to attract customers to purchase. [Mageplaza Daily Deal extension](https://www.mageplaza.com/magento-2-daily-deal/) will make it easy for shop owners to set a discount for each product. Each product will be set to display the discounted price, time left, item left, along with the status Upcoming/Running/Ended of the deal. In addition, Daily Deal has many outstanding features such as slider, flexible design, etc that support store owners to promote products, thereby stimulating the customer's purchases and increase sales for stores significantly.
+Using discounts for items at certain times is a smart way to attract customers to purchase. Mageplaza Daily Deal extension will make it easy for shop owners to set a discount for each product. Each product will be set to display the discounted price, time left, item left, along with the status Upcoming/Running/Ended of the deal. In addition, Daily Deal has many outstanding features such as slider, flexible design, etc that support store owners to promote products, thereby stimulating the customer's purchases and increase sales for stores significantly.
 
 ## Download & Install
-- [Mageplaza Daily Deal](https://www.mageplaza.com/magento-2-daily-deal/)
+- Mageplaza Daily Deal
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use

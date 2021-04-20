@@ -2,12 +2,12 @@
 
 ## Overview
 
-[Mageplaza Required Login](https://www.mageplaza.com/magento-2-required-login/) which can be applied to any page you want is used to force visitors to log in or register accounts. As a result, you can restrict visitors from accessing the site without logging in as well as generate and manage customer information. After login, admin can redirect customers back to the previous page or to any page you want. And especially with this new Required Login extension, if the number of customer account registrations is sufficient, you can turn off the account creation feature to ensure your site's security.
+Mageplaza Required Login which can be applied to any page you want is used to force visitors to log in or register accounts. As a result, you can restrict visitors from accessing the site without logging in as well as generate and manage customer information. After login, admin can redirect customers back to the previous page or to any page you want. And especially with this new Required Login extension, if the number of customer account registrations is sufficient, you can turn off the account creation feature to ensure your site's security.
 
 
 ## Download and Install
 
-- [Mageplaza Required Login](https://www.mageplaza.com/magento-2-required-login/)
+- Mageplaza Required Login
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

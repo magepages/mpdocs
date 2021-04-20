@@ -2,11 +2,11 @@
 
 ## Overview
 
-[Mageplaza Free Gifts Extension](https://mageplaza.com/magento-2-free-gifts/) helps store owners set up special promotions by offering free gifts when customers purchase the products on their stores. Admins not only can easily set up conditions for free gifts, they also could customize these rules with discount products, customer groups, quantity restrictions, etc. Therefore, customers are interested in shopping in your Magento store.
+Mageplaza Free Gifts Extension helps store owners set up special promotions by offering free gifts when customers purchase the products on their stores. Admins not only can easily set up conditions for free gifts, they also could customize these rules with discount products, customer groups, quantity restrictions, etc. Therefore, customers are interested in shopping in your Magento store.
 
 ## Download and Install
 
-- [Download Free Gifts extension](https://mageplaza.com/magento-2-free-gifts/)
+- Download Free Gifts extension
 - [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 

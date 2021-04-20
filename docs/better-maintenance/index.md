@@ -2,13 +2,13 @@
 
 ## Overview
 
-With [Mageplaza Better Maintenance](https://www.mageplaza.com/magento-2-better-maintenance/), instead of seeing each error page every time store maintains, visitors will see the page is attractively and not boring at all. You can insert useful information on pages such as countdown timer, subscribe forms, and social sharing buttons that allow customers to share with their friends. This gives customers many interesting benefits in the process of waiting for the page. This is a great way to bring satisfaction to fastidious customers. 
+With Mageplaza Better Maintenance, instead of seeing each error page every time store maintains, visitors will see the page is attractively and not boring at all. You can insert useful information on pages such as countdown timer, subscribe forms, and social sharing buttons that allow customers to share with their friends. This gives customers many interesting benefits in the process of waiting for the page. This is a great way to bring satisfaction to fastidious customers. 
 
 We also support Coming Soon Page with similar features in this module.
 
 ## How to download and install
 
-- [Download Mageplaza Better Maintenance](https://www.mageplaza.com/magento-2-better-maintenance/)
+- Download Mageplaza Better Maintenance
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

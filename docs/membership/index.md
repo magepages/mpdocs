@@ -2,11 +2,11 @@
 
 ## Overview
 
-[Mageplaza Membership extension](https://www.mageplaza.com/magento-2-membership/) will create a customer group management system based on customer group. Customers can purchase the right to join the customer group by acquiring membership products. This encourages customers to buy more with their appealing offers corresponding with their membership levels. As a member of your store, customers will be able to enjoy other benefits that the outsiders do not have. In particular, there will be an expiration for each membership. When it expires, it automatically switches to the default customer group or the admin can configure the transfer of the customer group.
+Mageplaza Membership extension will create a customer group management system based on customer group. Customers can purchase the right to join the customer group by acquiring membership products. This encourages customers to buy more with their appealing offers corresponding with their membership levels. As a member of your store, customers will be able to enjoy other benefits that the outsiders do not have. In particular, there will be an expiration for each membership. When it expires, it automatically switches to the default customer group or the admin can configure the transfer of the customer group.
 
 ## How to download and install
 
-- [Download Mageplaza Membership](https://www.mageplaza.com/magento-2-membership/)
+- Download Mageplaza Membership
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

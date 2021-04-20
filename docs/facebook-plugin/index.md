@@ -1,11 +1,11 @@
 # Facebook Plugin
 ## Overview
 
-Nowadays, Facebook is one of the most popular social networks to be used. And almost store owners have the need to advertise their stores on Facebook. However, the cost of advertising on Facebook is quite large. Therefore, Mageplaza has built a new module as [Facebook Plugin](https://www.mageplaza.com/magento-2-facebook-plugin/). It allows store owners to insert a Facebook Page widget easily. This makes it easier, less expensive, and more effective for online stores to reach consumers. Not only that, store owners can manage Facebook comments on the product details page with an ease.
+Nowadays, Facebook is one of the most popular social networks to be used. And almost store owners have the need to advertise their stores on Facebook. However, the cost of advertising on Facebook is quite large. Therefore, Mageplaza has built a new module as Facebook Plugin. It allows store owners to insert a Facebook Page widget easily. This makes it easier, less expensive, and more effective for online stores to reach consumers. Not only that, store owners can manage Facebook comments on the product details page with an ease.
 
 ## Download and Install
 
-- [Download Facebook Plugin](https://www.mageplaza.com/magento-2-facebook-plugin/)
+- Download Facebook Plugin
 - [Install Mageplaza module](https://www.mageplaza.com/install-magento-2-extension/)
 
 

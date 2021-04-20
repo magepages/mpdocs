@@ -7,7 +7,7 @@ Mageplaza offers a solution to help customers easily print, download PDF Invoice
 
 You can download from the following resouces:
 
-- [Mageplaza](https://www.mageplaza.com/magento-2-pdf-invoice-extension/)
+- Mageplaza PDF Invoice
 - [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-pdf-invoice.html)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
