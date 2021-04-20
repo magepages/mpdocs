@@ -2,12 +2,12 @@
 
 ## Overview
 
-Making a quick order has never been easy for any customer, especially for wholesale customers. To solve this problem, Magento experts from Mageplaza have released [Magento 2 Quick Order extension](http://www.mageplaza.com/magento-2-quick-order/). Thanks to this extension, customers can order quickly by searching for the product name or SKU of that product. Ordering process becomes easier than ever for your customers.
+Making a quick order has never been easy for any customer, especially for wholesale customers. To solve this problem, Magento experts from Mageplaza have released Magento 2 Quick Order extension. Thanks to this extension, customers can order quickly by searching for the product name or SKU of that product. Ordering process becomes easier than ever for your customers.
 
 Quick Order extension can be used by both the Customer who has an account at the store and the Guest who has no account. We believe that with the help of this module, you can improve the revenues and profits dramatically.
 
 ## Download & Install
-- [Mageplaza Quick Order](http://www.mageplaza.com/magento-2-quick-order/)
+- Mageplaza Quick Order
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use

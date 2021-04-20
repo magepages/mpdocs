@@ -1,11 +1,11 @@
 # Quick View & Ajax Cart
 ## Overview
 
-When customers want to view the product detail page, they have to click on the product and wait for a while to see it. So, if they want to view a product, they have to open more tabs and take more time to know more details about that product. That's why [Mageplaza Quick View module](https://www.mageplaza.com/magento-2-quick-view/) is released. It helps you save more time surfing the web, see more details and increase sales for your store. Customers don't need to visit the Product Detail page to view product details, just click on the icon or label on the image, then they can view full product information through the popup displayed on the screen. This allows customers to view multiple products without spending a lot of time. Not only that, when customers add products to the cart, the popup about product details information is also displayed and that product will automatically fly into the cart quickly.
+When customers want to view the product detail page, they have to click on the product and wait for a while to see it. So, if they want to view a product, they have to open more tabs and take more time to know more details about that product. That's why Mageplaza Quick View module is released. It helps you save more time surfing the web, see more details and increase sales for your store. Customers don't need to visit the Product Detail page to view product details, just click on the icon or label on the image, then they can view full product information through the popup displayed on the screen. This allows customers to view multiple products without spending a lot of time. Not only that, when customers add products to the cart, the popup about product details information is also displayed and that product will automatically fly into the cart quickly.
 
 ## How to download and install
 
-- [Download Mageplaza Quick View](https://www.mageplaza.com/magento-2-quick-view/)
+- Download Mageplaza Quick View
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

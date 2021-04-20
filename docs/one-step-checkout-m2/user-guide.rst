@@ -1,6 +1,6 @@
 
 
-`One Step Checkout extension for Magento 2 <https://www.mageplaza.com/magento-2-one-step-checkout-extension/>`_, developed by Mageplaza, is the best marketing tool which helps you to reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customers checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page and make it more powerful and more effective. 
+One Step Checkout extension for Magento 2, developed by Mageplaza, is the best marketing tool which helps you to reduce your store abandonment cart, increase conversion rate and totally grow your store revenue. That extension helps customers checkout quickly and conveniently in one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, Support multi payment methods will improve your checkout page and make it more powerful and more effective. 
 
 
 Mageplaza One Step Checkout for Magento 2 User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Config** on the backend.
@@ -127,7 +127,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 
 - From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Shipping Method**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
-- Please install `Mageplaza Order Attributes <https://www.mageplaza.com/magento-2-order-attributes/>`_ to add more custom checkout fields.
+- Please install Mageplaza Order Attributes to add more custom checkout fields.
 
 .. image:: https://i.imgur.com/VTNfGfS.gif
 
@@ -138,7 +138,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 
 - From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Payment Method**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
-- Please install `Mageplaza Order Attributes <https://www.mageplaza.com/magento-2-order-attributes/>`_ to add more custom checkout fields.
+- Please install Mageplaza Order Attributes to add more custom checkout fields.
 
 .. image:: https://i.imgur.com/iuhXSlT.gif
 
@@ -147,7 +147,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 
 - From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Order Summary**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
-- Please install `Mageplaza Order Attributes <https://www.mageplaza.com/magento-2-order-attributes/>`_ to add more custom checkout fields.
+- Please install Mageplaza Order Attributes to add more custom checkout fields.
 
 .. image:: https://i.imgur.com/A8yV19E.gif
 
@@ -183,7 +183,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
     * In **Google API Key** field: Insert the Key. About how to get this key, you can refer `this guide <https://developers.google.com/maps/documentation/javascript/get-api-key>`_.
     * In **Restrict the auto suggestion for a specific country** field: Select default country for Billing address and Shipping address.
     
-* **Enable GeoIP**: GeoIP allows you to lookup the approximate location of an IP address. If store owners enable this function, when a customer comes to the checkout page, State, country, city and zip code will be automatically entered based on his current IP address. Ask customers fill less, they will buy yours more! You need install `GeoIP Mageplaza Extension <https://www.mageplaza.com/magento-2-geoip/?utm_source=mageplaza.com&utm_medium=one-step-checkout&utm_campaign=one-step-checkout>`_ to use this function.
+* **Enable GeoIP**: GeoIP allows you to lookup the approximate location of an IP address. If store owners enable this function, when a customer comes to the checkout page, State, country, city and zip code will be automatically entered based on his current IP address. Ask customers fill less, they will buy yours more! You need install `GeoIP Mageplaza Extension to use this function.
 
   * Select **No**: If you don’t want to use GeoIP
   

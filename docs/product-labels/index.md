@@ -1,10 +1,10 @@
 # Product Labels
 ## Overview
 
-[Product Labels extension](https://www.mageplaza.com/magento-2-product-labels/) offers the feature that helps store owners display images, labels, characters, symbols on the products. This feature brings the customers the intuitive interface that allows them to know that Which products are being got the sale off and what percentage of sales is, etc. Also, when you integrate this module, store owners can easily attract customers to the best-selling products or products that they are planning for marketing to increase sales and revenues for their online stores.
+Product Labels extension offers the feature that helps store owners display images, labels, characters, symbols on the products. This feature brings the customers the intuitive interface that allows them to know that Which products are being got the sale off and what percentage of sales is, etc. Also, when you integrate this module, store owners can easily attract customers to the best-selling products or products that they are planning for marketing to increase sales and revenues for their online stores.
 
 ## Documentation
-- [Download Mageplaza Product Labels extension](https://www.mageplaza.com/magento-2-product-labels/)
+- Download Mageplaza Product Labels extension
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## I. How to install
@@ -107,7 +107,7 @@ Design the labels and images for the product on the `Product Page`
 - **Custom CSS**: You can edit the labels as your want
 - **Select position**: You can edit the display position of labels here by moving the mouse or edit the display position of labels by choosing the positions respectively with the squares on the side.
   
-Design the labels and images for the product on the `Product Listing` (the label will display on the product in the Category, Search Page or Layered Navigation if your website installs [Layered Navigation extension of Mageplaza](https://www.mageplaza.com/magento-2-layered-navigation-extension/))
+Design the labels and images for the product on the `Product Listing` (the label will display on the product in the Category, Search Page or Layered Navigation if your website installs Layered Navigation extension of Mageplaza.
 
   - **Same design with product page**
     - `Same design with product page = Yes`: Auto-get the design the same as with `Product Page` above
