@@ -284,6 +284,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * The default email sender is: General Contact 
   
 1.5.1 Admin Email
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/DVusagM.png
 
