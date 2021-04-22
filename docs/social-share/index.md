@@ -2,12 +2,12 @@
 
 ## Overview
 
-Today, social media is growing strongly and having tremendous influence on human life. Thanks to thousands of people accessing social networking sites every day, most online businesses take advantage of this opportunity to promote their brands and products closer to customers as well as increase the amount of interaction on their websites. With the new [Social Share extension of Mageplaza](https://www.mageplaza.com/magento-2-social-share/), it will help you to do the above tasks and especially help you save time and advertising costs.
+Today, social media is growing strongly and having tremendous influence on human life. Thanks to thousands of people accessing social networking sites every day, most online businesses take advantage of this opportunity to promote their brands and products closer to customers as well as increase the amount of interaction on their websites. With the new Social Share extension of Mageplaza, it will help you to do the above tasks and especially help you save time and advertising costs.
 
 
 ## Download & Install
 
-- [Mageplaza Social Share](https://www.mageplaza.com/magento-2-social-share/)
+- Mageplaza Social Share
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
