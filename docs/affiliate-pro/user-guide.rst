@@ -397,7 +397,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * If empty, default Public AddThis ID ra-56e141d56e895f5c will be used
   
-* **AddThis.com Classname**: allows to display the social share button in the **Referral Via Social Networks** outside the frontend. Enter the class name **AddThis**. You can go to your AddThis.com account, then click **Get the code** in the upper right corner, then scroll down to the **Setup Inline Tools** section, you will see the screenshot as below: 
+* **AddThis.com Classname**: allows to display the social share button in the **Referral Via Social Networks** outside the frontend. Enter the class name **AddThis**. You can go to your AddThis.com account, then click **Get the code** in the upper right corner, then scroll down to the **Setup Inline Tools** section, you will see the screenshot as below:
+
+.. image:: https://i.imgur.com/qrrq5aX.png
 
 .. image:: https://i.imgur.com/CqMuBc7.png
 
