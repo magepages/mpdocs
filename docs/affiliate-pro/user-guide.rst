@@ -174,7 +174,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.2.2.Terms and Conditions
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/VBCsDTM.png
+.. image:: https://i.imgur.com/mRu0KmE.png
 
 * **Enable Terms and Conditions**: Choose Yes to display Terms and Conditions in the Sign Up section which is outside the frontend
 
@@ -284,7 +284,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
 1.5.1 Admin Email
 
-.. image:: https://i.imgur.com/QRXlY8a.png
+.. image:: https://i.imgur.com/DVusagM.png
 
 * **Send Emails To**: Enter the email address so that admin can receive notifications. You can fill in multiple emails, separate them by commas ","
 
@@ -812,7 +812,7 @@ Add New Banner
 6.2. Add New Withdraws
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/Fvw09Fg.png
+.. image:: https://i.imgur.com/f8idxZ5.png
 
 
 * **Account** 
@@ -841,24 +841,26 @@ Add New Banner
   
   * There are three payment methods: Offline payment, Bank Transfer, Paypal payment
   
-* **Withdraw Reason**: Fill in the reason for withdrawal
+* **Withdraw Description**: Fill in the description for withdrawal
 
 * **Payment Detail**: 
 
-  * For **Offline payment**, you need to insert the **Addresses**
+* For **Offline payment**, you need to insert the **Address**
 
-.. image:: https://i.imgur.com/5w1uKvg.png
+.. image:: https://i.imgur.com/XB0fiRZ.png
 
-
-  * For **Bank Transfer**, insert the Bank account
+* For **Bank Transfer**, insert the Bank account
   
-.. image:: https://i.imgur.com/ywa7PZk.png
+.. image:: https://i.imgur.com/2LUZb53.png
 
+* For **Paypal payment**, you need to fill in the **Paypal email** and **Transaction ID** 
 
-  * For **Paypal payment**, you need to fill in the **Paypal email** and **Transaction ID** 
+.. image:: https://i.imgur.com/JoXGIAu.png
 
-.. image:: https://i.imgur.com/kE5UN64.png
-
+* **Payment Email**: Enter the Paypal email who receive commission
+  
+* **Paypal transaction Id**: Enter Paypal transaction ID
+  
 7. Transactions
 `````````````````````````````
 
