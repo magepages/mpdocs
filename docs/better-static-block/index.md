@@ -3,11 +3,11 @@
 
 ## Overview
 
-It is pretty easy for admin to create Blocks in Magento 2 from [Magento Admin panel](https://www.mageplaza.com/magento-2-module-development/create-admin-menu-magento-2.html). Store owners display Blocks in anywhere. However, with [Better Static Block extension](https://www.mageplaza.com/magento-2-better-static-block/) of Mageplaza, we create more helpful features such as: displaying blocks by customer groups and websites, setting time for auto-displaying blocks, allowing admin to duplicate available blocks, support different types of content (video, image, text,...) and so on. This extension helps shop owners have flexibility in advertising products and significantly improve the efficiency of your store. 
+It is pretty easy for admin to create Blocks in Magento 2 from [Magento Admin panel](https://www.mageplaza.com/magento-2-module-development/create-admin-menu-magento-2.html). Store owners display Blocks in anywhere. However, with Better Static Block extension of Mageplaza, we create more helpful features such as: displaying blocks by customer groups and websites, setting time for auto-displaying blocks, allowing admin to duplicate available blocks, support different types of content (video, image, text,...) and so on. This extension helps shop owners have flexibility in advertising products and significantly improve the efficiency of your store. 
 
 ## How to download and install
 
-- [Download Mageplaza Better Static Block](https://www.mageplaza.com/magento-2-better-static-block/)
+- Download Mageplaza Better Static Block
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
