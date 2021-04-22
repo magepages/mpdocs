@@ -4,7 +4,7 @@
 
 Customer reviews have tremendous influence over making a purchase of other consumers, especially for local business. Positive feedback  is great but also negative one certainly has its place. In conclusion, the more reviews you can collect, the more initiatives you can implement for your business to ensure the e-commerce relationship. Boosting product’s credits means boosting sales and revenues.
 
-[Magento 2 Review Reminder](https://www.mageplaza.com/magento-2-review-reminder/) would like to lend you a hand in delivering friendly reminders your customers to come back and write some words for your products. This oh-so handy extension will show the way how you can flexible engender review claim email chains, follow the sending procedure and its detail reports supported by Google Analytics effortlessly.
+Magento 2 Review Reminder would like to lend you a hand in delivering friendly reminders your customers to come back and write some words for your products. This oh-so handy extension will show the way how you can flexible engender review claim email chains, follow the sending procedure and its detail reports supported by Google Analytics effortlessly.
 
 
 ```

@@ -2,12 +2,12 @@
 
 ## Overview
 
-Salesforce is CRM (customer relationship management) software. It offers business applications focused on customer service, marketing automation, analytics and application development. [Mageplaza Salesforce extension](https://www.mageplaza.com/magento-2-salesforce/) will help you fully integrate with Salesforce to connect and synchronize multiple or individual data information from Magento such as Customer, Product, Order, Catalog Price Rule to Salesforce with Account, Contact, Lead, Product, Order, Opportunity, Campaign. During the process of sending data to Salesforce, the admin can send it manually or automatically whenever there is any update. 
+Salesforce is CRM (customer relationship management) software. It offers business applications focused on customer service, marketing automation, analytics and application development. Mageplaza Salesforce extension will help you fully integrate with Salesforce to connect and synchronize multiple or individual data information from Magento such as Customer, Product, Order, Catalog Price Rule to Salesforce with Account, Contact, Lead, Product, Order, Opportunity, Campaign. During the process of sending data to Salesforce, the admin can send it manually or automatically whenever there is any update. 
 
 
 ## How to download and install
 
-- [Download Salesforce extension](https://www.mageplaza.com/magento-2-salesforce/)
+- Download Salesforce extension
 - [Install magento 2 extension guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 

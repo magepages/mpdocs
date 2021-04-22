@@ -4,11 +4,11 @@
 
 Are you ready to revolutionize your e-commerce store? It's easier than ever to turn your customers into potential customers thanks to an advanced extension from **Mageplaza - Better Popup**.
 
-[Better Popup](https://www.mageplaza.com/magento-2-better-popup/) is released to retain visitors when they leave the website and then, turn them into subscribers or customers on your website. In addition, it also helps to increase the number of customers, increase the number of sign-ups as well as help SEO your site effectively.
+Better Popup is released to retain visitors when they leave the website and then, turn them into subscribers or customers on your website. In addition, it also helps to increase the number of customers, increase the number of sign-ups as well as help SEO your site effectively.
 
 ## Download & Install
 
-- [Mageplaza Better Popup](https://www.mageplaza.com/magento-2-better-popup/)
+- Mageplaza Better Popup
 - [How to install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure

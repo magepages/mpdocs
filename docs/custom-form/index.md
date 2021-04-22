@@ -2,11 +2,11 @@
 
 
 ## Overview
-[Mageplaza Custom Form](https://www.mageplaza.com/magento-2-custom-form/) allows the admin to create multiple custom forms with different field types to collect customer information and feedbacks. **Custom Form** can be shown anywhere in the store. For each **Custom Form** submitted by customers, admin can manage and make statistics effectively. Thereby can capture customer trends and contribute to the increase in store revenue significantly. 
+Mageplaza Custom Form allows the admin to create multiple custom forms with different field types to collect customer information and feedbacks. **Custom Form** can be shown anywhere in the store. For each **Custom Form** submitted by customers, admin can manage and make statistics effectively. Thereby can capture customer trends and contribute to the increase in store revenue significantly. 
 
 ## How to download and install
 
-- [Download Mageplaza Custom Form](https://www.mageplaza.com/magento-2-custom-form/)
+- Download Mageplaza Custom Form
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

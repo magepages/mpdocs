@@ -495,7 +495,7 @@ With Affiliate Standard, the system creates a Campaign by default, you can edit 
 
 .. image:: https://i.imgur.com/CydTMqy.png
 
-*To create multiple Campaigns for your store, you can update your version to [Affiliate Pro](https://www.mageplaza.com/magento-2-affiliate-extension/#)
+*To create multiple Campaigns for your store, you can update your version to Affiliate Pro
 
 * **Edit Campaigns**
 

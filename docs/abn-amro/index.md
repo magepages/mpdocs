@@ -2,7 +2,7 @@
 
 ## Overview 
 
-ABN AMRO is the most trusted payment service provider in the Netherlands. [Mageplaza ABN Amro extension](https://www.mageplaza.com/magento-2-abn-amro/) supports quick payment features that make your shopping experience safe and reliable. Mageplaza ABN AMRO extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+ABN AMRO is the most trusted payment service provider in the Netherlands. Mageplaza ABN Amro extension supports quick payment features that make your shopping experience safe and reliable. Mageplaza ABN AMRO extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
 
 ## How to use
 ### 1. Account registration 
@@ -127,7 +127,7 @@ When applying for online payment, the admin needs to switch the environment to P
 
 - **Payment from Applicable Countries**:
   - Select **All Allowed Countries** so the card payment method can be applied in all countries.
-  - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
+  - To restrict this payment with more conditions, see Payment Restrictions module.
   - Select **Specific Countries** to limit certain countries to be able to use this payment method
     - Payment from **Specific Countries**: The selected countries will be displayed with the payment method by Card.
     

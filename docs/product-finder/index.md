@@ -2,7 +2,7 @@
 
 ## Overview
 
-[Mageplaza Product Finder](https:/mageplaza.com/magento-2-product-finder/) extension is an essential tool for Magento 2 stores. It allows customers to search their favored items using product attributes via filter options. All products meeting the filter options will be displayed quickly and clearly. With this extension, admins can add Product Finder to any category page you want. The admin can also customize the design and filter results according to your preferences. As a result, your customers can find what they want and enjoy their shopping experience.
+Mageplaza Product Finder extension is an essential tool for Magento 2 stores. It allows customers to search their favored items using product attributes via filter options. All products meeting the filter options will be displayed quickly and clearly. With this extension, admins can add Product Finder to any category page you want. The admin can also customize the design and filter results according to your preferences. As a result, your customers can find what they want and enjoy their shopping experience.
 
 ## How to use
 

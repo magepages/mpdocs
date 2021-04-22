@@ -3,7 +3,7 @@
 
 ## Overview
 
-In the e-commerce industry, many businesses want to promote their upcoming products, out of stock or with few instock products, bringing product information closer to customers. With [Mageplaza Pre Order extension](https://www.mageplaza.com/magento-2-pre-order/), it will help you support customers so that they can pre-order and back-order with products not yet available at the store, change the label of **Add to cart** button on any product pages that you want. With this tool, it will be more convenient to manage the store and increase consumption and sales significantly. 
+In the e-commerce industry, many businesses want to promote their upcoming products, out of stock or with few instock products, bringing product information closer to customers. With Mageplaza Pre Order extension, it will help you support customers so that they can pre-order and back-order with products not yet available at the store, change the label of **Add to cart** button on any product pages that you want. With this tool, it will be more convenient to manage the store and increase consumption and sales significantly. 
 
 ## Download & Install
 

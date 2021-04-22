@@ -2,13 +2,13 @@
 
 Today, the use of email to send notifications to customers is very popular, but the effectiveness is not high. The reason is because customers do not regularly check email and they must have an internet connection to do it. Understanding this disadvantage, Mageplaza has launched SMS Notification extension, which helps to notify activities from store or related order via SMS to customer and admin more quickly and conveniently. 
 
-In addition, we also support SMS Notification compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/). 
+In addition, we also support SMS Notification compatible with One Step Checkout. 
 
 Moreover, this extension allows sending SMS notifications by integrating a 3rd party SMS gateway such as **Twilio, Amazon SNS.**
 
 ## Download and Install
 
-- [Download Mageplaza SMS Notification](https://www.mageplaza.com/magento-2-sms-notification/)
+- Download Mageplaza SMS Notification
 - [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use

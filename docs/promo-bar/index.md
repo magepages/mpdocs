@@ -2,11 +2,11 @@
 
 ## Overview
 
-Suppose that you have special promotions or big events coming up, how can you notify your customers about those programs or events? With [Mageplaza Promo Bar extension](https://www.mageplaza.com/magento-2-promo-bar/), you can do it with ease. Promo Bar allows you to display one or more advertising bars at different locations and on multiple pages. By that, you can also set the display time for the promo bar. In addition, we also support Promo Bar compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/). 
+Suppose that you have special promotions or big events coming up, how can you notify your customers about those programs or events? With Mageplaza Promo Bar extension, you can do it with ease. Promo Bar allows you to display one or more advertising bars at different locations and on multiple pages. By that, you can also set the display time for the promo bar. In addition, we also support Promo Bar compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/). 
 
 ## How to download and install
 
-- [Download Mageplaza Promo Bar](https://www.mageplaza.com/magento-2-promo-bar/)
+- Download Mageplaza Promo Bar
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -116,7 +116,7 @@ Admin chooses the conditions to show promo bar at Checkout Page.
   - **All Pages**: Promo Bar displayed on all pages.
   - **Specific Page**:
   ![](https://i.imgur.com/sVMMuz5.png)
-    - **Display On Page(s)**: Select the page that allows you to display promo bar on. The **One Step Checkout Page** will be displayed here when the admin configure the [One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+    - **Display On Page(s)**: Select the page that allows you to display promo bar on. The **One Step Checkout Page** will be displayed here when the admin configure the One Step Checkout extension
     - **Display On Category Page**: Select the category page to display the promo bar on.
     - **Display On Product Page**: Select **Yes** to allow promo bar to display in the product page.
 

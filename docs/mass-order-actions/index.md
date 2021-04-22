@@ -3,12 +3,12 @@
 
 ## Overview
 
-Currently, when having to process orders at the management page, the shop owner must go to each order to be able to create invoices, shipping methods, email notifications to customers in each order. From now on, with [Mageplaza Mass Order Actions](https://www.mageplaza.com/magento-2-mass-order-actions/) extension, admins can create more features at the order grid page to manage and handle multiple orders at the same time. In addition, we support Mass Order Actions compatible with some extensions such as [Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/), [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [SMTP](https://www.mageplaza.com/magento-2-smtp/), [Order Archive](https://www.mageplaza.com/magento-2-order-archive/) to reduce workload for your sites. This extension helps you quickly process orders and dramatically improve your order management.
+Currently, when having to process orders at the management page, the shop owner must go to each order to be able to create invoices, shipping methods, email notifications to customers in each order. From now on, with Mageplaza Mass Order Actions extension, admins can create more features at the order grid page to manage and handle multiple orders at the same time. In addition, we support Mass Order Actions compatible with some extensions such as [Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/), [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [SMTP](https://www.mageplaza.com/magento-2-smtp/), [Order Archive](https://www.mageplaza.com/magento-2-order-archive/) to reduce workload for your sites. This extension helps you quickly process orders and dramatically improve your order management.
 
 
 ## How to download and install
 
-- [Download Mageplaza Mass Order Actions](https://www.mageplaza.com/magento-2-mass-order-actions/)
+- Download Mageplaza Mass Order Actions
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
  
@@ -24,7 +24,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass
 
 ![](https://i.imgur.com/1f4uONp.png)
 
-- Select **Enable = Yes** to enable the module. [Mass Order Actions extension](https://www.mageplaza.com/magento-2-mass-order-actions/) is compatible with [Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/) and [Order Archive](https://www.mageplaza.com/magento-2-order-archive/).
+- Select **Enable = Yes** to enable the module. Mass Order Actions extension is compatible with Delete Orders and Order Archive.
 - **Select Actions**:
   - Click the checkbox to allow the corresponding **Action** to work. Admin is allowed to select multiple actions.
   - **Position**: Create priority for **Action** to display Grid creation.
@@ -75,7 +75,7 @@ Click **Actions**, where the actions will display in the **Select Actions** conf
 - Select **Process** to create an invoice
   - Select **Process & Print** to create and print invoices.
   - Select **Process & Print PDF Invoices** to create and print invoices in PDF format.
-    - **Note**: PDF Invoice only appears when Admin install extension [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/).
+    - **Note**: PDF Invoice only appears when Admin install extension PDF Invoice.
 - **Show message to notify of creating Invoice successfully**:
 
 ![](https://i.imgur.com/gLcdVmS.png)
@@ -106,7 +106,7 @@ Admin chooses the delivery method for order.
   - Select **Process & Print Shipping Labels** to print shipment labels.
     - Note: To create **Shipping labels**, please see the guide [here](https://www.mageplaza.com/kb/how-to-create-shipping-labels-magento-2.html)
   - Select **Process & Print PDF Shipment** to create and print shipmets in PDF format.
-    - **Note**: **PDF Shipment** only appears when Admin install extension [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/).
+    - **Note**: **PDF Shipment** only appears when Admin install extension PDF Invoice.
 - **Show message to notify of creating Shipment successfully**:
 
 ![](https://i.imgur.com/SVtC2o2.png)

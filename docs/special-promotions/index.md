@@ -2,14 +2,14 @@
 
 ## Overview
 
-Customers always love shopping with sales and promotions. Having various and appealing promotion programs is an required features for online store thesedays. Understanding that need, [Mageplaza Special Promotions](https://www.mageplaza.com/magento-2-special-promotions/) for Magento 2 provides additional 18 rules can be applied on extra Customer Attribute and Order Attributes. The module also has popup suport allowing customers to choose coupon to apply. Especially, Discount Hint will be shown for customers to make them great suggestion of the quantity purchase so that they can get special discount. 
+Customers always love shopping with sales and promotions. Having various and appealing promotion programs is an required features for online store thesedays. Understanding that need, Mageplaza Special Promotions for Magento 2 provides additional 18 rules can be applied on extra Customer Attribute and Order Attributes. The module also has popup suport allowing customers to choose coupon to apply. Especially, Discount Hint will be shown for customers to make them great suggestion of the quantity purchase so that they can get special discount. 
 
-Mageplaza Special Promotions is fully compatible with [Banner Slider](https://www.mageplaza.com/magento-2-banner-slider-extension/) and [Better Coupon](https://www.mageplaza.com/magento-2-multiple-coupons/) extensions. 
+Mageplaza Special Promotions is fully compatible with Banner Slider and Better Coupon extensions. 
 
 
 ## How to download and install
 
-- [Download Mageplaza Special Promotions](https://www.mageplaza.com/magento-2-special-promotions/)
+- Download Mageplaza Special Promotions
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

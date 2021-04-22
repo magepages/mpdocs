@@ -2,14 +2,14 @@
 
 ## Overview
 
-When shopping, customers would love to bargain for their favored products. [Mageplaza Name Your Price extension](https://www.mageplaza.com/magento-2-name-your-price/) can help them gain this little joy. Customers can request a price that he wants to buy for the owner. All requests are sent to the server, and the admin may approve or reject this request according to the suitability of the price offered by the customer. Of course, approve or reject will be notified to Customer by email. When the price is released, Customer will buy the Product at that price for a certain period of time. If you do not like the price that Admin has approved, Customer can completely cancel it and request a new price. However, only the Product installed by the admin can be sent.
+When shopping, customers would love to bargain for their favored products. Mageplaza Name Your Price extension can help them gain this little joy. Customers can request a price that he wants to buy for the owner. All requests are sent to the server, and the admin may approve or reject this request according to the suitability of the price offered by the customer. Of course, approve or reject will be notified to Customer by email. When the price is released, Customer will buy the Product at that price for a certain period of time. If you do not like the price that Admin has approved, Customer can completely cancel it and request a new price. However, only the Product installed by the admin can be sent.
 
 - Name Your Price supports these product types: Simple, Configurable, Downloadable, Bundle
-- Name Your Price is compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/).
+- Name Your Price is compatible with Mageplaza One Step Checkout and Mageplaza SMTP.
 
 ## How to download and install
 
-- [Download Mageplaza Name Your Price](https://www.mageplaza.com/magento-2-name-your-price/)
+- Download Mageplaza Name Your Price
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

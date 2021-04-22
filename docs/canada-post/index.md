@@ -2,9 +2,9 @@
 
 ## Overview
 
-[Mageplaza Canada Post](https://www.mageplaza.com/magento-2-canada-post/) extension allows Magento websites to offer Canada Post shipping method. Customers will be able to select this shipping method at checkout page to receive their product via Canada Post Shipping. This shipping method can be used to deliver and receive packages/orders within Canada and from Canada to other countries.
+Mageplaza Canada Post extension allows Magento websites to offer Canada Post shipping method. Customers will be able to select this shipping method at checkout page to receive their product via Canada Post Shipping. This shipping method can be used to deliver and receive packages/orders within Canada and from Canada to other countries.
 
-This extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Mageplaza Shipping Rules](https://www.mageplaza.com/magento-2-shipping-rules/), [Mageplaza Shipping Restrictions](https://www.mageplaza.com/magento-2-shipping-restrictions/) and [Mageplaza Shipping Cost](https://www.mageplaza.com/magento-2-shipping-cost/).
+This extension is fully compatible with Mageplaza One Step Checkout, Mageplaza Shipping Rules, Mageplaza Shipping Restrictions and Mageplaza Shipping Cost.
 
 
 ## How to use

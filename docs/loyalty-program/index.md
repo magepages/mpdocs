@@ -4,11 +4,11 @@
 
 ## Overview
 
-For increasing the demand for shopping, connecting between customers and store owners especially close customers, Mageplaza developed the [Loyalty Program extension](https://www.mageplaza.com/magento-2-loyalty-program/). This module can create incentive programs for loyal customers who meet certain conditions. Conditions will be based on customer information and customer order information within a certain time. In addition, the module also allows the admin to add/remove certain customers to a loyalty program, create a separate program with statistics of the current status of customers and information about the program (using static blocks). You should intall [Mageplaza SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending your email to spam box. It is fully compatible with Loyalty Program. 
+For increasing the demand for shopping, connecting between customers and store owners especially close customers, Mageplaza developed the Loyalty Program extension. This module can create incentive programs for loyal customers who meet certain conditions. Conditions will be based on customer information and customer order information within a certain time. In addition, the module also allows the admin to add/remove certain customers to a loyalty program, create a separate program with statistics of the current status of customers and information about the program (using static blocks). You should intall Mageplaza SMTP to avoid sending your email to spam box. It is fully compatible with Loyalty Program. 
 
 ## How to download and install
 
-- [Download Mageplaza Loyalty Program](https://www.mageplaza.com/magento-2-loyalty-program/)
+- Download Mageplaza Loyalty Program
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -87,7 +87,7 @@ From the **Admin Panel**, go to `Marketing > Loyalty Program > Configuration`, s
 
 - **Enable**:
   - Select **Yes** to allow sending email notifications to customers.
-  - Install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending to spam box.
+  - Install Mageplaza_SMTP to avoid sending to spam box.
   
 - **Sender**: Select the representative to send the email notification to customer:
 
