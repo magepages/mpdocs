@@ -2,11 +2,11 @@
 
 ## Overview
 
-To manage customers more efficiently, Mageplaza developed the [Milestone](https://www.mageplaza.com/magento-2-milestone/) extension. This module can be configured to change the Customer Group based on rules automatically. Also, it supports sending email notification to customer when changing Group and email notification includes changes log sent to admin. You should install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid your email being sent to the spam box and it is fully compatible with the Milestone extension.
+To manage customers more efficiently, Mageplaza developed the Milestone extension. This module can be configured to change the Customer Group based on rules automatically. Also, it supports sending email notification to customer when changing Group and email notification includes changes log sent to admin. You should install Mageplaza_SMTP to avoid your email being sent to the spam box and it is fully compatible with the Milestone extension.
 
 ## How to download and install
 
-- [Download Mageplaza Milestone](https://www.mageplaza.com/magento-2-milestone/)
+- Download Mageplaza Milestone
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
