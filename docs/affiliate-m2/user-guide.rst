@@ -276,8 +276,9 @@ For example: refer code is 123, Custom parameter is abc
   * The default email sender is: General Contact 
 
 1.5.1 Admin Email
+~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/QRXlY8a.png
+.. image:: https://i.imgur.com/DVusagM.png
 
 * **Send Emails To**: Enter the email address so that admin can receive notifications. You can fill in multiple emails, separate them by commas ","
 
@@ -444,25 +445,17 @@ For example: refer code is 123, Custom parameter is abc
 
 .. image:: https://i.imgur.com/Os0qc4U.png
 
-* **Affiliate Group**
-
-.. image:: https://i.imgur.com/I3cPbFF.png
-
-  * Select the group for the created Affiliate account
-  
-  * You are not allowed to leave this field empty
-  
+* **Affiliate Group**: Select the group for the created Affiliate account
+   
 * **Referred By**: Enter the ID of the previously registered Affiliate account
 
 * **Status**
 
-.. image:: https://i.imgur.com/dGspIbc.png
-
-  * *Status = Active*: The Affiliate account which is just created can start working now
+  * **Status = Active**: The Affiliate account which is just created can start working now
   
-  * *Status = Inactive*: The Affiliate account which is just created can't start working yet
+  * **Status = Inactive**: The Affiliate account which is just created can't start working yet
   
-  * *Status = Need Approved*: he Affiliate account which is just created needs to be approved by admin
+  * **Status = Need Approved**: he Affiliate account which is just created needs to be approved by admin
   
 * **Email Notification**: Choose **Yes** to receive notification emails when there is a change in your Affiliate account balance
 
