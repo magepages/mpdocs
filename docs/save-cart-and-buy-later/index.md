@@ -8,7 +8,7 @@ Mageplaza Save Cart And Buy Later allows customers to save shopping carts/ produ
 
 ## How to download and install
 
-- [Download Mageplaza Save Cart And Buy Later](https://www.mageplaza.com/magento-2-save-cart/)
+- Download Mageplaza Save Cart And Buy Later
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
