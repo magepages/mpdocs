@@ -2,7 +2,7 @@
 
 ## Overview
 
-Suppose that you have special promotions or big events coming up, how can you notify your customers about those programs or events? With Mageplaza Promo Bar extension, you can do it with ease. Promo Bar allows you to display one or more advertising bars at different locations and on multiple pages. By that, you can also set the display time for the promo bar. In addition, we also support Promo Bar compatible with our [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/). 
+Suppose that you have special promotions or big events coming up, how can you notify your customers about those programs or events? With Mageplaza Promo Bar extension, you can do it with ease. Promo Bar allows you to display one or more advertising bars at different locations and on multiple pages. By that, you can also set the display time for the promo bar. In addition, we also support Promo Bar compatible with our One Step Checkout, Free Shipping Bar. 
 
 ## How to download and install
 

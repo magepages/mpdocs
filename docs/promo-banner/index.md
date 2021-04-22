@@ -1,12 +1,12 @@
 # Promo Banner
 
-Similar to [Promo Bar](https://www.mageplaza.com/magento-2-promo-bar), the next extension of Mageplaza - [Promo Banner](https://www.mageplaza.com/magento-2-promo-banner/) helps admin advertise store promotions or major upcoming events. Moreover, it allows customers to catch news and events of the store more quickly and conveniently. The extension let the admin display one or more banner at different locations and multiple pages, they can also set the display time for each banner. More specifically, **Promo Banner** also displays in various forms such as image, slider, floating, popup, text. 
+Similar to Promo Bar, the next extension of Mageplaza - Promo Banner helps admin advertise store promotions or major upcoming events. Moreover, it allows customers to catch news and events of the store more quickly and conveniently. The extension let the admin display one or more banner at different locations and multiple pages, they can also set the display time for each banner. More specifically, **Promo Banner** also displays in various forms such as image, slider, floating, popup, text. 
 
-In addition, Promo Banner is fully compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/), [Free Shipping Bar](https://www.mageplaza.com/magento-2-free-shipping-bar/), [Banner Slider](https://www.mageplaza.com/magento-2-banner-slider-extension/), [Promo Bar](https://www.mageplaza.com/magento-2-promo-bar). 
+In addition, Promo Banner is fully compatible with One Step Checkout, Free Shipping Bar, Banner Slider, Promo Bar. 
 
 ## How to download and install
 
-- [Download Mageplaza Promo Banner](https://www.mageplaza.com/magento-2-promo-banner/)
+- Download Mageplaza Promo Banner
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
