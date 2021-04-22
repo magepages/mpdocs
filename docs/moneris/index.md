@@ -1,12 +1,12 @@
 # Moneris
 
-Moneris provides online payment services with different card types (debit, credit card, Visa), especially for customers in the USA and Canada. [Mageplaza Moneris extension](https://www.mageplaza.com/magento-2-moneris/) will help you integrate this payment gateway with your store. Customers can save and edit credit card information at the first payment to save time at the next purchase. In particular, admin can configure the module to redirect to Moneris payment gateway. Also, Moneris support authorizes, capture and 3D secure, AVS Verification. 
+Moneris provides online payment services with different card types (debit, credit card, Visa), especially for customers in the USA and Canada. Mageplaza Moneris extension will help you integrate this payment gateway with your store. Customers can save and edit credit card information at the first payment to save time at the next purchase. In particular, admin can configure the module to redirect to Moneris payment gateway. Also, Moneris support authorizes, capture and 3D secure, AVS Verification. 
 
-Mageplaza Moneris extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+Mageplaza Moneris extension is fully compatible with Mageplaza One Step Checkout
 
 ## How to download and install
 
-- [Download Mageplaza Moneris](https://www.mageplaza.com/magento-2-moneris/)
+- Download Mageplaza Moneris
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
