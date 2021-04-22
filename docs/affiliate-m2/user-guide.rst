@@ -637,7 +637,7 @@ Step 5: Set up the Coupon Code
 5.2. Add New Withdraws
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/Fvw09Fg.png
+.. image:: https://i.imgur.com/f8idxZ5.png
 
 
 * **Account** 
@@ -666,7 +666,7 @@ Step 5: Set up the Coupon Code
   
   * There are three payment methods: Offline payment, Bank Transfer, Paypal payment
   
-* **Withdraw Reason**: Fill in the reason for withdrawal
+* **Withdraw Description**: Fill in the description for withdrawal
 
 * **Payment Detail**: 
   
