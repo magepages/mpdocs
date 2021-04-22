@@ -2,12 +2,12 @@
 
 ## Overview
 
-Normally, it is very time consuming and complicated for admin to be able to monitor and manage each customer's order. But with the [Mageplaza Order History extension](https://www.mageplaza.com/magento-2-order-history/), it is completely easy and convenient. The module allows to add statistics of ordered products by customers, hide/ show order statistics by product on Product Edit page. In addition, the module can export data in CSV and Excel XML format.
+Normally, it is very time consuming and complicated for admin to be able to monitor and manage each customer's order. But with the Mageplaza Order History extension, it is completely easy and convenient. The module allows to add statistics of ordered products by customers, hide/ show order statistics by product on Product Edit page. In addition, the module can export data in CSV and Excel XML format.
 The Mageplaza Order History extension is fully compatible with Mageplaza Delete Orders, enabling the admin to manage and delete orders quickly.
 
 ## How to download and install
 
-- [Download Mageplaza Order History](https://www.mageplaza.com/magento-2-order-history/)
+- Download Mageplaza Order History
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configuration
