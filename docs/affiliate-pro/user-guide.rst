@@ -154,10 +154,12 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.2. Account Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+.. image:: https://i.imgur.com/vNTXg3O.png
+
 1.2.1. Affiliate Sign up
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/vNTXg3O.png
+.. image:: https://i.imgur.com/wxeBVzX.png
 
 * **Default Affiliate Group**
 
@@ -186,7 +188,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * The default content is Affiliate terms & conditions
   
-* **Checkbox is checked by default**: Choose **Yes** to automiautomatically tick in the checkbox
+* **Checkbox is checked by default**: Choose **Yes** to automatically tick in the checkbox
 
 1.2.3. Account Balance
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -201,7 +203,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   
   * If the field is left empty or entered as zero, Affiliate Balance will have no limitation
   
-* **Allow negative balance**: If Affiliate's account balance is not enough to taking back commission, allow the balance be negative number by choosing **Yes** in the respective field
+* **Allow negative balance**: If Affiliate's account balance is not enough to take back commission, allow the balance to be negative number by choosing **Yes** in the respective field
 
 1.3. Commission Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
