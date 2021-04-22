@@ -2,12 +2,12 @@
 
 ## Overview
 
-Sometimes, stores' admins want to change or edit products data in their store, they need to go to the edit link, then edit the product one by one manually. But what if you have to do it in large quantities? With [Mageplaza Mass Product Actions extension](https://www.mageplaza.com/magento-2-mass-product-actions/), we created more advanced features to help you handle bulk actions. To save your time and effort, the module creates additional mass action at product grid pages so that you can update many products at the same time. This extension makes it easy to handle products quickly and dramatically improve product management at your store.
+Sometimes, stores' admins want to change or edit products data in their store, they need to go to the edit link, then edit the product one by one manually. But what if you have to do it in large quantities? With Mageplaza Mass Product Actions extension, we created more advanced features to help you handle bulk actions. To save your time and effort, the module creates additional mass action at product grid pages so that you can update many products at the same time. This extension makes it easy to handle products quickly and dramatically improve product management at your store.
 
 
 ## How to download and install
 
-- [Download Mageplaza Mass Product Actions](https://www.mageplaza.com/magento-2-mass-product-actions/)
+- Download Mageplaza Mass Product Actions
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure
