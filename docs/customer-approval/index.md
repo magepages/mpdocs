@@ -3,12 +3,12 @@
 
 ## Overview
 
-Managing customers from the beginning will help you control your website well, gain profits and obtain certain customer trust. With [Mageplaza's Customer Approval extension](), you can definitely do that. Admin will receive an email notification when a customer successfully registers for an account and he can choose auto-approve or manually approve. Accordingly, your customers will receive email notifications of successful signing up for an account, successfully approved or not approved. You should install [Mageplaza_SMTP]() to avoid your email to be sent to the spam box and it is fully compatible with the Customer Approval extension.
+Managing customers from the beginning will help you control your website well, gain profits and obtain certain customer trust. With Mageplaza's Customer Approval extension, you can definitely do that. Admin will receive an email notification when a customer successfully registers for an account and he can choose auto-approve or manually approve. Accordingly, your customers will receive email notifications of successful signing up for an account, successfully approved or not approved. You should install Mageplaza_SMTP to avoid your email to be sent to the spam box and it is fully compatible with the Customer Approval extension.
 
 
 ## Download & Install
 
-- [Mageplaza Customer Approval]()
+- Mageplaza Customer Approval
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
