@@ -7,7 +7,7 @@ In the e-commerce industry, many businesses want to promote their upcoming produ
 
 ## Download & Install
 
-- [Download Mageplaza Pre Order](https://www.mageplaza.com/magento-2-pre-order/)
+- Download Mageplaza Pre Order
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -82,7 +82,7 @@ Login to the **Admin Magento**, choose `Stores > Configuration > Mageplaza > Pre
 
  ![](https://i.imgur.com/LB1upQx.png)
  
-- Compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+- Compatible with One Step Checkout
 
 ![](https://i.imgur.com/P8ruce3.png)
 

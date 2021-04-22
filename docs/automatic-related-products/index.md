@@ -2,14 +2,14 @@
 
 ## Overview
 
-[Magento 2 Automatic Related Products](https://www.mageplaza.com/magento-2-automatic-related-products/) (ARP) is a tool that helps admins establish links between new products easily. In brief, ARP is a recommendation tool, similar to [Who Bought This Also Bought](https://www.mageplaza.com/magento-2-who-bought-this-also-bought/) or [Frequently Bought Together](https://www.mageplaza.com/magento-2-frequently-bought-together/), but more additional outstanding features, and give more rules as well as managements in the backend.
+Magento 2 Automatic Related Products (ARP) is a tool that helps admins establish links between new products easily. In brief, ARP is a recommendation tool, similar to Who Bought This Also Bought or Frequently Bought Together, but more additional outstanding features, and give more rules as well as managements in the backend.
 
 
 ## Download & Install
 
 You can download from the following resouces:
 
-- [Mageplaza](https://www.mageplaza.com/magento-2-automatic-related-products/)
+- Download Mageplaza Automatic Related Product
 - [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-automatic-related-products.html)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
@@ -242,7 +242,7 @@ You can select the same conditions as the Product Page. Furthermore, you can set
 Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
 
 ### 5. Manage Rules on One Page Checkout
-One Page Checkout ARP is compatible with [Mageplaza One Step Checkout extension](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).  Admins need to install One Step Checkout module to get ARP displayed in the frontend.
+One Page Checkout ARP is compatible with Mageplaza One Step Checkout extension.  Admins need to install One Step Checkout module to get ARP displayed in the frontend.
 
 The way to set up this rule is quite similar to other rules.
 

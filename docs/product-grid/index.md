@@ -2,9 +2,9 @@
 
 ## Overview
 
-To save time and effort for the admin to change the information on the product page, Mageplaza has created the Product Grid extension. The [Product Grid module](https://www.mageplaza.com/magento-2-product-grid/) allows editing information right on the **Manage Product** page, displaying detailed information about the product info, synchronizing data, changing column headers of columns. Also, admin can set any field to be edited or filtered.
+To save time and effort for the admin to change the information on the product page, Mageplaza has created the Product Grid extension. The Product Grid module allows editing information right on the **Manage Product** page, displaying detailed information about the product info, synchronizing data, changing column headers of columns. Also, admin can set any field to be edited or filtered.
 
-Mageplaza Product Grid is fully compatible with [Mageplaza Product Attachment extension](https://www.mageplaza.com/magento-2-product-attachments/).
+Mageplaza Product Grid is fully compatible with Mageplaza Product Attachment extension.
 
 ## How to Configure
 ### I. Configuration

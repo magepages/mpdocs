@@ -3,15 +3,15 @@
 
 ## Overview
 
-[Mageplaza 2Checkout extension](https://www.mageplaza.com/magento-2-2checkout/) helps you integrate this payment method with your store to handle payments safely without users leaving the page. Customers can pay directly at checkout page (Magento Default/ Iframe Checkout) or redirect to 2Checkout page (Redirect Checkout). In addition, this extension allows customers to refund online. Admin can have access to a complete set of administrative tools to keep track of your transactions, customer tracking, refunds and fraud monitoring.
+Mageplaza 2Checkout extension helps you integrate this payment method with your store to handle payments safely without users leaving the page. Customers can pay directly at checkout page (Magento Default/ Iframe Checkout) or redirect to 2Checkout page (Redirect Checkout). In addition, this extension allows customers to refund online. Admin can have access to a complete set of administrative tools to keep track of your transactions, customer tracking, refunds and fraud monitoring.
 
 Your customers can use all credit cards such as Visa, Mastercard, American Express, JCB, etc. Admin can configure currencies and countries applicable to this payment method at each storeview. Moreover, information about transactions and detailed comments for each action (invoice, refund) with order payment via 2Checkout also be recorded at the **View Order** in the backend.
 
-Mageplaza 2Checkout extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/).
+Mageplaza 2Checkout extension is fully compatible with Mageplaza One Step Checkout.
 
 ## How to download and install
 
-- [Download Mageplaza 2Checkout](https://www.mageplaza.com/magento-2-2checkout/)
+- Download Mageplaza 2Checkout
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

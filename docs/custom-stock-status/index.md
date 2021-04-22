@@ -80,7 +80,7 @@ Login to the **Admin Magento**, choose `Stores> Custom Stock Status> Configurati
   ![](https://i.imgur.com/IRw72Hm.png)
   
   
-  - **Mageplaza One Step Checkout**: This option only displays **Custom Stock Status** when you install the [Mageplaza's One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extension. With this extension integration, you can summarize 6 payment steps in just one page to make it easier for customers to shorten the payment process.
+  - **Mageplaza One Step Checkout**: This option only displays **Custom Stock Status** when you install the Mageplaza's One Step Checkout extension. With this extension integration, you can summarize 6 payment steps in just one page to make it easier for customers to shorten the payment process.
   
   ![](https://i.imgur.com/amI1oMI.png)
   

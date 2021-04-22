@@ -342,7 +342,7 @@ At Barcylaycard click `Configure > Credentials`:
 
 - **Payment from Applicable Countries**:
   - Select **All Allowed Countries** so the card payment method can be applied in all countries.
-  - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
+  - To restrict this payment with more conditions, see Mageplaza Payment Restrictions.
   - Select **Specific Countries** to limit certain countries to be able to use this payment method
     - Payment from **Specific Countries**: The selected countries will be displayed with the payment method by Card.
     
@@ -394,7 +394,7 @@ At Barcylaycard click `Configure > Credentials`:
 
 - **Payment from Applicable Countries**:
   - Select **All Allowed Countries** so the card payment method can be applied in all countries.
-  - To restrict this payment with more conditions, see [Payment Restrictions module](https://www.mageplaza.com/magento-2-payment-restriction/).
+  - To restrict this payment with more conditions, see Mageplaza Payment Restrictions.
   - Select **Specific Countries** to limit certain countries to be able to use this payment method
     - Payment from **Specific Countries**: The selected countries will be displayed with the payment method by Card.
     

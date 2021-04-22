@@ -78,7 +78,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
 - **Apply for**:
   - Select the page you want to require Age Verification. You can choose to apply multiple pages at once. Sites not selected will not require Age Verification.
   - You can leave this field blank.
-  - `Note`: With checkout page including default checkout page and checkout page which are compatible with One Step Checkout, you can install [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extension to make payment steps more convenient and faster.
+  - `Note`: With checkout page including default checkout page and checkout page which are compatible with One Step Checkout, you can install One Step Checkout extension to make payment steps more convenient and faster.
 
 - **Apply for CMS Page**:
   - Select the CMS page you want to apply Age Verification. You can choose to apply multiple CMS pages at the same time. The CMS pages not selected will not require Age Verification.
@@ -88,7 +88,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Age Verification`
   - Select Category Pages to apply the Age Verification. Verification popup will be shown when visitors access these category pages. You can select all or multiple category pages at once. Non-selected category pages will not require Age Verification. 
     - **Note**: Enable the field **Apply for Category Pages** doesn't mean that all products included in that category are applicable with verification popup. To apply Age Verification for specific products, you can configure at **Apply for Product Detail Page(s)**.
   - You can leave this field blank.
-  - Compatible with [Product Labels](https://www.mageplaza.com/magento-2-product-labels/) to add **Age Verify** label for product
+  - Compatible with Mageplaza Product Labels to add **Age Verify** label for product
 
 ![](https://i.imgur.com/VAxXnYH.png)
 

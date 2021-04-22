@@ -69,7 +69,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-Note: Magento 2 Save Cart GraphQL requires installing [Mageplaza Save Cart](https://www.mageplaza.com/magento-2-save-cart/) in your Magento installation. 
+Note: Magento 2 Save Cart GraphQL requires installing Mageplaza Save Cart in your Magento installation. 
 
 #### 4.2. How to use
 

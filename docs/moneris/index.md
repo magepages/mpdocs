@@ -900,11 +900,11 @@ This section records the Credit Card (Moneris) information that the customer has
 
 ![](https://i.imgur.com/oL1Ujmt.png)
 
-- Compatible with [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+- Compatible with One Step Checkout
 
 ![](https://i.imgur.com/wfD3x1q.png)
 
-- Compatible with [Mageplaza Payment Restriction](https://www.mageplaza.com/magento-2-payment-restriction/): Payment Restriction extension supports hiding/showing Moneris at Frontend following admin configurations. 
+- Compatible with Mageplaza Payment Restriction: Payment Restriction extension supports hiding/showing Moneris at Frontend following admin configurations. 
 
 ![](https://i.imgur.com/kCMzpqE.png)
 

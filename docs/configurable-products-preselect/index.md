@@ -2,12 +2,12 @@
 
 ## Overview
 
-When customers access a page of any configurable product, it is hard for them to review and choose the attributes if no options are available. [Configurable Products Preselect of Mageplaza](https://www.mageplaza.com/magento-2-configurable-preselect/) supports displaying certain combinations of a Configurable product, helping to orient and save time for customers. With this extension, you can set the selections you like and display them by default at the **Product View Detail Page**. This extension also supports 4 types of Preselect: **The First Option of Each Attribute Option, Default Product, The Cheapest Product and The Most Expensive Product**. It is fully compatible with [Mageplaza Quick View & AJAX Cart](https://www.mageplaza.com/magento-2-quick-view/), [Mageplaza Seo](https://www.mageplaza.com/magento-2-seo-extension/) and [Layered Navigation](https://www.mageplaza.com/magento-2-layered-navigation-extension/seo-friendly-url.html).
+When customers access a page of any configurable product, it is hard for them to review and choose the attributes if no options are available. Configurable Products Preselect of Mageplaza supports displaying certain combinations of a Configurable product, helping to orient and save time for customers. With this extension, you can set the selections you like and display them by default at the **Product View Detail Page**. This extension also supports 4 types of Preselect: **The First Option of Each Attribute Option, Default Product, The Cheapest Product and The Most Expensive Product**. It is fully compatible with Mageplaza Quick View & AJAX Cart, Mageplaza Seo and Layered Navigation.
 
 
 ## How to download and install
 
-- [Download Mageplaza Configurable Products Preselect](https://www.mageplaza.com/magento-2-configurable-preselect/)
+- Download Mageplaza Configurable Products Preselect
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

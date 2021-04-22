@@ -84,7 +84,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Order Archive
 - Similar to the default **Magento Grid Order**, the **Order Archives Grid** also has basic features such as **Filter, Add Columns or Export and View Order**
 - In Grid, Admin can perform 3 main actions
   - **UnArchive**: The selected orders will be transferred to the default Grid Order
-  - **Delete**: The selected Orders will be deleted from the database. This feature only works when the store owner installs the [Mageplaza Delete Order module](https://www.mageplaza.com/magento-2-delete-order/)
+  - **Delete**: The selected Orders will be deleted from the database. This feature only works when the store owner installs the Mageplaza Delete Order module
   - **View**: The **Detail Order page** will be displayed
 
 ![](https://i.imgur.com/UbeCAzW.png)

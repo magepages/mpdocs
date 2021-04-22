@@ -2,11 +2,11 @@
 
 ## Overview
 
-Customers are more likely to make purchasing decisions when they see a product that other customers have seen. [Mageplaza Who Viewed This Also Viewed](https://www.mageplaza.com/magento-2-who-viewed-this-also-viewed/) extension provides an excellent solution for the owner to allow the most relevant product to be displayed on the Product Detail Page. By smart algorithms, the most viewed products will be automatically updated and proposed to customers. Thereby bring an amazing shopping experience for customers, while increasing revenue for store owners.
+Customers are more likely to make purchasing decisions when they see a product that other customers have seen. Mageplaza Who Viewed This Also Viewed extension provides an excellent solution for the owner to allow the most relevant product to be displayed on the Product Detail Page. By smart algorithms, the most viewed products will be automatically updated and proposed to customers. Thereby bring an amazing shopping experience for customers, while increasing revenue for store owners.
 
 ## How to download and install
 
-- [Download Mageplaza Who Viewed This Also Viewed](https://www.mageplaza.com/magento-2-who-viewed-this-also-viewed/)
+- Download Mageplaza Who Viewed This Also Viewed
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

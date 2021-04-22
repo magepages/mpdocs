@@ -4,7 +4,7 @@
 
 Normally, all images of a web page are loaded at the same time, which likely slow down the page speed and customers will leave because it takes too much time to wait. Therefore, Mageplaza has released Lazy Loading extension  which helps reduce bandwidth, page loading time and enhance the website performance by loading images only when necessary. Lazy Loading can be applied to: Category Page, Product Detail Page, CMS Page, Search Result Page, Related, Up-sell, Cross-sell products and exclude any page or image you want.
 
-In addition, the extension also supports lazy loading by icons or placeholders and setting Loading Threshold for images. And especially, Lazy Loading extension is fully compatible with [SEO extension](https://www.mageplaza.com/magento-2-seo-extension/) to automatically insert alt attributes if the image does not already have this attribute. This is an extremely useful feature that Mageplaza has created.
+In addition, the extension also supports lazy loading by icons or placeholders and setting Loading Threshold for images. And especially, Lazy Loading extension is fully compatible with SEO extension to automatically insert alt attributes if the image does not already have this attribute. This is an extremely useful feature that Mageplaza has created.
 
 ## How to use
 

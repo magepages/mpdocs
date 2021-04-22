@@ -62,7 +62,7 @@ From the Admin Panel, go to `Customers > Milestone > Configuration`, select Cust
 
 - **Enable**:
   - Select "Yes" to allow email notifications to customers.
-  - Install [Mageplaza_SMTP](https://www.mageplaza.com/magento-2-smtp/) to avoid sending email to spam box.
+  - Install Mageplaza_SMTP to avoid sending email to spam box.
 - **Sender**: Select the representative to send notification email to customer:
 
 ![](https://i.imgur.com/Wd9ht8U.png)
@@ -200,7 +200,7 @@ php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
 
-Note: Magento 2 Milestone GraphQL requires installing [Mageplaza Milestone](https://www.mageplaza.com/magento-2-milestone/) in your Magento installation.
+Note: Magento 2 Milestone GraphQL requires installing Mageplaza Milestone in your Magento installation.
 
 #### 2. How to use
 

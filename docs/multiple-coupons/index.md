@@ -3,14 +3,14 @@
 
 ## Overview
 
-Magento basically does not support applying multiple coupons to a Cart. [Mageplaza Multiple Coupons extension](https://www.mageplaza.com/magento-2-multiple-coupons/) will help you solve that problem. This module supports applying multiple coupons in 3 commonly used pages including **Shopping Cart Page, Checkout Page, Admin Order Page**. Customers can use all the coupons they have to receive the maximum discount. With this wonderful experience, store will retain loyal Customers and entice more new customers. Bu that increase store revenue significantly.
+Magento basically does not support applying multiple coupons to a Cart. Mageplaza Multiple Coupons extension will help you solve that problem. This module supports applying multiple coupons in 3 commonly used pages including **Shopping Cart Page, Checkout Page, Admin Order Page**. Customers can use all the coupons they have to receive the maximum discount. With this wonderful experience, store will retain loyal Customers and entice more new customers. Bu that increase store revenue significantly.
 
-This extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)
+This extension is fully compatible with Mageplaza One Step Checkout
 
 
 ## Download and Install
 
-- [Mageplaza Multiple Coupons](https://www.mageplaza.com/magento-2-multiple-coupons/)
+- Mageplaza Multiple Coupons
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

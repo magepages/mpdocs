@@ -3,12 +3,12 @@
 
 ## Overview
 
-Every day there are many orders placed and processed. The management at the **Order Grid** in the Magento database are very risky and time-consuming for admins' work since they have to delete order one by one. The [Mageplaza Delete Order extension](https://www.mageplaza.com/magento-2-delete-orders/) makes it more convenient for the admin - either manually or automatically - to help them delete orders easily with a single or bulk delete command. Also, admin will receive an email notification when Order is Delete by schedule.
+Every day there are many orders placed and processed. The management at the **Order Grid** in the Magento database are very risky and time-consuming for admins' work since they have to delete order one by one. The Mageplaza Delete Order extension makes it more convenient for the admin - either manually or automatically - to help them delete orders easily with a single or bulk delete command. Also, admin will receive an email notification when Order is Delete by schedule.
 
 
 ## How to download and install
 
-- [Download Mageplaza Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/)
+- Download Mageplaza Delete Orders
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 

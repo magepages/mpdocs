@@ -2,11 +2,11 @@
 
 ## Overview
 
-Currently, for websites that have some pages you want to create their own promotion or restrict some customer groups to visit these pages. With the [Mageplaza Catalog Permissions extension](https://www.mageplaza.com/magento-2-catalog-permissions/), admin can restrict access to catalogs with Category, Product Detail, and Static Page/Block pages by customer groups and IP addresses. In particular, you can redirect customers to another page when accessing restricted pages or hiding restricted pages at the frontend. 
+Currently, for websites that have some pages you want to create their own promotion or restrict some customer groups to visit these pages. With the Mageplaza Catalog Permissions extension, admin can restrict access to catalogs with Category, Product Detail, and Static Page/Block pages by customer groups and IP addresses. In particular, you can redirect customers to another page when accessing restricted pages or hiding restricted pages at the frontend. 
 
 ## How to download and install:
 
-- [Download Mageplaza Catalog Permissions](https://www.mageplaza.com/magento-2-catalog-permissions/)
+- Download Mageplaza Catalog Permissions
 - [Intall Catalog Permissions](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
@@ -21,7 +21,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
 
 ![](https://i.imgur.com/F8T0wlr.png)
 
-- **Enable**: Select `Yes` to enable the module. You can install [Call for Price extension](https://www.mageplaza.com/magento-2-call-for-price/) of Mageplaza to contact the store to ask for price or product information or ask for the restricted page you want to access.
+- **Enable**: Select `Yes` to enable the module. You can install Call for Price extension of Mageplaza to contact the store to ask for price or product information or ask for the restricted page you want to access.
 
 
 ![](https://i.imgur.com/19IRxvu.png)

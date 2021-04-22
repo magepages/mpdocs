@@ -2,7 +2,7 @@
 
 ## Introduce 
 Mageplaza's Company Account Extension is a useful tool that allows you to create and manage company customers easily. With Mageplaza Company Account, store admin and customers can create company accounts, in which, each company will have a company admin and multiple sub-accounts with different roles. Each role will be assigned certain access permission with the company. 
-Mageplaza Company Account extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extension and [Mageplaza PDF Invoice extension.](https://www.mageplaza.com/magento-2-pdf-invoice-extension/) 
+Mageplaza Company Account extension is fully compatible with Mageplaza One Step Checkout extension and Mageplaza PDF Invoice extension.
 
 ## How to use 
 Customers create the Company Account request on the front end 

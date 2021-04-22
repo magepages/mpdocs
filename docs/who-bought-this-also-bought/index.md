@@ -2,13 +2,13 @@
 
 ## Overview
 
-[Who Bought This Item Also Bought](https://www.mageplaza.com/magento-2-who-bought-this-also-bought/) is a new extension developed by Mageplaza. By having this extension enabled, our team will help you provide your online store’s customers suggestions of the products related to the ones which they shoppers are viewing. This module is supposed to encourage buyers to keep purchasing other products in your online store. Hence, this satisfies your customers as well as boost your sales effectively
+Who Bought This Item Also Bought is a new extension developed by Mageplaza. By having this extension enabled, our team will help you provide your online store’s customers suggestions of the products related to the ones which they shoppers are viewing. This module is supposed to encourage buyers to keep purchasing other products in your online store. Hence, this satisfies your customers as well as boost your sales effectively
 
 ## Download & Install
 
 You can download from the following resouces:
 
-- [Mageplaza](https://www.mageplaza.com/magento-2-who-bought-this-also-bought/)
+- Mageplaza Who Bought This Item Also Bought
 - [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-who-bought-this-item-also-bought.html)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 

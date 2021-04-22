@@ -91,7 +91,7 @@ From the **Admin Panel**, go to `Sales > Order Labels > Order Label > Add New La
 ![](https://i.imgur.com/1489kzM.png)
 
 - **Auto Assign Label**: Select **Yes** to enable the auto-tagging function for the Order that meets the selected condition.
-- We will choose the condition to automatically assign this Label to the order that meets the selected conditions. These conditions are taken from [Mageplaza Order Attributes module](https://www.mageplaza.com/magento-2-order-attributes/). You can see how to install and use the Order Attributes module [here](https://docs.mageplaza.com/order-attributes/index.html).
+- We will choose the condition to automatically assign this Label to the order that meets the selected conditions. These conditions are taken from Mageplaza Order Attributes module. You can see how to install and use the Order Attributes module [here](https://docs.mageplaza.com/order-attributes/index.html).
 
 
 ### 4. Order Status

@@ -7,7 +7,7 @@ Magento Tier Price allows salespeople to create certain discounts according to q
 
 ## How to download and install
 
-- [Download Mageplaza Better Tier Price](https://www.mageplaza.com/magento-2-better-tier-price/)
+- Download Mageplaza Better Tier Price
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Use

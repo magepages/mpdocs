@@ -6,7 +6,7 @@ How to know the increase in traffic of a website every week? What is the convers
 
 ## How to download and install
 
-- [Download Mageplaza Google Tag Manager](https://www.mageplaza.com/magento-2-google-tag-manager/)
+- Download Mageplaza Google Tag Manager
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -136,7 +136,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
   - **ID**: Display the ID value of the product according to the product ID.
   - **SKU**: Display the ID value of the product according to the product SKU.
 - **Google Tag  ID**:
-  - Enter Google Tag Manager's ID into the **Google Tag ID** field to update some information of event such as in category page, product page, when adding to cart, remove fromcart, order success, search, checkout default or checkout page of [One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) extensions which help shorten checkout process to only 6 steps within a page. 
+  - Enter Google Tag Manager's ID into the **Google Tag ID** field to update some information of event such as in category page, product page, when adding to cart, remove fromcart, order success, search, checkout default or checkout page of One Step Checkout) extensions which help shorten checkout process to only 6 steps within a page. 
 
 ![](https://i.imgur.com/jZWHfnP.png)
 
@@ -164,7 +164,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
   - If you leave it blank or enter a wrong tracking ID, it will not be able to track the information.
   
 - **Second Tracking ID**:
-  - Enter another Tracking ID of Google Analytics in the **Second Tracking ID** field so you can add the ability to track website information such as product, category page, checkout page, page cart, one step checkout page (compatible with [One step checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)), remove from cart, ...
+  - Enter another Tracking ID of Google Analytics in the **Second Tracking ID** field so you can add the ability to track website information such as product, category page, checkout page, page cart, one step checkout page (compatible with One step checkout), remove from cart, ...
   - If you leave it blank or enter a wrong tracking ID, it will not be able to track the information.
   
   ![](https://i.imgur.com/c1RG4C6.png)
@@ -200,7 +200,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
   - **ID**: Display the ID value of the product according to the product ID.
   - **SKU**: Display the ID value of the product according to the product SKU.
 - **Facebook Pixel ID**:
-  - Enter **Facebook Pixel ID** in the Facebook Pixel ID field to report and update website information such as in product page, category, checkout page, cart page, one step checkout page ( [compatible with Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/)), remove from cart,...You should installl **Facebook pixel helper** into your browse to view information. 
+  - Enter **Facebook Pixel ID** in the Facebook Pixel ID field to report and update website information such as in product page, category, checkout page, cart page, one step checkout page (compatible with Mageplaza One Step Checkout), remove from cart,...You should installl **Facebook pixel helper** into your browse to view information. 
   
   ![](https://i.imgur.com/KsLEl83.png)
 

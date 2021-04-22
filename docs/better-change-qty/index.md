@@ -2,11 +2,11 @@
 
 ## Overview
 
-For the convenience of customers when purchasing multiple products with various discount options, Mageplaza integrates the ability to display Magento tier price notifications into the [Better Change Qty module](https://www.mageplaza.com/magento-2-better-change-qty/). Customers can easily choose different options at different prices. With only one select option and Add To Cart, customers have added products to the cart conveniently, quickly without entering the number of products corresponding to Magento's announcement to receive the same discount.
+For the convenience of customers when purchasing multiple products with various discount options, Mageplaza integrates the ability to display Magento tier price notifications into the Better Change Qty module. Customers can easily choose different options at different prices. With only one select option and Add To Cart, customers have added products to the cart conveniently, quickly without entering the number of products corresponding to Magento's announcement to receive the same discount.
 
 ## Download & Install
 
-- [Mageplaza Better Change Qty](https://www.mageplaza.com/magento-2-better-change-qty/)
+- Mageplaza Better Change Qty
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
