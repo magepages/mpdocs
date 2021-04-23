@@ -436,6 +436,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 2. Manage Accounts
 `````````````````````````````
 
+From the Admin panel, go to **Marketing** > **Affiliate** > **Manage Accounts** 
+
 2.1. Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
