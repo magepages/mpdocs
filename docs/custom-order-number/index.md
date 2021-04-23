@@ -39,12 +39,12 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Order Number** section
 
 
-![](https://i.imgur.com/FwMn6WV.png)
+![](https://i.imgur.com/RyXzaHH.png)
 
 * **Enable**: Choose Yes to use the feature that allows configuring the changing ID of the Order
 * **Pattern**: 
     * Enter the format for the Order ID. For instance, ORD-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d], [country_id]
     * If the format of supported variables is entered wrong, the order ID will be displayed under the text
     
 * **Counter Start From**:
@@ -78,7 +78,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Invoice Number** section
 
-![](https://i.imgur.com/BzYomZP.png)
+![](https://i.imgur.com/5Y0HpJW.png)
 
 
 * **Enable**: 
@@ -98,7 +98,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Pattern**:
     * Enter the format for the Invoice ID. For instance, INV-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d], [country_id]
     * If the format of supported variables is entered wrong, the Invoice ID will be displayed under the text 
     
 * **Counter Start From**:
@@ -131,7 +131,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Shipment Number** section
 
-![](https://i.imgur.com/uLiV82l.png)
+![](https://i.imgur.com/3DQHUkU.png)
 
 * **Enable**: 
     * Choose Yes to use the function that allows configuring the change of the Shipment ID.
@@ -150,7 +150,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Pattern**:
     * Enter the format for the Shipment ID. For instance, SHI-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d], [country_id]
     * If the format of supported variables is entered wrong, the Shipment ID will be displayed under the text.
     
 * **Counter Start From**:
@@ -184,7 +184,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Customer Order Number**, choose **Creditmemos Number** section
 
-![](https://i.imgur.com/Bm85ath.png)
+![](https://i.imgur.com/nPWfGPF.png)
 
 * **Enable**: 
     * Choose Yes to use the function that allows configuring the change of the Credit Memo ID.
@@ -203,7 +203,7 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
     
 * **Pattern**:
     * Enter the format for the credit memo ID. For instance, CRE-[store_id]-[yy]-[mm]-[dd]-[2N]-[2counter]
-    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d]
+    * Only support some variables as: [store_id], [yy], [mm], [dd], [2N], [2counter], [4AN], [4A], [4N], [store_code], [y], [yyy], [M], [D], [m], [d], [country_id]
     * If the format of supported variables is entered wrong, the credit memo ID will be displayed under the text 
     
 * **Counter Start From**:
@@ -276,34 +276,23 @@ For the **Pattern** field of Order Number, Invoice Number, Shipment Number or Cr
    * [D]: The format for the ID will be displayed as the first 3 letters of the day. Example: MON
    
    * [d]: The format for the ID will be displayed as 1. This only applies for the date less than 10. With the cases, you choose the format as [dd], the date is less than 10, you need to apply the format of ID as 01, 02, 03, etc.
+   
+   * [country_id]: The format for the ID will be displayed as letters as the abbreviation of the country. For example, US. 
     
 #### The format of Email notification
 
 Please click on [here](https://www.mageplaza.com/faqs/order-id-conflicted.html) to know more information.
 
- ![](https://i.imgur.com/RGOpNuJ.png)
+ ![](https://i.imgur.com/ap51VQ4.png) 
  
 ####  The ID's format after configured
     
 **Display in the backend**  
 
-![](https://i.imgur.com/cph3xDJ.png)
+![](https://i.imgur.com/dCu2y1C.png)
 
 **Display on the frontend**
 
-![](https://i.imgur.com/nkymmUl.png)
+![](https://i.imgur.com/HvgpT4e.png)
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-
-  
-    
+      
