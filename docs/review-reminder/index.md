@@ -25,13 +25,17 @@ A bunch of fundamental configuration will assist you in modifying reminder email
 
 * In **Enable** field: select “Yes” to enable Mageplaza Review Reminder extension
 * In **Only Send Emails to Subcribers** field: select “Yes” to only send  reminder emails to customers who have subcribed newsletter.
-* In **Email** modules
+* In **Email Configuration** modules
   * Click the ``Add`` button to add a reminder email
   * Click the trash can icon to delete a email
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
   * In **Sender** to choose sender’s entitle. You will have 5 choices: General Contact, Sales Representative, Customer Support, Email Custom 1, Custom 2 Email
   * In **Email Template** column, you can find some pre-made email templates. Otherwise, you can customize your own template by creating a new one at sidebar ``Marketing > Email Template``. The newly created template will automatically appear in this section.
   
+**Note:**
+* When the order becomes Complete, the requested emails will be automatically generated with **Pending** status at Logs (see item 2). Emails will be sent automatically at the set time at **Send After** or as soon as **Send Now** button is hitted.
+* For orders with **Closed** status, the requested email will not be sent.
+
 #### 1.2 Analytics
 
 To keep track statistics of sent reminder emails, Magento 2 Review Reminder is well-integrate designed for Google Analytics to let you have a comprehensive overlook for SEO staffs. This function helps store admins follow and determine from where shoppers get the link back to the completed order.
