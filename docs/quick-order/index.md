@@ -28,7 +28,7 @@ To use this module, customers need to click on the Quick Order link or the butto
 
 After clicking on the button/link of Quick Order, customers can access to the Quick Order page that its interface is displayed as below:
 
-![](https://i.imgur.com/77urGjp.png)
+![](https://i.imgur.com/zqUPMhZ.png) 
 
 * 1 - **Add to cart button**:
 
@@ -41,7 +41,8 @@ After clicking on the button/link of Quick Order, customers can access to the Qu
   * Customers can look for the product that they want to purchase by SKU or the product name when filling in this box.
   * The result will show the information and the images of the product that can adapt to the conditions customers enter.
   * The number of the result will be controlled in the configuration by the admin.
-  * When admins change Currency or other information of the products, maybe 'Search' will make the information display incorrect. Therefore, admins need to access `pub/media/mageplaza`, remove Search item and Refresh the Quick Order page to update the information for the system.
+  * When admins change Currency or other information of the products, maybe 'Search' will make the information display incorrect. Therefore, admins need to access `pub/media/mageplaza`, remove Search item and Refresh the Quick Order page to update the information for the system. You need to runthe command `php bin/magento index:rein` after creating a new product.
+
   
 * 4 - **The virtual cart**:
   * This the place where can store temporarily the products customers want to purchase.
@@ -57,9 +58,9 @@ After clicking on the button/link of Quick Order, customers can access to the Qu
   * Finally, customers click on 9 - Add to list to add products to the virtual cart.
   * For example: MH02, 9, size:M, color:Red
 
-* 8 - **Add multiple products by CSV file**:
-  * Customers need to download sample CSV file at first import by CSV to know the format in the CSV file.
-  * With the CSV file satisfied, all products listed in that will be added into the virtual cart after clicking `Upload Now`
+* 8 - **Add multiple products by CSV file and XML file**:
+  * Customers need to download sample CSV file or XML file at first import by CSV or XML to know the format in the CSV file or XML file.
+  * With the eligible CSV file or XML file, all products listed in that will be added into the virtual cart after clicking `Upload Now`
   
 * 9 - **Add to list button**: 
   * After customers enter the information into SKU box or upload the CSV file, they need to click on this button to add them into the virtual cart.
@@ -75,7 +76,7 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
 
 * This is the general configuration, which can be applied for the module.
 
-![](https://i.imgur.com/ziwjbNc.png)
+![](https://i.imgur.com/HVNQX8r.png)
 
 * **Enable**: 
   * Choose Yes to enable this module
@@ -99,9 +100,11 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
   
   ![](https://i.imgur.com/aWwBYGY.png)
   
+* Quick Order Button label: Label Quick Order button is shown next to cart which is set in this section
+  
 ### Search
 
-![](https://i.imgur.com/j4HCpFs.png)
+![](https://i.imgur.com/ss5PPc6.png)
 
 * **Auto search minimum character**:
   * The number entered here specifies the minimum number of characters that customers must enter to display the search result.
@@ -115,11 +118,12 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
   
 ### Design
 
-![](https://i.imgur.com/xUcOKzM.png)
+![](https://i.imgur.com/zLPJgxV.png)
 
 * **Heading Background Color**: This field specifies the color of the Heading.
 * **Heading Text Color**: This field specifies the text color of the Heading Text.
 * **Heading Background Button**: This field specifies the color of buttons in the frontend.
+* **Background Color Button Quick Order**: Set the color for Quick Order button. 
 
 ### Rest API
 Mageplaza Quick Order extension support the use of REST API to view information of products in quick order. Besides, extension supports adding and deleting products to/from quic order directly via API requests. 
