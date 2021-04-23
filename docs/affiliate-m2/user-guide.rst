@@ -430,6 +430,8 @@ For example: refer code is 123, Custom parameter is abc
 2. Manage Accounts
 `````````````````````````````
 
+From the Admin panel, go to **Marketing** > **Affiliate** > **Manage Accounts** 
+
 2.1. Manage Grid
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
