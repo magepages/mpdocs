@@ -182,6 +182,22 @@ Free Shipping Bar extension supports using Rest API to modify the free shipping 
 
 <a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html' target='_blank' rel='nofollow'>Creating Integration tokens guidlines</a>
 
+### 4. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+```
+composer require mageplaza/module-free-shipping-bar-graphql
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
+To start work with Free Shipping Bar GraphQL in Magento, you need to follow this guide:
+
+* Use Magento 2.3.x. Set the site in developer mode
+* Set GraphQL endpoint is `http://<magento2-3-server>/graphql` in the URL field, click on **Set endpoint** (E.g. `http://develop.mageplaza.com/graphql`)
+* View details about queris supported [https://documenter.getpostman.com/view/10589000/TVsuDo2Z](here)  
+
 
 
 
