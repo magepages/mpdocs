@@ -63,7 +63,14 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - Accept image files in jpg, png, gif, svg, etc.
   - If the admin does not upload the icon, there will be no Gift Icon displayed
   - We recommend using a 20x20 px icon
+- **Reminder about the free gift**:
+  - Choose **Yes** to show the notification of free gift selectoni right on category page if the product meets the item rule/cart rule. When clicking on `check your available gift`, customers will be redirected to cart page
+  - If **Yes** is chosen, show the **Notification Message** field
+- **Notification Message**: 
+  - You can change the notification message to select free gifts in this part 
+  - Replace the {url checkout/cart} with the actual cart to redirect to the cart page
   
+![](https://i.imgur.com/EMmaUOw.png)
   
 #### 1.2 Button Display
 
@@ -80,6 +87,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 - **Show Gift List As Popup**:
   - Select **Yes** to have the gift list displayed on the Product Detail page as a popup
   - If you select **No**, the gift list is displayed as a block
+- **Open Popup Automatically**: Choose **Yes** to auto display the free gifts popup when item/cart meet the conditions (without clickign on `add free gift button`
   
 #### 1.3 Button Design
 
