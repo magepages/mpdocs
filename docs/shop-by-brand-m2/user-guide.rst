@@ -59,27 +59,40 @@ Go to ``Catalog > Shop by Brand > Configuration`` is a bunch of the basic config
 ^^^^^^^^^^^^^^^
 At the Configuration tab, expand **General** section, please do the following:
 
-.. image:: https://i.imgur.com/k83fxni.png
+.. image:: https://i.imgur.com/iOuQpOv.png
 
 * **Enable** the module when choosing "Yes" to allow customers shop by brand
 * From the existing list of the product attribute, set **Brand Attribute** to the correct choice. In this guide, *Manufacturer* is the option you have to select
 * Enter **Brand Route**, if passing it, the default (brands) is applied
 * Enter **Brand Link Title** or leave it as the default (Brands)
 * In **Show Brand Link In** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
-* In **Show Brands in Category Menu**: 
+* In **Show Brands in Category Menu**: includes No, Drop-down type và Gird type
   
-* **No**: Brands are not shown 
-* **Drop-down type**
+  * **No**: Brands are not shown 
+  * **Drop-down type**: show additional fields - What to show, Maximum brands to show, Show brands without products on menu
   
-.. image:: https://i.imgur.com/29Jdeet.png 
+.. image:: https://i.imgur.com/9xhntO6.png
 
-* **Grid type**
+  * **What to show**: select the elements to display
+
+.. image:: https://i.imgur.com/KWgyVpf.png 
+
+    * **What to show = Logo Only** : show the brand logo only
+    * **What to show = Label Only**: show the brand label only
+    * **What to show = Logo and Label**: show both brand logo and label 
+    
+  * **Maximum brands to show**: enter the maximum number for brands displayed in the menu
+  * **Show brands without products on menu**: Select **Yes** to display the brands with no products in the menu. If **No** is selected, the brands with no products will not be displayed
   
-.. image:: https://i.imgur.com/QjlZKMj.png
+ .. image:: https://i.imgur.com/03EMnJd.png 
+  
+  * **Grid type**: show additional fields - What to show, Brand Menu Gird Layout, Maximum brands to show, Show brands without products on menu
+  
+.. image:: https://i.imgur.com/b3dRXt2.png
 
-* In **What to show** select elements to display
+* In **What to show** select elements to display 
 
-.. image:: https://i.imgur.com/y7y7guM.png
+.. image:: https://i.imgur.com/u8Uewog.png
 
 * **What to show = Logo Only**: Brands are shown with logos only
 * **What to show = Label Only**: Brands are shown with lables only
@@ -92,6 +105,9 @@ At the Configuration tab, expand **General** section, please do the following:
 
 * In **Show brands without products on menu**: Choose **Yes** to show brands having no products and **No** to not show them
 * In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
+
+.. image:: https://i.imgur.com/oVr2yHf.png
+
 * **Show Brand Name on Product Listing Page**: Display Product Brand Name at product listing page such as category, Catalog Search
 * **Show Brand Info in Product Page**:
   
