@@ -86,7 +86,7 @@ At the Configuration tab, expand **General** section, please do the following:
   
  .. image:: https://i.imgur.com/03EMnJd.png 
   
-  * **Grid type**: show additional fields - What to show, Brand Menu Gird Layout, Maximum brands to show, Show brands without products on menu
+* **Grid type**: show additional fields - What to show, Brand Menu Gird Layout, Maximum brands to show, Show brands without products on menu
   
 .. image:: https://i.imgur.com/b3dRXt2.png
 
@@ -94,17 +94,15 @@ At the Configuration tab, expand **General** section, please do the following:
 
 .. image:: https://i.imgur.com/u8Uewog.png
 
-* **What to show = Logo Only**: Brands are shown with logos only
-* **What to show = Label Only**: Brands are shown with lables only
-* **What to show = Logo and Label**: Brands are shown with logos and lables
-
+  * **What to show = Logo Only**: Brands are shown with logos only
+  * **What to show = Label Only**: Brands are shown with lables only
+  * **What to show = Logo and Label**: Brands are shown with logos and lables
 * In **Maximum brands to show**: fill in the number of brands to show in the menu
-* In **Brand Menu Gird Layout**: Select the number of columns to show on the menu
+* In **Brand Menu Grid Layout**: choose the number of columns to show brands
 
-.. image:: https://i.imgur.com/9j3azeg.png
+.. image:: https://i.imgur.com/rUzxakl.png
 
-* In **Show brands without products on menu**: Choose **Yes** to show brands having no products and **No** to not show them
-* In **Show brands in drop-down category menu**: choose “Enable” to apply drop-down function at the mega menu.
+* In **Show brands without products on menu**: Select **Yes** to display the brands with no products in the menu. If **No** is selected, the brands with no products will not be displayed
 
 .. image:: https://i.imgur.com/oVr2yHf.png
 
