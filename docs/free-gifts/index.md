@@ -87,7 +87,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 - **Show Gift List As Popup**:
   - Select **Yes** to have the gift list displayed on the Product Detail page as a popup
   - If you select **No**, the gift list is displayed as a block
-- **Open Popup Automatically**: Choose **Yes** to auto display the free gifts popup when item/cart meet the conditions (without clickign on `add free gift button`
+- **Open Popup Automatically**: Choose **Yes** to auto display the free gifts popup when item/cart meet the conditions (without clicking on `add free gift button`
   
 #### 1.3 Button Design
 
