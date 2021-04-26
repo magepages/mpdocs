@@ -196,7 +196,7 @@ To start work with Free Shipping Bar GraphQL in Magento, you need to follow this
 
 * Use Magento 2.3.x. Set the site in developer mode
 * Set GraphQL endpoint is `http://<magento2-3-server>/graphql` in the URL field, click on **Set endpoint** (E.g. `http://develop.mageplaza.com/graphql`)
-* View details about queris supported [https://documenter.getpostman.com/view/10589000/TVsuDo2Z](here)  
+* View details about queris supported [here](https://documenter.getpostman.com/view/10589000/TVsuDo2Z)  
 
 
 
