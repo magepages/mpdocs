@@ -21,7 +21,7 @@ Log in to your Magento Admin, follow the path ``Store > Setting > Configuration 
 #### 1.1. General Configuration
 Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF Invoice > General Configuration``, expand the section
 
-![](https://i.imgur.com/u1NB5Ef.png)
+![](https://i.imgur.com/5YjvoiL.png)
 
 * In **Enable PDF Invoice** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Yes” to enable it
@@ -68,7 +68,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     
 #### 1.2. Design 
 
-![](https://i.imgur.com/9y68kxc.png)
+![](https://i.imgur.com/w5P20sv.png)
 
 * In **Heading Color** field:
   * You're able to customized color of heading in the PDF file
@@ -92,11 +92,13 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.3. Order 
 
-![](https://i.imgur.com/mbKFvhn.png)
+![](https://i.imgur.com/p3EGXVb.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Yes” to send the PDF invoice attached along with the email.
   * Tick **Use system value** again to use “Enable PDF Attachment = Yes” as your default.
+* In **Customer Group**: Only customers who are selected in this section are able to view the attachment shown in emails
+* In **Label**: Set up the Label Print PDF Order in My Order page in the frontend
 * In **Select Template** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Template” to display the PDF file as in the selected template.
   * All your created templates will be displayed as a drop-down list in this section.
@@ -165,12 +167,13 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.4. Invoice
 
-![](https://i.imgur.com/8pHffYl.png)
+![](https://i.imgur.com/EhLhUsC.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
   * Check **Use system value** to set “Enable PDF Attachment = Yes” as the default setting.
-  
+* In **Customer Group**: Only customers who are selected in this section are able to view the attachment shown in emails
+* In **Label**: Set up the Label Print PDF Order in My Order page in the frontend  
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the PDF file as selected template.
   
@@ -244,12 +247,13 @@ Or in massAction:
 
 #### 1.5. Shipment
 
-![](https://i.imgur.com/hVYfy1P.png)
+![](https://i.imgur.com/myLC0DK.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
   * Check **Use system value** to set “Enable PDF Attachment = Yes” as the default setting.
-  
+* In **Customer Group**: Only customers who are selected in this section are able to view the attachment shown in emails
+* In **Label**: Set up the Label Print PDF Order in My Order page in the frontend  
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the PDF file as selected template.
   
