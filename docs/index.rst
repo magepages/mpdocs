@@ -110,7 +110,7 @@ Welcome to Mageplaza Docs
    membership/index
    milestone/index
    moneris/index
-   multi-flat-rates/index
+   multiple-shipping-flat-rates/index
    multiple-coupons/index
    multichannel-selling/index
    name-your-price/index
