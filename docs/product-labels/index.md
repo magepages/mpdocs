@@ -23,19 +23,30 @@ php bin/magento setup:static-content:deploy
 
 From the Admin Panel, go to `Content > Product Labels > Configuration`
 
-![](https://i.imgur.com/cnAlD7g.png)
+![](https://i.imgur.com/IizVFc3.png)
 
 ### Configuration
 
-From the Admin Panel, go to  `Content > Product Labels > Configuration`, choose `General` section
+From the Admin Panel, go to  `Content > Product Labels > Configuration`
 
-![](https://i.imgur.com/ljnXfOI.png)
+![](https://i.imgur.com/XLSqy9t.png)
 
 #### General
 
 * **Enable**: Choose Yes to use this module
+* **Limit The Number Of Labels Per Product**: Enter the number of labels that can be displayed on each product. The default value of the field is 2. If left blank, the number of labels displayed per product is not limited.
+
+**Stock Status Label Setting**
+
+* **Displays Label When The Product Is Out Of Stock**: If **Yes**, the out of stock products are only sticked with  the ‘Out of Stock’ Label.
+* **‘Out of Stock’ Label**: Select a label to display with out of stock products
 
 ### Manage Items
+
+From the Admin Panel, go to `Content > Product Label > Manage Rules` 
+
+![](https://i.imgur.com/oCbmGNB.png)
+
 #### Create New Feed
 
 - Step 1: Fill in the full information in the `General` section
@@ -43,6 +54,8 @@ From the Admin Panel, go to  `Content > Product Labels > Configuration`, choose 
 - Step 3: Design labels and images on the product in the `label design` section
 
 ##### Step 1: Fill in the full information in the `General` section
+
+![](https://i.imgur.com/jmHx5Vs.png)
 
 - **Name**: Enter the name of the item
 - **Status**: Choose `Enable` tô display the label on the product
@@ -69,18 +82,20 @@ From the Admin Panel, go to  `Content > Product Labels > Configuration`, choose 
   - Enter priority for synchronizing objects
   - The smaller the input number, the higher the priority. Items have the equal priority, the priority will be based on ID.
   
-  ![](https://i.imgur.com/GvGlmfb.gif)
-  
   
 ##### Step 2: Set the condition to apply the label display for the products in the `Where to Show` section
 
+![](https://i.imgur.com/JMZI4Cf.png)
+
 - **Best seller**: Choose Yes to auto-assign the label for the bestselling products
+- **New Products**: If Yes, display label on all products that are new products and meet the conditions
+- **On Sale Product**: If Yes, display label on all products are on a discount or Special Price and meet the conditions
 - **Limit**: Enter the maximum number of best-selling products automatically labeled
 - You can customize the product displayed the label by selecting the products shown below after clicking the `Preview Product` button or selecting the products of the category that will be displayed the label. You will see all products meet the conditions in the `PREVIEW PRODUCTS` field
 
-![](https://i.imgur.com/YO0HaD6.gif)
-
 ##### Step 3: Design labels and images on the product in the `label design` section
+
+![](https://i.imgur.com/Sl4HhNw.gif)  
 
 Design the labels and images for the product on the `Product Page`
 
@@ -111,9 +126,7 @@ Design the labels and images for the product on the `Product Listing` (the label
 
   - **Same design with product page**
     - `Same design with product page = Yes`: Auto-get the design the same as with `Product Page` above
-    - `Same design with product page = No`: Display the design the same as `Product Page` above and admins can edit arbitrarily
-    
-![](https://i.imgur.com/184QCG2.gif)     
+    - `Same design with product page = No`: Display the design the same as `Product Page` above and admins can edit arbitrarily   
     
 ## III. Frontend
 #### Display on the Product Listing
