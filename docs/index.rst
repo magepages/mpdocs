@@ -105,6 +105,7 @@ Welcome to Mageplaza Docs
    instagram-feed/index
    lazy-loading/index
    login-as-customer/index
+   lookbook/index
    mass-order-actions/index
    mass-product-actions/index
    membership/index
