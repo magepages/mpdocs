@@ -11,7 +11,7 @@ Log into your backend, go to Content > Lookbook Sliders
 
 ### 1. Configuration 
 
-Log in your backend, choose **Content > Lookbook Sliders > Configuration** or **Configuration > Mageplaza Extensions > Lookbook Configuration > Mageplaza Extensions > Lookbook**
+Log in your backend, choose **Content > Lookbook Sliders > Configuration** or **Stores > Settings > Configuration > Mageplaza Extensions > Lookbook**
 
 ![](https://i.imgur.com/dYhUBLh.png)
 
