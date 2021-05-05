@@ -156,8 +156,9 @@ Custom Css: Custom the slider with Css (for example: .slick-dots li.slick-active
 
 #### 4.1. Widget
 
-You can add lookbooks or sliders anywhere by adding **widgets** on** blocks**, pages or creating new widgets
-  - Add Widget
+You can add lookbooks or sliders anywhere by adding **widgets** on **Blocks**, **Pages** or creating new widgets. 
+  
+- Add Widget
 
 ![](https://i.imgur.com/3nFRffB.gif)
 
