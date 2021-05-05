@@ -11,7 +11,7 @@ Log into your backend, go to Content > Lookbook Sliders
 
 ### 1. Configuration 
 
-Log into your backend, choose **Store > Lookbook Sliders > Configuration** or **Configuration > Mageplaza Extensions > Lookbook Configuration > Mageplaza Extensions > Lookbook**
+Log in your backend, choose **Content > Lookbook Sliders > Configuration** or **Configuration > Mageplaza Extensions > Lookbook Configuration > Mageplaza Extensions > Lookbook**
 
 ![](https://i.imgur.com/dYhUBLh.png)
 
@@ -23,8 +23,6 @@ Log into your backend, choose **Store > Lookbook Sliders > Configuration** or **
 - Marker Icon: Select icon for the marker. Allow file types: jpg, gif, png. If left blank, the icon will be displayed according to the default setting
 - Marker Width: Set the width for the icon
 - Marker Height: Set the height for the icon
-
-![](https://i.imgur.com/CzS2c7t.png)
   
 #### 1.2 Slider Design Configuration
 
@@ -53,6 +51,8 @@ Log into your backend, choose **Store > Lookbook Sliders > Configuration** or **
 - Pause On Mouse Hover: Select Yes so that when you hover on the displayed lookbook, the slider will not move automatically
 
 ### 2. Manage Lookbooks
+
+Log in to your Magento backend, go to `Content > Lookbook Sliders > Manage Lookbooks`
 
 #### 2.1 Grid
 
@@ -104,6 +104,8 @@ Click to choose the positions to add markers. Click on the **pencil** icon to ed
 
 ![](https://i.imgur.com/c8Bmdyj.png)
 
+![](https://i.imgur.com/LubfRbj.png)
+
 - What to show = Custom
 
   - Template: Enter the information that you want to show with the marker. Click **Save pin** to save the setting. 
@@ -113,6 +115,8 @@ Click to choose the positions to add markers. Click on the **pencil** icon to ed
 ![](https://i.imgur.com/OAzRgXG.png)
 
 ### 3.Manage Sliders
+
+Log in your Magento backend, go to `Content > Lookbook Sliders > Manage Sliders`
 
 #### 3.1 Grid
 
