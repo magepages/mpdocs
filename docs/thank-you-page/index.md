@@ -44,6 +44,10 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
   - If you leave this field blank, the default route applied is: *subscribe* 
   
 ### 2. Manage Templates 
+
+From the **Admin Panel**, go to `Marketing > Thank You Page > Manage Rules`
+
+![](https://i.imgur.com/1hGJsiT.png)
   
 ### 2.1 Order Success Page
 
@@ -130,7 +134,7 @@ From the Admin Panel, go to `Marketing > Thank You Page > Configuration`
     - Choose Static Block that will display on the Thank You Page
     - `Static Block 2 = No display`: This means that there're no any block to display on Thank You Page
 
-#### Coupon Block
+##### 2.1.3.1 Coupon Block
 
 ![](https://i.imgur.com/0K7MJqt.png)
 
@@ -155,7 +159,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - HTML is supported
   
    
-#### Product Slider Block
+##### 2.1.3.2 Product Slider Block
 
 ![](https://i.imgur.com/5V4BaLG.png)
 
@@ -170,8 +174,9 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - Select the information to display in the Product Slider Block. That can be **Add To Cart button**, **Add To Compare button**, **Add To Wishlist button**, **Review information section**,etc.
   - You can choose to display multiple information
 
+##### 2.1.3.3 Mageplaza FAQ block
 
-#### Mageplaza FAQ block
+Install Mageplaza FAQs Extension to activate these features. 
 
 ![](https://i.imgur.com/Km1hxBp.png)
 
@@ -249,7 +254,7 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
 
 - **Custom CSS**: You can edit the color, font text, etc of the selected style
     
-#### Coupon Block
+##### 2.2.2.1 Coupon Block
 ![](https://i.imgur.com/p4KCXrk.png)
 
 - **Select Rule**:
@@ -272,7 +277,10 @@ For example: GIFT-[4AN]-[3A]-[5N] => `GIFT-J34T-OEC-54354`
   - You can use multiple available variables that are supported by clicking on the `Insert Variable` link
   - HTML is supported
   
-#### Mageplaza FAQ
+##### 2.2.2.2 Mageplaza FAQ
+
+Install Mageplaza FAQs Extension to activate these features. 
+
 ![](https://i.imgur.com/S4mMRyr.png)
 
 - **Enable**: Choose "Yes" to display FAQ on Thank You Page
