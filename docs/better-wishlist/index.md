@@ -36,7 +36,7 @@ Customers tend to save their favorite products into Wishlist to review and buy l
 
 From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Wishlist`
 
-![](https://i.imgur.com/kJcWF2q.png)
+![](https://i.imgur.com/qGGIuQr.png)
 
 #### 1.1 General Configuration
 
