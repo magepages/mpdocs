@@ -48,7 +48,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
 - **Popup Effect**:
   - **Slide-in (right side)**: Display new popup minicart when clicking on cart:
   ![](https://i.imgur.com/NRx7zg8.png)
-  - **Hover**: Automatically display the minicart popup when hovering to the shopping cart
+  - **Hover-over**: Automatically display the minicart popup when hovering to the shopping cart
   ![](https://i.imgur.com/kkDInHu.gif)
 
 - **Auto Open Minicart**:
@@ -58,7 +58,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
 
   ![](https://i.imgur.com/R0ZklMe.gif)
 
-- **Show Coupon**:
+- **Show Coupon Box**:
   - Display the coupon filling box applied
   - You can access `Marketing > Cart Price Rules`, select **Add New Rule** to create new coupon rules
   - Instructions on how to create new rules can be found [here](https://www.mageplaza.com/kb/how-create-a-cart-price-rule-in-magento-2.html).
@@ -67,7 +67,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
   - **Full Total Information**: Displays all information in minicart including: Subtotal, Discount, Shipping & Handling, Tax, Grand Total.
   - **Only Subtotal**: Only displays Subtotal information in minicart.
   
-- **Fixed position minicart**: Select **Yes** to always display the minicart icon when the page is scrolled.
+- **Fixed Minicart On Scroll**: Select **Yes** to always display the minicart icon when the page is scrolled.
 
 ![](https://i.imgur.com/6T1sHrl.png)
 
