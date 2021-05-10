@@ -42,11 +42,11 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Quick Cart`, select **General**
 
-![](https://i.imgur.com/LyMD989.png)
+![](https://i.imgur.com/ph06bah.png)
 
 - **Enable**: Select **Yes** to turn on the Module.
 - **Popup Effect**:
-  - **Slide popup (right)**: Display new popup minicart when clicking on cart:
+  - **Slide-in (right side)**: Display new popup minicart when clicking on cart:
   ![](https://i.imgur.com/NRx7zg8.png)
   - **Hover**: Automatically display the minicart popup when hovering to the shopping cart
   ![](https://i.imgur.com/kkDInHu.gif)
@@ -54,7 +54,8 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
 - **Auto Open Minicart**:
   - Only displayed when at **Popup Effect** field, you select **Slide popup (right)**.
   - Minicart is auto displayed when customer adds product to cart.
-  - Note: it will work provided that [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) is supported.
+  - Note: it will work provided that [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) is supported.This feature is not supported for cases that the page reloads after customers clicking Add to Cart (e.g. My Wishlist page, Recently Ordered, Catalog Products List widget, ..).
+
   ![](https://i.imgur.com/R0ZklMe.gif)
 
 - **Show Coupon**:
