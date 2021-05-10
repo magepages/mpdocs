@@ -54,7 +54,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Qui
 - **Auto Open Minicart**:
   - Only displayed when at **Popup Effect** field, you select **Slide popup (right)**.
   - Minicart is auto displayed when customer adds product to cart.
-  - Note: it will work provided that [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) is supported.This feature is not supported for cases that the page reloads after customers clicking Add to Cart (e.g. My Wishlist page, Recently Ordered, Catalog Products List widget, ..).
+  - Note: this feature will work provided that [AJAX](https://en.wikipedia.org/wiki/Ajax_(programming)) is supported. If the page reloads after customers clicking on Add to Cart, it **will not** work (e.g. My Wishlist page, Recently Ordered, Catalog Products List widget, ..). 
 
   ![](https://i.imgur.com/R0ZklMe.gif)
 
