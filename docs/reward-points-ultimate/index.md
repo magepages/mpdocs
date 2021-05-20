@@ -251,8 +251,6 @@ Shopping Cart Earning Rule includes 3 actions:
     * Rule 3 has **Stop further rules processing = Yes**: After applying, rule 1 will be applied (since it has higher priority) and rule 3. Rule 2 and 4 won't be applied because they have smaller priorities.
 * Apply the rule only to cart items matching the following conditions (leave blank for all items)
 
-![](https://i.imgur.com/2rBTClp.png)
-
 Only when product(s) in the cart meet these conditions, rule will be applied.    
 
 #### 1.4. Behavior Rules
@@ -309,10 +307,10 @@ Rule Information shows the basic information of the rule. These information will
 - After customers perform the action set here, they will receive a certain amount of points that admins set in the `Action` section
 - The actions/events that can be plus points including:
   - `Create a new account`: The customers receive the point when they register the account
-  - `Sign up for a newsletter`: When the customers subscribe to the newsletter, they will be plused points. Note that only one point is given for this action. After you cancel, then resigter again, you won't get the point.
-  - `Write a review`: When customers write a review for the product and it is approved, the point will be added. However, the review needs to meet the word count requirement. At the same time, customers may need to purchase the product before reviewing for getting the point.
+  - `Sign up for a newsletter`: When the customers subscribe to the newsletter, they will be plused points. Note that only one point is given for this action. After you cancel, then resigter again, you won't get the point. 
+  - `Write a review`: When customers write a review for the product and it is approved, the point will be added. However, the review needs to meet the word count requirement. At the same time, customers may need to purchase the product before reviewing or the number of their paid orders must reach a minimum value for getting the point.
   
-  ![](https://i.imgur.com/f2fUrP3.png)
+  ![](https://i.imgur.com/cxnBwni.png)
   
   - `Send email to friends`: Plus the points when customers send an email to refer the products to friends
   - `Customer's birthday`: Plus points on the customer's birthday occasion. Admins can set the notification for customers or not, at the same time, admins also can change the Sender and the email template if they want
@@ -743,7 +741,7 @@ This displays general configurations regarding earning point(s)
 
 #### 7.4. Display Configuration.
 
-![](https://i.imgur.com/2Q9dDQc.png)
+![](https://i.imgur.com/Ff1RBQd.png)
 
 * In the **Display Total Points on Top Links** field: Select “Yes” to display the total number of reward point(s) that customer has on Top Link.
 
@@ -757,9 +755,17 @@ This displays general configurations regarding earning point(s)
 
 ![](https://i.imgur.com/bjj2G82.png)
 
-* In the **Display Earning Points on Shopping Cart** field: Select “Yes” to display the total number of earning point(s) customers can receive when checking out the cart at the View Cart Page. (Shopping Cart).
+* **Choose Landing Page**: Select the page displaying when customers click on Landing Page Link
 
-![](https://i.imgur.com/AJ15ok4.png)
+![](https://i.imgur.com/n7maCd1.png)
+
+* **Display Landing Page On Footer Link**: Select **Yes** to show **Landing Page**  link on the Footer Link
+
+![](https://i.imgur.com/6YeR8vl.png)
+
+* *Landing Page (Reward Point Page) Frontend*
+
+![](https://i.imgur.com/ynimBBv.png)
 
 #### 7.5. Email Configuration.
 
