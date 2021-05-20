@@ -3,7 +3,7 @@
 ## Overview
 In the modern marketing, loyalty programs play an important role that can't be denied. Online stores put a lot of effort into keeping old customers and increasing sweet engagement scent between customers and stores. Hence, Mageplaza Reward points extension is developed to increase the interaction between customers and store owners to establish the great consumption cycle on your website.
 
-Magento 2 Reward Points extension will allow earning unlimited reward points as well as using them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
+[Magento 2 Reward Points extension](https://www.mageplaza.com/magento-2-reward-points-extension/) will allow earning unlimited reward points as well as using them flexibly as payment methods if necessary. By this way, it is not complicated to build the loyal customer network supplying the number of leads for the merchants.
 
 ```
 The Reward Points system does not apply for guest customers.
@@ -13,7 +13,7 @@ The Product's Earning Point may vary according to a specific Customer Group and 
 ## Download & Install
 
 You can download from the following resouces:
-* Mageplaza Reward Points
+* [Mageplaza Reward Points}(https://www.mageplaza.com/magento-2-reward-points-extension/)
 * [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-reward-points.html)
 * [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
@@ -497,7 +497,7 @@ This displays general configurations regarding earning point(s)
 
 #### 4.4. Display Configuration.
 
-![](https://i.imgur.com/2Q9dDQc.png)
+![](https://i.imgur.com/Ff1RBQd.png)
 
 * In the **Display Total Points on Top Links** field: Select “Yes” to display the total number of reward point(s) that customer has on Top Link.
 
@@ -514,6 +514,18 @@ This displays general configurations regarding earning point(s)
 * In the **Display Earning Points on Shopping Cart** field: Select “Yes” to display the total number of earning point(s) customers can receive when checking out the cart at the View Cart Page. (Shopping Cart).
 
 ![](https://i.imgur.com/AJ15ok4.png)
+
+* **Choose Landing Page**: Select the page displaying when customers click on Landing Page Link
+
+![](https://i.imgur.com/n7maCd1.png)
+
+* **Display Landing Page On Footer Link**: Select **Yes** to show **Landing Page**  link on the Footer Link
+
+![](https://i.imgur.com/6YeR8vl.png)
+
+* *Landing Page (Reward Point Page) Frontend*
+
+![](https://i.imgur.com/ynimBBv.png)
 
 #### 4.5. Email Configuration.
 
