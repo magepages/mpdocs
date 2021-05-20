@@ -1,10 +1,10 @@
 # Product Feed
 ## Overview
 
-If customers sell their products on a variety of channels such as Google Shopping, Ebay, Amazon, etc and these channels use the same database, then they can automatically update their items by importing the exported data files from the original channels. Thanks to this, store owners can save more time and manage their sales channels with ease. That's also an awesome feature from Mageplaza Product Feed extension.
+If customers sell their products on a variety of channels such as Google Shopping, Ebay, Amazon, etc and these channels use the same database, then they can automatically update their items by importing the exported data files from the original channels. Thanks to this, store owners can save more time and manage their sales channels with ease. That's also an awesome feature from (Mageplaza Product Feed)[https://www.mageplaza.com/magento-2-product-feed-extension/] extension.
 
 ## Download & Install
-- Mageplaza Product Feed
+- (Mageplaza Product Feed)[https://www.mageplaza.com/magento-2-product-feed-extension/]
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
@@ -55,6 +55,7 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 * To cauto-update the products when running cron, choose Enable in the `Status` field
 * Choose the store to get that store's product and generate the file
 * Enter the export file name to send to the server
+* Choose the format to compress the file when downloading
 * **Generate Config**: Choose the export type
     * **Generate Config = Manual**: Allow generating the file manually
     * **Generate Config = Cron**: Auto-generate the file
@@ -64,7 +65,7 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
       * **Cron Run Time**: Setup the time to auto-generate the file at the time that you have setup. Please note that the time of Cron Job will be the timezone of UTC
 
 
-![](https://i.imgur.com/ZklAABr.gif)
+![](https://i.imgur.com/ipzZygs.png)
 
 ##### Step 2: Choose Template type
 
@@ -95,7 +96,7 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 
 ##### Step 4: Choose the condition to export the file. All products meeting the conditions will be exported.
 
-![](https://i.imgur.com/3ADjKhR.gif)
+![](https://i.imgur.com/BSMJqyg.png)
 
 ##### Step 5: Enter the Category Map for products. Admins can choose and classific according to the availabe suggestions. For the categories with the same level, it will get the classification type of the top-level category.
 
