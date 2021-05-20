@@ -261,7 +261,7 @@ This displays general configurations regarding earning point(s)
 
 Basic configuration for display of Reward Point and Earning Point:
 
-![](https://i.imgur.com/8PSPnvU.png)
+![](https://i.imgur.com/Ff1RBQd.png)
 
 * In the **Display Total Points on Top Links** field: Select “Yes” to display the total number of reward point(s) that customer has on Top Link.
 
@@ -272,6 +272,17 @@ Basic configuration for display of Reward Point and Earning Point:
 
 ![](https://i.imgur.com/bjj2G82.png)
 
+* **Choose Landing Page**: Select the page displaying when customers click on Landing Page Link
+
+![](https://i.imgur.com/n7maCd1.png)
+
+* **Display Landing Page On Footer Link**: Select **Yes** to show **Landing Page**  link on the Footer Link
+
+![](https://i.imgur.com/6YeR8vl.png)
+
+* *Landing Page (Reward Point Page) Frontend*
+
+![](https://i.imgur.com/ynimBBv.png)
 
 #### 4.5. Email Configuration.
 
