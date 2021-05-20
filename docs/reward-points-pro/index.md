@@ -511,10 +511,6 @@ This displays general configurations regarding earning point(s)
 
 ![](https://i.imgur.com/bjj2G82.png)
 
-* In the **Display Earning Points on Shopping Cart** field: Select “Yes” to display the total number of earning point(s) customers can receive when checking out the cart at the View Cart Page. (Shopping Cart).
-
-![](https://i.imgur.com/AJ15ok4.png)
-
 * **Choose Landing Page**: Select the page displaying when customers click on Landing Page Link
 
 ![](https://i.imgur.com/n7maCd1.png)
