@@ -11,11 +11,11 @@ You can download from the following resouces:
 - [Magento Marketplace](https://marketplace.magento.com/mageplaza-module-pdf-invoice.html)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
-**Note**: To use the full feature of PDF Invoice, you need to get the full font of the library [here](https://github.com/mpdf/mpdf/tree/development/ttfonts). After downloading and unzipping the library, you just need to drag and drop the unzipped folder into the lib directory:
+**Note**: To use the full feature of PDF Invoice, you need to get the full font of the library [here](https://drive.google.com/file/d/1aUKPv5iAqech735wCjbw6j50Jmu7GFwm/view). After downloading and unzipping the library, you just need to drag and drop the unzipped folder into the lib directory:
 
 ![](https://i.imgur.com/etKLCBN.png)
 
-You can also directly download the library [here](https://bitly.com.vn/mb54qk). 
+You can also directly download the library [here](https://github.com/mpdf/mpdf/tree/development/ttfonts). 
 
 ## How to configure
 Log in to your Magento Admin, follow the path ``Store > Setting > Configuration > Mageplaza Extensions > PDF Invoice`` 
