@@ -15,23 +15,25 @@ You can download from the following resouces:
 
 ## How to configue
 
-Login to Magento Admin, choose ``Marketing > Automatic Related Products``
+Login to ``Magento Admin``, choose ``Marketing > Automatic Related Products``
 
-![](https://i.imgur.com/vUunkqs.png)
+![](https://i.imgur.com/P18nZ5r.png)
 
-Follow our given guide below to complete Automatic Related Products configuration which includes
+Follow our given guide below to complete Automatic Related Products configuration which includes:
+
 * Configuration
 * Manage Rules
   * Manage Rules on Product Page
   * Manage Rules on Category Page
-  * Shopping Cart Page
-  * One Page checkout
+  * Manage Rules Shopping Cart Page
+  * Manage Rules Order Success Page
+  * Manage Rules CMS Page
   
 ### 1. Configuration
 
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extensions > Automatic Related Products``
 
-![](https://i.imgur.com/E5wOHV4.png)
+![](https://i.imgur.com/Pn99Zo4.png)
 
 * **Enable Automatic Related Products**: Choose **Yes** to enable  Automatic Related Products extension
 
@@ -41,7 +43,7 @@ This section allows you to install the Related Product Block in your desired Pro
 
 To create a new Rule on Product Page, go to ``Marketing  > Automatic Related Products > Manage Rules``. In the Add Rule section, select Product Page
 
-![](https://i.imgur.com/KOZNtrw.png)
+![](https://i.imgur.com/DMisHtg.png)
 
 A New Related Block Rule form will be appeared.
 
@@ -57,44 +59,9 @@ A New Related Block Rule form will be appeared.
 
 * **Rule Information** 
 
-![](https://i.imgur.com/8HRUsEw.png)
+![](https://i.imgur.com/9sOlTO4.png)
 
   * **Rule Name**: This is where you name the rule. The rule name will be displayed on the Grid in Manage Rules Page and visible only with admins. This is a required field so there will be an error message if you leave it blank.
-  
-  * **Where to Display**: This is where you specify the block where the Product Page is located
-  
-  
-    * **Replace Related Products**: The new block will replace  the Magento's default Related Product Block
-    
-    
-    * **Replace upsell products**: Auto Related Product block will replace the default Upsell Product Block by Magento
-    
-    
-    * **Before native related products**: Auto Related Product block displays above  the Magento's Related Product block
-    
-    
-    * **After native related products**: Auto Related Product block displays below the Magento's Related Product block
-    
-    
-    * **Before upsell products**: Auto Related Product block displays above  the Magento's Related Product Block
-    
-
-    
-    * **After upsell products**: Auto Related Product block displays below  the Magento's Related Product Block
-    
-    
-    * **Above Content**: Auto Related Product block displays above the Content of the Product Page
-    
-    
-    * **Below Content**: Auto Related Product block displayed under the Content of the Product Page
-    
-      * **Floating Left Bar**: Auto Related Product block displayed under the left of Product Page Content
-    
-      * **Floating Right Bar**: Auto Related Product block displayed under the right of Product Page Content
-      
-    * **Manually**: Auto Related Product block will be displayed according to Widget, Page and Template after deploying the following command.
-
-![](https://i.imgur.com/Lns6p0z.png)
   
   * **Status** : Choose "Active" to enable the rule.  
   * **Store View**: Select the store view where the Rule applies on. Mutiple stores can be selected.
@@ -102,19 +69,40 @@ A New Related Block Rule form will be appeared.
   * **From**: This is where you select the starting date of the Rule applied to the Product Page.
   * **To**: This is where you select the ending date of the Rule applied to the Product Page.
   * **Priority**: Enter a number to set priority for the rule. A lower number represents a higher priority.
-  
-#### b. Product To Show
 
-![](https://i.imgur.com/Eg7ofxY.png)
+  * **Products to Meet Conditions**:
 
-![](https://i.imgur.com/5yzq0n4.png)
+Setting:
+
+  * ARP block will display on eligible products pages
+  * You can add, remove conditions by clicking on + or x
+  * You can change the true/false of the condition by clicking the bold text
+
+![](https://i.imgur.com/hJaldx1.png)
+     
+   * Preview Products: You will get a Product List after saving conditions. Click **Preview Products** to see products which meet conditions. They will be presented in Block.
+ 
+#### Select the Displayed Products
+
+![](https://i.imgur.com/yxQJfoO.png)
 
 * **Block name**: Enter the block's name. It's only visible in the frontend
  
  
 * **Product Layout**: There are 2 modes to choose how product are displayed
   * **Slider**: Show products in slider form
+
+![](https://i.imgur.com/ffoxYU4.png)
+
+  * **Number of products on the Slider**: Type in the number of products you want to show on the slider. The limit is 5.  If empty or 0, 5 items will be displayed on the slider by default.
+    
+  * **Product Displayed When Scrolled**: Type in the number of products you want to show each time the slider moves. The limit is 5. If empty or 0, after each before/after click on the slider, it will replace the next 2 products displayed on the slider by default. 
+
   * **Grid**: Show products in grid form
+
+![](https://i.imgur.com/OM3JAd1.png)
+
+  * **Page Column Layout**: Type in the number of products you want to show in the grid. The limit is 5. If empty or 0, 4 items will be displayed on the slider by default.  
     
 * **Display mode**: 
   * Display Style: There are 2 Display Style that you can select:
@@ -150,18 +138,40 @@ A New Related Block Rule form will be appeared.
    
 *  **Do not Display Product in**: Remove products which have been added to cart or in the Wishlist from ARP block.
 
-#### c. Product to meet Condition
+**Product to meet Condition**
+
 * **Setting**:
   * Choose products to be displayed in ARP block. Only product pages which match the setup conditions, the new rule will be displayed
   * You can add, remove conditions by clicking on + or x
   * You can change the true/false of the condition by clicking the bold text
     
-![](https://i.imgur.com/yDSuwzl.png)
+![](https://i.imgur.com/EOaV2Nu.png)
 
 * **Preview Products**: You will get a Product List after saving conditions. Click to **Preview Products** to see products which meet conditions. They will be presented in Block.
 
+* Apply "Similarity" Condition = Yes: Allow showing products having products attributes that are similar to the product on the current product page. Product attributes are selected via conditions. Similarity is available only on product pages.
+
+* **Where to display Related Products**: This is where you specify the block where the Product Page is located 
+
+![](https://i.imgur.com/rAlorSI.png)
+
+  * Above Content: https://i.imgur.com/rAlorSI.png
+  * Below Content: Auto Related Product block displayed under the Content of the Product Page.
+  * Floating Left Bar: Auto Related Product block displayed under the left of Product Page Content.
+  * Floating Right Bar: Auto Related Product block displayed under the right of Product Page Content.
+  * Replace Related Products: The new block will replace the Magento’s default Related Product Block.
+  * Replace Upsell Products: Auto Related Product block will replace the default Upsell Product Block by Magento.
+  * Before native Related products: Auto Related Product block displays above the Magento’s Related Product block.
+  * After native Related products: Auto Related Product block displays below the Magento’s Related Product block.
+  * Before Upsell Products: Auto Related Product block displays above the Magento’s Related Product Block.
+  * After Upsell Products: Auto Related Product block displays below the Magento’s Related Product Block.
+  * **Insert Snippet**: 
+ 
+![](https://i.imgur.com/q7mf9Lh.png)
+ 
+Auto Related Product block will be displayed according to Widget, Page and Template after deploying the following command.
   
-#### d. A/B Testing
+#### b. A/B Testing
 
 * After a parent rule (an original rule) is generated, a child rule can be created by clicking Add A/B Testing.You can edit the this child rule in the same way to set up parent rules.
 
@@ -181,27 +191,17 @@ A New Related Block Rule form will be appeared.
 
 * Also in the Child Rule there is a Parent button to quickly switch to Parent Rule
 
-![](https://i.imgur.com/mV2gfkQ.png)
+![](https://i.imgur.com/dOFjgOm.png)
 
 ### 3. Manage Rules on Category Page
-This section allows you to install the Related Product Block in the Category Page that you desire. For category pages that satisfy this rule, the Related Product Block will be displayed in the selected location
+
+This section allows you to install the **Related Product Block** in the Category Page that you desire. For category pages that satisfy this rule, the **Related Product Block** will be displayed in the selected location
 
 Headings in the Rule Category Page are quite similar to the Rule Product Page, we will only point different places out for you in this guide.
 
 #### a. Rule Information
-There are 5 Location options to display the Block in Category Page. In **Location** field:
 
-![](https://i.imgur.com/8L8RD1X.png)
-
-
-* **Sidebar Top**: Related Products Block is displayed at the top of Sidebar
-* **Sidebar Bottom**: Related Products Block is displayed at the bottom of Sidebar
-* **Above Content**: Related Product Block is displayed on top of Content in Category Page
-* **Below Content**: Related Product Block is displayed below Content in Category Page
-  * **Floating Left Bar**: Auto Related Product block displayed at the top left of Product Page Content
-  * **Floating Right Bar**: Auto Related Product block displayed at the top right of Product Page Content
-* **Manual**: Similar to Product Rule
-
+All fields are similar to those in the Rule Inforamtion on Product Page. You can check them on the section 2. 
 
 #### b. Products to Meet Conditions
 
@@ -210,23 +210,33 @@ There are 5 Location options to display the Block in Category Page. In **Locatio
 * By Conditions, you can select the Category Page you want the Rule to be applied to, you cannot select as many conditions as the Product Page.
 * There’s no Preview Product here
 
-#### c. Product To Show
-* Action Page of Category Rule doesn't have *Add Product item* as in Product Page Rule.
-* For the rest, it's similar to Action section of Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
+#### c. Select the Displayed Product
 
-#### d. A/B Testing
-Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
+All fields are similar to those in the Product Page except that there is no **Similarity** field. 
+
+### d. Where to Displayed Related Product
+
+![](https://i.imgur.com/ZPyoFHS.png)
+
+  * Sidebar Top: Related Products Block is displayed at the top of Sidebar
+  * Sidebar Bottom: Related Products Block is displayed at the bottom of Sidebar
+  * Above Content: Related Product Block is displayed on top of Content in Category Page
+  * Below Content: Related Product Block is displayed below Content in Category Page
+  * Insert Snippet: Tương tự với Insert Snippet tại Product Page.
+
+#### e. A/B Testing
+
+All fields are similar to those in the Product Page.
 
 ### 4. Manage Rules on Shopping Page
+
 This section allows you to install the **Related Product Block** in your desired **View Cart Page**. When the View Cart Page fulfills the Rule, the **Related Product Block** will be displayed in the selected position.
 
-Headings in the Rule Shopping Page are quite similar to the Rule Product Page. Only the differences will be pointed. 
+*Headings in the Rule Shopping Page are quite similar to the Rule Product Page. Only the differences will be pointed.*
 
 #### a. Rule Information
 
-Location is the only difference in Rule Informaion. There are six Location options which can be selected to show Block in View Car Page. In comparison to Product Rule, three options related to Related Product are not available.
-
-![](https://i.imgur.com/2JLPwR0.png)
+All fields are similar to those in the Product Page.
 
 #### b. Products to Meet Conditions
 
@@ -234,19 +244,54 @@ Location is the only difference in Rule Informaion. There are six Location optio
 
 You can select the same conditions as the Product Page. Furthermore, you can set additional conditions for Total Items in the Cart, Total Price and Total Volume of Products.C
 
-#### c. Products to Show
-* Action Page of Shopping Cart Page Rule doesn't have *Add Product* as in Product Page Rule.
-* For the rest, it's similar to Action section of Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#action) to refer.
+#### c. Select The Displayed Product
 
-#### d. A/B Testing
-Completely Similar to A/B Testing of the Product Page. Click [here](https://docs.mageplaza.com/automatic-related-products/index.html#a-b-testing) to refer.
+All fields are similar to those in the Product Page except that there is no **Similarity** field. 
+
+#### d. Where To Display Related Products
+
+![](https://i.imgur.com/LFuJgXm.png)
+
+  * Above Content: Auto Related Product block displays above the Content of the Product Page
+  * Below Content: Auto Related Product block displayed under the Content of the Product Page
+  * Floating Left Bar: Auto Related Product block displayed under the left of Product Page Content
+  * Floating Right Bar: Auto Related Product block displayed under the right of Product Page   Content
+  * Replace Cross-sell Products: Auto Related Product block will replace the default Cross-sell Product Block by Magento
+  * Before Cross-sell Products: Auto Related Product block displays above the Magento’s Cross-sell Product block
+  * After Cross-sell Products: Auto Related Product block displays below the Magento’s Cross-sell Product block
+  * Insert Snippet: Configuration similarly to that in the Product Page
+
+### e. A/B Testing: 
+
+The configuration is the same with that in the Product Page. 
 
 ### 5. Manage Rules on One Page Checkout
 One Page Checkout ARP is compatible with Mageplaza One Step Checkout extension.  Admins need to install One Step Checkout module to get ARP displayed in the frontend.
 
 The way to set up this rule is quite similar to other rules.
 
-### 6. Exclude Automatic Related Extension in a specific Product Detail
+### 6. Manage Rules on Order Success Page
+
+The configuration is the same with that in other Rules. ARL block is shown in Order Success Page. 
+
+### 7. Manage Rules on CMS Page
+
+#### a. Rule Information
+
+The configuration is the same with other Rules
+
+#### b. Select the Displayed Product
+
+The configuration is the same with other Rules
+
+#### c.Where To Display Related Products
+
+![](https://i.imgur.com/r1ZC3Q2.png)
+
+  * **Insert Snippet**: the configuration is similar to that in other rules
+  * **CMS Page**: Select pages to display the ARP block with positions of Top or Bottom
+
+### 8. Exclude Automatic Related Extension in a specific Product Detail
 - Choose  `Catalog > Products > Edit Product` that admins do not want to Automatic Related Product extension applies on
 - Choose **Related Products, Up-Sells, and Cross-Sells** 
 - Enable Manually Setup Auto Related Products
@@ -254,7 +299,7 @@ The way to set up this rule is quite similar to other rules.
 
 This function makes **Automatic Related Products** inactive on a certain product. The way that **Related Products** displays in the frontend will be based on the Related Products themselves with the Core design.
 
-### 7. How to set the Where to display = (Manually)
+### 9. How to set the Where to display = (Manually)
 First of all, admins need to set Rule which has Where to Display= Manually and return store view to All Store View before starting to custom Automatic Related Products block. If not, both Widget and Rule will appear on the frontend.
 
 #### a. Create Widget
@@ -315,7 +360,7 @@ echo $productList;
 ```
 
 
-### 8. API
+### 10. API
 
 **Automatic Related Product extension by Mageplaza** supports the use of Rest API to get information of rules, update statistics of rules (CTR, impressions, clicks) and keep track of activities of module. 
 
@@ -323,7 +368,7 @@ Details can be viewed <a href='https://documenter.getpostman.com/view/10589000/S
 
 <a href='https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html' target='_blank' rel='nofollow'>Here</a> is the instruction to generate Integration tokens 
 
-### 9. GraphQL
+### 11. GraphQL
 
 Run the following command in Magento 2 root folder:
 
