@@ -82,7 +82,7 @@ Setting:
      
    * Preview Products: You will get a Product List after saving conditions. Click **Preview Products** to see products which meet conditions. They will be presented in Block.
  
-#### Select the Displayed Products
+#### b.Select the Displayed Products
 
 ![](https://i.imgur.com/yxQJfoO.png)
 
@@ -138,7 +138,7 @@ Setting:
    
 *  **Do not Display Product in**: Remove products which have been added to cart or in the Wishlist from ARP block.
 
-**Product to meet Condition**
+#### c.Product to meet Condition
 
 * **Setting**:
   * Choose products to be displayed in ARP block. Only product pages which match the setup conditions, the new rule will be displayed
@@ -171,7 +171,7 @@ Setting:
  
 Auto Related Product block will be displayed according to Widget, Page and Template after deploying the following command.
   
-#### b. A/B Testing
+#### d. A/B Testing
 
 * After a parent rule (an original rule) is generated, a child rule can be created by clicking Add A/B Testing.You can edit the this child rule in the same way to set up parent rules.
 
