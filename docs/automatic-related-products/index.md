@@ -133,7 +133,7 @@ Setting:
 
 * **Add Product**:
   * Choose an available related type of products to set for the block (Related Products, Up-sell Products, Cross-sell Products)
-  * Each of product page can have different related product blocks which you can configure them in here.
+  * Each of product page can have different related product blocks which is set on product setting by the admin
   * How to configure Related, Up-sell, Cross-sell Product document can be found [here](https://www.mageplaza.com/blog/how-to-add-and-remove-related-products-magento-2.html)
    
 *  **Do not Display Product in**: Remove products which have been added to cart or in the Wishlist from ARP block.
@@ -214,7 +214,7 @@ All fields are similar to those in the Rule Inforamtion on Product Page. You can
 
 All fields are similar to those in the Product Page except that there is no **Similarity** field. 
 
-### d. Where to Displayed Related Product
+#### d. Where to Displayed Related Product
 
 ![](https://i.imgur.com/ZPyoFHS.png)
 
@@ -259,9 +259,10 @@ All fields are similar to those in the Product Page except that there is no **Si
   * Replace Cross-sell Products: Auto Related Product block will replace the default Cross-sell Product Block by Magento
   * Before Cross-sell Products: Auto Related Product block displays above the Magento’s Cross-sell Product block
   * After Cross-sell Products: Auto Related Product block displays below the Magento’s Cross-sell Product block
-  * Insert Snippet: Configuration similarly to that in the Product Page
+  * Insert Snippet: Configuration simil
+  y to that in the Product Page
 
-### e. A/B Testing: 
+#### e. A/B Testing: 
 
 The configuration is the same with that in the Product Page. 
 
@@ -272,7 +273,7 @@ The way to set up this rule is quite similar to other rules.
 
 ### 6. Manage Rules on Order Success Page
 
-The configuration is the same with that in other Rules. ARL block is shown in Order Success Page. 
+The configuration is the same with that in other Rules. ARP block is shown in Order Success Page. 
 
 ### 7. Manage Rules on CMS Page
 
