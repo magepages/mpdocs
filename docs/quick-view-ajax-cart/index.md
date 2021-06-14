@@ -26,7 +26,7 @@ When customers want to view the product detail page, they have to click on the p
 ### 2. Ajax Cart
 #### 2.1. When clicking on Add To Cart button
 
-![](https://i.imgur.com/dVq815g.png)
+![](https://i.imgur.com/PEa2w19.png)
 
 #### 2.2. When clicking on Add To Wishlist
 
@@ -77,7 +77,8 @@ From the Admin Panel, go to `Store > Settings > Configuration > MAGEPLAZA EXTENS
     - Allow displaying many product's information on the popup
     
 #### 3. Ajax Cart Configuration
-![](https://i.imgur.com/pAem8uJ.png)
+
+![](https://i.imgur.com/8RgQtOe.png)
 
 - **Enable**: Choose "Yes" to display the popup of Ajax Cart
 - **Apply for**:
@@ -93,8 +94,32 @@ From the Admin Panel, go to `Store > Settings > Configuration > MAGEPLAZA EXTENS
 - **Countdown time**:
   - Enter the number of seconds displaying for the popup of Ajax Cart
   - The default Ajax Cart popup is 10 seconds
+- **Show Mini Cart instead when an item is added**: When there is only 1 item is added to cart, display the mini cart instead. From the second item, display the ajax popup
 
-#### 4. Compatible with Widget
+#### 4. Increasing Sales Options 
+
+![](https://i.imgur.com/HiyztZ3.png)
+
+- **Block to show in the pop-up**: Select blocks displayed at Ajax popup when customers add to cart 
+  - Block to show in the pop-up = None: Do not show additional block 
+  - Block to show in the pop-up = Related: show Related Product block on on Ajax popup. After selecting this option, you will see Title and Possible Qty Limit fields 
+  - Block to show in the pop-up = Cross-sell: show Cross-sell Product block on Ajax popup. After selecting this option, you will see Title and Possible Qty Limit fields   
+  - Block to show in the pop-up = CMS Static Block: show CMS Static Block on Ajax popup. After selecting this option, you will see Block field 
+- **Title**: Type in the title for the block. This filed is displayed only when **Block to show in the pop-up** = Related or Cross-sell
+- **Possible Qty Limit**: type in the limit number for showing products on the block. This filed is displayed only when **Block to show in the pop-up** = Related or Cross-sell
+- **Block**: Choose the block displayed from the droplist. This filed is displayed only when **Block to show in the pop-up** = CMS Static Block
+
+#### 5. Visual Settings 
+
+![](https://i.imgur.com/L0JxMGc.png)
+
+- **Button Text Color**: select the text color for button on Ajax popup
+- **Continue Button Color**: select the color for Continue button on Ajax popup
+- **View Cart Button Color**: select the View Cart button on Ajax popup
+- **Proceed to Checkout Button Color**: select the color for Proceed to Checkout button on Ajax popup
+- **Custom CSS**: you can customize the display with CSS here
+
+#### 6. Compatible with Widget
 To insert the code, you use the following code: 
 
 {% raw %}
