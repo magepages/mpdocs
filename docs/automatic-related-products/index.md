@@ -17,7 +17,7 @@ You can download from the following resouces:
 
 Login to ``Magento Admin``, choose ``Marketing > Automatic Related Products``
 
-![](https://i.imgur.com/LdDe1ue.png)
+![](https://i.imgur.com/P18nZ5r.png)
 
 Follow our given guide below to complete Automatic Related Products configuration which includes:
 
@@ -33,7 +33,7 @@ Follow our given guide below to complete Automatic Related Products configuratio
 
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extensions > Automatic Related Products``
 
-![](https://i.imgur.com/Pn99Zo4.png)
+![](https://i.imgur.com/LdDe1ue.png)
 
 * **Enable Automatic Related Products**: Choose **Yes** to enable  Automatic Related Products extension
 
