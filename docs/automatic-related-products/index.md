@@ -17,7 +17,7 @@ You can download from the following resouces:
 
 Login to ``Magento Admin``, choose ``Marketing > Automatic Related Products``
 
-![](https://i.imgur.com/P18nZ5r.png)
+![](https://i.imgur.com/LdDe1ue.png)
 
 Follow our given guide below to complete Automatic Related Products configuration which includes:
 
@@ -49,8 +49,6 @@ A New Related Block Rule form will be appeared.
 
 #### a. Rule Information
 
-![](https://i.imgur.com/tysUtU5.png)
-
 *  **Statistic** : This is where the Rule is applied, the Product selection from the Block of ARP along with the percentage between the Product selection and the Page entry
 
 ![](https://i.imgur.com/5ulpHte.jpg)
@@ -70,7 +68,7 @@ A New Related Block Rule form will be appeared.
   * **To**: This is where you select the ending date of the Rule applied to the Product Page.
   * **Priority**: Enter a number to set priority for the rule. A lower number represents a higher priority.
 
-  * **Products to Meet Conditions**:
+#### b. Products to Meet Conditions:
 
 Setting:
 
@@ -82,7 +80,7 @@ Setting:
      
    * Preview Products: You will get a Product List after saving conditions. Click **Preview Products** to see products which meet conditions. They will be presented in Block.
  
-#### b.Select the Displayed Products
+#### c. Select the Displayed Products
 
 ![](https://i.imgur.com/yxQJfoO.png)
 
@@ -138,7 +136,7 @@ Setting:
    
 *  **Do not Display Product in**: Remove products which have been added to cart or in the Wishlist from ARP block.
 
-#### c.Product to meet Condition
+**Product to meet Condition**
 
 * **Setting**:
   * Choose products to be displayed in ARP block. Only product pages which match the setup conditions, the new rule will be displayed
@@ -151,7 +149,9 @@ Setting:
 
 * Apply "Similarity" Condition = Yes: Allow showing products having products attributes that are similar to the product on the current product page. Product attributes are selected via conditions. Similarity is available only on product pages.
 
-* **Where to display Related Products**: This is where you specify the block where the Product Page is located 
+#### d. Where to display Related Products: 
+
+This is where you specify the block where the Product Page is located 
 
 ![](https://i.imgur.com/rAlorSI.png)
 
@@ -171,7 +171,7 @@ Setting:
  
 Auto Related Product block will be displayed according to Widget, Page and Template after deploying the following command.
   
-#### d. A/B Testing
+#### e. A/B Testing
 
 * After a parent rule (an original rule) is generated, a child rule can be created by clicking Add A/B Testing.You can edit the this child rule in the same way to set up parent rules.
 
