@@ -142,7 +142,7 @@ Run the following command in Magento 2 root folder:
 
 `php bin/magento setup:static-content:deploy`
 
-To start working with Report Pro GrahpQL in Magento, you need to follow these requests: 
+To start working with Quick Order GrahpQL in Magento, you need to follow these requests: 
 - Use 2.3.x. Take the site back to **Developer mode**
 - Place GraphQL endpoint as http://<magento2-3-server>/graphql on URL field, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql)
 
