@@ -7,7 +7,7 @@ In order to improve consumption of products, especially during important holiday
 
 ## How to download and install
 
-- Download Mageplaza Gift Wrap
+- [Download Mageplaza Gift Wrap](https://www.mageplaza.com/magento-2-gift-wrap/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
