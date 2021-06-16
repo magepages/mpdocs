@@ -126,7 +126,7 @@ After logging into **Magento admin**, go to **Store > Settings > Configuration >
 * **Background Color Button Quick Order**: Set the color for Quick Order button. 
 
 ### Rest API
-Mageplaza Quick Order extension support the use of REST API to view information of products in quick order. Besides, extension supports adding and deleting products to/from quic order directly via API requests. 
+Mageplaza Quick Order extension support the use of REST API to view information of products in quick order. Besides, extension supports adding and deleting products to/from quick order directly via API requests. 
 
 View details [here](https://documenter.getpostman.com/view/10589000/TVYDezUh)
 
