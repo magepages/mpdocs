@@ -165,7 +165,6 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
   
 - **Second Tracking ID**:
   - Enter another Tracking ID of Google Analytics in the **Second Tracking ID** field so you can add the ability to track website information such as product, category page, checkout page, page cart, one step checkout page (compatible with One step checkout), remove from cart, ...
-  - If you leave it blank or enter a wrong tracking ID, it will not be able to track the information.
   
   ![](https://i.imgur.com/c1RG4C6.png)
   
