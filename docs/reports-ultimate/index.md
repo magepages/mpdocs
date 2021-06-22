@@ -118,6 +118,17 @@ Displays sales statistics for any given attribute or a combination of attributes
 
 ![](https://i.imgur.com/60J5jwL.png)
 
+### New and Returning Customers 
+
+![](https://i.imgur.com/cNCbkeD.png)
+
+Show the number of new and returning customers
+
+### Sales By Cart Price Rules 
+
+![](https://i.imgur.com/4coIuMd.png)
+
+Show descriptive sales statistics of each cart price rules (order count, ordered item quantity, etc.) 
 
 ### User Wishlist
 
@@ -151,6 +162,4 @@ To start working with **Report GraphQL** in Magento, you need to:
 - Set **GraphQL endpoint** as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
 
 View the supported queries [here](https://documenter.getpostman.com/view/10589000/SzS1V9Fi?version=latest)
-
-
 
