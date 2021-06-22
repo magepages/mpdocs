@@ -154,7 +154,7 @@ composer require mageplaza/module-size-chart-graphql
 php bin/magento setup:upgrade
 php bin/magento setup:static-content:deploy
 ```
-Mageplaza's Size Chart extension allows admins to get rule's information throuhg GraphQl
+Mageplaza's Size Chart extension allows admins to get rule's information through GraphQl.
 
 To start working with **Size Chart GraphQL** in Magento, you need to:
 
