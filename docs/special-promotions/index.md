@@ -85,7 +85,7 @@ Login to the Admin Magento, choose `Stores > Settings > Configuration > Mageplaz
 
 ![](https://i.imgur.com/gXyANMo.png)
 
-- **Developer Mode**: select **Yes** to enable **Developer Mode**. When it is enabled, you can see discounts applied to specific products in your shopping cart via Developer Mode. If you leave this blanl, all the promotions programs will be accessable for every IP Address. 
+- **Developer Mode**: select **Yes** to enable **Developer Mode**. When it is enabled, you can see discounts applied to specific products in your shopping cart via Developer Mode. If you leave this blank, all the promotions programs will be accessable for every IP Address. 
 
 ![](https://i.imgur.com/ycXOTbw.png)
 
