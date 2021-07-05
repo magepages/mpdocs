@@ -3,12 +3,12 @@
 
 ## Overview
 
-Currently, when having to process orders at the management page, the shop owner must go to each order to be able to create invoices, shipping methods, email notifications to customers in each order. From now on, with Mageplaza Mass Order Actions extension, admins can create more features at the order grid page to manage and handle multiple orders at the same time. In addition, we support Mass Order Actions compatible with some extensions such as Delete Orders, PDF Invoice, SMTP, Order Archive to reduce workload for your sites. This extension helps you quickly process orders and dramatically improve your order management.
+Currently, when having to process orders at the management page, the shop owner must go to each order to be able to create invoices, shipping methods, email notifications to customers in each order. From now on, with Mageplaza Mass Order Actions extension, admins can create more features at the order grid page to manage and handle multiple orders at the same time. In addition, we support Mass Order Actions compatible with some extensions such as [Delete Orders](https://www.mageplaza.com/magento-2-delete-orders/), [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [SMTP](https://www.mageplaza.com/magento-2-smtp/), [Order Archive](https://www.mageplaza.com/magento-2-order-archive/) to reduce workload for your sites. This extension helps you quickly process orders and dramatically improve your order management.
 
 
 ## How to download and install
 
-- Download Mageplaza Mass Order Actions
+- Download [Mageplaza Mass Order Actions](https://www.mageplaza.com/magento-2-mass-order-actions/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
  
@@ -22,7 +22,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass
 
 #### 1. General
 
-![](https://i.imgur.com/1f4uONp.png)
+![](https://i.imgur.com/sZYXvhW.png)
 
 - Select **Enable = Yes** to enable the module. Mass Order Actions extension is compatible with Delete Orders and Order Archive.
 - **Select Actions**:
@@ -35,6 +35,7 @@ Login to the **Magento Admin**, choose `Store > Configuration > Mageplaza > Mass
   - Select **Yes**, the admin is allowed to change the status of the orders in the same state.
   - Select **No**, the admin is allowed to change the status of orders in the same state and not in the same order.
 
+- **Default Tracking Carrier**: choose the default value for Carrier of Tracking Information in the Order grid or Create Shipment pop-up
 
 #### 2. Create Invoice
 
@@ -60,7 +61,7 @@ Login to the **Magento Admin**, choose `Sales > Orders`
 
 Click **Actions**, where the actions will display in the **Select Actions** configuration created at the **Configuration** section.
 
-![](https://i.imgur.com/lyfpa9P.png)
+![](https://i.imgur.com/xX13xtB.png)
 
 #### 2.1. Create Invoice
 
@@ -162,7 +163,7 @@ Admin selects the shipment method for order
 
 #### 2.5. Change Orders Status
 
-![](https://i.imgur.com/T2ZStw3.gif)
+![](https://i.imgur.com/GV0JmT5.gif)
 
 - Admin select to change the status of Orders.
 - Admin can select multiple orders to change to the same status and not allowed to select multiple statuses for one order.
@@ -170,36 +171,61 @@ Admin selects the shipment method for order
 
 ![](https://i.imgur.com/SyayZ0g.png)
 
+#### 2.6. Send Tracking Information
+
+![](https://i.imgur.com/pzJRD2D.gif)
+
+- Admins can send Tracking Information right from the Order grid by ticking on the checkbox of the desired order. Go to mass actions, select **Send Tracking Information**
+- Admins can send tracking information of multiple orders at once 
+- Here is the success notification of Send Tracking Information
+
+![](https://i.imgur.com/TItDYgE.png)
+
+Order grid > **Tracking Information**
+ - **Carrier**: select a value from the droplist 
+ - Type in the value for **Title** and **Number**
+ - **Action**: click on **Add** button to add tracking information
+
+#### 2.7. Add Tracking Number In Order Grid
+
+![](https://i.imgur.com/kXKvIK7.png)
+
 ## III. Frontend
 
-### 1. Display Comments
+### 3.1. Display Comments
 
 ![](https://i.imgur.com/77aESAS.png)
 
-### 2. Display Invoice
+### 3.2. Display Invoice
 
 ![](https://i.imgur.com/1c2aQTL.png)
 
-### 3. Display Shipment
+### 3.3. Display Shipment
 
 ![](https://i.imgur.com/j45NK5m.png)
 
 ## IV. Backend
 
-### 1. Display Comments
+### 4.1. Display Comments
 
 ![](https://i.imgur.com/lhNd0l7.png)
 
+### 4.2. Display Tracking Information in Order grid
+
+![](https://i.imgur.com/lX05oEh.png)
+
 ## V. Email
 
-### 1. Display Comments
+### 5.1. Display Comments
 
 ![](https://i.imgur.com/9oNF54D.png)
 
-### 2. Display Invoice
+### 5.2. Display Invoice
 
 ![](https://i.imgur.com/tqfpRHt.png)
 
-### 3. Display Shipment
+### 5.3. Display Shipment
 
 ![](https://i.imgur.com/RNLK1wp.png)
+
+
