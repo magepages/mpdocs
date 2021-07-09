@@ -15,13 +15,13 @@ Moreover, this extension allows sending SMS notifications by integrating a 3rd p
 
 ### 1. Customer registers to receive incoming notifications by SMS
 
-![](https://i.imgur.com/jpa0gAZ.png) 
+![](https://i.imgur.com/YIVdo4h.png) 
 
 - **Customer enters OTP to verify phone number upon request**
 
 ### 2. Customer enters the phone number at Billing/Shipping to receive SMS of Order notification
 
-![](https://i.imgur.com/MAnRrEW.png)
+![](https://i.imgur.com/ObqiGaz.png)
 
 ## How to Configure
 
@@ -29,7 +29,7 @@ Moreover, this extension allows sending SMS notifications by integrating a 3rd p
 
 Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notification`.
 
-![](https://i.imgur.com/9Wnil63.png)
+![](https://i.imgur.com/jRMhCi7.png)
 
 
 #### 1. General
@@ -56,7 +56,7 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 
 1.1 OTP
 
-![](https://i.imgur.com/LmjCUXy.png)
+![](https://i.imgur.com/9mtXQg7.png)
 
 - Select **Verify Phone Number = Yes**: Customers will verify the phone number with OTP 
 
@@ -74,7 +74,7 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 
 2.1 Order Subscription
 
-![](https://i.imgur.com/Ob1YprA.png)
+![](https://i.imgur.com/Kq9I0y1.png)
 
 - **Enable**: Choose Admin selects the options to allow sending SMS to the customer.
 - **Check by Default**:  If Yes, after a new account is created, the subscription is auto-checked at the My account section.
@@ -188,7 +188,7 @@ Your credit memo for the order {{order_number}} has been generated.
 
 2.2 Behavior Subscription
 
-![](https://i.imgur.com/4v3CqbV.gif)
+![](https://i.imgur.com/QOx6azt.gif)  
 
 - **Enable:** Choose **Yes** to enable the SMS for behavior subscription section.
 - **Check by Default:** If **Yes** after a new account is created, the subscription is auto-checked at the My account section.
