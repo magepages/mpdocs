@@ -7,7 +7,7 @@ In particular, with the support of Mageplaza's Geo IP extension, it will help yo
 
 ## Download and Install
 
-- Download Store Switcher extension
+- Download [Store Switcher extension](https://www.mageplaza.com/magento-2-store-switcher/)
 - [Install Store Switcher extension](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
@@ -78,17 +78,19 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 
 ##### 2.2.3. Actions
 
-![](https://i.imgur.com/cqYDMfu.gif)
+![](https://i.imgur.com/sNgi2fr.gif)
 
 - **Type**: Choose the type that you want to redirect to the rule
   - `Redirect to a URL`: It will show more fields:
     - `Redirect to a URL`: Enter the Url into the `Redirect to a URL` field. The rule will be redirected to the selected Url.
+    - `Store Views`: Select Store View that you want to redirect to
     
     - For example: If you enter as https://mageplaza.com or mageplaza.com, your website will be redirected to https://mageplaza.com.
   
   - `Redirect to a Store View/Change Currency`: It will show more 3 fields:
     - `Redirect to a store`: Choose the store view. The rule will be redirected to show on the selected store. Multiple stores can be selected at the same time.
     - `Change Currency to`: Choose the currency in this field and show the currencies with the selected store.
+    - `Redirect Only For The First Access Time`: Only apply for redirecting Store Views and Currency one time at the first access 
     - `How to change Store View`: This field allows choosing the store view.
       - `Manually`: If Manually is selected, a notice will be shown to ask if visitor wants to change the store view which suits with the current location. 
         - Notice customer to manually change store view.
