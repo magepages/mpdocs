@@ -13,15 +13,15 @@ With attachments that admins have installed on the product, Mageplaza Product At
 - Product Attachments can display on some following positions:
   * Product Tab
   
-  ![](https://i.imgur.com/D2T2B7J.png)
+  ![](https://i.imgur.com/ZzEqEX4.png)
   
-  * Under Product Social Link
+  * Under ""Add to Cart" button
   
-  ![](https://i.imgur.com/YHXvi8X.png)
+  ![](https://i.imgur.com/3Ubwm1r.png)
   
   * Sidebar
   
-  ![](https://i.imgur.com/ptWqkqp.png)
+  ![](https://i.imgur.com/af61ArE.png)
   
   * Some different positions according to Widget or Snippet
   
@@ -45,7 +45,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 #### 1.1. General
 
-![](https://i.imgur.com/d1U2MUT.png)
+![](https://i.imgur.com/buA261S.png)
 
 * **Enable**: Choose Yes so that this module can work well
 * **Block Title**: 
@@ -57,6 +57,13 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
     * Under Add to Cart button
     * Sidebar
 
+* **Display Attachments File Size**: If **Yes**, display the file size next to the attachment in the frontend.
+* **File Size Limit Allowed(MB)**: Note that the limit for sending attachments in gmail cannot exceed 25 MB. Please select below 25 MB to fully view the best quality attached file. If empty or 0, the limit will be 25 MB by default.
+* **Add Attachments in Order Emails**: If **Yes**, add the attachment to the order email.
+* **Groups**: Add group to sort attachment files. Groups will be displayed with the attachment file on the product page. 
+
+![](https://i.imgur.com/vHRFK1V.png)
+
 * **Manage Icons**:
     * Admins can add or remove icones in this field
     * The icons added in this field will display in the `Edit/Add New File` under Dropdown
@@ -66,7 +73,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
     
 #### 1.2. Default Value
 
-![](https://i.imgur.com/Ly10kJs.png)
+![](https://i.imgur.com/D0roIbc.png)
 
 * All values selected in this section are taken as the default value of the product attachment when they are uploaded
 * These values will be selected by default when adding new files, but admins can change these values while editing/adding new files.
@@ -74,6 +81,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **Customer Group**: Stipulate group customers that can perform `Customer Action`
 * **Customer must login to download file**: Select "Yes" means that customers must login to view/download product attachment
 * **Only available for verified buyers**: Select "Yes" means that Customers must have at least 1 order of this product so that Product Attachments display to view/download.
+* **Order Status**: When the customer orders, if the order status is satisfied, the attached file will be viewed / downloaded.
 * **Customer Action**:
   * View Online
   * Download
@@ -87,12 +95,15 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **Layout file**: Copy code and insert into .xml files of Magento or other extensions that you want to display Product Attachments
 
 ### 2. Manage General Files
+
+From the Admin Panel, go to `Catalog` > `Product Attachments` > `Manage Files` 
+
 #### 2.1. Managerial Grid
 
-![](https://i.imgur.com/z52Pl1u.png)
+![](https://i.imgur.com/dkVFAMo.png)
 
 * This is a place to save all attached files into the product.
-* From the Grid, admins can understand the basic information of the file as ID, Label, Name, Status, Store View, Customer Group, Priority, Create Date, and Action.
+* From the Grid, admins can understand the basic information of the file as ID, Label, Name, Status, Store View, Customer Group, Group, Priority, Create Date, and Action.
 * In the Action Dialog, admins can perform `Action Delete`: Admins need to tick and choose the question that they want to delete, then choose `Delete` in the Action box (upper left of Grid) to delete. A confirmation dialog will appear, select OK to continue deleting.
 * In the Action column, admins click on `Edit` to edit the information of the attached files.
 * Also, admins can filter, change store view, hide/show columns or export grid
@@ -101,7 +112,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 ##### 2.2.1. General
 
-![](https://i.imgur.com/PClHNYF.png)
+![](https://i.imgur.com/VogrS0k.gif)
 
 * **File Label**:
   * Set the file label to display on the Frontend
@@ -136,11 +147,11 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 * **Verified buyers**:
   * Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
   * In case, `Logged in Customer = No`: Customers don't need to purchase the products, they can also view/download the file
-  
+* **Order Status**: Chọn trạng thái đơn hàng cho phép khách hàng có thể view/download file đính kèm tại sản phẩm có trong order Select the Order Status whose customers can view/download attached files   
 * **Customer Action**:
   * **View Online**: Customers who meet the conditions of the Store, Group, Login and Verify will be able to view the contents of the attached file.
   * **Download**: Customers who meet the conditions of Store, Group, Login and Verify will be able to download attachments
-
+* Select **Group**: Choose the groups under which attachments are displayed
 * **Priority**:
   * At the same location, Product Attachment that has a higher priority will be sorted first.
   * 0 is the highest priority.
@@ -168,13 +179,13 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
   * Edit Product Page
   
-![](https://i.imgur.com/NaxHGLb.png)
+![](https://i.imgur.com/4VKEefc.png)
 
 * By one of two ways, admins can set the display location of the attached files and upload files easily.
 * All product attachments are displayed here, including the files created in the `Manage Product` (if that file is assigned to this product).
 * When you click on an attached file, a popup is displayed and admins can quickly edit the file information.
 
-![](https://i.imgur.com/jrNM6mU.png)
+![](https://i.imgur.com/b3DTby9.png)
 
 * The information is similar to the information when adding new files in `Manage File`
 * Note that File Name does not support hieroglyphs such as Chinese, Japanese, Korean, Russian
@@ -184,7 +195,9 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 ### 4. Report
 
-![](https://i.imgur.com/alxCdgn.png)
+From the Admin Panel, go to `Catalog` > `Product Attachments` > `Logs`
+
+![](https://i.imgur.com/PBx6QWQ.png)  
 
 * Record the information about actions performed by the customer on the Product Attachments such as: File Label, File Name, Customer Implementation, Product, Action, Store View, Customer Group and Action Date.
 * Admins can clear logs if they want.
@@ -198,7 +211,7 @@ From the Admin Panel, go to `Catalog > Product Attachments > Configuration`
 
 * Before Check Data, admins need to upload attachments into the `pub/media/import`
 
-![](https://i.imgur.com/7829axK.png)
+![](https://i.imgur.com/RfHP3f4.png)
 
 * After importing, Product Attachment files are stored in `Manage General File`
 * To know more Magento's import, please visit [here](https://www.mageplaza.com/kb/how-to-import-products-magento-2.html)
