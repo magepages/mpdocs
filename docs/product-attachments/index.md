@@ -15,7 +15,7 @@ With attachments that admins have installed on the product, Mageplaza Product At
   
   ![](https://i.imgur.com/ZzEqEX4.png)
   
-  * Under ""Add to Cart" button
+  * Under **"Add to Cart"** button
   
   ![](https://i.imgur.com/3Ubwm1r.png)
   
