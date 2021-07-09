@@ -147,7 +147,7 @@ From the Admin Panel, go to `Catalog` > `Product Attachments` > `Manage Files`
 * **Verified buyers**:
   * Select "Yes" to indicate for customers who have purchased the product to view/download the attached file.
   * In case, `Logged in Customer = No`: Customers don't need to purchase the products, they can also view/download the file
-* **Order Status**: Chọn trạng thái đơn hàng cho phép khách hàng có thể view/download file đính kèm tại sản phẩm có trong order Select the Order Status whose customers can view/download attached files   
+* **Order Status**: Select the Order Status whose customers can view/download attached files   
 * **Customer Action**:
   * **View Online**: Customers who meet the conditions of the Store, Group, Login and Verify will be able to view the contents of the attached file.
   * **Download**: Customers who meet the conditions of Store, Group, Login and Verify will be able to download attachments
@@ -161,7 +161,7 @@ From the Admin Panel, go to `Catalog` > `Product Attachments` > `Manage Files`
   
 ##### 2.2.2. Assign To
 
-![](https://i.imgur.com/8kUbwga.png)
+![](https://i.imgur.com/UkbKssK.png)
 
 * This is a place for you to select the conditions for the rule. Only available on selected products, the new rule can be applied.
 * You can add/remove the condition by clicking on `+` or `x`
@@ -209,7 +209,7 @@ From the Admin Panel, go to `Catalog` > `Product Attachments` > `Logs`
 
 ![](https://i.imgur.com/PtFR0AW.png)
 
-* Before Check Data, admins need to upload attachments into the `pub/media/import`
+* Before Check Data, admins need to upload attachments into the `var/import/images`
 
 ![](https://i.imgur.com/RfHP3f4.png)
 
