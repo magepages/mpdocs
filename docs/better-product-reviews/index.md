@@ -6,7 +6,7 @@ Customers are more likely to make purchasing decisions when they see a product t
 
 ## Download & Install
 
-- Mageplaza Better Product Reviews
+- Mageplaza [Better Product Reviews](https://www.mageplaza.com/magento-2-better-product-reviews/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
@@ -21,9 +21,9 @@ On the Product Detail Page, customers can:
 
 ![](https://i.imgur.com/CH1u2zl.png)
 
-- Reorder the reviews to show the Newest Review, High Rating, Helpfulness reviews
+- Reorder the reviews to show the Newest Review, High Rating, Helpfulness reviews and Date
 
-![](https://i.imgur.com/uscfmbq.png)
+![](https://i.imgur.com/s1pjtGj.png)
 
 - Evaluate Helpful Review. Share any review on social network by **Social Share** button
 
@@ -95,7 +95,7 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
     
 #### 1.2. Write Review Configuration
 
-![](https://i.imgur.com/B7zCWpY.png)
+![](https://i.imgur.com/nAqmWmf.png)
 
 
 - **Enable**:
@@ -103,11 +103,13 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Produc
   - Select `No` to turn off the Write a Review function
   - Select For Purchase Only to display the Write Review field with the Customer who completed the order containing this product
 - **Customer Group**: Only customers belonging to the selected Group can see the Review Form
+- **Customer Create Order To Write Review**: If **Yes**, a customer can only write a review for a product when they create an order for that product and satisfy the Order Status. *Note: this feature will not apply to customers whose customer group is Not Logged In.*
+- **Order Status**: When a customer places an order with a certain product, if the selected Order State is satisfied, they are be able to write a review for that product
 - **Notice Message**: Insert notice for Customer who are not allowed to write reviews
 - **Use Ajax**: Select `Yes` to enable AJAX loading. When a customer submit 1 product review, that Product Detail page will not be reloaded
-- **Allow recommending products**:
+- **Allow recommending products**: 
   - Select `Yes` to display a comment indicating that the reviewer has introduced this product to their friends, and displayed the check box at Write a Review form.
-  - Select `N`o to hide checkboxes and comments
+  - Select `No` to hide checkboxes and comments
   - Select `For Purchase Only` to display the checkbox and comment with the customers who completed the order containing this product
 - **Allow Upload Images**:
   - Select `Yes` to allow customers to upload photos when writing reviews
@@ -154,7 +156,7 @@ I agree with the <a href="https://domain.com/tos.html">Terms and Conditions</a> 
   
 ##### 1.3.1. Sorting
 
-![](https://i.imgur.com/URXGte9.png)
+![](https://i.imgur.com/pa6Hid0.png)
 
 - **Enable Sorting On Frontend**: Select `Yes` for the customer to change the way the reviews are sorted
 - **Select Type**:
