@@ -8,14 +8,14 @@ Moreover, this extension allows sending SMS notifications by integrating a 3rd p
 
 ## Download and Install
 
-- Download Mageplaza SMS Notification
+- Download [Mageplaza SMS Notification](https://www.mageplaza.com/magento-2-sms-notification/)
 - [Installation guide](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to use
 
 ### 1. Customer registers to receive incoming notifications by SMS
 
-![](https://i.imgur.com/jpa0gAZ.png)
+![](https://i.imgur.com/jpa0gAZ.png) 
 
 - **Customer enters OTP to verify phone number upon request**
 
@@ -34,13 +34,14 @@ Login to the Magento Admin, go to `Stores> Configuration> Mageplaza> SMS Notific
 
 #### 1. General
 
-![](https://i.imgur.com/i85kFW4.png)
+![](https://i.imgur.com/rDHh9Mu.png)
 
 - Select **Enable = Yes** to enable the module.
-- **Phone Codes**: Allows displaying the country prefix number.
+- **Available Country Codes**: Allows displaying the country prefix number.
 
 ![](https://i.imgur.com/Xk8mxKn.png)
-
+- **Sender Phone Number**: Type in the phone numer of the sender given by Twilio (Available only when SMS Service Provider = Twilio)
+- **Default Phone Code**: Select the country that you want to be displayed as default
 - **SMS Delivery**: Choose the third-party for SMS integration ([Twilio](https://www.twilio.com/console), [Amazon SNS](https://aws.amazon.com/))
   - **Twilio Account SID**: Admin enter Account SID to be integrated SMS   gateway. If left blank, Twilio will not be applied.
   - **Twilio Account Token**: Admin enter Account Token to be integrated   SMS gateway. If left blank, Twilio will not be applied.
@@ -304,7 +305,7 @@ Product {{product_name}} has just been taken to stock. Visit {store_name}} and t
 
 #### 3. Admin Notification
 
-![](https://i.imgur.com/nwD7qbZ.gif)
+![](https://i.imgur.com/OEojYRD.gif)
 
  - Enable SMS For: Admin choose among options to send SMS to itself
  - Sending Frequency: Admin choose the frequency to send SMS to itself
@@ -350,6 +351,13 @@ Today/This week/This month, your store has a total of {{number_new_memo}} memos 
 ```
   - Supporting variables: {{number_new_memo}}
 
+- **Total Order Canceled:** Fill in content for SMS sent to admin summing up the number of order canceled
+```
+Hello Admin
+Today/This week/This month, your store has a total of {{number_order_cancel}} orders that have been canceled.
+```
+  - Supporting variables: {{number_order_cancel}}
+
 - **Total New Inquiries:** Fill in content for SMS sent to admin summing up the number of newly created inquiries
 
 ```
@@ -384,6 +392,12 @@ There is something wrong with the sitemap generation. Please check and try again
 Admin can help customers to register to receive notifications by entering customer phone number at backend. 
 
 ![](https://i.imgur.com/IHLW3PX.png)
+
+### III. Notify Customer by SMS
+
+Admins can send SMS to customers from **View Order Admin** page.
+
+![](https://i.imgur.com/oeFflIX.png)
 
 ### IV. REST API 
 
