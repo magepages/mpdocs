@@ -13,9 +13,9 @@ In order to improve consumption of products, especially during important holiday
 
 ## How to use
 
-- Customers can choose the Gift Wrap 
+- Customers can choose the Gift Wrap and Postcard
 
-![](https://i.imgur.com/jBiFlit.png)
+![](https://i.imgur.com/9hpRD7p.png)
 
 - Change Gift Wrap 
 
@@ -23,7 +23,7 @@ In order to improve consumption of products, especially during important holiday
 
 - Send messages to recipients.
 
-![](https://i.imgur.com/fveHVOJ.png)
+![](https://i.imgur.com/PjOcVzF.png)
 
 
 ## How to Configuration
@@ -38,7 +38,7 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`
 
 From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select **General**
 
-![](https://i.imgur.com/quEJRHe.gif)
+![](https://i.imgur.com/rCQlTUL.png)
 
 - **Enable**: Select `Yes` to turn on the Module.
 - **Add Gift Wrap Button Label**: Choose the label for Gift Wrap button, default label is **Add Gift Wrap**.
@@ -58,46 +58,47 @@ From the **Admin Panel**, go to `Marketing > Gift Wrap > Configuration`, select 
 - **Gift Wrap Type**: 
   - **Per Item**: applicable to each type of product, displaying an extra field **Gift Wrap on Product View Page**
     - **Gift Wrap on Product View Page**: Choose "Yes" to wrap the gift on the **Product Detail Page**
-    - For example: Cart has 3 products, customers can choose each type of Gift Wrap for each product
+    - For example: Cart has 3 products, customers can choose each type of Gift Wrap and postcard for each product
     
-    ![](https://i.imgur.com/ex1nuCs.png)
+    ![](https://i.imgur.com/TTRuY6u.png)
     
   - **Per Cart**: Applies one Gift Wrap type to all products in the shopping cart, displaying the extra field **Notice for Customer**
     - **Notice for Customer**: Displays a notification to the customer, default message is `All items will be wrapped in one gift box by default`
-    - For example: Cart has 3 products, customers can only choose one type of Gift Wrap to apply to all Product in Cart
+    - For example: Cart has 3 products, customers can only choose one type of Gift Wrap and postcard to apply to all Product in Cart
    
     
-    ![](https://i.imgur.com/jhKGpAy.png)
+    ![](https://i.imgur.com/ZumMDT3.png)
 
 - **Both**:
   - Apply for each certain Product and for the shopping cart as well .
-  - For example: A Cart has 3 products, customer can choose a Gift Wrap type, apply for all Product in Cart, or choose separately Gift Wrap for each Product
+  - For example: A Cart has 3 products, customer can choose a Gift Wrap/Postcard type, apply for all Product in Cart, or choose separately Gift Wrap/Postcard for each Product
   - Show both fields above (**Notice to Customers** and **Gift Wrap on Product View Page**)
 
-![](https://i.imgur.com/nh57ujl.png)
+![](https://i.imgur.com/I8pbf3x.png)
 
-- **Enable Gift Message**: Select `Yes` to display the message box, display 2 more fields: **Max Characters, Gift Message Fee**.
-- **Max Characters**: limit the maximum number of characters of the message, the default is 120.
-- **Gift Message Fee**: set the message fee, default fee is 0.
-- **Show Gift Message Under Product On**: Choose to show gift message under porduct on the following pages: 
-  
-  
+- **Enable Gift Note**: Select `Yes` to display the message box, display 2 more fields: **Max Characters, Gift Message Fee**.
+- **Max Characters**: limit the maximum number of characters of the message, the default is 120. (This limitation applies to both Gift Note and Gift Message on the frontend)
+- **Gift Note Fee**: set the message fee, default fee is 0.
+- **Description**: add a description for the Gift Note field, displayed under the Gift Note in the frontend  
+![](https://i.imgur.com/UPLulgS.png) 
+
+- **Show Gift Note Under Product On**: Choose to show gift message under porduct on the following pages: 
+
   - **Shopping Cart Page**
  
-![](https://i.imgur.com/VxsGZFt.png)
+![](https://i.imgur.com/Dc2xCYk.png)
 
   - **Checkout Page**
   
-  ![](https://i.imgur.com/QL6jfO1.png)
+  ![](https://i.imgur.com/OvY1nji.png)
   
   - **Mageplaza One Step Checkout**
   
-  ![](https://i.imgur.com/mPoROYU.png)
-  
-  
-  ![](https://i.imgur.com/ZKLVCm2.png)
+  ![](https://i.imgur.com/kn31IHY.png)
   
 - Show the Mageplaza One Step Checkout option when installing Mageplaza's One Step Checkout extension. With this module, customers can go through 6 steps of payment in one page, making it convenient for them to process with checkout.
+- **Show Report Gift Wrappers**: Select Yes to allow the report to be displayed in Manage Gift Wrappers
+- **Button Synchronize Wrap Histories**: in case the orders containing Gift wrap were created before the **Show Report Gift Wrappers** feature was updated, you need to click the **Synchronize Wrap Histories** button to synchronize the data for the report.
 
 ### 2. Manage Wrap Categories
 
@@ -136,14 +137,15 @@ From the Admin Panel, go to `Marketing > Gift Wrap > Manage Gift Wrappers`
 
 #### 3.1. Manage Gift Wrappers Grid
 
-![](https://i.imgur.com/JpCIqd0.png)
+![](https://i.imgur.com/dewIVcx.gif)
 
-- This is where the gift wrap catalog is displayed.
+- This is where the gift wrap catalog is displayed
+- **Report**: show Top Gift Wrap with the highest Total Revenue (display up to 30 gift wrap) and Top Postcard with the highest Total Revenue (display up to 30 postcards)
 - From **Manage Gift Wrappers**, admin can capture basic information of Gift Wrap such as ID, Name, Status, Price Type, Amount, Image, Category, Sort Order, Action.
 - **Action**:
   - **Delete**: Delete information on **Manage Gift Wrappers** page
-  - **Change Status**: Change the status of the selected Gift Wrap.
-  - **Edit**: Redirect to the **Edit Gift Wrap page** created before. 
+  - **Change Status**: Change the status of the selected Gift Wrap/Postcard.
+  - **Edit**: Redirect to the **Edit Gift Wrap/Postcard page** created before. 
 - In addition, admin can **Filter, Change Store View, Hide/Display Columns**.
 
 
@@ -151,7 +153,7 @@ From the Admin Panel, go to `Marketing > Gift Wrap > Manage Gift Wrappers`
 
 From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Gift Wrap > Create New Gift Wrap`
 
-![](https://i.imgur.com/qhG4CKr.png)
+![](https://i.imgur.com/YW2UDzH.png)
 
 - **Name**: Enter a name for Gift Wrap. This is a required field. 
 - **Status**: Select **Enable** to display Gift Wrap in Frontend.
@@ -161,13 +163,33 @@ From the **Admin Panel**, go to `Marketing> Gift Wrap > Manage Gift Wrap > Creat
 - **Amount**: Enter the gift package price.
 - **Description**: Enter the description shown under Gift Wrap.
 
-![](https://i.imgur.com/YClsmwM.png)
+![](https://i.imgur.com/A1zETo6.png)
 
 
 - **Image**: Select the image displayed in Frontend.
+- **Quantity Limit**: limit the number of products that can be wrapped with one type of gift wrap per order.
 - **Category**: Select the gift package category.
 - **Sort Order**: default to 0, Gift Wrap with smaller Sort Order will be displayed first at Frontend.
 
+### 3.3 Create/Edit Postcard 
+
+From the Admin Panel, go to `Marketing > Gift Wrap > Manage Gift Wrap > Create New Postcard`
+
+![](https://i.imgur.com/tuQw5Dy.png)
+
+- **Name**: Enter a name for the Postcard, a required field
+- **Status**: Select “Enable” to display Postcard in Frontend.
+- **Price**: Select the type of gift wrapping price:
+  - **Fixed**: Calculate the price according to the whole cart.
+  - **By Qty**: Calculated according to the number of products. For example, the number of products is 2, multiply the price of $ by 2.
+- **Amount**: Enter the package price.
+- **Description**: Enter the description of the Postcard, the description will be displayed below the Postcard
+
+![](https://i.imgur.com/oVFJcq3.png)
+
+- **Image**: Select the image to display in the Frontend.
+- **Category**: Select a gift wrapping category.
+- **Sort Order**: default is 0, Postcards with smaller Sort Order numbers will be displayed first at Frontend.
 
 ### 4. Manage Wrapping Orders
 
