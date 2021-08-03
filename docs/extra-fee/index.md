@@ -249,26 +249,29 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   - **Order, Shipment**
     - Get Extra Fee information at Payment Method.
 ```    
-    {{if order.getHasBillingExtraFee()}}
-				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$order}}
-			 {{/if}}
+{{if order.getHasBillingExtraFee()}}
+{{layout handle="mp_billing_extra_fee" order_id=$order_id area="frontend"}}
+{{/if}}
+
 ```
 
    - Get Extra Fee information at Shipping Method.
    
 ```
-{{if order.getHasShippingExtraFee()}}
-				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$order}}
-			 {{/if}}
+{{if order.getHasBillingExtraFee()}}
+{{layout handle="mp_billing_extra_fee" order_id=$order_id area="frontend"}}
+{{/if}}
+
 ```
 
   - Get Extra Fee information at Cart Summary. Note: The rules with `Apply Type = Automatic` will also appear in Cart Summary in the backend and display on the template.
 
 ```
 {{if order.getHasExtraFee()}}
-                                 <h3>{{trans "Extra Fee"}}</h3>
-				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$order}}
-			 {{/if}}
+<h3>{{trans "Extra Fee"}}</h3>
+{{layout handle="mp_extra_fee" order_id=$order_id area="frontend"}}
+{{/if}}
+
 ```
 
   - **Invoice**
@@ -276,26 +279,28 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
     
 ```
 {{if invoice.getHasBillingExtraFee()}}
-				<h3>{{trans "Payment ExtraFee"}}</h3>
-				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$invoice}}
-			 {{/if}}
+{{layout handle="mp_billing_extra_fee" order_id=$order_id area="frontend" invoice_id=$invoice_id}}
+{{/if}}
+
 ```
 
   - Get Extra Fee information at Shipping Method
   
 ```
 {{if invoice.getHasShippingExtraFee()}}
-				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$invoice}}
-			 {{/if}}
+{{layout handle="mp_shipping_extra_fee" order_id=$order_id area="frontend" invoice_id=$invoice_id}}
+{{/if}}
+
 ```
 
   - Get Extra Fee information at Cart Summary. Note: The rules with `Apply Type = Automatic` will also appear in Cart Summary in the backend and display on the template.
   
 ```
 {{if invoice.getHasExtraFee()}}
-				<h3>{{trans "Extra Fee"}}</h3>
-				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$invoice}}
-			 {{/if}}
+<h3>{{trans "Extra Fee"}}</h3>
+{{layout handle="mp_extra_fee" order_id=$order_id area="frontend" invoice_id=$invoice_id}}
+{{/if}}
+
 ```
 
   - **Credit Memo**:
@@ -303,25 +308,28 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
     
 ```
 {{if creditmemo.getHasBillingExtraFee()}}
-				 {{layout handle="mp_billing_extra_fee" order=$order area="frontend" item=$creditmemo}}
-			 {{/if}}
+{{layout handle="mp_billing_extra_fee" order_id=$order_id area="frontend" creditmemo_id=$creditmemo_id}}
+{{/if}}
+
 ```
 
   - Get Extra Fee informaiton at Shipping Method
   
 ```
 {{if creditmemo.getHasShippingExtraFee()}}
-				 {{layout handle="mp_shipping_extra_fee" order=$order area="frontend" item=$creditmemo}}
-			 {{/if}}
+{{layout handle="mp_shipping_extra_fee" order_id=$order_id area="frontend" creditmemo_id=$creditmemo_id}}
+{{/if}}
+
 ```
 
   - Get Extra Fee information at Cart Summary. Note: The rules with `Apply Type = Automatic` will also appear in Cart Summary in the backend and display on the template.
 
 ```
 {{if creditmemo.getHasExtraFee()}}
-				<h3>{{trans "Extra Fee"}}</h3>
-				 {{layout handle="mp_extra_fee" order=$order area="frontend" item=$creditmemo}}
-			 {{/if}}
+<h3>{{trans "Extra Fee"}}</h3>
+{{layout handle="mp_extra_fee" order_id=$order_id area="frontend" creditmemo_id=$creditmemo_id}}
+{{/if}}
+
 ```
 
 
