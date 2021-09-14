@@ -40,9 +40,13 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 #### 1.1 General Configuration
 
-![](https://i.imgur.com/ympVCsT.png)
+![](https://i.imgur.com/fEzg3hF.png)
 
 - **Enable**: Select **Yes** to make the extension active
+- **Prefix Free Gift Item Name**: Fill out the prefix for the gift name to let customers easily recognize the free gifts in the list
+
+![](https://i.imgur.com/pvt0fjY.png)
+
 - **Gift List Layout**: Set how to show gift list in Frontend. There are 3 ways:
   - **List**
   ![](https://i.imgur.com/OhtAeeK.png)
@@ -74,7 +78,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   
 #### 1.2 Button Display
 
-![](https://i.imgur.com/ssUoucB.png)
+![](https://i.imgur.com/LiNBPyV.png)
 
 - **Show At Cart Page**: applies to auto cart rules
   - Click **Yes** to display the add gift button on the **View Cart Page**
