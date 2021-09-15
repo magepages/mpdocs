@@ -82,5 +82,5 @@ From the **Admin panel**, go to `Stores> Configuration> Mageplaza> Better Wishli
 
 ### 4. API
 
-Mageplaza Better Wishlist supports using REST API to perform certain actions: getting wishlist categories, creating new wishlist categories, adding items to categories, etc. Find more details of available request [in this page](https://documenter.getpostman.com/view/10589000/TVsye5AH).
+Mageplaza Better Wishlist supports using REST API to perform certain actions: getting wishlist categories, creating new wishlist categories, adding items to categories, etc. Find more details of available requests [in this page](https://documenter.getpostman.com/view/10589000/TVsye5AH).
 
