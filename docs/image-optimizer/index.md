@@ -8,7 +8,7 @@ Mageplaza Image Optimizer extension is fully compatible with Mageplaza Cron Sche
 
 ## How to download and install
 
-- Download Mageplaza Image Optimizer
+- [Download Mageplaza Image Optimizer](https://www.mageplaza.com/magento-2-image-optimizer/)
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to Configure
@@ -28,13 +28,18 @@ Login to the Admin Magento, choose `Stores > Image Optimizer > Configuration`
 
 #### 1.2. Optimize Options
 
-![](https://i.imgur.com/Fx0TCa1.png)
+![](https://i.imgur.com/yOeK2Xc.png)
 
 - **Image Quality**: select the image optimization level, including 2 types:
   - **Custom**: a filter which help to remove some data. Noted that this will reduce the image quality so you should be careful with the level of image quality reduction as the image can be blurry and unclear. 
 Choosing **Custom** will show more fields:
     - **Quality Percent**: Enter the percent in the **Quality percent** field which will be limited between 1 and 100. For good image quality, please maintain quality above 90. If left blank, default value is 92.
 - **Lossless**: is a data compression filter. This does not reduce image quality but it will require uncompressed images before they can be rendered.
+- **Create Webp Image File When Optimizing**: if you select **Yes**, when being optimized, image files will be transfered to Webp format. It helps reduce the image size for your server without decreasing the image quality. Field shown:  
+  - **Replace With Webp Image Format**: if you select **Yes**, the system will automatically replace olf file format with new ones (Webp file) on the frontned 
+
+![](https://i.imgur.com/ZZEEiiM.png)
+
 - **Skip Transparent Images**: If **yes** is selected, the white image or transparent image will be skipped during the optimization process. If you want to optimzie these transparent photos, you must **Restore** and **Requeue** them. The second way is just choosing "No" in this field, all the transparent images will be optimized too. 
 - **Force File Permission**:
   - If **No** is selected, there is no change on the image permission. 
