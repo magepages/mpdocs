@@ -8,7 +8,7 @@ Order Attributes is also displayed when admins creates the order in the backend.
 
 ## Download and Install
 
-- Download Mageplaza Order Attributes
+- [Download Mageplaza Order Attributes](https://www.mageplaza.com/magento-2-order-attributes/)
 - [Installation Mageplaza extension](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure
@@ -47,9 +47,9 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
   - Make sure you do not use spaces or more than 30 symbols.
   - If leaving this field, it is based on the Default Label field.
 
-- **Input Type**: Select input/select data type. There are 11 input types that admins can choose:
+- **Input Type**: Select input/select data type. There are 11 input types that admins can choose
 
-![](https://i.imgur.com/eQZZ5Wq.png)
+![](https://i.imgur.com/hB2pkqQ.png)
 
   - `Text`: The input type is a text line (not downstream).
 
@@ -62,6 +62,10 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
   - `Date`: This field has the format as Date. When accessing the checkout page, the field is assumed to be the current date.
   
  ![](https://i.imgur.com/5JH8dQs.png)
+ 
+  - `Date & Time`: This field has the format as Date and Time 
+
+ ![](https://i.imgur.com/kqVosDW.png)
  
   - `Yes/No`: The field only includes 2 options as Yes or No.
  
@@ -92,6 +96,19 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 - **Default Value**:
   - Only display with the Input Type as `Text Field, Text Area, Date, Yes/No, Content`
   - This value will be displayed as the value of the field if the attribute is displayed in the Frontend
+  
+- **Minimum Text Length**: 
+  - The minimum length for the text
+  - Shows when the Input Type is Text Field and Text Area
+- **Maximum Text Length**:
+  - The maximum length for the text
+  - Shows when the Input Type is Text Field and Text Area
+- **Minimum Value**:
+  - The minimum value 
+  - Shows when the Input Type is Date and Date & Time
+- **Maximum Value**:
+  - The maximum value
+  - Shows when the Input Type is Date and Date & Time
 
 - **Values Required**:
   - Select Yes to force the users to enter a value for the field
