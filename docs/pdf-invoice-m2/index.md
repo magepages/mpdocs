@@ -97,7 +97,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.3. Order 
 
-![](https://i.imgur.com/p3EGXVb.png)
+![](https://i.imgur.com/2p2e5eX.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Yes” to send the PDF invoice attached along with the email.
@@ -106,6 +106,8 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
   * **Specific Groups**: Show **Customer Group** field. Only selected customers are able to view attachments in emails
   * **All Allowed Groups**: All customers can view attachments in emails
 * In **Label**: Set up the Label Print PDF Order in My Order page in the frontend
+* **PDF File Download Name**: Enter the name of the file downloaded when printing PDF Orders with each order. For example, order_%increment_id. 
+* **Multiple Orders PDF File Downloaded Name**: Enter the name of the file downloaded when Print PDF Orders with many orders. 
 * In **Select Template** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Template” to display the PDF file as in the selected template.
   * All your created templates will be displayed as a drop-down list in this section.
@@ -174,7 +176,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.4. Invoice
 
-![](https://i.imgur.com/EhLhUsC.png)
+![](https://i.imgur.com/U1yR86V.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
@@ -183,6 +185,8 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
   * **Specific Groups**: Show **Customer Group** field. Only selected customers are able to view attachments in emails
   * **All Allowed Groups**: All customers can view attachments in emails
 * In **Label**: Set up the Label Print PDF Order in My Order page in the frontend  
+* **PDF File Downloaded Name:** Enter the name of the file downloaded when Print PDF Invoices with each invoice.
+* **Multiple Invoices PDF File Downloaded Name**: Enter the name of the file downloaded when Print PDF Invoices with many invoices. 
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the PDF file as selected template.
   
@@ -256,7 +260,7 @@ Or in massAction:
 
 #### 1.5. Shipment
 
-![](https://i.imgur.com/myLC0DK.png)
+![](https://i.imgur.com/WvHDQHz.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
@@ -264,7 +268,9 @@ Or in massAction:
 * In **Apply for customer groups**: 
   * **Specific Groups**: Show **Customer Group** field. Only selected customers are able to view attachments in emails
   * **All Allowed Groups**: All customers can view attachments in emails
-* In **Label**: Set up the Label Print PDF Order in My Order page in the frontend  
+* In **Label**: Set up the Label Print PDF Order in My Order page in the frontend 
+* **PDF File Downloaded Name**: Enter the name of the file downloaded when Prin DPF Shipments with each shipment. 
+* **Multiple Shipments PDF File Downloade Name**: Enter the name of the file downloaed when Print PDF Shipments with many shipments. 
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the PDF file as selected template.
   
@@ -325,12 +331,13 @@ Or in massAction:
 
 #### 1.6. Credit Memo
 
-![](https://i.imgur.com/F8fo8OS.png)
+![](https://i.imgur.com/qjjdIZ5.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
   * Check **Use system value** to set “Enable PDF Attachment = Yes” as the default setting.
-  
+* **PDF File Downloaed Name**: Enter the name of the file downloaded when Print PDF Credit Memos with each credit memno.
+* **Multiple Credit Memos PDF File Downloaded Name**: Enter the name of the file downloaded when Print DPF Credit Memos with many credit memos. 
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the designed PDF as in the selected template.
   * Check **Use system value** to set “Select Template = Template 1” as default setting. 
@@ -415,9 +422,9 @@ For example, if you choose to create an “Order” template, the design form wi
 * In **Load default template** field:
   * **Template**
   
-  ![](https://i.imgur.com/oQtMr2X.png)
+  ![](https://i.imgur.com/w6Z9lrr.png)
   
-    * You can choose one of available templates. After having it done, the chosen template will show up right your left side to be previewed.
+    * You can choose one of available templates. With each template, you can choose to display product images in the PDF file.  After having it done, the chosen template will show up right your left side to be previewed.
     * If you don’t choose a template form, the default template will be “Template = Template 1”.
     
   * **Load Template**: The selected template’s code will be displayed automatically in the below HTML box.
