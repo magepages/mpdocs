@@ -8,6 +8,26 @@ If customers sell their products on a variety of channels such as Google Shoppin
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 
+## How to use
+
+### Goole Shopping API:
+- Register an account of Google Shopping API and go to this [link](https://www.google.com/retail/solutions/merchant-center/).
+- After your account has been registered, you will see the value in the field **Merchant ID**. Save that **Merchant ID** value to connect with your website later. 
+
+![Google Shopping API](https://i.imgur.com/7O9A2AD.png)
+
+- Go to [this link](https://console.cloud.google.com/apis/credentials?authuser=0&project) to get the information of **8Google Shopping API:** **Client ID** and **Client Secret** connect with your website. Click on **Create Credentials > OAuth client ID**.
+
+![](https://i.imgur.com/Rfphasg.png)
+
+- With the field **Application type**, you can choose **Web application**, enter the information like **Name**. Copy and paste the value of the field **Authorized Redirect URLs** of your website in the field **Authorized Redirect URLs** of **Google Shopping API**. Then click **Create** button to complete. 
+
+![](https://i.imgur.com/hAG9uTB.png)
+
+- Select **Ok** to complete creating **OAuth client ID**. Save the Client ID and Client Secret to connect with your website.
+
+![](https://i.imgur.com/pnxxTQa.png)
+
 ## How to configure
 
 From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Extensions > Product Feed > Configuration** 
@@ -19,11 +39,19 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Products > Product Feed > Configuration**, choose **General** section
 
-![](https://i.imgur.com/ur1t65k.png)
+![](https://i.imgur.com/QsikKMQ.png)
 
 #### General
 
 * **Enable**: Choose "Yes" to use this module
+
+#### Google Shopping API
+- **Enable: Choose **Yes** to synchronize the value with Google Shopping API
+- **Merchant ID, Client ID, Client Secret**: Enter the value of the fields you have already saved and set up here. 
+- **Authorized Redirect URLs:** Copy and paste the value of this section in URLs of the **Authorized Redirect URLs of Google Shopping API. 
+- Click **Get Access Token** button to check the connection with Google Shopping API. 
+
+![](https://i.imgur.com/MDQRZ0u.png)
 
 #### Email Alert
 
@@ -112,14 +140,32 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
     * Enter the host name in the `Host Name` field
     * Enter the host name in the `User Name` field
     * Enter the password to access the host in the `Password` field
+    * **Private Key**: Click [...] and choose key file to connect with the server. You can skip choosing key file when your server can connect without key file. 
     * If you want to save the file, only enter the path in the `Directory Path` field. Note: You need to set the name the export file at the end of the path
     * To check whether it is connected to the host, press `Test Connection`
 
-![](https://i.imgur.com/RCGiNcQ.gif)
+![](https://i.imgur.com/jadaYFc.png)
 
 * **Step 7**: Check the update history of the exported file. Admins can check the update history of the file in the `Logs` field.
 
 ![](https://i.imgur.com/Ab0jMGq.gif)
+
+* **Step 8**: Synchronize product value with Google Shopping API
+
+Choose the information of the fields in Magento appropriately to send data to Google Shopping API. 
+
+<video autoplay muted loop playsinline width="100%" class="vautoplay">
+<source src="https://www.mageplaza.com/media/extensions/product-feed/google-shopping-api.webm" type="video/webm">
+     Product Feed
+</video>
+
+- **Google Shopping API Field**: Display the fields which are managed by Google Shopping API for this module based on the selected Magento fields. 
+- **Magento Fields**:  
+  -> Fill in the Magento fields to get the data corresponding to the fields of Google Shopping API. 
+  -> If you leave this column blank or no value is existing, the Default value will be arquired and push to Google Shopping API. 
+- **Internal Note**: Enter the description in the **Internal Note** section. This is only for admin to notice the information of the synchronization and is invaluable to data processing. 
+- **Insert Variables**: Select the Magento Fields corresponding to the fields of Google Shopping API. 
+
 
 ### Logs
 
