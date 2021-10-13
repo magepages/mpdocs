@@ -14,7 +14,7 @@ If customers sell their products on a variety of channels such as Google Shoppin
 - Register an account of Google Shopping API and go to this [link](https://www.google.com/retail/solutions/merchant-center/).
 - After your account has been registered, you will see the value in the field **Merchant ID**. Save that **Merchant ID** value to connect with your website later. 
 
-![Google Shopping API](https://i.imgur.com/7O9A2AD.png)
+![](https://i.imgur.com/7O9A2AD.png)
 
 - Go to [this link](https://console.cloud.google.com/apis/credentials?authuser=0&project) to get the information of **8Google Shopping API:** **Client ID** and **Client Secret** connect with your website. Click on **Create Credentials > OAuth client ID**.
 
