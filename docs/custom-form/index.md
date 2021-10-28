@@ -41,7 +41,7 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 
 #### 1.2. Customer Notification
 
-![](https://i.imgur.com/FgSPhz2.png)
+![](https://i.imgur.com/XBRmqov.png)
 
 - **Enable Auto Response**:
   - Select **Yes** to automatically send the email of a successful submission to Customer. Do not apply to **Not Logged in Customer**
@@ -57,7 +57,7 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 
 #### 1.3 Admin Notification
 
-![](https://i.imgur.com/z0aoNtY.png)
+![](https://i.imgur.com/012S3ak.png)
 
 - **Enable**:
   - Select **Yes** to allow successful submission of email notification to Admin
@@ -69,10 +69,13 @@ From the Admin panel, go to `Stores > Configuration > Mageplaza > Custom Form`
 - **Email Template**:
   - This module has a default Email notification template for Admin
   
-  ![](https://i.imgur.com/WrsYgB0.png)
+  ![](https://i.imgur.com/dUUCCKF.png)
   
   - To change **Email Template**, Admin can create another Email Template in `Marketing > Email Template`.
   - Instructions for creating new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+  - CC to Email: Enter one of multiple emails and separate them by commas. The list of recievers is visible to all of them. 
+  - BCC to Email: Enter one or multiple emails and separate them by commas. The list of recievers is invisible to all of them. 
+  - Attach Upload File to Email: Choose Yes to attach files in email that customers already upload files when sending feedback. 
 
 #### 1.4. Google Map
 
@@ -86,11 +89,12 @@ Go to `Content > Custom Form > Manage Forms`
 
 
 #### 2.1. Grid
-This grid stores all the submitted Forms
+This grid stores all the submitted Forms.
 
-![](https://i.imgur.com/goQmu7B.png)
+![](https://i.imgur.com/f0ki0Gz.png)
 
-- Admin can view basic information of submitted forms such as **ID, Name, Status, Customer Group (s), Store View, Number of Responses, Created Date, Action**.
+- Admin can view basic information of submitted forms such as **ID, Name, Status, Customer Group (s), Store View, Number of Responses, Created Date, Action and the report of the form on View, Number of Responses, CTR about customers' actions shown in the feedback in each period of time**.
+- Report: Display statistic, report of each form with View, Number of Responses, and CTA about customers' acions shown in their feedback in each period of time. 
 - **Action**: Admin can do the following action on grid:
   - **Delete**: Delete the form right in Grid.
   - **Change Status**: Change the status of the selected Forms.
