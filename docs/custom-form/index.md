@@ -224,7 +224,6 @@ This is where all the generated Response is kept.
   - **Delete**: Delete the response
 - In addition, admin can filter, change store view, hide/ display columns.
 
-
 #### 3.2. View Details
 
 Show details of responses:
