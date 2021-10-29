@@ -507,7 +507,7 @@ From the Admin panel, go to **Marketing** > **Affiliate** > **Manage Accounts**
   
   
 Step 1: Fill in the Campaign Information
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/FKItZl7.png
 
@@ -551,7 +551,7 @@ Step 1: Fill in the Campaign Information
   * The smaller the number, the more prioritized your campaign is, which means that it will be shown and applied first. If the sort orders of different campaigns are the same, the module will then consider their ID numbers.
   
 Step 2: Choose the conditions for applying the campaign
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 .. image:: https://i.imgur.com/YXQR86f.png
   
@@ -560,7 +560,7 @@ Step 2: Choose the conditions for applying the campaign
 * Or you can also choose the categories for applying the campaign
 
 Step 3: Set up the Discount 
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/LPzxS7N.png
 
@@ -579,7 +579,7 @@ Step 3: Set up the Discount
 * **Discount Description**: Insert the description for your discount policy
 
 Step 4: Set up the Commission
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/yvWOYui.png
 
@@ -596,7 +596,7 @@ Step 4: Set up the Commission
 * **Add button:** Click Add button to create new Tier
 
 Step 5: Set up the Coupon Code
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/Okjwtjv.png
 
@@ -638,7 +638,7 @@ Step 5: Set up the Coupon Code
 * **Step 5: Set up Coupon Code**
     
 Step 1: Fill in the Campaign Information
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   
 .. image:: https://i.imgur.com/BhQcHaz.png
 
@@ -680,7 +680,7 @@ Step 1: Fill in the Campaign Information
   * The smaller the number, the more prioritized your campaign is, which means that it will be shown and applied first. If the sort orders of different campaigns are the same, the module will then consider their ID numbers.
 
 Step 2: Choose the conditions for applying the campaign
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 .. image:: https://i.imgur.com/e0ZdnQe.png
   
@@ -689,7 +689,7 @@ Step 2: Choose the conditions for applying the campaign
 * Or you can also choose the categories for applying the campaign
 
 Step 3: Set up the Discount 
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/CWUjuWc.png
 
@@ -708,7 +708,7 @@ Step 3: Set up the Discount
 * **Discount Description**: Insert the description for your discount policy
 
 Step 4: Set up the Commission
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/bocNnKr.png
 
@@ -727,7 +727,7 @@ Step 4: Set up the Commission
 * For example: Campaign 1 has two tiers, the discount is 10%; campaign 2 has 2 tiers as well with 5% discount. A is Affiliate referring link to B as another Affiliate. When C buy the products using the link that B refer to, C will get the discount of 15% (10% + 5%). In this case, B will get the commision equal to the sum of tier 1 of campaign 1 and tier 1 of campaign 2. Whereas, A will get the commision of both tier 2 in the campagin 1 and campaign 2. 
 
 Step 5: Set up Coupon Code
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/KRM55fR.png
 
@@ -917,45 +917,45 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 `````````````````````````````
 
 8.1 Notification emails for successful registration the affiliate account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/5ra5VXp.png
 
 8.2 Notification emails for Affiliate account aproval
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 8.3 Notification emails for changing the Affiliate account balance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/c0iqHoi.png
 
 8.4 Notification emails for completion of withdraw request
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/1kYBnel.png
 
 8.5 Notification emails for admin when there is a request to create Affiliate account 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/HVkdhFG.png
 
 8.6 Notification emails for admin when there is a request to withdraw 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/YzxRMfh.png
 
 8.7 Notification emails for customer when an account creation request is rejected 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/eEL6Gx6.png
 
 8.8 Notification emails for customer when status of Affiliate account changes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/jTevDKM.png
 
 8.9 Notification emails for customer when withdrawal request is rejected
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/yI8tnQE.png
 
