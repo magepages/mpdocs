@@ -1,0 +1,2 @@
+[tool.poetry.dependencies]
+docutils = "<0.18"
