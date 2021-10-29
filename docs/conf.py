@@ -29,7 +29,6 @@ sys.path.insert(0, os.path.abspath('.'))
 # from django.conf import settings
 # import django
 # django.setup()
-docutils = "<0.18"
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
