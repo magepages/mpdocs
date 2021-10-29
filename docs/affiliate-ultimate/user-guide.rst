@@ -20,7 +20,7 @@ Look at the left panel on the page, the customer can sign up to become an affili
 
 .. image:: https://i.imgur.com/SVNIBSZ.png
 
-My Credit Page
+My Credit Page 
 `````````````````
 
 Each affiliate can manage every credit information such as available balance, holding balance, total earned, and total paid and all transactions related to the account are listed in detail.
