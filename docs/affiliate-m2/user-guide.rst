@@ -490,7 +490,7 @@ With Affiliate Standard, the system creates a Campaign by default, you can edit 
 
 .. image:: https://i.imgur.com/CydTMqy.png
 
-*To create multiple Campaigns for your store, you can update your version to Affiliate Pro
+*To create multiple Campaigns for your store, you can update your version to Affiliate Pro*
 
 * **Edit Campaigns**
 
@@ -505,7 +505,7 @@ With Affiliate Standard, the system creates a Campaign by default, you can edit 
   * **Step 5: Set up Coupon Code**
   
 Step 1: Fill in the Campaign Information
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/FKItZl7.png
 
@@ -553,7 +553,7 @@ Step 1: Fill in the Campaign Information
   * The smaller the number, the more prioritized your campaign is, which means that it will be shown and applied first. If the sort orders of different campaigns are the same, the module will then consider their ID numbers.
   
 Step 2: Choose the conditions for applying the campaign
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
  
 .. image:: https://i.imgur.com/YXQR86f.png
   
@@ -562,7 +562,7 @@ Step 2: Choose the conditions for applying the campaign
 * Or you can also choose the categories for applying the campaign
 
 Step 3: Set up the Discount 
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/LPzxS7N.png
 
@@ -581,7 +581,7 @@ Step 3: Set up the Discount
 * **Discount Description**: Insert the description for your discount policy
 
 Step 4: Set up the Commission
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 In this section, allowing to configure the Tier 1 as follow:
 
@@ -596,7 +596,7 @@ In this section, allowing to configure the Tier 1 as follow:
 * Choose type and value of commission in the 1st order and the next orders. You can set them to the same or separated option depending on your strategy.
 
 Step 5: Set up the Coupon Code
-~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/Okjwtjv.png
 
@@ -745,47 +745,47 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 `````````````````````````````
 
 7.1 Notification emails for successful registration the affiliate account
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/v0aXJNY.png
 
 7.2 Notification emails for Affiliate account approval
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/BuHof4t.png
 
 7.3 Notification emails for changing the Afiliate account balance
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/c0iqHoi.png
 
 7.4 Notification emails for completion of withdraw request
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/1kYBnel.png
 
 7.5 Notification emails for admin when there is a request to create Affiliate account 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/HVkdhFG.png
 
 7.6 Notification emails for admin when there is a request to withdraw 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/YzxRMfh.png
 
 7.7 Notification emails for customer when an account creation request is rejected 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/eEL6Gx6.png
 
 7.8 Notification emails for customer when status of Affiliate account changes
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/jTevDKM.png
 
 7.9 Notification emails for customer when withdrawal request is rejected
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/yI8tnQE.png
 
