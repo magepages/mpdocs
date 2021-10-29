@@ -940,7 +940,7 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 .. image:: https://i.imgur.com/HVkdhFG.png
 
 8.6 Notification emails for admin when there is a request to withdraw 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 .. image:: https://i.imgur.com/YzxRMfh.png
 
