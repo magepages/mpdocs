@@ -29,19 +29,23 @@ From the Admin Panel, go to `Content > Product Labels > Configuration`
 
 From the Admin Panel, go to  `Content > Product Labels > Configuration`
 
-![](https://i.imgur.com/XLSqy9t.png)
+![](https://i.imgur.com/U92wusF.png)
 
 #### General
 
 * **Enable**: Choose Yes to use this module
 * **Limit The Number Of Labels Per Product**: Enter the number of labels that can be displayed on each product. The default value of the field is 2. If left blank, the number of labels displayed per product is not limited.
+* **Show Labels with Related Products:** Select **Yes** to display labels of Related Products on the Product Details page
+* **Show Labels with Upsell Products:** Select **Yes** to display labels of Upsell Products on the Product Details page
+* **Show Labels with Cross-sell Products:** Select **Yes** to display labels of Cross-sell Products on the Product Details page
+
 
 **Stock Status Label Setting**
 
 * **Displays Label When The Product Is Out Of Stock**: If **Yes**, the out of stock products are only sticked with  the ‘Out of Stock’ Label.
 * **‘Out of Stock’ Label**: Select a label to display with out of stock products
 
-### Manage Items
+### Manage Rules
 
 From the Admin Panel, go to `Content > Product Label > Manage Rules` 
 
@@ -74,9 +78,9 @@ From the Admin Panel, go to `Content > Product Label > Manage Rules`
 - **From Date**: Choose the start day displaying the label on the product
 - **To Date**: Choose the finish displaying the label on the product
 - **Stop further processing**: Choose Yes to limit the number of the rule that applied for a product (based in the priority and ID)
-  - For example: Whether there're 4 rules created as Rule 1, Rule 2, Rule 3, and Rule 4 and the priority respectively is 0, 5, 3, 3. 
-    - All rules are set as `Stop further processing = No`. This means that all rules are apllied.
-    - Edit the Rule 3, and choose `Stop futher processing = Yes`. After you Apply Rule, the rules are applied as Rule 1 (has the higher priority) and Rule 3. Rule 2 (the priority is lower) and Rule 4 (created later) are not apllied.
+  - For example: Whether there are 4 rules created as Rule 1, Rule 2, Rule 3, and Rule 4 and the priority respectively is 0, 5, 3, 3. 
+    - All rules are set as `Stop further processing = No`. This means that all rules are applied.
+    - Edit the Rule 3, and choose `Stop futher processing = Yes`. After you Apply Rule, the rules are applied as Rule 1 (has the higher priority) and Rule 3. Rule 2 (the priority is lower) and Rule 4 (created later) are not applied.
     
 - **Priority**: 
   - Enter priority for synchronizing objects
@@ -95,7 +99,7 @@ From the Admin Panel, go to `Content > Product Label > Manage Rules`
 
 ##### Step 3: Design labels and images on the product in the `label design` section
 
-![](https://i.imgur.com/Sl4HhNw.gif)  
+![](https://i.imgur.com/tpQdoCJ.gif)  
 
 Design the labels and images for the product on the `Product Page`
 
@@ -121,6 +125,7 @@ Design the labels and images for the product on the `Product Page`
   
 - **Custom CSS**: You can edit the labels as your want
 - **Select position**: You can edit the display position of labels here by moving the mouse or edit the display position of labels by choosing the positions respectively with the squares on the side.
+- **Tooltip**: Enter text for tooltip shown when hovering on the label.
   
 Design the labels and images for the product on the `Product Listing` (the label will display on the product in the Category, Search Page or Layered Navigation if your website installs Layered Navigation extension of Mageplaza.
 
@@ -163,6 +168,41 @@ To start working with Product Labels GraphQL in Magento, you need the following:
 
 View Mageplaza-supported queries [here](https://documenter.getpostman.com/view/10589000/SzYXVygT?version=latest)
 
+## VI. Widget
+### Step 1: Select the Type
+
+- On the Panel Admin, go to `Content > Elements > Widgets`
+- In the upper-right corner of **Widgets** workplace, click on the **Add Widget** button.
+
+![](https://i.imgur.com/U1xtaT6.png)
+
+- In the Settings section:
+  - Choose **Mageplaza Product Labels** type in the **Type** box.
+  - Choose the current theme you are applying in the **Design Theme**.
+  - Click the **Continue** button.
+
+### Step 2: Complete the Storefront Properties section
+
+- In the **Storefront Properties** section:
+  - Enter **Widget Title** for the internal reference.
+  - Assign the block to all store views in the **Assign to Store View** field or to any store view you want to apply the block.
+  - Set the **Sort Order** if many blocks are placed at the same container. The block is at the top if the inserted value is zero.
+
+- In the **Layout Updates** section, click on **Add Layout Update** to set the layout.
+  - Choose the [category](https://www.mageplaza.com/kb/how-to-create-a-new-category-in-magento-2.html), [product](https://www.mageplaza.com/kb/how-create-simple-product-magento-2.html), or [page](https://www.mageplaza.com/kb/how-to-add-a-new-cms-page-magento-2.html) to show the block in the **Display on** field.
+  - If set to a specific page, you need to choose the Page you want the block to display and set Container that is the position of the page the block appears.
+
+![](https://i.imgur.com/F2xWRoF.png)
+
+### Step 3: Widget Options
+
+- Click the button **Select Label…** to select label
+
+![](https://i.imgur.com/Lzs8BPL.png)
+
+You can also add widget on Pages or Blocks via **Insert Widget**
+
+![](https://i.imgur.com/pOGVLax.gif)
 
 
 
