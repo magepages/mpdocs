@@ -23,9 +23,13 @@ Nowadays, some stores or distributors don't want to display the price of the pro
 
 ![](https://i.imgur.com/r9beQb4.png)
 
-### Email
+### Email when customers send a request quote
 
 ![](https://i.imgur.com/wCRhpUX.png)
+
+### Email of admins to notice product price
+
+![](https://i.imgur.com/aPIjlrb.png)
 
 ## How to configure
 
@@ -52,10 +56,10 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   
 #### Terms and Conditions
 
-![](https://i.imgur.com/m3DDlmO.png)
+![](https://i.imgur.com/FE4qtsQ.png)
 
-- **Check by default**: Choose `Yes` to auto-tick on the checkbox (always agree with the terms and conditions of the store)
-- **Is Required**: Choose "Yes" to display this required field
+- **Check by default**: Choose **Yes** to auto-tick on the checkbox (always agree with the terms and conditions of the store)
+- **Is Required**: Choose **Yes** to display this required field
 - **Title**:
   - Enter the title for the **Terms and Conditions**
   - If you use "%anchor" variable in this field, the text entering into `Anchor Text` will match with the ext of `Title` field
@@ -66,8 +70,13 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 
 - **Anchor URL**:
   - Enter the URL that store owners want to redirect the customers when clicking in the content filled in the `Anchor` field
-  - If you leave this field blank, `Anchor Text` field don't have the link to click and it will be a text description as usual.
+  - If you leave this field blank, the `Anchor Text` field doesn't have the link to click and it will be a text description as usual.
   - For instance: In the `Title` field, you fill is that *I agree with the %anchor of Services*, in the `Anchor` field, you fill is that *Terms and Conditions* and the `URL` field is that *[https://domain.com/tos.html](https://www.domain.com/tos?)*, then the result displaying on the frontend is that *I agree with the <a href="https://domain.com/tos.html">Terms and Conditions</a> of Services*
+
+- **Return to previous page after login**: 
+    - If **Yes**: The page will be redirected to the page before when customers sign in (Example: Customers go to the Bag product page, then sign in, they will be redirected to that Bag product page). 
+    - If **No**: The page will be redirected to the default Magento page when customers sign in (My Account page).
+
 
 #### Disable Default Functions
 
@@ -87,14 +96,31 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   
 #### Admin Email Notification
 
-![](https://i.imgur.com/eVZgKJH.png)
+![](https://i.imgur.com/mVWeERk.png)
 
 - **Enable**: Choose `Yes` to send the email notification to the store owner when there're requests from customers
 - **Sender Email**: Choose the sender to send the email notification
+- **Email Template**:
+    - An email will be sent to admins when there is a call-for-price request. 
+    - To change **Gift Card Email Template**, admins can create a new **Email Template** in the `Marketing > Email Template` section. 
+    - Please view how to create a new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
 - **Send to**:
   - Fill the email to get the notification when there're requests from customers
-  - Allow filling in many emails to get the notification simultaneously, the emails are separted by commas
-  
+  - Allow filling in many emails to get the notification simultaneously, the emails are separated by commas
+
+#### Reply Email To Customer Request
+
+![](https://i.imgur.com/P8vxrGE.png)
+
+- **Enable**: Select **Yes** to send email to customers to reply to their requests.
+- **Email Template To Respond To Customer Requests**:
+    - Select the available templates to send emails.
+    - To change the **Email Template**, admins can create a new **Email Template** in the `Marketing > Email Template` section. 
+    - Please view how to create a new Email Template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+- **Time Email Reply To Customer(Minutes)**:
+    - Time to send the reply to customers is in minutes. 
+    - If empty or zero, an email will be sent immediately after the customer sends the request.
+
 ### Rules Management
 #### Add new rule
 - Step 1: Enter the full information in the `General` section
@@ -102,6 +128,8 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 - Step 3: Set the condition applying the rule for products in the `Where to Show` section
 
 ##### Step 1: Enter the full information in the General section
+
+![](https://i.imgur.com/qfzOioN.png)
 
 - **Name**: Fill in the name of the rule
 - **Status**: Choose `Enable` to apply for the rule
@@ -121,9 +149,12 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   - The smaller the input number, the higher the priority. 
   - Items have the equal priority, the priority will be based on what item is created first.  
   
-  ![](https://i.imgur.com/VyvPZRT.gif)
+  
   
 ##### Step 2: Design the display of the rule on the frontend in the What to Show section  
+
+![](https://i.imgur.com/2UFNk6M.gif)
+
 - **Button label**: Enter the label for the button to replace the Add to Cart button
 - **Action**:
   - `Action = Popup a quote form`: Display the popup to login or as a note of customers so that they can send the requests to the store owner
@@ -140,7 +171,13 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
     - Hide the Add to cart button on the product
     - This section is usually for reference products or non-selling products
     
-![](https://i.imgur.com/DZPm8Ky.gif)
+  - `Action= Custom CSS`: 
+    - Add custom CSS.
+    - Some commonly-used elements:
+    1. Button Add to Cart:	form[data-product-sku="{{sku}}"] .action.tocart{ Your custom CSS }
+    2. Product Prices:	.price-box[data-product-id="{{id}}"] .price{ Your custom CSS }
+    3. Product SKU:	.product-info-stock-sku{ Your custom CSS }
+    Example: form[data-product-sku="{{sku}}"] .action.tocart{ color:red;background-color:yellow  }
 
 ##### Step 3: Set the condition applying the rule for products in the Where to Show section
   
