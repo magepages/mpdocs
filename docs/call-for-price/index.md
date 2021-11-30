@@ -173,10 +173,11 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
     
   - `Action = Custom CSS`: 
     - Add custom CSS.
+    - Product SKU = {{sku}}, Product ID = {{id}}. The {{sku}} and {{id}} will be replaced automatically with the specific SKU and ID you've set in the rule's condition.
     - Some commonly-used elements:
-    1. Button Add to Cart:	form[data-product-sku="{{sku}}"] .action.tocart{ Your custom CSS }
-    2. Product Prices:	.price-box[data-product-id="{{id}}"] .price{ Your custom CSS }
-    3. Product SKU:	.product-info-stock-sku{ Your custom CSS }
+    1. Button Add to Cart:	form[data-product-sku="{{sku}}"] .action.tocart{ Your custom CSS !important}
+    2. Product Prices:	.price-box[data-product-id="{{id}}"] .price{ Your custom CSS !important}
+    3. Product SKU:	.product-info-stock-sku{ Your custom CSS !important}
     Example: form[data-product-sku="{{sku}}"] .action.tocart{ color:red;background-color:yellow  }
 
 ##### Step 3: Set the condition applying the rule for products in the Where to Show section
@@ -184,7 +185,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 - Choose the condition to apply the rule
 - You can customize label products by setting the conditions for the product or selecting which products of the category will be displayed labels. You can find products that meet the conditions in the `PREVIEW PRODUCTS` section
 
-![](https://i.imgur.com/VC6dUwa.gif)
+![](https://i.imgur.com/ugis0nI.gif)
 
 ### Requests Management
 Display all customer requests sending to the store. 
