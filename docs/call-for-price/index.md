@@ -58,8 +58,8 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 
 ![](https://i.imgur.com/FE4qtsQ.png)
 
-- **Check by default**: Choose **Yes** to auto-tick on the checkbox (always agree with the terms and conditions of the store)
-- **Is Required**: Choose **Yes** to display this required field
+- **Check by default**: Choose `Yes` to auto-tick on the checkbox (always agree with the terms and conditions of the store)
+- **Is Required**: Choose `Yes` to display this required field
 - **Title**:
   - Enter the title for the **Terms and Conditions**
   - If you use "%anchor" variable in this field, the text entering into `Anchor Text` will match with the ext of `Title` field
@@ -74,8 +74,8 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   - For instance: In the `Title` field, you fill is that *I agree with the %anchor of Services*, in the `Anchor` field, you fill is that *Terms and Conditions* and the `URL` field is that *[https://domain.com/tos.html](https://www.domain.com/tos?)*, then the result displaying on the frontend is that *I agree with the <a href="https://domain.com/tos.html">Terms and Conditions</a> of Services*
 
 - **Return to previous page after login**: 
-    - If **Yes**: The page will be redirected to the page before when customers sign in (Example: Customers go to the Bag product page, then sign in, they will be redirected to that Bag product page). 
-    - If **No**: The page will be redirected to the default Magento page when customers sign in (My Account page).
+    - If `Yes`: The page will be redirected to the page before when customers sign in (Example: Customers go to the Bag product page, then sign in, they will be redirected to that Bag product page). 
+    - If `No`: The page will be redirected to the default Magento page when customers sign in (My Account page).
 
 
 #### Disable Default Functions
@@ -112,7 +112,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 
 ![](https://i.imgur.com/P8vxrGE.png)
 
-- **Enable**: Select **Yes** to send email to customers to reply to their requests.
+- **Enable**: Select `Yes` to send email to customers to reply to their requests.
 - **Email Template To Respond To Customer Requests**:
     - Select the available templates to send emails.
     - To change the **Email Template**, admins can create a new **Email Template** in the `Marketing > Email Template` section. 
@@ -171,7 +171,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
     - Hide the Add to cart button on the product
     - This section is usually for reference products or non-selling products
     
-  - `Action= Custom CSS`: 
+  - `Action = Custom CSS`: 
     - Add custom CSS.
     - Some commonly-used elements:
     1. Button Add to Cart:	form[data-product-sku="{{sku}}"] .action.tocart{ Your custom CSS }
