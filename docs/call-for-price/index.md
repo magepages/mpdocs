@@ -153,7 +153,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   
 ##### Step 2: Design the display of the rule on the frontend in the What to Show section  
 
-![](https://i.imgur.com/2UFNk6M.gif)
+![](https://i.imgur.com/ugis0nI.gif)
 
 - **Button label**: Enter the label for the button to replace the Add to Cart button
 - **Action**:
@@ -185,7 +185,7 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 - Choose the condition to apply the rule
 - You can customize label products by setting the conditions for the product or selecting which products of the category will be displayed labels. You can find products that meet the conditions in the `PREVIEW PRODUCTS` section
 
-![](https://i.imgur.com/ugis0nI.gif)
+![](https://i.imgur.com/VC6dUwa.gif)
 
 ### Requests Management
 Display all customer requests sending to the store. 
