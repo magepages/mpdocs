@@ -8,7 +8,7 @@ To attract customers to the subscription and recurring payment method, Mageplaza
 ### 1. Customer
 - Customers can buy a product or service using the subscription and recurring payments method.
 
-![](https://i.imgur.com/GIsMzlR.png)
+![](https://i.imgur.com/Kfk931z.png)
 
 - Customers can manage their subscriptions on the My Subscription page.
 
@@ -227,7 +227,7 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 
 ##### 2.2.2. Select Product
 
-![](https://i.imgur.com/l7rxRny.png)
+![](https://i.imgur.com/j2iAoJi.png)
 
 - Configure which products can be purchased by Subscription and recurring payments
 - Click icon ![](https://i.imgur.com/5kX2bQH.png) to select product
@@ -236,7 +236,7 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 ### 3. Subscription Log
 From the **Admin panel**, go to `Sales > Subscription and Recurring payments > Subscription Log`.
 
-![](https://i.imgur.com/MpzEEP4.png)
+![](https://i.imgur.com/AfcXPFS.png)
 
 - Display information of Subscription Log: ID, Order ID, Subscription ID, Product Name, Status, Customer Email, Payment Method, Start Date, End Date, Created At, Action
 - Action:
@@ -251,7 +251,7 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 ### 4. Frontend
 #### 4.1. Product Page
 
-![](https://i.imgur.com/x9ICKWs.png)
+![](https://i.imgur.com/Kfk931z.png)
 
 - Customers can pay for the products in 2 ways: 
   - One-Time Payment
