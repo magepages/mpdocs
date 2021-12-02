@@ -57,19 +57,28 @@ From the **Admin panel**, go to `Stores > Settings > Configuration > Sales > Pay
 ### 4. How to create a webhook in Stripe
 - Log into your [Stripe](https://dashboard.stripe.com/) account > go to `Developers > Webhook`
 
+![](https://i.imgur.com/2F2AMTU.png)
+
 - Complete the following information:
   - Endpoint URL: https://<base_url>/mpsubscription/webhook/stripe
   - Select events to listen to: Choose all events or necessary ones only, but the following events are compulsory: `customer.subscription.created, customer.subscription.updated , invoice.created, invoice.payment_succeeded` 
   - Click **Add endpoint** to complete the settings.
 
+![](https://i.imgur.com/dPO8fXL.png)
+
 - To manage Subscriptions on Stripe, go to `Payment > Subscriptions`
 
+![](https://i.imgur.com/H1040BX.png)
 
 ## How to Configure
 ### 1. Configuration
 Go to the **Admin panel**, select `Sales > Subscription and Recurring payments > Configuration`; or from the **Admin panel**, select `Stores > Setting > Configuration > Mageplaza > Subscription and recurring payments`
 
+![](https://i.imgur.com/WsxVCoz.png)
+
 #### 1.1. General 
+
+![](https://i.imgur.com/479nDbQ.png)
 
 - **Enable**: Select Yes to enable the extension
 - **Select Payment Gateways**: Choose the payment method for subscription-based payment
@@ -79,16 +88,28 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 - **Allow only one subscription item in Cart**: If selected **Yes**, the customer’s cart can only contain one subscription-based product. If there is one subscription-based product in the cart, they cannot add any other items. In case there is one one-time payment product in the cart, they can add one-time payment products freely, but cannot add any other subscription-based product.  
 #### 1.2. Subscription Configuration
 
+![](https://i.imgur.com/gUZF0Mg.png)
+
 - **Subscription Style**:
   - **Radio**: The options of Subscription and Recurring Payments in the Product Detail Page frontend will be displayed in radio buttons.
 
+![](https://i.imgur.com/6dWwedR.png)
+
   - **Dropdown**: The options of Subscription and Recurring Payments in the Product Detail Page frontend will be displayed in dropdown style.
+
+![](https://i.imgur.com/eelq2xh.png)
 
 - **Subscription Text**: The text is shown on the Product Detail Page 
 
+![](https://i.imgur.com/5eAuOTM.png)
+
 - **Tooltip for Subscription and Recurring Payments**: Enter information for the tooltip, which will be shown on the Product Page when customers hover the icon next to the Subscription Text
 
+![](https://i.imgur.com/KAh0Zqj.png)
+
 #### 1.3 Subscription option
+
+![](https://i.imgur.com/68CVTVR.png)
 
 - **Only buy products through subscription**: Set up the purchase method options: 
   - `Only buy products through subscription = No`: It is possible to buy subscription and recurring payment products through subscription and one-time payment. 
@@ -98,6 +119,7 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 
 #### 1.4. Paypal Express Checkout
 
+![](https://i.imgur.com/Z00j2XA.png)
 
 - **Limit The Number of Failures Payments**: Set the maximum number of failed payments for recurring orders. If left empty or zero, there is no limitation.
 - **Customer Cancel Subscription**: Select **Yes** if allow customers to delete subscriptions paid via Paypal Express. This is only applicable if the Rule Subscription allows cancellation. 
@@ -105,11 +127,14 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 
 #### 1.5. Stripe
 
+![](https://i.imgur.com/TbMoggG.png)
 
 - **Customer Cancel Subscription**: Select Yes  if allow customers to delete subscriptions paid via Stripe. This is only applicable if the Rule Subscription allows cancellation.
 - To use Stripe, you need to install [Mageplaza Stripe Extension](https://www.mageplaza.com/magento-2-stripe/)
 
 #### 1.6. Email Configuration
+
+![](https://i.imgur.com/xqgh78k.png)
 
 - **Enable Email Notification**: Select **Yes** to allow emails sent to customers 
 - **Email Sender**: Select the sender of emails. This will be visible when `Enable Email Notification = Yes`
@@ -117,17 +142,22 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 
 ##### 1.6.1. Reminder Email Template
 
+![](https://i.imgur.com/m35iB7F.png)
+
 - **Enable**: Select Yes to send emails to remind customers of the next payment 
 - **Next Billing Email Reminder Template**: Choose email template. Only visible when `Enable = Yes`
 - **Send Reminder About Next Invoice (Days)**: Enter the number of days before the next payment deadline to send an email to remind customers. If left empty or zero, the default value will be 2. Only visible when `Enable = Yes`
 
 ##### 1.6.2. The Trial Ends Email Template
 
+![](https://i.imgur.com/m35iB7F.png)
+
 - **Enable**: Select Yes to send emails when the trial period expires.
 - **Email template notifies the customer when the trial ends**: Select the email template. Only visible when `Enable = Yes`
 
 ##### 1.6.3. Remaining Trial Time Email Template
 
+![](https://i.imgur.com/nU3WSzd.png)
 
 - **Enable**: Select Yes to send emails when the trial period is about to expire
 - **Email template to notify the remaining trial time**: Choose email template. Only visible when `Enable = Yes`
@@ -135,12 +165,16 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 
 ##### 1.6.4. Subscription is Canceled Email Template
 
+![](https://i.imgur.com/Zd0uAEP.png)
+
 - **Enable**: Select **Yes** to send emails to customers when the subscription is cancelled. 
 - **Notify Customers When Subscription is Cancelled**: Select email template. Only visible when `Enable = Yes`.
 
 ##### 1.6.5. Subscription Expiration Email Template
 
-- **Enable**: Select Yes to send emails to customers when the subscription expires. 
+![](https://i.imgur.com/oFXGiSq.png)
+
+- **Enable**: Select **Yes** to send emails to customers when the subscription expires. 
 - **Notify Customers When Subscription Expires**: Select email template. Only visible when `Enable = Yes`.
 
 ### 2. Manage Subscription
