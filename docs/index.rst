@@ -163,6 +163,7 @@ Welcome to Mageplaza Docs
    store-switcher/index
    store-credit/index
    stripe/index
+   subscription-and-recurring-payment/index
    table-rate-shipping/index
    table-category-view/index
    thank-you-page/index
