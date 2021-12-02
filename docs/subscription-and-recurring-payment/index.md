@@ -227,7 +227,7 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 
 ##### 2.2.2. Select Product
 
-![](https://i.imgur.com/j2iAoJi.png)
+![](https://i.imgur.com/c0rKF5b.png)
 
 - Configure which products can be purchased by Subscription and recurring payments
 - Click icon ![](https://i.imgur.com/5kX2bQH.png) to select product
