@@ -181,6 +181,8 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 From the **Admin panel**, go to `Sales > Subscription and Recurring payments > Subscription Plans`.
 #### 2.1. Grid
 
+![](https://i.imgur.com/viXqCpQ.png)
+
 - Display information of Subscription rules: ID, Name, Status, Free Product Trials, Initial Subscription Fee, Discount Prices To Subscribers, Frequency, Frequency No., Create At, Action
 - Action:
   - Edit: direct to the Edit Subscription information page.
@@ -194,6 +196,9 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 #### 2.2. Add New Subscription
 ##### 2.2.1. General 
 
+![](https://i.imgur.com/B8Tp1u3.png)
+
+![](https://i.imgur.com/eboeTci.png)
 
 - **Name**: Enter the name of the subscription. This is compulsory so you cannot leave it blank. 
 - **Status**: There are 2 subscription statuses: Enable and Disable
@@ -204,11 +209,15 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 - **Customer Cancel Subscription**: Select **Yes** to allow customers to cancel subscriptions
 - **Initial Subscription Fee**: Set up how the initial subscription fees are calculated. 
 
+![](https://i.imgur.com/qw1S3kM.png)
+
   - **No**: No fee is charged. However, to take payment online, we will leave the default as $1. 
   - **Fixed Amount**: The initial fee will be calculated as a fixed amount, which will be entered in the Initial Subscription Fee Amount field.
   - **Percent of Product Price**: The initial fee will be calculated as a percentage of the product price, which will be entered in the Initial Subscription Fee Amount field.
 - **Initial Subscription Fee Amount**: Enter the initial fee of the subscription. Only visible when `Initial Subscription Fee = Fixed Amount or Percent of Product Price`. The way how fees are calculated will be set up in the **Initial Subscription Fee** field.
 - **Discounted Prices to Subscribers**: Offer discounts for customers purchasing products using Subscription and recurring payments (not applicable for the initial subscription fee) 
+
+![](https://i.imgur.com/nvy2XQj.png)
 
   - **No**: No discount
   - **Fixed Amount**: The discount amount will be calculated as a fixed amount, which will be entered in the **Discount Amount** field
@@ -218,12 +227,16 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 
 ##### 2.2.2. Select Product
 
+![](https://i.imgur.com/l7rxRny.png)
+
 - Configure which products can be purchased by Subscription and recurring payments
 - Click icon  to select product
 - Click the **Preview Products** button to view the list of products that can be ordered by Subscription.
 
 ### 3. Subscription Log
 From the **Admin panel**, go to `Sales > Subscription and Recurring payments > Subscription Log`.
+
+![](https://i.imgur.com/MpzEEP4.png)
 
 - Display information of Subscription Log: ID, Order ID, Subscription ID, Product Name, Status, Customer Email, Payment Method, Start Date, End Date, Created At, Action
 - Action:
@@ -238,6 +251,8 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 ### 4. Frontend
 #### 4.1. Product Page
 
+![](https://i.imgur.com/x9ICKWs.png)
+
 - Customers can pay for the products in 2 ways: 
   - One-Time Payment
   - Subscription to buy this product
@@ -251,11 +266,17 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 
 #### 4.2. Shopping Cart Page
 
+![](https://i.imgur.com/0xfJKqm.png)
+
 #### 4.3. Checkout Page
+
+![](https://i.imgur.com/7deQ0Ah.png)
 
 #### 4.4. My Subscriptions page
 
 Go to `My Account > My Subscriptions`. 
+
+![](https://i.imgur.com/wgIGOcU.png)
 
 - Includes the Subscription list of customers.
 - Includes the following information: 
