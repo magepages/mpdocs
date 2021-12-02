@@ -196,9 +196,9 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 #### 2.2. Add New Subscription
 ##### 2.2.1. General 
 
-![](https://i.imgur.com/B8Tp1u3.png)
+![](https://i.imgur.com/Kz7CRW1.png)
 
-![](https://i.imgur.com/eboeTci.png)
+![](https://i.imgur.com/PNc9u5D.png)
 
 - **Name**: Enter the name of the subscription. This is compulsory so you cannot leave it blank. 
 - **Status**: There are 2 subscription statuses: Enable and Disable
@@ -209,7 +209,7 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 - **Customer Cancel Subscription**: Select **Yes** to allow customers to cancel subscriptions
 - **Initial Subscription Fee**: Set up how the initial subscription fees are calculated. 
 
-![](https://i.imgur.com/qw1S3kM.png)
+![](https://i.imgur.com/sGIpc42.png)
 
   - **No**: No fee is charged. However, to take payment online, we will leave the default as $1. 
   - **Fixed Amount**: The initial fee will be calculated as a fixed amount, which will be entered in the Initial Subscription Fee Amount field.
@@ -217,7 +217,7 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 - **Initial Subscription Fee Amount**: Enter the initial fee of the subscription. Only visible when `Initial Subscription Fee = Fixed Amount or Percent of Product Price`. The way how fees are calculated will be set up in the **Initial Subscription Fee** field.
 - **Discounted Prices to Subscribers**: Offer discounts for customers purchasing products using Subscription and recurring payments (not applicable for the initial subscription fee) 
 
-![](https://i.imgur.com/nvy2XQj.png)
+![](https://i.imgur.com/TpaPWxu.png)
 
   - **No**: No discount
   - **Fixed Amount**: The discount amount will be calculated as a fixed amount, which will be entered in the **Discount Amount** field
@@ -230,7 +230,7 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 ![](https://i.imgur.com/l7rxRny.png)
 
 - Configure which products can be purchased by Subscription and recurring payments
-- Click icon  to select product
+- Click icon ![](https://i.imgur.com/5kX2bQH.png) to select product
 - Click the **Preview Products** button to view the list of products that can be ordered by Subscription.
 
 ### 3. Subscription Log
