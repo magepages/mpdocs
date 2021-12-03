@@ -101,11 +101,11 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 
 - **Subscription Text**: The text is shown on the Product Detail Page 
 
-![](https://i.imgur.com/5eAuOTM.png)
+![](https://i.imgur.com/MOm5Ar0.png)
 
 - **Tooltip for Subscription and Recurring Payments**: Enter information for the tooltip, which will be shown on the Product Page when customers hover the icon next to the Subscription Text
 
-![](https://i.imgur.com/KAh0Zqj.png)
+![](https://i.imgur.com/qLNvsQd.png)
 
 #### 1.3 Subscription option
 
