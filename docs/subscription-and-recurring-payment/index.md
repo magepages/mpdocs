@@ -12,7 +12,7 @@ To attract customers to the subscription and recurring payment method, Mageplaza
 
 - Customers can manage their subscriptions on the My Subscription page.
 
-![](https://i.imgur.com/H6XYvpw.png)
+![](https://i.imgur.com/mQ9PoDY.png)
 
 ### 2. Admin
 - Admins can set up the configuration for the Subscription
@@ -23,11 +23,11 @@ To attract customers to the subscription and recurring payment method, Mageplaza
 #### 3.1. How to create a webhook at Paypal
 - Sign in to your account at [developer Paypal](https://developer.paypal.com/home/), then go to `My Apps & Credentials > Create App`
 
-![](https://i.imgur.com/JJMJwim.png)
+![](https://i.imgur.com/avSFhpb.png)
 
 - Enter `App Name > App Type = Merchant > Select Business Account`
 
-![](https://i.imgur.com/CCRphja.png)
+![](https://i.imgur.com/TmtNdLs.png)
 
 - After the App is created, there will be **Client ID** and **Secret**, which are used for the Configuration section of **Mageplaza Subscription and recurring payment extension**.
 - It is necessary to create a webhook to launch the subscription. In the App you have created, scroll down to the **WEBHOOK** section > click **Add Webhook**.
@@ -35,20 +35,20 @@ To attract customers to the subscription and recurring payment method, Mageplaza
   - Select Event Type: You can select All events
   - Click **Save** to save the webhook
 
-![](https://i.imgur.com/iYa0vES.png)
+![](https://i.imgur.com/PDz7IMV.png)
 
 - To track Subscriptions on Paypal, log into your Business Account, which was selected when creating the App > go to **Pay & Get Paid** > click **Subscriptions**.
 
-![](https://i.imgur.com/P863alf.png)
+![](https://i.imgur.com/hs6U7y8.png)
 
 - In the **Subscription** tab, the details of Subscriptions can be displayed and managed.
 
-![](https://i.imgur.com/KFAFkkT.png)
+![](https://i.imgur.com/5uC11sJ.png)
 
 #### 3.2. How to configure a Paypal key in Magento 2
 From the **Admin panel**, go to `Stores > Settings > Configuration > Sales > Payment Methods > PayPal Express Checkout > Required Paypal Settings > Mageplaza Subscription`
 
-![](https://i.imgur.com/byTfOOb.png)
+![](https://i.imgur.com/ocW7370.png)
 
 - **Client ID**: Enter the Client ID of the webhook created at Paypal. 
 - **Client Secret**:  Enter the Client Secret of the webhook created at Paypal. 
@@ -57,18 +57,18 @@ From the **Admin panel**, go to `Stores > Settings > Configuration > Sales > Pay
 ### 4. How to create a webhook in Stripe
 - Log into your [Stripe](https://dashboard.stripe.com/) account > go to `Developers > Webhook`
 
-![](https://i.imgur.com/2F2AMTU.png)
+![](https://i.imgur.com/I9cmGqe.png)
 
 - Complete the following information:
   - Endpoint URL: https://<base_url>/mpsubscription/webhook/stripe
   - Select events to listen to: Choose all events or necessary ones only, but the following events are compulsory: `customer.subscription.created, customer.subscription.updated , invoice.created, invoice.payment_succeeded` 
   - Click **Add endpoint** to complete the settings.
 
-![](https://i.imgur.com/dPO8fXL.png)
+![](https://i.imgur.com/L4uTNwv.png)
 
 - To manage Subscriptions on Stripe, go to `Payment > Subscriptions`
 
-![](https://i.imgur.com/H1040BX.png)
+![](https://i.imgur.com/V1QKeOL.png)
 
 ## How to Configure
 ### 1. Configuration
@@ -266,17 +266,17 @@ From the **Admin panel**, go to `Sales > Subscription and Recurring payments > S
 
 #### 4.2. Shopping Cart Page
 
-![](https://i.imgur.com/0xfJKqm.png)
+![](https://i.imgur.com/Hd7Fug6.png)
 
 #### 4.3. Checkout Page
 
-![](https://i.imgur.com/7deQ0Ah.png)
+![](https://i.imgur.com/hUapdGk.png)
 
 #### 4.4. My Subscriptions page
 
 Go to `My Account > My Subscriptions`. 
 
-![](https://i.imgur.com/wgIGOcU.png)
+![](https://i.imgur.com/mQ9PoDY.png)
 
 - Includes the Subscription list of customers.
 - Includes the following information: 
