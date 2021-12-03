@@ -181,9 +181,9 @@ Go to the **Admin panel**, select `Sales > Subscription and Recurring payments >
 From the **Admin panel**, go to `Sales > Subscription and Recurring payments > Subscription Plans`.
 #### 2.1. Grid
 
-![](https://i.imgur.com/viXqCpQ.png)
+![](https://i.imgur.com/9sVExxe.png)
 
-- Display information of Subscription rules: ID, Name, Status, Free Product Trials, Initial Subscription Fee, Discount Prices To Subscribers, Frequency, Frequency No., Create At, Action
+- Display information of Subscription rules: ID, Name, Status, Free Product Trials, Initial Subscription Fee, Discount Prices To Subscribers, Frequency, Frequency No., Action
 - Action:
   - Edit: direct to the Edit Subscription information page.
 - Mass Action:
