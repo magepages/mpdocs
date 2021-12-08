@@ -243,6 +243,19 @@ Shopping Cart Earning Rule includes 3 actions:
   * *E.g: Point (X) = 5, Quantity Step (Y) = 1, and Maximum Earning Points = 5 which mean*:
     * When the customer place order a cart which has 6 products, he will earn 6 points.
     * When the customer place order a cart which has more than 15 products, he will earn 5 points only.
+
+* **Give fixed X points for every fixed Y amount of Price**:
+
+![](https://i.imgur.com/ipHBwVp.png)
+
+  * When the order value is from $Y (the Order Total will depend on the configuration of including Earn Points from Tax and Shipping or not), customers will earn fixed X points. And when the order value equals the multiples of $Y, the points will be multiplied accordingly. 
+  * In the **Point (X)** field: Enter the fixed X point(s) customer will earn for every Y amount of order total.
+  * In the **Money Step** field: Enter the minimum Y amount so that customer can receive fixed X points for every Y amount of price. Pricing will be rounded following ``Rounding Method`` of the configuration.
+  * In the **Maximum Earning Points By This Rule** field: Set the maximum earning point customer can earn from this rule.
+  * *E.g: Point (X) = 10, Money Step (Y) = 100, and Maximum Earning Points = 30 which mean*:
+    * When the customer places an order that has the Order Total of $100, he will earn 10 points. If the Order Total is $120, he will still get only 10 points, and if the Order Total is from $200, he will earn 20 points, if the Order Total is from $300, he will earn 30 points, etc. The maximum point he can get is 30 points.
+    * Note: This Order Total takes into account the fact that you include Earn Points from Tax and Shipping. If you do not configure to include them, Order Total will exclude the tax and shipping fee from the total value for customers to earn points.
+ 
 * **Stop further rule processing**: Choose "Yes" to restrict the number of catalog earning rules applied to a product.
   * *E.g: Let's say there are 4 Cataloging Earning Rules created in turn, Rule 1, Rule 2, Rule 3, Rule 4, and priorities are 0, 5, 3, 3.*
     * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from the summation of 4 rules.
