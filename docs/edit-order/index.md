@@ -24,9 +24,14 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
 ### 1. Configuration
 From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extensions > Edit Order`, select **General**
 
-![](https://i.imgur.com/e9MomvA.png)
+![](https://i.imgur.com/GCEMXqS.png)
 
 - **Enable**: Select **Yes** to turn on the Module.
+- **Only order in this status can be edited**: Select order status that allows editing.
+- **Update Invoices/Shipments/Credit Memos After Editing**:
+  - **No Change In Value**: Created Invoices/ Shipments/ Credit Memos will not be changed when the order is updated.
+  - **Create new offline invoice and cancel Invoices/Shipments/Credit Memos**: Created Invoices/ Shipments/ Credit Memos will be changed when the order is updated
+    - Example: If the product quantity is updated to increase, the Ship/ Invoice button will be re-displayed for admins to create the new Ship/ Invoice for the updated quantity. If the product quantity is updated to decrease, the old Shipment/ Invoice/ Credit Memo will be canceled and the new Invoice will be created automatically; after that, the Ship/ Invoice button will be re-displayed for admins to create the new Shipment and Credit Memo.
 - **Enable Quick Edit**:
   - Select **Yes** to display the **Quick Edit** button at the **Edit Order** page.
   - When clicked, the slide popup display can edit all information at the **Edit Order** page.
