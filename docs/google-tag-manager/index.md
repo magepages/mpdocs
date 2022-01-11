@@ -211,3 +211,28 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 - **Guide**: Click to the link to configure the **conversion tracking** function in **Google Adwords** in Magento 2.
 
+### 2. API
+
+Google Tag Manager extension by Mageplaza supports using the REST API to get data with events such as product, category, homepage, catalog search, checkout index, checkout cart, checkout success, one step checkout, multi shipping checkout success, thank you page, add to cart, remove cart, and get head of Google Tag Manager, Google Analytics, Facebook Pixel.
+
+Please see details [here](https://documenter.getpostman.com/view/10589000/UVXetJdW).
+
+Guide on how to create Integration tokens can be viewed [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
+
+### 3. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+`composer require mageplaza/module-google-tag-manager`
+
+`php bin/magento setup:upgrade`
+
+`php bin/magento setup:static-content:deploy`
+
+Google Tag Manager extension by Mageplaza supports getting data with events such as product, category, homepage, catalog search, checkout index, checkout cart, checkout success, one step checkout, multi shipping checkout success, thank you page, add to cart, remove cart, and get head of Google Tag Manager, Google Analytics, Facebook Pixel via GraphQL.
+
+To start working with Google Tag Manager GraphQL in Magento, you need to:
+
+- Use Magento 2.3.x or 2.4.x. Return your site to the developer mode
+- See GraphQL requests we support [here](https://documenter.getpostman.com/view/10589000/UVXetJi2#30b7afdf-3eff-4bde-b02f-70e0affbb2e6).
+
