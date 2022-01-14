@@ -59,14 +59,16 @@ Go to ``Catalog > Shop by Brand > Configuration`` is a bunch of the basic config
 ^^^^^^^^^^^^^^^
 At the Configuration tab, expand **General** section, please do the following:
 
-.. image:: https://i.imgur.com/iOuQpOv.png
+.. image:: https://i.imgur.com/8kaWhri.png
+
+.. image:: https://i.imgur.com/m7BAhJf.png
 
 * **Enable** the module when choosing "Yes" to allow customers shop by brand
 * From the existing list of the product attribute, set **Brand Attribute** to the correct choice. In this guide, *Manufacturer* is the option you have to select
 * Enter **Brand Route**, if passing it, the default (brands) is applied
 * Enter **Brand Link Title** or leave it as the default (Brands)
 * In **Show Brand Link In** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
-* In **Show Brands in Category Menu**: includes No, Drop-down type và Gird type
+* In **Show Brands in Category Menu**: includes No, Drop-down type và Grid type
   
   * **No**: Brands are not shown 
   * **Drop-down type**: show additional fields - What to show, Maximum brands to show, Show brands without products on menu
@@ -107,7 +109,7 @@ At the Configuration tab, expand **General** section, please do the following:
 
 .. image:: https://i.imgur.com/oVr2yHf.png
 
-* **Show Brand Name on Product Listing Page**: Display Product Brand Name at product listing page such as category, Catalog Search
+* **Show Brand Info on Product Listing Page**: Display Product Brand Info at product listing page such as category, Catalog Search
 * **Show Brand Info in Product Page**:
   
   * **Show Brand Info in Product Page = Not show**: Not show brand information at product page in frontend
@@ -117,7 +119,14 @@ At the Configuration tab, expand **General** section, please do the following:
   
     * **Brand Logo Width in Product Page**: Set the width for brand logo shown at frontend
     * **Brand Logo Height in Product Page**: Set the height for brand logo shown at frontend
-    
+
+* **Show Brand Info in Product Admin Grid**: Display information of brand at the Product Admin Grid page, including:
+  
+  * **Brand Logo Only**: Only display the brand logo at the Product Admin Grid
+  * **Brand Name Only**: Only display brand name at the Product Admin Grid
+  * **Brand Logo & Brand Name**: Allow showing brand logo and brand name at the Product Admin Grid respectively
+  * **Brand Name & Brand Logo**: Allow showing brand name and brand logo at the Product Admin Grid respectively
+  
     
 2.1.2 All Brands Page Settings
 ^^^^^^^^^^^^^^^
@@ -293,6 +302,15 @@ To generate a new brand, follow these steps
 
   .. note:: For the existing brands, you can edit their information via **Setting** button.
 
+**Brand Revenue Report**
+
+* **Show Report**: Click on the `Show report` button to show the Brand Revenue Report popup.
+
+.. image:: https://i.imgur.com/m3izpEL.png
+
+* **Brand Revenue Report popup**: Display the detailed reports on sales of each brand. Thanks to this report, stores can identify which brands are selling well, especially the report of different time period. The Report includes information as follows: Brand, Ordered Item Quantity, Order Count, Total Revenue, Refunder, Discount, Tax.
+
+.. image:: https://i.imgur.com/9KR67rv.png
 
 2.4 Bulk import brands
 ***************
