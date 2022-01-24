@@ -40,7 +40,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 #### 1.1 General Configuration
 
-![](https://i.imgur.com/fEzg3hF.png)
+![](https://i.imgur.com/yMj6O8v.png)
 
 - **Enable**: Select **Yes** to make the extension active
 - **Prefix Free Gift Item Name**: Fill out the prefix for the gift name to let customers easily recognize the free gifts in the list
@@ -57,6 +57,13 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - **Slider**
   ![](https://i.imgur.com/V1kUZW7.gif)
 
+- **Choose Multiple Free Gifts in the Cart**: Select **Yes** to allow customers to add multiple free gifts to their carts.
+
+![](https://i.imgur.com/a97Hyet.png)
+
+- **No Free Gifts applied to Products with Special Prices**: Select **Yes** to disallow free gifts for special-priced products or on-sale products. This can stop customers from having double discounts. Extra fields can be shown: 
+  - **No Free Gifts applied to the Configurable Products with special-priced Child Products**: Select **Yes** to disallow free gifts for child products of Configurable products that have special prices or discounts.
+  ![](https://i.imgur.com/USJkHem.png)
 - **Show Notice For Gift**:
   - Select **Yes** so that notice is displayed with the gift. Thereby, customers can easily distinguish gift from other products
   - Notice is displayed in minicart and **View Cart Page**
@@ -187,7 +194,36 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
 
 <p style="text-align:center;">Popup to add gifts to the gift list</p>
 
+##### 2.2.4 Free Gift Banner
 
+Only apply Free Gift Banner for item rules and display at the Product page.
+
+**Upload Banner Image**
+
+![](https://i.imgur.com/VhB07nD.png)
+
+- Admins can upload one or multiple banners to attract customers
+- **Position**: show banners on different positions on the Product page: Above Content, Below Content, Before Add To Cart Button, After Add To Cart Button
+
+![](https://i.imgur.com/Lwjx5H4.png)
+
+**Design Banner**
+
+![](https://i.imgur.com/Lwjx5H4.png)
+
+- **Banner Image Width (px)**: Enter the (px) width for banners. Notice that you should choose the suitable px so that the banner quality will not be changed. 
+- **Banner Image Height (px)**: Enter the (px) height for banners. Notice that you should choose the suitable px so that the banner quality will not be changed
+- **Show Next/Prev Buttons**: Select **Yes** to show Next/Prev buttons together with the banner to navigate and view the next banners of the slider. 
+
+![](https://i.imgur.com/MYlze57.png)
+
+- **Show Dots Navigation**: Select **Yes** to show Dots Navigation.
+
+![](https://i.imgur.com/MsMLpzE.png)
+
+- **Auto Play**: If select **Yes**, next banners will automatically displayed.
+  - **Auto Time-Out**: Enter the time to automatically display the next banners (in seconds).
+  
 ### 3. API
 
 - Free Gifts extension from Mageplaza support using Rest API to view and check all carts and items in carts of customers and even guest. Also, admin and customers can view Free Gift Items list, add/delete Free Gift Item to/from Cart.  
