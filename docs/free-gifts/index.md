@@ -277,7 +277,7 @@ php bin/magento setup:static-content:deploy
 - Perform a query in the left cell then click the **Run** button or **Ctrl + Enter** to see the result in the right cell
 - Currently, Mageplaza Free Gifts extension support the following queries and mutations: Gift By Product SKU, get Gifts By Quote Item, Add Gift By ID, Delete Gift By Quote Item ID,etc. View more details [here](https://documenter.getpostman.com/view/10589000/SzRyzpwr?version=latest)
   
-### 6. Compatibility with special promotions module of Mageplaza
+### 6. Compatibility with Special Promotions module of Mageplaza
 
 Free Gift extension is well compatible with Special Promotions by Mageplaza. You can configure items in cart that can be discounted, and customers can receive free gifts or not when purchasing those items. 
 
