@@ -209,7 +209,7 @@ Only apply Free Gift Banner for item rules and display at the Product page.
 
 **Design Banner**
 
-![](hhttps://i.imgur.com/vNw0Nyk.png)
+![](https://i.imgur.com/vNw0Nyk.png)
 
 - **Banner Image Width (px)**: Enter the (px) width for banners. Notice that you should choose the suitable px so that the banner quality will not be changed. 
 - **Banner Image Height (px)**: Enter the (px) height for banners. Notice that you should choose the suitable px so that the banner quality will not be changed
