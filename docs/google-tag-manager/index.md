@@ -205,6 +205,10 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
   - If left blank or incorrectly filled in, the Pixel ID will not report and update the website's information to Facebook.
 
+- **Enable Advanced Matching**: Select **Yes** to add Tracking Add to Wishlist and Advanced Matching Parameters for Facebook Pixel.
+
+![](https://i.imgur.com/Yx1Qe02.png)
+
 #### 1.5. Google Adwords Conversion Tracking 
 
 ![](https://i.imgur.com/tELTUM1.png)
