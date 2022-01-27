@@ -192,7 +192,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 ####  1.4. Facebook Pixel
 
-![](https://i.imgur.com/t9WZ6hE.png)
+![](https://i.imgur.com/qq65Z6L.png)
 
 - **Enable**: Select **Yes** to enable the use of Facebook Pixel features.
 - **ID Variable Base On**: Select the variable of the product ID to be replaced displayed:
