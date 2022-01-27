@@ -217,19 +217,28 @@ This add-on tool will assist SEO extension in assessing and marking which and ho
 For example with a product:
 
 * Go to ``Product > Catalog``, choose **Edit** a random one.
-* Choose ``Check On-page`` button at the header
+* Choose ``PageSpeed Insight`` 
 
-.. image:: https://i.imgur.com/KMgxwbE.png
+.. image:: https://i.imgur.com/f4hqh4d.png
 
 * The page will be directed to SEO Tool page for the check execution.
 
-.. image:: https://i.imgur.com/3ZhKADM.png
+.. image:: https://i.imgur.com/jJmJzVa.png
 
-* After the checking done, SEO Tool will show assessed results of that product page's SEO. There're some fundamental standards are built from our intuitive knowledge so feel free to knock us a word if you want to discuss further regarding this issue.
+* After the checking done, SEO Tool will show assessed results of that product page's SEO. 
 
-.. image:: https://i.imgur.com/q360k9W.png
+.. image:: https://i.imgur.com/DjJDC4V.png
 
 * Apply the same action with Category Page and CMS Page.
+
+IV. SEO URL
+******
+Basically, one of the most important search engine optiomization techniques is using SEO-friendly URL.
+
+.. image:: https://i.imgur.com/o7NhZar.png
+
+* Select **Yes** to enable SEO URL.
+
 
 
 
