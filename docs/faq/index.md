@@ -304,7 +304,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * The content of this field will be displayed on the frontend
     * **Default = Search our articles or browse by category below**
 
-##### 3.1.4. FAQ Schema Markup
+#### 3.2. FAQ Schema Markup
 
 ![](https://i.imgur.com/IC1Kz7O.png)
 
@@ -313,7 +313,7 @@ Login to the Magento Admin, choose **Content > FAQs**
    * Limit the maximum number of questions displayed in the Schema Markup.
    * If left blank, the maximum number of questions is 5.
 
-#### 3.2. FAQ Home Page Configuration
+#### 3.3. FAQ Home Page Configuration
 
 ![](https://i.imgur.com/vj8SWka.png)
 
@@ -361,7 +361,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * Set Meta keywords for FAQ Homepage
     * Set Meta Robots for FAQ Homepage
 
-#### 3.3. Product Tab Configuration
+#### 3.4. Product Tab Configuration
 
 ![](https://i.imgur.com/iMLvGoW.png)
 
@@ -387,7 +387,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * Choose Yes to display the date that the answer is public
     * `Note`: The date will be displayed if the name is shown (`Show Name = Yes`)
     
-#### 3.4. Terms & Conditions
+#### 3.5. Terms & Conditions
 
 ![](https://i.imgur.com/kT5OGiR.png)
 
@@ -403,13 +403,13 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Title**: Allow filling in the title of the popup
 * **Content**: The content will be displayed on the popup. We recommend you should use the HTML language.
 
-#### 3.5 Email Configuration
+#### 3.6. Email Configuration
 
 ![](https://i.imgur.com/oOWY0sR.png)
 
 * **Enable**: Choose Yes so that the actions regarding the email can be enabled
 
-##### 3.5.1. Email to Customer
+##### 3.6.1. Email to Customer
 
 ![](https://i.imgur.com/kJQPe17.png)
 
@@ -418,7 +418,7 @@ Login to the Magento Admin, choose **Content > FAQs**
 * **Template**: The extension is installed an available template to send to customers
   
     
-##### 3.5.2. Email to Admin
+##### 3.6.2. Email to Admin
 
 ![](https://i.imgur.com/KniXmkB.png)
 
