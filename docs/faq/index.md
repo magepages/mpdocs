@@ -304,6 +304,14 @@ Login to the Magento Admin, choose **Content > FAQs**
     * The content of this field will be displayed on the frontend
     * **Default = Search our articles or browse by category below**
 
+##### 3.1.4. FAQ Schema Markup
+
+![](https://i.imgur.com/IC1Kz7O.png)
+
+* **Enable**: Choose **Yes** to create FAQ Schema Markup for FAQs.
+* **Limit number of questions**:
+   * Limit the maximum number of questions displayed in the Schema Markup.
+   * If left blank, the maximum number of questions is 5.
 
 #### 3.2. FAQ Home Page Configuration
 
