@@ -351,7 +351,7 @@ Login to the Magento Admin, choose **Content > FAQs**
     * Limit the maximum questions displayed on each category
     * If leaving it blank, the maximum questions displayed is 5
     
-##### 3.2.1. SEO Config
+##### 3.3.1. SEO Config
 
 ![](https://i.imgur.com/vQLSopz.png)
 
