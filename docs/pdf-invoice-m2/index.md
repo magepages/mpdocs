@@ -130,6 +130,9 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 *Frontend*
 ![](https://i.imgur.com/uhq7Ryf.png)
 
+*Order Guest View Frontend*
+![](https://i.imgur.com/MWyaQkP.png)
+
 *Backend in each of the order*
 
 ![](https://i.imgur.com/RQqAyOD.png)
@@ -145,6 +148,10 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 *Frontend*
 
 ![](https://i.imgur.com/msWz7PK.png)
+
+*Order Guest View Frontend*
+
+![](https://i.imgur.com/q84PoAH.png)
 
 *Backend*
 
@@ -436,7 +443,7 @@ For example, if you choose to create an “Order” template, the design form wi
   * **Template Name**
     * This is the place where you name your own template.
     * If you leave it blank, there will be an error message.
-  * **Insert Variables**: Choose a variable to display the value of that variable in the PDF file.
+  * **Insert Variables**: Choose a variable to display the value of that variable in the PDF file. Besides that, Mageplaza also supports customers in adding more information such as Order Information, Shipping Information, or Billing Information.
 
 ![](https://i.imgur.com/lwsjHPP.png)
 
@@ -449,9 +456,9 @@ For example, if you choose to create an “Order” template, the design form wi
 
   * **Link CSS**: This will direct you to a detail CSS support guide that how to learn to design by CSS properly.
   * **Link HTML Support**: Click it to direct to a detail HTML support guide which points out what HTML tags you can use to create a template.
-  * **Template Style**: You can add CSS codes at here.
+  * **Template Style**: You can add CSS codes at here. Users can set supported fonts such as: Roboto, Lato, Roboto_condensed, Opens_san, Oswald, Montserrat for the whole PDF file. If the fonts are not supported, Mageplaza will convert them into the default DejaVu font.
   
-![](https://i.imgur.com/ShjzpbO.png)  
+![](https://i.imgur.com/lYaYLQn.png)  
 
 ### 3. Sale
 From the Admin backend, follow ``Sales > Operation > Orders``. In this section, you can output a printable PDF Order. Moreover, PDF Invoice, PDF Shipment or PDF Credit Memo can be had in the same method. Here the detail guide for the Order's part:
