@@ -128,9 +128,11 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     * **Show Custom Print Button = Both**: This will display an additional ``Print PDF Order`` button in the backend’s Order and the frontend’s My order page. When customers click the ``Print PDF Order`` button, the designed PDF template will be downloaded automatically. 
 
 *Frontend*
+
 ![](https://i.imgur.com/uhq7Ryf.png)
 
 *Order Guest View Frontend*
+
 ![](https://i.imgur.com/MWyaQkP.png)
 
 *Backend in each of the order*
