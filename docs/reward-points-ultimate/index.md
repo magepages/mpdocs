@@ -335,9 +335,10 @@ Rule Information shows the basic information of the rule. These information will
 
 ###### 1.4.2.3. Actions
 
-- For the actions as Create a new account, Sign up for a newsletter, Send email to friends, Customer birthday occurs, admins only need to set the amount of points that customers receive when performing each action
+- For the actions as Create a new account, Sign up for a newsletter, Send email to friends, Customer birthday occurs, admins only need to set the amount of points that customers receive when performing each action.
+- **Expire After**: Select the expiration date since receiving points. When customers take actions such as Create a new account, Sign up for a newsletter, Customer birthday occurs, they will get points and these points will wxxpire after the selected time since the receiving date. If left empty, there is no expiration of the points.
 
-![](https://i.imgur.com/Xiamk55.png)
+![](https://i.imgur.com/YJeykZG.png)
 
 - For the remaining actions, admins can limit the number of points that Customers receive in a given time period (per day, per month, per year or lifetime).
 
