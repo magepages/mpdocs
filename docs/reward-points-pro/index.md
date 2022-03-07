@@ -165,6 +165,17 @@ Catalog Earning Rule includes 3 actions:
   * In the **Money Step Y** field: Enter the minimum Y amount so that customer can receive X points. Pricing will be rounded following ``Rounding Method`` of the configuration
   * In the **Maximum Earning Points** field: Set the maximum earning point customer can get from this rule.
   * *E.g: Product A has Regular Price = $40, Special Price = 20$, cost = 25$, Point (X) = 1, Money Step (Y) = 20, and Maximum Earning Points = 5 which mean when the customer purchase Product A, point(s) will be based on (40$ - 25$ = 15$) and he will earn 1 points*
+
+* **Give points according to X% of original price**
+
+![](https://i.imgur.com/TgbuvD3.png)
+
+  * Customers will get points according to X% of the original price, not based on the special price or the discounted price.
+  * **Points (X)**: Enter the X% of the original price that customers can get points
+  * **Maximum Earning Points**: Enter the maximum Earning Points that custoimers can get based on this rule
+  * *E.g: Product A has Original Price = $32, Special Price = 20$. When you set Points (x) = 10, Maximum Earning Points = 2, customers can get 32 x 10% = 3.2 point, however, because the Maximum Earning Points = 2, finally customer will only get 2 points.*
+  
+
 * **Stop further rule processing**: Choose "Yes" to restrict the number of catalog earning rules applied to a product.
   * *E.g: Let's say there are 4 Cataloging Earning Rules created in turn, Rule 1, Rule 2, Rule 3, Rule 4, and priorities are 0, 5, 3, 3.*
     * All rules choose **Stop further rules processing = No**: 4 rules will be applied and points are accumulated. The customer will receive points from the summation of 4 rules.
