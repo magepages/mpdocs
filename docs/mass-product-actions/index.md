@@ -94,7 +94,7 @@ Admins change Update the Product Attributes by clicking to the checkbox. After f
 
 - After selecting the product, Admin click **Action** and select **Update Cross-sell Products**. The system will display a popup for admin to perform the action
 
-![](https://i.imgur.com/lifi5Ho.png)
+![](https://i.imgur.com/az21GlK.png)
 
 
 Configuration to **display or delete Cross-sell products**.
@@ -106,7 +106,9 @@ Configuration to **display or delete Cross-sell products**.
   - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
   - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
 
-- **Remove Cross-sell Product(s)**: Admin selects the product to remove it from Cross-sell Products.
+- **Remove Cross-sell Product(s)**: Admin selects the product to remove Cross-sell Products.
+  - **All Product**: Delete all Cross-Sell Products.
+  - **Remove Specidic Products**: Admin selects the product to remove it from Cross-sell Products.
 - **Add Cross-sell Product(s)**: Admin selects the product to display the product at Cross-sell Products.
 - **Copy from Product(s)**: Admin selects the product to copy its Cross-sell products.
 
@@ -277,7 +279,7 @@ After selecting the product, Admin click **Action** and select **Update Price**.
 
 After selecting the product, Admin click **Action** and select **Update Category**. The system will display popup for admin to perform the action
 
-![](https://i.imgur.com/RK7wqDz.png)
+![](https://i.imgur.com/ylOnuK0.png)
 
 
 Admin choose settings to **display or delete related products**.
@@ -289,7 +291,9 @@ Admin choose settings to **display or delete related products**.
   - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
   - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
 
-- **Remove Related Product(s)**: Admin selects the product to remove it from Related Products.
+- **Remove Related Product(s)**: Admin selects the product to delete Related Products.
+  - **All Product**: Delete all Related Products.
+  - **Remove Specific Products**: Admin selects the product to remove it from Related Products.
 - **Add Related Product(s)**: Admin selects the product to display the product at Related Products.
 - **Copy from Product(s)**: Admin selects the product to copy its related products.
 
@@ -312,7 +316,7 @@ Admin can choose one or more products by clicking on the desired product and cli
 
 After selecting the product, Admin click **Action** and select **Update Up-sell Products**. The system will display popup for admin to perform the action
 
-![](https://i.imgur.com/grcvlY4.png)
+![](https://i.imgur.com/ktKL99O.png)
 
 Configuration to **display or delete Up-sell products**.
 
@@ -322,7 +326,9 @@ Configuration to **display or delete Up-sell products**.
 
   - Select **One-way relation**: The action product will display or delete the selected product at Remove/Add Related Products.
   - Select **Mutual-way relations**: Products that perform actions and selected products at Remove/Add Related Products are related.
-- **Remove Up-sell Product(s)**: Admin selects the product to remove it from Up-sell Products.
+- **Remove Up-sell Product(s)**: Admin selects the product to remove Up-sell Products.
+  - **All Product**: Delete all Up-sell Products
+  - **Remove Specific Products**: Admin selects the product to remove it from the Up-sell Products.
 - **Add Up-sell Product(s)**: Admin selects the product to display the product at Up-sell Products.
 - **Copy from Product(s)**: Admin selects the product to copy its Up-sell products.
 
