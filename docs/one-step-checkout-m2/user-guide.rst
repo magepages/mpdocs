@@ -199,7 +199,7 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * Open the **Display Configuration** section, and continue with following:
 
-.. image:: https://i.imgur.com/MxGFUBR.png
+.. image:: https://i.imgur.com/zxsKiy1.png
 
 * In the **Show Login Link** field: Set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
 * Show/Hide Footer/Header: Depending on each theme that the checkout page will or will not display the Header/Footer of that page.
@@ -224,6 +224,9 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 .. image:: http://imgur.com/iQ0FOEW.gif
 
 * In the **Show Terms and Conditions** field: You can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
+* In the **Show Check Out with Multiple Addresses Link** field: You can choose "Yes" to display the *Check Out with Multiple Addresses Link* on the one page checkout step, so that customers can make payments with multiple addresses.
+
+.. image:: https://i.imgur.com/uExKF62.png
 
 
 
@@ -303,7 +306,7 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * Open the **Design Configuration** section, and continue with following:
 
-.. image:: https://i.imgur.com/N5hjf8m.png
+.. image:: https://i.imgur.com/gNt0wUN.png
 
 * In the **Checkout Page Layout** field: Select one of the following layouts to have your checkout page be shown in four different interfaces
 
@@ -334,6 +337,7 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 .. image:: https://i.imgur.com/kAfq91y.png  
   
 * In the **Place Order button color** field: Choose the color for the place order button which should be a highlight to attract shoppers the most.
+* In the **Text Font** field: Select text font for the one step checkout page. You can change among multiple text fonts as you wish.
 * In the **Custom CSS** field: You can add the CSS code to custom your own style.
 
 2.2.4 Custom Fields Configuration
