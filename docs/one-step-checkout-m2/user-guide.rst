@@ -106,9 +106,9 @@ Login to Magento Admin, following our given guide below to complete One Step Che
 
 * Field Management
 * Configuration
-  * General Configuration
-  * Display Configuration
-  * Design Configuration
+ * General Configuration
+ * Display Configuration
+ * Design Configuration
   
 2.1. Manage Fields
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
