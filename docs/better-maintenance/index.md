@@ -127,12 +127,7 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 ### 3. Maintenance Page Setting
 
-![](https://i.imgur.com/fr8j1W7.png)
-
-- **Page Route**:
-  - Enter the route name which appears on the URL. 
-  - If you leave it blank, the default Route name is `mpmaintenance`. 
-  - Example Route name is `https://domain.com/mpmaintenance`. You can change it to anything you want
+![](https://i.imgur.com/o9oyOXs.png)
 
 - **Select Layout**: we provide 3 types of layout for the page
   - **Single-column**
@@ -172,15 +167,7 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
   - **Label**: Enter the label for **Progress bar**
   - **Label Color**: Change the font color for Label
   - **Progress Bar Color**: Change the background color of Progress bar
-  
-- **HTTP Response Header**: Send the status of the page to Google
-  - **503 Service Unavailable**
-  
-  ![](https://i.imgur.com/LiqboYP.png)
 
-  - **200 OK**
-  
-  ![](https://i.imgur.com/Ickb1Fm.png)
 
 - **Preview button**: Admin can click **Preview** to quickly see the edited page. The **Preview** page has the same content as Frontend. If uploading files, need to save the configuration before previewing
 
