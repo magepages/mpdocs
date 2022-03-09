@@ -18,7 +18,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`
 
 From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `General` sections
 
-![](https://i.imgur.com/qfQmWmN.png)
+![](https://i.imgur.com/cVCYHu9.png)
 
 - **Enable**: Select Yes to use the feature of the module
 - **Calculate Total includes**: Choose how to calculate the service cost
@@ -27,6 +27,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   - `Calculate Total includes = Tax`: The service fee includes the tax of the product
   - Many options can be selected
   - Only apply this calculation method with the fee type as a percentage
+- **Show Extra Fee on the Order Grid**: If Yes, the extra fee information will be displayed in the order grid.
   
 ### 2. Manage Extra Fees
 #### How to Add New Rule
@@ -40,6 +41,10 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 - **Name**: Enter the name of the rule
 - **Status**: Select "Enable" to apply the rule
+- **Description**: Enter the information to desribe the extra fee
+
+![](https://i.imgur.com/xHwQdVy.png)
+
 - **Store Views**
   - Only selected stores are applied the rule
   - Multiple stores can be selected at the same time
@@ -52,7 +57,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   - Enter the priority for applying the rule
   - The smaller the number, the higher the priority. For rules with equal priority, the priority will be based on ID.
 
-![](https://i.imgur.com/TLlSmPb.png)
+![](https://i.imgur.com/ilyuO6y.png)
 
 ##### Step 2: Set the conditions to apply the rule in the Condition section
 
@@ -172,6 +177,20 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 ### 3.7 Display on the Credit Memo
 ![](https://i.imgur.com/2mFf40A.png)
 
+### 3.8 Display on the Checkout with Multiple Addresses
+
+The extra fee is applied when checking out with multiple address in the following positions:
+- **Shipping Method**:
+
+![](https://i.imgur.com/82ZLOj2.png)
+
+- **Payment Method**:
+
+![](https://i.imgur.com/1akE24D.png)
+
+- **Cart Summary**:
+
+![](https://i.imgur.com/QtiXzJB.png)
 
 ## 4. Backend
 ### 4.1. Order
@@ -189,6 +208,11 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 
 ![](https://i.imgur.com/n1tI2M8.png)
 
+### 4.5. Order Grid
+
+Show the extra fee information in the order grid. Go to Sales > Orders to learn more about this information.
+
+![](https://i.imgur.com/wyJdZ7K.png)
 
 ## 5. Email
 ### 5.1. Order Email
