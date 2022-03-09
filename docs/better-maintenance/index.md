@@ -176,9 +176,9 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 ![](https://i.imgur.com/lnl9N5d.png)
   
   - **Select Layout**: we provide 3 types of layout for the page
-  - **Single-column**
-  - **Double-column**
-  - **Double-column with Left-side content**
+    - **Single-column**
+    - **Double-column**
+    - **Double-column with Left-side content**
 
 - **Page Title**:
   - Set the Title of the Page
