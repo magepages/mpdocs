@@ -173,12 +173,7 @@ The settings here will apply to both Better Maintenance Page and Coming Soon Pag
 
 ### 4. Coming Soon Page Setting
 
-![](https://i.imgur.com/1ufp4m1.png)
-
-- **Page Route**:
-  - Enter the route name which appears on the URL. 
-  - If you leave it blank, the default Route name is `mpcomingsoon`. 
-  - Example: Page route is https://domain.com/mpcomingsoon. You can change it to anything you want
+![](https://i.imgur.com/lnl9N5d.png)
   
   - **Select Layout**: we provide 3 types of layout for the page
   - **Single-column**
