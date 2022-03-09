@@ -210,7 +210,7 @@ The extra fee is applied when checking out with multiple address in the followin
 
 ### 4.5. Order Grid
 
-Show the extra fee information in the order grid. Go to Sales > Orders to learn more about this information.
+Show the extra fee information in the order grid. Go to `Sales > Orders` to learn more about this information.
 
 ![](https://i.imgur.com/wyJdZ7K.png)
 
