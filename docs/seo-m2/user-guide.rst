@@ -49,7 +49,7 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
 1.4. Business Information
 -----
 
-.. image:: https://i.imgur.com/pLWFVE5.png
+.. image:: https://i.imgur.com/puwFlCG.gif
 
 * In the **Enable Bussiness Information** field: Select "Yes to display information about your business in the search result.
 * When you leave any field blank, the information for that field will not display.
