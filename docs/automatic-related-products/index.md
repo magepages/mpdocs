@@ -121,6 +121,13 @@ Setting:
   * **Highest Price**: products displaying based on high to low price
   * **Newest**: newer products added will be displayed first
   * **Random**: products are selected randomly from the Product List
+  * **Most Viewed**: products visited the most will be displayed.
+   * *Note:* Enable Reports to allow counting product views, which will be used as data for this **Most Viewed** block.
+  
+  ![](https://i.imgur.com/IU2B7Uj.png)
+  
+  * **Product Name A-Z**: sort products in the ARP block based on Name from A-Z. 
+  * **Product Name Z-A**: sort products in the ARP block based on Name from Z-A.
 
 * **Display additional information**: choose additional information or/and buttons displayed under products in the block:
   * Price
