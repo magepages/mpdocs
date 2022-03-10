@@ -44,9 +44,11 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 
 #### General Configuration
 
-![](https://i.imgur.com/OCCyyuf.png)
+![](https://i.imgur.com/GjYpNgH.png)
 
 - **Enable**: Choose `Yes` to use the functions of this module
+- **Available Country Codes**: Select countries whose phone codes are available
+- **Default Phone Code**: Select the country whose phone codes you want to display as default for the Phone Number section in the call for price popup
 - **Request status**:
 
     - There're 4 available statuses of this extension: To Do, Doing, To review, Done
@@ -127,6 +129,32 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 - Step 2: Design the display of the rule on the frontend in the `What to Show` section
 - Step 3: Set the condition applying the rule for products in the `Where to Show` section
 
+#### Admin SMS Notification
+
+![](https://i.imgur.com/17LobHu.png)
+
+- **Enable**: Select **Yes** to inform admins via SMS when there is a call for price request from customers.
+- **Message**:
+    - Enter messages
+    - You can use the following variables for SMS text : {{customer_name}}, {{customer_email}}, {{phone}}, {{customer_note}}, {{product_name}}, {{product_price}}, {{store_name}}.
+
+![](https://i.imgur.com/443J4hd.png)
+
+- Mageplaza supports sending SMS to admins via the registered phone number at Twilio. Stores need to register and enter required information to activate the messages.
+- Create a Twilio account at: https://www.twilio.com/try-twilio
+
+#### Reply SMS To Customer Request
+
+![](https://i.imgur.com/fP91BE6.png)
+
+- **Enable**: Select **Yes** to inform admins via SMS when there is a call for price request from customers.
+- **Message**:
+    - Enter messages
+    - You can use the following variables for SMS text : {{customer_name}}, {{customer_email}}, {{phone}}, {{customer_note}}, {{product_name}}, {{product_price}}, {{store_name}}.
+- **SMS Time To Reply To Customers (Minutes)**
+    - Enter the time SMS will be sent after customers send requests.
+    - If empty or zero, an SMS message will be sent immediately after the customer sends the call for price request.
+    
 ##### Step 1: Enter the full information in the General section
 
 ![](https://i.imgur.com/qfzOioN.png)
