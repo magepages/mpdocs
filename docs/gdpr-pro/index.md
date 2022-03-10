@@ -147,5 +147,28 @@ Below is the content of the email:
   
 ![](https://i.imgur.com/Xy673CD.png)
 
+### V. API
+
+Mageplaza’s GDPR Pro extension allows using Rest API to view configuration, view downloaded account data, check passwords, delete addresses or accounts as requested by customers.
+
+Details can be viewed <a href="https://documenter.getpostman.com/view/10589000/UVkqruHz#b636f48d-9146-45fd-b25c-d1b0cf7106df" target="_blank" rel="nofollow noopener">here</a>.
+
+Instructions for creating Integration tokens <a href="https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html" target="_blank" rel="nofollow noopener">here</a>
+
+### VI. GraphQL
+
+Run the following command in Magento 2 root folder:
+
+`composer require mageplaza / module-gdpr-pro-graphql`
+
+`php bin / magento setup: upgrade`
+
+`php bin / magento setup: static-content: deploy`
+
+To start working with **Call For Price GraphQL** in Magento, you need to:
+- Use Magento 2.3.x. Return your site to developer mode
+- Install the <a href="https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en" target="_blank" rel="nofollow noopener">Chrome extension</a> (currently does not support other browsers)
+- Set GraphQL endpoint as `http://<magento2-3-server>/graphql` in url box, click `Set endpoint`. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- The mutation Mageplaza supports is creating customer requests,etc. Details can be viewed <a href="https://documenter.getpostman.com/view/10589000/UVkqruJ1#06ebedaf-f237-409a-bf68-4e5dc201c49f" target="_blank" rel="nofollow noopener">here</a>.
 
 
