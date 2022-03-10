@@ -41,3 +41,27 @@ Check in **General** to learn the basic configuration of the module
 - Keep customers return: [Reward Points](https://www.mageplaza.com/magento-2-reward-points-extension/)
 - Let your customer [become raving fans](https://www.mageplaza.com/magento-2-affiliate-extension/)
 - Optimize your stores: [PDF Invoice](https://www.mageplaza.com/magento-2-pdf-invoice-extension/), [Custom Order Number](https://www.mageplaza.com/magento-2-custom-order-number/), [Stop return items issue](https://www.mageplaza.com/magento-2-size-chart/)
+
+## API
+
+Mageplaza’s GDPR extension allows using Rest API to view configuration.
+
+Details can be viewed <a href="https://documenter.getpostman.com/view/10589000/UVsEW9P3" target="_blank" rel="nofollow noopener">here</a>.
+
+Instructions for creating Integration tokens <a href="https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html" target="_blank" rel="nofollow noopener">here</a>
+
+## GraphQL
+
+Run the following command in Magento 2 root folder:
+
+`composer require mageplaza / module-gdpr-graphql`
+
+`php bin / magento setup: upgrade`
+
+`php bin / magento setup: static-content: deploy`
+
+To start working with **Call For Price GraphQL** in Magento, you need to:
+- Use Magento 2.3.x. Return your site to developer mode
+- Install the <a href="https://chrome.google.com/webstore/detail/chromeiql/fkkiamalmpiidkljmicmjfbieiclmeij?hl=en" target="_blank" rel="nofollow noopener">Chrome extension</a> (currently does not support other browsers)
+- Set GraphQL endpoint as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
+- The mutation Mageplaza supports is creating customer requests,etc. Details can be viewed <a href="https://documenter.getpostman.com/view/10589000/UVsEW9P2" target="_blank" rel="nofollow noopener">here</a>.
