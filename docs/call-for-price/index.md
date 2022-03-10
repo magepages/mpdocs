@@ -9,7 +9,7 @@ Nowadays, some stores or distributors don't want to display the price of the pro
 ### Display on the Product Listing
 - Display on the popup
 
-![](https://i.imgur.com/hBwLHCc.png)
+![](https://i.imgur.com/znHiKhS.png)
 
 - Hide Add to Cart button
 
