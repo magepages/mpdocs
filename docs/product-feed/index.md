@@ -154,7 +154,11 @@ The Revenue Report is based on the statistic of the ordered products uploaded to
 
 ##### Step 4: Choose the condition to export the file. All products meeting the conditions will be exported.
 
-![](https://i.imgur.com/BSMJqyg.png)
+![](https://i.imgur.com/qzKqMgV.gif)
+
+* Here you can select the conditions for the feed. Only apply the rules for products meeting the conditions.
+
+* **Maximum Product Displayed on Preview Product**: Enter the maximum number of products shown in the Preview Product. If left empty, the number of displayed products when clicking the Preview Products button will not be limited.
 
 ##### Step 5: Enter the Category Map for products. Admins can choose and classific according to the availabe suggestions. For the categories with the same level, it will get the classification type of the top-level category.
 
