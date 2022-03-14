@@ -59,7 +59,7 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 - **Authorized Redirect URLs:** Copy and paste the value of this section in URLs of the **Authorized Redirect URLs of Google Shopping API. 
 - Click **Get Access Token** button to check the connection with Google Shopping API. 
 
-![](https://i.imgur.com/MDQRZ0u.png)
+![](https://i.imgur.com/mI4y9Zo.png)
 
 #### Email Alert
 
