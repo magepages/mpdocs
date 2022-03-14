@@ -84,9 +84,9 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 * Here admins can have basic information of the feed such as: ID, Name, Status, File Type, Execution Mode, Store, Action, Click, Impression, CTR,...
 * Admins can select **Action** if they want to Delete, Generate, or Change Status Feed.
 * Besides that, admins can also Filter, Export, Hide/Show the Columns
-*Note*: CTR (Click through rate)= (Click/ Impression) * 100%
-- *Click*: the number of clicks in the product link uploaded to the app or the feed file
-- *Impression*: the number of views of the product link uploaded to the app or the feed file
+* *Note*: CTR (Click through rate)= (Click/ Impression) * 100%
+  - *Click*: the number of clicks in the product link uploaded to the app or the feed file
+  - *Impression*: the number of views of the product link uploaded to the app or the feed file
 
 #### Product Feed Revenue Report
 
