@@ -43,7 +43,15 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 
 #### General
 
+![](https://i.imgur.com/uJ9LBUu.png)
+
 * **Enable**: Choose "Yes" to use this module
+* **Categories Path for Product URLs**: Create the URL for the product. If select **Default**, the URl will be generated as the default Magento (Category with the smallest ID).
+   * *Note*: Categories Path is only correct when setting `Use Categories Path for Product URLs = Yes`
+
+![](https://i.imgur.com/j9r3GuW.png)
+
+* **Enable Product Feed Report**: Select **Yes** to display the Product Feed Report on the Manage Feeds Grid.
 
 #### Google Shopping API
 - **Enable: Choose **Yes** to synchronize the value with Google Shopping API
@@ -65,6 +73,28 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
     * Be able to choose many events at once time
     
 ### Manage Feeds
+
+#### Grid
+
+* From the Admin Panel, go to Catalog > Product Feeds > Manage Feeds
+
+![](https://i.imgur.com/axf2hPk.png)
+
+* This is where all created feeds are displayed.
+* Here admins can have basic information of the feed such as: ID, Name, Status, File Type, Execution Mode, Store, Action, Click, Impression, CTR,...
+* Admins can select **Action** if they want to Delete, Generate, or Change Status Feed.
+* Besides that, admins can also Filter, Export, Hide/Show the Columns
+*Note*: CTR (Click through rate)= (Click/ Impression) * 100%
+- *Click*: the number of clicks in the product link uploaded to the app or the feed file
+- *Impression*: the number of views of the product link uploaded to the app or the feed file
+
+#### Product Feed Revenue Report
+
+The Revenue Report is based on the statistic of the ordered products uploaded to the feed file or the app. The pie chart shown is the result of the Total Revenue field.
+
+![](https://i.imgur.com/KS9cF4T.gif)
+
+*Note*: Total Revenue and Refunded do not include the shipping fee.
 
 #### How to create New Feed
 * **Step 1**: Enter full information of General field
@@ -202,6 +232,7 @@ php bin/magento mp-productfeed:generate 1 3 4
 ``Note``:
 * After installing the extension, you need to download Liquid by running the command `composer require liquid/liquid` or need to install the library
 * When the extension is enabled, Manage Feed and Logs will be displayed
+* To reload data of Report, you need to run the command: `php bin/magento mp-productfeed:report` 
 
 
 ## FAQs
