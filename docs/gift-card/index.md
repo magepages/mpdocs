@@ -191,7 +191,7 @@ Expand ``Mageplaza > Gift Card: Configuration > Gift Card Template Configuration
 ##### 1.5.1. General
 Visit  ``Mageplaza > Gift Card: Configuration > Email Configuration`` and drop the module down
 
-![](https://i.imgur.com/66y0g4e.png)
+![](https://i.imgur.com/2lBpI1C.png)
 
 * In the **Enable Email Notification** section: Choose “Yes” to enable the function and “No” for the vice versa result. When a gift card arrived to recipients perfectly, an email containing the gift card will be informed back to the sender.
 * In the **Email sender** field: Available 5 Magento’s default email senders for your selection: General Contact, Sales Representative, Customer Support, Custom Email 1, Custom Email 2
@@ -199,6 +199,7 @@ Visit  ``Mageplaza > Gift Card: Configuration > Email Configuration`` and drop t
   * Email notification is pre-installed when customers receive a gift card
   * To change the Gift Card Email Template, admin can create another Email Template under ``Marketing > Email Template``
   * Instruction how to create a new email template can be found [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+* In the **Send To**: Enter emails separated by (,). When a gift card is sent by customer's email successfully, it will also be sent to these entered emails.
 
 ##### 1.5.2. Gift Card Update Notification
 Another small extra for the email configuration, is provided for updating email actions.
