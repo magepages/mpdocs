@@ -29,7 +29,7 @@ From the Admin Panel, go to `Content > Product Labels > Configuration`
 
 From the Admin Panel, go to  `Content > Product Labels > Configuration`
 
-![](https://i.imgur.com/U92wusF.png)
+![](https://i.imgur.com/y7iwaea.gif)
 
 #### General
 
@@ -38,8 +38,25 @@ From the Admin Panel, go to  `Content > Product Labels > Configuration`
 * **Show Labels with Related Products:** Select **Yes** to display labels of Related Products on the Product Details page
 * **Show Labels with Upsell Products:** Select **Yes** to display labels of Upsell Products on the Product Details page
 * **Show Labels with Cross-sell Products:** Select **Yes** to display labels of Cross-sell Products on the Product Details page
+* **Hide Label when Variable equal to zero**: Select **Yes** to hide labels when the value of the variable is 0 or the variable name is incorrect
+
+**On Sale Product Setting**
+
+* **Min Value of Discount Amount Variable**: The minimum value of the {{discount}} variable shown in the label.
+* **Min Value of Discount Percentage Variable**: The minimum value of the {{discount_percent}} variable shown in the label.
+* **Rounding Method of Discount Percentage**: The value of Rounding Method applied to the {{discount_percent}} variable can be changed with all label display rules.
+  * **Normal**: The number of points converted from the currency (USD, EUR, …) will be rounded according to the normal rule. *E.x: 10.2 rounded to 10; 10.8 rounded to 11.*
+  * **Rounding Up**: The number of points converted from the currency (USD, EUR, …) will be rounded up. *E.x: 10.2 or 10.8 is rounded to 11.*
+  * **Rounding Down**: The number of points converted from the currency (USD, EUR, …) will be rounded down. *Ex: 10.2 or 10.8 is rounded to 10.*
 
 
+**New Product Setting**
+
+* How to set the New Products**: There are 2 ways to set rpducts as new products: 
+  * **New from Date** and **New to Date**
+  * Create date product:
+    * Number of Days: The maximum number of days from the Create day of product until today, which depends when `How to set the New Products = Create Date`
+ 
 **Stock Status Label Setting**
 
 * **Displays Label When The Product Is Out Of Stock**: If **Yes**, the out of stock products are only sticked with  the ‘Out of Stock’ Label.
@@ -99,7 +116,7 @@ From the Admin Panel, go to `Content > Product Label > Manage Rules`
 
 ##### Step 3: Design labels and images on the product in the `label design` section
 
-![](https://i.imgur.com/tpQdoCJ.gif)  
+![](https://i.imgur.com/ndkeU2j.gif)  
 
 Design the labels and images for the product on the `Product Page`
 
@@ -108,7 +125,7 @@ Design the labels and images for the product on the `Product Page`
 - **Image Size**:
   - Enter the length and width of the image
   - If you use the available template, the length and width of the image will be automatically loaded when you load the template
-  
+- **Show Label if Stock is lower than**: The label will be shown at the products having fewer stocks than the entered number. If left empty, the label will be shown at all products that follow the rule.
 - **Label**:
   - Fill in the label displaying on the product
   - Only support some following variables:
