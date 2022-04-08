@@ -45,10 +45,15 @@ You can generate specific categories for brands which direct your customers' min
 
 .. image:: https://i.imgur.com/UUiW2gM.jpg
 
+1.5 Related Brand
+***************
+You can display different brands related to your brand. This helps you promote more products and at the same time allow customers to find suitable products.
+.. image:: https://i.imgur.com/gDGcGbO.gif
+
 II. How to configure
 ###############
 
-2.1 Configuration
+2.1. Configuration
 ***************
 
 Go to ``Catalog > Shop by Brand > Configuration`` is a bunch of the basic configuration you need to set up firstly.
@@ -253,7 +258,7 @@ Click to expand **Brand Information**
 
 This is a new sweet treatment for marketing purpose, choose “No” if you don’t wish search engines index pagination pages.
 
-2.2 Categories
+2.2. Categories
 ***************
 This is a separated module to manage Categories on filter searching. Also you can customized some crucial meta data tags like Meta Title, Meta Description, Meta Keywords or Meta Robot
 
@@ -274,7 +279,7 @@ To massively set brands into a specific category:
 
 .. image:: https://i.imgur.com/AD5CeAY.gif
 
-2.3 Manage Brands
+2.3. Manage Brands
 ***************
 This module provide a short-cut way for navigating to "manufacturer" workplace, from here you will manage all available brands and create new one. Make you way to ``Catalog > Shop By Brand > Manage Brands``
 
@@ -291,6 +296,15 @@ To generate a new brand, follow these steps
   * Set the brand to be displayed on featured brand slider or not in `Featured` field
   * Enter `Short Description` (appear on the search result) and `Description` (appear on Brand Listing) 
   * Choose the `CMS Block` to show brand as a static block on anywhere of your page. You can disable it by leave it blank.
+  * **Related Brands**: Select related brands to the brand you are setting.
+  
+  .. image:: https://i.imgur.com/aQtalxu.png
+  
+  * **Branded Products**: Add multiple products to the brand at once.
+    * `Action > Add Products > Submit`: Add selected products to the brand.
+    * `Action > Remove Products> Submit`: Remove selected products from the brand.
+  
+  .. image:: https://i.imgur.com/F6cc5ni.png
 
 * Expand **Meta Information** section, you can complete all fields for your better SEO, including:
   
@@ -312,7 +326,7 @@ To generate a new brand, follow these steps
 
 .. image:: https://i.imgur.com/9KR67rv.png
 
-2.4 Bulk import brands
+2.4. Bulk import brands
 ***************
 Shop by Brand extension from Mageplaza supports Magento 2 stores to bulk import brands via CSV file.
 
@@ -347,7 +361,13 @@ And a report will inform this. Now you've done all the step to import brand by a
 
 .. image:: https://imgur.com/dadPjKH.png
 
-2.5 Assign product to brand
+2.5. Export Brand
+***************
+Go to `System > Data Transfer > Export > Export Settings > Entity Type` field, choose **Mageplaza Shopbybrand** to expand **Entity Attributes**.
+
+.. image:: https://i.imgur.com/KaSccCR.png
+
+2.6. Assign product to brand
 ***************
 This guide helps you classify what brand a product is made by.
 
@@ -372,7 +392,7 @@ On Product Page
 .. _How to Create Product Attribute in Magento 2: https://www.mageplaza.com/kb/how-to-create-product-attribute-magento-2.html
 
 
-2.6. API
+2.7. API
 ***************
 
 Shop By Brand Extension form Mageplaza does support API which allows users:
@@ -397,7 +417,7 @@ You can see more of how to get API Request by Shop By Brand Extension via this `
 .. _document: https://documenter.getpostman.com/view/10589000/SzRxXr2x?version=latest
 
 
-2.7. GraphQL
+2.8. GraphQL
 ***************
 
 Run the following command in Magento 2 root folder:
