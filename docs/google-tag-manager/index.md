@@ -155,6 +155,8 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 ![](https://i.imgur.com/gwPGZVb.png)
 
+![](https://i.imgur.com/pMNqgxO.png)
+
 - **Enable**: Select **Yes** to enable the use of the Google Analytics function for the website to analyze the report.
 - **ID Variable Base On**: Select the variable of the product ID to be replaced displayed:
   - **ID**: Display the ID value of the product according to the product ID.
@@ -180,8 +182,6 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
   
   ![](https://i.imgur.com/H416oS1.png)
   
-  **Note**: To see the amount of **Link Attribution**, **Linker** or some features of **Google Analytics**, you need to wait some time for Google Analytics to update data. You should install and enable **Google Analytics Debugger** and **Page Analytics** add to the browser you are using to support adding reporting features to see click number.
-  
   
 - **Enable Display Ads (Remarketing)**: Select **Yes** to enable Google Analytics advertising features (including Remarketing Lists for Search Ads) that can be enabled in Google Analytics from `Property Settings > Data Collection`.
 
@@ -189,6 +189,31 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 ![](https://i.imgur.com/SmO7Lz9.png)
 
+  **Note**: To see the amount of **Link Attribution**, **Linker** or some features of **Google Analytics**, you need to wait some time for Google Analytics to update data. You should install and enable **Google Analytics Debugger** and **Page Analytics** add to the browser you are using to support adding reporting features to see the number of clicks.
+  
+- **Enable Google Analytics Opt Out**: Select **Yes** so that when customers enter your website, if they do not follow and accept cookies, the data will not be synced to Google Analytics, and if they do, the data will be synced to Google Anaylytics. This can help customers protect their information and reduce some unecessary data. This feature is compatible with [Mageplaza GDPR Professional](https://www.mageplaza.com/magento-2-gdpr-extension/).
+
+![](https://i.imgur.com/44LThbQ.png)
+
+- **Custom Dimensions**: 
+  - First, you should go to `Admin > Custom Dimensions > Add New Customer Dimensions` or **Dimensions** available in Google Analytics. 
+  
+  ![](https://i.imgur.com/CQD9oje.png)
+  
+  - Then go to **Custom Dimensions** field, click **Add** button and select values of **Name**, **Track Custom Attribute**, **Index** so that when you create **New Customer Report** in Google Analytics, you can collect and analyze selected store attributes that are not automatically tracked by Google Analytics.
+  
+  ![](https://i.imgur.com/MWfYH7P.png)
+
+- **Custom Metrics**:
+  - Enter `Admin > Custom Dimensions > Add New Customer Metrics` or **Metrics** available in Google Analytics.
+   
+  ![](https://i.imgur.com/qoWctK5.png)
+  
+  - Then go to **Custom Metrics** field, click **Add** button and select values of **Name**, **Track Custom Attribute**, **Index** so that when you create **New Customer Report** in Google Analytics, you can collect and analyze selected store attributes that are not automatically tracked by Google Analytics.
+  
+  ![](https://i.imgur.com/Zx19QMr.png)
+  
+  **Note**: To create **New Custom Report** in Google Analytics, **Dimensions** and **metrics** are 2 custom attributes that always go along with each other and needs creating and customizing. 
 
 ####  1.4. Facebook Pixel
 
