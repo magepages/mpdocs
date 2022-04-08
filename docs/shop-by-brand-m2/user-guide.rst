@@ -298,7 +298,7 @@ To generate a new brand, follow these steps
   * Choose the `CMS Block` to show brand as a static block on anywhere of your page. You can disable it by leave it blank.
   * **Related Brands**: Select related brands to the brand you are setting.
   
-  .. image:: https://i.imgur.com/EtAyOad.png
+  .. image:: https://i.imgur.com/eKMHady.png
   
   * **Branded Products**: Add multiple products to the brand at once.
   
