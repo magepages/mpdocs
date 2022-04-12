@@ -74,7 +74,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1. Configuration
 ``````````````````````````````
 
-.. image:: https://i.imgur.com/DdsW4Jb.png
+.. image:: https://i.imgur.com/3QlGCuG.png
 
 1.1. General 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -90,6 +90,12 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 * **Allow overriding cookies**: Choose **Yes** to override Affiliate code when a customer is referred by many Affiliates. 
 
 * **Allow using Affiliate Code as Coupon**: Select Yes to allow using Affiliate code for discount. This usgae is available in Shopping Cart Page and Checkout Page
+
+* **Enable Banner**: If **Yes**, the banner will be shown on the **My Affiliate** page on the frontend. Show extra field:
+ 
+ * **Show Report for Banner on Frontend**: If **Yes**, will show the report of Impressions, Clicks of customers to each banner.
+ 
+ .. image:: https://i.imgur.com/QekY8a5.png
 
 * **Show Affiliate link on**: Choose the display position of the Affiliate link
 
@@ -242,13 +248,13 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.4. Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/szOHroB.png
+.. image:: https://i.imgur.com/eTIuy8a.png
 
 * **Allow withdrawal request**: Select **Yes** to display the withdrawal request outside the frontend
 
 * **Payment Method**
 
-  * There are three withdraw methods which are Offline payment, Bank Transfer and Paypal payment
+  * There are three withdraw methods which are Offline payment, Bank Transfer and Paypal payment, Store Credit. Affiliate extension is completely compatible with Mageplaza Store Credit (v4.0.4 or above for M2.4 | v1.1.9 or above for M2.3 or below) to support withdrawal with the store credit payment.
   
   * Enter the withdrawal fee for each form of withdrawal. You can enter the charge as a specific amount or a percentage of the total amount withdrawn
  
@@ -377,7 +383,7 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1.6. Refer Friends Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/s0fQaP9.png
+.. image:: https://i.imgur.com/N7UfzZe.png
 
 * **Enable Refer Friends Feature**: Choose **Yes** to activate the introduce to friends function
 
@@ -407,6 +413,14 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Display the social button share at Referral Via Social Networks outside the frontend:
 
 .. image:: https://i.imgur.com/pE3cjdp.png
+
+* **Enable Referral via Social Networks on Product Listing Page**: If **Yes**, the **Referral via Social Networks** will be displayed in the product listing page, helping customers to share and introduce to their friends to join the campaigns and get certain promotions. 
+
+.. image:: https://i.imgur.com/OSFtnn5.png
+
+* **Enable Referral via Social Networks on Product Details Page**: If **Yes**, **Referral via Social Networks** will be displayed in the product details page. 
+
+.. image:: https://i.imgur.com/BjEWCEv.png
 
 * **Use Cloudsponge to retrieve email contacts**: Select **Yes** to allow access contacts from customer's account such as Gmail, Yahoo, Live, AOL, Outlook, etc.
 
@@ -821,7 +835,7 @@ Add New Banner
 6.2. Add New Withdraws
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/f8idxZ5.png
+.. image:: https://i.imgur.com/uNr8vrm.png
 
 * **Account** 
 
