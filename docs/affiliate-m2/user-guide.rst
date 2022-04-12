@@ -234,13 +234,13 @@ For example: refer code is 123, Custom parameter is abc
 1.4 Withdrawal Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/7nPlsxL.png
+.. image:: https://i.imgur.com/eTIuy8a.png
 
 * **Allow withdrawal request**: Select **Yes** to display the withdrawal request outside the frontend
 
 * **Payment Methods**
 
-  * There are three withdraw methods which are Offline payment, Bank Transfer and Paypal payment
+  * There are three withdraw methods which are Offline payment, Bank Transfer and Paypal payment, Store Credit. Affiliate extension is completely compatible with Mageplaza Store Credit (v4.0.4 or above for M2.4 | v1.1.9 or above for M2.3 or below) to support withdrawal with the store credit payment.
   
   * Enter the withdrawal fee for each form of withdrawal. You can enter the charge as a specific amount or a percentage of the total amount withdrawn
  
@@ -369,7 +369,7 @@ For example: refer code is 123, Custom parameter is abc
 1.6. Refer Friends Configuration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/uNkYjwl.png
+.. image:: https://i.imgur.com/N7UfzZe.png
 
 * **Enable Refer Friends Feature**: Choose **Yes** to activate the introduce to friends function
 
@@ -409,6 +409,14 @@ For example: refer code is 123, Custom parameter is abc
   * Enter the Cloudsponge key
   
   * The default key used is **a473483c2e256bd812bdc9a0bac867ecf1999a54**
+
+* **Enable Referral via Social Networks on Product Listing Page**: If **Yes**, the **Referral via Social Networks** will be displayed in the product listing page, helping customers to share and introduce to their friends to join the campaigns and get certain promotions. 
+
+.. image:: https://i.imgur.com/OSFtnn5.png
+
+* **Enable Referral via Social Networks on Product Details Page**: If **Yes**, **Referral via Social Networks** will be displayed in the product details page. 
+
+.. image:: https://i.imgur.com/BjEWCEv.png
 
 1.6.1. Sending Email Content
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -639,7 +647,7 @@ Step 5: Set up the Coupon Code
 5.2. Add New Withdraws
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/f8idxZ5.png
+.. image:: https://i.imgur.com/uNr8vrm.png
 
 
 * **Account** 
@@ -666,7 +674,7 @@ Step 5: Set up the Coupon Code
 
   * Choose the payment method for withdrawal
   
-  * There are three payment methods: Offline payment, Bank Transfer, Paypal payment
+  * There are three payment methods: Offline payment, Bank Transfer, Paypal payment, Store Credit
   
 * **Withdraw Description**: Fill in the description for withdrawal
 
