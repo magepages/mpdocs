@@ -306,7 +306,7 @@ To generate a new brand, follow these steps
     * `Action > Add Products > Submit`: Add selected products to the brand.
     * `Action > Remove Products> Submit`: Remove selected products from the brand.
   
-  .. image:: https://i.imgur.com/F6cc5ni.png
+  .. image:: https://i.imgur.com/5tVXRhd.png
 
 * Expand **Meta Information** section, you can complete all fields for your better SEO, including:
   
