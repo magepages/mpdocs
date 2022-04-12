@@ -835,7 +835,7 @@ Add New Banner
 6.2. Add New Withdraws
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/uNr8vrm.png
+.. image:: https://i.imgur.com/zhWHqBI.png
 
 * **Account** 
 
