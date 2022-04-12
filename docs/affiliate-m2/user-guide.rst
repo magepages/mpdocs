@@ -647,7 +647,7 @@ Step 5: Set up the Coupon Code
 5.2. Add New Withdraws
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-.. image:: https://i.imgur.com/uNr8vrm.png
+.. image:: https://i.imgur.com/zhWHqBI.png
 
 
 * **Account** 
