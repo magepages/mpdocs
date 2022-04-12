@@ -48,6 +48,7 @@ You can generate specific categories for brands which direct your customers' min
 1.5 Related Brand
 ***************
 You can display different brands related to your brand. This helps you promote more products and at the same time allow customers to find suitable products.
+
 .. image:: https://i.imgur.com/gDGcGbO.gif
 
 II. How to configure
