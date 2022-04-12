@@ -56,7 +56,7 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 ### 1. Configuration
 #### 1.1. General
 
-![](https://i.imgur.com/l5431CP.png)
+![](https://i.imgur.com/yGF6a1R.png)
 
 - `Enable`: Choose Yes to enable this module
 - `Title`:
@@ -73,7 +73,11 @@ Especially, if customers want to be active in getting their orders. Store Pickup
   - If leaving this field blank, the default is `find-a-store`
 
 - `Display Link On`: Select where the link can be displayed on the frontend
-- `Enable Get Direction`: Select Yes to enable the directions to the store when customers want
+- `Enable Get Direction`: Select **Yes** to enable the directions to the store when customers want
+- `Enable Pagination`: If **Yes**, pagination will be displayed when you have thousands of stores. It will improve customer experience significantly.
+- `Enable Search By Area`: If **Yes**, the **Search By Area** feature will be displayed in the store information map, enabling customers to search for stores more quickly based on where customers are, including fields such as **Store Name, Street Address, Country, City, Zip/Postal Code, State/ Province**. Click the **Reset** button to reset and display all stores.
+
+![](https://i.imgur.com/O4ULUxo.gif)
 
 ##### 1.1.1. Filter store
 
@@ -281,7 +285,9 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shipping Methods > Mageplaza Store Pickup`.
 
-![](https://i.imgur.com/A46M7gC.png)
+![](https://i.imgur.com/n3KwNEV.png)
+
+![](https://i.imgur.com/5i7GSo3.png)
 
 - **Enable**: Select **Yes** to enable using the Shipping Methods feature with Mageplaza Store Pickup.
 - **Title**:
@@ -307,6 +313,13 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Sales > Shippin
   
   ![](https://i.imgur.com/sNS9uV6.png)
   
+- **Displayed Error Message**: Enter the message to notify errors when shipping method is not applied to several addresses that customers selected. Display message when `Show Methods if Not Applicable = Yes`.
+- **Ship to Applicable Countries**:
+  - **All Allowed Countries**: Apply the store pickup method to all countries.
+  - **Specific Countries**: Apply the store pickup method to certain countries. 
+    - **Ship to Specific Countries**: Select countries  to apply the store pickup method. Unselected countries will not allow this delivery method.
+- **Applied Payment Methods**: Select payment method to apply to store pickup method.
+- **Show Methods if Not Applicable**: If **Yes**, the store pickup method will still be displayed even when not applicable to some addresses or countries that customers selected, and the **Displayed Error Message** will be shown.
 - **Sort Order**:
   - Enter the number in the Sort Order field. Display sort order for Shipping method when customer pays. The higher the number, the more priority the shipping method has. With 0 being the highest.
   - If left blank, the default is 0.
