@@ -199,12 +199,14 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.4. Depend Attributes
 
-![](https://i.imgur.com/WdWsMlz.png)
+![](https://i.imgur.com/fT0k5W3.png)
 
 - Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
 - Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
 - In addition, Attribute can also depend on one or more shipping methods
 - When the Attribute has been added to another Attribute, just depend on the Shipping method, make sure the 2 dependents are selected so that the attribute is displayed.
+- **Depend on countries**: Select one or multiple countriles to display attributes when customers make orders. Attributes will depend on each selected country. This extra field will be shown:
+  - **Countries**: Select countries to apply attributes display. If left empty, will show attributes for all countries.
 
 
 ### 3. API
