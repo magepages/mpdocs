@@ -86,13 +86,14 @@ Here are the details for the settings of each tab.
 
 The Product State Filterfeature allows the shoppers to filter the items by the **New**, **Sale**, and **Stock** status. Here is how the Product State Filter configuration will be displayed: 
 
-.. image:: https://i.imgur.com/qRlObXn.png
+.. image:: https://i.imgur.com/AQgHdc3.png
 
 * In the **Group label** field: The name of the group attribute 
 * In the **Position** field: Admin set the displaying priority for **Product State Filter**. The smaller number entered, the higher priority to show first. 
 * In the **Expand by default** field: Choose **Yes** to automatically expand the group attribute `Rating` when shoppers go to the collection page.
 * **Enable New Filter**, **Enable On Sales filter**, **Enable Stock filter**: Choose **Yes** to enable the filter and leave **No** to disable.
 * **New label**, **On Sales label**, **Stock label**: Add the name for each label filter.
+* **Exclude Categories**: Choose categories to exclude **Product State Filter**.
 
 2.2. Rating Filter
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -101,12 +102,13 @@ This feature allows the shoppers can filter the items by the rating follows 5 le
 
 The Rating Filter configuration is available under the **Filter Configuration** tab.
 
-.. image:: https://i.imgur.com/pog5sWu.jpg
+.. image:: https://i.imgur.com/lwqEler.png
 
 * In the **Enable Rating Filter** field: Choose "Yes" to enable and display the group attribute **Rating** on the Layered Navigation and leave "No" to disable this feature. When you choose "Yes", there are 2 more options for the modification
 * In the **Group Label** : Adding the text as the group attribute's name.
 * In the **Expand by default** : Choose "Yes" to automatically expand the group attribute **Rating** when shoppers go to the collection page.
 * In the **Position** field: Admin can allow **Rating Filter** to show at different positions such as Top Sidebar, Bottom Sidebar, Below Category Filter.
+* **Exclude Categories**: Choose categories to exclude **Rating Filter**.
 
 3. SubCategory Slider 
 -------------------------------
