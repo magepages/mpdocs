@@ -199,7 +199,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.4. Depend Attributes
 
-![](https://i.imgur.com/fT0k5W3.png)
+![](https://i.imgur.com/0WzW6gr.png)
 
 - Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
 - Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
