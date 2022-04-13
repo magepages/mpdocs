@@ -165,3 +165,11 @@ You can add lookbooks or sliders anywhere by adding **widgets** on **Blocks**, *
 - Insert Widget
 
 ![](https://i.imgur.com/3nFRffB.gif)
+
+### 5. Rest API
+
+Mageplaza’s Lookbook extension supports using Rest API to list information and list of Lookbook.
+
+Please view details [here](https://documenter.getpostman.com/view/10589000/UVz1NXxW). 
+
+View guide to create Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
