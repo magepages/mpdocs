@@ -8,6 +8,27 @@ Nowadays, Facebook is one of the most popular social networks to be used. And al
 - Download Facebook Plugin
 - [Install Mageplaza module](https://www.mageplaza.com/install-magento-2-extension/)
 
+## How to configure Facebook API
+
+To create the Facebook app and the Facebook App API information, please follow these steps:
+
+**Step 1:** Go to: https://developers.facebook.com/
+
+**Step 2:** Log in to Facebook. Click **Login** to sign in with the existing Facebook account, or register a new account. After logging in, choose **My App** from the menu at the top.
+
+![](https://i.imgur.com/1gvMktm.png)
+
+**Step 3**: Select the app type that you are using. Fill out the Display name for your app.
+
+![](https://i.imgur.com/3qw33dH.png)
+
+**Step 4**: Go to `Settings > Basic` to get the App ID in Facebook to fill in the **Facebook App ID** field of **Mageplaza Facebook Plugin extension** to connect with your Facebook.
+
+![](https://i.imgur.com/WAccWJs.png)
+
+![](https://i.imgur.com/0yHw4Dq.png)
+
+You can go to: https://developers.facebook.com/tools/comments to get the list of your Facebook apps, which lets you moderate all comments associated with each app.
 
 ## How to configure
 
