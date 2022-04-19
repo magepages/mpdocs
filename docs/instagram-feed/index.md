@@ -12,6 +12,59 @@ The Instagram Feed supports displaying your Instagram photos on the homepage, pr
 - Download Mageplaza Instagram Feed extension
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
+## How to configure Instagram API
+
+To create the Facebook app and the Facebook App API information, please follow these steps:
+
+**Step 1:** Go to: https://developers.facebook.com/
+
+**Step 2:** Log in to Facebook. Click **Login** to sign in with the existing Facebook account, or register a new account. After logging in, choose **My App** from the menu at the top.
+
+![](https://i.imgur.com/1gvMktm.png)
+
+**Step 3**: Select the app type that you are using. Fill out the Display name for your app.
+
+![](https://i.imgur.com/3qw33dH.png)
+
+**Step 4**: Go to `Settings > Basic`, click **Add platform** and choose **Website**. After that, click **Next** button to add your website's URL. You can add other platforms based on your needs.
+
+![](https://i.imgur.com/jpiAFtK.png)
+
+**Step 5**: Go to **Products**, click **Ađ Product** and select **Setup** in **Instagram Basic Display** to add products to your app.
+
+![](https://i.imgur.com/FzgYgXv.png)
+
+**Step 6**: After clicking **Setup**, you are redirected to `Instagram Basic Display > Basic Display`, click **Create New App** to start creating new app.
+
+![](https://i.imgur.com/j67CHUU.png)
+
+Here you need to complete fields such as **Valid OAuth Redirect URIs, Deauthorize callback URL, Data Deletion Request URL** (can enter your website URL), and with the **User Token Generator**, you click **Add or Remove Instagram Testers** button.
+
+![](https://i.imgur.com/5DTSOuD.png)
+
+**Step 7**: Redirect to `Roles > Roles`, select **Add Instagram Tester** button connected to the Instagram account. Enter the username of the Instagram account that you want to send invitation and click **Submit** button.*Note*: The posts of the Instagram account that you sent invitation and get its token, will be displayed on your website.
+
+![](https://i.imgur.com/TkWrjSv.png)
+
+**Step 8**: Log in the Instagram account that got invitation, select your profile icon and click **Profile**.
+
+![](https://i.imgur.com/jyQnTBE.png)
+
+Then click the settings icon, select **Apps and Websites** and go to **Tester Invites** section to **Accept** the sent invitation.
+
+![](https://i.imgur.com/eAy7IVN.png)
+
+![](https://i.imgur.com/XpvyyXn.png)
+
+**Step 9**: Go to `Instagram Basic Play > Basic Display >  User Token Generator`, choose **Generate Token** button in the account you just sent the invitation to get **Token**.
+
+![](https://i.imgur.com/cXU3toh.png)
+
+Copy that token and go to **User Token** field in the **[Mageplaza Instagram Feed extension](https://www.mageplaza.com/magento-2-instagram-feed/)**.
+
+![](https://i.imgur.com/gdE6wOT.png)
+
+**Note**: After setting up Instagram API information, you should go to **Widget** to select the display positions of the post or website,... of Instagram on your website.
 
 ## How to Use 
 
