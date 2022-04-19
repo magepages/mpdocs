@@ -123,6 +123,16 @@ Here are the details for the settings of each tab.
     
 .. image:: https://i.imgur.com/KemUMvJ.jpg    
 
+1.1. Highlight Option in Filter
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. image:: https://i.imgur.com/2bz8P4X.png
+
+- **Show Highlight Option in the Filter**: If **Yes**, selected filtering options will be highlighted in color. Show extra field:
+ - **Text Color**: Show colors to highlight the option attributes.
+ 
+.. image:: https://i.imgur.com/nEeTBiB.png
+
 2. Additional Filter 
 ------------------------------
 
