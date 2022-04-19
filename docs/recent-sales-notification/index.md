@@ -8,7 +8,7 @@ Mageplaza Recent Sales Notification extension is fully compatible with Mageplaza
 
 ## How to use
 
-- Sales Pop extension supports display on Desktop and Mobile with **4 positions**:
+- Recent Sales Notification extension supports display on Desktop and Mobile with **4 positions**:
   - **Top Left**: displays a popup at the top left of the page.
     - **Desktop**
     
@@ -28,7 +28,7 @@ Mageplaza Recent Sales Notification extension is fully compatible with Mageplaza
   ![](https://i.imgur.com/MB6ELNq.png)
   - **Checkout Total Popup**: Displays total number of checked out customers:
   ![](https://i.imgur.com/FbPlzhF.png)
-  - **Upsell Popup**: Displays often bought together products:
+  - **Up-sell Product Popup**: Displays often bought together products:
   ![](https://i.imgur.com/YE4INhS.png)
 
 ## How to configure
@@ -40,7 +40,7 @@ Login to the Magento Admin, choose `Marketing > Recent Sales Notification > Conf
 
 #### 1.1. General
 
-![](https://imgur.com/fhz9kkC.png)
+![](https://i.imgur.com/y4Z8jSF.png)
 
 - **Enable**: Select **Yes** to enable the module feature.
 - **Show Close Button**:
@@ -78,7 +78,7 @@ Here records information of different types of popup: **Recent Sales, Checkout I
 
 ![](https://imgur.com/7sZuxux.png)
 
-#### 2.2. Create new sales popup
+#### 2.2. Create new popup
 ##### 2.2.1. General
 
 ![](https://i.imgur.com/VCfCfke.png)
@@ -186,7 +186,7 @@ Here records information of different types of popup: **Recent Sales, Checkout I
 
 In this section, you can configure each popup and the features similar to those in the Configuration parts above by choosing **Use Config** option in each field.
 
-![](https://i.imgur.com/Hu5oHOj.png)
+![](https://i.imgur.com/8KvHCm4.png)
 
 #### 2.2.3. Report
 
@@ -222,7 +222,7 @@ Recent Sales Notification is fully compatible with the Mageplaza Quick View exte
 
 Mageplaza's Recent Sales Notification extension supports the use of the **Rest API** to view a detailed list of all popup that the admin has created.
 
-- Details can be viewed [here](https://documenter.getpostman.com/view/5977924/SWE2A1Dd?version=latest).
+- Details can be viewed [here](https://documenter.getpostman.com/view/10589000/SzRyzq2J).
 - Instructions for creating Integration tokens [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html).
 
 ### 5. Graphql
@@ -238,11 +238,5 @@ To start working with Recent Sales Notification GraphQL in Magento, please do th
 - Use Magento 2.3.x. Reture your site to developer mode.
 - Install chrome extension (currently does not support other browsers)
 - Set GraphQL endpoint as `http://<magento2-3-server>/graphql` in url box, click **Set endpoint**. (e.g. http://develop.mageplaza.com/graphql/ce232/graphql)
-- Mageplaza-supported queries are fully written in the **Description** section of `Query.SalesPop.items`
-- To get the popup information by id, enter the id of the necessary popup in the array ids []
-
-![](https://i.imgur.com/DVq9oky.png)
-
-- To get the information of all popups quickly, leave the ids[ array empty. 
-
-![](https://i.imgur.com/33cnSY6.png)
+- Mageplaza-supported queries are fully written in the **Description** section of `Query.RecentSalesNotification.items`
+- To get the popup information by id and information of all popups, learn more [here](https://documenter.getpostman.com/view/10589000/UUy37kXJ#5c48f6ab-ff85-41f0-8623-c8e0f73e21f9).
