@@ -30,6 +30,8 @@ To create the Facebook app and the Facebook App API information, please follow t
 
 You can go to: https://developers.facebook.com/tools/comments to get the list of your Facebook apps, which lets you moderate all comments associated with each app.
 
+**Note**: After setting up Facebook API information, you should go to **Widget** to select the display positions of the post or website,... of Facebook on your website. 
+
 ## How to configure
 
 From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Facebook Plugin > Configuration`
