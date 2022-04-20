@@ -52,10 +52,10 @@ From the Admin Panel, go to  `Content > Product Labels > Configuration`
 
 **New Product Setting**
 
-* **How to set the New Products**: There are 2 ways to set rpducts as new products: 
+* **How to set the New Products**: There are 2 ways to set products as new products: 
   * **New from Date** and **New to Date**
-  * Create date product:
-    * Number of Days: The maximum number of days from the Create day of product until today, which depends when `How to set the New Products = Create Date`
+  * **Create date product**:
+    * **Number of Days**: The maximum number of days from the Create day of product until today, which depends when `How to set the New Products = Create Date`
  
 **Stock Status Label Setting**
 
