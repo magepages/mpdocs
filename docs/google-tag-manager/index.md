@@ -191,7 +191,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
   **Note**: To see the amount of **Link Attribution**, **Linker** or some features of **Google Analytics**, you need to wait some time for Google Analytics to update data. You should install and enable **Google Analytics Debugger** and **Page Analytics** add to the browser you are using to support adding reporting features to see the number of clicks.
   
-- **Enable Google Analytics Opt Out**: Select **Yes** so that when customers enter your website, if they do not follow and accept cookies, the data will not be synced to Google Analytics, and if they do, the data will be synced to Google Anaylytics. This can help customers protect their information and reduce some unecessary data. This feature is compatible with [Mageplaza GDPR Professional](https://www.mageplaza.com/magento-2-gdpr-extension/).
+- **Enable Google Analytics Opt Out**: Select **Yes** so that when customers enter your website, if they do not follow and accept cookies, the data will not be synced to Google Analytics, and if they do, the data will be synced to Google Analytics. This can help customers protect their information and reduce some unecessary data. This feature is compatible with [Mageplaza GDPR Professional](https://www.mageplaza.com/magento-2-gdpr-extension/).
 
 ![](https://i.imgur.com/44LThbQ.png)
 
