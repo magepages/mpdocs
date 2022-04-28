@@ -303,9 +303,9 @@ This add-on tool will assist SEO extension in assessing and marking which and ho
 For example with a product:
 
 * Go to ``Product > Catalog``, choose **Edit** a random one.
-* Choose ``Check On-page`` button at the header
+* Choose ``PageSpeed Insight`` button at the header
 
-.. image:: https://i.imgur.com/KMgxwbE.png
+.. image:: https://i.imgur.com/2wARVTc.png
 
 * The page will be directed to SEO Tool page for the check execution.
 
