@@ -191,7 +191,7 @@ Login to the **Admin Magento**, choose `Stores> Configuration> Catalog Permissio
   
   ### 4. Edit Pages/Block
 
-- Login to the **Magento Admin**, choose `Catalog > Pages/Blocks`, select **new/edit** with a Restrict Static Page/Restrict Static Block you want.
+- Login to the **Magento Admin**, choose `Content > Elements > Pages/Blocks`, select **new/edit** with a Restrict Static Page/Restrict Static Block you want.
 - **This section applies the configuration when choose new/edit for each Page/Block.** 
 - **Note**: If the **Restrict Static Page/Restrict Static Block** in the Configuration section and for **each Page/Block** here are different, priorities will be given to each Page/Block first.
 
