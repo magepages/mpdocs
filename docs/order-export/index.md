@@ -24,6 +24,8 @@ Go to `Sales > Order Export > Configuration`
 
 - **General**:
   - **Enable**: Choose `Yes` to enable this module and display in the `Sales` section
+  - **Log Cleaning Automatically after(Day)**: Enter the number of days after which the old logs will be cleaned. If left empty, the email log will not be cleaned.
+  - **Export Limit**: Limit the number of orders that can be exported in a single iteration. If left empty or zero, each export will be 1000 orders in maximum.
 
 - **Email Alert**:
   - **Enable**: Choose Yes to enable email notification for store owners
@@ -70,7 +72,7 @@ To create a profile, admins need to do some following steps:
 - Choose `Add New Order`
 - `General` Tab
 
-![](https://i.imgur.com/mL9RlAs.png)
+![](https://i.imgur.com/EcGwuKv.png)
 
 - Fill in the name displaying in the `Grid Profile` for the export type
 - `Status`: Choose Enable so that Profile can auto-export based on Cron or Command
@@ -78,6 +80,7 @@ To create a profile, admins need to do some following steps:
 - `Add timestamp to file name`: Choose Yes so that when you you download, the file name will auto-add the file downloading time into the file name.
 
 For example: File Name is OrderExport. If `Add timestamp to file name = yes`, when you download the file, the file name is `OrderExport_20181020_132054.xml`
+- `Export Limit`: Limit the number of orders that can be exported in a single iteration. If left empty or zero, each export will be 1000 orders in maximum.
 - `Private Download URL`: the system will auto-create Download URL after Save. Download URL will have Secret key if possible. Anyone who has a Private Download Url can download the export file.
 - `Secret Key`: Created a 32 character string when admins click on Reset Key. Secret Key will be automatically added to `Private Download Url` after Save.
 - `Number of order exports`: After Generate, the system automatically updates the exported order number. These orders must satisfy the condition of the profile.
@@ -103,9 +106,9 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
   - Add values to the template by clicking on the `Insert Variable` button
   - After adding the template content, admins can click `Download first 5 items` to download the example about the file content
 
-- For file format is CSV, TXT, TSV:
+- For file format is CSV, TXT, TSV, ODS, XLSX:
 
-   ![](https://i.imgur.com/GRZfcfv.gif)
+   ![](https://i.imgur.com/UubWb1g.png)
 
   - `Export Type`:
     - `Loop order`: If you choose this format, when the file is exported, it will repeat the order with each item as a line
@@ -132,7 +135,11 @@ For example: File Name is OrderExport. If `Add timestamp to file name = yes`, wh
 - `Change order Status`: After generating profile, the exported orders will change status to the selected item. Admins can go to `Sales > Operations > Order` to check
 - `Create From - To`: The orders placed during this time will be exported
 - `Order ID From - To`: Orders with IDs in the selected range will be exported
-- `Export Duplicate`: Select No so that the export file overwrites into the old file. However, if the file name has a timestamp add, the file is always created newly. 
+- `Export Duplicate`: Select No so that the export file overwrites into the old file. However, if the file name has a timestamp add, the file is always created newly.
+- `Apply the rule only if the following conditions are met (leave blank for all products)`
+  - Set the conditions to apply the rule
+  
+  ![](https://i.imgur.com/K88ljY8.png)
 
 ##### 2.2.4. Delivery
 
