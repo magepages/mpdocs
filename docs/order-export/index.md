@@ -20,7 +20,7 @@ From the Admin Panel, go to ``Sales > Order Export``
 
 Go to `Sales > Order Export > Configuration`
 
-![](https://i.imgur.com/duMVuG2.png)
+![](https://i.imgur.com/jiGyma5.png)
 
 - **General**:
   - **Enable**: Choose `Yes` to enable this module and display in the `Sales` section
