@@ -280,3 +280,18 @@ When you install the module, you should run the following command to update the 
 When you want to uninstall the module, please go to database to delete it. Please access to **Views** table, et **Table** column, find and delete the old data.
 
 ![](https://i.imgur.com/Ydrs3T3.png)
+
+### GraphQL
+
+Run the following command in Magento 2 root folder:
+
+`composer require mageplaza/module-better-sorting`
+`php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy`
+
+Better Sorting extension by Mageplaza supports getting data in Configuration and searching products based on product attributes to help you find the desired items quickly.
+
+To start working with Better Sorting GraphQL in Magento, you need to:
+- Use Magento 2.3.x or 2.4.x. Take site back to the developer mode.
+- Learn more on request GraphQL we support [here](https://documenter.getpostman.com/view/10589000/Uz5JHvJT)
+
