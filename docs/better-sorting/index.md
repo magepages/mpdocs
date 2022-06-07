@@ -286,8 +286,10 @@ When you want to uninstall the module, please go to database to delete it. Pleas
 Run the following command in Magento 2 root folder:
 
 `composer require mageplaza/module-better-sorting`
-`php bin/magento setup:upgrade
-php bin/magento setup:static-content:deploy`
+
+`php bin/magento setup:upgrade`
+
+`php bin/magento setup:static-content:deploy`
 
 Better Sorting extension by Mageplaza supports getting data in Configuration and searching products based on product attributes to help you find the desired items quickly.
 
