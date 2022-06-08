@@ -4,7 +4,7 @@
 
 Instagram is becoming popular when people desire more and more to share, comment and post their images every day. Now you definitely can utilize this on Magento 2 for your eCommerce website with the support of Mageplaza Instagram Feed module.
 
-The Instagram Feed supports displaying your Instagram photos on the homepage, product page or on any CMS page within your sites. You can also configure the number of images per row and the maximum number of images displayed. Images can be sorted and arranged according to the most recent, most liked, most comments and randomly. You can also display like or comment button on photos or show popup when clicking on images.
+The Instagram Feed supports displaying your Instagram photos on the homepage, product page or on any CMS page within your sites. You can also configure the number of images per row and the maximum number of images displayed. Images can be sorted and arranged according to the most recent, most liked, most comments and randomly.
 
 
 ## Installation guide
