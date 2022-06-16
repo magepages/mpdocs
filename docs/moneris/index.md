@@ -917,7 +917,7 @@ Here admin can **Refund Online/ Offline** individual or all orders.
 ### 6. Instructions for installing the library
 
 - Create directory: `lib/internal/Mageplaza`
-- Visit the link to download the **Moneris library** [here](https://gitlab.com/users/sign_in)
+- Visit the link to download the **Moneris library** [here](https://drive.google.com/file/d/1WFqL9rVEXQT1aropBKnEAoUZ1hpbxlCi/view?usp=sharing)
 - Extract the **module-moneris-library** into `lib/internal/Mageplaza` and rename the file name you just extracted as: Moneris
 
 ![](https://i.imgur.com/HR4N1M2.png)
