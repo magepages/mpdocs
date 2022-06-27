@@ -362,6 +362,10 @@ Show the extra fee information in the order grid. Go to `Sales > Orders` to lear
 - You can view the template of PDF Order when it is compatible with Extra Fee extension [here](https://github.com/mageplaza/pdf-invoice-templates/blob/master/invoice/pdf-invoice-extra-fee.html)
 - For Invoice and Credit Memo, all fees of Extra Fee will be added to Invoice or Credit Memo first.
 
+## 10. API
+Extra Fee extension by Mageplaza supports using Rest API to get extra fee data rules, collect total for customers or guest customers.
 
+Please view details [here](https://documenter.getpostman.com/view/10589000/UzBpM6ij#3d6932d8-e4ba-4acd-ac44-24cbbaa19107).
+Guide on how to create Integration tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
 
 
