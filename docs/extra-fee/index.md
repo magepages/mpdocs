@@ -369,4 +369,18 @@ Please view details [here](https://documenter.getpostman.com/view/10589000/UzBpM
 
 Guide on how to create Integration tokens [here](https://devdocs.magento.com/guides/v2.4/get-started/authentication/gs-authentication-token.html).
 
+## 11. GraphQL
 
+Run the following command in Magento 2 root folder:
+
+`composer require mageplaza/module-extra-fee`
+
+`php bin/magento setup:upgrade`
+
+`php bin/magento setup:static-content:deploy`
+
+Extra Fee extension by Mageplaza supports getting data of Extra Fee rule and extra information in order with positions such as: payment method, shipping address, cart summary.
+
+To start working wwith **Extra Fee GraphQL** in Magento, you neeed to:
+- Usse Magento 2.3.x orr 2.4.x. Take site to the developer mode.
+- Learn morre about GraphQL requests wwe support [here](https://documenter.getpostman.com/view/10589000/UzBto4Qt)
