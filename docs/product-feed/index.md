@@ -168,17 +168,21 @@ The Revenue Report is based on the statistic of the ordered products uploaded to
       
 * **Delivery Config**: Setup the method to send the exported file to the server
     * To send the exported file to the server, choose "Yes" in the `Delivery` field
-    * Choose the method to send the file in the `Protocol` field: FTP or SFTP
+    * Choose the method to send the file in the `Protocol` field: FTP or SFTP, HTTP Server, API, GraphQL.
       * For the FTP protocol, you can add the selection to use `Passive Mode` or not. We recommend that you should this mode to avoid  being blocked by firewalls/NATs/proxies from sending files to the server.
+      * **HTTP Server**: Send to the HTTP server by sending POST request. For example: https://httpbin.org/post
+      * **API / GraphQL**: Send the feed file to API, GraphQL by sending POST, GET,... requests. For example: http://mageplaza/rest/V1/mpProductfeed/feed/file/, http://mageplaza/graphql,...
       
     * Enter the host name in the `Host Name` field
     * Enter the host name in the `User Name` field
     * Enter the password to access the host in the `Password` field
     * **Private Key**: Click [...] and choose key file to connect with the server. You can skip choosing key file when your server can connect without key file. 
     * If you want to save the file, only enter the path in the `Directory Path` field. Note: You need to set the name the export file at the end of the path
+    * **Request URL**: Show this field when selecting Protocol as HTTP Server, API, GraphQL. Enter URL to send POST, GET,...  request to HTTP Server, API; GraphQL.
+    * **Headers**: Show this field when selecting Protocol as HTTP Server, API, GraphQL. Enter content to send POST, GET,...  request. For example: Content-Type: application/json 
     * To check whether it is connected to the host, press `Test Connection`
 
-![](https://i.imgur.com/jadaYFc.png)
+![](https://i.imgur.com/MK7NKN1.png)
 
 * **Step 7**: Check the update history of the exported file. Admins can check the update history of the file in the `Logs` field.
 
