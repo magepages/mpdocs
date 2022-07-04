@@ -20,7 +20,7 @@ Login to the **Magento Admin**, go to `Stores > Configuration > Mageplaza > Mass
 
 #### 1. General
 
-![](https://i.imgur.com/afo5xdd.png)
+![](https://i.imgur.com/9NR6XJt.png)
 
 - Select **Enable = Yes** to enable the module.
 - **Select Actions**: 
@@ -38,7 +38,7 @@ Login to the **Magento Admin**, choose `Catalog > Products`.
 
 Click **Actions**, there, actions will be displayed according to **Enable Mass Action** configuration created at the **Configuration** section.
 
-![](https://i.imgur.com/YMPwu2g.png)
+![](https://i.imgur.com/7qzUoug.png)
 
 
 #### 2.1. Change Attribute Set
@@ -135,9 +135,33 @@ After selecting the product, Admin click **Action** and select **Copy Custom Opt
 Admin can choose one or more products by clicking on the desired product and click **Submit** to finish action.
 
 
-#### 2.6. Update Images
+#### 2.6. Add Custom Options
 
-- Admin can perform **Update Images** for one or multiple product by clicking on the ticket box of each **product ID**
+- Admin can **Add Custom Options** for 1 or multiple products by click on the tickbox of each product ID.
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
+
+![](https://i.imgur.com/y2RJvY9.png)
+
+After selecting products, admins can click **Action** and select **Add Custom options**. The system will display popup for admin to take actions.
+
+![](https://i.imgur.com/rn5yQA4.png)
+
+#### 2.7. Remove Custom Options
+
+- Admin can **Remove Custom Options** for 1 or multiple products by click on the tickbox of each product ID.
+- In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
+  - Click **Select All on This Page**, the system will select all products displayed on the grid.
+
+![](https://i.imgur.com/JqsJVPu.png)
+
+After selecting products, admins can click **Action** and select **Remove Custom options**. The system will display popup for admin to take actions.
+
+![](https://i.imgur.com/H5KqxOM.png)
+
+#### 2.8. Update Images
+
+- Admin can perform **Update Images** for one or multiple product by clicking on the tickbox of each **product ID**
 - In case Admin wants to do mass action for all product, click **Select All**, the system will auto select all created products.
   - Click **Select All on This Page**, the system will select all products displayed on the grid.
 
