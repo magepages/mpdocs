@@ -104,7 +104,7 @@ Expand the ``General Configuration > Gift Code Hidden Configuration``
 ##### 1.2.1. General
 This is where you can set up fews of basic configuration for Gift Card Product ``Mageplaza > Gift Card: Configuration > Gift Card Product Configuration``
 
-![](https://i.imgur.com/DHhTJhX.png)
+![](https://i.imgur.com/x8h8yVH.png)
 
 * In the **Gift Card Lifetime** field: It’s the place to set the expiration date of a gift card purchased by a customer. 
 * In the **Enable Delivery Time** field 
@@ -116,6 +116,10 @@ This is where you can set up fews of basic configuration for Gift Card Product `
 * In the **Customer Can Select Timezone** field
   * Will be displayed when admin selects “Yes” in **Enable Delivery Date**
   * When you select “Yes” in this section, customers can change the timezone according to the choice based on the given List Timezone.
+
+* In the **Enable Check Gift Card Code Status on the frontend** field: Select **Yes** to check and view infos of Gift Card code status of customers on the product page.
+
+![](https://i.imgur.com/HC7JQMi.png)
   
 ##### 1.2.2. Buy Gift Card Product Process
 It’s an add-on part of Gift Card Product Configuration
@@ -375,7 +379,7 @@ After accessing the Manage Gift Code(s) page, admins can select ``Create New Gif
 
 ##### 3.2.1 Gift Code Information
 
-![](https://i.imgur.com/8EIhvhv.png)
+![](https://i.imgur.com/yuyfT54.png)
 
 * In the **Code Pattern** field
   * Will be taken from the **General Configuration**. Admins can change Code Pattern flexibly.
@@ -383,6 +387,7 @@ After accessing the Manage Gift Code(s) page, admins can select ``Create New Gif
 * In the **Balance** field
   * This is where admins assign an amount to a gift card. This amount will be added to the gift credit when it’s redeemed and will be deducted from the order if Apply is setting as Discount.
   * If you leave it blank, there will be an error message.
+* In the **Description** field: Enter the description, to notify admins of created gift code.
 * In the **Status** field
   * Choose “Active” to validate the gift code.
   * The status will be changed to “Used” if the gift code is used.
