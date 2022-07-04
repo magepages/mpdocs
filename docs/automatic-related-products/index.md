@@ -82,7 +82,9 @@ Setting:
  
 #### c. Select the Displayed Products
 
-![](https://i.imgur.com/yxQJfoO.png)
+![](https://i.imgur.com/CKWrdLI.png)
+
+![](https://i.imgur.com/ub6PwZn.png)
 
 * **Block name**: Enter the block's name. It's only visible in the frontend
  
@@ -129,6 +131,25 @@ Setting:
   * **Product Name A-Z**: sort products in the ARP block based on Name from A-Z. 
   * **Product Name Z-A**: sort products in the ARP block based on Name from Z-A.
 
+* **Show See All in Slider**: Select **Yes** to display **See All** button next to the slider to allow viewing all products of that Automatic Related Product block.
+
+![](https://i.imgur.com/40wY721.png)
+
+* **Slider Width (px)**: Enter px to the Slider Width field and the slider width will be changed according to the entered value. Note: You should set the appropriate Slider Width to ensure the displayed products in the slider are not affected.
+
+* **Slider Height (px)**: Enter px to the Slider Height field and the slider height will be changed according to the entered value. Note: You should set the appropriate Slider Height to ensure the displayed products in the slider are not affected.
+
+* **Show Next/Prev Buttons**: Select **Yes** to display Next/Prev buttons in the slider.
+
+![](https://i.imgur.com/3DvzZrr.png)
+
+* **Show Dots Navigation**: Select **Yes** to display dots navigation in the slider.
+
+![](https://i.imgur.com/0hFRKpI.png)
+
+* **Auto Play**: Select **Yes** to automatically display the next product in the slider.
+ * **Auto Time-Out**: Select the time period to automatically display the next product in the slider.
+ 
 * **Display additional information**: choose additional information or/and buttons displayed under products in the block:
   * Price
   * Review Information
