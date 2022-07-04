@@ -216,7 +216,7 @@ This general configurations can apply for the whole module.
 ##### 4.2.1. General
 This displays general configurations regarding earning point(s)
 
-![](https://i.imgur.com/7wnhPnn.png)
+![](https://i.imgur.com/SgT1YBV.png)
 
 * In the **Rounding Method** field: There are 3 options for rounding
   * **Normal**: The number of points converted from the currency (USD, EUR, ...) will be rounded according to the normal rule. *E.x: 10.2 rounded to 10; 10.8 rounded to 11*.
@@ -225,6 +225,10 @@ This displays general configurations regarding earning point(s)
 * In the **Points Earning From Tax** field: Select “Yes” so the tax can be converted to earning point(s)
 * In the **Earn points from shipping fee**: Select “Yes” to allow Shipping Fee to be converted to point(s).
 * In the **Point Refund** field: When the customer places an order, they will receive a certain amount of earning points. The shop owner selects “Yes” in this section to retrieve the points when customer refunds the order.
+* In the **Earning Points from Orders with Spent Points**: Select **Yes** so that when customers spend points in a order, they still can earn points from that order.
+* In the **Notify reward points for guests**: Select **Yes** to notify customers when they have not registered or logged in to their accounts.
+ * **Message**: Enter messages to show customers on frontend.
+ ![](https://i.imgur.com/QW7tf5v.png)
 
 ##### 4.2.2. Sales Earning Process.
 
