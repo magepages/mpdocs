@@ -21,9 +21,16 @@ From the Admin Panel, go to `Sales > Order Attributes`
 
 From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
-![](https://i.imgur.com/rpGyGI2.png)
+![]([https://i.imgur.com/rpGyGI2.png](https://i.imgur.com/iE9RJoQ.png))
+
+**General Configuration**
 
 - **Enable**: Choose Yes to use this module
+
+**Checkout Configuration**
+
+- **Date Format**: Select the date format for attributes with Date or Date & Time type to show attributes on frontend.
+- **Time Format**: Select the time format for attributes with Time or Date & Time type to show attributes on frontend.
 
 ### 2. Manage Attributes
 
@@ -49,7 +56,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 - **Input Type**: Select input/select data type. There are 11 input types that admins can choose
 
-![](https://i.imgur.com/hB2pkqQ.png)
+![](https://i.imgur.com/Xr0cfoq.png)
 
   - `Text`: The input type is a text line (not downstream).
 
@@ -67,6 +74,10 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
  ![](https://i.imgur.com/kqVosDW.png)
  
+  - `Time`: This field has the format as Time
+
+  ![](https://i.imgur.com/2IT2GL2.png)
+ 
   - `Yes/No`: The field only includes 2 options as Yes or No.
  
  ![](https://i.imgur.com/KPsplFF.png)
@@ -75,11 +86,11 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ![](https://i.imgur.com/Tb02yNm.png)
 
-- `Multi-Select`: The field has the format as Multiple-Select. Customers can choose one or more options that admins have set in the backend
+- `Checkbox/Multi-Select`: The field has the format as Multiple-Select. Customers can choose one or more options that admins have set in the backend
 
 ![](https://i.imgur.com/AqMO26n.png)
 
-- `Single-select with image`: Customers only choose one of the Images/Colors that admins have set
+- `Radio/Single-select with image`: Customers only choose one of the Images/Colors that admins have set
 
 ![](https://i.imgur.com/IoXzHw4.png)
 
@@ -93,8 +104,13 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ![](https://i.imgur.com/PsGFja6.png)
 
+- **Static Block**: Show attributes having block format. Show extra field:
+  - **Select CMS Block**: Select blocks to display in orders.
+  
+  ![](https://i.imgur.com/WB6n47m.png)
+
 - **Default Value**:
-  - Only display with the Input Type as `Text Field, Text Area, Date, Yes/No, Content`
+  - Only display with the Input Type as `Text Field, Text Area, Date, Yes/No, Content, Time, Date, Date & Time`
   - This value will be displayed as the value of the field if the attribute is displayed in the Frontend
   
 - **Minimum Text Length**: 
@@ -105,10 +121,10 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
   - Shows when the Input Type is Text Field and Text Area
 - **Minimum Value**:
   - The minimum value 
-  - Shows when the Input Type is Date and Date & Time
+  - Shows when the Input Type is Date, Date & Time, Time
 - **Maximum Value**:
   - The maximum value
-  - Shows when the Input Type is Date and Date & Time
+  - Shows when the Input Type is Date, Date & Time, Time
 
 - **Values Required**:
   - Select Yes to force the users to enter a value for the field
@@ -199,7 +215,7 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 ##### 2.2.4. Depend Attributes
 
-![](https://i.imgur.com/0WzW6gr.png)
+![](https://i.imgur.com/QT77P7L.png)
 
 - Select an attribute with drop type, Single-select with Image to parent field. Parent Field options are automatically loaded into Depend on options
 - Attribute editing is only displayed when Customer selects the option selected in Depend on options. Admin can install depend on many options
