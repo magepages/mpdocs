@@ -169,6 +169,8 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   - Only the selected customer groups can see the products applied the rule
   - Allow choosing many groups simultaneously
   
+- **Do not Apply Rule with Customer ID**: Do not apply Call For Price with particular CustomerID entered here and show prices to them.
+  
 - **From Date**: Choose the start day applying the rule on the product
 - **To Date**: Choose the finish applying the rule on the product
   
