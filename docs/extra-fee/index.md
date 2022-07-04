@@ -12,7 +12,7 @@ Magento currently only supports certain shipping methods: Free Shipping, Flat Ra
 
 From the Admin Panel, go to `Stores > Extra Fee > Configuration`
 
-![](https://i.imgur.com/0P4gSBJ.png)
+![](https://i.imgur.com/OeyNiOy.png)
 
 ### 1. Configuration
 
@@ -28,6 +28,16 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
   - Many options can be selected
   - Only apply this calculation method with the fee type as a percentage
 - **Show Extra Fee on the Order Grid**: If Yes, the extra fee information will be displayed in the order grid.
+- **Display Extra Fees on Product Page**: Select **Yes** to display extra fee information of the product on the product page.
+  - **Title**: Enter title of all extra fees on the product page.
+  - **Display Extra Fees on Product Page**: Select the display position for all extra fees on the poroduct page. There are 2 positions:
+    - **Before Add to Cart button**:
+    
+    ![](https://i.imgur.com/tNYS2I2.png)
+    
+    - **After Add to Cart button**:
+    
+    ![](https://i.imgur.com/uIIl4x5.png)
   
 ### 2. Manage Extra Fees
 #### How to Add New Rule
@@ -62,7 +72,7 @@ From the Admin Panel, go to `Stores > Extra Fee > Configuration`, choose `Genera
 ##### Step 2: Set the conditions to apply the rule in the Condition section
 
 - Select conditions to apply the rule
-- You can set the conditions for the **Cart** or **Product** section as *Subtotal  greater than  50, Total Items Quantity  less than  5, etc*
+- You can set the conditions for the **Cart** or **Product**, **Customer** and **Other….**  section as *Subtotal  greater than  50, Total Items Quantity less than  5, Quantity In Stock, conditions based on customer information, etc.*
 
 ![](https://i.imgur.com/yMwCnDt.png)
 
