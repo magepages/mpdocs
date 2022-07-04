@@ -89,12 +89,30 @@ To use this function, you need to install `Mageplaza Sitemap extension <https://
 
 This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap, while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
 
-.. image:: https://i.imgur.com/cmRrPR9.jpg
+.. image:: https://i.imgur.com/Pj8WzTr.png
+
+.. image:: https://i.imgur.com/Q38lsXD.png
 
 * In the **Enable HTML Sitemap**: choose “Yes” if you want to enable HTML Sitemap. New related HTML Sitemap modules will be expanded automatically
 * In the **Enable Categories Sitemap**: choose “Yes” if you want to display all pages in categories.
+  * **Exclude Category Page**: Enter path in the Exclude Category Page to limit those category pages displayed in HTML Sitemap. Separated by a line break.
+  * **Display Style**: Select style to display categories in HTML sitemap:
+    * List:
+    
+    .. image:: https://i.imgur.com/Y9rYq1m.png
+    
+    * Dropdown:
+    
+    .. image:: https://i.imgur.com/CNE7TrY.png
+    
 * In the **Enable Pages Sitemap** field:  choose “Yes” if you want to display all pages in the website.
+  * **Enable Exclude Pages Sitemap**: Select **Yes** to exclude pages in HTML sitemap. Show extra field:
+    * **Filter Cms Pages**: Select one or multipole pages to exclude them from HTML sitemap.
 * In the **Enable Products Sitemap** field: choose “Yes” if you want to display all product pages.
+  * **Sort Products in HTML Sitemap by**: Select how to display products in HTML Sitemap according to: Product IDs, Product Name, Price.
+  * **Default Sort Direction**: Select the sorting direction: Descending or Ascending.
+  * **Hide Out Of Stock Products**:  Select **Yes** to hide out-of-stock products in HTML sitemap.
+  * **Limit Product Sitemap**: Enter a number in the Limit Product Sitemap field to limit the number of products shown in HTML sitemap.
 * In the **Enable Additional Links** field: if you have a tons of link which can’t be automatically inserted into HTML file, choose “Yes” to enable this permission.
 * In the **Additional Links** box: Paste additional links you want to add.
 * In the **Add Sitemap Link to Footer** field: choose “Yes” if you want to enable the advance HTML Sitemap in the footer of pages.
