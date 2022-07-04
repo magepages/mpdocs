@@ -36,6 +36,7 @@ From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extens
   - Select **Yes** to display the **Quick Edit** button at the **Edit Order** page.
   - When clicked, the slide popup display can edit all information at the **Edit Order** page.
 - **Auto Recalculate Shipping Fee**: Select **Yes** to auto apply the new shipping amount after updating ordered items or shipping addresses.
+- **Enable Return Item To Stock**: Select **Yes** to return items to stock after items are removed or the item quantity decreased.
 
 ### 2. Edit Order
 
