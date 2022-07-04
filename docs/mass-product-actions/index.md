@@ -424,11 +424,15 @@ Admin changes the display position of the product on the website by clicking **R
 
 ![](https://i.imgur.com/AVW2Tk8.png)
 
-#### 3.8. Update Images
+#### 3.8. Add Custom Options
+
+![](https://i.imgur.com/c9eb5Ze.png)
+
+#### 3.9. Update Images
 
 ![](https://i.imgur.com/HudcOpP.png)
 
-#### 3.9. Update Price
+#### 3.10. Update Price
 
 Tier Price is shown on admin order page
 
@@ -467,11 +471,15 @@ Tier Price is shown on admin order page
 
 ![](https://i.imgur.com/S9vH40Z.png)
 
-#### 4.6. Update Images
+#### 4.6. Add Custom Options
+
+![](https://i.imgur.com/6hebYmg.png)
+
+#### 4.7. Update Images
 
 ![](https://i.imgur.com/YnsKMnj.png)
 
-#### 4.7. Update Price
+#### 4.8. Update Price
 
 - Special Price is shown on Category Product Page.
 
