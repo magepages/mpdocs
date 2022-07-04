@@ -302,7 +302,7 @@ Rule Information shows the basic information of the rule. These information will
 
 ###### 1.4.2.2. Conditions
 
-![](https://i.imgur.com/uZMgL0R.png)
+![](https://i.imgur.com/utk9576.png)
 
 - After customers perform the action set here, they will receive a certain amount of points that admins set in the `Action` section
 - The actions/events that can be plus points including:
@@ -332,6 +332,14 @@ Rule Information shows the basic information of the rule. These information will
 - `Get X Points after Y days of Inactivity`: After a certain days of being Inactive, customer will receive points
 
  ![](https://i.imgur.com/TAG58xY.png)
+ 
+ - `Points Allocation`: Points will be added for cutsomers every week on the start day (Actions tab)
+
+ ![](https://i.imgur.com/0LUyfgt.png)
+ 
+ - `Lifetime Amount`: When reaching a certain Invoice Amount, cutsomers will earn points. 
+ 
+ ![](https://i.imgur.com/5DbH1CJ.png)
 
 ###### 1.4.2.3. Actions
 
