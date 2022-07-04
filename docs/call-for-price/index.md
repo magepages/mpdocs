@@ -181,14 +181,16 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
   
 ##### Step 2: Design the display of the rule on the frontend in the What to Show section  
 
-![](https://i.imgur.com/ugis0nI.gif)
+![](https://i.imgur.com/M5Pg6Rz.png)
+
+![](https://i.imgur.com/qT9x0rb.png)
 
 - **Button label**: Enter the label for the button to replace the Add to Cart button
 - **Action**:
   - `Action = Popup a quote form`: Display the popup to login or as a note of customers so that they can send the requests to the store owner
     - `Quote Heading`: Enter the title for the popup
-    - `Show Fields`: Choose the fields displaying the popup
-    - `Required Fields`: Choose the field displaying the default on the popup
+    - `Show Fields`: Choose the fields displaying the popup, including Name, Email, Phone, Company, Street Address, State/Province, Country, Attach a document/image, Contact Time, Note.
+    - `Required Fields`: Choose the field displaying the default on the popup, including Name, Email, Phone, Company, Street Address, State/Province, Country, Attach a document/image, Contact Time, Note.
     - `Enable Terms and Conditions`: Choose Yes to show Terms and Condition
     
   - `Action = Redirect to an URL`: Redirect the customers to the desired admin page when clicking on the button to replace the Add to cart button
