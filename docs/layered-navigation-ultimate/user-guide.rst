@@ -123,6 +123,15 @@ Here are the details for the settings of each tab.
     
 .. image:: https://i.imgur.com/KemUMvJ.jpg    
 
+
+* **Show Out of Stock products at the end**: Select the condition so that the out-of-stock products will be displayed at the bottom of the catalog page.
+
+ * **Base on Stock Label**: Products with the out-of-stock label will be displayed at the bottom of the catalog page.
+ * **Base on qty (<1)**: Products with quantity lower than 1 will be displayed at the bottom of the catalog page.
+ * **No**: Out-of-stock products stay at the current position.
+ 
+.. image:: https://i.imgur.com/Wbb6F21.png
+
 1.1. Highlight Option in Filter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
