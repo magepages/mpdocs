@@ -797,4 +797,8 @@ After adding the new Affiliate accounts, store admin can manage them in the **Ac
 
 .. image:: https://i.imgur.com/yI8tnQE.png
 
+8 Compatible with Mageplaza Store Credit (Withdraw)
+`````````````````````````````
+.. image:: https://i.imgur.com/1RRhK7G.png
 
+Affiliate is fully compatible with [Mageplaza Store Credit extension](https://www.mageplaza.com/magento-2-store-credit/) to support store credit withdrawal conveniently and link accounts together.
