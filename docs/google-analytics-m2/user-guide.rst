@@ -10,23 +10,29 @@ Set up in Google
 
 * Access to http://www.google.com/analytics/ 
 
-.. image:: https://lh4.googleusercontent.com/AzPyPvcUlXoVBwDzl-UgCY4TuNAk-BlF-U7XwRmH_Ld42tGqimgxFmwy8H0msvEaLXd-H4IzptHipvuyyp5GDVnUXBl_tCq7sNcG9qcERvfoM8ordU_-2AdBaDIMJA8hFxh0VAaU
+.. image:: https://i.imgur.com/veXwVL1.png
+
+.. image:: https://i.imgur.com/JFvi32i.png
+
 * Fill out required account information
 
-.. image:: https://lh4.googleusercontent.com/BthIyKoX3rTzgtTN0DchKZM0714C9ynD7LTaqgc7rQj9Xbel-tSh42F5QD8gptjqNC4HfLqurPNDU6J8-zDiAwb_QuDRkx04OjqfanyZ93AVK8Qk-9BrUFL0SMHHjgm7n6GhDaph
+.. image:: https://i.imgur.com/kyHwTXJ.png
+
+.. image:: https://i.imgur.com/ybMHSua.png
 
 Click on **Get Tracking ID** button below to complete your registration.
 
+.. image:: https://i.imgur.com/u2G7miD.png
+
 * Get Tracking ID and write it down into Magento Configuration
 
-.. image:: https://lh5.googleusercontent.com/kSM_nTjb4ecubQFLd6wOdQSpjU7bYPJW8he4MkP5Br0yTIelx7sUCgJBcQJDpiC2lZhEws3okWYOCUByfBiKuZ1lXb3_Ev1UmMy-0_QtQl41CjEQwxl3rtDbY8WaXQTD2i6e72xp
 
 Set up in Magento
 ---------------------
 
-After installing Google Analytics, login to **Admin Panel > Google Analytics > Settings** 
+After installing Google Analytics, login to **Admin Panel > Google Analytics > Sales > Google API** 
 
-.. image:: https://lh3.googleusercontent.com/s6YXVRDLymVPvqO11RdFRPbB8zPBwDk1Ik9nHVm0YUT0nN9rWTKlCavd_Bxe1ywA_6d0RU_EhMSR0uC28Y6hBN7F8FB4JkBQx3Qhqkr0PBnz6_YmB3Y5BTpoVnpm3EXFB3AOwDk9
+.. image:: https://i.imgur.com/Nu7fQih.png
 
 * Choose **Yes** in Enable field to use Google Analytics functionality for your store.
 
