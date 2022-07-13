@@ -145,7 +145,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 2.1.4. Order Summary
 '''''''''''''''''''''''''''''''
 
-- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Order Summary**
+- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, select **Order Summary**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
 - Please install Mageplaza Order Attributes to add more custom checkout fields.
 
