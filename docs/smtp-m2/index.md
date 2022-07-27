@@ -172,40 +172,8 @@ In **How to measure Abandoned Cart**: Time to define an abandoned cart. The unit
 
 Example: If we enter 30, then after 30 minutes, carts will be considered. The carts under 30 minutes will be considered as a real-time cart.
 
-#### 2.2.4 Abandoned Cart Grid
 
-From the Admin Panel, go to Sales > Abandoned Carts:
-
-- This grid displays all Abandoned cart information of customers 
-- From the grid, admin can grab these information:  ID, Store View, Customer, Customer Email, Customer Group, Status, Created At, Action
-- In **Action**: Click on **View** to see all details of each Abandoned Cart
-- Besides, admin can filter, change the stores, hide/show colums 
-
-#### 2.2.5 View Abandoned Cart:
-
-From the Admin Panel, go to Sales > Abandoned Carts, tại Action click View:
-
-This part shows all details of a abandoned cart, including:
-- Cart Recovery:
-  - Cart Recovery Link: Send your customer this link to recover their cart
-  - Cart Recovery Status: there are 2 status
-    - Wait for send
-    - Sent
-- Sent Date Logs: Date and time of sent email 
-- Cart Details: Quote ID, Store View, Created Date, Customer Name, Customer Email, Customer Group, Shipping Address, Billing Address
-- Cart Items: products that customers have abandoned
-- Cart Total
-- Send Email
-  - Sender: Chọn người gửi email thông thông báo cho khách hàng,
-  - To: customers' email
-  - Email Template: 
-    - Notification Email templates created for customers when they abandon carts 
-    - Go to `Marketing > Email Templates > Add New Templates` to create
-    - Look for email creation email guidelines here 
-  - Additional Message: admin can send addtional messages
-  - Preview
-
-### 2.2.3 Developer mode
+#### 2.2.4 Developer mode
 
 From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza > SMTP`, choose **Developer** sections.
 
