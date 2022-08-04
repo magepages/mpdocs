@@ -29,12 +29,13 @@ From the Admin Panel, go to `Content > Product Labels > Configuration`
 
 From the Admin Panel, go to  `Content > Product Labels > Configuration`
 
-![](https://i.imgur.com/y7iwaea.gif)
+![](https://i.imgur.com/dcFYmnV.gif)
 
 #### General
 
 * **Enable**: Choose Yes to use this module
 * **Limit The Number Of Labels Per Product**: Enter the number of labels that can be displayed on each product. The default value of the field is 2. If left blank, the number of labels displayed per product is not limited.
+* **Show Labels On Pages**: Select one or more pages to show labels on the frontend. Pages that are not chosen will not display any labels.
 * **Show Labels with Related Products:** Select **Yes** to display labels of Related Products on the Product Details page
 * **Show Labels with Upsell Products:** Select **Yes** to display labels of Upsell Products on the Product Details page
 * **Show Labels with Cross-sell Products:** Select **Yes** to display labels of Cross-sell Products on the Product Details page
@@ -159,6 +160,21 @@ Design the labels and images for the product on the `Product Listing` (the label
 
 ![](https://i.imgur.com/gEOG0Tz.png)
 
+#### Display on the Mini Cart
+
+![](https://i.imgur.com/AKvHpeh.png)
+
+#### Display on the Shopping Cart Page
+
+![](https://i.imgur.com/l6g0irs.png)
+
+#### Display on the Checkout Page
+
+![](https://i.imgur.com/cPgQr4c.png)
+
+#### Display on the One Step Checkout Page
+
+![](https://i.imgur.com/G4spJhJ.png)
 
 ## IV. API
 
