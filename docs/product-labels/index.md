@@ -174,7 +174,7 @@ Design the labels and images for the product on the `Product Listing` (the label
 
 #### Display on the One Step Checkout Page
 
-![](https://i.imgur.com/G4spJhJ.png)
+![](https://i.imgur.com/W780G7W.png)
 
 ## IV. API
 
