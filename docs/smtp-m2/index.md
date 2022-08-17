@@ -162,16 +162,49 @@ If the information you filled out is valid, a successful email message will be s
 
 ![](https://i.imgur.com/7aoGqeB.png)
 
-#### 2.2.3 Abandoned Cart Email
+#### 2.2.3 Abandoned Carts Grid
 
-From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza > SMTP`, choose Abandoned Cart Email sections.
+From the Admin Panel, go to `Sales > Abandoned Carts`:
 
-In **Enable**: Choose “Yes” to turn on the configuration Abandoned Cart email
+![](https://i.imgur.com/cG6DC7m.png)
 
-In **How to measure Abandoned Cart**: Time to define an abandoned cart. The unit is minute. Default value is 30. 
+* This is where customer's abandoned cart information is shown.
+* From Abandoned Carts, admins can have information such as **ID, Store View, Customer, Customer Email, Customer Group, Status, Created At, Action**.
+* **Action**: The **View** section allows admins to view details of an abandoned cart.
+* In addition, admins can filter and change the store views as well as show or hide columns.
 
-Example: If we enter 30, then after 30 minutes, carts will be considered. The carts under 30 minutes will be considered as a real-time cart.
+**View Abandoned Cart**:
 
+From the **Admin Panel**, go to `Stores > SMTP > Abandoned Carts`, then click **View** at **Action**:
+
+![](https://i.imgur.com/Lescj9E.png)
+
+![](https://i.imgur.com/dJuubNX.png)
+
+Detailed information of an abandoned cart will be displayed:
+- **Cart Recovery**:
+  - **Cart Recovery Link**: Send your customer this link to recover their cart
+  - **Cart Recovery Status**:
+    - **Wait for send**: Have not sent emails to customers
+    - **Sent**: Sent emails to customers
+  - **Sent Date Logs**: Show date and time when emails are sent to the customers
+- **Cart Details**: Show details including **Quote ID, Store View, Created Date, Customer Name, Customer Email, Customer Group, Shipping Address, Billing Address**.
+- **Cart Items**: Show all products that customers abandoned.
+- **Cart Total**: Show the total of the cart.  
+- **Send Email**: 
+ 
+![](https://i.imgur.com/xtkIE2K.png)
+
+  - **Sender**: Select the email sender
+  - **To**: Customers' emails
+  - **Email Template**: 
+     - Set the email when customers have abandoned carts.
+     - Go to `Marketing > Email Templates`, select **Add New Templates** to create new email templates.
+     - Please find the guide to reate a new template [here](https://www.mageplaza.com/kb/how-to-customize-email-template-transactional-email-magento-2.html)
+  - **Additional Message**: Admins can add extra messages
+  - **Preview**: View the email that will be sent to customers.
+    
+![](https://i.imgur.com/hWfv9nq.png)
 
 #### 2.2.4 Developer mode
 
