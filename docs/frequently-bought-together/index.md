@@ -1,6 +1,6 @@
 # Frequently Bought Together
 
-Mageplaza Frequently Bought Together extention will display native related products in the product page, and has the Add all items to cart feature that makes it easy for customers to add a list of items to their shopping cart. This extension suggests the right products which might attract buyers in further purchasing, or makes it easy for shoppers to find other products. It also dramatically increases the value of orders, sales, profits for you business.
+Mageplaza Frequently Bought Together extention will display native related products in the product page, and has the Add all items to cart feature that makes it easy for customers to add a list of items to their shopping cart. This extension suggests the right products which might attract buyers in further purchasing, or makes it easy for shoppers to find other products. It also dramatically increases the value of orders, sales, profits for your business.
 
 ## Download & Install
 
