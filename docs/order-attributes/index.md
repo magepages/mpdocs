@@ -15,7 +15,7 @@ Order Attributes is also displayed when admins creates the order in the backend.
 
 From the Admin Panel, go to `Sales > Order Attributes`
 
-![](https://i.imgur.com/zyMYBu9.png)
+![](https://i.imgur.com/ujbwcyd.png)
 
 ### 1. Configuration
 
@@ -31,6 +31,16 @@ From the Admin Panel, go to `Sales > Order Attributes > Configuration`
 
 - **Date Format**: Select the date format for attributes with Date or Date & Time type to show attributes on frontend.
 - **Time Format**: Select the time format for attributes with Time or Date & Time type to show attributes on frontend.
+
+**PDF documents**
+
+- **Display Order Attributes on Shipment**: Select **Yes** to show Order Attributes info in PDF Shipment file when choosing to Print Shipment.
+
+![](https://i.imgur.com/zz8edvj.png)
+
+- **Display Order Attributes on Invoice**: Select **Yes** to show Order Attributes info in PDF Invoice file when choosing to Print Invoice.
+
+![](https://i.imgur.com/e5DPKlW.png)
 
 ### 2. Manage Attributes
 
@@ -249,6 +259,48 @@ Order Attribute GraphQL by Mageplaza allows you to get order attribute informati
 
 Check supported GraphQL request <a href='https://documenter.getpostman.com/view/10589000/Szf539EJ' target='_blank' rel='nofollow'>here</a>
 
+### 5. Manage Checkout Step
+#### 5.1. Grid
+
+![](https://i.imgur.com/NrVZ9Z2.png)
+
+- This is where created steps are stored.
+- In the **Grid**, admin can have basic information of some steps such as: Name, Code, Position, Store View, Customer Group, etc.
+- Besides that, admin can delete, edit, filter, change store view, hide/show the columns for those steps. Click **Create New Form** button to create a new step.
+
+#### 5.2. Add New Order Form
+##### 5.2.1. General
+
+![](https://i.imgur.com/qTi8Jrs.png)
+
+**General Information**
+
+- **Name**: Enter the name of the Step to show in the Position field when creating attributes and on the frontend when ordering. This is a compulsory field.
+- **Code**: Enter the code for the Step. This is for internal use, must be unique with no spaces, and the maximum length of attribute code must be fewer than 60 symbols. This is a compulsory field.
+- **Status**: Select **Enable** to display step in the Position field when creating attributes and on the frontend when ordering. This is a compulsory field.
+- **Icon Type**: Select the icon type to show next to the step during checkout or on the [One Step Checkout page](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) by Mageplaza. There are 2 types:
+  - **Font Awesom**: Show the extra **Icon** field yo enter the Class name of the icon. Please refer to these icons [here](https://fontawesome.com/v5/icons/wrench?s=solid&f=classic)
+  - **Custom**: Show the extra **Icon** field to upload any image file you want. Click **Choose File** button to upload file and **Delete** to delete the image.
+
+![](https://i.imgur.com/wJpOKyH.png)
+
+##### 5.2.2. Condition
+
+![](https://i.imgur.com/TLO5l8t.png)
+
+Select the condition to display steps when ordering. In the steps there can be different attributes, and if the conditions to display steps are not satisfied, the step will not be shown, and the attributes of that step will not be shown as well.
+
+##### 5.2.3. Frontend Properties
+
+![](https://i.imgur.com/yFTxtka.png)
+
+- **Store View**: Select the store view to show the step.
+- **Customer Group**: Select the customer group to show the step to specific customers of the group chosen when ordering.
+- **Position**: Select the position to show the step, including:
+  - **None**: Not display the step on the frontend when ordering, even when all step conditions are satisfied.
+  - **Before Shipping Step**: Display the step before the Shipping step. The extra depend field Sort Order will be shown to enter the show the step before the Shipping step. Because the Shipping step has the 9th order, please enter any value within [0,9]. The smaller the Sort Order value is, the higher the step is displayed.
+  - **After Shipping Step**: Display the step after the Shipping step. The extra depend field Sort Order will be shown to enter the show the step before the Shipping step. Because the Shipping step has the 9th order, please enter any value within [11,19]. The smaller the Sort Order value is, the closer to the shipping step it is.
+
 ## Frontend
 ### 1. Checkout page Magento
 
@@ -260,7 +312,15 @@ Check supported GraphQL request <a href='https://documenter.getpostman.com/view/
 
 ![](https://i.imgur.com/9l0zg46.png)
 
+### 3. Display attributes in Step
 
+- Checkout Page:
+
+![](https://i.imgur.com/1iWd4fT.png)
+
+- One Step Checkout Page:
+
+![](https://i.imgur.com/Q5JQgOU.png)
 
 
 
