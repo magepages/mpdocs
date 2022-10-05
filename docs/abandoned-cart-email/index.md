@@ -96,6 +96,23 @@ Ex: Select **Default Date Range= 30 days** then at Cart Board page, the Cart wil
 
 ![](https://i.imgur.com/HvdyyLY.png)
 
+#### 1.5. SMS Notification
+
+![](https://i.imgur.com/7zj5aKo.png)
+
+- **Enable**: Select **Yes** to send SMS to customer when they abandoned cart.
+- **Enable Abandonment Cart Phone Number Field**: Select **Yes** to show the **Abandonment Cart Phone Number** field on the **Create an account** and **Edit account** page to send SMS to the entered phone number to remind customer if their cart is abandoned.
+
+![](https://i.imgur.com/iLUF0M1.png)
+
+- **Message**: Enter the SMS message to send to customer. You can use the following variables for SMS text : {{customer_name}}, {{customer_email}}, {{items}}, {{store_name}}, {{coupon_code}}, {{to_date}}, {{order_total}}.
+- **Admin Phone Number**: Enter the sender's phone number provided by Twilio. For example: +18454031xxx,...
+- **Send After(Minutes)**: Enter the number of minutes to send abandoned cart SMS after that amount of time.
+- **SMS Service Provider**: Select the third party to integrate SMS (Twilio). You can register the Twilio account [here](https://www.twilio.com/login?g=%2Fconsole%3F&t=2b1c98334b25c1a785ef15b6556396290e3c704a9b57fc40687cbccd79c46a8c)
+ - **Twilio Account SID**: Admin enter the Twilio Account SID to integrate the SMS gate. If left empty or wrong, Twilio will not be applied.
+ - **Twilio Account Token**: Admin enter the Twilio Account Token to integrate the SMS gate. If left empty or wrong, Twilio will not be applied.
+- **Recipient Phone Number**: Enter the recipient's phone number to notify admin and this is also the phone number for you to Send Test SMS.
+- **Send Test SMS**: Click the button to check if SMS has been sent.
 
 ### 2. Overall Reports
 Go to ``Marketing > Abandoned Cart Email > Overall Report``
