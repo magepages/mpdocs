@@ -247,7 +247,7 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 - Enter essential information to Export JSON File for Tags, Triggers, Variables such as: Measurement ID of [Google Analytics 4](https://support.google.com/analytics/answer/9539598), Conversion ID and Conversion Label of [Google Ads Conversion Tracking](https://support.google.com/tagmanager/answer/6105160) and [Google Ads Conversion Remarketing](https://support.google.com/tagmanager/answer/6106960).
 - Click **Export JSON File for Tags, Triggers, Variables** button to Export JSON File. After that, you can upload that file to Google Tag Manager to create and import Tags, Triggers, Variables.
 
-![](https://i.imgur.com/G9HERjJ.png)
+![](https://i.imgur.com/jEilH9g.png)
 
 You can upload file here:
 
