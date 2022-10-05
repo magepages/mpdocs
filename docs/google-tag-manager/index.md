@@ -240,6 +240,19 @@ Login to the **Magento Admin**, choose `Stores > Configuration > Mageplaza Exten
 
 - **Guide**: Click to the link to configure the **conversion tracking** function in **Google Adwords** in Magento 2.
 
+#### 1.6. Create Tags, Triggers, Variables
+
+![](https://i.imgur.com/tEGdTqV.png)
+
+- Enter essential information to Export JSON File for Tags, Triggers, Variables such as: Measurement ID of [Google Analytics 4](https://support.google.com/analytics/answer/9539598), Conversion ID and Conversion Label of [Google Ads Conversion Tracking](https://support.google.com/tagmanager/answer/6105160) and [Google Ads Conversion Remarketing](https://support.google.com/tagmanager/answer/6106960).
+- Click **Export JSON File for Tags, Triggers, Variables** button to Export JSON File. After that, you can upload that file to Google Tag Manager to create and import Tags, Triggers, Variables.
+
+![](https://i.imgur.com/G9HERjJ.png)
+
+You can upload file here:
+
+![](https://i.imgur.com/KUMRtWL.png)
+
 ### 2. API
 
 Google Tag Manager extension by Mageplaza supports using the REST API to get data with events such as product, category, homepage, catalog search, checkout index, checkout cart, checkout success, one step checkout, multi shipping checkout success, thank you page, add to cart, remove cart, and get head of Google Tag Manager, Google Analytics, Facebook Pixel.
