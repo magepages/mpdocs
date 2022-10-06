@@ -62,6 +62,13 @@ Mark the box to register Affiliate Subscription.
 
 .. image:: https://i.imgur.com/vMxRmLb.png
 
+Refer History Page
+`````````````````````````
+
+Show the list of customers that the affiliate invited via Refer URL or Coupon Code.
+
+.. image:: https://i.imgur.com/7OeVsM4.png
+
 How to Configure
 ^^^^^^^^^^^^^^^^^^^
 
@@ -73,7 +80,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1. Configuration
 ``````````````````````````````
 
-.. image:: https://i.imgur.com/ypSoHoa.png
+.. image:: https://i.imgur.com/hKJb60v.png
+
+.. image:: https://i.imgur.com/iN6IXOf.png
 
 1.1. General 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -89,6 +98,12 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 * **Allow overriding cookies**: Choose **Yes** to override Affiliate code when a customer is referred by many Affiliates.
 
 * **Allow using Affiliate Code as Coupon**: Select Yes to allow using Affiliate code for discount. This usgae is available in Shopping Cart Page and Checkout Page
+
+* **Enable Banner**: If **Yes**, the banner will be shown on the **My Affiliate** page on the frontend. Show extra field:
+
+  * **Show Report for Banner on Frontend**: If **Yes**, will show the report of Impressions, Clicks of customers to each banner.
+  
+.. image:: https://i.imgur.com/ojgfRJa.png
 
 * **Show Affiliate link on**: Choose the display position of the Affiliate link
 
@@ -107,6 +122,12 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Admin can freely customize the display of the Affiliate site 
   
   * Supports HTML, CSS
+  
+* **Enable Referral History**: Select **Yes** to show **Refer History** page in **My Affiliate**. Display information of customers invited using Refer URL or Coupon Code, including columns such as ID, Customer Name, Customer Email Address, Date.
+
+* **Enable Affiliate Referral Information**: Select **Yes** to show **Parent Affiliate** customer information on the **My Account** page. Note that, the customer account has Sign Up Account Affiliate and the Affiliate account has been active.
+
+.. image:: https://i.imgur.com/2dQ3SQH.png
     
 1.1.1. Default Page
 ~~~~~~~~~~~~~~~~~~~~~~~
