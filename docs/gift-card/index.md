@@ -169,9 +169,10 @@ Follow the path ``Mageplaza > Gift Card: Configuration > Gift Card/Credit Checko
 ##### 1.3.2. Checkout Process
 This is a supplementary part of **Gift Card Product Configuration** section
 
-![](https://i.imgur.com/90cJKcl.png)
+![](https://i.imgur.com/iKO6qe0.png)
 
 * In the **Can Use For Shipping Amount** field: Select “Yes” to apply a gift Card and gift credit for the shipping fee. If both gift card and gift credit are having sufficient value and the customer doesn’t purchase Gift Card Product, the order can be considered as a free one.
+* In the **Can Use For Tax** field: Select **Yes** to apply gift card and gift credit for tax.
 * In the **Allow Refund Gift Card** field: Select “Yes” to be able to refund the amount of a gift card to customer's gift code balance.
 
 #### 1.4. Gift Card Template Configuration
