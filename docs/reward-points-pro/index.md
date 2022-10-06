@@ -429,7 +429,7 @@ Follow in the backend ``Store > Settings > Configuration``. At the left panel, c
 #### 4.1. General Configuration.
 This general configurations can apply for the whole module.
 
-![](https://i.imgur.com/kLmpyPT.png)
+![](https://i.imgur.com/6d8I2eU.png)
 
 * In the **Enable** field: Choose “Yes” to active the Reward Point extension from Mageplaza. 
 * In the **Label in My Account Navigation** field: Enter the name of **Tab Reward Point** displayed on the frontend at the [My Account > Reward Point](https://docs.mageplaza.com/reward-points/index.html#my-account-my-points-reward) section.
@@ -461,8 +461,26 @@ This general configurations can apply for the whole module.
   
   * Admins can add point(s) to an account balance with no awareness of this value.
   * If the field is left blank or 0, there will be no restriction for the maximum points
-  
-* In the **Highlight Point on Storefront**: 
+
+* In **Redirect to My Points and Rewards page after customer login account** field: Select **Yes** to redirect customers to **My Points and Rewards** page right after customer logs in or creates an account.
+
+**Landing Page**
+
+![](https://i.imgur.com/DlfBCKr.png)
+
+* **Choose Landing Page**: Selct page to show when clicking on the Landing Page link.
+
+![](https://i.imgur.com/Y7eml1u.png)
+
+* **Display Landing Page On Footer Link**: Select **Yes** to show Landing Page Link in the Footer.
+
+![](https://i.imgur.com/nfgvm6k.png)
+
+![](https://i.imgur.com/k33zHqn.png)
+
+* **Landing Page Label**: Enter the label to show Landing Page link in the Footer.
+
+**Highlight Point on Storefront**: 
 
 ![](https://i.imgur.com/PCcY5VI.png)
 
@@ -479,7 +497,7 @@ This general configurations can apply for the whole module.
 ##### 4.2.1. General
 This displays general configurations regarding earning point(s)
 
-![](https://i.imgur.com/kwE0PV9.png)
+![](https://i.imgur.com/I0OTlat.png)
 
 * In the **Rounding Method** field: There are 3 options for rounding
   * **Normal**: The number of points converted from the currency (USD, EUR, ...) will be rounded according to the normal rule. *E.x: 10.2 rounded to 10; 10.8 rounded to 11*.
@@ -488,6 +506,16 @@ This displays general configurations regarding earning point(s)
 * In the **Points Earning From Tax** field: Select “Yes” so the tax can be converted to earning point(s)
 * In the **Earn points from shipping fee**: Select “Yes” to allow Shipping Fee to be converted to point(s).
 * In the **Point Refund** field: When the customer places an order, they will receive a certain amount of earning points. The shop owner selects “Yes” in this section to retrieve the points when customer refunds the order.
+* In the **Earning Points from Orders with Spent Points**: Select **Yes** so that when customers spend points in a order, they still can earn points from that order.
+* In the **Notify reward points for guests**: Select **Yes** to notify customers when they have not registered or logged in to their accounts.
+ * **Message**: Enter messages to show customers on frontend.
+ 
+ ![](https://i.imgur.com/QW7tf5v.png)
+ 
+* In the **Type of Maximum Earning Points per Order**: Choose how to calculate the maximum allowed points for each order. There are 2 types:
+  * **Fixed**: Set the maximum allowed points as a fixed value set in the **Maximum Earning Points per Order** field.
+  * **Percent**: Set the maximum allowed points as a percentage of the cart set in the **Maximum Earning Points per Order** field.
+* **Maximum Earning Points per Order**: Set the maximum allowed points customers can get for each order. If left empty or 0, the maximum point is unnlimited.
 
 ##### 4.2.2. Sales Earning Process.
 
@@ -522,11 +550,13 @@ This displays general configurations regarding earning point(s)
 
 #### 4.4. Display Configuration.
 
-![](https://i.imgur.com/Ff1RBQd.png)
+![](https://i.imgur.com/11hSnoc.png)
 
 * In the **Display Total Points on Top Links** field: Select “Yes” to display the total number of reward point(s) that customer has on Top Link.
 
 ![](https://i.imgur.com/MdTaIp1.png)
+
+  * In the **Hide Total Points on Top Link if the Reward Points balance is empty or equals to zero**: Select **Yes** to hide the total points of customer on the Top Link if the Reward Points balance is null or equals to zero.
  
 * In the **Display Points Summary on Dashboard Page** field: Select “Yes” to display the total number of reward point(s) that customer has in the Reward Point tab.
 
@@ -536,17 +566,6 @@ This displays general configurations regarding earning point(s)
 
 ![](https://i.imgur.com/bjj2G82.png)
 
-* **Choose Landing Page**: Select the page displaying when customers click on Landing Page Link
-
-![](https://i.imgur.com/n7maCd1.png)
-
-* **Display Landing Page On Footer Link**: Select **Yes** to show **Landing Page**  link on the Footer Link
-
-![](https://i.imgur.com/6YeR8vl.png)
-
-* *Landing Page (Reward Point Page) Frontend*
-
-![](https://i.imgur.com/ynimBBv.png)
 
 #### 4.5. Email Configuration.
 
