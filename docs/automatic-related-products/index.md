@@ -181,18 +181,22 @@ Setting:
 
 This is where you specify the block where the Product Page is located 
 
-![](https://i.imgur.com/rAlorSI.png)
+![](https://i.imgur.com/wOSiKVR.png)
 
-  * Above Content: https://i.imgur.com/rAlorSI.png
-  * Below Content: Auto Related Product block displayed under the Content of the Product Page.
-  * Floating Left Bar: Auto Related Product block displayed under the left of Product Page Content.
-  * Floating Right Bar: Auto Related Product block displayed under the right of Product Page Content.
-  * Replace Related Products: The new block will replace the Magento’s default Related Product Block.
-  * Replace Upsell Products: Auto Related Product block will replace the default Upsell Product Block by Magento.
-  * Before native Related products: Auto Related Product block displays above the Magento’s Related Product block.
-  * After native Related products: Auto Related Product block displays below the Magento’s Related Product block.
-  * Before Upsell Products: Auto Related Product block displays above the Magento’s Related Product Block.
-  * After Upsell Products: Auto Related Product block displays below the Magento’s Related Product Block.
+  * **Above Content**: https://i.imgur.com/rAlorSI.png
+  * **Below Content**: Auto Related Product block displayed under the Content of the Product Page.
+  * **Floating Left Bar**: Auto Related Product block displayed under the left of Product Page Content.
+  * **Floating Right Bar**: Auto Related Product block displayed under the right of Product Page Content.
+  * **Product Tab**: Show the Related Product block in the Native tab on the Product page.
+  
+  ![](https://i.imgur.com/47oN7Aa.png)
+  
+  * **Replace Related Products**: The new block will replace the Magento’s default Related Product Block.
+  * **Replace Upsell Products**: Auto Related Product block will replace the default Upsell Product Block by Magento.
+  * **Before native Related products**: Auto Related Product block displays above the Magento’s Related Product block.
+  * **After native Related products**: Auto Related Product block displays below the Magento’s Related Product block.
+  * **Before Upsell Products**: Auto Related Product block displays above the Magento’s Related Product Block.
+  * **After Upsell Products**: Auto Related Product block displays below the Magento’s Related Product Block.
   * **Insert Snippet**: 
  
 ![](https://i.imgur.com/q7mf9Lh.png)
