@@ -63,6 +63,13 @@ Mark the box to register Affiliate Subscription.
 
 .. image:: https://i.imgur.com/vMxRmLb.png
 
+Refer History Page
+`````````````````````````
+
+Show the list of customers that the affiliate invited via Refer URL or Coupon Code.
+
+.. image:: https://i.imgur.com/7OeVsM4.png
+
 How to Configure
 ^^^^^^^^^^^^^^^^^^^
 
@@ -74,7 +81,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
 1. Configuration
 ``````````````````````````````
 
-.. image:: https://i.imgur.com/3QlGCuG.png
+.. image:: https://i.imgur.com/hKJb60v.png
+
+.. image:: https://i.imgur.com/uzGYm6s.png
 
 1.1. General 
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -114,6 +123,12 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Aff
   * Admin can freely customize the display of the Affiliate site 
   
   * Supports HTML, CSS
+  
+* **Enable Referral History**: Select **Yes** to show **Refer History** page in **My Affiliate**. Display information of customers invited using Refer URL or Coupon Code, including columns such as ID, Customer Name, Customer Email Address, Date.
+
+* **Enable Affiliate Referral Information**: Select **Yes** to show **Parent Affiliate** customer information on the **My Account** page. Note that, the customer account has Sign Up Account Affiliate and the Affiliate account has been active.
+
+.. image:: https://i.imgur.com/2dQ3SQH.png
     
 1.1.1. Default Page
 ~~~~~~~~~~~~~~~~~~~~~~~
