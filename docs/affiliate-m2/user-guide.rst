@@ -51,6 +51,13 @@ Mark the box to register Affiliate Subscription.
 
 .. image:: https://i.imgur.com/fAlNhr3.png
 
+Refer History Page
+`````````````````````````
+
+Show the list of customers that the affiliate invited via Refer URL or Coupon Code.
+
+.. image:: https://i.imgur.com/7OeVsM4.png
+
 How to Configure
 ^^^^^^^^^^^^^^^^^^^
 
