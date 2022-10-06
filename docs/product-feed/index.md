@@ -39,7 +39,9 @@ From the Admin Panel, go to **Store > Settings > Configuration > Mageplaza Exten
 
 From the Admin Panel, go to **Products > Product Feed > Configuration**, choose **General** section
 
-![](https://i.imgur.com/QsikKMQ.png)
+![](https://i.imgur.com/wAG0exN.png)
+
+![](https://i.imgur.com/QjOUsaW.png)
 
 #### General
 
@@ -52,14 +54,16 @@ From the Admin Panel, go to **Products > Product Feed > Configuration**, choose 
 ![](https://i.imgur.com/j9r3GuW.png)
 
 * **Enable Product Feed Report**: Select **Yes** to display the Product Feed Report on the Manage Feeds Grid.
-
+* **Clean Log Every**: Select the number of days to clean the created logss at **Feed Log** after the selected time. If empty or zero, the log will not be cleaned.
+* 
 #### Google Shopping API
 - **Enable: Choose **Yes** to synchronize the value with Google Shopping API
+- **Send data every**: Select the number of days in the **Send data ever** field. After the selected number of days, the feed data will be synced to Google Shopping API. Note that this feature is only applied to sync via cron.
 - **Merchant ID, Client ID, Client Secret**: Enter the value of the fields you have already saved and set up here. 
 - **Authorized Redirect URLs:** Copy and paste the value of this section in URLs of the **Authorized Redirect URLs of Google Shopping API. 
 - Click **Get Access Token** button to check the connection with Google Shopping API. 
 
-![](https://i.imgur.com/mI4y9Zo.png)
+![](https://i.imgur.com/GQlgxIA.png)
 
 #### Email Alert
 
@@ -110,7 +114,7 @@ The Revenue Report is based on the statistic of the ordered products uploaded to
 * From the Admin Panel, go to Products > Catalog > Product Feed > Manage Feeds
 * In the right corner, choose `Add New Feed` button
 * Enter the display name in the Grid Feed for the export type
-* To cauto-update the products when running cron, choose Enable in the `Status` field
+* To auto-update the products when running cron, choose Enable in the `Status` field
 * Choose the store to get that store's product and generate the file
 * Enter the export file name to send to the server
 * Choose the format to compress the file when downloading
@@ -123,11 +127,11 @@ The Revenue Report is based on the statistic of the ordered products uploaded to
       * **Cron Run Time**: Setup the time to auto-generate the file at the time that you have setup. Please note that the time of Cron Job will be the timezone of UTC
 
 
-![](https://i.imgur.com/ipzZygs.png)
+![](https://i.imgur.com/nlsb464.png)
 
 ##### Step 2: Choose Template type
 
-* Select the file format. There're 3 file formats: TXT, CSV, and XML
+* Select the file format. There're 3 file formats: TXT, CSV, XML, TSV, and XLS
 * Select the template format to export the file. There're 6 template formats. They are: Google Shopping XML, Google Shopping Review XML, Amazon Inventory XML, Amazone Marketplace XML, Facebook CSV, Ebay CSV
 * Click on the `Load Template` button to display the template content
 * For the template format is XML:
@@ -140,7 +144,7 @@ The Revenue Report is based on the statistic of the ordered products uploaded to
     * To get the header field when exporting the file, choose "Yes" in the `Include Field Header` field
     * Allow adding any value you want into the `Fields Map` field. Please note that: The added values must be standard of Google or Facebook or Ebay, Amazon.
     
-    ![](https://i.imgur.com/2IumDRX.gif)
+    ![](https://i.imgur.com/WiHUtrz.png)
     
 ##### Step 3:  Enter full information of Google Analytics. These values will be added into URL of the product to know what the search engine is, what analytic keyword is, etc.
 
@@ -202,7 +206,8 @@ Choose the information of the fields in Magento appropriately to send data to Go
   -> Fill in the Magento fields to get the data corresponding to the fields of Google Shopping API. 
   -> If you leave this column blank or no value is existing, the Default value will be arquired and push to Google Shopping API. 
 - **Internal Note**: Enter the description in the **Internal Note** section. This is only for admin to notice the information of the synchronization and is invaluable to data processing. 
-- **Insert Variables**: Select the Magento Fields corresponding to the fields of Google Shopping API. 
+- **Insert Variables**: Select the Magento Fields corresponding to the fields of Google Shopping API.
+- You can sync manually or sync via cron data from attributes of Magento Field to Google Shopping API. 
 
 
 ### Logs
@@ -229,7 +234,7 @@ php bin/magento mp-productfeed:generate {id}
 ```
 - In which: `{id}` is the Feed ID. If you do not fill Feed ID, all the feed will be generated. 
 
-- Exmaple: Generate some feed that you want, running the command:
+- Example: Generate some feed that you want, running the command:
 
 ```
 php bin/magento mp-productfeed:generate 1 3 4
