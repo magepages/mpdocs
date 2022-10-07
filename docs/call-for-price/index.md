@@ -222,7 +222,11 @@ From the Admin Panel, go to ``Sales Call ForPrice  > Configuration``, choose ``G
 ### Requests Management
 Display all customer requests sending to the store. 
 
-![](https://i.imgur.com/GkzRIEY.png)
+![](https://i.imgur.com/AsvsVKw.png)
+
+- **Click Add New Request**: Admin can create Call For Price Request. Affter creating request successfully, admin can send replies to customer's requests via the **Conversation** in each request.
+
+Mageplaza Call For Price supports saving **IP Address Customer** and **Contact Time** - the time when admin can contact with their customers.
 
 When you click on `View`, store owners can view the details of the request, such as the date of the request, the name and email of the customers, the product the customers are interested in and store owners can change the status of the request to manage requirements with ease. At the same time, they can also annotate on customer requirements.
 
