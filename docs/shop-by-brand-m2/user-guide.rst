@@ -65,15 +65,18 @@ Go to ``Catalog > Shop by Brand > Configuration`` is a bunch of the basic config
 ^^^^^^^^^^^^^^^
 At the Configuration tab, expand **General** section, please do the following:
 
-.. image:: https://i.imgur.com/8kaWhri.png
+.. image:: https://i.imgur.com/2ZOGWz7.png
 
-.. image:: https://i.imgur.com/m7BAhJf.png
+.. image:: https://i.imgur.com/sQflJl2.png
+
+.. image:: https://i.imgur.com/9zTOrj2.png
 
 * **Enable** the module when choosing "Yes" to allow customers shop by brand
 * From the existing list of the product attribute, set **Brand Attribute** to the correct choice. In this guide, *Manufacturer* is the option you have to select
 * Enter **Brand Route**, if passing it, the default (brands) is applied
 * Enter **Brand Link Title** or leave it as the default (Brands)
 * In **Show Brand Link In** field choose the position of putting brand link: *Toplink*, *Footer link* and *Category*
+* In **Position Brand Link In Category** field: Select the position of the Brand on the **Category** section
 * In **Show Brands in Category Menu**: includes No, Drop-down type và Grid type
   
   * **No**: Brands are not shown 
@@ -133,6 +136,12 @@ At the Configuration tab, expand **General** section, please do the following:
   * **Brand Logo & Brand Name**: Allow showing brand logo and brand name at the Product Admin Grid respectively
   * **Brand Name & Brand Logo**: Allow showing brand name and brand logo at the Product Admin Grid respectively
   
+* **Show Brand Info of Related Products**: Select the Brand Info displayed with Related Products on the Product Page. You can select one or multiple info of the brand such as: **Brand name, Brand Logo, Brand Description**. If you do not want so, you can select **Not Show**.
+* **Show Brand Info of Upsell Products**: Select the Brand Info displayed with Upsell Products on the Product Page. You can select one or multiple info of the brand such as: **Brand name, Brand Logo, Brand Description**. If you do not want so, you can select **Not Show**.
+* **Show Brand Info of Cross-sell Products**: Select the Brand Info displayed with Cross-sell Products on the Product Page. You can select one or multiple info of the brand such as: **Brand name, Brand Logo, Brand Description**. If you do not want so, you can select **Not Show**.
+* **Show Brand Info on Checkout Page**: Select the Brand Info displayed with products on **Cart Page, Mini Cart, Checkout Page** and **Mageplaza One Step Checkout Page** extension. If you do not want so, you can select **Not Show**.
+* **Brand Logo Width in Product Page**: Enter the pixel(px) for the width of the Brand Logo on the Product Page. If left empty or 0, the default value is 30px. 
+* **Brand Logo Height in Product Page**: Enter the pixel(px) for the height of the Brand Logo on the Product Page. If left empty or 0, the default value is 30px.
     
 2.1.2 All Brands Page Settings
 ^^^^^^^^^^^^^^^
@@ -306,7 +315,7 @@ To generate a new brand, follow these steps
     * `Action > Add Products > Submit`: Add selected products to the brand.
     * `Action > Remove Products> Submit`: Remove selected products from the brand.
   
-  .. image:: https://i.imgur.com/5tVXRhd.png
+  .. image:: https://i.imgur.com/lnoEj5H.png
 
 * Expand **Meta Information** section, you can complete all fields for your better SEO, including:
   
@@ -393,8 +402,42 @@ On Product Page
 .. _Magento 2 Advanced Search: https://www.mageplaza.com/magento-2-search-extension/
 .. _How to Create Product Attribute in Magento 2: https://www.mageplaza.com/kb/how-to-create-product-attribute-magento-2.html
 
+2.7. Brand Widget
+Get access to `Content > Widget > Add Widget` to add on brands that you want to display on your website.
 
-2.7. API
+2.7.1. Brand Advanced Widget
+
+.. image:: https://i.imgur.com/A6RjT4q.gif
+
+Show on the frontend:
+
+.. image:: https://i.imgur.com/ijuPmNx.png
+
+2.7.2. Brand Category ID Widget
+
+.. image:: https://i.imgur.com/LZx2sZH.gif
+
+Show on the frontend:
+
+.. image:: https://i.imgur.com/69DT9Po.png
+
+2.7.3. Brand Option ID Widget
+
+.. image:: https://i.imgur.com/U70cw33.gif
+
+Show on the frontend:
+
+.. image:: https://i.imgur.com/QSG59DA.png
+
+2.7.4. Featured Brand Widget
+
+.. image:: https://i.imgur.com/OK7eFrU.gif
+
+Show on the frontend:
+
+.. image:: https://i.imgur.com/mLwP4Po.png
+
+2.8. API
 ***************
 
 Shop By Brand Extension form Mageplaza does support API which allows users:
