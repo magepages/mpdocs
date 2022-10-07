@@ -403,9 +403,11 @@ On Product Page
 .. _How to Create Product Attribute in Magento 2: https://www.mageplaza.com/kb/how-to-create-product-attribute-magento-2.html
 
 2.7. Brand Widget
+***************
 Get access to `Content > Widget > Add Widget` to add on brands that you want to display on your website.
 
 2.7.1. Brand Advanced Widget
+^^^^^^^^^^^^^^^
 
 .. image:: https://i.imgur.com/A6RjT4q.gif
 
@@ -414,6 +416,7 @@ Show on the frontend:
 .. image:: https://i.imgur.com/ijuPmNx.png
 
 2.7.2. Brand Category ID Widget
+^^^^^^^^^^^^^^^
 
 .. image:: https://i.imgur.com/LZx2sZH.gif
 
@@ -422,6 +425,7 @@ Show on the frontend:
 .. image:: https://i.imgur.com/69DT9Po.png
 
 2.7.3. Brand Option ID Widget
+^^^^^^^^^^^^^^^
 
 .. image:: https://i.imgur.com/U70cw33.gif
 
@@ -430,6 +434,7 @@ Show on the frontend:
 .. image:: https://i.imgur.com/QSG59DA.png
 
 2.7.4. Featured Brand Widget
+^^^^^^^^^^^^^^^
 
 .. image:: https://i.imgur.com/OK7eFrU.gif
 
