@@ -30,7 +30,7 @@ After logging to Magento Admin, navigate to ``Stores > Settings > Configuration 
 
 From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Extension > Frequently Bought Together``, choose ``General Configuration`` sections
 
-![](https://i.imgur.com/2VCaJMl.png)
+![](https://i.imgur.com/PuP2UlM.png)
 
 - In the **Enable Frequently Bought Together** field: choose "Yes" to enable extension. Here some rough sketch how this module works.
   - The Frequently Bought Together list is under the Product image and on the Product Description tab.
@@ -61,7 +61,17 @@ From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Exte
   - If you like our plus image as default, it’s ok to leave it blank.
   
 - **Use Popup to Select Product Options**: Select **Yes** to display popup selecting the option for the product when clicking **Add To Cart**.
+- **Display Style**: Select the display style of the Frequently Bought Together product block on the product page.
+  - **Default**:
   
+  ![](https://i.imgur.com/peU2RZQ.png)
+  
+  - **Slider**:
+  
+  ![](https://i.imgur.com/MPei2QJ.png)
+  
+- **Number of Frequently Bought Together products on the Slider**: This field is shown when `Display Stype = Slider`. The default & limit number is 3. If you fill in 0 or leave it empty, 3 products will be automatically displayed on the slider.
+
 ## How to add Related Products
 
 Related Products refers those products which have a certain link to each other evaluated by buyer’s frequently shopping habit. So we will take The Related Products advantage apply it in the Frequently Bought Together extension. Based on the Related Products, the extension will filter out the products that can be purchased with the product that the customer is selecting, thereby helping customers shop more, increase store revenue.
