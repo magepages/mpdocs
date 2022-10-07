@@ -79,6 +79,18 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 ![](https://i.imgur.com/O4ULUxo.gif)
 
+- `Enable Favorite Store Bookmark`: If **Yes**, will display a star next to the store locations so customers can bookmark their favorite store, which will be displayed first to reduce the time to find and choose the right store.
+
+![](https://i.imgur.com/tzMwCQS.png)
+
+- **Image**: Upload image to replace the star marking the favorite store
+- **Show Product quantity at relevant store locations with Assigned MSI Stock**: If **Yes**, will display the product quantity and stock status at each store location of the selected product on the product page.
+To show the quantity of the products at each store as below, store owner needs to turn on the **MSI Stock** and **Assign Source** in each product's setting.
+
+![](https://i.imgur.com/JNUeV6a.png)
+
+- **Enable Store Locator when the product is out of stock**: If **Yes**, will display the store locator when the product is running out of stock on the product page.
+
 ##### 1.1.1. Filter store
 
 ![](https://i.imgur.com/E4behlO.png)
@@ -88,6 +100,18 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 ![](https://i.imgur.com/SW1ltyZ.png)
 
+##### 1.1.2. Store Pickup Option
+
+![](https://i.imgur.com/hEPcqoV.png)
+
+- **Enable Store Pickup Option Checkbox**: If Yes, will display a checkbox for customers to check if they want to pick items up at a convenient location, in case of difficult-to-find store location or distant contact requirements.
+- **Store Pickup Option Label**: Show label of the Store Pickup Option Checkbox
+- **Enable Store Pickup Notes and Conditions**: If **Yes**, will display the necessary information about pickup procedures, contact information, etc. to customers for better preparation.
+- **Content**:
+  - **Custom Content**: Show the **Custom Content** field for the store owner to edit the content in the **Store Pickup Notes and Conditions** section.
+  - **CMS Static Block**: Show the **CMS Static Block** field for the store owner to select the available blocks for the content in the **Store Pickup Notes and Conditions** section.
+
+![](https://i.imgur.com/EMdcqh8.png)
 
 #### 1.2. Map Settings
 
@@ -154,6 +178,7 @@ Especially, if customers want to be active in getting their orders. Store Pickup
 
 #### 2.2. Add New/Edit Store Locator Order form
 ##### 2.2.1. General
+###### 2.2.1.1. General
 
 ![](https://i.imgur.com/yHes7Ol.png)
 
@@ -169,6 +194,17 @@ Especially, if customers want to be active in getting their orders. Store Pickup
   - Stipulate the display order of the Store Location on the Frontend
   - 0 is the highest position
   
+###### 2.2.1.2. Store Pickup Option
+
+![](https://i.imgur.com/94Q92xs.png)
+
+- **Enable Store Pickup Option Checkbox**: If Yes, will display a checkbox for customers to check if they want to pick items up at a convenient location, in case of difficult-to-find store location or distant contact requirements. If you select **Use Config**, that Store Location will take the value you set in the **Configuration** section.
+- **Store Pickup Option Label**: Show label of the **Store Pickup Option Checkbox**
+- **Enable Store Pickup Notes and Conditions**: If **Yes**, will display the necessary information about pickup procedures, contact information, etc. to customers for better preparation.
+- **Content**:
+  - **Custom Content**: Show the **Custom Content** field for the store owner to edit the content in the **Store Pickup Notes and Conditions** section.
+  - **CMS Static Block**: Show the **CMS Static Block** field for the store owner to select the available blocks for the content in the **Store Pickup Notes and Conditions** section.
+
 ##### 2.2.2. Location
 ###### 2.2.2.1. Address Information
 
