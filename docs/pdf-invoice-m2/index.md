@@ -73,7 +73,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     
 #### 1.2. Design 
 
-![](https://i.imgur.com/w5P20sv.png)
+![](https://i.imgur.com/n6gZN09.png)
 
 * In **Heading Color** field:
   * You're able to customized color of heading in the PDF file
@@ -86,6 +86,15 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
     * When you configure it in ``Store View > Default Config``, the page number is displayed/hidden when you print the PDF in the backend and when you preview the template.
     * When you configure the store, the number of pages is displayed/hidden when you print the PDF outside of the frontend and in the PDF attached to the email.
     * Specifically, when you print multiple PDFs at the same time, displaying the page number at the bottom of each PDF is the default.
+* In **Page Number Display Position** field: Select the position to display the page number of the PDF file:
+  * **Top**: Display on the top of each page in the PDF file.
+  
+  ![](https://i.imgur.com/2lJ8T1Z.png)
+  
+  * **Bottom**: Display at the bottom of each page in the PDF file.
+
+ ![](https://i.imgur.com/cu5PXTq.png)
+ 
 * In **Page Size** field:
   * There are 4 kinds of paper size you can choose: A4, A5, A6, and A7.
   
@@ -97,7 +106,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.3. Order 
 
-![](https://i.imgur.com/2p2e5eX.png)
+![](https://i.imgur.com/JJe0ZVT.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck the **Use system value** to configure the extension. Choose “Yes” to send the PDF invoice attached along with the email.
@@ -105,6 +114,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 * In **Apply for customer groups**: 
   * **Specific Groups**: Show **Customer Group** field. Only selected customers are able to view attachments in emails
   * **All Allowed Groups**: All customers can view attachments in emails
+* In **Condition** field: Select the condition to display **Print PDF Order** with each order to download files. Orders that do not satisfy selected conditions will not display Print PDF Order.
 * In **Label**: Set up the Label Print PDF Order in My Order page in the frontend
 * **PDF File Download Name**: Enter the name of the file downloaded when printing PDF Orders with each order. For example, order_%increment_id. 
 * **Multiple Orders PDF File Downloaded Name**: Enter the name of the file downloaded when Print PDF Orders with many orders. 
@@ -185,7 +195,7 @@ Keep going from ``Store > Setting > Configuration > Mageplaza Extensions > PDF I
 
 #### 1.4. Invoice
 
-![](https://i.imgur.com/U1yR86V.png)
+![](https://i.imgur.com/ayX2WUH.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
@@ -269,7 +279,7 @@ Or in massAction:
 
 #### 1.5. Shipment
 
-![](https://i.imgur.com/WvHDQHz.png)
+![](https://i.imgur.com/TkLITzj.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
@@ -340,12 +350,15 @@ Or in massAction:
 
 #### 1.6. Credit Memo
 
-![](https://i.imgur.com/qjjdIZ5.png)
+![](https://i.imgur.com/Dc4eYSS.png)
 
 * In **Enable PDF Attachment** field:
   * Uncheck **Use system value** to configure the extension. Choose “Yes” to send emails along with the attached PDF invoice.
   * Check **Use system value** to set “Enable PDF Attachment = Yes” as the default setting.
-* **PDF File Downloaed Name**: Enter the name of the file downloaded when Print PDF Credit Memos with each credit memno.
+* In **Apply for customer groups** field:
+  * **Specific Groups**: Display the extra **Customer Group** field, only selected customers can view the attached file in the email.
+  * **All Allowed Groups**: All customers can view the attached file in the email.
+* **PDF File Downloaded Name**: Enter the name of the file downloaded when Print PDF Credit Memos with each credit memno.
 * **Multiple Credit Memos PDF File Downloaded Name**: Enter the name of the file downloaded when Print DPF Credit Memos with many credit memos. 
 * In **Select Template** field:
   * Uncheck **Use system value** to configure the extension. Choose “Template” to display the designed PDF as in the selected template.
