@@ -70,7 +70,7 @@ From the Admin Panel, go to ``Stores > Settings > Configuration > Mageplaza Exte
   
   ![](https://i.imgur.com/MPei2QJ.png)
   
-- **Number of Frequently Bought Together products on the Slider**: This field is shown when `Display Stype = Slider`. The default & limit number is 3. If you fill in 0 or leave it empty, 3 products will be automatically displayed on the slider.
+- **Number of Frequently Bought Together products on the Slider**: This field is shown when `Display Style = Slider`. The default & limit number is 3. If you fill in 0 or leave it empty, 3 products will be automatically displayed on the slider.
 
 ## How to add Related Products
 
