@@ -306,7 +306,7 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * Open the **Design Configuration** section, and continue with following:
 
-.. image:: https://i.imgur.com/gNt0wUN.png
+.. image:: https://i.imgur.com/zAHelPN.png
 
 * In the **Checkout Page Layout** field: Select one of the following layouts to have your checkout page be shown in four different interfaces
 
@@ -337,6 +337,10 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 .. image:: https://i.imgur.com/kAfq91y.png  
   
 * In the **Place Order button color** field: Choose the color for the place order button which should be a highlight to attract shoppers the most.
+* In the **Order Summary Background Color** field: Choose the color for the **Order Summary** section.
+* In the **One Step Checkout Page Background Color** field: Choose the background color for the whole **One Step Checkout** page.
+* In the **One Step Checkout Page Title Color** field: Choose the color for the title of the **One Step Checkout** page.
+* In the **One Step Checkout Description Color** field: Choose the color for the description section of the **One Step Checkout** page.
 * In the **Text Font** field: Select text font for the one step checkout page. You can change among multiple text fonts as you wish.
 * In the **Custom CSS** field: You can add the CSS code to custom your own style.
 
