@@ -24,7 +24,7 @@ From the Admin Panel, go to `Stores > Settings > Configuration > Mageplaza Exten
 ### 1. Configuration
 From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extensions > Edit Order`, select **General**
 
-![](https://i.imgur.com/GCEMXqS.png)
+![](https://i.imgur.com/HjbbjOZ.png)
 
 - **Enable**: Select **Yes** to turn on the Module.
 - **Only order in this status can be edited**: Select order status that allows editing.
@@ -37,6 +37,16 @@ From the Admin Panel, go to `Stores > Setting > Configuration > Mageplaza Extens
   - When clicked, the slide popup display can edit all information at the **Edit Order** page.
 - **Auto Recalculate Shipping Fee**: Select **Yes** to auto apply the new shipping amount after updating ordered items or shipping addresses.
 - **Enable Return Item To Stock**: Select **Yes** to return items to stock after items are removed or the item quantity decreased.
+- **Enable Track Order Shipping Status**: Select **Yes** to display the **Track Order Shipping Status** button on the delivery created order and on the Shipment page. 
+  - On **Manage Shipment Grid**: Click `Actions > Add Track Shipping for Order > Popup Add Track Shipping`: Admin can add **Tracking Number** for one or multiple Shipment at the same time.
+  
+  ![](https://i.imgur.com/QlrGKoT.png)
+  
+  ![](https://i.imgur.com/pdRguMf.png)
+  
+  - View Order:
+  
+  ![](https://i.imgur.com/X29wDRb.png)
 
 ### 2. Edit Order
 
