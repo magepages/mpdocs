@@ -305,15 +305,17 @@ For example with a product:
 * Go to ``Product > Catalog``, choose **Edit** a random one.
 * Choose ``PageSpeed Insight`` button at the header
 
-.. image:: https://i.imgur.com/2wARVTc.png
+.. image:: https://i.imgur.com/c1fzUbm.png
 
-* The page will be directed to SEO Tool page for the check execution.
+* The page will be directed to PageSpeed Insight page for the check execution.
 
-.. image:: https://i.imgur.com/3ZhKADM.png
+.. image:: https://i.imgur.com/XxQlA6A.png
 
-* After the checking done, SEO Tool will show assessed results of that product page's SEO. There're some fundamental standards are built from our intuitive knowledge so feel free to knock us a word if you want to discuss further regarding this issue.
+* PageSpeed Insights will focus on 2 key issues: page loading speed and user friendliness. These factors comply with Google web optimization methods as well as automate adjustment process.
 
-.. image:: https://i.imgur.com/q360k9W.png
+.. image:: https://i.imgur.com/3z6z12E.png
+
+.. image:: https://i.imgur.com/xVmgvQ6.png
 
 * Apply the same action with Category Page and CMS Page.
 
