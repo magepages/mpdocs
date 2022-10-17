@@ -240,17 +240,19 @@ This add-on tool will assist SEO extension in assessing and marking which and ho
 For example with a product:
 
 * Go to ``Product > Catalog``, choose **Edit** a random one.
-* Choose ``PageSpeed Insight`` 
+* Choose ``PageSpeed Insight`` button at the header
 
-.. image:: https://i.imgur.com/f4hqh4d.png
+.. image:: https://i.imgur.com/c1fzUbm.png
 
-* The page will be directed to SEO Tool page for the check execution.
+* The page will be directed to PageSpeed Insight page for the check execution.
 
-.. image:: https://i.imgur.com/jJmJzVa.png
+.. image:: https://i.imgur.com/XxQlA6A.png
 
-* After the checking done, SEO Tool will show assessed results of that product page's SEO. 
+* PageSpeed Insights will focus on 2 key issues: page loading speed and user friendliness. These factors comply with Google web optimization methods as well as automate adjustment process.
 
-.. image:: https://i.imgur.com/DjJDC4V.png
+.. image:: https://i.imgur.com/3z6z12E.png
+
+.. image:: https://i.imgur.com/xVmgvQ6.png
 
 * Apply the same action with Category Page and CMS Page.
 
