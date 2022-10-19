@@ -736,6 +736,7 @@ This displays general configurations regarding earning point(s)
 * In the **Points Earning From Tax** field: Select “Yes” so the tax can be converted to earning point(s)
 * In the **Earn points from shipping fee**: Select “Yes” to allow Shipping Fee to be converted to point(s).
 * In the **Point Refund** field: When the customer places an order, they will receive a certain amount of earning points. The shop owner selects “Yes” in this section to retrieve the points when customer refunds the order.
+* In the **Earning Point from Orders with Applied Coupon**: If **No**, when a customer applies a coupon to an order, they will not receive points from this order.
 * In the **Earning Points from Orders with Spent Points**: Select **Yes** so that when customers spend points in a order, they still can earn points from that order.
 * In the **Notify reward points for guests**: Select **Yes** to notify customers when they have not registered or logged in to their accounts.
  * **Message**: Enter messages to show customers on frontend.
