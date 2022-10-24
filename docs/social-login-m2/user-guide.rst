@@ -272,7 +272,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 * In the **Enable** field: Select “Yes” to show Sign in with Live button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
-* Instructions to create Live API can be found `here <https://docs.google.com//social-login-m2/how-to-configure-microsoft-live-api.html>`_.
+* Instructions to create Live API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-microsoft-live-api.html>`_.
 
 12.2. Login using Live
 ######################
