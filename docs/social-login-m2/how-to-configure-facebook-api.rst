@@ -15,67 +15,51 @@ First go to: https://developers.facebook.com/
 Step 2
 ---------
 
-Login Facebook by click on **Login** or create a new Facebook account. After that, click on **My App** from the Apps menu at the top
+Login Facebook by click on **Login** or create a new Facebook account. After that, click on **My App** from the Apps menu at the top, then click **Create Apps** to create your new app
 
-.. image:: https://i.imgur.com/opvp7Ll.png
+.. image:: https://i.imgur.com/bh5LUF3.png
+
+Choose the type of app you want to create
+
+.. image:: https://i.imgur.com/CHkpqfX.png
 
 Step 3
 --------
-Then, a popup will display. Fill out Display name for your app.
+Then, redirect to the app creation page. Fill out Display name, Email for your app.
 
-.. image:: https://i.imgur.com/JK7DxLi.png
-
-Enter the securuty code before creating a new Facebook API
-
-.. image:: https://i.imgur.com/CsyC05w.png
+.. image:: https://i.imgur.com/DxDBtCI.png
 
 Step 4
 ----------
 
-Go to Settings page and click on Add Platform. Then, choose Website
+Next, on the **Basic*8 page, enter the url in **App Domains**, **Site URL** and **URL Privacy Policy** fields. They should match with the current hostname *example.com*.
 
-.. image:: https://i.imgur.com/1BoQRSG.png
+.. image:: https://i.imgur.com/YHEtl6k.png
 
-Next, enter the url in App Domains, Site URL and URL Privacy Policy fields. They should match with the current hostname *example.com*.
-
-.. image:: https://i.imgur.com/y5ByLgN.png
+.. image:: https://i.imgur.com/7LIRZx3.png
 
 Step 5
 ---------
 
-Go to the Review page and choose YES to make the app to be public.
+On the **Advanced** page, get the Valid OAuth redirect URLs from our Social Login settings in the backend 
 
-.. image:: https://i.imgur.com/TsWdj5q.png
+.. image:: https://i.imgur.com/jdOZD2q.png
 
 Step 6
 ----------
 
-Go back to the Settings page. The created application credentials (APP ID and Secret) will be shown like the image below.
+As the Step 5, at ``Facebook Login > Settings``: copy **Valid OAuth redirect URLs** and paste in the **Share Redirect Domain Allow List** field.
 
-.. image:: https://i.imgur.com/NPC9fIe.png
+.. image:: https://i.imgur.com/cSNJcOD.png
+
+.. image:: https://i.imgur.com/BMCBe6w.png
 
 Step 7
 ----------
 
-- Add a Product
+Access to the **Basic** page, get, and insert APIs into API fields in the extension's settings in the Admin console.
 
-.. image:: https://i.imgur.com/0ncXALM.png
-
-- No need to choose any platforms. Click the **Settings** on the left to input the RedirectURIs.
-
-.. image:: https://i.imgur.com/nzGOfqd.png
-
-- Leave all the default Options, get the **Valid OAuth redirect URIs** from our SocialLogin settings in backend.  
-Paste the link into the input and press **Save changes** button on the bottom right screen.
-
-.. image:: https://i.imgur.com/ANrIMdN.png
-
-Step 8
----------
-
-Copy and insert API into API fields in the extension's setting under Admin panel. Please check this image.
-
-.. image:: https://i.imgur.com/AyXkJwc.png
+.. image:: https://i.imgur.com/JQMsOv9.png
 
 
 And that's it!
