@@ -58,11 +58,11 @@ II. Facebook sign in
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Facebook``.
 
-.. image:: https://i.imgur.com/Yb81kQ5.png
+.. image:: https://i.imgur.com/fybnkBG.png
 
 * In the **Enable** field: Select "Yes" to show Sign in with Facebook button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
-* Instruction to create Facebook API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_.
+* Instruction to create Facebook API can be found `here <https://docs.google.com/document/d/1Mp4I_cd-mghwCwI4VUmAis_x7JRqo0Az1VvrkePWibA/edit#>`_.
 
 2.2. Login using Facebook
 ######################
@@ -260,6 +260,12 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 Github Login dialog will be shown after clicking on Sign in with Github button.
  
 
+XII. Live Sign in
+^^^^^^^^^^^^^^^^^^^^^^
 
+12.1. How to configure Live
+######################
+
+Go to S``tore > Settings > Configuration > Mageplaza Extensions > Social Login > Live``.
 
 
