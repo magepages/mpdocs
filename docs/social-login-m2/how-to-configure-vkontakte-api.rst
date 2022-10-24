@@ -50,7 +50,7 @@ Copy and insert Application ID and Secure Key into API fields in Magento Admin.
 
 And that's it!
 
-If for some reason you still can't manage to create an application for Facebook, you can `ask for support`_.
+If for some reason you still can't manage to create an application for Vkontakte, you can `ask for support`_.
 
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
