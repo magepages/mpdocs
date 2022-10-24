@@ -43,7 +43,7 @@ Copy and insert Client Id and Client Secret into API fields in Magento Admin.
 
 And that's it!
 
-If for some reason you still can't manage to create an application for Foursquare, you can `ask for support`_.
+If for some reason you still can't manage to create an application for Github, you can `ask for support`_.
 
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
