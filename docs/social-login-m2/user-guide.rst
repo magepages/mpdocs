@@ -62,7 +62,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 * In the **Enable** field: Select "Yes" to show Sign in with Facebook button
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
-* Instruction to create Facebook API can be found `here <https://docs.google.com/document/d/1Mp4I_cd-mghwCwI4VUmAis_x7JRqo0Az1VvrkePWibA/edit#>`_.
+* Instruction to create Facebook API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-facebook-api.html>`_.
 
 2.2. Login using Facebook
 ######################
@@ -266,6 +266,38 @@ XII. Live Sign in
 12.1. How to configure Live
 ######################
 
-Go to S``tore > Settings > Configuration > Mageplaza Extensions > Social Login > Live``.
+Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Live``.
 
+.. image:: https://i.imgur.com/beR3h52.png
 
+* In the **Enable** field: Select “Yes” to show Sign in with Live button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instructions to create Live API can be found `here <https://docs.google.com//social-login-m2/how-to-configure-microsoft-live-api.html>`_.
+
+12.2. Login using Live
+######################
+
+.. image:: https://i.imgur.com/6kbbZnV.png
+
+Microsoft Live Login dialog will be shown after clicking on Sign in with Live button.
+
+XIII. Zalo Sign in
+^^^^^^^^^^^^^^^^^^^^^^
+
+13.1. How to configure Zalo
+######################
+
+Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Zalo``.
+
+.. image:: https://i.imgur.com/JgUS4SK.png
+
+* In the **Enable** field: Select “Yes” to show Sign in with Live button
+* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
+* Instructions to create Zalo API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-zalo-api.html>`_.
+
+13.2. Login using Zalo
+######################
+
+.. image:: https://i.imgur.com/pwdzfn8.png
+
+Zalo Login dialog will be shown after clicking on Sign in with Zalo button or scanning the QR code.
