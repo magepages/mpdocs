@@ -17,40 +17,35 @@ Step 2
 
 Create a new account or login your account if you have already registered
 
-.. image:: https://cdn.mageplaza.com/media/general/3skjfHG.png
+.. image:: https://i.imgur.com/mubeci0.png
 
 Step 3
 -----------
 
-Click on **Add an app** button, set **Name** for the application on the pop-up window
+Click on **Register an application** button, set **Name** and enter the **Redirect Url** of the website
 
-.. image:: https://cdn.mageplaza.com/media/general/l72G3eb.png
+.. image:: https://i.imgur.com/2cSvJrC.png
 
 Step 4
 ------------
 
-Copy and paste **Application ID** into the `Application ID` field on Magento 2 backend
+Copy and paste **Application ID** into the **Client ID** field on Magento 2 backend
 
-.. image:: https://cdn.mageplaza.com/media/general/0pEPyyL.png
+.. image:: https://i.imgur.com/FtzUax4.png
 
 Step 5
 -----------
 
-Use **Generate New Password** and **Generate New Key Pair** to get **Application Secrets**, then insert it into the `Application Secret` field from the Magento 2 backend
+To  get the **Client Secret**, log into ``Certificates & Secrets > New client secret > Add a client secret``. Copy and paste **Value** into the **Client Secret*8 field on Magento 2 backend
 
-.. image:: https://cdn.mageplaza.com/media/general/vwiOYWK.png
+.. image:: https://i.imgur.com/R1sndsP.png
 
-Step 6
----------
-
-Next, you need connect Microsoft Live and your website by adding your URL in the **Platform** option. 
-
-.. image:: https://cdn.mageplaza.com/media/general/iAY26SR.png
+.. image:: https://i.imgur.com/PvMshxj.png
 
 If for some reason you still can't manage to create an application for Microsoft Live Login, you can `ask for support`_.
 
 .. _ask for support: https://mageplaza.freshdesk.com/support/home
 
-.. _Microsoft Live: https://account.live.com/developers/applications/create
+.. _Microsoft Live: https://portal.azure.com/#view/Microsoft_AAD_RegisteredApps/ApplicationsListBlade
 
 .. include:: ../ad_footer.rst
