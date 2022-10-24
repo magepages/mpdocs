@@ -44,7 +44,7 @@ Copy and insert API into API fields in **Magento Admin > Social Login > Settings
 
 And that's it!
 
-If for some reason you still can't manage to create an application for Twitter, you can `ask for support`_.
+If for some reason you still can't manage to create an application for LinkedIn, you can `ask for support`_.
 
 .. _Google it: https://www.google.com/search?q=Linkedin%20API%20create%20application
 
