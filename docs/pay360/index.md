@@ -15,7 +15,7 @@ Mageplaza Worldpay (Pay360) extension is fully compatible with [Mageplaza One St
 ## How to use
 ### 1. Pay360
 
-Go to [Sign up] to register an account for Pay360.
+Go to [Sign up](https://docs.pay360.com/explorer-account/) to register an account for Pay360.
 
 ![](https://i.imgur.com/qI6yzvy.png)
 
