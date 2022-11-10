@@ -120,6 +120,7 @@ Welcome to Mageplaza Docs
    order-export/index
    order-history/index
    order-labels/index
+   pay360/index
    payment-restriction/index
    payment-suite/index
    product-attachments/index
