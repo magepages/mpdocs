@@ -174,7 +174,6 @@ Welcome to Mageplaza Docs
    who-bought-this-also-bought/index
    who-viewed-this-also-viewed/index
    webhook/index
-   worldpay/index
    zoho-crm/index
    2checkout/index
  
