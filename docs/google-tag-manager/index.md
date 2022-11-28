@@ -253,6 +253,9 @@ You can upload file here:
 
 ![](https://i.imgur.com/KUMRtWL.png)
 
+``Note``:
+* After installing the extension, you need to download Liquid by running the command `composer require liquid/liquid` or need to install the library.
+
 ### 2. API
 
 Google Tag Manager extension by Mageplaza supports using the REST API to get data with events such as product, category, homepage, catalog search, checkout index, checkout cart, checkout success, one step checkout, multi shipping checkout success, thank you page, add to cart, remove cart, and get head of Google Tag Manager, Google Analytics, Facebook Pixel.
