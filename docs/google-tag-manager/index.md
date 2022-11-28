@@ -9,6 +9,8 @@ How to know the increase in traffic of a website every week? What is the convers
 - Download Mageplaza Google Tag Manager
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
+``Note``:
+* After installing the extension, you need to download Liquid by running the command `composer require liquid/liquid` or need to install the library.
 
 ## How to use
 
@@ -253,8 +255,6 @@ You can upload file here:
 
 ![](https://i.imgur.com/KUMRtWL.png)
 
-``Note``:
-* After installing the extension, you need to download Liquid by running the command `composer require liquid/liquid` or need to install the library.
 
 ### 2. API
 
