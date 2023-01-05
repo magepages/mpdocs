@@ -248,14 +248,19 @@ The **Custom products page** configuration is available under ``Admin Panel > Ma
 
 After choosing/creating a specific Product page, choose **Page Information** scroll down to see some essential information:
 
-.. image:: https://i.imgur.com/GXaRwE2.jpg
+.. image:: https://i.imgur.com/rBAAwVo.png
+
+.. image:: https://i.imgur.com/i6Jsszp.png
 
 * In the **Name** field: Enter the name of the custom page in the backend.
 * In the **Page Title** field: Enter the name of the custom page in the frontend.
 * In the **URL key** field: Enter the characters you want to display in the URLs. *For example*: If you insert '**products**', the All products page's URL will be: *yourstore.com/products*
 * In the **Store View** field: Choose specific store views you want to display
 * In the **Status** field: You can enable/disable the custom product page.
-* In the **Link Position** field: choose the position of the link.
+* In the **Link Position** field: Choose the position of the link.
+* In the **Description** field: Enter the description of Custom Product Pages
+* In the **CMS Block Display Position** field: Select the display position of the CMS Block on Custom Product Pages
+* In the **CMS Block** field: Select the CMS Block displayed on Custom Product Pages
 
 In addtion, you can configure the SEO attribute for the all products page to have the best SEO performance. There are 4 fields: 
 
