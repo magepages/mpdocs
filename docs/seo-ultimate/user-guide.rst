@@ -88,37 +88,7 @@ In the **Verification** field, you need to enter the verification code to confir
 * In the **Pinterest** field: Enter the verification code for Pinterest.
 * In the **Yandex Webmaster Tools** field: Enter the verification code for Yandex Webmaster Tools.
 
-1.7. HTML Sitemap
------
-To use this function, you need to install Mageplaza Sitemap extension
-
-This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and Products Sitemap, while all of them can be displayed in the footer of your page. You can see the settings in the following screenshots:
-
-.. image:: https://i.imgur.com/cmRrPR9.jpg
-
-* In the **Enable HTML Sitemap**: choose “Yes” if you want to enable HTML Sitemap. New related HTML Sitemap modules will be expanded automatically
-* In the **Enable Categories Sitemap**: choose “Yes” if you want to display all pages in categories.
-* In the **Enable Pages Sitemap** field:  choose “Yes” if you want to display all pages in the website.
-* In the **Enable Products Sitemap** field: choose “Yes” if you want to display all product pages.
-* In the **Enable Additional Links** field: if you have a tons of link which can’t be automatically inserted into HTML file, choose “Yes” to enable this permission.
-* In the **Additional Links** box: Paste additional links you want to add.
-* In the **Add Sitemap Link to Footer** field: choose “Yes” if you want to enable the advance HTML Sitemap in the footer of pages.
-
-1.8. XML Sitemap
------
-
-To use this function, you need to install Mageplaza Sitemap extension
-
-Right under the HTML Sitemap’s configuration is XML Sitemap’s settings
-
-.. image:: https://i.imgur.com/CtlcZHQ.png
-
-XML Sitemap is a ``.xml`` map of your website and the map will show a list of the page that the visitors can access. Under the **XML Sitemap** section, you can:
-
-* Create `Homepage Optimization` when choosing "Yes"
-* In case you need additional links, it is required to set `Enable Additional Links` to "Yes"
-
-1.9. Canonical URLs
+1.7. Canonical URLs
 -----
 If the content of your site has the same article with others, search engines will underestimate the quality of your content and thus reduce the ranking of your website. Therefore, you must have a Canonical tags to reduce the duplication of content on the page, this is an onpage SEO tips which should be noted.
 
@@ -130,7 +100,7 @@ Expand **Canonical URLs** configuration to see basic modules:
 * In the **Disable Canonical URL for Pages with NOINDEX robots** field: Choose “No” if you want to disable all canonical URL for pages with NOINDEX robots since it’s not good for your SEO procedure (eg Search Pages, 404 Pages, etc)
 * In the **Don’t use Canonical URL for these pages** field: Default option is “No”. Entered pages won't display Canonical URL.
 
-1.10. Redirects
+1.8. Redirects
 -----
 Scroll until **Redirect**’s general configuration reaches your eyes.
 
@@ -141,7 +111,7 @@ Scroll until **Redirect**’s general configuration reaches your eyes.
 
 An additional user guide for Redirects can be found here 
 
-1.11. SEO Rules
+1.9. SEO Rules
 -----
 Head forward to ``Mageplaza > SEO: Configuration > SEO Rules`` in order to take the basic control for Rules generally.
 
@@ -152,7 +122,7 @@ Head forward to ``Mageplaza > SEO: Configuration > SEO Rules`` in order to take 
 * In the **Use H1 Heading for Category Pages** field: Choose “Yes” if you want to apply H1 Heading for Category Pages.
 * In the **Enable Automatic Alt Image** field: The required alt attribute specifies an alternate text for an image, if the image cannot be displayed. Choose “Yes” to enable this function”
 
-1.12. Page Analysis
+1.10. Page Analysis
 -----
 .. image:: https://i.imgur.com/8scA5QJ.jpg
 
@@ -189,7 +159,7 @@ After inserting the content on the other `Main Keyword` field, the system will a
 
 .. image:: https://i.imgur.com/AFK1e3u.gif
 
-1.13. Cross Links
+1.11. Cross Links
 -----
 
 .. image:: https://i.imgur.com/786AzAw.jpg
@@ -197,7 +167,7 @@ After inserting the content on the other `Main Keyword` field, the system will a
 In the **Enable/Disable** field, select “*Yes*” to enable cross links work, or “*No*” if you wish for the vice versa result.
 For more configuration how to set up crosslinks, please refer to this `Part V <https://docs.mageplaza.com/seo-ultimate/index.html#v-crosslinks>`_
 
-1.14. Dashboard Reports
+1.12. Dashboard Reports
 -----
 
 Dashboard Reports will gather and notice you all negative factors are harmful to your sites, which is also decreasing your SEO ranking badly. 
@@ -218,7 +188,7 @@ A new report system will be displayed at the dashboard of your admin backend whi
 
 If Dashboard report is disable, you can check it at ``Report > Mageplaza: SEO Report``.
 
-1.15. Hreflang Tags
+1.13. Hreflang Tags
 -----
 
 .. image:: https://i.imgur.com/TDtaBN5.png
