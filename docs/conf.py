@@ -150,6 +150,10 @@ html_static_path = [
   'default.css'
 ]
 
+html_css_files = [
+    'custom.css'
+]
+
 # Add any extra paths that contain custom files (such as robots.txt or
 # .htaccess) here, relative to this directory. These files are copied
 # directly to the root of the documentation.
