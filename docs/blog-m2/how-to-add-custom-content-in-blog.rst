@@ -17,7 +17,7 @@ There are few hidden tricks in Mageplza Blog for Magento 2. Here are hidden CMS 
 
 See this photo:
 
-.. image:: https://www.mageplaza.com/assets/img/extensions-images/magento-2-blog/hidden-static-block.jpg
+.. image:: https://cdn2.mageplaza.com/mp/assets/img/extensions-images/magento-2-blog/hidden-static-block.jpg
 
 
 How to create CMS static block in Magento 2
@@ -25,11 +25,11 @@ How to create CMS static block in Magento 2
 
 From Admin panel > Content > Blocks > Add New Block
 
-.. image:: https://cdn.mageplaza.com/media/general/vHoPfUE.png
+.. image:: http://i.imgur.com/vHoPfUE.png
 
 Then fill the content of block such as Name, idenity, content ...
 
-.. image:: https://cdn.mageplaza.com/media/general/cuHNsfk.png
+.. image:: http://i.imgur.com/cuHNsfk.png
 
 then click on `Save and continue`
 
