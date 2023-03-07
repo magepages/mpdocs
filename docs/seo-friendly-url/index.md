@@ -79,7 +79,7 @@ Login to your Magento 2 backend, then select `Stores > Settings > Configurations
 
 ### 2.3. Allow Google to follow links on the Category Page with the Filter Applied 
 
-![]([https://i.imgur.com/Qw6BJYY.png](https://i.imgur.com/oOIbzAY.png))
+![](https://i.imgur.com/oOIbzAY.png)
 
 - Select **No**: Stop Goolge from crawling filtered pages by handling meta-tag robots.
 
