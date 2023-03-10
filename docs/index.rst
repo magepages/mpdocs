@@ -49,6 +49,7 @@ Welcome to Mageplaza Docs
    age-verification/index
    banner-slider/index
    backend-reindex/index
+   backend-tools/index
    barcode/index
    barclaycard/index
    better-coupon/index
@@ -148,6 +149,7 @@ Welcome to Mageplaza Docs
    security-pro/index
    same-order-number/index
    selling-more/index
+   seo-friendly-url/index
    share-cart/index
    search-m2/index
    shop-by-brand-m2/index
