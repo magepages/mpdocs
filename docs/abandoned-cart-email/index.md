@@ -24,11 +24,18 @@ Login to Magento Admin, ``Marketing > Abandoned Cart Email`` to configure it in 
 #### 1.1 General Configuration
 Go to ``Stores > Settings > Configuration > Mageplaza Extensions > Abandoned Cart Email`` then click on ``General Configuration``
 
-![](https://i.imgur.com/fDb1QNO.png)
+![](https://i.imgur.com/ES0w9WZ.png)
 
 * **Enabled**: select “Yes” to enable Mageplaza Abandoned Cart Email extension
 * **Send Email to Subscribers Only**: Select **Yes**, only sending abandoned cart email to registered and subscribed customers. If select **No**, sending email to all abandoned carts of registered customers which satisfy the conditions. 
-
+* **Add Related Products in Email**: Set the display of related products of items in the abandoned cart.
+ * **No**: There will be no related products in the abandoned cart email
+ * **Related Products**: Products shown in the email are related products of the item in the cart.
+ * **Up-sell Products**: Products shown in the email are up-sell products of the item in the cart.
+ * **Cros-sell Products**: Products shown in the email are cross-sell products of the item in the cart.
+* **Title**: Enter the title of the Related Products block in the abandoned cart email. It is shown when `Add Related Products in Email = Related Products/Up-sell Products/Cross-sell Products`
+* **Limit the Number of Products**: The maximum number of products shown in the Related Products block in the abandoned cart email. It is shown when `Add Related Products in Email = Related Products/Up-sell Products/Cross-sell Products`
+* **Exclude Products Out Of Stock and Disable Products in Email**: Select **Yes** to remove out-of-stock itens and disable Related products, Cross-sell products and Up-sell products from the email.
 * **Email**: This section is for the abandoned cart reminder email settings
   * Click the ``Add`` button to add a reminder email
   * **Send After** to change the email delivery time. The counting will be started from the last updated cart time, a reminder email will be sent to customers.
@@ -187,18 +194,18 @@ From the Admin Panel, select `Marketing > Abandoned Cart Email > Abandoned Produ
 
 From Admin Panel, select `Marketing > Abandoned Cart Email > Shopping Behavior Analysis`
 
-![](https://i.imgur.com/2itzrL5.png)
+![](https://i.imgur.com/1qCKLkx.png)
 
-![](https://i.imgur.com/ogbD6I7.png)
+![](https://i.imgur.com/6LIk3j2.png)
 
-- Here showing the times percentage when fields were filled/updated on the checkout page before the cart was abandoned.
+- Here showing the times percentage when fields were filled/updated on the checkout page before the cart was abandoned. This feature is compatible with One Step Checkout module, allowing stores to update custom fields as needed.
 - **Column chart**: displays the % value at the beginning and inside of the column. Color is changed by different %:
   -  0-40%: displayed in red.
   -  40-70%: display yellow.
   -  70-100%: displayed in green.
 - Admin can choose to hide/ show columns at each statistics table. Clicking on **Hide optional fields**, the popup will show all the information fields in the table along with the checkbox; Any field that is checked will be displayed, unchecked ones will not display statistics.
 
-![](https://i.imgur.com/SGZfbHL.png)
+![](https://i.imgur.com/HZfSbOg.png)
 
 ### 6. Cart Board
 
