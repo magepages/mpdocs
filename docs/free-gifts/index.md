@@ -24,6 +24,10 @@ Mageplaza Free Gifts Extension helps store owners set up special promotions by o
 
 ![](https://i.imgur.com/HxFDR2B.png)
 
+### Customers can view the gift information of each product and add gift to their carts right at Category page
+
+![](https://i.imgur.com/jF3i0xc.png)
+
 ### When a product with free gift promotion is removed from the cart, their free gifts are removed as well
 
 ## How to Configure
@@ -85,7 +89,7 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   
 #### 1.2 Button Display
 
-![](https://i.imgur.com/LiNBPyV.png)
+![](https://i.imgur.com/B0O33Uk.png)
 
 - **Show At Cart Page**: applies to auto cart rules
   - Click **Yes** to display the add gift button on the **View Cart Page**
@@ -94,11 +98,12 @@ From the Admin panel, go to `Marketing > Free Gifts > Configuration`
   - Select **Yes** to display the **add gift** button on the **View Cart Page**, Customer needs to click the button to select the desired Gift
   - If **No**, the **add gift** button is not displayed in View Cart Page. Customers can only add gifts from the **product detail page**
   - In case the gift is not displayed in the **Product Detail Page** nor in the **View Cart Page**, which means that the rule not being applied.
-- **Show Gifts At Product Page**: select **Yes** so that the gift list shown on the Product Detail pages meets the condition of the rules
+- **Show Free Gift Information on Category Page**: Select **Yes** to show information of the Free Gift, including the name and short description of the Free Gift of each product on the Category page.
+- **Show Gifts At Product Page**: select **Yes** so that the gift list shown on the Product Detail pages meets the condition of the rules. **Show Gift List As Popup** and **Open Popup Automatically** depends on this field.
 - **Show Gift List As Popup**:
   - Select **Yes** to have the gift list displayed on the Product Detail page as a popup
   - If you select **No**, the gift list is displayed as a block
-- **Open Popup Automatically**: Choose **Yes** to auto display the free gifts popup when item/cart meet the conditions (without clicking on `add free gift button`
+- **Open Popup Automatically**: Choose **Yes** to auto display the free gifts popup when item/cart meet the conditions (without clicking on `add free gift button`). This field depends on the **Show Gift List As Popup** field.
   
 #### 1.3 Button Design
 
