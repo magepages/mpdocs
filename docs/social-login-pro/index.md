@@ -113,14 +113,17 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 * In the **Enable** field: Select "Yes" to show Sign in with Google button
 * **Sign In As Admin**: Select “Yes” to allow admin to login your website at backend via Google  
-  * After turn on this function, social login button is shown at **My Account** in backend, click to Google button to login via Google account
+  * After turning on this function, social login button is shown at **My Account** in backend, click to Google button to login via Google account
   
   ![](https://i.imgur.com/OPSnKDM.png)
   
-* After connecting with Google, admin logout current account at backend and login by Google account.
+  * After connecting with Google, admin logout current account at backend and login by Google account.
 
 ![](https://i.imgur.com/BD4nl3s.png)
 
+* **Enable One tap sign up and sign in**: Select **Yes** to sign in using the Google account in the browser via the popup.
+
+![](https://i.imgur.com/2gSYIqA.png)
 
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Google API can be found [here](https://docs.mageplaza.com/social-login-m2/how-to-configure-google-api.html).
