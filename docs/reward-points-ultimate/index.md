@@ -333,11 +333,11 @@ Rule Information shows the basic information of the rule. These information will
 
  ![](https://i.imgur.com/TAG58xY.png)
  
- - `Points Allocation`: Points will be added for cutsomers every week on the start day (Actions tab)
+ - `Points Allocation`: Points will be added for customers every week on the start day (Actions tab)
 
  ![](https://i.imgur.com/0LUyfgt.png)
  
- - `Lifetime Amount`: When reaching a certain Invoice Amount, cutsomers will earn points. 
+ - `Lifetime Amount`: When reaching a certain Invoice Amount, customers will earn points. 
  
  ![](https://i.imgur.com/5DbH1CJ.png)
 
