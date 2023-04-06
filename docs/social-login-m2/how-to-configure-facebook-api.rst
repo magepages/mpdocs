@@ -48,18 +48,18 @@ On the **Advanced** page, get the Valid OAuth redirect URLs from our Social Logi
 Step 6
 ----------
 
-Add Permissions & Verification by going to **App Review** and select **Permissions and Features**:
-
-.. image:: https://i.imgur.com/G5gB8yC.png
-
-Step 7
-----------
-
 As the Step 5, at ``Facebook Login > Settings``: copy **Valid OAuth redirect URLs** and paste in the **Share Redirect Domain Allow List** field.
 
 .. image:: https://i.imgur.com/cSNJcOD.png
 
 .. image:: https://i.imgur.com/BMCBe6w.png
+
+Step 7
+----------
+
+Add Permissions & Verification by going to **App Review** and select **Permissions and Features**:
+
+.. image:: https://i.imgur.com/G5gB8yC.png
 
 Step 8
 ----------
