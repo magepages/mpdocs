@@ -26,10 +26,10 @@ Here are the details for the settings of each tab.
 1. General Configuration tab
 --------------------------------
 
-.. image:: https://i.imgur.com/VCV3lyM.jpg
+.. image:: https://i.imgur.com/abqzY73.png
 
-* In the **Module Enable** field: You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** to enable and **No** to disable.
-* In the **Multi-Filters** field
+* In the **Layered Navigation Enable** field: You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** to enable and **No** to disable.
+* In the **Enable Multi-Filters** field
 
   * By enabling this feature, the shoppers are allowed to choose more than 1 filter to find the desired items. You can also filter by multi-choose from multiple categories at the same time. For example: The shopper can choose to filter by **Color** with **Black**, **White** and **Size** with **Small**, **Large** at the same time. This can be also applied with multiple categories. 
   * To config this feature, go to `Enable Multi-filter` field, set "Yes/No" to "Enable/ Disable" 
@@ -69,6 +69,7 @@ Here are the details for the settings of each tab.
 
   * **Yes** : The attribute group will already be expanded when the shoppers go to the Categories page.
   * **No** : The shoppers need to click on the attribute group name to expand the filters.
+  * **Expand for desktop or mobile or both**: With other options, the attribute set will be expanded for each device type when customers enter the Category page.
 
 * In the **Apply Filter button** field
 
@@ -78,6 +79,10 @@ Here are the details for the settings of each tab.
 
 .. image:: https://imgur.com/Ve8nGAA.gif
 
+* In the **Hide the Single-Select Filter after Selection** field: 
+ * **Yes**: The single-select attribute will be hidden after filtering.
+ * **No**: Show all attributes on the navigation bar after filtering, including single-select attributes.
+ 
 2. Additional Filter 
 ------------------------------
 
