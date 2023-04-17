@@ -31,7 +31,9 @@ Here are the details for the settings of each tab.
 1. General Configuration tab
 --------------------------------
 
-.. image:: https://cdn.mageplaza.com/media/general/UIIFzKu.png
+.. image:: https://i.imgur.com/CK2srTY.png
+
+.. image:: https://i.imgur.com/8H9GzTM.png
 
 * In the **Module Enable** field: You can choose to use the Module `Layered Navigation` or not. Leave as **Yes** to enable and **No** to disable.
 * In the **Multi-Filters** field
@@ -74,6 +76,7 @@ Here are the details for the settings of each tab.
 
   * **Yes** : The attribute group will already be expanded when the shoppers go to the Categories page.
   * **No** : The shoppers need to click on the attribute group name to expand the filters.
+  * **Expand for desktop or mobile or both**: With other options, the attribute set will be expanded for each device type when customers enter the Category page.
 
 * In the **Show type** field: In this session, you can choose the way to display the filter attribute group. There are 3 options: 
 
@@ -97,6 +100,10 @@ Here are the details for the settings of each tab.
 
 .. image:: https://imgur.com/Ve8nGAA.gif
 
+* In the **Hide the Single-Select Filter after Selection** field: 
+ * **Yes**: The single-select attribute will be hidden after filtering.
+ * **No**: Show all attributes on the navigation bar after filtering, including single-select attributes.
+ 
 * In the **Infinite Scroll** field
 
   * Continue with the next session. **Infinite Scroll**, or also called the **Lazy-scrolling** on a website, this feature will help to automatically load the new products in the list when the shoppers scroll to the bottom, without clicking or reloading. 
