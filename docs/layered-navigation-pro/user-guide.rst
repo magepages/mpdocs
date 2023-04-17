@@ -67,7 +67,6 @@ Here are the details for the settings of each tab.
 
 * In the **Expand by default** field 
 
-  * **Yes** : The attribute group will already be expanded when the shoppers go to the Categories page.
   * **No** : The shoppers need to click on the attribute group name to expand the filters.
   * **Expand for desktop or mobile or both**: With other options, the attribute set will be expanded for each device type when customers enter the Category page.
 
