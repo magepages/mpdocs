@@ -252,7 +252,7 @@ This displays general configurations regarding earning point(s)
 * In the **Type of Maximum Earning Points per Order**: Choose how to calculate the maximum allowed points for each order. There are 2 types:
   * **Fixed**: Set the maximum allowed points as a fixed value set in the **Maximum Earning Points per Order** field.
   * **Percent**: Set the maximum allowed points as a percentage of the cart set in the **Maximum Earning Points per Order** field.
-* **Maximum Earning Points per Order**: Set the maximum allowed points customers can get for each order. If left empty or 0, the maximum point is unnlimited.
+* **Maximum Earning Points per Order**: Set the maximum allowed points customers can get for each order. If left empty or 0, the maximum point is unlimited.
 
 ##### 4.2.2. Sales Earning Process.
 
