@@ -12,6 +12,7 @@
 * [How to configure Vkontakte API](https://docs.mageplaza.com/social-login-m2/how-to-configure-vkontakte-api.html)
 * [How to configure Yahoo API](https://docs.mageplaza.com/social-login-m2/how-to-configure-yahoo-api.html)
 * [How to configure Pinterest API](https://docs.mageplaza.com/social-login-m2/how-to-configure-pinterest-api.html)
+* [How to configure Zalo API](https://docs.mageplaza.com/social-login-m2/how-to-configure-zalo-api.html)
 
 ## Overview
 
