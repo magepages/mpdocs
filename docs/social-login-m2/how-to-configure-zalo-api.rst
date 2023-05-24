@@ -4,7 +4,7 @@ How to configure Zalo API
 Step 1
 ----------
 
-First go to Zalo to create an app. https://developer.yahoo.com/apps.
+First go to Zalo to create an app. https://developers.zalo.me/apps
 
 Step 2
 --------
