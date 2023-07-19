@@ -10,7 +10,7 @@ If customers sell their products on a variety of channels such as Google Shoppin
 
 ## How to use
 
-### Goole Shopping API:
+### Google Shopping API:
 - Register an account of Google Shopping API and go to this [link](https://www.google.com/retail/solutions/merchant-center/).
 - After your account has been registered, you will see the value in the field **Merchant ID**. Save that **Merchant ID** value to connect with your website later. 
 
