@@ -196,31 +196,10 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 
 Foursquare Login dialog will be shown after clicking on Sign in with Foursquare button.
  
-IX. Instagram Sign in
+IX. Vkontakte Sign in
 ^^^^^^^^^^^^^^^^^^^^^^
 
-9.1. How to configure Instagram
-######################
-
-Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Instagram``.
-
-.. image:: https://i.imgur.com/98dmZnf.png
-
-* In the **Enable** field: Select "Yes" to show Sign in with Instagram button
-* In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
-* Instruction to create Instagram API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-instagram-api.html>`_.
-
-9.2. Login using Instagram
-######################
-
-.. image:: https://i.imgur.com/P5HffnF.png
-
-Instagram Login dialog will be shown after clicking on Sign in with Instagram button.
-
-X. Vkontakte Sign in
-^^^^^^^^^^^^^^^^^^^^^^
-
-10.1. How to configure Vkontakte
+9.1. How to configure Vkontakte
 ######################
 
 Go to `` Store > Settings > Configuration > Mageplaza Extensions > Social Login > Vkontakte``.
@@ -231,17 +210,17 @@ Go to `` Store > Settings > Configuration > Mageplaza Extensions > Social Login 
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Vkontakte API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-vkontakte-api.html>`_.
 
-10.2. Login using Vkontakte
+9.2. Login using Vkontakte
 ######################
 
 .. image:: https://i.imgur.com/SWgvRaJ.png
 
 Vkontakte Login dialog will be shown after clicking on Sign in with Vkontakte button.
 
-XI. Github Sign in
+X. Github Sign in
 ^^^^^^^^^^^^^^^^^^^^^^
 
-11.1. How to configure Github
+10.1. How to configure Github
 ######################
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Github``.
@@ -252,7 +231,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instruction to create Github API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-github-api.html>`_.
 
-11.2. Login using Github
+10.2. Login using Github
 ######################
 
 .. image:: https://i.imgur.com/BptHpHv.png
@@ -260,10 +239,10 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 Github Login dialog will be shown after clicking on Sign in with Github button.
  
 
-XII. Live Sign in
+XI. Live Sign in
 ^^^^^^^^^^^^^^^^^^^^^^
 
-12.1. How to configure Live
+11.1. How to configure Live
 ######################
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Live``.
@@ -274,17 +253,17 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instructions to create Live API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-microsoft-live-api.html>`_.
 
-12.2. Login using Live
+11.2. Login using Live
 ######################
 
 .. image:: https://i.imgur.com/6kbbZnV.png
 
 Microsoft Live Login dialog will be shown after clicking on Sign in with Live button.
 
-XIII. Zalo Sign in
+XII. Zalo Sign in
 ^^^^^^^^^^^^^^^^^^^^^^
 
-13.1. How to configure Zalo
+12.1. How to configure Zalo
 ######################
 
 Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login > Zalo``.
@@ -295,7 +274,7 @@ Go to ``Store > Settings > Configuration > Mageplaza Extensions > Social Login >
 * In the **Sort Order** field: The order to show social login buttons. Order will be arranged as following: number, special symbol, uppercase, lowercase.
 * Instructions to create Zalo API can be found `here <https://docs.mageplaza.com/social-login-m2/how-to-configure-zalo-api.html>`_.
 
-13.2. Login using Zalo
+12.2. Login using Zalo
 ######################
 
 .. image:: https://i.imgur.com/pwdzfn8.png
