@@ -15,13 +15,19 @@ After adding the right products in the cart, the customers will be navigated to 
 
 ![](https://i.imgur.com/qrpWYAY.png)
 
+Display **Delivery Time** information in **Order**:
+
+![](https://i.imgur.com/8ogNjEd.png)
+
 The customers can choose the day, time to receive the products and the related information to store owners as well as the shippers.
 
 ## II. How to configure
 
 Login to Magento Admin, go to **Stores > Settings > Configuration > Mageplaza Extensions > Delivery Time > General Configuration**
 
-![](https://i.imgur.com/s4GdkLc.png)
+![](https://i.imgur.com/qSrwbXz.png)
+
+![](https://i.imgur.com/woNYsV1.png)
 
 * **Enable**: Set “Yes” to allow customers to note the time when they can receive the shipping items
 * **Enable Delivery Time**: Choose "Yes" so that customers can choose the time frame that they want to get the products. Admins need to set the time frame in the `Delivery Time` field.
@@ -30,7 +36,8 @@ Login to Magento Admin, go to **Stores > Settings > Configuration > Mageplaza Ex
 * **Date Format**: Choose an appropriate format for the date and time. We offer 12 availble formats.
 * **In the Days Off field**: Choose day(s) not in your official working time.
 * **Date Off**: Choose any date that admins don't want to deliver.
-* **Delivery Time**: Set the time frame to delivery during the day.
+* **Enable Cut-off Time**: Set **Yes** to allow limiting the delivery time deadline, which will depend on the Cut-off Time field below.
+* **Cut-off Time**: Set the daily delivery time deadline. After the time in this section, delivery actions can't be implemented.
 
 
 ### The instruction to attach Delivery Time information to Email Order
