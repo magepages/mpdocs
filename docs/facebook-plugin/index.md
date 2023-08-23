@@ -50,7 +50,9 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
   
 #### 1.2. Facebook Plugin
 
-![](https://i.imgur.com/NjAHx0K.png)
+![](https://i.imgur.com/YaTBB0s.png)
+
+![](https://i.imgur.com/3zeixvO.png)
 
 - **Enable**: Select Yes to insert the Facebook page into the Widget
 - **Facebook URL**:
@@ -76,7 +78,6 @@ From the Admin Panel, go to `Stores > Configuration > Mageplaza Extensions > Fac
   - Select Yes to hide the cover of the Facebook page
   - The default is No
 
-- **Show profile photo**: Select Yes to display a friend's avatar when friends like Facebook page
 - **Hide the custom Call To Action**: Select Yes to hide the call-to-action button on the Facebook page (if this call-to-action button is available on the page). For example, on the Facebook page there is the buttons: Book Now, Call Now, Send Email, etc, then these buttons will be hidden if `Hide the custom call to action = Yes`
 
 - **Small header**:
@@ -161,7 +162,9 @@ From the Admin Panel, go to Catalog > Product
   - `Facebook Widget options = Use Config`: Use the configuration displaying for Facebook page in the `Configuration` section
   - `Facebook Widget options = Custom`: Admins set the display for Facebook page
 
-![](https://i.imgur.com/YAQMaxu.png)
+![](https://i.imgur.com/Lrzvt9P.png)
+
+![](https://i.imgur.com/vLmTmg5.png)
 
 - **Facebook URL**:
   - Enter the URL of the Facebook page you want to advertise
@@ -186,7 +189,6 @@ From the Admin Panel, go to Catalog > Product
   - Select Yes to hide the cover of the Facebook page
   - The default is No
 
-- **Show profile photo**: Select Yes to display a friend's avatar when friends like Facebook page
 - **Hide the custom Call To Action**: Select Yes to hide the call-to-action button on the Facebook page (if this call-to-action button is available on the page). For example, on the Facebook page there is the buttons: Book Now, Call Now, Send Email, etc, then these buttons will be hidden if `Hide the custom call to action = Yes`
 
 - **Small header**:
