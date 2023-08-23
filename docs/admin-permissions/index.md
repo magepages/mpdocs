@@ -224,7 +224,9 @@ php bin/magento mageplaza-adminpermissions:custom-limit:disabled
   - **Apply To Date**: Select the date of end of active/inactive permission for the admin accounts.
   - **From**: Choose the start time of the day that the admin is permitted to be activate/inactive
   - **To**: Select the end time of the day during which an admin is permitted to be active/inactive.
-  
+
+**Note**: When there are no changes in **Valid time**, meaning it remains as the initial default, then admins will automatically have access to your website.
+
 ###  III. Note for uninstalling the extension
 
 To uninstall **Mageplaza Admin Permissions Extension**, first run the following command:
