@@ -9,7 +9,7 @@ The Instagram Feed supports displaying your Instagram photos on the homepage, pr
 
 ## Installation guide
 
-- Download Mageplaza Instagram Feed extension
+- Download the Mageplaza Instagram Feed extension
 - [How to Install](https://www.mageplaza.com/install-magento-2-extension/)
 
 ## How to configure Instagram API
@@ -68,22 +68,17 @@ Copy that token and go to **User Token** field in the **[Mageplaza Instagram Fee
 
 ## How to Use 
 
-### 1. Single Row
+### 1. Slider
 
-![](https://i.imgur.com/UxbV1j1.png)
-
-
-### 2. Multiple Rows
-
-![](https://i.imgur.com/jOVztok.png)
+![](https://i.imgur.com/SdHzyrm.png)
 
 
-### 3. Optimized images
+### 2. Gird
 
-![](https://i.imgur.com/LxPEF9f.png)
+![](https://i.imgur.com/NnYailr.png)
 
 
-### 4. Show Popup when licking to the images
+### 3. Show Popup when licking to the images
 
 ![](https://i.imgur.com/7UB5bj5.png)
 
@@ -109,28 +104,32 @@ From the **Admin Panel**, go to `Store > Settings > Configuration > MAGEPLAZA EX
 
 #### 1.2. Display
 
-![](https://i.imgur.com/G82nXaH.png)
+![](https://i.imgur.com/RUUj32w.png)
 
 
-- **Total number of photos**
+- **Total number of items**
   - Select the number of images to be shown on your site
   - The maximum image number is 25
   
 - **Layout**
 
-![](https://i.imgur.com/cxTACKL.png)
-
-
-  - *Layout = Single Row*: Display images on a row
-  - *Layout = Multiple Rows*: Display images on multiple rows
-    - **Number of row**
-      - Select the image number shown on a row
-      - The default number is 2 
-  - *Layout = Optimized image*: Display the optimized product images
+  - **Layout = Slider**: Show photos from Instagram feed as slider. Display another field as below:
+    - **Number of items shown**: Insert the number of items to show in the slider. Highly recommend from 1 to 25 (valid numbers) for a clearer visuality on your website.
   
-- **Show Caption**: Select `Yes` to show caption when hovering image 
+   ![](https://i.imgur.com/6ZpZCRU.png)
 
-- **Show pop-up**: Select `Yes` to allow displaying popup as clicking to images
+  - **Layout = Grid**: Show photos from Instagram feed as gird. Display another field as below:
+    - **Number of rows**: Insert the number of rows to determine the number of items displayed on each row. Highly recommend from 1-25 (valid numbers) for a clearer visuality on your website.
+
+     **The number of items shown on each row = (total number of items)/(numbers of rows)**
+
+   ![](https://i.imgur.com/XRhBRUE.png)
+  
+- **Show Video**: Select `Yes` to show Instagram video in the slider or grid form. 
+
+- **Show Caption**: Select `Yes` to show caption when hovering image. 
+
+- **Show pop-up**: Select `Yes` to allow displaying popup as clicking to images.
 
 ### 2. Widget
 
@@ -175,24 +174,30 @@ On the **Panel Admin**, go to `Content > Elements > Widgets`
 - **Description**: Insert the description for Instagram images displayed on Frontend
 - **Design** 
 
-![](https://i.imgur.com/kl2zUZt.png)
+![](https://i.imgur.com/mHdvBsf.png)
+
+![](https://i.imgur.com/cQtGWBn.png)
 
 - **Design = Use Config**: Display the product images by using the Instagram images configuration
 - **Design = Custom**: Admin can custom the displaying of Instagram images on frontend
-- **Total number of photos**
-  - Select the image number displayed on frontend
-  - The maximum number is 20
+- **Total number of items**
+  - Select the image or video number displayed on frontend
+  - The maximum number is 25
 - **Layout**
+  - **Layout = Slider**: Show photos from Instagram feed as slider. Display another field as below:
+    - **Number of items shown**: Insert the number of items to show in the slider. Highly recommend from 1 to 25 (valid numbers) for a clearer visuality on your website.
+  
+   ![](https://i.imgur.com/6ZpZCRU.png)
 
-![](https://i.imgur.com/cxTACKL.png)
+  - **Layout = Grid**: Show photos from Instagram feed as gird. Display another field as below:
+    - **Number of rows**: Insert the number of rows to determine the number of items displayed on each row. Highly recommend from 1-25 (valid numbers) for a clearer visuality on your website.
+  
+    **The number of items shown on each row = (total number of items)/(numbers of rows)**
 
+   ![](https://i.imgur.com/XRhBRUE.png)
+  
+- **Show Video**: Select `Yes` to show Instagram video in the slider or grid form. 
 
-  - *Layout = Single Row*: Display images on a row
-  - *Layout = Multiple Rows*: Display images on multiple rows
-    - **Number of row**
-      - Select the image number shown on a row
-      - The default number is 2 
-  - *Layout = Optimized image*: Display the optimized product images
+- **Show Caption**: Select `Yes` to show caption when hovering image. 
 
-- **Show pop-up**: Select `Yes` to allow displaying popup as clicking to images
-
+- **Show pop-up**: Select `Yes` to allow displaying popup as clicking to images.
