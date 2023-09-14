@@ -2,7 +2,7 @@
 User Guide
 ==============
 
-Search extension for Magento 1 was launched by Mageplaza that is the perfect solution that improves your searching system. [Our Search extension](https://www.mageplaza.com/magento-2-search-extension/) brings the most benefits for your customer in terms of finding prefered product. The relevant searching results will be shown immediately after customer enter the first letter of product name. Thus, this extension will help to save your customer's time, make customer satisfaction and make your sale increase definitely.
+Search extension for Magento 1 was launched by Mageplaza that is the perfect solution that improves your searching system. <a class="reference external" href="https://www.mageplaza.com/magento-2-search-extension/">Our Search extension</a> brings the most benefits for your customer in terms of finding prefered product. The relevant searching results will be shown immediately after customer enter the first letter of product name. Thus, this extension will help to save your customer's time, make customer satisfaction and make your sale increase definitely.
 
 Mageplaza Search for Magento 1 User Guide will provide the detailed instructions to know **How to use** on the frontend and  **How to Config** on the backend.
 
