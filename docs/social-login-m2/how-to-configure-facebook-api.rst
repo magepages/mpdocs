@@ -32,9 +32,13 @@ Then, redirect to the app creation page. Fill out Display name, Email for your a
 Step 4
 ----------
 
-Next, on the **Basic*8 page, enter the url in **App Domains**, **Site URL** and **URL Privacy Policy** fields. They should match with the current hostname *example.com*.
+Next, at page **Basic**, enter the url in **App Domains**, **Site URL** and **URL Privacy Policy** fields. They should match with the current hostname *example.com*.
 
 .. image:: https://i.imgur.com/YHEtl6k.png
+
+Click **Add platform** to add **Site URL**.
+
+.. image:: https://i.imgur.com/hAujAWC.png
 
 .. image:: https://i.imgur.com/7LIRZx3.png
 
@@ -47,6 +51,10 @@ On the **Advanced** page, get the Valid OAuth redirect URLs from our Social Logi
 
 Step 6
 ----------
+
+Click **Add product** from the navigation bar to perform Facebook setup.
+
+.. image:: https://i.imgur.com/0lW1x90.png
 
 As the Step 5, at ``Facebook Login > Settings``: copy **Valid OAuth redirect URLs** and paste in the **Share Redirect Domain Allow List** field.
 
