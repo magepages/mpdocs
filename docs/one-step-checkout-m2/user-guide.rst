@@ -179,7 +179,8 @@ Here, the admin can configure **Required** by checking the right corner of each 
 
 * In the **Auto-redirect to One Step Checkout page** field: Select "Yes" to turn this function on
 * In the **Show Billing Address** field: Select "Yes" to allow shipping items to a different address from billing address. The system will then display another field: 
-  * **Billing Address and Shipping Address are the same” checked by default**: If you choose *Yes**, the checkbox will be automatically checked and collect address information according to the Shipping address. If the customer wants the Billing address information different from the Shipping address, then uncheck the checkbox and fill in the necessary information for the Billing address.
+  
+  * **Billing Address and Shipping Address are the same” checked by default**: If you choose **Yes**, the checkbox will be automatically checked and collect address information according to the Shipping address. If the customer wants the Billing address information different from the Shipping address, then uncheck the checkbox and fill in the necessary information for the Billing address.
 
 * In the **Use Auto Suggestion Technology** field: Select one of the following options:
 
