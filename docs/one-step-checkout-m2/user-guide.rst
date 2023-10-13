@@ -48,9 +48,9 @@ A one-step checkout will be totally done on one page only by completing informat
 
 * Depending on the configuration in the backend, the shipping method will be variable to meet customers' requirements.
 * Admin can add more other shipping methods at the backend ``Sale > Shipping Method``. You can refer `here <https://www.mageplaza.com/magento-2-create-shipping-method/>`_ for more information.
-* Buyers can choose their favourable time to receive delivery at **Delivery Time**. This extension is entirely compatible with OSC
+* Buyers can choose their favourable time to receive delivery at **Delivery Time**. This extension is entirely compatible with OSC.
 * Also, buyers can enter their house security code if it's neccessary. 
-* Moreover, One Step Checkout module allows buyers to leave their comments about the orders, products in the **Comments** field
+* Moreover, One Step Checkout module allows buyers to leave their comments about the orders, products in the **Comments** field.
 
 1.5. Payment Method
 ^^^^^^^^^^^^^^^^^^
@@ -104,7 +104,7 @@ II. How to configure
 
 Login to Magento Admin, following our given guide below to complete One Step Checkout configuration
 
-* Field Management
+* Manage Checkout Layout
 * Configuration
  * General Configuration
  * Display Configuration
@@ -116,11 +116,13 @@ Login to Magento Admin, following our given guide below to complete One Step Che
 2.1.1. Address Information
 '''''''''''''''''''''''''''''''''''
 
-From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, choose **Address Information**. Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page. 
+From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, choose **Address Information**. Drag and drop tabs from **Disabled Fields** to **Enabled Fields** to have them appear on the checkout page. 
 
-Here, admin can configure **Required** by checking the right corner of each field, changing the frame length by dragging and dropping (length can be dragged: 25%, 50%, 100%), drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page:
+**Manage Field** is completely compatible with Mageplaza `Customer Attributes <https://www.mageplaza.com/magento-2-customer-attributes/>`_ và `Order attributes <https://www.mageplaza.com/magento-2-order-attributes/>`_ so that you can add preferred fields to the One step checkout page.
 
-.. image:: https://i.imgur.com/VDreW1S.gif
+Here, the admin can configure **Required** by checking the right corner of each field, changing the frame length by dragging and dropping (length can be dragged: 25%, 50%, 100%), drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page:
+
+.. image:: https://i.imgur.com/IuWLajV.png
 
 2.1.2. Shipping Method
 '''''''''''''''''''''''''''''''
@@ -129,7 +131,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
 - Please install Mageplaza Order Attributes to add more custom checkout fields.
 
-.. image:: https://i.imgur.com/VTNfGfS.gif
+.. image:: https://i.imgur.com/raJ8N7V.png
 
 
 
@@ -140,7 +142,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
 - Please install Mageplaza Order Attributes to add more custom checkout fields.
 
-.. image:: https://i.imgur.com/iuhXSlT.gif
+.. image:: https://i.imgur.com/F4kAvAM.png
 
 2.1.4. Order Summary
 '''''''''''''''''''''''''''''''
@@ -149,7 +151,7 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
 - Please install Mageplaza Order Attributes to add more custom checkout fields.
 
-.. image:: https://i.imgur.com/A8yV19E.gif
+.. image:: https://i.imgur.com/ZVdgyKK.png
 
 
 2.2. Configuration
@@ -160,7 +162,9 @@ Here, admin can configure **Required** by checking the right corner of each fiel
 
 * Open the ``Stores > Settings > Configuration > Mageplaza Extensions > One Step Checkout > General Configuration`` section:
 
-.. image:: https://i.imgur.com/3JXDvwI.png
+.. image:: https://i.imgur.com/nMdPZSh.png
+.. image:: https://i.imgur.com/X1U9buf.png
+.. image:: https://i.imgur.com/cs7ILsD.png
 
 * In the **Enable One Step Checkout** field: Select "Yes" to enable One Step Checkout extension.
 * In the **One Step Checkout Page Title** field: Enter the page title you want.
@@ -174,14 +178,17 @@ Here, admin can configure **Required** by checking the right corner of each fiel
   * Select “No (require login)”: Guest must login before checkout
 
 * In the **Auto-redirect to One Step Checkout page** field: Select "Yes" to turn this function on
-* In the **Show Billing Address** field: Select "Yes" to allow shipping items to a different address from billing address.
+* In the **Show Billing Address** field: Select "Yes" to allow shipping items to a different address from billing address. The system will then display another field: 
+  * **Billing Address and Shipping Address are the same” checked by default**: If you choose *Yes**, the checkbox will be automatically checked and collect address information according to the Shipping address. If the customer wants the Billing address information different from the Shipping address, then uncheck the checkbox and fill in the necessary information for the Billing address.
+
 * In the **Use Auto Suggestion Technology** field: Select one of the following options:
 
   * No: if you don't want to use auto-suggestion technology
   * Google: if you select **Google** option, when the customer fills address fields, it will suggest a list of full addresses.
 
     * In **Google API Key** field: Insert the Key. About how to get this key, you can refer `this guide <https://developers.google.com/maps/documentation/javascript/get-api-key>`_.
-    * In **Restrict the auto suggestion for a specific country** field: Select default country for Billing address and Shipping address.
+    * In **Restrict the auto suggestion for a specific country** field: Select one or multiple nations so that when filling address into the Shipping address fields, the Billing Address will automatically suggest based on the address from the selected country.
+
     
 * **Enable GeoIP**: GeoIP allows you to lookup the approximate location of an IP address. If store owners enable this function, when a customer comes to the checkout page, State, country, city and zip code will be automatically entered based on his current IP address. Ask customers fill less, they will buy yours more! You need install `GeoIP Mageplaza Extension to use this function.
 
@@ -199,10 +206,11 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * Open the **Display Configuration** section, and continue with following:
 
-.. image:: https://i.imgur.com/zxsKiy1.png
+.. image:: https://i.imgur.com/am9u5Cj.png
+.. image:: https://i.imgur.com/M4nGPCO.png
 
 * In the **Show Login Link** field: Set "Yes" to show the Login link which allows the customer to sign in. Leave "No" to disable this link. 
-* Show/Hide Footer/Header: Depending on each theme that the checkout page will or will not display the Header/Footer of that page.
+* **Show/Hide Footer/Header**: Depending on each theme that the checkout page will or will not display the Header/Footer of that page.
 
   * With themes which display, choose Yes in this section to make it also display in the One Step Checkout page and choose No to hide it
   
@@ -224,6 +232,8 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 .. image:: http://imgur.com/iQ0FOEW.gif
 
 * In the **Show Terms and Conditions** field: You can choose "No" to not display the *Terms and Conditions* OR select "YES" to display it in two different positions: **In Payment Area** and **In Review Area**.
+* **Enable Social Login On Checkout Page**: Choose "Yes" to allow customer to login via social media accounts. This feature is completely compatible with `Mageplaza Social Login <https://www.mageplaza.com/magento-2-social-login-extension/>`_.
+.. image:: https://i.imgur.com/OPq5KjS.png
 * In the **Show Check Out with Multiple Addresses Link** field: You can choose "Yes" to display the *Check Out with Multiple Addresses Link* on the one page checkout step, so that customers can make payments with multiple addresses.
 
 .. image:: https://i.imgur.com/uExKF62.png
@@ -323,15 +333,15 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 * Flat Design style. If you choose this, you can customize colors of
  
-  * Heading Background
-  * Heading Text      
+  * **Heading Background Color**
+  * **Heading Text Color**    
 
 .. image:: https://i.imgur.com/DhWMdR4.png 
 
 * Material Design style: If you choose this style, you’ll be able to change
 
-  * Radio Button
-  * Checkbox button
+  * Radio Button Style
+  * Checkbox Button Style
   * Material color
   
 .. image:: https://i.imgur.com/kAfq91y.png  
@@ -349,11 +359,15 @@ Make your way to ``MStores > Settings > Configuration > Mageplaza Extensions > O
 
 - Open the **Custom Fields Configuration** section, and continue with the following:
 
-.. image:: https://i.imgur.com/DghTZ5u.png
+.. image:: https://i.imgur.com/sY1BwuE.png
 
-- Add 3 default Custom Field with Custom Field 1 and 2 as Text, Custom Field 3 as Date:
+- Add 3 default Custom Fields with Custom Fields 1 and 2 as Text, Custom Field 3 as Date:
 
 .. image:: https://i.imgur.com/raBYXKd.png
+
+- Show in Customer Grid: Choose one or multiple options with these fields: Custom Field 1, Custom Field 2, Custom Field 3 to display on Customer Grid. This function helps admins catch up with their information in the above fields right when they navigate to the Customer Grid.
+
+.. image:: https://i.imgur.com/1h6P6YX.png
 
 2.3. Other configurations
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
