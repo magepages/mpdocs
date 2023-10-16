@@ -33,7 +33,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - **Enable for Customer Groups**: Only customers in the selected groups is used this extension
 - **Display Balance on Toplink**: Choose "Yes" so that the balance value of customers is displayed on the toplink
 - **Allow Refunding Orders to Credit Balance**: Choose "Yes" to display the text box filling the amount that the shop owner wants to refund the credit balance when the order is refunded
-- **Allow Refunding Store Credit Products**: Choose "Yes" so that customers can refund Store Credit Product.
+- **Allow Refunding  Products**: Choose "Yes" so that customers can refund  Product.
 
 #### 1.2. Spending Configuration
 
@@ -83,14 +83,14 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 2.2. Add New/Edit Form
 
-From the Admin Panel, go to `Marketing > Store Credit > Credit Transactions > Create New Transaction`
+From the Admin Panel, go to `Marketing >  > Credit Transactions > Create New Transaction`
 
 
 ![](https://i.imgur.com/qYCsYpg.png)
 
 - **Select Customer**
   - When you click on this item, the popup displays a list of all the customers in the store. Admins only select a customer in the list.
-  - The name of customers selected by admins in this section will be added to the credit into their `Store credit balance`
+  - The name of customers selected by admins in this section will be added to the credit into their ` balance`
   - If leaving this field blank, customer will have an error message
 
 - **Amount Note**
@@ -105,21 +105,21 @@ From the Admin Panel, go to `Marketing > Store Credit > Credit Transactions > Cr
   - This is the section for admins to fill out comments for themselves
   - The content filled in here will only be visible by admins
   
-### 3. Manage Store Credit at Admin Customer
+### 3. Manage  at Admin Customer
 
 ![](https://i.imgur.com/2vO7rCc.png)
 
-- Admins can manage Store Credit Balance, Transactions and Notification of customers by going to `Customer > Edit Customer > Store Credit`
+- Admins can manage  Balance, Transactions and Notification of customers by going to `Customer > Edit Customer > `
 - The Credit Information tab tells the administrators to know the total amount of Credit that customers has, and shows the status of the email receipt action when the balance update of the customers. Admins can also change the status of this action.
 - The Update Balance tab allows admins to change the balance by filling in the `Amount Change` field and adding a comment to the customers or admins. `Customer Note` will be displayed for customers.
 - The Transaction tab displays information about all of the transactions performed by customers: *ID, Title, Customer, Status, Action, Amount, Balance, Create Date*.
-- The Balance, Notification and Transaction information in the admin will sync with the customer's `Frontend My Account/My Store Credit`
+- The Balance, Notification and Transaction information in the admin will sync with the customer's `Frontend My Account/My `
 
 
-### 4. How to create a Store Credit Product
+### 4. How to create a  Product
 
-- To create a Store Credit Product,  admins need to access `Product > Catalog > Add New Product > Store Credit Product`
-- After filling in the basic information of Store Credit Product such as Name, SKU, Qty and Category, admins need to configure the following options:
+- To create a  Product,  admins need to access `Product > Catalog > Add New Product >  Product`
+- After filling in the basic information of  Product such as Name, SKU, Qty and Category, admins need to configure the following options:
 
 - **Allow Amount Range**:
   - Select "Yes" so that customers can change the `Amount of Credit` as their wish within the Amount `Range From - To` that admins have set.
@@ -138,7 +138,7 @@ From the Admin Panel, go to `Marketing > Store Credit > Credit Transactions > Cr
 
 ### 6. API
 
-Mageplaza's Store Credit Extension supports users to use **API** to make some requests such as getting customer information with store credit, get transaction, product, order, invoice, creditmemo data. Customers can also use store credit and admin can create transactions through API. 
+Mageplaza's  Extension supports users to use **API** to make some requests such as getting customer information with store credit, get transaction, product, order, invoice, creditmemo data. Customers can also use store credit and admin can create transactions through API. 
 
 - You can view the Rest Api request we support [here](https://documenter.getpostman.com/view/10589000/SzRxXqoi?version=latest).
 - See how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html#integration-tokens).
@@ -157,7 +157,7 @@ php bin/magento setup:static-content:deploy
 
 #### 7.2. How to use
 
-- Mageplaza's Store Credit Extension supports getting customer information and transactions, retrieving product information and using credits through GraphQL.
+- [Magento 2 Store Credit](https://www.mageplaza.com/magento-2-store-credit/) supports getting customer information and transactions, retrieving product information and using credits through GraphQL.
 - Note: To perform GraphQL queries in Magento you need to use Magento 2.3.x and return the site to developer mode.
 - Refer to the GraphQL requests we support [here](https://documenter.getpostman.com/view/10589000/SzRxXqok?version=latest).
 
