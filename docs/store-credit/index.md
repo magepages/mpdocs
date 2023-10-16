@@ -1,8 +1,8 @@
 # Store Credit
 ## Overview
-[Mageplaza Store Credit extension](https://www.mageplaza.com/magento-2-store-credit/) allows customers to recharge their store account with certain discounts/bonuses. All transactions will be stored and managed in My Account/Store Credit of Customer (Frontend) and in the admin. Credits are used to make purchases at the store. Admins can also use credit for customers when creating New Order. This extension provides admins credit products. Customers can purchase this product to add credit to the balance. In addition, admins can refund customer orders in store credit to customer accounts in your store instead of returns and customers will be able to use it for future purchases. Customers can see the balance on the toplink, see the usage history and receive an email when the balance is updated. This extension encourages shoppers to purchase and increase the performance of the payment on your website. Through this module, you can increase the number of customers and their satisfaction.
+[Mageplaza Store Credit extension](https://www.mageplaza.com/magento-2-store-credit/) allows customers to recharge their store account with certain discounts/bonuses. All transactions will be stored and managed in My Account/Store Credit of Customer (Frontend) and in the admin. Credits are used to make purchases at the store. Admins can also use credit for customers when creating New Order. This extension provides admins credit products. Customers can purchase this product to add credit to the balance. In addition, admins can refund buyer orders in consumer credit to their accounts in your store instead of returns, and customers will be able to use it for future purchases. Customers can see the balance on the toplink, see the usage history and receive an email when the balance is updated. This extension encourages shoppers to purchase and increase the performance of the payment on your website. Through this module, you can increase the number of customers and their satisfaction.
 
-Mageplaza Store Credit extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and [SMTP](https://www.mageplaza.com/magento-2-smtp/).
+The extension is fully compatible with [Mageplaza One Step Checkout](https://www.mageplaza.com/magento-2-one-step-checkout-extension/) and [SMTP](https://www.mageplaza.com/magento-2-smtp/).
 
 ## How to use
 - Thanks to this extension, customes can perform some actions:
@@ -10,7 +10,7 @@ Mageplaza Store Credit extension is fully compatible with [Mageplaza One Step Ch
   
   ![](https://i.imgur.com/ydiUuAM.png)
   
-  - Purchase Store Credit Product
+  - Purchase Credit Product
   
   ![](https://i.imgur.com/ICmJcP4.png)
   
@@ -33,7 +33,7 @@ From the Admin Panel, go to `Marketing > Store Credit`
 - **Enable for Customer Groups**: Only customers in the selected groups is used this extension
 - **Display Balance on Toplink**: Choose "Yes" so that the balance value of customers is displayed on the toplink
 - **Allow Refunding Orders to Credit Balance**: Choose "Yes" to display the text box filling the amount that the shop owner wants to refund the credit balance when the order is refunded
-- **Allow Refunding  Products**: Choose "Yes" so that customers can refund  Product.
+- **Allow Refunding Store Credit Products**: Choose "Yes" so that customers can refund Brand Credit Products.
 
 #### 1.2. Spending Configuration
 
@@ -83,15 +83,15 @@ From the Admin Panel, go to `Marketing > Store Credit`
 
 #### 2.2. Add New/Edit Form
 
-From the Admin Panel, go to `Marketing >  > Credit Transactions > Create New Transaction`
+From the Admin Panel, go to `Marketing > Store Credit > Credit Transactions > Create New Transaction`
 
 
 ![](https://i.imgur.com/qYCsYpg.png)
 
 - **Select Customer**
   - When you click on this item, the popup displays a list of all the customers in the store. Admins only select a customer in the list.
-  - The name of customers selected by admins in this section will be added to the credit into their ` balance`
-  - If leaving this field blank, customer will have an error message
+  - The name of customers selected by admins in this section will be added to the credit into their `Store Credit balance`
+  - If leaving this field blank, the customer will have an error message
 
 - **Amount Note**
   - The number that is filled in this section is the credit number added to customers
@@ -105,24 +105,24 @@ From the Admin Panel, go to `Marketing >  > Credit Transactions > Create New Tra
   - This is the section for admins to fill out comments for themselves
   - The content filled in here will only be visible by admins
   
-### 3. Manage  at Admin Customer
+### 3. Manage Store Credit at Admin Customer
 
 ![](https://i.imgur.com/2vO7rCc.png)
 
-- Admins can manage  Balance, Transactions and Notification of customers by going to `Customer > Edit Customer > `
+- Admins can manage the Credit Balance of their stores, Transactions, and Notifications of customers by going to `Customer > Edit Customer > Store Credit`.
 - The Credit Information tab tells the administrators to know the total amount of Credit that customers has, and shows the status of the email receipt action when the balance update of the customers. Admins can also change the status of this action.
 - The Update Balance tab allows admins to change the balance by filling in the `Amount Change` field and adding a comment to the customers or admins. `Customer Note` will be displayed for customers.
 - The Transaction tab displays information about all of the transactions performed by customers: *ID, Title, Customer, Status, Action, Amount, Balance, Create Date*.
-- The Balance, Notification and Transaction information in the admin will sync with the customer's `Frontend My Account/My `
+- The Balance, Notification and Transaction information in the admin will sync with the customer's `Frontend My Account/My Store Credit`
 
 
-### 4. How to create a  Product
+### 4. How to Create a Credit Product
 
-- To create a  Product,  admins need to access `Product > Catalog > Add New Product >  Product`
-- After filling in the basic information of  Product such as Name, SKU, Qty and Category, admins need to configure the following options:
+- To create a Credit Product for the store,  admins need to access `Product > Catalog > Add New Product > Store Credit Product`
+- After filling in the basic information of the product, such as Name, SKU, Qty, and Category, admins need to configure the following options:
 
 - **Allow Amount Range**:
-  - Select "Yes" so that customers can change the `Amount of Credit` as their wish within the Amount `Range From - To` that admins have set.
+  - Select "Yes" so that customers can change the `Amount of Credit` as they wish within the Amount `Range From - To` that admins have set.
   
   ![](https://i.imgur.com/MUhqhko.png)
   
@@ -138,7 +138,7 @@ From the Admin Panel, go to `Marketing >  > Credit Transactions > Create New Tra
 
 ### 6. API
 
-Mageplaza's  Extension supports users to use **API** to make some requests such as getting customer information with store credit, get transaction, product, order, invoice, creditmemo data. Customers can also use store credit and admin can create transactions through API. 
+Our Extension supports users to use **API** to make some requests, such as getting customer information with consumer credit, transactions, products, orders, invoices, and credit data. Thanks to API, customers can also use the credit from the store, and admins can create transactions easily.
 
 - You can view the Rest Api request we support [here](https://documenter.getpostman.com/view/10589000/SzRxXqoi?version=latest).
 - See how to create token-based authentication [here](https://devdocs.magento.com/guides/v2.3/get-started/authentication/gs-authentication-token.html#integration-tokens).
