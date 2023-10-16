@@ -1,9 +1,10 @@
 
-Magento 2 Layered Navigation extension is the advanced sitemap you can show on online store. It includes full of product attributes your customer need to filter the desired items and purchase them quickly. Especially, integrating Ajax technology allow showing all search results instantly on the current page without reloading the whole page.
+`Magento 2 Layered Navigation <https://www.mageplaza.com/magento-2-layered-navigation/>`_ extension is the advanced sitemap you can show on online store. It includes full of product attributes your customer need to filter the desired items and purchase them quickly. Especially, integrating Ajax technology allow showing all search results instantly on the current page without reloading the whole page.
 
 Mageplaza Layered Navigation's User Guide will provide the detailed instructions to know **How to use** on the frontend and **How to Configure** on the backend.
 
 .. _Magento 2 Layered Navigation: https://www.mageplaza.com/magento-2-layered-navigation-extension/
+
 
 How to Use
 -------------
@@ -62,7 +63,7 @@ For example: Select Price in the Jacket category, on the front end, Price will n
 
 .. image:: https://i.imgur.com/KhgJAwY.png
 
-Note: To apply the filter attributes, you have to turn Anchor to Yes. See guide [here](https://docs.google.com/document/d/1ukn2zCIFkJGnsJI8gRq7BtGMcLPy-yJAvMiS86ksLls/edit).   
+Note: To apply the filter attributes, you have to turn Anchor to Yes. See guide  `here <https://docs.google.com/document/d/1ukn2zCIFkJGnsJI8gRq7BtGMcLPy-yJAvMiS86ksLls/edit>`_.
 
 5. Render Categories Tree
 ^^^^^^^^^^^^^^^
