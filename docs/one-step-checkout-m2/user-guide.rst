@@ -127,7 +127,7 @@ Here, the admin can configure **Required** by checking the right corner of each 
 2.1.2. Shipping Method
 '''''''''''''''''''''''''''''''
 
-- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Shipping Method**
+- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, choose **Shipping Method**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
 - Please install Mageplaza Order Attributes to add more custom checkout fields.
 
@@ -138,7 +138,7 @@ Here, the admin can configure **Required** by checking the right corner of each 
 2.1.3. Payment Method
 '''''''''''''''''''''''''''''''
 
-- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, chọn **Payment Method**
+- From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, choose **Payment Method**
 - Drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page.
 - Please install Mageplaza Order Attributes to add more custom checkout fields.
 
