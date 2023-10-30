@@ -118,7 +118,7 @@ Login to Magento Admin, following our given guide below to complete One Step Che
 
 From the Admin Panel, go to `Stores > One Step Checkout > Manage Fields`, choose **Address Information**. Drag and drop tabs from **Disabled Fields** to **Enabled Fields** to have them appear on the checkout page. 
 
-**Manage Field** is completely compatible with Mageplaza `Customer Attributes <https://www.mageplaza.com/magento-2-customer-attributes/>`_ và `Order attributes <https://www.mageplaza.com/magento-2-order-attributes/>`_ so that you can add preferred fields to the One step checkout page.
+**Manage Field** is completely compatible with Mageplaza `Customer Attributes <https://www.mageplaza.com/magento-2-customer-attributes/>`_ and `Order attributes <https://www.mageplaza.com/magento-2-order-attributes/>`_ so that you can add preferred fields to the One step checkout page.
 
 Here, the admin can configure **Required** by checking the right corner of each field, changing the frame length by dragging and dropping (length can be dragged: 25%, 50%, 100%), drag and drop tabs from **Available** fields to **Sorted** fields to have them appeared in the checkout page:
 
