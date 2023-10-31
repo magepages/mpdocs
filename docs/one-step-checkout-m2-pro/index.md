@@ -1,4 +1,4 @@
-# One Step Checkout
+# One Step Checkout Professional
 
 One Step Checkout extension for Magento 2, developed by Mageplaza, is the best marketing tool that helps you to reduce your store abandonment cart, increase your conversion rate, and totally grow your store revenue. That extension helps customers checkout quickly and conveniently on one page with all six steps. Many outstanding plugins such as Ajax loading, Google address suggestion, Auto-update order information, Apply coupon on the checkout page, and Support multi-payment methods will improve your checkout page and make it more powerful and more effective.
 
