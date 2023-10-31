@@ -156,9 +156,9 @@ Furthermore, the Checkout Page Layout field supports customization and repositio
 
 ![General Configuration 1](https://i.imgur.com/E0TBipR.png)
 
-![General Configuration 2](link_image)
+![General Configuration 2](https://i.imgur.com/d0yM4jO.png)
 
-![General Configuration 3](link_image)
+![General Configuration 3](https://i.imgur.com/pBejtN5.png)
 
 - In the **Enable One Step Checkout** field: Select “Yes” to enable One Step Checkout extension.
 - In the **One Step Checkout Page Title** field: Enter the page title you want.
