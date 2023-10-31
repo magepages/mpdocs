@@ -19,6 +19,8 @@ Welcome to Mageplaza Docs
    :caption: User Guide
    
    one-step-checkout-m2/index
+   one-step-checkout-m2-pro/index
+   one-step-checkout-m2-ultimate/index
    layered-navigation-m2/index
    layered-navigation-pro/index
    layered-navigation-ultimate/index
