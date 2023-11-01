@@ -37,7 +37,7 @@ sys.path.append(os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
-    'recommonmark'
+    'myst_parser'
     # 'sphinx_http_domain',
     # 'djangodocs',
 ]
@@ -47,9 +47,9 @@ templates_path = ['_templates']
 
 # The suffix of source filenames.
 source_suffix = ['.rst', '.md']
-source_parsers = {
-    '.md': CommonMarkParser,
-}
+# source_parsers = {
+#     '.md': CommonMarkParser,
+# }
 
 # The encoding of source files.
 #source_encoding = 'utf-8-sig'
