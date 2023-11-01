@@ -14,7 +14,7 @@
 
 import sys
 import os
-from recommonmark.parser import CommonMarkParser
+# from recommonmark.parser import CommonMarkParser
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -37,6 +37,7 @@ sys.path.append(os.path.abspath('_ext'))
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
+    'recommonmark'
     # 'sphinx_http_domain',
     # 'djangodocs',
 ]
