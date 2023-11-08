@@ -52,6 +52,7 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
 .. image:: https://i.imgur.com/puwFlCG.gif
 
 * In the **Enable Business Information** field: Select "Yes to display information about your business in the search result. The system will then display more fields, including:
+
   * When you leave any field blank, the information for that field will not display.
   * You can test the code in the Page Source of the Homepage.
   * Business Name: Provide the name of your business to show in the Business Information section.
