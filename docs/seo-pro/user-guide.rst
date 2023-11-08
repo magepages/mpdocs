@@ -92,7 +92,7 @@ This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and 
 .. image:: https://i.imgur.com/Pj8WzTr.png
 
 
-.. image:: https://i.imgur.com/Q38lsXD.png
+.. image:: https://i.imgur.com/7lwWQmh.png
 
 * In the **Enable HTML Sitemap**: choose “Yes” if you want to enable HTML Sitemap. New related HTML Sitemap modules will be expanded automatically
 * In the **Enable Categories Sitemap**: choose “Yes” if you want to display all pages in categories.
@@ -121,6 +121,7 @@ This HTML sitemap configuration contains Categories Sitemap, Pages Sitemap, and 
 * In the **Enable Additional Links** field: if you have a tons of link which can’t be automatically inserted into HTML file, choose “Yes” to enable this permission.
 * In the **Additional Links** box: Paste additional links you want to add.
 * In the **Add Sitemap Link to Footer** field: choose “Yes” if you want to enable the advance HTML Sitemap in the footer of pages.
+* In the **Enable Search Field** field: Choose "Yes" to display the search field in HTML Sitemap.
 
 1.8. XML Sitemap
 -----
@@ -128,12 +129,19 @@ To use this function, you need to install `Mageplaza Sitemap extension <https://
 
 Right under the HTML Sitemap’s configuration is XML Sitemap’s settings
 
+.. image:: https://i.imgur.com/Ad2a5qU.png
+.. image:: https://i.imgur.com/LPbulad.png
+.. image:: https://i.imgur.com/2aOoKoN.png
 .. image:: https://i.imgur.com/CtlcZHQ.png
 
 XML Sitemap is a ``.xml`` map of your website and the map will show a list of the page that the visitors can access. Under the **XML Sitemap** section, you can:
 
 * Create `Homepage Optimization` when choosing "Yes"
-* In case you need additional links, it is required to set `Enable Additional Links` to "Yes"
+* In case you need additional links, it is required to set `Enable Additional Links` to "Yes". The system will then display more fields: 
+  * Additional Links: Insert one or several links to add to XML Sitemap. Remember to separate these links by lines. 
+  * Frequency: Choose the frequency for additional links.
+  * Priority: Enter the priority for addition links with the value from 0 to 1. The smaller the number, the higher the priority.
+
 
 1.9. Canonical URLs
 -----
@@ -208,7 +216,7 @@ It’s pretty easy to add/remove its content
 2.3 Actions
 -----
 
-.. image:: https://i.imgur.com/VpRSaln.jpg
+.. image:: https://i.imgur.com/oMeR3B3.png
 
 * In the **Meta Title Template** box: Enter the Meta Tile Template
 * In the **Meta Description Template** box: Enter the Meta Tile Template. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
