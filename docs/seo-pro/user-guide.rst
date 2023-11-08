@@ -220,7 +220,7 @@ It’s pretty easy to add/remove its content
 
 * In the **Meta Title Template** box: Enter the Meta Tile Template
 * In the **Meta Description Template** box: Enter the Meta Tile Template. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}, {{page_number}}``.
-* In the **Meta Keywords Template** field: Enter the Meta Keywords Template. It should be between 3-5 keywords. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
+* In the **Meta Keywords Template** field: Enter the Meta Keywords Template. It should be between 3-5 keywords. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}, {{page_number}}``.
 * In the **Robot Template** field: Select Robots Template from one of the options to set the index permission for search engine’s robots:
   * Index, Follow
   * NoIndex, Follow
