@@ -30,16 +30,16 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
 
 .. image:: https://i.imgur.com/5fqHgqY.png
 
-1.3. Structure Data
+1.3. Structured Data
 -----
 
-.. image:: https://i.imgur.com/5kNGITM.png
+.. image:: https://i.imgur.com/Wl8JHfM.png 
 
 * In the **Enable Product Structured Data** field:
   
   * Select "Yes" to display the basic information of products when they are searched by search engines.
   * By this intuitive design, Product Structured Data will increase click through rate (CTR) drastically. Thus, products from your store will be ranked higher on search results.
-  * You can check Product Structure Data at the Page Source of Product Detail Page. Structure Data will mirror exactly as the basic information of that product.
+  * You can check Product Structured Data at the Page Source of Product Detail Page. Structured Data will mirror exactly as the basic information of that product.
 
 * In the **Enable Sitelinks Searchbox** field:
   
@@ -51,14 +51,20 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
 
 .. image:: https://i.imgur.com/puwFlCG.gif
 
-* In the **Enable Bussiness Information** field: Select "Yes to display information about your business in the search result.
-* When you leave any field blank, the information for that field will not display.
-* You can test the code in Page Source of Homepage.
+* In the **Enable Business Information** field: Select "Yes to display information about your business in the search result. The system will then display more fields, including:
+  * When you leave any field blank, the information for that field will not display.
+  * You can test the code in the Page Source of the Homepage.
+  * Business Name: Provide the name of your business to show in the Business Information section.
+  * Business Type: Choose a suitable option for your main business type.
+  * Enter some of your business's contact information like Customer Service Phone, Customer Service Contact Option, Customer Service Area Serve, Technical Support Phone, Technical Support Contact Option, Technical Support Area Serve, Sales Service Phone, Sales Contact Option, and Sales Area Serve.
+  * Image: Add an image for your business logo.
+  * Image URL: Insert one or several image links to display for your business.
+  * Then, provide some information about your business, including Street Address, City, State/Province, Zip/Postal Code, Email, Fax, Price Range, Description.
 
 1.5. Social Profiles 
 -----
 
-.. image:: https://i.imgur.com/35Y5jdw.png
+.. image:: https://i.imgur.com/kxwmBlr.png
 
 * You can paste your social addresses in here. Make sure that all the accounts have been verified.
 * Social Profile will display along with Business Information. If Business Information is not enabled, Social Profile won't display in search results.
@@ -87,17 +93,13 @@ For example with a product:
 * Go to ``Product > Catalog``, choose **Edit** a random one.
 * Choose ``PageSpeed Insight`` button at the header
 
-.. image:: https://i.imgur.com/c1fzUbm.png
+.. image:: https://i.imgur.com/RsleU1i.png
 
 * The page will be directed to PageSpeed Insight page for the check execution.
 
-.. image:: https://i.imgur.com/XxQlA6A.png
-
 * PageSpeed Insights will focus on 2 key issues: page loading speed and user friendliness. These factors comply with Google web optimization methods as well as automate adjustment process.
 
-.. image:: https://i.imgur.com/3z6z12E.png
-
-.. image:: https://i.imgur.com/xVmgvQ6.png
+.. image:: https://i.imgur.com/LwbRANa.png
 
 * Apply the same action with Category Page and CMS Page.
 
