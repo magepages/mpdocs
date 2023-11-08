@@ -63,13 +63,13 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
 1.5. Social Profiles 
 -----
 
-.. image:: https://i.imgur.com/35Y5jdw.png
+.. image:: https://i.imgur.com/2Ny4Cwx.png
 
 * You can paste your social addresses in here. Make sure that all the accounts have been verified.
 * Social Profile will display along with Business Information. If Business Information is not enabled, Social Profile won't display in search results.
 * You can leave unnecessary Social Profiles in blank status. 
 * When the searcher clicks on one of your social links, they will be redirected to that social page of your store.
-* You can test the code in Page Source of Homepage
+* You can test the code in the Page Source of the Homepage.
 
 1.6. Verifications
 -----
@@ -219,7 +219,7 @@ It’s pretty easy to add/remove its content
 .. image:: https://i.imgur.com/oMeR3B3.png
 
 * In the **Meta Title Template** box: Enter the Meta Tile Template
-* In the **Meta Description Template** box: Enter the Meta Tile Template. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
+* In the **Meta Description Template** box: Enter the Meta Tile Template. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}, {{page_number}}``.
 * In the **Meta Keywords Template** field: Enter the Meta Keywords Template. It should be between 3-5 keywords. Use following syntax to add dynamic meta title: ``{{name}}, {{price}}, {{special_price}}``.
 * In the **Robot Template** field: Select Robots Template from one of the options to set the index permission for search engine’s robots:
   * Index, Follow
