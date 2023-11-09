@@ -320,7 +320,7 @@ For example with a product:
 
 * Apply the same action with Category Page and CMS Page.
 
-IV. MANAGE CROSSLINK
+IV. Manage Crosslinks
 ******
 
 4.1 How to create a new term
