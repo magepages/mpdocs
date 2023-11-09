@@ -320,7 +320,7 @@ For example with a product:
 
 * Apply the same action with Category Page and CMS Page.
 
-IV. SEO CROSSLINKS
+IV. MANAGE CROSSLINK
 ******
 
 4.1 How to create a new term
@@ -439,64 +439,7 @@ Follow ``Marketing > SEO > Manage Crosslinks``. A list of existed terms will app
 
 .. image:: https://i.imgur.com/WMNtoQ5.png
 
-
-V. Manage Crosslinks
-******
-Our crosslinks feature will work under customizable terms. In the other words, It will retrieve keywords and automatically place a pre-installed internal link that makes it’s possible to associate with other sales pages
-
-E.g Crosslinks will replace all appeared “Luma” words by an internal link. You won’t have to do all the syntax works manually which also can cut down the decorate content time. 
-
-.. image:: https://i.imgur.com/NDPODcN.jpg
-
-Please make sure that the Crosslink' genenal configuration in `Part 1.13 <https://docs.mageplaza.com/seo-ultimate/index.html#crosslinks>`_ has been enabled.
-
-5.1 How to create a new term
------
-To make a new term for your store, go to ``Marketing > SEO > Manage Crosslinks``.  Click red button Add new Term.
-
-.. image:: https://i.imgur.com/7sOB3no.jpg
-
-Fill up all the required information fields you wish to set up for your new term. Creating a new term’s form will be performed like this.
-
-.. image:: https://i.imgur.com/hNR5VQk.png
-
-* In the **Keyword** field (require information): Enter a new keyword you want to create.
-* In the **Enable** field: Set up the status for the term. Choose “Yes” if you want to apply for this term
-* In the **Link Alt/Title** field: This is for the short description for this keyword. This will be inserted into a title attribute. We suggest that you should add keywords that you want to boost your ranking in SERPs. *E.g: Buy iPhone in New York*
-* In the **Link Target** field: Target's attribute of the Internal link.
-  
-  * If you want to open a new tab, you should choose: *_blank (New tab)*
-  * If you want to open it in a popup box, choose *_self (Current tab)*
-  * If you want to open it in the current page, choose _top (Full body of the window)
-
-* In the **Link to** field: Define the form of address that Internal links refer to. There will be 3 kinds of form.
-  
-  * Custom Link:  URL's path will be put together with domain of this website. E.g: /iphone.html . This value does not include the domain name.
-  * Product stock keeping unit (SKU): Base on SKU link to the product URL. E.g: iphone
-  * Category ID: Base on ID link to the category URL. E.g: 23
-
-* In the **Store View** field: Choose store view(s) you want to apply the term.
-* In the **Apply for** field: Choose section you want to place crosslinks.
-
-  * Product Description
-  * Category Description
-  * Page Content
-
-
-* In the **Limit Number Of Links Per Page** field: Enter a value which limits the number of links per page. Default: 3.
-* In the **Direction** field: Specify direction which Crosslinks function will find and replace the keyword. Random or Top down will be good recommendation.
-* In the **Rel** field: The rel's attribute of Internal link. There are 2 options: Default or Nofollow.
-* In **Priority** field: Set up value for the priority of this keyword. Higher priority term will be applied first. 0 is the highest.
-
-5.2 How to edit/delete existed terms
------
-Follow ``Marketing > SEO > Manage Crosslinks``. A list of existed terms will appear. Select in the ``Action`` button to customize the term you want to edit/delete.
-
-.. image:: https://i.imgur.com/XH6foxj.jpg
-
-Click ``Save term`` after editing. 
-
-VI. SEO Checklist
+V. SEO Checklist
 ******
 SEO Checklist includes a list of the notifications: Success, Error, and Warning. Based on this status of the notification, you will know whether your store is optimized and ready for SEO or not. Follow ``Marketing > SEO: Checklist``
 
