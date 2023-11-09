@@ -28,7 +28,7 @@ Choose **Enable** = "Yes" to turn Mageplaza SEO on generally.
 
 1.2. Duplicate Content
 -----
-Filtering results (from layered navigation pages, etc) is the main cause of generating many similar URLs, and search crawlers assess them are all the same, in other words, it's called duplicate content. Therefore, you must have the assist from Canonical tags to reduce the duplication of content on the page, this is an onpage SEO tip to note obviously.
+Filtering results (from layered navigation pages, etc) is the main cause of generating many similar URLs, and search crawlers assess them are all the same, in other words, it's called duplicate content. Therefore, you must have assistance from Canonical tags to reduce the duplication of content on the page, this is an onpage SEO tip to note obviously.
 
 .. image:: https://i.imgur.com/KH3mlP6.png
 
@@ -43,7 +43,7 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
 1.3. Structure Data
 -----
 
-.. image:: hhttps://i.imgur.com/5bFO3UA.png
+.. image:: https://i.imgur.com/5bFO3UA.png
 
 * In the **Enable Product Structured Data** field:
 
@@ -66,7 +66,7 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
 1.4. Business Information
 -----
 
-.. image:: https://i.imgur.com/Z8pHso3.gifv
+.. image:: https://i.imgur.com/8XnDCEL.png
 
 * In the **Enable Business Information** field: Select "Yes" to display information about your business in the search result. The system will then display more fields:
 
@@ -78,6 +78,8 @@ Filtering results (from layered navigation pages, etc) is the main cause of gene
   * Image: Add an image for your business logo.
   * Image URL: Insert one or several image links to display for your business.
   * Then, provide some information about your business, including Street Address, City, State/Province, Zip/Postal Code, Email, Fax, Price Range, Description.
+
+.. image:: https://i.imgur.com/iZjx6u6.png
 
 * In the **Time Business** field: 
 
@@ -408,7 +410,7 @@ To import a new term for your store, go to ``Marketing > SEO > Manage Crosslinks
 
 **Step 3: Select File to Import**
 
-.. image:: 
+.. image:: https://i.imgur.com/RNjdyqH.png
 
 * In the Select File to Import section, click “Choose File” to select your block input file.
 * Note: If you select File Type = CSV , your input file must be a CSV file correctly.
