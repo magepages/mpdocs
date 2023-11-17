@@ -3,7 +3,7 @@
 
 **Store Switcher** will automatically guide international customers to the respective store, providing a language and currency that is appropriate for their country. Also, it brings more convenience for customers when they go shopping on your online store with great experiences. All are integrated into a new extension of Mageplaza. It's Store Switcher for Magento 2.
 
-In particular, with the support of Mageplaza's Geo IP extension, it will help you identify your customer's countries and then redirect customers to the relevant store views. This feature of Geo IP will improve the shopping experience of customers when they can purchase at the appropriate store views.
+In order to take full advantage of Store Switcher features, users need to install Mageplaza's Geo IP extension as well. The module will help you identify your customer's countries and then redirect customers to the relevant store views. This feature of Geo IP will improve the shopping experience of customers when they can purchase at the appropriate store views.
 
 ## Download and Install
 
@@ -101,24 +101,25 @@ From the Admin Panel, go to `Stores > Store Switcher > Manage Rules`, select `Ad
 
 ## Geo IP
 
+Note: To use all of Store Switcher features efficiently, users need to install Mageplaza's Geo IP extension as well. You can install it via composer with the following command: 
+
+```
+composer require mageplaza/module-geoip
+php bin/magento setup:upgrade
+php bin/magento setup:static-content:deploy
+```
+
 From the Admin Panel, go to `Stores > Store Switcher > Configuration > Mageplaza Extension > Geo IP Configuration`, choose `Geo IP Configuration` section.
 
-![](https://i.imgur.com/fzEq0Kp.png)
+![](https://i.imgur.com/tykdjA6.png)
 
 - **Enable Geo IP**: Select "Yes" to enable the Geo IP feature that helps you identify the customer's country, and then redirect the customers to the relevant view store.
+
+- **License Key**:  Please create account and get license key here. Click button Generate new license key
+
+![](https://i.imgur.com/a7Qx9vp.png)
+
 - **Download Library** button: Click on **Download Library** button to download the library of `Geo IP`. Please download library before you enable.
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
